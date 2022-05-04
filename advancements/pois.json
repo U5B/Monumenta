@@ -1,4 +1,114 @@
 {
+  "Azacor's Mansion": {
+    "name": "Azacor's Mansion",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1308",
+      "y": "167",
+      "z": "299"
+    }
+  },
+  "Consecrated Grounds": {
+    "name": "Consecrated Grounds",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1400",
+      "y": "165",
+      "z": "40"
+    }
+  },
+  "Flooded Foyer": {
+    "name": "Flooded Foyer",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1418",
+      "y": "96",
+      "z": "138"
+    }
+  },
+  "Hallowed Hedges": {
+    "name": "Hallowed Hedges",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1237",
+      "y": "102",
+      "z": "-18"
+    }
+  },
+  "Igor's Laboratory": {
+    "name": "Igor's Laboratory",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1313",
+      "y": "130",
+      "z": "151"
+    }
+  },
+  "Mapleroot Town": {
+    "name": "Mapleroot Town",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1390",
+      "y": "117",
+      "z": "306"
+    }
+  },
+  "Nameless Ruins": {
+    "name": "Nameless Ruins",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1216",
+      "y": "102",
+      "z": "3"
+    }
+  },
+  "The Undergrowth": {
+    "name": "The Undergrowth",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1479",
+      "y": "96",
+      "z": "168"
+    }
+  },
+  "Weeping Wormwood": {
+    "name": "Weeping Wormwood",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1346",
+      "y": "128",
+      "z": "175"
+    }
+  },
+  "Whispering Woods": {
+    "name": "Whispering Woods",
+    "shard": "King's Valley",
+    "region": "Azacor's Grove",
+    "subregion": "",
+    "coordinates": {
+      "x": "1443",
+      "y": "150",
+      "z": "312"
+    }
+  },
   "Anthill": {
     "name": "Anthill",
     "shard": "King's Valley",
@@ -839,7 +949,7 @@
     "name": "Bandit Encampment",
     "shard": "Celsian Isles",
     "region": "Chillwind",
-    "subregion": "",
+    "subregion": "Crystalshroom Valley",
     "coordinates": {
       "x": "-1591",
       "y": "103",
@@ -850,7 +960,7 @@
     "name": "Crystal Forest Grove",
     "shard": "Celsian Isles",
     "region": "Chillwind",
-    "subregion": "",
+    "subregion": "Crystalshroom Valley",
     "coordinates": {
       "x": "-1726",
       "y": "105",
@@ -861,7 +971,7 @@
     "name": "Crystal Mines",
     "shard": "Celsian Isles",
     "region": "Chillwind",
-    "subregion": "",
+    "subregion": "Crystalshroom Valley",
     "coordinates": {
       "x": "-1581",
       "y": "111",
@@ -872,7 +982,7 @@
     "name": "Crystal Outpost",
     "shard": "Celsian Isles",
     "region": "Chillwind",
-    "subregion": "",
+    "subregion": "Crystalshroom Valley",
     "coordinates": {
       "x": "-1933",
       "y": "83",
@@ -883,7 +993,7 @@
     "name": "Igloos and You",
     "shard": "Celsian Isles",
     "region": "Chillwind",
-    "subregion": "",
+    "subregion": "Crystalshroom Valley",
     "coordinates": {
       "x": "-1704",
       "y": "112",
@@ -894,7 +1004,7 @@
     "name": "Irilyth",
     "shard": "Celsian Isles",
     "region": "Chillwind",
-    "subregion": "",
+    "subregion": "Crystalshroom Valley",
     "coordinates": {
       "x": "-1597",
       "y": "109",
@@ -1686,7 +1796,7 @@
     "name": "Bandit Hideaway Hill",
     "shard": "Celsian Isles",
     "region": "Ishnir",
-    "subregion": "",
+    "subregion": "Trade Route",
     "coordinates": {
       "x": "555",
       "y": "89",
@@ -1697,7 +1807,7 @@
     "name": "Crystal Haven",
     "shard": "Celsian Isles",
     "region": "Ishnir",
-    "subregion": "",
+    "subregion": "Trade Route",
     "coordinates": {
       "x": "493",
       "y": "100",
@@ -1708,7 +1818,7 @@
     "name": "Lost Sands City",
     "shard": "Celsian Isles",
     "region": "Ishnir",
-    "subregion": "",
+    "subregion": "Trade Route",
     "coordinates": {
       "x": "230",
       "y": "84",
@@ -1719,7 +1829,7 @@
     "name": "Mines of Duality",
     "shard": "Celsian Isles",
     "region": "Ishnir",
-    "subregion": "",
+    "subregion": "Trade Route",
     "coordinates": {
       "x": "491",
       "y": "114",
@@ -1730,7 +1840,7 @@
     "name": "Riverbank Camp",
     "shard": "Celsian Isles",
     "region": "Ishnir",
-    "subregion": "",
+    "subregion": "Trade Route",
     "coordinates": {
       "x": "354",
       "y": "92",
@@ -1741,7 +1851,7 @@
     "name": "Silverbrooke Outpost",
     "shard": "Celsian Isles",
     "region": "Ishnir",
-    "subregion": "",
+    "subregion": "Trade Route",
     "coordinates": {
       "x": "327",
       "y": "96",
@@ -1752,7 +1862,7 @@
     "name": "Warehouse Compound",
     "shard": "Celsian Isles",
     "region": "Ishnir",
-    "subregion": "",
+    "subregion": "Trade Route",
     "coordinates": {
       "x": "265",
       "y": "98",
@@ -1873,7 +1983,7 @@
     "name": "City of Bones",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-2049",
       "y": "102",
@@ -1884,7 +1994,7 @@
     "name": "Crystalline Vault",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-2149",
       "y": "58",
@@ -1895,7 +2005,7 @@
     "name": "Madman's Redoubt",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-2200",
       "y": "48",
@@ -1906,7 +2016,7 @@
     "name": "Magmortic Atheneum",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "508",
       "y": "28",
@@ -1917,7 +2027,7 @@
     "name": "Moltaria Palace",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "110",
       "y": "84",
@@ -1928,7 +2038,7 @@
     "name": "Rosebud Ruins",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-761",
       "y": "102",
@@ -1939,7 +2049,7 @@
     "name": "Sacrarium of Aeons",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-809",
       "y": "30",
@@ -1950,7 +2060,7 @@
     "name": "Shroom Spires",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-2019",
       "y": "84",
@@ -1961,7 +2071,7 @@
     "name": "Steelmeld Passage",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-433",
       "y": "14",
@@ -1972,7 +2082,7 @@
     "name": "Sunken Tomb",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-321",
       "y": "83",
@@ -1983,7 +2093,7 @@
     "name": "Vengeance of the Sea",
     "shard": "Celsian Isles",
     "region": "Ocean",
-    "subregion": "",
+    "subregion": "Ocean's Reach",
     "coordinates": {
       "x": "-1662",
       "y": "80",
