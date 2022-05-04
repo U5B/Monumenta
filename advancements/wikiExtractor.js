@@ -8,18 +8,18 @@ let advancements
 const regex = {
   coordinates: /^x=(-?\d{1,5}) y=(-?\d{1,5}) z=(-?\d{1,5})$/, // $1 = x, $2 = y, $3 = z
   poi: {
-    shard: /^monumenta:pois\/([0-9a-zA-Z\-_]+)\/root$/, // $1 = shard
-    region: /^monumenta:pois\/([0-9a-zA-Z\-_]+)\/([0-9a-zA-Z\-_]+)\/root$/, // $1 = shard, $2 = region
-    subregion: /^monumenta:pois\/([0-9a-zA-Z\-_]+)\/([0-9a-zA-Z\-_]+)\/([0-9a-zA-Z\-_]+)\/root$/, // $1 = shard, $2 = region, $3 = subregion
-    short: /^monumenta:pois\/([0-9a-zA-Z\-_]+)\/([0-9a-zA-Z\-_]+)\/((?!root)[0-9a-zA-Z\-_]+)$/, // $3 != root
-    long: /^monumenta:pois\/([0-9a-zA-Z\-_]+)\/([0-9a-zA-Z\-_]+)\/([0-9a-zA-Z\-_]+)\/((?!root)[0-9a-zA-Z\-_]+)$/ // $4 != root
+    shard: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/root$/, // $1 = shard
+    region: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/root$/, // $1 = shard, $2 = region
+    subregion: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/root$/, // $1 = shard, $2 = region, $3 = subregion
+    short: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/((?!root)[0-9a-zA-Z-_\.]+)$/, // $3 != root
+    long: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/((?!root)[0-9a-zA-Z-_\.]+)$/ // $4 != root
   },
   dungeon: {
-    path: /^monumenta:dungeons\/([0-9a-zA-Z\-_]+)\/find$/
+    path: /^monumenta:dungeons\/([0-9a-zA-Z-_\.]+)\/find$/
   }
 }
-const pois = {}
 const converter = {}
+const pois = {}
 const dungeons = {}
 
 async function fetchAdvancements () {
