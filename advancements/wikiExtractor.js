@@ -17,8 +17,10 @@ const regex = {
   dungeon: {
     path: /^monumenta:dungeons\/([0-9a-zA-Z-_.]+)\/find$/
   },
-  quests: {
-    quests: /^monumenta:quests\/root$/,
+  quest: {
+    path: /^monumenta:quests\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/, // $1 = region, $2 = quest
+    city: /^Discover the .+$/,
+    ignore: /^.+ Quests$/
   }
 }
 const converter = {}
@@ -51,7 +53,7 @@ function generate () {
   for (const advancement of Object.values(advancements)) {
     if (advancement.id.startsWith('monumenta:pois')) parseAdvancement(advancement, { type: 'poi' }) // parse pois
     else if (advancement.id.startsWith('monumenta:dungeons')) parseAdvancement(advancement, { type: 'dungeon' }) // parse dungeons
-    else if (advancement.id.startsWith('monumenta:quest'))
+    else if (advancement.id.startsWith('monumenta:quest')) parseAdvancement(advancement, { type: 'quest' })
   }
   console.log('[PARSER] Done.')
   console.log('[FILE] Writing POI data to file...')
@@ -102,19 +104,24 @@ function parseAdvancement (advancement, options = { type: '' }) {
   let description = display.description
   if (!title || !description) return
   if (!Array.isArray(description)) description = [description]
+  const option = { id, display, title, description }
   switch (options.type) {
     case 'poi': {
-      parsePoi(id, display, title, description)
+      parsePoi(option)
       break
     }
     case 'dungeon': {
-      parseDungeon(id, display, title, description)
+      parseDungeon(option)
+      break
+    }
+    case 'quest': {
+      parseQuest(option)
       break
     }
   }
 }
 
-function parsePoi (id, display, title, description) {
+function parsePoi ({ id, display, title, description }) {
   // check if advancement has a valid path
   const longPoi = regex.poi.long.test(id)
   const shortPoi = regex.poi.short.test(id)
@@ -140,7 +147,7 @@ function parsePoi (id, display, title, description) {
   }
 }
 
-function parseDungeon (id, display, title, description) {
+function parseDungeon ({ id, display, title, description }) {
   // pre checks
   if (!regex.dungeon.path.test(id)) return
 
@@ -161,8 +168,22 @@ function parseDungeon (id, display, title, description) {
   dungeons[data.name] = data // add data
 }
 
-function parseQuest () {
-
+function parseQuest ({ id, display, title, description }) {
+  // pre checks
+  if (regex.quest.ignore.test(title.trim())) return // ignore `xxx Quests`
+  if (regex.quest.city.test(description[0]?.text)) return
+  const data = { name: title.trim(), description: '', region: '' }
+  for (const line of description) { // get quest description
+    const text = cleanDescriptionLine(line.text)
+    if (text === '' || text == null || text === '\n') continue // skip empty lines
+    if (data.description === '') data.description = text
+    else data.description = `${data.description} ${text}`
+  }
+  if (regex.quest.path.test(id)) { // add region information
+    const [, region, quest] = regex.quest.path.exec(id)
+    data.region = converter[region].name
+  }
+  quests[data.name] = data
 }
 
 function parseCoordinates (text) {
