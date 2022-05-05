@@ -6,28 +6,33 @@ const fs = require('fs')
 
 let advancements
 const regex = {
-  converter: {
-    suffix: /^(.+) Exploration$/ // strip Exploration from end of string
-  },
   coordinates: /^x=(-?\d{1,5}) y=(-?\d{1,5}) z=(-?\d{1,5})$/, // $1 = x, $2 = y, $3 = z
   poi: {
     shard: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard
     region: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard, $2 = region
     subregion: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard, $2 = region, $3 = subregion
-    short: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $3 != root
-    long: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/ // $4 != root
+    short: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $3 != 'root'
+    long: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $4 != 'root'
+    suffix: /^(.+) Exploration$/ // ignore suffix Exploration from end of region
   },
   dungeon: {
-    path: /^monumenta:dungeons\/([0-9a-zA-Z-_.]+)\/find$/,
-    prefix: /^Found (.+)/
+    path: /^monumenta:dungeons\/([0-9a-zA-Z-_.]+)\/find$/, // dungeon path
+    prefix: /^Found (.+)/, // ignore prefix 'Found' in dungeon titles
   },
   quest: {
-    path: /^monumenta:quests\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/, // $1 = region, $2 = quest
+    path: /^monumenta:quests\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $1 = region, $2 = quest && $2 != 'root'
     city: /^Discover the (.+)$/,
-    ignore: /^(.+) Quests$/
+    ignore: /^(.+) Quests$/,
+  },
+  handbook: {
+    enchantments: /^monumenta:handbook\/enchantments\/([0-9a-zA-Z-_.]+)$/
   }
 }
-const converter = {}
+const converter = {
+  poi: {},
+  quest: {},
+  handbook: {},
+}
 const pois = {}
 const dungeons = {}
 const quests = {}
@@ -49,7 +54,9 @@ async function fetchAdvancements () {
 function generate () {
   console.log('[CONVERTER] Mapping paths to names...')
   for (const advancement of Object.values(advancements)) {
-    if (advancement.id.startsWith('monumenta:pois')) parsePath(advancement) // parse poi regions
+    if (advancement.id.startsWith('monumenta:pois')) convertPoi(advancement) // parse poi regions
+    else if (advancement.id.startsWith('monumenta:handbook')) convertHandbook(advancement)
+    // else if (advancement.id.startsWith('monumenta:quest')) convertQuest(advancement)
   }
   console.log('[CONVERTER] Done.')
 
@@ -68,7 +75,7 @@ function generate () {
   fs.writeFileSync('./quests.json', JSON.stringify(quests, null, 2))
 }
 
-function parsePath (advancement) {
+function convertPoi (advancement) {
   const id = advancement.id
   const data = advancement?.display
   let title = data.title.text
@@ -76,27 +83,47 @@ function parsePath (advancement) {
     // poi converter paths
     case regex.poi.shard.test(id): { // monumenta:pois/r1/root
       const [, region] = regex.poi.shard.exec(id)
-      if (!converter[region]) converter[region] = {}
-      title = title.replace(regex.converter.suffix, '$1') // remove Exploration at end of string
-      converter[region].name = title
+      if (!converter.poi[region]) converter.poi[region] = {}
+      title = title.replace(regex.poi.suffix, '$1') // remove Exploration at end of string
+      converter.poi[region].name = title
       break
     }
     case regex.poi.region.test(id): { // monumenta:pois/r1/jungle/root
       const [, region, subregion] = regex.poi.region.exec(id)
-      if (!converter[region]) converter[region] = {}
-      if (!converter[region][subregion]) converter[region][subregion] = {}
-      converter[region][subregion].name = title
+      if (!converter.poi[region]) converter.poi[region] = {}
+      if (!converter.poi[region][subregion]) converter.poi[region][subregion] = {}
+      converter.poi[region][subregion].name = title
       break
     }
     case regex.poi.subregion.test(id): { // monumenta:pois/r1/jungle/south/root
       const [, region, subregion, subsubregion] = regex.poi.subregion.exec(id)
-      if (!converter[region]) converter[region] = {}
-      if (!converter[region][subregion]) converter[region][subregion] = {}
-      if (!converter[region][subregion][subsubregion]) converter[region][subregion][subsubregion] = {}
-      converter[region][subregion][subsubregion].name = title
+      if (!converter.poi[region]) converter.poi[region] = {}
+      if (!converter.poi[region][subregion]) converter.poi[region][subregion] = {}
+      if (!converter.poi[region][subregion][subsubregion]) converter.poi[region][subregion][subsubregion] = {}
+      converter.poi[region][subregion][subsubregion].name = title
       break
-    }    
+    }
   }
+}
+
+function convertQuest (advancement) {
+  const id = advancement.id
+  const data = advancement?.display
+  let title = data.title
+  console.log(`${advancement.id} || ${advancement.parent}`)
+}
+
+function convertHandbook (advancement) {
+  const id = advancement.id
+  const data = advancement?.display
+  let title = data.title
+  let description = data.description
+  if (!title || !description) return
+  if (!Array.isArray(title)) title = [title]
+  if (!Array.isArray(description)) description = [description]
+
+  let titlePrint = joinText(title)
+  // console.log(`${advancement.id} || ${titlePrint}`)
 }
 
 function parseAdvancement (advancement, options = { type: '' }) {
@@ -105,10 +132,11 @@ function parseAdvancement (advancement, options = { type: '' }) {
 
   // null checking
   if (!display) return
-  const title = display.title.text
+  let title = display.title
   let description = display.description
   if (!title || !description) return
-  if (!Array.isArray(description)) description = [description]
+  if (!Array.isArray(title)) title = [title] // titles can have multiple lines
+  if (!Array.isArray(description)) description = [description] // description can have multiple lines
   const option = { id, display, title, description }
   switch (options.type) {
     case 'poi': {
@@ -127,32 +155,33 @@ function parseAdvancement (advancement, options = { type: '' }) {
 }
 
 function parsePoi ({ id, display, title, description }) {
+  title = joinText(title) // make title into one line
   // check if advancement has a valid path
   const longPoi = regex.poi.long.test(id)
   const shortPoi = regex.poi.short.test(id)
   if ((longPoi || shortPoi) === false) return
   // POIs can sometimes not have coordinates
   if (!description[3]?.text) console.error(`[POI] '${title}' missing coordinates | advancement: '${id}'`)
-
   // generate poi information
   const data = { name: title.trim(), shard: '', region: '', subregion: '', coordinates: { x: '0', y: '0', z: '0' } }
   if (longPoi) { // monumenta:pois/r1/jungle/south/poi1
     const [, shard, region, subregion] = regex.poi.long.exec(id)
-    data.shard = converter[shard].name
-    data.region = converter[shard][region].name
-    data.subregion = converter[shard][region][subregion].name
+    data.shard = converter.poi[shard].name
+    data.region = converter.poi[shard][region].name
+    data.subregion = converter.poi[shard][region][subregion].name
     data.coordinates = parseCoordinates(description[3]?.text)
     pois[data.name] = data // add data
   } else if (shortPoi) { // monumenta:pois/r1/jungle/poi1
     const [, shard, region] = regex.poi.short.exec(id)
-    data.shard = converter[shard].name
-    data.region = converter[shard][region].name
+    data.shard = converter.poi[shard].name
+    data.region = converter.poi[shard][region].name
     data.coordinates = parseCoordinates(description[3]?.text)
     pois[data.name] = data // add data
   }
 }
 
 function parseDungeon ({ id, display, title, description }) {
+  title = joinText(title) // make title into one line
   // pre checks
   if (!regex.dungeon.path.test(id)) return
 
@@ -174,31 +203,41 @@ function parseDungeon ({ id, display, title, description }) {
 }
 
 function parseQuest ({ id, display, title, description }) {
+  title = joinText(title) // make title into one line
   // pre checks
   if (regex.quest.ignore.test(title.trim())) return // ignore `xxx Quests`
   if (regex.quest.city.test(description[0]?.text)) return
+
   const data = { name: title.trim(), description: '', region: '' }
-  for (const line of description) { // get quest description
-    const text = cleanDescriptionLine(line.text)
-    if (text === '' || text == null || text === '\n') continue // skip empty lines
-    if (data.description === '') data.description = text
-    else data.description = `${data.description} ${text}`
-  }
+  data.description = joinText(description) // make description into one line
   if (regex.quest.path.test(id)) { // add region information
     const [, region, quest] = regex.quest.path.exec(id)
-    data.region = converter[region].name
+    data.region = converter.poi[region].name // use POI mapping
   }
-  quests[data.name] = data
+  quests[data.name] = data // add data
 }
 
-function parseCoordinates (text) {
+function parseCoordinates (text = '') {
   if (!text) return null
   if (!regex.coordinates.test(text)) return null
   const [, x, y, z] = regex.coordinates.exec(text)
   return { x, y, z }
 }
 
-function cleanDescriptionLine (text) {
+function joinText (text = []) {
+  if (!text) return null
+  if (!Array.isArray(text)) text = [text]
+  let output = ''
+  for (const line of text) { // title
+    const text = cleanDescriptionLine(line.text)
+    if (text === '' || text == null || text === '\n') continue // skip empty lines
+    if (output === '') output = text
+    else output = `${output} ${text}`
+  }
+  return output
+}
+
+function cleanDescriptionLine (text = '') {
   if (!text) return null
   return String(text)
     .replaceAll('\n', '') // clean new lines
