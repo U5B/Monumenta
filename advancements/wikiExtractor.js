@@ -8,43 +8,58 @@ let advancements
 const regex = {
   coordinates: /^x=(-?\d{1,5}) y=(-?\d{1,5}) z=(-?\d{1,5})$/, // $1 = x, $2 = y, $3 = z
   poi: {
-    shard: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/root$/, // $1 = shard
-    region: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/root$/, // $1 = shard, $2 = region
-    subregion: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/root$/, // $1 = shard, $2 = region, $3 = subregion
-    short: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/((?!root)[0-9a-zA-Z-_\.]+)$/, // $3 != root
-    long: /^monumenta:pois\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/([0-9a-zA-Z-_\.]+)\/((?!root)[0-9a-zA-Z-_\.]+)$/ // $4 != root
+    shard: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard
+    region: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard, $2 = region
+    subregion: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard, $2 = region, $3 = subregion
+    short: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $3 != root
+    long: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/ // $4 != root
   },
   dungeon: {
-    path: /^monumenta:dungeons\/([0-9a-zA-Z-_\.]+)\/find$/
+    path: /^monumenta:dungeons\/([0-9a-zA-Z-_.]+)\/find$/
+  },
+  quests: {
+    quests: /^monumenta:quests\/root$/,
   }
 }
 const converter = {}
 const pois = {}
 const dungeons = {}
+const quests = {}
 
 async function fetchAdvancements () {
   if (fs.existsSync('./advancement.json')) {
+    console.log('[FILE] Loading advancements from existing file...')
     advancements = require('./advancement.json')
     return
   }
+  console.log('[API] Fetching advancements from Monumenta API')
   const response = await axios.get('https://api.playmonumenta.com/advancements')
   if (response.status !== 200) throw Error(`Monumenta API returned: ${response.status} with ${response.statusText}`)
   advancements = response.data
-  console.log('Writing API Data to file...')
+  console.log('[FILE] Writing advancements to file...')
   fs.writeFileSync('./advancement.json', JSON.stringify(advancements, null, 2))
 }
-function generatePois () {
+
+function generate () {
+  console.log('[CONVERTER] Mapping paths to names...')
   for (const advancement of Object.values(advancements)) {
     if (advancement.id.startsWith('monumenta:pois')) parsePath(advancement) // parse poi regions
   }
+  console.log('[CONVERTER] Done.')
+
+  console.log('[PARSER] Parsing POI & Advancement data...')
   for (const advancement of Object.values(advancements)) {
-    if (advancement.id.startsWith('monumenta:pois')) verifyAdvancement(advancement, { type: 'poi' }) // parse pois
-    else if (advancement.id.startsWith('monumenta:dungeons')) verifyAdvancement(advancement, { type: 'dungeon' }) // parse dungeons
+    if (advancement.id.startsWith('monumenta:pois')) parseAdvancement(advancement, { type: 'poi' }) // parse pois
+    else if (advancement.id.startsWith('monumenta:dungeons')) parseAdvancement(advancement, { type: 'dungeon' }) // parse dungeons
+    else if (advancement.id.startsWith('monumenta:quest'))
   }
-  console.log('Writing POI information to file...')
+  console.log('[PARSER] Done.')
+  console.log('[FILE] Writing POI data to file...')
   fs.writeFileSync('./pois.json', JSON.stringify(pois, null, 2))
-  console.log('Writing Dungeon information to file...')
+  console.log('[FILE] Writing Dungeon data to file...')
   fs.writeFileSync('./dungeons.json', JSON.stringify(dungeons, null, 2))
+  console.log('[FILE] Writing Quest data to file...')
+  fs.writeFileSync('./quests.json', JSON.stringify(quests, null, 2))
 }
 
 function parsePath (advancement) {
@@ -57,7 +72,6 @@ function parsePath (advancement) {
       if (!converter[region]) converter[region] = {}
       title = title.replace(' Exploration', '') // remove Exploration at end of string
       converter[region].name = title
-      console.log(`[CONVERTER] ${region}: ${title}`)
       break
     }
     case regex.poi.region.test(id): { // monumenta:pois/r1/jungle/root
@@ -65,7 +79,6 @@ function parsePath (advancement) {
       if (!converter[region]) converter[region] = {}
       if (!converter[region][subregion]) converter[region][subregion] = {}
       converter[region][subregion].name = title
-      console.log(`[CONVERTER] ${subregion}: ${title}`)
       break
     }
     case regex.poi.subregion.test(id): { // monumenta:pois/r1/jungle/south/root
@@ -74,12 +87,12 @@ function parsePath (advancement) {
       if (!converter[region][subregion]) converter[region][subregion] = {}
       if (!converter[region][subregion][subsubregion]) converter[region][subregion][subsubregion] = {}
       converter[region][subregion][subsubregion].name = title
-      console.log(`[CONVERTER] ${subsubregion}: ${title}`)
       break
     }
   }
 }
-function verifyAdvancement (advancement, options = { type: '' }) {
+
+function parseAdvancement (advancement, options = { type: '' }) {
   const id = advancement.id
   const display = advancement?.display
 
@@ -100,25 +113,26 @@ function verifyAdvancement (advancement, options = { type: '' }) {
     }
   }
 }
+
 function parsePoi (id, display, title, description) {
   // check if advancement has a valid path
   const longPoi = regex.poi.long.test(id)
   const shortPoi = regex.poi.short.test(id)
   if ((longPoi || shortPoi) === false) return
   // POIs can sometimes not have coordinates
-  if (!description[3]?.text) return console.error(`[POI] '${title}' missing coordinates | advancement: '${id}'`)
+  if (!description[3]?.text) console.error(`[POI] '${title}' missing coordinates | advancement: '${id}'`)
 
   // generate poi information
   const data = { name: title.trim(), shard: '', region: '', subregion: '', coordinates: { x: '0', y: '0', z: '0' } }
   if (longPoi) { // monumenta:pois/r1/jungle/south/poi1
-    const [, shard, region, subregion, poi] = regex.poi.long.exec(id)
-    data.shard = converter[shard].name 
+    const [, shard, region, subregion] = regex.poi.long.exec(id)
+    data.shard = converter[shard].name
     data.region = converter[shard][region].name
     data.subregion = converter[shard][region][subregion].name
     data.coordinates = parseCoordinates(description[3]?.text)
     pois[data.name] = data // add data
   } else if (shortPoi) { // monumenta:pois/r1/jungle/poi1
-    const [, shard, region, poi] = regex.poi.short.exec(id)
+    const [, shard, region] = regex.poi.short.exec(id)
     data.shard = converter[shard].name
     data.region = converter[shard][region].name
     data.coordinates = parseCoordinates(description[3]?.text)
@@ -129,21 +143,26 @@ function parsePoi (id, display, title, description) {
 function parseDungeon (id, display, title, description) {
   // pre checks
   if (!regex.dungeon.path.test(id)) return
+
   // generate dungeon information
-  title = title.replace('Found ', '') // get rid of 'Found ' prefix
+  title = title.replace('Found ', '') // get rid of 'Found ' prefix on dungeon name
   const lines = {
     1: cleanDescriptionLine(description[0]?.text), // description of dungeon
     2: cleanDescriptionLine(description[1]?.text), // 'POI:' or 'Coordinates:'
-    3: cleanDescriptionLine(description[2]?.text)  // POI name or coordinates data
+    3: cleanDescriptionLine(description[2]?.text) // POI name or coordinates data
   }
   const data = { name: title.trim(), description: lines[1], poi: '', coordinates: { x: '0', y: '0', z: '0' } }
-  if (lines[2] === 'POI:') data.poi = lines[3] // hardcoding POI data (not good idea)
-  for (const line of description) { // actually parse each line like a chad
-    let text = cleanDescriptionLine(line.text)
-    if (text === '') continue // includes ''
+  if (lines[2] === 'POI:') data.poi = lines[3] // hardcoding POI data (not chad)
+  for (const line of description) { // check for coordinates in a loop (chad)
+    const text = cleanDescriptionLine(line.text)
+    if (text === '' || text == null) continue // skip empty lines
     if (regex.coordinates.test(text)) data.coordinates = parseCoordinates(text) // coordinates easy to parse
   }
-  dungeons[data.name] = data
+  dungeons[data.name] = data // add data
+}
+
+function parseQuest () {
+
 }
 
 function parseCoordinates (text) {
@@ -164,7 +183,7 @@ function cleanDescriptionLine (text) {
 async function run () {
   try {
     await fetchAdvancements()
-    generatePois()
+    generate()
   } catch (e) {
     console.error(e)
   }
