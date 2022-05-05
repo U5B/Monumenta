@@ -6,6 +6,9 @@ const fs = require('fs')
 
 let advancements
 const regex = {
+  converter: {
+    suffix: /^(.+) Exploration$/ // strip Exploration from end of string
+  },
   coordinates: /^x=(-?\d{1,5}) y=(-?\d{1,5}) z=(-?\d{1,5})$/, // $1 = x, $2 = y, $3 = z
   poi: {
     shard: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard
@@ -15,12 +18,13 @@ const regex = {
     long: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/ // $4 != root
   },
   dungeon: {
-    path: /^monumenta:dungeons\/([0-9a-zA-Z-_.]+)\/find$/
+    path: /^monumenta:dungeons\/([0-9a-zA-Z-_.]+)\/find$/,
+    prefix: /^Found (.+)/
   },
   quest: {
     path: /^monumenta:quests\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/, // $1 = region, $2 = quest
-    city: /^Discover the .+$/,
-    ignore: /^.+ Quests$/
+    city: /^Discover the (.+)$/,
+    ignore: /^(.+) Quests$/
   }
 }
 const converter = {}
@@ -67,12 +71,13 @@ function generate () {
 function parsePath (advancement) {
   const id = advancement.id
   const data = advancement?.display
-  let title = String(data.title.text)
-  switch (true) {
+  let title = data.title.text
+  switch (true) { 
+    // poi converter paths
     case regex.poi.shard.test(id): { // monumenta:pois/r1/root
       const [, region] = regex.poi.shard.exec(id)
       if (!converter[region]) converter[region] = {}
-      title = title.replace(' Exploration', '') // remove Exploration at end of string
+      title = title.replace(regex.converter.suffix, '$1') // remove Exploration at end of string
       converter[region].name = title
       break
     }
@@ -90,7 +95,7 @@ function parsePath (advancement) {
       if (!converter[region][subregion][subsubregion]) converter[region][subregion][subsubregion] = {}
       converter[region][subregion][subsubregion].name = title
       break
-    }
+    }    
   }
 }
 
@@ -152,7 +157,7 @@ function parseDungeon ({ id, display, title, description }) {
   if (!regex.dungeon.path.test(id)) return
 
   // generate dungeon information
-  title = title.replace('Found ', '') // get rid of 'Found ' prefix on dungeon name
+  title = title.replace(regex.dungeon.prefix, '$1') // get rid of 'Found ' prefix on dungeon name
   const lines = {
     1: cleanDescriptionLine(description[0]?.text), // description of dungeon
     2: cleanDescriptionLine(description[1]?.text), // 'POI:' or 'Coordinates:'
@@ -196,9 +201,9 @@ function parseCoordinates (text) {
 function cleanDescriptionLine (text) {
   if (!text) return null
   return String(text)
-    .replaceAll('\n', '')
-    .replaceAll(/&#\d+; /g, '')
-    .trim()
+    .replaceAll('\n', '') // clean new lines
+    .replaceAll(/&#\d+; /g, '') // clean color codes
+    .trim() // get rid of trailing whitespaces
 }
 
 async function run () {
