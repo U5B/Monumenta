@@ -17,12 +17,12 @@ const regex = {
   },
   dungeon: {
     path: /^monumenta:dungeons\/([0-9a-zA-Z-_.]+)\/find$/, // dungeon path
-    prefix: /^Found (.+)/, // ignore prefix 'Found' in dungeon titles
+    prefix: /^Found (.+)/ // ignore prefix 'Found' in dungeon titles
   },
   quest: {
     path: /^monumenta:quests\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $1 = region, $2 = quest && $2 != 'root'
     city: /^Discover the (.+)$/,
-    ignore: /^(.+) Quests$/,
+    ignore: /^(.+) Quests$/
   },
   handbook: {
     enchantments: /^monumenta:handbook\/enchantments\/([0-9a-zA-Z-_.]+)$/
@@ -31,7 +31,7 @@ const regex = {
 const converter = {
   poi: {},
   quest: {},
-  handbook: {},
+  handbook: {}
 }
 const pois = {}
 const dungeons = {}
@@ -79,7 +79,7 @@ function convertPoi (advancement) {
   const id = advancement.id
   const data = advancement?.display
   let title = data.title.text
-  switch (true) { 
+  switch (true) {
     // poi converter paths
     case regex.poi.shard.test(id): { // monumenta:pois/r1/root
       const [, region] = regex.poi.shard.exec(id)
@@ -109,7 +109,7 @@ function convertPoi (advancement) {
 function convertQuest (advancement) {
   const id = advancement.id
   const data = advancement?.display
-  let title = data.title
+  const title = data.title
   console.log(`${advancement.id} || ${advancement.parent}`)
 }
 
@@ -122,7 +122,7 @@ function convertHandbook (advancement) {
   if (!Array.isArray(title)) title = [title]
   if (!Array.isArray(description)) description = [description]
 
-  let titlePrint = joinText(title)
+  const titlePrint = joinText(title)
   // console.log(`${advancement.id} || ${titlePrint}`)
 }
 
