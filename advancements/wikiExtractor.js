@@ -13,7 +13,7 @@ const regex = {
     subregion: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard, $2 = region, $3 = subregion
     short: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $3 != 'root'
     long: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $4 != 'root'
-    suffix: /^(.+) Exploration$/ // ignore suffix Exploration from end of region
+    suffix: /^(.+) Exploration$/ // ignore suffix 'Exploration' from end of region
   },
   dungeon: {
     path: /^monumenta:dungeons\/([0-9a-zA-Z-_.]+)\/find$/, // dungeon path
@@ -21,11 +21,12 @@ const regex = {
   },
   quest: {
     path: /^monumenta:quests\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $1 = region, $2 = quest && $2 != 'root'
-    city: /^Discover the (.+)$/,
-    ignore: /^(.+) Quests$/
+    city: /^Discover the (.+)$/, // ignore prefix 'Discover the' fromcities
+    ignore: /^(.+) Quests$/,
   },
   handbook: {
-    enchantments: /^monumenta:handbook\/enchantments\/([0-9a-zA-Z-_.]+)$/
+    enchantments: /^monumenta:handbook\/enchantments\/([0-9a-zA-Z-_.]+)$/,
+    sites: /^monumenta:handbook\/important_sites\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/,
   }
 }
 const converter = {
@@ -58,8 +59,10 @@ function generate () {
     else if (advancement.id.startsWith('monumenta:handbook')) convertHandbook(advancement)
     // else if (advancement.id.startsWith('monumenta:quest')) convertQuest(advancement)
   }
+  for (const advancement of Object.values(advancements)) {
+    if (advancement.id.startsWith('monumenta:quest')) convertQuest(advancement)
+  }
   console.log('[CONVERTER] Done.')
-
   console.log('[PARSER] Parsing POI & Advancement data...')
   for (const advancement of Object.values(advancements)) {
     if (advancement.id.startsWith('monumenta:pois')) parseAdvancement(advancement, { type: 'poi' }) // parse pois
@@ -109,8 +112,21 @@ function convertPoi (advancement) {
 function convertQuest (advancement) {
   const id = advancement.id
   const data = advancement?.display
-  const title = data.title
-  console.log(`${advancement.id} || ${advancement.parent}`)
+  let title = data.title
+  let description = data.description
+  if (!title || !description) return
+  if (!Array.isArray(title)) title = [title]
+  if (!Array.isArray(description)) description = [description]
+
+  const titlePrint = joinText(title)
+  const descriptionPrint = joinText(description)
+  if (!regex.quest.path.test(id)) return
+  const [, region, quest] = regex.quest.path.exec(id)
+  if (!converter.quest[region]) converter.quest[region] = {}
+  if (!converter.quest[region][quest]) converter.quest[region][quest] = {}
+  if (!regex.quest.path.test(advancement.parent)) return
+  const [, preRegion, preQuest] = regex.quest.path.exec(advancement.parent)
+  converter.quest[quest] = preQuest
 }
 
 function convertHandbook (advancement) {
@@ -123,7 +139,18 @@ function convertHandbook (advancement) {
   if (!Array.isArray(description)) description = [description]
 
   const titlePrint = joinText(title)
-  // console.log(`${advancement.id} || ${titlePrint}`)
+  const descriptionPrint = joinText(description)
+  switch (true) { // monumenta:handbook/r1/site
+    case regex.handbook.sites.test(id): {
+      const [, region, site] = regex.handbook.sites.exec(id)
+      if (!converter.handbook[region]) converter.handbook[region] = {}
+      if (!converter.handbook[region][site]) converter.handbook[region][site] = {}
+      converter.handbook[region][site].name = titlePrint
+      converter.handbook[region][site].description = descriptionPrint
+      converter.handbook[region][site].list = []
+      break
+    }
+  }
 }
 
 function parseAdvancement (advancement, options = { type: '' }) {
@@ -137,7 +164,7 @@ function parseAdvancement (advancement, options = { type: '' }) {
   if (!title || !description) return
   if (!Array.isArray(title)) title = [title] // titles can have multiple lines
   if (!Array.isArray(description)) description = [description] // description can have multiple lines
-  const option = { id, display, title, description }
+  const option = { id, display, title, description, advancement }
   switch (options.type) {
     case 'poi': {
       parsePoi(option)
@@ -154,7 +181,7 @@ function parseAdvancement (advancement, options = { type: '' }) {
   }
 }
 
-function parsePoi ({ id, display, title, description }) {
+function parsePoi ({ id, display, title, description, advancement }) {
   title = joinText(title) // make title into one line
   // check if advancement has a valid path
   const longPoi = regex.poi.long.test(id)
@@ -170,17 +197,19 @@ function parsePoi ({ id, display, title, description }) {
     data.region = converter.poi[shard][region].name
     data.subregion = converter.poi[shard][region][subregion].name
     data.coordinates = parseCoordinates(description[3]?.text)
-    pois[data.name] = data // add data
+    if (!pois[data.name]) pois[data.name] = data // add data
+    else console.error(`[POI] '${title}' has duplicate name | advancement: '${id}'`)
   } else if (shortPoi) { // monumenta:pois/r1/jungle/poi1
     const [, shard, region] = regex.poi.short.exec(id)
     data.shard = converter.poi[shard].name
     data.region = converter.poi[shard][region].name
     data.coordinates = parseCoordinates(description[3]?.text)
-    pois[data.name] = data // add data
+    if (!pois[data.name]) pois[data.name] = data // add data
+    else console.error(`[POI] '${title}' has duplicate name | advancement: '${id}'`)
   }
 }
 
-function parseDungeon ({ id, display, title, description }) {
+function parseDungeon ({ id, display, title, description, advancement }) {
   title = joinText(title) // make title into one line
   // pre checks
   if (!regex.dungeon.path.test(id)) return
@@ -199,22 +228,41 @@ function parseDungeon ({ id, display, title, description }) {
     if (text === '' || text == null) continue // skip empty lines
     if (regex.coordinates.test(text)) data.coordinates = parseCoordinates(text) // coordinates easy to parse
   }
-  dungeons[data.name] = data // add data
+  if (!dungeons[data.name]) dungeons[data.name] = data // add data
+  else console.error(`[DUNGEON] '${title} has duplicate name | advancement: '${id}'`)
 }
 
-function parseQuest ({ id, display, title, description }) {
+function parseQuest ({ id, display, title, description, advancement }) {
   title = joinText(title) // make title into one line
   // pre checks
   if (regex.quest.ignore.test(title.trim())) return // ignore `xxx Quests`
   if (regex.quest.city.test(description[0]?.text)) return
 
-  const data = { name: title.trim(), description: '', region: '' }
+  const data = { name: title.trim(), description: '', region: '', city: '' }
   data.description = joinText(description) // make description into one line
   if (regex.quest.path.test(id)) { // add region information
     const [, region, quest] = regex.quest.path.exec(id)
     data.region = converter.poi[region].name // use POI mapping
+    const site = checkQuest(quest)
+    if (!site) {
+      data.city = null
+    } else {
+      data.city = converter.handbook[region][site].name
+    }
   }
-  quests[data.name] = data // add data
+  if (!quests[data.name]) quests[data.name] = data // add data
+  else console.error(`[QUEST] '${title}' has duplicate name | advancement: '${id}'`)
+}
+
+function checkQuest (questName) { // recursively check for quests
+  for (const [region, ] of Object.entries(converter.handbook)) {
+    for (const [id, quest] of Object.entries(converter.handbook[region])) {
+      if (questName === id) return id
+    }
+  }
+  if (!converter.quest[questName]) return null // quests that don't "technically" have a city associated with them
+  const value = checkQuest(converter.quest[questName])
+  return value
 }
 
 function parseCoordinates (text = '') {
