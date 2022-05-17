@@ -70,12 +70,16 @@ function generate () {
     else if (advancement.id.startsWith('monumenta:quest')) parseAdvancement(advancement, { type: 'quest' })
   }
   console.log('[PARSER] Done.')
+  console.log('[FILE] Creating output directory...')
+  if (!fs.existsSync('./out')) fs.mkdirSync('./out')
   console.log('[FILE] Writing POI data to file...')
-  fs.writeFileSync('./pois.json', JSON.stringify(pois, null, 2))
+  fs.writeFileSync('./out/pois.json', JSON.stringify(pois, null, 2))
   console.log('[FILE] Writing Dungeon data to file...')
-  fs.writeFileSync('./dungeons.json', JSON.stringify(dungeons, null, 2))
+  fs.writeFileSync('./out/dungeons.json', JSON.stringify(dungeons, null, 2))
   console.log('[FILE] Writing Quest data to file...')
-  fs.writeFileSync('./quests.json', JSON.stringify(quests, null, 2))
+  fs.writeFileSync('./out/quests.json', JSON.stringify(quests, null, 2))
+  console.log('[FILE] Writing converter data to file...')
+  fs.writeFileSync('./out/converter.json', JSON.stringify(converter, null, 2))
 }
 
 function convertPoi (advancement) {
@@ -122,8 +126,6 @@ function convertQuest (advancement) {
   const descriptionPrint = joinText(description)
   if (!regex.quest.path.test(id)) return
   const [, region, quest] = regex.quest.path.exec(id)
-  if (!converter.quest[region]) converter.quest[region] = {}
-  if (!converter.quest[region][quest]) converter.quest[region][quest] = {}
   if (!regex.quest.path.test(advancement.parent)) return
   const [, preRegion, preQuest] = regex.quest.path.exec(advancement.parent)
   converter.quest[quest] = preQuest
@@ -147,7 +149,6 @@ function convertHandbook (advancement) {
       if (!converter.handbook[region][site]) converter.handbook[region][site] = {}
       converter.handbook[region][site].name = titlePrint
       converter.handbook[region][site].description = descriptionPrint
-      converter.handbook[region][site].list = []
       break
     }
   }
