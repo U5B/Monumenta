@@ -203,6 +203,7 @@ function parsePoi ({ id, display, title, description, advancement }) {
     const [, shard, region] = regex.poi.short.exec(id)
     data.shard = converter.poi[shard].name
     data.region = converter.poi[shard][region].name
+    data.subregion = null
     data.coordinates = parseCoordinates(description[3]?.text)
     if (!pois[data.name]) pois[data.name] = data // add data
     else console.error(`[POI] '${title}' has duplicate name | advancement: '${id}'`)
@@ -222,8 +223,9 @@ function parseDungeon ({ id, display, title, description, advancement }) {
     3: cleanDescriptionLine(description[2]?.text) // POI name or coordinates data
   }
   const data = { name: title.trim(), description: lines[1], poi: '', coordinates: { x: '0', y: '0', z: '0' } }
-  if (lines[2] === 'POI:') data.poi = lines[3] // hardcoding POI data (not chad)
-  for (const line of description) { // check for coordinates in a loop (chad)
+  if (lines[2] === 'POI:') data.poi = lines[3] // hardcoding POI data (not good)
+  else data.poi = null
+  for (const line of description) { // check for coordinates in a loop (good)
     const text = cleanDescriptionLine(line.text)
     if (text === '' || text == null) continue // skip empty lines
     if (regex.coordinates.test(text)) data.coordinates = parseCoordinates(text) // coordinates easy to parse
@@ -254,14 +256,15 @@ function parseQuest ({ id, display, title, description, advancement }) {
   else console.error(`[QUEST] '${title}' has duplicate name | advancement: '${id}'`)
 }
 
-function checkQuest (questName) { // recursively check for quests
+function checkQuest (name = '') { // recursively check for quests
+  if (name === '') return null
   for (const [region, ] of Object.entries(converter.handbook)) {
     for (const [id, quest] of Object.entries(converter.handbook[region])) {
-      if (questName === id) return id
+      if (name === id) return id
     }
   }
-  if (!converter.quest[questName]) return null // quests that don't "technically" have a city associated with them
-  const value = checkQuest(converter.quest[questName])
+  if (!converter.quest[name]) return null // quests that don't "technically" have a city associated with them
+  const value = checkQuest(converter.quest[name])
   return value
 }
 
@@ -272,7 +275,7 @@ function parseCoordinates (text = '') {
   return { x, y, z }
 }
 
-function joinText (text = []) {
+function joinText (text = ['']) {
   if (!text) return null
   if (!Array.isArray(text)) text = [text]
   let output = ''
