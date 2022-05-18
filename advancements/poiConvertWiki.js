@@ -1,8 +1,13 @@
 const fs = require('fs')
 const pois = require('./out/pois.json')
-let lines = ['==List of Known POIs ==',
-'{|class"article-table sortable"', '!Name', '!Region', '!Sub-Region',
-'! colspan="3" | Coordinates', '|-']
+const lines = ['==List of Known POIs ==',
+  '{| class="sortable fandom-table"',
+  '!Name',
+  '!Region',
+  '!Sub-Region',
+  '! colspan="3" | Coordinates',
+  '|-'
+]
 
 for (const [name, poi] of Object.entries(pois)) {
   const poiName = `|[[${poi.name}]]`
@@ -24,12 +29,10 @@ for (const [name, poi] of Object.entries(pois)) {
   lines.push(y)
   const z = `|<nowiki>${poi.coordinates.z}</nowiki>`
   lines.push(z)
-  const seperator = `|-`
+  const seperator = '|-'
   lines.push(seperator)
 }
 lines.pop()
 lines.push('|}')
 const output = lines.join('\n')
-fs.writeFileSync('./test.txt', output)
-
-
+fs.writeFileSync('./poiTable.txt', output)
