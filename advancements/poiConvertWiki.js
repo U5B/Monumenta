@@ -13,9 +13,9 @@ for (const [name, poi] of Object.entries(pois)) {
   lines.push(subRegionName)
   if (poi.coordinates == null) {
     poi.coordinates = {
-      x: 0,
-      y: 0,
-      z: 0
+      x: null,
+      y: null,
+      z: null
     }
   }
   const x = `|<nowiki>${poi.coordinates.x}</nowiki>`
