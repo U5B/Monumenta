@@ -24,11 +24,11 @@ for (const [, poi] of Object.entries(pois)) {
       z: null
     }
   }
-  // <nowiki> tags are required to prevent the wiki parser from interpreting negative coordinates
-  const x = `<nowiki>${poi.coordinates.x}</nowiki>`
-  const y = `<nowiki>${poi.coordinates.y}</nowiki>, `
-  const z = `<nowiki>${poi.coordinates.z}</nowiki>`
-  const coordinates = `|(${x}, ${y} ${z})` // coordinates is one line for easy copying
+  //  tags are required to prevent the wiki parser from interpreting negative coordinates
+  const x = `${poi.coordinates.x}`
+  const y = `${poi.coordinates.y}`
+  const z = `${poi.coordinates.z}`
+  const coordinates = `|<nowiki>(${x}, ${y}, ${z})</nowiki>` // coordinates is one line for easy copying
   lines.push(coordinates)
   const seperator = '|-'
   lines.push(seperator)

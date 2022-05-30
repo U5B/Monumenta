@@ -229,7 +229,7 @@
     "woof50": "woof10",
     "xenophobia": "wizardsapprentice"
   },
-  "handbook": {
+  "sites": {
     "r1": {
       "academy": {
         "name": "Narsen Academy",
@@ -420,6 +420,182 @@
       "wispervale": {
         "name": "Wispervale",
         "description": "A town of magic in a culture where magic is shunned"
+      }
+    }
+  },
+  "enchantments": {
+    "pre": {
+      "abyssal": "slayer",
+      "acumen": "focus",
+      "adaptability": "tempo",
+      "adrenaline": "retrieval",
+      "agility": "root",
+      "anemia": "shrapnel",
+      "aptitude": "weightless",
+      "aquaaffinity": "gills",
+      "arcane_thrust": "sweepingedge",
+      "ardor": "mitosis",
+      "armor": "agility",
+      "ashesofeternity": "instantdrink",
+      "aura": "carapace",
+      "baaing": "oinking",
+      "barking": "debarking",
+      "binding": "ephemerality",
+      "blastprotection": "magicprotection",
+      "bleeding": "arcane_thrust",
+      "carapace": "pennate",
+      "chaotic": "inferno",
+      "choler": "expedite",
+      "clucking": "cosmetic",
+      "colossal": "hope",
+      "corruption": "curses",
+      "crippling": "vanishing",
+      "darksight": "infinity",
+      "debarking": "sapper",
+      "decay": "thunderaspect",
+      "depthstrider": "aquaaffinity",
+      "divineaura": "festive",
+      "duelist": "hexeater",
+      "efficiency": "looting",
+      "empowered": "usurper",
+      "ephemerality": "two_handed",
+      "epoch": "ardor",
+      "eruption": "barking",
+      "ethereal": "reflexes",
+      "evasion": "steadfast",
+      "execution": "nutriment",
+      "exorcism": "throwingknife",
+      "expedite": "aura",
+      "featherfalling": "fireprotection",
+      "festive": "stylish",
+      "fireaspect": "knockback",
+      "fireprotection": "blastprotection",
+      "focus": "vigor",
+      "fortune": "efficiency",
+      "gilded": "baaing",
+      "gills": "regeneration",
+      "hexeater": "smite",
+      "hope": "perspicacity",
+      "iceaspect": "fireaspect",
+      "ineptitude": "starvation",
+      "inferno": "regicide",
+      "infinity": "mending",
+      "instantdrink": "voidtether",
+      "intuition": "soulspeed",
+      "inure": "poise",
+      "irreparability": "corruption",
+      "junglesnourishment": "consumables",
+      "knockback": "spell_power",
+      "lifedrain": "chaotic",
+      "locked": "phylactery",
+      "looting": "tools",
+      "lure": "fortune",
+      "magicprotection": "projectileprotection",
+      "material": "divineaura",
+      "meleeprotection": "defenses",
+      "mending": "unbreaking",
+      "mitosis": "reflection",
+      "multishot": "recoil",
+      "multitool": "silktouch",
+      "natant": "epoch",
+      "nutriment": "empowered",
+      "oinking": "clucking",
+      "pennate": "delve_infusions",
+      "persistence": "triage",
+      "perspicacity": "acumen",
+      "phylactery": "colossal",
+      "piercing": "multishot",
+      "pointblank": "punch",
+      "poise": "shielding",
+      "projectileprotection": "meleeprotection",
+      "protection_of_the_depths": "second_wind",
+      "punch": "ranged",
+      "quake": "bleeding",
+      "quick_charge": "piercing",
+      "radiant": "darksight",
+      "rageoftheketer": "ashesofeternity",
+      "recoil": "sniper",
+      "reflection": "execution",
+      "reflexes": "evasion",
+      "regeneration": "radiant",
+      "regicide": "abyssal",
+      "respiration": "depthstrider",
+      "resurrection": "junglesnourishment",
+      "retrieval": "sustenance",
+      "riptide": "eruption",
+      "sapper": "multitool",
+      "second_wind": "adaptability",
+      "shielding": "featherfalling",
+      "shrapnel": "crippling",
+      "silktouch": "lure",
+      "slayer": "duelist",
+      "smite": "decay",
+      "sniper": "pointblank",
+      "soulspeed": "respiration",
+      "spell_power": "weapons",
+      "starvation": "anemia",
+      "stasis": "exorcism",
+      "stat_track": "material",
+      "steadfast": "inure",
+      "stylish": "gilded",
+      "sustenance": "intuition",
+      "sweepingedge": "lifedrain",
+      "tempo": "ethereal",
+      "tenacity": "infusions",
+      "throwingknife": "rageoftheketer",
+      "thunderaspect": "iceaspect",
+      "triage": "aptitude",
+      "two_handed": "irreparability",
+      "unbreaking": "passiveeffects",
+      "understanding": "natant",
+      "unyielding": "choler",
+      "usurper": "unyielding",
+      "vanishing": "binding",
+      "vigor": "vitality",
+      "vitality": "tenacity",
+      "voidtether": "resurrection",
+      "weightless": "adrenaline"
+    },
+    "category": {
+      "consumables": {
+        "name": "Consumables",
+        "description": "Enchantments that function on consumable items."
+      },
+      "cosmetic": {
+        "name": "Cosmetic",
+        "description": "Enchantments that grant a cosmetic effect to your items."
+      },
+      "curses": {
+        "name": "Curses",
+        "description": "Curses that cause negative effects. Be careful!"
+      },
+      "defenses": {
+        "name": "Defenses",
+        "description": "Enchantments that reduce the damage you take in some way or another."
+      },
+      "delve_infusions": {
+        "name": "Delve Infusions",
+        "description": "From the Depths and the Delves, offering special enchantments that can be specially added to your gear!"
+      },
+      "infusions": {
+        "name": "Infusions",
+        "description": "Enchantments that can be specially added to your gear, should you pay the costs!"
+      },
+      "passiveeffects": {
+        "name": "Passives",
+        "description": "Enchantments that grant a passive effect when used or worn."
+      },
+      "ranged": {
+        "name": "Ranged",
+        "description": "Enchantments that grant special ranged effects."
+      },
+      "tools": {
+        "name": "Tools and Utility",
+        "description": "Enchantments that grant a helpful effect to your tools and weapons."
+      },
+      "weapons": {
+        "name": "Weapons",
+        "description": "Enchantments that alter your attacks and increase the damage of them."
       }
     }
   }

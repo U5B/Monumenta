@@ -26,17 +26,20 @@ const regex = {
   },
   handbook: {
     enchantments: /^monumenta:handbook\/enchantments\/([0-9a-zA-Z-_.]+)$/,
+    ignore: /^monumenta:handbook\/enchantments\/root$/,
     sites: /^monumenta:handbook\/important_sites\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/,
   }
 }
 const converter = {
   poi: {},
   quest: {},
-  handbook: {}
+  sites: {},
+  enchantments: {}
 }
 const pois = {}
 const dungeons = {}
 const quests = {}
+const enchantments = {}
 
 async function fetchAdvancements () {
   if (fs.existsSync('./advancement.json')) {
@@ -57,10 +60,7 @@ function generate () {
   for (const advancement of Object.values(advancements)) {
     if (advancement.id.startsWith('monumenta:pois')) convertPoi(advancement) // parse poi regions
     else if (advancement.id.startsWith('monumenta:handbook')) convertHandbook(advancement)
-    // else if (advancement.id.startsWith('monumenta:quest')) convertQuest(advancement)
-  }
-  for (const advancement of Object.values(advancements)) {
-    if (advancement.id.startsWith('monumenta:quest')) convertQuest(advancement)
+    else if (advancement.id.startsWith('monumenta:quest')) convertQuest(advancement)
   }
   console.log('[CONVERTER] Done.')
   console.log('[PARSER] Parsing POI & Advancement data...')
@@ -68,6 +68,7 @@ function generate () {
     if (advancement.id.startsWith('monumenta:pois')) parseAdvancement(advancement, { type: 'poi' }) // parse pois
     else if (advancement.id.startsWith('monumenta:dungeons')) parseAdvancement(advancement, { type: 'dungeon' }) // parse dungeons
     else if (advancement.id.startsWith('monumenta:quest')) parseAdvancement(advancement, { type: 'quest' })
+    else if (advancement.id.startsWith('monumenta:handbook')) parseAdvancement(advancement, { type: 'handbook'})
   }
   console.log('[PARSER] Done.')
   console.log('[FILE] Creating output directory...')
@@ -78,6 +79,8 @@ function generate () {
   fs.writeFileSync('./out/dungeons.json', JSON.stringify(dungeons, null, 2))
   console.log('[FILE] Writing Quest data to file...')
   fs.writeFileSync('./out/quests.json', JSON.stringify(quests, null, 2))
+  console.log('[FILE] Writing Enchantment data to file...')
+  fs.writeFileSync('./out/enchantments.json', JSON.stringify(enchantments, null, 2))
   console.log('[FILE] Writing converter data to file...')
   fs.writeFileSync('./out/converter.json', JSON.stringify(converter, null, 2))
 }
@@ -145,10 +148,24 @@ function convertHandbook (advancement) {
   switch (true) { // monumenta:handbook/r1/site
     case regex.handbook.sites.test(id): {
       const [, region, site] = regex.handbook.sites.exec(id)
-      if (!converter.handbook[region]) converter.handbook[region] = {}
-      if (!converter.handbook[region][site]) converter.handbook[region][site] = {}
-      converter.handbook[region][site].name = titlePrint
-      converter.handbook[region][site].description = descriptionPrint
+      if (!converter.sites[region]) converter.sites[region] = {}
+      if (!converter.sites[region][site]) converter.sites[region][site] = {}
+      converter.sites[region][site].name = titlePrint
+      converter.sites[region][site].description = descriptionPrint
+      break
+    }
+    case regex.handbook.enchantments.test(id): {
+      const [, enchantment] = regex.handbook.enchantments.exec(id)
+      if (regex.handbook.ignore.test(advancement.parent) && titlePrint !== 'Agility') { // Exclude Agility
+        if (!converter.enchantments['category']) converter.enchantments['category'] = {}
+        converter.enchantments['category'][enchantment] = {}
+        converter.enchantments['category'][enchantment].name = titlePrint
+        converter.enchantments['category'][enchantment].description = descriptionPrint
+      } else if (regex.handbook.enchantments.test(advancement.parent)) {
+        const [, previousEnchantment] = regex.handbook.enchantments.exec(advancement.parent)
+        if (!converter.enchantments['pre']) converter.enchantments['pre'] = {}
+        converter.enchantments['pre'][enchantment] = previousEnchantment
+      }
       break
     }
   }
@@ -177,6 +194,10 @@ function parseAdvancement (advancement, options = { type: '' }) {
     }
     case 'quest': {
       parseQuest(option)
+      break
+    }
+    case 'handbook': {
+      parseHandbook(option)
       break
     }
   }
@@ -250,22 +271,47 @@ function parseQuest ({ id, display, title, description, advancement }) {
     if (!site) {
       data.city = null
     } else {
-      data.city = converter.handbook[region][site].name
+      data.city = converter.sites[region][site].name
     }
   }
   if (!quests[data.name]) quests[data.name] = data // add data
   else console.error(`[QUEST] '${title}' has duplicate name | advancement: '${id}'`)
 }
 
+function parseHandbook ({id, display, title, description, advancement}) {
+  title = joinText(title)
+  description = joinText(description)
+  switch (true) {
+    case regex.handbook.enchantments.test(id): {
+      if (regex.handbook.ignore.test(id) && title !== 'Agility') break
+      const data = { name: title, description: description, category: ''} 
+      const [, enchantment] = regex.handbook.enchantments.exec(id)
+      data.category = checkEnchantment(enchantment)
+      enchantments[enchantment] = data
+      break
+    }
+  }
+}
+
 function checkQuest (name = '') { // recursively check for quests
   if (name === '') return null
-  for (const [region, ] of Object.entries(converter.handbook)) {
-    for (const [id, quest] of Object.entries(converter.handbook[region])) {
-      if (name === id) return id
+  for (const [region, ] of Object.entries(converter.sites)) {
+    for (const [site, ] of Object.entries(converter.sites[region])) {
+      if (name === site) return site
     }
   }
   if (!converter.quest[name]) return null // quests that don't "technically" have a city associated with them
   const value = checkQuest(converter.quest[name])
+  return value
+}
+
+function checkEnchantment (name = '') { // recursively check for enchantments
+  if (name === '') return null
+  for (const [category, data] of Object.entries(converter.enchantments['category'])) {
+    if (name === category) return data.name
+  }
+  if (!converter.enchantments['pre'][name]) return null
+  const value = checkEnchantment(converter.enchantments['pre'][name])
   return value
 }
 
