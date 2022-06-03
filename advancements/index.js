@@ -40,6 +40,7 @@ const pois = {}
 const dungeons = {}
 const quests = {}
 const enchantments = {}
+const all = {}
 
 async function fetchAdvancements () {
   if (fs.existsSync('./advancement.json')) {
@@ -71,6 +72,11 @@ function generate () {
     else if (advancement.id.startsWith('monumenta:handbook')) parseAdvancement(advancement, { type: 'handbook'})
   }
   console.log('[PARSER] Done.')
+  console.log('[ALL] Saving all advancements to readable file')
+  for (const advancement of Object.values(advancements)) {
+    parseAny(advancement)
+  }
+  console.log('[ALL] Done.')
   console.log('[FILE] Creating output directory...')
   if (!fs.existsSync('./out')) fs.mkdirSync('./out')
   console.log('[FILE] Writing POI data to file...')
@@ -83,6 +89,8 @@ function generate () {
   fs.writeFileSync('./out/enchantments.json', JSON.stringify(enchantments, null, 2))
   console.log('[FILE] Writing converter data to file...')
   fs.writeFileSync('./out/converter.json', JSON.stringify(converter, null, 2))
+  console.log('[FILE] Writing all data to file...')
+  fs.writeFileSync('./out/all.json', JSON.stringify(all, null, 2))
 }
 
 function convertPoi (advancement) {
@@ -168,6 +176,26 @@ function convertHandbook (advancement) {
       }
       break
     }
+  }
+}
+
+function parseAny (advancement) {
+  const id = advancement.id
+  const display = advancement.display
+
+  // null checking
+  if (!display) return
+  let title = display.title
+  let description = display.description
+  if (!title || !description) return
+  if (!Array.isArray(title)) title = [title] // titles can have multiple lines
+  if (!Array.isArray(description)) description = [description] // description can have multiple lines
+  title = joinText(title)
+  description = joinText(description)
+
+  all[advancement.id] = {
+    title: title,
+    description: description
   }
 }
 
