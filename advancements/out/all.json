@@ -243,10 +243,6 @@
     "title": "Dynamic Duo",
     "description": "Defeat Kaul in a match with 1 other player."
   },
-  "monumenta:challenges/r1/kaul/exterminator": {
-    "title": "Exterminator",
-    "description": "Defeat 100 or more spiders between all players during a Kaul fight."
-  },
   "monumenta:challenges/r1/kaul/kaulsolo": {
     "title": "Kaul (Solo)",
     "description": "Defeat Kaul Solo You are a true master of the jungle."
@@ -274,6 +270,10 @@
   "monumenta:challenges/r1/kaul/soclose": {
     "title": "So Close",
     "description": "Die to Kaul when his health is at 10% or less."
+  },
+  "monumenta:challenges/r1/kaul/suchdevastation": {
+    "title": "Such Devastation",
+    "description": "Witness Kaul casting 5 Volcanic Demises in a single fight."
   },
   "monumenta:challenges/r1/kaul/trinity": {
     "title": "Holy Trinity",
