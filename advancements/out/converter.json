@@ -103,6 +103,7 @@
     "alittlespark": "sierhaven",
     "apigculiarproblem": "acrownofmadness",
     "astudyincrimsonone": "memoriesofbattle",
+    "astudyincrimsontwo": "astudyincrimsonone",
     "avaultofglass": "bandittroubles",
     "bandittroubles": "sierhaven",
     "baneofthebakers": "sierhaven",
@@ -325,7 +326,7 @@
       },
       "transmog": {
         "name": "Transmogrifier",
-        "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Power Crystal or greater in order to use. - Four items of the same tier return a random item of the next tier up. - Four Tier V items give you Pulsating Dust . - Two Rare items give you a random Rare item."
+        "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Power Crystal or greater in order to use. - Four Tier V items give you Pulsating Dust . - Two Rare items give you a random Rare item."
       }
     },
     "r2": {
@@ -415,7 +416,7 @@
       },
       "transmog": {
         "name": "Transmogrifier",
-        "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Magma Crystal or greater in order to use. - Four items of the same tier return a random item of the next tier up. - Four Tier V items give you Pulsating Powder . - Two Rare items give you a random Rare item."
+        "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Magma Crystal or greater in order to use. - Four Tier V items give you Pulsating Powder . - Two Rare items give you a random Rare item."
       },
       "wispervale": {
         "name": "Wispervale",
@@ -440,7 +441,6 @@
       "aura": "carapace",
       "baaing": "oinking",
       "barking": "debarking",
-      "binding": "ephemerality",
       "blastprotection": "magicprotection",
       "bleeding": "arcane_thrust",
       "carapace": "pennate",
@@ -548,9 +548,10 @@
       "two_handed": "irreparability",
       "unbreaking": "passiveeffects",
       "understanding": "natant",
-      "unyielding": "choler",
+      "unyielding": "vengeful",
       "usurper": "unyielding",
-      "vanishing": "binding",
+      "vanishing": "ephemerality",
+      "vengeful": "choler",
       "vigor": "vitality",
       "vitality": "tenacity",
       "voidtether": "resurrection",

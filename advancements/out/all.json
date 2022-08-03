@@ -309,7 +309,7 @@
   },
   "monumenta:challenges/r1/sanctum/find": {
     "title": "A Shaman's Sin",
-    "description": "C'Shura awaits you in the former resting place of Kaul. How will she greet you after so many years of isolation? POI: Corrupted Caves Coordinates: x=496 y=73 z=390"
+    "description": "C'Shura awaits you in the former resting place of Kaul. How will she greet you after so many years of isolation?"
   },
   "monumenta:challenges/r1/sanctum/sanctum": {
     "title": "A Shaman's Lament",
@@ -326,22 +326,6 @@
   "monumenta:challenges/r1/snowspirit/solo_snowspirit": {
     "title": "Snow Spirit (Solo)",
     "description": "Defeat Snow Spirit Solo You've somehow beaten Winter Incarnate, most impressive."
-  },
-  "monumenta:challenges/r1/trickster/bootsofpride": {
-    "title": "Boots of Pride",
-    "description": "Defeated Kaul alone under the Boots of Pride challenge."
-  },
-  "monumenta:challenges/r1/trickster/helmofdarkness": {
-    "title": "Helm of Darkness",
-    "description": "Defeated Azacor alone on Hard mode under the Helm of Darkness challenge."
-  },
-  "monumenta:challenges/r1/trickster/legsofwrath": {
-    "title": "Leggings of Wrath",
-    "description": "Defeated the Headless Horseman alone under the Leggings of Wrath challenge."
-  },
-  "monumenta:challenges/r1/trickster/tricksterschallenges": {
-    "title": "Trickster's Challenges",
-    "description": "The Trickster Spirit's devilish games."
   },
   "monumenta:challenges/r1/verdant/find": {
     "title": "Shards of the Past",
@@ -736,15 +720,15 @@
     "description": "With the help of former Shaman Nai, you re-entered the dream and learned more about the nature of the Genius Loci- and angered Kaul yet again."
   },
   "monumenta:dungeons/roguelike/complete": {
-    "title": "Defeat Normal Ephemeral Corridors",
+    "title": "Defeat Practice Ephemeral Corridors",
     "description": "You discovered one of the many treasures of the Ephemeral Corridors, and many more remain hidden in its depths."
   },
   "monumenta:dungeons/roguelike/completeclassic": {
-    "title": "Defeat Classic Ephemeral Corridors",
+    "title": "Defeat Fullwipe Ephemeral Corridors",
     "description": "You discovered yet another of the many treasures of the Ephemeral Corridors, but could more remain hidden in its depths still?"
   },
   "monumenta:dungeons/roguelike/completehard": {
-    "title": "Defeat Hardcore Ephemeral Corridors",
+    "title": "Defeat Standard Ephemeral Corridors",
     "description": "You discovered another one of the many treasures of the Ephemeral Corridors, but still more remain hidden in its depths."
   },
   "monumenta:dungeons/roguelike/find": {
@@ -1007,10 +991,6 @@
     "title": "Barking",
     "description": "Magically regrows the bark onto the logs you chop up."
   },
-  "monumenta:handbook/enchantments/binding": {
-    "title": "Curse of Binding",
-    "description": "When worn, an item with Curse of Binding cannot be removed unless it breaks or the player dies."
-  },
   "monumenta:handbook/enchantments/blastprotection": {
     "title": "Blast Protection",
     "description": "Multiplies blast damage taken by (0.96) ^ (2 * level)."
@@ -1113,7 +1093,7 @@
   },
   "monumenta:handbook/enchantments/ethereal": {
     "title": "Ethereal",
-    "description": "Gain (Level*20%) effective Agility on hits taken within 1.5 seconds of any previous hit."
+    "description": "Gain (Level*20%) effective Agility on hits taken within 2 seconds of any previous hit."
   },
   "monumenta:handbook/enchantments/evasion": {
     "title": "Evasion",
@@ -1133,7 +1113,7 @@
   },
   "monumenta:handbook/enchantments/featherfalling": {
     "title": "Feather Falling",
-    "description": "Multiplies fall damage taken by (0.88) ^ (3 * level)."
+    "description": "Multiplies fall damage taken by (0.96) ^ (3 * level)."
   },
   "monumenta:handbook/enchantments/festive": {
     "title": "Festive",
@@ -1181,7 +1161,7 @@
   },
   "monumenta:handbook/enchantments/inferno": {
     "title": "Inferno",
-    "description": "Deals an extra 1 damage per level to enemies that are on fire, and 0.5 damage per level to enemies that are not on fire."
+    "description": "When you ignite an enemy, they take 1 extra damage per level once a second for the initial duration of the fire."
   },
   "monumenta:handbook/enchantments/infinity": {
     "title": "Infinity",
@@ -1261,7 +1241,7 @@
   },
   "monumenta:handbook/enchantments/natant": {
     "title": "Natant",
-    "description": "You move (level * 3)% faster when in water."
+    "description": "You move (level * 4)% faster when in water."
   },
   "monumenta:handbook/enchantments/nutriment": {
     "title": "Nutriment",
@@ -1385,7 +1365,7 @@
   },
   "monumenta:handbook/enchantments/shielding": {
     "title": "Shielding",
-    "description": "Gain Level*20% effective Armor when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding disables Shielding for 5 seconds."
+    "description": "Gain Level*20% effective Armor when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding reduces Shielding's effect to half for 5 seconds."
   },
   "monumenta:handbook/enchantments/shrapnel": {
     "title": "Curse of Shrapnel",
@@ -1397,7 +1377,7 @@
   },
   "monumenta:handbook/enchantments/slayer": {
     "title": "Slayer",
-    "description": "Deals (level * 2) damage to everything unaffected by Smite or Duelist; Spiders, Silverfish, Bees, Cave Spiders, Creepers, Ghasts, Shulkers, Endermen, Blazes, Slimes, Magma Cubes, Wolves, Ravagers, Hoglins, and passive animal mobs."
+    "description": "Adds (level * 2) extra damage to melee hits against non-Undead, non-human-like mobs: Spiders, Cave Spiders, Creepers, Endermen, Blazes, Ghasts, Slimes, Magma Cubes, Silverfish, Bees, Shulkers, Wolves, Ravagers, Hoglins, and passive animal mobs."
   },
   "monumenta:handbook/enchantments/smite": {
     "title": "Smite",
@@ -1490,6 +1470,10 @@
   "monumenta:handbook/enchantments/vanishing": {
     "title": "Curse of Vanishing",
     "description": "When held in inventory, an item with Curse of Vanishing shatters upon death. Curse of Vanishing II will cause the item to be completed deleted upon death."
+  },
+  "monumenta:handbook/enchantments/vengeful": {
+    "title": "Vengeful",
+    "description": "Deal (level * 2)% additional damage to the last mob that damaged you."
   },
   "monumenta:handbook/enchantments/vigor": {
     "title": "Vigor",
@@ -1605,7 +1589,7 @@
   },
   "monumenta:handbook/important_sites/r1/transmog": {
     "title": "Transmogrifier",
-    "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Power Crystal or greater in order to use. - Four items of the same tier return a random item of the next tier up. - Four Tier V items give you Pulsating Dust . - Two Rare items give you a random Rare item."
+    "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Power Crystal or greater in order to use. - Four Tier V items give you Pulsating Dust . - Two Rare items give you a random Rare item."
   },
   "monumenta:handbook/important_sites/r2/academy": {
     "title": "The Teacher's Domain",
@@ -1693,7 +1677,7 @@
   },
   "monumenta:handbook/important_sites/r2/transmog": {
     "title": "Transmogrifier",
-    "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Magma Crystal or greater in order to use. - Four items of the same tier return a random item of the next tier up. - Four Tier V items give you Pulsating Powder . - Two Rare items give you a random Rare item."
+    "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Magma Crystal or greater in order to use. - Four Tier V items give you Pulsating Powder . - Two Rare items give you a random Rare item."
   },
   "monumenta:handbook/important_sites/r2/wispervale": {
     "title": "Wispervale",
@@ -2810,6 +2794,10 @@
   "monumenta:quests/r1/astudyincrimsonone": {
     "title": "A Study in Crimson Part One",
     "description": "The Crimson King called in your contract. You worked with him to dig through memories, searching for a way to restore the Crimson Wool."
+  },
+  "monumenta:quests/r1/astudyincrimsontwo": {
+    "title": "A Study in Crimson Part Two",
+    "description": "Working again with the Crimson King, you searched past and present for the lost Silver Knight. You found it, dead, below the Monument, leaving the future uncertain."
   },
   "monumenta:quests/r1/avaultofglass": {
     "title": "A Vault of Glass",

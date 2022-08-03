@@ -74,11 +74,6 @@
     "description": "Magically regrows the bark onto the logs you chop up.",
     "category": "Tools and Utility"
   },
-  "binding": {
-    "name": "Curse of Binding",
-    "description": "When worn, an item with Curse of Binding cannot be removed unless it breaks or the player dies.",
-    "category": "Curses"
-  },
   "blastprotection": {
     "name": "Blast Protection",
     "description": "Multiplies blast damage taken by (0.96) ^ (2 * level).",
@@ -206,7 +201,7 @@
   },
   "ethereal": {
     "name": "Ethereal",
-    "description": "Gain (Level*20%) effective Agility on hits taken within 1.5 seconds of any previous hit.",
+    "description": "Gain (Level*20%) effective Agility on hits taken within 2 seconds of any previous hit.",
     "category": "Defenses"
   },
   "evasion": {
@@ -231,7 +226,7 @@
   },
   "featherfalling": {
     "name": "Feather Falling",
-    "description": "Multiplies fall damage taken by (0.88) ^ (3 * level).",
+    "description": "Multiplies fall damage taken by (0.96) ^ (3 * level).",
     "category": "Defenses"
   },
   "festive": {
@@ -291,7 +286,7 @@
   },
   "inferno": {
     "name": "Inferno",
-    "description": "Deals an extra 1 damage per level to enemies that are on fire, and 0.5 damage per level to enemies that are not on fire.",
+    "description": "When you ignite an enemy, they take 1 extra damage per level once a second for the initial duration of the fire.",
     "category": "Weapons"
   },
   "infinity": {
@@ -391,7 +386,7 @@
   },
   "natant": {
     "name": "Natant",
-    "description": "You move (level * 3)% faster when in water.",
+    "description": "You move (level * 4)% faster when in water.",
     "category": "Delve Infusions"
   },
   "nutriment": {
@@ -541,7 +536,7 @@
   },
   "shielding": {
     "name": "Shielding",
-    "description": "Gain Level*20% effective Armor when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding disables Shielding for 5 seconds.",
+    "description": "Gain Level*20% effective Armor when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding reduces Shielding's effect to half for 5 seconds.",
     "category": "Defenses"
   },
   "shrapnel": {
@@ -556,7 +551,7 @@
   },
   "slayer": {
     "name": "Slayer",
-    "description": "Deals (level * 2) damage to everything unaffected by Smite or Duelist; Spiders, Silverfish, Bees, Cave Spiders, Creepers, Ghasts, Shulkers, Endermen, Blazes, Slimes, Magma Cubes, Wolves, Ravagers, Hoglins, and passive animal mobs.",
+    "description": "Adds (level * 2) extra damage to melee hits against non-Undead, non-human-like mobs: Spiders, Cave Spiders, Creepers, Endermen, Blazes, Ghasts, Slimes, Magma Cubes, Silverfish, Bees, Shulkers, Wolves, Ravagers, Hoglins, and passive animal mobs.",
     "category": "Weapons"
   },
   "smite": {
@@ -673,6 +668,11 @@
     "name": "Curse of Vanishing",
     "description": "When held in inventory, an item with Curse of Vanishing shatters upon death. Curse of Vanishing II will cause the item to be completed deleted upon death.",
     "category": "Curses"
+  },
+  "vengeful": {
+    "name": "Vengeful",
+    "description": "Deal (level * 2)% additional damage to the last mob that damaged you.",
+    "category": "Delve Infusions"
   },
   "vigor": {
     "name": "Vigor",

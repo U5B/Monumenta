@@ -22,12 +22,12 @@ const regex = {
   quest: {
     path: /^monumenta:quests\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $1 = region, $2 = quest && $2 != 'root'
     city: /^Discover the (.+)$/, // ignore prefix 'Discover the' fromcities
-    ignore: /^(.+) Quests$/,
+    ignore: /^(.+) Quests$/
   },
   handbook: {
     enchantments: /^monumenta:handbook\/enchantments\/([0-9a-zA-Z-_.]+)$/,
     ignore: /^monumenta:handbook\/enchantments\/root$/,
-    sites: /^monumenta:handbook\/important_sites\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/,
+    sites: /^monumenta:handbook\/important_sites\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/
   }
 }
 const converter = {
@@ -69,7 +69,7 @@ function generate () {
     if (advancement.id.startsWith('monumenta:pois')) parseAdvancement(advancement, { type: 'poi' }) // parse pois
     else if (advancement.id.startsWith('monumenta:dungeons')) parseAdvancement(advancement, { type: 'dungeon' }) // parse dungeons
     else if (advancement.id.startsWith('monumenta:quest')) parseAdvancement(advancement, { type: 'quest' })
-    else if (advancement.id.startsWith('monumenta:handbook')) parseAdvancement(advancement, { type: 'handbook'})
+    else if (advancement.id.startsWith('monumenta:handbook')) parseAdvancement(advancement, { type: 'handbook' })
   }
   console.log('[PARSER] Done.')
   console.log('[ALL] Saving all advancements to readable file')
@@ -165,14 +165,14 @@ function convertHandbook (advancement) {
     case regex.handbook.enchantments.test(id): {
       const [, enchantment] = regex.handbook.enchantments.exec(id)
       if (regex.handbook.ignore.test(advancement.parent) && titlePrint !== 'Agility') { // Exclude Agility
-        if (!converter.enchantments['category']) converter.enchantments['category'] = {}
-        converter.enchantments['category'][enchantment] = {}
-        converter.enchantments['category'][enchantment].name = titlePrint
-        converter.enchantments['category'][enchantment].description = descriptionPrint
+        if (!converter.enchantments.category) converter.enchantments.category = {}
+        converter.enchantments.category[enchantment] = {}
+        converter.enchantments.category[enchantment].name = titlePrint
+        converter.enchantments.category[enchantment].description = descriptionPrint
       } else if (regex.handbook.enchantments.test(advancement.parent)) {
         const [, previousEnchantment] = regex.handbook.enchantments.exec(advancement.parent)
-        if (!converter.enchantments['pre']) converter.enchantments['pre'] = {}
-        converter.enchantments['pre'][enchantment] = previousEnchantment
+        if (!converter.enchantments.pre) converter.enchantments.pre = {}
+        converter.enchantments.pre[enchantment] = previousEnchantment
       }
       break
     }
@@ -306,13 +306,13 @@ function parseQuest ({ id, display, title, description, advancement }) {
   else console.error(`[QUEST] '${title}' has duplicate name | advancement: '${id}'`)
 }
 
-function parseHandbook ({id, display, title, description, advancement}) {
+function parseHandbook ({ id, display, title, description, advancement }) {
   title = joinText(title)
   description = joinText(description)
   switch (true) {
     case regex.handbook.enchantments.test(id): {
       if (regex.handbook.ignore.test(id) && title !== 'Agility') break
-      const data = { name: title, description: description, category: ''} 
+      const data = { name: title, description: description, category: '' }
       const [, enchantment] = regex.handbook.enchantments.exec(id)
       data.category = checkEnchantment(enchantment)
       enchantments[enchantment] = data
@@ -323,8 +323,8 @@ function parseHandbook ({id, display, title, description, advancement}) {
 
 function checkQuest (name = '') { // recursively check for quests
   if (name === '') return null
-  for (const [region, ] of Object.entries(converter.sites)) {
-    for (const [site, ] of Object.entries(converter.sites[region])) {
+  for (const [region] of Object.entries(converter.sites)) {
+    for (const [site] of Object.entries(converter.sites[region])) {
       if (name === site) return site
     }
   }
@@ -335,11 +335,11 @@ function checkQuest (name = '') { // recursively check for quests
 
 function checkEnchantment (name = '') { // recursively check for enchantments
   if (name === '') return null
-  for (const [category, data] of Object.entries(converter.enchantments['category'])) {
+  for (const [category, data] of Object.entries(converter.enchantments.category)) {
     if (name === category) return data.name
   }
-  if (!converter.enchantments['pre'][name]) return null
-  const value = checkEnchantment(converter.enchantments['pre'][name])
+  if (!converter.enchantments.pre[name]) return null
+  const value = checkEnchantment(converter.enchantments.pre[name])
   return value
 }
 
