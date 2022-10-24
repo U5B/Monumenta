@@ -519,6 +519,10 @@
     "title": "Challenges",
     "description": "Complete the special challenges of each region."
   },
+  "monumenta:challenges/root_strikes": {
+    "title": "Strikes",
+    "description": ""
+  },
   "monumenta:dungeons/cyan/complete": {
     "title": "Defeat Cyan Dungeon",
     "description": "You fought off an ancient horror and claimed the Cyan Wool."
@@ -735,9 +739,21 @@
     "title": "Found Ephemeral Corridors Dungeon",
     "description": "You find a maze of twisty little passages, all alike. POI: Anthill Coordinates: x=819 y=110 z=209"
   },
+  "monumenta:dungeons/root_r1": {
+    "title": "King's Valley Dungeons",
+    "description": "Dungeons you will find throughout the King's Valley region."
+  },
+  "monumenta:dungeons/root_r2": {
+    "title": "Celsian Isles Dungeons",
+    "description": "Dungeons you will find throughout the Celsian Isles region."
+  },
   "monumenta:dungeons/sanctum/find_quest": {
     "title": "Shurima's Big Day Off",
     "description": "What started as a silly request for chores soon led you down a path to the Forsworn Sanctum."
+  },
+  "monumenta:dungeons/skt/secret": {
+    "title": "Shifting Realities",
+    "description": "You unlocked the memories that fade through the threads of reality."
   },
   "monumenta:dungeons/teal/complete": {
     "title": "Defeat Echoes of Oblivion",
@@ -847,10 +863,6 @@
     "title": "Intellect Crystallizer II",
     "description": "Create the Enlightened Dagger."
   },
-  "monumenta:general/intellect_crystallizer3": {
-    "title": "Intellect Crystallizer III",
-    "description": "Create the Intellect Incarnate."
-  },
   "monumenta:general/jackpot1": {
     "title": "Royal Jackpot!",
     "description": "Win the King's Warden in Rock's Little Casino."
@@ -894,14 +906,6 @@
   "monumenta:general/repair2": {
     "title": "Repairman II",
     "description": "Repair 50 items."
-  },
-  "monumenta:general/repair3": {
-    "title": "Repairman III",
-    "description": "Repair 100 items."
-  },
-  "monumenta:general/repair4": {
-    "title": "Repairman IV",
-    "description": "Repair 200 items."
   },
   "monumenta:general/repair5": {
     "title": "Repairman V",
@@ -991,6 +995,10 @@
     "title": "Barking",
     "description": "Magically regrows the bark onto the logs you chop up."
   },
+  "monumenta:handbook/enchantments/blastfragility": {
+    "title": "Blast Fragility",
+    "description": "Multiplies blast damage taken by (0.96) ^ (-2 * level)."
+  },
   "monumenta:handbook/enchantments/blastprotection": {
     "title": "Blast Protection",
     "description": "Multiplies blast damage taken by (0.96) ^ (2 * level)."
@@ -998,6 +1006,10 @@
   "monumenta:handbook/enchantments/bleeding": {
     "title": "Bleeding",
     "description": "Applies Bleed (Enchantment level) for 5 seconds to all mobs struck by the Bleeding weapon. Bleed is a custom effect that applies (level * 10)% Slowness and Weakness to mobs under 50% Max Health."
+  },
+  "monumenta:handbook/enchantments/broomstick": {
+    "title": "Broomstick",
+    "description": "After being hurled using Riptide, apply slow falling until touching the ground."
   },
   "monumenta:handbook/enchantments/carapace": {
     "title": "Carapace",
@@ -1010,6 +1022,10 @@
   "monumenta:handbook/enchantments/choler": {
     "title": "Choler",
     "description": "Deal (level * 1)% additional damage to any mob that is on fire, slowed, or stunned."
+  },
+  "monumenta:handbook/enchantments/cloaked": {
+    "title": "Cloaked",
+    "description": "Gain (Level * 20)% effective Agility when there's 2 or less enemies within 5 blocks."
   },
   "monumenta:handbook/enchantments/clucking": {
     "title": "Clucking",
@@ -1065,11 +1081,15 @@
   },
   "monumenta:handbook/enchantments/divineaura": {
     "title": "Divine Aura",
-    "description": "While equipped or stored in inventory, the player and mobs hit gain an aura of divine particles."
+    "description": "While equipped, the player and mobs hit gain an aura of divine particles."
   },
   "monumenta:handbook/enchantments/duelist": {
     "title": "Duelist",
     "description": ""
+  },
+  "monumenta:handbook/enchantments/earthaspect": {
+    "title": "Earth Aspect",
+    "description": "Upon dealing melee / projectile damage, grants (level * 5)% damage reduction for 3 seconds. Also applies upon mining a spawner."
   },
   "monumenta:handbook/enchantments/efficiency": {
     "title": "Efficiency",
@@ -1099,6 +1119,10 @@
     "title": "Evasion",
     "description": "Gain (Level*20%) effective Agility when taking damage from a source further than 5 blocks from the player."
   },
+  "monumenta:handbook/enchantments/excavator": {
+    "title": "Excavator",
+    "description": "Mine extra blocks in a 3 x 3 shape."
+  },
   "monumenta:handbook/enchantments/execution": {
     "title": "Execution",
     "description": "After killing an enemy, you deal (level * 1.5)% extra damage for 4 seconds."
@@ -1111,17 +1135,29 @@
     "title": "Expedite",
     "description": "Damaging an enemy with an ability increases your movement speed by (level * 1)% for 5 seconds, stacking up to 3 times."
   },
+  "monumenta:handbook/enchantments/explosive": {
+    "title": "Explosive",
+    "description": "Critical Arrows you shoot deals an additional (level * 10)% splash damage in a 2-block radius, which also applies any Fire/Ice/Thunder/Wind Aspect, Decay and/or Bleed enchants."
+  },
+  "monumenta:handbook/enchantments/fallfragility": {
+    "title": "Fall Fragility",
+    "description": "Multiplies fall damage taken by (0.96) ^ (-3 * level)."
+  },
   "monumenta:handbook/enchantments/featherfalling": {
     "title": "Feather Falling",
     "description": "Multiplies fall damage taken by (0.96) ^ (3 * level)."
   },
   "monumenta:handbook/enchantments/festive": {
     "title": "Festive",
-    "description": "While equipped or stored in inventory, gain an aura of festive particles that improve with every additional item."
+    "description": "While equipped, gain an aura of festive particles that improve with every additional item."
   },
   "monumenta:handbook/enchantments/fireaspect": {
     "title": "Fire Aspect",
     "description": "Ignites the target for (level * 4) seconds when dealing melee or projectile damage."
+  },
+  "monumenta:handbook/enchantments/firefragility": {
+    "title": "Fire Fragility",
+    "description": "Multiplies fire damage taken by (0.96) ^ (-2 * level)."
   },
   "monumenta:handbook/enchantments/fireprotection": {
     "title": "Fire Protection",
@@ -1137,11 +1173,19 @@
   },
   "monumenta:handbook/enchantments/gilded": {
     "title": "Gilded",
-    "description": "While your item is with you, you gain an aura of gold particles. While dropped, your item gains similar particles. Additional items increase your particles, capped at 10.A reward for winning the voting raffle."
+    "description": "While equipped, you gain an aura of gold particles. While dropped, your item gains similar particles. Additional items increase your particles, capped at 10.A reward for winning the voting raffle."
   },
   "monumenta:handbook/enchantments/gills": {
     "title": "Gills",
     "description": "While equipped or held, gain Water Breathing."
+  },
+  "monumenta:handbook/enchantments/grace": {
+    "title": "Grace",
+    "description": "Gain 2% attack speed per level."
+  },
+  "monumenta:handbook/enchantments/guard": {
+    "title": "Guard",
+    "description": "Gain (Level * 20)% effective Armor after blocking with a shield. Duration lasts for 2.5s if blocked from offhand, and 5s from mainhand."
   },
   "monumenta:handbook/enchantments/hexeater": {
     "title": "Hex Eater",
@@ -1149,7 +1193,7 @@
   },
   "monumenta:handbook/enchantments/hope": {
     "title": "Hope",
-    "description": "While dropped, items with Hope are indestructable and take 15 minutes to despawn."
+    "description": "If this item would be inflicted with more than 1 shatter level from a death, it takes 1 level less."
   },
   "monumenta:handbook/enchantments/iceaspect": {
     "title": "Ice Aspect",
@@ -1175,6 +1219,10 @@
     "title": "Instant Drink",
     "description": "Right clicking a potion with this enchant will instantly apply its effects to the player using it."
   },
+  "monumenta:handbook/enchantments/intoxicatingwarmth": {
+    "title": "Intoxicating Warmth",
+    "description": "When consumed, regain 1 hunger and 1 saturation per second for 15 seconds. 30 second cooldown."
+  },
   "monumenta:handbook/enchantments/intuition": {
     "title": "Intuition",
     "description": "While equipped, grants 50% more experience."
@@ -1199,6 +1247,10 @@
     "title": "Life Drain",
     "description": ""
   },
+  "monumenta:handbook/enchantments/liquidcourage": {
+    "title": "Liquid Courage",
+    "description": "Restores 8 hunger and 8 saturation when consumed. For 15 seconds, gives player 20% damage resistance of the next 3 incoming Melee, Projectile or Magic attacks. 30 second cooldown."
+  },
   "monumenta:handbook/enchantments/locked": {
     "title": "Locked",
     "description": "Prevents the item from being swapped by a lockbox."
@@ -1211,6 +1263,10 @@
     "title": "Lure",
     "description": "Decreases the time spent waiting for a fish to appear by (level * 5) seconds."
   },
+  "monumenta:handbook/enchantments/magicfragility": {
+    "title": "Magic Fragility",
+    "description": "Multiplies magic damage taken by (0.96) ^ (-2 * level)."
+  },
   "monumenta:handbook/enchantments/magicprotection": {
     "title": "Magic Protection",
     "description": "Multiplies magic damage taken by (0.96) ^ (2 * level)."
@@ -1218,6 +1274,10 @@
   "monumenta:handbook/enchantments/material": {
     "title": "Material",
     "description": "A special item, used to craft another item - often Patron related ones. Items with this enchant also can be used as crafting materials in regular vanilla Minecraft recipes."
+  },
+  "monumenta:handbook/enchantments/meleefragility": {
+    "title": "Melee Fragility",
+    "description": "Multiplies melee damage taken by (0.96) ^ (-2 * level)."
   },
   "monumenta:handbook/enchantments/meleeprotection": {
     "title": "Melee Protection",
@@ -1230,6 +1290,10 @@
   "monumenta:handbook/enchantments/mitosis": {
     "title": "Mitosis",
     "description": "Mining a spawner debuffs all enemy types that spawner could spawn in a 4 block radius with (level * 3.75)% Weaken for 2 seconds."
+  },
+  "monumenta:handbook/enchantments/multiload": {
+    "title": "Multiload",
+    "description": "Upon reloading your crossbow, consume up to (level) extra arrows. For each arrow consumed, instantly reload crossbow after firing."
   },
   "monumenta:handbook/enchantments/multishot": {
     "title": "Multishot",
@@ -1259,17 +1323,13 @@
     "title": "Pennate",
     "description": "You receive (level * 5)% less fall damage."
   },
-  "monumenta:handbook/enchantments/persistence": {
-    "title": "Persistence",
-    "description": "You will not drop this item on death."
-  },
   "monumenta:handbook/enchantments/perspicacity": {
     "title": "Perspicacity",
     "description": "+(level * 1)% magic damage."
   },
   "monumenta:handbook/enchantments/phylactery": {
     "title": "Phylactery",
-    "description": "Dying with an item infused with Phylactery saves (10% * level) of your experience points in your grave. This stacks additively with itself across all items equipped. Experience will only be saved if you died with more than 100 experience points. Additionally, keep potion effects upon dying for (10% * level) of the duration."
+    "description": "Dying with an item infused with Phylactery saves (10% * level) of your experience points in your grave. This stacks additively with itself across all items equipped. Experience will only be saved if you died with more than 100 experience points. Additionally, keep potion effects upon dying for (5% * level) of the duration."
   },
   "monumenta:handbook/enchantments/piercing": {
     "title": "Piercing",
@@ -1282,6 +1342,10 @@
   "monumenta:handbook/enchantments/poise": {
     "title": "Poise",
     "description": "Gain (Level*20%) effective Armor when above 90% Max Health."
+  },
+  "monumenta:handbook/enchantments/projectilefragility": {
+    "title": "Projectile Fragility",
+    "description": "Multiplies projectile damage taken by (0.96) ^ (-2 * level)."
   },
   "monumenta:handbook/enchantments/projectileprotection": {
     "title": "Projectile Protection",
@@ -1298,6 +1362,10 @@
   "monumenta:handbook/enchantments/quake": {
     "title": "Quake",
     "description": "When your melee attack kills an enemy, all nearby enemies in a 3-block cube take (level * 10)% of the damage dealt. Your weapon's Fire/Ice/Thunder Aspect, Decay and/or Bleed also get applied."
+  },
+  "monumenta:handbook/enchantments/quench": {
+    "title": "Quench",
+    "description": "Gain 1% damage per level when you have a non-infinite vanilla potion effect active."
   },
   "monumenta:handbook/enchantments/quick_charge": {
     "title": "Quick Charge",
@@ -1326,6 +1394,10 @@
   "monumenta:handbook/enchantments/reflexes": {
     "title": "Reflexes",
     "description": "Gain (Level*20%) effective Agility when there are 4 or more enemies within 8 blocks."
+  },
+  "monumenta:handbook/enchantments/refresh": {
+    "title": "Refresh",
+    "description": "Reduces the cooldown of infinite consumables by 2% per level."
   },
   "monumenta:handbook/enchantments/regeneration": {
     "title": "Regeneration",
@@ -1385,7 +1457,11 @@
   },
   "monumenta:handbook/enchantments/sniper": {
     "title": "Sniper",
-    "description": "Projectiles deal an additional (level * 2) damage if the enemy is further than 16 blocks."
+    "description": "Projectiles deal an additional (level * 2) damage if the enemy is further than 12 blocks."
+  },
+  "monumenta:handbook/enchantments/soothing": {
+    "title": "Soothing",
+    "description": "Regenerate 0.0825 health per level each second."
   },
   "monumenta:handbook/enchantments/soulspeed": {
     "title": "Soul Speed",
@@ -1394,6 +1470,10 @@
   "monumenta:handbook/enchantments/spell_power": {
     "title": "Spell Power",
     "description": "Increases the damage of spells (+20% Spell Power increases the damage of all spells by 20%, for example), and only works with Mage skills. Spell Power stacks with the Magic Damage attribute."
+  },
+  "monumenta:handbook/enchantments/stamina": {
+    "title": "Stamina",
+    "description": "After taking damage, or dealing melee / projectile damage, gain (level * 2.5)% melee and projectile damage per level for 5 seconds. Stacks up to 4 times, for (level * 10)% max damage."
   },
   "monumenta:handbook/enchantments/starvation": {
     "title": "Starvation",
@@ -1409,11 +1489,7 @@
   },
   "monumenta:handbook/enchantments/steadfast": {
     "title": "Steadfast",
-    "description": "Scaling with percent health missing, gain up to (Level*20%) effective Armor. (0.25% armor speed per 1% health lost, up to 20% armor)"
-  },
-  "monumenta:handbook/enchantments/stylish": {
-    "title": "Stylish",
-    "description": "While your item is equipped, you gain an upper aura of black particles."
+    "description": "Scaling with percent health missing, gain up to (Level*20%) effective Armor. (0.25% Armor per 1% health lost, up to 20% Armor)"
   },
   "monumenta:handbook/enchantments/sustenance": {
     "title": "Sustenance",
@@ -1426,6 +1502,10 @@
   "monumenta:handbook/enchantments/tempo": {
     "title": "Tempo",
     "description": "Gain (Level*20%) effective Agility on the first hit taken after 4 seconds of taking no damage. Half of the bonus is granted after 2 seconds of taking no damage."
+  },
+  "monumenta:handbook/enchantments/temporalbender": {
+    "title": "Temporal Bender",
+    "description": "Restores 6 hunger and 6 saturation when eaten. Refreshes all class ability skill cooldowns by 20%. 30 second cooldown."
   },
   "monumenta:handbook/enchantments/tenacity": {
     "title": "Tenacity",
@@ -1446,6 +1526,10 @@
   "monumenta:handbook/enchantments/triage": {
     "title": "Triage",
     "description": "Increases the amount of healing you do to others by (level * 5)%."
+  },
+  "monumenta:handbook/enchantments/trivium": {
+    "title": "Trivium",
+    "description": "When hitting 3 or more mobs with a magical ability, deal (level * 10)% more magic damage."
   },
   "monumenta:handbook/enchantments/two_handed": {
     "title": "Two Handed",
@@ -1494,6 +1578,10 @@
   "monumenta:handbook/enchantments/weightless": {
     "title": "Weightless",
     "description": "May be held in the offhand without incurring a debuff from the Two Handed curse."
+  },
+  "monumenta:handbook/enchantments/windaspect": {
+    "title": "Wind Aspect",
+    "description": "Launch mobs hit by (Level * N) blocks and applies Slow Falling for 1 second."
   },
   "monumenta:handbook/important_sites/r1/academy": {
     "title": "Narsen Academy",
@@ -1749,7 +1837,7 @@
   },
   "monumenta:handbook/mobs/player_death": {
     "title": "So you've died...",
-    "description": "Happens to everyone. Your stuff won't despawn for 10 minutes or longer, so you can still recover it before then! Items that are destroyed or that despawn are placed in an unbreakable armor stand called a Grave near to where you died. A few tips: - Ask a player for help (some may help without being asked) - Keep backup gear in your plot/ender chest - Make sure you have the right gear"
+    "description": "Happens to everyone. You will not lose your stuff, but equipped items (armor and offhand) are \"Shattered\", a stacking debuff with a limit of 3 levels. A Grave will spawn where you died. It is an armor stand cosmetically wearing the same equipped gear as you when you took your final blow. Clicking your grave will clear the grave, repairing one level of Shattering on each of the armor pieces affected by that death. For more information, use /help death A few tips: - Ask a player for help (some may help without being asked) - Keep backup gear in your plot/ender chest - Make sure you have the right gear"
   },
   "monumenta:handbook/mobs/root": {
     "title": "Mobs and Combat",
@@ -1757,7 +1845,7 @@
   },
   "monumenta:handbook/mobs/shattered": {
     "title": "Shattered Items",
-    "description": "When items you dropped on death are destroyed and placed in a Grave, they are left in a shattered state. In order to become useable again, they must be repaired by a Repairman."
+    "description": "When you die, your equipped items are left in a shattered state. While wearing or using shattered items you receive heavy debuffs. If collecting your grave didn't completely restore your items, they must be repaired with an anvil. Anvils can be bought at a Repairman, which can be found at the forge in Sierhaven. For more information, use /help death"
   },
   "monumenta:handbook/money/ac": {
     "title": "Adventurer's Crystal",
@@ -2001,7 +2089,7 @@
   },
   "monumenta:pois/r1/jungle/northeast/tinyjungleruin": {
     "title": "Tiny Jungle Ruin",
-    "description": "Discover the Tiny Jungle Ruin Coordinates: x=506 y=78 z=-174"
+    "description": "Discover the Tiny Jungle Ruin Coordinates: x=503 y=80 z=-162"
   },
   "monumenta:pois/r1/jungle/northwest/ancientruin": {
     "title": "Ancient Ruin",
@@ -2101,7 +2189,7 @@
   },
   "monumenta:pois/r1/sea/aphelionisle": {
     "title": "Aphelion Isle",
-    "description": "Discover the Aphelion Isle Coordinates: x=-1571 y=90 z=395"
+    "description": "Discover the Aphelion Isle Coordinates: x=-1533 y=94 z=364"
   },
   "monumenta:pois/r1/sea/bastionofspires": {
     "title": "Bastion of Spires",
@@ -2131,13 +2219,17 @@
     "title": "Submerged Gateway",
     "description": "Discover the Submerged Gateway Coordinates: x=-1141 y=90 z=238"
   },
+  "monumenta:pois/r1/sea/sunkencity": {
+    "title": "Sunken City",
+    "description": "Discover the Sunken City Coordinates: x=-1362 y=95 z=-147"
+  },
   "monumenta:pois/r1/sea/toxinlab": {
     "title": "Toxin Lab",
     "description": "Discover the Toxin Lab Coordinates: x=-1223 y=88 z=93"
   },
   "monumenta:pois/r1/sea/witheredhideout": {
     "title": "Withered Hideout",
-    "description": "Discover the Withered Hideout Coordinates: x=-1224 y=80 z=404"
+    "description": "Discover the Withered Hideout Coordinates: x=-1219 y=93 z=426"
   },
   "monumenta:pois/r1/swamp/east/easternmine": {
     "title": "Eastern Mineshaft",
@@ -2245,7 +2337,7 @@
   },
   "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_forest_grove": {
     "title": "Crystal Forest Grove",
-    "description": "Discover the Crystal Forest Grove Coordinates: x=-1726 y=105 z=437"
+    "description": "Discover the Crystal Forest Grove Coordinates: x=-1733 y=110 z=422"
   },
   "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_mines": {
     "title": "Crystal Mines",
@@ -2261,7 +2353,7 @@
   },
   "monumenta:pois/r2/chillwind/crystalshroom_valley/irilyth": {
     "title": "Irilyth",
-    "description": "Discover the Irilyth Coordinates: x=-1597 y=109 z=497"
+    "description": "Discover Irilyth Coordinates: x=-1597 y=109 z=497"
   },
   "monumenta:pois/r2/chillwind/crystalshroom_valley/root": {
     "title": "Crystalshroom Valley",
@@ -2289,7 +2381,7 @@
   },
   "monumenta:pois/r2/chillwind/forest/smugglers_cabin": {
     "title": "Smuggler's Cabin",
-    "description": "Discover the Smuggler's Cabin Coordinates: x=-1557 y=81 z=762"
+    "description": "Discover the Smuggler's Cabin Coordinates: x=-1565 y=94 z=753"
   },
   "monumenta:pois/r2/chillwind/forest/supply_fort": {
     "title": "Supply Fort",
@@ -2301,7 +2393,7 @@
   },
   "monumenta:pois/r2/chillwind/mountains/bandits_by_the_sea": {
     "title": "Bandits By The Sea",
-    "description": "Discover the Bandits By The Sea Coordinates: x=-1123 y=110 z=102"
+    "description": "Discover the Bandits By The Sea Coordinates: x=-1130 y=106 z=92"
   },
   "monumenta:pois/r2/chillwind/mountains/brewery": {
     "title": "Brewery",
@@ -2369,7 +2461,7 @@
   },
   "monumenta:pois/r2/chillwind/permafrost/frostbitten_caves": {
     "title": "Frostbitten Caves",
-    "description": "Discover the Frostbitten Caves Coordinates: x=-1071 y=67 z=788"
+    "description": "Discover the Frostbitten Caves Coordinates: x=-1044 y=82 z=796"
   },
   "monumenta:pois/r2/chillwind/permafrost/frostgate_ruins": {
     "title": "Frostgate Ruins",
@@ -2409,7 +2501,7 @@
   },
   "monumenta:pois/r2/chillwind/tundra/church_of_munk": {
     "title": "Church of Munk",
-    "description": "Discover the Church of Munk Coordinates: x=-1193 y=105 z=483"
+    "description": "Discover the Church of Munk Coordinates: x=-1180 y=108 z=474"
   },
   "monumenta:pois/r2/chillwind/tundra/fortress_of_bacon": {
     "title": "Fortress of Bacon",
@@ -2421,11 +2513,11 @@
   },
   "monumenta:pois/r2/chillwind/tundra/riverbed_cavern": {
     "title": "Riverbed Cavern",
-    "description": "Discover the Riverbed Cavern Coordinates: x=-1353 y=83 z=418"
+    "description": "Discover the Riverbed Cavern Coordinates: x=-1358 y=91 z=455"
   },
   "monumenta:pois/r2/chillwind/tundra/rogues_fortress": {
     "title": "Rogue's Fortress",
-    "description": "Discover the Rogue's Fortress Coordinates: x=-1139 y=161 z=321"
+    "description": "Discover the Rogue's Fortress Coordinates: x=-1121 y=104 z=369"
   },
   "monumenta:pois/r2/chillwind/tundra/root": {
     "title": "Icelands",
@@ -2489,7 +2581,7 @@
   },
   "monumenta:pois/r2/desert/mesa/ashen_fortress": {
     "title": "Ashen Fortress",
-    "description": "Discover the Ashen Fortress Coordinates: x=410 y=134 z=16"
+    "description": "Discover the Ashen Fortress Coordinates: x=388 y=137 z=11"
   },
   "monumenta:pois/r2/desert/mesa/basanite_bore": {
     "title": "Basanite Bore",
@@ -2561,7 +2653,7 @@
   },
   "monumenta:pois/r2/desert/oasis/dehydrated_oasis": {
     "title": "Dehydrated Oasis",
-    "description": "Discover the Dehydrated Oasis Coordinates: x=-32 y=89 z=753"
+    "description": "Discover the Dehydrated Oasis Coordinates: x=24 y=88 z=749"
   },
   "monumenta:pois/r2/desert/oasis/mini_oasis": {
     "title": "Mini Oasis",
@@ -2597,7 +2689,7 @@
   },
   "monumenta:pois/r2/desert/trade_route/lost_sands_city": {
     "title": "Lost Sands City",
-    "description": "Discover the Lost Sands City Coordinates: x=230 y=84 z=453"
+    "description": "Discover the Lost Sands City Coordinates: x=224 y=93 z=481"
   },
   "monumenta:pois/r2/desert/trade_route/mines_of_duality": {
     "title": "Mines of Duality",
@@ -2673,7 +2765,7 @@
   },
   "monumenta:pois/r2/ocean/mid-late/madmans_redoubt": {
     "title": "Madman's Redoubt",
-    "description": "Discover the Madman's Redoubt Coordinates: x=-2200 y=48 z=-277"
+    "description": "Discover the Madman's Redoubt Coordinates: x=-2166 y=82 z=-261"
   },
   "monumenta:pois/r2/ocean/mid-late/magmortic_atheneum": {
     "title": "Magmortic Atheneum",
@@ -2709,7 +2801,7 @@
   },
   "monumenta:pois/r2/ocean/mid-late/the_minefield": {
     "title": "The Minefield",
-    "description": "Discover The Minefield Coordinates:"
+    "description": "Discover The Minefield"
   },
   "monumenta:pois/r2/ocean/mid-late/vengeance_of_the_sea": {
     "title": "Vengeance of the Sea",
@@ -2919,10 +3011,6 @@
     "title": "Outer Demons",
     "description": "What seemed like a mission to find a lost book turned into a search through the mysterious Grove, where you encountered the demon summoner Azacor."
   },
-  "monumenta:quests/r1/pirateslife": {
-    "title": "A Pirate's Life",
-    "description": "Levyn is more of a pirate than ever after you found him a parrot and peg-leg."
-  },
   "monumenta:quests/r1/pyromania": {
     "title": "Pyromania",
     "description": "Braving several lava-filled caverns, you brought Carbocius magma samples from around the valley."
@@ -3066,6 +3154,10 @@
   "monumenta:quests/r2/bloodybanquet": {
     "title": "Bloody Banquet",
     "description": "You investigated a brutal murder of a rich Countess! You caught the murderer! He's behind bars... for now."
+  },
+  "monumenta:quests/r2/borrowedtime": {
+    "title": "Borrowed Time",
+    "description": "After much debate with your allies, you brought the Crimson King to the Isles and survived a clash with the Teal Spirit. However, there is still more to do..."
   },
   "monumenta:quests/r2/breachpoint": {
     "title": "Breachpoint",
@@ -3718,6 +3810,10 @@
   "monumenta:trophies/events/2022/aprilfools": {
     "title": "Lootbox Supporter",
     "description": "April Fools!"
+  },
+  "monumenta:trophies/events/2022/halloween": {
+    "title": "Creeperween: The Creeper Strikes Back",
+    "description": "We're off with a bang! Halloween 2022"
   },
   "monumenta:trophies/events/2022/root": {
     "title": "2022 Events",
