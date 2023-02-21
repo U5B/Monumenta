@@ -6,7 +6,9 @@ const fs = require('fs')
 
 let advancements
 const regex = {
+  // r1 and r2 coordinates
   coordinates: /^x=(-?\d{1,5}) y=(-?\d{1,5}) z=(-?\d{1,5})$/, // $1 = x, $2 = y, $3 = z
+  coordinatesr3: /^(-?\d{1,5}) (-?\d{1,5}) (-?\d{1,5})$/, // $1 = x, $2 = y, $3 = z
   poi: {
     shard: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard
     region: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard, $2 = region
@@ -237,8 +239,6 @@ function parsePoi ({ id, display, title, description, advancement }) {
   const longPoi = regex.poi.long.test(id)
   const shortPoi = regex.poi.short.test(id)
   if ((longPoi || shortPoi) === false) return
-  // POIs can sometimes not have coordinates
-  if (!description[3]?.text) console.error(`[POI] '${title}' missing coordinates | advancement: '${id}'`)
   // generate poi information
   const data = { name: title.trim(), shard: '', region: '', subregion: '', coordinates: { x: '0', y: '0', z: '0' } }
   if (longPoi) { // monumenta:pois/r1/jungle/south/poi1
@@ -247,6 +247,7 @@ function parsePoi ({ id, display, title, description, advancement }) {
     data.region = converter.poi[shard][region].name
     data.subregion = converter.poi[shard][region][subregion].name
     data.coordinates = parseCoordinates(description[3]?.text)
+    if (!data.coordinates) console.error(`[POI] '${title}' missing coordinates | advancement: '${id}'`)
     if (!pois[data.name]) pois[data.name] = data // add data
     else console.error(`[POI] '${title}' has duplicate name | advancement: '${id}'`)
   } else if (shortPoi) { // monumenta:pois/r1/jungle/poi1
@@ -255,6 +256,7 @@ function parsePoi ({ id, display, title, description, advancement }) {
     data.region = converter.poi[shard][region].name
     data.subregion = null
     data.coordinates = parseCoordinates(description[3]?.text)
+    if (!data.coordinates) console.error(`[POI] '${title}' missing coordinates | advancement: '${id}'`)
     if (!pois[data.name]) pois[data.name] = data // add data
     else console.error(`[POI] '${title}' has duplicate name | advancement: '${id}'`)
   }
@@ -345,9 +347,14 @@ function checkEnchantment (name = '') { // recursively check for enchantments
 
 function parseCoordinates (text = '') {
   if (!text) return null
-  if (!regex.coordinates.test(text)) return null
-  const [, x, y, z] = regex.coordinates.exec(text)
-  return { x, y, z }
+  if (regex.coordinates.test(text)) {
+    const [, x, y, z] = regex.coordinates.exec(text)
+    return { x, y, z }
+  }
+  else if (regex.coordinatesr3.test(text)) {
+    const [, x, y, z] = regex.coordinatesr3.exec(text)
+    return { x, y, z }
+  }
 }
 
 function joinText (text = ['']) {
