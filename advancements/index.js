@@ -1,6 +1,6 @@
 // This program extracts POI data from Monumenta's advancement data.
 // Data required: POI name, region, subregion, coordinates
-
+require('dotenv').config()
 const axios = require('axios').default
 const fs = require('fs')
 
@@ -43,7 +43,7 @@ const enchantments = {}
 const all = {}
 
 async function fetchAdvancements () {
-  if (fs.existsSync('./advancement.json')) {
+  if (fs.existsSync('./advancement.json') && process.env.DEBUG === "true") {
     console.log('[FILE] Loading advancements from existing file...')
     advancements = require('./advancement.json')
     return
