@@ -1,5 +1,7 @@
+const { Console } = require('console')
 const fs = require('fs')
-const pois = require('./out/pois.json')
+const poisPath = './out/pois.json'
+const pois = require(poisPath)
 const lines = ['==List of Known POIs ==',
   '{| class="sortable fandom-table"',
   '!Name',
@@ -8,7 +10,7 @@ const lines = ['==List of Known POIs ==',
   '!Coordinates',
   '|-'
 ]
-
+console.log(`Converting pois to wiki format...`)
 for (const [, poi] of Object.entries(pois)) {
   const poiName = `|[[${poi.name}]]` // name is a link
   lines.push(poiName)
@@ -38,4 +40,6 @@ for (const [, poi] of Object.entries(pois)) {
 lines.pop()
 lines.push('|}')
 const output = lines.join('\n')
+console.log('Writing to file...')
 fs.writeFileSync('./poiTable.txt', output)
+console.log('Finished!')

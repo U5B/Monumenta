@@ -176,12 +176,8 @@
     "description": "Survived 5 waves of the Arena."
   },
   "monumenta:challenges/r1/azacor_grove/beat_azacor_hard": {
-    "title": "Azacor (Hard)",
-    "description": "Killed Azacor on Hard difficulty. (Hard Mode)"
-  },
-  "monumenta:challenges/r1/azacor_grove/beat_azacor_normal": {
-    "title": "Azacor (Normal)",
-    "description": "Killed Azacor. (Normal Mode)"
+    "title": "Azacor",
+    "description": "Deafeated the Azacor boss fight."
   },
   "monumenta:challenges/r1/browncorp/1": {
     "title": "Hall of Kings",
@@ -515,6 +511,66 @@
     "title": "Quartering",
     "description": "Claim 25 Treasures of Viridia caches."
   },
+  "monumenta:challenges/r3/gallery/complete": {
+    "title": "The Great Secret",
+    "description": "You have dispelled Markus' Nightmare in the Sanguine Halls."
+  },
+  "monumenta:challenges/r3/gallery/find": {
+    "title": "Enter the Nightmares",
+    "description": "You discovered the Gallery of Fear lobby."
+  },
+  "monumenta:challenges/r3/gallery/wave35": {
+    "title": "Visions",
+    "description": "Defeat 35 waves in the Sanguine Halls"
+  },
+  "monumenta:challenges/r3/gallery/wave50": {
+    "title": "True Horror",
+    "description": "Defeat 50 waves in the Sanguine Halls"
+  },
+  "monumenta:challenges/r3/godspore/beat_godspore": {
+    "title": "The Godspore",
+    "description": "Defeated The Godspore."
+  },
+  "monumenta:challenges/r3/godspore/duo_godspore": {
+    "title": "Divine Duo",
+    "description": "Defeat Godspore with 2 players."
+  },
+  "monumenta:challenges/r3/godspore/healthy_hero": {
+    "title": "Healthy Hero",
+    "description": "Defeat Godspore without falling under 70 Vitality for the entire fight."
+  },
+  "monumenta:challenges/r3/godspore/hurricane_yuti": {
+    "title": "Hurricane Yuti",
+    "description": "Be blown away by Windstorm Spores 3 times in a single fight and live to tell the tale."
+  },
+  "monumenta:challenges/r3/godspore/shrine_supplier": {
+    "title": "Shrine Fanatic",
+    "description": "Defeat the Godspore after activating all 4 Shrines at the same time."
+  },
+  "monumenta:challenges/r3/godspore/solo_godspore": {
+    "title": "Godspore (Solo)",
+    "description": "Defeated Godspore Solo."
+  },
+  "monumenta:challenges/r3/godspore/sporefection": {
+    "title": "Sporefection",
+    "description": "Defeat Godspore without being hit by an ability that reduces your Vitality."
+  },
+  "monumenta:challenges/r3/portal/find": {
+    "title": "Where's the Cake?",
+    "description": "You have discovered the P.O.R.T.A.L. lobby. The lab awaits... the cake awaits, too..."
+  },
+  "monumenta:challenges/r3/portal/portal": {
+    "title": "What's the acronym stand for?",
+    "description": "You have conquered the P.O.R.T.A.L. Strike. With no cake in sight."
+  },
+  "monumenta:challenges/r3/ruin/find": {
+    "title": "The Masked Fortress",
+    "description": "You have discovered the Masquerader's Ruin lobby. The Blue Wool awaits..."
+  },
+  "monumenta:challenges/r3/ruin/ruin": {
+    "title": "Retrieving What was Stolen",
+    "description": "You have conquered the Masquerader's Ruin."
+  },
   "monumenta:challenges/root": {
     "title": "Challenges",
     "description": "Complete the special challenges of each region."
@@ -522,6 +578,42 @@
   "monumenta:challenges/root_strikes": {
     "title": "Strikes",
     "description": ""
+  },
+  "monumenta:dungeons/blue/challenge": {
+    "title": "Hycenea's Challenge",
+    "description": "You conquered the Blue Wool dungeon under Challenge Delve conditions!"
+  },
+  "monumenta:dungeons/blue/complete": {
+    "title": "Defeat Blue Dungeon",
+    "description": "You found Hycenea in the Coven's Gambit and found the... Nevermind."
+  },
+  "monumenta:dungeons/blue/find": {
+    "title": "Found Blue Dungeon",
+    "description": "Hidden within a Fortress; hidden within a prison. Hycenea's chains stay bound. POI: Coven Fortress Coordinates: -531 176 -387"
+  },
+  "monumenta:dungeons/blue/find_quest": {
+    "title": "Witch in Wolf's Clothing",
+    "description": "With the forces of the Dichen and the Aradia, you raided the Coven's fortress, defeated the Council, and freed Hycenea... before Calder interrupted your victory."
+  },
+  "monumenta:dungeons/brown/challenge": {
+    "title": "Pelias' Challenge",
+    "description": "You conquered the Brown Wool dungeon under Challenge Delve conditions!"
+  },
+  "monumenta:dungeons/brown/complete": {
+    "title": "Defeat Brown Dungeon",
+    "description": "You scrapped with the mechanations below the earth and came out victorious after navigating the Cradle."
+  },
+  "monumenta:dungeons/brown/find": {
+    "title": "Found Brown Dungeon",
+    "description": "Mechanical clanking and buzzing noises spew forth from the ground. What lies deep below Pelias' folly? POI: Arx Spirensis Coordinates: -485 62 19"
+  },
+  "monumenta:dungeons/brown/find_quest": {
+    "title": "Mechs Machina",
+    "description": "You launched a counter-attack following a warning from the Machine God's Herald, and found yourself at the entrance to The Cradle of the Broken God."
+  },
+  "monumenta:dungeons/cyan/challenge": {
+    "title": "Astaroth's Challenge",
+    "description": "You conquered the Cyan Wool dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/cyan/complete": {
     "title": "Defeat Cyan Dungeon",
@@ -543,6 +635,10 @@
     "title": "Found Darkest Depths",
     "description": "Far, far below the waves lies a disturbance, a tear into our world. What possibly could have caused this? Location: Breachpoint Coordinates: x=-702 y=9 z=-186"
   },
+  "monumenta:dungeons/forum/challenge": {
+    "title": "Bhairavi's Challenge",
+    "description": "You conquered the Fallen Forum dungeon under Challenge Delve conditions!"
+  },
   "monumenta:dungeons/forum/complete": {
     "title": "Defeat The Fallen Forum",
     "description": "You delved into the ruined Congress and found the truth about what occurred there."
@@ -563,6 +659,10 @@
     "title": "Battle Tendency",
     "description": "You are a true master of the lore. Fred would be proud."
   },
+  "monumenta:dungeons/fred/challenge": {
+    "title": "Fred's Challenge",
+    "description": "You conquered the Shifting City dungeon under Challenge Delve conditions!"
+  },
   "monumenta:dungeons/fred/complete": {
     "title": "Defeat City of Shifting Waters",
     "description": "You explored the shifting depths of Steelmeld's undercity."
@@ -582,6 +682,10 @@
   "monumenta:dungeons/gray/cake": {
     "title": "Cake?",
     "description": "You discovered the true treasure within the Valley of Forgotten Pharaohs."
+  },
+  "monumenta:dungeons/gray/challenge": {
+    "title": "Hekawt's Challenge",
+    "description": "You conquered the Gray Wool dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/gray/complete": {
     "title": "Defeat Gray Dungeon",
@@ -607,6 +711,10 @@
     "title": "Prologue : Alchemy Labs",
     "description": "You volunteered to take on bandits threatening to destroy the capital's Alchemy Labs."
   },
+  "monumenta:dungeons/light_blue/challenge": {
+    "title": "Argone Challenge",
+    "description": "You conquered the Light Blue Wool dungeon under Challenge Delve conditions!"
+  },
   "monumenta:dungeons/light_blue/complete": {
     "title": "Defeat Light Blue Dungeon",
     "description": "Neither the Mages above nor the Alchemists below held power over you, as you claimed the Light Blue Wool."
@@ -618,6 +726,10 @@
   "monumenta:dungeons/light_blue/find_quest": {
     "title": "Scars of Magic",
     "description": "In your continued search for Ignos, you stumbled upon a secret of the Axtans that was best lost to time."
+  },
+  "monumenta:dungeons/light_gray/challenge": {
+    "title": "Alutana's Challenge",
+    "description": "You conquered the Light Gray Wool dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/light_gray/complete": {
     "title": "Defeat Light Gray Dungeon",
@@ -631,6 +743,10 @@
     "title": "Mirrored Egos",
     "description": "Resolving the battle of light and darkness, now only their eclipse stands in your way."
   },
+  "monumenta:dungeons/lime/challenge": {
+    "title": "Salazar's Challenge",
+    "description": "You conquered the Lime Wool dungeon under Challenge Delve conditions!"
+  },
   "monumenta:dungeons/lime/complete": {
     "title": "Defeat Lime Dungeon",
     "description": "You ventured through the lost empire of Viridia and claimed the Lime Wool."
@@ -642,6 +758,10 @@
   "monumenta:dungeons/lime/find_quest": {
     "title": "The Lost Empire",
     "description": "You had an unexpected run-in with Xeno and discoved the lost empire of Viridia."
+  },
+  "monumenta:dungeons/magenta/challenge": {
+    "title": "Myragh's Challenge",
+    "description": "You conquered the Magenta Wool dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/magenta/complete": {
     "title": "Defeat Magenta Dungeon",
@@ -655,6 +775,10 @@
     "title": "Roots of the Plague",
     "description": "You restored the power of the Grand Maw and found a way inside a dungeon."
   },
+  "monumenta:dungeons/orange/challenge": {
+    "title": "Ixume's Challenge",
+    "description": "You conquered the Orange Wool dungeon under Challenge Delve conditions!"
+  },
   "monumenta:dungeons/orange/complete": {
     "title": "Defeat Orange Dungeon",
     "description": "You claimed the Orange Wool, overcoming the experimented beastmen within the Menagerie."
@@ -666,6 +790,10 @@
   "monumenta:dungeons/orange/find_quest": {
     "title": "Beasts of Men",
     "description": "You made your way through C'Zanil's crypt and found a way inside a dungeon."
+  },
+  "monumenta:dungeons/pink/challenge": {
+    "title": "Ymmodae's Challenge",
+    "description": "You conquered the Pink Wool dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/pink/complete": {
     "title": "Defeat Pink Dungeon",
@@ -683,6 +811,10 @@
     "title": "Created Rootstrike",
     "description": "You created Rootstrike, the sword of nobles."
   },
+  "monumenta:dungeons/purple/challenge": {
+    "title": "Varcosa's Challenge",
+    "description": "You conquered the Purple Wool dungeon under Challenge Delve conditions!"
+  },
   "monumenta:dungeons/purple/complete": {
     "title": "Defeat Purple Dungeon",
     "description": "Below Corsair's Claw, you learned the truth about the final voyage of the Pirate King Varcosa."
@@ -694,6 +826,10 @@
   "monumenta:dungeons/purple/find_quest": {
     "title": "Rapacity",
     "description": "Seeking out the final fate of Salazar the Great, you discovered the mythical island of Corsair's Claw."
+  },
+  "monumenta:dungeons/r1bonus/challenge": {
+    "title": "Ezariah's Challenge",
+    "description": "You conquered the Black Willows dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/r1bonus/complete": {
     "title": "Defeat The Black Willows",
@@ -710,6 +846,10 @@
   "monumenta:dungeons/r1bonus/find_quest2": {
     "title": "The Staff?",
     "description": "Following a new trail, you took the elemental staff to four amplified shrines and found a Delve."
+  },
+  "monumenta:dungeons/reverie/challenge": {
+    "title": "Kaul's Challenge",
+    "description": "You conquered the Malevolent Reverie dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/reverie/complete": {
     "title": "Defeat Malevolent Reverie",
@@ -747,13 +887,41 @@
     "title": "Celsian Isles Dungeons",
     "description": "Dungeons you will find throughout the Celsian Isles region."
   },
+  "monumenta:dungeons/root_r3": {
+    "title": "Architect's Ring Dungeons",
+    "description": "Dungeons you will find throughout the Architect's Ring region."
+  },
   "monumenta:dungeons/sanctum/find_quest": {
     "title": "Shurima's Big Day Off",
     "description": "What started as a silly request for chores soon led you down a path to the Forsworn Sanctum."
   },
+  "monumenta:dungeons/skt/complete": {
+    "title": "Defeated SKT (Story Mode)",
+    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit."
+  },
+  "monumenta:dungeons/skt/complete_normal": {
+    "title": "Defeated SKT (Normal Mode)",
+    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit."
+  },
+  "monumenta:dungeons/skt/complete_savage": {
+    "title": "Defeated SKT (Savage Mode)",
+    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit."
+  },
+  "monumenta:dungeons/skt/find": {
+    "title": "Found the Silver Knight's Tomb",
+    "description": "Before you stands a gate, leading deep into the surviving ruins of Isharist. The Teal Spirit waits within... Coordinates: x=-1530 y=9 z=1702"
+  },
+  "monumenta:dungeons/skt/find_quest": {
+    "title": "The Tomb of Time",
+    "description": "You followed the Teal Wool Spirit into the depths of the earth and recontained it inside the ruins of Isharist... and found a new region."
+  },
   "monumenta:dungeons/skt/secret": {
     "title": "Shifting Realities",
     "description": "You unlocked the memories that fade through the threads of reality."
+  },
+  "monumenta:dungeons/teal/challenge": {
+    "title": "Max's Challenge",
+    "description": "You conquered the Teal Wool dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/teal/complete": {
     "title": "Defeat Echoes of Oblivion",
@@ -771,6 +939,10 @@
     "title": "Man of the Hour",
     "description": "You collected all Time Crystals without falling into the void once. Wonderful job!"
   },
+  "monumenta:dungeons/white/challenge": {
+    "title": "Quetzalcoatl's Challenge",
+    "description": "You conquered the White Wool dungeon under Challenge Delve conditions!"
+  },
   "monumenta:dungeons/white/complete": {
     "title": "Defeat White Dungeon",
     "description": "You defeated the guardians of Quetzalcoatl, claiming the White Wool."
@@ -782,6 +954,10 @@
   "monumenta:dungeons/white/find_quest": {
     "title": "Winds of War",
     "description": "You broke a powerful curse over the Blackroot Battlefield and found a way inside a dungeon."
+  },
+  "monumenta:dungeons/yellow/challenge": {
+    "title": "Deva's Challenge",
+    "description": "You conquered the Yellow Wool dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/yellow/complete": {
     "title": "Defeat Yellow Dungeon",
@@ -863,6 +1039,10 @@
     "title": "Intellect Crystallizer II",
     "description": "Create the Enlightened Dagger."
   },
+  "monumenta:general/intellect_crystallizer3": {
+    "title": "Intellect Crystallizer III",
+    "description": "Create the Intellect Incarnate."
+  },
   "monumenta:general/jackpot1": {
     "title": "Royal Jackpot!",
     "description": "Win the King's Warden in Rock's Little Casino."
@@ -870,6 +1050,10 @@
   "monumenta:general/jackpot2": {
     "title": "Tropical Jackpot!",
     "description": "Win the Frost Giant's Crown in Monarch's Cozy Casino."
+  },
+  "monumenta:general/jackpot3": {
+    "title": "Shady Jackpot!",
+    "description": "Win the Grand Prize Ticket in the Sticks and Stone Tavern."
   },
   "monumenta:general/kings_crown": {
     "title": "A Crowning Achievement",
@@ -906,6 +1090,14 @@
   "monumenta:general/repair2": {
     "title": "Repairman II",
     "description": "Repair 50 items."
+  },
+  "monumenta:general/repair3": {
+    "title": "Repairman III",
+    "description": "Repair 100 items."
+  },
+  "monumenta:general/repair4": {
+    "title": "Repairman IV",
+    "description": "Repair 200 items."
   },
   "monumenta:general/repair5": {
     "title": "Repairman V",
@@ -973,7 +1165,7 @@
   },
   "monumenta:handbook/enchantments/ardor": {
     "title": "Ardor",
-    "description": "Mining a spawner outside of water grants you (level * 3.75)% speed for 4s. Mining a spawner underwater refreshes (level * 0.5) breath."
+    "description": "Mining a spawner outside of water grants you (level * 3)% speed for 4s. Mining a spawner underwater refreshes (level * 0.5) breath."
   },
   "monumenta:handbook/enchantments/armor": {
     "title": "Armor",
@@ -981,11 +1173,11 @@
   },
   "monumenta:handbook/enchantments/ashesofeternity": {
     "title": "Ashes of Eternity",
-    "description": "Applies the effects of Resurrection and Void Tether upon death while holding this item. This removes the enchant from the item. If the item has the enchant by default, it will be restored after every weekly update."
+    "description": "Applies the effect of Resurrection upon death while holding this item. This removes the enchant from the item. If the item has the enchant by default, it will be restored after every weekly update."
   },
   "monumenta:handbook/enchantments/aura": {
     "title": "Aura",
-    "description": "Mobs in a 2 block radius from you are slowed by (level * 2)% for 0.5 seconds. This is refreshed as long as they are in range."
+    "description": "Mobs in a 3 block radius from you are slowed by (level * 2)% for 0.5 seconds. This is refreshed as long as they are in range."
   },
   "monumenta:handbook/enchantments/baaing": {
     "title": "Baaing",
@@ -1013,7 +1205,7 @@
   },
   "monumenta:handbook/enchantments/carapace": {
     "title": "Carapace",
-    "description": "After being hit, gain (level * 1.25)% damage reduction for 5 seconds, refreshed on being hit."
+    "description": "After being hit by a mob, gain (level * 1.25)% damage reduction for 5 seconds, refreshed on being hit."
   },
   "monumenta:handbook/enchantments/chaotic": {
     "title": "Chaotic",
@@ -1021,7 +1213,7 @@
   },
   "monumenta:handbook/enchantments/choler": {
     "title": "Choler",
-    "description": "Deal (level * 1)% additional damage to any mob that is on fire, slowed, or stunned."
+    "description": "Deal (level * 1)% additional damage to any mob that is on fire (vanilla or Inferno), slowed, or stunned."
   },
   "monumenta:handbook/enchantments/cloaked": {
     "title": "Cloaked",
@@ -1063,6 +1255,10 @@
     "title": "Debarking",
     "description": "Strips the bark off the logs you chop down."
   },
+  "monumenta:handbook/enchantments/decapitation": {
+    "title": "Decapitation",
+    "description": "On a melee critical strike, deal (1.25 * level)% additional damage."
+  },
   "monumenta:handbook/enchantments/decay": {
     "title": "Decay",
     "description": "Applies a Decay effect that deals 1 damage every (40 / level) ticks for 4 seconds."
@@ -1089,7 +1285,7 @@
   },
   "monumenta:handbook/enchantments/earthaspect": {
     "title": "Earth Aspect",
-    "description": "Upon dealing melee / projectile damage, grants (level * 5)% damage reduction for 3 seconds. Also applies upon mining a spawner."
+    "description": "Upon dealing melee damage, grants (level * 5)% damage reduction for 3 seconds. The same effect with half of the damage reduction applies when dealing projectile damage. Also applies upon mining a spawner."
   },
   "monumenta:handbook/enchantments/efficiency": {
     "title": "Efficiency",
@@ -1113,15 +1309,15 @@
   },
   "monumenta:handbook/enchantments/ethereal": {
     "title": "Ethereal",
-    "description": "Gain (Level*20%) effective Agility on hits taken within 2 seconds of any previous hit."
+    "description": "Gain (Level*20%) effective Agility on damage taken within 1.5 seconds of any previous damage from mobs."
   },
   "monumenta:handbook/enchantments/evasion": {
     "title": "Evasion",
-    "description": "Gain (Level*20%) effective Agility when taking damage from a source further than 5 blocks from the player."
+    "description": "Gain (Level*20%) effective Agility when taking damage from a source further than 4 blocks from the player."
   },
   "monumenta:handbook/enchantments/excavator": {
     "title": "Excavator",
-    "description": "Mine extra blocks in a 3 x 3 shape."
+    "description": "Mine extra blocks in a 3 x 3 shape. Sneaking disables the effect."
   },
   "monumenta:handbook/enchantments/execution": {
     "title": "Execution",
@@ -1134,14 +1330,6 @@
   "monumenta:handbook/enchantments/expedite": {
     "title": "Expedite",
     "description": "Damaging an enemy with an ability increases your movement speed by (level * 1)% for 5 seconds, stacking up to 3 times."
-  },
-  "monumenta:handbook/enchantments/explosive": {
-    "title": "Explosive",
-    "description": "Critical Arrows you shoot deals an additional (level * 10)% splash damage in a 2-block radius, which also applies any Fire/Ice/Thunder/Wind Aspect, Decay and/or Bleed enchants."
-  },
-  "monumenta:handbook/enchantments/fallfragility": {
-    "title": "Fall Fragility",
-    "description": "Multiplies fall damage taken by (0.96) ^ (-3 * level)."
   },
   "monumenta:handbook/enchantments/featherfalling": {
     "title": "Feather Falling",
@@ -1163,13 +1351,25 @@
     "title": "Fire Protection",
     "description": "Multiplies fire damage taken by (0.96) ^ (2 * level). Reduces fire duration by 10% per level."
   },
+  "monumenta:handbook/enchantments/firststrike": {
+    "title": "First Strike",
+    "description": "The first melee hit against a mob deals 10 * level % more damage, the first projectile hit against a mob deals 7.5 * level % more damage."
+  },
   "monumenta:handbook/enchantments/focus": {
     "title": "Focus",
-    "description": "+(level * 1)% ranged damage."
+    "description": "+(level * 0.75)% projectile damage."
   },
   "monumenta:handbook/enchantments/fortune": {
     "title": "Fortune",
     "description": "Increases the number of resources gained when breaking ores and certain other blocks that drop resources, based on level."
+  },
+  "monumenta:handbook/enchantments/fueled": {
+    "title": "Fueled",
+    "description": "Gain 0.3% Damage Reduction per level for every enemy that is on fire (vanilla or Inferno), slowed, or stunned within 8 blocks, capped at 4 mobs."
+  },
+  "monumenta:handbook/enchantments/galvanic": {
+    "title": "Galvanic",
+    "description": "Gain a 1.25% chance per level to stun a mob for 2 seconds (0.5 seconds for elites) when dealing or taking non-ability melee or projectile damage."
   },
   "monumenta:handbook/enchantments/gilded": {
     "title": "Gilded",
@@ -1181,7 +1381,7 @@
   },
   "monumenta:handbook/enchantments/grace": {
     "title": "Grace",
-    "description": "Gain 2% attack speed per level."
+    "description": "Gain 1.5% attack speed per level."
   },
   "monumenta:handbook/enchantments/guard": {
     "title": "Guard",
@@ -1237,7 +1437,7 @@
   },
   "monumenta:handbook/enchantments/junglesnourishment": {
     "title": "Jungle's Nourishment",
-    "description": "Fills the hunger bar when eaten. Heals 4 hearts and gives 20% resistance for 4 seconds. 25 second cooldown."
+    "description": "Fills the hunger bar when eaten. Heals 40% max health and gives 20% resistance for 5 seconds. 25 second cooldown."
   },
   "monumenta:handbook/enchantments/knockback": {
     "title": "Knockback",
@@ -1289,11 +1489,7 @@
   },
   "monumenta:handbook/enchantments/mitosis": {
     "title": "Mitosis",
-    "description": "Mining a spawner debuffs all enemy types that spawner could spawn in a 4 block radius with (level * 3.75)% Weaken for 2 seconds."
-  },
-  "monumenta:handbook/enchantments/multiload": {
-    "title": "Multiload",
-    "description": "Upon reloading your crossbow, consume up to (level) extra arrows. For each arrow consumed, instantly reload crossbow after firing."
+    "description": "Mining a spawner debuffs all enemies in a 5 block radius with (level * 3.75)% Weaken for 2 seconds."
   },
   "monumenta:handbook/enchantments/multishot": {
     "title": "Multishot",
@@ -1325,7 +1521,7 @@
   },
   "monumenta:handbook/enchantments/perspicacity": {
     "title": "Perspicacity",
-    "description": "+(level * 1)% magic damage."
+    "description": "+(level * 0.75)% magic damage."
   },
   "monumenta:handbook/enchantments/phylactery": {
     "title": "Phylactery",
@@ -1351,10 +1547,6 @@
     "title": "Projectile Protection",
     "description": "Multiplies projectile damage taken by (0.96) ^ (2 * level)."
   },
-  "monumenta:handbook/enchantments/protection_of_the_depths": {
-    "title": "Protection of the Depths",
-    "description": "While held, grants 25% damage reduction in Celsian Isles areas, or 15% damage reduction in King's Valley areas."
-  },
   "monumenta:handbook/enchantments/punch": {
     "title": "Punch",
     "description": "Projectiles gain (level * 3) blocks of knockback."
@@ -1365,7 +1557,7 @@
   },
   "monumenta:handbook/enchantments/quench": {
     "title": "Quench",
-    "description": "Gain 1% damage per level when you have a non-infinite vanilla potion effect active."
+    "description": "Increase duration of consumables by 2.5% per level."
   },
   "monumenta:handbook/enchantments/quick_charge": {
     "title": "Quick Charge",
@@ -1461,7 +1653,7 @@
   },
   "monumenta:handbook/enchantments/soothing": {
     "title": "Soothing",
-    "description": "Regenerate 0.0825 health per level each second."
+    "description": "Regenerate 0.04 health per level each second."
   },
   "monumenta:handbook/enchantments/soulspeed": {
     "title": "Soul Speed",
@@ -1473,7 +1665,7 @@
   },
   "monumenta:handbook/enchantments/stamina": {
     "title": "Stamina",
-    "description": "After taking damage, or dealing melee / projectile damage, gain (level * 2.5)% melee and projectile damage per level for 5 seconds. Stacks up to 4 times, for (level * 10)% max damage."
+    "description": "After taking damage, gain (level * 2.5)% melee and projectile damage per level for 6 seconds. Stacks up to 4 times, for (level * 10)% max damage."
   },
   "monumenta:handbook/enchantments/starvation": {
     "title": "Starvation",
@@ -1489,7 +1681,7 @@
   },
   "monumenta:handbook/enchantments/steadfast": {
     "title": "Steadfast",
-    "description": "Scaling with percent health missing, gain up to (Level*20%) effective Armor. (0.25% Armor per 1% health lost, up to 20% Armor)"
+    "description": "Gain 0.33% Armor per 1% health lost, up to 20% Armor."
   },
   "monumenta:handbook/enchantments/sustenance": {
     "title": "Sustenance",
@@ -1501,15 +1693,19 @@
   },
   "monumenta:handbook/enchantments/tempo": {
     "title": "Tempo",
-    "description": "Gain (Level*20%) effective Agility on the first hit taken after 4 seconds of taking no damage. Half of the bonus is granted after 2 seconds of taking no damage."
+    "description": "Gain (Level*20%) effective Agility on the first hit taken after 4 seconds of taking no damage from mobs. Half of the bonus is granted after 2 seconds of taking no damage from mobs."
   },
   "monumenta:handbook/enchantments/temporalbender": {
     "title": "Temporal Bender",
-    "description": "Restores 6 hunger and 6 saturation when eaten. Refreshes all class ability skill cooldowns by 20%. 30 second cooldown."
+    "description": "Restores 6 hunger and 6 saturation when eaten. Refreshes all class ability skill cooldowns by 5 seconds. 30 second cooldown."
   },
   "monumenta:handbook/enchantments/tenacity": {
     "title": "Tenacity",
     "description": "+(level * 0.5)% damage reduction."
+  },
+  "monumenta:handbook/enchantments/thorns_damage": {
+    "title": "Thorns Damage",
+    "description": "Deal (level) damage to a mob when it damages you with melee or projectile damage"
   },
   "monumenta:handbook/enchantments/throwingknife": {
     "title": "Throwing Knife",
@@ -1545,7 +1741,7 @@
   },
   "monumenta:handbook/enchantments/unyielding": {
     "title": "Unyielding",
-    "description": "Increases your Knockback Resistance by 0.4 per level."
+    "description": "Increases your Knockback Resistance by 0.6 per level."
   },
   "monumenta:handbook/enchantments/usurper": {
     "title": "Usurper",
@@ -1561,15 +1757,11 @@
   },
   "monumenta:handbook/enchantments/vigor": {
     "title": "Vigor",
-    "description": "+(level * 1)% melee damage."
+    "description": "+(level * 0.75)% melee damage."
   },
   "monumenta:handbook/enchantments/vitality": {
     "title": "Vitality",
     "description": "+(level * 1)% max health."
-  },
-  "monumenta:handbook/enchantments/voidtether": {
-    "title": "Void Tether",
-    "description": "If you die in the void, this item is consumed and a single block of obsidian is placed underneath you."
   },
   "monumenta:handbook/enchantments/weapons": {
     "title": "Weapons",
@@ -1581,7 +1773,11 @@
   },
   "monumenta:handbook/enchantments/windaspect": {
     "title": "Wind Aspect",
-    "description": "Launch mobs hit by (Level * N) blocks and applies Slow Falling for 1 second."
+    "description": "Launch mobs hit by (Level * 1.5) blocks and applies Slow Falling for 1 second."
+  },
+  "monumenta:handbook/enchantments/worldly_protection": {
+    "title": "Worldly Protection",
+    "description": "While held, 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas."
   },
   "monumenta:handbook/important_sites/r1/academy": {
     "title": "Narsen Academy",
@@ -1771,9 +1967,85 @@
     "title": "Wispervale",
     "description": "A town of magic in a culture where magic is shunned"
   },
+  "monumenta:handbook/important_sites/r3/academy": {
+    "title": "The Professor",
+    "description": "Here you can select and change your class / specialization at any time. Learn more on how you can further increase your combat capabilities with The Professor via skill enhancements !"
+  },
+  "monumenta:handbook/important_sites/r3/casino": {
+    "title": "Sticks and Stones Tavern",
+    "description": "A Casino in an unlikely place, ran by an even more unlikely staff. Every Casino Chip grants a prize, try your hand at obtaining the Epic Consumables !"
+  },
+  "monumenta:handbook/important_sites/r3/fatekeeper": {
+    "title": "Fatekeeper",
+    "description": "Check with the Fatekeeper to determine your destiny. You can change your overworld delve modifiers with the Fatekeeper."
+  },
+  "monumenta:handbook/important_sites/r3/galengarde": {
+    "title": "Galengarde",
+    "description": "A safe haven for the Dichen and capital of the region, established around a colossal tree."
+  },
+  "monumenta:handbook/important_sites/r3/infusion": {
+    "title": "Infusion Altar",
+    "description": "The technique to imbue power into equipment, will allow you to strengthen your gear and trascend mortal limits."
+  },
+  "monumenta:handbook/important_sites/r3/library": {
+    "title": "Library",
+    "description": "Consult the Seer and read your cards. Come here to obtain a bounty and conquer it for unique rewards !"
+  },
+  "monumenta:handbook/important_sites/r3/masterworkanvil": {
+    "title": "Masterwork Anvil",
+    "description": "The Masterwork Anvil is a new system to awaken your equipment's true capabilities using rare materials related to the item's origins."
+  },
+  "monumenta:handbook/important_sites/r3/newantium": {
+    "title": "New Antium",
+    "description": "The remnants of a thriving civilization, bound by hunger and haunted by shades."
+  },
+  "monumenta:handbook/important_sites/r3/patron_shrine": {
+    "title": "Altar of Altruism",
+    "description": "Patrons can activate this shrine to grant buffs to the whole server. If you wish to change what messages the patron shrine sends you or toggle what effects you want to get, interact with it and select options. Region 3 Patreon Shrine"
+  },
+  "monumenta:handbook/important_sites/r3/portmanteau": {
+    "title": "Port Manteau",
+    "description": "A picturesque fishing town on the northern coast of the Wolfswood, overlooked by the capital."
+  },
+  "monumenta:handbook/important_sites/r3/root": {
+    "title": "The Architect's Ring",
+    "description": "A secluded and isolated land, hiden away from the rest of the world."
+  },
+  "monumenta:handbook/important_sites/r3/teleport_hub": {
+    "title": "R3 Teleport Hub",
+    "description": "Fast travel to towns, plots, dungeons and more! Region 3 Teleport Hub"
+  },
+  "monumenta:handbook/important_sites/r3/workshop": {
+    "title": "Workshop",
+    "description": "The Workshop is the place where you can repair items, sell tiered items and transmogrify items... all in one spot! - Transmogrifications require scented candles produced and sold by Hagatha. - Four Tier III items gives you Pulsating Shard .- Two Rare Items give you a random Rare Item."
+  },
   "monumenta:handbook/important_sites/root": {
     "title": "Important Locations",
     "description": "Places you may want to revisit."
+  },
+  "monumenta:handbook/item_tiers/ar/architectring": {
+    "title": "Architect's Ring Items",
+    "description": "Items from Region 3, the Architect's Ring! - Maximum item tier is Tier 3, which can be transmogrified into Pulsating Shards. - Wearing these in R1 or R2 incurs a heavy debuff. - Rare Items and up includes a new upgrading system, Masterwork!"
+  },
+  "monumenta:handbook/item_tiers/ar/charm": {
+    "title": "Architect's Ring: Charm",
+    "description": "Trinkets which further enhances your skills! - Charms are special equipment that enhances your abilities, and even some enchantments! - You need Charm Power to equip a Charm, and cannot equip two of the same Charms. Usually, the more powerful a Charm is, the more Charm Power it uses, - You start out with 9 Charm Power, as you explore Ring, you may acquire even more Charm Power. - Furthermore, there are some interesting folks out there that have the ability to combine charms together, making them stronger!"
+  },
+  "monumenta:handbook/item_tiers/ar/epiccharm": {
+    "title": "Architect's Ring: Epic Charms",
+    "description": "Trinkets from Fiction and Folklore! - Epic Charms are obtained via various special expensive means. - There is no further upgrade that can be made this charm, they can only be traded with other players."
+  },
+  "monumenta:handbook/item_tiers/ar/legendary": {
+    "title": "Architect's Ring: Legendary",
+    "description": "The Final Evolution of the Masterwork Process. - Legendaries are the final results of a completed Masterwork Item. - There is no further upgrade that can be made, these items are one-of-a-kind and strongest for its purpose. - Getting an item to this stage can be incredibly expensive and time consuming, thankfully the final step can be reverted to salvage some of its materials back."
+  },
+  "monumenta:handbook/item_tiers/ar/masterwork": {
+    "title": "Masterwork Items",
+    "description": "Upgradable Items exclusive to Architect's Ring! - Most Non-Tiered items in the Architect's Ring starts off with a Masterwork rank. - Items in earlier parts of the region may start out weak, but using special materials , these items can be upgraded to be much more powerful, even changing its rarity! - As a silver lining, items of similar Masterwork Rank should have a similar power level. - Consult the Masterwork Anvil for more information!"
+  },
+  "monumenta:handbook/item_tiers/ar/rarecharm": {
+    "title": "Architect's Ring: Rare Charms",
+    "description": "Rarer and Unique Trinkets! - Rare Charms are often unique charms found only in a specific biome, dungeon or quests. - These charms cannot be upgraded, but contains unique effects unlike normal charms."
   },
   "monumenta:handbook/item_tiers/ci/celsianisles": {
     "title": "Celsian Isles Items",
@@ -1789,11 +2061,11 @@
   },
   "monumenta:handbook/item_tiers/kv/3": {
     "title": "King's Valley : Tier III",
-    "description": "Getting better. - Found in most POIs. - Can sell for money. - Can sell for a Circus Ticket. - Can transmogrify four for a random Tier IV item."
+    "description": "Getting better. - Found in most POIs. - Can sell for money. - Can sell for a Circus Ticket."
   },
   "monumenta:handbook/item_tiers/kv/4": {
     "title": "King's Valley : Tier IV",
-    "description": "Pretty good! - Found in late-game POIs. - Can sell for money. - Can sell for a Circus Ticket. - Can transmogrify four for a random Tier V item."
+    "description": "Pretty good! - Found in late-game POIs. - Can sell for money. - Can sell for a Circus Ticket."
   },
   "monumenta:handbook/item_tiers/kv/5": {
     "title": "King's Valley : Tier V",
@@ -1851,6 +2123,18 @@
     "title": "Adventurer's Crystal",
     "description": "Reward for conquering an amplified location. Used for trades with the Plot Assistant Coordinator."
   },
+  "monumenta:handbook/money/achip": {
+    "title": "Archite Chip",
+    "description": "Casino Currency. Can be converted back to AR freely."
+  },
+  "monumenta:handbook/money/ar": {
+    "title": "Archos Ring",
+    "description": "AR; The basic currency of Architect's Ring."
+  },
+  "monumenta:handbook/money/augments": {
+    "title": "Augments",
+    "description": "Special Currency found in the Architect's Ring. Can be used to augment certain items."
+  },
   "monumenta:handbook/money/cchip": {
     "title": "Crystalline Chip",
     "description": "Casino currency. Can be converted to CCS and back freely."
@@ -1871,6 +2155,10 @@
     "title": "Concentrated Experience",
     "description": "CXP; Used for more expensive trades. Can be converted to XP and back freely."
   },
+  "monumenta:handbook/money/gc": {
+    "title": "Godtree Carving",
+    "description": "GC; Reward for an Architect Bounty. Some items can only be purchased with these."
+  },
   "monumenta:handbook/money/gd": {
     "title": "Gleaming Dust",
     "description": "Special currency given for breaking down Region 2 rare items into their base form in Dungeon Lobbies."
@@ -1878,6 +2166,10 @@
   "monumenta:handbook/money/gs": {
     "title": "Gleaming Seashell",
     "description": "GS; Reward for a Celsian Bounty. Some items can only be purchased with these."
+  },
+  "monumenta:handbook/money/har": {
+    "title": "Hyperchromatic Archos Ring",
+    "description": "HAR; Used for more expensive trades. Can be converted back to AR freely."
   },
   "monumenta:handbook/money/hcs": {
     "title": "Hyper Crystalline Shard",
@@ -1891,6 +2183,10 @@
     "title": "Pulsating Dust",
     "description": "Special currency given for transmogrifying four Tier 5 items from region 1."
   },
+  "monumenta:handbook/money/pdia": {
+    "title": "Pulsating Diamond",
+    "description": "Special Currency given for combining two Silver Dust from region 3 at the Infusion Altar."
+  },
   "monumenta:handbook/money/pe": {
     "title": "Pulsating Emerald",
     "description": "Special currency given for combining two Gleaming Dust from region 2 with Jean Bay at the Infusion Altar."
@@ -1902,6 +2198,10 @@
   "monumenta:handbook/money/pp": {
     "title": "Pulsating Powder",
     "description": "Special currency given for transmogrifying four Tier 5 items from region 2."
+  },
+  "monumenta:handbook/money/ps": {
+    "title": "Pulsating Shard",
+    "description": "Special Currency given for transmogrifying four Tier 3 items from region 3."
   },
   "monumenta:handbook/money/rc": {
     "title": "Royal Crystal",
@@ -1918,6 +2218,10 @@
   "monumenta:handbook/money/scchip": {
     "title": "Special Crystalline Chip",
     "description": "Rigged casino currency. More likely to land a jackpot than a normal chip."
+  },
+  "monumenta:handbook/money/sd": {
+    "title": "Silver Dust",
+    "description": "Special currency given for breaking down Region 3 rare items into their base form in Dungeon Lobbies."
   },
   "monumenta:handbook/money/xp": {
     "title": "Experience",
@@ -2197,7 +2501,7 @@
   },
   "monumenta:pois/r1/sea/cathedralofthedeep": {
     "title": "Cathedral of the Deep",
-    "description": "Discover the Cathedral of the Deep Coordinates: x=-1596 y=35 z=355"
+    "description": "Discover the Cathedral of the Deep Coordinates: x=-1596 y=34 z=355"
   },
   "monumenta:pois/r1/sea/cloudpiercer": {
     "title": "Cloud Piercer",
@@ -2211,9 +2515,21 @@
     "title": "Narsen Sea",
     "description": "Enter the Narsen Sea"
   },
+  "monumenta:pois/r1/sea/root_farwaters": {
+    "title": "Far Waters",
+    "description": "Enter the Far Waters"
+  },
+  "monumenta:pois/r1/sea/root_royalshoreline": {
+    "title": "Royal Shoreline",
+    "description": "Enter the Royal Shoreline"
+  },
   "monumenta:pois/r1/sea/seaoutpost": {
     "title": "Sea Outpost",
     "description": "Discover the Sea Outpost Coordinates: x=-1161 y=92 z=-176"
+  },
+  "monumenta:pois/r1/sea/shroomboundgrotto": {
+    "title": "Shroombound Grotto",
+    "description": "Discover the Shroombound Grotto Coordinates: x=-1079 y=92 z=359"
   },
   "monumenta:pois/r1/sea/submergedgateway": {
     "title": "Submerged Gateway",
@@ -2855,6 +3171,110 @@
     "title": "Ocean",
     "description": "Enter the Celsian Ocean"
   },
+  "monumenta:pois/r3/pelias_keep/arx_spirensis": {
+    "title": "Arx Spirensis",
+    "description": "Discover the Arx Spirensis Coordinates: -487 60 15"
+  },
+  "monumenta:pois/r3/pelias_keep/doomed_encampment": {
+    "title": "Doomed Encampment",
+    "description": "Discover the Doomed Encampment Coordinates: -506 177 65"
+  },
+  "monumenta:pois/r3/pelias_keep/forsaken_manor": {
+    "title": "Forsaken Manor",
+    "description": "Discover the Forsaken Manor Coordinates: -462 181 139"
+  },
+  "monumenta:pois/r3/pelias_keep/quelled_convent": {
+    "title": "Quelled Convent",
+    "description": "Discover the Quelled Convent Coordinates: -365 186 35"
+  },
+  "monumenta:pois/r3/pelias_keep/root": {
+    "title": "Pelias' Keep",
+    "description": "Enter Pelias' Keep"
+  },
+  "monumenta:pois/r3/pelias_keep/silvic_quarry": {
+    "title": "Silvic Quarry",
+    "description": "Discover the Silvic Quarry Coordinates: -543 183 -58"
+  },
+  "monumenta:pois/r3/pelias_keep/submerged_citadel": {
+    "title": "Submerged Citadel",
+    "description": "Discover the Submerged Citadel Coordinates: -376 102 220"
+  },
+  "monumenta:pois/r3/shrines/boon_of_knightly_prayer": {
+    "title": "Boon of Knightly Prayer",
+    "description": "Discover the Knightly Prayer Shrine. Coordinates: -421 179 233"
+  },
+  "monumenta:pois/r3/shrines/boon_of_silver_scales": {
+    "title": "Boon of Silver Scales",
+    "description": "Discover the Silver Scales Shrine. Coordinates: -279 83 -486"
+  },
+  "monumenta:pois/r3/shrines/boon_of_the_pit": {
+    "title": "Boon of the Pit",
+    "description": "Discover the Pit Shrine. Coordinates: -618 64 -408"
+  },
+  "monumenta:pois/r3/shrines/crystalline_blessing": {
+    "title": "Crystalline Blessing",
+    "description": "Discover the Crystalline Shrine. Coordinates: -260 43 -366"
+  },
+  "monumenta:pois/r3/shrines/curse_of_the_dark_soul": {
+    "title": "Curse of the Dark Soul",
+    "description": "Discover the Cursed Shrine. Coordinates: ???"
+  },
+  "monumenta:pois/r3/shrines/deep_gods_endowment": {
+    "title": "Deep God's Endowment",
+    "description": "Discover the Deep God Shrine. Coordinates: -389 91 -294"
+  },
+  "monumenta:pois/r3/shrines/grace_of_star_communion": {
+    "title": "Grace of Star Communion",
+    "description": "Discover the Star Communion Shrine. Coordinates: -399 175 502"
+  },
+  "monumenta:pois/r3/shrines/harrakfars_blessing": {
+    "title": "Harrakfar's Blessing",
+    "description": "Discover Harrakfar's Shrine. Coordinates: -339 89 -719"
+  },
+  "monumenta:pois/r3/shrines/pool_of_purging": {
+    "title": "Pool of Purging",
+    "description": "Discover the Pool of Purging. Coordinates: -430 65 -549"
+  },
+  "monumenta:pois/r3/shrines/root": {
+    "title": "Shrines",
+    "description": "Shrines are special locations in the Architect's Ring where you may obtain"
+  },
+  "monumenta:pois/r3/shrines/tuathan_blessing": {
+    "title": "Tuathan Blessing",
+    "description": "Discover the Tuathan Shrine. Coordinates: -321 177 62"
+  },
+  "monumenta:pois/r3/wolfswood/amanita_colony": {
+    "title": "Amanita Colony",
+    "description": "Discover the Amanita Colony Coordinates: -270 104 -292"
+  },
+  "monumenta:pois/r3/wolfswood/bewitched_dominion": {
+    "title": "Bewitched Dominion",
+    "description": "Discover the Bewitched Dominion Coordinates: -681 107 -220"
+  },
+  "monumenta:pois/r3/wolfswood/chanterelle_village": {
+    "title": "Chanterelle Village",
+    "description": "Discover the Chanterelle Village Coordinates: -300 98 -390"
+  },
+  "monumenta:pois/r3/wolfswood/coven_fortress": {
+    "title": "Coven Fortress",
+    "description": "Discover the Coven Fortress Coordinates: -547 100 -320"
+  },
+  "monumenta:pois/r3/wolfswood/locum_vernantia": {
+    "title": "Locum Vernantia",
+    "description": "Discover the Locum Vernantia Coordinates: -631 35 -576"
+  },
+  "monumenta:pois/r3/wolfswood/root": {
+    "title": "Wolfswood",
+    "description": "Enter the Wolfswood"
+  },
+  "monumenta:pois/r3/wolfswood/shadowcast_bastille": {
+    "title": "Shadowcast Bastille",
+    "description": "Discover the Shadowcast Bastille Coordinates: -202 72 -503"
+  },
+  "monumenta:pois/r3/wolfswood/vibrant_hollow": {
+    "title": "Vibrant Hollow",
+    "description": "Discover the Vibrant Hollow Coordinates: -549 42 -698"
+  },
   "monumenta:quests/r1/abeastofabook": {
     "title": "A Beast of a Book",
     "description": "You learned from an expert hunter and earned your own Bestiary."
@@ -3407,6 +3827,70 @@
     "title": "Xenophobia",
     "description": "You searched out clues for Xeno and discovered his connection with Calder."
   },
+  "monumenta:quests/r3/acharmingproposition": {
+    "title": "A Charming Proposition",
+    "description": "You learned more about Charms, and conquered Vibrant Hollow."
+  },
+  "monumenta:quests/r3/cureforinsomnia": {
+    "title": "Cure for Insomnia",
+    "description": "You passed out after performing a ritual, and woke up inside The Gallery of Fear."
+  },
+  "monumenta:quests/r3/galengarde": {
+    "title": "Galengarde",
+    "description": "Discover the City of Galengarde"
+  },
+  "monumenta:quests/r3/hisfaithfulservant": {
+    "title": "His Faithful Servant",
+    "description": "You discovered the Shrines of the Architect's Ring, alongside Cadeus."
+  },
+  "monumenta:quests/r3/intothewoods": {
+    "title": "Into the Woods",
+    "description": "You assisted the city of Galengarde with a number of tasks to earn an audience with their leaders."
+  },
+  "monumenta:quests/r3/keeperagents": {
+    "title": "Keeper Agents",
+    "description": "You uncovered a dark secret about the doctor of New Antium with help from the High Priest."
+  },
+  "monumenta:quests/r3/newantium": {
+    "title": "New Antium",
+    "description": "Discover the City of New Antium"
+  },
+  "monumenta:quests/r3/ofmushroomsandmagic": {
+    "title": "Of Mushrooms and Magic",
+    "description": "You attempted to make peace with the Mycelia, but instead found allies within the Coven."
+  },
+  "monumenta:quests/r3/portmanteau": {
+    "title": "Port Manteau",
+    "description": "Discover the Dock Town of Port Manteau"
+  },
+  "monumenta:quests/r3/praetorerstrike": {
+    "title": "Praetorer Strike",
+    "description": "You battled through a Shade-infested Point of Interest to help the Praetor of New Antium."
+  },
+  "monumenta:quests/r3/ringaroundtherose": {
+    "title": "Ring Around the Rose",
+    "description": "You assisted a group of researchers in order to figure out how to reach the Architect's Ring."
+  },
+  "monumenta:quests/r3/root": {
+    "title": "Architect's Ring Quests",
+    "description": "Does this Ring a Bell?"
+  },
+  "monumenta:quests/r3/scientistsofsteelmeldiii": {
+    "title": "Scientists of Steelmeld III",
+    "description": "You rescued IOTA from Bermuda's malfunctioning lab."
+  },
+  "monumenta:quests/r3/sporetalcombat": {
+    "title": "Sporetal Combat",
+    "description": "You attended Conquort's Funeral, but were interrupted by the Abello requesting help to fight back against the Godspore."
+  },
+  "monumenta:quests/r3/unconventionalmethods": {
+    "title": "Unconventional Methods",
+    "description": "You scavanged tombs for Void and answers, while Calder wreaked havoc elsewhere."
+  },
+  "monumenta:quests/r3/unraveled": {
+    "title": "Unraveled",
+    "description": "You retrieved the Blue Wool from Samwell in the Masquerader's Ruin"
+  },
   "monumenta:speedster/bonusdungeons/all": {
     "title": "Alternative Speedster",
     "description": "Complete all races of Bonus Dungeons."
@@ -3418,6 +3902,10 @@
   "monumenta:speedster/bonusdungeons/circuit": {
     "title": "Speedster: C'Ircuit",
     "description": "Successfully finished C'Ircuit Race"
+  },
+  "monumenta:speedster/bonusdungeons/silver_surfer": {
+    "title": "Speedster: Silver Surfer",
+    "description": "Successfully finished Silver Surfer Race"
   },
   "monumenta:speedster/bonusdungeons/speed_reading": {
     "title": "Speedster: Speed Reading",
@@ -3583,6 +4071,22 @@
     "title": "Speedster: Fast Whispers",
     "description": "Reached Bronze time on Fast Whispers Race"
   },
+  "monumenta:speedster/r2/frostdrift/0": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Master time on Frost Drift Race"
+  },
+  "monumenta:speedster/r2/frostdrift/1": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Gold time on Frost Drift Race"
+  },
+  "monumenta:speedster/r2/frostdrift/2": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Silver time on Frost Drift Race"
+  },
+  "monumenta:speedster/r2/frostdrift/3": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Bronze time on Frost Drift Race"
+  },
   "monumenta:speedster/r2/mistywaters/0": {
     "title": "Speedster: Misty Waters",
     "description": "Reached Master time on Misty Waters"
@@ -3663,6 +4167,58 @@
     "title": "Speedster: Trackmaster",
     "description": "Reached Bronze time on Trackmaster Race"
   },
+  "monumenta:speedster/r3/all": {
+    "title": "Speedster of Architect's Ring",
+    "description": "Complete all races in Architect's Ring at Master rank."
+  },
+  "monumenta:speedster/r3/citytour/0": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Master time on City Tour Race"
+  },
+  "monumenta:speedster/r3/citytour/1": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Gold time on City Tour Race"
+  },
+  "monumenta:speedster/r3/citytour/2": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Silver time on City Race"
+  },
+  "monumenta:speedster/r3/citytour/3": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Bronze time on City Tour Race"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/0": {
+    "title": "Speedster: Coastal Curcuit",
+    "description": "Reached Master time on Coastal Curcuit Race"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/1": {
+    "title": "Speedster: Coastal Curcuit",
+    "description": "Reached Gold time on Coastal Curcuit Race"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/2": {
+    "title": "Speedster: Coastal Curcuit",
+    "description": "Reached Silver time on Coastal Curcuit Race"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/3": {
+    "title": "Speedster: Coastal Curcuit",
+    "description": "Reached Bronze time on Coastal Curcuit Race"
+  },
+  "monumenta:speedster/r3/rapidascent/0": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Master time on Rapid Ascent Race"
+  },
+  "monumenta:speedster/r3/rapidascent/1": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Gold time on Rapid Ascent Race"
+  },
+  "monumenta:speedster/r3/rapidascent/2": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Silver time on Rapid Ascent Race"
+  },
+  "monumenta:speedster/r3/rapidascent/3": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Bronze time on Rapid Ascent Race"
+  },
   "monumenta:speedster/wooldungeons/all": {
     "title": "Primordial Speedster",
     "description": "Complete all races of Wool Dungeons."
@@ -3703,6 +4259,10 @@
     "title": "Speedster: Time Flies",
     "description": "Successfully finished Time Flies Race"
   },
+  "monumenta:speedster/wooldungeons/treks_machina": {
+    "title": "Speedster: Treks Machina",
+    "description": "Successfully finished Treks Machina Race"
+  },
   "monumenta:speedster/wooldungeons/truly_occult": {
     "title": "Speedster: Truly Occult",
     "description": "Successfully finished Truly Occult Race"
@@ -3710,6 +4270,10 @@
   "monumenta:speedster/wooldungeons/wild_waltz": {
     "title": "Speedster: Wild Waltz",
     "description": "Successfully finished Wild Waltz Race"
+  },
+  "monumenta:speedster/wooldungeons/witchhiking": {
+    "title": "Speedster: Witchhiking",
+    "description": "Successfully finished Witchhiking Race"
   },
   "monumenta:speedster/wooldungeons/zoo_tour": {
     "title": "Speedster: Zoo Tour",
@@ -3819,9 +4383,21 @@
     "title": "2022 Events",
     "description": "Events that occurred in 2022"
   },
+  "monumenta:trophies/events/2022/snowman2solo": {
+    "title": "Winter 2022 - Solo PvE",
+    "description": "Won the Sierhaven Snowball Brawl solo against the frosty snowman armies."
+  },
   "monumenta:trophies/events/2022/valentines": {
     "title": "Valentine's Day 2022",
     "description": "Met Zemog and Aicitrom"
+  },
+  "monumenta:trophies/events/2022/winter": {
+    "title": "Let It Snow!",
+    "description": "You experienced a true Sierhaven Christmas, and engaged in a snowball fight!"
+  },
+  "monumenta:trophies/events/2022/winter2": {
+    "title": "Drift Legend",
+    "description": "You were recognized as a true master of drifting in a game of Ice Spleef."
   },
   "monumenta:trophies/root": {
     "title": "Trophies",

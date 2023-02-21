@@ -92,6 +92,18 @@
         "name": "Ocean"
       },
       "name": "Celsian Isles"
+    },
+    "r3": {
+      "pelias_keep": {
+        "name": "Pelias' Keep"
+      },
+      "name": "Architect's Ring",
+      "shrines": {
+        "name": "Shrines                            "
+      },
+      "wolfswood": {
+        "name": "Wolfswood"
+      }
     }
   },
   "quest": {
@@ -228,7 +240,21 @@
     "woof10": "woof",
     "woof100": "woof50",
     "woof50": "woof10",
-    "xenophobia": "wizardsapprentice"
+    "xenophobia": "wizardsapprentice",
+    "acharmingproposition": "portmanteau",
+    "cureforinsomnia": "newantium",
+    "galengarde": "ringaroundtherose",
+    "hisfaithfulservant": "galengarde",
+    "intothewoods": "portmanteau",
+    "keeperagents": "praetorerstrike",
+    "newantium": "ringaroundtherose",
+    "ofmushroomsandmagic": "galengarde",
+    "portmanteau": "ringaroundtherose",
+    "praetorerstrike": "cureforinsomnia",
+    "scientistsofsteelmeldiii": "galengarde",
+    "sporetalcombat": "unraveled",
+    "unconventionalmethods": "keeperagents",
+    "unraveled": "ofmushroomsandmagic"
   },
   "sites": {
     "r1": {
@@ -422,6 +448,60 @@
         "name": "Wispervale",
         "description": "A town of magic in a culture where magic is shunned"
       }
+    },
+    "r3": {
+      "academy": {
+        "name": "The Professor",
+        "description": "Here you can select and change your class / specialization at any time. Learn more on how you can further increase your combat capabilities with The Professor via skill enhancements !"
+      },
+      "casino": {
+        "name": "Sticks and Stones Tavern",
+        "description": "A Casino in an unlikely place, ran by an even more unlikely staff. Every Casino Chip grants a prize, try your hand at obtaining the Epic Consumables !"
+      },
+      "fatekeeper": {
+        "name": "Fatekeeper",
+        "description": "Check with the Fatekeeper to determine your destiny. You can change your overworld delve modifiers with the Fatekeeper."
+      },
+      "galengarde": {
+        "name": "Galengarde",
+        "description": "A safe haven for the Dichen and capital of the region, established around a colossal tree."
+      },
+      "infusion": {
+        "name": "Infusion Altar",
+        "description": "The technique to imbue power into equipment, will allow you to strengthen your gear and trascend mortal limits."
+      },
+      "library": {
+        "name": "Library",
+        "description": "Consult the Seer and read your cards. Come here to obtain a bounty and conquer it for unique rewards !"
+      },
+      "masterworkanvil": {
+        "name": "Masterwork Anvil",
+        "description": "The Masterwork Anvil is a new system to awaken your equipment's true capabilities using rare materials related to the item's origins."
+      },
+      "newantium": {
+        "name": "New Antium",
+        "description": "The remnants of a thriving civilization, bound by hunger and haunted by shades."
+      },
+      "patron_shrine": {
+        "name": "Altar of Altruism",
+        "description": "Patrons can activate this shrine to grant buffs to the whole server. If you wish to change what messages the patron shrine sends you or toggle what effects you want to get, interact with it and select options. Region 3 Patreon Shrine"
+      },
+      "portmanteau": {
+        "name": "Port Manteau",
+        "description": "A picturesque fishing town on the northern coast of the Wolfswood, overlooked by the capital."
+      },
+      "root": {
+        "name": "The Architect's Ring",
+        "description": "A secluded and isolated land, hiden away from the rest of the world."
+      },
+      "teleport_hub": {
+        "name": "R3 Teleport Hub",
+        "description": "Fast travel to towns, plots, dungeons and more! Region 3 Teleport Hub"
+      },
+      "workshop": {
+        "name": "Workshop",
+        "description": "The Workshop is the place where you can repair items, sell tiered items and transmogrify items... all in one spot! - Transmogrifications require scented candles produced and sold by Hagatha. - Four Tier III items gives you Pulsating Shard .- Two Rare Items give you a random Rare Item."
+      }
     }
   },
   "enchantments": {
@@ -455,13 +535,14 @@
       "crippling": "vanishing",
       "darksight": "infinity",
       "debarking": "sapper",
+      "decapitation": "galvanic",
       "decay": "thunderaspect",
       "depthstrider": "aquaaffinity",
       "divineaura": "festive",
       "duelist": "hexeater",
       "earthaspect": "windaspect",
       "efficiency": "looting",
-      "empowered": "usurper",
+      "empowered": "delve_infusions",
       "ephemerality": "two_handed",
       "epoch": "ardor",
       "eruption": "barking",
@@ -471,26 +552,27 @@
       "execution": "nutriment",
       "exorcism": "throwingknife",
       "expedite": "aura",
-      "explosive": "quick_charge",
-      "fallfragility": "firefragility",
       "featherfalling": "fireprotection",
       "festive": "gilded",
       "fireaspect": "knockback",
       "firefragility": "blastfragility",
       "fireprotection": "blastprotection",
+      "firststrike": "trivium",
       "focus": "vigor",
       "fortune": "efficiency",
+      "fueled": "decapitation",
+      "galvanic": "grace",
       "gilded": "baaing",
       "gills": "regeneration",
       "grace": "quench",
-      "guard": "protection_of_the_depths",
+      "guard": "worldly_protection",
       "hexeater": "smite",
       "hope": "perspicacity",
       "iceaspect": "fireaspect",
       "ineptitude": "starvation",
       "inferno": "regicide",
       "infinity": "mending",
-      "instantdrink": "voidtether",
+      "instantdrink": "resurrection",
       "intoxicatingwarmth": "temporalbender",
       "intuition": "soulspeed",
       "inure": "poise",
@@ -509,7 +591,6 @@
       "meleeprotection": "defenses",
       "mending": "unbreaking",
       "mitosis": "reflection",
-      "multiload": "explosive",
       "multishot": "recoil",
       "multitool": "silktouch",
       "natant": "epoch",
@@ -523,7 +604,6 @@
       "poise": "shielding",
       "projectilefragility": "meleefragility",
       "projectileprotection": "meleeprotection",
-      "protection_of_the_depths": "second_wind",
       "punch": "ranged",
       "quake": "bleeding",
       "quench": "soothing",
@@ -533,7 +613,7 @@
       "recoil": "sniper",
       "reflection": "execution",
       "reflexes": "evasion",
-      "refresh": "understanding",
+      "refresh": "delve_infusions",
       "regeneration": "radiant",
       "regicide": "abyssal",
       "respiration": "depthstrider",
@@ -561,6 +641,7 @@
       "tempo": "ethereal",
       "temporalbender": "stasis",
       "tenacity": "infusions",
+      "thorns_damage": "stamina",
       "throwingknife": "rageoftheketer",
       "thunderaspect": "iceaspect",
       "triage": "aptitude",
@@ -574,9 +655,9 @@
       "vengeful": "choler",
       "vigor": "vitality",
       "vitality": "tenacity",
-      "voidtether": "resurrection",
       "weightless": "adrenaline",
-      "windaspect": "quake"
+      "windaspect": "quake",
+      "worldly_protection": "second_wind"
     },
     "category": {
       "consumables": {

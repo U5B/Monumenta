@@ -1,4 +1,24 @@
 {
+  "Blue Dungeon": {
+    "name": "Blue Dungeon",
+    "description": "Hidden within a Fortress; hidden within a prison. Hycenea's chains stay bound.",
+    "poi": "Coven Fortress",
+    "coordinates": {
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    }
+  },
+  "Brown Dungeon": {
+    "name": "Brown Dungeon",
+    "description": "Mechanical clanking and buzzing noises spew forth from the ground. What lies deep below Pelias' folly?",
+    "poi": "Arx Spirensis",
+    "coordinates": {
+      "x": "0",
+      "y": "0",
+      "z": "0"
+    }
+  },
   "Cyan Dungeon": {
     "name": "Cyan Dungeon",
     "description": "Deep below the ground lies an abandoned mineshaft, stained with secrets long forgotten. For what is a greater folly of man than the sin of greed?",
@@ -157,6 +177,16 @@
       "x": "819",
       "y": "110",
       "z": "209"
+    }
+  },
+  "the Silver Knight's Tomb": {
+    "name": "the Silver Knight's Tomb",
+    "description": "Before you stands a gate, leading deep into the surviving ruins of Isharist. The Teal Spirit waits within...",
+    "poi": null,
+    "coordinates": {
+      "x": "-1530",
+      "y": "9",
+      "z": "1702"
     }
   },
   "Echoes of Oblivion": {
