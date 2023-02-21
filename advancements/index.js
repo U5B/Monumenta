@@ -1,6 +1,8 @@
 // This program extracts POI data from Monumenta's advancement data.
 // Data required: POI name, region, subregion, coordinates
 require('dotenv').config()
+const registry = require('prismarine-registry')('1.16')
+const ChatMessage = require('prismarine-chat')(registry)
 const axios = require('axios').default
 const fs = require('fs')
 
@@ -8,6 +10,7 @@ let advancements
 const regex = {
   // r1 and r2 coordinates
   coordinates: /^x=(-?\d{1,5}) y=(-?\d{1,5}) z=(-?\d{1,5})$/, // $1 = x, $2 = y, $3 = z
+  // r3 coordinates
   coordinatesr3: /^(-?\d{1,5}) (-?\d{1,5}) (-?\d{1,5})$/, // $1 = x, $2 = y, $3 = z
   poi: {
     shard: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard
@@ -135,8 +138,8 @@ function convertQuest (advancement) {
   if (!Array.isArray(title)) title = [title]
   if (!Array.isArray(description)) description = [description]
 
-  const titlePrint = joinText(title)
-  const descriptionPrint = joinText(description)
+  const titlePrint = parseChatJson(title)
+  const descriptionPrint = parseChatJson(description)
   if (!regex.quest.path.test(id)) return
   const [, region, quest] = regex.quest.path.exec(id)
   if (!regex.quest.path.test(advancement.parent)) return
@@ -153,8 +156,8 @@ function convertHandbook (advancement) {
   if (!Array.isArray(title)) title = [title]
   if (!Array.isArray(description)) description = [description]
 
-  const titlePrint = joinText(title)
-  const descriptionPrint = joinText(description)
+  const titlePrint = parseChatJson(title)
+  const descriptionPrint = parseChatJson(description)
   switch (true) { // monumenta:handbook/r1/site
     case regex.handbook.sites.test(id): {
       const [, region, site] = regex.handbook.sites.exec(id)
@@ -192,8 +195,8 @@ function parseAny (advancement) {
   if (!title || !description) return
   if (!Array.isArray(title)) title = [title] // titles can have multiple lines
   if (!Array.isArray(description)) description = [description] // description can have multiple lines
-  title = joinText(title)
-  description = joinText(description)
+  title = parseChatJson(title)
+  description = parseChatJson(description)
 
   all[advancement.id] = {
     title: title,
@@ -234,7 +237,7 @@ function parseAdvancement (advancement, options = { type: '' }) {
 }
 
 function parsePoi ({ id, display, title, description, advancement }) {
-  title = joinText(title) // make title into one line
+  title = parseChatJson(title) // make title into one line
   // check if advancement has a valid path
   const longPoi = regex.poi.long.test(id)
   const shortPoi = regex.poi.short.test(id)
@@ -247,6 +250,7 @@ function parsePoi ({ id, display, title, description, advancement }) {
     data.region = converter.poi[shard][region].name
     data.subregion = converter.poi[shard][region][subregion].name
     data.coordinates = parseCoordinates(description[3]?.text)
+    // coordinates may be missing
     if (!data.coordinates) console.error(`[POI] '${title}' missing coordinates | advancement: '${id}'`)
     if (!pois[data.name]) pois[data.name] = data // add data
     else console.error(`[POI] '${title}' has duplicate name | advancement: '${id}'`)
@@ -256,6 +260,7 @@ function parsePoi ({ id, display, title, description, advancement }) {
     data.region = converter.poi[shard][region].name
     data.subregion = null
     data.coordinates = parseCoordinates(description[3]?.text)
+    // coordinates may be missing
     if (!data.coordinates) console.error(`[POI] '${title}' missing coordinates | advancement: '${id}'`)
     if (!pois[data.name]) pois[data.name] = data // add data
     else console.error(`[POI] '${title}' has duplicate name | advancement: '${id}'`)
@@ -263,7 +268,7 @@ function parsePoi ({ id, display, title, description, advancement }) {
 }
 
 function parseDungeon ({ id, display, title, description, advancement }) {
-  title = joinText(title) // make title into one line
+  title = parseChatJson(title) // make title into one line
   // pre checks
   if (!regex.dungeon.path.test(id)) return
 
@@ -287,13 +292,13 @@ function parseDungeon ({ id, display, title, description, advancement }) {
 }
 
 function parseQuest ({ id, display, title, description, advancement }) {
-  title = joinText(title) // make title into one line
+  title = parseChatJson(title) // make title into one line
   // pre checks
   if (regex.quest.ignore.test(title.trim())) return // ignore `xxx Quests`
   if (regex.quest.city.test(description[0]?.text)) return
 
   const data = { name: title.trim(), description: '', region: '', city: '' }
-  data.description = joinText(description) // make description into one line
+  data.description = parseChatJson(description) // make description into one line
   if (regex.quest.path.test(id)) { // add region information
     const [, region, quest] = regex.quest.path.exec(id)
     data.region = converter.poi[region].name // use POI mapping
@@ -309,8 +314,8 @@ function parseQuest ({ id, display, title, description, advancement }) {
 }
 
 function parseHandbook ({ id, display, title, description, advancement }) {
-  title = joinText(title)
-  description = joinText(description)
+  title = parseChatJson(title)
+  description = parseChatJson(description)
   switch (true) {
     case regex.handbook.enchantments.test(id): {
       if (regex.handbook.ignore.test(id) && title !== 'Agility') break
@@ -357,23 +362,17 @@ function parseCoordinates (text = '') {
   }
 }
 
-function joinText (text = ['']) {
-  if (!text) return null
-  if (!Array.isArray(text)) text = [text]
-  let output = ''
-  for (const line of text) { // title
-    const text = cleanDescriptionLine(line.text)
-    if (text === '' || text == null || text === '\n') continue // skip empty lines
-    if (output === '') output = text
-    else output = `${output} ${text}`
-  }
+function parseChatJson (json = '') {
+  if (!json) return null
+  const msg = new ChatMessage(json)
+  const output = cleanDescriptionLine(msg.toString())
   return output
 }
 
 function cleanDescriptionLine (text = '') {
   if (!text) return null
   return String(text)
-    .replaceAll('\n', '') // clean new lines
+    .replaceAll('\n', ' ') // clean new lines
     .replaceAll(/&#\d+; /g, '') // clean color codes
     .trim() // get rid of trailing whitespaces
 }

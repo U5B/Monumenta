@@ -21,7 +21,7 @@
   },
   "agility": {
     "name": "Agility",
-    "description": "One of Monumenta's primary defensive stats, along with Armor.Multiplies received damage taken by 0.96^Agility.If Armor and Agility are mixed, damage is multiplied by 0.96^(Armor + Agility - 0.5 * Armor * Agility / (Armor + Agility))",
+    "description": "One of Monumenta's primary defensive stats, along with Armor. Multiplies received damage taken by 0.96^Agility. If Armor and Agility are mixed, damage is multiplied by 0.96^(Armor + Agility - 0.5 * Armor * Agility / (Armor + Agility))",
     "category": null
   },
   "anemia": {
@@ -41,7 +41,7 @@
   },
   "arcane_thrust": {
     "name": "Arcane Thrust",
-    "description": "",
+    "description": "Your attacks damage all enemies 3 blocks in front of you, in a 0.6-block-wide line.  Damage: 1 + melee damage dealt * level / (level + 1)  Works in: Main hand",
     "category": "Weapons"
   },
   "ardor": {
@@ -51,7 +51,7 @@
   },
   "armor": {
     "name": "Armor",
-    "description": "One of Monumenta's primary defensive stats, along with Agility.Multiplies received damage taken by 0.96^Armor.If Armor and Agility are mixed, damage is multiplied by 0.96^(Armor + Agility - 0.5 * Armor * Agility / (Armor + Agility))",
+    "description": "One of Monumenta's primary defensive stats, along with Agility. Multiplies received damage taken by 0.96^Armor. If Armor and Agility are mixed, damage is multiplied by 0.96^(Armor + Agility - 0.5 * Armor * Agility / (Armor + Agility))",
     "category": null
   },
   "ashesofeternity": {
@@ -191,7 +191,7 @@
   },
   "duelist": {
     "name": "Duelist",
-    "description": "",
+    "description": "Adds (level * 2) extra damage to melee hits against human-like mobs: illagers, vexes, witches, piglins, piglin brutes, golems and giants.  Damage: 2 * level  Works in: Main hand",
     "category": "Weapons"
   },
   "earthaspect": {
@@ -306,7 +306,7 @@
   },
   "gilded": {
     "name": "Gilded",
-    "description": "While equipped, you gain an aura of gold particles. While dropped, your item gains similar particles. Additional items increase your particles, capped at 10.A reward for winning the voting raffle.",
+    "description": "While equipped, you gain an aura of gold particles. While dropped, your item gains similar particles. Additional items increase your particles, capped at 10. A reward for winning the voting raffle.",
     "category": "Cosmetic"
   },
   "gills": {
@@ -396,7 +396,7 @@
   },
   "lifedrain": {
     "name": "Life Drain",
-    "description": "",
+    "description": "Your critical melee attacks heal you. Normal melee attacks also heal you, but for less.  Healing (falling attack): &radic;(level) Healing (non-falling attack): 0.5 * &radic;(level) / &radic;(attack speed) * attack cooldown  Works in: Main hand, off hand, armor slots",
     "category": "Weapons"
   },
   "liquidcourage": {
@@ -751,7 +751,7 @@
   },
   "unbreaking": {
     "name": "Unbreaking",
-    "description": "Makes gear break (level + 1)x slower.Works the same on tools, weapons, and armor.",
+    "description": "Makes gear break (level + 1)x slower. Works the same on tools, weapons, and armor.",
     "category": "Passives"
   },
   "understanding": {

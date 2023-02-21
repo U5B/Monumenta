@@ -1,6 +1,8 @@
 {
   "dependencies": {
     "axios": "^0.27.2",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "prismarine-chat": "^1.8.0",
+    "prismarine-registry": "^1.7.0"
   }
 }
