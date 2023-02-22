@@ -1,5 +1,5 @@
 {
-  "Blue Dungeon": {
+  "blue": {
     "name": "Blue Dungeon",
     "description": "Hidden within a Fortress; hidden within a prison. Hycenea's chains stay bound.",
     "poi": "Coven Fortress",
@@ -9,7 +9,7 @@
       "z": "-387"
     }
   },
-  "Brown Dungeon": {
+  "brown": {
     "name": "Brown Dungeon",
     "description": "Mechanical clanking and buzzing noises spew forth from the ground. What lies deep below Pelias' folly?",
     "poi": "Arx Spirensis",
@@ -19,7 +19,7 @@
       "z": "19"
     }
   },
-  "Cyan Dungeon": {
+  "cyan": {
     "name": "Cyan Dungeon",
     "description": "Deep below the ground lies an abandoned mineshaft, stained with secrets long forgotten. For what is a greater folly of man than the sin of greed?",
     "poi": "Basanite Bore",
@@ -29,7 +29,7 @@
       "z": "285"
     }
   },
-  "Darkest Depths": {
+  "depths": {
     "name": "Darkest Depths",
     "description": "Far, far below the waves lies a disturbance, a tear into our world. What possibly could have caused this?",
     "poi": null,
@@ -39,7 +39,7 @@
       "z": "-186"
     }
   },
-  "The Fallen Forum": {
+  "forum": {
     "name": "The Fallen Forum",
     "description": "Having passed through the time itself in the ruins of the Congress, the Fallen Forum awaits.",
     "poi": null,
@@ -49,7 +49,7 @@
       "z": "525"
     }
   },
-  "City of Shifting Waters": {
+  "fred": {
     "name": "City of Shifting Waters",
     "description": "Deep below Steelmeld, sealed away by its unknown former inhabitants, lies secrets long since forgotten.",
     "poi": "Steelmeld Passage",
@@ -59,7 +59,7 @@
       "z": "-495"
     }
   },
-  "Gray Dungeon": {
+  "gray": {
     "name": "Gray Dungeon",
     "description": "What would force a kingdom to lock off their capital? Al Malakut awaits its rediscovery.",
     "poi": "Lost Sands City",
@@ -69,7 +69,7 @@
       "z": "394"
     }
   },
-  "Alchemy Labs Dungeon": {
+  "labs": {
     "name": "Alchemy Labs Dungeon",
     "description": "Ahead lies the Alchemy Labs, bandits, and their cache of explosives.",
     "poi": null,
@@ -79,7 +79,7 @@
       "z": "-87"
     }
   },
-  "Light Blue Dungeon": {
+  "light_blue": {
     "name": "Light Blue Dungeon",
     "description": "There must be secrets hiding within this ancient place.",
     "poi": "Creeper Farm",
@@ -89,7 +89,7 @@
       "z": "-317"
     }
   },
-  "Light Gray Dungeon": {
+  "light_gray": {
     "name": "Light Gray Dungeon",
     "description": "Hidden within a citadel; hidden within a mirror. Alutana's palace stands strong.",
     "poi": "Whitecliffe Citadel",
@@ -99,7 +99,7 @@
       "z": "3"
     }
   },
-  "Lime Dungeon": {
+  "lime": {
     "name": "Lime Dungeon",
     "description": "Before you stands an empire lost to time, independent of Ishnir and Chillwind. What secrets from the distant past lie within?",
     "poi": "Bastion at Sea",
@@ -109,7 +109,7 @@
       "z": "703"
     }
   },
-  "Magenta Dungeon": {
+  "magenta": {
     "name": "Magenta Dungeon",
     "description": "From the depths, you can feel a sickness pouring. What lies below?",
     "poi": "Grand Maw",
@@ -119,7 +119,7 @@
       "z": "82"
     }
   },
-  "Orange Dungeon": {
+  "orange": {
     "name": "Orange Dungeon",
     "description": "You discovered a lost outpost of the Tlaxans, hiding more than just loot...",
     "poi": "Abandoned Tunnels",
@@ -129,7 +129,7 @@
       "z": "143"
     }
   },
-  "Pink Dungeon": {
+  "pink": {
     "name": "Pink Dungeon",
     "description": "Seasons bend and twist rapidly here. Deep in this dungeon lies a dark secret, do you dare seek it out?",
     "poi": "Sealed Descent",
@@ -139,7 +139,7 @@
       "z": "680"
     }
   },
-  "Purple Dungeon": {
+  "purple": {
     "name": "Purple Dungeon",
     "description": "Below the mythical island of Corsair's Claw, the legendary pirate Varcosa awaits you.",
     "poi": "Corsair's Claw",
@@ -149,7 +149,7 @@
       "z": "1405"
     }
   },
-  "The Black Willows": {
+  "r1bonus": {
     "name": "The Black Willows",
     "description": "A lost grove stretches before you, filled with riches.",
     "poi": "Cave of Secrets",
@@ -159,7 +159,7 @@
       "z": "-103"
     }
   },
-  "Malevolent Reverie": {
+  "reverie": {
     "name": "Malevolent Reverie",
     "description": "One man's dream is the Narsens' nightmare.",
     "poi": "Verdant Fortress?",
@@ -169,7 +169,7 @@
       "z": "182"
     }
   },
-  "Ephemeral Corridors Dungeon": {
+  "roguelike": {
     "name": "Ephemeral Corridors Dungeon",
     "description": "You find a maze of twisty little passages, all alike.",
     "poi": "Anthill",
@@ -179,7 +179,7 @@
       "z": "209"
     }
   },
-  "Silver Knight's Tomb": {
+  "skt": {
     "name": "Silver Knight's Tomb",
     "description": "Before you stands a gate, leading deep into the surviving ruins of Isharist. The Teal Spirit waits within...",
     "poi": null,
@@ -189,7 +189,7 @@
       "z": "1702"
     }
   },
-  "Echoes of Oblivion": {
+  "teal": {
     "name": "Echoes of Oblivion",
     "description": "Having passed through the Sacrarium of Aeons, a strange place lost to time now sits before you.",
     "poi": "Sacrarium of Aeons",
@@ -199,7 +199,7 @@
       "z": "-450"
     }
   },
-  "White Dungeon": {
+  "white": {
     "name": "White Dungeon",
     "description": "Before you lies the ancient sacrificial temple to a lost god...",
     "poi": "Tlaxan Ziggurat",
@@ -209,7 +209,7 @@
       "z": "-109"
     }
   },
-  "Yellow Dungeon": {
+  "yellow": {
     "name": "Yellow Dungeon",
     "description": "The seasons rage before you, a curse on the Sons of the Forest. Can you overcome them?",
     "poi": "Cursed Forest",

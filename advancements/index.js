@@ -239,26 +239,24 @@ function parsePoi ({ id, display, title, description, advancement }) {
   const shortPoi = regex.poi.short.test(id)
   if ((longPoi || shortPoi) === false) return
   // generate poi information
-  const data = { name: parsedTitle.trim(), shard: '', region: '', subregion: '', coordinates: null }
+  const data = { name: parsedTitle, shard: null, region: null, subregion: null, coordinates: null }
+  // get coordinates
+  data.coordinates = parseCoordinates(parsedDescription)
+  // coordinates may be missing
+  if (!data.coordinates) console.error(`[POI] '${parsedTitle}' missing coordinates | advancement: '${id}'`)
   if (longPoi) { // monumenta:pois/r1/jungle/south/poi1
-    const [, shard, region, subregion] = regex.poi.long.exec(id)
+    const [, shard, region, subregion, poi] = regex.poi.long.exec(id)
     data.shard = converter.poi[shard].name
     data.region = converter.poi[shard][region].name
     data.subregion = converter.poi[shard][region][subregion].name
-    data.coordinates = parseCoordinates(parsedDescription)
-    // coordinates may be missing
-    if (!data.coordinates) console.error(`[POI] '${parsedTitle}' missing coordinates | advancement: '${id}'`)
-    if (!pois[data.name]) pois[data.name] = data // add data
+    if (!pois[poi]) pois[poi] = data // add data
     else console.error(`[POI] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
   } else if (shortPoi) { // monumenta:pois/r1/jungle/poi1
-    const [, shard, region] = regex.poi.short.exec(id)
+    const [, shard, region, poi] = regex.poi.short.exec(id)
     data.shard = converter.poi[shard].name
     data.region = converter.poi[shard][region].name
     data.subregion = null
-    data.coordinates = parseCoordinates(parsedDescription)
-    // coordinates may be missing
-    if (!data.coordinates) console.error(`[POI] '${parsedTitle}' missing coordinates | advancement: '${id}'`)
-    if (!pois[data.name]) pois[data.name] = data // add data
+    if (!pois[poi]) pois[poi] = data // add data
     else console.error(`[POI] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
   }
 }
@@ -268,16 +266,16 @@ function parseDungeon ({ id, display, title, description, advancement }) {
   const parsedDescription = parseChatJson(description)
   // pre checks
   if (!regex.dungeon.path.test(id)) return
-
+  const [, dungeon] = regex.dungeon.path.exec(id)
   // generate dungeon information
   parsedTitle = parsedTitle.replace(regex.dungeon.prefix, '$1') // get rid of 'Found ' prefix on dungeon name
-  const data = { name: parsedTitle.trim(), description: null, poi: '', coordinates: null }
-  data.description = parseChatJson(description[0])
+  const data = { name: parsedTitle, description: null, poi: null, coordinates: null }
+  data.description = parseChatJson(description[0]) // dungeon descriptions are special
   data.poi = parsePois(parsedDescription)
   if (!data.poi) console.error(`[DUNGEON] '${parsedTitle}' missing poi data | advancement: '${id}'`)
   data.coordinates = parseCoordinates(parsedDescription)
   if (!data.coordinates) console.error(`[DUNGEON] '${parsedTitle}' missing coordinates | advancement: '${id}'`)
-  if (!dungeons[data.name]) dungeons[data.name] = data // add data
+  if (!dungeons[dungeon]) dungeons[dungeon] = data // add data
   else console.error(`[DUNGEON] '${parsedTitle} has duplicate name | advancement: '${id}'`)
 }
 
@@ -288,7 +286,7 @@ function parseQuest ({ id, display, title, description, advancement }) {
   if (regex.quest.ignore.test(parsedTitle.trim())) return // ignore `xxx Quests`
   if (regex.quest.city.test(parsedDescription)) return
 
-  const data = { name: parsedTitle, description: '', region: '', city: '' }
+  const data = { name: parsedTitle, description: null, region: null, city: null }
   data.description = parsedDescription // make description into one line
   if (regex.quest.path.test(id)) { // add region information
     const [, region, quest] = regex.quest.path.exec(id)
@@ -299,9 +297,9 @@ function parseQuest ({ id, display, title, description, advancement }) {
     } else {
       data.city = converter.sites[region][site].name
     }
+    if (!quests[quest]) quests[quest] = data // add data
+    else console.error(`[QUEST] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
   }
-  if (!quests[data.name]) quests[data.name] = data // add data
-  else console.error(`[QUEST] '${title}' has duplicate name | advancement: '${id}'`)
 }
 
 function parseHandbook ({ id, display, title, description, advancement }) {
@@ -310,10 +308,11 @@ function parseHandbook ({ id, display, title, description, advancement }) {
   switch (true) {
     case regex.handbook.enchantments.test(id): {
       if (regex.handbook.ignore.test(id) && title !== 'Agility') break
-      const data = { name: parsedTitle, description: parsedDescription, category: '' }
+      const data = { name: parsedTitle, description: parsedDescription, category: null }
       const [, enchantment] = regex.handbook.enchantments.exec(id)
       data.category = checkEnchantment(enchantment)
-      enchantments[enchantment] = data
+      if (!enchantments[enchantment]) enchantments[enchantment] = data // add data
+      else console.error(`[ENCHANTMENT] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
       break
     }
   }
