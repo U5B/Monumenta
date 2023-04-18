@@ -719,6 +719,10 @@
     "title": "Defeat Light Blue Dungeon",
     "description": "Neither the Mages above nor the Alchemists below held power over you, as you claimed the Light Blue Wool."
   },
+  "monumenta:dungeons/light_blue/exalted": {
+    "title": "Exalted Light Blue Dungeon",
+    "description": "You conquered the Light Blue Wool dungeon's Exalted mode!"
+  },
   "monumenta:dungeons/light_blue/find": {
     "title": "Found Light Blue Dungeon",
     "description": "There must be secrets hiding within this ancient place. POI: Creeper Farm Coordinates: x=797 y=174 z=-317"
@@ -757,15 +761,19 @@
   },
   "monumenta:dungeons/lime/find_quest": {
     "title": "The Lost Empire",
-    "description": "You had an unexpected run-in with Xeno and discoved the lost empire of Viridia."
+    "description": "You had an unexpected run-in with Xeno and discovered the lost empire of Viridia."
   },
   "monumenta:dungeons/magenta/challenge": {
-    "title": "Myragh's Challenge",
+    "title": "Myrahg's Challenge",
     "description": "You conquered the Magenta Wool dungeon under Challenge Delve conditions!"
   },
   "monumenta:dungeons/magenta/complete": {
     "title": "Defeat Magenta Dungeon",
     "description": "You found what the ancient temple was defending - the Magenta Wool."
+  },
+  "monumenta:dungeons/magenta/exalted": {
+    "title": "Exalted Magenta Dungeon",
+    "description": "You conquered the Magenta Wool dungeon's Exalted mode!"
   },
   "monumenta:dungeons/magenta/find": {
     "title": "Found Magenta Dungeon",
@@ -782,6 +790,10 @@
   "monumenta:dungeons/orange/complete": {
     "title": "Defeat Orange Dungeon",
     "description": "You claimed the Orange Wool, overcoming the experimented beastmen within the Menagerie."
+  },
+  "monumenta:dungeons/orange/exalted": {
+    "title": "Exalted Orange Dungeon",
+    "description": "You conquered the Orange Wool dungeon's Exalted mode!"
   },
   "monumenta:dungeons/orange/find": {
     "title": "Found Orange Dungeon",
@@ -946,6 +958,10 @@
   "monumenta:dungeons/white/complete": {
     "title": "Defeat White Dungeon",
     "description": "You defeated the guardians of Quetzalcoatl, claiming the White Wool."
+  },
+  "monumenta:dungeons/white/exalted": {
+    "title": "Exalted White Dungeon",
+    "description": "You conquered the White Wool dungeon's Exalted mode!"
   },
   "monumenta:dungeons/white/find": {
     "title": "Found White Dungeon",
@@ -1529,7 +1545,7 @@
   },
   "monumenta:handbook/enchantments/piercing": {
     "title": "Piercing",
-    "description": "Arrows shot from a crossbow with Piercing can pass through up to the number of entities equal to the enchantment level."
+    "description": "Lets arrows pass through up to the number of entities equal to the enchantment level."
   },
   "monumenta:handbook/enchantments/pointblank": {
     "title": "Point Blank",
@@ -1581,7 +1597,7 @@
   },
   "monumenta:handbook/enchantments/reflection": {
     "title": "Reflection",
-    "description": "1 second after taking magic or blast damage, deal (level * 6)% of the ability's damage to all mobs in a 4 block radius, bypassing I-frames."
+    "description": "1 second after taking magic or blast damage, deal (level * 6)% of the damage to all mobs in a 4 block radius."
   },
   "monumenta:handbook/enchantments/reflexes": {
     "title": "Reflexes",
@@ -1618,6 +1634,10 @@
   "monumenta:handbook/enchantments/root": {
     "title": "Custom Enchantments",
     "description": "Enchantments found while adventuring in Monumenta."
+  },
+  "monumenta:handbook/enchantments/rustworthy": {
+    "title": "Rustworthy",
+    "description": "Curses mined copper to gather rust depending on the level."
   },
   "monumenta:handbook/enchantments/sapper": {
     "title": "Sapper",
@@ -1739,6 +1759,10 @@
     "title": "Understanding",
     "description": "All other Delve Infusions you are currently benefitting from gain (level * .25) levels of this Infusion."
   },
+  "monumenta:handbook/enchantments/unrustworthy": {
+    "title": "Unrustworthy",
+    "description": "Removes all rust from mined copper."
+  },
   "monumenta:handbook/enchantments/unyielding": {
     "title": "Unyielding",
     "description": "Increases your Knockback Resistance by 0.6 per level."
@@ -1762,6 +1786,14 @@
   "monumenta:handbook/enchantments/vitality": {
     "title": "Vitality",
     "description": "+(level * 1)% max health."
+  },
+  "monumenta:handbook/enchantments/waxoff": {
+    "title": "Wax off",
+    "description": "Removes wax from mined copper as your master taught you."
+  },
+  "monumenta:handbook/enchantments/waxon": {
+    "title": "Wax on",
+    "description": "Applies wax to mined copper as your master taught you."
   },
   "monumenta:handbook/enchantments/weapons": {
     "title": "Weapons",

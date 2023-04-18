@@ -501,7 +501,7 @@
   },
   "piercing": {
     "name": "Piercing",
-    "description": "Arrows shot from a crossbow with Piercing can pass through up to the number of entities equal to the enchantment level.",
+    "description": "Lets arrows pass through up to the number of entities equal to the enchantment level.",
     "category": "Ranged"
   },
   "pointblank": {
@@ -566,7 +566,7 @@
   },
   "reflection": {
     "name": "Reflection",
-    "description": "1 second after taking magic or blast damage, deal (level * 6)% of the ability's damage to all mobs in a 4 block radius, bypassing I-frames.",
+    "description": "1 second after taking magic or blast damage, deal (level * 6)% of the damage to all mobs in a 4 block radius.",
     "category": "Delve Infusions"
   },
   "reflexes": {
@@ -607,6 +607,11 @@
   "riptide": {
     "name": "Riptide",
     "description": "A Trident with Riptide can only be thrown when in water. When this happens, you are launched with your Trident a distance based on your Riptide level.",
+    "category": "Tools and Utility"
+  },
+  "rustworthy": {
+    "name": "Rustworthy",
+    "description": "Curses mined copper to gather rust depending on the level.",
     "category": "Tools and Utility"
   },
   "sapper": {
@@ -759,6 +764,11 @@
     "description": "All other Delve Infusions you are currently benefitting from gain (level * .25) levels of this Infusion.",
     "category": "Delve Infusions"
   },
+  "unrustworthy": {
+    "name": "Unrustworthy",
+    "description": "Removes all rust from mined copper.",
+    "category": "Tools and Utility"
+  },
   "unyielding": {
     "name": "Unyielding",
     "description": "Increases your Knockback Resistance by 0.6 per level.",
@@ -788,6 +798,16 @@
     "name": "Vitality",
     "description": "+(level * 1)% max health.",
     "category": "Infusions"
+  },
+  "waxoff": {
+    "name": "Wax off",
+    "description": "Removes wax from mined copper as your master taught you.",
+    "category": "Tools and Utility"
+  },
+  "waxon": {
+    "name": "Wax on",
+    "description": "Applies wax to mined copper as your master taught you.",
+    "category": "Tools and Utility"
   },
   "weapons": {
     "name": "Weapons",
