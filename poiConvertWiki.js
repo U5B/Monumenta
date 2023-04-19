@@ -19,9 +19,8 @@ for (const [, poi] of Object.entries(pois)) {
   const regionName = `|[[${poi.shard}]]`
   lines.push(regionName)
   // sub-region is not a link
-  let subRegionName = `|<nowiki>${poi.region}` // opening tag and region
-  if (poi.subregion) subRegionName += ` | ${poi.subregion}` // sometimes there is a subregion, sometimes not
-  subRegionName += "</nowiki>" // closing tag
+  let subRegionName = `|${poi.region}`
+  if (poi.subregion) subRegionName = `|<nowiki>${poi.region} | ${poi.subregion}</nowiki>"` // sometimes there is a subregion, sometimes not
   lines.push(subRegionName)
   // The Minefield doesn't have coordinates
   if (poi.coordinates == null) {
