@@ -3,7 +3,7 @@ const fs = require('fs')
 const poisPath = './out/pois.json'
 const pois = require(poisPath)
 const lines = ['==List of Known POIs ==',
-  '{| class="sortable fandom-table"',
+  '{| class="sortable wikitable"',
   '!Name',
   '!Region',
   '!Sub-Region',
