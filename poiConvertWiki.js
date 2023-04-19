@@ -12,11 +12,16 @@ const lines = ['==List of Known POIs ==',
 ]
 console.log(`Converting pois to wiki format...`)
 for (const [, poi] of Object.entries(pois)) {
-  const poiName = `|[[${poi.name}]]` // name is a link
+  // name is a link
+  const poiName = `|[[${poi.name}]]`
   lines.push(poiName)
-  const regionName = `|[[${poi.shard}]]` // region is a link
+   // region is a link
+  const regionName = `|[[${poi.shard}]]`
   lines.push(regionName)
-  const subRegionName = `|${poi.region}` // sub-region is not a link
+  // sub-region is not a link
+  let subRegionName = `|<nowiki>${poi.region}` // opening tag and region
+  if (poi.subregion) subRegionName += ` | ${poi.subregion}` // sometimes there is a subregion, sometimes not
+  subRegionName += "</nowiki>" // closing tag
   lines.push(subRegionName)
   // The Minefield doesn't have coordinates
   if (poi.coordinates == null) {
