@@ -20,7 +20,7 @@ for (const [, poi] of Object.entries(pois)) {
   lines.push(regionName)
   // sub-region is not a link
   let subRegionName = `|${poi.region}`
-  if (poi.subregion) subRegionName = `|<nowiki>${poi.region} | ${poi.subregion}</nowiki>"` // sometimes there is a subregion, sometimes not
+  if (poi.subregion) subRegionName = `|<nowiki>${poi.region} | ${poi.subregion}</nowiki>` // sometimes there is a subregion, sometimes not
   lines.push(subRegionName)
   // The Minefield doesn't have coordinates
   if (poi.coordinates == null) {
