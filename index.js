@@ -29,7 +29,7 @@ const regex = {
   },
   handbook: {
     enchantments: /^monumenta:handbook\/enchantments\/([0-9a-zA-Z-_.]+)$/,
-    root: /^monumenta:handbook\/enchantments\/root$/,
+    enchantmentRoot: /^monumenta:handbook\/enchantments\/root$/,
     sites: /^monumenta:handbook\/important_sites\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/
   },
   description: {
@@ -43,10 +43,8 @@ const regex = {
 }
 // TODO: get rid of converter
 const converter = {
-  poi: {},
   quest: {},
-  sites: {},
-  enchantments: {}
+  sites: {}
 }
 const pois = {}
 const dungeons = {}
@@ -75,8 +73,7 @@ function generate () {
   }
 
   for (const advancement of Object.values(advancements)) {
-    if (advancement.id.startsWith('monumenta:pois')) convertPoi(advancement) // parse poi regions
-    else if (advancement.id.startsWith('monumenta:handbook')) convertHandbook(advancement)
+    if (advancement.id.startsWith('monumenta:handbook')) convertHandbook(advancement)
     else if (advancement.id.startsWith('monumenta:quest')) convertQuest(advancement)
   }
   console.log('[CONVERTER] Done.')
@@ -106,49 +103,6 @@ function generate () {
   fs.writeFileSync('./out/all.json', JSON.stringify(all, null, 2))
 }
 
-function convertPoi (advancement) {
-  const id = advancement.id
-  const data = advancement?.display
-  const title = data.title
-  if (!title) return
-
-  const parsedTitle = parseChatJson(title)
-  // Technically the above is done, but quests are reliant on this to find location data
-  switch (true) {
-    // poi converter paths
-    case regex.poi.shard.test(id): { // monumenta:pois/r1/root
-      const [, region] = regex.poi.shard.exec(id)
-      if (!converter.poi[region]) converter.poi[region] = {}
-      const poiTitle = parsedTitle.replace(regex.poi.suffix, '$1') // remove Exploration at end of string
-      converter.poi[region].name = poiTitle
-      break
-    }
-    case regex.poi.region.test(id): { // monumenta:pois/r1/jungle/root
-      const [, region, subregion] = regex.poi.region.exec(id)
-      if (!converter.poi[region]) converter.poi[region] = {}
-      if (!converter.poi[region][subregion]) converter.poi[region][subregion] = {}
-      converter.poi[region][subregion].name = parsedTitle
-      break
-    }
-    case regex.poi.specialSubregion.test(id): { // monumenta:pois/r1/sea/root_pineapple
-      const [, region, subregion, subsubregion] = regex.poi.specialSubregion.exec(id)
-      if (!converter.poi[region]) converter.poi[region] = {}
-      if (!converter.poi[region][subregion]) converter.poi[region][subregion] = {}
-      if (!converter.poi[region][subregion][subsubregion]) converter.poi[region][subregion][subsubregion] = {}
-      converter.poi[region][subregion][subsubregion].name = parsedTitle
-      break
-    }
-    case regex.poi.subregion.test(id): { // monumenta:pois/r1/jungle/south/root
-      const [, region, subregion, subsubregion] = regex.poi.subregion.exec(id)
-      if (!converter.poi[region]) converter.poi[region] = {}
-      if (!converter.poi[region][subregion]) converter.poi[region][subregion] = {}
-      if (!converter.poi[region][subregion][subsubregion]) converter.poi[region][subregion][subsubregion] = {}
-      converter.poi[region][subregion][subsubregion].name = parsedTitle
-      break
-    }
-  }
-}
-
 function convertQuest (advancement) {
   const id = advancement.id
   const data = advancement?.display
@@ -176,20 +130,6 @@ function convertHandbook (advancement) {
       if (!converter.sites[region][site]) converter.sites[region][site] = {}
       converter.sites[region][site].name = titlePrint
       converter.sites[region][site].description = descriptionPrint
-      break
-    }
-    case regex.handbook.enchantments.test(id): {
-      const [, enchantment] = regex.handbook.enchantments.exec(id)
-      if (regex.handbook.root.test(advancement.parent) && titlePrint !== 'Agility') { // Exclude Agility because that is not a category
-        if (!converter.enchantments.category) converter.enchantments.category = {}
-        converter.enchantments.category[enchantment] = {}
-        converter.enchantments.category[enchantment].name = titlePrint
-        converter.enchantments.category[enchantment].description = descriptionPrint
-      } else if (regex.handbook.enchantments.test(advancement.parent)) {
-        const [, previousEnchantment] = regex.handbook.enchantments.exec(advancement.parent)
-        if (!converter.enchantments.pre) converter.enchantments.pre = {}
-        converter.enchantments.pre[enchantment] = previousEnchantment
-      }
       break
     }
   }
@@ -301,8 +241,8 @@ function parseQuest ({ id, display, title, description, advancement }) {
   data.description = parsedDescription // make description into one line
   if (regex.quest.path.test(id)) { // add region information
     const [, region, quest] = regex.quest.path.exec(id)
-    data.region = converter.poi[region].name // use POI mapping
-    const site = checkQuest(quest)
+    data.region = checkPoiRegion(id) // use POI mapping
+    const site = checkQuest(id)
     if (site) data.city = converter.sites[region][site].name
     if (!quests[quest]) quests[quest] = data // add data
     else console.error(`[QUEST] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
@@ -314,10 +254,10 @@ function parseHandbook ({ id, display, title, description, advancement }) {
   const parsedDescription = parseChatJson(description)
   switch (true) {
     case regex.handbook.enchantments.test(id): {
-      if (regex.handbook.root.test(id) && title !== 'Agility') break
+      if (regex.handbook.enchantmentRoot.test(id) && title !== 'Agility') break
       const data = { name: parsedTitle, description: parsedDescription, category: null }
       const [, enchantment] = regex.handbook.enchantments.exec(id)
-      data.category = checkEnchantment(enchantment)
+      data.category = checkEnchantment(id)
       if (!enchantments[enchantment]) enchantments[enchantment] = data // add data
       else console.error(`[ENCHANTMENT] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
       break
@@ -345,6 +285,7 @@ function checkPoiName (id = '') {
 function checkPoiShard (id = '') { // monumenta:pois/r1/
   if (!id || id === '') return null
   if (regex.poi.shard.test(id)) return all[id].title
+  if (!all[id]?.parent) return null
   const value = checkPoiShard(all[id].parent)
   return value
 }
@@ -352,13 +293,15 @@ function checkPoiShard (id = '') { // monumenta:pois/r1/
 function checkPoiRegion (id = '') {  // monumenta:pois/r1/jungle
   if (!id || id === '') return null
   if (regex.poi.region.test(id)) return all[id].title
+  if (!all[id]?.parent) return null
   const value = checkPoiRegion(all[id].parent)
   return value
 }
 
 function checkPoiSubregion (id = '') { // monumenta:pois/r1/jungle/north or monumenta:pois/r1/jungle/root_north
-  if (!id || id === '') return null
+  if (!id|| id === '') return null
   if (regex.poi.specialSubregion.test(id) || regex.poi.subregion.test(id)) return all[id].title
+  if (!all[id]?.parent) return null
   const value = checkPoiSubregion(all[id].parent)
   return value
 }
@@ -371,17 +314,15 @@ function checkQuest (name = '') { // recursively check for quests
     }
   }
   if (!converter.quest[name]) return null // quests that don't "technically" have a city associated with them
-  const value = checkQuest(converter.quest[name])
+  const value = checkQuest(id)
   return value
 }
 
-function checkEnchantment (name = '') { // recursively check for enchantments
-  if (!name || name === '') return null
-  for (const [category, data] of Object.entries(converter.enchantments.category)) {
-    if (name === category) return data.name
-  }
-  if (!converter.enchantments.pre[name]) return null
-  const value = checkEnchantment(converter.enchantments.pre[name])
+function checkEnchantment (id = '') { // recursively check for enchantments
+  if (!id || id === '') return null
+  if (regex.handbook.enchantmentRoot.test(all[id].parent) && all[id].title != "Agility") return all[id].title
+  if (!all[id]?.parent) return null
+  const value = checkEnchantment(all[id].parent)
   return value
 }
 
