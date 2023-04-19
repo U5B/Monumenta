@@ -10,9 +10,11 @@ const regex = {
   poi: {
     shard: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard
     region: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard, $2 = region
+    specialSubregion: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root_([0-9a-zA-Z-_.]+)$/, // $1 = shard, $2 = region, $3 = subregion??
     subregion: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard, $2 = region, $3 = subregion
     short: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $3 != 'root'
-    long: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root)[0-9a-zA-Z-_.]+)$/, // $4 != 'root'
+    special: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root(?:_[0-9a-zA-Z-_.]))[0-9a-zA-Z-_.]+)$/, // $3 != root_
+    long: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)\/((?!root(?:_[0-9a-zA-Z-_.])?)[0-9a-zA-Z-_.]+)$/, // $4 != 'root'
     suffix: /^(.+) Exploration$/ // ignore suffix 'Exploration' from end of region
   },
   dungeon: {
@@ -27,7 +29,7 @@ const regex = {
   },
   handbook: {
     enchantments: /^monumenta:handbook\/enchantments\/([0-9a-zA-Z-_.]+)$/,
-    ignore: /^monumenta:handbook\/enchantments\/root$/,
+    root: /^monumenta:handbook\/enchantments\/root$/,
     sites: /^monumenta:handbook\/important_sites\/([0-9a-zA-Z-_.]+)\/([0-9a-zA-Z-_.]+)$/
   },
   description: {
@@ -39,6 +41,7 @@ const regex = {
     newlines: / ?\n ?/g
   }
 }
+// TODO: get rid of converter
 const converter = {
   poi: {},
   quest: {},
@@ -68,6 +71,10 @@ async function fetchAdvancements () {
 function generate () {
   console.log('[CONVERTER] Mapping paths to names...')
   for (const advancement of Object.values(advancements)) {
+    parseAny(advancement)
+  }
+
+  for (const advancement of Object.values(advancements)) {
     if (advancement.id.startsWith('monumenta:pois')) convertPoi(advancement) // parse poi regions
     else if (advancement.id.startsWith('monumenta:handbook')) convertHandbook(advancement)
     else if (advancement.id.startsWith('monumenta:quest')) convertQuest(advancement)
@@ -82,9 +89,6 @@ function generate () {
   }
   console.log('[PARSER] Done.')
   console.log('[ALL] Saving all advancements to readable file')
-  for (const advancement of Object.values(advancements)) {
-    parseAny(advancement)
-  }
   console.log('[ALL] Done.')
   console.log('[FILE] Creating output directory...')
   if (!fs.existsSync('./out')) fs.mkdirSync('./out')
@@ -109,6 +113,7 @@ function convertPoi (advancement) {
   if (!title) return
 
   const parsedTitle = parseChatJson(title)
+  // Technically the above is done, but quests are reliant on this to find location data
   switch (true) {
     // poi converter paths
     case regex.poi.shard.test(id): { // monumenta:pois/r1/root
@@ -123,6 +128,14 @@ function convertPoi (advancement) {
       if (!converter.poi[region]) converter.poi[region] = {}
       if (!converter.poi[region][subregion]) converter.poi[region][subregion] = {}
       converter.poi[region][subregion].name = parsedTitle
+      break
+    }
+    case regex.poi.specialSubregion.test(id): { // monumenta:pois/r1/sea/root_pineapple
+      const [, region, subregion, subsubregion] = regex.poi.specialSubregion.exec(id)
+      if (!converter.poi[region]) converter.poi[region] = {}
+      if (!converter.poi[region][subregion]) converter.poi[region][subregion] = {}
+      if (!converter.poi[region][subregion][subsubregion]) converter.poi[region][subregion][subsubregion] = {}
+      converter.poi[region][subregion][subsubregion].name = parsedTitle
       break
     }
     case regex.poi.subregion.test(id): { // monumenta:pois/r1/jungle/south/root
@@ -167,7 +180,7 @@ function convertHandbook (advancement) {
     }
     case regex.handbook.enchantments.test(id): {
       const [, enchantment] = regex.handbook.enchantments.exec(id)
-      if (regex.handbook.ignore.test(advancement.parent) && titlePrint !== 'Agility') { // Exclude Agility
+      if (regex.handbook.root.test(advancement.parent) && titlePrint !== 'Agility') { // Exclude Agility because that is not a category
         if (!converter.enchantments.category) converter.enchantments.category = {}
         converter.enchantments.category[enchantment] = {}
         converter.enchantments.category[enchantment].name = titlePrint
@@ -190,13 +203,17 @@ function parseAny (advancement) {
   if (!display) return
   const title = display.title
   const description = display.description
-  if (!title || !description) return
-  const parsedTitle = parseChatJson(title)
-  const parsedDescription = parseChatJson(description)
+  let parsedTitle = parseChatJson(title)
+  let parsedDescription = parseChatJson(description)
+
+  if (id.startsWith("monumenta:pois") && regex.poi.shard.test(id)) { // remove exploration prefix on POI shards
+    parsedTitle = parsedTitle.replace(regex.poi.suffix, '$1')
+  }
 
   all[advancement.id] = {
     title: parsedTitle,
-    description: parsedDescription
+    description: parsedDescription,
+    parent: advancement.parent
   }
 }
 
@@ -234,30 +251,25 @@ function parsePoi ({ id, display, title, description, advancement }) {
   const parsedTitle = parseChatJson(title) // make title into one line
   const parsedDescription = parseChatJson(description)
   // check if advancement has a valid path
+  // if (id.includes("/root")) return // TODO: if they ever add ids with /root that are actual advancements, this is gonna ruin the code
+  if (regex.poi.shard.test(id) || regex.poi.region.test(id) || regex.poi.subregion.test(id) || regex.poi.specialSubregion.test(id)) return
   const longPoi = regex.poi.long.test(id)
+  const specialPoi = regex.poi.special.test(id)
   const shortPoi = regex.poi.short.test(id)
-  if ((longPoi || shortPoi) === false) return
+  if ((specialPoi || longPoi || shortPoi) === false) return
   // generate poi information
   const data = { name: parsedTitle, shard: null, region: null, subregion: null, coordinates: null }
   // get coordinates
   data.coordinates = parseCoordinates(parsedDescription)
   // coordinates may be missing
   if (!data.coordinates) console.error(`[POI] '${parsedTitle}' missing coordinates | advancement: '${id}'`)
-  if (longPoi) { // monumenta:pois/r1/jungle/south/poi1
-    const [, shard, region, subregion, poi] = regex.poi.long.exec(id)
-    data.shard = converter.poi[shard].name
-    data.region = converter.poi[shard][region].name
-    data.subregion = converter.poi[shard][region][subregion].name
-    if (!pois[poi]) pois[poi] = data // add data
-    else console.error(`[POI] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
-  } else if (shortPoi) { // monumenta:pois/r1/jungle/poi1
-    const [, shard, region, poi] = regex.poi.short.exec(id)
-    data.shard = converter.poi[shard].name
-    data.region = converter.poi[shard][region].name
-    data.subregion = null
-    if (!pois[poi]) pois[poi] = data // add data
-    else console.error(`[POI] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
-  }
+  const poi = checkPoiName(id)
+  data.shard = checkPoiShard(id)
+  data.region = checkPoiRegion(id)
+  data.subregion = checkPoiSubregion(id)
+  if (!pois[poi]) pois[poi] = data
+  else console.error(`[POI] '${parsedTitle} has duplicate name | advancement: '${id}'`)
+
 }
 
 function parseDungeon ({ id, display, title, description, advancement }) {
@@ -270,7 +282,7 @@ function parseDungeon ({ id, display, title, description, advancement }) {
   parsedTitle = parsedTitle.replace(regex.dungeon.prefix, '$1') // get rid of 'Found ' prefix on dungeon name
   const data = { name: parsedTitle, description: null, poi: null, coordinates: null }
   data.description = parseChatJson(description[0]) // dungeon descriptions are special
-  data.poi = parsePois(parsedDescription)
+  data.poi = parseDungeonPois(parsedDescription)
   if (!data.poi) console.error(`[DUNGEON] '${parsedTitle}' missing poi data | advancement: '${id}'`)
   data.coordinates = parseCoordinates(parsedDescription)
   if (!data.coordinates) console.error(`[DUNGEON] '${parsedTitle}' missing coordinates | advancement: '${id}'`)
@@ -291,11 +303,7 @@ function parseQuest ({ id, display, title, description, advancement }) {
     const [, region, quest] = regex.quest.path.exec(id)
     data.region = converter.poi[region].name // use POI mapping
     const site = checkQuest(quest)
-    if (!site) {
-      data.city = null
-    } else {
-      data.city = converter.sites[region][site].name
-    }
+    if (site) data.city = converter.sites[region][site].name
     if (!quests[quest]) quests[quest] = data // add data
     else console.error(`[QUEST] '${parsedTitle}' has duplicate name | advancement: '${id}'`)
   }
@@ -306,7 +314,7 @@ function parseHandbook ({ id, display, title, description, advancement }) {
   const parsedDescription = parseChatJson(description)
   switch (true) {
     case regex.handbook.enchantments.test(id): {
-      if (regex.handbook.ignore.test(id) && title !== 'Agility') break
+      if (regex.handbook.root.test(id) && title !== 'Agility') break
       const data = { name: parsedTitle, description: parsedDescription, category: null }
       const [, enchantment] = regex.handbook.enchantments.exec(id)
       data.category = checkEnchantment(enchantment)
@@ -317,8 +325,46 @@ function parseHandbook ({ id, display, title, description, advancement }) {
   }
 }
 
+function checkPoiName (id = '') {
+  if (!id || id === '') return null
+  if (regex.poi.long.test(id)) {
+    const [, shard, region, subregion, poi] = regex.poi.long.exec(id)
+    return poi
+  } 
+  if (regex.poi.special.test(id)) {
+    const [, shard, region, poi, subregion] = regex.poi.special.exec(id)
+    return poi
+  } 
+  if (regex.poi.short.test(id)) {
+    const [, shard, region, poi] = regex.poi.short.exec(id)
+    return poi
+  }
+  return null
+}
+
+function checkPoiShard (id = '') { // monumenta:pois/r1/
+  if (!id || id === '') return null
+  if (regex.poi.shard.test(id)) return all[id].title
+  const value = checkPoiShard(all[id].parent)
+  return value
+}
+
+function checkPoiRegion (id = '') {  // monumenta:pois/r1/jungle
+  if (!id || id === '') return null
+  if (regex.poi.region.test(id)) return all[id].title
+  const value = checkPoiRegion(all[id].parent)
+  return value
+}
+
+function checkPoiSubregion (id = '') { // monumenta:pois/r1/jungle/north or monumenta:pois/r1/jungle/root_north
+  if (!id || id === '') return null
+  if (regex.poi.specialSubregion.test(id) || regex.poi.subregion.test(id)) return all[id].title
+  const value = checkPoiSubregion(all[id].parent)
+  return value
+}
+
 function checkQuest (name = '') { // recursively check for quests
-  if (name === '') return null
+  if (!name || name === '') return null
   for (const [region] of Object.entries(converter.sites)) {
     for (const [site] of Object.entries(converter.sites[region])) {
       if (name === site) return site
@@ -330,7 +376,7 @@ function checkQuest (name = '') { // recursively check for quests
 }
 
 function checkEnchantment (name = '') { // recursively check for enchantments
-  if (name === '') return null
+  if (!name || name === '') return null
   for (const [category, data] of Object.entries(converter.enchantments.category)) {
     if (name === category) return data.name
   }
@@ -351,7 +397,7 @@ function parseCoordinates (text) {
   return null
 }
 
-function parsePois (text) {
+function parseDungeonPois (text) {
   if (!text) return null
   if (regex.dungeon.poi.test(text)) {
     const [, poi] = regex.dungeon.poi.exec(text)

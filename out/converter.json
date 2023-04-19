@@ -30,7 +30,13 @@
       },
       "name": "King's Valley",
       "sea": {
-        "name": "Narsen Sea"
+        "name": "Narsen Sea",
+        "farwaters": {
+          "name": "Far Waters"
+        },
+        "royalshoreline": {
+          "name": "Royal Shoreline"
+        }
       },
       "swamp": {
         "east": {
@@ -705,5 +711,6 @@
         "description": "Enchantments that alter your attacks and increase the damage of them."
       }
     }
-  }
+  },
+  "id": {}
 }
