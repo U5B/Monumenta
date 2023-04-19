@@ -1,6 +1,5 @@
 // This program extracts POI data from Monumenta's advancement data.
 // Data required: POI name, region, subregion, coordinates
-require('dotenv').config()
 const registry = require('prismarine-registry')('1.16')
 const ChatMessage = require('prismarine-chat')(registry)
 const axios = require('axios').default
