@@ -1,2491 +1,2493 @@
 {
-  "azacorsmansion": {
-    "name": "Azacor's Mansion",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1308",
-      "y": "167",
-      "z": "299"
-    }
-  },
-  "consecratedgrounds": {
-    "name": "Consecrated Grounds",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1400",
-      "y": "165",
-      "z": "40"
-    }
-  },
-  "floodedfoyer": {
-    "name": "Flooded Foyer",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1418",
-      "y": "96",
-      "z": "138"
-    }
-  },
-  "hallowedhedges": {
-    "name": "Hallowed Hedges",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1237",
-      "y": "102",
-      "z": "-18"
-    }
-  },
-  "igorslaboratory": {
-    "name": "Igor's Laboratory",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1313",
-      "y": "130",
-      "z": "151"
-    }
-  },
-  "mapleroottown": {
-    "name": "Mapleroot Town",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1390",
-      "y": "117",
-      "z": "306"
-    }
-  },
-  "namelessruins": {
-    "name": "Nameless Ruins",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1216",
-      "y": "102",
-      "z": "3"
-    }
-  },
-  "undergrowth": {
-    "name": "The Undergrowth",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1479",
-      "y": "96",
-      "z": "168"
-    }
-  },
-  "weepingwormwood": {
-    "name": "Weeping Wormwood",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1346",
-      "y": "128",
-      "z": "175"
-    }
-  },
-  "whisperingwoods": {
-    "name": "Whispering Woods",
-    "shard": "King's Valley",
-    "region": "Azacor's Grove",
-    "subregion": null,
-    "coordinates": {
-      "x": "1443",
-      "y": "150",
-      "z": "312"
-    }
-  },
-  "anthill": {
-    "name": "Anthill",
-    "shard": "King's Valley",
-    "region": "Korbar Highlands",
-    "subregion": null,
-    "coordinates": {
-      "x": "819",
-      "y": "110",
-      "z": "209"
-    }
-  },
-  "caveofbones": {
-    "name": "Cave of Bones",
-    "shard": "King's Valley",
-    "region": "Korbar Highlands",
-    "subregion": null,
-    "coordinates": {
-      "x": "1000",
-      "y": "102",
-      "z": "-43"
-    }
-  },
-  "cursedforest": {
-    "name": "Cursed Forest",
-    "shard": "King's Valley",
-    "region": "Korbar Highlands",
-    "subregion": null,
-    "coordinates": {
-      "x": "1100",
-      "y": "104",
-      "z": "60"
-    }
-  },
-  "easternpass": {
-    "name": "Eastern Pass",
-    "shard": "King's Valley",
-    "region": "Korbar Highlands",
-    "subregion": null,
-    "coordinates": {
-      "x": "853",
-      "y": "77",
-      "z": "322"
-    }
-  },
-  "graveyard": {
-    "name": "Graveyard",
-    "shard": "King's Valley",
-    "region": "Korbar Highlands",
-    "subregion": null,
-    "coordinates": {
-      "x": "1033",
-      "y": "124",
-      "z": "-169"
-    }
-  },
-  "infestedhouse": {
-    "name": "Infested House",
-    "shard": "King's Valley",
-    "region": "Korbar Highlands",
-    "subregion": null,
-    "coordinates": {
-      "x": "1017",
-      "y": "117",
-      "z": "77"
-    }
-  },
-  "verdantfortress": {
-    "name": "Verdant Fortress",
-    "shard": "King's Valley",
-    "region": "Korbar Highlands",
-    "subregion": null,
-    "coordinates": {
-      "x": "916",
-      "y": "106",
-      "z": "182"
-    }
-  },
-  "volcano": {
-    "name": "Volcano",
-    "shard": "King's Valley",
-    "region": "Korbar Highlands",
-    "subregion": null,
-    "coordinates": {
-      "x": "936",
-      "y": "142",
-      "z": "-144"
-    }
-  },
-  "airshrine": {
-    "name": "Air Shrine",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Central Plateau",
-    "coordinates": {
-      "x": "446",
-      "y": "129",
-      "z": "-43"
-    }
-  },
-  "grandmaw": {
-    "name": "Grand Maw",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Central Plateau",
-    "coordinates": {
-      "x": "350",
-      "y": "71",
-      "z": "82"
-    }
-  },
-  "hawkfortress": {
-    "name": "Hawk Fortress",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Central Plateau",
-    "coordinates": {
-      "x": "454",
-      "y": "123",
-      "z": "106"
-    }
-  },
-  "axtanmonastary": {
-    "name": "Axtan Monastery",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Jaguar Tooth Mountains",
-    "coordinates": {
-      "x": "664",
-      "y": "121",
-      "z": "-263"
-    }
-  },
-  "collapsingtower": {
-    "name": "Collapsing Tower",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Jaguar Tooth Mountains",
-    "coordinates": {
-      "x": "860",
-      "y": "157",
-      "z": "-314"
-    }
-  },
-  "creeperfarm": {
-    "name": "Creeper Farm",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Jaguar Tooth Mountains",
-    "coordinates": {
-      "x": "797",
-      "y": "174",
-      "z": "-317"
-    }
-  },
-  "firecave": {
-    "name": "Fire Cave",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Jaguar Tooth Mountains",
-    "coordinates": {
-      "x": "570",
-      "y": "86",
-      "z": "-194"
-    }
-  },
-  "mountainhideaway": {
-    "name": "Mountain Hideaway",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Jaguar Tooth Mountains",
-    "coordinates": {
-      "x": "614",
-      "y": "146",
-      "z": "-351"
-    }
-  },
-  "mountainmines": {
-    "name": "Mountain Mineshaft",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Jaguar Tooth Mountains",
-    "coordinates": {
-      "x": "952",
-      "y": "147",
-      "z": "-347"
-    }
-  },
-  "caveofsecrets": {
-    "name": "Cave of Secrets",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "458",
-      "y": "74",
-      "z": "-103"
-    }
-  },
-  "crossroadruins": {
-    "name": "Crossroad Ruins",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "623",
-      "y": "71",
-      "z": "-112"
-    }
-  },
-  "junglemine": {
-    "name": "Jungle Mine",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "565",
-      "y": "77",
-      "z": "-69"
-    }
-  },
-  "litterbox": {
-    "name": "The Litterbox",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "890",
-      "y": "73",
-      "z": "42"
-    }
-  },
-  "moistruins": {
-    "name": "Moist Ruins",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "826",
-      "y": "74",
-      "z": "-209"
-    }
-  },
-  "moltenchasm": {
-    "name": "Molten Chasm",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "735",
-      "y": "71",
-      "z": "84"
-    }
-  },
-  "suspiciousvillage": {
-    "name": "Suspicious Village",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "748",
-      "y": "72",
-      "z": "-88"
-    }
-  },
-  "templetokaul": {
-    "name": "Temple to Kaul",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "773",
-      "y": "84",
-      "z": "-24"
-    }
-  },
-  "tinyjungleruin": {
-    "name": "Tiny Jungle Ruin",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northeastern Jungle",
-    "coordinates": {
-      "x": "503",
-      "y": "80",
-      "z": "-162"
-    }
-  },
-  "ancientruin": {
-    "name": "Ancient Ruin",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "359",
-      "y": "73",
-      "z": "-55"
-    }
-  },
-  "hawkvillage": {
-    "name": "Hawk Village",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "137",
-      "y": "123",
-      "z": "-114"
-    }
-  },
-  "murkymaze": {
-    "name": "Murky Maze",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "-45",
-      "y": "70",
-      "z": "-25"
-    }
-  },
-  "mysteriouscenote": {
-    "name": "Mysterious Cenote",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "159",
-      "y": "123",
-      "z": "-78"
-    }
-  },
-  "northjaguar": {
-    "name": "Northern Jaguar Village",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "268",
-      "y": "74",
-      "z": "6"
-    }
-  },
-  "overgrowncave": {
-    "name": "Overgrown Cave",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "194",
-      "y": "74",
-      "z": "31"
-    }
-  },
-  "ruinedmansion": {
-    "name": "Ruined Mansion",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "-7",
-      "y": "72",
-      "z": "-165"
-    }
-  },
-  "tlaxanziggurat": {
-    "name": "Tlaxan Ziggurat",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "215",
-      "y": "125",
-      "z": "-109"
-    }
-  },
-  "watercavern": {
-    "name": "Water Cavern",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Northwestern Jungle",
-    "coordinates": {
-      "x": "90",
-      "y": "71",
-      "z": "29"
-    }
-  },
-  "corruptedcaves": {
-    "name": "Corrupted Caves",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southeastern Jungle",
-    "coordinates": {
-      "x": "515",
-      "y": "71",
-      "z": "391"
-    }
-  },
-  "corruptedisland": {
-    "name": "Corrupted Island",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southeastern Jungle",
-    "coordinates": {
-      "x": "619",
-      "y": "73",
-      "z": "467"
-    }
-  },
-  "creepertower": {
-    "name": "Creeper Tower",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southeastern Jungle",
-    "coordinates": {
-      "x": "750",
-      "y": "83",
-      "z": "319"
-    }
-  },
-  "hallowedpond": {
-    "name": "Hallowed Pond",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southeastern Jungle",
-    "coordinates": {
-      "x": "454",
-      "y": "72",
-      "z": "247"
-    }
-  },
-  "lowlandtemple": {
-    "name": "Lowland Temple",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southeastern Jungle",
-    "coordinates": {
-      "x": "480",
-      "y": "71",
-      "z": "154"
-    }
-  },
-  "southerncenote": {
-    "name": "Southern Cenote",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southeastern Jungle",
-    "coordinates": {
-      "x": "551",
-      "y": "45",
-      "z": "325"
-    }
-  },
-  "abandonedtunnels": {
-    "name": "Abandoned Tunnels",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southwestern Jungle",
-    "coordinates": {
-      "x": "109",
-      "y": "79",
-      "z": "143"
-    }
-  },
-  "earthshrine": {
-    "name": "Earth Shrine",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southwestern Jungle",
-    "coordinates": {
-      "x": "250",
-      "y": "75",
-      "z": "152"
-    }
-  },
-  "serpentruins": {
-    "name": "Serpent Ruins",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southwestern Jungle",
-    "coordinates": {
-      "x": "22",
-      "y": "127",
-      "z": "148"
-    }
-  },
-  "southjaguar": {
-    "name": "Southern Jaguar Village",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southwestern Jungle",
-    "coordinates": {
-      "x": "107",
-      "y": "72",
-      "z": "95"
-    }
-  },
-  "templetomemory": {
-    "name": "Altar of Evocation",
-    "shard": "King's Valley",
-    "region": "Blackroot Jungle",
-    "subregion": "Southwestern Jungle",
-    "coordinates": {
-      "x": "216",
-      "y": "92",
-      "z": "144"
-    }
-  },
-  "aphelionisle": {
-    "name": "Aphelion Isle",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Far Waters",
-    "coordinates": {
-      "x": "-1533",
-      "y": "94",
-      "z": "364"
-    }
-  },
-  "bastionofspires": {
-    "name": "Bastion of Spires",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Far Waters",
-    "coordinates": {
-      "x": "-1358",
-      "y": "92",
-      "z": "-291"
-    }
-  },
-  "cathedralofthedeep": {
-    "name": "Cathedral of the Deep",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Far Waters",
-    "coordinates": {
-      "x": "-1596",
-      "y": "34",
-      "z": "355"
-    }
-  },
-  "cloudpiercer": {
-    "name": "Cloud Piercer",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Far Waters",
-    "coordinates": {
-      "x": "-1473",
-      "y": "128",
-      "z": "-265"
-    }
-  },
-  "forsakenwatchtower": {
-    "name": "Forsaken Watchtower",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Far Waters",
-    "coordinates": {
-      "x": "-1416",
-      "y": "95",
-      "z": "333"
-    }
-  },
-  "seaoutpost": {
-    "name": "Sea Outpost",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Royal Shoreline",
-    "coordinates": {
-      "x": "-1161",
-      "y": "92",
-      "z": "-176"
-    }
-  },
-  "shroomboundgrotto": {
-    "name": "Shroombound Grotto",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Royal Shoreline",
-    "coordinates": {
-      "x": "-1079",
-      "y": "92",
-      "z": "359"
-    }
-  },
-  "submergedgateway": {
-    "name": "Submerged Gateway",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Royal Shoreline",
-    "coordinates": {
-      "x": "-1141",
-      "y": "90",
-      "z": "238"
-    }
-  },
-  "sunkencity": {
-    "name": "Sunken City",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Far Waters",
-    "coordinates": {
-      "x": "-1362",
-      "y": "95",
-      "z": "-147"
-    }
-  },
-  "toxinlab": {
-    "name": "Toxin Lab",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Royal Shoreline",
-    "coordinates": {
-      "x": "-1223",
-      "y": "88",
-      "z": "93"
-    }
-  },
-  "witheredhideout": {
-    "name": "Withered Hideout",
-    "shard": "King's Valley",
-    "region": "Narsen Sea",
-    "subregion": "Royal Shoreline",
-    "coordinates": {
-      "x": "-1219",
-      "y": "93",
-      "z": "426"
-    }
-  },
-  "easternmine": {
-    "name": "Eastern Mineshaft",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Eastern Swamplands",
-    "coordinates": {
-      "x": "-334",
-      "y": "101",
-      "z": "-159"
-    }
-  },
-  "fireshrine": {
-    "name": "Fire Shrine",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Eastern Swamplands",
-    "coordinates": {
-      "x": "-240",
-      "y": "92",
-      "z": "84"
-    }
-  },
-  "fishinghuts": {
-    "name": "Fishing Huts",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Eastern Swamplands",
-    "coordinates": {
-      "x": "-369",
-      "y": "91",
-      "z": "5"
-    }
-  },
-  "ruineddocks": {
-    "name": "Ruined Docks",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Eastern Swamplands",
-    "coordinates": {
-      "x": "-401",
-      "y": "93",
-      "z": "208"
-    }
-  },
-  "theoldtower": {
-    "name": "The Old Tower",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Eastern Swamplands",
-    "coordinates": {
-      "x": "-441",
-      "y": "91",
-      "z": "-163"
-    }
-  },
-  "watershrine": {
-    "name": "Water Shrine",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Eastern Swamplands",
-    "coordinates": {
-      "x": "-317",
-      "y": "91",
-      "z": "-55"
-    }
-  },
-  "banditcamp": {
-    "name": "Bandit Camp",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Northern Swamplands",
-    "coordinates": {
-      "x": "-397",
-      "y": "92",
-      "z": "-376"
-    }
-  },
-  "banditstronghold": {
-    "name": "Bandit Stronghold",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Northern Swamplands",
-    "coordinates": {
-      "x": "-829",
-      "y": "97",
-      "z": "-392"
-    }
-  },
-  "ctelsketsmemory": {
-    "name": "C'Telsket's Memory",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Northern Swamplands",
-    "coordinates": {
-      "x": "-923",
-      "y": "86",
-      "z": "-133"
-    }
-  },
-  "magetower": {
-    "name": "Mage Tower",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Northern Swamplands",
-    "coordinates": {
-      "x": "-523",
-      "y": "119",
-      "z": "-518"
-    }
-  },
-  "mercenarycamp": {
-    "name": "Mercenary Fort",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Northern Swamplands",
-    "coordinates": {
-      "x": "-299",
-      "y": "93",
-      "z": "-244"
-    }
-  },
-  "northmine": {
-    "name": "Northern Mineshaft",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Northern Swamplands",
-    "coordinates": {
-      "x": "-806",
-      "y": "94",
-      "z": "-370"
-    }
-  },
-  "sinkhole": {
-    "name": "Swamp Sinkhole",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Northern Swamplands",
-    "coordinates": {
-      "x": "-669",
-      "y": "78",
-      "z": "-348"
-    }
-  },
-  "waterfallisland": {
-    "name": "Waterfall Island",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Northern Swamplands",
-    "coordinates": {
-      "x": "-667",
-      "y": "90",
-      "z": "-408"
-    }
-  },
-  "hauntedmine": {
-    "name": "Haunted Mine",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Southern Swamplands",
-    "coordinates": {
-      "x": "-652",
-      "y": "119",
-      "z": "537"
-    }
-  },
-  "lighthouse": {
-    "name": "Lighthouse",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Southern Swamplands",
-    "coordinates": {
-      "x": "-822",
-      "y": "100",
-      "z": "427"
-    }
-  },
-  "riftofthedrowned": {
-    "name": "Rift of the Drowned",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Southern Swamplands",
-    "coordinates": {
-      "x": "-479",
-      "y": "93",
-      "z": "309"
-    }
-  },
-  "southeasternmine": {
-    "name": "Southeastern Mineshaft",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Southern Swamplands",
-    "coordinates": {
-      "x": "-352",
-      "y": "95",
-      "z": "275"
-    }
-  },
-  "southernmine": {
-    "name": "Southern Mineshaft",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Southern Swamplands",
-    "coordinates": {
-      "x": "-536",
-      "y": "98",
-      "z": "461"
-    }
-  },
-  "southernvillage": {
-    "name": "Southern Village",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Southern Swamplands",
-    "coordinates": {
-      "x": "-642",
-      "y": "92",
-      "z": "428"
-    }
-  },
-  "witchvillage": {
-    "name": "Witch Village",
-    "shard": "King's Valley",
-    "region": "Swamplands",
-    "subregion": "Southern Swamplands",
-    "coordinates": {
-      "x": "-387",
-      "y": "95",
-      "z": "401"
-    }
-  },
-  "bandit_encampment": {
-    "name": "Bandit Encampment",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Crystalshroom Valley",
-    "coordinates": {
-      "x": "-1591",
-      "y": "103",
-      "z": "599"
-    }
-  },
-  "crystal_forest_grove": {
-    "name": "Crystal Forest Grove",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Crystalshroom Valley",
-    "coordinates": {
-      "x": "-1733",
-      "y": "110",
-      "z": "422"
-    }
-  },
-  "crystal_mines": {
-    "name": "Crystal Mines",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Crystalshroom Valley",
-    "coordinates": {
-      "x": "-1581",
-      "y": "111",
-      "z": "296"
-    }
-  },
-  "crystal_outpost": {
-    "name": "Crystal Outpost",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Crystalshroom Valley",
-    "coordinates": {
-      "x": "-1933",
-      "y": "83",
-      "z": "606"
-    }
-  },
-  "igloos_and_you": {
-    "name": "Igloos and You",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Crystalshroom Valley",
-    "coordinates": {
-      "x": "-1704",
-      "y": "112",
-      "z": "552"
-    }
-  },
-  "irilyth": {
-    "name": "Irilyth",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Crystalshroom Valley",
-    "coordinates": {
-      "x": "-1597",
-      "y": "109",
-      "z": "497"
-    }
-  },
-  "abandoned_winery": {
-    "name": "Abandoned Winery",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Forest",
-    "coordinates": {
-      "x": "-1790",
-      "y": "111",
-      "z": "859"
-    }
-  },
-  "fall_shrine": {
-    "name": "Fall Shrine",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Forest",
-    "coordinates": {
-      "x": "-1738",
-      "y": "97",
-      "z": "1008"
-    }
-  },
-  "ice_mine": {
-    "name": "Ice Mine",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Forest",
-    "coordinates": {
-      "x": "-1447",
-      "y": "88",
-      "z": "719"
-    }
-  },
-  "mini_mining_camp": {
-    "name": "Mini Mining Camp",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Forest",
-    "coordinates": {
-      "x": "-1660",
-      "y": "112",
-      "z": "644"
-    }
-  },
-  "smugglers_cabin": {
-    "name": "Smuggler's Cabin",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Forest",
-    "coordinates": {
-      "x": "-1565",
-      "y": "94",
-      "z": "753"
-    }
-  },
-  "supply_fort": {
-    "name": "Supply Fort",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Forest",
-    "coordinates": {
-      "x": "-1727",
-      "y": "94",
-      "z": "834"
-    }
-  },
-  "tundra_lighthouse": {
-    "name": "Tundra Lighthouse",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Forest",
-    "coordinates": {
-      "x": "-1726",
-      "y": "104",
-      "z": "679"
-    }
-  },
-  "bandits_by_the_sea": {
-    "name": "Bandits By The Sea",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1130",
-      "y": "106",
-      "z": "92"
-    }
-  },
-  "brewery": {
-    "name": "Brewery",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1372",
-      "y": "111",
-      "z": "204"
-    }
-  },
-  "cliffside_ruins": {
-    "name": "Cliffside Ruins",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1836",
-      "y": "121",
-      "z": "202"
-    }
-  },
-  "frigid_laboratory": {
-    "name": "Frigid Laboratory",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1593",
-      "y": "102",
-      "z": "-117"
-    }
-  },
-  "grim_towers": {
-    "name": "The Grim Towers",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1505",
-      "y": "99",
-      "z": "-148"
-    }
-  },
-  "hot_springs": {
-    "name": "Hot Springs",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1381",
-      "y": "134",
-      "z": "63"
-    }
-  },
-  "mountain_market": {
-    "name": "Mountain Market",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1594",
-      "y": "133",
-      "z": "65"
-    }
-  },
-  "mountainside_hideaway": {
-    "name": "Mountainside Hideaway",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1367",
-      "y": "111",
-      "z": "-97"
-    }
-  },
-  "mountaintop_bandits": {
-    "name": "Mountaintop Bandits",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1510",
-      "y": "133",
-      "z": "137"
-    }
-  },
-  "smitten_library": {
-    "name": "Smitten Library",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1327",
-      "y": "151",
-      "z": "95"
-    }
-  },
-  "stargazers_hideaway": {
-    "name": "Stargazer's Hideaway",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1388",
-      "y": "129",
-      "z": "-171"
-    }
-  },
-  "underground_settlement": {
-    "name": "Underground Settlement",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1290",
-      "y": "121",
-      "z": "116"
-    }
-  },
-  "weathered_citadel": {
-    "name": "Weathered Citadel",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1219",
-      "y": "104",
-      "z": "236"
-    }
-  },
-  "weathered_tower": {
-    "name": "Weathered Tower",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1171",
-      "y": "113",
-      "z": "22"
-    }
-  },
-  "whitecliffe_citadel": {
-    "name": "Whitecliffe Citadel",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Mountains",
-    "coordinates": {
-      "x": "-1611",
-      "y": "133",
-      "z": "5"
-    }
-  },
-  "abandoned_snowman_settlement": {
-    "name": "Abandoned Snowman Settlement",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Permafrost",
-    "coordinates": {
-      "x": "-1308",
-      "y": "101",
-      "z": "784"
-    }
-  },
-  "frostbitten_caves": {
-    "name": "Frostbitten Caves",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Permafrost",
-    "coordinates": {
-      "x": "-1044",
-      "y": "82",
-      "z": "796"
-    }
-  },
-  "frostgate_ruins": {
-    "name": "Frostgate Ruins",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Permafrost",
-    "coordinates": {
-      "x": "-1267",
-      "y": "87",
-      "z": "933"
-    }
-  },
-  "ice_boat": {
-    "name": "Ice Boat",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Permafrost",
-    "coordinates": {
-      "x": "-1259",
-      "y": "78",
-      "z": "1061"
-    }
-  },
-  "ice_castle": {
-    "name": "Ice Castle",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Permafrost",
-    "coordinates": {
-      "x": "-1282",
-      "y": "119",
-      "z": "678"
-    }
-  },
-  "military_base": {
-    "name": "Military Base",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Permafrost",
-    "coordinates": {
-      "x": "-1174",
-      "y": "86",
-      "z": "947"
-    }
-  },
-  "raider_camp": {
-    "name": "Raider Camp",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Permafrost",
-    "coordinates": {
-      "x": "-1197",
-      "y": "87",
-      "z": "863"
-    }
-  },
-  "sealed_descent": {
-    "name": "Sealed Descent",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Permafrost",
-    "coordinates": {
-      "x": "-1098",
-      "y": "118",
-      "z": "681"
-    }
-  },
-  "archaeological_dig_site": {
-    "name": "Archaeological Dig Site",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1260",
-      "y": "77",
-      "z": "566"
-    }
-  },
-  "church_of_munk": {
-    "name": "Church of Munk",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1180",
-      "y": "108",
-      "z": "474"
-    }
-  },
-  "fortress_of_bacon": {
-    "name": "Fortress of Bacon",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1477",
-      "y": "103",
-      "z": "497"
-    }
-  },
-  "kreepa_kastle": {
-    "name": "Kreepa Kastle",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1629",
-      "y": "134",
-      "z": "165"
-    }
-  },
-  "riverbed_cavern": {
-    "name": "Riverbed Cavern",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1358",
-      "y": "91",
-      "z": "455"
-    }
-  },
-  "rogues_fortress": {
-    "name": "Rogue's Fortress",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1121",
-      "y": "104",
-      "z": "369"
-    }
-  },
-  "ship_landing_zone": {
-    "name": "Ship Landing Zone",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1080",
-      "y": "96",
-      "z": "420"
-    }
-  },
-  "silver_tower": {
-    "name": "Silver Tower",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1872",
-      "y": "89",
-      "z": "419"
-    }
-  },
-  "winter_shrine": {
-    "name": "Winter Shrine",
-    "shard": "Celsian Isles",
-    "region": "Chillwind",
-    "subregion": "Icelands",
-    "coordinates": {
-      "x": "-1253",
-      "y": "143",
-      "z": "322"
-    }
-  },
-  "abandoned_lab": {
-    "name": "Abandoned Lab",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "25",
-      "y": "92",
-      "z": "652"
-    }
-  },
-  "canyon_bandit_camp": {
-    "name": "Canyon Bandit Camp",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "-21",
-      "y": "56",
-      "z": "639"
-    }
-  },
-  "cavern_of_cinders": {
-    "name": "Cavern of Cinders",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "-73",
-      "y": "61",
-      "z": "497"
-    }
-  },
-  "cinders_roost": {
-    "name": "Cinder's Roost",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "126",
-      "y": "131",
-      "z": "619"
-    }
-  },
-  "library": {
-    "name": "Abandoned Library",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "-44",
-      "y": "131",
-      "z": "577"
-    }
-  },
-  "lost_lava_labs": {
-    "name": "Lost Lava Labs",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "-88",
-      "y": "49",
-      "z": "599"
-    }
-  },
-  "marble_mine": {
-    "name": "Marble Mine",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "-145",
-      "y": "74",
-      "z": "514"
-    }
-  },
-  "rockspider_cavern": {
-    "name": "Rockspider Cavern",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "145",
-      "y": "61",
-      "z": "534"
-    }
-  },
-  "sunken_tower": {
-    "name": "Sunken Tower",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Canyonlands",
-    "coordinates": {
-      "x": "-3",
-      "y": "88",
-      "z": "474"
-    }
-  },
-  "antlion_pit": {
-    "name": "Antlion Pit",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "431",
-      "y": "90",
-      "z": "-94"
-    }
-  },
-  "ashen_fortress": {
-    "name": "Ashen Fortress",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "388",
-      "y": "137",
-      "z": "11"
-    }
-  },
-  "basanite_bore": {
-    "name": "Basanite Bore",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "41",
-      "y": "117",
-      "z": "285"
-    }
-  },
-  "charn": {
-    "name": "Charn",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "303",
-      "y": "92",
-      "z": "265"
-    }
-  },
-  "corrupted_fort": {
-    "name": "Corrupted Fort",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "103",
-      "y": "135",
-      "z": "-39"
-    }
-  },
-  "crystal_crown": {
-    "name": "Crystal Crown",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "354",
-      "y": "123",
-      "z": "124"
-    }
-  },
-  "emberborne_sanctuary": {
-    "name": "Emberborne Sanctuary",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "-122",
-      "y": "96",
-      "z": "345"
-    }
-  },
-  "floating_fortress": {
-    "name": "Floating Fortress",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "53",
-      "y": "152",
-      "z": "-94"
-    }
-  },
-  "hill_fortress": {
-    "name": "Hill Fortress",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "66",
-      "y": "142",
-      "z": "61"
-    }
-  },
-  "magmashroom_mine": {
-    "name": "Magmashroom Mine",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "-109",
-      "y": "103",
-      "z": "48"
-    }
-  },
-  "scorch_valley": {
-    "name": "Scorch Valley",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "525",
-      "y": "89",
-      "z": "103"
-    }
-  },
-  "terracotta_mining_town": {
-    "name": "Terracotta Mining Town",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "142",
-      "y": "120",
-      "z": "343"
-    }
-  },
-  "twilight_aqueduct": {
-    "name": "Twilight Aqueduct",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "654",
-      "y": "88",
-      "z": "21"
-    }
-  },
-  "twilight_ruins": {
-    "name": "Twilight Ruins",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Mesa",
-    "coordinates": {
-      "x": "579",
-      "y": "94",
-      "z": "-21"
-    }
-  },
-  "aquamarine_monastery": {
-    "name": "Aquamarine Monastery",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "272",
-      "y": "80",
-      "z": "641"
-    }
-  },
-  "arcane_spire": {
-    "name": "Arcane Spire",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "209",
-      "y": "89",
-      "z": "780"
-    }
-  },
-  "cave_village": {
-    "name": "Cave Village",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "78",
-      "y": "80",
-      "z": "877"
-    }
-  },
-  "charred_arcanery": {
-    "name": "Charred Arcanery",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "59",
-      "y": "103",
-      "z": "934"
-    }
-  },
-  "dehydrated_oasis": {
-    "name": "Dehydrated Oasis",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "24",
-      "y": "88",
-      "z": "749"
-    }
-  },
-  "mini_oasis": {
-    "name": "Mini Oasis",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "318",
-      "y": "88",
-      "z": "1027"
-    }
-  },
-  "oasis_town": {
-    "name": "Oasis Town",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "226",
-      "y": "93",
-      "z": "941"
-    }
-  },
-  "palm_tree_paradise": {
-    "name": "Palm Tree Paradise",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "-35",
-      "y": "102",
-      "z": "915"
-    }
-  },
-  "refuge_of_the_drowned": {
-    "name": "Refuge of the Drowned",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Oasis",
-    "coordinates": {
-      "x": "155",
-      "y": "83",
-      "z": "1042"
-    }
-  },
-  "bandit_hideaway_hill": {
-    "name": "Bandit Hideaway Hill",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Trade Route",
-    "coordinates": {
-      "x": "555",
-      "y": "89",
-      "z": "373"
-    }
-  },
-  "crystal_haven": {
-    "name": "Crystal Haven",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Trade Route",
-    "coordinates": {
-      "x": "493",
-      "y": "100",
-      "z": "387"
-    }
-  },
-  "lost_sands_city": {
-    "name": "Lost Sands City",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Trade Route",
-    "coordinates": {
-      "x": "224",
-      "y": "93",
-      "z": "481"
-    }
-  },
-  "mines_of_duality": {
-    "name": "Mines of Duality",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Trade Route",
-    "coordinates": {
-      "x": "491",
-      "y": "114",
-      "z": "258"
-    }
-  },
-  "riverbank_camp": {
-    "name": "Riverbank Camp",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Trade Route",
-    "coordinates": {
-      "x": "354",
-      "y": "92",
-      "z": "542"
-    }
-  },
-  "silverbrooke_outpost": {
-    "name": "Silverbrooke Outpost",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Trade Route",
-    "coordinates": {
-      "x": "327",
-      "y": "96",
-      "z": "439"
-    }
-  },
-  "warehouse_compound": {
-    "name": "Warehouse Compound",
-    "shard": "Celsian Isles",
-    "region": "Ishnir",
-    "subregion": "Trade Route",
-    "coordinates": {
-      "x": "265",
-      "y": "98",
-      "z": "356"
-    }
-  },
-  "abbey": {
-    "name": "Abbey of Angels",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "-171",
-      "y": "87",
-      "z": "658"
-    }
-  },
-  "barracks_at_sea": {
-    "name": "Barracks at Sea",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "-262",
-      "y": "86",
-      "z": "956"
-    }
-  },
-  "bastion_at_sea": {
-    "name": "Bastion at Sea",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "-515",
-      "y": "84",
-      "z": "680"
-    }
-  },
-  "corsairs_claw": {
-    "name": "Corsair's Claw",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "551",
-      "y": "81",
-      "z": "1407"
-    }
-  },
-  "dueling_fleets": {
-    "name": "Dueling Fleets",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "-1999",
-      "y": "89",
-      "z": "1079"
-    }
-  },
-  "garden_at_sea": {
-    "name": "Garden at Sea",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "-805",
-      "y": "89",
-      "z": "924"
-    }
-  },
-  "guardians_gate": {
-    "name": "Guardian's Gate",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "-1769",
-      "y": "81",
-      "z": "1325"
-    }
-  },
-  "mystical_tower": {
-    "name": "Mystical Tower",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "-2028",
-      "y": "84",
-      "z": "1258"
-    }
-  },
-  "spring_shrine": {
-    "name": "Spring Shrine",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "219",
-      "y": "100",
-      "z": "1276"
-    }
-  },
-  "summer_shrine": {
-    "name": "Summer Shrine",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Viridian Archipelago",
-    "coordinates": {
-      "x": "-1346",
-      "y": "121",
-      "z": "1350"
-    }
-  },
-  "city_of_bones": {
-    "name": "City of Bones",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-2049",
-      "y": "102",
-      "z": "-494"
-    }
-  },
-  "crystalline_vault": {
-    "name": "Crystalline Vault",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-2149",
-      "y": "58",
-      "z": "596"
-    }
-  },
-  "madmans_redoubt": {
-    "name": "Madman's Redoubt",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-2166",
-      "y": "82",
-      "z": "-261"
-    }
-  },
-  "magmortic_atheneum": {
-    "name": "Magmortic Atheneum",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "508",
-      "y": "28",
-      "z": "-357"
-    }
-  },
-  "moltaria_palace": {
-    "name": "Moltaria Palace",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "110",
-      "y": "84",
-      "z": "-549"
-    }
-  },
-  "rosebud_ruins": {
-    "name": "Rosebud Ruins",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-761",
-      "y": "102",
-      "z": "217"
-    }
-  },
-  "sacrarium_of_aeons": {
-    "name": "Sacrarium of Aeons",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-809",
-      "y": "30",
-      "z": "-455"
-    }
-  },
-  "shroom_spires": {
-    "name": "Shroom Spires",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-2019",
-      "y": "84",
-      "z": "-54"
-    }
-  },
-  "steelmeld_passage": {
-    "name": "Steelmeld Passage",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-433",
-      "y": "14",
-      "z": "-495"
-    }
-  },
-  "sunken_tomb": {
-    "name": "Sunken Tomb",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-321",
-      "y": "83",
-      "z": "26"
-    }
-  },
-  "the_minefield": {
-    "name": "The Minefield",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": null
-  },
-  "vengeance_of_the_sea": {
-    "name": "Vengeance of the Sea",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Ocean's Reach",
-    "coordinates": {
-      "x": "-1662",
-      "y": "80",
-      "z": "-374"
-    }
-  },
-  "feyrune_forest": {
-    "name": "Feyrune Forest",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-909",
-      "y": "123",
-      "z": "1536"
-    }
-  },
-  "fungus_thorn_cave": {
-    "name": "Fungus Thorn Cave",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-590",
-      "y": "106",
-      "z": "1269"
-    }
-  },
-  "pineapple_plantation": {
-    "name": "Mr. Happy's Pineapple Plantation",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-289",
-      "y": "86",
-      "z": "1297"
-    }
-  },
-  "seigrit_mineshaft": {
-    "name": "Seigrit Mineshaft",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-249",
-      "y": "89",
-      "z": "1548"
-    }
-  },
-  "skull_island": {
-    "name": "Skull Island",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-131",
-      "y": "84",
-      "z": "1468"
-    }
-  },
-  "spiral_island": {
-    "name": "Spiral Island",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-772",
-      "y": "86",
-      "z": "1140"
-    }
-  },
-  "sunken_ship": {
-    "name": "Sunken Ship",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-1123",
-      "y": "82",
-      "z": "1601"
-    }
-  },
-  "tangled_cove": {
-    "name": "Tangled Cove",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-696",
-      "y": "84",
-      "z": "1753"
-    }
-  },
-  "taproot_ruins": {
-    "name": "Taproot Ruins",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-562",
-      "y": "141",
-      "z": "1424"
-    }
-  },
-  "the_watch": {
-    "name": "The Watch",
-    "shard": "Celsian Isles",
-    "region": "Ocean",
-    "subregion": "Mistport Outlands",
-    "coordinates": {
-      "x": "-458",
-      "y": "86",
-      "z": "1092"
-    }
-  },
-  "arx_spirensis": {
-    "name": "Arx Spirensis",
-    "shard": "Architect's Ring",
-    "region": "Pelias' Keep",
-    "subregion": null,
-    "coordinates": {
-      "x": "-487",
-      "y": "60",
-      "z": "15"
-    }
-  },
-  "doomed_encampment": {
-    "name": "Doomed Encampment",
-    "shard": "Architect's Ring",
-    "region": "Pelias' Keep",
-    "subregion": null,
-    "coordinates": {
-      "x": "-506",
-      "y": "177",
-      "z": "65"
-    }
-  },
-  "forsaken_manor": {
-    "name": "Forsaken Manor",
-    "shard": "Architect's Ring",
-    "region": "Pelias' Keep",
-    "subregion": null,
-    "coordinates": {
-      "x": "-462",
-      "y": "181",
-      "z": "139"
-    }
-  },
-  "quelled_convent": {
-    "name": "Quelled Convent",
-    "shard": "Architect's Ring",
-    "region": "Pelias' Keep",
-    "subregion": null,
-    "coordinates": {
-      "x": "-365",
-      "y": "186",
-      "z": "35"
-    }
-  },
-  "silvic_quarry": {
-    "name": "Silvic Quarry",
-    "shard": "Architect's Ring",
-    "region": "Pelias' Keep",
-    "subregion": null,
-    "coordinates": {
-      "x": "-543",
-      "y": "183",
-      "z": "-58"
-    }
-  },
-  "submerged_citadel": {
-    "name": "Submerged Citadel",
-    "shard": "Architect's Ring",
-    "region": "Pelias' Keep",
-    "subregion": null,
-    "coordinates": {
-      "x": "-376",
-      "y": "102",
-      "z": "220"
-    }
-  },
-  "boon_of_knightly_prayer": {
-    "name": "Boon of Knightly Prayer",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-421",
-      "y": "179",
-      "z": "233"
-    }
-  },
-  "boon_of_silver_scales": {
-    "name": "Boon of Silver Scales",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-279",
-      "y": "83",
-      "z": "-486"
-    }
-  },
-  "boon_of_the_pit": {
-    "name": "Boon of the Pit",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-618",
-      "y": "64",
-      "z": "-408"
-    }
-  },
-  "crystalline_blessing": {
-    "name": "Crystalline Blessing",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-260",
-      "y": "43",
-      "z": "-366"
-    }
-  },
-  "curse_of_the_dark_soul": {
-    "name": "Curse of the Dark Soul",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": null
-  },
-  "deep_gods_endowment": {
-    "name": "Deep God's Endowment",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-389",
-      "y": "91",
-      "z": "-294"
-    }
-  },
-  "grace_of_star_communion": {
-    "name": "Grace of Star Communion",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-399",
-      "y": "175",
-      "z": "502"
-    }
-  },
-  "harrakfars_blessing": {
-    "name": "Harrakfar's Blessing",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-339",
-      "y": "89",
-      "z": "-719"
-    }
-  },
-  "pool_of_purging": {
-    "name": "Pool of Purging",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-430",
-      "y": "65",
-      "z": "-549"
-    }
-  },
-  "tuathan_blessing": {
-    "name": "Tuathan Blessing",
-    "shard": "Architect's Ring",
-    "region": "Shrines",
-    "subregion": null,
-    "coordinates": {
-      "x": "-321",
-      "y": "177",
-      "z": "62"
-    }
-  },
-  "amanita_colony": {
-    "name": "Amanita Colony",
-    "shard": "Architect's Ring",
-    "region": "Wolfswood",
-    "subregion": null,
-    "coordinates": {
-      "x": "-270",
-      "y": "104",
-      "z": "-292"
-    }
-  },
-  "bewitched_dominion": {
-    "name": "Bewitched Dominion",
-    "shard": "Architect's Ring",
-    "region": "Wolfswood",
-    "subregion": null,
-    "coordinates": {
-      "x": "-681",
-      "y": "107",
-      "z": "-220"
-    }
-  },
-  "chanterelle_village": {
-    "name": "Chanterelle Village",
-    "shard": "Architect's Ring",
-    "region": "Wolfswood",
-    "subregion": null,
-    "coordinates": {
-      "x": "-300",
-      "y": "98",
-      "z": "-390"
-    }
-  },
-  "coven_fortress": {
-    "name": "Coven Fortress",
-    "shard": "Architect's Ring",
-    "region": "Wolfswood",
-    "subregion": null,
-    "coordinates": {
-      "x": "-547",
-      "y": "100",
-      "z": "-320"
-    }
-  },
-  "locum_vernantia": {
-    "name": "Locum Vernantia",
-    "shard": "Architect's Ring",
-    "region": "Wolfswood",
-    "subregion": null,
-    "coordinates": {
-      "x": "-631",
-      "y": "35",
-      "z": "-576"
-    }
-  },
-  "shadowcast_bastille": {
-    "name": "Shadowcast Bastille",
-    "shard": "Architect's Ring",
-    "region": "Wolfswood",
-    "subregion": null,
-    "coordinates": {
-      "x": "-202",
-      "y": "72",
-      "z": "-503"
-    }
-  },
-  "vibrant_hollow": {
-    "name": "Vibrant Hollow",
-    "shard": "Architect's Ring",
-    "region": "Wolfswood",
-    "subregion": null,
-    "coordinates": {
-      "x": "-549",
-      "y": "42",
-      "z": "-698"
+  "pois": {
+    "azacorsmansion": {
+      "name": "Azacor's Mansion",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1308",
+        "y": "167",
+        "z": "299"
+      }
+    },
+    "consecratedgrounds": {
+      "name": "Consecrated Grounds",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1400",
+        "y": "165",
+        "z": "40"
+      }
+    },
+    "floodedfoyer": {
+      "name": "Flooded Foyer",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1418",
+        "y": "96",
+        "z": "138"
+      }
+    },
+    "hallowedhedges": {
+      "name": "Hallowed Hedges",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1237",
+        "y": "102",
+        "z": "-18"
+      }
+    },
+    "igorslaboratory": {
+      "name": "Igor's Laboratory",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1313",
+        "y": "130",
+        "z": "151"
+      }
+    },
+    "mapleroottown": {
+      "name": "Mapleroot Town",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1390",
+        "y": "117",
+        "z": "306"
+      }
+    },
+    "namelessruins": {
+      "name": "Nameless Ruins",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1216",
+        "y": "102",
+        "z": "3"
+      }
+    },
+    "undergrowth": {
+      "name": "The Undergrowth",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1479",
+        "y": "96",
+        "z": "168"
+      }
+    },
+    "weepingwormwood": {
+      "name": "Weeping Wormwood",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1346",
+        "y": "128",
+        "z": "175"
+      }
+    },
+    "whisperingwoods": {
+      "name": "Whispering Woods",
+      "shard": "King's Valley",
+      "region": "Azacor's Grove",
+      "subregion": null,
+      "coordinates": {
+        "x": "1443",
+        "y": "150",
+        "z": "312"
+      }
+    },
+    "anthill": {
+      "name": "Anthill",
+      "shard": "King's Valley",
+      "region": "Korbar Highlands",
+      "subregion": null,
+      "coordinates": {
+        "x": "819",
+        "y": "110",
+        "z": "209"
+      }
+    },
+    "caveofbones": {
+      "name": "Cave of Bones",
+      "shard": "King's Valley",
+      "region": "Korbar Highlands",
+      "subregion": null,
+      "coordinates": {
+        "x": "1000",
+        "y": "102",
+        "z": "-43"
+      }
+    },
+    "cursedforest": {
+      "name": "Cursed Forest",
+      "shard": "King's Valley",
+      "region": "Korbar Highlands",
+      "subregion": null,
+      "coordinates": {
+        "x": "1100",
+        "y": "104",
+        "z": "60"
+      }
+    },
+    "easternpass": {
+      "name": "Eastern Pass",
+      "shard": "King's Valley",
+      "region": "Korbar Highlands",
+      "subregion": null,
+      "coordinates": {
+        "x": "853",
+        "y": "77",
+        "z": "322"
+      }
+    },
+    "graveyard": {
+      "name": "Graveyard",
+      "shard": "King's Valley",
+      "region": "Korbar Highlands",
+      "subregion": null,
+      "coordinates": {
+        "x": "1033",
+        "y": "124",
+        "z": "-169"
+      }
+    },
+    "infestedhouse": {
+      "name": "Infested House",
+      "shard": "King's Valley",
+      "region": "Korbar Highlands",
+      "subregion": null,
+      "coordinates": {
+        "x": "1017",
+        "y": "117",
+        "z": "77"
+      }
+    },
+    "verdantfortress": {
+      "name": "Verdant Fortress",
+      "shard": "King's Valley",
+      "region": "Korbar Highlands",
+      "subregion": null,
+      "coordinates": {
+        "x": "916",
+        "y": "106",
+        "z": "182"
+      }
+    },
+    "volcano": {
+      "name": "Volcano",
+      "shard": "King's Valley",
+      "region": "Korbar Highlands",
+      "subregion": null,
+      "coordinates": {
+        "x": "936",
+        "y": "142",
+        "z": "-144"
+      }
+    },
+    "airshrine": {
+      "name": "Air Shrine",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Central Plateau",
+      "coordinates": {
+        "x": "446",
+        "y": "129",
+        "z": "-43"
+      }
+    },
+    "grandmaw": {
+      "name": "Grand Maw",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Central Plateau",
+      "coordinates": {
+        "x": "350",
+        "y": "71",
+        "z": "82"
+      }
+    },
+    "hawkfortress": {
+      "name": "Hawk Fortress",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Central Plateau",
+      "coordinates": {
+        "x": "454",
+        "y": "123",
+        "z": "106"
+      }
+    },
+    "axtanmonastary": {
+      "name": "Axtan Monastery",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Jaguar Tooth Mountains",
+      "coordinates": {
+        "x": "664",
+        "y": "121",
+        "z": "-263"
+      }
+    },
+    "collapsingtower": {
+      "name": "Collapsing Tower",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Jaguar Tooth Mountains",
+      "coordinates": {
+        "x": "860",
+        "y": "157",
+        "z": "-314"
+      }
+    },
+    "creeperfarm": {
+      "name": "Creeper Farm",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Jaguar Tooth Mountains",
+      "coordinates": {
+        "x": "797",
+        "y": "174",
+        "z": "-317"
+      }
+    },
+    "firecave": {
+      "name": "Fire Cave",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Jaguar Tooth Mountains",
+      "coordinates": {
+        "x": "570",
+        "y": "86",
+        "z": "-194"
+      }
+    },
+    "mountainhideaway": {
+      "name": "Mountain Hideaway",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Jaguar Tooth Mountains",
+      "coordinates": {
+        "x": "614",
+        "y": "146",
+        "z": "-351"
+      }
+    },
+    "mountainmines": {
+      "name": "Mountain Mineshaft",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Jaguar Tooth Mountains",
+      "coordinates": {
+        "x": "952",
+        "y": "147",
+        "z": "-347"
+      }
+    },
+    "caveofsecrets": {
+      "name": "Cave of Secrets",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "458",
+        "y": "74",
+        "z": "-103"
+      }
+    },
+    "crossroadruins": {
+      "name": "Crossroad Ruins",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "623",
+        "y": "71",
+        "z": "-112"
+      }
+    },
+    "junglemine": {
+      "name": "Jungle Mine",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "565",
+        "y": "77",
+        "z": "-69"
+      }
+    },
+    "litterbox": {
+      "name": "The Litterbox",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "890",
+        "y": "73",
+        "z": "42"
+      }
+    },
+    "moistruins": {
+      "name": "Moist Ruins",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "826",
+        "y": "74",
+        "z": "-209"
+      }
+    },
+    "moltenchasm": {
+      "name": "Molten Chasm",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "735",
+        "y": "71",
+        "z": "84"
+      }
+    },
+    "suspiciousvillage": {
+      "name": "Suspicious Village",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "748",
+        "y": "72",
+        "z": "-88"
+      }
+    },
+    "templetokaul": {
+      "name": "Temple to Kaul",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "773",
+        "y": "84",
+        "z": "-24"
+      }
+    },
+    "tinyjungleruin": {
+      "name": "Tiny Jungle Ruin",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northeastern Jungle",
+      "coordinates": {
+        "x": "503",
+        "y": "80",
+        "z": "-162"
+      }
+    },
+    "ancientruin": {
+      "name": "Ancient Ruin",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "359",
+        "y": "73",
+        "z": "-55"
+      }
+    },
+    "hawkvillage": {
+      "name": "Hawk Village",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "137",
+        "y": "123",
+        "z": "-114"
+      }
+    },
+    "murkymaze": {
+      "name": "Murky Maze",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "-45",
+        "y": "70",
+        "z": "-25"
+      }
+    },
+    "mysteriouscenote": {
+      "name": "Mysterious Cenote",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "159",
+        "y": "123",
+        "z": "-78"
+      }
+    },
+    "northjaguar": {
+      "name": "Northern Jaguar Village",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "268",
+        "y": "74",
+        "z": "6"
+      }
+    },
+    "overgrowncave": {
+      "name": "Overgrown Cave",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "194",
+        "y": "74",
+        "z": "31"
+      }
+    },
+    "ruinedmansion": {
+      "name": "Ruined Mansion",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "-7",
+        "y": "72",
+        "z": "-165"
+      }
+    },
+    "tlaxanziggurat": {
+      "name": "Tlaxan Ziggurat",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "215",
+        "y": "125",
+        "z": "-109"
+      }
+    },
+    "watercavern": {
+      "name": "Water Cavern",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Northwestern Jungle",
+      "coordinates": {
+        "x": "90",
+        "y": "71",
+        "z": "29"
+      }
+    },
+    "corruptedcaves": {
+      "name": "Corrupted Caves",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southeastern Jungle",
+      "coordinates": {
+        "x": "515",
+        "y": "71",
+        "z": "391"
+      }
+    },
+    "corruptedisland": {
+      "name": "Corrupted Island",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southeastern Jungle",
+      "coordinates": {
+        "x": "619",
+        "y": "73",
+        "z": "467"
+      }
+    },
+    "creepertower": {
+      "name": "Creeper Tower",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southeastern Jungle",
+      "coordinates": {
+        "x": "750",
+        "y": "83",
+        "z": "319"
+      }
+    },
+    "hallowedpond": {
+      "name": "Hallowed Pond",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southeastern Jungle",
+      "coordinates": {
+        "x": "454",
+        "y": "72",
+        "z": "247"
+      }
+    },
+    "lowlandtemple": {
+      "name": "Lowland Temple",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southeastern Jungle",
+      "coordinates": {
+        "x": "480",
+        "y": "71",
+        "z": "154"
+      }
+    },
+    "southerncenote": {
+      "name": "Southern Cenote",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southeastern Jungle",
+      "coordinates": {
+        "x": "551",
+        "y": "45",
+        "z": "325"
+      }
+    },
+    "abandonedtunnels": {
+      "name": "Abandoned Tunnels",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southwestern Jungle",
+      "coordinates": {
+        "x": "109",
+        "y": "79",
+        "z": "143"
+      }
+    },
+    "earthshrine": {
+      "name": "Earth Shrine",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southwestern Jungle",
+      "coordinates": {
+        "x": "250",
+        "y": "75",
+        "z": "152"
+      }
+    },
+    "serpentruins": {
+      "name": "Serpent Ruins",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southwestern Jungle",
+      "coordinates": {
+        "x": "22",
+        "y": "127",
+        "z": "148"
+      }
+    },
+    "southjaguar": {
+      "name": "Southern Jaguar Village",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southwestern Jungle",
+      "coordinates": {
+        "x": "107",
+        "y": "72",
+        "z": "95"
+      }
+    },
+    "templetomemory": {
+      "name": "Altar of Evocation",
+      "shard": "King's Valley",
+      "region": "Blackroot Jungle",
+      "subregion": "Southwestern Jungle",
+      "coordinates": {
+        "x": "216",
+        "y": "92",
+        "z": "144"
+      }
+    },
+    "aphelionisle": {
+      "name": "Aphelion Isle",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Far Waters",
+      "coordinates": {
+        "x": "-1533",
+        "y": "94",
+        "z": "364"
+      }
+    },
+    "bastionofspires": {
+      "name": "Bastion of Spires",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Far Waters",
+      "coordinates": {
+        "x": "-1358",
+        "y": "92",
+        "z": "-291"
+      }
+    },
+    "cathedralofthedeep": {
+      "name": "Cathedral of the Deep",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Far Waters",
+      "coordinates": {
+        "x": "-1596",
+        "y": "34",
+        "z": "355"
+      }
+    },
+    "cloudpiercer": {
+      "name": "Cloud Piercer",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Far Waters",
+      "coordinates": {
+        "x": "-1473",
+        "y": "128",
+        "z": "-265"
+      }
+    },
+    "forsakenwatchtower": {
+      "name": "Forsaken Watchtower",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Far Waters",
+      "coordinates": {
+        "x": "-1416",
+        "y": "95",
+        "z": "333"
+      }
+    },
+    "seaoutpost": {
+      "name": "Sea Outpost",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Royal Shoreline",
+      "coordinates": {
+        "x": "-1161",
+        "y": "92",
+        "z": "-176"
+      }
+    },
+    "shroomboundgrotto": {
+      "name": "Shroombound Grotto",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Royal Shoreline",
+      "coordinates": {
+        "x": "-1079",
+        "y": "92",
+        "z": "359"
+      }
+    },
+    "submergedgateway": {
+      "name": "Submerged Gateway",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Royal Shoreline",
+      "coordinates": {
+        "x": "-1141",
+        "y": "90",
+        "z": "238"
+      }
+    },
+    "sunkencity": {
+      "name": "Sunken City",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Far Waters",
+      "coordinates": {
+        "x": "-1362",
+        "y": "95",
+        "z": "-147"
+      }
+    },
+    "toxinlab": {
+      "name": "Toxin Lab",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Royal Shoreline",
+      "coordinates": {
+        "x": "-1223",
+        "y": "88",
+        "z": "93"
+      }
+    },
+    "witheredhideout": {
+      "name": "Withered Hideout",
+      "shard": "King's Valley",
+      "region": "Narsen Sea",
+      "subregion": "Royal Shoreline",
+      "coordinates": {
+        "x": "-1219",
+        "y": "93",
+        "z": "426"
+      }
+    },
+    "easternmine": {
+      "name": "Eastern Mineshaft",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Eastern Swamplands",
+      "coordinates": {
+        "x": "-334",
+        "y": "101",
+        "z": "-159"
+      }
+    },
+    "fireshrine": {
+      "name": "Fire Shrine",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Eastern Swamplands",
+      "coordinates": {
+        "x": "-240",
+        "y": "92",
+        "z": "84"
+      }
+    },
+    "fishinghuts": {
+      "name": "Fishing Huts",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Eastern Swamplands",
+      "coordinates": {
+        "x": "-369",
+        "y": "91",
+        "z": "5"
+      }
+    },
+    "ruineddocks": {
+      "name": "Ruined Docks",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Eastern Swamplands",
+      "coordinates": {
+        "x": "-401",
+        "y": "93",
+        "z": "208"
+      }
+    },
+    "theoldtower": {
+      "name": "The Old Tower",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Eastern Swamplands",
+      "coordinates": {
+        "x": "-441",
+        "y": "91",
+        "z": "-163"
+      }
+    },
+    "watershrine": {
+      "name": "Water Shrine",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Eastern Swamplands",
+      "coordinates": {
+        "x": "-317",
+        "y": "91",
+        "z": "-55"
+      }
+    },
+    "banditcamp": {
+      "name": "Bandit Camp",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Northern Swamplands",
+      "coordinates": {
+        "x": "-397",
+        "y": "92",
+        "z": "-376"
+      }
+    },
+    "banditstronghold": {
+      "name": "Bandit Stronghold",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Northern Swamplands",
+      "coordinates": {
+        "x": "-829",
+        "y": "97",
+        "z": "-392"
+      }
+    },
+    "ctelsketsmemory": {
+      "name": "C'Telsket's Memory",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Northern Swamplands",
+      "coordinates": {
+        "x": "-923",
+        "y": "86",
+        "z": "-133"
+      }
+    },
+    "magetower": {
+      "name": "Mage Tower",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Northern Swamplands",
+      "coordinates": {
+        "x": "-523",
+        "y": "119",
+        "z": "-518"
+      }
+    },
+    "mercenarycamp": {
+      "name": "Mercenary Fort",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Northern Swamplands",
+      "coordinates": {
+        "x": "-299",
+        "y": "93",
+        "z": "-244"
+      }
+    },
+    "northmine": {
+      "name": "Northern Mineshaft",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Northern Swamplands",
+      "coordinates": {
+        "x": "-806",
+        "y": "94",
+        "z": "-370"
+      }
+    },
+    "sinkhole": {
+      "name": "Swamp Sinkhole",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Northern Swamplands",
+      "coordinates": {
+        "x": "-669",
+        "y": "78",
+        "z": "-348"
+      }
+    },
+    "waterfallisland": {
+      "name": "Waterfall Island",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Northern Swamplands",
+      "coordinates": {
+        "x": "-667",
+        "y": "90",
+        "z": "-408"
+      }
+    },
+    "hauntedmine": {
+      "name": "Haunted Mine",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Southern Swamplands",
+      "coordinates": {
+        "x": "-652",
+        "y": "119",
+        "z": "537"
+      }
+    },
+    "lighthouse": {
+      "name": "Lighthouse",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Southern Swamplands",
+      "coordinates": {
+        "x": "-822",
+        "y": "100",
+        "z": "427"
+      }
+    },
+    "riftofthedrowned": {
+      "name": "Rift of the Drowned",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Southern Swamplands",
+      "coordinates": {
+        "x": "-479",
+        "y": "93",
+        "z": "309"
+      }
+    },
+    "southeasternmine": {
+      "name": "Southeastern Mineshaft",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Southern Swamplands",
+      "coordinates": {
+        "x": "-352",
+        "y": "95",
+        "z": "275"
+      }
+    },
+    "southernmine": {
+      "name": "Southern Mineshaft",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Southern Swamplands",
+      "coordinates": {
+        "x": "-536",
+        "y": "98",
+        "z": "461"
+      }
+    },
+    "southernvillage": {
+      "name": "Southern Village",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Southern Swamplands",
+      "coordinates": {
+        "x": "-642",
+        "y": "92",
+        "z": "428"
+      }
+    },
+    "witchvillage": {
+      "name": "Witch Village",
+      "shard": "King's Valley",
+      "region": "Swamplands",
+      "subregion": "Southern Swamplands",
+      "coordinates": {
+        "x": "-387",
+        "y": "95",
+        "z": "401"
+      }
+    },
+    "bandit_encampment": {
+      "name": "Bandit Encampment",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Crystalshroom Valley",
+      "coordinates": {
+        "x": "-1591",
+        "y": "103",
+        "z": "599"
+      }
+    },
+    "crystal_forest_grove": {
+      "name": "Crystal Forest Grove",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Crystalshroom Valley",
+      "coordinates": {
+        "x": "-1733",
+        "y": "110",
+        "z": "422"
+      }
+    },
+    "crystal_mines": {
+      "name": "Crystal Mines",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Crystalshroom Valley",
+      "coordinates": {
+        "x": "-1581",
+        "y": "111",
+        "z": "296"
+      }
+    },
+    "crystal_outpost": {
+      "name": "Crystal Outpost",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Crystalshroom Valley",
+      "coordinates": {
+        "x": "-1933",
+        "y": "83",
+        "z": "606"
+      }
+    },
+    "igloos_and_you": {
+      "name": "Igloos and You",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Crystalshroom Valley",
+      "coordinates": {
+        "x": "-1704",
+        "y": "112",
+        "z": "552"
+      }
+    },
+    "irilyth": {
+      "name": "Irilyth",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Crystalshroom Valley",
+      "coordinates": {
+        "x": "-1597",
+        "y": "109",
+        "z": "497"
+      }
+    },
+    "abandoned_winery": {
+      "name": "Abandoned Winery",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Forest",
+      "coordinates": {
+        "x": "-1790",
+        "y": "111",
+        "z": "859"
+      }
+    },
+    "fall_shrine": {
+      "name": "Fall Shrine",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Forest",
+      "coordinates": {
+        "x": "-1738",
+        "y": "97",
+        "z": "1008"
+      }
+    },
+    "ice_mine": {
+      "name": "Ice Mine",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Forest",
+      "coordinates": {
+        "x": "-1447",
+        "y": "88",
+        "z": "719"
+      }
+    },
+    "mini_mining_camp": {
+      "name": "Mini Mining Camp",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Forest",
+      "coordinates": {
+        "x": "-1660",
+        "y": "112",
+        "z": "644"
+      }
+    },
+    "smugglers_cabin": {
+      "name": "Smuggler's Cabin",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Forest",
+      "coordinates": {
+        "x": "-1565",
+        "y": "94",
+        "z": "753"
+      }
+    },
+    "supply_fort": {
+      "name": "Supply Fort",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Forest",
+      "coordinates": {
+        "x": "-1727",
+        "y": "94",
+        "z": "834"
+      }
+    },
+    "tundra_lighthouse": {
+      "name": "Tundra Lighthouse",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Forest",
+      "coordinates": {
+        "x": "-1726",
+        "y": "104",
+        "z": "679"
+      }
+    },
+    "bandits_by_the_sea": {
+      "name": "Bandits By The Sea",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1130",
+        "y": "106",
+        "z": "92"
+      }
+    },
+    "brewery": {
+      "name": "Brewery",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1372",
+        "y": "111",
+        "z": "204"
+      }
+    },
+    "cliffside_ruins": {
+      "name": "Cliffside Ruins",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1836",
+        "y": "121",
+        "z": "202"
+      }
+    },
+    "frigid_laboratory": {
+      "name": "Frigid Laboratory",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1593",
+        "y": "102",
+        "z": "-117"
+      }
+    },
+    "grim_towers": {
+      "name": "The Grim Towers",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1505",
+        "y": "99",
+        "z": "-148"
+      }
+    },
+    "hot_springs": {
+      "name": "Hot Springs",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1381",
+        "y": "134",
+        "z": "63"
+      }
+    },
+    "mountain_market": {
+      "name": "Mountain Market",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1594",
+        "y": "133",
+        "z": "65"
+      }
+    },
+    "mountainside_hideaway": {
+      "name": "Mountainside Hideaway",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1367",
+        "y": "111",
+        "z": "-97"
+      }
+    },
+    "mountaintop_bandits": {
+      "name": "Mountaintop Bandits",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1510",
+        "y": "133",
+        "z": "137"
+      }
+    },
+    "smitten_library": {
+      "name": "Smitten Library",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1327",
+        "y": "151",
+        "z": "95"
+      }
+    },
+    "stargazers_hideaway": {
+      "name": "Stargazer's Hideaway",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1388",
+        "y": "129",
+        "z": "-171"
+      }
+    },
+    "underground_settlement": {
+      "name": "Underground Settlement",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1290",
+        "y": "121",
+        "z": "116"
+      }
+    },
+    "weathered_citadel": {
+      "name": "Weathered Citadel",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1219",
+        "y": "104",
+        "z": "236"
+      }
+    },
+    "weathered_tower": {
+      "name": "Weathered Tower",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1171",
+        "y": "113",
+        "z": "22"
+      }
+    },
+    "whitecliffe_citadel": {
+      "name": "Whitecliffe Citadel",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Mountains",
+      "coordinates": {
+        "x": "-1611",
+        "y": "133",
+        "z": "5"
+      }
+    },
+    "abandoned_snowman_settlement": {
+      "name": "Abandoned Snowman Settlement",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Permafrost",
+      "coordinates": {
+        "x": "-1308",
+        "y": "101",
+        "z": "784"
+      }
+    },
+    "frostbitten_caves": {
+      "name": "Frostbitten Caves",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Permafrost",
+      "coordinates": {
+        "x": "-1044",
+        "y": "82",
+        "z": "796"
+      }
+    },
+    "frostgate_ruins": {
+      "name": "Frostgate Ruins",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Permafrost",
+      "coordinates": {
+        "x": "-1267",
+        "y": "87",
+        "z": "933"
+      }
+    },
+    "ice_boat": {
+      "name": "Ice Boat",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Permafrost",
+      "coordinates": {
+        "x": "-1259",
+        "y": "78",
+        "z": "1061"
+      }
+    },
+    "ice_castle": {
+      "name": "Ice Castle",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Permafrost",
+      "coordinates": {
+        "x": "-1282",
+        "y": "119",
+        "z": "678"
+      }
+    },
+    "military_base": {
+      "name": "Military Base",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Permafrost",
+      "coordinates": {
+        "x": "-1174",
+        "y": "86",
+        "z": "947"
+      }
+    },
+    "raider_camp": {
+      "name": "Raider Camp",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Permafrost",
+      "coordinates": {
+        "x": "-1197",
+        "y": "87",
+        "z": "863"
+      }
+    },
+    "sealed_descent": {
+      "name": "Sealed Descent",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Permafrost",
+      "coordinates": {
+        "x": "-1098",
+        "y": "118",
+        "z": "681"
+      }
+    },
+    "archaeological_dig_site": {
+      "name": "Archaeological Dig Site",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1260",
+        "y": "77",
+        "z": "566"
+      }
+    },
+    "church_of_munk": {
+      "name": "Church of Munk",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1180",
+        "y": "108",
+        "z": "474"
+      }
+    },
+    "fortress_of_bacon": {
+      "name": "Fortress of Bacon",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1477",
+        "y": "103",
+        "z": "497"
+      }
+    },
+    "kreepa_kastle": {
+      "name": "Kreepa Kastle",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1629",
+        "y": "134",
+        "z": "165"
+      }
+    },
+    "riverbed_cavern": {
+      "name": "Riverbed Cavern",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1358",
+        "y": "91",
+        "z": "455"
+      }
+    },
+    "rogues_fortress": {
+      "name": "Rogue's Fortress",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1121",
+        "y": "104",
+        "z": "369"
+      }
+    },
+    "ship_landing_zone": {
+      "name": "Ship Landing Zone",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1080",
+        "y": "96",
+        "z": "420"
+      }
+    },
+    "silver_tower": {
+      "name": "Silver Tower",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1872",
+        "y": "89",
+        "z": "419"
+      }
+    },
+    "winter_shrine": {
+      "name": "Winter Shrine",
+      "shard": "Celsian Isles",
+      "region": "Chillwind",
+      "subregion": "Icelands",
+      "coordinates": {
+        "x": "-1253",
+        "y": "143",
+        "z": "322"
+      }
+    },
+    "abandoned_lab": {
+      "name": "Abandoned Lab",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "25",
+        "y": "92",
+        "z": "652"
+      }
+    },
+    "canyon_bandit_camp": {
+      "name": "Canyon Bandit Camp",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "-21",
+        "y": "56",
+        "z": "639"
+      }
+    },
+    "cavern_of_cinders": {
+      "name": "Cavern of Cinders",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "-73",
+        "y": "61",
+        "z": "497"
+      }
+    },
+    "cinders_roost": {
+      "name": "Cinder's Roost",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "126",
+        "y": "131",
+        "z": "619"
+      }
+    },
+    "library": {
+      "name": "Abandoned Library",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "-44",
+        "y": "131",
+        "z": "577"
+      }
+    },
+    "lost_lava_labs": {
+      "name": "Lost Lava Labs",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "-88",
+        "y": "49",
+        "z": "599"
+      }
+    },
+    "marble_mine": {
+      "name": "Marble Mine",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "-145",
+        "y": "74",
+        "z": "514"
+      }
+    },
+    "rockspider_cavern": {
+      "name": "Rockspider Cavern",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "145",
+        "y": "61",
+        "z": "534"
+      }
+    },
+    "sunken_tower": {
+      "name": "Sunken Tower",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Canyonlands",
+      "coordinates": {
+        "x": "-3",
+        "y": "88",
+        "z": "474"
+      }
+    },
+    "antlion_pit": {
+      "name": "Antlion Pit",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "431",
+        "y": "90",
+        "z": "-94"
+      }
+    },
+    "ashen_fortress": {
+      "name": "Ashen Fortress",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "388",
+        "y": "137",
+        "z": "11"
+      }
+    },
+    "basanite_bore": {
+      "name": "Basanite Bore",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "41",
+        "y": "117",
+        "z": "285"
+      }
+    },
+    "charn": {
+      "name": "Charn",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "303",
+        "y": "92",
+        "z": "265"
+      }
+    },
+    "corrupted_fort": {
+      "name": "Corrupted Fort",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "103",
+        "y": "135",
+        "z": "-39"
+      }
+    },
+    "crystal_crown": {
+      "name": "Crystal Crown",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "354",
+        "y": "123",
+        "z": "124"
+      }
+    },
+    "emberborne_sanctuary": {
+      "name": "Emberborne Sanctuary",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "-122",
+        "y": "96",
+        "z": "345"
+      }
+    },
+    "floating_fortress": {
+      "name": "Floating Fortress",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "53",
+        "y": "152",
+        "z": "-94"
+      }
+    },
+    "hill_fortress": {
+      "name": "Hill Fortress",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "66",
+        "y": "142",
+        "z": "61"
+      }
+    },
+    "magmashroom_mine": {
+      "name": "Magmashroom Mine",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "-109",
+        "y": "103",
+        "z": "48"
+      }
+    },
+    "scorch_valley": {
+      "name": "Scorch Valley",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "525",
+        "y": "89",
+        "z": "103"
+      }
+    },
+    "terracotta_mining_town": {
+      "name": "Terracotta Mining Town",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "142",
+        "y": "120",
+        "z": "343"
+      }
+    },
+    "twilight_aqueduct": {
+      "name": "Twilight Aqueduct",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "654",
+        "y": "88",
+        "z": "21"
+      }
+    },
+    "twilight_ruins": {
+      "name": "Twilight Ruins",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Mesa",
+      "coordinates": {
+        "x": "579",
+        "y": "94",
+        "z": "-21"
+      }
+    },
+    "aquamarine_monastery": {
+      "name": "Aquamarine Monastery",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "272",
+        "y": "80",
+        "z": "641"
+      }
+    },
+    "arcane_spire": {
+      "name": "Arcane Spire",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "209",
+        "y": "89",
+        "z": "780"
+      }
+    },
+    "cave_village": {
+      "name": "Cave Village",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "78",
+        "y": "80",
+        "z": "877"
+      }
+    },
+    "charred_arcanery": {
+      "name": "Charred Arcanery",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "59",
+        "y": "103",
+        "z": "934"
+      }
+    },
+    "dehydrated_oasis": {
+      "name": "Dehydrated Oasis",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "24",
+        "y": "88",
+        "z": "749"
+      }
+    },
+    "mini_oasis": {
+      "name": "Mini Oasis",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "318",
+        "y": "88",
+        "z": "1027"
+      }
+    },
+    "oasis_town": {
+      "name": "Oasis Town",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "226",
+        "y": "93",
+        "z": "941"
+      }
+    },
+    "palm_tree_paradise": {
+      "name": "Palm Tree Paradise",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "-35",
+        "y": "102",
+        "z": "915"
+      }
+    },
+    "refuge_of_the_drowned": {
+      "name": "Refuge of the Drowned",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Oasis",
+      "coordinates": {
+        "x": "155",
+        "y": "83",
+        "z": "1042"
+      }
+    },
+    "bandit_hideaway_hill": {
+      "name": "Bandit Hideaway Hill",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Trade Route",
+      "coordinates": {
+        "x": "555",
+        "y": "89",
+        "z": "373"
+      }
+    },
+    "crystal_haven": {
+      "name": "Crystal Haven",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Trade Route",
+      "coordinates": {
+        "x": "493",
+        "y": "100",
+        "z": "387"
+      }
+    },
+    "lost_sands_city": {
+      "name": "Lost Sands City",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Trade Route",
+      "coordinates": {
+        "x": "224",
+        "y": "93",
+        "z": "481"
+      }
+    },
+    "mines_of_duality": {
+      "name": "Mines of Duality",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Trade Route",
+      "coordinates": {
+        "x": "491",
+        "y": "114",
+        "z": "258"
+      }
+    },
+    "riverbank_camp": {
+      "name": "Riverbank Camp",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Trade Route",
+      "coordinates": {
+        "x": "354",
+        "y": "92",
+        "z": "542"
+      }
+    },
+    "silverbrooke_outpost": {
+      "name": "Silverbrooke Outpost",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Trade Route",
+      "coordinates": {
+        "x": "327",
+        "y": "96",
+        "z": "439"
+      }
+    },
+    "warehouse_compound": {
+      "name": "Warehouse Compound",
+      "shard": "Celsian Isles",
+      "region": "Ishnir",
+      "subregion": "Trade Route",
+      "coordinates": {
+        "x": "265",
+        "y": "98",
+        "z": "356"
+      }
+    },
+    "abbey": {
+      "name": "Abbey of Angels",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "-171",
+        "y": "87",
+        "z": "658"
+      }
+    },
+    "barracks_at_sea": {
+      "name": "Barracks at Sea",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "-262",
+        "y": "86",
+        "z": "956"
+      }
+    },
+    "bastion_at_sea": {
+      "name": "Bastion at Sea",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "-515",
+        "y": "84",
+        "z": "680"
+      }
+    },
+    "corsairs_claw": {
+      "name": "Corsair's Claw",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "551",
+        "y": "81",
+        "z": "1407"
+      }
+    },
+    "dueling_fleets": {
+      "name": "Dueling Fleets",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "-1999",
+        "y": "89",
+        "z": "1079"
+      }
+    },
+    "garden_at_sea": {
+      "name": "Garden at Sea",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "-805",
+        "y": "89",
+        "z": "924"
+      }
+    },
+    "guardians_gate": {
+      "name": "Guardian's Gate",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "-1769",
+        "y": "81",
+        "z": "1325"
+      }
+    },
+    "mystical_tower": {
+      "name": "Mystical Tower",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "-2028",
+        "y": "84",
+        "z": "1258"
+      }
+    },
+    "spring_shrine": {
+      "name": "Spring Shrine",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "219",
+        "y": "100",
+        "z": "1276"
+      }
+    },
+    "summer_shrine": {
+      "name": "Summer Shrine",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Viridian Archipelago",
+      "coordinates": {
+        "x": "-1346",
+        "y": "121",
+        "z": "1350"
+      }
+    },
+    "city_of_bones": {
+      "name": "City of Bones",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-2049",
+        "y": "102",
+        "z": "-494"
+      }
+    },
+    "crystalline_vault": {
+      "name": "Crystalline Vault",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-2149",
+        "y": "58",
+        "z": "596"
+      }
+    },
+    "madmans_redoubt": {
+      "name": "Madman's Redoubt",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-2166",
+        "y": "82",
+        "z": "-261"
+      }
+    },
+    "magmortic_atheneum": {
+      "name": "Magmortic Atheneum",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "508",
+        "y": "28",
+        "z": "-357"
+      }
+    },
+    "moltaria_palace": {
+      "name": "Moltaria Palace",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "110",
+        "y": "84",
+        "z": "-549"
+      }
+    },
+    "rosebud_ruins": {
+      "name": "Rosebud Ruins",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-761",
+        "y": "102",
+        "z": "217"
+      }
+    },
+    "sacrarium_of_aeons": {
+      "name": "Sacrarium of Aeons",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-809",
+        "y": "30",
+        "z": "-455"
+      }
+    },
+    "shroom_spires": {
+      "name": "Shroom Spires",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-2019",
+        "y": "84",
+        "z": "-54"
+      }
+    },
+    "steelmeld_passage": {
+      "name": "Steelmeld Passage",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-433",
+        "y": "14",
+        "z": "-495"
+      }
+    },
+    "sunken_tomb": {
+      "name": "Sunken Tomb",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-321",
+        "y": "83",
+        "z": "26"
+      }
+    },
+    "the_minefield": {
+      "name": "The Minefield",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": null
+    },
+    "vengeance_of_the_sea": {
+      "name": "Vengeance of the Sea",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Ocean's Reach",
+      "coordinates": {
+        "x": "-1662",
+        "y": "80",
+        "z": "-374"
+      }
+    },
+    "feyrune_forest": {
+      "name": "Feyrune Forest",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-909",
+        "y": "123",
+        "z": "1536"
+      }
+    },
+    "fungus_thorn_cave": {
+      "name": "Fungus Thorn Cave",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-590",
+        "y": "106",
+        "z": "1269"
+      }
+    },
+    "pineapple_plantation": {
+      "name": "Mr. Happy's Pineapple Plantation",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-289",
+        "y": "86",
+        "z": "1297"
+      }
+    },
+    "seigrit_mineshaft": {
+      "name": "Seigrit Mineshaft",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-249",
+        "y": "89",
+        "z": "1548"
+      }
+    },
+    "skull_island": {
+      "name": "Skull Island",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-131",
+        "y": "84",
+        "z": "1468"
+      }
+    },
+    "spiral_island": {
+      "name": "Spiral Island",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-772",
+        "y": "86",
+        "z": "1140"
+      }
+    },
+    "sunken_ship": {
+      "name": "Sunken Ship",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-1123",
+        "y": "82",
+        "z": "1601"
+      }
+    },
+    "tangled_cove": {
+      "name": "Tangled Cove",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-696",
+        "y": "84",
+        "z": "1753"
+      }
+    },
+    "taproot_ruins": {
+      "name": "Taproot Ruins",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-562",
+        "y": "141",
+        "z": "1424"
+      }
+    },
+    "the_watch": {
+      "name": "The Watch",
+      "shard": "Celsian Isles",
+      "region": "Ocean",
+      "subregion": "Mistport Outlands",
+      "coordinates": {
+        "x": "-458",
+        "y": "86",
+        "z": "1092"
+      }
+    },
+    "arx_spirensis": {
+      "name": "Arx Spirensis",
+      "shard": "Architect's Ring",
+      "region": "Pelias' Keep",
+      "subregion": null,
+      "coordinates": {
+        "x": "-487",
+        "y": "60",
+        "z": "15"
+      }
+    },
+    "doomed_encampment": {
+      "name": "Doomed Encampment",
+      "shard": "Architect's Ring",
+      "region": "Pelias' Keep",
+      "subregion": null,
+      "coordinates": {
+        "x": "-506",
+        "y": "177",
+        "z": "65"
+      }
+    },
+    "forsaken_manor": {
+      "name": "Forsaken Manor",
+      "shard": "Architect's Ring",
+      "region": "Pelias' Keep",
+      "subregion": null,
+      "coordinates": {
+        "x": "-462",
+        "y": "181",
+        "z": "139"
+      }
+    },
+    "quelled_convent": {
+      "name": "Quelled Convent",
+      "shard": "Architect's Ring",
+      "region": "Pelias' Keep",
+      "subregion": null,
+      "coordinates": {
+        "x": "-365",
+        "y": "186",
+        "z": "35"
+      }
+    },
+    "silvic_quarry": {
+      "name": "Silvic Quarry",
+      "shard": "Architect's Ring",
+      "region": "Pelias' Keep",
+      "subregion": null,
+      "coordinates": {
+        "x": "-543",
+        "y": "183",
+        "z": "-58"
+      }
+    },
+    "submerged_citadel": {
+      "name": "Submerged Citadel",
+      "shard": "Architect's Ring",
+      "region": "Pelias' Keep",
+      "subregion": null,
+      "coordinates": {
+        "x": "-376",
+        "y": "102",
+        "z": "220"
+      }
+    },
+    "boon_of_knightly_prayer": {
+      "name": "Boon of Knightly Prayer",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-421",
+        "y": "179",
+        "z": "233"
+      }
+    },
+    "boon_of_silver_scales": {
+      "name": "Boon of Silver Scales",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-279",
+        "y": "83",
+        "z": "-486"
+      }
+    },
+    "boon_of_the_pit": {
+      "name": "Boon of the Pit",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-618",
+        "y": "64",
+        "z": "-408"
+      }
+    },
+    "crystalline_blessing": {
+      "name": "Crystalline Blessing",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-260",
+        "y": "43",
+        "z": "-366"
+      }
+    },
+    "curse_of_the_dark_soul": {
+      "name": "Curse of the Dark Soul",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": null
+    },
+    "deep_gods_endowment": {
+      "name": "Deep God's Endowment",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-389",
+        "y": "91",
+        "z": "-294"
+      }
+    },
+    "grace_of_star_communion": {
+      "name": "Grace of Star Communion",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-399",
+        "y": "175",
+        "z": "502"
+      }
+    },
+    "harrakfars_blessing": {
+      "name": "Harrakfar's Blessing",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-339",
+        "y": "89",
+        "z": "-719"
+      }
+    },
+    "pool_of_purging": {
+      "name": "Pool of Purging",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-430",
+        "y": "65",
+        "z": "-549"
+      }
+    },
+    "tuathan_blessing": {
+      "name": "Tuathan Blessing",
+      "shard": "Architect's Ring",
+      "region": "Shrines",
+      "subregion": null,
+      "coordinates": {
+        "x": "-321",
+        "y": "177",
+        "z": "62"
+      }
+    },
+    "amanita_colony": {
+      "name": "Amanita Colony",
+      "shard": "Architect's Ring",
+      "region": "Wolfswood",
+      "subregion": null,
+      "coordinates": {
+        "x": "-270",
+        "y": "104",
+        "z": "-292"
+      }
+    },
+    "bewitched_dominion": {
+      "name": "Bewitched Dominion",
+      "shard": "Architect's Ring",
+      "region": "Wolfswood",
+      "subregion": null,
+      "coordinates": {
+        "x": "-681",
+        "y": "107",
+        "z": "-220"
+      }
+    },
+    "chanterelle_village": {
+      "name": "Chanterelle Village",
+      "shard": "Architect's Ring",
+      "region": "Wolfswood",
+      "subregion": null,
+      "coordinates": {
+        "x": "-300",
+        "y": "98",
+        "z": "-390"
+      }
+    },
+    "coven_fortress": {
+      "name": "Coven Fortress",
+      "shard": "Architect's Ring",
+      "region": "Wolfswood",
+      "subregion": null,
+      "coordinates": {
+        "x": "-547",
+        "y": "100",
+        "z": "-320"
+      }
+    },
+    "locum_vernantia": {
+      "name": "Locum Vernantia",
+      "shard": "Architect's Ring",
+      "region": "Wolfswood",
+      "subregion": null,
+      "coordinates": {
+        "x": "-631",
+        "y": "35",
+        "z": "-576"
+      }
+    },
+    "shadowcast_bastille": {
+      "name": "Shadowcast Bastille",
+      "shard": "Architect's Ring",
+      "region": "Wolfswood",
+      "subregion": null,
+      "coordinates": {
+        "x": "-202",
+        "y": "72",
+        "z": "-503"
+      }
+    },
+    "vibrant_hollow": {
+      "name": "Vibrant Hollow",
+      "shard": "Architect's Ring",
+      "region": "Wolfswood",
+      "subregion": null,
+      "coordinates": {
+        "x": "-549",
+        "y": "42",
+        "z": "-698"
+      }
     }
   }
 }
