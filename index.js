@@ -90,17 +90,17 @@ function generate () {
   console.log('[FILE] Creating output directory...')
   if (!fs.existsSync('./out')) fs.mkdirSync('./out')
   console.log('[FILE] Writing POI data to file...')
-  fs.writeFileSync('./out/pois.json', JSON.stringify({"pois": pois}, null, 2))
+  fs.writeFileSync('./out/pois.json', JSON.stringify(pois, null, 2))
   console.log('[FILE] Writing Dungeon data to file...')
-  fs.writeFileSync('./out/dungeons.json', JSON.stringify({"dungeons": dungeons}, null, 2))
+  fs.writeFileSync('./out/dungeons.json', JSON.stringify(dungeons, null, 2))
   console.log('[FILE] Writing Quest data to file...')
-  fs.writeFileSync('./out/quests.json', JSON.stringify({"quests": quests}, null, 2))
+  fs.writeFileSync('./out/quests.json', JSON.stringify(quests, null, 2))
   console.log('[FILE] Writing Enchantment data to file...')
-  fs.writeFileSync('./out/enchantments.json', JSON.stringify({"enchantments": enchantments}, null, 2))
+  fs.writeFileSync('./out/enchantments.json', JSON.stringify(enchantments, null, 2))
   console.log('[FILE] Writing converter data to file...')
   fs.writeFileSync('./out/converter.json', JSON.stringify(converter, null, 2))
   console.log('[FILE] Writing all data to file...')
-  fs.writeFileSync('./out/all.json', JSON.stringify({"all": all}, null, 2))
+  fs.writeFileSync('./out/all.json', JSON.stringify(all, null, 2))
 }
 
 function convertQuest (advancement) {

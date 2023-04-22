@@ -11,7 +11,7 @@ const lines = ['==List of Known POIs ==',
   '|-'
 ]
 console.log(`Converting pois to wiki format...`)
-for (const [, poi] of Object.entries(pois.pois)) {
+for (const [, poi] of Object.entries(pois)) {
   // name is a link
   const poiName = `|[[${poi.name}]]`
   lines.push(poiName)
