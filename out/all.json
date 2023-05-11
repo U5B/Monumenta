@@ -1886,7 +1886,7 @@
   },
   "monumenta:handbook/enchantments/mitosis": {
     "title": "Mitosis",
-    "description": "Mining a spawner debuffs all enemies in a 5 block radius with (level * 3.75)% Weaken for 2 seconds.",
+    "description": "Mining a spawner debuffs all enemies in a 5 block radius with (level * 3.75)% Weaken for 3 seconds.",
     "parent": "monumenta:handbook/enchantments/reflection"
   },
   "monumenta:handbook/enchantments/multishot": {
@@ -2016,7 +2016,7 @@
   },
   "monumenta:handbook/enchantments/regeneration": {
     "title": "Regeneration",
-    "description": "When equipped, regain 1 * sqrt(level) health every 3s overall, received in small increments 4 times per second.",
+    "description": "When equipped, regain sqrt(level) / 12 health 4 times per second.",
     "parent": "monumenta:handbook/enchantments/radiant"
   },
   "monumenta:handbook/enchantments/regicide": {
@@ -2588,11 +2588,6 @@
     "title": "Architect's Ring: Epic Charms",
     "description": "Trinkets from Fiction and Folklore! - Epic Charms are obtained via various special expensive means. - There is no further upgrade that can be made this charm, they can only be traded with other players.",
     "parent": "monumenta:handbook/item_tiers/ar/rarecharm"
-  },
-  "monumenta:handbook/item_tiers/ar/legendary": {
-    "title": "Architect's Ring: Legendary",
-    "description": "The Final Evolution of the Masterwork Process. - Legendaries are the final results of a completed Masterwork Item. - There is no further upgrade that can be made, these items are one-of-a-kind and strongest for its purpose. - Getting an item to this stage can be incredibly expensive and time consuming, thankfully the final step can be reverted to salvage some of its materials back.",
-    "parent": "monumenta:handbook/item_tiers/ar/epiccharm"
   },
   "monumenta:handbook/item_tiers/ar/masterwork": {
     "title": "Masterwork Items",
