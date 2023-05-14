@@ -53,7 +53,8 @@ const enchantments = {}
 const all = {}
 
 async function fetchAdvancements () {
-  if (fs.existsSync('./advancement.json') && process.env.DEBUG === 'true') {
+  if (!fs.existsSync('./out')) fs.mkdirSync('./out')
+  if (fs.existsSync('./out/advancement.json') && process.env.DEBUG === 'true') {
     console.log('[FILE] Loading advancements from existing file...')
     advancements = require('./advancement.json')
     return
@@ -63,7 +64,7 @@ async function fetchAdvancements () {
   if (response.status !== 200) throw Error(`Monumenta API returned: ${response.status} with ${response.statusText}`)
   advancements = response.data
   console.log('[FILE] Writing advancements to file...')
-  fs.writeFileSync('./advancement.json', JSON.stringify(advancements, null, 2))
+  fs.writeFileSync('./out/advancement.json', JSON.stringify(advancements, null, 2))
 }
 
 function generate () {
@@ -88,7 +89,6 @@ function generate () {
   console.log('[ALL] Saving all advancements to readable file')
   console.log('[ALL] Done.')
   console.log('[FILE] Creating output directory...')
-  if (!fs.existsSync('./out')) fs.mkdirSync('./out')
   console.log('[FILE] Writing POI data to file...')
   fs.writeFileSync('./out/pois.json', JSON.stringify(pois, null, 2))
   console.log('[FILE] Writing Dungeon data to file...')

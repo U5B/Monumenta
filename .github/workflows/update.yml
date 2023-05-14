@@ -1,0 +1,33 @@
+name: update
+on:
+  workflow_dispatch:
+  schedule:
+    # run at 22:30 (10:30pm)
+    - cron: '45 5 * * 5'
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: checkout repo
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ github.head_ref }}
+      - name: setup node
+        uses: actions/setup-node@v3
+        with:
+          node-version: '16.x'
+          cache: 'npm'
+      - name: install project dependencies
+        run: npm ci
+      - name: run program
+        run: node index.js
+      - name: make changes if output is different
+        uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: 'Update json files from Monumenta'
+          file_pattern: 'out/*.json'
+          disable_globbing: true
+        

@@ -376,7 +376,7 @@
   },
   "inure": {
     "name": "Inure",
-    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic).",
+    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic). Breaking inure by taking a different type of damage will give half the bonus for 1 hit.",
     "category": "Defenses"
   },
   "irreparability": {
@@ -826,7 +826,7 @@
   },
   "worldly_protection": {
     "name": "Worldly Protection",
-    "description": "While held, 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas.",
+    "description": "While held, grants 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas. Additionally, items with this enchantment are not affected by region restriction debuffs.",
     "category": "Defenses"
   }
 }

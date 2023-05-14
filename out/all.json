@@ -1811,7 +1811,7 @@
   },
   "monumenta:handbook/enchantments/inure": {
     "title": "Inure",
-    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic).",
+    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic). Breaking inure by taking a different type of damage will give half the bonus for 1 hit.",
     "parent": "monumenta:handbook/enchantments/poise"
   },
   "monumenta:handbook/enchantments/irreparability": {
@@ -2266,7 +2266,7 @@
   },
   "monumenta:handbook/enchantments/worldly_protection": {
     "title": "Worldly Protection",
-    "description": "While held, 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas.",
+    "description": "While held, grants 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas. Additionally, items with this enchantment are not affected by region restriction debuffs.",
     "parent": "monumenta:handbook/enchantments/second_wind"
   },
   "monumenta:handbook/important_sites/r1/academy": {
@@ -4494,10 +4494,20 @@
     "description": "The Duchess used you to spy on diplomats. Will it be you that puts an end to her reign of terror?",
     "parent": "monumenta:quests/r2/mistport"
   },
+  "monumenta:quests/r2/ashamanslament": {
+    "title": "A Shaman's Lament",
+    "description": "You helped C'Rondis perform a ritual and unlocked the Soothsayer specialization. Found in Mistport.",
+    "parent": "monumenta:quests/r2/healthfulnetworking"
+  },
   "monumenta:quests/r2/asimplefavor": {
     "title": "A Simple Favor",
     "description": "You assisted in retrieving a hitlist from pirates and learned the Assassin Specialization. Found in Mistport.",
     "parent": "monumenta:quests/r2/thedoctorsorders"
+  },
+  "monumenta:quests/r2/astrokeofgenius": {
+    "title": "A Stroke of Genius",
+    "description": "You helped Atiuh break a Hex below Viridia and unlocked the Hexbreaker specialization. Found in the Viridian Isles Overworld.",
+    "parent": "monumenta:quests/r2/ashamanslament"
   },
   "monumenta:quests/r2/asunkenfeeling": {
     "title": "A Sunken Feeling",
