@@ -2,8 +2,8 @@ name: update
 on:
   workflow_dispatch:
   schedule:
-    # run at 22:30 (10:30pm)
-    - cron: '45 5 * * 5'
+    # run at 5:45 am UTC
+    - cron: '45 5 * * *'
 
 jobs:
   update:
