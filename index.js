@@ -6,6 +6,7 @@ const axios = require('axios').default
 const fs = require('fs')
 
 let advancements
+let items
 const regex = {
   poi: {
     shard: /^monumenta:pois\/([0-9a-zA-Z-_.]+)\/root$/, // $1 = shard
@@ -60,9 +61,9 @@ async function fetchAdvancements () {
     return
   }
   console.log('[API] Fetching advancements from Monumenta API')
-  const response = await axios.get('https://api.playmonumenta.com/advancements')
-  if (response.status !== 200) throw Error(`Monumenta API returned: ${response.status} with ${response.statusText}`)
-  advancements = response.data
+  const advancementApi = await axios.get('https://api.playmonumenta.com/advancements')
+  if (advancementApi.status !== 200) throw Error(`Monumenta API returned: ${advancementApi.status} with ${advancementApi.statusText}`)
+  advancements = advancementApi.data
   console.log('[FILE] Writing advancements to file...')
   fs.writeFileSync('./out/advancement.json', JSON.stringify(advancements, null, 2))
 }
@@ -361,10 +362,33 @@ function cleanDescriptionLine (text = '') {
     .trim() // get rid of trailing whitespaces
 }
 
+
+// ITems
+
+async function fetchItems () {
+  if (!fs.existsSync('./out')) fs.mkdirSync('./out')
+  if (fs.existsSync('./out/item.json') && process.env.DEBUG === 'true') {
+    console.log('[FILE] Loading items from existing file...')
+    items = require('./item.json')
+    return
+  }
+  console.log('[API] Fetching items from Monumenta API')
+  const itemApi = await axios.get('https://api.playmonumenta.com/items')
+  if (itemApi.status !== 200) throw Error(`Monumenta API returned: ${itemApi.status} with ${itemApi.statusText}`)
+  items = itemApi.data
+  console.log('[FILE] Writing items to file...')
+  fs.writeFileSync('./out/item.json', JSON.stringify(items, null, 2))
+}
+
 async function run () {
   try {
     await fetchAdvancements()
     generate()
+  } catch (e) {
+    console.error(e)
+  }
+  try {
+    await fetchItems()
   } catch (e) {
     console.error(e)
   }
