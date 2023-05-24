@@ -5693,7 +5693,6 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "hideenchants": 1,
       "unbreakable": 1
     },
     "lore": "Right click in hand or inventory to increase\nEarthbound tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
@@ -8117,9 +8116,7 @@
     "base_item": "Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {
-      "hideenchants": 1
-    }
+    "stats": {}
   },
   "Fluffy's Blessing": {
     "location": "King's Valley",
@@ -9789,8 +9786,6 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {
-      "hideenchants": 1,
-      "hideinfo": 1,
       "infinity": 1
     },
     "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends it's death."
@@ -10106,8 +10101,6 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {
-      "hideenchants": 1,
-      "hideinfo": 1,
       "instant_drink": 1
     },
     "lore": "Instant Drink\nCelsian Isles : Uncommon\nRush of Dissonance\nFlashes of lightning illuminate the cloudy bottle."
@@ -10443,8 +10436,6 @@
     "type": "Offhand",
     "stats": {
       "adrenaline": 1,
-      "hideenchants": 1,
-      "hideinfo": 1,
       "infinity": 1,
       "starvation": 6,
       "armor": 3,
@@ -10473,8 +10464,6 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "hideenchants": 1,
-      "hideinfo": 1,
       "infinity": 1,
       "starvation": 5,
       "speed_percent": 10
@@ -10520,8 +10509,6 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "hideenchants": 1,
-      "hideinfo": 1,
       "infinity": 1,
       "starvation": 5,
       "armor": 3,
@@ -10545,8 +10532,6 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {
-      "hideenchants": 1,
-      "hideinfo": 1,
       "infinity": 1,
       "starvation": 10
     },
@@ -26990,7 +26975,6 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "hideenchants": 1,
       "unbreakable": 1
     },
     "lore": "Right click in hand or inventory to increase\nShadowdancer tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
@@ -42969,9 +42953,7 @@
     "base_item": "Cobweb",
     "release_status": "public",
     "type": "Misc",
-    "stats": {
-      "hideinfo": 1
-    },
+    "stats": {},
     "lore": "XXXXX XXXX : Currency\nSoulwoven\nEight Soul Threads, deeply entwined. Its\npower can bring anything into creation.\nRight Click while holding to decompress once.\nRight Click + Sneak while holding to decompress all."
   },
   "Spider Silk": {
@@ -42990,9 +42972,7 @@
     "base_item": "String",
     "release_status": "public",
     "type": "Misc",
-    "stats": {
-      "hideinfo": 1
-    },
+    "stats": {},
     "lore": "XXXXX XXXX : Currency\nSoulwoven\nA strand of Soul energy, found in\nall things. Its form can be woven\ninto nearly any material.\nLeft Click while holding to compress once.\nLeft Click + Sneak while holding to compress all."
   },
   "Silver Strings": {
@@ -45764,7 +45744,6 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "hideenchants": 1,
       "unbreakable": 1
     },
     "lore": "Right click in hand or inventory to increase\nSteelsage tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
@@ -49702,7 +49681,6 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "deleteonshatter": 1,
       "life_drain": 1,
       "regicide": 1,
       "sweeping_edge": 3,
@@ -52340,7 +52318,6 @@
     "type": "Axe",
     "stats": {
       "bleeding": 2,
-      "deleteonshatter": 1,
       "quake": 1,
       "unbreakable": 1,
       "attack_damage_base": 21,
@@ -52393,7 +52370,6 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "deleteonshatter": 1,
       "fire_aspect": 2,
       "ice_aspect": 1,
       "unbreakable": 1,
@@ -54287,7 +54263,6 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "deleteonshatter": 1,
       "regeneration": 2,
       "thunder_aspect": 3,
       "attack_damage_base": 6,
@@ -55576,9 +55551,7 @@
     "base_item": "Brewing Stand",
     "release_status": "public",
     "type": "Misc",
-    "stats": {
-      "hideinfo": 1
-    },
+    "stats": {},
     "lore": "Spinning V\nKing's Valley : Unique"
   },
   "Laser Attachment": {
