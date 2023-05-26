@@ -1056,6 +1056,11 @@
     "description": "The Willows, once guarded by a mysterious barrier, now lie defeated before you.",
     "parent": "monumenta:dungeons/r1bonus/find_quest"
   },
+  "monumenta:dungeons/r1bonus/exalted": {
+    "title": "Exalted Black Willows Dungeon",
+    "description": "You conquered the Black Willows dungeon's Exalted mode!",
+    "parent": "monumenta:dungeons/r1bonus/challenge"
+  },
   "monumenta:dungeons/r1bonus/find": {
     "title": "Found The Black Willows",
     "description": "A lost grove stretches before you, filled with riches. POI: Cave of Secrets Coordinates: x=458 y=74 z=-103",
@@ -1224,6 +1229,11 @@
     "title": "Defeat Yellow Dungeon",
     "description": "The seasons overcome, now Kaul's power is released, but the Yellow Wool is now yours.",
     "parent": "monumenta:dungeons/yellow/find_quest"
+  },
+  "monumenta:dungeons/yellow/exalted": {
+    "title": "Exalted Yellow Dungeon",
+    "description": "You conquered the Yellow Wool dungeon's Exalted mode!",
+    "parent": "monumenta:dungeons/yellow/challenge"
   },
   "monumenta:dungeons/yellow/find": {
     "title": "Found Yellow Dungeon",
@@ -5276,6 +5286,26 @@
     "title": "Speedster of Architect's Ring",
     "description": "Complete all races in Architect's Ring at Master rank.",
     "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/r3/boatmanteau/0": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Master time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/1"
+  },
+  "monumenta:speedster/r3/boatmanteau/1": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Gold time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/2"
+  },
+  "monumenta:speedster/r3/boatmanteau/2": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Silver time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/3"
+  },
+  "monumenta:speedster/r3/boatmanteau/3": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Bronze time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/all"
   },
   "monumenta:speedster/r3/citytour/0": {
     "title": "Speedster: City Tour",
