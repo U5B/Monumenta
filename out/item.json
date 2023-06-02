@@ -4445,7 +4445,7 @@
       "stamina": 1,
       "unbreaking": 3,
       "attack_speed_flat": 0.1,
-      "agility": 8
+      "agility": 7.5
     },
     "lore": "Once the armor of a Warden of the Forest.\nNow, the elemental energy flowing through\nthe leather has given it a new, glorious\npurpose."
   },
@@ -4466,7 +4466,7 @@
       "stamina": 1,
       "unbreaking": 3,
       "attack_speed_flat": 0.1,
-      "agility": 8.5
+      "agility": 8
     },
     "lore": "Once the armor of a Warden of the Forest.\nNow, the elemental energy flowing through\nthe leather has given it a new, glorious\npurpose."
   },
@@ -5755,23 +5755,6 @@
     },
     "lore": "Crafted from the cartilage of a Blackflame\ncorpse, infused by the cult presiding\nover their bones."
   },
-  "The Decaying God": {
-    "location": "Remorseful Skin",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "The Decaying God",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "second_wind": 2,
-      "unbreaking": 12,
-      "melee_protection": 1,
-      "armor": 5,
-      "attack_damage_percent": 20
-    },
-    "lore": "When the last of the Blackflame died, some\nfound peace tending the bones."
-  },
   "Silkshine Cloak": {
     "location": "Light Gray",
     "region": "Isles",
@@ -5901,6 +5884,24 @@
     },
     "lore": "I've seen their eyes peering through the Veil.\nI don't know how to make them leave.\nI barely know how to rip myself away either."
   },
+  "Unbound Eternal Shroud": {
+    "location": "Eternity Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Unbound Eternal Shroud",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adrenaline": 3,
+      "curse_of_corruption": 1,
+      "feather_falling": 2,
+      "unbreaking": 9,
+      "agility": 9,
+      "attack_damage_percent": 10
+    },
+    "lore": "I now meet their gaze in the Veil.\nI now join that fraying tapestry.\nNo longer can I leave this ethereal realm."
+  },
   "Parrot Plume Pinion": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -5937,6 +5938,23 @@
       "agility": 8.5
     },
     "lore": "The void creeps ever closer, shaping\nwhat it cannot simply consume."
+  },
+  "The Decaying God": {
+    "location": "Remorseful Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "The Decaying God",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "second_wind": 2,
+      "unbreaking": 12,
+      "melee_protection": 1,
+      "armor": 5,
+      "attack_damage_percent": 20
+    },
+    "lore": "When the last of the Blackflame died, some\nfound peace tending the bones."
   },
   "Bounty Hunter's Gambeson": {
     "location": "Docks",
@@ -13776,6 +13794,22 @@
     },
     "lore": "When one seeks an absence of power\nthey may instead find where it all\nhas gone. Beyond that is a hatred I\nhave never known before..."
   },
+  "Unbound Eternal Leggings": {
+    "location": "Eternity Skin",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Unbound Eternal Leggings",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 1,
+      "unbreaking": 3,
+      "armor": 3.5,
+      "magic_damage_percent": 10
+    },
+    "lore": "I am not trapped here with those in the Void.\nRather, I am now one with their forces."
+  },
   "Jeans of the Fire Eagle": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -14483,6 +14517,23 @@
       "attack_damage_base": 5
     },
     "lore": "For when sharpening the tips of your\ncandy canes is no longer enough."
+  },
+  "Thunderfox": {
+    "location": "The Wolfswood",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Thunderfox",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "knockback": 2,
+      "slayer": 4,
+      "unbreaking": 7,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.6
+    },
+    "lore": "The storm washes away the stars.\nEmbrace it."
   },
   "Nox Sacramentum": {
     "location": "Gallery of Fear",
@@ -19547,6 +19598,23 @@
     },
     "lore": "What horrors did those miners unearth?\nWhat drove them to inherit the Scourge?\nI shudder at what lies below."
   },
+  "Unbound Eternal Boots": {
+    "location": "Eternity Skin",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Unbound Eternal Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "reflexes": 1,
+      "regicide": 1,
+      "unbreakable": 1,
+      "speed_percent": 10,
+      "agility": 6.5
+    },
+    "lore": "Now as the Void drew ever closer\nand the eyes gained presence nigh,\nMy mind escaping realms uncharted\nThere is nothing left to hide."
+  },
   "Peripatetic Sandals": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -20745,6 +20813,24 @@
     },
     "lore": "Nature strikes back as\nthe Beastmen howl."
   },
+  "Sacrificial Dagger": {
+    "location": "Sanctum",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Sacrificial Dagger",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adrenaline": 1,
+      "melee_protection": 1,
+      "regicide": 1,
+      "unbreakable": 1,
+      "attack_damage_percent": 35,
+      "attack_speed_percent": 10
+    },
+    "lore": "The first to fall will be C'Shura.\nThe Tlaxans will follow."
+  },
   "Sanctified Dagger": {
     "location": "Sanctum",
     "region": "Valley",
@@ -21909,12 +21995,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "cumbersome": 1,
       "ice_aspect": 1,
       "quake": 1,
       "sweeping_edge": 4,
       "unbreaking": 1,
-      "attack_damage_base": 13,
-      "attack_speed_base": 1.6
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 18.5
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -21928,12 +22015,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "cumbersome": 1,
       "ice_aspect": 1,
       "quake": 1,
       "sweeping_edge": 4,
       "unbreaking": 1,
-      "attack_damage_base": 14,
-      "attack_speed_base": 1.6
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 20
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -21947,12 +22035,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "cumbersome": 1,
       "ice_aspect": 1,
       "quake": 1,
       "sweeping_edge": 4,
       "unbreaking": 1,
-      "attack_damage_base": 13.5,
-      "attack_speed_base": 1.6
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 19
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -23344,10 +23433,10 @@
     "type": "Helmet",
     "stats": {
       "life_drain": 1,
-      "stamina": 2,
+      "stamina": 1,
       "unbreaking": 30,
-      "armor": 9,
-      "attack_speed_percent": 15
+      "attack_speed_percent": 15,
+      "armor": 9.5
     },
     "lore": "They wore the Mask not only to protect\ntheir identities, but as a symbol. Their\npersonal whims were irrelevant. In becoming\nfaceless, they took on the burden of\nthe world."
   },
@@ -23362,10 +23451,10 @@
     "type": "Helmet",
     "stats": {
       "life_drain": 1,
-      "stamina": 2,
+      "stamina": 1,
       "unbreaking": 25,
-      "armor": 8.5,
-      "attack_speed_percent": 10
+      "attack_speed_percent": 10,
+      "armor": 9
     },
     "lore": "They wore the Mask not only to protect\ntheir identities, but as a symbol. Their\npersonal whims were irrelevant. In becoming\nfaceless, they took on the burden of\nthe world."
   },
@@ -24517,23 +24606,6 @@
     },
     "lore": "Screams echoed throughout Nightroost -\nthey seemingly came from the sky itself."
   },
-  "Svalgot's Leer": {
-    "location": "Remorseful Skin",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Svalgot's Leer",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "melee_protection": 2,
-      "unbreakable": 1,
-      "max_health_flat": -2,
-      "agility": 8,
-      "magic_damage_percent": 15
-    },
-    "lore": "Svalgot's eyes seek beyond what\ncan be seen naturally. The Void\nguides his sight now."
-  },
   "Silkshine Hood": {
     "location": "Light Gray",
     "region": "Isles",
@@ -24812,6 +24884,23 @@
       "thorns_flat": 3
     },
     "lore": "Ancient horns adorn your visage.\nAncient jaws command your voice."
+  },
+  "Svalgot's Leer": {
+    "location": "Remorseful Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Svalgot's Leer",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "melee_protection": 2,
+      "unbreakable": 1,
+      "max_health_flat": -2,
+      "agility": 8,
+      "magic_damage_percent": 15
+    },
+    "lore": "Svalgot's eyes seek beyond what\ncan be seen naturally. The Void\nguides his sight now."
   },
   "Crest of the Tundra": {
     "location": "Eldrask",
@@ -27120,22 +27209,6 @@
     },
     "lore": "Let the blood of the lesser ...make\nan excellent dipping sauce."
   },
-  "Architect's Dagger": {
-    "location": "Remorseful Skin",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Architect's Dagger",
-    "base_item": "Iron Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "agility": 8,
-      "max_health_flat": -4,
-      "attack_damage_percent": 45
-    },
-    "lore": "A relic of The Architect being here is an\nalarming find. What could have brought this\nhere - and why was it needed?"
-  },
   "Chainbreaker's Blight": {
     "location": "Light Gray",
     "region": "Isles",
@@ -27651,6 +27724,22 @@
       "attack_speed_base": 1.6
     },
     "lore": "Like the night, cold and brutal."
+  },
+  "Architect's Dagger": {
+    "location": "Remorseful Skin",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Architect's Dagger",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "unbreakable": 1,
+      "agility": 8,
+      "max_health_flat": -4,
+      "attack_damage_percent": 45
+    },
+    "lore": "A relic of The Architect being here is an\nalarming find. What could have brought this\nhere - and why was it needed?"
   },
   "Shadowdancer Talisman": {
     "location": "Depths",
@@ -28486,7 +28575,7 @@
       "attack_speed_flat": 0.1,
       "max_health_flat": 4,
       "knockback_resistance_flat": 3,
-      "attack_damage_percent": 35
+      "attack_damage_percent": 30
     },
     "lore": "In time, even the mightiest of walls\nwill crumble to nothing. In memory,\nthey shall stand forever."
   },
@@ -28506,7 +28595,7 @@
       "attack_speed_flat": 0.1,
       "max_health_flat": 4,
       "knockback_resistance_flat": 3,
-      "attack_damage_percent": 30
+      "attack_damage_percent": 25
     },
     "lore": "In time, even the mightiest of walls\nwill crumble to nothing. In memory,\nthey shall stand forever."
   },
@@ -30079,10 +30168,18 @@
   },
   "Elixir of Exorcism": {
     "name": "Elixir of Exorcism",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
     "base_item": "Lingering Potion",
     "release_status": "public",
-    "type": "Misc",
-    "stats": {}
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Exorcism\nValley of Forgotten Pharaohs"
   },
   "Manna Dew": {
     "location": "King's Valley",
@@ -32882,22 +32979,6 @@
     },
     "lore": "Some mages become hunters themselves.\nThe trophies are a twisted reminder\nof Chillwind's current hierarchy."
   },
-  "Ghalkor's Gaze": {
-    "location": "Remorseful Skin",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Ghalkor's Gaze",
-    "base_item": "Chainmail Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreakable": 1,
-      "ethereal": 1,
-      "attack_damage_percent": 10,
-      "agility": 6
-    },
-    "lore": "Decades of rituals have twisted\nGhalkor's very bones into something\nnearly inhuman."
-  },
   "Hellborn Fedora": {
     "location": "Halloween Skin",
     "region": "Valley",
@@ -33067,6 +33148,22 @@
       "agility": 7.5
     },
     "lore": "\"Flow with the ocean,\nslice with the depths,\nbreathe in their blood.\""
+  },
+  "Ghalkor's Gaze": {
+    "location": "Remorseful Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Ghalkor's Gaze",
+    "base_item": "Chainmail Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "unbreakable": 1,
+      "ethereal": 1,
+      "attack_damage_percent": 10,
+      "agility": 6
+    },
+    "lore": "Decades of rituals have twisted\nGhalkor's very bones into something\nnearly inhuman."
   },
   "Rootweave Diadem": {
     "location": "Depths",
@@ -36436,9 +36533,9 @@
     "type": "Chestplate",
     "stats": {
       "depth_strider": 3,
-      "magic_protection": 3,
+      "magic_protection": 2,
       "unbreaking": 6,
-      "agility": 9
+      "agility": 9.5
     },
     "lore": "The cities stood untarnished, torrents\nof water still flowing through the ancient\naqueducts. The creation of fallen gods,\nuntouched by time."
   },
@@ -36453,9 +36550,9 @@
     "type": "Chestplate",
     "stats": {
       "depth_strider": 3,
-      "magic_protection": 3,
+      "magic_protection": 2,
       "unbreaking": 5,
-      "agility": 8.5
+      "agility": 9
     },
     "lore": "The cities stood untarnished, torrents\nof water still flowing through the ancient\naqueducts. The creation of fallen gods,\nuntouched by time."
   },
@@ -36470,9 +36567,9 @@
     "type": "Chestplate",
     "stats": {
       "depth_strider": 3,
-      "magic_protection": 4,
+      "magic_protection": 3,
       "unbreaking": 7,
-      "agility": 9
+      "agility": 10
     },
     "lore": "The cities stood untarnished, torrents\nof water still flowing through the ancient\naqueducts. The creation of fallen gods,\nuntouched by time."
   },
@@ -36487,10 +36584,10 @@
     "type": "Chestplate",
     "stats": {
       "depth_strider": 3,
-      "magic_protection": 4,
+      "magic_protection": 3,
       "unbreaking": 9,
-      "agility": 9.5,
-      "speed_percent": 5
+      "speed_percent": 5,
+      "agility": 10.5
     },
     "lore": "The cities stood untarnished, torrents\nof water still flowing through the ancient\naqueducts. The creation of fallen gods,\nuntouched by time."
   },
@@ -36581,7 +36678,7 @@
       "steadfast": 1,
       "unbreaking": 8,
       "knockback_resistance_flat": 3,
-      "armor": 9
+      "armor": 9.5
     },
     "lore": "Though crumbling, the ancient walls\nof the Keep still repelled all invaders.\nThe empire would not fall. Not from\nthe outside..."
   },
@@ -38065,10 +38162,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "fire_protection": 1,
-      "shielding": 2,
-      "unbreaking": 6,
-      "armor": 5
+      "ineptitude": 2,
+      "shielding": 1,
+      "unbreaking": 8,
+      "magic_damage_percent": 20,
+      "armor": 7
     },
     "lore": "\"We shall bind them in the very threads\nof reality. For who can escape a prison\nthat is a world unto itself?\""
   },
@@ -38082,10 +38180,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "fire_protection": 2,
-      "shielding": 2,
-      "unbreaking": 7,
-      "armor": 5.5
+      "ineptitude": 2,
+      "shielding": 1,
+      "unbreaking": 8,
+      "magic_damage_percent": 25,
+      "armor": 7.5
     },
     "lore": "\"We shall bind them in the very threads\nof reality. For who can escape a prison\nthat is a world unto itself?\""
   },
@@ -38099,10 +38198,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "fire_protection": 2,
-      "shielding": 2,
+      "ineptitude": 2,
+      "shielding": 1,
       "unbreaking": 8,
-      "armor": 6
+      "magic_damage_percent": 25,
+      "armor": 8
     },
     "lore": "\"We shall bind them in the very threads\nof reality. For who can escape a prison\nthat is a world unto itself?\""
   },
@@ -40726,7 +40826,7 @@
       "magma_shield_range_percent": 20,
       "frost_nova_range_percent": 20,
       "cosmic_moonblade_range_percent": 15,
-      "starfall_range_percent": 15
+      "starfall_radius_percent": 15
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -41398,6 +41498,22 @@
     },
     "lore": "Steam radiates from the\nstaff, soothing ones who\nbelong to the order."
   },
+  "Paintbrush": {
+    "location": "Sketched",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Paintbrush",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "agility": 5,
+      "max_health_flat": 2,
+      "projectile_damage_percent": 20,
+      "projectile_speed_percent": 15
+    },
+    "lore": "Crafted with lumber, wielded by artists,\nplundered by fools."
+  },
   "Riftbolt Stave": {
     "location": "Teal",
     "region": "Isles",
@@ -41586,7 +41702,6 @@
     "stats": {}
   },
   "Urchin Barb": {
-    "location": "Fishing",
     "name": "Urchin Barb",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -43149,11 +43264,12 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Martial Mantra",
-    "power": 5,
+    "power": 3,
     "base_item": "Paper",
     "release_status": "public",
     "stats": {
-      "luminous_infusion_cooldown_percent": -55,
+      "luminous_infusion_cooldown_percent": -50,
+      "luminous_infusion_damage_percent": -15,
       "luminous_infusion_radius_percent": -100
     },
     "type": "Charm",
@@ -45063,7 +45179,7 @@
     "release_status": "public",
     "stats": {
       "choir_bells_slowness_amplifier_percent": 20,
-      "choir_bells_vulnerability_amplifier_percent": -30
+      "choir_bells_vulnerability_amplifier_percent": -20
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -45144,7 +45260,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The pungent stench emanated\nby this prepared meal could\nbe identified from miles away."
+    "lore": "Quality Bonus (+20%)\nThe pungent stench emanated\nby this prepared meal could\nbe identified from miles away."
   },
   "Heart of the Jungle": {
     "location": "Kaul",
@@ -45778,9 +45894,9 @@
     "type": "Crossbow",
     "stats": {
       "abyssal": 2,
-      "point_blank": 5,
-      "punch": 1,
-      "quick_charge": 2,
+      "first_strike": 2,
+      "point_blank": 3,
+      "quick_charge": 3,
       "unbreaking": 4,
       "projectile_speed_base": 2,
       "projectile_damage_base": 8
@@ -45798,11 +45914,12 @@
     "type": "Crossbow",
     "stats": {
       "abyssal": 2,
-      "point_blank": 5,
-      "quick_charge": 2,
+      "first_strike": 2,
+      "point_blank": 3,
+      "quick_charge": 3,
       "unbreaking": 3,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 8
+      "projectile_damage_base": 7.5
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -45817,11 +45934,12 @@
     "type": "Crossbow",
     "stats": {
       "abyssal": 2,
-      "point_blank": 4,
-      "quick_charge": 2,
+      "first_strike": 2,
+      "point_blank": 2,
+      "quick_charge": 3,
       "unbreaking": 2,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 8
+      "projectile_damage_base": 7.5
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -46417,27 +46535,6 @@
     },
     "lore": "An incredible feat of arcane engineering,\nwith springs infused with kinetic magic.\nIt's hard to believe that a student crafted it..."
   },
-  "Wings of the Wyvern": {
-    "location": "Remorseful Skin",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Wings of the Wyvern",
-    "base_item": "Crossbow",
-    "release_status": "public",
-    "type": "Crossbow",
-    "stats": {
-      "recoil": 3,
-      "punch": 3,
-      "unbreaking": 3,
-      "knockback": 3,
-      "quick_charge": 1,
-      "infinity": 1,
-      "adrenaline": 3,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1
-    },
-    "lore": "A fraying wing stretches across the\nrickety bow, demanding flight."
-  },
   "Sunken Blunderbuss": {
     "location": "Purple",
     "region": "Isles",
@@ -46787,6 +46884,27 @@
     },
     "lore": "To speak for the dead, one must\nlearn their tongue."
   },
+  "Wings of the Wyvern": {
+    "location": "Remorseful Skin",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Wings of the Wyvern",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "recoil": 3,
+      "punch": 3,
+      "unbreaking": 3,
+      "knockback": 3,
+      "quick_charge": 1,
+      "infinity": 1,
+      "adrenaline": 3,
+      "projectile_damage_base": 12,
+      "projectile_speed_base": 1
+    },
+    "lore": "A fraying wing stretches across the\nrickety bow, demanding flight."
+  },
   "Steelsage Talisman": {
     "location": "Depths",
     "region": "Isles",
@@ -46986,7 +47104,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This fabric-like material\nseems to be fading\naway from this world."
+    "lore": "Quality Bonus (+20%)\nThis fabric-like material\nseems to be fading\naway from this world."
   },
   "Thank You Note": {
     "location": "April's Fools",
@@ -48230,8 +48348,8 @@
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "swift_cuts_damage_percent": 15,
-      "swift_cuts_radius_percent": 50
+      "swift_cuts_stack_damage_percent": 2,
+      "swift_cuts_effect_duration_flat": 2
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -48670,6 +48788,23 @@
       "armor": 7.5
     },
     "lore": "And lo, did Alric's spear pierce true.\nAnd still his armor held, cracked and battered."
+  },
+  "Frost Giant's Courage": {
+    "location": "Titanic Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Frost Giant's Courage",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "curse_of_corruption": 1,
+      "unbreaking": 5,
+      "attack_speed_flat": 0.1,
+      "max_health_flat": 4,
+      "armor": 7.5
+    },
+    "lore": "Beneath the ice, a heavy heart still beats\nthe rhythm of the song he must sing alone."
   },
   "Slasher's Robe": {
     "location": "Gallery of Fear",
@@ -49157,6 +49292,23 @@
     },
     "lore": "Where have all the roamers gone?\nThe walkers yet to dream?\nTheir footsteps make valleys.\nTheir lifeblood forms the streams."
   },
+  "Frost Giant's Boots": {
+    "location": "Titanic Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Frost Giant's Boots",
+    "base_item": "Iron Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "curse_of_corruption": 1,
+      "steadfast": 1,
+      "unbreaking": 4,
+      "knockback_resistance_flat": 5,
+      "armor": 8
+    },
+    "lore": "His steps are undaunted. The ice cannot make\nhim fall. He must be eternal if all is to remain."
+  },
   "Frostguard Sabatons": {
     "location": "Isles Overworld",
     "region": "Isles",
@@ -49436,8 +49588,8 @@
       "regicide": 1,
       "stamina": 3,
       "unbreaking": 8,
-      "armor": 7,
-      "attack_speed_percent": 10
+      "attack_speed_percent": 10,
+      "armor": 6.5
     },
     "lore": "Tyranny, fratricide, mad searching for the lost\nrelics of the Silver Knights concealed one\nsimple truth. Ambitious attempts to revive the\ngreat Silvari empire were not meant to succeed."
   },
@@ -49632,6 +49784,25 @@
       "armor": 6
     },
     "lore": "As the scourge of battle beset the land,\nthe hammers turned to swords.\nIce was shaped to armor\nas the giants stood for war."
+  },
+  "Frost Giant's Leggings": {
+    "location": "Titanic Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Frost Giant's Leggings",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "curse_of_corruption": 1,
+      "melee_protection": 4,
+      "unbreaking": 4,
+      "attack_damage_percent": 20,
+      "thorns_flat": 4,
+      "thorns_percent": 25,
+      "armor": 6
+    },
+    "lore": "He wades through the fury of the blizzard,\nuntouched by the ants below his feet."
   },
   "Diamond Leggings": {
     "name": "Diamond Leggings",
@@ -49991,7 +50162,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A shard of a crystal\nfound underneath the\nWolfswood. It appears\nto be pulsing with vitality."
+    "lore": "Quality Bonus (+20%)\nA shard of a crystal\nfound underneath the\nWolfswood. It appears\nto be pulsing with vitality."
   },
   "Snowblossom Caster": {
     "location": "Architect's Ring",
@@ -51682,8 +51853,8 @@
     "release_status": "public",
     "stats": {
       "divine_justice_self_heal_percent": -50,
-      "sanctified_armor_damage_percent": 30,
-      "divine_justice_damage_percent": 30
+      "sanctified_armor_damage_percent": 40,
+      "divine_justice_damage_percent": 40
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -52014,547 +52185,6 @@
     "stats": {},
     "lore": "An attachment for the Perfect Crystallizer\nthat permanently allows it to convert\nArchitect's Ring Fish into Sand Stickers.\nConsumed by left clicking in mainhand.\nConsuming this item cannot be undone!"
   },
-  "Average Mechanical Monkfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Average Mechanical Monkfish",
-    "fish_quality": 3,
-    "effects": [
-      {
-        "EffectDuration": 40,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Tender Keep-side Sardine": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Tender Keep-side Sardine",
-    "fish_quality": 3,
-    "effects": [
-      {
-        "EffectDuration": 360,
-        "EffectStrength": 0.06,
-        "EffectType": "ProjectileResistance"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Modest Mungfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Modest Mungfish",
-    "fish_quality": 3,
-    "effects": [
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.08,
-        "EffectType": "AttackSpeed"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.2,
-        "EffectType": "MeleeWeakness"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Large Wolfswood Carp": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Large Wolfswood Carp",
-    "fish_quality": 3,
-    "effects": [
-      {
-        "EffectDuration": 200,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Plump Forest Flounder": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Plump Forest Flounder",
-    "fish_quality": 3,
-    "effects": [
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 0.1,
-        "EffectType": "Slow"
-      },
-      {
-        "EffectDuration": 0,
-        "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Bulky Keep-side Sardine": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Bulky Keep-side Sardine",
-    "fish_quality": 4,
-    "effects": [
-      {
-        "EffectDuration": 360,
-        "EffectStrength": 0.06,
-        "EffectType": "ProjectileResistance"
-      },
-      {
-        "EffectDuration": 360,
-        "EffectStrength": 0.06,
-        "EffectType": "MeleeResistance"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Massive Wolfswood Carp": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Massive Wolfswood Carp",
-    "fish_quality": 4,
-    "effects": [
-      {
-        "EffectDuration": 240,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Efficient Mechanical Monkfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Efficient Mechanical Monkfish",
-    "fish_quality": 4,
-    "effects": [
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Fatty Forest Flounder": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Fatty Forest Flounder",
-    "fish_quality": 4,
-    "effects": [
-      {
-        "EffectDuration": 80,
-        "EffectStrength": 0.1,
-        "EffectType": "Slow"
-      },
-      {
-        "EffectDuration": 0,
-        "EffectStrength": 0.25,
-        "EffectType": "InstantHealthPercent"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Adequate Mungfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Adequate Mungfish",
-    "fish_quality": 4,
-    "effects": [
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.08,
-        "EffectType": "AttackSpeed"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.15,
-        "EffectType": "MeleeWeakness"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Luxurious Wolfswood Carp": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Luxurious Wolfswood Carp",
-    "fish_quality": 5,
-    "effects": [
-      {
-        "EffectDuration": 240,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 120,
-        "EffectStrength": 0.1,
-        "EffectType": "Heal"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Pleasant Mungfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Pleasant Mungfish",
-    "fish_quality": 5,
-    "effects": [
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.1,
-        "EffectType": "AttackSpeed"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.1,
-        "EffectType": "MeleeWeakness"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Optimal Mechanical Monkfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Optimal Mechanical Monkfish",
-    "fish_quality": 5,
-    "effects": [
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 2,
-        "EffectType": "Haste"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Hearty Forest Flounder": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Hearty Forest Flounder",
-    "fish_quality": 5,
-    "effects": [
-      {
-        "EffectDuration": 60,
-        "EffectStrength": 0.1,
-        "EffectType": "Slow"
-      },
-      {
-        "EffectDuration": 0,
-        "EffectStrength": 0.3,
-        "EffectType": "InstantHealthPercent"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Immaculate Keep-side Sardine": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Immaculate Keep-side Sardine",
-    "fish_quality": 5,
-    "effects": [
-      {
-        "EffectDuration": 360,
-        "EffectStrength": 0.1,
-        "EffectType": "ProjectileResistance"
-      },
-      {
-        "EffectDuration": 360,
-        "EffectStrength": 0.1,
-        "EffectType": "MeleeResistance"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Unsubstantial Mungfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Unsubstantial Mungfish",
-    "fish_quality": 2,
-    "effects": [
-      {
-        "EffectDuration": 3000,
-        "EffectStrength": 0.08,
-        "EffectType": "AttackSpeed"
-      },
-      {
-        "EffectDuration": 3000,
-        "EffectStrength": 0.2,
-        "EffectType": "MeleeWeakness"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Soft Keep-side Sardine": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Soft Keep-side Sardine",
-    "fish_quality": 2,
-    "effects": [
-      {
-        "EffectDuration": 360,
-        "EffectStrength": 0.03,
-        "EffectType": "ProjectileResistance"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Greasy Mechanical Monkfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Greasy Mechanical Monkfish",
-    "fish_quality": 2,
-    "effects": [
-      {
-        "EffectDuration": 40,
-        "EffectStrength": 1,
-        "EffectType": "MiningFatigue"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Dull Forest Flounder": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Dull Forest Flounder",
-    "fish_quality": 2,
-    "effects": [
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 0.1,
-        "EffectType": "Slow"
-      },
-      {
-        "EffectDuration": 0,
-        "EffectStrength": 0.15,
-        "EffectType": "InstantHealthPercent"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Toughened Wolfswood Carp": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Toughened Wolfswood Carp",
-    "fish_quality": 2,
-    "effects": [
-      {
-        "EffectDuration": 140,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Oily Mechanical Monkfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Oily Mechanical Monkfish",
-    "fish_quality": 1,
-    "effects": [
-      {
-        "EffectDuration": 80,
-        "EffectStrength": 2,
-        "EffectType": "MiningFatigue"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Miserable Mungfish": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Miserable Mungfish",
-    "fish_quality": 1,
-    "effects": [
-      {
-        "EffectDuration": 3000,
-        "EffectStrength": 0.05,
-        "EffectType": "AttackSpeed"
-      },
-      {
-        "EffectDuration": 3000,
-        "EffectStrength": 0.25,
-        "EffectType": "MeleeWeakness"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Slender Keep-side Sardine": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Slender Keep-side Sardine",
-    "fish_quality": 1,
-    "effects": [
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 0.03,
-        "EffectType": "ProjectileResistance"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Skinny Forest Flounder": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Skinny Forest Flounder",
-    "fish_quality": 1,
-    "effects": [
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 0.1,
-        "EffectType": "Slow"
-      },
-      {
-        "EffectDuration": 0,
-        "EffectStrength": 0.1,
-        "EffectType": "InstantHealthPercent"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Common Wolfswood Carp": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Common Wolfswood Carp",
-    "fish_quality": 1,
-    "effects": [
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      }
-    ],
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Deep Sea Bait": {
-    "location": "Fishing",
-    "region": "Ring",
-    "name": "Deep Sea Bait",
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Combat Bait (+5%)\nSpecialty Bait (-8%)\nWell prepared bait fish by an expert,\nmay attract dangers out in the wild."
-  },
-  "Brown-Carp": {
-    "name": "Brown-Carp",
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "I'm sure somebody would buy this!\nDo they ever do anything besides fish?"
-  },
-  "Coffee Catfish": {
-    "name": "Coffee Catfish",
-    "base_item": "Cod",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "I'm sure somebody would buy this!\nThey say its droppings make great coffee."
-  },
   "Devout Trout of the Architect": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -52571,24 +52201,6 @@
         "EffectDuration": 240,
         "EffectStrength": 0.15,
         "EffectType": "AntiHeal"
-      }
-    ],
-    "base_item": "Salmon",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Swift Shade Seabass": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Swift Shade Seabass",
-    "fish_quality": 3,
-    "effects": [
-      {
-        "EffectDuration": 120,
-        "EffectStrength": 0.05,
-        "EffectType": "BlastResistance"
       }
     ],
     "base_item": "Salmon",
@@ -52619,6 +52231,24 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Swift Shade Seabass": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Swift Shade Seabass",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.05,
+        "EffectType": "BlastResistance"
+      }
+    ],
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Adeptly Hexed Salmon": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -52635,6 +52265,24 @@
         "EffectDuration": 240,
         "EffectStrength": 0.25,
         "EffectType": "MagicVulnerability"
+      }
+    ],
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Potent Shade Seabass": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Potent Shade Seabass",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.08,
+        "EffectType": "BlastResistance"
       }
     ],
     "base_item": "Salmon",
@@ -52665,16 +52313,16 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Potent Shade Seabass": {
+  "Glorious Shade Seabass": {
     "location": "Architect's Ring",
     "region": "Ring",
     "tier": "Fish",
-    "name": "Potent Shade Seabass",
-    "fish_quality": 4,
+    "name": "Glorious Shade Seabass",
+    "fish_quality": 5,
     "effects": [
       {
         "EffectDuration": 120,
-        "EffectStrength": 0.08,
+        "EffectStrength": 0.15,
         "EffectType": "BlastResistance"
       }
     ],
@@ -52722,24 +52370,6 @@
         "EffectDuration": 480,
         "EffectStrength": 0.2,
         "EffectType": "MagicVulnerability"
-      }
-    ],
-    "base_item": "Salmon",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Glorious Shade Seabass": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Fish",
-    "name": "Glorious Shade Seabass",
-    "fish_quality": 5,
-    "effects": [
-      {
-        "EffectDuration": 120,
-        "EffectStrength": 0.15,
-        "EffectType": "BlastResistance"
       }
     ],
     "base_item": "Salmon",
@@ -52890,6 +52520,547 @@
     "type": "Misc",
     "stats": {},
     "lore": "I'm sure somebody would buy this!\nCold and sticky to the touch, yuck!"
+  },
+  "Average Mechanical Monkfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Average Mechanical Monkfish",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 40,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Tender Keep-side Sardine": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Tender Keep-side Sardine",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 360,
+        "EffectStrength": 0.06,
+        "EffectType": "ProjectileResistance"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Large Wolfswood Carp": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Large Wolfswood Carp",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Plump Forest Flounder": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Plump Forest Flounder",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 0.1,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 0,
+        "EffectStrength": 0.2,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Modest Mungfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Modest Mungfish",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.08,
+        "EffectType": "AttackSpeed"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.2,
+        "EffectType": "MeleeWeakness"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Bulky Keep-side Sardine": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Bulky Keep-side Sardine",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 360,
+        "EffectStrength": 0.06,
+        "EffectType": "ProjectileResistance"
+      },
+      {
+        "EffectDuration": 360,
+        "EffectStrength": 0.06,
+        "EffectType": "MeleeResistance"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Fatty Forest Flounder": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Fatty Forest Flounder",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 80,
+        "EffectStrength": 0.1,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 0,
+        "EffectStrength": 0.25,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Adequate Mungfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Adequate Mungfish",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.08,
+        "EffectType": "AttackSpeed"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.15,
+        "EffectType": "MeleeWeakness"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Efficient Mechanical Monkfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Efficient Mechanical Monkfish",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Massive Wolfswood Carp": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Massive Wolfswood Carp",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 240,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Optimal Mechanical Monkfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Optimal Mechanical Monkfish",
+    "fish_quality": 5,
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 2,
+        "EffectType": "Haste"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Luxurious Wolfswood Carp": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Luxurious Wolfswood Carp",
+    "fish_quality": 5,
+    "effects": [
+      {
+        "EffectDuration": 240,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.1,
+        "EffectType": "Heal"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Pleasant Mungfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Pleasant Mungfish",
+    "fish_quality": 5,
+    "effects": [
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.1,
+        "EffectType": "AttackSpeed"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeWeakness"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Hearty Forest Flounder": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Hearty Forest Flounder",
+    "fish_quality": 5,
+    "effects": [
+      {
+        "EffectDuration": 60,
+        "EffectStrength": 0.1,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 0,
+        "EffectStrength": 0.3,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Immaculate Keep-side Sardine": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Immaculate Keep-side Sardine",
+    "fish_quality": 5,
+    "effects": [
+      {
+        "EffectDuration": 360,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileResistance"
+      },
+      {
+        "EffectDuration": 360,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeResistance"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Toughened Wolfswood Carp": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Toughened Wolfswood Carp",
+    "fish_quality": 2,
+    "effects": [
+      {
+        "EffectDuration": 140,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Dull Forest Flounder": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Dull Forest Flounder",
+    "fish_quality": 2,
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 0.1,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 0,
+        "EffectStrength": 0.15,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Unsubstantial Mungfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Unsubstantial Mungfish",
+    "fish_quality": 2,
+    "effects": [
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.08,
+        "EffectType": "AttackSpeed"
+      },
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.2,
+        "EffectType": "MeleeWeakness"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Greasy Mechanical Monkfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Greasy Mechanical Monkfish",
+    "fish_quality": 2,
+    "effects": [
+      {
+        "EffectDuration": 40,
+        "EffectStrength": 1,
+        "EffectType": "MiningFatigue"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Soft Keep-side Sardine": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Soft Keep-side Sardine",
+    "fish_quality": 2,
+    "effects": [
+      {
+        "EffectDuration": 360,
+        "EffectStrength": 0.03,
+        "EffectType": "ProjectileResistance"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Slender Keep-side Sardine": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Slender Keep-side Sardine",
+    "fish_quality": 1,
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.03,
+        "EffectType": "ProjectileResistance"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Miserable Mungfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Miserable Mungfish",
+    "fish_quality": 1,
+    "effects": [
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.05,
+        "EffectType": "AttackSpeed"
+      },
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.25,
+        "EffectType": "MeleeWeakness"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Skinny Forest Flounder": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Skinny Forest Flounder",
+    "fish_quality": 1,
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 0.1,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 0,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Common Wolfswood Carp": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Common Wolfswood Carp",
+    "fish_quality": 1,
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Oily Mechanical Monkfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Oily Mechanical Monkfish",
+    "fish_quality": 1,
+    "effects": [
+      {
+        "EffectDuration": 80,
+        "EffectStrength": 2,
+        "EffectType": "MiningFatigue"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Deep Sea Bait": {
+    "location": "Fishing",
+    "region": "Ring",
+    "name": "Deep Sea Bait",
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Combat Bait (+5%)\nSpecialty Bait (-10%)\nWell prepared bait fish by an expert,\nmay attract dangers out in the wild."
+  },
+  "Brown-Carp": {
+    "name": "Brown-Carp",
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "I'm sure somebody would buy this!\nDo they ever do anything besides fish?"
+  },
+  "Coffee Catfish": {
+    "name": "Coffee Catfish",
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "I'm sure somebody would buy this!\nThey say its droppings make great coffee."
   },
   "Rubbery Shroomfish": {
     "location": "Architect's Ring",
@@ -53058,7 +53229,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This shiny snail stands out\nincredibly well underwater."
+    "lore": "Quality Bonus (+20%)\nThis shiny snail stands out\nincredibly well underwater."
   },
   "Trembling Root": {
     "location": "The Wolfswood",
@@ -53110,6 +53281,44 @@
     "stats": {},
     "lore": "You actually want this as your item?"
   },
+  "Appetizing Crickets": {
+    "location": "Fishing",
+    "region": "Ring",
+    "name": "Appetizing Crickets",
+    "base_item": "Wheat Seeds",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Quality Bonus (+40%)\nFresh, earthy, crunchy crickets.\nMonstrously delectable - a true\nforce of nature."
+  },
+  "Regenerative Spores": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Regenerative Spores",
+    "power": 1,
+    "base_item": "Wheat Seeds",
+    "release_status": "public",
+    "stats": {
+      "regeneration_healing_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Flawless Spores": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Flawless Spores",
+    "power": 2,
+    "base_item": "Wheat Seeds",
+    "release_status": "public",
+    "stats": {
+      "regeneration_healing_percent": 25
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Wolfswood Worms": {
     "location": "Fishing",
     "region": "Ring",
@@ -53118,7 +53327,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Combat Bait (+2.5%)\nSpecialty Bait (+5%)\nCommon critters in the Wolfswood, sought out\nby avid fishers, and adored by fish."
+    "lore": "Combat Bait (+2.5%)\nSpecialty Bait (+5%)\nQuality Bonus (+10%)\nCommon critters in the Wolfswood, sought out\nby avid fishers, and adored by fish."
   },
   "Fungal Remnants": {
     "location": "Godspore",
@@ -53149,7 +53358,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A collection of small organisms\nthat could easily attract\nfilter feeders."
+    "lore": "Quality Bonus (+20%)\nA collection of small organisms\nthat could easily attract\nfilter feeders."
   },
   "Soul Grubs": {
     "location": "Fishing",
@@ -53158,7 +53367,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A pile of tiny souls, squirming in your\nhand. Whatever these once were,\ntheir original form is now indiscernible."
+    "lore": "Quality Bonus (+20%)\nA pile of tiny souls, squirming in your\nhand. Whatever these once were,\ntheir original form is now indiscernible."
   },
   "Primordial Spores": {
     "location": "Celsian Isles",
@@ -53188,7 +53397,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This collection of plants\nalmost tempts you to\ntake a bite."
+    "lore": "Quality Bonus (+20%)\nThis collection of plants\nalmost tempts you to\ntake a bite."
   },
   "Gourmet Fungus": {
     "location": "Fishing",
@@ -53198,7 +53407,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Combat Bait (-4%)\nSpecialty Bait (+10%)\nPort Manteau's finest. Even picky eaters\ncan't resist the allure, though the Mycelia\ndisapprove."
+    "lore": "Combat Bait (-5%)\nSpecialty Bait (+10%)\nPort Manteau's finest. Even picky eaters\ncan't resist the allure, though the Mycelia\ndisapprove."
   },
   "Esoteric Fungus": {
     "location": "Celsian Isles",
@@ -53224,7 +53433,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "You can feel the magic\nseeping out of this\npiece of shiny flesh."
+    "lore": "Quality Bonus (+20%)\nYou can feel the magic\nseeping out of this\npiece of shiny flesh."
   },
   "Compressed Crystalline Shard": {
     "location": "Celsian Isles",
@@ -53352,7 +53561,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This small crustacean seems\nlike the perfect bait for\na certain predator."
+    "lore": "Quality Bonus (+20%)\nThis small crustacean seems\nlike the perfect bait for\na certain predator."
   },
   "Petrified Sap": {
     "location": "The Wolfswood",
@@ -55071,7 +55280,7 @@
     }
   },
   "Seeker's Sextant II": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Uncommon",
     "name": "Seeker's Sextant II",
@@ -55086,7 +55295,7 @@
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
   "Seeker's Sextant V": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Rare",
     "name": "Seeker's Sextant V",
@@ -55094,17 +55303,17 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
+      "feather_falling": 2,
       "fire_protection": 1,
       "gills": 1,
       "material": 1,
-      "feather_falling": 2,
       "speed_percent": 10,
       "knockback_resistance_flat": 1
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
   "Seeker's Sextant IV": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Rare",
     "name": "Seeker's Sextant IV",
@@ -55112,17 +55321,17 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
+      "feather_falling": 1,
       "fire_protection": 1,
       "gills": 1,
       "material": 1,
-      "feather_falling": 1,
       "speed_percent": 9,
       "knockback_resistance_flat": 1
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
   "Seeker's Sextant I": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Uncommon",
     "name": "Seeker's Sextant I",
@@ -55136,7 +55345,7 @@
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
   "Corroded True North": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Legacy",
     "name": "Corroded True North",
@@ -55144,10 +55353,10 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Corroded after all its Experience\nTalk with Marcus Pollo for a refund."
+    "lore": "Corroded due to its Experience.\nTalk with Marcus Pollo for a refund."
   },
   "Seeker's Sextant VIII": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Artifact",
     "name": "Seeker's Sextant VIII",
@@ -55155,19 +55364,19 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "regeneration": 1,
-      "fire_protection": 2,
       "darksight": 1,
+      "feather_falling": 2,
+      "fire_protection": 2,
       "gills": 1,
       "material": 1,
-      "feather_falling": 2,
+      "regeneration": 1,
       "speed_percent": 13,
       "knockback_resistance_flat": 2
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
   "Seeker's Sextant IX": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Legacy",
     "name": "Seeker's Sextant IX",
@@ -55178,7 +55387,7 @@
     "lore": "Perhaps this is enough\nto reach True North?"
   },
   "Seeker's Sextant III": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Uncommon",
     "name": "Seeker's Sextant III",
@@ -55194,7 +55403,7 @@
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
   "Seeker's Sextant VII": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Artifact",
     "name": "Seeker's Sextant VII",
@@ -55202,18 +55411,18 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "fire_protection": 2,
       "darksight": 1,
+      "feather_falling": 2,
+      "fire_protection": 2,
       "gills": 1,
       "material": 1,
-      "feather_falling": 2,
       "speed_percent": 12,
       "knockback_resistance_flat": 2
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
   "Seeker's Sextant VI": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Rare",
     "name": "Seeker's Sextant VI",
@@ -55221,18 +55430,18 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "fire_protection": 1,
       "darksight": 1,
+      "feather_falling": 2,
+      "fire_protection": 1,
       "gills": 1,
       "material": 1,
-      "feather_falling": 2,
       "speed_percent": 11,
       "knockback_resistance_flat": 1
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
   "True North": {
-    "location": "King's Valley",
+    "location": "True North",
     "region": "Valley",
     "tier": "Epic",
     "name": "True North",
@@ -55265,8 +55474,8 @@
     "lore": "It changes constantly between\nliquid and solid states."
   },
   "Pioneer's Pelorus VIII": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Artifact",
     "name": "Pioneer's Pelorus VIII",
     "base_item": "Compass",
@@ -55286,8 +55495,8 @@
     "lore": "Wrestled from the bridge\nof a derelict frigate."
   },
   "Pioneer's Pelorus V": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Rare",
     "name": "Pioneer's Pelorus V",
     "base_item": "Compass",
@@ -55307,8 +55516,8 @@
     "lore": "Wrestled from the bridge\nof a derelict frigate."
   },
   "Pioneer's Pelorus IX": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Artifact",
     "name": "Pioneer's Pelorus IX",
     "base_item": "Compass",
@@ -55328,8 +55537,8 @@
     "lore": "Wrestled from the bridge\nof a derelict frigate."
   },
   "Pioneer's Pelorus VII": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Artifact",
     "name": "Pioneer's Pelorus VII",
     "base_item": "Compass",
@@ -55349,8 +55558,8 @@
     "lore": "Wrestled from the bridge\nof a derelict frigate."
   },
   "Rusted Truer North": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Legacy",
     "name": "Rusted Truer North",
     "base_item": "Compass",
@@ -55360,8 +55569,8 @@
     "lore": "Worn down with use.\nTalk with Lady Edmond for a refund."
   },
   "Pioneer's Pelorus II": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Uncommon",
     "name": "Pioneer's Pelorus II",
     "base_item": "Compass",
@@ -55378,8 +55587,8 @@
     "lore": "Wrestled from the bridge\nof a derelict frigate."
   },
   "Pioneer's Pelorus III": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Uncommon",
     "name": "Pioneer's Pelorus III",
     "base_item": "Compass",
@@ -55408,8 +55617,8 @@
     "lore": "Corroded after all its Experience\nTalk with Lady Edmond for a refund."
   },
   "Pioneer's Pelorus IV": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Rare",
     "name": "Pioneer's Pelorus IV",
     "base_item": "Compass",
@@ -55428,8 +55637,8 @@
     "lore": "Wrestled from the bridge\nof a derelict frigate."
   },
   "Pioneer's Pelorus VI": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Rare",
     "name": "Pioneer's Pelorus VI",
     "base_item": "Compass",
@@ -55449,8 +55658,8 @@
     "lore": "Wrestled from the bridge\nof a derelict frigate."
   },
   "Truer North": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Epic",
     "name": "Truer North",
     "base_item": "Compass",
@@ -55469,8 +55678,8 @@
     "lore": "My journey is always to the\nplace I have never been."
   },
   "Pioneer's Pelorus I": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Uncommon",
     "name": "Pioneer's Pelorus I",
     "base_item": "Compass",
@@ -58207,34 +58416,6 @@
     "stats": {},
     "lore": "\"Strange fruit, flitting in and out of\nexistence, keep appearing on the willows\naround me. In their wake, are monstrosities.\""
   },
-  "Regenerative Spores": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Regenerative Spores",
-    "power": 1,
-    "base_item": "Wheat Seeds",
-    "release_status": "public",
-    "stats": {
-      "regeneration_healing_percent": 10
-    },
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
-  "Flawless Spores": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Flawless Spores",
-    "power": 2,
-    "base_item": "Wheat Seeds",
-    "release_status": "public",
-    "stats": {
-      "regeneration_healing_percent": 25
-    },
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
   "Thunderous Plate": {
     "location": "Pelias' Keep",
     "region": "Ring",
@@ -58678,7 +58859,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Pious Prism",
-    "power": 4,
+    "power": 3,
     "base_item": "Light Blue Stained Glass",
     "release_status": "public",
     "stats": {
@@ -58726,7 +58907,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Automatic Distillery",
-    "power": 4,
+    "power": 3,
     "base_item": "Cauldron",
     "release_status": "public",
     "stats": {
@@ -59137,8 +59318,8 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "divine_justice_damage_percent": 10,
-      "sanctified_armor_damage_percent": 10,
+      "sanctified_armor_damage_percent": 15,
+      "divine_justice_damage_percent": 15,
       "divine_justice_self_heal_percent": 15,
       "divine_justice_ally_heal_percent": 15
     },
@@ -59646,7 +59827,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The ascendant Emperor, Pelias Silvari, stood\ntriumphant in the newly excavated citadel\ndeep below the earth. Central to the cavern,\nwithered and ancient, was a tree, from which a\nsilvery aura grew. Reverently he approached\nit, hand outstretched, ready to take on the\nmantle he believed Uriddan once commanded.\nInstead, as soon as his palm touched the bark,\nthere was a cacophanous noise as the energy\nof thousands of Antium citizens cried out\nas one. The barrier rejected Pelias' lineage.\nThe barrier rejected Pelias' empire. Instead,\nthey all vanished, becoming one with the Machine."
+    "lore": "The ascendant Emperor, Pelias Silvari, stood\ntriumphant in the newly excavated citadel\ndeep below the earth. Central to the cavern,\nwithered and ancient, was a tree, from which a\nsilvery aura grew. Reverently he approached\nit, hand outstretched, ready to take on the\nmantle he believed Uriddan once commanded.\nInstead, as soon as his palm touched the bark,\nthere was a cacophonous noise as the energy\nof thousands of Antium citizens cried out\nas one. The barrier rejected Pelias' lineage.\nThe barrier rejected Pelias' empire. Instead,\nthey all vanished, becoming one with the Machine."
   },
   "Sedated Antidote Charm": {
     "location": "Architect's Ring",
@@ -60753,7 +60934,7 @@
     "base_item": "Target",
     "release_status": "public",
     "stats": {
-      "sharpshooter_stack_damage_percent": 0.4
+      "sharpshooter_stack_damage_percent": 0.5
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -60782,7 +60963,7 @@
     "base_item": "Target",
     "release_status": "public",
     "stats": {
-      "sharpshooter_stack_damage_percent": 0.875,
+      "sharpshooter_stack_damage_percent": 1,
       "sharpshooter_max_stacks_flat": 1
     },
     "type": "Charm",
@@ -60797,7 +60978,7 @@
     "base_item": "Target",
     "release_status": "public",
     "stats": {
-      "sharpshooter_stack_damage_percent": 0.875
+      "sharpshooter_stack_damage_percent": 1
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -60869,7 +61050,7 @@
     "base_item": "White Dye",
     "release_status": "public",
     "stats": {
-      "swift_cuts_damage_percent": 7
+      "swift_cuts_stack_damage_percent": 1
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -60883,7 +61064,7 @@
     "base_item": "White Dye",
     "release_status": "public",
     "stats": {
-      "swift_cuts_damage_percent": 15
+      "swift_cuts_stack_damage_percent": 2
     },
     "type": "Charm",
     "class_name": "Scout"
