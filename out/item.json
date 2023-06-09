@@ -515,7 +515,7 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "withering_gaze_damage_flat": 0.5
+      "withering_gaze_damage_flat": 1
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -1991,6 +1991,56 @@
     },
     "lore": "Serve. Protect. Ensure the will of the Crown,\nand sacrifice your needs for the betterment of our people."
   },
+  "Cowl of Dread": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Cowl of Dread",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "melee_protection": 1,
+      "reflexes": 1,
+      "agility": 3.5
+    },
+    "lore": "Whispers of those who have died still haunt\nthe edges of nightmares. Some remnant of the\nVeil? Or something else haunting beyond?"
+  },
+  "Eye of the Colossus": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Eye of the Colossus",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "magic_protection": 1,
+      "regicide": 1,
+      "agility": 7.5,
+      "max_health_flat": -2,
+      "speed_percent": 5
+    },
+    "lore": "The legion remained in solitude, but\nthey were dredged in war all the same."
+  },
+  "Malediction's Gaze": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Malediction's Gaze",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adaptability": 1,
+      "poise": 1,
+      "projectile_protection": 1,
+      "sustenance": 1,
+      "agility": 5.5,
+      "speed_percent": 10
+    },
+    "lore": "A luminescent gleam empowers your sight.\nNearby, you hear an ashen lament from\nthe mist beyond."
+  },
   "Azacor's Mask": {
     "location": "Azacor",
     "region": "Valley",
@@ -2572,6 +2622,22 @@
       "agility": 6
     },
     "lore": "A whisper of wind on my skin.\nThe taste of salt spray on my lips.\nThe final gasp as the final end comes.\nNever again. I have moved beyond mortal needs."
+  },
+  "Catharsis": {
+    "location": "Eternity Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Catharsis",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "curse_of_corruption": 1,
+      "ethereal": 1,
+      "agility": 6,
+      "magic_damage_percent": 20
+    },
+    "lore": "A message from beyond the Void.\nThere is no body left to leave.\nThere is no air left to breathe.\nOnce more, I have moved beyond mortal needs."
   },
   "Replica Lilac Wool": {
     "location": "TOV",
@@ -7222,6 +7288,22 @@
     },
     "lore": "Its brilliant starlight shines forth\nto guide foes to their destiny."
   },
+  "Replica Vedha's Broomstick": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Replica Vedha's Broomstick",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "unbreaking": 2,
+      "projectile_damage_base": 24,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 1
+    },
+    "lore": "Like the stirring of the elements, power\nrushes to our side."
+  },
   "Dendweller's Spear": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -7580,6 +7662,24 @@
     },
     "lore": "The waters of Celsian Ocean are home\nto all sorts of predators. One wouldn't\ndare to imagine what lurks in its\ndarkest depths."
   },
+  "Colossal Greatlance": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Colossal Greatlance",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "decay": 3,
+      "hex_eater": 1,
+      "riptide": 3,
+      "unbreakable": 1,
+      "attack_damage_base": 9,
+      "attack_speed_base": 1.1
+    },
+    "lore": "The golden age of titans would end here.\nWiped from this cataclysmic age for\nyears to come."
+  },
   "Soulblighter's Sacrifice": {
     "location": "Mythic Reliquary",
     "region": "Valley",
@@ -7866,6 +7966,26 @@
       "throw_rate_base": 1.2
     },
     "lore": "A lost spear - found buried deep below\nthe skin of a frozen Giant. Legend says\nit was given to an ancient King, by a\nGiant from beyond ice."
+  },
+  "Replica Ex Nihilo": {
+    "location": "Forum",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Replica Ex Nihilo",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "duelist": 2,
+      "two_handed": 1,
+      "unbreaking": 5,
+      "attack_damage_base": 28,
+      "attack_speed_base": 1.2,
+      "projectile_damage_base": 32,
+      "projectile_speed_base": 1,
+      "throw_rate_base": 1.2
+    },
+    "lore": "From nothing came colors to light the way.\nToo soon the path would be lost..."
   },
   "Iridescence": {
     "location": "Lime",
@@ -9125,6 +9245,8 @@
     "stats": {}
   },
   "Syrup": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Syrup",
     "effects": [
       {
@@ -9186,6 +9308,8 @@
     "stats": {}
   },
   "Yellow Potion": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Yellow Potion",
     "effects": [
       {
@@ -9200,6 +9324,8 @@
     "stats": {}
   },
   "Sea Gills": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Sea Gills",
     "effects": [
       {
@@ -9382,6 +9508,8 @@
     "stats": {}
   },
   "Red Potion": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Red Potion",
     "effects": [
       {
@@ -9439,6 +9567,8 @@
     "stats": {}
   },
   "Fast Forward": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Fast Forward",
     "effects": [
       {
@@ -9472,6 +9602,8 @@
     "stats": {}
   },
   "Blue Potion": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Blue Potion",
     "effects": [
       {
@@ -10749,6 +10881,8 @@
     "lore": "Imbued with the power of the depths,\nyou can sense a strange, bubbling\nbreathing issuing from the vial."
   },
   "Rose Wine": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Rose Wine",
     "effects": [
       {
@@ -10769,6 +10903,8 @@
     "lore": "A single rose petal floats\non top of the wine."
   },
   "Fever Buster": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Fever Buster",
     "effects": [
       {
@@ -10789,6 +10925,8 @@
     "lore": "You'll be so cold, even fire\nwill feel lukewarm."
   },
   "Enderpox": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Enderpox",
     "effects": [
       {
@@ -10819,6 +10957,8 @@
     "lore": "Perfect counter to Creeperpox.\nWarning: Results may vary."
   },
   "Hangover Cure": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Hangover Cure",
     "effects": [
       {
@@ -10863,6 +11003,8 @@
     "stats": {}
   },
   "The Ex-Wife": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "The Ex-Wife",
     "effects": [
       {
@@ -14352,7 +14494,7 @@
       "sniper": 3,
       "projectile_speed_base": 2,
       "throw_rate_base": 1.5,
-      "projectile_damage_base": 2
+      "projectile_damage_base": 2.5
     },
     "lore": "With the right amount of control, a\nsimple screwdriver can become an\nincredibly deadly weapon."
   },
@@ -14368,11 +14510,11 @@
     "stats": {
       "decay": 6,
       "infinity": 1,
-      "sniper": 3,
+      "sniper": 4,
       "projectile_speed_base": 2,
       "throw_rate_base": 1.5,
       "speed_percent": 5,
-      "projectile_damage_base": 2.5
+      "projectile_damage_base": 3
     },
     "lore": "With the right amount of control, a\nsimple screwdriver can become an\nincredibly deadly weapon."
   },
@@ -14466,6 +14608,19 @@
     },
     "lore": "An orb made of true ice, born of the cold.\nNo fire could melt it, nor hero so bold."
   },
+  "Permafrost Denarius": {
+    "location": "Eldrask",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Permafrost Denarius",
+    "base_item": "Snowball",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "infinity": 1
+    },
+    "lore": "An enormous coin, frosted by the\neternal winds of the Frost Giants.\nPerhaps the lands could be\nshaped once again."
+  },
   "Riptide Missile": {
     "location": "Isles Overworld",
     "region": "Isles",
@@ -14519,7 +14674,7 @@
     "lore": "For when sharpening the tips of your\ncandy canes is no longer enough."
   },
   "Thunderfox": {
-    "location": "The Wolfswood",
+    "location": "Challenger",
     "region": "Valley",
     "tier": "Artifact",
     "name": "Thunderfox",
@@ -14879,6 +15034,25 @@
     },
     "lore": "The Jungle's own wrath overcame\nthe power Cazol held over the Sons\nof the Forest. Exien's fervor became\nKaul's own fury."
   },
+  "Excalibur": {
+    "location": "Sketched",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Excalibur",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 2,
+      "fire_aspect": 1,
+      "knockback": 1,
+      "radiant": 1,
+      "unbreakable": 1,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.6
+    },
+    "lore": "A mighty sword, ripped free from stone."
+  },
   "Bouquet of Gold": {
     "location": "King's Valley",
     "region": "Valley",
@@ -15215,6 +15389,278 @@
     },
     "lore": "A blade so thin it slices reality's threads.\nCareless handling begets calamity."
   },
+  "Inflation XVIII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XVIII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXIX": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXIX",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXXI": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXXI",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation IV": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation IV",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation VIII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation VIII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation X": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation X",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXI": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXI",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXV": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXV",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XIV": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XIV",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation IX": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation IX",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XI": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XI",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XX": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XX",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXIV": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXIV",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XV": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XV",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XIX": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XIX",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXVIII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXVIII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
   "Inflation I": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -15230,7 +15676,262 @@
       "unbreakable": 1,
       "speed_percent": 18
     },
-    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade with Right Click to store it inside.\nWith an empty cursor, Right Click on the blade to extract a stack of HCS."
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXX": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXX",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation V": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation V",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XIII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XIII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXVI": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXVI",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XVII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XVII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation III": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation III",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Hyperinflation": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Hyperinflation",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation VII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation VII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation II": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation II",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation VI": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation VI",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXIII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXIII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XXVII": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XXVII",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
+  },
+  "Inflation XVI": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Inflation XVI",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 3,
+      "radiant": 1,
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "speed_percent": 18
+    },
+    "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nDrop a stack of HCS into the blade\nwith Right Click to store it inside.\nWith an empty cursor, Right Click on\nthe blade to extract a stack of HCS."
   },
   "Lumie": {
     "location": "Isles Overworld",
@@ -15355,6 +16056,24 @@
       "attack_damage_percent": 20,
       "speed_percent": 15
     }
+  },
+  "Blade of the Lost": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Blade of the Lost",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "melee_protection": 1,
+      "mending": 1,
+      "quake": 2,
+      "two_handed": 1,
+      "attack_damage_base": 9,
+      "attack_speed_base": 1.8
+    },
+    "lore": "A snide weapon, etched with clashes of\nwould-be heroes. With no rider to wield it,\nanother scourge will take his mantle."
   },
   "Kingslayer": {
     "location": "Reverie",
@@ -17260,6 +17979,24 @@
     },
     "lore": "As the remnants of the Tlaxan stood upon\nEkah's realm, they gazed outwards at\nthe majesty of the jungle, which has\nlong since abandoned them."
   },
+  "Dreadful Crusher": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Dreadful Crusher",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "abyssal": 2,
+      "curse_of_corruption": 1,
+      "efficiency": 3,
+      "unbreaking": 5,
+      "attack_damage_base": 13.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "The mist recedes. Soon you shall too."
+  },
   "Tkaa of C'Axtal": {
     "location": "Reverie",
     "region": "Valley",
@@ -17386,6 +18123,23 @@
       "material": 1
     },
     "lore": "Given to you by a lost soul,\ncould be cleansed and restored yet."
+  },
+  "Bonecarver": {
+    "location": "Remorseful Skin",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Bonecarver",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 1,
+      "smite": 3,
+      "unbreaking": 4,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Ashen flames swirl through the\nhalls. There is no power in this\ncurse-ridden city."
   },
   "Basaltic Battleaxe": {
     "location": "Celsian Isles",
@@ -22382,6 +23136,25 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Tenebra": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Tenebra",
+    "base_item": "Golden Axe",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "duelist": 2,
+      "magic_protection": 2,
+      "smite": 2,
+      "unbreaking": 35,
+      "attack_speed_base": 1,
+      "attack_damage_base": 13,
+      "spell_power_base": 55
+    },
+    "lore": "All memory loses itself to parting ages.\nSlowly, their grip on the mind fades,\nand they become lost forever."
   },
   "Memoria Ancestrale-3": {
     "location": "SKT",
@@ -27741,6 +28514,23 @@
     },
     "lore": "A relic of The Architect being here is an\nalarming find. What could have brought this\nhere - and why was it needed?"
   },
+  "Bonebender": {
+    "location": "Remorseful Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Bonebender",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "duelist": 2,
+      "unbreaking": 3,
+      "armor": 3,
+      "attack_damage_base": 11,
+      "attack_speed_base": 1.6
+    },
+    "lore": "There must be a way to reshape the bones.\nThe magic within longs to be shaped anew."
+  },
   "Shadowdancer Talisman": {
     "location": "Depths",
     "region": "Isles",
@@ -29242,6 +30032,22 @@
       "knockback_resistance_flat": 4
     }
   },
+  "Dreadful Shield": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Dreadful Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "ethereal": 1,
+      "unbreaking": 3,
+      "agility": 4.5,
+      "attack_speed_flat": 0.1
+    },
+    "lore": "Small shrouds of mist slowly gather\nwithin the shield's crevices, giving it\na wicked aura."
+  },
   "Etke of C'Axtal": {
     "location": "Reverie",
     "region": "Valley",
@@ -30000,7 +30806,7 @@
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "unstable_amalgam_damage_percent": 30,
+      "unstable_amalgam_damage_percent": 35,
       "unstable_amalgam_knockback_speed_percent": 10
     },
     "type": "Charm",
@@ -31787,14 +32593,14 @@
     "name": "Strong Potion of Protection",
     "effects": [
       {
-        "EffectDuration": 100,
-        "EffectStrength": 0.1,
-        "EffectType": "Resistance"
-      },
-      {
         "EffectDuration": 1800,
         "EffectStrength": 0.4,
         "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
       }
     ],
     "base_item": "Splash Potion",
@@ -33386,6 +34192,24 @@
       "mending": 1,
       "armor": 3
     }
+  },
+  "Colossal Chestplate": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Colossal Chestplate",
+    "base_item": "Golden Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "feather_falling": 1,
+      "unbreaking": 7,
+      "projectile_damage_percent": 20,
+      "projectile_speed_percent": 10,
+      "speed_percent": 15,
+      "agility": 6
+    },
+    "lore": "Across centuries, power will beckon."
   },
   "King's Warden": {
     "location": "Royal Armory",
@@ -35146,6 +35970,23 @@
       "projectile_speed_base": 1
     }
   },
+  "Colossal Greatbow": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Colossal Greatbow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "ice_aspect": 2,
+      "point_blank": 8,
+      "unbreaking": 2,
+      "projectile_damage_base": 14,
+      "projectile_speed_base": 0.6
+    },
+    "lore": "When their strength was understood,\nthey began to grow. Centuries. Aeons.\nA forever legion."
+  },
   "Omenspeaker": {
     "location": "Mythic Reliquary",
     "region": "Valley",
@@ -36298,6 +37139,23 @@
       "attack_speed_base": 2
     },
     "lore": "The heat of the Jungle is nothing compared\nto the molten caverns below."
+  },
+  "Dreadful Harvester": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Dreadful Harvester",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "life_drain": 1,
+      "slayer": 1,
+      "unbreaking": 3,
+      "attack_damage_base": 10,
+      "attack_speed_base": 0.9
+    },
+    "lore": "Even when wielded by power not felt,\nthe accursed sickle still leaves\ndisaster in its wake."
   },
   "Harvestman's Scythe": {
     "location": "Azacor",
@@ -38717,7 +39575,7 @@
     "base_item": "Bone",
     "release_status": "public",
     "stats": {
-      "skirmisher_damage_multiplier_percent": 6,
+      "skirmisher_damage_multiplier_percent": 7,
       "skirmisher_damage_radius_percent": 25
     },
     "type": "Charm",
@@ -39059,6 +39917,17 @@
       "spell_power_base": 60
     },
     "lore": "Even the dead fall to Winter's wrath."
+  },
+  "Ethereal Rib": {
+    "location": "Delves",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Ethereal Rib",
+    "base_item": "Bone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Blue mist and ash radiate from the accursed\nobject, perhaps beckoning power to twist\nand deform."
   },
   "Rusted Adamantium Skin (legs)": {
     "location": "Lowtide Smuggler",
@@ -41499,8 +42368,8 @@
     "lore": "Steam radiates from the\nstaff, soothing ones who\nbelong to the order."
   },
   "Paintbrush": {
-    "location": "Sketched",
-    "region": "Valley",
+    "location": "Challenger",
+    "region": "Isles",
     "tier": "Artifact",
     "name": "Paintbrush",
     "base_item": "Stick",
@@ -43349,52 +44218,70 @@
     "lore": "Where Silver lost and nature thrives,\na City falling in the skies;\nWhere foretold dreams and stars collide,\nThere's my domain - where Star Point lies."
   },
   "Roguelike F1S2 Error Chest": {
+    "location": "Corridors",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Roguelike F1S2 Error Chest",
     "base_item": "Paper",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Haunted Halls,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
   },
   "Roguelike F3S2 Error Chest": {
+    "location": "Corridors",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Roguelike F3S2 Error Chest",
     "base_item": "Paper",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Searing Sands,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
   },
   "Roguelike F2S1 Error Chest": {
+    "location": "Corridors",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Roguelike F2S1 Error Chest",
     "base_item": "Paper",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Sunken Temple,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
   },
   "Roguelike F3S1 Error Chest": {
+    "location": "Corridors",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Roguelike F3S1 Error Chest",
     "base_item": "Paper",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Volcanic Panic,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
   },
   "Roguelike F1S1 Error Chest": {
+    "location": "Corridors",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Roguelike F1S1 Error Chest",
     "base_item": "Paper",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Arachnid Caves,\nand all I got was this piece of paper!\nPlease submit a bug report."
   },
   "Roguelike F2S2 Error Chest": {
+    "location": "Corridors",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Roguelike F2S2 Error Chest",
     "base_item": "Paper",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Frozen Catacombs,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
   },
   "Thicker Than Blood Scraps": {
     "name": "Thicker Than Blood Scraps",
@@ -43686,6 +44573,14 @@
     "stats": {},
     "lore": "Harvested directly from the source.\nNai would like to see this.\n* Quest Item *\n#Q52I02"
   },
+  "Dark Amber": {
+    "name": "Dark Amber",
+    "base_item": "Orange Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Material\n* Quest Item *\n#Q07I01"
+  },
   "Mysterious Medicine": {
     "name": "Mysterious Medicine",
     "base_item": "Orange Dye",
@@ -43695,14 +44590,6 @@
       "mending": 1
     },
     "lore": "* Quest Item *\n#Q07I04"
-  },
-  "Dark Amber": {
-    "name": "Dark Amber",
-    "base_item": "Orange Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Material\n* Quest Item *\n#Q07I01"
   },
   "Orange Crystal Essence": {
     "name": "Orange Crystal Essence",
@@ -46402,6 +47289,59 @@
     },
     "lore": "The sky itself raged, breaking their\nhopes for peace and prosperity. And\nfrom the shattered ruins, a tainted\nblight bloomed."
   },
+  "Spectral Crossbow": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Spectral Crossbow",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "quick_charge": 2,
+      "regicide": 1,
+      "unbreaking": 4,
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 18
+    },
+    "lore": "What value is there in reality when nothing\nneeds to follow those rules?"
+  },
+  "Colossal Crossbow": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Colossal Crossbow",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "infinity": 1,
+      "recoil": 5,
+      "unbreakable": 1,
+      "projectile_damage_base": 26,
+      "projectile_speed_base": 3
+    },
+    "lore": "Power is granted to those who deserve it,\nnot those who seek paths to walk.\nMake your own way and earn it."
+  },
+  "Dreadful Ballista": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Dreadful Ballista",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "fire_aspect": 1,
+      "multishot": 1,
+      "point_blank": 2,
+      "quick_charge": 3,
+      "unbreaking": 5,
+      "projectile_damage_base": 6,
+      "projectile_speed_base": 1
+    },
+    "lore": "Wicked glyphs are carved into the blasphemous\nartillery, luring prey to their dreadful demise."
+  },
   "Agni's Rage": {
     "location": "King's Valley",
     "region": "Valley",
@@ -48877,6 +49817,21 @@
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Dreadful Chestplate": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Dreadful Chestplate",
+    "base_item": "Netherite Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreakable": 1,
+      "agility": 6.5,
+      "attack_damage_percent": 30
+    },
+    "lore": "There is no stillness left in rest. Voices echo,\nsomething deeper than you can venture."
+  },
   "Midat Boots": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -49882,6 +50837,27 @@
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Dreadful Boots": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Dreadful Boots",
+    "base_item": "Netherite Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 3,
+      "curse_of_anemia": 2,
+      "fire_protection": 3,
+      "magic_protection": 3,
+      "projectile_protection": 3,
+      "unbreakable": 1,
+      "armor": 11,
+      "max_health_flat": -4,
+      "speed_percent": 10
+    },
+    "lore": "A dreadful haze falls over you as the\ntwisted figure approaches... Run."
+  },
   "Hardest Hat-2": {
     "location": "Brown",
     "masterwork": "2",
@@ -50059,6 +51035,23 @@
       "attack_damage_percent": 50
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Dreadful Leggings": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Dreadful Leggings",
+    "base_item": "Netherite Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "unbreakable": 1,
+      "agility": 6,
+      "attack_damage_percent": 40,
+      "attack_speed_percent": 10,
+      "speed_percent": 10
+    },
+    "lore": "Beg the universe as you sleep. Do not let\ntheir eyes fall upon you."
   },
   "Roots of Influence-2": {
     "location": "Godspore",
@@ -50524,7 +51517,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Its experience-infused latice accepts\nendless Crystalline Shards, in addition\nto the currencies of the Valley.\nRight Click while in inventory to open.\nRight Click an item on the cluster to store it.\nPress f to deposit all your currency."
+    "lore": "Its experience-infused lattice accepts\nendless Crystalline Shards, in addition\nto the currencies of the Valley.\nRight Click while in inventory to open.\nRight Click an item on the cluster to store it.\nPress f to deposit all your currency."
   },
   "Sparkling Pebble": {
     "name": "Sparkling Pebble",
@@ -50922,6 +51915,24 @@
     "type": "Misc",
     "stats": {},
     "lore": "A fragment of reality\nfashioned into a weapon,\nheld together by the faintest\ntrace of lifeblood.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Replica Etrexa": {
+    "location": "Depths",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Replica Etrexa",
+    "base_item": "Netherite Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "arcane_thrust": 3,
+      "sweeping_edge": 3,
+      "unbreakable": 1,
+      "attack_damage_base": 11,
+      "attack_speed_base": 1.8,
+      "speed_percent": 10
+    },
+    "lore": "Blades flex and tense at your touch.\nThe mechanisms within sob quietly in the breeze."
   },
   "Etrexa": {
     "location": "Depths",
@@ -52063,6 +53074,17 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
+  },
+  "Colossus Core": {
+    "location": "Delves",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Colossus Core",
+    "base_item": "Nautilus Shell",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The core resonates with titans' power,\nperhaps enough power to force a\nchange for eons to come."
   },
   "Spymaster 9001": {
     "name": "Spymaster 9001",
@@ -54547,7 +55569,7 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Coven Vial",
-    "power": 3,
+    "power": 4,
     "base_item": "Dragon Breath",
     "release_status": "public",
     "stats": {
@@ -54562,7 +55584,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Bottled Infinity",
-    "power": 2,
+    "power": 1,
     "base_item": "Dragon Breath",
     "release_status": "public",
     "stats": {
@@ -54709,7 +55731,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Empowered Charm of Self",
-    "power": 2,
+    "power": 1,
     "base_item": "Dragon Breath",
     "release_status": "public",
     "stats": {
@@ -54920,6 +55942,24 @@
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Replica C'thedrros": {
+    "location": "Depths",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Replica C'thedrros",
+    "base_item": "Netherite Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "ice_aspect": 3,
+      "quake": 1,
+      "shielding": 1,
+      "unbreakable": 1,
+      "attack_damage_base": 20,
+      "attack_speed_base": 0.6
+    },
+    "lore": "It wants more.\nMore than what you can offer.\nIt wants everything."
+  },
   "C'thedrros": {
     "location": "Depths",
     "region": "Isles",
@@ -54972,6 +56012,26 @@
       "attack_damage_base": 14
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Replica Yxojh'zha": {
+    "location": "Depths",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Replica Yxojh'zha",
+    "base_item": "Netherite Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "ashes_of_eternity": 1,
+      "hex_eater": 1,
+      "life_drain": 1,
+      "regeneration": 1,
+      "unbreakable": 1,
+      "attack_damage_base": 10.5,
+      "attack_speed_base": 1.5,
+      "magic_damage_percent": 5
+    },
+    "lore": "The secrets of the void have at last been\ntold. Now you hold their power."
   },
   "Yxojh'zha": {
     "location": "Depths",
@@ -55191,6 +56251,17 @@
       "armor": 5
     },
     "lore": "The razor's edge of Ixume's own arrows.\nThey will tear through flesh."
+  },
+  "Abyssal Amulet": {
+    "location": "Depths",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Abyssal Amulet",
+    "base_item": "Flint",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Tainted by her power, it is no longer\nof this world. Use its strength.\nChange their form."
   },
   "Obsidian Shard": {
     "name": "Obsidian Shard",
@@ -56882,6 +57953,25 @@
     "stats": {},
     "lore": "Grants access to:\nThe Eternal Vigil"
   },
+  "Replica Actypoh": {
+    "location": "Depths",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Replica Actypoh",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "curse_of_corruption": 1,
+      "decay": 2,
+      "ice_aspect": 2,
+      "knockback": 1,
+      "attack_damage_base": 4.5,
+      "spell_power_base": 45,
+      "knockback_resistance_flat": 2
+    },
+    "lore": "Perhaps once again this mechanism can be used\nto stave off the forces from the Beyond."
+  },
   "Actypoh": {
     "location": "Depths",
     "region": "Isles",
@@ -57278,6 +58368,28 @@
       "spell_power_base": 35
     },
     "lore": "Even now the staff calls to the spirits.\nEven now they call back."
+  },
+  "Shaman's Crusher": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Shaman's Crusher",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 5,
+      "mending": 1,
+      "quake": 2,
+      "regeneration": 2,
+      "two_handed": 1,
+      "unbreaking": 2,
+      "knockback_resistance_flat": 6,
+      "attack_damage_base": 25,
+      "attack_speed_base": 0.8,
+      "armor": 2
+    },
+    "lore": "Even in betrayal, the Soulspeaker feared not\nthe price of his failure. Rather, he feared the\noutlash of the Jungle's wrath on his people."
   },
   "Novice's Battleaxe": {
     "location": "King's Valley",
@@ -58134,10 +59246,11 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Heretical Ore",
-    "power": 1,
+    "power": 3,
     "base_item": "Netherite Scrap",
     "release_status": "public",
     "stats": {
+      "scorched_earth_cooldown_percent": -20,
       "scorched_earth_charge_flat": 1,
       "scorched_earth_duration_percent": -50
     },
@@ -60912,7 +62025,7 @@
     "base_item": "Soul Sand",
     "release_status": "public",
     "stats": {
-      "dark_pact_melee_damage_percent": 7
+      "dark_pact_melee_damage_percent": 5
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -62287,6 +63400,17 @@
     },
     "lore": "Little sparks of flame dance\non the surface."
   },
+  "Heart of Dread": {
+    "location": "Delves",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Heart of Dread",
+    "base_item": "Charcoal",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Something even more wicked brews within\nthis dark heart. This evil, you could use\nfor something else..."
+  },
   "Sacred Herb Burner": {
     "location": "King's Valley",
     "region": "Valley",
@@ -63449,6 +64573,34 @@
     "type": "Misc",
     "stats": {}
   },
+  "Challenger's Emblem": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Challenger's Emblem",
+    "base_item": "Raw Gold",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A weighted medallion, one that proves\nyou worthy as a challenger."
+  },
+  "Spectral Scythe": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Spectral Scythe",
+    "base_item": "Diamond Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "ice_aspect": 3,
+      "shielding": 1,
+      "unbreakable": 1,
+      "attack_damage_base": 21,
+      "attack_speed_base": 0.7
+    },
+    "lore": "Each spectral swing carves a path through\neternity, a needless blow to form."
+  },
   "Nightmare Fuel": {
     "location": "Reverie",
     "region": "Valley",
@@ -63695,6 +64847,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "An ancient shard with magical powers, used to perform\na magical spell that would pull anyone from a nightmare...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D5 Key 2-2 *"
+  },
+  "Eternity Gem": {
+    "location": "Hekawt",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Eternity Gem",
+    "base_item": "End Crystal",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The gem sparkles and warps with the\npower of the Void. Perhaps you can\nuse it to warp an item's form."
   },
   "Loofah": {
     "location": "King's Valley",
