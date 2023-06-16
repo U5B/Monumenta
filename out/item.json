@@ -781,7 +781,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A reward for completing\na King's Bounty."
+    "lore": "Epic Crafting Ingredient\nA reward for completing\na King's Bounty."
   },
   "Sunlit Charm": {
     "location": "Celsian Isles",
@@ -2006,6 +2006,83 @@
     },
     "lore": "Whispers of those who have died still haunt\nthe edges of nightmares. Some remnant of the\nVeil? Or something else haunting beyond?"
   },
+  "Otherworldly Plushie": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Otherworldly Plushie",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Artist Plushie #3\nA wooden replica of an otherworldly creature.\nThe scarf seems to be glued on.\nSpecial Artist Plushie - Collect Them All!"
+  },
+  "Fedora Cat Plushie": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Fedora Cat Plushie",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Artist Plushie #4\nThere are small stains of liqour around the\ncat's snout. Wonder how those got there.\nSpecial Artist Plushie - Collect Them All!"
+  },
+  "Grape Plushie": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Grape Plushie",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Artist Plushie #2\nAt first glance, it seems to be a relic of a\nforgotten era. Unfortunately, it's just a grape.\nSpecial Artist Plushie - Collect Them All!"
+  },
+  "Companion Plushie": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Companion Plushie",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Artist Plushie #5\nEverything we've been through - you are not alone now\nthat you've found me, Mystori. Our story is to be continued.\nSpecial Artist Plushie - Collect Them All!"
+  },
+  "Withering Plushie": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Withering Plushie",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Artist Plushie #6\nCherish your beloved.\nSpecial Artist Plushie - Collect Them All!"
+  },
+  "Directional Plushie": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Directional Plushie",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Artist Plushie #11\nIts pockets seem to be lined with\nan ungodly amount of wood shavings.\nSpecial Artist Plushie - Collect Them All!"
+  },
+  "Cat Plushie": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Cat Plushie",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Artist Plushie #0\nA cat plushie. It's kinda bland.\nSpecial Artist Plushie - Collect Them All!"
+  },
   "Eye of the Colossus": {
     "location": "Challenger",
     "region": "Valley",
@@ -2253,6 +2330,17 @@
       "thorns_flat": 2
     },
     "lore": "Every age, it seems, is tainted\nby the greed of men."
+  },
+  "Salmon Hexing Barrel": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Salmon Hexing Barrel",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"There’s nothing easier than hexing\na fish in a barrel.\" - A saying that's\nspread around the Coven of the Ring\nfor generations. It's not actually true\nthough, as it's notoriously difficult to\nhex a fish you can't see. Such tough coven\nteachings leave many scars of battle on\nthe poor barrels of the Wolfswood."
   },
   "Replica Teal Wool": {
     "location": "Teal",
@@ -10631,6 +10719,26 @@
     },
     "lore": "What's the deal with Prets?"
   },
+  "Bottled Gale": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Bottled Gale",
+    "effects": [
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 0.5,
+        "EffectType": "Slow"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {
+      "infinity": 1
+    },
+    "lore": "A northern wind whips across the\nfloating sky islands. Now sealed in\nthis bottle, it is cool to the touch."
+  },
   "Cactus Water": {
     "name": "Cactus Water",
     "effects": [
@@ -14518,11 +14626,11 @@
     },
     "lore": "With the right amount of control, a\nsimple screwdriver can become an\nincredibly deadly weapon."
   },
-  "Orb of Harrakafar": {
+  "Orb of Harrakfar": {
     "location": "Blue",
     "region": "Ring",
     "tier": "Key",
-    "name": "Orb of Harrakafar",
+    "name": "Orb of Harrakfar",
     "base_item": "Snowball",
     "release_status": "public",
     "type": "Snowball",
@@ -23525,7 +23633,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A replica of the Crimson Wielder."
+    "lore": "A replica of the Crimson Conqueror."
   },
   "Xeno, Shattered Scallawag Dummy": {
     "location": "Delves",
@@ -30929,7 +31037,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Worth 100 tickets, good going!"
+    "lore": "Epic Crafting Ingredient\nWorth 100 tickets, good going!"
   },
   "Insanity's Edge": {
     "location": "Cyan",
@@ -31969,23 +32077,6 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
-  },
-  "Pestilence Vial": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Pestilence Vial",
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "alchemical_utensil": 1,
-      "decay": 2,
-      "potion_damage_flat": 3,
-      "potion_radius_flat": 3,
-      "projectile_speed_base": 1.2
-    },
-    "lore": "A black ooze bubbles and churms within the\ntinted glass. A simple cork is all that separates\nyou from the deadly plague within."
   },
   "Soulleather Bag": {
     "location": "White",
@@ -39702,6 +39793,17 @@
     },
     "lore": "Its owner was never laid to rest."
   },
+  "Bone Fish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Bone Fish",
+    "base_item": "Bone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "This peculiar fish seems to\nbe long dead, but its bones\nmake a nice rattle noise."
+  },
   "Dog Bone": {
     "name": "Dog Bone",
     "base_item": "Bone",
@@ -44226,7 +44328,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "I opened a chest in Haunted Halls,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Haunted Halls,\nand all I got was this piece of paper!"
   },
   "Roguelike F3S2 Error Chest": {
     "location": "Corridors",
@@ -44237,7 +44339,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "I opened a chest in Searing Sands,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Searing Sands,\nand all I got was this piece of paper!"
   },
   "Roguelike F2S1 Error Chest": {
     "location": "Corridors",
@@ -44248,7 +44350,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "I opened a chest in Sunken Temple,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Sunken Temple,\nand all I got was this piece of paper!"
   },
   "Roguelike F3S1 Error Chest": {
     "location": "Corridors",
@@ -44259,7 +44361,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "I opened a chest in Volcanic Panic,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Volcanic Panic,\nand all I got was this piece of paper!"
   },
   "Roguelike F1S1 Error Chest": {
     "location": "Corridors",
@@ -44270,7 +44372,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "I opened a chest in Arachnid Caves,\nand all I got was this piece of paper!\nPlease submit a bug report."
+    "lore": "I opened a chest in Arachnid Caves,\nand all I got was this piece of paper!"
   },
   "Roguelike F2S2 Error Chest": {
     "location": "Corridors",
@@ -44281,7 +44383,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "I opened a chest in Frozen Catacombs,\nand all I got was this piece of paper!\nThis room's loot did not generate right.\nPlease submit a bug report."
+    "lore": "I opened a chest in Frozen Catacombs,\nand all I got was this piece of paper!"
   },
   "Thicker Than Blood Scraps": {
     "name": "Thicker Than Blood Scraps",
@@ -48357,7 +48459,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Redeemable for fabulous prizes!"
+    "lore": "Epic Crafting Ingredient\nRedeemable for fabulous prizes!"
   },
   "Ancient Grimoire": {
     "name": "Ancient Grimoire",
@@ -51825,7 +51927,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Used in crafting Celsian Isles Delve Epics."
+    "lore": "Epic Crafting Ingredient"
   },
   "Mythic Dust": {
     "location": "Delves",
@@ -51836,7 +51938,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Used in crafting King's Valley Delve Epics."
+    "lore": "Epic Crafting Ingredient"
   },
   "Ex Nihil": {
     "name": "Ex Nihil",
@@ -53111,7 +53213,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A reward for completing a\ndaily bounty in the Celsian Isles."
+    "lore": "Epic Crafting Ingredient\nA reward for completing a\ndaily bounty in the Celsian Isles."
   },
   "Experience Stash": {
     "location": "Architect's Ring",
@@ -54067,6 +54169,19 @@
     "type": "Misc",
     "stats": {},
     "lore": "Combat Bait (+5%)\nSpecialty Bait (-10%)\nWell prepared bait fish by an expert,\nmay attract dangers out in the wild."
+  },
+  "Golden Miserable Mungfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Golden Miserable Mungfish",
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "infinity": 1
+    },
+    "lore": "A small fish with golden scales.\nWhile looking at it, you can hear a voice\nin your head saying \"Oh, the Misery\"..."
   },
   "Brown-Carp": {
     "name": "Brown-Carp",
@@ -58111,8 +58226,7 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "choleric_flames_inferno_cap_flat": 3,
-      "choleric_flames_enhancement_radius_percent": 50
+      "choleric_flames_enhancement_radius_percent": 100
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -60542,7 +60656,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Energy collected from the souls of\nthe Dissonant Realm's inhabitants.\nWorth 100 Dissonant Energy."
+    "lore": "Epic Crafting Ingredient\nEnergy collected from the souls of\nthe Dissonant Realm's inhabitants.\nWorth 100 Dissonant Energy."
   },
   "Darkest Dreamstone": {
     "location": "Reverie",
