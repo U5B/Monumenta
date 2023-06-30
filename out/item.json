@@ -3416,6 +3416,831 @@
     },
     "lore": "Infused by the righteous might of a\nPaladin, this sigil begs for a weapon."
   },
+  "Sketched Threadwarped Tkaa": {
+    "location": "Sketched",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Sketched Threadwarped Tkaa",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "life_drain": 1,
+      "quake": 1,
+      "unbreaking": 4,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10
+    },
+    "lore": "With the Argone still sealed away, a Tlaxan\nscout instead ventured West. The voice of\na new God echoed from the ocean sky, causing\nthe weapon to be consumed by another blight."
+  },
+  "Restorative Hammer": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Restorative Hammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Creepah's Fury": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Creepah's Fury",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Inferno Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Inferno Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Cutter": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Cutter",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Warhammer": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Warhammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Masterwork Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Masterwork Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chef's Cleaver": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Chef's Cleaver",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Spiritspark Flint-2": {
+    "location": "White",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Spiritspark Flint",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 4,
+      "regeneration": 1,
+      "smite": 3,
+      "unbreaking": 11,
+      "attack_speed_base": 0.6,
+      "attack_damage_base": 21
+    },
+    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
+  },
+  "Spiritspark Flint-3": {
+    "location": "White",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Spiritspark Flint",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 5,
+      "regeneration": 1,
+      "smite": 4,
+      "unbreaking": 12,
+      "attack_speed_base": 0.6,
+      "attack_damage_base": 21
+    },
+    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
+  },
+  "Spiritspark Flint-1": {
+    "location": "White",
+    "masterwork": "1",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Spiritspark Flint",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 4,
+      "regeneration": 1,
+      "smite": 3,
+      "unbreaking": 10,
+      "attack_speed_base": 0.6,
+      "attack_damage_base": 20
+    },
+    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
+  },
+  "Hammer of Legacy-1": {
+    "location": "Pelias' Keep",
+    "masterwork": "1",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hammer of Legacy",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "duelist": 2,
+      "unbreaking": 10,
+      "attack_damage_base": 23,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Passed on through millennia, the ancient\nhammer still evokes the might of\nthe Silver Knights."
+  },
+  "Hammer of Legacy-0": {
+    "location": "Pelias' Keep",
+    "masterwork": "0",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hammer of Legacy",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "duelist": 2,
+      "unbreaking": 10,
+      "attack_damage_base": 22.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Passed on through millennia, the ancient\nhammer still evokes the might of\nthe Silver Knights."
+  },
+  "Hammer of Legacy-2": {
+    "location": "Pelias' Keep",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hammer of Legacy",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "duelist": 2,
+      "unbreaking": 10,
+      "attack_damage_base": 23.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Passed on through millennia, the ancient\nhammer still evokes the might of\nthe Silver Knights."
+  },
+  "Hammer of Legacy-3": {
+    "location": "Pelias' Keep",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hammer of Legacy",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "duelist": 2,
+      "unbreaking": 12,
+      "attack_damage_base": 24,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Passed on through millennia, the ancient\nhammer still evokes the might of\nthe Silver Knights."
+  },
+  "Silver Knight's Hammer": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Silver Knight's Hammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "mending": 1,
+      "smite": 2,
+      "attack_damage_base": 9.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "A mighty weapon of heroes past."
+  },
+  "Scalawag's Hatchet": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Scalawag's Hatchet",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "abyssal": 1,
+      "unbreaking": 1,
+      "efficiency": 1,
+      "attack_damage_base": 9.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "\"Why the obssession with 'argh'? What's\nwrong with the other letters?\""
+  },
+  "Advanced Stone Axe": {
+    "location": "Arena of Terth",
+    "region": "Valley",
+    "name": "Advanced Stone Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 4,
+      "attack_damage_base": 10,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Acrid Wrath": {
+    "location": "Light Blue",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Acrid Wrath",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "magic_protection": 1,
+      "fire_aspect": 2,
+      "knockback": 2,
+      "mending": 1,
+      "attack_damage_base": 11,
+      "attack_speed_base": 1
+    },
+    "lore": "Certainly, it can melt the flesh. But\ncould our alchemy and our rage melt\nthe walls of this prison?"
+  },
+  "Corrupted Scalawag's Hatchet": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Corrupted Scalawag's Hatchet",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "curse_of_corruption": 1,
+      "abyssal": 2,
+      "unbreaking": 5,
+      "efficiency": 3,
+      "attack_damage_base": 13.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "The sea boils. Soon you shall too."
+  },
+  "Soulcrusher": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Soulcrusher",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 4,
+      "attack_damage_base": 12,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Crush the body, crush the soul, crush\nthe life that makes them whole."
+  },
+  "Threadwarped Tkaa": {
+    "location": "Verdant",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Threadwarped Tkaa",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "life_drain": 1,
+      "quake": 1,
+      "unbreaking": 4,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10
+    },
+    "lore": "Something about this Tlaxan weapon\ncauses the hair on the back of your\nneck to stand up. It is no longer\nof this world."
+  },
+  "The Ravager": {
+    "location": "Orange",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "The Ravager",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "knockback": 2,
+      "unbreaking": 4,
+      "attack_damage_base": 10,
+      "attack_speed_base": 1
+    },
+    "lore": "There is nothing more fierce\nthan a Jaguar enraged."
+  },
+  "Lunatic's Respite": {
+    "location": "Ephemeral Enhancements",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Lunatic's Respite",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 2,
+      "knockback": 3,
+      "unbreaking": 4,
+      "attack_damage_base": 11,
+      "attack_speed_base": 1
+    },
+    "lore": "A spark of humanity gleams in the Beastman's\neye. The only respite for the Lunatics comes\nfrom beyond this world."
+  },
+  "Heavy Warhammer": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Heavy Warhammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Spiritspark Flint": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Spiritspark Flint",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 1,
+      "smite": 3,
+      "unbreaking": 4,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
+  },
+  "Velara Crusher": {
+    "location": "Valley Casino",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Velara Crusher",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "knockback": 1,
+      "unbreaking": 4,
+      "speed_percent": -8,
+      "attack_damage_base": 15,
+      "attack_speed_base": 0.6
+    },
+    "lore": "Destroy the opposition. None must\nsurvive. No matter what, this mockery\nof Velara shall fall."
+  },
+  "Divine Cleaver": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Divine Cleaver",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "smite": 2,
+      "unbreaking": 1,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Battle Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Battle Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 4,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10
+    }
+  },
+  "Blessed Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Blessed Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 4,
+      "efficiency": 3,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Crushing Mace": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Crushing Mace",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "smite": 1,
+      "unbreaking": 3,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10.5
+    }
+  },
+  "Phoenix Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Phoenix Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 4,
+      "fire_aspect": 3,
+      "knockback": 1,
+      "attack_damage_base": 9.5,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Soulhammer": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Soulhammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "mending": 1,
+      "knockback": 1,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10
+    }
+  },
+  "Woodsman's Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Woodsman's Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 2,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Jagged Cleaver": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Jagged Cleaver",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 1,
+      "attack_damage_base": 10,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Jaguartooth Cleaver": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Jaguartooth Cleaver",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 3,
+      "speed_percent": 12,
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 8.5
+    },
+    "lore": "As the remnants of the Tlaxan stood upon\nEkah's realm, they gazed outwards at\nthe majesty of the jungle, which has\nlong since abandoned them."
+  },
+  "Dreadful Crusher": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Dreadful Crusher",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "abyssal": 2,
+      "curse_of_corruption": 1,
+      "efficiency": 3,
+      "unbreaking": 5,
+      "attack_damage_base": 13.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "The mist recedes. Soon you shall too."
+  },
+  "Tkaa of C'Axtal": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Tkaa of C'Axtal",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10
+    },
+    "lore": "I clutched my Tkaa in my hands, prepared\nto fight whatever emerged. For my people.\nAll I had done was for them. I could not\nstop now. We were so close to freedom."
+  },
+  "Divine Scalawag's Hatchet": {
+    "location": "Divine Skin",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Divine Scalawag's Hatchet",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "curse_of_corruption": 1,
+      "abyssal": 2,
+      "unbreaking": 5,
+      "divine_aura": 1,
+      "efficiency": 3,
+      "attack_damage_base": 13.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "The adventurers gazed out across\nthe endless ocean. Their next\nadventure awaits."
+  },
+  "Archeologist's Hammer": {
+    "location": "Isles Casino",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Archeologist's Hammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "duelist": 3,
+      "unbreaking": 7,
+      "attack_damage_base": 18,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Impeccable precision is required when\nunearthing ancient artifacts. Typical\ntools cannot break through the True Ice\nbeneath the tundra however."
+  },
+  "Slipstrike": {
+    "location": "Shifting",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Slipstrike",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "abyssal": 1,
+      "melee_protection": 2,
+      "mending": 1,
+      "adrenaline": 2,
+      "attack_damage_base": 16,
+      "attack_speed_base": 1
+    },
+    "lore": "No light escapes the pitch black stone.\nEach swing tears the world around you."
+  },
+  "Hurricane Halberd": {
+    "location": "Purple",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Hurricane Halberd",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "thunder_aspect": 2,
+      "knockback": 1,
+      "unbreaking": 7,
+      "attack_damage_base": 19,
+      "attack_speed_base": 0.8
+    },
+    "lore": "The wrath of the elements behind\nits every strike."
+  },
+  "Erebus": {
+    "location": "Gray",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Erebus",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "life_drain": 1,
+      "smite": 3,
+      "unbreaking": 7,
+      "attack_damage_base": 15.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Behind the veil, there\nis only darkness."
+  },
+  "Saving Grace": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Saving Grace",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Just needs a Frodian touch..."
+  },
+  "Accursed Axe": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Accursed Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Given to you by a lost soul,\ncould be cleansed and restored yet."
+  },
+  "Bonecarver": {
+    "location": "Remorseful Skin",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Bonecarver",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 1,
+      "smite": 3,
+      "unbreaking": 4,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Ashen flames swirl through the\nhalls. There is no power in this\ncurse-ridden city."
+  },
+  "Basaltic Battleaxe": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 2",
+    "name": "Basaltic Battleaxe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 4,
+      "fire_aspect": 2,
+      "knockback": 2,
+      "attack_damage_base": 11,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Slayer's Maul": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 2",
+    "name": "Slayer's Maul",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "slayer": 3,
+      "unbreaking": 5,
+      "knockback": 1,
+      "attack_damage_base": 10,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Chitincrush": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 3",
+    "name": "Chitincrush",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "slayer": 2,
+      "unbreaking": 4,
+      "ice_aspect": 1,
+      "attack_damage_base": 12,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Arachnope Axe": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 1",
+    "name": "Arachnope Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "slayer": 3,
+      "unbreaking": 4,
+      "attack_damage_base": 10,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Coldfire Axe": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 1",
+    "name": "Coldfire Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 4,
+      "fire_aspect": 1,
+      "ice_aspect": 1,
+      "attack_damage_base": 10.5,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Inevitable Truth": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 1",
+    "name": "Inevitable Truth",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "smite": 3,
+      "unbreaking": 4,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Monsters' Bane": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 4",
+    "name": "Monsters' Bane",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "slayer": 3,
+      "unbreaking": 5,
+      "attack_damage_base": 13,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Blazing Hammer": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 3",
+    "name": "Blazing Hammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "smite": 3,
+      "unbreaking": 4,
+      "fire_aspect": 1,
+      "knockback": 2,
+      "attack_damage_base": 10,
+      "attack_speed_base": 0.8
+    }
+  },
   "Ekah's Anger": {
     "location": "Seasonal Pass",
     "region": "Valley",
@@ -10563,7 +11388,7 @@
     "stats": {
       "infinity": 1
     },
-    "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends it's death."
+    "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends its death."
   },
   "Potion of Masterful Agility": {
     "name": "Potion of Masterful Agility",
@@ -15492,8 +16317,8 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "weightless": 1,
-      "unbreakable": 1
+      "unbreakable": 1,
+      "weightless": 1
     },
     "lore": "A blade so thin it slices reality's threads.\nCareless handling begets calamity."
   },
@@ -17549,831 +18374,6 @@
       "attack_speed_base": 0.9
     },
     "lore": "Ambition. Greed. Power. All cut short\nby the Pharaohs' word. All snuffed out\nby the headsman's swing."
-  },
-  "Sketched Threadwarped Tkaa": {
-    "location": "Sketched",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Sketched Threadwarped Tkaa",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "life_drain": 1,
-      "quake": 1,
-      "unbreaking": 4,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10
-    },
-    "lore": "With the Argone still sealed away, a Tlaxan\nscout instead ventured West. The voice of\na new God echoed from the ocean sky, causing\nthe weapon to be consumed by another blight."
-  },
-  "Restorative Hammer": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Restorative Hammer",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Creepah's Fury": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Creepah's Fury",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Inferno Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Inferno Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Cutter": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Cutter",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Warhammer": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Warhammer",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Masterwork Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Masterwork Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Chef's Cleaver": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Chef's Cleaver",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Spiritspark Flint-2": {
-    "location": "White",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Spiritspark Flint",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "fire_aspect": 4,
-      "regeneration": 1,
-      "smite": 3,
-      "unbreaking": 11,
-      "attack_speed_base": 0.6,
-      "attack_damage_base": 21
-    },
-    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
-  },
-  "Spiritspark Flint-3": {
-    "location": "White",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Spiritspark Flint",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "fire_aspect": 5,
-      "regeneration": 1,
-      "smite": 4,
-      "unbreaking": 12,
-      "attack_speed_base": 0.6,
-      "attack_damage_base": 21
-    },
-    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
-  },
-  "Spiritspark Flint-1": {
-    "location": "White",
-    "masterwork": "1",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Spiritspark Flint",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "fire_aspect": 4,
-      "regeneration": 1,
-      "smite": 3,
-      "unbreaking": 10,
-      "attack_speed_base": 0.6,
-      "attack_damage_base": 20
-    },
-    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
-  },
-  "Hammer of Legacy-1": {
-    "location": "Pelias' Keep",
-    "masterwork": "1",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Hammer of Legacy",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "duelist": 2,
-      "unbreaking": 10,
-      "attack_damage_base": 23,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Passed on through millennia, the ancient\nhammer still evokes the might of\nthe Silver Knights."
-  },
-  "Hammer of Legacy-0": {
-    "location": "Pelias' Keep",
-    "masterwork": "0",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Hammer of Legacy",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "duelist": 2,
-      "unbreaking": 10,
-      "attack_damage_base": 22.5,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Passed on through millennia, the ancient\nhammer still evokes the might of\nthe Silver Knights."
-  },
-  "Hammer of Legacy-2": {
-    "location": "Pelias' Keep",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Hammer of Legacy",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "duelist": 2,
-      "unbreaking": 10,
-      "attack_damage_base": 23.5,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Passed on through millennia, the ancient\nhammer still evokes the might of\nthe Silver Knights."
-  },
-  "Hammer of Legacy-3": {
-    "location": "Pelias' Keep",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Hammer of Legacy",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "duelist": 2,
-      "unbreaking": 12,
-      "attack_damage_base": 24,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Passed on through millennia, the ancient\nhammer still evokes the might of\nthe Silver Knights."
-  },
-  "Silver Knight's Hammer": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Unique",
-    "name": "Silver Knight's Hammer",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "mending": 1,
-      "smite": 2,
-      "attack_damage_base": 9.5,
-      "attack_speed_base": 0.8
-    },
-    "lore": "A mighty weapon of heroes past."
-  },
-  "Scalawag's Hatchet": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Unique",
-    "name": "Scalawag's Hatchet",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "abyssal": 1,
-      "unbreaking": 1,
-      "efficiency": 1,
-      "attack_damage_base": 9.5,
-      "attack_speed_base": 0.8
-    },
-    "lore": "\"Why the obssession with 'argh'? What's\nwrong with the other letters?\""
-  },
-  "Advanced Stone Axe": {
-    "location": "Arena of Terth",
-    "region": "Valley",
-    "name": "Advanced Stone Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "attack_damage_base": 10,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Acrid Wrath": {
-    "location": "Light Blue",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Acrid Wrath",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "magic_protection": 1,
-      "fire_aspect": 2,
-      "knockback": 2,
-      "mending": 1,
-      "attack_damage_base": 11,
-      "attack_speed_base": 1
-    },
-    "lore": "Certainly, it can melt the flesh. But\ncould our alchemy and our rage melt\nthe walls of this prison?"
-  },
-  "Corrupted Scalawag's Hatchet": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Corrupted Scalawag's Hatchet",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "curse_of_corruption": 1,
-      "abyssal": 2,
-      "unbreaking": 5,
-      "efficiency": 3,
-      "attack_damage_base": 13.5,
-      "attack_speed_base": 0.8
-    },
-    "lore": "The sea boils. Soon you shall too."
-  },
-  "Soulcrusher": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Soulcrusher",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "attack_damage_base": 12,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Crush the body, crush the soul, crush\nthe life that makes them whole."
-  },
-  "Threadwarped Tkaa": {
-    "location": "Verdant",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Threadwarped Tkaa",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "life_drain": 1,
-      "quake": 1,
-      "unbreaking": 4,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10
-    },
-    "lore": "Something about this Tlaxan weapon\ncauses the hair on the back of your\nneck to stand up. It is no longer\nof this world."
-  },
-  "The Ravager": {
-    "location": "Orange",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "The Ravager",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "knockback": 2,
-      "unbreaking": 4,
-      "attack_damage_base": 10,
-      "attack_speed_base": 1
-    },
-    "lore": "There is nothing more fierce\nthan a Jaguar enraged."
-  },
-  "Lunatic's Respite": {
-    "location": "Ephemeral Enhancements",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Lunatic's Respite",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "fire_aspect": 2,
-      "knockback": 3,
-      "unbreaking": 4,
-      "attack_damage_base": 11,
-      "attack_speed_base": 1
-    },
-    "lore": "A spark of humanity gleams in the Beastman's\neye. The only respite for the Lunatics comes\nfrom beyond this world."
-  },
-  "Heavy Warhammer": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Heavy Warhammer",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Spiritspark Flint": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Spiritspark Flint",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "fire_aspect": 1,
-      "smite": 3,
-      "unbreaking": 4,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
-  },
-  "Velara Crusher": {
-    "location": "Valley Casino",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Velara Crusher",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "knockback": 1,
-      "unbreaking": 4,
-      "speed_percent": -8,
-      "attack_damage_base": 15,
-      "attack_speed_base": 0.6
-    },
-    "lore": "Destroy the opposition. None must\nsurvive. No matter what, this mockery\nof Velara shall fall."
-  },
-  "Divine Cleaver": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Divine Cleaver",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "smite": 2,
-      "unbreaking": 1,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Battle Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Battle Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10
-    }
-  },
-  "Blessed Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Blessed Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "efficiency": 3,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Crushing Mace": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Crushing Mace",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "smite": 1,
-      "unbreaking": 3,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10.5
-    }
-  },
-  "Phoenix Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Phoenix Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "fire_aspect": 3,
-      "knockback": 1,
-      "attack_damage_base": 9.5,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Soulhammer": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Soulhammer",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "mending": 1,
-      "knockback": 1,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10
-    }
-  },
-  "Woodsman's Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Woodsman's Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "efficiency": 2,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Jagged Cleaver": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Jagged Cleaver",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 1,
-      "attack_damage_base": 10,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Jaguartooth Cleaver": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Jaguartooth Cleaver",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 3,
-      "speed_percent": 12,
-      "attack_speed_base": 1.2,
-      "attack_damage_base": 8.5
-    },
-    "lore": "As the remnants of the Tlaxan stood upon\nEkah's realm, they gazed outwards at\nthe majesty of the jungle, which has\nlong since abandoned them."
-  },
-  "Dreadful Crusher": {
-    "location": "Challenger",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Dreadful Crusher",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "abyssal": 2,
-      "curse_of_corruption": 1,
-      "efficiency": 3,
-      "unbreaking": 5,
-      "attack_damage_base": 13.5,
-      "attack_speed_base": 0.8
-    },
-    "lore": "The mist recedes. Soon you shall too."
-  },
-  "Tkaa of C'Axtal": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Tkaa of C'Axtal",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10
-    },
-    "lore": "I clutched my Tkaa in my hands, prepared\nto fight whatever emerged. For my people.\nAll I had done was for them. I could not\nstop now. We were so close to freedom."
-  },
-  "Divine Scalawag's Hatchet": {
-    "location": "Divine Skin",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Divine Scalawag's Hatchet",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "curse_of_corruption": 1,
-      "abyssal": 2,
-      "unbreaking": 5,
-      "divine_aura": 1,
-      "efficiency": 3,
-      "attack_damage_base": 13.5,
-      "attack_speed_base": 0.8
-    },
-    "lore": "The adventurers gazed out across\nthe endless ocean. Their next\nadventure awaits."
-  },
-  "Archeologist's Hammer": {
-    "location": "Isles Casino",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Archeologist's Hammer",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "duelist": 3,
-      "unbreaking": 7,
-      "attack_damage_base": 18,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Impeccable precision is required when\nunearthing ancient artifacts. Typical\ntools cannot break through the True Ice\nbeneath the tundra however."
-  },
-  "Slipstrike": {
-    "location": "Shifting",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Slipstrike",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "abyssal": 1,
-      "melee_protection": 2,
-      "mending": 1,
-      "adrenaline": 2,
-      "attack_damage_base": 16,
-      "attack_speed_base": 1
-    },
-    "lore": "No light escapes the pitch black stone.\nEach swing tears the world around you."
-  },
-  "Hurricane Halberd": {
-    "location": "Purple",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Hurricane Halberd",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "thunder_aspect": 2,
-      "knockback": 1,
-      "unbreaking": 7,
-      "attack_damage_base": 19,
-      "attack_speed_base": 0.8
-    },
-    "lore": "The wrath of the elements behind\nits every strike."
-  },
-  "Erebus": {
-    "location": "Gray",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Erebus",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "life_drain": 1,
-      "smite": 3,
-      "unbreaking": 7,
-      "attack_damage_base": 15.5,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Behind the veil, there\nis only darkness."
-  },
-  "Saving Grace": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Saving Grace",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Just needs a Frodian touch..."
-  },
-  "Accursed Axe": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Accursed Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Given to you by a lost soul,\ncould be cleansed and restored yet."
-  },
-  "Bonecarver": {
-    "location": "Remorseful Skin",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Bonecarver",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "fire_aspect": 1,
-      "smite": 3,
-      "unbreaking": 4,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Ashen flames swirl through the\nhalls. There is no power in this\ncurse-ridden city."
-  },
-  "Basaltic Battleaxe": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 2",
-    "name": "Basaltic Battleaxe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "fire_aspect": 2,
-      "knockback": 2,
-      "attack_damage_base": 11,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Slayer's Maul": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 2",
-    "name": "Slayer's Maul",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "slayer": 3,
-      "unbreaking": 5,
-      "knockback": 1,
-      "attack_damage_base": 10,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Chitincrush": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 3",
-    "name": "Chitincrush",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "slayer": 2,
-      "unbreaking": 4,
-      "ice_aspect": 1,
-      "attack_damage_base": 12,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Arachnope Axe": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 1",
-    "name": "Arachnope Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "slayer": 3,
-      "unbreaking": 4,
-      "attack_damage_base": 10,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Coldfire Axe": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 1",
-    "name": "Coldfire Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "fire_aspect": 1,
-      "ice_aspect": 1,
-      "attack_damage_base": 10.5,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Inevitable Truth": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 1",
-    "name": "Inevitable Truth",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "smite": 3,
-      "unbreaking": 4,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Monsters' Bane": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 4",
-    "name": "Monsters' Bane",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "slayer": 3,
-      "unbreaking": 5,
-      "attack_damage_base": 13,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Blazing Hammer": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 3",
-    "name": "Blazing Hammer",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "smite": 3,
-      "unbreaking": 4,
-      "fire_aspect": 1,
-      "knockback": 2,
-      "attack_damage_base": 10,
-      "attack_speed_base": 0.8
-    }
   },
   "Sketched Perfect Crystallizer": {
     "location": "Sketched",
@@ -23180,6 +23180,14 @@
       "worldly_protection": 3
     },
     "lore": "Rather than an eldritch disc infected\nby Faimynyw, Annilys has become the\nTeal Tesseract, powered by time itself.\nRight Click to enter Stasis.\nCooldown : 6m"
+  },
+  "Sunken Holotape": {
+    "name": "Sunken Holotape",
+    "base_item": "Music Disc 11",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It is a true miracle that this voice record\nremained intact in the depths of the ocean."
   },
   "Annilys": {
     "location": "Depths",
@@ -28509,10 +28517,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "unbreaking": 5,
-      "thunder_aspect": 2,
-      "fire_aspect": 2,
       "duelist": 3,
+      "fire_aspect": 2,
+      "thunder_aspect": 2,
+      "unbreaking": 5,
       "attack_damage_base": 9,
       "attack_speed_base": 1.6,
       "spell_power_base": 55
@@ -28581,9 +28589,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "fire_protection": 2,
       "slayer": 4,
       "unbreaking": 2,
-      "fire_protection": 2,
       "attack_damage_base": 7,
       "attack_speed_base": 1.6
     },
@@ -28598,9 +28606,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 2,
-      "melee_protection": 2,
       "duelist": 4,
+      "melee_protection": 2,
+      "unbreaking": 2,
       "attack_damage_base": 7,
       "attack_speed_base": 1.6
     },
@@ -32077,6 +32085,23 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Pestilence Vial": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Pestilence Vial",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "decay": 2,
+      "potion_damage_flat": 3,
+      "potion_radius_flat": 3,
+      "projectile_speed_base": 1.2
+    },
+    "lore": "A black ooze bubbles and churms within the\ntinted glass. A simple cork is all that separates\nyou from the deadly plague within."
   },
   "Soulleather Bag": {
     "location": "White",
@@ -57196,105 +57221,6 @@
     },
     "lore": "Sheer power."
   },
-  "Hycenea's Vinelash-0": {
-    "location": "Quest Reward",
-    "masterwork": "0",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Hycenea's Vinelash",
-    "base_item": "Slime Ball",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "magic_protection": 2,
-      "projectile_protection": 2,
-      "max_health_flat": 6,
-      "magic_damage_percent": 25
-    },
-    "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
-  },
-  "Hycenea's Vinelash-1": {
-    "location": "Quest Reward",
-    "masterwork": "1",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Hycenea's Vinelash",
-    "base_item": "Slime Ball",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "magic_protection": 3,
-      "projectile_protection": 2,
-      "max_health_flat": 6,
-      "magic_damage_percent": 25
-    },
-    "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
-  },
-  "Hycenea's Vinelash-3": {
-    "location": "Quest Reward",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Hycenea's Vinelash",
-    "base_item": "Slime Ball",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "magic_protection": 3,
-      "projectile_protection": 3,
-      "max_health_flat": 6,
-      "speed_percent": 5,
-      "magic_damage_percent": 30
-    },
-    "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
-  },
-  "Hycenea's Vinelash-2": {
-    "location": "Quest Reward",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Hycenea's Vinelash",
-    "base_item": "Slime Ball",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "magic_protection": 3,
-      "projectile_protection": 2,
-      "max_health_flat": 6,
-      "magic_damage_percent": 30
-    },
-    "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
-  },
-  "Arc-crystal": {
-    "name": "Arc-crystal",
-    "base_item": "Slime Ball",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Vinny's arc-crystal, for Cinevra.\nYou can feel the power sparking inside.\n* Quest Item *\n#Q55I02"
-  },
-  "Plagueroot Sap": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Plagueroot Sap",
-    "base_item": "Slime Ball",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
-  },
-  "Noxious Sludge": {
-    "location": "Lime",
-    "region": "Isles",
-    "tier": "Key",
-    "name": "Noxious Sludge",
-    "base_item": "Slime Ball",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A sticky substance secreted by amphibians.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D6 Key 2-3 *"
-  },
   "Reaper's Harvest-3": {
     "location": "Magenta",
     "masterwork": "3",
@@ -57539,6 +57465,105 @@
       "attack_damage_base": 10.5
     },
     "lore": "The power he desired could not come from\nthe might of a blade. No, Hekawt longed for\nso much more. He sought Eternity."
+  },
+  "Hycenea's Vinelash-0": {
+    "location": "Quest Reward",
+    "masterwork": "0",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hycenea's Vinelash",
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "max_health_flat": 6,
+      "magic_damage_percent": 25
+    },
+    "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
+  },
+  "Hycenea's Vinelash-1": {
+    "location": "Quest Reward",
+    "masterwork": "1",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hycenea's Vinelash",
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "magic_protection": 3,
+      "projectile_protection": 2,
+      "max_health_flat": 6,
+      "magic_damage_percent": 25
+    },
+    "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
+  },
+  "Hycenea's Vinelash-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hycenea's Vinelash",
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "magic_protection": 3,
+      "projectile_protection": 3,
+      "max_health_flat": 6,
+      "speed_percent": 5,
+      "magic_damage_percent": 30
+    },
+    "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
+  },
+  "Hycenea's Vinelash-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hycenea's Vinelash",
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "magic_protection": 3,
+      "projectile_protection": 2,
+      "max_health_flat": 6,
+      "magic_damage_percent": 30
+    },
+    "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
+  },
+  "Arc-crystal": {
+    "name": "Arc-crystal",
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Vinny's arc-crystal, for Cinevra.\nYou can feel the power sparking inside.\n* Quest Item *\n#Q55I02"
+  },
+  "Plagueroot Sap": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Plagueroot Sap",
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
+  },
+  "Noxious Sludge": {
+    "location": "Lime",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Noxious Sludge",
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A sticky substance secreted by amphibians.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D6 Key 2-3 *"
   },
   "Death's Echo-1": {
     "location": "Blue",
