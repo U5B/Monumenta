@@ -1,5 +1,8 @@
 {
   "Bone Shard": {
+    "location": "Soulwoven",
+    "region": "Valley",
+    "tier": "Currency",
     "name": "Bone Shard",
     "base_item": "Quartz",
     "release_status": "public",
@@ -521,6 +524,7 @@
     "class_name": "Warlock"
   },
   "Wilted Rose": {
+    "location": "Willows",
     "name": "Wilted Rose",
     "base_item": "Wither Rose",
     "release_status": "public",
@@ -1849,8 +1853,8 @@
     "stats": {
       "adaptability": 1,
       "max_health_flat": 2,
-      "attack_damage_percent": 5,
-      "agility": 3
+      "agility": 2.5,
+      "projectile_damage_percent": 10
     },
     "lore": "Cazol may be dead, but the damage he\nand his master have inflicted will stain\nthis fortress forever."
   },
@@ -2979,7 +2983,8 @@
     "stats": {
       "taboo_damage_modifier_percent": 10,
       "taboo_potion_recharge_rate_flat": 0.25,
-      "taboo_self_damage_percent": 50
+      "taboo_healing_penalty_percent": 50,
+      "taboo_absorption_penalty_percent": 50
     },
     "type": "Charm",
     "class_name": "Alchemist"
@@ -3159,7 +3164,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Guiding Moonlight",
-    "power": 5,
+    "power": 4,
     "base_item": "Nether Star",
     "release_status": "public",
     "stats": {
@@ -3416,6 +3421,26 @@
     },
     "lore": "Infused by the righteous might of a\nPaladin, this sigil begs for a weapon."
   },
+  "Ravenous Haze": {
+    "location": "Seasonal Pass",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Ravenous Haze",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "adrenaline": 2,
+      "curse_of_anemia": 1,
+      "life_drain": 2,
+      "mending": 1,
+      "unbreaking": 2,
+      "attack_damage_base": 17,
+      "speed_percent": -10,
+      "attack_speed_base": 0.9
+    },
+    "lore": "The weapon hungered, split between the realms\nof dissonance, only wielded by those who could\nsate its endless appetite. A velvet haze shrouded\nthe gateway, accompanied by a frenzied, tarnished\nlegion. Only an ageless existence awaited them.\nNothing more, nothing less."
+  },
   "Sketched Threadwarped Tkaa": {
     "location": "Sketched",
     "region": "Valley",
@@ -3427,7 +3452,7 @@
     "stats": {
       "life_drain": 1,
       "quake": 1,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "attack_speed_base": 0.8,
       "attack_damage_base": 10
     },
@@ -3654,8 +3679,8 @@
     "type": "Axe",
     "stats": {
       "abyssal": 1,
-      "unbreaking": 1,
       "efficiency": 1,
+      "unbreaking": 3,
       "attack_damage_base": 9.5,
       "attack_speed_base": 0.8
     },
@@ -3736,7 +3761,7 @@
     "stats": {
       "life_drain": 1,
       "quake": 1,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "attack_speed_base": 0.8,
       "attack_damage_base": 10
     },
@@ -3769,7 +3794,7 @@
     "stats": {
       "fire_aspect": 2,
       "knockback": 3,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "attack_damage_base": 11,
       "attack_speed_base": 1
     },
@@ -3829,7 +3854,7 @@
     "type": "Axe",
     "stats": {
       "smite": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 9,
       "attack_speed_base": 0.8
     }
@@ -3857,8 +3882,8 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 4,
       "efficiency": 3,
+      "unbreaking": 4,
       "attack_damage_base": 9,
       "attack_speed_base": 0.8
     }
@@ -3887,9 +3912,9 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 4,
       "fire_aspect": 3,
       "knockback": 1,
+      "unbreaking": 4,
       "attack_damage_base": 9.5,
       "attack_speed_base": 0.8
     }
@@ -3903,8 +3928,8 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "mending": 1,
       "knockback": 1,
+      "mending": 1,
       "attack_speed_base": 0.8,
       "attack_damage_base": 10
     }
@@ -3919,6 +3944,7 @@
     "type": "Axe",
     "stats": {
       "efficiency": 2,
+      "unbreaking": 1,
       "attack_damage_base": 9,
       "attack_speed_base": 0.8
     }
@@ -3932,7 +3958,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 10,
       "attack_speed_base": 0.8
     }
@@ -4254,7 +4280,7 @@
       "eruption": 2,
       "fire_aspect": 2,
       "inferno": 1,
-      "unbreaking": 3,
+      "unbreaking": 5,
       "speed_percent": 10
     },
     "lore": "The anger of the mountain rages deep\nbelow, only erupting long after the insult\nhas been forgotten."
@@ -4318,8 +4344,8 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 1,
       "efficiency": 1,
+      "unbreaking": 2,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
     }
@@ -4382,9 +4408,9 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 1,
-      "knockback": 2,
       "efficiency": 2,
+      "knockback": 2,
+      "unbreaking": 2,
       "speed_percent": 15,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
@@ -4400,8 +4426,8 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 1,
       "efficiency": 2,
+      "unbreaking": 2,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
     }
@@ -4429,8 +4455,8 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "mending": 1,
       "efficiency": 1,
+      "mending": 1,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
     }
@@ -4460,7 +4486,7 @@
     "type": "Pickaxe",
     "stats": {
       "fortune": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
     }
@@ -4474,7 +4500,7 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 5,
+      "unbreaking": 10,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
     }
@@ -4489,6 +4515,7 @@
     "type": "Pickaxe",
     "stats": {
       "fortune": 2,
+      "unbreaking": 1,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
     }
@@ -4605,7 +4632,7 @@
     "stats": {
       "efficiency": 1,
       "fortune": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
     }
@@ -4848,7 +4875,7 @@
       "fire_protection": 2,
       "magic_protection": 2,
       "projectile_protection": 2,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "magic_damage_percent": 10,
       "agility": 2
     },
@@ -5960,11 +5987,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "blast_protection": 2,
       "fire_protection": 2,
       "magic_protection": 2,
-      "unbreaking": 3,
-      "blast_protection": 2,
       "projectile_protection": 2,
+      "unbreaking": 4,
       "agility": 2,
       "magic_damage_percent": 5
     },
@@ -6027,7 +6054,7 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 2,
       "max_health_flat": 4
     },
@@ -6087,9 +6114,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "melee_protection": 3,
-      "unbreaking": 3,
       "blast_protection": 1,
+      "melee_protection": 3,
+      "unbreaking": 4,
       "max_health_flat": 2
     },
     "lore": "Now only the vermin will\nwitness his crimes."
@@ -6120,11 +6147,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "blast_protection": 2,
       "fire_protection": 2,
       "magic_protection": 2,
-      "unbreaking": 4,
-      "blast_protection": 2,
       "projectile_protection": 2,
+      "unbreaking": 5,
       "magic_damage_percent": 10,
       "agility": 2
     },
@@ -6155,7 +6182,7 @@
     "type": "Chestplate",
     "stats": {
       "reflexes": 1,
-      "unbreaking": 6,
+      "unbreaking": 5,
       "knockback_resistance_flat": 2,
       "agility": 5
     },
@@ -6170,8 +6197,8 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 3,
       "melee_protection": 2,
+      "unbreaking": 4,
       "armor": 4
     },
     "lore": "Something about this tunic seems\ndifferent from the rest. Words in\nlanguages never written are carved\ndeep into the leather."
@@ -6185,8 +6212,8 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 3,
       "melee_protection": 2,
+      "unbreaking": 4,
       "armor": 4
     },
     "lore": "What do they ever do besides\nhanging out?"
@@ -6266,6 +6293,7 @@
     "type": "Chestplate",
     "stats": {
       "melee_protection": 1,
+      "unbreaking": 1,
       "armor": 0.5
     }
   },
@@ -6293,7 +6321,7 @@
     "type": "Chestplate",
     "stats": {
       "fire_protection": 2,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "agility": 3,
       "attack_speed_percent": 8,
       "attack_damage_percent": 10
@@ -6320,7 +6348,7 @@
     "type": "Chestplate",
     "stats": {
       "projectile_protection": 1,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 2.5,
       "speed_percent": 10
     }
@@ -6335,7 +6363,7 @@
     "type": "Chestplate",
     "stats": {
       "feather_falling": 2,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 2.5
     }
   },
@@ -6349,8 +6377,8 @@
     "type": "Chestplate",
     "stats": {
       "feather_falling": 1,
-      "unbreaking": 2,
       "fire_protection": 7,
+      "unbreaking": 3,
       "agility": 1
     }
   },
@@ -6377,8 +6405,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "melee_protection": 2,
       "curse_of_vanishing": 1,
+      "melee_protection": 2,
+      "unbreaking": 3,
       "armor": 4
     }
   },
@@ -6391,9 +6420,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 1,
-      "respiration": 1,
       "depth_strider": 1,
+      "respiration": 1,
+      "unbreaking": 3,
       "agility": 3.5
     }
   },
@@ -6420,9 +6449,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "mending": 1,
-      "curse_of_vanishing": 1,
       "blast_protection": 1,
+      "curse_of_vanishing": 1,
+      "mending": 1,
       "armor": 4.5
     }
   },
@@ -6435,8 +6464,8 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 2,
+      "unbreaking": 5,
       "armor": 3,
       "max_health_flat": 1
     }
@@ -6450,8 +6479,8 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 1,
       "melee_protection": 2,
+      "unbreaking": 3,
       "armor": 2,
       "attack_damage_percent": 5
     }
@@ -6465,7 +6494,7 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 3,
       "speed_percent": 15,
       "attack_speed_percent": 10
@@ -6494,6 +6523,7 @@
     "type": "Chestplate",
     "stats": {
       "blast_protection": 1,
+      "unbreaking": 1,
       "armor": 0.5,
       "thorns_flat": 1
     }
@@ -6508,7 +6538,7 @@
     "type": "Chestplate",
     "stats": {
       "feather_falling": 2,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 2.5
     }
   },
@@ -6521,7 +6551,7 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 3
     }
   },
@@ -6535,7 +6565,7 @@
     "type": "Chestplate",
     "stats": {
       "respiration": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "armor": 2
     }
   },
@@ -6549,7 +6579,7 @@
     "type": "Chestplate",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 1
     }
   },
@@ -6563,7 +6593,7 @@
     "type": "Chestplate",
     "stats": {
       "blast_protection": 3,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "armor": 1.5
     }
   },
@@ -6576,8 +6606,8 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 1,
       "fire_protection": 2,
+      "unbreaking": 2,
       "armor": 1.5
     }
   },
@@ -7456,7 +7486,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 3,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     },
@@ -7489,13 +7519,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "unbreakable": 1,
-      "magic_protection": 1,
       "adaptability": 1,
-      "feather_falling": 1,
-      "melee_protection": 2,
-      "blast_protection": 1,
-      "attack_damage_percent": 20
+      "magic_protection": 2,
+      "melee_protection": 3,
+      "unbreakable": 1,
+      "attack_damage_percent": 25,
+      "max_health_flat": -2
     },
     "lore": "Carved from stone at the heart of the\nJaguar Tooth mountains, this dagger is\nto pierce the heart of any Elder who falls\nto the whisper of Gods."
   },
@@ -7557,7 +7586,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "smite": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     }
@@ -7571,7 +7600,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 4.5,
       "attack_speed_base": 1.6
     }
@@ -7615,7 +7644,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "sweeping_edge": 2,
-      "unbreaking": 2,
+      "unbreaking": 4,
       "speed_percent": 7.5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
@@ -7630,10 +7659,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "smite": 2,
-      "unbreaking": 2,
       "fire_aspect": 2,
       "knockback": 1,
+      "smite": 2,
+      "unbreaking": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 1.6
     }
@@ -7662,8 +7691,8 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "sweeping_edge": 3,
       "mending": 1,
+      "sweeping_edge": 3,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     }
@@ -7677,7 +7706,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 4,
       "attack_damage_base": 4,
       "attack_speed_base": 1.6
     }
@@ -7692,7 +7721,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "sweeping_edge": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 1.6
     }
@@ -7706,8 +7735,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "knockback": 1,
       "fire_aspect": 1,
+      "knockback": 1,
+      "unbreaking": 1,
       "attack_damage_base": 4,
       "attack_speed_base": 1.6
     }
@@ -7722,7 +7752,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "smite": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 1.6
     }
@@ -7749,8 +7779,8 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "slayer": 1,
       "mending": 1,
+      "slayer": 1,
       "attack_damage_base": 4.5,
       "attack_speed_base": 1.6
     }
@@ -7765,7 +7795,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "sweeping_edge": 3,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     }
@@ -7779,11 +7809,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 2,
       "fire_aspect": 3,
       "knockback": 2,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.6
+      "unbreaking": 3,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 4.5
     }
   },
   "Thief's Dagger": {
@@ -7795,10 +7825,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 1,
       "looting": 4,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.6
+      "unbreaking": 2,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 5.5
     }
   },
   "Tempered Ironwood Blade": {
@@ -7810,7 +7840,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 5,
+      "unbreaking": 10,
       "attack_damage_base": 4.5,
       "attack_speed_base": 1.6
     }
@@ -7824,9 +7854,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 2,
       "fire_aspect": 1,
       "sweeping_edge": 2,
+      "unbreaking": 3,
       "attack_damage_base": 4,
       "attack_speed_base": 1.6
     }
@@ -7841,7 +7871,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "smite": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "attack_damage_base": 4,
       "attack_speed_base": 1.6
     }
@@ -7856,7 +7886,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "slayer": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 1.6
     }
@@ -7947,7 +7977,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "sweeping_edge": 1,
-      "unbreaking": 6,
+      "unbreaking": 10,
       "attack_damage_base": 5.5,
       "attack_speed_base": 1.6
     }
@@ -8123,7 +8153,7 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 3,
       "projectile_speed_base": 0.7,
       "throw_rate_base": 1.5,
       "projectile_damage_base": 11
@@ -8161,7 +8191,7 @@
     "stats": {
       "knockback": 1,
       "smite": 3,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 8,
       "attack_speed_base": 1.1,
       "projectile_damage_base": 11,
@@ -8192,7 +8222,7 @@
     "stats": {
       "knockback": 1,
       "smite": 3,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 8,
       "attack_speed_base": 1.1,
       "projectile_damage_base": 11,
@@ -8520,7 +8550,7 @@
     "stats": {
       "fire_aspect": 1,
       "slayer": 4,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "throw_rate_base": 0.8,
       "projectile_speed_base": 0.8,
       "projectile_damage_base": 10
@@ -8568,7 +8598,7 @@
     "type": "Trident",
     "stats": {
       "abyssal": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "projectile_damage_base": 12,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.1
@@ -8622,7 +8652,7 @@
     "stats": {
       "knockback": 1,
       "smite": 3,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 8,
       "attack_speed_base": 1.1,
       "projectile_damage_base": 11,
@@ -12613,7 +12643,7 @@
     "type": "Leggings",
     "stats": {
       "feather_falling": 5,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "agility": 2.5,
       "speed_percent": 25
     },
@@ -13577,7 +13607,7 @@
     "type": "Leggings",
     "stats": {
       "fire_protection": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 3.5,
       "magic_damage_percent": 10
     },
@@ -13692,8 +13722,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 3,
       "reflexes": 1,
+      "unbreaking": 4,
       "agility": 3
     },
     "lore": "On the day the Temple was sealed,\ndozens of Tlaxans entered to fight back\nthe corrupted. None emerged before\nthe doors closed."
@@ -13788,7 +13818,7 @@
     "type": "Leggings",
     "stats": {
       "fire_protection": 3,
-      "unbreaking": 3,
+      "unbreaking": 5,
       "armor": 2.5,
       "attack_damage_percent": 15
     }
@@ -13820,7 +13850,7 @@
     "type": "Leggings",
     "stats": {
       "feather_falling": 5,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "agility": 2.5,
       "speed_percent": 25
     },
@@ -13835,9 +13865,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "fire_protection": 5,
-      "unbreaking": 3,
       "blast_protection": 5,
+      "fire_protection": 5,
+      "unbreaking": 4,
       "armor": 2.5
     },
     "lore": "On rare occasions, a hollow scream\nrings through the trees. With it comes\nscraps of fire and a monstrosity fueled\nonly by pain."
@@ -13852,7 +13882,7 @@
     "type": "Leggings",
     "stats": {
       "inure": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 4
     },
     "lore": "They are both there and not, a reminder\nthat the Veil is never persistent and the\ntruth can always be changed."
@@ -13867,7 +13897,7 @@
     "type": "Leggings",
     "stats": {
       "inure": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 4
     },
     "lore": "Found on the bottom floor."
@@ -13881,9 +13911,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "fire_protection": 5,
-      "unbreaking": 3,
       "blast_protection": 5,
+      "fire_protection": 5,
+      "unbreaking": 4,
       "armor": 2.5
     },
     "lore": "Caution: Highly Combustible!"
@@ -13899,7 +13929,7 @@
     "stats": {
       "fire_protection": 1,
       "tempo": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "agility": 4
     },
     "lore": "As Kaul's power consumed Hellshire,\nhe found himself reborn within\nflames eternal."
@@ -14020,7 +14050,7 @@
     "type": "Leggings",
     "stats": {
       "magic_protection": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 3,
       "max_health_flat": 2
     },
@@ -14065,8 +14095,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
       "fire_protection": 3,
+      "unbreaking": 3,
       "armor": 2,
       "attack_damage_percent": 15
     }
@@ -14081,7 +14111,7 @@
     "type": "Chestplate",
     "stats": {
       "projectile_protection": 1,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 3
     }
   },
@@ -14094,8 +14124,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
       "melee_protection": 1,
+      "unbreaking": 3,
       "agility": 3
     }
   },
@@ -14109,8 +14139,8 @@
     "type": "Leggings",
     "stats": {
       "feather_falling": 1,
-      "unbreaking": 2,
       "fire_protection": 7,
+      "unbreaking": 3,
       "agility": 1
     }
   },
@@ -14137,8 +14167,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "melee_protection": 2,
       "curse_of_vanishing": 1,
+      "melee_protection": 2,
+      "unbreaking": 3,
       "armor": 4
     }
   },
@@ -14151,9 +14182,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
-      "respiration": 1,
       "depth_strider": 1,
+      "respiration": 1,
+      "unbreaking": 3,
       "agility": 3.5
     }
   },
@@ -14181,7 +14212,7 @@
     "type": "Chestplate",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 2.5,
       "projectile_damage_percent": 5
     }
@@ -14196,7 +14227,7 @@
     "type": "Leggings",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 2.5,
       "projectile_damage_percent": 5
     }
@@ -14210,9 +14241,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "mending": 1,
-      "curse_of_vanishing": 1,
       "blast_protection": 1,
+      "curse_of_vanishing": 1,
+      "mending": 1,
       "armor": 4.5
     }
   },
@@ -14225,11 +14256,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 1,
       "blast_protection": 1,
-      "projectile_protection": 1,
       "magic_protection": 1,
-      "agility": 3.5
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "magic_damage_percent": 5,
+      "agility": 2.5
     }
   },
   "Viridian Mage Robes (legs)": {
@@ -14241,11 +14273,12 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
       "blast_protection": 1,
-      "projectile_protection": 1,
       "magic_protection": 1,
-      "agility": 3.5
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "magic_damage_percent": 5,
+      "agility": 2.5
     }
   },
   "Dualsun Robe": {
@@ -14257,8 +14290,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 2,
+      "unbreaking": 5,
       "armor": 3,
       "max_health_flat": 1
     }
@@ -14272,8 +14305,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
       "melee_protection": 2,
+      "unbreaking": 3,
       "armor": 2,
       "attack_damage_percent": 5
     }
@@ -14287,7 +14320,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 3,
       "speed_percent": 15,
       "attack_speed_percent": 10
@@ -14303,6 +14336,7 @@
     "type": "Leggings",
     "stats": {
       "melee_protection": 1,
+      "unbreaking": 1,
       "armor": 0.5
     }
   },
@@ -14316,6 +14350,7 @@
     "type": "Leggings",
     "stats": {
       "blast_protection": 1,
+      "unbreaking": 1,
       "armor": 0.5,
       "thorns_flat": 1
     }
@@ -14330,7 +14365,7 @@
     "type": "Leggings",
     "stats": {
       "feather_falling": 2,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 2.5
     }
   },
@@ -14343,7 +14378,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 3
     }
   },
@@ -14356,9 +14391,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 2,
       "magic_protection": 1,
+      "unbreaking": 4,
       "armor": 2
     }
   },
@@ -14371,9 +14406,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 2,
       "magic_protection": 1,
+      "unbreaking": 4,
       "armor": 2
     }
   },
@@ -14387,7 +14422,7 @@
     "type": "Leggings",
     "stats": {
       "respiration": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "armor": 2
     }
   },
@@ -14401,7 +14436,7 @@
     "type": "Leggings",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 1
     }
   },
@@ -14415,7 +14450,7 @@
     "type": "Leggings",
     "stats": {
       "blast_protection": 3,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "armor": 1.5
     }
   },
@@ -14429,7 +14464,7 @@
     "type": "Chestplate",
     "stats": {
       "projectile_protection": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 1.5
     }
   },
@@ -14442,8 +14477,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
       "melee_protection": 1,
+      "unbreaking": 2,
       "agility": 1.5
     }
   },
@@ -14456,8 +14491,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
       "fire_protection": 2,
+      "unbreaking": 2,
       "armor": 1.5
     }
   },
@@ -15599,8 +15634,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "knockback": 2,
-      "unbreaking": 7,
       "slayer": 4,
+      "unbreaking": 20,
       "attack_speed_base": 1.6,
       "attack_damage_base": 5
     },
@@ -15908,7 +15943,7 @@
     "stats": {
       "fire_aspect": 5,
       "knockback": 2,
-      "unbreaking": 10,
+      "unbreaking": 15,
       "attack_damage_base": 6,
       "attack_speed_base": 1.6
     }
@@ -15923,8 +15958,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "knockback": 2,
-      "unbreaking": 7,
       "slayer": 4,
+      "unbreaking": 20,
       "attack_speed_base": 1.6,
       "attack_damage_base": 5
     },
@@ -16027,9 +16062,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 2,
       "fire_aspect": 5,
       "knockback": 2,
+      "unbreaking": 5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     }
@@ -17036,7 +17071,7 @@
     "type": "Helmet",
     "stats": {
       "curse_of_corruption": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 3,
       "max_health_flat": 6
     },
@@ -17200,8 +17235,8 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 3,
       "curse_of_corruption": 1,
+      "unbreaking": 4,
       "armor": 3,
       "max_health_flat": 6
     },
@@ -17996,6 +18031,7 @@
     "type": "Axe",
     "stats": {
       "ice_aspect": 2,
+      "unbreaking": 1,
       "attack_damage_base": 10.5,
       "attack_speed_base": 0.9
     },
@@ -18904,6 +18940,7 @@
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Snowtrodden Boots": {
+    "location": "Willows",
     "name": "Snowtrodden Boots",
     "base_item": "Leather Boots",
     "release_status": "public",
@@ -19545,9 +19582,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 3,
       "blast_protection": 1,
       "tempo": 1,
+      "unbreaking": 4,
       "agility": 2.5
     },
     "lore": "The rhythm has been forgotten,\nnow torment is their only song,\nhowled at an uncaring moon."
@@ -19561,7 +19598,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 5,
+      "unbreaking": 4,
       "armor": 1,
       "max_health_flat": 4
     },
@@ -19704,6 +19741,7 @@
     "type": "Boots",
     "stats": {
       "melee_protection": 1,
+      "unbreaking": 1,
       "armor": 0.5
     }
   },
@@ -19731,8 +19769,8 @@
     "type": "Boots",
     "stats": {
       "feather_falling": 2,
-      "unbreaking": 3,
       "projectile_protection": 1,
+      "unbreaking": 4,
       "agility": 3,
       "speed_percent": 10,
       "projectile_speed_percent": 50
@@ -19768,8 +19806,8 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 1,
       "depth_strider": 3,
+      "unbreaking": 3,
       "agility": 1.5,
       "speed_percent": 10
     }
@@ -19784,7 +19822,7 @@
     "type": "Boots",
     "stats": {
       "magic_protection": 1,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 3
     }
   },
@@ -19798,8 +19836,8 @@
     "type": "Boots",
     "stats": {
       "feather_falling": 1,
-      "unbreaking": 2,
       "fire_protection": 7,
+      "unbreaking": 3,
       "agility": 1
     }
   },
@@ -19826,8 +19864,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "melee_protection": 2,
       "curse_of_vanishing": 1,
+      "melee_protection": 2,
+      "unbreaking": 3,
       "armor": 4
     }
   },
@@ -19840,9 +19879,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 1,
-      "respiration": 1,
       "depth_strider": 1,
+      "respiration": 1,
+      "unbreaking": 3,
       "agility": 3.5
     }
   },
@@ -19870,7 +19909,7 @@
     "type": "Boots",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 2.5,
       "projectile_damage_percent": 5
     }
@@ -19884,9 +19923,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "mending": 1,
-      "curse_of_vanishing": 1,
       "blast_protection": 1,
+      "curse_of_vanishing": 1,
+      "mending": 1,
       "armor": 4.5
     }
   },
@@ -19899,11 +19938,12 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 1,
-      "projectile_protection": 1,
       "blast_protection": 1,
       "magic_protection": 1,
-      "agility": 3.5
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "magic_damage_percent": 5,
+      "agility": 2.5
     }
   },
   "Dualsun Shoes": {
@@ -19915,8 +19955,8 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 2,
+      "unbreaking": 5,
       "armor": 3,
       "max_health_flat": 1
     }
@@ -19930,8 +19970,8 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 1,
       "melee_protection": 2,
+      "unbreaking": 3,
       "armor": 2,
       "attack_damage_percent": 5
     }
@@ -19945,7 +19985,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 3,
       "speed_percent": 15,
       "attack_speed_percent": 10
@@ -19974,6 +20014,7 @@
     "type": "Boots",
     "stats": {
       "blast_protection": 1,
+      "unbreaking": 1,
       "armor": 0.5,
       "thorns_flat": 1
     }
@@ -19988,7 +20029,7 @@
     "type": "Boots",
     "stats": {
       "feather_falling": 2,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 2.5
     }
   },
@@ -20001,7 +20042,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 3
     }
   },
@@ -20014,9 +20055,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 2,
       "magic_protection": 1,
+      "unbreaking": 4,
       "armor": 2
     }
   },
@@ -20029,8 +20070,8 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 1,
       "depth_strider": 1,
+      "unbreaking": 2,
       "armor": 2
     }
   },
@@ -20044,7 +20085,7 @@
     "type": "Boots",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 1
     }
   },
@@ -20058,7 +20099,7 @@
     "type": "Boots",
     "stats": {
       "blast_protection": 3,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "armor": 1.5
     }
   },
@@ -20072,7 +20113,7 @@
     "type": "Boots",
     "stats": {
       "magic_protection": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 1.5
     }
   },
@@ -20085,8 +20126,8 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 1,
       "fire_protection": 2,
+      "unbreaking": 2,
       "armor": 1.5
     }
   },
@@ -20135,6 +20176,7 @@
     }
   },
   "Bloodsoaked Boots": {
+    "location": "Willows",
     "name": "Bloodsoaked Boots",
     "base_item": "Leather Boots",
     "release_status": "public",
@@ -21555,9 +21597,9 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "unbreaking": 3,
       "fire_aspect": 1,
       "knockback": 1,
+      "unbreaking": 4,
       "attack_damage_base": 6,
       "attack_speed_base": 1.6,
       "spell_power_base": 35
@@ -21573,9 +21615,9 @@
     "type": "Mainhand Sword",
     "stats": {
       "fire_aspect": 1,
-      "smite": 1,
       "ice_aspect": 1,
-      "unbreaking": 2,
+      "smite": 1,
+      "unbreaking": 4,
       "attack_damage_base": 6,
       "attack_speed_base": 1.6
     },
@@ -21619,7 +21661,7 @@
       "slayer": 1,
       "tempo": 1,
       "thunder_aspect": 1,
-      "unbreaking": 3,
+      "unbreaking": 5,
       "attack_damage_base": 6,
       "attack_speed_base": 1.6
     },
@@ -21721,7 +21763,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "sweeping_edge": 2,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "agility": 2.5,
       "thorns_flat": 2,
       "attack_damage_base": 6.5,
@@ -21836,7 +21878,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "sweeping_edge": 2,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "agility": 2,
       "thorns_flat": 2,
       "attack_damage_base": 6,
@@ -21950,7 +21992,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 2,
       "knockback_resistance_flat": 1,
       "attack_damage_base": 6,
@@ -21968,7 +22010,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "knockback": 2,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "speed_percent": 10,
       "attack_damage_base": 6,
       "attack_speed_base": 2
@@ -21984,9 +22026,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "smite": 1,
       "abyssal": 1,
-      "unbreaking": 3,
+      "smite": 1,
+      "unbreaking": 4,
       "speed_percent": -10,
       "attack_damage_base": 7,
       "attack_speed_base": 1.6
@@ -22003,7 +22045,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "slayer": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 5.5,
       "attack_speed_base": 1.6
     }
@@ -22032,9 +22074,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "regeneration": 1,
       "knockback": 1,
-      "unbreaking": 2,
+      "regeneration": 1,
+      "unbreaking": 3,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     },
@@ -22049,9 +22091,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "slayer": 1,
-      "unbreaking": 1,
       "efficiency": 2,
+      "slayer": 1,
+      "unbreaking": 3,
       "attack_damage_base": 5.5,
       "attack_speed_base": 1.6
     }
@@ -22066,6 +22108,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "sweeping_edge": 1,
+      "unbreaking": 2,
       "attack_damage_base": 5.5,
       "attack_speed_base": 1.6
     }
@@ -22093,8 +22136,8 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "unbreakable": 1,
       "melee_protection": 2,
+      "unbreakable": 1,
       "attack_damage_percent": 20
     }
   },
@@ -22122,6 +22165,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "unbreaking": 3,
       "attack_damage_base": 7,
       "attack_speed_base": 1.6
     }
@@ -22135,9 +22179,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "efficiency": 2,
       "slayer": 2,
       "unbreaking": 3,
-      "efficiency": 2,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     }
@@ -22151,9 +22195,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "smite": 1,
-      "unbreaking": 1,
       "fire_aspect": 2,
+      "smite": 1,
+      "unbreaking": 3,
       "attack_damage_base": 5.5,
       "attack_speed_base": 1.6
     }
@@ -22211,6 +22255,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "unbreaking": 1,
       "attack_damage_base": 5.5,
       "attack_speed_base": 1.6
     }
@@ -22275,9 +22320,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 3,
-      "thunder_aspect": 2,
       "fire_aspect": 1,
+      "thunder_aspect": 2,
+      "unbreaking": 5,
       "attack_damage_base": 6.5,
       "attack_speed_base": 1.6
     },
@@ -22323,9 +22368,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 4,
       "divine_aura": 1,
       "sweeping_edge": 2,
+      "unbreaking": 5,
       "agility": 2.5,
       "thorns_flat": 2,
       "attack_damage_base": 6.5,
@@ -22363,6 +22408,7 @@
     "stats": {
       "chaotic": 25,
       "thunder_aspect": 1,
+      "unbreakable": 1,
       "attack_speed_base": 1.6
     },
     "lore": "Victory or Destruction? The ancient power\nof randomness chooses no sides."
@@ -22863,7 +22909,7 @@
       "sweeping_edge": 4,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 18.5
+      "attack_damage_base": 18
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -22883,7 +22929,7 @@
       "sweeping_edge": 4,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 20
+      "attack_damage_base": 19.5
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -24595,7 +24641,7 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 3,
       "armor": 1,
       "max_health_flat": 2
     }
@@ -24738,7 +24784,7 @@
     "type": "Helmet",
     "stats": {
       "projectile_protection": 3,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "armor": 3,
       "projectile_damage_percent": 12
     },
@@ -24799,9 +24845,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "melee_protection": 1,
-      "unbreaking": 3,
       "inure": 1,
+      "melee_protection": 1,
+      "unbreaking": 4,
       "armor": 2.5
     },
     "lore": "Is it to stop the miasma, or to hide\nthe festering flesh beneath?"
@@ -24816,7 +24862,7 @@
     "type": "Helmet",
     "stats": {
       "shielding": 1,
-      "unbreaking": 4,
+      "unbreaking": 5,
       "armor": 4.5,
       "speed_percent": -5
     },
@@ -24846,7 +24892,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 1,
-      "unbreaking": 3,
+      "unbreaking": 5,
       "armor": 5
     }
   },
@@ -24981,7 +25027,7 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 3,
+      "unbreaking": 4,
       "agility": 4,
       "knockback_resistance_flat": 3
     },
@@ -24997,8 +25043,8 @@
     "type": "Helmet",
     "stats": {
       "melee_protection": 2,
-      "unbreaking": 3,
       "respiration": 2,
+      "unbreaking": 4,
       "armor": 3,
       "speed_percent": -5
     },
@@ -25024,7 +25070,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 1,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "armor": 4
     }
   },
@@ -25038,7 +25084,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 1,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 3
     }
   },
@@ -25052,8 +25098,8 @@
     "type": "Helmet",
     "stats": {
       "feather_falling": 1,
-      "unbreaking": 2,
       "fire_protection": 7,
+      "unbreaking": 3,
       "agility": 1
     }
   },
@@ -25082,6 +25128,7 @@
     "stats": {
       "curse_of_vanishing": 1,
       "melee_protection": 2,
+      "unbreaking": 3,
       "armor": 4
     }
   },
@@ -25094,9 +25141,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 1,
       "aqua_affinity": 1,
       "respiration": 1,
+      "unbreaking": 3,
       "agility": 3.5
     }
   },
@@ -25124,7 +25171,7 @@
     "type": "Helmet",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 2.5,
       "projectile_damage_percent": 5
     }
@@ -25138,9 +25185,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "mending": 1,
-      "curse_of_vanishing": 1,
       "blast_protection": 1,
+      "curse_of_vanishing": 1,
+      "mending": 1,
       "armor": 4.5
     }
   },
@@ -25153,11 +25200,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 1,
-      "projectile_protection": 1,
       "blast_protection": 1,
       "magic_protection": 1,
-      "agility": 3.5
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "magic_damage_percent": 5,
+      "agility": 2.5
     }
   },
   "Dualsun Hood": {
@@ -25169,8 +25217,8 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 2,
+      "unbreaking": 5,
       "armor": 3,
       "max_health_flat": 1
     }
@@ -25184,8 +25232,8 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 1,
       "melee_protection": 2,
+      "unbreaking": 3,
       "armor": 2,
       "attack_damage_percent": 5
     }
@@ -25199,7 +25247,7 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 3,
       "speed_percent": 15,
       "attack_speed_percent": 10
@@ -25215,6 +25263,7 @@
     "type": "Helmet",
     "stats": {
       "melee_protection": 1,
+      "unbreaking": 1,
       "armor": 0.5
     }
   },
@@ -25228,6 +25277,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 1,
+      "unbreaking": 1,
       "armor": 0.5,
       "thorns_flat": 1
     }
@@ -25242,7 +25292,7 @@
     "type": "Helmet",
     "stats": {
       "feather_falling": 2,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "agility": 2.5
     }
   },
@@ -25255,7 +25305,7 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 3,
       "agility": 3
     }
   },
@@ -25268,9 +25318,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 2,
       "magic_protection": 1,
+      "unbreaking": 4,
       "armor": 2
     }
   },
@@ -25283,8 +25333,8 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 1,
       "aqua_affinity": 1,
+      "unbreaking": 2,
       "armor": 2
     }
   },
@@ -25298,7 +25348,7 @@
     "type": "Helmet",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 1
     }
   },
@@ -25312,7 +25362,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 3,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "armor": 1.5
     }
   },
@@ -25326,7 +25376,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 1.5
     }
   },
@@ -25339,8 +25389,8 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 1,
       "fire_protection": 2,
+      "unbreaking": 2,
       "armor": 1.5
     }
   },
@@ -26115,12 +26165,13 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Volatile Urn",
-    "power": 3,
+    "power": 4,
     "base_item": "Glass Bottle",
     "release_status": "public",
     "stats": {
       "alchemist_potion_damage_percent": 10,
       "unstable_amalgam_damage_percent": 10,
+      "alchemical_artillery_damage_percent": 10,
       "alchemist_potion_charges_flat": 1
     },
     "type": "Charm",
@@ -27088,7 +27139,7 @@
     "base_item": "Tnt",
     "release_status": "public",
     "stats": {
-      "alchemical_artillery_damage_percent": 35
+      "alchemical_artillery_damage_percent": 30
     },
     "type": "Charm",
     "class_name": "Alchemist"
@@ -29875,7 +29926,7 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
+      "unbreaking": 2,
       "armor": 1.5,
       "max_health_flat": 2
     },
@@ -29922,8 +29973,8 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
       "shielding": 1,
+      "unbreaking": 3,
       "max_health_flat": 2,
       "armor": 1
     },
@@ -29955,7 +30006,7 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 3.5,
       "speed_percent": 10
     },
@@ -29970,7 +30021,7 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 2,
       "agility": 3.5,
       "speed_percent": 10
     },
@@ -29985,8 +30036,8 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 1,
       "fire_protection": 4,
+      "unbreaking": 2,
       "armor": 3
     },
     "lore": "Something stirs beneath the Blackroot,\nbeyond the boiling magma core."
@@ -30082,8 +30133,8 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "mending": 1,
       "magic_protection": 2,
+      "mending": 1,
       "armor": 2
     }
   },
@@ -30107,6 +30158,7 @@
     "type": "Offhand Shield",
     "stats": {
       "blast_protection": 1,
+      "unbreaking": 1,
       "armor": 1
     }
   },
@@ -30878,8 +30930,8 @@
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "panacea_cooldown_percent": -25,
-      "panacea_damage_percent": 50,
+      "panacea_cooldown_percent": 50,
+      "panacea_dot_damage_percent": 50,
       "panacea_absorption_health_percent": -100
     },
     "type": "Charm",
@@ -31374,9 +31426,9 @@
     "stats": {
       "alchemical_utensil": 1,
       "magic_protection": 1,
-      "potion_radius_flat": 3,
       "projectile_speed_base": 2,
-      "potion_damage_flat": 11.5
+      "potion_damage_flat": 11.5,
+      "potion_radius_flat": 2.5
     },
     "lore": "A perfect silver orb rotates in your grasp.\nAs it moves, a piercing ring echoes out.\nIt threatens retribution."
   },
@@ -31392,9 +31444,9 @@
     "stats": {
       "alchemical_utensil": 1,
       "magic_protection": 1,
-      "potion_radius_flat": 3,
       "projectile_speed_base": 1.5,
-      "potion_damage_flat": 10.5
+      "potion_damage_flat": 10.5,
+      "potion_radius_flat": 2.5
     },
     "lore": "A perfect silver orb rotates in your grasp.\nAs it moves, a piercing ring echoes out.\nIt threatens retribution."
   },
@@ -31409,9 +31461,9 @@
     "type": "Mainhand",
     "stats": {
       "alchemical_utensil": 1,
-      "potion_radius_flat": 3,
       "projectile_speed_base": 1.3,
-      "potion_damage_flat": 10
+      "potion_damage_flat": 10,
+      "potion_radius_flat": 2.5
     },
     "lore": "A perfect silver orb rotates in your grasp.\nAs it moves, a piercing ring echoes out.\nIt threatens retribution."
   },
@@ -32097,9 +32149,9 @@
     "stats": {
       "alchemical_utensil": 1,
       "decay": 2,
-      "potion_damage_flat": 3,
       "potion_radius_flat": 3,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "potion_damage_flat": 4
     },
     "lore": "A black ooze bubbles and churms within the\ntinted glass. A simple cork is all that separates\nyou from the deadly plague within."
   },
@@ -32113,10 +32165,10 @@
     "type": "Mainhand",
     "stats": {
       "alchemical_utensil": 1,
-      "feather_falling": 2,
+      "feather_falling": 5,
       "projectile_speed_base": 1,
-      "potion_damage_flat": 2.5,
-      "potion_radius_flat": 2.5
+      "potion_radius_flat": 2.5,
+      "potion_damage_flat": 3
     },
     "lore": "Whispering winds, faint voices from beyond,\nseem to escape the bag when uncinched.\nIt may be best to keep the bag closed."
   },
@@ -32133,7 +32185,7 @@
       "regeneration": 1,
       "potion_radius_flat": 4,
       "projectile_speed_base": 0.85,
-      "potion_damage_flat": 4
+      "potion_damage_flat": 4.5
     },
     "lore": "Dropped from a wilted flower on a\nblackened branch, this fruit is threatening\nto burst with the slightest pressure."
   },
@@ -32149,8 +32201,8 @@
       "alchemical_utensil": 1,
       "magic_protection": 2,
       "potion_radius_flat": 3,
-      "potion_damage_flat": 3.5,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "potion_damage_flat": 4.5
     },
     "lore": "A swirling paradox of order and chaos. Magic\nitself seems to be dancing within the alchemic\ndevice revolving in your hand."
   },
@@ -32164,10 +32216,10 @@
     "type": "Mainhand",
     "stats": {
       "alchemical_utensil": 1,
-      "blast_protection": 1,
-      "potion_damage_flat": 2.5,
+      "blast_protection": 2,
       "potion_radius_flat": 3,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "potion_damage_flat": 3.5
     },
     "lore": "Mismatched teeth decorate the mouth of\nthis patchwork leather bag. What horrible\nacts were done in the name of alchemy?"
   },
@@ -32181,9 +32233,9 @@
     "type": "Mainhand",
     "stats": {
       "alchemical_utensil": 1,
-      "potion_damage_flat": 2,
       "potion_radius_flat": 2.5,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "potion_damage_flat": 2.5
     }
   },
   "Warden's Satchel": {
@@ -32200,7 +32252,7 @@
       "projectile_protection": 1,
       "potion_radius_flat": 3,
       "projectile_speed_base": 1.3,
-      "potion_damage_flat": 4.5
+      "potion_damage_flat": 5.5
     },
     "lore": "An unbroken vial scavenged from the Sons\nof the Forest, meant to shatter upon their\ndeath. A noxious mixture trembles within."
   },
@@ -32215,9 +32267,9 @@
     "stats": {
       "alchemical_utensil": 1,
       "fire_protection": 2,
-      "potion_damage_flat": 5.5,
-      "potion_radius_flat": 2.25,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "potion_damage_flat": 6,
+      "potion_radius_flat": 2.5
     },
     "lore": "Looted from the labs beneath a nightmarish\ncastle, this hellish alembic swirls with primal rage."
   },
@@ -32235,7 +32287,7 @@
       "potion_radius_flat": 3,
       "projectile_speed_base": 2,
       "speed_percent": 10,
-      "potion_damage_flat": 4.5
+      "potion_damage_flat": 5
     },
     "lore": "Even a single whiff of the liquid inside will\nunleash a deluge of memories that\nshould have been forgotten."
   },
@@ -34849,7 +34901,7 @@
     "type": "Boots",
     "stats": {
       "blast_protection": 2,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 4,
       "magic_damage_percent": 10
     },
@@ -35876,7 +35928,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 2,
       "speed_percent": -10,
       "projectile_damage_base": 16,
       "projectile_speed_base": 0.8
@@ -35892,6 +35944,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "unbreaking": 1,
       "projectile_damage_base": 12,
       "projectile_speed_base": 1
     }
@@ -35936,6 +35989,7 @@
       "fire_aspect": 2,
       "knockback": 2,
       "reflexes": 1,
+      "unbreaking": 1,
       "projectile_damage_base": 14,
       "projectile_speed_base": 0.5
     },
@@ -35992,6 +36046,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "unbreaking": 1,
       "projectile_damage_base": 14,
       "projectile_speed_base": 1
     }
@@ -36006,6 +36061,7 @@
     "type": "Bow",
     "stats": {
       "fire_aspect": 1,
+      "unbreaking": 1,
       "projectile_damage_base": 8,
       "projectile_speed_base": 1
     }
@@ -36148,8 +36204,8 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 1,
       "divine_aura": 1,
+      "unbreaking": 2,
       "speed_percent": -10,
       "projectile_damage_base": 16,
       "projectile_speed_base": 0.8
@@ -36201,7 +36257,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 5,
       "speed_percent": 5,
       "projectile_damage_base": 10,
       "projectile_speed_base": 1
@@ -37028,9 +37084,9 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "smite": 2,
-      "unbreaking": 4,
       "ice_aspect": 1,
+      "smite": 2,
+      "unbreaking": 5,
       "attack_damage_base": 5,
       "attack_speed_base": 2
     },
@@ -37046,7 +37102,7 @@
     "type": "Scythe",
     "stats": {
       "reflexes": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "thorns_flat": 2,
       "attack_damage_base": 5.5,
       "attack_speed_base": 2
@@ -37063,7 +37119,7 @@
     "type": "Scythe",
     "stats": {
       "reflexes": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "thorns_flat": 2,
       "attack_damage_base": 5.5,
       "attack_speed_base": 2
@@ -37096,7 +37152,7 @@
     "type": "Scythe",
     "stats": {
       "smite": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 3.5,
       "attack_speed_base": 2
     }
@@ -37140,10 +37196,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "looting": 3,
-      "unbreaking": 2,
       "fire_aspect": 1,
       "knockback": 1,
+      "looting": 3,
+      "unbreaking": 3,
       "attack_damage_base": 3.5,
       "attack_speed_base": 2
     }
@@ -37172,8 +37228,8 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 2,
       "melee_protection": 1,
+      "slayer": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 2
     }
@@ -37203,7 +37259,7 @@
     "type": "Scythe",
     "stats": {
       "knockback": 2,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "speed_percent": 10,
       "attack_damage_base": 5,
       "attack_speed_base": 2
@@ -37218,7 +37274,7 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 3,
       "attack_speed_base": 2
     }
@@ -37267,7 +37323,7 @@
     "stats": {
       "life_drain": 1,
       "slayer": 1,
-      "unbreaking": 3,
+      "unbreaking": 5,
       "attack_damage_base": 10,
       "attack_speed_base": 0.9
     },
@@ -37282,9 +37338,9 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 1,
-      "unbreaking": 3,
       "life_drain": 1,
+      "slayer": 1,
+      "unbreaking": 5,
       "attack_damage_base": 10,
       "attack_speed_base": 0.9
     },
@@ -37299,10 +37355,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 1,
-      "unbreaking": 3,
       "divine_aura": 1,
       "life_drain": 1,
+      "slayer": 1,
+      "unbreaking": 5,
       "attack_damage_base": 10,
       "attack_speed_base": 0.9
     },
@@ -38140,7 +38196,7 @@
     "type": "Chestplate",
     "stats": {
       "fire_protection": 3,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "projectile_damage_percent": 15,
       "projectile_speed_percent": 10,
       "armor": 3
@@ -38187,7 +38243,7 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 1,
+      "unbreaking": 2,
       "armor": 5.5,
       "max_health_flat": -2,
       "magic_damage_percent": 8,
@@ -39190,7 +39246,7 @@
     "type": "Boots",
     "stats": {
       "inure": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "armor": 4.5
     },
     "lore": "Centuries passed with the small Genius Loci\ncurled around his greatest secret.\nSwiftly his power - and his domain - would grow\nto encompass the whole of the jungle."
@@ -39802,8 +39858,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "slayer": 2,
       "knockback": 1,
+      "slayer": 2,
       "attack_damage_base": 3,
       "spell_power_base": 25
     }
@@ -40421,9 +40477,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
       "blast_protection": 1,
       "projectile_protection": 1,
+      "unbreaking": 2,
       "agility": 5.5
     },
     "lore": "A deep roar consumed the valley, the\nintruders will soon feel the wrath\nand fury of The Jungle."
@@ -40498,8 +40554,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 1,
       "life_drain": 1,
+      "unbreaking": 2,
       "armor": 4,
       "attack_damage_percent": 5
     },
@@ -43918,6 +43974,7 @@
     "class_name": "Alchemist"
   },
   "Golden Fragment": {
+    "location": "Willows",
     "name": "Golden Fragment",
     "base_item": "Gold Nugget",
     "release_status": "public",
@@ -44248,6 +44305,7 @@
     "lore": "The tattered painting looks\nvaguely familiar, depicting\na distorted scene.\nAre you sure that was a dream?"
   },
   "Ephemeral Cloth": {
+    "location": "Willows",
     "name": "Ephemeral Cloth",
     "base_item": "Paper",
     "release_status": "public",
@@ -47274,9 +47332,9 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 1,
-      "unbreaking": 3,
-      "multishot": 1,
       "flame": 1,
+      "multishot": 1,
+      "unbreaking": 5,
       "projectile_damage_base": 14,
       "projectile_speed_base": 1
     },
@@ -47307,8 +47365,8 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 1,
       "quick_charge": 3,
+      "unbreaking": 3,
       "projectile_damage_base": 8,
       "projectile_speed_base": 1
     },
@@ -47356,6 +47414,7 @@
       "fire_aspect": 1,
       "punch": 2,
       "quick_charge": 1,
+      "unbreaking": 1,
       "projectile_damage_base": 11,
       "projectile_speed_base": 1
     }
@@ -47383,6 +47442,7 @@
     "type": "Crossbow",
     "stats": {
       "quick_charge": 1,
+      "unbreaking": 1,
       "projectile_damage_base": 11,
       "projectile_speed_base": 1
     }
@@ -47396,6 +47456,7 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "unbreaking": 1,
       "projectile_damage_base": 11,
       "projectile_speed_base": 1
     }
@@ -48278,6 +48339,7 @@
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Tattered Notebook": {
+    "location": "Willows",
     "name": "Tattered Notebook",
     "base_item": "Book",
     "release_status": "public",
@@ -48468,6 +48530,7 @@
     }
   },
   "Fragment of Reality": {
+    "location": "Willows",
     "name": "Fragment of Reality",
     "base_item": "Book",
     "release_status": "public",
@@ -48949,6 +49012,7 @@
     "type": "Shovel",
     "stats": {
       "efficiency": 1,
+      "unbreaking": 1,
       "attack_damage_base": 2.5,
       "attack_speed_base": 1
     }
@@ -48963,7 +49027,7 @@
     "type": "Shovel",
     "stats": {
       "fortune": 3,
-      "unbreaking": 3,
+      "unbreaking": 5,
       "attack_damage_base": 2.5,
       "attack_speed_base": 1
     }
@@ -49225,7 +49289,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A reward for completing a daily\nbounty in the Architect's Ring.\nA token of gratitude from the Dichen,\nthe Tree of Life is carved into its surface."
+    "lore": "Epic Crafting Material\nA token of gratitude from the Dichen,\nthe Tree of Life is carved into its surface."
   },
   "Talaya's Decay": {
     "location": "Rush",
@@ -53654,6 +53718,19 @@
     "type": "Consumable",
     "stats": {}
   },
+  "The Real Salmon": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "The Real Salmon",
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "infinity": 1
+    },
+    "lore": "...were the friends we made\nalong the ice boat track."
+  },
   "Rosefish": {
     "name": "Rosefish",
     "base_item": "Salmon",
@@ -55044,7 +55121,7 @@
     "type": "Misc",
     "stats": {
       "lure": 1,
-      "unbreaking": 1
+      "unbreaking": 2
     }
   },
   "Angler's Rod": {
@@ -55057,7 +55134,7 @@
     "type": "Misc",
     "stats": {
       "lure": 3,
-      "unbreaking": 2
+      "unbreaking": 3
     }
   },
   "Swiftbreeze": {
@@ -55709,7 +55786,7 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Coven Vial",
-    "power": 4,
+    "power": 5,
     "base_item": "Dragon Breath",
     "release_status": "public",
     "stats": {
@@ -56263,6 +56340,7 @@
     "lore": "Words themselves can have the power\nto hold eternity in its place.\nThat is Their right."
   },
   "Shattered Blade": {
+    "location": "Willows",
     "name": "Shattered Blade",
     "base_item": "Flint",
     "release_status": "public",
@@ -56422,6 +56500,7 @@
     "lore": "Power still lingers within this shard\nwhispering of a kingdom, now naught but sand."
   },
   "Traveler's Compass": {
+    "location": "Willows",
     "name": "Traveler's Compass",
     "base_item": "Compass",
     "release_status": "public",
@@ -57221,6 +57300,44 @@
     },
     "lore": "Sheer power."
   },
+  "Eschar Dreamcatcher-2": {
+    "location": "Seasonal Pass",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Eschar Dreamcatcher",
+    "base_item": "Golden Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "regicide": 2,
+      "trivium": 1,
+      "unbreaking": 50,
+      "attack_speed_base": 1,
+      "attack_damage_base": 16,
+      "speed_percent": -15
+    },
+    "lore": "Visions from inside the bloody dream encircle the\nweapon, desperately clinging to our world in an\nattempt to escape its own. Horrors of unimaginable\nfortitude were forever confined within, but if more\nwere to somehow break free..."
+  },
+  "Eschar Dreamcatcher-3": {
+    "location": "Seasonal Pass",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Eschar Dreamcatcher",
+    "base_item": "Golden Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "regicide": 2,
+      "trivium": 1,
+      "unbreaking": 55,
+      "attack_speed_base": 1,
+      "attack_damage_base": 16.5,
+      "speed_percent": -15
+    },
+    "lore": "Visions from inside the bloody dream encircle the\nweapon, desperately clinging to our world in an\nattempt to escape its own. Horrors of unimaginable\nfortitude were forever confined within, but if more\nwere to somehow break free..."
+  },
   "Reaper's Harvest-3": {
     "location": "Magenta",
     "masterwork": "3",
@@ -57684,6 +57801,7 @@
     }
   },
   "Thresher's Sickle": {
+    "location": "Willows",
     "name": "Thresher's Sickle",
     "base_item": "Wooden Hoe",
     "release_status": "public",
@@ -58056,6 +58174,7 @@
     "lore": "Being unnaturally cold to the touch, the\nseemingly formless mass intertwines in your hands.\n* Quest Item *\n#Q44I01"
   },
   "Scrap of Fabric": {
+    "location": "Willows",
     "name": "Scrap of Fabric",
     "base_item": "Black Dye",
     "release_status": "public",
@@ -58553,7 +58672,7 @@
     "type": "Axe",
     "stats": {
       "decay": 2,
-      "unbreaking": 3,
+      "unbreaking": 5,
       "attack_speed_base": 0.8,
       "attack_damage_base": 8
     }
@@ -58568,8 +58687,8 @@
     "type": "Axe",
     "stats": {
       "fire_aspect": 2,
-      "unbreaking": 5,
       "slayer": 1,
+      "unbreaking": 5,
       "attack_speed_base": 0.8,
       "attack_damage_base": 9.5
     }
@@ -58583,8 +58702,8 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 3,
       "efficiency": 4,
+      "unbreaking": 3,
       "attack_damage_base": 7,
       "attack_speed_base": 0.8
     }
@@ -58599,6 +58718,7 @@
     "type": "Axe",
     "stats": {
       "efficiency": 1,
+      "unbreaking": 1,
       "attack_damage_base": 7,
       "attack_speed_base": 0.8
     }
@@ -58613,7 +58733,7 @@
     "type": "Axe",
     "stats": {
       "knockback": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 8,
       "attack_speed_base": 0.8
     }
@@ -58627,9 +58747,9 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 2,
       "fire_aspect": 1,
       "knockback": 1,
+      "unbreaking": 3,
       "attack_damage_base": 7,
       "attack_speed_base": 0.8
     }
@@ -58644,7 +58764,7 @@
     "type": "Axe",
     "stats": {
       "fire_aspect": 2,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "attack_speed_base": 0.8,
       "attack_damage_base": 10
     }
@@ -58659,7 +58779,7 @@
     "type": "Axe",
     "stats": {
       "knockback": 2,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "attack_damage_base": 8.5,
       "attack_speed_base": 0.8
     }
@@ -58674,6 +58794,7 @@
     "type": "Axe",
     "stats": {
       "efficiency": 3,
+      "unbreaking": 1,
       "attack_damage_base": 8,
       "attack_speed_base": 0.8
     }
@@ -58687,8 +58808,8 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 2,
       "efficiency": 1,
+      "unbreaking": 3,
       "attack_damage_base": 8.5,
       "attack_speed_base": 0.8
     }
@@ -59000,9 +59121,19 @@
     "name": "Jungle's Boon",
     "effects": [
       {
-        "EffectDuration": 160,
-        "EffectStrength": 0.15,
-        "EffectType": "Heal"
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileResistance"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "BlastResistance"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "MagicResistance"
       }
     ],
     "base_item": "Golden Apple",
@@ -59661,6 +59792,7 @@
     "class_name": "Generalist"
   },
   "Otherworldly Fruit": {
+    "location": "Willows",
     "name": "Otherworldly Fruit",
     "base_item": "Chorus Flower",
     "release_status": "public",
@@ -60231,7 +60363,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Manaleaf Razor",
-    "power": 3,
+    "power": 2,
     "base_item": "Prismarine Shard",
     "release_status": "public",
     "stats": {
@@ -61286,6 +61418,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Attuned to the power of Emotions.\nDraws forth that which lies within.\nPunch a chest while holding in mainhand\nto convert the chest into an item.\nCooldown : None"
+  },
+  "Tesseract of Emotions (u)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Tesseract of Emotions (u)",
+    "base_item": "Purple Stained Glass",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Attuned to the power of Emotions.\nDraws forth that which lies within.\nPunch a chest or barrel while holding in\nto convert it into an item.\nSneak + Punch a chest while holding to\nconvert it into a barrel, and vice versa.\nCooldown : None"
   },
   "Focused Arcane Charm": {
     "location": "Architect's Ring",
@@ -63484,8 +63627,8 @@
     "release_status": "public",
     "type": "Shovel",
     "stats": {
-      "unbreaking": 3,
       "efficiency": 3,
+      "unbreaking": 3,
       "attack_damage_base": 3.5,
       "attack_speed_base": 1
     }
@@ -63499,8 +63642,8 @@
     "release_status": "public",
     "type": "Shovel",
     "stats": {
-      "mending": 1,
       "efficiency": 3,
+      "mending": 1,
       "attack_damage_base": 3.5,
       "attack_speed_base": 1
     }
@@ -63573,13 +63716,14 @@
     "name": "Heart of the Pyre",
     "base_item": "Flint And Steel",
     "release_status": "public",
-    "type": "Misc",
+    "type": "Wand",
     "stats": {
-      "fire_aspect": 2,
-      "knockback": 2,
+      "fire_aspect": 1,
+      "knockback": 1,
       "mending": 1,
       "regeneration": 1,
-      "unbreaking": 2
+      "attack_damage_base": 4,
+      "spell_power_base": 35
     },
     "lore": "The sacred flame, used to light\nthe sacrificial pyre."
   },
@@ -64293,10 +64437,10 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_damage_percent": 10,
       "speed_percent": 10,
       "armor": 2,
-      "magic_damage_percent": 10
+      "magic_damage_percent": 15,
+      "projectile_speed_percent": 15
     },
     "lore": "A band that hums the very\nresonance of the Jungle."
   },
@@ -64521,6 +64665,7 @@
     "type": "Pickaxe",
     "stats": {
       "efficiency": 3,
+      "unbreaking": 1,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2
     }
@@ -64580,6 +64725,7 @@
     "type": "Pickaxe",
     "stats": {
       "fortune": 2,
+      "unbreaking": 1,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2
     }
@@ -64593,9 +64739,9 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 2,
-      "knockback": 1,
       "efficiency": 2,
+      "knockback": 1,
+      "unbreaking": 3,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2
     }
@@ -64611,7 +64757,7 @@
     "stats": {
       "efficiency": 1,
       "fortune": 1,
-      "unbreaking": 4,
+      "unbreaking": 10,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2
     }
@@ -64752,6 +64898,7 @@
     "lore": "Epic Crafting Material"
   },
   "Fallen Lantern": {
+    "location": "Willows",
     "name": "Fallen Lantern",
     "base_item": "Lantern",
     "release_status": "public",
@@ -64798,6 +64945,7 @@
     "lore": "Encased in crystal's hold,\nMoon fragment shall decree.\nA Prophecy fortold,\nMay peaceful light guide thee."
   },
   "Helm of Immortals": {
+    "location": "Willows",
     "name": "Helm of Immortals",
     "base_item": "Chiseled Stone Bricks",
     "release_status": "public",
