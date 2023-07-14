@@ -7605,6 +7605,19 @@
       "attack_speed_base": 1.6
     }
   },
+  "Novice's Dagger": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 0",
+    "name": "Novice's Dagger",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "unbreakable": 1,
+      "speed_percent": 10
+    }
+  },
   "Fish Fin": {
     "location": "King's Valley",
     "region": "Valley",
@@ -7620,19 +7633,6 @@
       "attack_speed_base": 1.6
     },
     "lore": "No sir, it is evidently\na gigantic narwhal."
-  },
-  "Novice's Dagger": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 0",
-    "name": "Novice's Dagger",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "speed_percent": 10
-    }
   },
   "Cutting Breeze": {
     "location": "Valley Overworld",
@@ -33139,7 +33139,7 @@
       "attack_speed_base": 2,
       "attack_damage_base": 14.5
     },
-    "lore": "Despite the grizzly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
+    "lore": "Despite the grisly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
   },
   "Air-Purified Thresher-2": {
     "location": "Brown",
@@ -33158,7 +33158,7 @@
       "attack_speed_base": 2,
       "attack_damage_base": 14
     },
-    "lore": "Despite the grizzly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
+    "lore": "Despite the grisly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
   },
   "Coldsteel Blunt": {
     "location": "Lowtide Smuggler",
@@ -48994,14 +48994,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q43I03"
   },
-  "Peg Leg": {
-    "name": "Peg Leg",
-    "base_item": "Wooden Shovel",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q14I01"
-  },
   "Swiftwood Shovel": {
     "location": "King's Valley",
     "region": "Valley",
@@ -52968,6 +52960,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Right-click within an unclaimed market stall to rent it.\nProvides one week of rent upon use.\nNormal shop upkeep is 4 compressed currency a week.\nGuild shop upkeep is 12 compressed currency a week.\nYou only need one deed. It is not used to pay upkeep."
+  },
+  "Apportation Rune": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Apportation Rune",
+    "base_item": "Gray Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Consuming this item will return you to\nSierhaven immediately. However, it cannot\nbe used when in critical danger.\nRight click in inventory to consume."
   },
   "Essence of Service": {
     "location": "Celsian Isles",
@@ -61428,7 +61431,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Attuned to the power of Emotions.\nDraws forth that which lies within.\nPunch a chest or barrel while holding in\nto convert it into an item.\nSneak + Punch a chest while holding to\nconvert it into a barrel, and vice versa.\nCooldown : None"
+    "lore": "Attuned to the power of Emotions.\nDraws forth that which lies within.\nPunch a chest or barrel while holding in\nmainhand to convert it into an item.\nSneak + Punch a chest while holding to\nconvert it into a barrel, and vice versa.\nCooldown : None"
   },
   "Focused Arcane Charm": {
     "location": "Architect's Ring",
@@ -63118,7 +63121,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "It's sticky...\n* Quest Item *\n#Q03I03"
+    "lore": "It's sticky...\n* Quest Item *\n#Q14I01"
   },
   "Venom of the Serpent": {
     "name": "Venom of the Serpent",
