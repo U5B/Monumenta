@@ -4659,7 +4659,8 @@
     "base_item": "Stone Pickaxe",
     "release_status": "public",
     "type": "Misc",
-    "stats": {}
+    "stats": {},
+    "lore": "Not particularly useful in most situations.\n* Quest Item *\n#Q132I03"
   },
   "Strange Pickaxe": {
     "name": "Strange Pickaxe",
@@ -12039,6 +12040,8 @@
     "stats": {}
   },
   "Black Cat Brew": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Black Cat Brew",
     "effects": [
       {
@@ -24635,7 +24638,7 @@
   "Topaz Cap": {
     "location": "King's Valley",
     "region": "Valley",
-    "tier": "Unique",
+    "tier": "Legacy",
     "name": "Topaz Cap",
     "base_item": "Leather Helmet",
     "release_status": "public",
@@ -43827,7 +43830,8 @@
     "base_item": "Tripwire Hook",
     "release_status": "public",
     "type": "Misc",
-    "stats": {}
+    "stats": {},
+    "lore": "This key will unlock the path\nfurther into the mineshaft.\n* Quest Item *\n#Q132I06"
   },
   "Imperial Coin": {
     "location": "King's Valley",
@@ -44346,6 +44350,9 @@
     "lore": "Worth a week's upkeep at a market shop."
   },
   "Receipt: Pauline": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Receipt: Pauline",
     "base_item": "Paper",
     "release_status": "public",
@@ -44483,6 +44490,14 @@
     "type": "Misc",
     "stats": {},
     "lore": "It seems to be torn out from a larger\nnotepad. At the bottom, there is a name stamped\ninto the parchment: \"Selari\".\n* Quest Item *\n#Q114I06"
+  },
+  "Hitlist": {
+    "name": "Hitlist",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A list of names, some of which\nare crossed out\n* Quest Item *\n#Q103jI01"
   },
   "Mysterious Note": {
     "name": "Mysterious Note",
@@ -45705,6 +45720,9 @@
     "class_name": "Cleric"
   },
   "Topaz": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Topaz",
     "base_item": "Yellow Dye",
     "release_status": "public",
@@ -46214,7 +46232,8 @@
     "base_item": "Blue Ice",
     "release_status": "public",
     "type": "Misc",
-    "stats": {}
+    "stats": {},
+    "lore": "Magically frozen chunk of ice. Will stay\ncool no matter what the temperature is.\n* Quest Item *\n#Q132I04"
   },
   "Easter Bell": {
     "location": "Easter",
@@ -52671,7 +52690,8 @@
     "base_item": "Sugar",
     "release_status": "public",
     "type": "Misc",
-    "stats": {}
+    "stats": {},
+    "lore": "A cold, powdery substance,\nnearly weightless.\n* Quest Item *\n#Q142I03"
   },
   "Sulfuric Ash (Gunpowder)": {
     "name": "Sulfuric Ash",
@@ -55515,7 +55535,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#Q103iI02\nDarkness seeps through the metal\nand plants its roots."
+    "lore": "Darkness seeps through the metal\nand plants its roots.\n* Quest Item *\n#Q103iI02"
   },
   "Golden Mithril": {
     "location": "Celsian Isles",
@@ -56411,7 +56431,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#Q01I04"
+    "lore": "* Quest Item *\n#Q01I01"
   },
   "Silvic Instrument": {
     "name": "Silvic Instrument",
@@ -56421,7 +56441,7 @@
     "stats": {
       "infinity": 1
     },
-    "lore": "A strange tool provided to you by Fred.\n* Quest Item *\n#Q142I01\nRight Click while holding to activate the crystal."
+    "lore": "A strange tool provided to you by Fred.\nRight Click while holding to activate the crystal.\n* Quest Item *\n#Q142I01"
   },
   "Unholy Chiastolite": {
     "name": "Unholy Chiastolite",
@@ -56429,7 +56449,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#Q103iI01\nWhat is the darkness but that\nwhich is born from it."
+    "lore": "What is the darkness but that\nwhich is born from it.\n* Quest Item *\n#Q103iI01"
   },
   "Purified Silvic Crystal": {
     "name": "Purified Silvic Crystal",
@@ -58039,6 +58059,9 @@
     "class_name": "Rogue"
   },
   "Garnet": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Garnet",
     "base_item": "Nether Brick",
     "release_status": "public",
@@ -60310,7 +60333,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Packed full of helpful supplies for Nyr.\n* Quest Item *\n#Q35I01"
+    "lore": "Packed full of helpful supplies.\n* Quest Item *\n#Q35I01"
   },
   "Experience Bucket": {
     "location": "Valley Overworld",
@@ -60475,6 +60498,9 @@
     "lore": "The base currency of the Celsian Isles.\nLeft Click while holding to compress once.\nLeft Click + Sneak while holding to compress all."
   },
   "Malachite": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Malachite",
     "base_item": "Prismarine Shard",
     "release_status": "public",
@@ -63909,6 +63935,54 @@
     "type": "Misc",
     "stats": {}
   },
+  "Samwell's Smuggled Goods": {
+    "name": "Samwell's Smuggled Goods",
+    "base_item": "Chest",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q31I05"
+  },
+  "Small Container + Endermite": {
+    "name": "Small Container + Endermite",
+    "base_item": "Chest",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It squeaks when you move it too quickly.\n* Quest Item *\n#Q132I02"
+  },
+  "Small Container": {
+    "name": "Small Container",
+    "base_item": "Chest",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's not very big, but you could\nprobably fit something inside it.\nRight Click while holding to open.\n* Quest Item *\n#Q132I01"
+  },
+  "Bloody Cache": {
+    "name": "Bloody Cache",
+    "base_item": "Chest",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q102I04"
+  },
+  "Explosive Cache": {
+    "name": "Explosive Cache",
+    "base_item": "Chest",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q102I02"
+  },
+  "Illuminated Cache": {
+    "name": "Illuminated Cache",
+    "base_item": "Chest",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q102I03"
+  },
   "Sacred Herb": {
     "name": "Sacred Herb",
     "base_item": "Fern",
@@ -64593,6 +64667,14 @@
     "type": "Misc",
     "stats": {},
     "lore": "It whispers power not yet discovered..."
+  },
+  "Warping Willow Strand": {
+    "name": "Warping Willow Strand",
+    "base_item": "Tall Grass",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Wrapped around a protean stone,\nit whispers power disturbed.\n* Quest Item *\n#Q142I04"
   },
   "Lab Forceps": {
     "location": "Labs",
@@ -65371,45 +65453,6 @@
     "stats": {},
     "lore": "Attuned to the power of Knowledge.\nManifests your intellect into physical\nform, providing you an anvil in exchange.\nRight Click in mainhand or inventory to create an anvil.\nIf also holding Sneak, will show advanced options.\nLeft Click while in mainhand to take out a stack of anvils.\nRight Click on another item to repair it using a stored anvil.\nStore anvils with Right Click on this tesseract.\nCooldown : None"
   },
-  "Small Container + Endermite": {
-    "name": "Small Container + Endermite",
-    "base_item": "Chest",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "It squeaks when you move it too quickly.\n* Quest Item *\n#Q132I02"
-  },
-  "Small Container": {
-    "name": "Small Container",
-    "base_item": "Chest",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Bloody Cache": {
-    "name": "Bloody Cache",
-    "base_item": "Chest",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q102I04"
-  },
-  "Explosive Cache": {
-    "name": "Explosive Cache",
-    "base_item": "Chest",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q102I02"
-  },
-  "Illuminated Cache": {
-    "name": "Illuminated Cache",
-    "base_item": "Chest",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q102I03"
-  },
   "Dog Treat": {
     "name": "Dog Treat",
     "base_item": "Cooked Mutton",
@@ -65689,7 +65732,8 @@
     "base_item": "Minecart",
     "release_status": "public",
     "type": "Misc",
-    "stats": {}
+    "stats": {},
+    "lore": "Can be packed with something and\nsent down the rail lines.\n* Quest Item *\n#Q132I05"
   },
   "Crystalline Shroom Sample": {
     "name": "Crystalline Shroom Sample",
