@@ -1,1449 +1,4 @@
 {
-  "monumenta:acrobat/r1/all": {
-    "title": "Acrobat of the King's Valley",
-    "description": "Complete every Jumping Puzzle in the King's Valley.",
-    "parent": "monumenta:acrobat/root"
-  },
-  "monumenta:acrobat/r1/farr/shops": {
-    "title": "Acrobat of Farr",
-    "description": "Complete the Farr Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/grove/azacorlobby": {
-    "title": "Acrobat of the Demon",
-    "description": "Complete the Azacor Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/verdant/verdantlobby"
-  },
-  "monumenta:acrobat/r1/highwatch/bathhouse2": {
-    "title": "Acrobat of the Bathhouse",
-    "description": "Complete the Highwatch Bathhouse Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/highwatch/castle2"
-  },
-  "monumenta:acrobat/r1/highwatch/castle2": {
-    "title": "Acrobat of Highwatch Castle",
-    "description": "Complete the Highwatch Castle Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/highwatch/monument": {
-    "title": "Acrobat of the Monument",
-    "description": "Complete the Monument Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/highwatch/bathhouse2"
-  },
-  "monumenta:acrobat/r1/lowtide/library_tower": {
-    "title": "Acrobat of the Library",
-    "description": "Complete the Lowtide Library Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/lowtide/seagate": {
-    "title": "Acrobat of the Seagate",
-    "description": "Complete the Lowtide Seagate Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/lowtide/ship"
-  },
-  "monumenta:acrobat/r1/lowtide/ship": {
-    "title": "Acrobat of the Ship",
-    "description": "Complete the Lowtide Ship Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/lowtide/library_tower"
-  },
-  "monumenta:acrobat/r1/nyr/armory": {
-    "title": "Acrobat of the Armory",
-    "description": "Complete the Armory Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/nyr/windmill"
-  },
-  "monumenta:acrobat/r1/nyr/windmill": {
-    "title": "Acrobat of Nyr",
-    "description": "Complete the Windmill Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/oceangate/beam": {
-    "title": "Acrobat of the Beam",
-    "description": "Complete the Beam Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/reverie/lobby": {
-    "title": "Acrobat of the Dream",
-    "description": "Complete the Reverie Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/sierhaven/apartments": {
-    "title": "Acrobat of the Teleporter",
-    "description": "Complete the Sierhaven Teleporter Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/flag"
-  },
-  "monumenta:acrobat/r1/sierhaven/flag": {
-    "title": "Acrobat of the Flag",
-    "description": "Complete the Sierhaven Flag Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/royal"
-  },
-  "monumenta:acrobat/r1/sierhaven/royal": {
-    "title": "Acrobat of Royalty",
-    "description": "Complete the Sierhaven Royal Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/tree"
-  },
-  "monumenta:acrobat/r1/sierhaven/tree": {
-    "title": "Acrobat of the Tree",
-    "description": "Complete the Sierhaven Tree Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/sierhaven/west": {
-    "title": "Acrobat of the West",
-    "description": "Complete the Western Tower Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/apartments"
-  },
-  "monumenta:acrobat/r1/taeldim/plague": {
-    "title": "Acrobat of the Plague",
-    "description": "Complete the Plagueroot Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/taeldim/spring"
-  },
-  "monumenta:acrobat/r1/taeldim/spring": {
-    "title": "Acrobat of the Springs",
-    "description": "Complete the Ta'Eldim Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/verdant/verdantlobby": {
-    "title": "Acrobat of the Remnants",
-    "description": "Complete the Verdant Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/reverie/lobby"
-  },
-  "monumenta:acrobat/r2/all": {
-    "title": "Aerialist of the Celsian Isles",
-    "description": "Complete every Jumping Puzzle in the Celsian Isles.",
-    "parent": "monumenta:acrobat/root"
-  },
-  "monumenta:acrobat/r2/alnera/leaves": {
-    "title": "Aerialist of the Teleporter",
-    "description": "Complete the Alnera Teleporter Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/depths/deep": {
-    "title": "Aerialist of the Deep",
-    "description": "Complete the Darkest Depths Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/remorse/void"
-  },
-  "monumenta:acrobat/r2/forum/bookshelves": {
-    "title": "Aerialist of the Bookshelves",
-    "description": "Complete The Fallen Forum Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/frostgate/cathedral": {
-    "title": "Aerialist of the Cathedral",
-    "description": "Complete the Frostgate Cathedral Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/mistport/carnival": {
-    "title": "Aerialist of the Carnival",
-    "description": "Complete the Floating Carnival Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/mistport/lighthouse"
-  },
-  "monumenta:acrobat/r2/mistport/garden": {
-    "title": "Aerialist of the Gardens",
-    "description": "You conquered the hardest parkour in the game - the Gardens of Yesel!",
-    "parent": "monumenta:acrobat/r2/mistport/mist"
-  },
-  "monumenta:acrobat/r2/mistport/lighthouse": {
-    "title": "Aerialist of the Lighthouse",
-    "description": "Complete the Mistport Lighthouse Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/mistport/mist": {
-    "title": "Aerialist of the Mist",
-    "description": "Complete The Black Mist Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/mistport/carnival"
-  },
-  "monumenta:acrobat/r2/remorse/void": {
-    "title": "Aerialist of the Void",
-    "description": "Complete the Sealed Remorse Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/forum/bookshelves"
-  },
-  "monumenta:acrobat/r2/steelmeld/laboratory": {
-    "title": "Aerialist of the Laboratory",
-    "description": "Complete The Steelmeld Laboratory Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/wispervale/academy": {
-    "title": "Aerialist of the Academy",
-    "description": "Complete the Wispervale Academy Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/root": {
-    "title": "Parkour",
-    "description": "Complete the Jumping Puzzles of each region."
-  },
-  "monumenta:challenges/r1/arena/complete": {
-    "title": "Defeat the Arena of Terth",
-    "description": "The master of the arena has fallen, but Yeigar swears to return...",
-    "parent": "monumenta:challenges/r1/arena/wave40"
-  },
-  "monumenta:challenges/r1/arena/find": {
-    "title": "Discovered Arena of Terth",
-    "description": "Welcome, challengers and spectators alike, to the Arena of Terth! Town: Sierhaven Coordinates: x=-946 y=107 z=-104",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/arena/wave10": {
-    "title": "Defeated Plague Immortal",
-    "description": "Survived 10 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave5"
-  },
-  "monumenta:challenges/r1/arena/wave15": {
-    "title": "Defeated Phantom",
-    "description": "Survived 15 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave10"
-  },
-  "monumenta:challenges/r1/arena/wave20": {
-    "title": "Defeated Eternal Mindfaser",
-    "description": "Survived 20 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave15"
-  },
-  "monumenta:challenges/r1/arena/wave25": {
-    "title": "Defeated Adrash",
-    "description": "Survived 25 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave20"
-  },
-  "monumenta:challenges/r1/arena/wave30": {
-    "title": "Defeated Abrax&aacute;s",
-    "description": "Survived 30 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave25"
-  },
-  "monumenta:challenges/r1/arena/wave35": {
-    "title": "Defeated Baudric",
-    "description": "Survived 35 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave30"
-  },
-  "monumenta:challenges/r1/arena/wave40": {
-    "title": "Defeated Yeigar",
-    "description": "Survived 40 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave35"
-  },
-  "monumenta:challenges/r1/arena/wave5": {
-    "title": "Defeated Luke",
-    "description": "Survived 5 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/find"
-  },
-  "monumenta:challenges/r1/azacor_grove/beat_azacor_hard": {
-    "title": "Azacor",
-    "description": "Deafeated the Azacor boss fight.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/browncorp/1": {
-    "title": "Hall of Kings",
-    "description": "Browncorp #1 -734 135 -93",
-    "parent": "monumenta:challenges/r1/browncorp/all"
-  },
-  "monumenta:challenges/r1/browncorp/2": {
-    "title": "Isle of Susan",
-    "description": "Browncorp #2 -968 94 439",
-    "parent": "monumenta:challenges/r1/browncorp/1"
-  },
-  "monumenta:challenges/r1/browncorp/25": {
-    "title": "Apartment 666",
-    "description": "Browncorp #25 -162 85 -112",
-    "parent": "monumenta:challenges/r1/browncorp/2"
-  },
-  "monumenta:challenges/r1/browncorp/35": {
-    "title": "Jungle Workshop",
-    "description": "Browncorp #35 196 108 -29",
-    "parent": "monumenta:challenges/r1/browncorp/25"
-  },
-  "monumenta:challenges/r1/browncorp/36": {
-    "title": "The House on the Cliffside",
-    "description": "Browncorp #36 -82 218 -175",
-    "parent": "monumenta:challenges/r1/browncorp/35"
-  },
-  "monumenta:challenges/r1/browncorp/37": {
-    "title": "The Meme Team Balloon",
-    "description": "Browncorp #37 420 174 167",
-    "parent": "monumenta:challenges/r1/browncorp/36"
-  },
-  "monumenta:challenges/r1/browncorp/39": {
-    "title": "Farr Out",
-    "description": "Browncorp #39 572 98 156",
-    "parent": "monumenta:challenges/r1/browncorp/37"
-  },
-  "monumenta:challenges/r1/browncorp/57": {
-    "title": "End of the World",
-    "description": "Browncorp #57 900 209 -908",
-    "parent": "monumenta:challenges/r1/browncorp/39"
-  },
-  "monumenta:challenges/r1/browncorp/97": {
-    "title": "The Death of Browncorp",
-    "description": "Browncorp #97 1086 117 -180",
-    "parent": "monumenta:challenges/r1/browncorp/57"
-  },
-  "monumenta:challenges/r1/browncorp/all": {
-    "title": "Brown Corp",
-    "description": "Find all Brown Corp locations.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/horseman/beat_horseman": {
-    "title": "Headless Horseman",
-    "description": "Killed the Headless Horseman.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/horseman/solo_horseman": {
-    "title": "Headless Horseman (Solo)",
-    "description": "Killed the Headless Horseman solo.",
-    "parent": "monumenta:challenges/r1/horseman/beat_horseman"
-  },
-  "monumenta:challenges/r1/kaul/beat_kaul": {
-    "title": "Kaul",
-    "description": "Defeat Kaul, Soul of the Jungle.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/kaul/celebrity": {
-    "title": "Celebrity",
-    "description": "Have 15 or more people spectating during any point of the fight.",
-    "parent": "monumenta:challenges/r1/kaul/beat_kaul"
-  },
-  "monumenta:challenges/r1/kaul/dynamicduo": {
-    "title": "Dynamic Duo",
-    "description": "Defeat Kaul in a match with 1 other player.",
-    "parent": "monumenta:challenges/r1/kaul/unlucky"
-  },
-  "monumenta:challenges/r1/kaul/kaulsolo": {
-    "title": "Kaul (Solo)",
-    "description": "Defeat Kaul Solo You are a true master of the jungle.",
-    "parent": "monumenta:challenges/r1/kaul/dynamicduo"
-  },
-  "monumenta:challenges/r1/kaul/lastmanstanding": {
-    "title": "Last Man Standing",
-    "description": "Take part in a raid of 5 or more people where only you survive to defeat Kaul.",
-    "parent": "monumenta:challenges/r1/kaul/celebrity"
-  },
-  "monumenta:challenges/r1/kaul/massacre": {
-    "title": "Massacre",
-    "description": "Take part in a raid of 10 or more people in which all party members die.",
-    "parent": "monumenta:challenges/r1/kaul/suchdevastation"
-  },
-  "monumenta:challenges/r1/kaul/mloci": {
-    "title": "M'Loci",
-    "description": "Defeat Kaul while having worn a Fedora for the entire duration of the fight.",
-    "parent": "monumenta:challenges/r1/kaul/massacre"
-  },
-  "monumenta:challenges/r1/kaul/overwhelmingnumbers": {
-    "title": "Overwhelming Numbers",
-    "description": "Take part in a raid of 20 or more people, and be one of the winning players.",
-    "parent": "monumenta:challenges/r1/kaul/lastmanstanding"
-  },
-  "monumenta:challenges/r1/kaul/perfectplatoon": {
-    "title": "Perfect Platoon",
-    "description": "Take part in a raid of 10 or more people that suffers no casualties throughout the duration of the fight.",
-    "parent": "monumenta:challenges/r1/kaul/overwhelmingnumbers"
-  },
-  "monumenta:challenges/r1/kaul/soclose": {
-    "title": "So Close",
-    "description": "Die to Kaul when his health is at 10% or less.",
-    "parent": "monumenta:challenges/r1/kaul/mloci"
-  },
-  "monumenta:challenges/r1/kaul/suchdevastation": {
-    "title": "Such Devastation",
-    "description": "Witness Kaul casting 5 Volcanic Demises in a single fight.",
-    "parent": "monumenta:challenges/r1/kaul/trinity"
-  },
-  "monumenta:challenges/r1/kaul/trinity": {
-    "title": "Holy Trinity",
-    "description": "Defeat Kaul with a team of exactly 3 clerics.",
-    "parent": "monumenta:challenges/r1/kaul/vanilla"
-  },
-  "monumenta:challenges/r1/kaul/unlucky": {
-    "title": "Unlucky",
-    "description": "Get sent to judgement both times in a group of 10 or more, and succeed in both.",
-    "parent": "monumenta:challenges/r1/kaul/soclose"
-  },
-  "monumenta:challenges/r1/kaul/vanilla": {
-    "title": "Vanilla",
-    "description": "Defeat Kaul without having any class selected.",
-    "parent": "monumenta:challenges/r1/kaul/perfectplatoon"
-  },
-  "monumenta:challenges/r1/rushdown/find": {
-    "title": "Enter the Dissonant Realm",
-    "description": "You discovered the Rush of Dissonance lobby.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/rushdown/rose": {
-    "title": "Remnant of the Rose",
-    "description": "Purchase the Remnant of the Rose.",
-    "parent": "monumenta:challenges/r1/rushdown/wave75"
-  },
-  "monumenta:challenges/r1/rushdown/wave25": {
-    "title": "Reliction",
-    "description": "Defeat 25 waves inside Rush of Dissonance.",
-    "parent": "monumenta:challenges/r1/rushdown/find"
-  },
-  "monumenta:challenges/r1/rushdown/wave40": {
-    "title": "Epicurean",
-    "description": "Defeat 40 waves inside Rush of Dissonance.",
-    "parent": "monumenta:challenges/r1/rushdown/wave25"
-  },
-  "monumenta:challenges/r1/rushdown/wave75": {
-    "title": "Conqueror",
-    "description": "Defeat 75 waves inside Rush of Dissonance.",
-    "parent": "monumenta:challenges/r1/rushdown/wave40"
-  },
-  "monumenta:challenges/r1/sanctum/find": {
-    "title": "A Shaman's Sin",
-    "description": "C'Shura awaits you in the former resting place of Kaul. How will she greet you after so many years of isolation?",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r1/sanctum/sanctum": {
-    "title": "A Shaman's Lament",
-    "description": "You have conquered the corrupted grounds of the Forsworn Sanctum.",
-    "parent": "monumenta:challenges/r1/sanctum/find"
-  },
-  "monumenta:challenges/r1/sanctum/three": {
-    "title": "Three is the Key",
-    "description": "You have awoken Ami Udake within the Forsworn Sanctum.",
-    "parent": "monumenta:challenges/r1/sanctum/sanctum"
-  },
-  "monumenta:challenges/r1/snowspirit/beat_snowspirit": {
-    "title": "Snow Spirit",
-    "description": "Defeat the Snow Wool Spirit.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/snowspirit/solo_snowspirit": {
-    "title": "Snow Spirit (Solo)",
-    "description": "Defeat Snow Spirit Solo You've somehow beaten Winter Incarnate, most impressive.",
-    "parent": "monumenta:challenges/r1/snowspirit/beat_snowspirit"
-  },
-  "monumenta:challenges/r1/verdant/find": {
-    "title": "Shards of the Past",
-    "description": "You have discovered the Verdant lobby. Something dark lies beyond...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r1/verdant/verdant": {
-    "title": "Threads of Fate",
-    "description": "You have conquered the threadwarped Remnants of Verdant.",
-    "parent": "monumenta:challenges/r1/verdant/find"
-  },
-  "monumenta:challenges/r2/delves/all": {
-    "title": "Dungeon Modding",
-    "description": "You conquered a dungeon with all possible delve modifiers active!",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/fg/cold_like_company": {
-    "title": "Cold Likes Company",
-    "description": "Defeat Eldrask with 2 players.",
-    "parent": "monumenta:challenges/r2/fg/icicle_crash"
-  },
-  "monumenta:challenges/r2/fg/ice_cold_vanilla": {
-    "title": "Ice-Cold Vanilla",
-    "description": "Defeat Eldrask without having any class selected for the entire duration of the fight.",
-    "parent": "monumenta:challenges/r2/fg/ice_division"
-  },
-  "monumenta:challenges/r2/fg/ice_division": {
-    "title": "Ice Division",
-    "description": "Defeat Eldrask with a raid of 10 or more players where no one dies.",
-    "parent": "monumenta:challenges/r2/fg/last_of_the_challengers"
-  },
-  "monumenta:challenges/r2/fg/icicle_crash": {
-    "title": "Icicle Crash",
-    "description": "Hit Eldrask with 10 or more icicles in a single fight.",
-    "parent": "monumenta:challenges/r2/fg/lonely_soloist"
-  },
-  "monumenta:challenges/r2/fg/last_of_the_challengers": {
-    "title": "Last of the Challengers",
-    "description": "Be the only survivor in a raid of 5 or more people. Now you too shall outlast the others.",
-    "parent": "monumenta:challenges/r2/fg/win"
-  },
-  "monumenta:challenges/r2/fg/lonely_soloist": {
-    "title": "The Song's Lonely Soloist",
-    "description": "Use Annilys to survive a would-be fatal Titanic Rupture.",
-    "parent": "monumenta:challenges/r2/fg/shattered_yet_standing"
-  },
-  "monumenta:challenges/r2/fg/shattered_yet_standing": {
-    "title": "Shattered Yet Standing",
-    "description": "Survive Eldrask's Shatter attack during his final phase and win.",
-    "parent": "monumenta:challenges/r2/fg/stalwart_trio"
-  },
-  "monumenta:challenges/r2/fg/stalwart_trio": {
-    "title": "Stalwart Trio",
-    "description": "Defeat Eldrask with a team of exactly 3 warriors.",
-    "parent": "monumenta:challenges/r2/fg/ice_cold_vanilla"
-  },
-  "monumenta:challenges/r2/fg/win": {
-    "title": "Eldrask",
-    "description": "Defeat Eldrask, the last of the Frost Giants.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/fg/win_solo": {
-    "title": "Defeat Eldrask Solo",
-    "description": "You have heard the song, and know its tale.",
-    "parent": "monumenta:challenges/r2/fg/cold_like_company"
-  },
-  "monumenta:challenges/r2/lich/accursed_one": {
-    "title": "Feeble Cursed One",
-    "description": "Get cursed by Hekawt 3 times in a single fight and win.",
-    "parent": "monumenta:challenges/r2/lich/putrid_platoon"
-  },
-  "monumenta:challenges/r2/lich/day_of_wrath": {
-    "title": "Day of Wrath",
-    "description": "Survive Dies Irae at 5 Crystals or higher and win to tell the tale.",
-    "parent": "monumenta:challenges/r2/lich/player_slayer"
-  },
-  "monumenta:challenges/r2/lich/death_report": {
-    "title": "Death Report",
-    "description": "Enter Hekawt's Shadow Realm and escape with less than 1 second remaining. Reports of my death were greatly exaggerated.",
-    "parent": "monumenta:challenges/r2/lich/accursed_one"
-  },
-  "monumenta:challenges/r2/lich/deathly_duo": {
-    "title": "Deathly Duo",
-    "description": "Defeat Hekawt with 2 players.",
-    "parent": "monumenta:challenges/r2/lich/unholy_trinity"
-  },
-  "monumenta:challenges/r2/lich/player_slayer": {
-    "title": "Player Slayer",
-    "description": "Slay a Player... as a revenant.",
-    "parent": "monumenta:challenges/r2/lich/revenant_slayer"
-  },
-  "monumenta:challenges/r2/lich/putrid_platoon": {
-    "title": "Putrid Platoon",
-    "description": "Defeat Hekawt with 10 or more players where no one dies.",
-    "parent": "monumenta:challenges/r2/lich/deathly_duo"
-  },
-  "monumenta:challenges/r2/lich/revenant_slayer": {
-    "title": "Revenant Slayer",
-    "description": "Slay 3 Player Revenants outside the Shadow Realm in a single fight.",
-    "parent": "monumenta:challenges/r2/lich/death_report"
-  },
-  "monumenta:challenges/r2/lich/unholy_trinity": {
-    "title": "Unholy Trinity",
-    "description": "Defeat Hekawt with a team of exactly 3 Warlocks.",
-    "parent": "monumenta:challenges/r2/lich/win"
-  },
-  "monumenta:challenges/r2/lich/win": {
-    "title": "Hekawt",
-    "description": "Defeat Hekawt, the Lich.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/lich/win_solo": {
-    "title": "Defeat Hekawt Solo",
-    "description": "To conquer that who has conquered death...",
-    "parent": "monumenta:challenges/r2/lich/day_of_wrath"
-  },
-  "monumenta:challenges/r2/mist/bounty": {
-    "title": "Varcosa's Bounty",
-    "description": "Acquired a long lost Golden Key from Varcosa's ship, and slew the Mimic Queen guarding his final hoard.",
-    "parent": "monumenta:challenges/r2/mist/chime"
-  },
-  "monumenta:challenges/r2/mist/chime": {
-    "title": "Depth's Chime",
-    "description": "Once again infused the Chime with the dying breath of Captain Varcosa, awakening its true potential.",
-    "parent": "monumenta:challenges/r2/mist/nearsighted"
-  },
-  "monumenta:challenges/r2/mist/find": {
-    "title": "The Captain Returns",
-    "description": "You have discovered the Black Mist lobby. The crew is expecting you...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r2/mist/mist": {
-    "title": "The Black Mist",
-    "description": "Cleared the Black Mist and conquered its captain, Varcosa.",
-    "parent": "monumenta:challenges/r2/mist/find"
-  },
-  "monumenta:challenges/r2/mist/nearsighted": {
-    "title": "Nearsighted",
-    "description": "Cleared the Black Mist with only 1 secret wall found.",
-    "parent": "monumenta:challenges/r2/mist/stone"
-  },
-  "monumenta:challenges/r2/mist/spiritbusters": {
-    "title": "Spiritbusters",
-    "description": "Cleared the Black Mist with 4 people.",
-    "parent": "monumenta:challenges/r2/mist/mist"
-  },
-  "monumenta:challenges/r2/mist/stone": {
-    "title": "No Stone Unturned",
-    "description": "Found all hidden walls and every chest.",
-    "parent": "monumenta:challenges/r2/mist/spiritbusters"
-  },
-  "monumenta:challenges/r2/partingveil": {
-    "title": "The Parting Veil",
-    "description": "You have completed everything there is to do in the Parting Veil expansion and learned of dangers from Hekawt's shade.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/rooster/all": {
-    "title": "Rooster Caches",
-    "description": "You've found all the Rooster Caches!",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/rooster/eight": {
-    "title": "Molta",
-    "description": "You recovered the cache in Molta.",
-    "parent": "monumenta:challenges/r2/rooster/seven"
-  },
-  "monumenta:challenges/r2/rooster/five": {
-    "title": "Steelmeld",
-    "description": "You recovered the cache in Steelmeld.",
-    "parent": "monumenta:challenges/r2/rooster/four"
-  },
-  "monumenta:challenges/r2/rooster/four": {
-    "title": "Rahkeri",
-    "description": "You recovered the cache in Rahkeri.",
-    "parent": "monumenta:challenges/r2/rooster/three"
-  },
-  "monumenta:challenges/r2/rooster/one": {
-    "title": "Nightroost",
-    "description": "You recovered the cache in Nightroost.",
-    "parent": "monumenta:challenges/r2/rooster/all"
-  },
-  "monumenta:challenges/r2/rooster/seven": {
-    "title": "Frostgate",
-    "description": "You recovered the cache in Frostgate.",
-    "parent": "monumenta:challenges/r2/rooster/six"
-  },
-  "monumenta:challenges/r2/rooster/six": {
-    "title": "Alnera",
-    "description": "You recovered the cache in Alnera.",
-    "parent": "monumenta:challenges/r2/rooster/five"
-  },
-  "monumenta:challenges/r2/rooster/three": {
-    "title": "Wispervale",
-    "description": "You recovered the cache in Wispervale.",
-    "parent": "monumenta:challenges/r2/rooster/two"
-  },
-  "monumenta:challenges/r2/rooster/two": {
-    "title": "Mistport",
-    "description": "You recovered the cache in Mistport.",
-    "parent": "monumenta:challenges/r2/rooster/one"
-  },
-  "monumenta:challenges/r2/sr/find": {
-    "title": "Unavoidable Fate",
-    "description": "You have discovered the Sealed Remorse lobby. What awaits you below...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r2/sr/sr": {
-    "title": "Staring into the Void",
-    "description": "You have conquered the depths of Sealed Remorse.",
-    "parent": "monumenta:challenges/r2/sr/find"
-  },
-  "monumenta:challenges/r2/sr/tension": {
-    "title": "Void of Tension",
-    "description": "You conquered Sealed Remorse with over 200 seconds remaining on the clock!",
-    "parent": "monumenta:challenges/r2/sr/sr"
-  },
-  "monumenta:challenges/r2/sr/vigil": {
-    "title": "The Void Stares Back",
-    "description": "You have parted the void and witnessed the Eternal Vigil.",
-    "parent": "monumenta:challenges/r2/sr/tension"
-  },
-  "monumenta:challenges/r2/treasure_hunt/1": {
-    "title": "Cached Out",
-    "description": "Claim a Treasures of Viridia cache for your own.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/treasure_hunt/10": {
-    "title": "Decadence",
-    "description": "Claim 10 Treasures of Viridia caches.",
-    "parent": "monumenta:challenges/r2/treasure_hunt/1"
-  },
-  "monumenta:challenges/r2/treasure_hunt/25": {
-    "title": "Quartering",
-    "description": "Claim 25 Treasures of Viridia caches.",
-    "parent": "monumenta:challenges/r2/treasure_hunt/10"
-  },
-  "monumenta:challenges/r3/gallery/complete": {
-    "title": "The Great Secret",
-    "description": "You have dispelled Markus' Nightmare in the Sanguine Halls.",
-    "parent": "monumenta:challenges/r3/gallery/wave50"
-  },
-  "monumenta:challenges/r3/gallery/find": {
-    "title": "Enter the Nightmares",
-    "description": "You discovered the Gallery of Fear lobby.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r3/gallery/wave35": {
-    "title": "Visions",
-    "description": "Defeat 35 waves in the Sanguine Halls",
-    "parent": "monumenta:challenges/r3/gallery/find"
-  },
-  "monumenta:challenges/r3/gallery/wave50": {
-    "title": "True Horror",
-    "description": "Defeat 50 waves in the Sanguine Halls",
-    "parent": "monumenta:challenges/r3/gallery/wave35"
-  },
-  "monumenta:challenges/r3/godspore/beat_godspore": {
-    "title": "The Godspore",
-    "description": "Defeated The Godspore.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r3/godspore/duo_godspore": {
-    "title": "Divine Duo",
-    "description": "Defeat Godspore with 2 players.",
-    "parent": "monumenta:challenges/r3/godspore/beat_godspore"
-  },
-  "monumenta:challenges/r3/godspore/healthy_hero": {
-    "title": "Healthy Hero",
-    "description": "Defeat Godspore without falling under 70 Vitality for the entire fight.",
-    "parent": "monumenta:challenges/r3/godspore/duo_godspore"
-  },
-  "monumenta:challenges/r3/godspore/hurricane_yuti": {
-    "title": "Hurricane Yuti",
-    "description": "Be blown away by Windstorm Spores 3 times in a single fight and live to tell the tale.",
-    "parent": "monumenta:challenges/r3/godspore/healthy_hero"
-  },
-  "monumenta:challenges/r3/godspore/shrine_supplier": {
-    "title": "Shrine Fanatic",
-    "description": "Defeat the Godspore after activating all 4 Shrines at the same time.",
-    "parent": "monumenta:challenges/r3/godspore/hurricane_yuti"
-  },
-  "monumenta:challenges/r3/godspore/solo_godspore": {
-    "title": "Godspore (Solo)",
-    "description": "Defeated Godspore Solo.",
-    "parent": "monumenta:challenges/r3/godspore/sporefection"
-  },
-  "monumenta:challenges/r3/godspore/sporefection": {
-    "title": "Sporefection",
-    "description": "Defeat Godspore without being hit by an ability that reduces your Vitality.",
-    "parent": "monumenta:challenges/r3/godspore/shrine_supplier"
-  },
-  "monumenta:challenges/r3/portal/find": {
-    "title": "Where's the Cake?",
-    "description": "You have discovered the P.O.R.T.A.L. lobby. The lab awaits... the cake awaits, too...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r3/portal/portal": {
-    "title": "What's the acronym stand for?",
-    "description": "You have conquered the P.O.R.T.A.L. Strike. With no cake in sight.",
-    "parent": "monumenta:challenges/r3/portal/find"
-  },
-  "monumenta:challenges/r3/ruin/find": {
-    "title": "The Masked Fortress",
-    "description": "You have discovered the Masquerader's Ruin lobby. The Blue Wool awaits...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r3/ruin/ruin": {
-    "title": "Retrieving What was Stolen",
-    "description": "You have conquered the Masquerader's Ruin.",
-    "parent": "monumenta:challenges/r3/ruin/find"
-  },
-  "monumenta:challenges/root": {
-    "title": "Challenges",
-    "description": "Complete the special challenges of each region."
-  },
-  "monumenta:challenges/root_strikes": {
-    "title": "Strikes",
-    "description": null
-  },
-  "monumenta:dungeons/blue/challenge": {
-    "title": "Hycenea's Challenge",
-    "description": "You conquered the Blue Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/blue/complete"
-  },
-  "monumenta:dungeons/blue/complete": {
-    "title": "Defeat Blue Dungeon",
-    "description": "You found Hycenea in the Coven's Gambit and found the... Nevermind.",
-    "parent": "monumenta:dungeons/blue/find_quest"
-  },
-  "monumenta:dungeons/blue/find": {
-    "title": "Found Blue Dungeon",
-    "description": "Hidden within a Fortress; hidden within a prison. Hycenea's chains stay bound. POI: Coven Fortress Coordinates: -531 176 -387",
-    "parent": "monumenta:dungeons/root_r3"
-  },
-  "monumenta:dungeons/blue/find_quest": {
-    "title": "Witch in Wolf's Clothing",
-    "description": "With the forces of the Dichen and the Aradia, you raided the Coven's fortress, defeated the Council, and freed Hycenea... before Calder interrupted your victory.",
-    "parent": "monumenta:dungeons/blue/find"
-  },
-  "monumenta:dungeons/brown/challenge": {
-    "title": "Pelias' Challenge",
-    "description": "You conquered the Brown Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/brown/complete"
-  },
-  "monumenta:dungeons/brown/complete": {
-    "title": "Defeat Brown Dungeon",
-    "description": "You scrapped with the mechanations below the earth and came out victorious after navigating the Cradle.",
-    "parent": "monumenta:dungeons/brown/find_quest"
-  },
-  "monumenta:dungeons/brown/find": {
-    "title": "Found Brown Dungeon",
-    "description": "Mechanical clanking and buzzing noises spew forth from the ground. What lies deep below Pelias' folly? POI: Arx Spirensis Coordinates: -485 62 19",
-    "parent": "monumenta:dungeons/root_r3"
-  },
-  "monumenta:dungeons/brown/find_quest": {
-    "title": "Mechs Machina",
-    "description": "You launched a counter-attack following a warning from the Machine God's Herald, and found yourself at the entrance to The Cradle of the Broken God.",
-    "parent": "monumenta:dungeons/brown/find"
-  },
-  "monumenta:dungeons/cyan/challenge": {
-    "title": "Astaroth's Challenge",
-    "description": "You conquered the Cyan Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/cyan/complete"
-  },
-  "monumenta:dungeons/cyan/complete": {
-    "title": "Defeat Cyan Dungeon",
-    "description": "You fought off an ancient horror and claimed the Cyan Wool.",
-    "parent": "monumenta:dungeons/cyan/find_quest"
-  },
-  "monumenta:dungeons/cyan/find": {
-    "title": "Found Cyan Dungeon",
-    "description": "Deep below the ground lies an abandoned mineshaft, stained with secrets long forgotten. For what is a greater folly of man than the sin of greed? POI: Basanite Bore Coordinates: x=41 y=114 z=285",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/cyan/find_quest": {
-    "title": "Secrets Best Left Forgotten",
-    "description": "In an attempt to uncover the secrets of Molta's past, you unintentionally opened a path to the surface for an evil that had been sealed away.",
-    "parent": "monumenta:dungeons/cyan/find"
-  },
-  "monumenta:dungeons/depths/complete": {
-    "title": "Defeat Darkest Depths",
-    "description": "You fought back against Faimynyw's excursion into our world, and claimed powerful treasures.",
-    "parent": "monumenta:dungeons/depths/find"
-  },
-  "monumenta:dungeons/depths/find": {
-    "title": "Found Darkest Depths",
-    "description": "Far, far below the waves lies a disturbance, a tear into our world. What possibly could have caused this? Location: Breachpoint Coordinates: x=-702 y=9 z=-186",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/forum/challenge": {
-    "title": "Bhairavi's Challenge",
-    "description": "You conquered the Fallen Forum dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/forum/complete"
-  },
-  "monumenta:dungeons/forum/complete": {
-    "title": "Defeat The Fallen Forum",
-    "description": "You delved into the ruined Congress and found the truth about what occurred there.",
-    "parent": "monumenta:dungeons/forum/find_quest"
-  },
-  "monumenta:dungeons/forum/find": {
-    "title": "Found The Fallen Forum",
-    "description": "Having passed through the time itself in the ruins of the Congress, the Fallen Forum awaits. Coordinates: x=-600 y=1 z=525",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/forum/find_quest": {
-    "title": "The Olive Branch",
-    "description": "You found what the Teal Spirit was up to in the Ruins of the Congress, destroying a false wool to help free itself years ago. You destroyed the freed spirit, but Teal is still on the run.",
-    "parent": "monumenta:dungeons/forum/find"
-  },
-  "monumenta:dungeons/forum/olive": {
-    "title": "Fallen Lore-um",
-    "description": "You have scoured every corner of the Fallen Forum and collected yourself a Replica Olive Wool",
-    "parent": "monumenta:dungeons/forum/challenge"
-  },
-  "monumenta:dungeons/fred/battle_tendency": {
-    "title": "Battle Tendency",
-    "description": "You are a true master of the lore. Fred would be proud.",
-    "parent": "monumenta:dungeons/fred/find_quest2"
-  },
-  "monumenta:dungeons/fred/challenge": {
-    "title": "Fred's Challenge",
-    "description": "You conquered the Shifting City dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/fred/complete"
-  },
-  "monumenta:dungeons/fred/complete": {
-    "title": "Defeat City of Shifting Waters",
-    "description": "You explored the shifting depths of Steelmeld's undercity.",
-    "parent": "monumenta:dungeons/fred/find_quest"
-  },
-  "monumenta:dungeons/fred/find": {
-    "title": "Found City of Shifting Waters",
-    "description": "Deep below Steelmeld, sealed away by its unknown former inhabitants, lies secrets long since forgotten. POI: Steelmeld Passage Coordinates: x=-433 y=14 z=-495",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/fred/find_quest": {
-    "title": "Fred's Bizarre Adventure",
-    "description": "You assisted Fred on his journey to unlock a strange passage way leading deep below Steelmeld.",
-    "parent": "monumenta:dungeons/fred/find"
-  },
-  "monumenta:dungeons/fred/find_quest2": {
-    "title": "The Stone Ocean",
-    "description": "You assisted Fred with more research and ended up disturbing the city even further, bringing forth more dangerous rooms.",
-    "parent": "monumenta:dungeons/fred/challenge"
-  },
-  "monumenta:dungeons/gray/cake": {
-    "title": "Cake?",
-    "description": "You discovered the true treasure within the Valley of Forgotten Pharaohs.",
-    "parent": "monumenta:dungeons/gray/challenge"
-  },
-  "monumenta:dungeons/gray/challenge": {
-    "title": "Hekawt's Challenge",
-    "description": "You conquered the Gray Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/gray/complete"
-  },
-  "monumenta:dungeons/gray/complete": {
-    "title": "Defeat Gray Dungeon",
-    "description": "You excavated the lost city of Al Malakut and claimed the Gray Wool.",
-    "parent": "monumenta:dungeons/gray/find_quest"
-  },
-  "monumenta:dungeons/gray/find": {
-    "title": "Found Gray Dungeon",
-    "description": "What would force a kingdom to lock off their capital? Al Malakut awaits its rediscovery. POI: Lost Sands City Coordinates: x=239 y=66 z=394",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/gray/find_quest": {
-    "title": "The Gem of Ishnir",
-    "description": "You discoved the tomb of Tehkma Ka and found the lost city of Al Malakut.",
-    "parent": "monumenta:dungeons/gray/find"
-  },
-  "monumenta:dungeons/labs/complete": {
-    "title": "Defeat Alchemy Labs Dungeon",
-    "description": "You removed the explosives, defeated the bandits, and came away a stronger warrior.",
-    "parent": "monumenta:dungeons/labs/find_quest"
-  },
-  "monumenta:dungeons/labs/find": {
-    "title": "Found Alchemy Labs Dungeon",
-    "description": "Ahead lies the Alchemy Labs, bandits, and their cache of explosives. City: Sierhaven Coordinates: x=-748 y=95 z=-87",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/labs/find_quest": {
-    "title": "Prologue : Alchemy Labs",
-    "description": "You volunteered to take on bandits threatening to destroy the capital's Alchemy Labs.",
-    "parent": "monumenta:dungeons/labs/find"
-  },
-  "monumenta:dungeons/light_blue/challenge": {
-    "title": "Argone Challenge",
-    "description": "You conquered the Light Blue Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/light_blue/complete"
-  },
-  "monumenta:dungeons/light_blue/complete": {
-    "title": "Defeat Light Blue Dungeon",
-    "description": "Neither the Mages above nor the Alchemists below held power over you, as you claimed the Light Blue Wool.",
-    "parent": "monumenta:dungeons/light_blue/find_quest"
-  },
-  "monumenta:dungeons/light_blue/exalted": {
-    "title": "Exalted Light Blue Dungeon",
-    "description": "You conquered the Light Blue Wool dungeon's Exalted mode!",
-    "parent": "monumenta:dungeons/light_blue/challenge"
-  },
-  "monumenta:dungeons/light_blue/find": {
-    "title": "Found Light Blue Dungeon",
-    "description": "There must be secrets hiding within this ancient place. POI: Creeper Farm Coordinates: x=797 y=174 z=-317",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/light_blue/find_quest": {
-    "title": "Scars of Magic",
-    "description": "In your continued search for Ignos, you stumbled upon a secret of the Axtans that was best lost to time.",
-    "parent": "monumenta:dungeons/light_blue/find"
-  },
-  "monumenta:dungeons/light_gray/challenge": {
-    "title": "Alutana's Challenge",
-    "description": "You conquered the Light Gray Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/light_gray/complete"
-  },
-  "monumenta:dungeons/light_gray/complete": {
-    "title": "Defeat Light Gray Dungeon",
-    "description": "You ventured deep inside the Palace of Mirrors and saw what no others could: the Light Gray Wool.",
-    "parent": "monumenta:dungeons/light_gray/find_quest"
-  },
-  "monumenta:dungeons/light_gray/find": {
-    "title": "Found Light Gray Dungeon",
-    "description": "Hidden within a citadel; hidden within a mirror. Alutana's palace stands strong. POI: Whitecliffe Citadel Coordinates: x=-1605 y=129 z=3",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/light_gray/find_quest": {
-    "title": "Mirrored Egos",
-    "description": "Resolving the battle of light and darkness, now only their eclipse stands in your way.",
-    "parent": "monumenta:dungeons/light_gray/find"
-  },
-  "monumenta:dungeons/lime/challenge": {
-    "title": "Salazar's Challenge",
-    "description": "You conquered the Lime Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/lime/complete"
-  },
-  "monumenta:dungeons/lime/complete": {
-    "title": "Defeat Lime Dungeon",
-    "description": "You ventured through the lost empire of Viridia and claimed the Lime Wool.",
-    "parent": "monumenta:dungeons/lime/find_quest"
-  },
-  "monumenta:dungeons/lime/find": {
-    "title": "Found Lime Dungeon",
-    "description": "Before you stands an empire lost to time, independent of Ishnir and Chillwind. What secrets from the distant past lie within? POI: Bastion at Sea Coordinates: x=-551 y=40 z=703",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/lime/find_quest": {
-    "title": "The Lost Empire",
-    "description": "You had an unexpected run-in with Xeno and discovered the lost empire of Viridia.",
-    "parent": "monumenta:dungeons/lime/find"
-  },
-  "monumenta:dungeons/magenta/challenge": {
-    "title": "Myrahg's Challenge",
-    "description": "You conquered the Magenta Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/magenta/complete"
-  },
-  "monumenta:dungeons/magenta/complete": {
-    "title": "Defeat Magenta Dungeon",
-    "description": "You found what the ancient temple was defending - the Magenta Wool.",
-    "parent": "monumenta:dungeons/magenta/find_quest"
-  },
-  "monumenta:dungeons/magenta/exalted": {
-    "title": "Exalted Magenta Dungeon",
-    "description": "You conquered the Magenta Wool dungeon's Exalted mode!",
-    "parent": "monumenta:dungeons/magenta/challenge"
-  },
-  "monumenta:dungeons/magenta/find": {
-    "title": "Found Magenta Dungeon",
-    "description": "From the depths, you can feel a sickness pouring. What lies below? POI: Grand Maw Coordinates: x=350 y=71 z=82",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/magenta/find_quest": {
-    "title": "Roots of the Plague",
-    "description": "You restored the power of the Grand Maw and found a way inside a dungeon.",
-    "parent": "monumenta:dungeons/magenta/find"
-  },
-  "monumenta:dungeons/orange/challenge": {
-    "title": "Ixume's Challenge",
-    "description": "You conquered the Orange Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/orange/complete"
-  },
-  "monumenta:dungeons/orange/complete": {
-    "title": "Defeat Orange Dungeon",
-    "description": "You claimed the Orange Wool, overcoming the experimented beastmen within the Menagerie.",
-    "parent": "monumenta:dungeons/orange/find_quest"
-  },
-  "monumenta:dungeons/orange/exalted": {
-    "title": "Exalted Orange Dungeon",
-    "description": "You conquered the Orange Wool dungeon's Exalted mode!",
-    "parent": "monumenta:dungeons/orange/challenge"
-  },
-  "monumenta:dungeons/orange/find": {
-    "title": "Found Orange Dungeon",
-    "description": "You discovered a lost outpost of the Tlaxans, hiding more than just loot... POI: Abandoned Tunnels Coordinates: x=109 y=79 z=143",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/orange/find_quest": {
-    "title": "Beasts of Men",
-    "description": "You made your way through C'Zanil's crypt and found a way inside a dungeon.",
-    "parent": "monumenta:dungeons/orange/find"
-  },
-  "monumenta:dungeons/pink/challenge": {
-    "title": "Ymmodae's Challenge",
-    "description": "You conquered the Pink Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/pink/complete"
-  },
-  "monumenta:dungeons/pink/complete": {
-    "title": "Defeat Pink Dungeon",
-    "description": "You journeyed through a twisted world of demons and claimed the Pink Wool.",
-    "parent": "monumenta:dungeons/pink/find_quest"
-  },
-  "monumenta:dungeons/pink/find": {
-    "title": "Found Pink Dungeon",
-    "description": "Seasons bend and twist rapidly here. Deep in this dungeon lies a dark secret, do you dare seek it out? POI: Sealed Descent Coordinates: x=-1098 y=116 z=680",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/pink/find_quest": {
-    "title": "Harmonic Convergence",
-    "description": "You attuned yourself to the four seasonal shrines and discovered the Harmonic Arboretum.",
-    "parent": "monumenta:dungeons/pink/find"
-  },
-  "monumenta:dungeons/pink/rootstrike": {
-    "title": "Created Rootstrike",
-    "description": "You created Rootstrike, the sword of nobles.",
-    "parent": "monumenta:dungeons/pink/challenge"
-  },
-  "monumenta:dungeons/purple/challenge": {
-    "title": "Varcosa's Challenge",
-    "description": "You conquered the Purple Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/purple/complete"
-  },
-  "monumenta:dungeons/purple/complete": {
-    "title": "Defeat Purple Dungeon",
-    "description": "Below Corsair's Claw, you learned the truth about the final voyage of the Pirate King Varcosa.",
-    "parent": "monumenta:dungeons/purple/find_quest"
-  },
-  "monumenta:dungeons/purple/find": {
-    "title": "Found Purple Dungeon",
-    "description": "Below the mythical island of Corsair's Claw, the legendary pirate Varcosa awaits you. POI: Corsair's Claw Coordinates: x=551 y=81 z=1405",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/purple/find_quest": {
-    "title": "Rapacity",
-    "description": "Seeking out the final fate of Salazar the Great, you discovered the mythical island of Corsair's Claw.",
-    "parent": "monumenta:dungeons/purple/find"
-  },
-  "monumenta:dungeons/r1bonus/challenge": {
-    "title": "Ezariah's Challenge",
-    "description": "You conquered the Black Willows dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/r1bonus/complete"
-  },
-  "monumenta:dungeons/r1bonus/complete": {
-    "title": "Defeat The Black Willows",
-    "description": "The Willows, once guarded by a mysterious barrier, now lie defeated before you.",
-    "parent": "monumenta:dungeons/r1bonus/find_quest"
-  },
-  "monumenta:dungeons/r1bonus/exalted": {
-    "title": "Exalted Black Willows Dungeon",
-    "description": "You conquered the Black Willows dungeon's Exalted mode!",
-    "parent": "monumenta:dungeons/r1bonus/challenge"
-  },
-  "monumenta:dungeons/r1bonus/find": {
-    "title": "Found The Black Willows",
-    "description": "A lost grove stretches before you, filled with riches. POI: Cave of Secrets Coordinates: x=458 y=74 z=-103",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/r1bonus/find_quest": {
-    "title": "The Staff",
-    "description": "Following a note, you took a staff to four shrines and found a new dungeon.",
-    "parent": "monumenta:dungeons/r1bonus/find"
-  },
-  "monumenta:dungeons/r1bonus/find_quest2": {
-    "title": "The Staff?",
-    "description": "Following a new trail, you took the elemental staff to four amplified shrines and found a Delve.",
-    "parent": "monumenta:dungeons/r1bonus/challenge"
-  },
-  "monumenta:dungeons/reverie/challenge": {
-    "title": "Kaul's Challenge",
-    "description": "You conquered the Malevolent Reverie dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/reverie/complete"
-  },
-  "monumenta:dungeons/reverie/complete": {
-    "title": "Defeat Malevolent Reverie",
-    "description": "You defeated Kaul, saved the Narsens, and left victorious.",
-    "parent": "monumenta:dungeons/reverie/find"
-  },
-  "monumenta:dungeons/reverie/find": {
-    "title": "Found Malevolent Reverie",
-    "description": "One man's dream is the Narsens' nightmare. POI: Verdant Fortress? Coordinates: x=916 y=106 z=182",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/reverie/find_quest2": {
-    "title": "Crystal Visions",
-    "description": "With the help of former Shaman Nai, you re-entered the dream and learned more about the nature of the Genius Loci- and angered Kaul yet again.",
-    "parent": "monumenta:dungeons/reverie/challenge"
-  },
-  "monumenta:dungeons/roguelike/complete": {
-    "title": "Defeat Practice Ephemeral Corridors",
-    "description": "You discovered one of the many treasures of the Ephemeral Corridors, and many more remain hidden in its depths.",
-    "parent": "monumenta:dungeons/roguelike/find"
-  },
-  "monumenta:dungeons/roguelike/completeclassic": {
-    "title": "Defeat Fullwipe Ephemeral Corridors",
-    "description": "You discovered yet another of the many treasures of the Ephemeral Corridors, but could more remain hidden in its depths still?",
-    "parent": "monumenta:dungeons/roguelike/completehard"
-  },
-  "monumenta:dungeons/roguelike/completehard": {
-    "title": "Defeat Standard Ephemeral Corridors",
-    "description": "You discovered another one of the many treasures of the Ephemeral Corridors, but still more remain hidden in its depths.",
-    "parent": "monumenta:dungeons/roguelike/complete"
-  },
-  "monumenta:dungeons/roguelike/find": {
-    "title": "Found Ephemeral Corridors Dungeon",
-    "description": "You find a maze of twisty little passages, all alike. POI: Anthill Coordinates: x=819 y=110 z=209",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/root": {
-    "title": "Dungeons",
-    "description": null
-  },
-  "monumenta:dungeons/root_r1": {
-    "title": "King's Valley Dungeons",
-    "description": "Dungeons you will find throughout the King's Valley region.",
-    "parent": "monumenta:dungeons/root"
-  },
-  "monumenta:dungeons/root_r2": {
-    "title": "Celsian Isles Dungeons",
-    "description": "Dungeons you will find throughout the Celsian Isles region.",
-    "parent": "monumenta:dungeons/root"
-  },
-  "monumenta:dungeons/root_r3": {
-    "title": "Architect's Ring Dungeons",
-    "description": "Dungeons you will find throughout the Architect's Ring region.",
-    "parent": "monumenta:dungeons/root"
-  },
-  "monumenta:dungeons/sanctum/find_quest": {
-    "title": "Shurima's Big Day Off",
-    "description": "What started as a silly request for chores soon led you down a path to the Forsworn Sanctum.",
-    "parent": "monumenta:quests/r1/theeldersscrolls"
-  },
-  "monumenta:dungeons/skt/complete": {
-    "title": "Defeated SKT (Story Mode)",
-    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit.",
-    "parent": "monumenta:dungeons/skt/find_quest"
-  },
-  "monumenta:dungeons/skt/complete_normal": {
-    "title": "Defeated SKT (Normal Mode)",
-    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit.",
-    "parent": "monumenta:dungeons/skt/complete"
-  },
-  "monumenta:dungeons/skt/complete_savage": {
-    "title": "Defeated SKT (Savage Mode)",
-    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit.",
-    "parent": "monumenta:dungeons/skt/complete_normal"
-  },
-  "monumenta:dungeons/skt/find": {
-    "title": "Found the Silver Knight's Tomb",
-    "description": "Before you stands a gate, leading deep into the surviving ruins of Isharist. The Teal Spirit waits within... Coordinates: x=-1530 y=9 z=1702",
-    "parent": "monumenta:dungeons/root_r3"
-  },
-  "monumenta:dungeons/skt/find_quest": {
-    "title": "The Tomb of Time",
-    "description": "You followed the Teal Wool Spirit into the depths of the earth and recontained it inside the ruins of Isharist... and found a new region.",
-    "parent": "monumenta:dungeons/skt/find"
-  },
-  "monumenta:dungeons/skt/secret": {
-    "title": "Shifting Realities",
-    "description": "You unlocked the memories that fade through the threads of reality.",
-    "parent": "monumenta:dungeons/skt/complete_savage"
-  },
-  "monumenta:dungeons/teal/challenge": {
-    "title": "Max's Challenge",
-    "description": "You conquered the Teal Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/teal/complete"
-  },
-  "monumenta:dungeons/teal/complete": {
-    "title": "Defeat Echoes of Oblivion",
-    "description": "After defying the laws of time itself, you witnessed a Wool disappear from this world.",
-    "parent": "monumenta:dungeons/teal/find_quest"
-  },
-  "monumenta:dungeons/teal/find": {
-    "title": "Found Echoes of Oblivion",
-    "description": "Having passed through the Sacrarium of Aeons, a strange place lost to time now sits before you. POI: Sacrarium of Aeons Coordinates: x=-860 y=32 z=-450",
-    "parent": "monumenta:dungeons/root_r2"
-  },
-  "monumenta:dungeons/teal/find_quest": {
-    "title": "Unmasked",
-    "description": "After traveling through the lost empire of Isharist, the man you traveled with, Max, held a dark secret.",
-    "parent": "monumenta:dungeons/teal/find"
-  },
-  "monumenta:dungeons/teal/hour": {
-    "title": "Man of the Hour",
-    "description": "You collected all Time Crystals without falling into the void once. Wonderful job!",
-    "parent": "monumenta:dungeons/teal/challenge"
-  },
-  "monumenta:dungeons/white/challenge": {
-    "title": "Quetzalcoatl's Challenge",
-    "description": "You conquered the White Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/white/complete"
-  },
-  "monumenta:dungeons/white/complete": {
-    "title": "Defeat White Dungeon",
-    "description": "You defeated the guardians of Quetzalcoatl, claiming the White Wool.",
-    "parent": "monumenta:dungeons/white/find_quest"
-  },
-  "monumenta:dungeons/white/exalted": {
-    "title": "Exalted White Dungeon",
-    "description": "You conquered the White Wool dungeon's Exalted mode!",
-    "parent": "monumenta:dungeons/white/challenge"
-  },
-  "monumenta:dungeons/white/find": {
-    "title": "Found White Dungeon",
-    "description": "Before you lies the ancient sacrificial temple to a lost god... POI: Tlaxan Ziggurat Coordinates: x=215 y=125 z=-109",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/white/find_quest": {
-    "title": "Winds of War",
-    "description": "You broke a powerful curse over the Blackroot Battlefield and found a way inside a dungeon.",
-    "parent": "monumenta:dungeons/white/find"
-  },
-  "monumenta:dungeons/yellow/challenge": {
-    "title": "Deva's Challenge",
-    "description": "You conquered the Yellow Wool dungeon under Challenge Delve conditions!",
-    "parent": "monumenta:dungeons/yellow/complete"
-  },
-  "monumenta:dungeons/yellow/complete": {
-    "title": "Defeat Yellow Dungeon",
-    "description": "The seasons overcome, now Kaul's power is released, but the Yellow Wool is now yours.",
-    "parent": "monumenta:dungeons/yellow/find_quest"
-  },
-  "monumenta:dungeons/yellow/exalted": {
-    "title": "Exalted Yellow Dungeon",
-    "description": "You conquered the Yellow Wool dungeon's Exalted mode!",
-    "parent": "monumenta:dungeons/yellow/challenge"
-  },
-  "monumenta:dungeons/yellow/find": {
-    "title": "Found Yellow Dungeon",
-    "description": "The seasons rage before you, a curse on the Sons of the Forest. Can you overcome them? POI: Cursed Forest Coordinates: x=1100 y=104 z=60",
-    "parent": "monumenta:dungeons/root_r1"
-  },
-  "monumenta:dungeons/yellow/find_quest": {
-    "title": "Soul of the Forest",
-    "description": "You reclaimed the ancient relic from the Sons of the Forest and have given Highwatch an opportunity to attack Verdant Fortress.",
-    "parent": "monumenta:dungeons/yellow/find"
-  },
-  "monumenta:general/fisherman1": {
-    "title": "Fisherman I",
-    "description": "Catch 150 Fish.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/fisherman2": {
-    "title": "Fisherman II",
-    "description": "Catch 500 Fish.",
-    "parent": "monumenta:general/fisherman1"
-  },
-  "monumenta:general/fisherman3": {
-    "title": "Fisherman III",
-    "description": "Catch 1,000 Fish.",
-    "parent": "monumenta:general/fisherman2"
-  },
-  "monumenta:general/fisherman4": {
-    "title": "Fisherman IV",
-    "description": "Catch 2,000 Fish.",
-    "parent": "monumenta:general/fisherman3"
-  },
-  "monumenta:general/fisherman5": {
-    "title": "Fisherman V",
-    "description": "Catch 5,000 Fish.",
-    "parent": "monumenta:general/fisherman4"
-  },
-  "monumenta:general/gluttony1": {
-    "title": "Gluttony I",
-    "description": "Eat 300 food items.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/gluttony2": {
-    "title": "Gluttony II",
-    "description": "Eat 1,000 food items.",
-    "parent": "monumenta:general/gluttony1"
-  },
-  "monumenta:general/gluttony3": {
-    "title": "Gluttony III",
-    "description": "Eat 2,000 food items.",
-    "parent": "monumenta:general/gluttony2"
-  },
-  "monumenta:general/gluttony4": {
-    "title": "Gluttony IV",
-    "description": "Eat 4,000 food items.",
-    "parent": "monumenta:general/gluttony3"
-  },
-  "monumenta:general/gluttony5": {
-    "title": "Gluttony V",
-    "description": "Eat 10,000 food items.",
-    "parent": "monumenta:general/gluttony4"
-  },
-  "monumenta:general/igor/1": {
-    "title": "Ticket Master I",
-    "description": "Purchase 100 circus tickets.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/igor/2": {
-    "title": "Ticket Master II",
-    "description": "Purchase 250 circus tickets.",
-    "parent": "monumenta:general/igor/1"
-  },
-  "monumenta:general/igor/3": {
-    "title": "Ticket Master III",
-    "description": "Purchase 500 circus tickets.",
-    "parent": "monumenta:general/igor/2"
-  },
-  "monumenta:general/igor/4": {
-    "title": "Ticket Master IV",
-    "description": "Purchase 750 circus tickets.",
-    "parent": "monumenta:general/igor/3"
-  },
-  "monumenta:general/igor/5": {
-    "title": "Ticket Master V",
-    "description": "Purchase the King's Sabatons.",
-    "parent": "monumenta:general/igor/4"
-  },
-  "monumenta:general/intellect_crystallizer1": {
-    "title": "Intellect Crystallizer I",
-    "description": "Create the Persistent Chains.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/intellect_crystallizer2": {
-    "title": "Intellect Crystallizer II",
-    "description": "Create the Enlightened Dagger.",
-    "parent": "monumenta:general/intellect_crystallizer1"
-  },
-  "monumenta:general/intellect_crystallizer3": {
-    "title": "Intellect Crystallizer III",
-    "description": "Create the Intellect Incarnate.",
-    "parent": "monumenta:general/intellect_crystallizer2"
-  },
-  "monumenta:general/jackpot1": {
-    "title": "Royal Jackpot!",
-    "description": "Win the King's Warden in Rock's Little Casino.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/jackpot2": {
-    "title": "Tropical Jackpot!",
-    "description": "Win the Frost Giant's Crown in Monarch's Cozy Casino.",
-    "parent": "monumenta:general/jackpot1"
-  },
-  "monumenta:general/jackpot3": {
-    "title": "Shady Jackpot!",
-    "description": "Win the Grand Prize Ticket in the Sticks and Stone Tavern.",
-    "parent": "monumenta:general/jackpot2"
-  },
-  "monumenta:general/kings_crown": {
-    "title": "A Crowning Achievement",
-    "description": "Purchase the King's Crown.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/kings_dolabra": {
-    "title": "What a Tool!",
-    "description": "Purchase the King's Dolabra.",
-    "parent": "monumenta:general/kings_crown"
-  },
-  "monumenta:general/r2transmog1": {
-    "title": "Tropical Transmog I",
-    "description": "Use the Celsian Isles Transmogrifier 20 times.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/r2transmog2": {
-    "title": "Tropical Transmog II",
-    "description": "Use the Celsian Isles Transmogrifier 50 times.",
-    "parent": "monumenta:general/r2transmog1"
-  },
-  "monumenta:general/r2transmog3": {
-    "title": "Tropical Transmog III",
-    "description": "Use the Celsian Isles Transmogrifier 100 times.",
-    "parent": "monumenta:general/r2transmog2"
-  },
-  "monumenta:general/r2transmog4": {
-    "title": "Tropical Transmog IV",
-    "description": "Use the Celsian Isles Transmogrifier 200 times.",
-    "parent": "monumenta:general/r2transmog3"
-  },
-  "monumenta:general/r2transmog5": {
-    "title": "Tropical Transmog V",
-    "description": "Use the Celsian Isles Transmogrifier 500 times.",
-    "parent": "monumenta:general/r2transmog4"
-  },
-  "monumenta:general/repair1": {
-    "title": "Repairman I",
-    "description": "Repair 20 items.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/repair2": {
-    "title": "Repairman II",
-    "description": "Repair 50 items.",
-    "parent": "monumenta:general/repair1"
-  },
-  "monumenta:general/repair3": {
-    "title": "Repairman III",
-    "description": "Repair 100 items.",
-    "parent": "monumenta:general/repair2"
-  },
-  "monumenta:general/repair4": {
-    "title": "Repairman IV",
-    "description": "Repair 200 items.",
-    "parent": "monumenta:general/repair3"
-  },
-  "monumenta:general/repair5": {
-    "title": "Repairman V",
-    "description": "Repair 500 items.",
-    "parent": "monumenta:general/repair4"
-  },
-  "monumenta:general/root": {
-    "title": "General Achievements",
-    "description": null
-  },
-  "monumenta:general/transmog1": {
-    "title": "Transmogrificologist I",
-    "description": "Use the Transmogrifier 20 times.",
-    "parent": "monumenta:general/root"
-  },
-  "monumenta:general/transmog2": {
-    "title": "Transmogrificologist II",
-    "description": "Use the Transmogrifier 50 times.",
-    "parent": "monumenta:general/transmog1"
-  },
-  "monumenta:general/transmog3": {
-    "title": "Transmogrificologist III",
-    "description": "Use the Transmogrifier 100 times.",
-    "parent": "monumenta:general/transmog2"
-  },
-  "monumenta:general/transmog4": {
-    "title": "Transmogrificologist IV",
-    "description": "Use the Transmogrifier 200 times.",
-    "parent": "monumenta:general/transmog3"
-  },
-  "monumenta:general/transmog5": {
-    "title": "Transmogrificologist V",
-    "description": "Use the Transmogrifier 500 times.",
-    "parent": "monumenta:general/transmog4"
-  },
-  "monumenta:general/transmog_greaves": {
-    "title": "Fancy Pants",
-    "description": "Purchase the King's Greaves",
-    "parent": "monumenta:general/transmog5"
-  },
   "monumenta:handbook/enchantments/abyssal": {
     "title": "Abyssal",
     "description": "While equipped, you deal an additional (level * 10)% damage if either you or the enemy you are damaging is in water.",
@@ -1588,6 +143,11 @@
     "title": "Curse of Crippling",
     "description": "When under 50% health, your damage and movement speed is reduced by 10% per level.",
     "parent": "monumenta:handbook/enchantments/vanishing"
+  },
+  "monumenta:handbook/enchantments/cumbersome": {
+    "title": "Cumbersome",
+    "description": "Critical attacks deal normal damage instead. Abilities that require critical attacks can still be activated with a critical attack.",
+    "parent": "monumenta:handbook/enchantments/firefragility"
   },
   "monumenta:handbook/enchantments/curses": {
     "title": "Curses",
@@ -1821,7 +381,7 @@
   },
   "monumenta:handbook/enchantments/inure": {
     "title": "Inure",
-    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic). Breaking inure by taking a different type of damage will give half the bonus for 1 hit.",
+    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic). Breaking Inure by taking a different type of damage will give half the bonus for 1 hit.",
     "parent": "monumenta:handbook/enchantments/poise"
   },
   "monumenta:handbook/enchantments/irreparability": {
@@ -1906,7 +466,7 @@
   },
   "monumenta:handbook/enchantments/multitool": {
     "title": "Multitool",
-    "description": "Allows a tool to change shape when you right-click with it. Level I lets it to cycle between a shovel and an axe. Level II additionally lets it cycle to being a pickaxe.",
+    "description": "Allows a tool to change shape when you right-click with it. Level I lets it to cycle between a shovel and an axe, or a compass and shears, depending on the item. Level II additionally lets it cycle to being a pickaxe.",
     "parent": "monumenta:handbook/enchantments/silktouch"
   },
   "monumenta:handbook/enchantments/natant": {
@@ -2592,7 +1152,7 @@
   "monumenta:handbook/item_tiers/ar/charm": {
     "title": "Architect's Ring: Charm",
     "description": "Trinkets which further enhances your skills! - Charms are special equipment that enhances your abilities, and even some enchantments! - You need Charm Power to equip a Charm, and cannot equip two of the same Charms. Usually, the more powerful a Charm is, the more Charm Power it uses, - You start out with 9 Charm Power, as you explore Ring, you may acquire even more Charm Power. - Furthermore, there are some interesting folks out there that have the ability to combine charms together, making them stronger!",
-    "parent": "monumenta:handbook/item_tiers/ar/masterwork"
+    "parent": "monumenta:handbook/item_tiers/ar/fish"
   },
   "monumenta:handbook/item_tiers/ar/epiccharm": {
     "title": "Architect's Ring: Epic Charms",
@@ -2602,7 +1162,7 @@
   "monumenta:handbook/item_tiers/ar/fish": {
     "title": "Architect's Ring: Fish",
     "description": "Plentiful sea creatures of The Architect's Ocean! - Fish can be caught all over The Architect's Ring, with a number of bizarre qualities. - These fish probably shouldn't be consumed, but certain vendors may be interested!",
-    "parent": "monumenta:handbook/item_tiers/ar/legendary"
+    "parent": "monumenta:handbook/item_tiers/ar/masterwork"
   },
   "monumenta:handbook/item_tiers/ar/masterwork": {
     "title": "Masterwork Items",
@@ -2701,7 +1261,7 @@
   },
   "monumenta:handbook/mobs/shattered": {
     "title": "Shattered Items",
-    "description": "When you die, your equipped items are left in a shattered state. While wearing or using shattered items you receive heavy debuffs. If collecting your grave didn't completely restore your items, they must be repaired with an anvil. Anvils can be bought at a Repairman, which can be found at the forge in Sierhaven. For more information, use /help death",
+    "description": "When you die, your equipped items are left in a shattered state. Each level of Shattered gives a small (4%) penalty to damage and damage resistance. If collecting your grave didn't completely restore your items, they must be repaired with an anvil. Anvils can be bought at a Repairman, which can be found at the forge in Sierhaven. For more information, use /help death",
     "parent": "monumenta:handbook/mobs/elites"
   },
   "monumenta:handbook/money/ac": {
@@ -2842,6 +1402,180 @@
   "monumenta:handbook/root": {
     "title": "Handbook",
     "description": "Your guide for Monumenta"
+  },
+  "monumenta:acrobat/r1/all": {
+    "title": "Acrobat of the King's Valley",
+    "description": "Complete every Jumping Puzzle in the King's Valley.",
+    "parent": "monumenta:acrobat/root"
+  },
+  "monumenta:acrobat/r1/farr/shops": {
+    "title": "Acrobat of Farr",
+    "description": "Complete the Farr Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/grove/azacorlobby": {
+    "title": "Acrobat of the Demon",
+    "description": "Complete the Azacor Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/verdant/verdantlobby"
+  },
+  "monumenta:acrobat/r1/highwatch/bathhouse2": {
+    "title": "Acrobat of the Bathhouse",
+    "description": "Complete the Highwatch Bathhouse Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/highwatch/castle2"
+  },
+  "monumenta:acrobat/r1/highwatch/castle2": {
+    "title": "Acrobat of Highwatch Castle",
+    "description": "Complete the Highwatch Castle Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/highwatch/monument": {
+    "title": "Acrobat of the Monument",
+    "description": "Complete the Monument Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/highwatch/bathhouse2"
+  },
+  "monumenta:acrobat/r1/lowtide/library_tower": {
+    "title": "Acrobat of the Library",
+    "description": "Complete the Lowtide Library Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/lowtide/seagate": {
+    "title": "Acrobat of the Seagate",
+    "description": "Complete the Lowtide Seagate Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/lowtide/ship"
+  },
+  "monumenta:acrobat/r1/lowtide/ship": {
+    "title": "Acrobat of the Ship",
+    "description": "Complete the Lowtide Ship Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/lowtide/library_tower"
+  },
+  "monumenta:acrobat/r1/nyr/armory": {
+    "title": "Acrobat of the Armory",
+    "description": "Complete the Armory Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/nyr/windmill"
+  },
+  "monumenta:acrobat/r1/nyr/windmill": {
+    "title": "Acrobat of Nyr",
+    "description": "Complete the Windmill Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/oceangate/beam": {
+    "title": "Acrobat of the Beam",
+    "description": "Complete the Beam Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/reverie/lobby": {
+    "title": "Acrobat of the Dream",
+    "description": "Complete the Reverie Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/sierhaven/apartments": {
+    "title": "Acrobat of the Teleporter",
+    "description": "Complete the Sierhaven Teleporter Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/flag"
+  },
+  "monumenta:acrobat/r1/sierhaven/flag": {
+    "title": "Acrobat of the Flag",
+    "description": "Complete the Sierhaven Flag Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/royal"
+  },
+  "monumenta:acrobat/r1/sierhaven/prison": {
+    "title": "Acrobat of the Prison",
+    "description": "Complete the Sierhaven Prison Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/west"
+  },
+  "monumenta:acrobat/r1/sierhaven/royal": {
+    "title": "Acrobat of Royalty",
+    "description": "Complete the Sierhaven Royal Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/tree"
+  },
+  "monumenta:acrobat/r1/sierhaven/tree": {
+    "title": "Acrobat of the Tree",
+    "description": "Complete the Sierhaven Tree Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/sierhaven/west": {
+    "title": "Acrobat of the West",
+    "description": "Complete the Western Tower Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/apartments"
+  },
+  "monumenta:acrobat/r1/taeldim/plague": {
+    "title": "Acrobat of the Plague",
+    "description": "Complete the Plagueroot Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/taeldim/spring"
+  },
+  "monumenta:acrobat/r1/taeldim/spring": {
+    "title": "Acrobat of the Springs",
+    "description": "Complete the Ta'Eldim Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/verdant/verdantlobby": {
+    "title": "Acrobat of the Remnants",
+    "description": "Complete the Verdant Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/reverie/lobby"
+  },
+  "monumenta:acrobat/r2/all": {
+    "title": "Aerialist of the Celsian Isles",
+    "description": "Complete every Jumping Puzzle in the Celsian Isles.",
+    "parent": "monumenta:acrobat/root"
+  },
+  "monumenta:acrobat/r2/alnera/leaves": {
+    "title": "Aerialist of the Teleporter",
+    "description": "Complete the Alnera Teleporter Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/depths/deep": {
+    "title": "Aerialist of the Deep",
+    "description": "Complete the Darkest Depths Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/remorse/void"
+  },
+  "monumenta:acrobat/r2/forum/bookshelves": {
+    "title": "Aerialist of the Bookshelves",
+    "description": "Complete The Fallen Forum Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/frostgate/cathedral": {
+    "title": "Aerialist of the Cathedral",
+    "description": "Complete the Frostgate Cathedral Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/mistport/carnival": {
+    "title": "Aerialist of the Carnival",
+    "description": "Complete the Floating Carnival Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/mistport/lighthouse"
+  },
+  "monumenta:acrobat/r2/mistport/garden": {
+    "title": "Aerialist of the Gardens",
+    "description": "You conquered the hardest parkour in the game - the Gardens of Yesel!",
+    "parent": "monumenta:acrobat/r2/mistport/mist"
+  },
+  "monumenta:acrobat/r2/mistport/lighthouse": {
+    "title": "Aerialist of the Lighthouse",
+    "description": "Complete the Mistport Lighthouse Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/mistport/mist": {
+    "title": "Aerialist of the Mist",
+    "description": "Complete The Black Mist Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/mistport/carnival"
+  },
+  "monumenta:acrobat/r2/remorse/void": {
+    "title": "Aerialist of the Void",
+    "description": "Complete the Sealed Remorse Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/forum/bookshelves"
+  },
+  "monumenta:acrobat/r2/steelmeld/laboratory": {
+    "title": "Aerialist of the Laboratory",
+    "description": "Complete The Steelmeld Laboratory Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/wispervale/academy": {
+    "title": "Aerialist of the Academy",
+    "description": "Complete the Wispervale Academy Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/root": {
+    "title": "Parkour",
+    "description": "Complete the Jumping Puzzles of each region."
   },
   "monumenta:pois/r1/azacor_grove/azacorsmansion": {
     "title": "Azacor's Mansion",
@@ -4160,6 +2894,713 @@
     "description": "Discover the Vibrant Hollow Coordinates: -549 42 -698",
     "parent": "monumenta:pois/r3/wolfswood/root"
   },
+  "monumenta:challenges/r1/arena/complete": {
+    "title": "Defeat the Arena of Terth",
+    "description": "The master of the arena has fallen, but Yeigar swears to return...",
+    "parent": "monumenta:challenges/r1/arena/wave40"
+  },
+  "monumenta:challenges/r1/arena/find": {
+    "title": "Discovered Arena of Terth",
+    "description": "Welcome, challengers and spectators alike, to the Arena of Terth! Town: Sierhaven Coordinates: x=-946 y=107 z=-104",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/arena/wave10": {
+    "title": "Defeated Plague Immortal",
+    "description": "Survived 10 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave5"
+  },
+  "monumenta:challenges/r1/arena/wave15": {
+    "title": "Defeated Phantom",
+    "description": "Survived 15 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave10"
+  },
+  "monumenta:challenges/r1/arena/wave20": {
+    "title": "Defeated Eternal Mindfaser",
+    "description": "Survived 20 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave15"
+  },
+  "monumenta:challenges/r1/arena/wave25": {
+    "title": "Defeated Adrash",
+    "description": "Survived 25 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave20"
+  },
+  "monumenta:challenges/r1/arena/wave30": {
+    "title": "Defeated Abrax&aacute;s",
+    "description": "Survived 30 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave25"
+  },
+  "monumenta:challenges/r1/arena/wave35": {
+    "title": "Defeated Baudric",
+    "description": "Survived 35 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave30"
+  },
+  "monumenta:challenges/r1/arena/wave40": {
+    "title": "Defeated Yeigar",
+    "description": "Survived 40 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave35"
+  },
+  "monumenta:challenges/r1/arena/wave5": {
+    "title": "Defeated Luke",
+    "description": "Survived 5 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/find"
+  },
+  "monumenta:challenges/r1/azacor_grove/beat_azacor_hard": {
+    "title": "Azacor",
+    "description": "Deafeated the Azacor boss fight.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/browncorp/1": {
+    "title": "Hall of Kings",
+    "description": "Browncorp #1 -734 135 -93",
+    "parent": "monumenta:challenges/r1/browncorp/all"
+  },
+  "monumenta:challenges/r1/browncorp/2": {
+    "title": "Isle of Susan",
+    "description": "Browncorp #2 -968 94 439",
+    "parent": "monumenta:challenges/r1/browncorp/1"
+  },
+  "monumenta:challenges/r1/browncorp/25": {
+    "title": "Apartment 666",
+    "description": "Browncorp #25 -162 85 -112",
+    "parent": "monumenta:challenges/r1/browncorp/2"
+  },
+  "monumenta:challenges/r1/browncorp/35": {
+    "title": "Jungle Workshop",
+    "description": "Browncorp #35 196 108 -29",
+    "parent": "monumenta:challenges/r1/browncorp/25"
+  },
+  "monumenta:challenges/r1/browncorp/36": {
+    "title": "The House on the Cliffside",
+    "description": "Browncorp #36 -82 218 -175",
+    "parent": "monumenta:challenges/r1/browncorp/35"
+  },
+  "monumenta:challenges/r1/browncorp/37": {
+    "title": "The Meme Team Balloon",
+    "description": "Browncorp #37 420 174 167",
+    "parent": "monumenta:challenges/r1/browncorp/36"
+  },
+  "monumenta:challenges/r1/browncorp/39": {
+    "title": "Farr Out",
+    "description": "Browncorp #39 572 98 156",
+    "parent": "monumenta:challenges/r1/browncorp/37"
+  },
+  "monumenta:challenges/r1/browncorp/57": {
+    "title": "End of the World",
+    "description": "Browncorp #57 900 209 -908",
+    "parent": "monumenta:challenges/r1/browncorp/39"
+  },
+  "monumenta:challenges/r1/browncorp/97": {
+    "title": "The Death of Browncorp",
+    "description": "Browncorp #97 1086 117 -180",
+    "parent": "monumenta:challenges/r1/browncorp/57"
+  },
+  "monumenta:challenges/r1/browncorp/all": {
+    "title": "Brown Corp",
+    "description": "Find all Brown Corp locations.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/horseman/beat_horseman": {
+    "title": "Headless Horseman",
+    "description": "Killed the Headless Horseman.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/horseman/solo_horseman": {
+    "title": "Headless Horseman (Solo)",
+    "description": "Killed the Headless Horseman solo.",
+    "parent": "monumenta:challenges/r1/horseman/beat_horseman"
+  },
+  "monumenta:challenges/r1/kaul/beat_kaul": {
+    "title": "Kaul",
+    "description": "Defeat Kaul, Soul of the Jungle.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/kaul/celebrity": {
+    "title": "Celebrity",
+    "description": "Have 15 or more people spectating during any point of the fight.",
+    "parent": "monumenta:challenges/r1/kaul/beat_kaul"
+  },
+  "monumenta:challenges/r1/kaul/dynamicduo": {
+    "title": "Dynamic Duo",
+    "description": "Defeat Kaul in a match with 1 other player.",
+    "parent": "monumenta:challenges/r1/kaul/unlucky"
+  },
+  "monumenta:challenges/r1/kaul/kaulsolo": {
+    "title": "Kaul (Solo)",
+    "description": "Defeat Kaul Solo You are a true master of the jungle.",
+    "parent": "monumenta:challenges/r1/kaul/dynamicduo"
+  },
+  "monumenta:challenges/r1/kaul/lastmanstanding": {
+    "title": "Last Man Standing",
+    "description": "Take part in a raid of 5 or more people where only you survive to defeat Kaul.",
+    "parent": "monumenta:challenges/r1/kaul/celebrity"
+  },
+  "monumenta:challenges/r1/kaul/massacre": {
+    "title": "Massacre",
+    "description": "Take part in a raid of 10 or more people in which all party members die.",
+    "parent": "monumenta:challenges/r1/kaul/suchdevastation"
+  },
+  "monumenta:challenges/r1/kaul/mloci": {
+    "title": "M'Loci",
+    "description": "Defeat Kaul while having worn a Fedora for the entire duration of the fight.",
+    "parent": "monumenta:challenges/r1/kaul/massacre"
+  },
+  "monumenta:challenges/r1/kaul/overwhelmingnumbers": {
+    "title": "Overwhelming Numbers",
+    "description": "Take part in a raid of 20 or more people, and be one of the winning players.",
+    "parent": "monumenta:challenges/r1/kaul/lastmanstanding"
+  },
+  "monumenta:challenges/r1/kaul/perfectplatoon": {
+    "title": "Perfect Platoon",
+    "description": "Take part in a raid of 10 or more people that suffers no casualties throughout the duration of the fight.",
+    "parent": "monumenta:challenges/r1/kaul/overwhelmingnumbers"
+  },
+  "monumenta:challenges/r1/kaul/soclose": {
+    "title": "So Close",
+    "description": "Die to Kaul when his health is at 10% or less.",
+    "parent": "monumenta:challenges/r1/kaul/mloci"
+  },
+  "monumenta:challenges/r1/kaul/suchdevastation": {
+    "title": "Such Devastation",
+    "description": "Witness Kaul casting 5 Volcanic Demises in a single fight.",
+    "parent": "monumenta:challenges/r1/kaul/trinity"
+  },
+  "monumenta:challenges/r1/kaul/trinity": {
+    "title": "Holy Trinity",
+    "description": "Defeat Kaul with a team of exactly 3 clerics.",
+    "parent": "monumenta:challenges/r1/kaul/vanilla"
+  },
+  "monumenta:challenges/r1/kaul/unlucky": {
+    "title": "Unlucky",
+    "description": "Get sent to judgement both times in a group of 10 or more, and succeed in both.",
+    "parent": "monumenta:challenges/r1/kaul/soclose"
+  },
+  "monumenta:challenges/r1/kaul/vanilla": {
+    "title": "Vanilla",
+    "description": "Defeat Kaul without having any class selected.",
+    "parent": "monumenta:challenges/r1/kaul/perfectplatoon"
+  },
+  "monumenta:challenges/r1/rushdown/find": {
+    "title": "Enter the Dissonant Realm",
+    "description": "You discovered the Rush of Dissonance lobby.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/rushdown/rose": {
+    "title": "Remnant of the Rose",
+    "description": "Purchase the Remnant of the Rose.",
+    "parent": "monumenta:challenges/r1/rushdown/wave75"
+  },
+  "monumenta:challenges/r1/rushdown/wave25": {
+    "title": "Reliction",
+    "description": "Defeat 25 waves inside Rush of Dissonance.",
+    "parent": "monumenta:challenges/r1/rushdown/find"
+  },
+  "monumenta:challenges/r1/rushdown/wave40": {
+    "title": "Epicurean",
+    "description": "Defeat 40 waves inside Rush of Dissonance.",
+    "parent": "monumenta:challenges/r1/rushdown/wave25"
+  },
+  "monumenta:challenges/r1/rushdown/wave75": {
+    "title": "Conqueror",
+    "description": "Defeat 75 waves inside Rush of Dissonance.",
+    "parent": "monumenta:challenges/r1/rushdown/wave40"
+  },
+  "monumenta:challenges/r1/sanctum/find": {
+    "title": "A Shaman's Sin",
+    "description": "C'Shura awaits you in the former resting place of Kaul. How will she greet you after so many years of isolation?",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r1/sanctum/sanctum": {
+    "title": "A Shaman's Lament",
+    "description": "You have conquered the corrupted grounds of the Forsworn Sanctum.",
+    "parent": "monumenta:challenges/r1/sanctum/find"
+  },
+  "monumenta:challenges/r1/sanctum/three": {
+    "title": "Three is the Key",
+    "description": "You have awoken Ami Udake within the Forsworn Sanctum.",
+    "parent": "monumenta:challenges/r1/sanctum/sanctum"
+  },
+  "monumenta:challenges/r1/snowspirit/beat_snowspirit": {
+    "title": "Snow Spirit",
+    "description": "Defeat the Snow Wool Spirit.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/snowspirit/solo_snowspirit": {
+    "title": "Snow Spirit (Solo)",
+    "description": "Defeat Snow Spirit Solo You've somehow beaten Winter Incarnate, most impressive.",
+    "parent": "monumenta:challenges/r1/snowspirit/beat_snowspirit"
+  },
+  "monumenta:challenges/r1/verdant/find": {
+    "title": "Shards of the Past",
+    "description": "You have discovered the Verdant lobby. Something dark lies beyond...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r1/verdant/verdant": {
+    "title": "Threads of Fate",
+    "description": "You have conquered the threadwarped Remnants of Verdant.",
+    "parent": "monumenta:challenges/r1/verdant/find"
+  },
+  "monumenta:challenges/r2/delves/all": {
+    "title": "Dungeon Modding",
+    "description": "You conquered a dungeon with all possible delve modifiers active!",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/fg/cold_like_company": {
+    "title": "Cold Likes Company",
+    "description": "Defeat Eldrask with 2 players.",
+    "parent": "monumenta:challenges/r2/fg/icicle_crash"
+  },
+  "monumenta:challenges/r2/fg/ice_cold_vanilla": {
+    "title": "Ice-Cold Vanilla",
+    "description": "Defeat Eldrask without having any class selected for the entire duration of the fight.",
+    "parent": "monumenta:challenges/r2/fg/ice_division"
+  },
+  "monumenta:challenges/r2/fg/ice_division": {
+    "title": "Ice Division",
+    "description": "Defeat Eldrask with a raid of 10 or more players where no one dies.",
+    "parent": "monumenta:challenges/r2/fg/last_of_the_challengers"
+  },
+  "monumenta:challenges/r2/fg/icicle_crash": {
+    "title": "Icicle Crash",
+    "description": "Hit Eldrask with 10 or more icicles in a single fight.",
+    "parent": "monumenta:challenges/r2/fg/lonely_soloist"
+  },
+  "monumenta:challenges/r2/fg/last_of_the_challengers": {
+    "title": "Last of the Challengers",
+    "description": "Be the only survivor in a raid of 5 or more people. Now you too shall outlast the others.",
+    "parent": "monumenta:challenges/r2/fg/win"
+  },
+  "monumenta:challenges/r2/fg/lonely_soloist": {
+    "title": "The Song's Lonely Soloist",
+    "description": "Use Annilys to survive a would-be fatal Titanic Rupture.",
+    "parent": "monumenta:challenges/r2/fg/shattered_yet_standing"
+  },
+  "monumenta:challenges/r2/fg/shattered_yet_standing": {
+    "title": "Shattered Yet Standing",
+    "description": "Survive Eldrask's Shatter attack during his final phase and win.",
+    "parent": "monumenta:challenges/r2/fg/stalwart_trio"
+  },
+  "monumenta:challenges/r2/fg/stalwart_trio": {
+    "title": "Stalwart Trio",
+    "description": "Defeat Eldrask with a team of exactly 3 warriors.",
+    "parent": "monumenta:challenges/r2/fg/ice_cold_vanilla"
+  },
+  "monumenta:challenges/r2/fg/win": {
+    "title": "Eldrask",
+    "description": "Defeat Eldrask, the last of the Frost Giants.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/fg/win_solo": {
+    "title": "Defeat Eldrask Solo",
+    "description": "You have heard the song, and know its tale.",
+    "parent": "monumenta:challenges/r2/fg/cold_like_company"
+  },
+  "monumenta:challenges/r2/lich/accursed_one": {
+    "title": "Feeble Cursed One",
+    "description": "Get cursed by Hekawt 3 times in a single fight and win.",
+    "parent": "monumenta:challenges/r2/lich/putrid_platoon"
+  },
+  "monumenta:challenges/r2/lich/day_of_wrath": {
+    "title": "Day of Wrath",
+    "description": "Survive Dies Irae at 5 Crystals or higher and win to tell the tale.",
+    "parent": "monumenta:challenges/r2/lich/player_slayer"
+  },
+  "monumenta:challenges/r2/lich/death_report": {
+    "title": "Death Report",
+    "description": "Enter Hekawt's Shadow Realm and escape with less than 1 second remaining. Reports of my death were greatly exaggerated.",
+    "parent": "monumenta:challenges/r2/lich/accursed_one"
+  },
+  "monumenta:challenges/r2/lich/deathly_duo": {
+    "title": "Deathly Duo",
+    "description": "Defeat Hekawt with 2 players.",
+    "parent": "monumenta:challenges/r2/lich/unholy_trinity"
+  },
+  "monumenta:challenges/r2/lich/player_slayer": {
+    "title": "Player Slayer",
+    "description": "Slay a Player... as a revenant.",
+    "parent": "monumenta:challenges/r2/lich/revenant_slayer"
+  },
+  "monumenta:challenges/r2/lich/putrid_platoon": {
+    "title": "Putrid Platoon",
+    "description": "Defeat Hekawt with 10 or more players where no one dies.",
+    "parent": "monumenta:challenges/r2/lich/deathly_duo"
+  },
+  "monumenta:challenges/r2/lich/revenant_slayer": {
+    "title": "Revenant Slayer",
+    "description": "Slay 3 Player Revenants outside the Shadow Realm in a single fight.",
+    "parent": "monumenta:challenges/r2/lich/death_report"
+  },
+  "monumenta:challenges/r2/lich/unholy_trinity": {
+    "title": "Unholy Trinity",
+    "description": "Defeat Hekawt with a team of exactly 3 Warlocks.",
+    "parent": "monumenta:challenges/r2/lich/win"
+  },
+  "monumenta:challenges/r2/lich/win": {
+    "title": "Hekawt",
+    "description": "Defeat Hekawt, the Lich.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/lich/win_solo": {
+    "title": "Defeat Hekawt Solo",
+    "description": "To conquer that who has conquered death...",
+    "parent": "monumenta:challenges/r2/lich/day_of_wrath"
+  },
+  "monumenta:challenges/r2/mist/bounty": {
+    "title": "Varcosa's Bounty",
+    "description": "Acquired a long lost Golden Key from Varcosa's ship, and slew the Mimic Queen guarding his final hoard.",
+    "parent": "monumenta:challenges/r2/mist/chime"
+  },
+  "monumenta:challenges/r2/mist/chime": {
+    "title": "Depth's Chime",
+    "description": "Once again infused the Chime with the dying breath of Captain Varcosa, awakening its true potential.",
+    "parent": "monumenta:challenges/r2/mist/nearsighted"
+  },
+  "monumenta:challenges/r2/mist/find": {
+    "title": "The Captain Returns",
+    "description": "You have discovered the Black Mist lobby. The crew is expecting you...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r2/mist/mist": {
+    "title": "The Black Mist",
+    "description": "Cleared the Black Mist and conquered its captain, Varcosa.",
+    "parent": "monumenta:challenges/r2/mist/find"
+  },
+  "monumenta:challenges/r2/mist/nearsighted": {
+    "title": "Nearsighted",
+    "description": "Cleared the Black Mist with only 1 secret wall found.",
+    "parent": "monumenta:challenges/r2/mist/stone"
+  },
+  "monumenta:challenges/r2/mist/spiritbusters": {
+    "title": "Spiritbusters",
+    "description": "Cleared the Black Mist with 4 people.",
+    "parent": "monumenta:challenges/r2/mist/mist"
+  },
+  "monumenta:challenges/r2/mist/stone": {
+    "title": "No Stone Unturned",
+    "description": "Found all hidden walls and every chest.",
+    "parent": "monumenta:challenges/r2/mist/spiritbusters"
+  },
+  "monumenta:challenges/r2/partingveil": {
+    "title": "The Parting Veil",
+    "description": "You have completed everything there is to do in the Parting Veil expansion and learned of dangers from Hekawt's shade.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/rooster/all": {
+    "title": "Rooster Caches",
+    "description": "You've found all the Rooster Caches!",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/rooster/eight": {
+    "title": "Molta",
+    "description": "You recovered the cache in Molta.",
+    "parent": "monumenta:challenges/r2/rooster/seven"
+  },
+  "monumenta:challenges/r2/rooster/five": {
+    "title": "Steelmeld",
+    "description": "You recovered the cache in Steelmeld.",
+    "parent": "monumenta:challenges/r2/rooster/four"
+  },
+  "monumenta:challenges/r2/rooster/four": {
+    "title": "Rahkeri",
+    "description": "You recovered the cache in Rahkeri.",
+    "parent": "monumenta:challenges/r2/rooster/three"
+  },
+  "monumenta:challenges/r2/rooster/one": {
+    "title": "Nightroost",
+    "description": "You recovered the cache in Nightroost.",
+    "parent": "monumenta:challenges/r2/rooster/all"
+  },
+  "monumenta:challenges/r2/rooster/seven": {
+    "title": "Frostgate",
+    "description": "You recovered the cache in Frostgate.",
+    "parent": "monumenta:challenges/r2/rooster/six"
+  },
+  "monumenta:challenges/r2/rooster/six": {
+    "title": "Alnera",
+    "description": "You recovered the cache in Alnera.",
+    "parent": "monumenta:challenges/r2/rooster/five"
+  },
+  "monumenta:challenges/r2/rooster/three": {
+    "title": "Wispervale",
+    "description": "You recovered the cache in Wispervale.",
+    "parent": "monumenta:challenges/r2/rooster/two"
+  },
+  "monumenta:challenges/r2/rooster/two": {
+    "title": "Mistport",
+    "description": "You recovered the cache in Mistport.",
+    "parent": "monumenta:challenges/r2/rooster/one"
+  },
+  "monumenta:challenges/r2/sr/find": {
+    "title": "Unavoidable Fate",
+    "description": "You have discovered the Sealed Remorse lobby. What awaits you below...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r2/sr/sr": {
+    "title": "Staring into the Void",
+    "description": "You have conquered the depths of Sealed Remorse.",
+    "parent": "monumenta:challenges/r2/sr/find"
+  },
+  "monumenta:challenges/r2/sr/tension": {
+    "title": "Void of Tension",
+    "description": "You conquered Sealed Remorse with over 200 seconds remaining on the clock!",
+    "parent": "monumenta:challenges/r2/sr/sr"
+  },
+  "monumenta:challenges/r2/sr/vigil": {
+    "title": "The Void Stares Back",
+    "description": "You have parted the void and witnessed the Eternal Vigil.",
+    "parent": "monumenta:challenges/r2/sr/tension"
+  },
+  "monumenta:challenges/r2/treasure_hunt/1": {
+    "title": "Cached Out",
+    "description": "Claim a Treasures of Viridia cache for your own.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/treasure_hunt/10": {
+    "title": "Decadence",
+    "description": "Claim 10 Treasures of Viridia caches.",
+    "parent": "monumenta:challenges/r2/treasure_hunt/1"
+  },
+  "monumenta:challenges/r2/treasure_hunt/25": {
+    "title": "Quartering",
+    "description": "Claim 25 Treasures of Viridia caches.",
+    "parent": "monumenta:challenges/r2/treasure_hunt/10"
+  },
+  "monumenta:challenges/r3/gallery/complete": {
+    "title": "The Great Secret",
+    "description": "You have dispelled Markus' Nightmare in the Sanguine Halls.",
+    "parent": "monumenta:challenges/r3/gallery/wave50"
+  },
+  "monumenta:challenges/r3/gallery/find": {
+    "title": "Enter the Nightmares",
+    "description": "You discovered the Gallery of Fear lobby.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r3/gallery/wave35": {
+    "title": "Visions",
+    "description": "Defeat 35 waves in the Sanguine Halls",
+    "parent": "monumenta:challenges/r3/gallery/find"
+  },
+  "monumenta:challenges/r3/gallery/wave50": {
+    "title": "True Horror",
+    "description": "Defeat 50 waves in the Sanguine Halls",
+    "parent": "monumenta:challenges/r3/gallery/wave35"
+  },
+  "monumenta:challenges/r3/godspore/beat_godspore": {
+    "title": "The Godspore",
+    "description": "Defeated The Godspore.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r3/godspore/duo_godspore": {
+    "title": "Divine Duo",
+    "description": "Defeat Godspore with 2 players.",
+    "parent": "monumenta:challenges/r3/godspore/beat_godspore"
+  },
+  "monumenta:challenges/r3/godspore/healthy_hero": {
+    "title": "Healthy Hero",
+    "description": "Defeat Godspore without falling under 70 Vitality for the entire fight.",
+    "parent": "monumenta:challenges/r3/godspore/duo_godspore"
+  },
+  "monumenta:challenges/r3/godspore/hurricane_yuti": {
+    "title": "Hurricane Yuti",
+    "description": "Be blown away by Windstorm Spores 3 times in a single fight and live to tell the tale.",
+    "parent": "monumenta:challenges/r3/godspore/healthy_hero"
+  },
+  "monumenta:challenges/r3/godspore/shrine_supplier": {
+    "title": "Shrine Fanatic",
+    "description": "Defeat the Godspore after activating all 4 Shrines at the same time.",
+    "parent": "monumenta:challenges/r3/godspore/hurricane_yuti"
+  },
+  "monumenta:challenges/r3/godspore/solo_godspore": {
+    "title": "Godspore (Solo)",
+    "description": "Defeated Godspore Solo.",
+    "parent": "monumenta:challenges/r3/godspore/sporefection"
+  },
+  "monumenta:challenges/r3/godspore/sporefection": {
+    "title": "Sporefection",
+    "description": "Defeat Godspore without being hit by an ability that reduces your Vitality.",
+    "parent": "monumenta:challenges/r3/godspore/shrine_supplier"
+  },
+  "monumenta:challenges/r3/portal/find": {
+    "title": "Where's the Cake?",
+    "description": "You have discovered the P.O.R.T.A.L. lobby. The lab awaits... the cake awaits, too...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r3/portal/portal": {
+    "title": "What's the acronym stand for?",
+    "description": "You have conquered the P.O.R.T.A.L. Strike. With no cake in sight.",
+    "parent": "monumenta:challenges/r3/portal/find"
+  },
+  "monumenta:challenges/r3/ruin/find": {
+    "title": "The Masked Fortress",
+    "description": "You have discovered the Masquerader's Ruin lobby. The Blue Wool awaits...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r3/ruin/ruin": {
+    "title": "Retrieving What was Stolen",
+    "description": "You have conquered the Masquerader's Ruin.",
+    "parent": "monumenta:challenges/r3/ruin/find"
+  },
+  "monumenta:challenges/root": {
+    "title": "Challenges",
+    "description": "Complete the special challenges of each region."
+  },
+  "monumenta:challenges/root_strikes": {
+    "title": "Strikes",
+    "description": null
+  },
+  "monumenta:trophies/events/2017/halloween": {
+    "title": "Cured King's Valley",
+    "description": "Halloween 2017",
+    "parent": "monumenta:trophies/events/2017/root"
+  },
+  "monumenta:trophies/events/2017/roguelike": {
+    "title": "Patron Roguelike Event",
+    "description": "Amazing! And to think this was the day you first played it!",
+    "parent": "monumenta:trophies/events/2017/winter"
+  },
+  "monumenta:trophies/events/2017/root": {
+    "title": "2017 Events",
+    "description": "Events that occurred in 2017",
+    "parent": "monumenta:trophies/root"
+  },
+  "monumenta:trophies/events/2017/winter": {
+    "title": "Helped Build Nivalis' Colony",
+    "description": "Winter 2017",
+    "parent": "monumenta:trophies/events/2017/halloween"
+  },
+  "monumenta:trophies/events/2018/knuckles": {
+    "title": "The Wae",
+    "description": "Be a true brodder. Uganda 2018",
+    "parent": "monumenta:trophies/events/2018/root"
+  },
+  "monumenta:trophies/events/2018/root": {
+    "title": "2018 Events",
+    "description": "Events that occurred in 2018",
+    "parent": "monumenta:trophies/root"
+  },
+  "monumenta:trophies/events/2018/snowmanfight": {
+    "title": "Winter 2018",
+    "description": "Won a snowball fight against skilled snowman warriors",
+    "parent": "monumenta:trophies/events/2018/valentines"
+  },
+  "monumenta:trophies/events/2018/snowmansolo": {
+    "title": "Winter 2018 - Solo PvE",
+    "description": "Won a solo snowball fight against skilled snowman warriors",
+    "parent": "monumenta:trophies/events/2018/snowmanfight"
+  },
+  "monumenta:trophies/events/2018/valentines": {
+    "title": "Cloud Nine",
+    "description": "Leap through the clouds. Valentine's 2018",
+    "parent": "monumenta:trophies/events/2018/knuckles"
+  },
+  "monumenta:trophies/events/2019/getspleefed": {
+    "title": "Get Spleefed",
+    "description": "You proved that you aren't quite such a master of the spleefing arts. Winter 2019",
+    "parent": "monumenta:trophies/events/2019/halloween"
+  },
+  "monumenta:trophies/events/2019/halloween": {
+    "title": "Creeper's Delight",
+    "description": "You learnt about trickster creepers from a rather strange man. Halloween 2019",
+    "parent": "monumenta:trophies/events/2019/root"
+  },
+  "monumenta:trophies/events/2019/root": {
+    "title": "2019 Events",
+    "description": "Events that occurred in 2019",
+    "parent": "monumenta:trophies/root"
+  },
+  "monumenta:trophies/events/2019/snowmanmvp": {
+    "title": "Snowman Arena MVP",
+    "description": "You were the most valuable player in the snowman arena. Winter 2019",
+    "parent": "monumenta:trophies/events/2019/spleefchampion"
+  },
+  "monumenta:trophies/events/2019/spleefchampion": {
+    "title": "Spleef Champion",
+    "description": "You proved yourself a master of the spleefing arts. Winter 2019",
+    "parent": "monumenta:trophies/events/2019/getspleefed"
+  },
+  "monumenta:trophies/events/2020/cleaning1": {
+    "title": "Spring Cleaning Newbie",
+    "description": "You donated 50 or more points worth of items in the Spring Cleaning event.",
+    "parent": "monumenta:trophies/events/2020/root"
+  },
+  "monumenta:trophies/events/2020/cleaning2": {
+    "title": "Spring Cleaning Amateur",
+    "description": "You donated 500 or more points worth of items in the Spring Cleaning event.",
+    "parent": "monumenta:trophies/events/2020/cleaning1"
+  },
+  "monumenta:trophies/events/2020/cleaning3": {
+    "title": "Spring Cleaning Expert",
+    "description": "You donated 5000 or more points worth of items in the Spring Cleaning event.",
+    "parent": "monumenta:trophies/events/2020/cleaning2"
+  },
+  "monumenta:trophies/events/2020/halloween": {
+    "title": "Extra Creepy",
+    "description": "You learnt a bit more about trickster creepers from a rather strange man. Halloween 2020",
+    "parent": "monumenta:trophies/events/2020/cleaning3"
+  },
+  "monumenta:trophies/events/2020/root": {
+    "title": "2020 Events",
+    "description": "Events that occurred in 2020",
+    "parent": "monumenta:trophies/root"
+  },
+  "monumenta:trophies/events/2020/winter": {
+    "title": "Not Snowman Helper",
+    "description": "You helped collect Cryospheres. Winter 2020",
+    "parent": "monumenta:trophies/events/2020/halloween"
+  },
+  "monumenta:trophies/events/2021/halloween": {
+    "title": "The Creepering",
+    "description": "You learnt a bit too much about trickster creepers from a rather strange man. Halloween 2021",
+    "parent": "monumenta:trophies/events/2021/root"
+  },
+  "monumenta:trophies/events/2021/root": {
+    "title": "2021 Events",
+    "description": "Events that occurred in 2021",
+    "parent": "monumenta:trophies/root"
+  },
+  "monumenta:trophies/events/2021/winter": {
+    "title": "Savior of the Holidays",
+    "description": "You defeated the Snow Wool Spirit as soon as it was released, saving the holidays before it was too late!",
+    "parent": "monumenta:trophies/events/2021/halloween"
+  },
+  "monumenta:trophies/events/2022/aprilfools": {
+    "title": "Lootbox Supporter",
+    "description": "April Fools!",
+    "parent": "monumenta:trophies/events/2022/valentines"
+  },
+  "monumenta:trophies/events/2022/halloween": {
+    "title": "Creeperween: The Creeper Strikes Back",
+    "description": "We're off with a bang! Halloween 2022",
+    "parent": "monumenta:trophies/events/2022/aprilfools"
+  },
+  "monumenta:trophies/events/2022/root": {
+    "title": "2022 Events",
+    "description": "Events that occurred in 2022",
+    "parent": "monumenta:trophies/root"
+  },
+  "monumenta:trophies/events/2022/snowman2solo": {
+    "title": "Winter 2022 - Solo PvE",
+    "description": "Won the Sierhaven Snowball Brawl solo against the frosty snowman armies.",
+    "parent": "monumenta:trophies/events/2022/winter"
+  },
+  "monumenta:trophies/events/2022/valentines": {
+    "title": "Valentine's Day 2022",
+    "description": "Met Zemog and Aicitrom",
+    "parent": "monumenta:trophies/events/2022/root"
+  },
+  "monumenta:trophies/events/2022/winter": {
+    "title": "Let It Snow!",
+    "description": "You experienced a true Sierhaven Christmas, and engaged in a snowball fight!",
+    "parent": "monumenta:trophies/events/2022/halloween"
+  },
+  "monumenta:trophies/events/2022/winter2": {
+    "title": "Drift Legend",
+    "description": "You were recognized as a true master of drifting in a game of Ice Spleef.",
+    "parent": "monumenta:trophies/events/2022/snowman2solo"
+  },
+  "monumenta:trophies/root": {
+    "title": "Trophies",
+    "description": "For all the amazing things you've done"
+  },
   "monumenta:quests/r1/abeastofabook": {
     "title": "A Beast of a Book",
     "description": "You learned from an expert hunter and earned your own Bestiary.",
@@ -4177,12 +3618,7 @@
   },
   "monumenta:quests/r1/acrownofmajesty": {
     "title": "A Crown of Majesty",
-    "description": "Getting three more gems for Aimee, she now has everything she needs to make a crown for King Petrus II.",
-    "parent": "monumenta:quests/r1/acrownoftopaz"
-  },
-  "monumenta:quests/r1/acrownoftopaz": {
-    "title": "A Crown of Topaz",
-    "description": "Braving the mineshaft north of Sierhaven, you got a topaz gem for Aimee to use.",
+    "description": "After assisting a jeweler named Aimee, she now has everything she needs to make a crown for King Petrus II.",
     "parent": "monumenta:quests/r1/sierhaven"
   },
   "monumenta:quests/r1/alittlespark": {
@@ -4274,6 +3710,11 @@
     "title": "Fountain of Miracles",
     "description": "You've purified the waters of the Fountain of Miracles, corrupted by dark magic from deep in the jungle.",
     "parent": "monumenta:quests/r1/farr"
+  },
+  "monumenta:quests/r1/glooperduper": {
+    "title": "Glooper Duper",
+    "description": "You helped a strange man in the Swamp find dinner.",
+    "parent": "monumenta:quests/r1/mageslegacy"
   },
   "monumenta:quests/r1/halidssong": {
     "title": "Halid's Song",
@@ -4952,6 +4393,11 @@
     "description": "Successfully finished C'Ircuit Race",
     "parent": "monumenta:speedster/bonusdungeons/bursting_bonus"
   },
+  "monumenta:speedster/bonusdungeons/shift_clicking": {
+    "title": "Speedster: Shift Clicking",
+    "description": "Successfully finished Shift Clicking Race",
+    "parent": "monumenta:speedster/bonusdungeons/circuit"
+  },
   "monumenta:speedster/bonusdungeons/silver_surfer": {
     "title": "Speedster: Silver Surfer",
     "description": "Successfully finished Silver Surfer Race",
@@ -4960,7 +4406,7 @@
   "monumenta:speedster/bonusdungeons/speed_reading": {
     "title": "Speedster: Speed Reading",
     "description": "Successfully finished Speed Reading Race",
-    "parent": "monumenta:speedster/bonusdungeons/circuit"
+    "parent": "monumenta:speedster/bonusdungeons/shift_clicking"
   },
   "monumenta:speedster/bonusdungeons/swift_alchemy": {
     "title": "Speedster: Swift Alchemy",
@@ -5347,6 +4793,46 @@
     "description": "Reached Bronze time on Coastal Curcuit Race",
     "parent": "monumenta:speedster/r3/all"
   },
+  "monumenta:speedster/r3/covenfrostress/0": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Master time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/1"
+  },
+  "monumenta:speedster/r3/covenfrostress/1": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Gold time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/2"
+  },
+  "monumenta:speedster/r3/covenfrostress/2": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Silver time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/3"
+  },
+  "monumenta:speedster/r3/covenfrostress/3": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Bronze time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/frostbitecascade/0": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Master time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/1"
+  },
+  "monumenta:speedster/r3/frostbitecascade/1": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Gold time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/2"
+  },
+  "monumenta:speedster/r3/frostbitecascade/2": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Silver time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/3"
+  },
+  "monumenta:speedster/r3/frostbitecascade/3": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Bronze time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
   "monumenta:speedster/r3/rapidascent/0": {
     "title": "Speedster: Rapid Ascent",
     "description": "Reached Master time on Rapid Ascent Race",
@@ -5365,6 +4851,46 @@
   "monumenta:speedster/r3/rapidascent/3": {
     "title": "Speedster: Rapid Ascent",
     "description": "Reached Bronze time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/0": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Master time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/1"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/1": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Gold time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/2"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/2": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Silver time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/3"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/3": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Bronze time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/skyhighbora/0": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Master time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/1"
+  },
+  "monumenta:speedster/r3/skyhighbora/1": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Gold time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/2"
+  },
+  "monumenta:speedster/r3/skyhighbora/2": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Silver time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/3"
+  },
+  "monumenta:speedster/r3/skyhighbora/3": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Bronze time on Skyhigh Bora Race",
     "parent": "monumenta:speedster/r3/all"
   },
   "monumenta:speedster/root": {
@@ -5446,158 +4972,727 @@
     "description": "Successfully finished Zoo Tour Race",
     "parent": "monumenta:speedster/wooldungeons/blood_rush"
   },
-  "monumenta:trophies/events/2017/halloween": {
-    "title": "Cured King's Valley",
-    "description": "Halloween 2017",
-    "parent": "monumenta:trophies/events/2017/root"
+  "monumenta:general/fisherman1": {
+    "title": "Fisherman I",
+    "description": "Catch 150 Fish.",
+    "parent": "monumenta:general/root"
   },
-  "monumenta:trophies/events/2017/roguelike": {
-    "title": "Patron Roguelike Event",
-    "description": "Amazing! And to think this was the day you first played it!",
-    "parent": "monumenta:trophies/events/2017/winter"
+  "monumenta:general/fisherman2": {
+    "title": "Fisherman II",
+    "description": "Catch 500 Fish.",
+    "parent": "monumenta:general/fisherman1"
   },
-  "monumenta:trophies/events/2017/root": {
-    "title": "2017 Events",
-    "description": "Events that occurred in 2017",
-    "parent": "monumenta:trophies/root"
+  "monumenta:general/fisherman3": {
+    "title": "Fisherman III",
+    "description": "Catch 1,000 Fish.",
+    "parent": "monumenta:general/fisherman2"
   },
-  "monumenta:trophies/events/2017/winter": {
-    "title": "Helped Build Nivalis' Colony",
-    "description": "Winter 2017",
-    "parent": "monumenta:trophies/events/2017/halloween"
+  "monumenta:general/fisherman4": {
+    "title": "Fisherman IV",
+    "description": "Catch 2,000 Fish.",
+    "parent": "monumenta:general/fisherman3"
   },
-  "monumenta:trophies/events/2018/knuckles": {
-    "title": "The Wae",
-    "description": "Be a true brodder. Uganda 2018",
-    "parent": "monumenta:trophies/events/2018/root"
+  "monumenta:general/fisherman5": {
+    "title": "Fisherman V",
+    "description": "Catch 5,000 Fish.",
+    "parent": "monumenta:general/fisherman4"
   },
-  "monumenta:trophies/events/2018/root": {
-    "title": "2018 Events",
-    "description": "Events that occurred in 2018",
-    "parent": "monumenta:trophies/root"
+  "monumenta:general/gluttony1": {
+    "title": "Gluttony I",
+    "description": "Eat 300 food items.",
+    "parent": "monumenta:general/root"
   },
-  "monumenta:trophies/events/2018/snowmanfight": {
-    "title": "Winter 2018",
-    "description": "Won a snowball fight against skilled snowman warriors",
-    "parent": "monumenta:trophies/events/2018/valentines"
+  "monumenta:general/gluttony2": {
+    "title": "Gluttony II",
+    "description": "Eat 1,000 food items.",
+    "parent": "monumenta:general/gluttony1"
   },
-  "monumenta:trophies/events/2018/snowmansolo": {
-    "title": "Winter 2018 - Solo PvE",
-    "description": "Won a solo snowball fight against skilled snowman warriors",
-    "parent": "monumenta:trophies/events/2018/snowmanfight"
+  "monumenta:general/gluttony3": {
+    "title": "Gluttony III",
+    "description": "Eat 2,000 food items.",
+    "parent": "monumenta:general/gluttony2"
   },
-  "monumenta:trophies/events/2018/valentines": {
-    "title": "Cloud Nine",
-    "description": "Leap through the clouds. Valentine's 2018",
-    "parent": "monumenta:trophies/events/2018/knuckles"
+  "monumenta:general/gluttony4": {
+    "title": "Gluttony IV",
+    "description": "Eat 4,000 food items.",
+    "parent": "monumenta:general/gluttony3"
   },
-  "monumenta:trophies/events/2019/getspleefed": {
-    "title": "Get Spleefed",
-    "description": "You proved that you aren't quite such a master of the spleefing arts. Winter 2019",
-    "parent": "monumenta:trophies/events/2019/halloween"
+  "monumenta:general/gluttony5": {
+    "title": "Gluttony V",
+    "description": "Eat 10,000 food items.",
+    "parent": "monumenta:general/gluttony4"
   },
-  "monumenta:trophies/events/2019/halloween": {
-    "title": "Creeper's Delight",
-    "description": "You learnt about trickster creepers from a rather strange man. Halloween 2019",
-    "parent": "monumenta:trophies/events/2019/root"
+  "monumenta:general/igor/1": {
+    "title": "Ticket Master I",
+    "description": "Purchase 100 circus tickets.",
+    "parent": "monumenta:general/root"
   },
-  "monumenta:trophies/events/2019/root": {
-    "title": "2019 Events",
-    "description": "Events that occurred in 2019",
-    "parent": "monumenta:trophies/root"
+  "monumenta:general/igor/2": {
+    "title": "Ticket Master II",
+    "description": "Purchase 250 circus tickets.",
+    "parent": "monumenta:general/igor/1"
   },
-  "monumenta:trophies/events/2019/snowmanmvp": {
-    "title": "Snowman Arena MVP",
-    "description": "You were the most valuable player in the snowman arena. Winter 2019",
-    "parent": "monumenta:trophies/events/2019/spleefchampion"
+  "monumenta:general/igor/3": {
+    "title": "Ticket Master III",
+    "description": "Purchase 500 circus tickets.",
+    "parent": "monumenta:general/igor/2"
   },
-  "monumenta:trophies/events/2019/spleefchampion": {
-    "title": "Spleef Champion",
-    "description": "You proved yourself a master of the spleefing arts. Winter 2019",
-    "parent": "monumenta:trophies/events/2019/getspleefed"
+  "monumenta:general/igor/4": {
+    "title": "Ticket Master IV",
+    "description": "Purchase 750 circus tickets.",
+    "parent": "monumenta:general/igor/3"
   },
-  "monumenta:trophies/events/2020/cleaning1": {
-    "title": "Spring Cleaning Newbie",
-    "description": "You donated 50 or more points worth of items in the Spring Cleaning event.",
-    "parent": "monumenta:trophies/events/2020/root"
+  "monumenta:general/igor/5": {
+    "title": "Ticket Master V",
+    "description": "Purchase the King's Sabatons.",
+    "parent": "monumenta:general/igor/4"
   },
-  "monumenta:trophies/events/2020/cleaning2": {
-    "title": "Spring Cleaning Amateur",
-    "description": "You donated 500 or more points worth of items in the Spring Cleaning event.",
-    "parent": "monumenta:trophies/events/2020/cleaning1"
+  "monumenta:general/intellect_crystallizer1": {
+    "title": "Intellect Crystallizer I",
+    "description": "Create the Persistent Chains.",
+    "parent": "monumenta:general/root"
   },
-  "monumenta:trophies/events/2020/cleaning3": {
-    "title": "Spring Cleaning Expert",
-    "description": "You donated 5000 or more points worth of items in the Spring Cleaning event.",
-    "parent": "monumenta:trophies/events/2020/cleaning2"
+  "monumenta:general/intellect_crystallizer2": {
+    "title": "Intellect Crystallizer II",
+    "description": "Create the Enlightened Dagger.",
+    "parent": "monumenta:general/intellect_crystallizer1"
   },
-  "monumenta:trophies/events/2020/halloween": {
-    "title": "Extra Creepy",
-    "description": "You learnt a bit more about trickster creepers from a rather strange man. Halloween 2020",
-    "parent": "monumenta:trophies/events/2020/cleaning3"
+  "monumenta:general/intellect_crystallizer3": {
+    "title": "Intellect Crystallizer III",
+    "description": "Create the Intellect Incarnate.",
+    "parent": "monumenta:general/intellect_crystallizer2"
   },
-  "monumenta:trophies/events/2020/root": {
-    "title": "2020 Events",
-    "description": "Events that occurred in 2020",
-    "parent": "monumenta:trophies/root"
+  "monumenta:general/jackpot1": {
+    "title": "Royal Jackpot!",
+    "description": "Win the King's Warden in Rock's Little Casino.",
+    "parent": "monumenta:general/root"
   },
-  "monumenta:trophies/events/2020/winter": {
-    "title": "Not Snowman Helper",
-    "description": "You helped collect Cryospheres. Winter 2020",
-    "parent": "monumenta:trophies/events/2020/halloween"
+  "monumenta:general/jackpot2": {
+    "title": "Tropical Jackpot!",
+    "description": "Win the Frost Giant's Crown in Monarch's Cozy Casino.",
+    "parent": "monumenta:general/jackpot1"
   },
-  "monumenta:trophies/events/2021/halloween": {
-    "title": "The Creepering",
-    "description": "You learnt a bit too much about trickster creepers from a rather strange man. Halloween 2021",
-    "parent": "monumenta:trophies/events/2021/root"
+  "monumenta:general/jackpot3": {
+    "title": "Shady Jackpot!",
+    "description": "Win the Grand Prize Ticket in the Sticks and Stone Tavern.",
+    "parent": "monumenta:general/jackpot2"
   },
-  "monumenta:trophies/events/2021/root": {
-    "title": "2021 Events",
-    "description": "Events that occurred in 2021",
-    "parent": "monumenta:trophies/root"
+  "monumenta:general/kings_crown": {
+    "title": "A Crowning Achievement",
+    "description": "Purchase the King's Crown.",
+    "parent": "monumenta:general/root"
   },
-  "monumenta:trophies/events/2021/winter": {
-    "title": "Savior of the Holidays",
-    "description": "You defeated the Snow Wool Spirit as soon as it was released, saving the holidays before it was too late!",
-    "parent": "monumenta:trophies/events/2021/halloween"
+  "monumenta:general/kings_dolabra": {
+    "title": "What a Tool!",
+    "description": "Purchase the King's Dolabra.",
+    "parent": "monumenta:general/kings_crown"
   },
-  "monumenta:trophies/events/2022/aprilfools": {
-    "title": "Lootbox Supporter",
-    "description": "April Fools!",
-    "parent": "monumenta:trophies/events/2022/valentines"
+  "monumenta:general/r2transmog1": {
+    "title": "Tropical Transmog I",
+    "description": "Use the Celsian Isles Transmogrifier 20 times.",
+    "parent": "monumenta:general/root"
   },
-  "monumenta:trophies/events/2022/halloween": {
-    "title": "Creeperween: The Creeper Strikes Back",
-    "description": "We're off with a bang! Halloween 2022",
-    "parent": "monumenta:trophies/events/2022/aprilfools"
+  "monumenta:general/r2transmog2": {
+    "title": "Tropical Transmog II",
+    "description": "Use the Celsian Isles Transmogrifier 50 times.",
+    "parent": "monumenta:general/r2transmog1"
   },
-  "monumenta:trophies/events/2022/root": {
-    "title": "2022 Events",
-    "description": "Events that occurred in 2022",
-    "parent": "monumenta:trophies/root"
+  "monumenta:general/r2transmog3": {
+    "title": "Tropical Transmog III",
+    "description": "Use the Celsian Isles Transmogrifier 100 times.",
+    "parent": "monumenta:general/r2transmog2"
   },
-  "monumenta:trophies/events/2022/snowman2solo": {
-    "title": "Winter 2022 - Solo PvE",
-    "description": "Won the Sierhaven Snowball Brawl solo against the frosty snowman armies.",
-    "parent": "monumenta:trophies/events/2022/winter"
+  "monumenta:general/r2transmog4": {
+    "title": "Tropical Transmog IV",
+    "description": "Use the Celsian Isles Transmogrifier 200 times.",
+    "parent": "monumenta:general/r2transmog3"
   },
-  "monumenta:trophies/events/2022/valentines": {
-    "title": "Valentine's Day 2022",
-    "description": "Met Zemog and Aicitrom",
-    "parent": "monumenta:trophies/events/2022/root"
+  "monumenta:general/r2transmog5": {
+    "title": "Tropical Transmog V",
+    "description": "Use the Celsian Isles Transmogrifier 500 times.",
+    "parent": "monumenta:general/r2transmog4"
   },
-  "monumenta:trophies/events/2022/winter": {
-    "title": "Let It Snow!",
-    "description": "You experienced a true Sierhaven Christmas, and engaged in a snowball fight!",
-    "parent": "monumenta:trophies/events/2022/halloween"
+  "monumenta:general/repair1": {
+    "title": "Repairman I",
+    "description": "Repair 20 items.",
+    "parent": "monumenta:general/root"
   },
-  "monumenta:trophies/events/2022/winter2": {
-    "title": "Drift Legend",
-    "description": "You were recognized as a true master of drifting in a game of Ice Spleef.",
-    "parent": "monumenta:trophies/events/2022/snowman2solo"
+  "monumenta:general/repair2": {
+    "title": "Repairman II",
+    "description": "Repair 50 items.",
+    "parent": "monumenta:general/repair1"
   },
-  "monumenta:trophies/root": {
-    "title": "Trophies",
-    "description": "For all the amazing things you've done"
+  "monumenta:general/repair3": {
+    "title": "Repairman III",
+    "description": "Repair 100 items.",
+    "parent": "monumenta:general/repair2"
+  },
+  "monumenta:general/repair4": {
+    "title": "Repairman IV",
+    "description": "Repair 200 items.",
+    "parent": "monumenta:general/repair3"
+  },
+  "monumenta:general/repair5": {
+    "title": "Repairman V",
+    "description": "Repair 500 items.",
+    "parent": "monumenta:general/repair4"
+  },
+  "monumenta:general/root": {
+    "title": "General Achievements",
+    "description": null
+  },
+  "monumenta:general/transmog1": {
+    "title": "Transmogrificologist I",
+    "description": "Use the Transmogrifier 20 times.",
+    "parent": "monumenta:general/root"
+  },
+  "monumenta:general/transmog2": {
+    "title": "Transmogrificologist II",
+    "description": "Use the Transmogrifier 50 times.",
+    "parent": "monumenta:general/transmog1"
+  },
+  "monumenta:general/transmog3": {
+    "title": "Transmogrificologist III",
+    "description": "Use the Transmogrifier 100 times.",
+    "parent": "monumenta:general/transmog2"
+  },
+  "monumenta:general/transmog4": {
+    "title": "Transmogrificologist IV",
+    "description": "Use the Transmogrifier 200 times.",
+    "parent": "monumenta:general/transmog3"
+  },
+  "monumenta:general/transmog5": {
+    "title": "Transmogrificologist V",
+    "description": "Use the Transmogrifier 500 times.",
+    "parent": "monumenta:general/transmog4"
+  },
+  "monumenta:general/transmog_greaves": {
+    "title": "Fancy Pants",
+    "description": "Purchase the King's Greaves",
+    "parent": "monumenta:general/transmog5"
+  },
+  "monumenta:dungeons/blue/challenge": {
+    "title": "Hycenea's Challenge",
+    "description": "You conquered the Blue Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/blue/complete"
+  },
+  "monumenta:dungeons/blue/complete": {
+    "title": "Defeat Blue Dungeon",
+    "description": "You found Hycenea in the Coven's Gambit and found the... Nevermind.",
+    "parent": "monumenta:dungeons/blue/find_quest"
+  },
+  "monumenta:dungeons/blue/find": {
+    "title": "Found Blue Dungeon",
+    "description": "Hidden within a Fortress; hidden within a prison. Hycenea's chains stay bound. POI: Coven Fortress Coordinates: -531 176 -387",
+    "parent": "monumenta:dungeons/root_r3"
+  },
+  "monumenta:dungeons/blue/find_quest": {
+    "title": "Witch in Wolf's Clothing",
+    "description": "With the forces of the Dichen and the Aradia, you raided the Coven's fortress, defeated the Council, and freed Hycenea... before Calder interrupted your victory.",
+    "parent": "monumenta:dungeons/blue/find"
+  },
+  "monumenta:dungeons/brown/challenge": {
+    "title": "Pelias' Challenge",
+    "description": "You conquered the Brown Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/brown/complete"
+  },
+  "monumenta:dungeons/brown/complete": {
+    "title": "Defeat Brown Dungeon",
+    "description": "You scrapped with the mechanations below the earth and came out victorious after navigating the Cradle.",
+    "parent": "monumenta:dungeons/brown/find_quest"
+  },
+  "monumenta:dungeons/brown/find": {
+    "title": "Found Brown Dungeon",
+    "description": "Mechanical clanking and buzzing noises spew forth from the ground. What lies deep below Pelias' folly? POI: Arx Spirensis Coordinates: -485 62 19",
+    "parent": "monumenta:dungeons/root_r3"
+  },
+  "monumenta:dungeons/brown/find_quest": {
+    "title": "Mechs Machina",
+    "description": "You launched a counter-attack following a warning from the Machine God's Herald, and found yourself at the entrance to The Cradle of the Broken God.",
+    "parent": "monumenta:dungeons/brown/find"
+  },
+  "monumenta:dungeons/cyan/challenge": {
+    "title": "Astaroth's Challenge",
+    "description": "You conquered the Cyan Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/cyan/complete"
+  },
+  "monumenta:dungeons/cyan/complete": {
+    "title": "Defeat Cyan Dungeon",
+    "description": "You fought off an ancient horror and claimed the Cyan Wool.",
+    "parent": "monumenta:dungeons/cyan/find_quest"
+  },
+  "monumenta:dungeons/cyan/find": {
+    "title": "Found Cyan Dungeon",
+    "description": "Deep below the ground lies an abandoned mineshaft, stained with secrets long forgotten. For what is a greater folly of man than the sin of greed? POI: Basanite Bore Coordinates: x=41 y=114 z=285",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/cyan/find_quest": {
+    "title": "Secrets Best Left Forgotten",
+    "description": "In an attempt to uncover the secrets of Molta's past, you unintentionally opened a path to the surface for an evil that had been sealed away.",
+    "parent": "monumenta:dungeons/cyan/find"
+  },
+  "monumenta:dungeons/depths/complete": {
+    "title": "Defeat Darkest Depths",
+    "description": "You fought back against Faimynyw's excursion into our world, and claimed powerful treasures.",
+    "parent": "monumenta:dungeons/depths/find"
+  },
+  "monumenta:dungeons/depths/find": {
+    "title": "Found Darkest Depths",
+    "description": "Far, far below the waves lies a disturbance, a tear into our world. What possibly could have caused this? Location: Breachpoint Coordinates: x=-702 y=9 z=-186",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/forum/challenge": {
+    "title": "Bhairavi's Challenge",
+    "description": "You conquered the Fallen Forum dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/forum/complete"
+  },
+  "monumenta:dungeons/forum/complete": {
+    "title": "Defeat The Fallen Forum",
+    "description": "You delved into the ruined Congress and found the truth about what occurred there.",
+    "parent": "monumenta:dungeons/forum/find_quest"
+  },
+  "monumenta:dungeons/forum/find": {
+    "title": "Found The Fallen Forum",
+    "description": "Having passed through the time itself in the ruins of the Congress, the Fallen Forum awaits. Coordinates: x=-600 y=1 z=525",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/forum/find_quest": {
+    "title": "The Olive Branch",
+    "description": "You found what the Teal Spirit was up to in the Ruins of the Congress, destroying a false wool to help free itself years ago. You destroyed the freed spirit, but Teal is still on the run.",
+    "parent": "monumenta:dungeons/forum/find"
+  },
+  "monumenta:dungeons/forum/olive": {
+    "title": "Fallen Lore-um",
+    "description": "You have scoured every corner of the Fallen Forum and collected yourself a Replica Olive Wool",
+    "parent": "monumenta:dungeons/forum/challenge"
+  },
+  "monumenta:dungeons/fred/battle_tendency": {
+    "title": "Battle Tendency",
+    "description": "You are a true master of the lore. Fred would be proud.",
+    "parent": "monumenta:dungeons/fred/find_quest2"
+  },
+  "monumenta:dungeons/fred/challenge": {
+    "title": "Fred's Challenge",
+    "description": "You conquered the Shifting City dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/fred/complete"
+  },
+  "monumenta:dungeons/fred/complete": {
+    "title": "Defeat City of Shifting Waters",
+    "description": "You explored the shifting depths of Steelmeld's undercity.",
+    "parent": "monumenta:dungeons/fred/find_quest"
+  },
+  "monumenta:dungeons/fred/find": {
+    "title": "Found City of Shifting Waters",
+    "description": "Deep below Steelmeld, sealed away by its unknown former inhabitants, lies secrets long since forgotten. POI: Steelmeld Passage Coordinates: x=-433 y=14 z=-495",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/fred/find_quest": {
+    "title": "Fred's Bizarre Adventure",
+    "description": "You assisted Fred on his journey to unlock a strange passage way leading deep below Steelmeld.",
+    "parent": "monumenta:dungeons/fred/find"
+  },
+  "monumenta:dungeons/fred/find_quest2": {
+    "title": "The Stone Ocean",
+    "description": "You assisted Fred with more research and ended up disturbing the city even further, bringing forth more dangerous rooms.",
+    "parent": "monumenta:dungeons/fred/challenge"
+  },
+  "monumenta:dungeons/gray/cake": {
+    "title": "Cake?",
+    "description": "You discovered the true treasure within the Valley of Forgotten Pharaohs.",
+    "parent": "monumenta:dungeons/gray/challenge"
+  },
+  "monumenta:dungeons/gray/challenge": {
+    "title": "Hekawt's Challenge",
+    "description": "You conquered the Gray Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/gray/complete"
+  },
+  "monumenta:dungeons/gray/complete": {
+    "title": "Defeat Gray Dungeon",
+    "description": "You excavated the lost city of Al Malakut and claimed the Gray Wool.",
+    "parent": "monumenta:dungeons/gray/find_quest"
+  },
+  "monumenta:dungeons/gray/find": {
+    "title": "Found Gray Dungeon",
+    "description": "What would force a kingdom to lock off their capital? Al Malakut awaits its rediscovery. POI: Lost Sands City Coordinates: x=239 y=66 z=394",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/gray/find_quest": {
+    "title": "The Gem of Ishnir",
+    "description": "You discoved the tomb of Tehkma Ka and found the lost city of Al Malakut.",
+    "parent": "monumenta:dungeons/gray/find"
+  },
+  "monumenta:dungeons/labs/complete": {
+    "title": "Defeat Alchemy Labs Dungeon",
+    "description": "You removed the explosives, defeated the bandits, and came away a stronger warrior.",
+    "parent": "monumenta:dungeons/labs/find_quest"
+  },
+  "monumenta:dungeons/labs/find": {
+    "title": "Found Alchemy Labs Dungeon",
+    "description": "Ahead lies the Alchemy Labs, bandits, and their cache of explosives. City: Sierhaven Coordinates: x=-748 y=95 z=-87",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/labs/find_quest": {
+    "title": "Prologue : Alchemy Labs",
+    "description": "You volunteered to take on bandits threatening to destroy the capital's Alchemy Labs.",
+    "parent": "monumenta:dungeons/labs/find"
+  },
+  "monumenta:dungeons/light_blue/challenge": {
+    "title": "Argone Challenge",
+    "description": "You conquered the Light Blue Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/light_blue/complete"
+  },
+  "monumenta:dungeons/light_blue/complete": {
+    "title": "Defeat Light Blue Dungeon",
+    "description": "Neither the Mages above nor the Alchemists below held power over you, as you claimed the Light Blue Wool.",
+    "parent": "monumenta:dungeons/light_blue/find_quest"
+  },
+  "monumenta:dungeons/light_blue/exalted": {
+    "title": "Exalted Light Blue Dungeon",
+    "description": "You conquered the Light Blue Wool dungeon's Exalted mode!",
+    "parent": "monumenta:dungeons/light_blue/challenge"
+  },
+  "monumenta:dungeons/light_blue/find": {
+    "title": "Found Light Blue Dungeon",
+    "description": "There must be secrets hiding within this ancient place. POI: Creeper Farm Coordinates: x=797 y=174 z=-317",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/light_blue/find_quest": {
+    "title": "Scars of Magic",
+    "description": "In your continued search for Ignos, you stumbled upon a secret of the Axtans that was best lost to time.",
+    "parent": "monumenta:dungeons/light_blue/find"
+  },
+  "monumenta:dungeons/light_gray/challenge": {
+    "title": "Alutana's Challenge",
+    "description": "You conquered the Light Gray Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/light_gray/complete"
+  },
+  "monumenta:dungeons/light_gray/complete": {
+    "title": "Defeat Light Gray Dungeon",
+    "description": "You ventured deep inside the Palace of Mirrors and saw what no others could: the Light Gray Wool.",
+    "parent": "monumenta:dungeons/light_gray/find_quest"
+  },
+  "monumenta:dungeons/light_gray/find": {
+    "title": "Found Light Gray Dungeon",
+    "description": "Hidden within a citadel; hidden within a mirror. Alutana's palace stands strong. POI: Whitecliffe Citadel Coordinates: x=-1605 y=129 z=3",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/light_gray/find_quest": {
+    "title": "Mirrored Egos",
+    "description": "Resolving the battle of light and darkness, now only their eclipse stands in your way.",
+    "parent": "monumenta:dungeons/light_gray/find"
+  },
+  "monumenta:dungeons/lime/challenge": {
+    "title": "Salazar's Challenge",
+    "description": "You conquered the Lime Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/lime/complete"
+  },
+  "monumenta:dungeons/lime/complete": {
+    "title": "Defeat Lime Dungeon",
+    "description": "You ventured through the lost empire of Viridia and claimed the Lime Wool.",
+    "parent": "monumenta:dungeons/lime/find_quest"
+  },
+  "monumenta:dungeons/lime/find": {
+    "title": "Found Lime Dungeon",
+    "description": "Before you stands an empire lost to time, independent of Ishnir and Chillwind. What secrets from the distant past lie within? POI: Bastion at Sea Coordinates: x=-551 y=40 z=703",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/lime/find_quest": {
+    "title": "The Lost Empire",
+    "description": "You had an unexpected run-in with Xeno and discovered the lost empire of Viridia.",
+    "parent": "monumenta:dungeons/lime/find"
+  },
+  "monumenta:dungeons/magenta/challenge": {
+    "title": "Myrahg's Challenge",
+    "description": "You conquered the Magenta Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/magenta/complete"
+  },
+  "monumenta:dungeons/magenta/complete": {
+    "title": "Defeat Magenta Dungeon",
+    "description": "You found what the ancient temple was defending - the Magenta Wool.",
+    "parent": "monumenta:dungeons/magenta/find_quest"
+  },
+  "monumenta:dungeons/magenta/exalted": {
+    "title": "Exalted Magenta Dungeon",
+    "description": "You conquered the Magenta Wool dungeon's Exalted mode!",
+    "parent": "monumenta:dungeons/magenta/challenge"
+  },
+  "monumenta:dungeons/magenta/find": {
+    "title": "Found Magenta Dungeon",
+    "description": "From the depths, you can feel a sickness pouring. What lies below? POI: Grand Maw Coordinates: x=350 y=71 z=82",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/magenta/find_quest": {
+    "title": "Roots of the Plague",
+    "description": "You restored the power of the Grand Maw and found a way inside a dungeon.",
+    "parent": "monumenta:dungeons/magenta/find"
+  },
+  "monumenta:dungeons/orange/challenge": {
+    "title": "Ixume's Challenge",
+    "description": "You conquered the Orange Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/orange/complete"
+  },
+  "monumenta:dungeons/orange/complete": {
+    "title": "Defeat Orange Dungeon",
+    "description": "You claimed the Orange Wool, overcoming the experimented beastmen within the Menagerie.",
+    "parent": "monumenta:dungeons/orange/find_quest"
+  },
+  "monumenta:dungeons/orange/exalted": {
+    "title": "Exalted Orange Dungeon",
+    "description": "You conquered the Orange Wool dungeon's Exalted mode!",
+    "parent": "monumenta:dungeons/orange/challenge"
+  },
+  "monumenta:dungeons/orange/find": {
+    "title": "Found Orange Dungeon",
+    "description": "You discovered a lost outpost of the Tlaxans, hiding more than just loot... POI: Abandoned Tunnels Coordinates: x=109 y=79 z=143",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/orange/find_quest": {
+    "title": "Beasts of Men",
+    "description": "You made your way through C'Zanil's crypt and found a way inside a dungeon.",
+    "parent": "monumenta:dungeons/orange/find"
+  },
+  "monumenta:dungeons/pink/challenge": {
+    "title": "Ymmodae's Challenge",
+    "description": "You conquered the Pink Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/pink/complete"
+  },
+  "monumenta:dungeons/pink/complete": {
+    "title": "Defeat Pink Dungeon",
+    "description": "You journeyed through a twisted world of demons and claimed the Pink Wool.",
+    "parent": "monumenta:dungeons/pink/find_quest"
+  },
+  "monumenta:dungeons/pink/find": {
+    "title": "Found Pink Dungeon",
+    "description": "Seasons bend and twist rapidly here. Deep in this dungeon lies a dark secret, do you dare seek it out? POI: Sealed Descent Coordinates: x=-1098 y=116 z=680",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/pink/find_quest": {
+    "title": "Harmonic Convergence",
+    "description": "You attuned yourself to the four seasonal shrines and discovered the Harmonic Arboretum.",
+    "parent": "monumenta:dungeons/pink/find"
+  },
+  "monumenta:dungeons/pink/rootstrike": {
+    "title": "Created Rootstrike",
+    "description": "You created Rootstrike, the sword of nobles.",
+    "parent": "monumenta:dungeons/pink/challenge"
+  },
+  "monumenta:dungeons/purple/challenge": {
+    "title": "Varcosa's Challenge",
+    "description": "You conquered the Purple Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/purple/complete"
+  },
+  "monumenta:dungeons/purple/complete": {
+    "title": "Defeat Purple Dungeon",
+    "description": "Below Corsair's Claw, you learned the truth about the final voyage of the Pirate King Varcosa.",
+    "parent": "monumenta:dungeons/purple/find_quest"
+  },
+  "monumenta:dungeons/purple/find": {
+    "title": "Found Purple Dungeon",
+    "description": "Below the mythical island of Corsair's Claw, the legendary pirate Varcosa awaits you. POI: Corsair's Claw Coordinates: x=551 y=81 z=1405",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/purple/find_quest": {
+    "title": "Rapacity",
+    "description": "Seeking out the final fate of Salazar the Great, you discovered the mythical island of Corsair's Claw.",
+    "parent": "monumenta:dungeons/purple/find"
+  },
+  "monumenta:dungeons/r1bonus/challenge": {
+    "title": "Ezariah's Challenge",
+    "description": "You conquered the Black Willows dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/r1bonus/complete"
+  },
+  "monumenta:dungeons/r1bonus/complete": {
+    "title": "Defeat The Black Willows",
+    "description": "The Willows, once guarded by a mysterious barrier, now lie defeated before you.",
+    "parent": "monumenta:dungeons/r1bonus/find_quest"
+  },
+  "monumenta:dungeons/r1bonus/exalted": {
+    "title": "Exalted Black Willows Dungeon",
+    "description": "You conquered the Black Willows dungeon's Exalted mode!",
+    "parent": "monumenta:dungeons/r1bonus/challenge"
+  },
+  "monumenta:dungeons/r1bonus/find": {
+    "title": "Found The Black Willows",
+    "description": "A lost grove stretches before you, filled with riches. POI: Cave of Secrets Coordinates: x=458 y=74 z=-103",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/r1bonus/find_quest": {
+    "title": "The Staff",
+    "description": "Following a note, you took a staff to four shrines and found a new dungeon.",
+    "parent": "monumenta:dungeons/r1bonus/find"
+  },
+  "monumenta:dungeons/r1bonus/find_quest2": {
+    "title": "The Staff?",
+    "description": "Following a new trail, you took the elemental staff to four amplified shrines and found a Delve.",
+    "parent": "monumenta:dungeons/r1bonus/challenge"
+  },
+  "monumenta:dungeons/reverie/challenge": {
+    "title": "Kaul's Challenge",
+    "description": "You conquered the Malevolent Reverie dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/reverie/complete"
+  },
+  "monumenta:dungeons/reverie/complete": {
+    "title": "Defeat Malevolent Reverie",
+    "description": "You defeated Kaul, saved the Narsens, and left victorious.",
+    "parent": "monumenta:dungeons/reverie/find"
+  },
+  "monumenta:dungeons/reverie/find": {
+    "title": "Found Malevolent Reverie",
+    "description": "One man's dream is the Narsens' nightmare. POI: Verdant Fortress? Coordinates: x=916 y=106 z=182",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/reverie/find_quest2": {
+    "title": "Crystal Visions",
+    "description": "With the help of former Shaman Nai, you re-entered the dream and learned more about the nature of the Genius Loci- and angered Kaul yet again.",
+    "parent": "monumenta:dungeons/reverie/challenge"
+  },
+  "monumenta:dungeons/roguelike/complete": {
+    "title": "Defeat Practice Ephemeral Corridors",
+    "description": "You discovered one of the many treasures of the Ephemeral Corridors, and many more remain hidden in its depths.",
+    "parent": "monumenta:dungeons/roguelike/find"
+  },
+  "monumenta:dungeons/roguelike/completeclassic": {
+    "title": "Defeat Fullwipe Ephemeral Corridors",
+    "description": "You discovered yet another of the many treasures of the Ephemeral Corridors, but could more remain hidden in its depths still?",
+    "parent": "monumenta:dungeons/roguelike/completehard"
+  },
+  "monumenta:dungeons/roguelike/completehard": {
+    "title": "Defeat Standard Ephemeral Corridors",
+    "description": "You discovered another one of the many treasures of the Ephemeral Corridors, but still more remain hidden in its depths.",
+    "parent": "monumenta:dungeons/roguelike/complete"
+  },
+  "monumenta:dungeons/roguelike/find": {
+    "title": "Found Ephemeral Corridors Dungeon",
+    "description": "You find a maze of twisty little passages, all alike. POI: Anthill Coordinates: x=819 y=110 z=209",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/root": {
+    "title": "Dungeons",
+    "description": null
+  },
+  "monumenta:dungeons/root_r1": {
+    "title": "King's Valley Dungeons",
+    "description": "Dungeons you will find throughout the King's Valley region.",
+    "parent": "monumenta:dungeons/root"
+  },
+  "monumenta:dungeons/root_r2": {
+    "title": "Celsian Isles Dungeons",
+    "description": "Dungeons you will find throughout the Celsian Isles region.",
+    "parent": "monumenta:dungeons/root"
+  },
+  "monumenta:dungeons/root_r3": {
+    "title": "Architect's Ring Dungeons",
+    "description": "Dungeons you will find throughout the Architect's Ring region.",
+    "parent": "monumenta:dungeons/root"
+  },
+  "monumenta:dungeons/sanctum/find_quest": {
+    "title": "Shurima's Big Day Off",
+    "description": "What started as a silly request for chores soon led you down a path to the Forsworn Sanctum.",
+    "parent": "monumenta:quests/r1/theeldersscrolls"
+  },
+  "monumenta:dungeons/skt/complete": {
+    "title": "Defeated SKT (Story Mode)",
+    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit.",
+    "parent": "monumenta:dungeons/skt/find_quest"
+  },
+  "monumenta:dungeons/skt/complete_normal": {
+    "title": "Defeated SKT (Normal Mode)",
+    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit.",
+    "parent": "monumenta:dungeons/skt/complete"
+  },
+  "monumenta:dungeons/skt/complete_savage": {
+    "title": "Defeated SKT (Savage Mode)",
+    "description": "You battled through the reawakened defenses of Isharist and recontained the Teal Wool Spirit.",
+    "parent": "monumenta:dungeons/skt/complete_normal"
+  },
+  "monumenta:dungeons/skt/find": {
+    "title": "Found the Silver Knight's Tomb",
+    "description": "Before you stands a gate, leading deep into the surviving ruins of Isharist. The Teal Spirit waits within... Coordinates: x=-1530 y=9 z=1702",
+    "parent": "monumenta:dungeons/root_r3"
+  },
+  "monumenta:dungeons/skt/find_quest": {
+    "title": "The Tomb of Time",
+    "description": "You followed the Teal Wool Spirit into the depths of the earth and recontained it inside the ruins of Isharist... and found a new region.",
+    "parent": "monumenta:dungeons/skt/find"
+  },
+  "monumenta:dungeons/skt/secret": {
+    "title": "Shifting Realities",
+    "description": "You unlocked the memories that fade through the threads of reality.",
+    "parent": "monumenta:dungeons/skt/complete_savage"
+  },
+  "monumenta:dungeons/teal/challenge": {
+    "title": "Max's Challenge",
+    "description": "You conquered the Teal Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/teal/complete"
+  },
+  "monumenta:dungeons/teal/complete": {
+    "title": "Defeat Echoes of Oblivion",
+    "description": "After defying the laws of time itself, you witnessed a Wool disappear from this world.",
+    "parent": "monumenta:dungeons/teal/find_quest"
+  },
+  "monumenta:dungeons/teal/find": {
+    "title": "Found Echoes of Oblivion",
+    "description": "Having passed through the Sacrarium of Aeons, a strange place lost to time now sits before you. POI: Sacrarium of Aeons Coordinates: x=-860 y=32 z=-450",
+    "parent": "monumenta:dungeons/root_r2"
+  },
+  "monumenta:dungeons/teal/find_quest": {
+    "title": "Unmasked",
+    "description": "After traveling through the lost empire of Isharist, the man you traveled with, Max, held a dark secret.",
+    "parent": "monumenta:dungeons/teal/find"
+  },
+  "monumenta:dungeons/teal/hour": {
+    "title": "Man of the Hour",
+    "description": "You collected all Time Crystals without falling into the void once. Wonderful job!",
+    "parent": "monumenta:dungeons/teal/challenge"
+  },
+  "monumenta:dungeons/white/challenge": {
+    "title": "Quetzalcoatl's Challenge",
+    "description": "You conquered the White Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/white/complete"
+  },
+  "monumenta:dungeons/white/complete": {
+    "title": "Defeat White Dungeon",
+    "description": "You defeated the guardians of Quetzalcoatl, claiming the White Wool.",
+    "parent": "monumenta:dungeons/white/find_quest"
+  },
+  "monumenta:dungeons/white/exalted": {
+    "title": "Exalted White Dungeon",
+    "description": "You conquered the White Wool dungeon's Exalted mode!",
+    "parent": "monumenta:dungeons/white/challenge"
+  },
+  "monumenta:dungeons/white/find": {
+    "title": "Found White Dungeon",
+    "description": "Before you lies the ancient sacrificial temple to a lost god... POI: Tlaxan Ziggurat Coordinates: x=215 y=125 z=-109",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/white/find_quest": {
+    "title": "Winds of War",
+    "description": "You broke a powerful curse over the Blackroot Battlefield and found a way inside a dungeon.",
+    "parent": "monumenta:dungeons/white/find"
+  },
+  "monumenta:dungeons/yellow/challenge": {
+    "title": "Deva's Challenge",
+    "description": "You conquered the Yellow Wool dungeon under Challenge Delve conditions!",
+    "parent": "monumenta:dungeons/yellow/complete"
+  },
+  "monumenta:dungeons/yellow/complete": {
+    "title": "Defeat Yellow Dungeon",
+    "description": "The seasons overcome, now Kaul's power is released, but the Yellow Wool is now yours.",
+    "parent": "monumenta:dungeons/yellow/find_quest"
+  },
+  "monumenta:dungeons/yellow/exalted": {
+    "title": "Exalted Yellow Dungeon",
+    "description": "You conquered the Yellow Wool dungeon's Exalted mode!",
+    "parent": "monumenta:dungeons/yellow/challenge"
+  },
+  "monumenta:dungeons/yellow/find": {
+    "title": "Found Yellow Dungeon",
+    "description": "The seasons rage before you, a curse on the Sons of the Forest. Can you overcome them? POI: Cursed Forest Coordinates: x=1100 y=104 z=60",
+    "parent": "monumenta:dungeons/root_r1"
+  },
+  "monumenta:dungeons/yellow/find_quest": {
+    "title": "Soul of the Forest",
+    "description": "You reclaimed the ancient relic from the Sons of the Forest and have given Highwatch an opportunity to attack Verdant Fortress.",
+    "parent": "monumenta:dungeons/yellow/find"
   }
 }

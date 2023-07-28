@@ -24642,12 +24642,8 @@
     "name": "Topaz Cap",
     "base_item": "Leather Helmet",
     "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 3,
-      "armor": 1,
-      "max_health_flat": 2
-    }
+    "type": "Misc",
+    "stats": {}
   },
   "Ponderous Helmet": {
     "location": "Arena of Terth",
@@ -34625,6 +34621,19 @@
     },
     "lore": "When the wind, the fire, and all is gone,\ncaress me with your sweet lullaby..."
   },
+  "Giant Armor": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Giant Armor",
+    "base_item": "Golden Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Become unstoppable."
+  },
   "Indomitable": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -35044,6 +35053,19 @@
       "armor": 7
     },
     "lore": "Ransacking and defiling our temples... Is\nnothing sacred to these sea rats?"
+  },
+  "Giant Sabatons": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Giant Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Become unstoppable."
   },
   "Blackflame Solleret": {
     "location": "Remorseful Skin",
@@ -38206,6 +38228,25 @@
     },
     "lore": "The leaves dance in golden hues, giving\nway to the chill's serene blues."
   },
+  "Spectral Cloak": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Spectral Cloak",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "curse_of_crippling": 2,
+      "evasion": 1,
+      "unbreaking": 5,
+      "agility": 6,
+      "max_health_flat": 2,
+      "magic_damage_percent": 10,
+      "projectile_damage_percent": 10
+    },
+    "lore": "Eyes serve no purpose in this realm. Only those\nwho seek from within will find guidance."
+  },
   "Heart of C'Axtal": {
     "location": "Reverie",
     "region": "Valley",
@@ -40533,6 +40574,23 @@
     },
     "lore": "Crafted from a strange metal, mostly\nunseen in the Valley."
   },
+  "Spectral Loincloth": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Spectral Loincloth",
+    "base_item": "Chainmail Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "life_drain": 2,
+      "unbreaking": 4,
+      "armor": 5,
+      "attack_speed_percent": 15,
+      "attack_damage_percent": 15
+    },
+    "lore": "Broken and separated from reality.\nA floating presence.\nTreading along a shattered path."
+  },
   "Folly of C'Axtal": {
     "location": "Reverie",
     "region": "Valley",
@@ -41375,6 +41433,19 @@
       "speed_percent": 20
     },
     "lore": "They say he never stopped putting\nroses on things..."
+  },
+  "Giant Leggings": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Giant Leggings",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Become unstoppable."
   },
   "Pyrrhic Greaves": {
     "location": "Depths",
@@ -44077,6 +44148,19 @@
       "agility": 4
     },
     "lore": "The chime swirls with flowing water,\nplaying a soft melody."
+  },
+  "Giant Gauntlet": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Giant Gauntlet",
+    "base_item": "Gold Nugget",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Become unstoppable."
   },
   "Hollow Chime": {
     "location": "Isles Overworld",
@@ -52258,11 +52342,11 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Pressure Gauntlet",
-    "power": 1,
+    "power": 3,
     "base_item": "Copper Ingot",
     "release_status": "public",
     "stats": {
-      "brute_force_knockback_percent": 50,
+      "brute_force_wave_delay_percent": -70,
       "brute_force_radius_percent": 25
     },
     "type": "Charm",
@@ -54512,11 +54596,12 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Barbed Spore Pouch",
-    "power": 3,
+    "power": 2,
     "base_item": "Bowl",
     "release_status": "public",
     "stats": {
-      "counter_strike_radius_percent": 200
+      "counter_strike_absorption_flat": 1,
+      "counter_strike_absorption_duration_percent": -50
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -60618,8 +60703,8 @@
     "base_item": "Cactus",
     "release_status": "public",
     "stats": {
-      "counter_strike_damage_percent": 15,
-      "counter_strike_radius_percent": 50
+      "counter_strike_damage_modifier_percent": 5,
+      "counter_strike_absorption_duration_flat": 2
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -60633,7 +60718,7 @@
     "base_item": "Cactus",
     "release_status": "public",
     "stats": {
-      "counter_strike_damage_percent": 10
+      "counter_strike_damage_modifier_percent": 5
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -60647,7 +60732,7 @@
     "base_item": "Cactus",
     "release_status": "public",
     "stats": {
-      "counter_strike_damage_percent": 20
+      "counter_strike_damage_modifier_percent": 15
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -60661,7 +60746,7 @@
     "base_item": "Cactus",
     "release_status": "public",
     "stats": {
-      "counter_strike_damage_percent": 35
+      "counter_strike_damage_modifier_percent": 25
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -60952,10 +61037,10 @@
     "base_item": "Pointed Dripstone",
     "release_status": "public",
     "stats": {
+      "counter_strike_damage_modifier_percent": 10,
+      "counter_strike_damage_reduction_percent": 5,
       "brute_force_damage_percent": 30,
-      "counter_strike_damage_percent": 15,
-      "brute_force_radius_percent": 25,
-      "counter_strike_radius_percent": 25
+      "brute_force_radius_percent": 25
     },
     "type": "Charm",
     "class_name": "Warrior"

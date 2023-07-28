@@ -144,6 +144,11 @@
     "description": "When under 50% health, your damage and movement speed is reduced by 10% per level.",
     "category": "Curses"
   },
+  "cumbersome": {
+    "name": "Cumbersome",
+    "description": "Critical attacks deal normal damage instead. Abilities that require critical attacks can still be activated with a critical attack.",
+    "category": "Curses"
+  },
   "curses": {
     "name": "Curses",
     "description": "Curses that cause negative effects. Be careful!",
@@ -376,7 +381,7 @@
   },
   "inure": {
     "name": "Inure",
-    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic). Breaking inure by taking a different type of damage will give half the bonus for 1 hit.",
+    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic). Breaking Inure by taking a different type of damage will give half the bonus for 1 hit.",
     "category": "Defenses"
   },
   "irreparability": {
@@ -461,7 +466,7 @@
   },
   "multitool": {
     "name": "Multitool",
-    "description": "Allows a tool to change shape when you right-click with it. Level I lets it to cycle between a shovel and an axe. Level II additionally lets it cycle to being a pickaxe.",
+    "description": "Allows a tool to change shape when you right-click with it. Level I lets it to cycle between a shovel and an axe, or a compass and shears, depending on the item. Level II additionally lets it cycle to being a pickaxe.",
     "category": "Tools and Utility"
   },
   "natant": {
