@@ -179,6 +179,14 @@
     "stats": {},
     "lore": "A razor sharp claw with a key embedded inside."
   },
+  "Eternal Power Crystal": {
+    "name": "Eternal Power Crystal",
+    "base_item": "Quartz",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An attachment for the Perfect Crystallizer\nthat permanently allows it to convert\nKing's Valley T5 items into pulsating dust fragments.\nConsumed by left clicking in mainhand.\nConsuming this item cannot be undone!"
+  },
   "Adventurer's Crystal": {
     "location": "King's Valley",
     "region": "Valley",
@@ -297,6 +305,14 @@
       "material": 1
     },
     "lore": "A replica of a cross-shaped crystal\ncontaining the essence of all things."
+  },
+  "Eternal Magma Crystal": {
+    "name": "Eternal Magma Crystal",
+    "base_item": "Quartz",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An attachment for the Perfect Crystallizer\nthat permanently allows it to convert\nCelsian Isles T5 items into pulsating powder fragments.\nConsumed by left clicking in mainhand.\nConsuming this item cannot be undone!"
   },
   "Shard of Remorse": {
     "location": "Remorse",
@@ -1305,7 +1321,7 @@
       "depth_strider": 2,
       "gills": 1,
       "attack_damage_percent": 10,
-      "agility": 7.5
+      "agility": 8
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -1324,7 +1340,7 @@
       "depth_strider": 3,
       "gills": 1,
       "attack_damage_percent": 15,
-      "agility": 8
+      "agility": 9
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -1340,10 +1356,10 @@
     "stats": {
       "abyssal": 3,
       "aqua_affinity": 1,
-      "depth_strider": 2,
+      "depth_strider": 3,
       "gills": 1,
       "attack_damage_percent": 15,
-      "agility": 7.5
+      "agility": 8
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -1361,7 +1377,7 @@
       "gills": 1,
       "magic_protection": 3,
       "projectile_protection": 3,
-      "armor": 7.5
+      "armor": 8
     },
     "lore": "Even the Shamans fell to the sickness."
   },
@@ -1379,7 +1395,7 @@
       "gills": 1,
       "magic_protection": 4,
       "projectile_protection": 4,
-      "armor": 8
+      "armor": 8.5
     },
     "lore": "Even the Shamans fell to the sickness."
   },
@@ -1397,7 +1413,7 @@
       "gills": 1,
       "magic_protection": 4,
       "projectile_protection": 3,
-      "armor": 7.5
+      "armor": 8
     },
     "lore": "Even the Shamans fell to the sickness."
   },
@@ -3979,6 +3995,23 @@
     },
     "lore": "As the remnants of the Tlaxan stood upon\nEkah's realm, they gazed outwards at\nthe majesty of the jungle, which has\nlong since abandoned them."
   },
+  "Spectral Halberd": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Spectral Halberd",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "life_drain": 1,
+      "smite": 3,
+      "unbreaking": 7,
+      "attack_damage_base": 15.5,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Past their shadows, there lies only\neternity and fathomless beings, not\nany semblance of truth."
+  },
   "Dreadful Crusher": {
     "location": "Challenger",
     "region": "Valley",
@@ -5824,7 +5857,7 @@
       "regicide": 1,
       "unbreaking": 20,
       "magic_damage_percent": 5,
-      "armor": 7
+      "armor": 7.5
     },
     "lore": "One ancient force of the Coven was lost to\nthe Deep countless years ago. Yet this faded\nregalia still bears her sigil. Strange."
   },
@@ -5843,7 +5876,7 @@
       "regicide": 1,
       "unbreaking": 30,
       "magic_damage_percent": 5,
-      "armor": 8
+      "armor": 8.5
     },
     "lore": "One ancient force of the Coven was lost to\nthe Deep countless years ago. Yet this faded\nregalia still bears her sigil. Strange."
   },
@@ -5862,7 +5895,7 @@
       "regicide": 1,
       "unbreaking": 25,
       "magic_damage_percent": 5,
-      "armor": 8
+      "armor": 8.5
     },
     "lore": "One ancient force of the Coven was lost to\nthe Deep countless years ago. Yet this faded\nregalia still bears her sigil. Strange."
   },
@@ -8260,8 +8293,8 @@
       "point_blank": 3,
       "unbreaking": 1,
       "projectile_speed_base": 0.8,
-      "throw_rate_base": 1,
-      "projectile_damage_base": 23
+      "throw_rate_base": 0.9,
+      "projectile_damage_base": 23.5
     }
   },
   "Fungal Spear": {
@@ -8276,8 +8309,8 @@
       "point_blank": 2,
       "unbreaking": 1,
       "projectile_speed_base": 0.8,
-      "throw_rate_base": 1,
-      "projectile_damage_base": 20
+      "throw_rate_base": 0.8,
+      "projectile_damage_base": 21
     }
   },
   "Tuathan Trident": {
@@ -8293,7 +8326,7 @@
       "unbreaking": 2,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 23
     }
   },
   "Twisted Pike-0": {
@@ -8330,7 +8363,7 @@
       "unbreaking": 5,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.7,
-      "projectile_damage_base": 14
+      "projectile_damage_base": 14.5
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -8349,7 +8382,7 @@
       "unbreaking": 6,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.8,
-      "projectile_damage_base": 14.5
+      "projectile_damage_base": 15.5
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -8368,7 +8401,7 @@
       "unbreaking": 5,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.7,
-      "projectile_damage_base": 14.5
+      "projectile_damage_base": 15
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -8383,12 +8416,12 @@
     "type": "Trident",
     "stats": {
       "abyssal": 1,
-      "earth_aspect": 1,
-      "ice_aspect": 1,
+      "earth_aspect": 2,
       "riptide": 2,
-      "unbreaking": 4,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 19.5
+      "unbreaking": 6,
+      "attack_speed_base": 1.2,
+      "knockback_resistance_flat": 3,
+      "attack_damage_base": 15.5
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -8403,12 +8436,12 @@
     "type": "Trident",
     "stats": {
       "abyssal": 1,
-      "earth_aspect": 1,
-      "ice_aspect": 1,
+      "earth_aspect": 2,
       "riptide": 2,
-      "unbreaking": 5,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 20
+      "unbreaking": 6,
+      "attack_speed_base": 1.2,
+      "knockback_resistance_flat": 4,
+      "attack_damage_base": 16
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -8423,12 +8456,12 @@
     "type": "Trident",
     "stats": {
       "abyssal": 1,
-      "earth_aspect": 1,
-      "ice_aspect": 1,
+      "earth_aspect": 2,
       "riptide": 2,
       "unbreaking": 6,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 20.5
+      "attack_damage_base": 16.5,
+      "attack_speed_base": 1.2,
+      "knockback_resistance_flat": 4
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -8447,7 +8480,7 @@
       "wind_aspect": 2,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 0.8,
-      "projectile_damage_base": 29
+      "projectile_damage_base": 30.5
     },
     "lore": "The great storm of the Silvari empire\nwould end here. Smothered and drowned\nin these watery depths."
   },
@@ -8466,7 +8499,7 @@
       "wind_aspect": 2,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 0.8,
-      "projectile_damage_base": 29.5
+      "projectile_damage_base": 31
     },
     "lore": "The great storm of the Silvari empire\nwould end here. Smothered and drowned\nin these watery depths."
   },
@@ -8485,7 +8518,7 @@
       "wind_aspect": 2,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 0.8,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 30
     },
     "lore": "The great storm of the Silvari empire\nwould end here. Smothered and drowned\nin these watery depths."
   },
@@ -8504,7 +8537,7 @@
       "wind_aspect": 2,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 0.8,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 29.5
     },
     "lore": "The great storm of the Silvari empire\nwould end here. Smothered and drowned\nin these watery depths."
   },
@@ -15426,7 +15459,7 @@
       "thunder_aspect": 2,
       "projectile_speed_base": 1,
       "throw_rate_base": 0.5,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20
     },
     "lore": "Mana courses through the otherwise unassuming\nhunk of steel. Perhaps Bermuda's failures\ncould be just as useful as her successes."
   },
@@ -15446,7 +15479,7 @@
       "thunder_aspect": 2,
       "projectile_speed_base": 1,
       "throw_rate_base": 0.5,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 20.5
     },
     "lore": "Mana courses through the otherwise unassuming\nhunk of steel. Perhaps Bermuda's failures\ncould be just as useful as her successes."
   },
@@ -15460,12 +15493,11 @@
     "release_status": "public",
     "type": "Snowball",
     "stats": {
-      "decay": 5,
       "infinity": 1,
-      "sniper": 3,
+      "thunder_aspect": 2,
       "projectile_speed_base": 2,
-      "throw_rate_base": 1.5,
-      "projectile_damage_base": 2.5
+      "throw_rate_base": 2,
+      "projectile_damage_base": 10
     },
     "lore": "With the right amount of control, a\nsimple screwdriver can become an\nincredibly deadly weapon."
   },
@@ -15479,13 +15511,11 @@
     "release_status": "public",
     "type": "Snowball",
     "stats": {
-      "decay": 6,
       "infinity": 1,
-      "sniper": 4,
+      "thunder_aspect": 2,
       "projectile_speed_base": 2,
-      "throw_rate_base": 1.5,
-      "speed_percent": 5,
-      "projectile_damage_base": 3
+      "throw_rate_base": 2,
+      "projectile_damage_base": 10.5
     },
     "lore": "With the right amount of control, a\nsimple screwdriver can become an\nincredibly deadly weapon."
   },
@@ -15618,12 +15648,13 @@
     "type": "Mainhand Sword",
     "stats": {
       "abyssal": 2,
+      "cumbersome": 1,
       "mending": 1,
       "sweeping_edge": 3,
       "thunder_aspect": 3,
       "unbreaking": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 11
+      "attack_damage_base": 15
     },
     "lore": "Tavern tales in Mistport speak of a storm that\nappears once a century. They say the sea will\nthirst for blood, and not even a ghost ship\ncould escape Her calls."
   },
@@ -15655,7 +15686,7 @@
     "stats": {
       "knockback": 2,
       "slayer": 4,
-      "unbreaking": 7,
+      "unbreaking": 20,
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     },
@@ -17041,6 +17072,7 @@
       "mending": 1,
       "quake": 2,
       "two_handed": 1,
+      "unbreaking": 1,
       "attack_damage_base": 9,
       "attack_speed_base": 1.8
     },
@@ -17772,7 +17804,7 @@
       "duelist": 1,
       "unbreaking": 2,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 18
+      "attack_damage_base": 17
     }
   },
   "Witch's Bane": {
@@ -17787,7 +17819,7 @@
       "duelist": 1,
       "unbreaking": 3,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 17
+      "attack_damage_base": 18
     }
   },
   "Tactician's Axe-3": {
@@ -17989,7 +18021,7 @@
     "type": "Axe",
     "stats": {
       "thunder_aspect": 1,
-      "unbreaking": 5,
+      "unbreaking": 6,
       "speed_percent": 15,
       "attack_damage_base": 16.5,
       "attack_speed_base": 1.4
@@ -18007,7 +18039,7 @@
     "type": "Axe",
     "stats": {
       "thunder_aspect": 1,
-      "unbreaking": 6,
+      "unbreaking": 7,
       "speed_percent": 16,
       "attack_damage_base": 17,
       "attack_speed_base": 1.4
@@ -24587,7 +24619,7 @@
       "inure": 1,
       "magic_protection": 1,
       "unbreaking": 17,
-      "armor": 7.5
+      "armor": 8
     },
     "lore": "Time after time the Silvari struck\nagainst the Fen. Time after time\nthey were repelled."
   },
@@ -24605,7 +24637,7 @@
       "inure": 1,
       "magic_protection": 2,
       "unbreaking": 30,
-      "armor": 8.5
+      "armor": 9
     },
     "lore": "Time after time the Silvari struck\nagainst the Fen. Time after time\nthey were repelled."
   },
@@ -24623,7 +24655,7 @@
       "inure": 1,
       "magic_protection": 2,
       "unbreaking": 25,
-      "armor": 7.5
+      "armor": 8
     },
     "lore": "Time after time the Silvari struck\nagainst the Fen. Time after time\nthey were repelled."
   },
@@ -35321,7 +35353,7 @@
       "sniper": 3,
       "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 21.5
     }
   },
   "Sentry's Longbow": {
@@ -35336,7 +35368,7 @@
       "sniper": 1,
       "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 21
     }
   },
   "Adventurer's Longbow": {
@@ -35351,7 +35383,7 @@
       "sniper": 2,
       "unbreaking": 2,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 21
+      "projectile_damage_base": 22.5
     }
   },
   "The Watcher": {
@@ -35367,8 +35399,8 @@
       "thunder_aspect": 10,
       "unbreakable": 1,
       "wind_aspect": 1,
-      "projectile_damage_base": 32,
-      "projectile_speed_base": 2
+      "projectile_speed_base": 2,
+      "projectile_damage_base": 34
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -35382,7 +35414,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "decay": 7,
+      "decay": 9,
       "unbreaking": 3,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
@@ -35400,7 +35432,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "decay": 8,
+      "decay": 10,
       "unbreaking": 4,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
@@ -35418,7 +35450,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "decay": 7,
+      "decay": 9,
       "unbreaking": 3,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
@@ -35436,7 +35468,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "decay": 6,
+      "decay": 8,
       "unbreaking": 3,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
@@ -35459,7 +35491,7 @@
       "thunder_aspect": 2,
       "unbreaking": 3,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 21
     },
     "lore": "His Silver wrath struck without warning.\nThey say he felled Isharist with\na wave of his hand."
   },
@@ -35478,7 +35510,7 @@
       "thunder_aspect": 2,
       "unbreaking": 4,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 21.5
     },
     "lore": "His Silver wrath struck without warning.\nThey say he felled Isharist with\na wave of his hand."
   },
@@ -35497,7 +35529,7 @@
       "thunder_aspect": 2,
       "unbreaking": 3,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20.5
     },
     "lore": "His Silver wrath struck without warning.\nThey say he felled Isharist with\na wave of his hand."
   },
@@ -35515,7 +35547,7 @@
       "wind_aspect": 2,
       "speed_percent": 11,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 26
+      "projectile_damage_base": 27.5
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -35533,7 +35565,7 @@
       "wind_aspect": 2,
       "speed_percent": 10,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 25.5
+      "projectile_damage_base": 27
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -35551,7 +35583,7 @@
       "wind_aspect": 2,
       "speed_percent": 12,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 26.5
+      "projectile_damage_base": 28
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -35569,7 +35601,7 @@
       "wind_aspect": 2,
       "speed_percent": 13,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 28.5
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -35590,7 +35622,7 @@
       "thunder_aspect": 5,
       "unbreakable": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 24
+      "projectile_damage_base": 25.5
     },
     "lore": "Kaul's anger still lingers, even\nin slumber, a pain felt by all\nattuned to nature."
   },
@@ -35611,7 +35643,7 @@
       "thunder_aspect": 5,
       "unbreakable": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 24.5
+      "projectile_damage_base": 26
     },
     "lore": "Kaul's anger still lingers, even\nin slumber, a pain felt by all\nattuned to nature."
   },
@@ -35629,7 +35661,7 @@
       "punch": 2,
       "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 24
+      "projectile_damage_base": 26
     },
     "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency however, does not make them\npoor weapons, in a pinch."
   },
@@ -35647,7 +35679,7 @@
       "punch": 2,
       "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 24.5
+      "projectile_damage_base": 26.5
     },
     "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency however, does not make them\npoor weapons, in a pinch."
   },
@@ -35666,7 +35698,7 @@
       "piercing": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 24
+      "projectile_damage_base": 25.5
     },
     "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -35685,7 +35717,7 @@
       "piercing": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 24.5
+      "projectile_damage_base": 26
     },
     "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -35704,7 +35736,7 @@
       "piercing": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 23.5
+      "projectile_damage_base": 25
     },
     "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -38156,7 +38188,7 @@
       "inure": 2,
       "unbreaking": 7,
       "thorns_flat": 9,
-      "armor": 5.5
+      "armor": 6.5
     },
     "lore": "The Abello were to be returned to\nthe rootmind. Then, the Dichen threat\nwould be dealt with the same way it\nhad so long ago. Infection."
   },
@@ -38172,8 +38204,8 @@
     "stats": {
       "inure": 2,
       "unbreaking": 8,
-      "armor": 6.5,
-      "thorns_flat": 10
+      "thorns_flat": 10,
+      "armor": 7.5
     },
     "lore": "The Abello were to be returned to\nthe rootmind. Then, the Dichen threat\nwould be dealt with the same way it\nhad so long ago. Infection."
   },
@@ -40302,8 +40334,8 @@
       "inure": 1,
       "shielding": 1,
       "unbreaking": 7,
-      "armor": 5,
-      "knockback_resistance_flat": 5
+      "knockback_resistance_flat": 3,
+      "armor": 6
     },
     "lore": "Crafted from a strange metal, mostly\nunseen in the Valley."
   },
@@ -40320,8 +40352,8 @@
       "inure": 1,
       "shielding": 1,
       "unbreaking": 8,
-      "armor": 5.5,
-      "knockback_resistance_flat": 6
+      "armor": 6.5,
+      "knockback_resistance_flat": 4
     },
     "lore": "Crafted from a strange metal, mostly\nunseen in the Valley."
   },
@@ -40373,10 +40405,10 @@
     "stats": {
       "inure": 1,
       "unbreaking": 8,
-      "armor": 8.5,
       "max_health_flat": 2,
       "speed_percent": -15,
-      "knockback_resistance_flat": 1
+      "knockback_resistance_flat": 1,
+      "armor": 9
     },
     "lore": "The mighty fist grasping the Wolfswood would serve\nas fuel for its people's passion. When a flower\nsurvives being crushed, it grows back ever stronger."
   },
@@ -40391,10 +40423,10 @@
     "type": "Leggings",
     "stats": {
       "inure": 1,
-      "unbreaking": 6,
-      "armor": 8,
+      "unbreaking": 7,
       "max_health_flat": 2,
-      "speed_percent": -15
+      "speed_percent": -15,
+      "armor": 8.5
     },
     "lore": "The mighty fist grasping the Wolfswood would serve\nas fuel for its people's passion. When a flower\nsurvives being crushed, it grows back ever stronger."
   },
@@ -46986,7 +47018,7 @@
       "quick_charge": 2,
       "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20
     }
   },
   "Ashkii Pine Crossbow": {
@@ -47002,7 +47034,7 @@
       "quick_charge": 1,
       "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20
     }
   },
   "Bow of Stars": {
@@ -47018,7 +47050,7 @@
       "quick_charge": 1,
       "unbreaking": 2,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 21
+      "projectile_damage_base": 22
     }
   },
   "Heart Stopper": {
@@ -47035,7 +47067,7 @@
       "piercing": 10,
       "unbreakable": 1,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 29.5
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -47054,7 +47086,7 @@
       "quick_charge": 4,
       "unbreakable": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 14
+      "projectile_damage_base": 14.5
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -47071,10 +47103,10 @@
       "abyssal": 2,
       "first_strike": 2,
       "point_blank": 3,
-      "quick_charge": 3,
+      "quick_charge": 2,
       "unbreaking": 4,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 8
+      "projectile_damage_base": 16
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -47091,10 +47123,10 @@
       "abyssal": 2,
       "first_strike": 2,
       "point_blank": 3,
-      "quick_charge": 3,
+      "quick_charge": 2,
       "unbreaking": 3,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 7.5
+      "projectile_damage_base": 15.5
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -47110,11 +47142,11 @@
     "stats": {
       "abyssal": 2,
       "first_strike": 2,
-      "point_blank": 2,
-      "quick_charge": 3,
+      "point_blank": 3,
+      "quick_charge": 2,
       "unbreaking": 2,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 7.5
+      "projectile_damage_base": 15
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -47133,7 +47165,7 @@
       "point_blank": 5,
       "unbreaking": 4,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 18
+      "projectile_damage_base": 19.5
     },
     "lore": "Wrenched from the towers of the Masked\nfortress, the massive ballista fires\narrows of raw iron, sure to demolish\nanything in its path."
   },
@@ -47152,7 +47184,7 @@
       "point_blank": 4,
       "unbreaking": 3,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 18
+      "projectile_damage_base": 19.5
     },
     "lore": "Wrenched from the towers of the Masked\nfortress, the massive ballista fires\narrows of raw iron, sure to demolish\nanything in its path."
   },
@@ -47167,11 +47199,11 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 3,
-      "point_blank": 5,
+      "point_blank": 6,
       "thunder_aspect": 10,
       "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 19.5
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -47186,11 +47218,11 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
-      "point_blank": 5,
+      "point_blank": 6,
       "thunder_aspect": 10,
       "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 19
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -47205,11 +47237,11 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
-      "point_blank": 5,
+      "point_blank": 6,
       "thunder_aspect": 10,
       "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 18.5
+      "projectile_damage_base": 18
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -47224,11 +47256,11 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
-      "point_blank": 5,
+      "point_blank": 6,
       "thunder_aspect": 10,
       "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 18.5
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -47248,7 +47280,7 @@
       "quick_charge": 3,
       "unbreaking": 5,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 9.5
+      "projectile_damage_base": 10
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -47268,7 +47300,7 @@
       "quick_charge": 3,
       "unbreaking": 5,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 9
+      "projectile_damage_base": 9.5
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -47285,8 +47317,8 @@
       "quick_charge": 4,
       "regicide": 1,
       "unbreaking": 4,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 12.5
     },
     "lore": "At times the conflict between the Dichen\nthe Coven was like a simmering, stable\ncauldron, stable and quiet. Some years,\nhowever, ran red with bloodshed."
   },
@@ -47304,8 +47336,8 @@
       "regicide": 1,
       "unbreaking": 4,
       "speed_percent": 10,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 12.5
     },
     "lore": "At times the conflict between the Dichen\nthe Coven was like a simmering, stable\ncauldron, stable and quiet. Some years,\nhowever, ran red with bloodshed."
   },
@@ -47323,7 +47355,7 @@
       "quick_charge": 2,
       "unbreaking": 3,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 20.5
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -47341,7 +47373,7 @@
       "quick_charge": 2,
       "unbreaking": 4,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 21
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -47359,7 +47391,7 @@
       "quick_charge": 2,
       "unbreaking": 3,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -47377,7 +47409,7 @@
       "quick_charge": 2,
       "unbreaking": 3,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 18.5
+      "projectile_damage_base": 19.5
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -49575,7 +49607,7 @@
     "release_status": "public",
     "stats": {
       "swift_cuts_stack_damage_percent": 2,
-      "swift_cuts_effect_duration_flat": 2
+      "swift_cuts_effect_duration_flat": 0.5
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -54596,12 +54628,14 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Barbed Spore Pouch",
-    "power": 2,
+    "power": 3,
     "base_item": "Bowl",
     "release_status": "public",
     "stats": {
-      "counter_strike_absorption_flat": 1,
-      "counter_strike_absorption_duration_percent": -50
+      "riposte_damage_percent": 75,
+      "riposte_root_duration_percent": -100,
+      "riposte_stun_duration_percent": -100,
+      "riposte_sword_bonus_damage_percent": -100
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -59493,6 +59527,16 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Archos Smelter": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "name": "Archos Smelter",
+    "base_item": "Blast Furnace",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An attachment for the Perfect Crystallizer\nthat permanently allows it to convert\nArchitect's Ring T1-T3 items and Charms into Archos Rings.\nConsumed by left clicking in mainhand.\nConsuming this item cannot be undone!"
+  },
   "Plasma Cell": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -59744,8 +59788,7 @@
     "stats": {
       "meteor_slam_jump_boost_flat": 5,
       "meteor_slam_radius_percent": 70,
-      "meteor_slam_duration_flat": -0.5,
-      "meteor_slam_damage_percent": -20
+      "meteor_slam_duration_flat": -0.5
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -60084,7 +60127,8 @@
     "release_status": "public",
     "stats": {
       "glorious_battle_charges_flat": 1,
-      "glorious_battle_damage_percent": -20
+      "glorious_battle_damage_percent": -10,
+      "glorious_battle_velocity_percent": -20
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -60209,8 +60253,7 @@
     "base_item": "Piston",
     "release_status": "public",
     "stats": {
-      "meteor_slam_fall_requirement_flat": -2,
-      "meteor_slam_damage_percent": -10
+      "meteor_slam_fall_requirement_flat": -2
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -60479,7 +60522,7 @@
     "release_status": "public",
     "stats": {
       "arcane_strike_cooldown_percent": -30,
-      "arcane_strike_damage_percent": -15
+      "arcane_strike_damage_percent": -20
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -60704,7 +60747,7 @@
     "release_status": "public",
     "stats": {
       "counter_strike_damage_modifier_percent": 5,
-      "counter_strike_absorption_duration_flat": 2
+      "counter_strike_prime_duration_percent": 50
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -61553,7 +61596,7 @@
     "base_item": "Purple Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "arcane_strike_damage_percent": 30,
+      "arcane_strike_damage_percent": 45,
       "arcane_strike_bonus_damage_percent": 20
     },
     "type": "Charm",
@@ -61568,7 +61611,7 @@
     "base_item": "Purple Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "arcane_strike_damage_percent": 20
+      "arcane_strike_damage_percent": 30
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -61582,7 +61625,7 @@
     "base_item": "Purple Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "arcane_strike_damage_percent": 10,
+      "arcane_strike_damage_percent": 15,
       "arcane_strike_cooldown_percent": -10,
       "arcane_strike_radius_percent": 50
     },
@@ -61598,7 +61641,7 @@
     "base_item": "Purple Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "arcane_strike_damage_percent": 10
+      "arcane_strike_damage_percent": 15
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -61612,7 +61655,7 @@
     "base_item": "Purple Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "arcane_strike_damage_percent": 15,
+      "arcane_strike_damage_percent": 20,
       "arcane_strike_cooldown_percent": -10
     },
     "type": "Charm",
@@ -62234,7 +62277,7 @@
     "base_item": "Soul Soil",
     "release_status": "public",
     "stats": {
-      "cursed_wound_damage_modifier_percent": 3
+      "cursed_wound_damage_modifier_percent": 2
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -62248,7 +62291,7 @@
     "base_item": "Soul Soil",
     "release_status": "public",
     "stats": {
-      "cursed_wound_damage_modifier_percent": 4.5,
+      "cursed_wound_damage_modifier_percent": 3,
       "cursed_wound_radius_percent": 30
     },
     "type": "Charm",
@@ -62263,7 +62306,7 @@
     "base_item": "Soul Soil",
     "release_status": "public",
     "stats": {
-      "cursed_wound_damage_modifier_percent": 1.5
+      "cursed_wound_damage_modifier_percent": 1
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -62443,7 +62486,7 @@
     "base_item": "Target",
     "release_status": "public",
     "stats": {
-      "sharpshooter_stack_damage_percent": 0.5
+      "sharpshooter_stack_damage_percent": 0.25
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -62472,7 +62515,7 @@
     "base_item": "Target",
     "release_status": "public",
     "stats": {
-      "sharpshooter_stack_damage_percent": 1,
+      "sharpshooter_stack_damage_percent": 0.5,
       "sharpshooter_max_stacks_flat": 1
     },
     "type": "Charm",
@@ -62487,7 +62530,7 @@
     "base_item": "Target",
     "release_status": "public",
     "stats": {
-      "sharpshooter_stack_damage_percent": 1
+      "sharpshooter_stack_damage_percent": 0.5
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -63980,7 +64023,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Attuned to the power of the Soul.\nCan bind your soul to hub locations,\nand return you there in an instant.\nActivated by Right Click\nwhile in the mainhand or inventory.\nCooldown : 30m"
+    "lore": "Attuned to the power of the Soul.\nCan bind your soul to hub locations,\nand return you there in an instant.\nActivated by Right Click\nwhile in the mainhand or inventory.\nCooldown : 10m"
   },
   "Tesseract of the Soul (u)": {
     "location": "Celsian Isles",
@@ -63991,7 +64034,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Attuned to the power of the Soul.\nCan bind your soul to hub locations,\nand return you there in an instant.\nActivated by Right Click\nwhile in the mainhand or inventory.\nInventory use will prompt players\nwithin 6 blocks to warp with you.\nCooldown: 10m"
+    "lore": "Attuned to the power of the Soul.\nCan bind your soul to hub locations,\nand return you there in an instant.\nActivated by Right Click\nwhile in the mainhand or inventory.\nInventory use will prompt players\nwithin 6 blocks to warp with you.\nCooldown: None"
   },
   "Nai's Cube": {
     "location": "King's Valley",
