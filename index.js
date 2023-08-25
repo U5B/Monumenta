@@ -53,11 +53,13 @@ const quests = {}
 const enchantments = {}
 const all = {}
 
+const advancementPath = './out/advancement.json'
+
 async function fetchAdvancements () {
   if (!fs.existsSync('./out')) fs.mkdirSync('./out')
-  if (fs.existsSync('./out/advancement.json') && process.env.DEBUG === 'true') {
+  if (fs.existsSync(advancementPath) && process.env.DEBUG === 'true') {
     console.log('[FILE] Loading advancements from existing file...')
-    advancements = require('./advancement.json')
+    advancements = require(advancementPath)
     return
   }
   console.log('[API] Fetching advancements from Monumenta API')
@@ -65,7 +67,7 @@ async function fetchAdvancements () {
   if (advancementApi.status !== 200) throw Error(`Monumenta API returned: ${advancementApi.status} with ${advancementApi.statusText}`)
   advancements = advancementApi.data
   console.log('[FILE] Writing advancements to file...')
-  fs.writeFileSync('./out/advancement.json', JSON.stringify(advancements, null, 2))
+  fs.writeFileSync(advancementPath, JSON.stringify(advancements, null, 2))
 }
 
 function generate () {
@@ -365,11 +367,13 @@ function cleanDescriptionLine (text = '') {
 
 // ITems
 
+const itemsPath = './out/item.json'
+
 async function fetchItems () {
   if (!fs.existsSync('./out')) fs.mkdirSync('./out')
-  if (fs.existsSync('./out/item.json') && process.env.DEBUG === 'true') {
+  if (fs.existsSync(itemsPath) && process.env.DEBUG === 'true') {
     console.log('[FILE] Loading items from existing file...')
-    items = require('./item.json')
+    items = require(itemsPath)
     return
   }
   console.log('[API] Fetching items from Monumenta API')
@@ -377,7 +381,7 @@ async function fetchItems () {
   if (itemApi.status !== 200) throw Error(`Monumenta API returned: ${itemApi.status} with ${itemApi.statusText}`)
   items = itemApi.data
   console.log('[FILE] Writing items to file...')
-  fs.writeFileSync('./out/item.json', JSON.stringify(items, null, 2))
+  fs.writeFileSync(itemsPath, JSON.stringify(items, null, 2))
 }
 
 async function run () {
