@@ -1613,14 +1613,6 @@
     },
     "lore": "A special mask commemorating\na porcine hero."
   },
-  "Hyper TNT": {
-    "name": "Hyper TNT",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q21I03"
-  },
   "Fishing Trophy": {
     "location": "King's Valley",
     "region": "Valley",
@@ -4703,25 +4695,6 @@
     "stats": {},
     "lore": "A strange pickaxe found in the mage hunter vault.\nBetter let Akema inspect it.\n* Quest Item *\n#Q141I03"
   },
-  "Vesuva": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Vesuva",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "eruption": 7,
-      "unbreaking": 10,
-      "fire_aspect": 2,
-      "inferno": 2,
-      "efficiency": 2,
-      "attack_damage_base": 12,
-      "attack_speed_base": 1
-    },
-    "lore": "Strike down with the fury of\nthe slumbering volcano."
-  },
   "Reinforced Chisel": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -6891,41 +6864,6 @@
       "attack_damage_percent": 5,
       "knockback_resistance_flat": 0.5
     }
-  },
-  "The Godshell": {
-    "location": "Forum",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "The Godshell",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "second_wind": 2,
-      "unbreaking": 12,
-      "melee_protection": 1,
-      "armor": 5,
-      "attack_damage_percent": 20
-    },
-    "lore": "Legends tell of a godly being that\nforsook immortality in exchange for\na shell of unbreakable will."
-  },
-  "Departure": {
-    "location": "Hekawt",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Departure",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "feather_falling": 2,
-      "unbreaking": 9,
-      "adrenaline": 3,
-      "curse_of_corruption": 1,
-      "agility": 9,
-      "attack_damage_percent": 10
-    },
-    "lore": "I've seen their eyes peering through the Veil.\nI don't know how to make them leave.\nI barely know how to rip myself away either."
   },
   "Unbound Eternal Shroud": {
     "location": "Eternity Skin",
@@ -17397,24 +17335,6 @@
     },
     "lore": "With the tide comes the Admiral, the\nbearer of the glorious end."
   },
-  "Eraecus": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Eraecus",
-    "base_item": "Golden Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "blast_protection": 2,
-      "magic_protection": 2,
-      "projectile_protection": 2,
-      "unbreaking": 6,
-      "armor": 5.5,
-      "magic_damage_percent": 10
-    },
-    "lore": "Sparks streak past the battle-forged bronze.\nThe eyes of a talented mage glow behind the visage."
-  },
   "Crown of the Rift": {
     "location": "Teal",
     "region": "Isles",
@@ -22539,23 +22459,6 @@
     },
     "lore": "Once enshrined in the Frostgate crypts,\nthe Frost Moon recovered the blade.\nA new Prophet must be protected in the\nsame manner as the Old."
   },
-  "Decretum": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Decretum",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "regicide": 1,
-      "armor": 7,
-      "max_health_flat": -2,
-      "attack_damage_percent": 30
-    },
-    "lore": "A shard of obsidian, stained with the\nblood of a choice yet to be made."
-  },
   "Passing Shadows": {
     "location": "Teal",
     "region": "Isles",
@@ -23447,25 +23350,6 @@
       "attack_speed_base": 1
     },
     "lore": "It seems there's a reason there\nis no Spider tribe."
-  },
-  "Tenebris": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Tenebris",
-    "base_item": "Golden Axe",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "duelist": 2,
-      "magic_protection": 2,
-      "smite": 2,
-      "unbreaking": 35,
-      "attack_speed_base": 1,
-      "attack_damage_base": 13,
-      "spell_power_base": 55
-    },
-    "lore": "A darkness fell over the Empire. Yeigar\nstood to defend his people, but it was\nnot his people they wanted. A line ended.\nA deal was made."
   },
   "Devouring Wind": {
     "location": "Rush",
@@ -28234,24 +28118,6 @@
     },
     "lore": "Kokytos, we see The Revelation of Alei.\nThe arc of history bends towards the will of your Prophets.\nThe sky will shatter soon enough -\nand descend upon the sinful."
   },
-  "Busturus": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Busturus",
-    "base_item": "Iron Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "smite": 2,
-      "unbreaking": 4,
-      "fire_aspect": 1,
-      "duelist": 2,
-      "attack_damage_base": 10,
-      "attack_speed_base": 1.6
-    },
-    "lore": "A sword used in ceremonial combat,\noften performed to mark the passing\nof royalty."
-  },
   "Celsian Sarissa": {
     "location": "Shifting",
     "region": "Isles",
@@ -30441,22 +30307,6 @@
       "max_health_flat": 4
     },
     "lore": "The wood of the Wispleaf Tree offers\na familiar protection from the cold.\nA wreath adorns the shield, frosted with\nthe sharp ice of winter."
-  },
-  "Ratarash": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Ratarash",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "inure": 1,
-      "steadfast": 1,
-      "unbreaking": 3,
-      "armor": 2
-    },
-    "lore": "Tarnished by a legion of blows, each\none informing the warrior's battles.\nThe strikes not blocked however, informing\nthe crowd."
   },
   "Bastion of Isharist": {
     "location": "Teal",
@@ -34501,24 +34351,6 @@
     },
     "lore": "Gazing deep into the metal, one\ncan see a reflection of a glorious\nshimmering sky."
   },
-  "Bercilak": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Bercilak",
-    "base_item": "Golden Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "blast_protection": 2,
-      "projectile_protection": 1,
-      "shielding": 1,
-      "unbreaking": 8,
-      "armor": 6,
-      "thorns_flat": 2
-    },
-    "lore": "Emblazoned with the form of Stag,\na mantle grown of ivy green."
-  },
   "Windborn Cape": {
     "location": "Teal",
     "region": "Isles",
@@ -34984,23 +34816,6 @@
       "attack_damage_percent": 15
     },
     "lore": "Johannes' feet stomped upon the deck of his longship.\nBehind him was nothing but memories and dust.\nBefore him, Kaulslund.\nA new home for his people."
-  },
-  "Mallavis": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Mallavis",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "magic_protection": 3,
-      "sustenance": 1,
-      "unbreaking": 6,
-      "speed_percent": 15,
-      "agility": 6.5
-    },
-    "lore": "Though nature may step with time\nin tandem, man must be left in\nthe dust of history."
   },
   "Mechanized Treads": {
     "location": "Forum",
@@ -35898,16 +35713,6 @@
     },
     "lore": "In the furious storm of battle, the\nAurians pierced through. This storm\nwould drain to the seas..."
   },
-  "Harbinger": {
-    "location": "Sanctum",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Harbinger",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Corrupted Steelsiege": {
     "location": "Reverie",
     "region": "Valley",
@@ -36489,25 +36294,6 @@
     },
     "lore": "Droplets of water are drawn into\nthe chamber and rapidly frozen,\ncreating deadly ice bolts."
   },
-  "Aleph": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Aleph",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "fire_aspect": 1,
-      "infinity": 1,
-      "sniper": 3,
-      "unbreaking": 10,
-      "projectile_damage_base": 16,
-      "speed_percent": 16,
-      "projectile_speed_base": 5
-    },
-    "lore": "Darts of light are forged in the\ngears of the mechanism."
-  },
   "Legionis": {
     "location": "Rush",
     "region": "Isles",
@@ -36595,25 +36381,6 @@
       "projectile_speed_base": 1.2
     },
     "lore": "It emanates a foul stench - hopefully\nto keep the scarabs away."
-  },
-  "Creation": {
-    "location": "Hekawt",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Creation",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "curse_of_corruption": 1,
-      "ice_aspect": 2,
-      "regeneration": 2,
-      "thunder_aspect": 10,
-      "unbreaking": 5,
-      "projectile_damage_base": 22,
-      "projectile_speed_base": 1
-    },
-    "lore": "The start of eternity is the start\nof life, in death they shall be\nreborn as my eternity."
   },
   "Mechanized Shortbow": {
     "location": "Isles Overworld",
@@ -38375,21 +38142,6 @@
       "armor": 7.5
     },
     "lore": "No chains will bind The Prophet's\nwings. No shadows will block her light.\nAlutana was surely sent to speak for\nthe Stars above."
-  },
-  "Crusadoth": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Crusadoth",
-    "base_item": "Chainmail Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreakable": 1,
-      "agility": 6.5,
-      "attack_damage_percent": 30
-    },
-    "lore": "For glory!\nFor conquest!\nFor the Emperor!"
   },
   "Shroud of the Lost": {
     "location": "Forum",
@@ -41363,23 +41115,6 @@
       "armor": 5
     },
     "lore": "Isadora opened the doors to her chambers\nto see her sons waiting for her.\nHer legs gave out as she hugged them both, safe."
-  },
-  "Lyrata": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Lyrata",
-    "base_item": "Golden Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "regeneration": 1,
-      "mending": 1,
-      "projectile_protection": 2,
-      "agility": 6,
-      "speed_percent": 15
-    },
-    "lore": "Untarnished, the armor seems to exist\noutside of history. You feel that\nfate is on your side."
   },
   "Sunblessed Leggings": {
     "location": "Pink",
@@ -45395,6 +45130,1652 @@
     "type": "Misc",
     "stats": {},
     "lore": "What secrets are you hiding?"
+  },
+  "Jungle Research Notes": {
+    "name": "Jungle Research Notes",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q03I01"
+  },
+  "Thief's Guide : Nyr": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Bones": {
+    "name": "The Bones",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Home": {
+    "name": "The Home",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Forge": {
+    "name": "The Forge",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Tlaxan Army Forces": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Clouds": {
+    "name": "The Clouds",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Otherworldly": {
+    "name": "The Otherworldly",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The First Travel": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q154I02"
+  },
+  "The Conduit": {
+    "name": "The Conduit",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Tenebris (axe)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Tenebris",
+    "base_item": "Golden Axe",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "duelist": 2,
+      "magic_protection": 2,
+      "smite": 2,
+      "unbreaking": 35,
+      "attack_speed_base": 1,
+      "attack_damage_base": 13,
+      "spell_power_base": 55
+    },
+    "lore": "A darkness fell over the Empire. Yeigar\nstood to defend his people, but it was\nnot his people they wanted. A line ended.\nA deal was made."
+  },
+  "Tenebris (written_book)": {
+    "name": "Tenebris",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Treasure Upon the Tides": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Dead": {
+    "name": "The Dead",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Natural": {
+    "name": "The Natural",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Traveller": {
+    "name": "The Traveller",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Towers": {
+    "name": "The Towers",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Suspicious Note": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q02I01"
+  },
+  "Shade Hunter's Log - Doomed Encampment": {
+    "name": "Shade Hunter's Log - Doomed Encampment",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q208I01"
+  },
+  "C'Shura": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Soggy Guide to Smuggling": {
+    "name": "Soggy Guide to Smuggling",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q31I04"
+  },
+  "Struck Down": {
+    "name": "Struck Down",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "She Is Not Here": {
+    "name": "She Is Not Here",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Service Inquiry": {
+    "name": "Service Inquiry",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q106I04\nWhat is this doing in the reserve?\nIzzy needs to know of this."
+  },
+  "Shade Hunter's Log - Silvic Quarry": {
+    "name": "Shade Hunter's Log - Silvic Quarry",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q208I02"
+  },
+  "Specimen Results": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Scrap of Parchment": {
+    "name": "Scrap of Parchment",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Safe Room Key": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q37I01"
+  },
+  "Server Rules": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Man in the Night": {
+    "name": "The Man in the Night",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It seems to be a personal journal.\n* Quest Item *\n#Q132I07"
+  },
+  "Magic and the Elements": {
+    "name": "Magic and the Elements",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I04"
+  },
+  "Mallavis (feet)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Mallavis",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 3,
+      "sustenance": 1,
+      "unbreaking": 6,
+      "speed_percent": 15,
+      "agility": 6.5
+    },
+    "lore": "Though nature may step with time\nin tandem, man must be left in\nthe dust of history."
+  },
+  "Mallavis (written_book)": {
+    "name": "Mallavis",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Mimicylopedia": {
+    "name": "The Mimicylopedia",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Message from a Bottle": {
+    "name": "Message from a Bottle",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q31I02"
+  },
+  "A Miraculous Breakthrough": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q24I03"
+  },
+  "The Generals": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "iiii": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "youyouyouyouyou": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Case of the Unreadable Book": {
+    "name": "The Case of the Unreadable Book",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "usus": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "youyou": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "youyouyou": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Inversion": {
+    "name": "Inversion",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "ususususus": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "ususus": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "ii": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "usususus": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "us": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "you": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "i": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "iii": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "youyouyouyou": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "iiiii": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Godshell (chest)": {
+    "location": "Forum",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "The Godshell",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "second_wind": 2,
+      "unbreaking": 12,
+      "melee_protection": 1,
+      "armor": 5,
+      "attack_damage_percent": 20
+    },
+    "lore": "Legends tell of a godly being that\nforsook immortality in exchange for\na shell of unbreakable will."
+  },
+  "Older Magic": {
+    "name": "Older Magic",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Gaze": {
+    "name": "The Gaze",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Roar": {
+    "name": "The Roar",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Many More": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Sky": {
+    "name": "The Sky",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Breach": {
+    "name": "The Breach",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Name": {
+    "name": "The Name",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Fall": {
+    "name": "The Fall",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Overboard, Deeper Still": {
+    "name": "Overboard, Deeper Still",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Voice": {
+    "name": "The Voice",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Horizon": {
+    "name": "The Horizon",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Mouths": {
+    "name": "The Mouths",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Absence": {
+    "name": "The Absence",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Ship": {
+    "name": "The Ship",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Yawning": {
+    "name": "The Yawning",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Research Log - Ish413.67": {
+    "name": "Research Log - Ish413.67",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Field": {
+    "name": "The Field",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "She Knows Best": {
+    "name": "She Knows Best",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Work Continues": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Wisteria": {
+    "name": "Wisteria",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q133I03"
+  },
+  "Waterlogged Scraps": {
+    "name": "Waterlogged Scraps",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Worn Journal of a Mage": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Wavering Will": {
+    "name": "Wavering Will",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q57I06"
+  },
+  "What I Cannot Unsee": {
+    "name": "What I Cannot Unsee",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q34I01"
+  },
+  "Wavewashed Journal": {
+    "name": "Wavewashed Journal",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 9": {
+    "name": "Chronicles of Hekawt, Vol. 9",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 12": {
+    "name": "Chronicles of Hekawt, Vol. 12",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Cargo Manifests": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q02I02"
+  },
+  "The Creature": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 1": {
+    "name": "Chronicles of Hekawt, Vol. 1",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 5": {
+    "name": "Chronicles of Hekawt, Vol. 5",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 4": {
+    "name": "Chronicles of Hekawt, Vol. 4",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Celdari South": {
+    "name": "Celdari South",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q107I04\nSeems to indicate a hideout of some sort."
+  },
+  "Chronicles of Hekawt, Vol. 8": {
+    "name": "Chronicles of Hekawt, Vol. 8",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Creation (Bow)": {
+    "location": "Hekawt",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Creation",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "curse_of_corruption": 1,
+      "ice_aspect": 2,
+      "regeneration": 2,
+      "thunder_aspect": 10,
+      "unbreaking": 5,
+      "projectile_damage_base": 22,
+      "projectile_speed_base": 1
+    },
+    "lore": "The start of eternity is the start\nof life, in death they shall be\nreborn as my eternity."
+  },
+  "Creation (written_book)": {
+    "name": "Creation",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A nursery rhyme told to children"
+  },
+  "Chronicles of Hekawt, Vol. 13": {
+    "name": "Chronicles of Hekawt, Vol. 13",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 2": {
+    "name": "Chronicles of Hekawt, Vol. 2",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 6": {
+    "name": "Chronicles of Hekawt, Vol. 6",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Crusadoth (chest)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Crusadoth",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreakable": 1,
+      "agility": 6.5,
+      "attack_damage_percent": 30
+    },
+    "lore": "For glory!\nFor conquest!\nFor the Emperor!"
+  },
+  "Crusadoth (written_book)": {
+    "name": "Crusadoth",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Crystalline Terror": {
+    "name": "Crystalline Terror",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 11": {
+    "name": "Chronicles of Hekawt, Vol. 11",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Cazol": {
+    "name": "Cazol",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 14": {
+    "name": "Chronicles of Hekawt, Vol. 14",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 10": {
+    "name": "Chronicles of Hekawt, Vol. 10",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 3": {
+    "name": "Chronicles of Hekawt, Vol. 3",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Corridor Notes": {
+    "name": "Corridor Notes",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Chronicles of Hekawt, Vol. 7": {
+    "name": "Chronicles of Hekawt, Vol. 7",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Insane Ramblings II": {
+    "name": "Insane Ramblings II",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Iris": {
+    "name": "Iris",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q133I05"
+  },
+  "Insane Ramblings I": {
+    "name": "Insane Ramblings I",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Insane Ramblings III": {
+    "name": "Insane Ramblings III",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Instructions": {
+    "name": "Instructions",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dread Admiral's Notes": {
+    "name": "Dread Admiral's Notes",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Death and Light": {
+    "name": "Death and Light",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I08"
+  },
+  "The Disc Shrine": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "A Deal": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q37I02"
+  },
+  "Departure (chest)": {
+    "location": "Hekawt",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Departure",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "feather_falling": 2,
+      "unbreaking": 9,
+      "adrenaline": 3,
+      "curse_of_corruption": 1,
+      "agility": 9,
+      "attack_damage_percent": 10
+    },
+    "lore": "I've seen their eyes peering through the Veil.\nI don't know how to make them leave.\nI barely know how to rip myself away either."
+  },
+  "Departure (written_book)": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dive Into Dissonance, Vol. 6": {
+    "name": "Dive Into Dissonance, Vol. 6",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dive Into Dissonance, Vol. 5": {
+    "name": "Dive Into Dissonance, Vol. 5",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dive Into Dissonance, Vol. 4": {
+    "name": "Dive Into Dissonance, Vol. 4",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dive Into Dissonance, Vol. 3": {
+    "name": "Dive Into Dissonance, Vol. 3",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dive Into Dissonance, Vol. 2": {
+    "name": "Dive Into Dissonance, Vol. 2",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dive Into Dissonance, Vol. 1": {
+    "name": "Dive Into Dissonance, Vol. 1",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Decretum (Stone Sword)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Decretum",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "unbreakable": 1,
+      "regicide": 1,
+      "armor": 7,
+      "max_health_flat": -2,
+      "attack_damage_percent": 30
+    },
+    "lore": "A shard of obsidian, stained with the\nblood of a choice yet to be made."
+  },
+  "Decretum (written_book)": {
+    "name": "Decretum",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dusty Journal": {
+    "name": "Dusty Journal",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Some old mining records.\n* Quest Item *\n#Q109I02"
+  },
+  "Dark Powers": {
+    "name": "Dark Powers",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q57I05"
+  },
+  "Diary": {
+    "name": "Diary",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q45I01"
+  },
+  "Decrypted Notes": {
+    "name": "Decrypted Notes",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Nelfine's Journal": {
+    "name": "Nelfine's Journal",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "C'Zanil": {
+    "name": "C'Zanil",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q23I02"
+  },
+  "Translated Notes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Dust Covered Journal": {
+    "name": "Dust Covered Journal",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q30I01"
+  },
+  "Copy of Notes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "General": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Tutorial Book"
+  },
+  "Remnants of the Sanctum Vol 2": {
+    "name": "Remnants of the Sanctum Vol 2",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Remnants of the Sanctum Vol 3": {
+    "name": "Remnants of the Sanctum Vol 3",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Remnants of the Sanctum Vol 1": {
+    "name": "Remnants of the Sanctum Vol 1",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Returning to Balance": {
+    "name": "Returning to Balance",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q110I08"
+  },
+  "Remnants of the Sanctum Vol 5": {
+    "name": "Remnants of the Sanctum Vol 5",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Rotting Journal": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q30I02"
+  },
+  "Remnants of the Sanctum Vol 4": {
+    "name": "Remnants of the Sanctum Vol 4",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Reaching Out into Eternity": {
+    "name": "Reaching Out into Eternity",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Ratarash (Shield)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Ratarash",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "inure": 1,
+      "steadfast": 1,
+      "unbreaking": 3,
+      "armor": 2
+    },
+    "lore": "Tarnished by a legion of blows, each\none informing the warrior's battles.\nThe strikes not blocked however, informing\nthe crowd."
+  },
+  "Ratarash (written_book)": {
+    "name": "Ratarash",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Failure": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Foundations": {
+    "name": "Foundations",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Forgive Me": {
+    "name": "Forgive Me",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The cover is scratched and coated by\ndust and grime. This book has been through much.\n* Quest Item *\n#Q25I03"
+  },
+  "The Final Disc": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Five Axes Trading Co. Ledger": {
+    "name": "Five Axes Trading Co. Ledger",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q18I01"
+  },
+  "Logbook - Collapsed Basement": {
+    "name": "Logbook - Collapsed Basement",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q32I02"
+  },
+  "The Lunatic's Tale: Creation": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Legend of Eldrask": {
+    "name": "The Legend of Eldrask",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Lyrata (legs)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Lyrata",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "regeneration": 1,
+      "mending": 1,
+      "projectile_protection": 2,
+      "agility": 6,
+      "speed_percent": 15
+    },
+    "lore": "Untarnished, the armor seems to exist\noutside of history. You feel that\nfate is on your side."
+  },
+  "Lyrata (written_book)": {
+    "name": "Lyrata",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Lunatic's Tale: Souls Crushed": {
+    "name": "The Lunatic's Tale: Souls Crushed",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Lunatic's Tale: Ixume's Men": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Laura's Diary": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Most of the messages are encrypted.\n* Quest Item *\n#Q49I01"
+  },
+  "Letter to Arian": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q24I02"
+  },
+  "Angrily Written Letter": {
+    "name": "Angrily Written Letter",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "I wouldn't want to be on the\nother side of that quill.\n* Quest Item *\n#Q107I03"
+  },
+  "Apartments Dev Note": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Apartments Dev Note",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Ancient Writings": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q124I01"
+  },
+  "A Journey's End": {
+    "name": "A Journey's End",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Amaryllis": {
+    "name": "Amaryllis",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q133I04"
+  },
+  "C'Axtal": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Aleph (Bow)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Aleph",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 1,
+      "infinity": 1,
+      "sniper": 3,
+      "unbreaking": 10,
+      "projectile_damage_base": 16,
+      "speed_percent": 16,
+      "projectile_speed_base": 5
+    },
+    "lore": "Darts of light are forged in the\ngears of the mechanism."
+  },
+  "Aleph (written_book)": {
+    "name": "Aleph",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "An Unwelcomed Journey": {
+    "name": "An Unwelcomed Journey",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Another Disc": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Kurtis' Journal": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q37I03"
+  },
+  "Knowledge and Balance": {
+    "name": "Knowledge and Balance",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I07"
+  },
+  "Unsealed Note": {
+    "name": "Unsealed Note",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q106I03\nWhat is this doing in the record's chamber?\nYou need to approach Obadiah about this."
+  },
+  "Of Shamans and Spells": {
+    "name": "Of Shamans and Spells",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q41I03\nWhy does this sound so...\nFamiliar...?"
+  },
+  "The Origin of the Pharaohs": {
+    "name": "The Origin of the Pharaohs",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A well documented account of\nthe rise of the tribunal pharaoh."
+  },
+  "Old Journal": {
+    "name": "Old Journal",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The name Selari is etched into the spine.\n* Quest Item *\n#Q114I01"
+  },
+  "Eternal Light": {
+    "name": "Eternal Light",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Elegy to Old Isharist": {
+    "name": "Elegy to Old Isharist",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Eraecus (head)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Eraecus",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 2,
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 6,
+      "armor": 5.5,
+      "magic_damage_percent": 10
+    },
+    "lore": "Sparks streak past the battle-forged bronze.\nThe eyes of a talented mage glow behind the visage."
+  },
+  "Eraecus (written_book)": {
+    "name": "Eraecus",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Elegy of the Pharaoh": {
+    "name": "Elegy of the Pharaoh",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Encrypted Notes": {
+    "name": "Encrypted Notes",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q03I02"
+  },
+  "The Experience of Time": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Excommunication": {
+    "name": "Excommunication",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The book is adorned with the symbols\nof the Order of Balance.\n* Quest Item *\n#Q110I07"
+  },
+  "Expedition Log No. 1-6772": {
+    "name": "Expedition Log No. 1-6772",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "The Vault": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Vincent Variable System": {
+    "name": "Vincent Variable System",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q55I01"
+  },
+  "Vesuva (pickaxe)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Vesuva",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "eruption": 7,
+      "unbreaking": 10,
+      "fire_aspect": 2,
+      "inferno": 2,
+      "efficiency": 2,
+      "attack_damage_base": 12,
+      "attack_speed_base": 1
+    },
+    "lore": "Strike down with the fury of\nthe slumbering volcano."
+  },
+  "Vesuva (written_book)": {
+    "name": "Vesuva",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Harbinger (Bow)": {
+    "location": "Sanctum",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Harbinger",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Harbinger (written_book)": {
+    "name": "Harbinger",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Horrible Feeling": {
+    "name": "Horrible Feeling",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Hyper TNT (Player Head)": {
+    "name": "Hyper TNT",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q21I03"
+  },
+  "Hopeless Reflection": {
+    "name": "Hopeless Reflection",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Relatively well preserved, considering\nthe circumstances."
+  },
+  "Busturus (Iron Sword)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Busturus",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "smite": 2,
+      "unbreaking": 4,
+      "fire_aspect": 1,
+      "duelist": 2,
+      "attack_damage_base": 10,
+      "attack_speed_base": 1.6
+    },
+    "lore": "A sword used in ceremonial combat,\noften performed to mark the passing\nof royalty."
+  },
+  "Busturus (written_book)": {
+    "name": "Busturus",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Battered Journal": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q30I03"
+  },
+  "Breaking The Seal": {
+    "name": "Breaking The Seal",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "best book": {
+    "name": "best book",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
+  },
+  "Body and Pestilence": {
+    "name": "Body and Pestilence",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I03"
+  },
+  "Battered Trade Log": {
+    "name": "Battered Trade Log",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Bercilak (chest)": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Bercilak",
+    "base_item": "Golden Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "blast_protection": 2,
+      "projectile_protection": 1,
+      "shielding": 1,
+      "unbreaking": 8,
+      "armor": 6,
+      "thorns_flat": 2
+    },
+    "lore": "Emblazoned with the form of Stag,\na mantle grown of ivy green."
+  },
+  "Bercilak (written_book)": {
+    "name": "Bercilak",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Beginner's Guide to Smuggling": {
+    "name": "Beginner's Guide to Smuggling",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q31I03"
+  },
+  "Build build build": {
+    "name": "Build build build",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Belladonna": {
+    "name": "Belladonna",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q133I01"
+  },
+  "The Midnight Ritual": {
+    "name": "The Midnight Ritual",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Marked Dream Dictionary": {
+    "name": "Marked Dream Dictionary",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Tattered Dream Dictionary": {
+    "name": "Tattered Dream Dictionary",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Scout's Log: Laura": {
+    "name": "Scout's Log: Laura",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q49I01"
+  },
+  "Elegy of My Dearest Friend": {
+    "name": "Elegy of My Dearest Friend",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q24I01"
+  },
+  "Ethereal Entrapment": {
+    "name": "Ethereal Entrapment",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q45I02"
+  },
+  "Thicker Than Blood": {
+    "name": "Thicker Than Blood",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "What was once a pile of scraps has\nreverted to a memory of what it once was."
+  },
+  "Lily of the Valley": {
+    "name": "Lily of the Valley",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q133I02"
   },
   "Thumper's Paw": {
     "location": "Easter",
@@ -58989,7 +60370,7 @@
     },
     "lore": "Like it Oar not, this just woodn't\nhave good stats."
   },
-  "Entcrusher": {
+  "Entcrusher (axe)": {
     "location": "Forum",
     "region": "Isles",
     "tier": "Rare",
@@ -59115,7 +60496,14 @@
     "stats": {},
     "lore": "A charm only given to those\nrespected by The Ishnir Trade."
   },
-  "Khrosmos": {
+  "Khrosmos (Written Book)": {
+    "name": "Khrosmos",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Khrosmos (clock)": {
     "location": "Teal",
     "region": "Isles",
     "tier": "Rare",
