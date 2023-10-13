@@ -2251,6 +2251,17 @@
     },
     "lore": "A luminescent gleam empowers your sight.\nNearby, you hear an ashen lament from\nthe mist beyond."
   },
+  "Emu Plushie": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Emu Plushie",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Artist Plushie #7\nWONDERHOI!\nSpecial Artist Plushie - Collect Them All!"
+  },
   "Azacor's Mask": {
     "location": "Azacor",
     "region": "Valley",
@@ -17702,24 +17713,6 @@
     },
     "lore": "Set with flowers, this crown\nsparkles dangerously."
   },
-  "Dread Admiral's Hat": {
-    "location": "Greed Skin",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Dread Admiral's Hat",
-    "base_item": "Golden Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreakable": 1,
-      "tempo": 1,
-      "speed_percent": 15,
-      "attack_speed_percent": 15,
-      "attack_damage_percent": 15,
-      "agility": 4.5
-    },
-    "lore": "With the tide comes the Admiral, the\nbearer of the glorious end."
-  },
   "Crown of the Rift": {
     "location": "Teal",
     "region": "Isles",
@@ -19627,22 +19620,6 @@
     },
     "lore": "The cool shade of the Fen veiled\ngreat power. As the Silver shadow\nwaxed and waned over the Ring, the\nCoven forever remained."
   },
-  "Deathbound Cavaliers": {
-    "location": "Marina Noir",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Deathbound Cavaliers",
-    "power": 3,
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "stats": {
-      "tactical_maneuver_damage_percent": 100,
-      "tactical_maneuver_stun_duration_percent": -100,
-      "tactical_maneuver_velocity_percent": -25
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Runner's Boots": {
     "location": "King's Valley",
     "region": "Valley",
@@ -21501,8 +21478,8 @@
       "mending": 1,
       "stamina": 2,
       "unbreaking": 3,
-      "attack_damage_base": 13,
-      "attack_speed_base": 1.7
+      "attack_speed_base": 1.7,
+      "attack_damage_base": 12.5
     },
     "lore": "As the horizon disappeared beyond\na pitch-black sea, the echoing howls\nof those lost at sea pierces through\nthe deafening silence."
   },
@@ -25882,6 +25859,25 @@
     },
     "lore": "Wait, did we forget an 'e'?"
   },
+  "Helmet of Greed": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Helmet of Greed",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "intuition": 1,
+      "unbreakable": 1,
+      "melee_protection": 1,
+      "blast_protection": 1,
+      "agility": 2,
+      "armor": 2,
+      "thorns_flat": 2
+    },
+    "lore": "Every age, it seems, is tainted by\nthe greed of men."
+  },
   "Xeno's Pirate Hat": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -28224,7 +28220,7 @@
       "shielding": 1,
       "stamina": 2,
       "unbreakable": 1,
-      "armor": 7
+      "armor": 6.5
     },
     "lore": "The liquid metal flows and pulses around your hand.\nIts gentle rhythm mimics that of breathing, or a heartbeat.\nSomething is alive within."
   },
@@ -36013,7 +36009,7 @@
       "wind_aspect": 1,
       "speed_percent": 5,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 24.5
+      "projectile_damage_base": 24
     },
     "lore": "Even a captain capable of rallying\nuncountable numbers of ruffians\nbehind him could not escape his\ninevitable fate. What hope, then, do you\nhave to do differently?"
   },
@@ -60660,6 +60656,33 @@
     },
     "lore": "A light to his friends, a\nHazerd to his foes."
   },
+  "Heretical Ore": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Heretical Ore",
+    "power": 3,
+    "base_item": "Netherite Scrap",
+    "release_status": "public",
+    "stats": {
+      "scorched_earth_cooldown_percent": -20,
+      "scorched_earth_charge_flat": 1,
+      "scorched_earth_duration_percent": -50
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
+  "Echoes of the Veil": {
+    "location": "Willows",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Echoes of the Veil",
+    "base_item": "Netherite Scrap",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
+  },
   "Gem-Tipped Boilerdrill-3": {
     "location": "Brown",
     "masterwork": "3",
@@ -62559,33 +62582,6 @@
     "stats": {},
     "lore": "To die, to sleep - To sleep - perchance\nto dream; ay, there's the way. For in that\nthe Veil will claim us all.\nWhen we have shuffled off this mortal coil,\nsleep of death what dreams may come."
   },
-  "Heretical Ore": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Heretical Ore",
-    "power": 3,
-    "base_item": "Netherite Scrap",
-    "release_status": "public",
-    "stats": {
-      "scorched_earth_cooldown_percent": -20,
-      "scorched_earth_charge_flat": 1,
-      "scorched_earth_duration_percent": -50
-    },
-    "type": "Charm",
-    "class_name": "Alchemist"
-  },
-  "Echoes of the Veil": {
-    "location": "Willows",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Echoes of the Veil",
-    "base_item": "Netherite Scrap",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
-  },
   "Mycelian Serum": {
     "location": "Godspore",
     "region": "Ring",
@@ -62626,6 +62622,16 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Embalmer's Mixtape": {
+    "location": "Corridors",
+    "region": "Valley",
+    "name": "Embalmer's Mixtape",
+    "base_item": "Music Disc Ward",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An old record for an old Embalmer.\nQuestionably eerie, yet soothing.\n* Quest Item *\n#Q47I03"
   },
   "Tradesman's Cape": {
     "location": "The Wolfswood",
@@ -62685,6 +62691,53 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
+  },
+  "Fallen Lantern": {
+    "location": "Willows",
+    "name": "Fallen Lantern",
+    "base_item": "Lantern",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"This place terrifies me. I knew what\nI was getting into, of course, but\nactually witnessing the Veil is\nan experience I could never prepare\nfor. My light is lost. Will I too be lost?\""
+  },
+  "Soulfire Lantern": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Soulfire Lantern",
+    "base_item": "Lantern",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The Black Mist rolls forth, calling to unsuspecting heroes.\nThis Strike features unreal levels of difficulty, and you are\nrecommended to have a group of 4+ players in end-game gear.\nPlayers: 1-6 (Keep Inventory, but only 1 life per player)\nGrants access to the Black Mist Strike"
+  },
+  "Flame of Fallen Grace": {
+    "location": "Cyan",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Flame of Fallen Grace",
+    "base_item": "Lantern",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "max_health_flat": 10,
+      "knockback_resistance_flat": 8
+    },
+    "lore": "Saia's Grace had claimed another mind,\nforever imprisoned beneath the ashes\nand the clay. Beneath the sands and\nstones of Ishnir."
+  },
+  "Prophetic Moonbeam": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Prophetic Moonbeam",
+    "base_item": "Lantern",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "weightless": 1
+    },
+    "lore": "Encased in crystal's hold,\nMoon fragment shall decree.\nA Prophecy fortold,\nMay peaceful light guide thee."
   },
   "Earthquake Staff": {
     "location": "Blue",
@@ -63180,6 +63233,65 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
+  },
+  "Blindness Reagent": {
+    "name": "Blindness Reagent",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q13I05"
+  },
+  "Thick Ink Pouch": {
+    "name": "Thick Ink Pouch",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It sticks to your fingers almost instantly.\n* Quest Item *\n#Q110I10"
+  },
+  "Fingerprinting Kit": {
+    "name": "Fingerprinting Kit",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A kit used to extract fingerprints\nfrom items.\n* Quest Item *\n#Q139I02"
+  },
+  "Exquisite Ink": {
+    "name": "Exquisite Ink",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
+  },
+  "Enchanted Ink": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Enchanted Ink",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Magical ink imbued with\nthe ashes of a powerful mage."
+  },
+  "Dark Pine Resin": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Dark Pine Resin",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Charcoal pine resin cursed by dark magic.\nPermanently applies dark power to a weapon."
   },
   "Malhuer Reach": {
     "location": "Godspore",
@@ -66471,65 +66583,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q21I01"
   },
-  "Blindness Reagent": {
-    "name": "Blindness Reagent",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q13I05"
-  },
-  "Thick Ink Pouch": {
-    "name": "Thick Ink Pouch",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "It sticks to your fingers almost instantly.\n* Quest Item *\n#Q110I10"
-  },
-  "Fingerprinting Kit": {
-    "name": "Fingerprinting Kit",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A kit used to extract fingerprints\nfrom items.\n* Quest Item *\n#Q139I02"
-  },
-  "Exquisite Ink": {
-    "name": "Exquisite Ink",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    }
-  },
-  "Enchanted Ink": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Enchanted Ink",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Magical ink imbued with\nthe ashes of a powerful mage."
-  },
-  "Dark Pine Resin": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Dark Pine Resin",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Charcoal pine resin cursed by dark magic.\nPermanently applies dark power to a weapon."
-  },
   "Concave Lens": {
     "name": "Concave Lens",
     "base_item": "Light Gray Stained Glass",
@@ -67079,16 +67132,6 @@
     "stats": {},
     "lore": "A perfect track for a beatdown,\nthe piano plays in the background."
   },
-  "Embalmer's Mixtape": {
-    "location": "Corridors",
-    "region": "Valley",
-    "name": "Embalmer's Mixtape",
-    "base_item": "Music Disc Ward",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "An old record for an old Embalmer.\nQuestionably eerie, yet soothing.\n* Quest Item *\n#Q47I03"
-  },
   "Ethereal Expressions": {
     "location": "Corridors",
     "region": "Valley",
@@ -67423,53 +67466,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Epic Crafting Material"
-  },
-  "Fallen Lantern": {
-    "location": "Willows",
-    "name": "Fallen Lantern",
-    "base_item": "Lantern",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "\"This place terrifies me. I knew what\nI was getting into, of course, but\nactually witnessing the Veil is\nan experience I could never prepare\nfor. My light is lost. Will I too be lost?\""
-  },
-  "Soulfire Lantern": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Key",
-    "name": "Soulfire Lantern",
-    "base_item": "Lantern",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "The Black Mist rolls forth, calling to unsuspecting heroes.\nThis Strike features unreal levels of difficulty, and you are\nrecommended to have a group of 4+ players in end-game gear.\nPlayers: 1-6 (Keep Inventory, but only 1 life per player)\nGrants access to the Black Mist Strike"
-  },
-  "Flame of Fallen Grace": {
-    "location": "Cyan",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Flame of Fallen Grace",
-    "base_item": "Lantern",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "max_health_flat": 10,
-      "knockback_resistance_flat": 8
-    },
-    "lore": "Saia's Grace had claimed another mind,\nforever imprisoned beneath the ashes\nand the clay. Beneath the sands and\nstones of Ishnir."
-  },
-  "Prophetic Moonbeam": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Prophetic Moonbeam",
-    "base_item": "Lantern",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "weightless": 1
-    },
-    "lore": "Encased in crystal's hold,\nMoon fragment shall decree.\nA Prophecy fortold,\nMay peaceful light guide thee."
   },
   "Helm of Immortals": {
     "location": "Willows",

@@ -536,7 +536,7 @@
   },
   "quake": {
     "name": "Quake",
-    "description": "When your melee attack kills an enemy, all nearby enemies in a 3-block cube take (level * 10)% of the damage dealt. Your weapon's Fire/Ice/Thunder Aspect, Decay and/or Bleed also get applied.",
+    "description": "When your melee attack kills an enemy, all nearby enemies in a 3-block cube take (level * 5)% of the damage dealt. Your weapon's Fire/Ice/Thunder Aspect, Decay and/or Bleed also get applied.",
     "category": "Weapons"
   },
   "quench": {
