@@ -9772,6 +9772,111 @@
     "stats": {},
     "lore": "Regular Fungicide, with Mycelia detection.\nRight Button to detect nearby Spyshrooms.\nOfficial Galengarde Arboreal Society\nPatented Fungicide. USE WITH CAUTION\n* Quest Item *\n#Q213I01"
   },
+  "Deepwood Broth": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Deepwood Broth",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "BlastResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Arboreal Grandeur": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Arboreal Grandeur",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.2,
+        "EffectType": "FallResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Wolfswood Whiskey": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Wolfswood Whiskey",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Champignon Cider": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Champignon Cider",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Agaric Ale": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Agaric Ale",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "MagicResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Concentrated Mungfish": {
     "location": "Fishing",
     "region": "Ring",
@@ -10297,6 +10402,7 @@
   },
   "Carapace Champagne": {
     "location": "Delves",
+    "region": "Isles",
     "name": "Carapace Champagne",
     "effects": [
       {
@@ -10317,7 +10423,7 @@
   },
   "Arcanic Elixir": {
     "location": "Delves",
-    "region": "Ring",
+    "region": "Isles",
     "name": "Arcanic Elixir",
     "effects": [
       {
@@ -10338,6 +10444,7 @@
   },
   "Legionary Lambanóg": {
     "location": "Delves",
+    "region": "Isles",
     "name": "Legionary Lambang",
     "effects": [
       {
@@ -10368,6 +10475,7 @@
   },
   "Pernicious Perry": {
     "location": "Delves",
+    "region": "Isles",
     "name": "Pernicious Perry",
     "effects": [
       {
@@ -10383,7 +10491,7 @@
   },
   "Dreamward Draught": {
     "location": "Delves",
-    "region": "Ring",
+    "region": "Isles",
     "name": "Dreamward Draught",
     "effects": [
       {
@@ -10399,7 +10507,7 @@
   },
   "Bloodthirsty Draft": {
     "location": "Delves",
-    "region": "Ring",
+    "region": "Isles",
     "name": "Bloodthirsty Draft",
     "effects": [
       {
@@ -10415,6 +10523,7 @@
   },
   "Infernal Bourbon": {
     "location": "Delves",
+    "region": "Isles",
     "name": "Infernal Bourbon",
     "effects": [
       {
@@ -10435,6 +10544,7 @@
   },
   "Entropic Absinthe": {
     "location": "Delves",
+    "region": "Isles",
     "name": "Entropic Absinthe",
     "effects": [
       {
@@ -10455,6 +10565,7 @@
   },
   "Vengeful Vodka": {
     "location": "Delves",
+    "region": "Isles",
     "name": "Vengeful Vodka",
     "effects": [
       {
@@ -10475,7 +10586,7 @@
   },
   "Chivalrous Vial": {
     "location": "Delves",
-    "region": "Ring",
+    "region": "Isles",
     "name": "Chivalrous Vial",
     "effects": [
       {
@@ -10487,6 +10598,22 @@
         "EffectDuration": 144000,
         "EffectStrength": 0.05,
         "EffectType": "MeleeResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Brittle-Ice Brew": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Brittle-Ice Brew",
+    "effects": [
+      {
+        "EffectDuration": 9600,
+        "EffectStrength": 0.3,
+        "EffectType": "KnockbackResist"
       }
     ],
     "base_item": "Potion",
@@ -10524,6 +10651,27 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Miner's Brew": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Miner's Brew",
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 2,
+        "EffectType": "Haste"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Minor Regeneration Potion": {
     "name": "Minor Regeneration Potion",
     "effects": [
@@ -10539,6 +10687,8 @@
     "stats": {}
   },
   "Pina Codlada": {
+    "location": "The Wolfswood",
+    "region": "Ring",
     "name": "Pina Codlada",
     "effects": [
       {
@@ -10590,6 +10740,8 @@
     "stats": {}
   },
   "Rum and Cod": {
+    "location": "The Wolfswood",
+    "region": "Ring",
     "name": "Rum and Cod",
     "effects": [
       {
@@ -10615,6 +10767,27 @@
     "type": "Misc",
     "stats": {}
   },
+  "Guard's Chill": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Guard's Chill",
+    "effects": [
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Swiftness Potion": {
     "name": "Swiftness Potion",
     "effects": [
@@ -10630,6 +10803,8 @@
     "stats": {}
   },
   "Codmopolitan": {
+    "location": "The Wolfswood",
+    "region": "Ring",
     "name": "Codmopolitan",
     "effects": [
       {
@@ -10694,6 +10869,22 @@
         "EffectDuration": 3600,
         "EffectStrength": 1,
         "EffectType": "ConduitPower"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Depth Lurker": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Depth Lurker",
+    "effects": [
+      {
+        "EffectDuration": 10800,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
       }
     ],
     "base_item": "Potion",
@@ -10775,12 +10966,39 @@
   },
   "Transcendent Experience": {
     "location": "Delves",
+    "region": "Isles",
     "name": "Transcendent Experience",
     "effects": [
       {
         "EffectDuration": 54000,
         "EffectStrength": 0.25,
         "EffectType": "ExpBonus"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Sunfish Rum": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Sunfish Rum",
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
+      },
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -10816,6 +11034,27 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Gate's Ale": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Gate's Ale",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Fast Forward": {
     "location": "Isles Overworld",
     "region": "Isles",
@@ -10830,6 +11069,32 @@
         "EffectDuration": 3600,
         "EffectStrength": 0.3,
         "EffectType": "FallResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Blaze's Whiskey": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Blaze's Whiskey",
+    "effects": [
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      },
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -10860,6 +11125,51 @@
         "EffectDuration": 12000,
         "EffectStrength": 0.1,
         "EffectType": "Heal"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Blackroot Brew": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Blackroot Brew",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Poison"
+      },
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Cheap Beer": {
+    "name": "Cheap Beer",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -10905,6 +11215,58 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Bastion's Brew": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Bastion's Brew",
+    "effects": [
+      {
+        "EffectDuration": 1500,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 1500,
+        "EffectStrength": 0.2,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 1500,
+        "EffectStrength": 0.45,
+        "EffectType": "Slow"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Chillwind Cocktail": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Chillwind Cocktail",
+    "effects": [
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeDamage"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Minor Swiftness Potion": {
     "name": "Minor Swiftness Potion",
     "effects": [
@@ -10912,6 +11274,37 @@
         "EffectDuration": 3600,
         "EffectStrength": 0.2,
         "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Bastion of Will": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Bastion of Will",
+    "effects": [
+      {
+        "EffectDuration": 7200,
+        "EffectStrength": 0.1,
+        "EffectType": "MaxHealthIncrease"
+      },
+      {
+        "EffectDuration": 7200,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 7200,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 7200,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
       }
     ],
     "base_item": "Potion",
@@ -11727,7 +12120,59 @@
     },
     "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends its death."
   },
+  "Expensive Beer": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Expensive Beer",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Cheaper Beer": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Cheaper Beer",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Void Potion": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Void Potion",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 1,
+        "EffectType": "InstantDamagePercent"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "A potion infused with Void itself.\nConsuming it causes instant and unpreventable death."
+  },
   "Potion of Masterful Agility": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Potion of Masterful Agility",
     "effects": [
       {
@@ -11739,6 +12184,59 @@
         "EffectDuration": 18000,
         "EffectStrength": 3,
         "EffectType": "JumpBoost"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Cheapest Beer": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Cheapest Beer",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Potion of Agility": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Potion of Agility",
+    "effects": [
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 3,
+        "EffectType": "JumpBoost"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Less Cheap Beer": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Less Cheap Beer",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -12444,6 +12942,8 @@
     "lore": "This can't be good for me,\nbut I feel great!"
   },
   "Blur Brew": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Blur Brew",
     "effects": [
       {
@@ -25926,6 +26426,24 @@
     },
     "lore": "Screams echoed throughout Nightroost -\nthey seemingly came from the sky itself."
   },
+  "Dread Admiral's Hat": {
+    "location": "Greed Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Dread Admiral's Hat",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "tempo": 1,
+      "unbreakable": 1,
+      "speed_percent": 15,
+      "attack_speed_percent": 15,
+      "attack_damage_percent": 15,
+      "agility": 4.5
+    },
+    "lore": "With the tide comes the Admiral, the\nbearer of the glorious end."
+  },
   "Silkshine Hood": {
     "location": "Light Gray",
     "region": "Isles",
@@ -31521,6 +32039,48 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Weak Sanctify Potion": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "name": "Weak Sanctify Potion",
+    "effects": [
+      {
+        "EffectDuration": 240,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      }
+    ],
+    "base_item": "Lingering Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Sanctify Potion": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "name": "Sanctify Potion",
+    "effects": [
+      {
+        "EffectDuration": 240,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      }
+    ],
+    "base_item": "Lingering Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Elixir of Exorcism": {
     "name": "Elixir of Exorcism",
     "effects": [
@@ -32125,6 +32685,27 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Potion of Greater Salvation": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Potion of Greater Salvation",
+    "effects": [
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Potion of Alacrity": {
     "name": "Potion of Alacrity",
     "effects": [
@@ -32177,6 +32758,27 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Minotaur's Wrath": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Minotaur's Wrath",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Major Regeneration Vial": {
     "name": "Major Regeneration Vial",
     "effects": [
@@ -32184,6 +32786,20 @@
         "EffectDuration": 440,
         "EffectStrength": 2,
         "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Advanced Extinguisher": {
+    "name": "Advanced Extinguisher",
+    "effects": [
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
       }
     ],
     "base_item": "Splash Potion",
@@ -32206,6 +32822,8 @@
     "stats": {}
   },
   "Pineapple Extract": {
+    "location": "Docks",
+    "region": "Isles",
     "name": "Pineapple Extract",
     "effects": [
       {
@@ -32238,6 +32856,34 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Minor Harming Vial": {
+    "name": "Minor Harming Vial",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.2,
+        "EffectType": "InstantDamagePercent"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Minor Frosted Glass": {
+    "name": "Minor Frosted Glass",
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.15,
+        "EffectType": "Slow"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Aqueous Vial": {
     "name": "Aqueous Vial",
     "effects": [
@@ -32257,6 +32903,32 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Potion of Annihilation": {
+    "location": "Willows",
+    "region": "Valley",
+    "name": "Potion of Annihilation",
+    "effects": [
+      {
+        "EffectDuration": 1000,
+        "EffectStrength": 3,
+        "EffectType": "Wither"
+      },
+      {
+        "EffectDuration": 1000,
+        "EffectStrength": 3,
+        "EffectType": "Blindness"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.8,
+        "EffectType": "InstantDamagePercent"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Potion of Potency": {
     "name": "Potion of Potency",
     "effects": [
@@ -32269,6 +32941,20 @@
         "EffectDuration": 9600,
         "EffectStrength": 0.2,
         "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Harming Vial": {
+    "name": "Harming Vial",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantDamagePercent"
       }
     ],
     "base_item": "Splash Potion",
@@ -32297,6 +32983,20 @@
         "EffectDuration": 1800,
         "EffectStrength": 0.4,
         "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Minor Venom Bomb": {
+    "name": "Minor Venom Bomb",
+    "effects": [
+      {
+        "EffectDuration": 900,
+        "EffectStrength": 1,
+        "EffectType": "Poison"
       }
     ],
     "base_item": "Splash Potion",
@@ -32561,6 +33261,32 @@
     "stats": {},
     "lore": "Removes Poison II or lower."
   },
+  "Blinding Potion": {
+    "location": "Willows",
+    "region": "Valley",
+    "name": "Blinding Potion",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Blindness"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 3,
+        "EffectType": "Poison"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.8,
+        "EffectType": "InstantDamagePercent"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Potion of Protection": {
     "name": "Potion of Protection",
     "effects": [
@@ -32754,6 +33480,37 @@
         "EffectDuration": 200,
         "EffectStrength": 2,
         "EffectType": "Wither"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Challenger's Liqueur": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Challenger's Liqueur",
+    "effects": [
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
       }
     ],
     "base_item": "Splash Potion",
@@ -33075,6 +33832,28 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Inner Flame": {
+    "location": "Docks",
+    "region": "Isles",
+    "name": "Inner Flame",
+    "effects": [
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Kindle my soul, make my\nflames rise from within."
   },
   "Dragonrage Brew": {
     "location": "Remorse",
@@ -51338,6 +52117,7 @@
   },
   "Dichen Mutton Pie": {
     "location": "Ring Casino",
+    "region": "Ring",
     "name": "Dichen Mutton Pie",
     "effects": [
       {
@@ -51953,6 +52733,7 @@
   },
   "Spiced Mandrake": {
     "location": "Ring Casino",
+    "region": "Ring",
     "name": "Spiced Mandrake",
     "effects": [
       {
@@ -54076,6 +54857,9 @@
     "class_name": "Mage"
   },
   "Empowered Arcane Pigment": {
+    "location": "Light Blue",
+    "region": "Valley",
+    "tier": "Currency",
     "name": "Empowered Arcane Pigment",
     "base_item": "Amethyst Cluster",
     "release_status": "public",
@@ -54114,6 +54898,9 @@
     "lore": "Can be sold or transmogrified\nlike any other tier III item.\nCan be put into a wallet."
   },
   "Arcane Pigment": {
+    "location": "Light Blue",
+    "region": "Valley",
+    "tier": "Currency",
     "name": "Arcane Pigment",
     "base_item": "Medium Amethyst Bud",
     "release_status": "public",
@@ -55428,6 +56215,23 @@
     "stats": {},
     "lore": "There was an unnatural silence as\nHekawt stepped away from the fallen\ncapital. His need had outweighed the\nthe need of Al Malakut. He was eternal."
   },
+  "Dichen Specialty Stew": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Dichen Specialty Stew",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Suspicious Stew",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "A stewed vegetable medley with some local\nspices and fresh fish. Delightfully tasty\nbut difficult to transport once served."
+  },
   "Turbinado Sugar": {
     "name": "Turbinado Sugar",
     "base_item": "Redstone",
@@ -55627,6 +56431,7 @@
   },
   "Wolfberry Bunch": {
     "location": "Ring Casino",
+    "region": "Ring",
     "name": "Wolfberry Bunch",
     "effects": [
       {
@@ -59895,6 +60700,7 @@
   },
   "Silverstream Pike": {
     "location": "Ring Casino",
+    "region": "Ring",
     "name": "Silverstream Pike",
     "effects": [
       {
@@ -61725,6 +62531,7 @@
   },
   "Swordberry Bunch": {
     "location": "Ring Casino",
+    "region": "Ring",
     "name": "Swordberry Bunch",
     "effects": [
       {
@@ -61866,7 +62673,6 @@
   },
   "Soulfruit": {
     "location": "Soulwoven",
-    "region": "Valley",
     "name": "Soulfruit",
     "effects": [
       {
@@ -62691,6 +63497,22 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
+  },
+  "Deathbound Cavaliers": {
+    "location": "Marina Noir",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Deathbound Cavaliers",
+    "power": 3,
+    "base_item": "Lantern",
+    "release_status": "public",
+    "stats": {
+      "tactical_maneuver_damage_percent": 100,
+      "tactical_maneuver_stun_duration_percent": -100,
+      "tactical_maneuver_velocity_percent": -25
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Fallen Lantern": {
     "location": "Willows",
