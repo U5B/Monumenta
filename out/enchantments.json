@@ -46,7 +46,7 @@
   },
   "ardor": {
     "name": "Ardor",
-    "description": "Mining a spawner outside of water grants you (level * 3)% speed for 4s. Mining a spawner underwater refreshes (level * 0.5) breath.",
+    "description": "Mining a spawner outside of water grants you (level * 2)% speed for 4s. Mining a spawner underwater refreshes (level * 0.5) breath.",
     "category": "Delve Infusions"
   },
   "armor": {
@@ -61,7 +61,7 @@
   },
   "aura": {
     "name": "Aura",
-    "description": "Mobs in a 3 block radius from you are slowed by (level * 2)% for 0.5 seconds. This is refreshed as long as they are in range.",
+    "description": "Mobs in a 3 block radius from you are slowed by (level * 3)% for 0.5 seconds. This is refreshed as long as they are in range.",
     "category": "Delve Infusions"
   },
   "baaing": {
@@ -256,7 +256,7 @@
   },
   "expedite": {
     "name": "Expedite",
-    "description": "Damaging an enemy with an ability increases your movement speed by (level * 1)% for 5 seconds, stacking up to 3 times.",
+    "description": "Damaging an enemy with an ability increases your movement speed by (level * 0.75)% for 5 seconds, stacking up to 3 times.",
     "category": "Delve Infusions"
   },
   "featherfalling": {
