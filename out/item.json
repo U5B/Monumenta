@@ -759,7 +759,7 @@
     "base_item": "Magma Cream",
     "release_status": "public",
     "stats": {
-      "starfall_cooldown_percent": -70,
+      "starfall_cooldown_percent": -60,
       "starfall_damage_percent": -50,
       "starfall_radius_percent": -50
     },
@@ -3239,7 +3239,7 @@
       "projectile_fragility": 2,
       "max_health_flat": 4,
       "speed_percent": 15,
-      "armor": 6.5
+      "armor": 7
     },
     "lore": "A rosary given to newly\ninitiated Harrakfites."
   },
@@ -3257,7 +3257,7 @@
       "projectile_fragility": 2,
       "max_health_flat": 4,
       "speed_percent": 15,
-      "armor": 7.5
+      "armor": 8
     },
     "lore": "A rosary given to newly\ninitiated Harrakfites."
   },
@@ -3275,7 +3275,7 @@
       "projectile_fragility": 2,
       "max_health_flat": 4,
       "speed_percent": 15,
-      "armor": 6
+      "armor": 6.5
     },
     "lore": "A rosary given to newly\ninitiated Harrakfites."
   },
@@ -5293,8 +5293,8 @@
     "type": "Chestplate",
     "stats": {
       "unbreaking": 15,
-      "armor": 5.5,
-      "max_health_flat": 6
+      "max_health_flat": 6,
+      "armor": 6
     }
   },
   "Snowblossom Tunic": {
@@ -5323,7 +5323,7 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 7,
       "speed_percent": 10,
@@ -5400,7 +5400,7 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 10,
@@ -5502,10 +5502,10 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "sustenance": 2,
-      "unbreaking": 25,
+      "magic_protection": 2,
       "projectile_protection": 1,
-      "magic_protection": 1,
+      "sustenance": 3,
+      "unbreaking": 25,
       "max_health_flat": 14,
       "speed_percent": -30,
       "knockback_resistance_flat": 6
@@ -5522,10 +5522,10 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "sustenance": 2,
-      "unbreaking": 30,
+      "magic_protection": 2,
       "projectile_protection": 2,
-      "magic_protection": 1,
+      "sustenance": 3,
+      "unbreaking": 30,
       "max_health_flat": 14,
       "speed_percent": -30,
       "knockback_resistance_flat": 6
@@ -5738,8 +5738,8 @@
       "projectile_fragility": 2,
       "unbreaking": 3,
       "speed_percent": 5,
-      "agility": 8.5,
-      "projectile_damage_percent": 20
+      "projectile_damage_percent": 20,
+      "agility": 7.5
     },
     "lore": "A merciless ocean washed upon the burdened\ncloth, its purpose in execution lost. But it is\nbeyond its craftsmanship now, left with a silence\nno other could bear."
   },
@@ -5757,9 +5757,9 @@
       "mending": 1,
       "projectile_fragility": 2,
       "unbreaking": 3,
-      "agility": 8,
       "speed_percent": 5,
-      "projectile_damage_percent": 20
+      "projectile_damage_percent": 20,
+      "agility": 7
     },
     "lore": "A merciless ocean washed upon the burdened\ncloth, its purpose in execution lost. But it is\nbeyond its craftsmanship now, left with a silence\nno other could bear."
   },
@@ -8462,12 +8462,12 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 4,
-      "point_blank": 3,
       "bleeding": 2,
+      "point_blank": 4,
+      "unbreaking": 4,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.6,
-      "projectile_damage_base": 14
+      "projectile_damage_base": 14.5
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -8481,12 +8481,12 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 5,
-      "point_blank": 3,
       "bleeding": 2,
+      "point_blank": 4,
+      "unbreaking": 5,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.7,
-      "projectile_damage_base": 14.5
+      "projectile_damage_base": 15
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -8500,12 +8500,12 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 6,
-      "point_blank": 3,
       "bleeding": 2,
+      "point_blank": 4,
+      "unbreaking": 6,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.8,
-      "projectile_damage_base": 15.5
+      "projectile_damage_base": 16
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -8519,12 +8519,12 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 5,
-      "point_blank": 3,
       "bleeding": 2,
+      "point_blank": 4,
+      "unbreaking": 5,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.7,
-      "projectile_damage_base": 15
+      "projectile_damage_base": 15.5
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -13708,8 +13708,8 @@
     "type": "Leggings",
     "stats": {
       "unbreaking": 15,
-      "armor": 5.5,
-      "max_health_flat": 6
+      "max_health_flat": 6,
+      "armor": 6
     }
   },
   "Dragonkin Leggings": {
@@ -13721,7 +13721,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 7,
       "speed_percent": 10,
@@ -13784,7 +13784,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 10,
@@ -13856,12 +13856,12 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 25,
+      "blast_protection": 3,
       "fire_protection": 2,
       "retrieval": 1,
-      "blast_protection": 3,
-      "projectile_damage_percent": 25,
-      "agility": 7.5
+      "unbreaking": 25,
+      "agility": 7.5,
+      "projectile_damage_percent": 20
     },
     "lore": "The Mycelia devised toxins that even\nthey could not withstand. Additional\nshielding was required."
   },
@@ -13875,12 +13875,12 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 30,
+      "blast_protection": 3,
       "fire_protection": 3,
       "retrieval": 1,
-      "blast_protection": 3,
-      "projectile_damage_percent": 25,
-      "agility": 8
+      "unbreaking": 30,
+      "agility": 8,
+      "projectile_damage_percent": 20
     },
     "lore": "The Mycelia devised toxins that even\nthey could not withstand. Additional\nshielding was required."
   },
@@ -14144,7 +14144,7 @@
       "max_health_flat": -4,
       "projectile_damage_percent": 30,
       "thorns_flat": 3,
-      "armor": 11.5
+      "armor": 11
     },
     "lore": "The deepest-rooted Mycelia\nwere even more embroiled with\nZealotry than the Amanita, willing\nto sacrifice anything for their God."
   },
@@ -14160,10 +14160,10 @@
     "stats": {
       "blast_protection": 1,
       "unbreaking": 25,
-      "armor": 11,
       "max_health_flat": -4,
       "projectile_damage_percent": 30,
-      "thorns_flat": 3
+      "thorns_flat": 3,
+      "armor": 10.5
     },
     "lore": "The deepest-rooted Mycelia\nwere even more embroiled with\nZealotry than the Amanita, willing\nto sacrifice anything for their God."
   },
@@ -14306,8 +14306,8 @@
       "first_strike": 1,
       "guard": 1,
       "unbreaking": 25,
-      "armor": 7,
-      "attack_damage_percent": 10
+      "attack_damage_percent": 10,
+      "armor": 7.5
     },
     "lore": "Akin to a raging current, twisting back and\nand forth. This grim transfer of power\nremains ageless, like the primordial ocean,\nand the sweet release of death."
   },
@@ -16595,9 +16595,9 @@
     "stats": {
       "unbreakable": 1,
       "max_health_flat": 6,
-      "thorns_flat": 3,
       "knockback_resistance_flat": 2,
-      "agility": 4.5
+      "agility": 5,
+      "thorns_flat": 5
     },
     "lore": "The Mycelia distilled the nearby cave crystals into\npure, life-granting mana. Only through this process\ncould they create more of their own."
   },
@@ -16613,9 +16613,9 @@
     "stats": {
       "unbreakable": 1,
       "max_health_flat": 6,
-      "thorns_flat": 3,
       "knockback_resistance_flat": 2,
-      "agility": 5
+      "agility": 5.5,
+      "thorns_flat": 5
     },
     "lore": "The Mycelia distilled the nearby cave crystals into\npure, life-granting mana. Only through this process\ncould they create more of their own."
   },
@@ -16631,9 +16631,9 @@
     "stats": {
       "unbreakable": 1,
       "max_health_flat": 8,
-      "thorns_flat": 3,
       "knockback_resistance_flat": 3,
-      "agility": 5
+      "agility": 5.5,
+      "thorns_flat": 5
     },
     "lore": "The Mycelia distilled the nearby cave crystals into\npure, life-granting mana. Only through this process\ncould they create more of their own."
   },
@@ -16649,9 +16649,9 @@
     "stats": {
       "unbreakable": 1,
       "max_health_flat": 7,
-      "thorns_flat": 3,
       "knockback_resistance_flat": 3,
-      "agility": 5
+      "agility": 5.5,
+      "thorns_flat": 5
     },
     "lore": "The Mycelia distilled the nearby cave crystals into\npure, life-granting mana. Only through this process\ncould they create more of their own."
   },
@@ -18014,9 +18014,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 17,
       "evasion": 1,
-      "magic_protection": 3,
+      "magic_protection": 2,
+      "unbreaking": 17,
       "agility": 5,
       "speed_percent": 10,
       "projectile_damage_percent": 20
@@ -18033,9 +18033,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 20,
       "evasion": 1,
-      "magic_protection": 3,
+      "magic_protection": 2,
+      "unbreaking": 20,
       "agility": 5.5,
       "speed_percent": 15,
       "projectile_damage_percent": 20
@@ -18209,7 +18209,7 @@
     "type": "Helmet",
     "stats": {
       "curse_of_corruption": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 3,
       "max_health_flat": 6
     },
@@ -19641,8 +19641,8 @@
     "type": "Boots",
     "stats": {
       "unbreaking": 15,
-      "armor": 5.5,
-      "max_health_flat": 6
+      "max_health_flat": 6,
+      "armor": 6
     }
   },
   "Dragonkin Boots": {
@@ -19654,7 +19654,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 7,
       "speed_percent": 10,
@@ -19751,7 +19751,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 10,
@@ -19849,8 +19849,8 @@
     "stats": {
       "second_wind": 1,
       "unbreaking": 17,
-      "agility": 4,
-      "max_health_flat": 8
+      "max_health_flat": 8,
+      "agility": 4.5
     },
     "lore": "As the mechanism whirs to life, you feel\nthe vitality of the ancient construct flowing\nthrough your very soul."
   },
@@ -19866,8 +19866,8 @@
     "stats": {
       "second_wind": 1,
       "unbreaking": 25,
-      "agility": 4,
-      "max_health_flat": 9
+      "max_health_flat": 9,
+      "agility": 4.5
     },
     "lore": "As the mechanism whirs to life, you feel\nthe vitality of the ancient construct flowing\nthrough your very soul."
   },
@@ -19883,8 +19883,8 @@
     "stats": {
       "second_wind": 2,
       "unbreaking": 30,
-      "agility": 4,
-      "max_health_flat": 9
+      "max_health_flat": 9,
+      "agility": 4.5
     },
     "lore": "As the mechanism whirs to life, you feel\nthe vitality of the ancient construct flowing\nthrough your very soul."
   },
@@ -19901,7 +19901,7 @@
       "fire_protection": 2,
       "unbreaking": 17,
       "attack_damage_percent": 35,
-      "armor": 7.5
+      "armor": 7
     },
     "lore": "First she hungered for Silver blood. Then\nshe hungered for power within. Last she hungered\nfor knowledge without. Until the Corsair\nfinally hungered for her."
   },
@@ -19918,7 +19918,7 @@
       "fire_protection": 2,
       "unbreaking": 30,
       "attack_damage_percent": 40,
-      "armor": 8.5
+      "armor": 8
     },
     "lore": "First she hungered for Silver blood. Then\nshe hungered for power within. Last she hungered\nfor knowledge without. Until the Corsair\nfinally hungered for her."
   },
@@ -19935,7 +19935,7 @@
       "fire_protection": 2,
       "unbreaking": 25,
       "attack_damage_percent": 35,
-      "armor": 8
+      "armor": 7.5
     },
     "lore": "First she hungered for Silver blood. Then\nshe hungered for power within. Last she hungered\nfor knowledge without. Until the Corsair\nfinally hungered for her."
   },
@@ -20007,9 +20007,9 @@
     "type": "Boots",
     "stats": {
       "unbreaking": 17,
-      "armor": 7,
       "max_health_flat": 6,
-      "speed_percent": -10
+      "speed_percent": -10,
+      "armor": 8
     },
     "lore": "Here, the trees show no age. The stumps\nare marked not with concentric bands,\nbut rather contain a seemingly infinite\nspiral. This forest is ancient, yet timeless."
   },
@@ -20024,10 +20024,10 @@
     "type": "Boots",
     "stats": {
       "unbreaking": 30,
-      "armor": 8,
       "max_health_flat": 6,
       "speed_percent": -10,
-      "thorns_flat": 1
+      "thorns_flat": 1,
+      "armor": 9
     },
     "lore": "Here, the trees show no age. The stumps\nare marked not with concentric bands,\nbut rather contain a seemingly infinite\nspiral. This forest is ancient, yet timeless."
   },
@@ -20042,9 +20042,9 @@
     "type": "Boots",
     "stats": {
       "unbreaking": 25,
-      "armor": 7.5,
       "max_health_flat": 6,
-      "speed_percent": -10
+      "speed_percent": -10,
+      "armor": 8.5
     },
     "lore": "Here, the trees show no age. The stumps\nare marked not with concentric bands,\nbut rather contain a seemingly infinite\nspiral. This forest is ancient, yet timeless."
   },
@@ -20096,11 +20096,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "adrenaline": 1,
+      "evasion": 1,
       "second_wind": 1,
       "unbreaking": 30,
-      "evasion": 1,
-      "adrenaline": 1,
-      "agility": 9.5
+      "agility": 9
     },
     "lore": "The cool shade of the Fen veiled\ngreat power. As the Silver shadow\nwaxed and waned over the Ring, the\nCoven forever remained."
   },
@@ -20114,11 +20114,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "adrenaline": 1,
+      "evasion": 1,
       "second_wind": 1,
       "unbreaking": 15,
-      "evasion": 1,
-      "adrenaline": 1,
-      "agility": 9
+      "agility": 8.5
     },
     "lore": "The cool shade of the Fen veiled\ngreat power. As the Silver shadow\nwaxed and waned over the Ring, the\nCoven forever remained."
   },
@@ -22342,7 +22342,7 @@
     "lore": "My compass spins,\nthe wilderness remains."
   },
   "Blade of the Sealed": {
-    "location": "Pelias' Keep",
+    "location": "Fishing",
     "region": "Ring",
     "tier": "Rare",
     "name": "Blade of the Sealed",
@@ -25025,7 +25025,7 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 7,
       "speed_percent": 10,
@@ -25042,8 +25042,8 @@
     "type": "Helmet",
     "stats": {
       "unbreaking": 15,
-      "armor": 5.5,
-      "max_health_flat": 6
+      "max_health_flat": 6,
+      "armor": 6
     }
   },
   "Snowblossom Hat": {
@@ -25150,7 +25150,7 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 10,
@@ -25359,12 +25359,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 25,
-      "melee_protection": 2,
       "aptitude": 1,
+      "melee_protection": 2,
       "regeneration": 1,
-      "agility": 9,
-      "max_health_flat": -2
+      "unbreaking": 25,
+      "max_health_flat": -2,
+      "agility": 8.5
     },
     "lore": "Woven from the echoes of betrayal, this\nhood reliably protects the wearer from\nblood, absorbing it and purifying it\ninto its original form - mana."
   },
@@ -25378,12 +25378,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 30,
-      "melee_protection": 2,
       "aptitude": 1,
+      "melee_protection": 2,
       "regeneration": 1,
-      "agility": 10,
-      "max_health_flat": -2
+      "unbreaking": 30,
+      "max_health_flat": -2,
+      "agility": 9.5
     },
     "lore": "Woven from the echoes of betrayal, this\nhood reliably protects the wearer from\nblood, absorbing it and purifying it\ninto its original form - mana."
   },
@@ -27329,12 +27329,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "melee_protection": 1,
+      "projectile_protection": 2,
       "second_wind": 2,
       "unbreaking": 6,
-      "melee_protection": 2,
-      "projectile_protection": 3,
-      "agility": 10,
-      "max_health_flat": -4
+      "max_health_flat": -4,
+      "agility": 10.5
     },
     "lore": "The grand statues of the fortress moved\nwith a surprising speed. Was this a\nshrine, or a prison cell?"
   },
@@ -27348,12 +27348,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "melee_protection": 1,
+      "projectile_protection": 1,
       "second_wind": 2,
       "unbreaking": 5,
-      "melee_protection": 2,
-      "projectile_protection": 2,
-      "agility": 10,
-      "max_health_flat": -4
+      "max_health_flat": -4,
+      "agility": 10.5
     },
     "lore": "The grand statues of the fortress moved\nwith a surprising speed. Was this a\nshrine, or a prison cell?"
   },
@@ -27367,12 +27367,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "melee_protection": 2,
+      "projectile_protection": 2,
       "second_wind": 2,
       "unbreaking": 7,
-      "melee_protection": 3,
-      "projectile_protection": 3,
-      "agility": 10,
-      "max_health_flat": -4
+      "max_health_flat": -4,
+      "agility": 10.5
     },
     "lore": "The grand statues of the fortress moved\nwith a surprising speed. Was this a\nshrine, or a prison cell?"
   },
@@ -27386,10 +27386,10 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "melee_protection": 2,
+      "projectile_protection": 2,
       "second_wind": 2,
       "unbreaking": 8,
-      "melee_protection": 3,
-      "projectile_protection": 3,
       "agility": 11,
       "max_health_flat": -4
     },
@@ -27443,9 +27443,10 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "regicide": 1,
       "unbreaking": 10,
-      "agility": 5.5,
-      "max_health_percent": 35
+      "max_health_percent": 35,
+      "agility": 5
     },
     "lore": "An empire forged from silver false,\na hand to guide that ancient land. From\nlegacy of knights long lost grew godly\nright to take command."
   },
@@ -27459,9 +27460,10 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "regicide": 1,
       "unbreaking": 12,
-      "agility": 6.5,
-      "max_health_percent": 35
+      "max_health_percent": 35,
+      "agility": 6
     },
     "lore": "An empire forged from silver false,\na hand to guide that ancient land. From\nlegacy of knights long lost grew godly\nright to take command."
   },
@@ -27475,9 +27477,10 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "regicide": 1,
       "unbreaking": 10,
-      "agility": 5.5,
-      "max_health_percent": 30
+      "max_health_percent": 30,
+      "agility": 5
     },
     "lore": "An empire forged from silver false,\na hand to guide that ancient land. From\nlegacy of knights long lost grew godly\nright to take command."
   },
@@ -27491,9 +27494,10 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "regicide": 1,
       "unbreaking": 8,
-      "agility": 5,
-      "max_health_percent": 30
+      "max_health_percent": 30,
+      "agility": 4.5
     },
     "lore": "An empire forged from silver false,\na hand to guide that ancient land. From\nlegacy of knights long lost grew godly\nright to take command."
   },
@@ -28264,7 +28268,7 @@
       "unbreakable": 1,
       "armor": 6,
       "attack_damage_percent": 30,
-      "knockback_resistance_flat": 1
+      "knockback_resistance_flat": 1.5
     }
   },
   "Silver Blade": {
@@ -28648,12 +28652,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "curse_of_anemia": 1,
+      "curse_of_anemia": 2,
       "unbreakable": 1,
       "attack_speed_percent": -15,
-      "agility": 6,
       "max_health_percent": 10,
-      "attack_damage_percent": 55
+      "attack_damage_percent": 55,
+      "agility": 6.5
     },
     "lore": "After Markus' mother died, he was expelled from the manor.\nPelias' lack of use for him saved him from consumption.\nDespite his failure, the Architect had spared him.\nHe would spend the rest of his life in penance."
   },
@@ -28667,12 +28671,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "curse_of_anemia": 1,
+      "curse_of_anemia": 2,
       "unbreakable": 1,
       "attack_speed_percent": -15,
-      "agility": 6,
       "max_health_percent": 10,
-      "attack_damage_percent": 60
+      "attack_damage_percent": 60,
+      "agility": 6.5
     },
     "lore": "After Markus' mother died, he was expelled from the manor.\nPelias' lack of use for him saved him from consumption.\nDespite his failure, the Architect had spared him.\nHe would spend the rest of his life in penance."
   },
@@ -28687,7 +28691,7 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 1,
+      "stamina": 2,
       "unbreakable": 1,
       "armor": 6
     },
@@ -28704,7 +28708,7 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 1,
+      "stamina": 2,
       "unbreakable": 1,
       "armor": 6.5
     },
@@ -28721,9 +28725,10 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 2,
+      "stamina": 3,
       "unbreakable": 1,
-      "armor": 7
+      "armor": 7,
+      "attack_damage_percent": 5
     },
     "lore": "The liquid metal flows and pulses around your hand.\nIts gentle rhythm mimics that of breathing, or a heartbeat.\nSomething is alive within."
   },
@@ -28738,7 +28743,7 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 2,
+      "stamina": 3,
       "unbreakable": 1,
       "armor": 6.5
     },
@@ -30156,11 +30161,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
       "melee_protection": 1,
-      "armor": 7,
+      "unbreaking": 3,
       "max_health_flat": 2,
-      "knockback_resistance_flat": 2
+      "knockback_resistance_flat": 2,
+      "armor": 5.5
     }
   },
   "Dichen Shield": {
@@ -30189,11 +30194,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 2,
       "melee_protection": 1,
-      "armor": 6,
+      "unbreaking": 2,
       "max_health_flat": 2,
-      "knockback_resistance_flat": 1
+      "knockback_resistance_flat": 1,
+      "armor": 4.5
     }
   },
   "Rootweave Shield": {
@@ -30205,11 +30210,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
       "melee_protection": 1,
-      "armor": 6.5,
+      "unbreaking": 3,
       "max_health_flat": 2,
-      "knockback_resistance_flat": 1.5
+      "knockback_resistance_flat": 1.5,
+      "armor": 5
     }
   },
   "Tuathan Shield": {
@@ -30257,12 +30262,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 5,
       "cloaked": 1,
       "regeneration": 1,
+      "unbreaking": 5,
       "speed_percent": 10,
       "attack_speed_percent": 20,
-      "agility": 6.5
+      "agility": 5
     },
     "lore": "Each denting blow swung against\nthe shield seems to vanish into\nthe beyond instead."
   },
@@ -30276,12 +30281,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 4,
       "cloaked": 1,
       "regeneration": 1,
+      "unbreaking": 4,
       "speed_percent": 10,
       "attack_speed_percent": 15,
-      "agility": 6
+      "agility": 4.5
     },
     "lore": "Each denting blow swung against\nthe shield seems to vanish into\nthe beyond instead."
   },
@@ -30329,11 +30334,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 4,
       "first_strike": 1,
-      "agility": 10,
+      "unbreaking": 4,
       "attack_damage_percent": 10,
-      "projectile_damage_percent": 10
+      "projectile_damage_percent": 10,
+      "agility": 8
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -30347,11 +30352,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 5,
       "first_strike": 2,
-      "agility": 10,
+      "unbreaking": 5,
       "attack_damage_percent": 10,
-      "projectile_damage_percent": 10
+      "projectile_damage_percent": 10,
+      "agility": 8
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -30365,11 +30370,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
       "first_strike": 1,
-      "agility": 9,
+      "unbreaking": 3,
       "attack_damage_percent": 10,
-      "projectile_damage_percent": 10
+      "projectile_damage_percent": 10,
+      "agility": 7
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -30383,11 +30388,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
       "first_strike": 1,
-      "agility": 9,
+      "unbreaking": 3,
       "attack_damage_percent": 5,
-      "projectile_damage_percent": 5
+      "projectile_damage_percent": 5,
+      "agility": 7
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -30559,11 +30564,11 @@
     "type": "Offhand Shield",
     "stats": {
       "guard": 1,
-      "unbreaking": 5,
-      "projectile_protection": 2,
       "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 5,
       "knockback_resistance_flat": 2,
-      "armor": 6.5
+      "armor": 6
     },
     "lore": "Within the nightmare, even the truly\nunique artifacts of the past change\ntheir shape and purpose. Where are the\nboundaries of this dream?"
   },
@@ -30596,11 +30601,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
+      "melee_protection": 4,
       "unbreaking": 4,
-      "melee_protection": 5,
-      "armor": 5.5,
       "max_health_flat": 2,
-      "speed_percent": 8
+      "speed_percent": 8,
+      "armor": 5
     },
     "lore": "A trophy from a pruned Mycelia. The\ncreature would regrow good as new, but\nstaring down one's old cap is a good\nreminder to tread lightly."
   },
@@ -30614,11 +30619,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
+      "melee_protection": 4,
       "unbreaking": 5,
-      "melee_protection": 5,
-      "armor": 6,
       "max_health_flat": 2,
-      "speed_percent": 10
+      "speed_percent": 10,
+      "armor": 5.5
     },
     "lore": "A trophy from a pruned Mycelia. The\ncreature would regrow good as new, but\nstaring down one's old cap is a good\nreminder to tread lightly."
   },
@@ -30632,11 +30637,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
+      "melee_protection": 3,
       "unbreaking": 3,
-      "melee_protection": 4,
-      "armor": 5.5,
       "max_health_flat": 2,
-      "speed_percent": 5
+      "speed_percent": 5,
+      "armor": 5
     },
     "lore": "A trophy from a pruned Mycelia. The\ncreature would regrow good as new, but\nstaring down one's old cap is a good\nreminder to tread lightly."
   },
@@ -30650,11 +30655,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
+      "melee_protection": 3,
       "unbreaking": 3,
-      "melee_protection": 4,
-      "armor": 5,
       "max_health_flat": 2,
-      "speed_percent": 5
+      "speed_percent": 5,
+      "armor": 4.5
     },
     "lore": "A trophy from a pruned Mycelia. The\ncreature would regrow good as new, but\nstaring down one's old cap is a good\nreminder to tread lightly."
   },
@@ -30668,10 +30673,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
+      "sustenance": 2,
       "unbreaking": 3,
       "max_health_percent": 20,
-      "max_health_flat": 4,
-      "armor": 4
+      "armor": 4,
+      "max_health_flat": 1
     },
     "lore": "Even as sickness consumed its bearer, it\nprotected them from death for years."
   },
@@ -30685,10 +30691,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
+      "sustenance": 2,
       "unbreaking": 4,
       "max_health_percent": 20,
-      "max_health_flat": 4,
-      "armor": 4.5
+      "armor": 4.5,
+      "max_health_flat": 1
     },
     "lore": "Even as sickness consumed its bearer, it\nprotected them from death for years."
   },
@@ -30702,10 +30709,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
+      "sustenance": 2,
       "unbreaking": 5,
       "max_health_percent": 20,
       "armor": 4.5,
-      "max_health_flat": 5
+      "max_health_flat": 2
     },
     "lore": "Even as sickness consumed its bearer, it\nprotected them from death for years."
   },
@@ -31207,8 +31215,7 @@
     "type": "Offhand Shield",
     "stats": {
       "mending": 1,
-      "fire_protection": 3,
-      "knockback_resistance_flat": 10
+      "knockback_resistance_flat": 3
     },
     "lore": "Made from the hide of a War Pig."
   },
@@ -31830,7 +31837,7 @@
     "release_status": "public",
     "stats": {
       "panacea_cooldown_percent": 50,
-      "panacea_dot_damage_percent": 50,
+      "panacea_damage_percent": 60,
       "panacea_absorption_health_percent": -100
     },
     "type": "Charm",
@@ -32967,6 +32974,9 @@
     "stats": {}
   },
   "Map Potion": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
     "name": "Map Potion",
     "effects": [
       {
@@ -34899,7 +34909,7 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 10,
@@ -36099,10 +36109,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "cloaked": 1,
       "sustenance": 1,
       "unbreaking": 20,
-      "cloaked": 1,
-      "agility": 9.5
+      "agility": 9
     },
     "lore": "The blood-soaked bracelets retain their\nshape even inside the nightmare, leaving\na trail of blood behind them."
   },
@@ -36791,8 +36801,8 @@
       "unbreaking": 4,
       "wind_aspect": 1,
       "speed_percent": 5,
-      "projectile_speed_base": 1.5,
-      "projectile_damage_base": 24
+      "projectile_damage_base": 23.5,
+      "projectile_speed_base": 1
     },
     "lore": "Even a captain capable of rallying\nuncountable numbers of ruffians\nbehind him could not escape his\ninevitable fate. What hope, then, do you\nhave to do differently?"
   },
@@ -36810,8 +36820,8 @@
       "piercing": 2,
       "unbreaking": 4,
       "wind_aspect": 1,
-      "projectile_speed_base": 1.5,
-      "projectile_damage_base": 24
+      "projectile_damage_base": 23.5,
+      "projectile_speed_base": 1
     },
     "lore": "Even a captain capable of rallying\nuncountable numbers of ruffians\nbehind him could not escape his\ninevitable fate. What hope, then, do you\nhave to do differently?"
   },
@@ -36903,12 +36913,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
+      "bleeding": 2,
       "fire_aspect": 2,
       "piercing": 1,
-      "bleeding": 2,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 25.5
+      "unbreaking": 3,
+      "projectile_damage_base": 25.5,
+      "projectile_speed_base": 1.5
     },
     "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -36922,12 +36932,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 4,
+      "bleeding": 2,
       "fire_aspect": 2,
       "piercing": 1,
-      "bleeding": 2,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 26
+      "unbreaking": 4,
+      "projectile_damage_base": 26,
+      "projectile_speed_base": 1.5
     },
     "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -36941,12 +36951,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
+      "bleeding": 2,
       "fire_aspect": 2,
       "piercing": 1,
-      "bleeding": 2,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 25
+      "unbreaking": 3,
+      "projectile_damage_base": 25,
+      "projectile_speed_base": 1.5
     },
     "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -38765,7 +38775,7 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 10,
@@ -38886,12 +38896,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 8,
-      "curse_of_crippling": 2,
       "adrenaline": 2,
+      "curse_of_crippling": 2,
+      "unbreaking": 8,
       "max_health_flat": -2,
       "knockback_resistance_flat": 4,
-      "agility": 14.5
+      "agility": 14
     },
     "lore": "\"Each day I feel his fury pulsing from\nthat cursed prison. The cage begins to weaken.\nWhy should your God stay in chains?\nI will not abide it. Your council is no longer required.\""
   },
@@ -38905,12 +38915,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 7,
-      "curse_of_crippling": 2,
       "adrenaline": 2,
+      "curse_of_crippling": 2,
+      "unbreaking": 7,
       "max_health_flat": -2,
       "knockback_resistance_flat": 3.5,
-      "agility": 14
+      "agility": 13.5
     },
     "lore": "\"Each day I feel his fury pulsing from\nthat cursed prison. The cage begins to weaken.\nWhy should your God stay in chains?\nI will not abide it. Your council is no longer required.\""
   },
@@ -38924,10 +38934,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "second_wind": 1,
       "steadfast": 1,
       "unbreaking": 7,
       "knockback_resistance_flat": 3,
-      "armor": 8.5
+      "armor": 7.5
     },
     "lore": "Though crumbling, the ancient walls\nof the Keep still repelled all invaders.\nThe empire would not fall. Not from\nthe outside..."
   },
@@ -38941,10 +38952,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "second_wind": 1,
       "steadfast": 1,
       "unbreaking": 8,
       "knockback_resistance_flat": 3,
-      "armor": 9.5
+      "armor": 8.5
     },
     "lore": "Though crumbling, the ancient walls\nof the Keep still repelled all invaders.\nThe empire would not fall. Not from\nthe outside..."
   },
@@ -38958,10 +38970,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "second_wind": 1,
       "steadfast": 1,
       "unbreaking": 5,
       "knockback_resistance_flat": 2.5,
-      "armor": 8
+      "armor": 7
     },
     "lore": "Though crumbling, the ancient walls\nof the Keep still repelled all invaders.\nThe empire would not fall. Not from\nthe outside..."
   },
@@ -38975,10 +38988,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "second_wind": 1,
       "steadfast": 1,
       "unbreaking": 5,
       "knockback_resistance_flat": 2,
-      "armor": 7.5
+      "armor": 6.5
     },
     "lore": "Though crumbling, the ancient walls\nof the Keep still repelled all invaders.\nThe empire would not fall. Not from\nthe outside..."
   },
@@ -39062,10 +39076,10 @@
     "stats": {
       "magic_protection": 1,
       "unbreaking": 7,
-      "armor": 10.5,
       "max_health_flat": -2,
       "attack_speed_flat": 0.15,
-      "attack_damage_percent": 20
+      "attack_damage_percent": 20,
+      "armor": 10
     },
     "lore": "The fortress stands at the shores of\nthe earth. The Ring. The edge of the\nworld. You feel that you may never step\nupon another horizon."
   },
@@ -39081,10 +39095,10 @@
     "stats": {
       "magic_protection": 1,
       "unbreaking": 8,
-      "armor": 10.5,
       "max_health_flat": -2,
       "attack_speed_flat": 0.15,
-      "attack_damage_percent": 25
+      "attack_damage_percent": 25,
+      "armor": 10
     },
     "lore": "The fortress stands at the shores of\nthe earth. The Ring. The edge of the\nworld. You feel that you may never step\nupon another horizon."
   },
@@ -39100,10 +39114,10 @@
     "stats": {
       "magic_protection": 1,
       "unbreaking": 6,
-      "armor": 9.5,
       "max_health_flat": -2,
       "attack_speed_flat": 0.15,
-      "attack_damage_percent": 20
+      "attack_damage_percent": 20,
+      "armor": 9
     },
     "lore": "The fortress stands at the shores of\nthe earth. The Ring. The edge of the\nworld. You feel that you may never step\nupon another horizon."
   },
@@ -39119,10 +39133,10 @@
     "stats": {
       "magic_protection": 1,
       "unbreaking": 6,
-      "armor": 9.5,
       "max_health_flat": -2,
       "attack_speed_flat": 0.1,
-      "attack_damage_percent": 20
+      "attack_damage_percent": 20,
+      "armor": 9
     },
     "lore": "The fortress stands at the shores of\nthe earth. The Ring. The edge of the\nworld. You feel that you may never step\nupon another horizon."
   },
@@ -39326,12 +39340,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 8,
-      "shielding": 1,
       "blast_protection": 4,
       "magic_protection": 4,
+      "shielding": 1,
+      "unbreaking": 8,
       "max_health_flat": -4,
-      "armor": 11
+      "armor": 10
     },
     "lore": "If the existence of a watch insists a\nwatchmaker, then does not the craftsman\nrequire a maker of their own? But\nwhat being could've begotten the Machine?"
   },
@@ -39345,12 +39359,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 7,
-      "shielding": 1,
       "blast_protection": 4,
       "magic_protection": 3,
+      "shielding": 1,
+      "unbreaking": 7,
       "max_health_flat": -4,
-      "armor": 11
+      "armor": 10
     },
     "lore": "If the existence of a watch insists a\nwatchmaker, then does not the craftsman\nrequire a maker of their own? But\nwhat being could've begotten the Machine?"
   },
@@ -39935,7 +39949,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 10,
@@ -39972,7 +39986,7 @@
       "unbreaking": 7,
       "max_health_flat": -3,
       "knockback_resistance_flat": 2,
-      "armor": 13.5
+      "armor": 13
     },
     "lore": "The Architect, the Knights, the Silvari.\nEons of terrible legacy, all trapped\nwithin these walls."
   },
@@ -39990,7 +40004,7 @@
       "unbreaking": 8,
       "max_health_flat": -3,
       "knockback_resistance_flat": 2,
-      "armor": 14.5
+      "armor": 14
     },
     "lore": "The Architect, the Knights, the Silvari.\nEons of terrible legacy, all trapped\nwithin these walls."
   },
@@ -40008,7 +40022,7 @@
       "unbreaking": 6,
       "max_health_flat": -3,
       "knockback_resistance_flat": 2,
-      "armor": 13.5
+      "armor": 13
     },
     "lore": "The Architect, the Knights, the Silvari.\nEons of terrible legacy, all trapped\nwithin these walls."
   },
@@ -40022,13 +40036,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "magic_protection": 2,
+      "mending": 1,
       "steadfast": 2,
       "unbreaking": 2,
-      "mending": 1,
-      "magic_protection": 2,
-      "armor": 8,
       "max_health_flat": -2,
-      "knockback_resistance_flat": 2.5
+      "knockback_resistance_flat": 2.5,
+      "armor": 7
     },
     "lore": "If we cannot wield this Magic, no one\ncan. Chain them up. Forever."
   },
@@ -40042,13 +40056,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "magic_protection": 2,
+      "mending": 1,
       "steadfast": 2,
       "unbreaking": 1,
-      "mending": 1,
-      "magic_protection": 2,
-      "armor": 7.5,
       "max_health_flat": -2,
-      "knockback_resistance_flat": 2.5
+      "knockback_resistance_flat": 2.5,
+      "armor": 6.5
     },
     "lore": "If we cannot wield this Magic, no one\ncan. Chain them up. Forever."
   },
@@ -40062,7 +40076,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "projectile_protection": 4,
+      "projectile_protection": 3,
       "unbreaking": 7,
       "agility": 10,
       "speed_percent": 10
@@ -40079,7 +40093,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "projectile_protection": 5,
+      "projectile_protection": 4,
       "unbreaking": 8,
       "agility": 10,
       "speed_percent": 10
@@ -40297,11 +40311,11 @@
     "type": "Boots",
     "stats": {
       "feather_falling": 2,
-      "unbreakable": 1,
-      "fire_protection": 5,
       "regeneration": 4,
+      "tempo": 1,
+      "unbreakable": 1,
       "max_health_percent": -20,
-      "agility": 9.5
+      "agility": 8
     },
     "lore": "As his actions caught up to his legend,\nZanil came to repent for his crimes."
   },
@@ -40316,11 +40330,11 @@
     "type": "Boots",
     "stats": {
       "feather_falling": 2,
-      "unbreakable": 1,
-      "fire_protection": 5,
       "regeneration": 4,
+      "tempo": 1,
+      "unbreakable": 1,
       "max_health_percent": -20,
-      "agility": 9
+      "agility": 7
     },
     "lore": "As his actions caught up to his legend,\nZanil came to repent for his crimes."
   },
@@ -40335,11 +40349,11 @@
     "type": "Boots",
     "stats": {
       "feather_falling": 2,
-      "unbreakable": 1,
-      "fire_protection": 5,
       "regeneration": 4,
+      "tempo": 1,
+      "unbreakable": 1,
       "max_health_percent": -20,
-      "agility": 8.5
+      "agility": 6.5
     },
     "lore": "As his actions caught up to his legend,\nZanil came to repent for his crimes."
   },
@@ -40354,12 +40368,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 4,
+      "melee_protection": 3,
       "unbreaking": 7,
-      "melee_protection": 4,
-      "magic_protection": 5,
       "speed_percent": 8,
-      "attack_damage_percent": 5,
-      "agility": 7
+      "agility": 7.5,
+      "attack_damage_percent": 10
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -40374,12 +40388,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 4,
+      "melee_protection": 4,
       "unbreaking": 8,
-      "melee_protection": 5,
-      "magic_protection": 5,
       "speed_percent": 10,
-      "attack_damage_percent": 5,
-      "agility": 7.5
+      "agility": 7.5,
+      "attack_damage_percent": 10
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -40394,12 +40408,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 3,
+      "melee_protection": 3,
       "unbreaking": 6,
-      "melee_protection": 4,
-      "magic_protection": 4,
       "speed_percent": 8,
-      "attack_damage_percent": 5,
-      "agility": 7
+      "agility": 7.5,
+      "attack_damage_percent": 10
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -40414,11 +40428,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 3,
+      "melee_protection": 3,
       "unbreaking": 6,
-      "melee_protection": 4,
-      "magic_protection": 4,
       "speed_percent": 5,
-      "agility": 6.5
+      "agility": 7,
+      "attack_damage_percent": 5
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -41425,7 +41440,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "feather_falling": 1,
+      "feather_falling": 2,
       "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 10,
@@ -41510,7 +41525,7 @@
     "type": "Leggings",
     "stats": {
       "inure": 1,
-      "shielding": 1,
+      "steadfast": 1,
       "unbreaking": 7,
       "knockback_resistance_flat": 3,
       "armor": 6
@@ -41528,7 +41543,7 @@
     "type": "Leggings",
     "stats": {
       "inure": 1,
-      "shielding": 1,
+      "steadfast": 1,
       "unbreaking": 8,
       "armor": 6.5,
       "knockback_resistance_flat": 4
@@ -41586,7 +41601,7 @@
       "max_health_flat": 2,
       "speed_percent": -15,
       "knockback_resistance_flat": 1,
-      "armor": 9
+      "armor": 9.5
     },
     "lore": "The mighty fist grasping the Wolfswood would serve\nas fuel for its people's passion. When a flower\nsurvives being crushed, it grows back ever stronger."
   },
@@ -41604,7 +41619,7 @@
       "unbreaking": 7,
       "max_health_flat": 2,
       "speed_percent": -15,
-      "armor": 8.5
+      "armor": 9
     },
     "lore": "The mighty fist grasping the Wolfswood would serve\nas fuel for its people's passion. When a flower\nsurvives being crushed, it grows back ever stronger."
   },
@@ -41692,13 +41707,13 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 7,
       "fire_protection": 2,
       "magic_protection": 1,
-      "armor": 9.5,
+      "unbreaking": 7,
       "max_health_flat": -2,
       "speed_percent": -10,
-      "magic_damage_percent": 25
+      "magic_damage_percent": 25,
+      "armor": 9
     },
     "lore": "After falling to silver blades, her\nrebirth was interrupted. The dryad\nwas given a new mission, from a far\nmore insidious god."
   },
@@ -41712,13 +41727,13 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 8,
       "fire_protection": 2,
       "magic_protection": 1,
-      "armor": 9.5,
+      "unbreaking": 8,
       "max_health_flat": -2,
       "speed_percent": -10,
-      "magic_damage_percent": 30
+      "magic_damage_percent": 30,
+      "armor": 9
     },
     "lore": "After falling to silver blades, her\nrebirth was interrupted. The dryad\nwas given a new mission, from a far\nmore insidious god."
   },
@@ -42429,11 +42444,10 @@
     "type": "Leggings",
     "stats": {
       "curse_of_anemia": 1,
-      "unbreaking": 17,
       "inferno": 5,
-      "agility": 12,
+      "unbreaking": 17,
       "max_health_flat": -2,
-      "speed_percent": 10
+      "agility": 11.5
     },
     "lore": "Aether - liquid mana. The purest form\nof the Machine's spirit. Now hardened\ninto a protective shell."
   },
@@ -42448,11 +42462,10 @@
     "type": "Leggings",
     "stats": {
       "curse_of_anemia": 1,
-      "unbreaking": 20,
       "inferno": 6,
-      "agility": 12,
+      "unbreaking": 20,
       "max_health_flat": -2,
-      "speed_percent": 15
+      "agility": 11.5
     },
     "lore": "Aether - liquid mana. The purest form\nof the Machine's spirit. Now hardened\ninto a protective shell."
   },
@@ -50159,7 +50172,7 @@
       "multishot": 1,
       "quick_charge": 2,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20.5
     },
     "lore": "Dreams naturally desire to coalesce\ninto a greater whole, but their bonds\nare weak and frail. If it could hold\nthem together, it could create a\nworld unto itself."
   },
@@ -50179,7 +50192,7 @@
       "multishot": 1,
       "quick_charge": 2,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 18
+      "projectile_damage_base": 19.5
     },
     "lore": "Dreams naturally desire to coalesce\ninto a greater whole, but their bonds\nare weak and frail. If it could hold\nthem together, it could create a\nworld unto itself."
   },
@@ -50698,6 +50711,23 @@
       "material": 1
     },
     "lore": "Anything less advanced would melt instantly."
+  },
+  "Replica Final Hour": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Replica Final Hour",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "unbreaking": 3,
+      "fire_aspect": 1,
+      "multishot": 1,
+      "projectile_damage_base": 14,
+      "projectile_speed_base": 1
+    },
+    "lore": "Engraved on the burning shaft, a message.\n\"Into the mist, and beyond\"."
   },
   "Springloaded Gadget": {
     "location": "Isles Casino",
@@ -52838,11 +52868,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "regeneration": 4,
       "second_wind": 1,
       "unbreaking": 6,
-      "regeneration": 4,
       "agility": 4,
-      "max_health_percent": 10
+      "max_health_percent": 15
     },
     "lore": "Along the Ring for centuries the brilliant\nempire reigned alone, until a king\nwho'd turned from God sought power\nunderneath the stone."
   },
@@ -52856,11 +52886,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "regeneration": 4,
       "second_wind": 2,
       "unbreaking": 9,
-      "regeneration": 4,
       "agility": 4.5,
-      "max_health_percent": 10
+      "max_health_percent": 15
     },
     "lore": "Along the Ring for centuries the brilliant\nempire reigned alone, until a king\nwho'd turned from God sought power\nunderneath the stone."
   },
@@ -52874,11 +52904,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "regeneration": 4,
       "second_wind": 2,
       "unbreaking": 7,
-      "regeneration": 4,
       "agility": 4,
-      "max_health_percent": 10
+      "max_health_percent": 15
     },
     "lore": "Along the Ring for centuries the brilliant\nempire reigned alone, until a king\nwho'd turned from God sought power\nunderneath the stone."
   },
@@ -53357,7 +53387,7 @@
       "unbreaking": 8,
       "projectile_damage_percent": 20,
       "knockback_resistance_flat": 3,
-      "armor": 8.5
+      "armor": 8
     },
     "lore": "The Emperor stepped into the\nperfectly preserved citadel, and\napproached the shriveled Tree of Life.\nAt his touch, the wood erupted\ninto a buzz of Energy.\nWhen it subsided, only Shades remained."
   },
@@ -53426,11 +53456,11 @@
     "type": "Boots",
     "stats": {
       "life_drain": 2,
-      "unbreaking": 7,
       "soul_speed": 2,
+      "unbreaking": 7,
       "speed_percent": 5,
       "max_health_flat": 2,
-      "agility": 7.5
+      "agility": 8
     },
     "lore": "The downside to Utopia was the sludge.\nIt could be displaced, but it had to end\nup somewhere."
   },
@@ -53445,11 +53475,11 @@
     "type": "Boots",
     "stats": {
       "life_drain": 2,
-      "unbreaking": 8,
       "soul_speed": 2,
+      "unbreaking": 8,
       "speed_percent": 10,
       "max_health_flat": 2,
-      "agility": 8
+      "agility": 8.5
     },
     "lore": "The downside to Utopia was the sludge.\nIt could be displaced, but it had to end\nup somewhere."
   },
@@ -53733,7 +53763,7 @@
       "unbreaking": 8,
       "agility": 8,
       "speed_percent": 5,
-      "magic_damage_percent": 16
+      "magic_damage_percent": 10
     },
     "lore": "Bermuda forged this suit in an attempt\nto retake her laboratory, but in the end\neven Steelmeld tech was no match for the\nendless corrupted machines."
   },
@@ -53751,7 +53781,7 @@
       "unbreaking": 7,
       "speed_percent": 5,
       "agility": 8,
-      "magic_damage_percent": 16
+      "magic_damage_percent": 10
     },
     "lore": "Bermuda forged this suit in an attempt\nto retake her laboratory, but in the end\neven Steelmeld tech was no match for the\nendless corrupted machines."
   },
@@ -53943,10 +53973,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "second_wind": 1,
+      "second_wind": 2,
       "unbreaking": 7,
-      "armor": 7.5,
-      "max_health_flat": 4
+      "max_health_flat": 4,
+      "armor": 7
     },
     "lore": "While the time of the Silver Knights\nfaded, their forges were fueled\nby something that would last longer than\neven the final threads of the Veil."
   },
@@ -53960,10 +53990,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "second_wind": 1,
+      "second_wind": 2,
       "unbreaking": 8,
-      "armor": 7.5,
-      "max_health_flat": 5
+      "max_health_flat": 5,
+      "armor": 7
     },
     "lore": "While the time of the Silver Knights\nfaded, their forges were fueled\nby something that would last longer than\neven the final threads of the Veil."
   },
@@ -53977,10 +54007,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "second_wind": 1,
+      "second_wind": 2,
       "unbreaking": 6,
-      "armor": 7,
-      "max_health_flat": 4
+      "max_health_flat": 4,
+      "armor": 6.5
     },
     "lore": "While the time of the Silver Knights\nfaded, their forges were fueled\nby something that would last longer than\neven the final threads of the Veil."
   },
@@ -54381,7 +54411,7 @@
       "unbreaking": 4,
       "attack_damage_percent": 30,
       "speed_percent": 5,
-      "agility": 8.5
+      "agility": 7
     },
     "lore": "A decaying shell, grafted onto shattered\nmetal by those beyond the horizon, offering\nthe broken soles another path."
   },
@@ -54399,7 +54429,7 @@
       "reflexes": 1,
       "unbreaking": 4,
       "attack_damage_percent": 30,
-      "agility": 8
+      "agility": 6.5
     },
     "lore": "A decaying shell, grafted onto shattered\nmetal by those beyond the horizon, offering\nthe broken soles another path."
   },
@@ -54431,11 +54461,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "magic_protection": 4,
       "adrenaline": 2,
+      "magic_protection": 4,
       "unbreaking": 4,
-      "armor": 8,
-      "max_health_flat": 2
+      "max_health_flat": 2,
+      "armor": 8.5
     },
     "lore": "While the Godspore had spawned\nthe first of the Mycelia, his begotten\nslowly spiraled further from his reach."
   },
@@ -54617,8 +54647,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "magic_protection": 1,
       "regicide": 1,
-      "magic_protection": 2,
       "spell_power_base": 70,
       "attack_damage_base": 8.5
     },
@@ -54634,8 +54664,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "magic_protection": 1,
       "regicide": 1,
-      "magic_protection": 2,
       "spell_power_base": 75,
       "attack_damage_base": 8.5
     },
@@ -54651,8 +54681,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "magic_protection": 1,
       "regicide": 1,
-      "magic_protection": 2,
       "spell_power_base": 75,
       "attack_damage_base": 9
     },
@@ -55204,6 +55234,636 @@
     "stats": {},
     "lore": "Epic Crafting Ingredient"
   },
+  "Curse of the Dark Soul": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "name": "Curse of the Dark Soul",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, take 100% more damage.\nYou feel that this is a bad idea."
+  },
+  "Boon of Knightly Prayer": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "name": "Boon of Knightly Prayer",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, while under 50% max\nhealth, gain 100% knockback resistance.\nYou feel wrapped in the strength\nof the Silver Knights.\n* Quest Item *\n#Q201I08"
+  },
+  "Boon of Silver Scales": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Boon of Silver Scales",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, grants 5% cooldown reduction.\nYou feel a beastly touch on your soul.\n* Quest Item *\n#Q201I04"
+  },
+  "Harrakfar's Blessing": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Harrakfar's Blessing",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, gain 10% Bonus Healing.\nYou feel warmth well up from within.\n* Quest Item *\n#Q201I1"
+  },
+  "Grace of Star Communion": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "name": "Grace of Star Communion",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, while above 90% max\nhealth, when you damage an enemy they are\nslowed by 15% for 4 seconds.\nYou can feel the stars gazing down at you.\n* Quest Item *\n#Q201I07"
+  },
+  "Crystalline Blessing": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Crystalline Blessing",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, after taking\nMagic or Projectile damage,\ngain 15% damage for 3 seconds.\nYou feel mana flow freely through you.\n* Quest Item *\n#Q201I02"
+  },
+  "Deep God's Endowment": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Deep God's Endowment",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, every five melee hits\nyou gain a random \"Combos\" effect\nfrom the Darkest Depths dungeon.\nYou feel echoes of her grasp.\n* Quest Item *\n#Q201I05"
+  },
+  "Tuathan Blessing": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "name": "Tuathan Blessing",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, if there are\nother players in a 12 block radius\naround you, they gain 5% damage resistance\nand you gain 5% speed.\nYou feel the souls of many, yet the mind of one.\n* Quest Item *\n#Q201I06"
+  },
+  "Boon of the Pit": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "name": "Boon of the Pit",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "For four hours, you deal 20% more\ndamage on the first hit to each mob,\nhowever your healing is reduced by 10%.\nYour own blood swirls in the bottle.\n* Quest Item *\n#Q201I03"
+  },
+  "Festering Toxin": {
+    "name": "Festering Toxin",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Even their God would not withstand\nthe greatest of Mycelian toxins."
+  },
+  "Coven Vial": {
+    "location": "Blue",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Coven Vial",
+    "power": 5,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "warding_remedy_pulses_flat": 8,
+      "warding_remedy_pulse_delay_percent": 100
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
+  "Bottled Infinity": {
+    "location": "Blue",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bottled Infinity",
+    "power": 1,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "alchemist_potion_charges_flat": 2
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
+  "Scarlet Haze": {
+    "location": "Sanguine Halls",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Scarlet Haze",
+    "power": 3,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "scorched_earth_damage_percent": 100,
+      "scorched_earth_cooldown_percent": 50
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
+  "Split Tincture": {
+    "location": "Brown",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Split Tincture",
+    "power": 1,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "iron_tincture_cooldown_percent": -50,
+      "iron_tincture_duration_percent": -50,
+      "iron_tincture_absorption_health_percent": -50
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
+  "Bottled Wind": {
+    "location": "Ruin",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bottled Wind",
+    "power": 2,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "swiftness_dodge_chance_percent": 5
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
+  "Urn of Perpetuity": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Urn of Perpetuity",
+    "power": 1,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "blizzard_duration_flat": 20,
+      "blizzard_damage_percent": -70,
+      "blizzard_slowness_amplifier_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Mage"
+  },
+  "Greater Boon Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Boon Charm",
+    "power": 2,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "heavenly_boon_potion_chance_percent": 6
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
+  "Focused Boon Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Boon Charm",
+    "power": 3,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "heavenly_boon_potion_chance_percent": 9,
+      "heavenly_boon_potion_duration_flat": 4
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
+  "Lesser Boon Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Boon Charm",
+    "power": 1,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "heavenly_boon_potion_chance_percent": 3
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
+  "Greater Charm of Self": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Self",
+    "power": 5,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "escape_death_absorption_health_flat": 3,
+      "escape_death_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
+  "Lesser Charm of Self": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Self",
+    "power": 3,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "escape_death_absorption_health_flat": 2
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
+  "Empowered Charm of Self": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Empowered Charm of Self",
+    "power": 1,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "escape_death_jump_boost_amplifier_flat": 1,
+      "escape_death_speed_amplifier_percent": 5
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
+  "Explosive Vile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Vile Charm",
+    "power": 4,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "amplifying_hex_damage_percent": 10,
+      "amplifying_hex_range_percent": 50
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Focused Vile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Vile Charm",
+    "power": 3,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "amplifying_hex_damage_percent": 15,
+      "amplifying_hex_damage_per_effect_potency_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Greater Vile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Vile Charm",
+    "power": 2,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "amplifying_hex_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Swift Vile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Vile Charm",
+    "power": 3,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "amplifying_hex_damage_percent": 7.5,
+      "amplifying_hex_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Lesser Vile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Vile Charm",
+    "power": 1,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "amplifying_hex_damage_percent": 5
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Concentrated Experience": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Concentrated Experience",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Worth 8 Experience Bottles.\nLeft Click while holding to compress once.\nLeft Click + Sneak while holding to compress all.\nRight Click while holding to decompress once.\nRight Click + Sneak while holding to decompress all."
+  },
+  "Truth Serum": {
+    "name": "Truth Serum",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "fortune": 1
+    },
+    "lore": "* Quest Item *\n#Q13I06"
+  },
+  "Excited Elemental Catalyst": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Excited Elemental Catalyst",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Catalyst, fueled by the energy of the jungle.\nA single spark is enough to set it aflame."
+  },
+  "Saccharine Sample": {
+    "location": "Forum",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Saccharine Sample",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 2,
+      "adrenaline": 2,
+      "life_drain": 1,
+      "agility": 5
+    },
+    "lore": "The vial smells sickeningly sweet\neven from a distance. The outside\nis coated in warning labels... but\nhow dangerous could it be?"
+  },
+  "Distilled Cogniza": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Distilled Cogniza",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "A vial of someone's memories.\nSeems too important to be left around..."
+  },
+  "Divine Ink": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Divine Ink",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "A pitch black ink at first glance,\nit seems to become every other\ncolour when you stare hard\nenough at it."
+  },
+  "Muranic Urn": {
+    "location": "The Eternal Vigil",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Muranic Urn",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "speed_percent": 7,
+      "projectile_damage_percent": 10,
+      "agility": 7,
+      "magic_damage_percent": 15
+    },
+    "lore": "A kaleidoscopic urn, holding the\nashes of time never passed."
+  },
+  "Deathly Piece of Eight": {
+    "location": "Marina Noir",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Deathly Piece of Eight",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A forgotten currency, bearing markings of\na skull. The pitch-black sea took its\ntoll, staining and eroding all details."
+  },
+  "Blackblood Coagulant-1": {
+    "location": "Quest Reward",
+    "masterwork": "1",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blackblood Coagulant",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 2,
+      "sustenance": 1,
+      "thorns_flat": 6,
+      "max_health_flat": 2,
+      "agility": 6.5
+    },
+    "lore": "Proof of the traitorous dead\nbrings power to those who survived."
+  },
+  "Blackblood Coagulant-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blackblood Coagulant",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 3,
+      "sustenance": 1,
+      "max_health_flat": 2,
+      "thorns_flat": 8,
+      "agility": 6.5
+    },
+    "lore": "Proof of the traitorous dead\nbrings power to those who survived."
+  },
+  "Blackblood Coagulant-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blackblood Coagulant",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 3,
+      "sustenance": 1,
+      "max_health_flat": 2,
+      "thorns_flat": 10,
+      "agility": 7
+    },
+    "lore": "Proof of the traitorous dead\nbrings power to those who survived."
+  },
+  "Blackblood Shard": {
+    "location": "Ruin",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Blackblood Shard",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1,
+      "curse_of_ephemerality": 1
+    },
+    "lore": "A fragment of reality, stained with the\nblood of the Masked who held it.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Echo of the Beast": {
+    "location": "Sanguine Halls",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Echo of the Beast",
+    "power": 5,
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "stats": {
+      "bodkin_blitz_stealth_duration_flat": 1,
+      "cloak_and_dagger_stealth_duration_flat": 0.5,
+      "bodkin_blitz_distance_percent": 25
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
+  "Andromeda Clamp": {
+    "name": "Andromeda Clamp",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Being unnaturally cold to the touch, the\nseemingly formless mass intertwines in your hands.\n* Quest Item *\n#Q44I01"
+  },
+  "Scrap of Fabric": {
+    "location": "Willows",
+    "name": "Scrap of Fabric",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"There are corpses littering this grove.\nI don't know how many others have found\ntheir way into the Veil, but I am the first\nof the council. I will be the first to\nclaim what I alone know is within.\""
+  },
+  "Scrap of Cloth": {
+    "name": "Scrap of Cloth",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The intricate embroidery is\nfaintly stained with blood.\n* Quest Item *\n#Q139I01"
+  },
+  "Conscriptorium Key": {
+    "location": "Forum",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Conscriptorium Key",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Bring it to the Gateway Tree to access\nThe Conscriptorium\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DF Key 1-1 *"
+  },
+  "Scrap of Void": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Scrap of Void",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to:\nThe Eternal Vigil"
+  },
+  "Replica Actypoh": {
+    "location": "Depths",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Replica Actypoh",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "curse_of_corruption": 1,
+      "decay": 2,
+      "knockback": 1,
+      "ice_aspect": 2,
+      "attack_damage_base": 4.5,
+      "spell_power_base": 45,
+      "knockback_resistance_flat": 2
+    },
+    "lore": "Perhaps once again this mechanism can be used\nto stave off the forces from the Beyond."
+  },
+  "Actypoh": {
+    "location": "Depths",
+    "region": "Isles",
+    "tier": "Obfuscated",
+    "name": "Actypoh",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "thunder_aspect": 3,
+      "regeneration": 2,
+      "attack_damage_base": 6,
+      "spell_power_base": 100
+    },
+    "lore": "The water goes silent as you grip the\nmechanism. A breathing fills your ears,\nclearly not your own. Slow. Soft.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DD Key Item *"
+  },
+  "Twisted Pigment": {
+    "location": "Delves",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Twisted Pigment",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A mysterious, curse-stained substance."
+  },
   "Ex Nihil": {
     "name": "Ex Nihil",
     "base_item": "Netherite Sword",
@@ -55292,7 +55952,7 @@
     "release_status": "public",
     "stats": {
       "cloak_and_dagger_stacks_per_kill_flat": 1,
-      "cloak_and_dagger_stealth_duration_flat": -1.5
+      "cloak_and_dagger_stealth_duration_flat": -2
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -56292,7 +56952,7 @@
     "class_name": "Cleric"
   },
   "Deepwrought Ruby": {
-    "location": "Pelias' Keep",
+    "location": "Fishing",
     "region": "Ring",
     "tier": "Rare",
     "name": "Deepwrought Ruby",
@@ -58154,7 +58814,7 @@
     "lore": "Can only grant loot one time!\nGrants access to dungeon:\nSilver Knight's Tomb\nDifficulty : ☠☠☠☠☠\nPlayers: 1-4"
   },
   "Ancient Shadowstone": {
-    "location": "The Wolfswood",
+    "location": "Fishing",
     "region": "Ring",
     "tier": "Rare",
     "name": "Ancient Shadowstone",
@@ -58963,448 +59623,6 @@
     },
     "lore": "An' part it did them waters black, wit'\nstrokes long, firm, an' true. Aye, in\nthe veil all deep an' dark, th' Black\nMist sailed right through."
   },
-  "Curse of the Dark Soul": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "name": "Curse of the Dark Soul",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, take 100% more damage.\nYou feel that this is a bad idea."
-  },
-  "Boon of Knightly Prayer": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "name": "Boon of Knightly Prayer",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, while under 50% max\nhealth, gain 100% knockback resistance.\nYou feel wrapped in the strength\nof the Silver Knights.\n* Quest Item *\n#Q201I08"
-  },
-  "Boon of Silver Scales": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "name": "Boon of Silver Scales",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, grants 5% cooldown reduction.\nYou feel a beastly touch on your soul.\n* Quest Item *\n#Q201I04"
-  },
-  "Harrakfar's Blessing": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "name": "Harrakfar's Blessing",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, gain 10% Bonus Healing.\nYou feel warmth well up from within.\n* Quest Item *\n#Q201I1"
-  },
-  "Grace of Star Communion": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "name": "Grace of Star Communion",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, while above 90% max\nhealth, when you damage an enemy they are\nslowed by 15% for 4 seconds.\nYou can feel the stars gazing down at you.\n* Quest Item *\n#Q201I07"
-  },
-  "Crystalline Blessing": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "name": "Crystalline Blessing",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, after taking\nMagic or Projectile damage,\ngain 15% damage for 3 seconds.\nYou feel mana flow freely through you.\n* Quest Item *\n#Q201I02"
-  },
-  "Deep God's Endowment": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "name": "Deep God's Endowment",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, every five melee hits\nyou gain a random \"Combos\" effect\nfrom the Darkest Depths dungeon.\nYou feel echoes of her grasp.\n* Quest Item *\n#Q201I05"
-  },
-  "Tuathan Blessing": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "name": "Tuathan Blessing",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, if there are\nother players in a 12 block radius\naround you, they gain 5% damage resistance\nand you gain 5% speed.\nYou feel the souls of many, yet the mind of one.\n* Quest Item *\n#Q201I06"
-  },
-  "Boon of the Pit": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "name": "Boon of the Pit",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "For four hours, you deal 20% more\ndamage on the first hit to each mob,\nhowever your healing is reduced by 10%.\nYour own blood swirls in the bottle.\n* Quest Item *\n#Q201I03"
-  },
-  "Festering Toxin": {
-    "name": "Festering Toxin",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Even their God would not withstand\nthe greatest of Mycelian toxins."
-  },
-  "Coven Vial": {
-    "location": "Blue",
-    "region": "Ring",
-    "tier": "Epic",
-    "name": "Coven Vial",
-    "power": 5,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "warding_remedy_pulses_flat": 8,
-      "warding_remedy_pulse_delay_percent": 100
-    },
-    "type": "Charm",
-    "class_name": "Alchemist"
-  },
-  "Bottled Infinity": {
-    "location": "Blue",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Bottled Infinity",
-    "power": 1,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "alchemist_potion_charges_flat": 2
-    },
-    "type": "Charm",
-    "class_name": "Alchemist"
-  },
-  "Scarlet Haze": {
-    "location": "Sanguine Halls",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Scarlet Haze",
-    "power": 3,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "scorched_earth_damage_percent": 100,
-      "scorched_earth_cooldown_percent": 50
-    },
-    "type": "Charm",
-    "class_name": "Alchemist"
-  },
-  "Split Tincture": {
-    "location": "Brown",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Split Tincture",
-    "power": 1,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "iron_tincture_cooldown_percent": -50,
-      "iron_tincture_duration_percent": -50,
-      "iron_tincture_absorption_health_percent": -50
-    },
-    "type": "Charm",
-    "class_name": "Alchemist"
-  },
-  "Bottled Wind": {
-    "location": "Ruin",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Bottled Wind",
-    "power": 2,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "swiftness_dodge_chance_percent": 5
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
-  "Urn of Perpetuity": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Urn of Perpetuity",
-    "power": 1,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "blizzard_duration_flat": 20,
-      "blizzard_damage_percent": -70,
-      "blizzard_slowness_amplifier_percent": -10
-    },
-    "type": "Charm",
-    "class_name": "Mage"
-  },
-  "Greater Boon Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Boon Charm",
-    "power": 2,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "heavenly_boon_potion_chance_percent": 6
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
-  "Focused Boon Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Boon Charm",
-    "power": 3,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "heavenly_boon_potion_chance_percent": 9,
-      "heavenly_boon_potion_duration_flat": 4
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
-  "Lesser Boon Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Boon Charm",
-    "power": 1,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "heavenly_boon_potion_chance_percent": 3
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
-  "Greater Charm of Self": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Self",
-    "power": 5,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "escape_death_absorption_health_flat": 3,
-      "escape_death_cooldown_percent": -10
-    },
-    "type": "Charm",
-    "class_name": "Rogue"
-  },
-  "Lesser Charm of Self": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Self",
-    "power": 3,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "escape_death_absorption_health_flat": 2
-    },
-    "type": "Charm",
-    "class_name": "Rogue"
-  },
-  "Empowered Charm of Self": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Empowered Charm of Self",
-    "power": 1,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "escape_death_jump_boost_amplifier_flat": 1,
-      "escape_death_speed_amplifier_percent": 5
-    },
-    "type": "Charm",
-    "class_name": "Rogue"
-  },
-  "Explosive Vile Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Explosive Vile Charm",
-    "power": 4,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "amplifying_hex_damage_percent": 10,
-      "amplifying_hex_range_percent": 50
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Focused Vile Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Vile Charm",
-    "power": 3,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "amplifying_hex_damage_percent": 15,
-      "amplifying_hex_damage_per_effect_potency_percent": 20
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Greater Vile Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Vile Charm",
-    "power": 2,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "amplifying_hex_damage_percent": 10
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Swift Vile Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Vile Charm",
-    "power": 3,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "amplifying_hex_damage_percent": 7.5,
-      "amplifying_hex_cooldown_percent": -10
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Lesser Vile Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Vile Charm",
-    "power": 1,
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "stats": {
-      "amplifying_hex_damage_percent": 5
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Concentrated Experience": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Concentrated Experience",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Worth 8 Experience Bottles.\nLeft Click while holding to compress once.\nLeft Click + Sneak while holding to compress all.\nRight Click while holding to decompress once.\nRight Click + Sneak while holding to decompress all."
-  },
-  "Truth Serum": {
-    "name": "Truth Serum",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "fortune": 1
-    },
-    "lore": "* Quest Item *\n#Q13I06"
-  },
-  "Excited Elemental Catalyst": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Excited Elemental Catalyst",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Catalyst, fueled by the energy of the jungle.\nA single spark is enough to set it aflame."
-  },
-  "Saccharine Sample": {
-    "location": "Forum",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Saccharine Sample",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "melee_protection": 2,
-      "adrenaline": 2,
-      "life_drain": 1,
-      "agility": 5
-    },
-    "lore": "The vial smells sickeningly sweet\neven from a distance. The outside\nis coated in warning labels... but\nhow dangerous could it be?"
-  },
-  "Distilled Cogniza": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Distilled Cogniza",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "A vial of someone's memories.\nSeems too important to be left around..."
-  },
-  "Divine Ink": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Divine Ink",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "A pitch black ink at first glance,\nit seems to become every other\ncolour when you stare hard\nenough at it."
-  },
-  "Muranic Urn": {
-    "location": "The Eternal Vigil",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Muranic Urn",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "speed_percent": 7,
-      "projectile_damage_percent": 10,
-      "agility": 7,
-      "magic_damage_percent": 15
-    },
-    "lore": "A kaleidoscopic urn, holding the\nashes of time never passed."
-  },
   "Silent Night": {
     "location": "Gallery of Fear",
     "region": "Ring",
@@ -59772,194 +59990,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Left Click to set \"From\" position.\nRight Click to set \"To\" position.\nSneak + Right Click to check\nlast measurement and configure."
-  },
-  "Deathly Piece of Eight": {
-    "location": "Marina Noir",
-    "region": "Ring",
-    "tier": "Currency",
-    "name": "Deathly Piece of Eight",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A forgotten currency, bearing markings of\na skull. The pitch-black sea took its\ntoll, staining and eroding all details."
-  },
-  "Blackblood Coagulant-1": {
-    "location": "Quest Reward",
-    "masterwork": "1",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Blackblood Coagulant",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "melee_protection": 2,
-      "sustenance": 1,
-      "thorns_flat": 6,
-      "max_health_flat": 2,
-      "agility": 6.5
-    },
-    "lore": "Proof of the traitorous dead\nbrings power to those who survived."
-  },
-  "Blackblood Coagulant-2": {
-    "location": "Quest Reward",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Blackblood Coagulant",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "melee_protection": 3,
-      "sustenance": 1,
-      "max_health_flat": 2,
-      "thorns_flat": 8,
-      "agility": 6.5
-    },
-    "lore": "Proof of the traitorous dead\nbrings power to those who survived."
-  },
-  "Blackblood Coagulant-3": {
-    "location": "Quest Reward",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Blackblood Coagulant",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "melee_protection": 3,
-      "sustenance": 1,
-      "max_health_flat": 2,
-      "thorns_flat": 10,
-      "agility": 7
-    },
-    "lore": "Proof of the traitorous dead\nbrings power to those who survived."
-  },
-  "Blackblood Shard": {
-    "location": "Ruin",
-    "region": "Ring",
-    "tier": "Key",
-    "name": "Blackblood Shard",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1,
-      "curse_of_ephemerality": 1
-    },
-    "lore": "A fragment of reality, stained with the\nblood of the Masked who held it.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
-  },
-  "Echo of the Beast": {
-    "location": "Sanguine Halls",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Echo of the Beast",
-    "power": 5,
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "stats": {
-      "bodkin_blitz_stealth_duration_flat": 1,
-      "cloak_and_dagger_stealth_duration_flat": 0.5,
-      "bodkin_blitz_distance_percent": 25
-    },
-    "type": "Charm",
-    "class_name": "Rogue"
-  },
-  "Andromeda Clamp": {
-    "name": "Andromeda Clamp",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Being unnaturally cold to the touch, the\nseemingly formless mass intertwines in your hands.\n* Quest Item *\n#Q44I01"
-  },
-  "Scrap of Fabric": {
-    "location": "Willows",
-    "name": "Scrap of Fabric",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "\"There are corpses littering this grove.\nI don't know how many others have found\ntheir way into the Veil, but I am the first\nof the council. I will be the first to\nclaim what I alone know is within.\""
-  },
-  "Scrap of Cloth": {
-    "name": "Scrap of Cloth",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "The intricate embroidery is\nfaintly stained with blood.\n* Quest Item *\n#Q139I01"
-  },
-  "Conscriptorium Key": {
-    "location": "Forum",
-    "region": "Isles",
-    "tier": "Key",
-    "name": "Conscriptorium Key",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Bring it to the Gateway Tree to access\nThe Conscriptorium\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DF Key 1-1 *"
-  },
-  "Scrap of Void": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Key",
-    "name": "Scrap of Void",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Grants access to:\nThe Eternal Vigil"
-  },
-  "Replica Actypoh": {
-    "location": "Depths",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Replica Actypoh",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "curse_of_corruption": 1,
-      "decay": 2,
-      "knockback": 1,
-      "ice_aspect": 2,
-      "attack_damage_base": 4.5,
-      "spell_power_base": 45,
-      "knockback_resistance_flat": 2
-    },
-    "lore": "Perhaps once again this mechanism can be used\nto stave off the forces from the Beyond."
-  },
-  "Actypoh": {
-    "location": "Depths",
-    "region": "Isles",
-    "tier": "Obfuscated",
-    "name": "Actypoh",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "thunder_aspect": 3,
-      "regeneration": 2,
-      "attack_damage_base": 6,
-      "spell_power_base": 100
-    },
-    "lore": "The water goes silent as you grip the\nmechanism. A breathing fills your ears,\nclearly not your own. Slow. Soft.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DD Key Item *"
-  },
-  "Twisted Pigment": {
-    "location": "Delves",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Twisted Pigment",
-    "base_item": "Black Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A mysterious, curse-stained substance."
   },
   "Shattered Blade": {
     "location": "Willows",
@@ -61050,6 +61080,23 @@
     },
     "lore": "Washed free from the blackened ash that\nclung to the old blade, the sickle\nnow swings faster than the wind."
   },
+  "Spider's Crux": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Spider's Crux",
+    "base_item": "Golden Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "reflexes": 1,
+      "unbreaking": 30,
+      "melee_protection": 1,
+      "attack_speed_base": 2,
+      "attack_damage_base": 9
+    },
+    "lore": "Even the most ferocious of seafarers lost\nlimbs in their most storied battles. A spare few\ngained notoriety, seen wearing unorthodox\nprostheses into battle."
+  },
   "Marauder's Haze": {
     "location": "Mist",
     "region": "Isles",
@@ -61206,6 +61253,133 @@
     },
     "lore": "The power he desired could not come from\nthe might of a blade. No, Hekawt longed for\nso much more. He sought Eternity."
   },
+  "Gem-Tipped Boilerdrill-3": {
+    "location": "Brown",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Gem-Tipped Boilerdrill",
+    "base_item": "Diamond Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "sapper": 1,
+      "reflexes": 1,
+      "unbreaking": 1,
+      "efficiency": 1,
+      "agility": 2.5,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.2,
+      "knockback_resistance_flat": 4
+    },
+    "lore": "The head is mantled in Silvic Crystals.\nPelias' miners had similar tools, though\nthis contraption seems refined beyond\nwhat the human mind could comprehend."
+  },
+  "Gem-Tipped Boilerdrill-2": {
+    "location": "Brown",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Gem-Tipped Boilerdrill",
+    "base_item": "Diamond Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "sapper": 1,
+      "reflexes": 1,
+      "unbreaking": 1,
+      "efficiency": 1,
+      "agility": 2,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.2,
+      "knockback_resistance_flat": 4
+    },
+    "lore": "The head is mantled in Silvic Crystals.\nPelias' miners had similar tools, though\nthis contraption seems refined beyond\nwhat the human mind could comprehend."
+  },
+  "Pureshard Adze-0": {
+    "location": "Pelias' Keep",
+    "masterwork": "0",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pureshard Adze",
+    "base_item": "Diamond Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "sapper": 3,
+      "unbreaking": 1,
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "efficiency": 2,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.2
+    },
+    "lore": "As Pelias pushed the digging ever deeper,\nonly the most resilient of tools could\nwithstand the constant wear."
+  },
+  "Pureshard Adze-1": {
+    "location": "Pelias' Keep",
+    "masterwork": "1",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pureshard Adze",
+    "base_item": "Diamond Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "sapper": 3,
+      "unbreaking": 1,
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "efficiency": 2,
+      "armor": 0.5,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.2
+    },
+    "lore": "As Pelias pushed the digging ever deeper,\nonly the most resilient of tools could\nwithstand the constant wear."
+  },
+  "Pureshard Adze-3": {
+    "location": "Pelias' Keep",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pureshard Adze",
+    "base_item": "Diamond Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "sapper": 3,
+      "unbreaking": 1,
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "efficiency": 2,
+      "armor": 1,
+      "agility": 1,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.2
+    },
+    "lore": "As Pelias pushed the digging ever deeper,\nonly the most resilient of tools could\nwithstand the constant wear."
+  },
+  "Pureshard Adze-2": {
+    "location": "Pelias' Keep",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pureshard Adze",
+    "base_item": "Diamond Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "sapper": 3,
+      "unbreaking": 1,
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "efficiency": 2,
+      "armor": 0.5,
+      "agility": 0.5,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.2
+    },
+    "lore": "As Pelias pushed the digging ever deeper,\nonly the most resilient of tools could\nwithstand the constant wear."
+  },
   "Hycenea's Vinelash-0": {
     "location": "Quest Reward",
     "masterwork": "0",
@@ -61216,10 +61390,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 2,
+      "projectile_protection": 2,
       "max_health_flat": 6,
-      "magic_damage_percent": 25
+      "magic_damage_percent": 25,
+      "speed_percent": 10
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -61233,10 +61408,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 3,
+      "projectile_protection": 2,
       "max_health_flat": 6,
-      "magic_damage_percent": 25
+      "magic_damage_percent": 25,
+      "speed_percent": 10
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -61250,11 +61426,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 3,
       "magic_protection": 3,
+      "projectile_protection": 3,
       "max_health_flat": 6,
-      "speed_percent": 5,
-      "magic_damage_percent": 30
+      "magic_damage_percent": 30,
+      "speed_percent": 15
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -61268,10 +61444,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 3,
+      "projectile_protection": 2,
       "max_health_flat": 6,
-      "magic_damage_percent": 30
+      "magic_damage_percent": 30,
+      "speed_percent": 10
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -61493,133 +61670,6 @@
     "stats": {},
     "lore": "Epic Crafting Material"
   },
-  "Gem-Tipped Boilerdrill-3": {
-    "location": "Brown",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Gem-Tipped Boilerdrill",
-    "base_item": "Diamond Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "sapper": 1,
-      "reflexes": 1,
-      "unbreaking": 1,
-      "efficiency": 1,
-      "agility": 2.5,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.2,
-      "knockback_resistance_flat": 4
-    },
-    "lore": "The head is mantled in Silvic Crystals.\nPelias' miners had similar tools, though\nthis contraption seems refined beyond\nwhat the human mind could comprehend."
-  },
-  "Gem-Tipped Boilerdrill-2": {
-    "location": "Brown",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Gem-Tipped Boilerdrill",
-    "base_item": "Diamond Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "sapper": 1,
-      "reflexes": 1,
-      "unbreaking": 1,
-      "efficiency": 1,
-      "agility": 2,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.2,
-      "knockback_resistance_flat": 4
-    },
-    "lore": "The head is mantled in Silvic Crystals.\nPelias' miners had similar tools, though\nthis contraption seems refined beyond\nwhat the human mind could comprehend."
-  },
-  "Pureshard Adze-0": {
-    "location": "Pelias' Keep",
-    "masterwork": "0",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Pureshard Adze",
-    "base_item": "Diamond Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "sapper": 3,
-      "unbreaking": 1,
-      "magic_protection": 2,
-      "projectile_protection": 2,
-      "efficiency": 2,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.2
-    },
-    "lore": "As Pelias pushed the digging ever deeper,\nonly the most resilient of tools could\nwithstand the constant wear."
-  },
-  "Pureshard Adze-1": {
-    "location": "Pelias' Keep",
-    "masterwork": "1",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Pureshard Adze",
-    "base_item": "Diamond Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "sapper": 3,
-      "unbreaking": 1,
-      "magic_protection": 2,
-      "projectile_protection": 2,
-      "efficiency": 2,
-      "armor": 0.5,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.2
-    },
-    "lore": "As Pelias pushed the digging ever deeper,\nonly the most resilient of tools could\nwithstand the constant wear."
-  },
-  "Pureshard Adze-3": {
-    "location": "Pelias' Keep",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Pureshard Adze",
-    "base_item": "Diamond Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "sapper": 3,
-      "unbreaking": 1,
-      "magic_protection": 2,
-      "projectile_protection": 2,
-      "efficiency": 2,
-      "armor": 1,
-      "agility": 1,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.2
-    },
-    "lore": "As Pelias pushed the digging ever deeper,\nonly the most resilient of tools could\nwithstand the constant wear."
-  },
-  "Pureshard Adze-2": {
-    "location": "Pelias' Keep",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Pureshard Adze",
-    "base_item": "Diamond Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "sapper": 3,
-      "unbreaking": 1,
-      "magic_protection": 2,
-      "projectile_protection": 2,
-      "efficiency": 2,
-      "armor": 0.5,
-      "agility": 0.5,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.2
-    },
-    "lore": "As Pelias pushed the digging ever deeper,\nonly the most resilient of tools could\nwithstand the constant wear."
-  },
   "Totem of Life-2": {
     "location": "Transmogrifier",
     "masterwork": "2",
@@ -61630,6 +61680,7 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "magic_protection": 2,
       "sustenance": 2,
       "triage": 4,
       "max_health_flat": 8,
@@ -61647,6 +61698,7 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "magic_protection": 2,
       "sustenance": 2,
       "triage": 4,
       "max_health_flat": 9,
@@ -62372,8 +62424,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "poise": 1,
+      "projectile_protection": 1,
       "max_health_flat": -4,
       "magic_damage_percent": 25,
       "armor": 7.5,
@@ -62391,8 +62443,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "poise": 1,
+      "projectile_protection": 1,
       "max_health_flat": -4,
       "magic_damage_percent": 25,
       "armor": 8,
@@ -62401,7 +62453,7 @@
     "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrators\nof the Machine's power matrix. It was\nan act of service for the future Architect."
   },
   "Cracked Pocketwatch": {
-    "location": "The Wolfswood",
+    "location": "Fishing",
     "region": "Ring",
     "tier": "Rare",
     "name": "Cracked Pocketwatch",
@@ -63565,6 +63617,19 @@
     },
     "lore": "Encased in crystal's hold,\nMoon fragment shall decree.\nA Prophecy fortold,\nMay peaceful light guide thee."
   },
+  "Plasma Generator": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Plasma Generator",
+    "base_item": "Furnace",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "This right here. This is where the magiscience happens."
+  },
   "Earthquake Staff": {
     "location": "Blue",
     "region": "Ring",
@@ -63900,7 +63965,7 @@
     "stats": {
       "glorious_battle_charges_flat": 1,
       "glorious_battle_damage_percent": -10,
-      "glorious_battle_velocity_percent": -20
+      "glorious_battle_velocity_percent": -10
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -64562,8 +64627,8 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "starfall_radius_percent": 50,
-      "starfall_damage_percent": 30
+      "starfall_radius_percent": 40,
+      "starfall_damage_percent": 25
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -64716,7 +64781,8 @@
     "stats": {
       "choleric_flames_cooldown_percent": -50,
       "choleric_flames_duration_flat": 7,
-      "choleric_flames_damage_percent": -100
+      "choleric_flames_damage_percent": -100,
+      "inferno_damage_percent": -10
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -65734,6 +65800,30 @@
     "type": "Misc",
     "stats": {},
     "lore": "Attuned to the power of the Elements.\nAllows you to manipulate the elemental\nconnections within yourself, opening\nthe class selection menu.\nRight Click in the mainhand or inventory.\nCooldown : 5m when used in Survival zones"
+  },
+  "\"Super\" Rigged Chip": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "\"Super\" Rigged Chip",
+    "base_item": "Popped Chorus Fruit",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "There's something suspicious about this chip.\nWho knows? After all, it's yours now."
+  },
+  "Weathered Rune": {
+    "location": "Teal",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Weathered Rune",
+    "base_item": "Popped Chorus Fruit",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
   },
   "Lesser Obscuring Charm": {
     "location": "Architect's Ring",
@@ -69036,43 +69126,6 @@
       "material": 1
     },
     "lore": "You can see a slight seeps of black,\ndripping in and out of existance."
-  },
-  "Plasma Generator": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Plasma Generator",
-    "base_item": "Furnace",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "This right here. This is where the magiscience happens."
-  },
-  "\"Super\" Rigged Chip": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "\"Super\" Rigged Chip",
-    "base_item": "Popped Chorus Fruit",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "There's something suspicious about this chip.\nWho knows? After all, it's yours now."
-  },
-  "Weathered Rune": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Currency",
-    "name": "Weathered Rune",
-    "base_item": "Popped Chorus Fruit",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
   },
   "Broken Beyond": {
     "location": "Mist",
