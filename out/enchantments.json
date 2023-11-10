@@ -351,7 +351,7 @@
   },
   "inferno": {
     "name": "Inferno",
-    "description": "When you ignite an enemy, they take 1 extra damage per level once a second for the initial duration of the fire.",
+    "description": "When you ignite an enemy, they take level^0.95 extra damage once a second for the initial duration of the fire.",
     "category": "Weapons"
   },
   "infinity": {
