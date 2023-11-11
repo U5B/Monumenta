@@ -27,6 +27,22 @@
     "type": "Charm",
     "class_name": "Scout"
   },
+  "Six-Pronged Sea Stone": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Six-Pronged Sea Stone",
+    "power": 5,
+    "base_item": "Quartz",
+    "release_status": "public",
+    "stats": {
+      "chain_lightning_knockback_percent": 40,
+      "chain_lightning_charges_flat": 1,
+      "chain_lightning_targets_flat": 1
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Ghostly Eminence": {
     "location": "Marina Noir",
     "region": "Ring",
@@ -5974,11 +5990,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 30,
       "melee_protection": 2,
       "shielding": 1,
+      "unbreaking": 30,
       "magic_damage_percent": 10,
-      "armor": 7
+      "armor": 6.5
     },
     "lore": "Something about this tunic seems\ndifferent from the rest. Words in\nlanguages never written are carved\ndeep into the leather."
   },
@@ -5992,11 +6008,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 25,
       "melee_protection": 2,
       "shielding": 1,
+      "unbreaking": 25,
       "magic_damage_percent": 10,
-      "armor": 6.5
+      "armor": 6
     },
     "lore": "Something about this tunic seems\ndifferent from the rest. Words in\nlanguages never written are carved\ndeep into the leather."
   },
@@ -7633,6 +7649,22 @@
       "attack_damage_percent": 15
     },
     "lore": "Pelias' folly opened the minds of two peoples.\nThe Dichen to their destiny in the outer colonies,\nand the Aradia to the plight of their lost god.\nIt was only natural that the two would ally."
+  },
+  "Accursed Stake": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Accursed Stake",
+    "power": 1,
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "stats": {
+      "sanctuary_slowness_amplifier_percent": 15,
+      "sanctuary_weakness_amplifier_percent": -20,
+      "sanctuary_vulnerability_amplifier_percent": -5
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Murano's Dagger": {
     "location": "King's Valley",
@@ -19295,6 +19327,21 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Lesser Charm of Light": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Light",
+    "power": 1,
+    "base_item": "Heart Of The Sea",
+    "release_status": "public",
+    "stats": {
+      "sanctuary_slowness_amplifier_percent": 3,
+      "sanctuary_weakness_amplifier_percent": 3
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Heart of Greed": {
     "location": "The Hoard",
@@ -31837,7 +31884,7 @@
     "release_status": "public",
     "stats": {
       "panacea_cooldown_percent": 50,
-      "panacea_damage_percent": 60,
+      "panacea_dot_damage_percent": 60,
       "panacea_absorption_health_percent": -100
     },
     "type": "Charm",
@@ -49035,6 +49082,20 @@
     "type": "Charm",
     "class_name": "Generalist"
   },
+  "Lesser Charm of Healing": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Healing",
+    "power": 1,
+    "base_item": "Red Dye",
+    "release_status": "public",
+    "stats": {
+      "chain_healing_wave_healing_percent": 6
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Swift Fracturing Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -49485,6 +49546,22 @@
     "stats": {},
     "lore": "Epic Crafting Material"
   },
+  "Silver Medallion": {
+    "location": "SKT",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silver Medallion",
+    "power": 3,
+    "base_item": "Iron Nugget",
+    "release_status": "public",
+    "stats": {
+      "whirlwind_totem_duration_flat": 4,
+      "whirlwind_totem_radius_percent": 60,
+      "whirlwind_totem_cooldown_percent": 30
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Eridium": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -49541,6 +49618,21 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Sticky Sap": {
+    "location": "Godspore",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Sticky Sap",
+    "power": 1,
+    "base_item": "Honey Bottle",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_spread_percent": -100,
+      "totemic_projection_slowness_amplifier_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Helm of the Pumpking": {
     "location": "Halloween Event",
@@ -49878,6 +49970,78 @@
     "type": "Misc",
     "stats": {},
     "lore": "A pure delicacy. Given only to kings.\nAwarded for having found the most\neggs in the Easter Event."
+  },
+  "Swift Charm of Thundering": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Thundering",
+    "power": 3,
+    "base_item": "Lightning Rod",
+    "release_status": "public",
+    "stats": {
+      "lightning_totem_damage_percent": 15,
+      "lightning_totem_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Explosive Charm of Thundering": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Charm of Thundering",
+    "power": 3,
+    "base_item": "Lightning Rod",
+    "release_status": "public",
+    "stats": {
+      "lightning_totem_damage_percent": 15,
+      "lightning_totem_radius_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Focused Charm of Thundering": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Thundering",
+    "power": 3,
+    "base_item": "Lightning Rod",
+    "release_status": "public",
+    "stats": {
+      "lightning_totem_damage_percent": 35
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Lesser Charm of Thundering": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Thundering",
+    "power": 1,
+    "base_item": "Lightning Rod",
+    "release_status": "public",
+    "stats": {
+      "lightning_totem_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Greater Charm of Thundering": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Thundering",
+    "power": 2,
+    "base_item": "Lightning Rod",
+    "release_status": "public",
+    "stats": {
+      "lightning_totem_damage_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Frostbolt": {
     "location": "Winter Event",
@@ -51314,6 +51478,20 @@
     "type": "Misc",
     "stats": {},
     "lore": "Quality Bonus (+20%)\nThis fabric-like material\nseems to be fading\naway from this world."
+  },
+  "Lesser Charm of Shriveling": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Shriveling",
+    "power": 1,
+    "base_item": "Coal",
+    "release_status": "public",
+    "stats": {
+      "decayed_totem_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Thank You Note": {
     "location": "April's Fools",
@@ -54818,6 +54996,22 @@
     "stats": {},
     "lore": "The surface of the stone reflects the light\nthat falls on it, illuminating everything\naround it. It is warm to the touch and\nseems to vibrate slightly in your hands."
   },
+  "Deep Resonant Fragment": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Deep Resonant Fragment",
+    "power": 4,
+    "base_item": "Amethyst Cluster",
+    "release_status": "public",
+    "stats": {
+      "crystalline_combos_stack_threshold_flat": -2,
+      "crystalline_combos_damage_percent": 35,
+      "crystalline_combos_shot_count_flat": -4
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Distant Charm of Mana": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -54889,6 +55083,63 @@
     },
     "type": "Charm",
     "class_name": "Mage"
+  },
+  "Focused Charm of Crystallization": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Crystallization",
+    "power": 3,
+    "base_item": "Amethyst Cluster",
+    "release_status": "public",
+    "stats": {
+      "crystalline_combos_damage_percent": 35
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Distant Charm of Crystallization": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Distant Charm of Crystallization",
+    "power": 3,
+    "base_item": "Amethyst Cluster",
+    "release_status": "public",
+    "stats": {
+      "crystalline_combos_range_percent": 50,
+      "crystalline_combos_damage_percent": 15
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Lesser Charm of Crystallization": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Crystallization",
+    "power": 1,
+    "base_item": "Amethyst Cluster",
+    "release_status": "public",
+    "stats": {
+      "crystalline_combos_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Greater Charm of Crystallization": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Crystallization",
+    "power": 2,
+    "base_item": "Amethyst Cluster",
+    "release_status": "public",
+    "stats": {
+      "crystalline_combos_damage_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Empowered Arcane Pigment": {
     "location": "Light Blue",
@@ -56173,6 +56424,21 @@
     "stats": {},
     "lore": "Epic Crafting Material"
   },
+  "Shadow Mask": {
+    "location": "Ruin",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Shadow Mask",
+    "power": 2,
+    "base_item": "Wither Skeleton Skull",
+    "release_status": "public",
+    "stats": {
+      "interconnected_havoc_range_percent": 80,
+      "interconnected_havoc_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Lesser Executioner's Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -57123,6 +57389,22 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Rune of Apocalypse": {
+    "location": "Sanguine Halls",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Rune of Apocalypse",
+    "power": 4,
+    "base_item": "Nautilus Shell",
+    "release_status": "public",
+    "stats": {
+      "devastation_radius_percent": 50,
+      "devastation_damage_percent": 50,
+      "devastation_cooldown_percent": 15
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Rune of Dominion": {
     "location": "Ruin",
@@ -59262,6 +59544,22 @@
     "stats": {},
     "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot a blue portal.\nLeft Click to shoot a purple portal."
   },
+  "Aether Dart": {
+    "location": "Brown",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Aether Dart",
+    "power": 3,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "chain_lightning_cooldown_percent": -40,
+      "chain_lightning_damage_percent": -20,
+      "chain_lightning_targets_flat": -1
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Molldyer's Chalk": {
     "location": "Blue",
     "region": "Ring",
@@ -59278,6 +59576,78 @@
     },
     "type": "Charm",
     "class_name": "Mage"
+  },
+  "Lesser Charm of Shocking": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Shocking",
+    "power": 1,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "chain_lightning_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Greater Charm of Shocking": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Shocking",
+    "power": 2,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "chain_lightning_damage_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Swift Charm of Shocking": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Shocking",
+    "power": 3,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "chain_lightning_damage_percent": 15,
+      "chain_lightning_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Focused Charm of Shocking": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Shocking",
+    "power": 3,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "chain_lightning_damage_percent": 35
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Explosive Charm of Shocking": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Charm of Shocking",
+    "power": 3,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "chain_lightning_damage_percent": 20,
+      "chain_lightning_bounce_radius_percent": 40
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Lesser Charm of Dominion": {
     "location": "Architect's Ring",
@@ -61452,6 +61822,48 @@
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
+  "Lesser Charm of Relocation": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Relocation",
+    "power": 1,
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Greater Charm of Relocation": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Relocation",
+    "power": 2,
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_cooldown_percent": -20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Explosive Charm of Relocation": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Charm of Relocation",
+    "power": 2,
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_spread_flat": 3
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Arc-crystal": {
     "name": "Arc-crystal",
     "base_item": "Slime Ball",
@@ -61930,6 +62342,79 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
+  },
+  "Focused Charm of Ignition": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Ignition",
+    "power": 3,
+    "base_item": "Blaze Powder",
+    "release_status": "public",
+    "stats": {
+      "flame_totem_damage_percent": 35
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Explosive Charm of Ignition": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Charm of Ignition",
+    "power": 4,
+    "base_item": "Blaze Powder",
+    "release_status": "public",
+    "stats": {
+      "flame_totem_damage_percent": 15,
+      "flame_totem_radius_percent": 30,
+      "flame_totem_fire_duration_flat": 1
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Lesser Charm of Ignition": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Ignition",
+    "power": 1,
+    "base_item": "Blaze Powder",
+    "release_status": "public",
+    "stats": {
+      "flame_totem_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Greater Charm of Ignition": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Ignition",
+    "power": 2,
+    "base_item": "Blaze Powder",
+    "release_status": "public",
+    "stats": {
+      "flame_totem_damage_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Swift Charm of Ignition": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Ignition",
+    "power": 3,
+    "base_item": "Blaze Powder",
+    "release_status": "public",
+    "stats": {
+      "flame_totem_damage_percent": 15,
+      "flame_totem_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Lesser Legerity Charm": {
     "location": "Architect's Ring",
@@ -63042,6 +63527,20 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
+  "Lesser Gust Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Gust Charm",
+    "power": 1,
+    "base_item": "Feather",
+    "release_status": "public",
+    "stats": {
+      "whirlwind_totem_radius_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Greater Dodging Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -63227,6 +63726,20 @@
     "stats": {},
     "lore": "Right click in hand or inventory to increase\nWindwalker tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
   },
+  "Lesser Charm of Destruction": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Destruction",
+    "power": 1,
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "stats": {
+      "devastation_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Lesser Charm of Choler": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -63364,6 +63877,21 @@
     "type": "Misc",
     "stats": {},
     "lore": "Right click in hand or inventory\nto open the Charms Menu."
+  },
+  "Porphyry Shackle": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Porphyry Shackle",
+    "power": 3,
+    "base_item": "Purple Dye",
+    "release_status": "public",
+    "stats": {
+      "interconnected_havoc_damage_percent": 30,
+      "interconnected_havoc_stun_duration_flat": 0.25
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Royal Jewel": {
     "location": "Pelias' Keep",
@@ -63617,6 +64145,36 @@
     },
     "lore": "Encased in crystal's hold,\nMoon fragment shall decree.\nA Prophecy fortold,\nMay peaceful light guide thee."
   },
+  "Mist of Dawn": {
+    "location": "Blue",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Mist of Dawn",
+    "power": 2,
+    "base_item": "Bubble Coral",
+    "release_status": "public",
+    "stats": {
+      "lightning_totem_cooldown_percent": -40,
+      "lightning_totem_duration_percent": -30
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Propulsion Engine": {
+    "location": "PORTAL",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Propulsion Engine",
+    "power": 3,
+    "base_item": "Furnace",
+    "release_status": "public",
+    "stats": {
+      "earthen_tremor_knockback_percent": 100,
+      "earthen_tremor_damage_percent": 45
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Plasma Generator": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -63629,6 +64187,37 @@
       "material": 1
     },
     "lore": "This right here. This is where the magiscience happens."
+  },
+  "Crumbling Effigy": {
+    "location": "Marina Noir",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Crumbling Effigy",
+    "power": 3,
+    "base_item": "Blackstone Wall",
+    "release_status": "public",
+    "stats": {
+      "decayed_totem_radius_percent": 30,
+      "decayed_totem_targets_flat": 1
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Unstable Reactor": {
+    "location": "PORTAL",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Unstable Reactor",
+    "power": 3,
+    "base_item": "Observer",
+    "release_status": "public",
+    "stats": {
+      "lightning_totem_pulse_delay_percent": -30,
+      "lightning_totem_radius_percent": -30,
+      "lightning_totem_damage_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Earthquake Staff": {
     "location": "Blue",
@@ -64633,6 +65222,78 @@
     "type": "Charm",
     "class_name": "Mage"
   },
+  "Swift Tide Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Tide Charm",
+    "power": 3,
+    "base_item": "Ghast Tear",
+    "release_status": "public",
+    "stats": {
+      "cleansing_totem_healing_percent": 2,
+      "cleansing_totem_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Greater Tide Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Tide Charm",
+    "power": 2,
+    "base_item": "Ghast Tear",
+    "release_status": "public",
+    "stats": {
+      "cleansing_totem_healing_percent": 2
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Focused Tide Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Tide Charm",
+    "power": 3,
+    "base_item": "Ghast Tear",
+    "release_status": "public",
+    "stats": {
+      "cleansing_totem_healing_percent": 3
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Explosive Tide Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Tide Charm",
+    "power": 3,
+    "base_item": "Ghast Tear",
+    "release_status": "public",
+    "stats": {
+      "cleansing_totem_healing_percent": 1,
+      "cleansing_totem_radius_percent": 30
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Lesser Tide Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Tide Charm",
+    "power": 1,
+    "base_item": "Ghast Tear",
+    "release_status": "public",
+    "stats": {
+      "cleansing_totem_healing_percent": 1
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "Lesser Roaring Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -64916,6 +65577,48 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
+  },
+  "Greater Charm of Binding": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Binding",
+    "power": 2,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "interconnected_havoc_damage_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Focused Charm of Binding": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Binding",
+    "power": 3,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "interconnected_havoc_damage_percent": 35
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Lesser Charm of Binding": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Binding",
+    "power": 1,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "interconnected_havoc_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Lesser Prosecutor's Charm": {
     "location": "Architect's Ring",
@@ -65801,6 +66504,20 @@
     "stats": {},
     "lore": "Attuned to the power of the Elements.\nAllows you to manipulate the elemental\nconnections within yourself, opening\nthe class selection menu.\nRight Click in the mainhand or inventory.\nCooldown : 5m when used in Survival zones"
   },
+  "Lesser Charm of Bursting": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Bursting",
+    "power": 1,
+    "base_item": "Popped Chorus Fruit",
+    "release_status": "public",
+    "stats": {
+      "desecrating_shot_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
   "\"Super\" Rigged Chip": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -65824,6 +66541,96 @@
     "type": "Misc",
     "stats": {},
     "lore": "Epic Crafting Material"
+  },
+  "Lesser Charm of Tremors": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Tremors",
+    "power": 1,
+    "base_item": "Podzol",
+    "release_status": "public",
+    "stats": {
+      "earthen_tremor_damage_percent": 15
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Focused Charm of Tremors": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Tremors",
+    "power": 3,
+    "base_item": "Podzol",
+    "release_status": "public",
+    "stats": {
+      "earthen_tremor_damage_percent": 50
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Swift Charm of Tremors": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Tremors",
+    "power": 3,
+    "base_item": "Podzol",
+    "release_status": "public",
+    "stats": {
+      "earthen_tremor_damage_percent": 20,
+      "earthen_tremor_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Greater Charm of Tremors": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Tremors",
+    "power": 2,
+    "base_item": "Podzol",
+    "release_status": "public",
+    "stats": {
+      "earthen_tremor_damage_percent": 30
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Explosive Charm of Tremors": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Charm of Tremors",
+    "power": 2,
+    "base_item": "Podzol",
+    "release_status": "public",
+    "stats": {
+      "earthen_tremor_radius_percent": 20,
+      "earthen_tremor_knockback_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Ritual Chalk": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Ritual Chalk",
+    "power": 4,
+    "base_item": "Green Candle",
+    "release_status": "public",
+    "stats": {
+      "flame_totem_duration_percent": 10,
+      "lightning_totem_duration_percent": 10,
+      "cleansing_totem_duration_percent": 10,
+      "whirlwind_totem_duration_percent": 10,
+      "decayed_totem_duration_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Lesser Obscuring Charm": {
     "location": "Architect's Ring",
