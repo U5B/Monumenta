@@ -2116,7 +2116,11 @@
     "shard": "Celsian Isles",
     "region": "Ocean",
     "subregion": "Ocean's Reach",
-    "coordinates": null
+    "coordinates": {
+      "x": "-122",
+      "y": "9",
+      "z": "3318"
+    }
   },
   "vengeance_of_the_sea": {
     "name": "Vengeance of the Sea",
