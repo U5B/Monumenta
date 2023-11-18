@@ -3754,6 +3754,26 @@
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
+  "Corrupted Scalawag's Hatchet-3": {
+    "location": "Reverie",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Corrupted Scalawag's Hatchet",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "adrenaline": 1,
+      "curse_of_anemia": 1,
+      "efficiency": 3,
+      "regicide": 1,
+      "unbreaking": 12,
+      "attack_speed_base": 1.1,
+      "attack_damage_base": 20
+    },
+    "lore": "The sea boils. Soon you shall too."
+  },
   "Hammer of Legacy-1": {
     "location": "Pelias' Keep",
     "masterwork": "1",
@@ -9803,6 +9823,14 @@
     "type": "Misc",
     "stats": {},
     "lore": "Regular Fungicide, with Mycelia detection.\nRight Button to detect nearby Spyshrooms.\nOfficial Galengarde Arboreal Society\nPatented Fungicide. USE WITH CAUTION\n* Quest Item *\n#Q213I01"
+  },
+  "Inert Mixture": {
+    "name": "Inert Mixture",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A vial of a strange liquid.\n* Quest Item *\n#Q216I00"
   },
   "Deepwood Broth": {
     "location": "The Wolfswood",
@@ -16615,6 +16643,26 @@
     },
     "lore": "Despite the unrefined nature of the\nacid extracted from the human soul,\nthe Machine found that combining it\nwith copper formed quite the potent alloy."
   },
+  "Kingslayer-3": {
+    "location": "Reverie",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Kingslayer",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adrenaline": 1,
+      "melee_fragility": 1,
+      "regicide": 2,
+      "unbreakable": 1,
+      "attack_speed_percent": 10,
+      "agility": 5.5,
+      "attack_damage_percent": 40
+    },
+    "lore": "The first to fall will be the King.\nThe Empire will follow."
+  },
   "Samsara Vessel-0": {
     "location": "The Wolfswood",
     "masterwork": "0",
@@ -18073,6 +18121,24 @@
       "projectile_damage_percent": 20
     },
     "lore": "The Machine needed to watch each inch of\nNeo Antium in order to keep its inhabitants\nsafe - and in line."
+  },
+  "Corrupted Jeweled Tiara-3": {
+    "location": "Reverie",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Corrupted Jeweled Tiara",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "projectile_protection": 2,
+      "sustenance": 1,
+      "unbreaking": 20,
+      "armor": 8,
+      "max_health_flat": 4
+    },
+    "lore": "Set with onyx, this helm\ngleams dangerously."
   },
   "Opal Crown": {
     "location": "King's Valley",
@@ -24162,6 +24228,14 @@
     "type": "Misc",
     "stats": {},
     "lore": "Selari gazed upon the newly formed tesseract,\nits power imprinting his memories into the very walls of\nhis laboratory, before smashing it to pieces. A creation\nlike this could never be unleashed upon the world,\nand he would ensure another would never exist.\nLeft Click while holding to store/swap your experience.\nLeft Click + Sneak to check stored experience.\nRight Click + Sneak to clear stored experience."
+  },
+  "Vincent Variable Manifest": {
+    "name": "Vincent Variable Manifest",
+    "base_item": "Mojang Banner Pattern",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A list of items, stored for future use\nin... something. The text has been made\nentirely illegible by exposure to the\ndream, but you can see five items listed.\n* Quest Item *\n#Q216I01"
   },
   "Crimson Contract": {
     "location": "King's Valley",
@@ -31874,6 +31948,14 @@
     },
     "lore": "Smoke issues from the charred wood while\nsparks rage across its face."
   },
+  "Distorted Powder": {
+    "name": "Distorted Powder",
+    "base_item": "Gunpowder",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A dark powder with unknown properties.\nPerhaps it was once used for something,\nbut exposure to the dream has made it\nunrecognizable. Still, it could be useful.\n* Quest Item *\n#Q216I06"
+  },
   "Razed Remnants": {
     "location": "SKT",
     "region": "Ring",
@@ -32539,6 +32621,25 @@
     },
     "lore": "A perfect silver orb rotates in your grasp.\nAs it moves, a piercing ring echoes out.\nIt threatens retribution."
   },
+  "Brimstone Alembic-3": {
+    "location": "Reverie",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Brimstone Alembic",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "fire_protection": 2,
+      "regicide": 2,
+      "projectile_speed_base": 1,
+      "potion_radius_flat": 2,
+      "potion_damage_flat": 10.5
+    },
+    "lore": "Looted from the labs beneath a nightmarish\ncastle, this hellish alembic swirls with primal rage."
+  },
   "Shadebound Satchel-1": {
     "location": "Pelias' Keep",
     "masterwork": "1",
@@ -32999,6 +33100,27 @@
         "EffectDuration": 9600,
         "EffectStrength": 0.2,
         "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Holy Water": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Holy Water",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 3,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 40,
+        "EffectStrength": 3,
+        "EffectType": "Wither"
       }
     ],
     "base_item": "Splash Potion",
@@ -35589,6 +35711,25 @@
       "agility": 9,
       "speed_percent": 5
     }
+  },
+  "The Nightmare's Warden-3": {
+    "location": "Reverie",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "The Nightmare's Warden",
+    "base_item": "Golden Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "inure": 1,
+      "magic_protection": 2,
+      "melee_protection": 2,
+      "regicide": 1,
+      "unbreakable": 1,
+      "armor": 6.5
+    },
+    "lore": "The nightmare felt the approach of the outsider.\nIt shivered in anticipation...\nSuch a lovely tapestry to paint..."
   },
   "Timepiece Plate-3": {
     "location": "PORTAL",
@@ -44654,6 +44795,14 @@
     "type": "Misc",
     "stats": {},
     "lore": "Alas poor skull, they got pwn4d"
+  },
+  "Conduit of Atrocity": {
+    "name": "Conduit of Atrocity",
+    "base_item": "Skeleton Skull",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "This dream, a dream of a dream, tied to\nthat site of great tragedy. Something awful\nhappened, out of necessity. What else could\nbe done, in the pursuit of necessity?\n* Quest Item *\n#Q216I05"
   },
   "Skull of Isharist": {
     "location": "SKT",
@@ -55485,6 +55634,14 @@
     "stats": {},
     "lore": "Epic Crafting Ingredient"
   },
+  "Alchemical Reagent": {
+    "name": "Alchemical Reagent",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A bubbling, festering vial of a strange\nliquid. You think it could be used to\nincite a transformation of... something.\n* Quest Item *\n#Q216I03"
+  },
   "Curse of the Dark Soul": {
     "location": "Pelias' Keep",
     "region": "Ring",
@@ -55927,6 +56084,22 @@
     },
     "lore": "A kaleidoscopic urn, holding the\nashes of time never passed."
   },
+  "Darkened Gloomstone": {
+    "name": "Darkened Gloomstone",
+    "base_item": "Sculk",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Words of power are contained within this stone.\nYou've done this song and dance before...\nAnd yet, the rules have changed.\nNo longer is it bound to that purpose.\n* Quest Item *\n#Q216I07"
+  },
+  "Dreamlike Pigment": {
+    "name": "Dreamlike Pigment",
+    "base_item": "Black Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "As you hold it in your hands, its\ncolor constantly shifts. If you squint,\nyou think you can see its true color...\nBut you don't have words to describe it.\n* Quest Item *\n#Q216I02"
+  },
   "Deathly Piece of Eight": {
     "location": "Marina Noir",
     "region": "Ring",
@@ -56114,6 +56287,14 @@
     "type": "Misc",
     "stats": {},
     "lore": "A mysterious, curse-stained substance."
+  },
+  "Arcane Amethyst": {
+    "name": "Arcane Amethyst",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A large gemstone, imported from lands\nbeyond, and imbued with the dream itself.\nIts surface ripples with unseen things.\n* Quest Item *\n#Q216I04"
   },
   "Ex Nihil": {
     "name": "Ex Nihil",
@@ -59024,6 +59205,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Grants access to dungeon:\nPlagueroot Temple\nDifficulty : ☠☠☠☠☠"
+  },
+  "Exalted Malevolent Reverie Key": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Exalted Malevolent Reverie Key",
+    "base_item": "Nether Wart Block",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to dungeon:\nMalevolent Reverie\nDifficulty : ☠☠☠☠☠"
   },
   "Lesser Reckless Charm": {
     "location": "Architect's Ring",
@@ -62082,6 +62274,17 @@
     "stats": {},
     "lore": "Epic Crafting Material"
   },
+  "Nightmare Fuel": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Nightmare Fuel",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
+  },
   "Totem of Life-2": {
     "location": "Transmogrifier",
     "masterwork": "2",
@@ -64013,16 +64216,6 @@
     "type": "Charm",
     "class_name": "Scout"
   },
-  "Embalmer's Mixtape": {
-    "location": "Corridors",
-    "region": "Valley",
-    "name": "Embalmer's Mixtape",
-    "base_item": "Music Disc Ward",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "An old record for an old Embalmer.\nQuestionably eerie, yet soothing.\n* Quest Item *\n#Q47I03"
-  },
   "Tradesman's Cape": {
     "location": "The Wolfswood",
     "region": "Ring",
@@ -64202,6 +64395,34 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Eroded Sconce": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Eroded Sconce",
+    "power": 2,
+    "base_item": "Black Candle",
+    "release_status": "public",
+    "stats": {
+      "decay_damage_percent": 100
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Corroded Sconce": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Corroded Sconce",
+    "power": 3,
+    "base_item": "Black Candle",
+    "release_status": "public",
+    "stats": {
+      "decay_damage_percent": 250
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
   },
   "Unstable Reactor": {
     "location": "PORTAL",
@@ -64515,34 +64736,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Eroded Sconce": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Eroded Sconce",
-    "power": 2,
-    "base_item": "Black Candle",
-    "release_status": "public",
-    "stats": {
-      "decay_damage_percent": 100
-    },
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
-  "Corroded Sconce": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Corroded Sconce",
-    "power": 3,
-    "base_item": "Black Candle",
-    "release_status": "public",
-    "stats": {
-      "decay_damage_percent": 250
-    },
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
   "Bloodlust": {
     "location": "Sanguine Halls",
     "region": "Ring",
@@ -64803,6 +64996,149 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Swift Charm of Defense": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Defense",
+    "power": 2,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "defensive_line_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
+  "Sedated Charm of Defense": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Sedated Charm of Defense",
+    "power": 3,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "defensive_line_duration_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
+  "Lesser Charm of Defense": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Defense",
+    "power": 2,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "defensive_line_resistance_percent": 5
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
+  "Greater Charm of Defense": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Defense",
+    "power": 3,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "defensive_line_resistance_percent": 8
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
+  "Silver Rosary": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Silver Rosary",
+    "power": 4,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "sanctified_armor_damage_percent": 15,
+      "divine_justice_damage_percent": 15,
+      "divine_justice_self_heal_percent": 15,
+      "divine_justice_ally_heal_percent": 15
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
+  "Greater Charm of Binding": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Binding",
+    "power": 2,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "interconnected_havoc_damage_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Focused Charm of Binding": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Binding",
+    "power": 3,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "interconnected_havoc_damage_percent": 35
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Lesser Charm of Binding": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Binding",
+    "power": 1,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "interconnected_havoc_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Lesser Prosecutor's Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Prosecutor's Charm",
+    "power": 1,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "judgement_chain_damage_percent": 10,
+      "judgement_chain_buff_duration_flat": 1
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Twisted Chains": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Twisted Chains",
+    "base_item": "Chain",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Despite being made of steel,\nthe chain weaves between your hands."
   },
   "Explosive Spore": {
     "location": "Godspore",
@@ -65504,149 +65840,6 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
-  },
-  "Swift Charm of Defense": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Defense",
-    "power": 2,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "defensive_line_cooldown_percent": -10
-    },
-    "type": "Charm",
-    "class_name": "Warrior"
-  },
-  "Sedated Charm of Defense": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Sedated Charm of Defense",
-    "power": 3,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "defensive_line_duration_percent": 20
-    },
-    "type": "Charm",
-    "class_name": "Warrior"
-  },
-  "Lesser Charm of Defense": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Defense",
-    "power": 2,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "defensive_line_resistance_percent": 5
-    },
-    "type": "Charm",
-    "class_name": "Warrior"
-  },
-  "Greater Charm of Defense": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Defense",
-    "power": 3,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "defensive_line_resistance_percent": 8
-    },
-    "type": "Charm",
-    "class_name": "Warrior"
-  },
-  "Silver Rosary": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Silver Rosary",
-    "power": 4,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "sanctified_armor_damage_percent": 15,
-      "divine_justice_damage_percent": 15,
-      "divine_justice_self_heal_percent": 15,
-      "divine_justice_ally_heal_percent": 15
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
-  "Greater Charm of Binding": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Binding",
-    "power": 2,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "interconnected_havoc_damage_percent": 20
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Focused Charm of Binding": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Charm of Binding",
-    "power": 3,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "interconnected_havoc_damage_percent": 35
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Lesser Charm of Binding": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Binding",
-    "power": 1,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "interconnected_havoc_damage_percent": 10
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Lesser Prosecutor's Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Prosecutor's Charm",
-    "power": 1,
-    "base_item": "Chain",
-    "release_status": "public",
-    "stats": {
-      "judgement_chain_damage_percent": 10,
-      "judgement_chain_buff_duration_flat": 1
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Twisted Chains": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Twisted Chains",
-    "base_item": "Chain",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Despite being made of steel,\nthe chain weaves between your hands."
   },
   "Lesser Meteor Charm": {
     "location": "Architect's Ring",
@@ -68855,6 +69048,16 @@
     "stats": {},
     "lore": "A perfect track for a beatdown,\nthe piano plays in the background."
   },
+  "Embalmer's Mixtape": {
+    "location": "Corridors",
+    "region": "Valley",
+    "name": "Embalmer's Mixtape",
+    "base_item": "Music Disc Ward",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An old record for an old Embalmer.\nQuestionably eerie, yet soothing.\n* Quest Item *\n#Q47I03"
+  },
   "Ethereal Expressions": {
     "location": "Corridors",
     "region": "Valley",
@@ -69178,17 +69381,6 @@
       "attack_speed_base": 0.7
     },
     "lore": "Each spectral swing carves a path through\neternity, a needless blow to form."
-  },
-  "Nightmare Fuel": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Nightmare Fuel",
-    "base_item": "Nether Wart",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
   },
   "Helm of Immortals": {
     "location": "Willows",
