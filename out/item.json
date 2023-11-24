@@ -44307,9 +44307,9 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
+      "fire_aspect": 1,
       "ice_aspect": 1,
-      "thunder_aspect": 1,
-      "fire_aspect": 1
+      "thunder_aspect": 1
     }
   },
   "Argone Bolt": {
@@ -44345,8 +44345,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "inferno": 2,
-      "decay": 2
+      "decay": 2,
+      "inferno": 2
     }
   },
   "Myra's Miasma": {
@@ -44364,8 +44364,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "inferno": 1,
-      "fire_aspect": 1
+      "fire_aspect": 1,
+      "inferno": 1
     }
   },
   "Mist-touched Arrow": {
@@ -44440,8 +44440,8 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "regicide": 1,
       "abyssal": 1,
+      "regicide": 1,
       "projectile_damage_percent": 5
     }
   },
@@ -44451,8 +44451,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "inferno": 1,
-      "decay": 1
+      "decay": 1,
+      "inferno": 1
     }
   },
   "Stormsurge Quarrel": {
@@ -44472,8 +44472,8 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "ice_aspect": 2,
       "fire_aspect": 2,
+      "ice_aspect": 2,
       "projectile_damage_percent": -15
     }
   },
@@ -44514,8 +44514,8 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "inferno": 2,
       "fire_aspect": 2,
+      "inferno": 2,
       "projectile_damage_percent": -15
     }
   },
@@ -44546,8 +44546,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "regicide": 1,
-      "fire_aspect": 1
+      "fire_aspect": 1,
+      "regicide": 1
     }
   },
   "Godslayer Arrow": {
@@ -44630,10 +44630,10 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "fire_aspect": 1,
       "earth_aspect": 1,
-      "wind_aspect": 1,
-      "ice_aspect": 1
+      "fire_aspect": 1,
+      "ice_aspect": 1,
+      "wind_aspect": 1
     }
   },
   "Chillwind Bolt": {
@@ -44652,8 +44652,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "ice_aspect": 1,
-      "decay": 1
+      "decay": 1,
+      "ice_aspect": 1
     }
   },
   "Hailstorm Arrow": {
@@ -44682,9 +44682,9 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "regicide": 1,
       "fire_aspect": 1,
-      "inferno": 1
+      "inferno": 1,
+      "regicide": 1
     }
   },
   "Dichen Bolt": {
@@ -44693,8 +44693,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "first_strike": 1,
-      "earth_aspect": 1
+      "earth_aspect": 1,
+      "first_strike": 1
     }
   },
   "Elemental Arrow": {
@@ -54813,6 +54813,150 @@
     },
     "lore": "A talon from the great ancient, lost\nin the fury of battle with titans\nof yore. With dying dragonbreath,\nit radiates heat."
   },
+  "Lesser Charm of Destruction": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Destruction",
+    "power": 1,
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "stats": {
+      "devastation_damage_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Lesser Charm of Choler": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Choler",
+    "power": 1,
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "stats": {
+      "choleric_flames_damage_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Explosive Charm of Choler": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Charm of Choler",
+    "power": 3,
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "stats": {
+      "choleric_flames_damage_percent": 40,
+      "choleric_flames_range_percent": 50
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Greater Charm of Choler": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Choler",
+    "power": 2,
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "stats": {
+      "choleric_flames_damage_percent": 40
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Focused Charm of Choler": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Choler",
+    "power": 3,
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "stats": {
+      "choleric_flames_damage_percent": 65
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Strong Charm of Choler": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Strong Charm of Choler",
+    "power": 3,
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "stats": {
+      "choleric_flames_damage_percent": 30,
+      "choleric_flames_duration_flat": 4,
+      "choleric_flames_knockback_percent": 100
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Swift Charm of Choler": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Choler",
+    "power": 2,
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "stats": {
+      "choleric_flames_damage_percent": 20,
+      "choleric_flames_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Hellpact Ritual": {
+    "name": "Hellpact Ritual",
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "It whispers of Lord Azacor,\nand beckons you to join him."
+  },
+  "Incendiary Charge": {
+    "name": "Incendiary Charge",
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Packs some serious firepower!\n* Quest Item *\n#Q127I01"
+  },
+  "Angelic Crest Stone": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Angelic Crest Stone",
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "It glows with a heavenly aura.\nPerhaps you can fuse its power\nwithin a weapon."
+  },
+  "Flamecaller Talisman": {
+    "location": "Depths",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Flamecaller Talisman",
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right click in hand or inventory to increase\nFlamecaller tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
+  },
   "Strange Implement": {
     "name": "Strange Implement",
     "base_item": "Oxidized Cut Copper",
@@ -57420,7 +57564,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Lesser Challenger Charm",
-    "power": 3,
+    "power": 2,
     "base_item": "Redstone",
     "release_status": "public",
     "stats": {
@@ -63928,150 +64072,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Right click in hand or inventory to increase\nWindwalker tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
-  },
-  "Lesser Charm of Destruction": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Destruction",
-    "power": 1,
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "stats": {
-      "devastation_damage_percent": 10
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Lesser Charm of Choler": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Choler",
-    "power": 1,
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "stats": {
-      "choleric_flames_damage_percent": 20
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Explosive Charm of Choler": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Explosive Charm of Choler",
-    "power": 3,
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "stats": {
-      "choleric_flames_damage_percent": 40,
-      "choleric_flames_range_percent": 50
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Greater Charm of Choler": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Choler",
-    "power": 2,
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "stats": {
-      "choleric_flames_damage_percent": 40
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Focused Charm of Choler": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Charm of Choler",
-    "power": 3,
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "stats": {
-      "choleric_flames_damage_percent": 65
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Strong Charm of Choler": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Strong Charm of Choler",
-    "power": 3,
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "stats": {
-      "choleric_flames_damage_percent": 30,
-      "choleric_flames_duration_flat": 4,
-      "choleric_flames_knockback_percent": 100
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Swift Charm of Choler": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Choler",
-    "power": 2,
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "stats": {
-      "choleric_flames_damage_percent": 20,
-      "choleric_flames_cooldown_percent": -10
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Hellpact Ritual": {
-    "name": "Hellpact Ritual",
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "It whispers of Lord Azacor,\nand beckons you to join him."
-  },
-  "Incendiary Charge": {
-    "name": "Incendiary Charge",
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Packs some serious firepower!\n* Quest Item *\n#Q127I01"
-  },
-  "Angelic Crest Stone": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Angelic Crest Stone",
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "It glows with a heavenly aura.\nPerhaps you can fuse its power\nwithin a weapon."
-  },
-  "Flamecaller Talisman": {
-    "location": "Depths",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Flamecaller Talisman",
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Right click in hand or inventory to increase\nFlamecaller tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
   },
   "Charms Trinket": {
     "name": "Charms Trinket",
