@@ -609,6 +609,11 @@
     "description": "Arrows have a (level * 10)% chance to not be consumed.",
     "category": "Passives"
   },
+  "reverb": {
+    "name": "Reverb",
+    "description": "On kill by melee strike or projectile, deal 10 * level % of your overkill damage plus 5 * level % of your highest damage source within the killing attack to a mob within 8 blocks.",
+    "category": "Weapons"
+  },
   "riptide": {
     "name": "Riptide",
     "description": "A Trident with Riptide can only be thrown when in water. When this happens, you are launched with your Trident a distance based on your Riptide level.",
@@ -707,6 +712,11 @@
   "sweepingedge": {
     "name": "Sweeping Edge",
     "description": "Increases sweep damage by (1 + Attack Damage * (level / (level + 1))).",
+    "category": "Weapons"
+  },
+  "technique": {
+    "name": "Technique",
+    "description": "When damaging a mob within 2.5 blocks, deal 10 * level % more magic and melee ability (not physical) damage, and 7.5 * level % more projectile damage.",
     "category": "Weapons"
   },
   "tempo": {
