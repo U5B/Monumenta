@@ -2210,6 +2210,22 @@
     "stats": {},
     "lore": "Artist Plushie #6\nCherish your beloved.\nSpecial Artist Plushie - Collect Them All!"
   },
+  "Mantra of the Flame": {
+    "location": "Isles Casino",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Mantra of the Flame",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "shielding": 1,
+      "armor": 8,
+      "knockback_resistance_flat": 2,
+      "speed_percent": -5
+    },
+    "lore": "The scorched hood reveals to you secrets\nof knowledge lost to the great flame, hidden\naway from the scourge of mankind."
+  },
   "Directional Plushie": {
     "location": "King's Valley",
     "region": "Valley",
@@ -23314,6 +23330,25 @@
     },
     "lore": "The crystalline structure of the blade reflects\nall, whether it be the corpse of an enemy\nor the eye of its wielder."
   },
+  "Infernal Katar": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Infernal Katar",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "knockback": 1,
+      "smite": 4,
+      "unbreaking": 10,
+      "fire_aspect": 1,
+      "sweeping_edge": 3,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 8
+    },
+    "lore": "What was once an eden can be lit aflame\nonce more. A world scorched, a blade found."
+  },
   "Blizzard Blade": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -25294,6 +25329,17 @@
       "agility": 7
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Cryptic Breaker": {
+    "location": "Reverie",
+    "region": "Ring",
+    "tier": "Unique",
+    "name": "Cryptic Breaker",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "I am a key when you have discovered my color.\nThen bring me to the Knight..."
   },
   "Resilient Growth-1": {
     "location": "Blue",
@@ -33230,14 +33276,17 @@
         "EffectDuration": 1,
         "EffectStrength": 0.2,
         "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 20,
+        "EffectStrength": 1,
+        "EffectType": "Clucking"
       }
     ],
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {
-      "clucking": 1
-    },
+    "stats": {},
     "lore": "Throw at another player to unleash\na clustercluck upon their worn items!"
   },
   "Elixir of the Serpent (potion)": {
@@ -35813,6 +35862,23 @@
       "agility": 6
     },
     "lore": "Across centuries, power will beckon."
+  },
+  "Infernal Breastplate": {
+    "location": "Challenger",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Infernal Breastplate",
+    "base_item": "Golden Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreakable": 1,
+      "inure": 1,
+      "magic_protection": 1,
+      "curse_of_corruption": 1,
+      "armor": 6
+    },
+    "lore": "The warmth's embrace felt the suffering around it.\nThe will of the flame stifled slightly in its slumber.\nSoon, all would be turned to ash."
   },
   "King's Warden": {
     "location": "Royal Armory",
@@ -42710,6 +42776,22 @@
       "attack_damage_percent": 30
     },
     "lore": "The warriors of the Lyrata melted in their\nsuits of gleaming bronze, entombed in monuments\nto their own folly."
+  },
+  "Infernal Greaves": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Infernal Greaves",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "magic_protection": 2,
+      "unbreaking": 7,
+      "magic_damage_percent": 15,
+      "armor": 6
+    },
+    "lore": "The eruption within the tomes could be held\nno longer. Burst forth from their prisons,\nthis world will see their brightest flame."
   },
   "King's Greaves": {
     "location": "Royal Armory",
@@ -51937,6 +52019,28 @@
       "magic_damage_percent": 10
     }
   },
+  "Infernal Codex": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Infernal Codex",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "sustenance": 2,
+      "second_wind": 2,
+      "ice_aspect": 1,
+      "life_drain": 2,
+      "two_handed": 1,
+      "hex_eater": 1,
+      "decay": 2,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 15,
+      "spell_power_base": 62
+    },
+    "lore": "The tome's spine spasms with explosive energy.\nA hungering flame awaited within."
+  },
   "Fragment of Reality": {
     "location": "Willows",
     "name": "Fragment of Reality",
@@ -52831,6 +52935,21 @@
     "type": "Misc",
     "stats": {},
     "lore": "A trophy awarded to the\n#3 submission in the Monumenta\n2020 Screenshot Competition."
+  },
+  "Infernal Gauntlet": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Infernal Gauntlet",
+    "base_item": "Brick",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "poise": 1,
+      "spell_power_base": 50,
+      "attack_damage_base": 6
+    },
+    "lore": "Dancing flames jut across the gauntlet's molten\ncrust, a catalyst for the ritualistic flame."
   },
   "Immaculate Copper": {
     "location": "Celsian Isles",
@@ -53809,6 +53928,22 @@
       "agility": 8.5
     },
     "lore": "The downside to Utopia was the sludge.\nIt could be displaced, but it had to end\nup somewhere."
+  },
+  "Infernal Sabatons": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Infernal Sabatons",
+    "base_item": "Iron Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 4,
+      "evasion": 1,
+      "projectile_damage_percent": 20,
+      "agility": 5
+    },
+    "lore": "A suffocating heat inhibiting the earth.\nAll who were below it were naught and ash."
   },
   "Keystone Sabatons": {
     "location": "Shifting",
@@ -62417,6 +62552,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Epic Crafting Material"
+  },
+  "Flittering Spark": {
+    "location": "Delves",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Flittering Spark",
+    "base_item": "Netherite Scrap",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Endeavors of the inferno manifest flames more\nintense than the heart of an eruption. This flame\nmight be powerful enough for another use..."
   },
   "Nightmare Fuel": {
     "location": "Reverie",
