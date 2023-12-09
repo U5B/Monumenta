@@ -99,6 +99,11 @@
     "description": "After being hit by a mob, gain (level * 1.25)% damage reduction for 5 seconds, refreshed on being hit.",
     "category": "Delve Infusions"
   },
+  "celestial": {
+    "name": "Celestial",
+    "description": "Deal 1.5 * level % more damage to enemies at a higher elevation than you.",
+    "category": "Delve Infusions"
+  },
   "chaotic": {
     "name": "Chaotic",
     "description": "Your weapon deals anywhere between +Level and -Level damage, in integer increments. This effect is halved for sweep attacks. This only works in your main hand.",
