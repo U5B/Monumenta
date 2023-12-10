@@ -846,7 +846,7 @@
   },
   "worldly_protection": {
     "name": "Worldly Protection",
-    "description": "While held, grants 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas. Additionally, items with this enchantment are not affected by region restriction debuffs.",
+    "description": "While held, grants 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas. However, damage dealt is reduced by 25% per level. Additionally, items with this enchantment are not affected by region restriction debuffs.",
     "category": "Defenses"
   }
 }
