@@ -721,6 +721,23 @@
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
+  "Callicarpa Compound": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Callicarpa Compound",
+    "power": 2,
+    "base_item": "Wither Rose",
+    "release_status": "public",
+    "stats": {
+      "unstable_amalgam_cast_range_percent": 70,
+      "unstable_amalgam_radius_percent": 70,
+      "unstable_amalgam_knockback_speed_percent": -100,
+      "unstable_amalgam_dropped_potion_damage_modifier_percent": -15
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Withering Petal": {
     "location": "Brown",
     "region": "Ring",
@@ -2606,24 +2623,6 @@
     "stats": {},
     "lore": "Sought by many, a head of 1 of the 4 generals\nof the Sons of the Forest...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D5 Key 1-4 *"
   },
-  "Phantom's Hood": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Phantom's Hood",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "blast_protection": 1,
-      "projectile_protection": 1,
-      "fire_protection": 1,
-      "projectile_damage_percent": 10,
-      "speed_percent": 10,
-      "agility": 1
-    },
-    "lore": "To this day, souls still wander throughout\nthe halls, silent but everlasting."
-  },
   "Beacon Crystal": {
     "location": "King's Valley",
     "region": "Valley",
@@ -3008,6 +3007,24 @@
       "agility": 3.5
     },
     "lore": "Those called into this world were happy to provide.\nThey would feast soon enough."
+  },
+  "Phantom's Hood": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Phantom's Hood",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 1,
+      "projectile_protection": 1,
+      "fire_protection": 1,
+      "projectile_damage_percent": 10,
+      "speed_percent": 10,
+      "agility": 1
+    },
+    "lore": "To this day, souls still wander throughout\nthe halls, silent but everlasting."
   },
   "Salmon Hexing Barrel": {
     "location": "Architect's Ring",
@@ -4640,23 +4657,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Spiritspark Flint": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Spiritspark Flint",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "smite": 3,
-      "unbreaking": 4,
-      "fire_aspect": 1,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    },
-    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
-  },
   "Divine Cleaver": {
     "location": "King's Valley",
     "region": "Valley",
@@ -4876,6 +4876,23 @@
       "attack_speed_base": 0.6
     },
     "lore": "Destroy the opposition. None must\nsurvive. No matter what, this mockery\nof Velara shall fall."
+  },
+  "Spiritspark Flint": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Spiritspark Flint",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "smite": 3,
+      "unbreaking": 4,
+      "fire_aspect": 1,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    },
+    "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
   "Archeologist's Hammer": {
     "location": "Isles Casino",
@@ -6815,6 +6832,44 @@
     },
     "lore": "Even in death, C'Zanil's\nritual lives on."
   },
+  "Blasphemous Cataphract-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blasphemous Cataphract",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "guard": 2,
+      "mending": 1,
+      "unbreaking": 4,
+      "knockback_resistance_flat": 2.5,
+      "attack_damage_percent": 20,
+      "armor": 4
+    },
+    "lore": "Worship of the broodmother is absolute.\nThose who do not offer veneration find\nthemselves useful in more delicious ways."
+  },
+  "Blasphemous Cataphract-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Blasphemous Cataphract",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "guard": 2,
+      "mending": 1,
+      "unbreaking": 4,
+      "knockback_resistance_flat": 2.5,
+      "armor": 4,
+      "attack_damage_percent": 25
+    },
+    "lore": "Worship of the broodmother is absolute.\nThose who do not offer veneration find\nthemselves useful in more delicious ways."
+  },
   "Matted Gorefur-4": {
     "location": "Starpoint",
     "masterwork": "4",
@@ -7058,6 +7113,19 @@
       "magic_damage_percent": 10
     },
     "lore": "One ancient force of the Coven was lost to\nthe Deep countless years ago. Yet this faded\nregalia still bears her sigil. Strange."
+  },
+  "Earthbound Talisman (Zenith)": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Earthbound Talisman (Zenith)",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Right click in hand or inventory to increase\nEarthbound tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
   },
   "Davis's Cloak": {
     "name": "Davis's Cloak",
@@ -16427,22 +16495,6 @@
     },
     "lore": "Flecks of blood stain these ancient\nsacrificial robes."
   },
-  "Serpensia Wrap": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Serpensia Wrap",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "projectile_protection": 3,
-      "magic_protection": 2,
-      "agility": 2.5
-    },
-    "lore": "We will remember them,\nwe who are left."
-  },
   "Padded Cloth Trousers": {
     "location": "King's Valley",
     "region": "Valley",
@@ -17038,6 +17090,22 @@
       "max_health_flat": 2
     },
     "lore": "A simple garment, attuned with the\nstrength of the Jungle itself."
+  },
+  "Serpensia Wrap": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Serpensia Wrap",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "unbreaking": 3,
+      "projectile_protection": 3,
+      "magic_protection": 2,
+      "agility": 2.5
+    },
+    "lore": "We will remember them,\nwe who are left."
   },
   "Yoga Pants": {
     "location": "Celsian Isles",
@@ -19832,6 +19900,44 @@
       "agility": 9,
       "speed_percent": 5
     }
+  },
+  "Silver Moon Crown-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silver Moon Crown",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adrenaline": 2,
+      "cloaked": 1,
+      "melee_protection": 2,
+      "unbreaking": 20,
+      "agility": 6.5,
+      "attack_damage_percent": 10
+    },
+    "lore": "Uriddan knew these citadels well. They had\nsprung forth at the command of Indigo itself,\nbefore even he could remember."
+  },
+  "Silver Moon Crown-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Silver Moon Crown",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adrenaline": 2,
+      "cloaked": 1,
+      "melee_protection": 2,
+      "unbreaking": 23,
+      "agility": 7,
+      "attack_damage_percent": 10
+    },
+    "lore": "Uriddan knew these citadels well. They had\nsprung forth at the command of Indigo itself,\nbefore even he could remember."
   },
   "Steamgaze Monocle-4": {
     "location": "Brown",
@@ -22832,22 +22938,6 @@
       "armor": 2
     }
   },
-  "Zephyric Sandals": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Zephyric Sandals",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "feather_falling": 7,
-      "unbreaking": 7,
-      "speed_percent": 10,
-      "agility": 2
-    },
-    "lore": "The power of ancient winds hum\nwithin these sandals."
-  },
   "Infused Cloth Shoes": {
     "location": "King's Valley",
     "region": "Valley",
@@ -23352,6 +23442,22 @@
       "projectile_speed_percent": 50
     },
     "lore": "Small gusts dance around the boots."
+  },
+  "Zephyric Sandals": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Zephyric Sandals",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "feather_falling": 7,
+      "unbreaking": 7,
+      "speed_percent": 10,
+      "agility": 2
+    },
+    "lore": "The power of ancient winds hum\nwithin these sandals."
   },
   "Warm Crystal Boots": {
     "location": "Celsian Isles",
@@ -24737,6 +24843,48 @@
       "speed_percent": 15
     },
     "lore": "As Pelias drew further into madness,\nhis denouncement by the Silver Priests\nbecame an arrow in the side of the empire."
+  },
+  "Scoundrel's Appendage-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Scoundrel's Appendage",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adrenaline": 2,
+      "curse_of_instability": 1,
+      "first_strike": 2,
+      "unbreakable": 1,
+      "max_health_flat": -2,
+      "attack_damage_percent": 30,
+      "armor": 9.5,
+      "attack_speed_percent": 10
+    },
+    "lore": "Some found it easier to survive by grafting\nappendages from those they defeated onto\nthemselves. Trophies? Weapons?"
+  },
+  "Scoundrel's Appendage-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Scoundrel's Appendage",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adrenaline": 2,
+      "curse_of_instability": 1,
+      "first_strike": 2,
+      "unbreakable": 1,
+      "max_health_flat": -2,
+      "armor": 9.5,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 35
+    },
+    "lore": "Some found it easier to survive by grafting\nappendages from those they defeated onto\nthemselves. Trophies? Weapons?"
   },
   "Abisso Ancestrale-2": {
     "location": "SKT",
@@ -26295,6 +26443,23 @@
       "max_health_flat": 10
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Hyperion-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hyperion",
+    "base_item": "Diamond Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "melee_protection": 2,
+      "mending": 1,
+      "regicide": 1,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 16
+    }
   },
   "Starbound Talon-3": {
     "location": "Starpoint",
@@ -28381,7 +28546,7 @@
       "max_health_flat": -2,
       "agility": 7
     },
-    "lore": "Infinitely repeating patterns glimmer\nsubtlely across the polished armor."
+    "lore": "Infinitely repeating patterns glimmer\nsubtly across the polished armor."
   },
   "Bismuth Mask-3": {
     "location": "Starpoint",
@@ -28401,7 +28566,7 @@
       "max_health_flat": -2,
       "agility": 7
     },
-    "lore": "Infinitely repeating patterns glimmer\nsubtlely across the polished armor."
+    "lore": "Infinitely repeating patterns glimmer\nsubtly across the polished armor."
   },
   "Bismuth Mask-4": {
     "location": "Starpoint",
@@ -28421,7 +28586,7 @@
       "max_health_flat": -2,
       "agility": 7.5
     },
-    "lore": "Infinitely repeating patterns glimmer\nsubtlely across the polished armor."
+    "lore": "Infinitely repeating patterns glimmer\nsubtly across the polished armor."
   },
   "Tradewind Cap-1": {
     "location": "The Wolfswood",
@@ -28893,23 +29058,6 @@
       "projectile_protection": 2,
       "armor": 2
     }
-  },
-  "Stonegazer Eyes": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Stonegazer Eyes",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "feather_falling": 2,
-      "unbreaking": 3,
-      "fire_protection": 2,
-      "armor": 2.5,
-      "knockback_resistance_flat": 1
-    },
-    "lore": "Those who built these halls watch over you.\nLet their souls guide your careful eyes..."
   },
   "Padded Cloth Coif": {
     "location": "King's Valley",
@@ -29451,6 +29599,23 @@
       "knockback_resistance_flat": 3
     },
     "lore": "The fabric is fragile and tears at the touch,\nbut longs to remember a day when it was strong,\nand so it reforms anew."
+  },
+  "Stonegazer Eyes": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Stonegazer Eyes",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "feather_falling": 2,
+      "unbreaking": 3,
+      "fire_protection": 2,
+      "armor": 2.5,
+      "knockback_resistance_flat": 1
+    },
+    "lore": "Those who built these halls watch over you.\nLet their souls guide your careful eyes..."
   },
   "Xeno's Pirate Hat": {
     "location": "Celsian Isles",
@@ -30410,6 +30575,44 @@
       "armor": 8.5
     },
     "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds would save him. But they too had fallen\nbefore Silver wrath."
+  },
+  "Deadair Purifier-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Deadair Purifier",
+    "base_item": "Iron Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "melee_protection": 3,
+      "projectile_protection": 3,
+      "sustenance": 2,
+      "unbreaking": 10,
+      "speed_percent": 10,
+      "armor": 7.5
+    },
+    "lore": "Something about the concentration of\nmagic in the air up here makes it harder\nto breathe...\nbreathe... in... breathe... out..."
+  },
+  "Deadair Purifier-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Deadair Purifier",
+    "base_item": "Iron Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "melee_protection": 3,
+      "projectile_protection": 2,
+      "sustenance": 2,
+      "unbreaking": 9,
+      "speed_percent": 10,
+      "armor": 7
+    },
+    "lore": "Something about the concentration of\nmagic in the air up here makes it harder\nto breathe...\nbreathe... in... breathe... out..."
   },
   "Stonewrought Helmet-1": {
     "location": "Pelias' Keep",
@@ -32250,6 +32453,19 @@
     },
     "lore": "The Dichen offered the Narsen Crew\nsupport in the assault on the Masked\nhideout. In the process, bonds would\nbe forged and Masks would be broken."
   },
+  "Shadowdancer Talisman (Zenith)": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Shadowdancer Talisman (Zenith)",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Right click in hand or inventory to increase\nShadowdancer tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
+  },
   "Silver Knight's Failure": {
     "location": "King's Valley",
     "region": "Valley",
@@ -33914,6 +34130,48 @@
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
+  "Shackled Earth's Boon-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Shackled Earth's Boon",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_anemia": 2,
+      "feather_falling": 3,
+      "magic_protection": 2,
+      "unbreaking": 4,
+      "thorns_flat": 4,
+      "agility": 6,
+      "attack_damage_percent": 35,
+      "attack_speed_percent": 10
+    },
+    "lore": "The land trapped here is not alive, but it's\nnot... not alive. There is something more here,\nevery pore on every plant, watching."
+  },
+  "Shackled Earth's Boon-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Shackled Earth's Boon",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_anemia": 2,
+      "feather_falling": 3,
+      "magic_protection": 3,
+      "unbreaking": 5,
+      "agility": 6,
+      "attack_damage_percent": 35,
+      "attack_speed_percent": 10,
+      "thorns_flat": 6
+    },
+    "lore": "The land trapped here is not alive, but it's\nnot... not alive. There is something more here,\nevery pore on every plant, watching."
+  },
   "Vain Star-4": {
     "location": "Starpoint",
     "masterwork": "4",
@@ -34672,22 +34930,6 @@
     },
     "lore": "Something stirs beneath the Blackroot,\nbeyond the boiling magma core."
   },
-  "Soulskin Shield": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Soulskin Shield",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "feather_falling": 1,
-      "unbreaking": 1,
-      "projectile_protection": 1,
-      "attack_damage_percent": 15
-    },
-    "lore": "Survivors of C'Zanil's sacrifices use skins\nof the dead to fashion defenses from the\nspirits roaming the halls."
-  },
   "Novice's Shield": {
     "location": "King's Valley",
     "region": "Valley",
@@ -34976,6 +35218,22 @@
       "knockback_resistance_flat": 10
     },
     "lore": "As the king's men drew near, Velara gazed\nupon its final hours. Soon, it would\nbe but a far off memory."
+  },
+  "Soulskin Shield": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Soulskin Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "feather_falling": 1,
+      "unbreaking": 1,
+      "projectile_protection": 1,
+      "attack_damage_percent": 15
+    },
+    "lore": "Survivors of C'Zanil's sacrifices use skins\nof the dead to fashion defenses from the\nspirits roaming the halls."
   },
   "Royal Shield": {
     "location": "Celsian Isles",
@@ -36217,6 +36475,44 @@
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Formless Void-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Formless Void",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "ineptitude": 1,
+      "projectile_protection": 1,
+      "potion_radius_flat": 2.5,
+      "projectile_speed_base": 1.2,
+      "potion_damage_flat": 12.5
+    },
+    "lore": "Something has eaten away at the vial in your\nhand. You're not entirely sure it still exists..."
+  },
+  "Formless Void-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Formless Void",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "ineptitude": 1,
+      "projectile_protection": 1,
+      "potion_radius_flat": 2.5,
+      "projectile_speed_base": 1.2,
+      "potion_damage_flat": 12
+    },
+    "lore": "Something has eaten away at the vial in your\nhand. You're not entirely sure it still exists..."
+  },
   "Hexbound Elixir-2": {
     "location": "Blue",
     "masterwork": "2",
@@ -36714,6 +37010,74 @@
       "potion_damage_flat": 11
     },
     "lore": "Aether streaks through the flowing metal\ncontained within the crucible you hold."
+  },
+  "Dust of the Dreamstate": {
+    "location": "Zenith",
+    "region": "Ring",
+    "name": "Dust of the Dreamstate",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.1,
+        "EffectType": "AbilityCooldownDecrease"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Calissium Tincture": {
+    "location": "Zenith",
+    "region": "Ring",
+    "name": "Calissium Tincture",
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.25,
+        "EffectType": "FallResistance"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Lucky Starbrew": {
+    "location": "Zenith",
+    "region": "Ring",
+    "name": "Lucky Starbrew",
+    "effects": [
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 9600,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 9600,
+        "EffectStrength": 0.2,
+        "EffectType": "ExpBonus"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
   },
   "Potion of Greater Salvation": {
     "location": "Isles Overworld",
@@ -38516,7 +38880,7 @@
       "attack_speed_base": 1.6,
       "attack_damage_base": 16.5
     },
-    "lore": "Despite the grizzly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
+    "lore": "Despite the grisly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
   },
   "Coldsteel Blunt": {
     "location": "Lowtide Smuggler",
@@ -41351,6 +41715,46 @@
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
+  "Floral Anguish-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Floral Anguish",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "earth_aspect": 2,
+      "mending": 1,
+      "regeneration": 1,
+      "triage": 2,
+      "magic_damage_percent": 10,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 26
+    },
+    "lore": "Callicarpa felt freedom for the first time in\neons the moment Indigo was damaged. In\nthat freedom, she learned what had happened\nto her siblings and wept."
+  },
+  "Floral Anguish-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Floral Anguish",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "earth_aspect": 2,
+      "mending": 1,
+      "regeneration": 1,
+      "triage": 2,
+      "magic_damage_percent": 10,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 25.5
+    },
+    "lore": "Callicarpa felt freedom for the first time in\neons the moment Indigo was damaged. In\nthat freedom, she learned what had happened\nto her siblings and wept."
+  },
   "Death's Gaze-4": {
     "location": "Marina Noir",
     "masterwork": "4",
@@ -41842,21 +42246,6 @@
       "projectile_speed_base": 1
     }
   },
-  "Quetzalcoatl's Wrath": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Quetzalcoatl's Wrath",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "mending": 1,
-      "projectile_damage_base": 13,
-      "projectile_speed_base": 1
-    },
-    "lore": "The god looms large, power\nflowing from his mouth."
-  },
   "Farmer's Bow": {
     "location": "King's Valley",
     "region": "Valley",
@@ -42172,6 +42561,21 @@
       "projectile_speed_base": 0.5
     },
     "lore": "With every shot, the destruction\nof the past echoes out."
+  },
+  "Quetzalcoatl's Wrath": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Quetzalcoatl's Wrath",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "mending": 1,
+      "projectile_damage_base": 13,
+      "projectile_speed_base": 1
+    },
+    "lore": "The god looms large, power\nflowing from his mouth."
   },
   "Thousand Fists of Turaal": {
     "location": "Celsian Isles",
@@ -44031,6 +44435,44 @@
     },
     "lore": "The miners toiled constantly, every\nrock they chipped away an insult\nto their God. Yet they had no choice\nbut to continue."
   },
+  "Silver Emperor's Shadow-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Silver Emperor's Shadow",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "projectile_protection": 4,
+      "unbreaking": 9,
+      "speed_percent": 8,
+      "magic_damage_percent": 18,
+      "armor": 7.5
+    },
+    "lore": "\"You have met the Shadow. You have seen\ndeath, then? He stands outside even my\ncontrol now...\""
+  },
+  "Silver Emperor's Shadow-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silver Emperor's Shadow",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "projectile_protection": 4,
+      "unbreaking": 8,
+      "armor": 7,
+      "speed_percent": 8,
+      "magic_damage_percent": 18
+    },
+    "lore": "\"You have met the Shadow. You have seen\ndeath, then? He stands outside even my\ncontrol now...\""
+  },
   "Primordial Blaze-3": {
     "location": "Blue",
     "masterwork": "3",
@@ -45447,6 +45889,44 @@
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
+  "Souls of Silver-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Souls of Silver",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "ethereal": 1,
+      "soul_speed": 2,
+      "stamina": 2,
+      "unbreaking": 9,
+      "speed_percent": -10,
+      "agility": 9
+    },
+    "lore": "Uriddan's time within Indigo was an\nendless battle for control. He needed\nmore power. He knew where to get it."
+  },
+  "Souls of Silver-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Souls of Silver",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "ethereal": 1,
+      "soul_speed": 2,
+      "stamina": 2,
+      "unbreaking": 8,
+      "speed_percent": -10,
+      "agility": 8
+    },
+    "lore": "Uriddan's time within Indigo was an\nendless battle for control. He needed\nmore power. He knew where to get it."
+  },
   "Threadbound Boots-1": {
     "location": "SKT",
     "masterwork": "1",
@@ -46134,23 +46614,6 @@
     },
     "lore": "Greyskull's followers swore by\nhis power in every battle."
   },
-  "C'Zanil's Charm": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "C'Zanil's Charm",
-    "base_item": "Bone",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "feather_falling": 1,
-      "fire_protection": 1,
-      "regeneration": 1,
-      "max_health_flat": 2,
-      "speed_percent": 5
-    },
-    "lore": "All I've done... all for my people.\nTheir deaths will be repaid."
-  },
   "Shaman's Staff": {
     "location": "King's Valley",
     "region": "Valley",
@@ -46175,6 +46638,23 @@
       "material": 1
     },
     "lore": "Its owner was never laid to rest."
+  },
+  "C'Zanil's Charm": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "C'Zanil's Charm",
+    "base_item": "Bone",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "feather_falling": 1,
+      "fire_protection": 1,
+      "regeneration": 1,
+      "max_health_flat": 2,
+      "speed_percent": 5
+    },
+    "lore": "All I've done... all for my people.\nTheir deaths will be repaid."
   },
   "Bone Fish": {
     "location": "Architect's Ring",
@@ -50748,6 +51228,17 @@
     "stats": {},
     "lore": "Connect 4 Tournament 2021\nA trophy given for winning the\nMonumenta Connect 4 Tournament."
   },
+  "Dawnbringer Talisman (Zenith)": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Dawnbringer Talisman (Zenith)",
+    "base_item": "Sunflower",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right click in hand or inventory to increase\nDawnbringer tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
+  },
   "Explosive Spiritual Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -53546,6 +54037,9 @@
     "lore": "* Quest Item *\n#Q23I02"
   },
   "Endless": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Trophy",
     "name": "Endless",
     "base_item": "Written Book",
     "release_status": "public",
@@ -54838,6 +55332,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "A trophy masterfully sculpted out of ice,\nawarded for winning against the PvE\nsnowman hoard of 2018."
+  },
+  "Frostborn Talisman (Zenith)": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Frostborn Talisman (Zenith)",
+    "base_item": "Ice",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right click in hand or inventory to increase\nFrostborn tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
   },
   "True Ice Pendant": {
     "location": "The Wolfswood",
@@ -56268,6 +56773,44 @@
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Prismatic Enigma-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Prismatic Enigma",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "fire_aspect": 3,
+      "mending": 1,
+      "reverb": 4,
+      "thunder_aspect": 3,
+      "projectile_speed_base": 3,
+      "projectile_damage_base": 28
+    },
+    "lore": "In an instant, something shattered within\nthe Stars. The open edge of the wool became\nlike a vacuum and changed the Lunacrest's fate."
+  },
+  "Prismatic Enigma-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Prismatic Enigma",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "fire_aspect": 3,
+      "mending": 1,
+      "reverb": 4,
+      "thunder_aspect": 3,
+      "projectile_damage_base": 27.5,
+      "projectile_speed_base": 3
+    },
+    "lore": "In an instant, something shattered within\nthe Stars. The open edge of the wool became\nlike a vacuum and changed the Lunacrest's fate."
+  },
   "Tidebound Arbalest-3": {
     "location": "Fishing",
     "masterwork": "3",
@@ -56847,6 +57390,19 @@
       "projectile_damage_base": 21.5
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
+  },
+  "Steelsage Talisman (Zenith)": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Steelsage Talisman (Zenith)",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Right click in hand or inventory to increase\nSteelsage tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
   },
   "The Ultimate Sin (crossbow)": {
     "location": "Sanctum",
@@ -58092,6 +58648,22 @@
     "release_status": "public",
     "stats": {
       "dark_pact_absorption_health_per_kill_flat": 1
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Chaos Codex": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Chaos Codex",
+    "power": 2,
+    "base_item": "Book",
+    "release_status": "public",
+    "stats": {
+      "voodoo_bonds_received_damage_percent": -60,
+      "voodoo_bonds_cooldown_percent": -20,
+      "voodoo_bonds_transfer_time_limit_percent": -100
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -59728,6 +60300,42 @@
     },
     "lore": "Only the greatest of the order were granted\nthe title of Adept, though their Iridium\nplate stood as austere as that of newly-made\nknights. Efficiency was valued above all else."
   },
+  "Stardancer's Cuirass-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Stardancer's Cuirass",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "evasion": 1,
+      "tempo": 1,
+      "unbreaking": 10,
+      "agility": 5.5,
+      "magic_damage_percent": 15
+    },
+    "lore": "Few have stepped outside the protection of\nthe Veil. Those who did took great precautions\nto ensure their return."
+  },
+  "Stardancer's Cuirass-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Stardancer's Cuirass",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "evasion": 1,
+      "tempo": 1,
+      "unbreaking": 9,
+      "agility": 5,
+      "magic_damage_percent": 15
+    },
+    "lore": "Few have stepped outside the protection of\nthe Veil. Those who did took great precautions\nto ensure their return."
+  },
   "Soulspeaker's Curiass": {
     "location": "Sanctum",
     "region": "Valley",
@@ -61173,6 +61781,44 @@
     },
     "lore": "While the time of the Silver Knights\nfaded, their forges were fueled\nby something that would last longer than\neven the final threads of the Veil."
   },
+  "The Vesperidys' Hunger-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "The Vesperidys' Hunger",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 2,
+      "first_strike": 1,
+      "magic_protection": 3,
+      "unbreaking": 10,
+      "armor": 7,
+      "attack_damage_percent": 35
+    },
+    "lore": "The closer you step to the Zenith, the more\nthe Stars grasp at your very being."
+  },
+  "The Vesperidys' Hunger-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "The Vesperidys' Hunger",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 2,
+      "first_strike": 1,
+      "magic_protection": 3,
+      "unbreaking": 9,
+      "armor": 7,
+      "attack_damage_percent": 30
+    },
+    "lore": "The closer you step to the Zenith, the more\nthe Stars grasp at your very being."
+  },
   "Eternity": {
     "location": "Hekawt",
     "region": "Isles",
@@ -61434,6 +62080,63 @@
       "speed_percent": 10
     },
     "lore": "A dreadful haze falls over you as the\ntwisted figure approaches... Run."
+  },
+  "Eyes of the Loamskattar-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Eyes of the Loamskattar",
+    "base_item": "Diamond Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "evasion": 1,
+      "magic_protection": 3,
+      "unbreaking": 5,
+      "max_health_flat": -4,
+      "armor": 11,
+      "magic_damage_percent": 21
+    },
+    "lore": "Even guarded by the Emperor himself, the\nunknowable entity that embodies Indigo is\naware of your unwanted footsteps."
+  },
+  "Eyes of the Loamskattar-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Eyes of the Loamskattar",
+    "base_item": "Diamond Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "evasion": 1,
+      "magic_protection": 2,
+      "unbreaking": 3,
+      "max_health_flat": -4,
+      "magic_damage_percent": 18,
+      "armor": 10
+    },
+    "lore": "Even guarded by the Emperor himself, the\nunknowable entity that embodies Indigo is\naware of your unwanted footsteps."
+  },
+  "Eyes of the Loamskattar-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Eyes of the Loamskattar",
+    "base_item": "Diamond Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "evasion": 1,
+      "magic_protection": 3,
+      "unbreaking": 4,
+      "max_health_flat": -4,
+      "armor": 10.5,
+      "magic_damage_percent": 18
+    },
+    "lore": "Even guarded by the Emperor himself, the\nunknowable entity that embodies Indigo is\naware of your unwanted footsteps."
   },
   "Hardest Hat-2": {
     "location": "Brown",
@@ -61761,6 +62464,44 @@
     },
     "lore": "While the Godspore had spawned\nthe first of the Mycelia, his begotten\nslowly spiraled further from his reach."
   },
+  "Blighted Path-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blighted Path",
+    "base_item": "Diamond Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_fragility": 2,
+      "regeneration": 1,
+      "tempo": 1,
+      "unbreaking": 4,
+      "projectile_damage_percent": 10,
+      "agility": 7
+    },
+    "lore": "Even deep inside a land untouched, the\nblight from the Stars spreads rapidly.\nAn infection. Consuming the purity of Space."
+  },
+  "Blighted Path-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Blighted Path",
+    "base_item": "Diamond Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_fragility": 2,
+      "regeneration": 1,
+      "tempo": 1,
+      "unbreaking": 5,
+      "projectile_damage_percent": 15,
+      "agility": 7
+    },
+    "lore": "Even deep inside a land untouched, the\nblight from the Stars spreads rapidly.\nAn infection. Consuming the purity of Space."
+  },
   "Talon of the Great Beast": {
     "location": "Remorse",
     "region": "Isles",
@@ -61785,6 +62526,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Looks like this could be used to\npower something.\n* Quest Item *\n#Q217I01"
+  },
+  "Flamecaller Talisman (Zenith)": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Flamecaller Talisman (Zenith)",
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right click in hand or inventory to increase\nFlamecaller tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
   },
   "Solar Smite": {
     "location": "Starpoint",
@@ -62927,6 +63679,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "A bubbling, festering vial of a strange\nliquid. You think it could be used to\nincite a transformation of... something.\n* Quest Item *\n#Q216I03"
+  },
+  "Starblood Ichor": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Starblood Ichor",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Lifeblood of the Vesperidys has coagulated into a viscous\nichor. Do you dare put it to use?\nAdd various custom effects to your infinite consumables.\nRight Click onto an infinite consumable to activate.\nf in order to remove from the consumable.\nRight Click in hand to imbue with a Celestial Zenith Tree."
   },
   "Boon of the Fractured Tree": {
     "location": "Starpoint",
@@ -64483,6 +65246,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Sometimes Luther questioned what Kokytos\ntruly wanted him to do. Sometimes it would\nsay something strange. It would mention the\nStars instead of the Lord on High. It saw\nhis people as mere servants to its cause.\nWhat were the other beings it mentioned?\nWhat did they do to the Lord on High?\nPerhaps it would be safer if Kokytos couldn't\nleave his chamber..."
+  },
+  "Indigo Blightdust": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Indigo Blightdust",
+    "base_item": "Glow Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Shimmering indigo particles clash with a\nconsuming, furious blight. Somehow they\nremain stable enough to hold."
   },
   "Archos Ring": {
     "location": "Architect's Ring",
@@ -66758,6 +67532,28 @@
     "stats": {},
     "lore": "The Masked are holed up in the\nancient Silver Knight caverns. It's\ntime to bring the fight to them.\nPlayers: 1-6 (One life per player)\nGrants access to the Masquerader's Ruin Strike."
   },
+  "Celestial Zenith Key - Ascension": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Celestial Zenith Key - Ascension",
+    "base_item": "Sculk Shrieker",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Zenith Talismans are 75%\neffective when using this key.\nGrants access to dungeon:\nThe Celestial Zenith\nDifficulty : ☠☠☠☠☠\nPlayers: 1-4"
+  },
+  "Rigged Celestial Zenith Key - Ascension": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Rigged Celestial Zenith Key - Ascension",
+    "base_item": "Sculk Shrieker",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Zenith Talismans are 100%\neffective when using this key.\nGrants access to dungeon:\nThe Celestial Zenith\nDifficulty : ☠☠☠☠☠\nPlayers: 1-4"
+  },
   "Exalted Orange Key": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -66802,6 +67598,17 @@
     "stats": {},
     "lore": "Grants access to dungeon:\nVernal Nightmare\nDifficulty : ☠☠☠☠☠"
   },
+  "Celestial Zenith Key": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Celestial Zenith Key",
+    "base_item": "Sculk Sensor",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to dungeon:\nThe Celestial Zenith\nDifficulty : ☠☠☠☠☠\nPlayers: 1-4"
+  },
   "Brown Wool Key": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -66845,6 +67652,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Grants access to dungeon:\nThe Black Willows\nDifficulty : ☠☠☠☠☠"
+  },
+  "Consuming Blight": {
+    "location": "Sanctum",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Consuming Blight",
+    "base_item": "Mossy Cobblestone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
   },
   "Black Willows Key": {
     "location": "King's Valley",
@@ -69382,6 +70200,48 @@
     },
     "lore": "The power he desired could not come from\nthe might of a blade. No, Hekawt longed for\nso much more. He sought Eternity."
   },
+  "Skysplitter-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Skysplitter",
+    "base_item": "Diamond Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "drilling": 1,
+      "efficiency": 3,
+      "eruption": 2,
+      "mending": 1,
+      "wind_aspect": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2,
+      "speed_percent": 10
+    },
+    "lore": "Each swing seems to cause a splintering in\nthe air before you, before fading. The sky\nthough... The sky seems to be crumbling..."
+  },
+  "Skysplitter-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Skysplitter",
+    "base_item": "Diamond Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "drilling": 2,
+      "efficiency": 3,
+      "eruption": 2,
+      "mending": 1,
+      "wind_aspect": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2,
+      "speed_percent": 10
+    },
+    "lore": "Each swing seems to cause a splintering in\nthe air before you, before fading. The sky\nthough... The sky seems to be crumbling..."
+  },
   "Gem-Tipped Boilerdrill-4": {
     "location": "Brown",
     "masterwork": "4",
@@ -69791,6 +70651,46 @@
     },
     "lore": "Once, the twin spirits worked in harmony.\nBut death without life reaped horrible rewards.\nSoon, the one who remained would welcome the end."
   },
+  "Vermin's Waltz-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Vermin's Waltz",
+    "base_item": "Wooden Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "ice_aspect": 1,
+      "mending": 1,
+      "second_wind": 2,
+      "unbreaking": 7,
+      "knockback_resistance_flat": 2,
+      "attack_damage_base": 21.5,
+      "attack_speed_base": 0.9
+    },
+    "lore": "As the air thins, the dance begins. Jerky,\ntwisting gasps. Convulsions. Each twitch is\nanother step in a fatal dance."
+  },
+  "Vermin's Waltz-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Vermin's Waltz",
+    "base_item": "Wooden Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "ice_aspect": 1,
+      "mending": 1,
+      "second_wind": 2,
+      "unbreaking": 7,
+      "knockback_resistance_flat": 2,
+      "attack_damage_base": 20.5,
+      "attack_speed_base": 0.9
+    },
+    "lore": "As the air thins, the dance begins. Jerky,\ntwisting gasps. Convulsions. Each twitch is\nanother step in a fatal dance."
+  },
   "Nature's Wrath": {
     "location": "Sanctum",
     "region": "Valley",
@@ -69894,6 +70794,40 @@
       "attack_damage_base": 5
     },
     "lore": "A light to his friends, a\nHazerd to his foes."
+  },
+  "Cocoon of Sacrifice-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Cocoon of Sacrifice",
+    "base_item": "Netherite Scrap",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 2,
+      "steadfast": 1,
+      "magic_damage_percent": 10,
+      "armor": 7
+    },
+    "lore": "Norvigut Rotpriests leave sacrifices for\nthe mother just outside her lair, tightly\nbound, so there can be no escape."
+  },
+  "Cocoon of Sacrifice-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Cocoon of Sacrifice",
+    "base_item": "Netherite Scrap",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 3,
+      "steadfast": 1,
+      "magic_damage_percent": 10,
+      "armor": 7
+    },
+    "lore": "Norvigut Rotpriests leave sacrifices for\nthe mother just outside her lair, tightly\nbound, so there can be no escape."
   },
   "Heretical Ore": {
     "location": "Pelias' Keep",
@@ -70009,6 +70943,23 @@
     "stats": {
       "brute_force_radius_percent": -100,
       "brute_force_damage_percent": 100
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
+  "Crucus Gauntlet": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Crucus Gauntlet",
+    "power": 2,
+    "base_item": "Nether Brick",
+    "release_status": "public",
+    "stats": {
+      "shield_bash_parry_duration_flat": 0.5,
+      "shield_bash_damage_percent": 25,
+      "shield_bash_cooldown_reduction_percent": 25,
+      "shield_bash_duration_percent": -50
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -71055,6 +72006,44 @@
     },
     "lore": "The crystals lining the Staff gleam beautifully,\nholding pleasant memories that would otherwise\nbe forgotten."
   },
+  "Withering Hydrangea-3": {
+    "location": "Zenith",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Withering Hydrangea",
+    "base_item": "Cyan Candle",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "aptitude": 1,
+      "decay": 1,
+      "ice_aspect": 1,
+      "spell_power_base": 70,
+      "speed_percent": 5,
+      "attack_damage_base": 6.5
+    },
+    "lore": "One sister left for the Depths. Another\nrose to far greater heights."
+  },
+  "Withering Hydrangea-4": {
+    "location": "Zenith",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Withering Hydrangea",
+    "base_item": "Cyan Candle",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "aptitude": 1,
+      "decay": 1,
+      "ice_aspect": 1,
+      "spell_power_base": 75,
+      "speed_percent": 5,
+      "attack_damage_base": 6.5
+    },
+    "lore": "One sister left for the Depths. Another\nrose to far greater heights."
+  },
   "Motherboard Calibrator-4": {
     "location": "Brown",
     "masterwork": "4",
@@ -71642,6 +72631,17 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
+  "Uriddan's Eternal Call": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Uriddan's Eternal Call",
+    "base_item": "Goat Horn",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Before, there were armies of Knights. Now,\ntheir numbers are collapsing. This is all\nthanks to what Uriddan needs. Only his mission\nmattered. As slumbering Knights across the\nworld were slaughtered, their essence\nreturned to him, leaving a trail of corpses\nand confused and injured people behind.\nAll in the service of the great Architect."
+  },
   "Elder Blackflame Fang": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -71654,6 +72654,17 @@
       "material": 1
     },
     "lore": "The energy from the dying Beast fuels its\nrebirth. It begins to beckon to the void."
+  },
+  "Windwalker Talisman (Zenith)": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Windwalker Talisman (Zenith)",
+    "base_item": "Feather",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right click in hand or inventory to increase\nWindwalker tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
   },
   "Tolumaeus Nestfeather": {
     "location": "Starpoint",
@@ -73775,7 +74786,7 @@
     "release_status": "public",
     "stats": {
       "counter_strike_damage_percent": 5,
-      "counter_strike_prime_duration_percent": 50
+      "counter_strike_duration_percent": 50
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -77646,17 +78657,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "No sound emerges when you play\nthe record. And then, silence."
-  },
-  "Consuming Blight": {
-    "location": "Sanctum",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Consuming Blight",
-    "base_item": "Vine",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
   },
   "Chaparral Circlet": {
     "location": "Sanctum",
