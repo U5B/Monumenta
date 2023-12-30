@@ -374,6 +374,11 @@
     "description": "Enchantments that can be specially added to your gear, should you pay the costs!",
     "category": "Infusions"
   },
+  "instability": {
+    "name": "Curse of Instability",
+    "description": "Randomizes the damage type of damage received when you get hit between Melee, Projectile, Magic, and Blast.",
+    "category": "Curses"
+  },
   "instantdrink": {
     "name": "Instant Drink",
     "description": "Right clicking a potion with this enchant will instantly apply its effects to the player using it.",
