@@ -733,7 +733,7 @@
       "unstable_amalgam_cast_range_percent": 70,
       "unstable_amalgam_radius_percent": 70,
       "unstable_amalgam_knockback_speed_percent": -100,
-      "unstable_amalgam_dropped_potion_damage_modifier_percent": -15
+      "unstable_amalgam_dropped_potion_damage_modifier_percent": -10
     },
     "type": "Charm",
     "class_name": "Alchemist"
@@ -1699,6 +1699,63 @@
       "armor": 9.5
     },
     "lore": "The foreign energy turned this innocuous\nweighted cube into a mechanical mind.\nIf it had a mouth, it would beg for\nyour companionship."
+  },
+  "Emblem of Wrath-2": {
+    "location": "Overworld3",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Emblem of Wrath",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adaptability": 1,
+      "fire_protection": 3,
+      "melee_protection": 3,
+      "armor": 4.5,
+      "agility": 4.5,
+      "knockback_resistance_flat": 2
+    },
+    "lore": "The wrath of man is guaranteed to\nbring naught but chaos and ruin."
+  },
+  "Emblem of Wrath-3": {
+    "location": "Overworld3",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Emblem of Wrath",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adaptability": 1,
+      "fire_protection": 3,
+      "melee_protection": 3,
+      "knockback_resistance_flat": 2,
+      "agility": 5,
+      "armor": 5
+    },
+    "lore": "The wrath of man is guaranteed to\nbring naught but chaos and ruin."
+  },
+  "Emblem of Wrath-4": {
+    "location": "Overworld3",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Emblem of Wrath",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adaptability": 1,
+      "fire_protection": 3,
+      "melee_protection": 3,
+      "knockback_resistance_flat": 2,
+      "agility": 5.5,
+      "armor": 5.5
+    },
+    "lore": "The wrath of man is guaranteed to\nbring naught but chaos and ruin."
   },
   "Fungal Will-1": {
     "location": "The Wolfswood",
@@ -3536,7 +3593,7 @@
     "lore": "The last of the Blackflame have died\nbut their bones carry a great power that\nfeels strangely familiar."
   },
   "Mantra of the Flame": {
-    "location": "Isles Casino",
+    "location": "Challenger",
     "region": "Isles",
     "tier": "Epic",
     "name": "Mantra of the Flame",
@@ -5169,7 +5226,7 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "adrenaline": 1,
+      "curse_of_shrapnel": 2,
       "earth_aspect": 1,
       "efficiency": 4,
       "melee_protection": 2,
@@ -5190,13 +5247,14 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "curse_of_shrapnel": 2,
       "earth_aspect": 1,
       "efficiency": 4,
       "melee_protection": 2,
       "unbreaking": 12,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2,
-      "knockback_resistance_flat": 5
+      "knockback_resistance_flat": 2
     },
     "lore": "These crumbling temples and flooded\nhalls, they look man-made, but what\npeople built them?"
   },
@@ -5210,13 +5268,14 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "curse_of_shrapnel": 2,
       "earth_aspect": 1,
       "efficiency": 4,
       "melee_protection": 1,
       "unbreaking": 10,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2,
-      "knockback_resistance_flat": 5
+      "knockback_resistance_flat": 2
     },
     "lore": "These crumbling temples and flooded\nhalls, they look man-made, but what\npeople built them?"
   },
@@ -5334,6 +5393,24 @@
       "attack_speed_base": 1.2
     }
   },
+  "Icicle Chisel": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Icicle Chisel",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "unbreaking": 4,
+      "knockback": 2,
+      "ice_aspect": 2,
+      "efficiency": 1,
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 7
+    },
+    "lore": "Is it an icicle or a bat?"
+  },
   "Miner's Pick": {
     "location": "King's Valley",
     "region": "Valley",
@@ -5362,24 +5439,6 @@
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
     }
-  },
-  "Icicle Chisel": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Icicle Chisel",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "unbreaking": 4,
-      "knockback": 2,
-      "ice_aspect": 2,
-      "efficiency": 1,
-      "attack_speed_base": 1.2,
-      "attack_damage_base": 7
-    },
-    "lore": "Is it an icicle or a bat?"
   },
   "Feldspar Pickaxe": {
     "location": "Valley Overworld",
@@ -7535,62 +7594,6 @@
       "agility": 3
     }
   },
-  "Turtle Vest": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Turtle Vest",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "respiration": 1,
-      "unbreaking": 2,
-      "armor": 2
-    }
-  },
-  "Bandit's Tunic": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Bandit's Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 2,
-      "agility": 1
-    }
-  },
-  "Blast Vest": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Blast Vest",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "armor": 1.5
-    }
-  },
-  "Burnt Cloak": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Burnt Cloak",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 2,
-      "fire_protection": 2,
-      "armor": 1.5
-    }
-  },
   "Demoncaller Tunic": {
     "location": "Azacor",
     "region": "Valley",
@@ -7661,6 +7664,62 @@
       "unbreaking": 1,
       "armor": 0.5,
       "thorns_flat": 1
+    }
+  },
+  "Turtle Vest": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Turtle Vest",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "respiration": 1,
+      "unbreaking": 2,
+      "armor": 2
+    }
+  },
+  "Bandit's Tunic": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Bandit's Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 2,
+      "agility": 1
+    }
+  },
+  "Burnt Cloak": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Burnt Cloak",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 2,
+      "armor": 1.5
+    }
+  },
+  "Blast Vest": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Blast Vest",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "armor": 1.5
     }
   },
   "Cloth Shirt": {
@@ -8922,94 +8981,6 @@
       "attack_damage_base": 5.5
     }
   },
-  "Tempered Ironwood Blade": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Tempered Ironwood Blade",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "unbreaking": 10,
-      "attack_damage_base": 4.5,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Ashen Broadsword": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Ashen Broadsword",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "unbreaking": 3,
-      "fire_aspect": 1,
-      "sweeping_edge": 2,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Priest's Stake": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Priest's Stake",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "smite": 1,
-      "unbreaking": 4,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Versatile Knife": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Versatile Knife",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "slayer": 2,
-      "unbreaking": 2,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Rogue's Knife": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Rogue's Knife",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "melee_protection": 2,
-      "attack_speed_percent": 10
-    }
-  },
-  "Survivalist's Sword": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Survivalist's Sword",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "max_health_flat": 2,
-      "attack_damage_percent": 5
-    }
-  },
   "Hunter's Stake": {
     "location": "King's Valley",
     "region": "Valley",
@@ -9095,6 +9066,94 @@
     "stats": {
       "unbreakable": 1,
       "attack_damage_percent": 15
+    }
+  },
+  "Versatile Knife": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Versatile Knife",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "slayer": 2,
+      "unbreaking": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Ashen Broadsword": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Ashen Broadsword",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "fire_aspect": 1,
+      "sweeping_edge": 2,
+      "unbreaking": 3,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Rogue's Knife": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Rogue's Knife",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "melee_protection": 2,
+      "unbreakable": 1,
+      "attack_speed_percent": 10
+    }
+  },
+  "Tempered Ironwood Blade": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Tempered Ironwood Blade",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "unbreaking": 10,
+      "attack_damage_base": 4.5,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Priest's Stake": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Priest's Stake",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "smite": 1,
+      "unbreaking": 4,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Survivalist's Sword": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Survivalist's Sword",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "unbreakable": 1,
+      "max_health_flat": 2,
+      "attack_damage_percent": 5
     }
   },
   "Novice's Shortsword": {
@@ -13074,7 +13133,7 @@
       },
       {
         "EffectDuration": 18000,
-        "EffectStrength": 3,
+        "EffectStrength": 2,
         "EffectType": "JumpBoost"
       }
     ],
@@ -13328,7 +13387,7 @@
       },
       {
         "EffectDuration": 3000,
-        "EffectStrength": 3,
+        "EffectStrength": 1,
         "EffectType": "JumpBoost"
       }
     ],
@@ -15590,8 +15649,8 @@
       "mending": 1,
       "projectile_protection": 2,
       "unbreaking": 4,
-      "armor": 7,
-      "attack_damage_percent": 30
+      "armor": 7.5,
+      "attack_damage_percent": 25
     },
     "lore": "\"O exalted heart of filth, hear me now and\nbeat with the blood of the most willing, desperate\nonly to give of their flesh and bone to thy cause.\""
   },
@@ -16600,90 +16659,6 @@
       "armor": 2
     }
   },
-  "Turtle Pants": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Turtle Pants",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "respiration": 1,
-      "unbreaking": 2,
-      "armor": 2
-    }
-  },
-  "Bandit's Trousers": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Bandit's Trousers",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 2,
-      "agility": 1
-    }
-  },
-  "Blast Apron": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Blast Apron",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "armor": 1.5
-    }
-  },
-  "Crimson Mage Robes (chest)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Crimson Mage Robes",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "projectile_protection": 1,
-      "unbreaking": 2,
-      "agility": 1.5
-    }
-  },
-  "Crimson Mage Robes (legs)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Crimson Mage Robes",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 2,
-      "melee_protection": 1,
-      "agility": 1.5
-    }
-  },
-  "Burnt Leggings": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Burnt Leggings",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 2,
-      "fire_protection": 2,
-      "armor": 1.5
-    }
-  },
   "Demoncaller Pants": {
     "location": "Azacor",
     "region": "Valley",
@@ -16740,6 +16715,90 @@
     "stats": {
       "projectile_protection": 2,
       "armor": 0.5
+    }
+  },
+  "Turtle Pants": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Turtle Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "respiration": 1,
+      "unbreaking": 2,
+      "armor": 2
+    }
+  },
+  "Crimson Mage Robes (chest)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Crimson Mage Robes",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "projectile_protection": 1,
+      "unbreaking": 2,
+      "agility": 1.5
+    }
+  },
+  "Crimson Mage Robes (legs)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Crimson Mage Robes",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "melee_protection": 1,
+      "unbreaking": 2,
+      "agility": 1.5
+    }
+  },
+  "Burnt Leggings": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Burnt Leggings",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 2,
+      "armor": 1.5
+    }
+  },
+  "Bandit's Trousers": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Bandit's Trousers",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 2,
+      "agility": 1
+    }
+  },
+  "Blast Apron": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Blast Apron",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "armor": 1.5
     }
   },
   "Cloth Pants": {
@@ -17976,6 +18035,23 @@
       "infinity": 1
     }
   },
+  "Replica Orb of Harrakfar": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Uncommon",
+    "name": "Replica Orb of Harrakfar",
+    "base_item": "Snowball",
+    "release_status": "public",
+    "type": "Snowball",
+    "stats": {
+      "ice_aspect": 2,
+      "infinity": 1,
+      "projectile_speed_base": 1,
+      "throw_rate_base": 0.5,
+      "projectile_damage_base": 15
+    },
+    "lore": "A gleaming sphere, teeming with life conjured\nripe from the soul of the Wolf."
+  },
   "Silverscale Razor-1": {
     "location": "Starpoint",
     "masterwork": "1",
@@ -17988,7 +18064,7 @@
     "stats": {
       "ice_aspect": 1,
       "infinity": 1,
-      "point_blank": 4,
+      "point_blank": 3,
       "throw_rate_base": 1,
       "projectile_speed_base": 1,
       "projectile_damage_base": 10
@@ -18010,7 +18086,7 @@
       "point_blank": 4,
       "throw_rate_base": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 11.5
+      "projectile_damage_base": 11
     },
     "lore": "An offering made. A vow forged. Scales\nturned silver. The Sanctuary became\na Staging Ground for Knights and Dragons."
   },
@@ -18029,7 +18105,7 @@
       "point_blank": 4,
       "throw_rate_base": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 10.5
+      "projectile_damage_base": 10
     },
     "lore": "An offering made. A vow forged. Scales\nturned silver. The Sanctuary became\na Staging Ground for Knights and Dragons."
   },
@@ -18048,7 +18124,7 @@
       "point_blank": 4,
       "throw_rate_base": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 11
+      "projectile_damage_base": 10.5
     },
     "lore": "An offering made. A vow forged. Scales\nturned silver. The Sanctuary became\na Staging Ground for Knights and Dragons."
   },
@@ -18068,7 +18144,7 @@
       "thunder_aspect": 2,
       "projectile_speed_base": 1,
       "projectile_damage_base": 20,
-      "throw_rate_base": 0.4
+      "throw_rate_base": 0.5
     },
     "lore": "Mana courses through the otherwise unassuming\nhunk of steel. Perhaps Bermuda's failures\ncould be just as useful as her successes."
   },
@@ -18088,7 +18164,7 @@
       "thunder_aspect": 2,
       "projectile_speed_base": 1,
       "projectile_damage_base": 20.5,
-      "throw_rate_base": 0.4
+      "throw_rate_base": 0.6
     },
     "lore": "Mana courses through the otherwise unassuming\nhunk of steel. Perhaps Bermuda's failures\ncould be just as useful as her successes."
   },
@@ -18108,7 +18184,7 @@
       "thunder_aspect": 2,
       "projectile_speed_base": 1,
       "projectile_damage_base": 21.5,
-      "throw_rate_base": 0.5
+      "throw_rate_base": 0.6
     },
     "lore": "Mana courses through the otherwise unassuming\nhunk of steel. Perhaps Bermuda's failures\ncould be just as useful as her successes."
   },
@@ -23074,76 +23150,6 @@
       "armor": 2
     }
   },
-  "Turtle Flippers": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Turtle Flippers",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 2,
-      "depth_strider": 1,
-      "armor": 2
-    }
-  },
-  "Bandit's Boots": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Bandit's Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 2,
-      "agility": 1
-    }
-  },
-  "Blast Boots": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Blast Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "armor": 1.5
-    }
-  },
-  "Crimson Mage Robes (feet)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Crimson Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "magic_protection": 1,
-      "unbreaking": 2,
-      "agility": 1.5
-    }
-  },
-  "Burnt Boots": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Burnt Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 2,
-      "fire_protection": 2,
-      "armor": 1.5
-    }
-  },
   "Bloodsoaked Boots": {
     "location": "Willows",
     "name": "Bloodsoaked Boots",
@@ -23210,6 +23216,76 @@
     "stats": {
       "projectile_protection": 2,
       "armor": 0.5
+    }
+  },
+  "Burnt Boots": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Burnt Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 2,
+      "armor": 1.5
+    }
+  },
+  "Turtle Flippers": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Turtle Flippers",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "depth_strider": 1,
+      "unbreaking": 2,
+      "armor": 2
+    }
+  },
+  "Blast Boots": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Blast Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "armor": 1.5
+    }
+  },
+  "Bandit's Boots": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Bandit's Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 2,
+      "agility": 1
+    }
+  },
+  "Crimson Mage Robes (feet)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Crimson Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 1,
+      "unbreaking": 2,
+      "agility": 1.5
     }
   },
   "Cloth Shoes": {
@@ -25118,6 +25194,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "material": 1,
       "melee_protection": 1,
       "mending": 1,
       "regicide": 1,
@@ -25522,20 +25599,6 @@
       "armor": 2
     }
   },
-  "Soldier's Blade": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Soldier's Blade",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "unbreaking": 1,
-      "attack_damage_base": 5.5,
-      "attack_speed_base": 1.6
-    }
-  },
   "Blizzard Blade": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -25552,6 +25615,20 @@
       "attack_damage_base": 7
     },
     "lore": "The wrath of the blizzard\ndances within the blade."
+  },
+  "Soldier's Blade": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Soldier's Blade",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "unbreaking": 1,
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 1.6
+    }
   },
   "Completely Normal Sword": {
     "location": "Valley Overworld",
@@ -29297,76 +29374,6 @@
       "armor": 2
     }
   },
-  "Turtle Helm": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Turtle Helm",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 2,
-      "aqua_affinity": 1,
-      "armor": 2
-    }
-  },
-  "Bandit's Cap": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Bandit's Cap",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 2,
-      "agility": 1
-    }
-  },
-  "Blast Visor": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Blast Visor",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "armor": 1.5
-    }
-  },
-  "Crimson Mage Hat": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Crimson Mage Hat",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "blast_protection": 1,
-      "unbreaking": 2,
-      "agility": 1.5
-    }
-  },
-  "Burnt Helm": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Burnt Helm",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 2,
-      "fire_protection": 2,
-      "armor": 1.5
-    }
-  },
   "Padded Cloth Coif": {
     "location": "King's Valley",
     "region": "Valley",
@@ -29407,6 +29414,76 @@
       "unbreaking": 1,
       "armor": 0.5,
       "thorns_flat": 1
+    }
+  },
+  "Turtle Helm": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Turtle Helm",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "aqua_affinity": 1,
+      "unbreaking": 2,
+      "armor": 2
+    }
+  },
+  "Blast Visor": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Blast Visor",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "armor": 1.5
+    }
+  },
+  "Crimson Mage Hat": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Crimson Mage Hat",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 1,
+      "unbreaking": 2,
+      "agility": 1.5
+    }
+  },
+  "Burnt Helm": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Burnt Helm",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 2,
+      "armor": 1.5
+    }
+  },
+  "Bandit's Cap": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Bandit's Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 2,
+      "agility": 1
     }
   },
   "Cloth Cap": {
@@ -37129,13 +37206,13 @@
     "name": "Calissium Tincture",
     "effects": [
       {
-        "EffectDuration": 1800,
+        "EffectDuration": 3600,
         "EffectStrength": 1,
         "EffectType": "Haste"
       },
       {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.25,
+        "EffectDuration": 3600,
+        "EffectStrength": 0.5,
         "EffectType": "FallResistance"
       }
     ],
@@ -37964,6 +38041,23 @@
       "potion_damage_flat": 3.5
     },
     "lore": "Mismatched teeth decorate the mouth of\nthis patchwork leather bag. What horrible\nacts were done in the name of alchemy?"
+  },
+  "Replica Lightning Bottle": {
+    "location": "Depths",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Replica Lightning Bottle",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "blast_protection": 1,
+      "potion_radius_flat": 4.5,
+      "projectile_speed_base": 0.85,
+      "potion_damage_flat": 9
+    },
+    "lore": "No light seeps through the glass of the flask.\nA potent radiance swirls within, waiting\nto be unleashed."
   },
   "Water Balloon": {
     "name": "Water Balloon",
@@ -42311,35 +42405,6 @@
       "projectile_speed_base": 1
     }
   },
-  "Ironwood Bow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Ironwood Bow",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "punch": 1,
-      "unbreaking": 1,
-      "projectile_damage_base": 8,
-      "projectile_speed_base": 1
-    }
-  },
-  "Longbow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Longbow",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "unbreaking": 1,
-      "projectile_damage_base": 10,
-      "projectile_speed_base": 1
-    }
-  },
   "Oncoming Tide": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -42382,6 +42447,35 @@
     "type": "Bow",
     "stats": {
       "projectile_damage_base": 8,
+      "projectile_speed_base": 1
+    }
+  },
+  "Ironwood Bow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Ironwood Bow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "punch": 1,
+      "unbreaking": 1,
+      "projectile_damage_base": 8,
+      "projectile_speed_base": 1
+    }
+  },
+  "Longbow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Longbow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "unbreaking": 1,
+      "projectile_damage_base": 10,
       "projectile_speed_base": 1
     }
   },
@@ -43582,6 +43676,20 @@
       "attack_speed_base": 2
     }
   },
+  "Weak Scythe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 1",
+    "name": "Weak Scythe",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "unbreaking": 2,
+      "attack_damage_base": 3,
+      "attack_speed_base": 2
+    }
+  },
   "Peasant's Scythe": {
     "location": "King's Valley",
     "region": "Valley",
@@ -43593,20 +43701,6 @@
     "stats": {
       "smite": 1,
       "unbreaking": 1,
-      "attack_damage_base": 3,
-      "attack_speed_base": 2
-    }
-  },
-  "Weak Scythe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 1",
-    "name": "Weak Scythe",
-    "base_item": "Stone Hoe",
-    "release_status": "public",
-    "type": "Scythe",
-    "stats": {
-      "unbreaking": 2,
       "attack_damage_base": 3,
       "attack_speed_base": 2
     }
@@ -44772,7 +44866,7 @@
       "inure": 2,
       "unbreaking": 9,
       "thorns_flat": 10,
-      "armor": 8.5
+      "armor": 8
     },
     "lore": "The Abello were to be returned to\nthe rootmind. Then, the Dichen threat\nwould be dealt with the same way it\nhad so long ago. Infection."
   },
@@ -44789,7 +44883,7 @@
       "inure": 2,
       "unbreaking": 7,
       "thorns_flat": 9,
-      "armor": 7
+      "armor": 6.5
     },
     "lore": "The Abello were to be returned to\nthe rootmind. Then, the Dichen threat\nwould be dealt with the same way it\nhad so long ago. Infection."
   },
@@ -44806,7 +44900,7 @@
       "inure": 2,
       "unbreaking": 8,
       "thorns_flat": 10,
-      "armor": 8
+      "armor": 7.5
     },
     "lore": "The Abello were to be returned to\nthe rootmind. Then, the Dichen threat\nwould be dealt with the same way it\nhad so long ago. Infection."
   },
@@ -49445,19 +49539,6 @@
       "spell_power_base": 20
     }
   },
-  "Student's Wand": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Student's Wand",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "attack_damage_base": 3,
-      "spell_power_base": 20
-    }
-  },
   "Corrupted Staff": {
     "name": "Corrupted Staff",
     "base_item": "Stick",
@@ -49478,6 +49559,19 @@
     "type": "Wand",
     "stats": {
       "attack_damage_base": 2,
+      "spell_power_base": 20
+    }
+  },
+  "Student's Wand": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Student's Wand",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "attack_damage_base": 3,
       "spell_power_base": 20
     }
   },
@@ -55670,8 +55764,8 @@
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
-      "split_arrow_range_percent": 40,
-      "split_arrow_damage_percent": -10
+      "split_arrow_range_percent": 25,
+      "split_arrow_damage_percent": 10
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -56897,12 +56991,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "fire_aspect": 3,
+      "fire_aspect": 2,
       "mending": 1,
-      "reverb": 4,
-      "thunder_aspect": 3,
+      "reverb": 6,
+      "thunder_aspect": 2,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 27
     },
     "lore": "In an instant, something shattered within\nthe Stars. The open edge of the wool became\nlike a vacuum and changed the Lunacrest's fate."
   },
@@ -56916,12 +57010,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "fire_aspect": 3,
+      "fire_aspect": 2,
       "mending": 1,
-      "reverb": 4,
-      "thunder_aspect": 3,
-      "projectile_damage_base": 27.5,
-      "projectile_speed_base": 3
+      "reverb": 6,
+      "thunder_aspect": 2,
+      "projectile_speed_base": 3,
+      "projectile_damage_base": 26.5
     },
     "lore": "In an instant, something shattered within\nthe Stars. The open edge of the wool became\nlike a vacuum and changed the Lunacrest's fate."
   },
@@ -57073,12 +57167,12 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 3,
-      "point_blank": 6,
+      "point_blank": 5,
       "quick_charge": 1,
       "thunder_aspect": 5,
       "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 15.5
+      "projectile_damage_base": 18.5
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -57093,12 +57187,12 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
-      "point_blank": 6,
+      "point_blank": 5,
       "quick_charge": 1,
       "thunder_aspect": 5,
       "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 15
+      "projectile_damage_base": 18
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -57113,12 +57207,12 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
-      "point_blank": 6,
+      "point_blank": 5,
       "quick_charge": 1,
-      "thunder_aspect": 5,
+      "thunder_aspect": 4,
       "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 14
+      "projectile_damage_base": 17
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -57137,8 +57231,8 @@
       "quick_charge": 1,
       "thunder_aspect": 5,
       "unbreaking": 5,
-      "projectile_damage_base": 16.5,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 18.5
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -57153,12 +57247,12 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
-      "point_blank": 6,
+      "point_blank": 5,
       "quick_charge": 1,
       "thunder_aspect": 5,
       "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 14.5
+      "projectile_damage_base": 17.5
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
@@ -57606,6 +57700,19 @@
       "projectile_speed_base": 1
     }
   },
+  "Simple Crossbow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 1",
+    "name": "Simple Crossbow",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "projectile_damage_base": 9,
+      "projectile_speed_base": 1
+    }
+  },
   "Advanced Crossbow": {
     "location": "King's Valley",
     "region": "Valley",
@@ -57617,19 +57724,6 @@
     "stats": {
       "unbreaking": 1,
       "projectile_damage_base": 11,
-      "projectile_speed_base": 1
-    }
-  },
-  "Simple Crossbow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 1",
-    "name": "Simple Crossbow",
-    "base_item": "Crossbow",
-    "release_status": "public",
-    "type": "Crossbow",
-    "stats": {
-      "projectile_damage_base": 9,
       "projectile_speed_base": 1
     }
   },
@@ -58771,12 +58865,12 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Chaos Codex",
-    "power": 2,
+    "power": 4,
     "base_item": "Book",
     "release_status": "public",
     "stats": {
       "voodoo_bonds_received_damage_percent": -60,
-      "voodoo_bonds_cooldown_percent": -20,
+      "voodoo_bonds_cooldown_percent": -40,
       "voodoo_bonds_transfer_time_limit_percent": -100
     },
     "type": "Charm",
@@ -59176,13 +59270,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "decay": 2,
+      "hex_eater": 1,
+      "ice_aspect": 1,
+      "life_drain": 2,
       "second_wind": 2,
       "sustenance": 2,
-      "ice_aspect": 1,
-      "hex_eater": 1,
       "two_handed": 1,
-      "life_drain": 2,
-      "decay": 2,
       "attack_speed_base": 1.8,
       "attack_damage_base": 15,
       "spell_power_base": 62
@@ -59389,21 +59483,6 @@
       "attack_speed_base": 1
     }
   },
-  "Grassbane": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Grassbane",
-    "base_item": "Wooden Shovel",
-    "release_status": "public",
-    "type": "Shovel",
-    "stats": {
-      "unbreaking": 1,
-      "efficiency": 3,
-      "attack_speed_base": 1,
-      "attack_damage_base": 2.5
-    }
-  },
   "Swiftwood Shovel": {
     "location": "King's Valley",
     "region": "Valley",
@@ -59417,6 +59496,21 @@
       "unbreaking": 1,
       "attack_damage_base": 2.5,
       "attack_speed_base": 1
+    }
+  },
+  "Grassbane": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Grassbane",
+    "base_item": "Wooden Shovel",
+    "release_status": "public",
+    "type": "Shovel",
+    "stats": {
+      "efficiency": 3,
+      "unbreaking": 1,
+      "attack_speed_base": 1,
+      "attack_damage_base": 2.5
     }
   },
   "Novice's Shovel": {
@@ -60230,10 +60324,10 @@
     "stats": {
       "ethereal": 1,
       "fire_fragility": 2,
-      "shielding": 1,
+      "steadfast": 1,
       "unbreaking": 10,
-      "attack_damage_percent": 35,
-      "agility": 5.5
+      "agility": 5.5,
+      "attack_damage_percent": 40
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -60249,10 +60343,10 @@
     "stats": {
       "ethereal": 1,
       "fire_fragility": 2,
-      "shielding": 1,
+      "steadfast": 1,
       "unbreaking": 9,
       "agility": 5,
-      "attack_damage_percent": 35
+      "attack_damage_percent": 40
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -60268,10 +60362,10 @@
     "stats": {
       "ethereal": 1,
       "fire_fragility": 2,
-      "shielding": 1,
+      "steadfast": 1,
       "unbreaking": 8,
-      "attack_damage_percent": 30,
-      "agility": 4.5
+      "agility": 4.5,
+      "attack_damage_percent": 35
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -65036,6 +65130,17 @@
     "stats": {},
     "lore": "Epic Crafting Material"
   },
+  "Universal Lock": {
+    "location": "PORTAL",
+    "region": "Ring",
+    "name": "Universal Lock",
+    "base_item": "Raw Iron",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
+  },
   "Pulsating Diamond": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -65383,7 +65488,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Shimmering indigo particles clash with a\nconsuming, furious blight. Somehow they\nremain stable enough to hold."
+    "lore": "Epic Crafting Material\nShimmering indigo particles clash with a\nconsuming, furious blight. Somehow they\nremain stable enough to hold."
   },
   "Archos Ring": {
     "location": "Architect's Ring",
@@ -65473,7 +65578,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Right-click within an unclaimed market stall to rent it.\nProvides one week of rent upon use.\nNormal shop upkeep is 4 compressed currency a week.\nGuild shop upkeep is 12 compressed currency a week.\nYou only need one deed. It is not used to pay upkeep."
+    "lore": "Right-click within an unclaimed market stall to rent it.\nProvides one week of rent upon use.\nNormal shop upkeep is 8 compressed currency a week.\nGuild shop upkeep is 24 compressed currency a week.\nYou only need one deed. It is not used to pay upkeep."
   },
   "Apportation Rune": {
     "location": "King's Valley",
@@ -70345,7 +70450,7 @@
     "type": "Pickaxe",
     "stats": {
       "drilling": 1,
-      "efficiency": 3,
+      "efficiency": 2,
       "eruption": 2,
       "mending": 1,
       "wind_aspect": 2,
@@ -70366,7 +70471,7 @@
     "type": "Pickaxe",
     "stats": {
       "drilling": 2,
-      "efficiency": 3,
+      "efficiency": 2,
       "eruption": 2,
       "mending": 1,
       "wind_aspect": 2,
@@ -70390,7 +70495,6 @@
       "efficiency": 1,
       "reflexes": 1,
       "sapper": 1,
-      "unbreaking": 1,
       "agility": 2.5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2,
@@ -70411,7 +70515,6 @@
       "efficiency": 1,
       "reflexes": 1,
       "sapper": 1,
-      "unbreaking": 1,
       "agility": 2.5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2,
@@ -70432,7 +70535,6 @@
       "efficiency": 1,
       "reflexes": 1,
       "sapper": 1,
-      "unbreaking": 1,
       "agility": 2,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2,
@@ -70454,7 +70556,6 @@
       "magic_protection": 2,
       "projectile_protection": 2,
       "sapper": 3,
-      "unbreaking": 1,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2
     },
@@ -70474,7 +70575,6 @@
       "magic_protection": 2,
       "projectile_protection": 2,
       "sapper": 3,
-      "unbreaking": 1,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2,
       "armor": 1.5,
@@ -70496,7 +70596,6 @@
       "magic_protection": 2,
       "projectile_protection": 2,
       "sapper": 3,
-      "unbreaking": 1,
       "armor": 0.5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2
@@ -70517,7 +70616,6 @@
       "magic_protection": 2,
       "projectile_protection": 2,
       "sapper": 3,
-      "unbreaking": 1,
       "armor": 1,
       "agility": 1,
       "attack_damage_base": 5,
@@ -70539,7 +70637,6 @@
       "magic_protection": 2,
       "projectile_protection": 2,
       "sapper": 3,
-      "unbreaking": 1,
       "armor": 0.5,
       "agility": 0.5,
       "attack_damage_base": 5,
@@ -71942,52 +72039,6 @@
       "attack_speed_base": 0.8
     }
   },
-  "Honed Swiftwood Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Honed Swiftwood Axe",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 1,
-      "efficiency": 3,
-      "attack_damage_base": 8,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Versatile Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Versatile Axe",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 3,
-      "efficiency": 1,
-      "attack_damage_base": 8.5,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Smoldering Mace": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Smoldering Mace",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "smite": 1,
-      "unbreaking": 2,
-      "fire_aspect": 1,
-      "attack_damage_base": 8,
-      "attack_speed_base": 0.8
-    }
-  },
   "Swiftwood Axe": {
     "location": "King's Valley",
     "region": "Valley",
@@ -72030,6 +72081,52 @@
     "stats": {
       "knockback": 1,
       "unbreaking": 2,
+      "attack_damage_base": 8,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Smoldering Mace": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Smoldering Mace",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 1,
+      "smite": 1,
+      "unbreaking": 2,
+      "attack_damage_base": 8,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Versatile Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Versatile Axe",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 1,
+      "unbreaking": 3,
+      "attack_damage_base": 8.5,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Honed Swiftwood Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Honed Swiftwood Axe",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 3,
+      "unbreaking": 1,
       "attack_damage_base": 8,
       "attack_speed_base": 0.8
     }
@@ -72805,12 +72902,12 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Tolumaeus Nestfeather",
-    "power": 3,
+    "power": 1,
     "base_item": "Feather",
     "release_status": "public",
     "stats": {
-      "hunting_companion_eagles_flat": 2,
-      "hunting_companion_damage_percent": 10,
+      "hunting_companion_eagles_flat": 1,
+      "hunting_companion_damage_percent": 15,
       "hunting_companion_foxes_flat": -1
     },
     "type": "Charm",
@@ -78959,21 +79056,6 @@
     },
     "lore": "Used to clear chunks of magma\nfrom important channels."
   },
-  "Bluefell Chisel": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Bluefell Chisel",
-    "base_item": "Wooden Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "unbreaking": 1,
-      "efficiency": 2,
-      "attack_damage_base": 2,
-      "attack_speed_base": 1.2
-    }
-  },
   "Bluescourge Chisel": {
     "location": "King's Valley",
     "region": "Valley",
@@ -79074,6 +79156,21 @@
     "type": "Pickaxe",
     "stats": {
       "fortune": 2,
+      "unbreaking": 1,
+      "attack_damage_base": 2,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Bluefell Chisel": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Bluefell Chisel",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 2,
       "unbreaking": 1,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2
