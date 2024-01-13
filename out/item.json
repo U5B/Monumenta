@@ -2256,6 +2256,17 @@
     "stats": {},
     "lore": "An item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
+  "Starblight Fragment": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Starblight Fragment",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An item, crushed to pieces.\nMaybe it can be turned back into an item?"
+  },
   "High-Density TNT": {
     "name": "High-Density TNT",
     "base_item": "Player Head",
@@ -26585,6 +26596,42 @@
     },
     "lore": "The Sword of the Exiled has another\nform... LASER SWORD!"
   },
+  "Hyperion-1": {
+    "location": "Quest Reward",
+    "masterwork": "1",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hyperion",
+    "base_item": "Diamond Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "melee_protection": 1,
+      "mending": 1,
+      "regicide": 1,
+      "attack_speed_base": 1.5,
+      "attack_damage_base": 14.5
+    },
+    "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
+  },
+  "Hyperion-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hyperion",
+    "base_item": "Diamond Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "melee_protection": 2,
+      "mending": 1,
+      "regicide": 1,
+      "attack_speed_base": 1.5,
+      "attack_damage_base": 14.5
+    },
+    "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
+  },
   "Ornamental Dream Catcher": {
     "location": "Gallery of Fear",
     "region": "Ring",
@@ -26603,6 +26650,42 @@
       "max_health_flat": 10
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Hyperion-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hyperion",
+    "base_item": "Diamond Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "melee_protection": 2,
+      "mending": 1,
+      "regicide": 1,
+      "attack_speed_base": 1.5,
+      "attack_damage_base": 15
+    },
+    "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
+  },
+  "Hyperion-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Hyperion",
+    "base_item": "Diamond Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "melee_protection": 3,
+      "mending": 1,
+      "regicide": 1,
+      "attack_speed_base": 1.5,
+      "attack_damage_base": 15
+    },
+    "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
   },
   "Starbound Talon-3": {
     "location": "Starpoint",
@@ -27059,6 +27142,44 @@
       "attack_damage_percent": 28
     },
     "lore": "Every time the blade consumes another spell,\nyou feel a sharp tugging at your soul.\nSomething within seems to hunger for mana...\neven that of its wielder."
+  },
+  "Blightblood Falchion-4": {
+    "location": "Sirius",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Blightblood Falchion",
+    "base_item": "Diamond Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "bleeding": 2,
+      "ethereal": 1,
+      "unbreaking": 1,
+      "attack_speed_base": 1.2,
+      "thorns_flat": 6,
+      "attack_damage_base": 19
+    },
+    "lore": "The metal itself seems to have been deeply\ncorrupted by gore left in Sirius' wake."
+  },
+  "Blightblood Falchion-3": {
+    "location": "Sirius",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blightblood Falchion",
+    "base_item": "Diamond Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "bleeding": 2,
+      "ethereal": 1,
+      "unbreaking": 1,
+      "attack_speed_base": 1.2,
+      "thorns_flat": 6,
+      "attack_damage_base": 18.5
+    },
+    "lore": "The metal itself seems to have been deeply\ncorrupted by gore left in Sirius' wake."
   },
   "Magna Luna": {
     "location": "Starpoint",
@@ -34890,6 +35011,44 @@
     },
     "lore": "Covered in handprints from desperate sailors\nclinging to the log, moments before sinking.\nIt now serves as an effigy of their fear, of\nsuccumbing to the macabre deep."
   },
+  "Spatial Rift-3": {
+    "location": "Sirius",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Spatial Rift",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "adrenaline": 2,
+      "mending": 1,
+      "second_wind": 2,
+      "unbreaking": 3,
+      "wind_aspect": 3,
+      "agility": 1.5
+    },
+    "lore": "At last, Sirius fell into the ocean and was\nno more. In the Herald’s final moments,\nthe hold it held over Star Point wavered,\nthen broke. Somewhere off in the sky,\nsomething shuddered."
+  },
+  "Spatial Rift-4": {
+    "location": "Sirius",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Spatial Rift",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "adrenaline": 2,
+      "mending": 1,
+      "second_wind": 2,
+      "unbreaking": 3,
+      "wind_aspect": 3,
+      "agility": 2
+    },
+    "lore": "At last, Sirius fell into the ocean and was\nno more. In the Herald’s final moments,\nthe hold it held over Star Point wavered,\nthen broke. Somewhere off in the sky,\nsomething shuddered."
+  },
   "Morphic Shield": {
     "location": "King's Valley",
     "region": "Valley",
@@ -39605,6 +39764,42 @@
       "attack_damage_percent": 15,
       "speed_percent": 5
     }
+  },
+  "Crown of the Lost Beyond-3": {
+    "location": "Sirius",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Crown of the Lost Beyond",
+    "base_item": "Chainmail Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "regeneration": 1,
+      "shielding": 1,
+      "unbreaking": 8,
+      "agility": 7,
+      "attack_damage_percent": 25
+    },
+    "lore": "Each tarnished chain shimmers with\nthe possibility of returning with what\nlies beyond the Veil."
+  },
+  "Crown of the Lost Beyond-4": {
+    "location": "Sirius",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Crown of the Lost Beyond",
+    "base_item": "Chainmail Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "regeneration": 1,
+      "shielding": 1,
+      "unbreaking": 9,
+      "agility": 7,
+      "attack_damage_percent": 30
+    },
+    "lore": "Each tarnished chain shimmers with\nthe possibility of returning with what\nlies beyond the Veil."
   },
   "Scout's Halfhelm-3": {
     "location": "Pelias' Keep",
@@ -45747,6 +45942,46 @@
       "agility": 8
     },
     "lore": "For on that day young Pelias would\nsee his blessed empire fall. His name\nnow cursed, for what he did brought\nholy wrath upon us all."
+  },
+  "Lunacrest Solleret-3": {
+    "location": "Sirius",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Lunacrest Solleret",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 1,
+      "tempo": 1,
+      "unbreaking": 8,
+      "max_health_flat": -2,
+      "projectile_damage_percent": 35,
+      "projectile_speed_percent": 5,
+      "armor": 6.5
+    },
+    "lore": "Aurora's forces wear boots of strange\nstarmetal. These in particular have been\nhardened by the blood of the stars."
+  },
+  "Lunacrest Solleret-4": {
+    "location": "Sirius",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Lunacrest Solleret",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 1,
+      "tempo": 1,
+      "unbreaking": 9,
+      "max_health_flat": -2,
+      "projectile_damage_percent": 35,
+      "projectile_speed_percent": 10,
+      "armor": 7
+    },
+    "lore": "Aurora's forces wear boots of strange\nstarmetal. These in particular have been\nhardened by the blood of the stars."
   },
   "Flight from the Capital-3": {
     "location": "The Wolfswood",
@@ -52164,6 +52399,45 @@
     },
     "lore": "\"Mana, manifesting as lightning, seems\nto regularly pierce the silver barrier.\nIf I can harness that energy,,,\""
   },
+  "Supernova Mattock-4": {
+    "location": "Sirius",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Supernova Mattock",
+    "base_item": "Golden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 1,
+      "eruption": 7,
+      "fire_aspect": 2,
+      "inferno": 2,
+      "unbreaking": 50,
+      "attack_damage_base": 13,
+      "attack_speed_base": 1.2
+    },
+    "lore": "Each swing of this mighty mattock seems\nto trace the constellations in its wake.\nEach blow shudders the earth."
+  },
+  "Supernova Mattock-3": {
+    "location": "Sirius",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Supernova Mattock",
+    "base_item": "Golden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "eruption": 7,
+      "fire_aspect": 2,
+      "inferno": 2,
+      "unbreaking": 50,
+      "attack_damage_base": 13,
+      "attack_speed_base": 1.2
+    },
+    "lore": "Each swing of this mighty mattock seems\nto trace the constellations in its wake.\nEach blow shudders the earth."
+  },
   "Pulsating Gold Pickaxe": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -52998,6 +53272,20 @@
     },
     "type": "Charm",
     "class_name": "Generalist"
+  },
+  "Starstrike Emblem": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starstrike Emblem",
+    "power": 3,
+    "base_item": "String",
+    "release_status": "public",
+    "stats": {
+      "crusade_enhancement_damage_amplifier_percent": 3.5
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
   },
   "Greater Stratagem Charm": {
     "location": "Architect's Ring",
@@ -60312,6 +60600,42 @@
       "armor": 9.5
     }
   },
+  "Blightpod Carapace-3": {
+    "location": "Sirius",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blightpod Carapace",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "melee_protection": 2,
+      "unbreaking": 8,
+      "attack_damage_percent": 30,
+      "armor": 5.5,
+      "max_health_flat": 3
+    },
+    "lore": "In the aftermath of Sirius' fall, the\nblighted pods fell inert. With the\nright craftsmanship, they have\nbecome something more."
+  },
+  "Blightpod Carapace-4": {
+    "location": "Sirius",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Blightpod Carapace",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "melee_protection": 2,
+      "unbreaking": 9,
+      "attack_damage_percent": 30,
+      "armor": 5.5,
+      "max_health_flat": 4
+    },
+    "lore": "In the aftermath of Sirius' fall, the\nblighted pods fell inert. With the\nright craftsmanship, they have\nbecome something more."
+  },
   "Darkstar Pauldron-4": {
     "location": "Starpoint",
     "masterwork": "4",
@@ -60673,6 +60997,42 @@
       "armor": 7.5
     },
     "lore": "Beneath the ice, a heavy heart still beats\nthe rhythm of the song he must sing alone."
+  },
+  "Starhungry Coriaceus-4": {
+    "location": "Sirius",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Starhungry Coriaceus",
+    "base_item": "Diamond Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "life_drain": 1,
+      "sustenance": 1,
+      "unbreaking": 5,
+      "speed_percent": 18,
+      "agility": 9.5
+    },
+    "lore": "After Sirius fell from the sky, new\nstars seemed to appear in the cosmos.\nThe Stars are watching... waiting... hungry..."
+  },
+  "Starhungry Coriaceus-3": {
+    "location": "Sirius",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starhungry Coriaceus",
+    "base_item": "Diamond Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "life_drain": 1,
+      "sustenance": 1,
+      "unbreaking": 4,
+      "speed_percent": 18,
+      "agility": 9
+    },
+    "lore": "After Sirius fell from the sky, new\nstars seemed to appear in the cosmos.\nThe Stars are watching... waiting... hungry..."
   },
   "Slasher's Robe": {
     "location": "Gallery of Fear",
@@ -64392,6 +64752,17 @@
     "stats": {},
     "lore": "Words of power are contained within this stone.\nYou've done this song and dance before...\nAnd yet, the rules have changed.\nNo longer is it bound to that purpose.\n* Quest Item *\n#Q216I07"
   },
+  "Glistering Starblood": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Glistering Starblood",
+    "base_item": "Sculk",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material\nOn this day, the Stars themselves bled.\nTheir Herald cried out, then was silent.\nFor a brief moment, the sky itself became\nempty as they were overwhelmed by pain."
+  },
   "Dreamlike Pigment": {
     "name": "Dreamlike Pigment",
     "base_item": "Black Dye",
@@ -64613,6 +64984,28 @@
     "type": "Misc",
     "stats": {},
     "lore": "A large gemstone, imported from lands\nbeyond, and imbued with the dream itself.\nIts surface ripples with unseen things.\n* Quest Item *\n#Q216I04"
+  },
+  "Radiant Starblight (Instant)": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Radiant Starblight (Instant)",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Sirius holds order over powerful Starblight forces, controlling\nthe battlefield and the wills of those who dare to defy his rule.\nStarless Night or Celestial Zenith completion is required and\n4★ Masterwork is recommended before you attempt this fight!\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants instant access to Sirius, the Final Herald"
+  },
+  "Radiant Starblight": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Radiant Starblight",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Sirius holds order over powerful Starblight forces, controlling\nthe battlefield and the wills of those who dare to defy his rule.\nStarless Night or Celestial Zenith completion is required and\n4★ Masterwork is recommended before you attempt this fight!\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants access to Sirius, the Final Herald"
   },
   "Astral Attractor": {
     "location": "Starpoint",
@@ -65489,6 +65882,42 @@
     "type": "Misc",
     "stats": {},
     "lore": "Epic Crafting Material\nShimmering indigo particles clash with a\nconsuming, furious blight. Somehow they\nremain stable enough to hold."
+  },
+  "Blighted Bugle-4": {
+    "location": "Sirius",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Blighted Bugle",
+    "base_item": "Glow Ink Sac",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "evasion": 1,
+      "magic_protection": 4,
+      "speed_percent": 5,
+      "magic_damage_percent": 20,
+      "agility": 5.5
+    },
+    "lore": "An ageless horn, serenading into the wind a\nmelody as empty as the night sky."
+  },
+  "Blighted Bugle-3": {
+    "location": "Sirius",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blighted Bugle",
+    "base_item": "Glow Ink Sac",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "evasion": 1,
+      "magic_protection": 3,
+      "speed_percent": 5,
+      "magic_damage_percent": 20,
+      "agility": 5.5
+    },
+    "lore": "An ageless horn, serenading into the wind a\nmelody as empty as the night sky."
   },
   "Archos Ring": {
     "location": "Architect's Ring",
@@ -69100,6 +69529,20 @@
     "stats": {},
     "lore": "The tip of a powerful blade, broken\noff from the rest of the weapon.\nJagged cracks branch out from the\nend of the fragment towards the fracture."
   },
+  "Blightseeker's Boon": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blightseeker's Boon",
+    "power": 3,
+    "base_item": "Flint",
+    "release_status": "public",
+    "stats": {
+      "predator_strike_enemies_pierced_flat": 2
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Masked's Black Knife": {
     "location": "Ruin",
     "region": "Ring",
@@ -71076,6 +71519,22 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
+  "Starmetal Knucklebones": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starmetal Knucklebones",
+    "power": 4,
+    "base_item": "Netherite Scrap",
+    "release_status": "public",
+    "stats": {
+      "shield_bash_cooldown_percent": -40,
+      "shield_bash_range_percent": 15,
+      "shield_bash_duration_flat": -10
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
   "Echoes of the Veil": {
     "location": "Willows",
     "region": "Valley",
@@ -71097,6 +71556,66 @@
     "type": "Misc",
     "stats": {},
     "lore": "Endeavors of the inferno manifest flames more\nintense than the heart of an eruption. This flame\nmight be powerful enough for another use..."
+  },
+  "Pulsing Orb-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Pulsing Orb",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "adaptability": 1,
+      "regeneration": 1,
+      "retrieval": 2,
+      "sustenance": 2,
+      "armor": 6.5,
+      "throw_rate_percent": 10,
+      "projectile_damage_percent": 10
+    },
+    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
+  },
+  "Pulsing Orb-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pulsing Orb",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "adaptability": 1,
+      "regeneration": 1,
+      "retrieval": 2,
+      "sustenance": 2,
+      "throw_rate_percent": 10,
+      "projectile_damage_percent": 10,
+      "armor": 6
+    },
+    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
+  },
+  "Pulsing Orb-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pulsing Orb",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "adaptability": 1,
+      "regeneration": 1,
+      "retrieval": 2,
+      "sustenance": 1,
+      "throw_rate_percent": 10,
+      "projectile_damage_percent": 10,
+      "armor": 6
+    },
+    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
   },
   "Nightmare Fuel": {
     "location": "Reverie",
@@ -73348,6 +73867,23 @@
     "stats": {},
     "lore": "Spinning V\nKing's Valley : Unique"
   },
+  "Teliko Theama": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Teliko Theama",
+    "power": 3,
+    "base_item": "Music Disc 5",
+    "release_status": "public",
+    "stats": {
+      "panacea_radius_percent": 100,
+      "panacea_cooldown_percent": -15,
+      "panacea_movement_duration_percent": 100,
+      "panacea_movement_speed_percent": -50
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Laser Attachment": {
     "location": "PORTAL",
     "region": "Ring",
@@ -73539,6 +74075,38 @@
     "stats": {
       "decayed_totem_radius_percent": 30,
       "decayed_totem_targets_flat": 1
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Totem of the Tombstone": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Totem of the Tombstone",
+    "power": 1,
+    "base_item": "Warped Fungus",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_enhancement_damage_percent": 100,
+      "totemic_projection_enhancement_duration_percent": -40
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Final Herald's Lifeblood": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Final Herald's Lifeblood",
+    "power": 4,
+    "base_item": "Black Candle",
+    "release_status": "public",
+    "stats": {
+      "desecrating_shot_cooldown_percent": -50,
+      "desecrating_shot_damage_percent": 10,
+      "desecrating_shot_radius_flat": -1,
+      "desecrating_shot_weakness_amplifier_percent": -15
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -74160,6 +74728,21 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Lordtomb Fragment": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Lordtomb Fragment",
+    "power": 4,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "vicious_combos_cooldown_reduction_flat": 0.5,
+      "vicious_combos_enhancement_damage_amplifier_percent": 7.5
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
   "Swift Charm of Defense": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -74447,6 +75030,22 @@
     "stats": {},
     "lore": "The crystal radiates the\nspirit of adventure."
   },
+  "Lunacrestum Pulsar": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Lunacrestum Pulsar",
+    "power": 5,
+    "base_item": "Raw Gold Block",
+    "release_status": "public",
+    "stats": {
+      "luminous_infusion_infused_hits_flat": 1,
+      "luminous_infusion_damage_percent": -30,
+      "luminous_infusion_radius_percent": -30
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
   "Rampant Miasma": {
     "location": "Godspore",
     "region": "Ring",
@@ -74572,6 +75171,21 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
+  },
+  "Imprint of the Beyond": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Imprint of the Beyond",
+    "power": 2,
+    "base_item": "Prismarine Shard",
+    "release_status": "public",
+    "stats": {
+      "frost_nova_damage_percent": 60,
+      "frost_nova_slowness_amplifier_percent": -20
+    },
+    "type": "Charm",
+    "class_name": "Mage"
   },
   "Manaleaf Razor": {
     "location": "Godspore",
@@ -74765,6 +75379,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "This Isharist was not real. It could not\nbe. Maxwell knew the people had not lived\nthis way, hanging over a gaping eternity.\nYet somehow, he could touch their walls.\nHe could breathe their air.\nHe could destroy their greatest treasure."
+  },
+  "Bottled Font of Tuulen": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Bottled Font of Tuulen",
+    "power": 5,
+    "base_item": "Ghast Tear",
+    "release_status": "public",
+    "stats": {
+      "sage's_insight_ability_count_flat": 1,
+      "sage's_insight_stack_trigger_threshold_flat": 1,
+      "sage's_insight_decay_duration_percent": -20
+    },
+    "type": "Charm",
+    "class_name": "Mage"
   },
   "Looming Demise": {
     "location": "Marina Noir",
@@ -74973,6 +75603,21 @@
       "speed_percent": 5
     },
     "lore": "The name given, Cironds, is not the true\nname of Death. This ancient effigy once held\nthe truth... and the name of its twin. Now\nboth may be lost forever."
+  },
+  "Scion of Stars": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Scion of Stars",
+    "power": 3,
+    "base_item": "Netherite Ingot",
+    "release_status": "public",
+    "stats": {
+      "culling_resistance_amplifier_percent": 5,
+      "culling_duration_flat": -4
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
   },
   "Event Horizon": {
     "location": "Sanguine Halls",
