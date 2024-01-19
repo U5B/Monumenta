@@ -624,6 +624,11 @@
     "description": "Arrows have a (level * 10)% chance to not be consumed.",
     "category": "Passives"
   },
+  "revelation": {
+    "name": "Revelation",
+    "description": "Items infused with Revelation increase the level of any Delve infusion on the item by one level.",
+    "category": "Infusions"
+  },
   "reverb": {
     "name": "Reverb",
     "description": "On kill by melee strike or basic projectile attack, deal 10 * level % of your overkill damage plus 5 * level % of your highest damage source within the killing attack to a mob within 8 blocks.",
