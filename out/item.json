@@ -68109,7 +68109,7 @@
   "Silver Knight's Key - Story Mode": {
     "location": "Architect's Ring",
     "region": "Ring",
-    "tier": "Key",
+    "tier": "Legacy",
     "name": "Silver Knight's Key - Story Mode",
     "base_item": "Deepslate",
     "release_status": "public",
@@ -74089,7 +74089,7 @@
     "release_status": "public",
     "stats": {
       "totemic_projection_enhancement_damage_percent": 100,
-      "totemic_projection_enhancement_duration_percent": -40
+      "totemic_projection_enhancement_damage_duration_percent": -40
     },
     "type": "Charm",
     "class_name": "Shaman"
