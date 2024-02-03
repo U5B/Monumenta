@@ -864,7 +864,8 @@
     "stats": {
       "holy_javelin_cooldown_percent": -60,
       "holy_javelin_range_percent": 150,
-      "holy_javelin_damage_percent": -70
+      "holy_javelin_damage_percent": -70,
+      "inferno_damage_percent": -10
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -14097,7 +14098,7 @@
     "effects": [
       {
         "EffectDuration": 3600,
-        "EffectStrength": 0.1,
+        "EffectStrength": 0.2,
         "EffectType": "Speed"
       }
     ],
@@ -14857,7 +14858,7 @@
       {
         "EffectDuration": 3000,
         "EffectStrength": 0.1,
-        "EffectType": "MaxHealthDecrease"
+        "EffectType": "Slow"
       }
     ],
     "base_item": "Potion",
@@ -14877,7 +14878,7 @@
       {
         "EffectDuration": 1200,
         "EffectStrength": 0.1,
-        "EffectType": "Slow"
+        "EffectType": "MaxHealthDecrease"
       }
     ],
     "base_item": "Potion",
@@ -15527,7 +15528,7 @@
       "regicide": 1,
       "unbreaking": 35,
       "speed_percent": 15,
-      "agility": 5.5
+      "agility": 6
     },
     "lore": "The Dichen inherited the art of leaf weaving\nfrom the quiet coast-dwellers who once occupied\nthe lands of Port Manteau. The Silvari colonists\ntwisted the ancient practice into a tool for war."
   },
@@ -18513,8 +18514,8 @@
       "regicide": 2,
       "unbreakable": 1,
       "attack_speed_percent": 10,
-      "agility": 6,
-      "attack_damage_percent": 45
+      "attack_damage_percent": 50,
+      "agility": 6.5
     },
     "lore": "The first to fall will be the King.\nThe Empire will follow."
   },
@@ -18533,8 +18534,8 @@
       "regicide": 2,
       "unbreakable": 1,
       "attack_speed_percent": 10,
-      "attack_damage_percent": 40,
-      "agility": 6
+      "agility": 6,
+      "attack_damage_percent": 45
     },
     "lore": "The first to fall will be the King.\nThe Empire will follow."
   },
@@ -30554,6 +30555,28 @@
     },
     "lore": "I am the darkness behind your eyes."
   },
+  "Firefly in an Uncracked Bottle": {
+    "location": "Horseman",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Firefly in an Uncracked Bottle",
+    "base_item": "Glass Bottle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Given to those who refused to slaughter the\nHeadless Horseman on that fateful day."
+  },
+  "Firefly in a Cracked Bottle": {
+    "location": "Horseman",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Firefly in a Cracked Bottle",
+    "base_item": "Glass Bottle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Given to those who endlessly slaughtered the\nHeadless Horseman on that fateful day,\nafter they paid their taxes of course."
+  },
   "Vessel of Boons": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -31143,7 +31166,7 @@
       "regicide": 1,
       "unbreaking": 11,
       "max_health_percent": 35,
-      "agility": 5
+      "agility": 5.5
     },
     "lore": "An empire forged from silver false,\na hand to guide that ancient land. From\nlegacy of knights long lost grew godly\nright to take command."
   },
@@ -31177,7 +31200,7 @@
       "regicide": 1,
       "unbreaking": 10,
       "max_health_percent": 30,
-      "agility": 5
+      "agility": 5.5
     },
     "lore": "An empire forged from silver false,\na hand to guide that ancient land. From\nlegacy of knights long lost grew godly\nright to take command."
   },
@@ -32627,7 +32650,7 @@
       "mending": 1,
       "reverb": 2,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 12.5
+      "attack_damage_base": 13.5
     },
     "lore": "Time marches on, no matter how long\nthe citadel has sat silent. Even now the\nclock hands still creak as life stirs nearby."
   },
@@ -32645,7 +32668,7 @@
       "mending": 1,
       "reverb": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14
+      "attack_damage_base": 15.5
     },
     "lore": "Time marches on, no matter how long\nthe citadel has sat silent. Even now the\nclock hands still creak as life stirs nearby."
   },
@@ -32663,7 +32686,7 @@
       "mending": 1,
       "reverb": 2,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 13
+      "attack_damage_base": 14
     },
     "lore": "Time marches on, no matter how long\nthe citadel has sat silent. Even now the\nclock hands still creak as life stirs nearby."
   },
@@ -32681,7 +32704,7 @@
       "mending": 1,
       "reverb": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 14.5
     },
     "lore": "Time marches on, no matter how long\nthe citadel has sat silent. Even now the\nclock hands still creak as life stirs nearby."
   },
@@ -35595,6 +35618,22 @@
       "unbreaking": 3,
       "armor": 4
     }
+  },
+  "Seal of Revival": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Seal of Revival",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "second_wind": 2,
+      "unbreaking": 3,
+      "attack_speed_flat": 0.15,
+      "armor": 4.5
+    },
+    "lore": "Sand blows in the wind across the\ndesert country. Though it is marred\nby the sins of its past, beauty lays\nbeneath the surface. A sign that\na path exists to a brighter future."
   },
   "Windwrought Shield": {
     "location": "Celsian Isles",
@@ -39200,7 +39239,7 @@
       "wind_aspect": 1,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 16.5
+      "attack_damage_base": 16
     },
     "lore": "Despite the grisly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
   },
@@ -39219,7 +39258,7 @@
       "wind_aspect": 1,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 16
+      "attack_damage_base": 15.5
     },
     "lore": "Despite the grisly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
   },
@@ -39238,7 +39277,7 @@
       "wind_aspect": 1,
       "speed_percent": 15,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 16.5
+      "attack_damage_base": 16
     },
     "lore": "Despite the grisly origin of the\nMachine's endless movement, the air\nwithin was serene; the wind imbibed with\na pleasant scent."
   },
@@ -59978,6 +60017,17 @@
     },
     "lore": "All of a sudden, magic no longer worked\nwithin the town's walls. Panic arose,\nalongside the dead."
   },
+  "Special Crystalline Chip": {
+    "location": "Isles Casino",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Special Crystalline Chip",
+    "base_item": "Light Blue Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Rigged\nWho needs luck when you can cheat?"
+  },
   "Crystalline Chip": {
     "location": "Isles Casino",
     "region": "Isles",
@@ -59987,17 +60037,6 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
-  },
-  "\"Special\" Crystalline Chip": {
-    "location": "Isles Casino",
-    "region": "Isles",
-    "tier": "Currency",
-    "name": "\"Special\" Crystalline Chip",
-    "base_item": "Light Blue Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Who needs luck when you can cheat?"
   },
   "Oasis Armband": {
     "location": "Isles Overworld",
@@ -63305,6 +63344,14 @@
     },
     "lore": "It whispers of Lord Azacor,\nand beckons you to join him."
   },
+  "Silvic Core": {
+    "name": "Silvic Core",
+    "base_item": "Fire Charge",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Buried deep within the armor\nof a dead Silver Knight.\n* Quest Item *\n#Q155I01"
+  },
   "Incendiary Charge": {
     "name": "Incendiary Charge",
     "base_item": "Fire Charge",
@@ -63936,13 +63983,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Silvari Blade Handle",
-    "power": 4,
+    "power": 3,
     "base_item": "Large Amethyst Bud",
     "release_status": "public",
     "stats": {
-      "blade_dance_radius_percent": 50,
-      "blade_dance_root_duration_flat": 2.5,
-      "blade_dance_cooldown_percent": 50
+      "blade_dance_radius_percent": 35,
+      "blade_dance_root_duration_flat": 1.5,
+      "blade_dance_cooldown_percent": 35
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -71535,13 +71582,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Starmetal Knucklebones",
-    "power": 4,
+    "power": 3,
     "base_item": "Netherite Scrap",
     "release_status": "public",
     "stats": {
-      "shield_bash_cooldown_percent": -40,
-      "shield_bash_range_percent": 15,
-      "shield_bash_duration_flat": -10
+      "shield_bash_range_percent": 100,
+      "shield_bash_damage_percent": 40,
+      "shield_bash_duration_percent": -30
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -72111,7 +72158,7 @@
     "release_status": "public",
     "stats": {
       "flame_totem_damage_percent": 15,
-      "flame_totem_radius_percent": 30,
+      "flame_totem_explosion_radius_percent": 20,
       "flame_totem_fire_duration_flat": 1
     },
     "type": "Charm",
@@ -73081,7 +73128,7 @@
         "EffectType": "Absorption"
       },
       {
-        "EffectDuration": 400,
+        "EffectDuration": 600,
         "EffectStrength": 0.2,
         "EffectType": "Heal"
       }
@@ -73838,11 +73885,11 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Clocktower's Blessing",
-    "power": 5,
+    "power": 4,
     "base_item": "Honeycomb Block",
     "release_status": "public",
     "stats": {
-      "warding_remedy_radius_percent": 50,
+      "warding_remedy_radius_percent": 25,
       "warding_remedy_pulse_delay_percent": -100,
       "warding_remedy_cooldown_percent": -25,
       "warding_remedy_absorption_duration_percent": -55,
@@ -74042,7 +74089,8 @@
     "release_status": "public",
     "stats": {
       "lightning_totem_cooldown_percent": -40,
-      "lightning_totem_duration_percent": -30
+      "lightning_totem_duration_percent": -30,
+      "lightning_totem_lightning_storm_duration_percent": -30
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -74460,7 +74508,8 @@
     "base_item": "Chorus Plant",
     "release_status": "public",
     "type": "Misc",
-    "stats": {}
+    "stats": {},
+    "lore": "The portal inside allows you to\nreach of the of the trinkets you've\ncome across in your journeys.\nRight click in hand or inventory\nto access your trinkets."
   },
   "Bloodlust": {
     "location": "Sanguine Halls",
@@ -74502,7 +74551,8 @@
     "base_item": "Brown Mushroom",
     "release_status": "public",
     "stats": {
-      "toughness_health_percent": 10
+      "toughness_health_percent": 10,
+      "toughness_healing_increase_percent": 10
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -74744,12 +74794,12 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Lordtomb Fragment",
-    "power": 4,
+    "power": 3,
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
       "vicious_combos_cooldown_reduction_flat": 0.5,
-      "vicious_combos_enhancement_damage_amplifier_percent": 7.5
+      "vicious_combos_enhancement_damage_amplifier_percent": 5
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -75046,13 +75096,13 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Lunacrestum Pulsar",
-    "power": 5,
+    "power": 4,
     "base_item": "Raw Gold Block",
     "release_status": "public",
     "stats": {
       "luminous_infusion_infused_hits_flat": 1,
-      "luminous_infusion_damage_percent": -30,
-      "luminous_infusion_radius_percent": -30
+      "luminous_infusion_damage_percent": -20,
+      "luminous_infusion_radius_percent": -20
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -75088,8 +75138,8 @@
     "base_item": "Polished Deepslate Wall",
     "release_status": "public",
     "stats": {
-      "holy_javelin_size_percent": 30,
-      "holy_javelin_damage_percent": 30
+      "holy_javelin_size_percent": 50,
+      "holy_javelin_damage_percent": 25
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -75401,7 +75451,6 @@
     "release_status": "public",
     "stats": {
       "sage's_insight_ability_count_flat": 1,
-      "sage's_insight_stack_trigger_threshold_flat": 1,
       "sage's_insight_decay_duration_percent": -20
     },
     "type": "Charm",
@@ -75625,7 +75674,7 @@
     "release_status": "public",
     "stats": {
       "culling_resistance_amplifier_percent": 5,
-      "culling_duration_flat": -4
+      "culling_duration_flat": -3
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -79644,17 +79693,6 @@
     "stats": {},
     "lore": "Wrapped around a protean stone,\nit whispers power disturbed.\n* Quest Item *\n#Q142I04"
   },
-  "Crystal Key 1/2": {
-    "location": "Yellow",
-    "region": "Valley",
-    "tier": "Key",
-    "name": "Crystal Key 1/2",
-    "base_item": "End Crystal",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "An ancient shard with magical powers, used to perform\na magical spell that would pull anyone from a nightmare...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D5 Key 2-1 *"
-  },
   "Crystal Key 2/2": {
     "location": "Yellow",
     "region": "Valley",
@@ -79665,6 +79703,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "An ancient shard with magical powers, used to perform\na magical spell that would pull anyone from a nightmare...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D5 Key 2-2 *"
+  },
+  "Crystal Key 1/2": {
+    "location": "Yellow",
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Crystal Key 1/2",
+    "base_item": "End Crystal",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An ancient shard with magical powers, used to perform\na magical spell that would pull anyone from a nightmare...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D5 Key 2-1 *"
   },
   "Eternity Gem": {
     "location": "Hekawt",
