@@ -11487,7 +11487,8 @@
     "base_item": "Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "Seldomly, a tree in the Wolfswood\nproduces a intense, red sap said to\nbe the anger of great wolf himself."
   },
   "Dichen Energy Brew": {
     "name": "Dichen Energy Brew",
@@ -11554,7 +11555,8 @@
     "base_item": "Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "Earthy flavors and floral\nextracts mingle to create this\nrefreshing Dichen beverage."
   },
   "Levyn's Favorite Beer": {
     "location": "Marina Noir",
@@ -14054,6 +14056,8 @@
     "stats": {}
   },
   "Empowered Azure Mixture": {
+    "location": "Celsian Isles",
+    "region": "Isles",
     "name": "Empowered Azure Mixture",
     "effects": [
       {
@@ -14070,7 +14074,8 @@
     "base_item": "Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "A favorite brew of pirates known to\nhelp with the mundane tasks of sailing."
   },
   "Azure Mixture": {
     "name": "Azure Mixture",
@@ -14129,6 +14134,8 @@
     }
   },
   "Strong Potion of Warcry": {
+    "location": "Celsian Isles",
+    "region": "Isles",
     "name": "Strong Potion of Warcry",
     "effects": [
       {
@@ -14147,7 +14154,8 @@
     "type": "Consumable",
     "stats": {
       "instant_drink": 1
-    }
+    },
+    "lore": "A famous drinking tale relates the story\nof a pirate who fought off ten men with\nnothing but a saber and bottle of liquor.\n\"When ye back's t' the wall, take a swig\nand shout yer fiercest warcry!\""
   },
   "Privateer's Philter": {
     "location": "Celsian Isles",
@@ -36443,7 +36451,8 @@
     "base_item": "Lingering Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "Narsen apothecaries designed these\nspecialized vials to be split between the four\nmembers of a typical squad in dire situations."
   },
   "Weak Sanctify Potion": {
     "location": "King's Valley",
@@ -36511,6 +36520,44 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Extinguisher Bomb": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "name": "Extinguisher Bomb",
+    "effects": [
+      {
+        "EffectDuration": 240,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      }
+    ],
+    "base_item": "Lingering Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Advanced Extinguisher Bomb": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "name": "Advanced Extinguisher Bomb",
+    "effects": [
+      {
+        "EffectDuration": 440,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      },
+      {
+        "EffectDuration": 440,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      }
+    ],
+    "base_item": "Lingering Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "While traversing the mesa, Ishnir\nconvoys utilize these vials to\nwithstand the scorching heat."
   },
   "Dragonbone Marrow": {
     "location": "King's Valley",
@@ -36763,7 +36810,8 @@
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "Hastily gulped by the most cowardly\nDen adventurers who realized\nthey were out of their depth."
   },
   "Potion of Perseverance": {
     "name": "Potion of Perseverance",
@@ -36782,7 +36830,8 @@
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "Persevere. It is the duty of the Ashkii."
   },
   "Potion of Endurance": {
     "name": "Potion of Endurance",
@@ -37874,6 +37923,8 @@
     "stats": {}
   },
   "Potion of Protection": {
+    "location": "King's Valley",
+    "region": "Valley",
     "name": "Potion of Protection",
     "effects": [
       {
@@ -37885,7 +37936,8 @@
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "As a preventative measure, the Narsens\noccasionally use these limited issue vials on\ntheir infantry before engaging with the enemy."
   },
   "Dilute Regeneration Potion": {
     "name": "Dilute Regeneration Potion",
@@ -37982,6 +38034,8 @@
     "stats": {}
   },
   "Revenant's Potion": {
+    "location": "King's Valley",
+    "region": "Valley",
     "name": "Revenant's Potion",
     "effects": [
       {
@@ -37998,7 +38052,8 @@
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "A concoction so potent it could revive\na soldier from the edge of death."
   },
   "Healing Vial": {
     "name": "Healing Vial",
@@ -38530,6 +38585,8 @@
     "stats": {}
   },
   "Strong Restorative Shield": {
+    "location": "Celsian Isles",
+    "region": "Isles",
     "name": "Strong Restorative Shield",
     "effects": [
       {
@@ -38546,7 +38603,8 @@
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "A choice philter for many\nof Chillwind's Mage Hunters."
   },
   "Restorative Shield": {
     "name": "Restorative Shield",
@@ -38568,6 +38626,8 @@
     "stats": {}
   },
   "Strong Potion of Protection": {
+    "location": "Celsian Isles",
+    "region": "Isles",
     "name": "Strong Potion of Protection",
     "effects": [
       {
@@ -38584,7 +38644,8 @@
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "The Ishnir elite's favorite gold\ncolored fizzy drink for a hot day."
   },
   "Weak Restorative Shield": {
     "name": "Weak Restorative Shield",
@@ -38606,6 +38667,8 @@
     "stats": {}
   },
   "Potion of Redemption": {
+    "location": "Celsian Isles",
+    "region": "Isles",
     "name": "Potion of Redemption",
     "effects": [
       {
@@ -38622,7 +38685,8 @@
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
+    "stats": {},
+    "lore": "Despite the Empire's claimed aversion\nto magic, most healers choose the\npragmatic solution when time is short."
   },
   "Inner Flame": {
     "location": "Docks",
@@ -47200,6 +47264,14 @@
     },
     "lore": "Just enough to work with."
   },
+  "Sigil of Chillwind": {
+    "name": "Sigil of Chillwind",
+    "base_item": "Bone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It bears the mark of those\nwho pledge loyalty to the Queen."
+  },
   "Decayed Fang": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -50217,6 +50289,14 @@
     },
     "lore": "Time seems to twist around the very\nmagic this wand produces."
   },
+  "Sigil of Viridia": {
+    "name": "Sigil of Viridia",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It bears the mark of those\nwho long to be free."
+  },
   "Talaya's Blossom": {
     "location": "Pink",
     "region": "Isles",
@@ -50387,6 +50467,16 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Phantom Spines": {
+    "location": "Soulwoven",
+    "name": "Phantom Spines",
+    "base_item": "Tipped Arrow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "wind_aspect": 3
+    }
   },
   "Urchin Barb": {
     "name": "Urchin Barb",
@@ -50770,15 +50860,6 @@
     "type": "Misc",
     "stats": {
       "ice_aspect": 1
-    }
-  },
-  "Phantom Spines": {
-    "name": "Phantom Spines",
-    "base_item": "Tipped Arrow",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "wind_aspect": 3
     }
   },
   "Keterborn Bolt": {
