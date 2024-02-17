@@ -43770,9 +43770,9 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "smite": 2,
-      "unbreaking": 4,
       "ice_aspect": 1,
+      "smite": 2,
+      "unbreaking": 5,
       "attack_speed_base": 2,
       "attack_damage_base": 5
     },
@@ -74585,12 +74585,14 @@
     "class_name": "Generalist"
   },
   "Knick-Knack Sack": {
+    "location": "King's Valley",
+    "region": "Valley",
     "name": "Knick-Knack Sack",
     "base_item": "Chorus Plant",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The portal inside allows you to\nreach of the of the trinkets you've\ncome across in your journeys.\nRight click in hand or inventory\nto access your trinkets."
+    "lore": "The portal inside allows you to\nreach all of the trinkets you've\nencountered in your journeys.\nRight Click in your hand or\ninventory to access your trinkets."
   },
   "Bloodlust": {
     "location": "Sanguine Halls",
@@ -78348,15 +78350,15 @@
     "lore": "* Quest Item *\n#Q125I01\nSomething seems off about it though..."
   },
   "Mistleaf Hood": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
     "name": "Mistleaf Hood",
     "base_item": "Jungle Leaves",
     "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "agility": 2,
-      "armor": 2
-    },
-    "lore": "This helm is required to access\nThe Sons of the Forest's Sanctum."
+    "type": "Misc",
+    "stats": {},
+    "lore": "A helm once required to access\nThe Sons of the Forest's Sanctum."
   },
   "Forsworn Key": {
     "location": "King's Valley",
@@ -78519,7 +78521,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A traditional Tlaxan record player.\nThe music it plays is almost magical...\nLeft Click while in main hand to open\nthe menu and select a song to play."
+    "lore": "A traditional Tlaxan record player.\nThe music it plays is almost magical...\nLeft Click while in main hand or\nRight Click in an inventory to open\nthe menu and select a song to play."
   },
   "Soulsinger": {
     "location": "Depths",
@@ -78532,7 +78534,7 @@
     "stats": {
       "worldly_protection": 3
     },
-    "lore": "A record player, enhanced\nby power incomprehensible...\nLeft Click while in main hand to\nselect a song from the menu."
+    "lore": "A record player, enhanced\nby power incomprehensible...\nLeft Click while in main hand or\nRight Click in an inventory to open\nthe menu and select a song to play."
   },
   "Pretzel": {
     "name": "Pretzel",
