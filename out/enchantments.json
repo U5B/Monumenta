@@ -41,7 +41,7 @@
   },
   "arcane_thrust": {
     "name": "Arcane Thrust",
-    "description": "Your attacks damage all enemies 3 blocks in front of you, in a 0.6-block-wide line.  Damage: 1 + melee damage dealt * level / (level + 1)  Works in: Main hand",
+    "description": "Your attacks damage all enemies 3 blocks in front of you, in a 0.6-block-wide line.  Damage: 1 + melee damage dealt * level / (level + 1)",
     "category": "Weapons"
   },
   "ardor": {
@@ -206,7 +206,7 @@
   },
   "duelist": {
     "name": "Duelist",
-    "description": "Adds (level * 2) extra damage to melee hits against human-like mobs: illagers, vexes, witches, piglins, piglin brutes, golems, giants, allays, and wardens.  Damage: 2 * level  Works in: Main hand",
+    "description": "Adds (level * 2) extra damage to melee hits against human-like mobs: illagers, vexes, witches, piglins, piglin brutes, golems, giants, allays, and wardens.",
     "category": "Weapons"
   },
   "earthaspect": {
@@ -396,7 +396,7 @@
   },
   "inure": {
     "name": "Inure",
-    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic). Breaking Inure by taking a different type of damage will give half the bonus for 1 hit.",
+    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic) within 60 seconds. Breaking Inure by taking a different type of damage will give half the bonus for 1 hit.",
     "category": "Defenses"
   },
   "irreparability": {
@@ -416,7 +416,7 @@
   },
   "lifedrain": {
     "name": "Life Drain",
-    "description": "Your critical melee attacks heal you. Normal melee attacks also heal you, but for less.  Healing (falling attack): &radic;(level) Healing (non-falling attack): 0.5 * &radic;(level) / &radic;(attack speed) * attack cooldown  Works in: Main hand, off hand, armor slots",
+    "description": "Your critical melee attacks heal you. Normal melee attacks also heal you, but for less.  Healing (falling attack): &radic;(level) Healing (non-falling attack): 0.5 * &radic;(level) / &radic;(attack speed) * attack cooldown",
     "category": "Weapons"
   },
   "liquidcourage": {
@@ -835,12 +835,12 @@
     "category": "Infusions"
   },
   "waxoff": {
-    "name": "Wax off",
+    "name": "Wax Off",
     "description": "Removes wax from mined copper as your master taught you.",
     "category": "Tools and Utility"
   },
   "waxon": {
-    "name": "Wax on",
+    "name": "Wax On",
     "description": "Applies wax to mined copper as your master taught you.",
     "category": "Tools and Utility"
   },
