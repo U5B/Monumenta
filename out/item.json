@@ -827,6 +827,8 @@
   },
   "Wilted Rose": {
     "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Wilted Rose",
     "base_item": "Wither Rose",
     "release_status": "public",
@@ -2622,8 +2624,10 @@
     "name": "Beacon Crystal",
     "base_item": "Player Head",
     "release_status": "public",
-    "type": "Misc",
-    "stats": {},
+    "type": "Offhand",
+    "stats": {
+      "speed_flat": 0.01
+    },
     "lore": "Cleanse the sea."
   },
   "Speedleaf": {
@@ -3473,7 +3477,7 @@
   "Yesel's Fruit": {
     "location": "Celsian Isles",
     "region": "Isles",
-    "tier": "Unique",
+    "tier": "Trophy",
     "name": "Yesel's Fruit",
     "base_item": "Player Head",
     "release_status": "public",
@@ -13135,6 +13139,69 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Swamp Goo": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Swamp Goo",
+    "effects": [
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0,
+        "EffectType": "Nausea"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0,
+        "EffectType": "WaterBreath"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Water Lily Mixture": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Water Lily Mixture",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantDamagePercent"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.6,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Red Mushroom Tincture": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Red Mushroom Tincture",
+    "effects": [
+      {
+        "EffectDuration": 900,
+        "EffectStrength": 0.15,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "damage"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Potion of Masterful Agility": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -13520,12 +13587,15 @@
     }
   },
   "Volkamph's Snake Oil": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Volkamph's Snake Oil",
     "base_item": "Potion",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Cures scurvy, cholera, the pox, dropsy,\ngout, monumentitis, and all other ailments!"
+    "lore": "Cures scurvy, cholera, the pox, dropsy,\ngout, monumentitis, and all other ailments!\n\nWhen Consumed:\nNothing (60:00)"
   },
   "Silverblood": {
     "name": "Silverblood",
@@ -18315,6 +18385,9 @@
     }
   },
   "Icy Crystal": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Key",
     "name": "Icy Crystal",
     "base_item": "Snowball",
     "release_status": "public",
@@ -19212,12 +19285,12 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreakable": 1,
-      "radiant": 1,
       "efficiency": 3,
+      "radiant": 1,
+      "unbreakable": 1,
       "speed_percent": 18
     },
-    "lore": "The power of extreme experience,\nmanifest into a physical form."
+    "lore": "The power of total truth,\nmanifest into a physical form."
   },
   "Intellect Incarnate": {
     "location": "Intellect Crystallizer",
@@ -23172,6 +23245,8 @@
   },
   "Bloodsoaked Boots": {
     "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Bloodsoaked Boots",
     "base_item": "Leather Boots",
     "release_status": "public",
@@ -27313,7 +27388,7 @@
     "stats": {
       "worldly_protection": 3
     },
-    "lore": "Her touch distorts the mightiest of\npower. Her retreat leaves that power to\nbe claimed by those who truly need it.\nRight Click to enter Stasis.\nCooldown : 6m"
+    "lore": "Her touch distorts the mightiest of\npower. Her retreat leaves that power to\nbe claimed by those who truly need it.\nf while in mainhand to activate.\nCooldown : 6m"
   },
   "Sketched Crimson Contract": {
     "location": "Sketched",
@@ -30585,6 +30660,14 @@
     "stats": {},
     "lore": "Given to those who endlessly slaughtered the\nHeadless Horseman on that fateful day,\nafter they paid their taxes of course."
   },
+  "Memory Bomb": {
+    "name": "Memory Bomb",
+    "base_item": "Glass Bottle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#QAFI04"
+  },
   "Vessel of Boons": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -33505,6 +33588,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "material": 1,
+      "two_handed": 1,
       "attack_damage_base": 10,
       "attack_speed_base": 0.4
     },
@@ -35183,6 +35267,7 @@
     "type": "Mainhand Shield",
     "stats": {
       "knockback": 1,
+      "material": 1,
       "attack_speed_base": 2,
       "attack_damage_base": 4
     }
@@ -42392,7 +42477,7 @@
       "projectile_speed_base": 1,
       "projectile_damage_base": 26.5
     },
-    "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency however, does not make them\npoor weapons, in a pinch."
+    "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency, however, does not make them\npoor weapons in a pinch."
   },
   "Mechanized Pipepuncher-3": {
     "location": "Brown",
@@ -42410,7 +42495,7 @@
       "projectile_speed_base": 1,
       "projectile_damage_base": 27
     },
-    "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency however, does not make them\npoor weapons, in a pinch."
+    "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency, however, does not make them\npoor weapons in a pinch."
   },
   "Mechanized Pipepuncher-4": {
     "location": "Brown",
@@ -42428,7 +42513,7 @@
       "projectile_speed_base": 1,
       "projectile_damage_base": 27.5
     },
-    "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency however, does not make them\npoor weapons, in a pinch."
+    "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency, however, does not make them\npoor weapons in a pinch."
   },
   "Bonepiercer-2": {
     "location": "Orange",
@@ -51481,17 +51566,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q103fI01\nIn brightest day, in blackest night\nThe dragon rules with undying might."
   },
-  "Spectral Maravedi": {
-    "location": "Mist",
-    "region": "Isles",
-    "tier": "Currency",
-    "name": "Spectral Maravedi",
-    "base_item": "Clay Ball",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material\nThe flames burn hotter\nand must never die.\nWorth 8 Spectral Doubloons"
-  },
   "Spectral Doubloon": {
     "location": "Mist",
     "region": "Isles",
@@ -51729,40 +51803,6 @@
     "stats": {},
     "lore": "R'Tsiv shattered the keys and stepped\naway from the Maw. The Temple was\nsealed from even the Shamans. He would\nreturn to the other Elders, satisfied.\nThe way to Ta'Rte would remain untraced."
   },
-  "Farr Jail Key": {
-    "name": "Farr Jail Key",
-    "base_item": "Tripwire Hook",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#QAFI02"
-  },
-  "Rusted Market Key": {
-    "location": "Marina Noir",
-    "region": "Ring",
-    "tier": "Key",
-    "name": "Rusted Market Key",
-    "base_item": "Tripwire Hook",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A key that would be useful in Mistport's market,\nwere there anything left of it...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-2 *"
-  },
-  "Key : Myriad's Safe": {
-    "name": "Key : Myriad's Safe",
-    "base_item": "Tripwire Hook",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Mineshaft Key": {
-    "name": "Mineshaft Key",
-    "base_item": "Tripwire Hook",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "This key will unlock the path\nfurther into the mineshaft.\n* Quest Item *\n#Q132I06"
-  },
   "Imperial Coin": {
     "location": "King's Valley",
     "region": "Valley",
@@ -51879,6 +51919,9 @@
     "lore": "Worth 64 Concentrated Experience.\nRight Click while holding to decompress once.\nRight Click + Sneak while holding to decompress 10."
   },
   "Whirlpool Coin": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Key",
     "name": "Whirlpool Coin",
     "base_item": "Sunflower",
     "release_status": "public",
@@ -51980,6 +52023,14 @@
     "type": "Misc",
     "stats": {},
     "lore": "Sailing the seven seas can often\nget boring. Music certainly helps, but\nnothing beats taking a wrong turn\noutside our plane of existence."
+  },
+  "Writ of Promise": {
+    "name": "Writ of Promise",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#QAFI03"
   },
   "Sand Sticker": {
     "location": "Fishing",
@@ -52106,7 +52157,7 @@
   "Ethereal Pergament": {
     "location": "King's Valley",
     "region": "Valley",
-    "tier": "Unique",
+    "tier": "Trophy",
     "name": "Ethereal Pergament",
     "base_item": "Paper",
     "release_status": "public",
@@ -52430,6 +52481,40 @@
       "material": 1
     },
     "lore": "The ability to do."
+  },
+  "Farr Jail Key": {
+    "name": "Farr Jail Key",
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#QAFI02"
+  },
+  "Rusted Market Key": {
+    "location": "Marina Noir",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Rusted Market Key",
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A key that would be useful in Mistport's market,\nwere there anything left of it...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-2 *"
+  },
+  "Key : Myriad's Safe": {
+    "name": "Key : Myriad's Safe",
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Mineshaft Key": {
+    "name": "Mineshaft Key",
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "This key will unlock the path\nfurther into the mineshaft.\n* Quest Item *\n#Q132I06"
   },
   "White Velvet Cake": {
     "location": "King's Valley",
@@ -52847,6 +52932,8 @@
   },
   "Golden Fragment": {
     "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Golden Fragment",
     "base_item": "Gold Nugget",
     "release_status": "public",
@@ -53349,24 +53436,96 @@
     "stats": {},
     "lore": "C'Zanil's experiments brought out the beast\nwithin the Lunatics. He did not ruin them,\nonly showed the world what they could\nbecome when they shed their skin."
   },
-  "Twisted Soul Thread": {
-    "location": "Soulwoven",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Twisted Soul Thread",
-    "base_item": "Cobweb",
+  "Eye Patch": {
+    "name": "Eye Patch",
+    "base_item": "Ink Sac",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "XXXXX XXXX : Currency\nSoulwoven\nEight Soul Threads, deeply entwined. Its\npower can bring anything into creation.\nRight Click while holding to decompress once.\nRight Click + Sneak while holding to decompress all."
+    "lore": "* Quest Item *\n#QAFI01"
   },
-  "Spider Silk": {
-    "name": "Spider Silk",
-    "base_item": "Cobweb",
+  "Nadir Sporran": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Nadir Sporran",
+    "power": 3,
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "stats": {
+      "bodkin_blitz_cooldown_percent": -25,
+      "bodkin_blitz_damage_percent": 25,
+      "bodkin_blitz_distance_percent": -50
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
+  "Blindness Reagent": {
+    "name": "Blindness Reagent",
+    "base_item": "Ink Sac",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#Q43I01"
+    "lore": "* Quest Item *\n#Q13I05"
+  },
+  "Thick Ink Pouch": {
+    "name": "Thick Ink Pouch",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It sticks to your fingers almost instantly.\n* Quest Item *\n#Q110I10"
+  },
+  "Fingerprinting Kit": {
+    "name": "Fingerprinting Kit",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A kit used to extract fingerprints\nfrom items.\n* Quest Item *\n#Q139I02"
+  },
+  "Exquisite Ink": {
+    "name": "Exquisite Ink",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
+  },
+  "Enchanted Ink": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Enchanted Ink",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Magical ink imbued with\nthe ashes of a powerful mage."
+  },
+  "Dark Pine Resin": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Dark Pine Resin",
+    "base_item": "Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Charcoal pine resin cursed by dark magic.\nPermanently applies dark power to a weapon."
+  },
+  "Soothing Breeze Spell": {
+    "name": "Soothing Breeze Spell",
+    "base_item": "String",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#QAFI05"
   },
   "Soul Thread": {
     "location": "Soulwoven",
@@ -53587,6 +53746,825 @@
     "stats": {},
     "lore": "What secrets are you hiding?"
   },
+  "Josiah's Letter": {
+    "name": "Josiah's Letter",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#QAFI06"
+  },
+  "Thank You Note": {
+    "location": "April's Fools",
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Thank You Note",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "max_health_flat": 2,
+      "knockback_resistance_flat": 1
+    }
+  },
+  "Snowblossom Codex": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Tier 3",
+    "name": "Snowblossom Codex",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "magic_protection": 1,
+      "agility": 6,
+      "speed_percent": 5,
+      "magic_damage_percent": 25
+    }
+  },
+  "Dichen Tome": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Tier 1",
+    "name": "Dichen Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "magic_protection": 1,
+      "agility": 5.5,
+      "speed_percent": 5,
+      "magic_damage_percent": 20
+    }
+  },
+  "Tuathan Tome": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Tier 2",
+    "name": "Tuathan Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "magic_protection": 1,
+      "agility": 6,
+      "speed_percent": 5,
+      "magic_damage_percent": 20
+    }
+  },
+  "Gallery Brochure": {
+    "location": "Gallery of Fear",
+    "region": "Ring",
+    "name": "Gallery Brochure",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Press Swap to interact with\nobjects in The Gallery of Fear.\nRight Button to view player info.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Somnus Tractate": {
+    "location": "Gallery of Fear",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Somnus Tractate",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "aptitude": 2,
+      "regeneration": 1,
+      "armor": 5.5,
+      "agility": 5.5,
+      "magic_damage_percent": 40
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Tome of Epiphany": {
+    "location": "Gallery of Fear",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Tome of Epiphany",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "arcane_thrust": 3,
+      "thunder_aspect": 3,
+      "fire_aspect": 3,
+      "inferno": 3,
+      "spell_power_base": 100,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 14
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Tattered Notebook": {
+    "location": "Willows",
+    "name": "Tattered Notebook",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"How long has it been now? I have long since\nlost track of time. No matter how much I write,\nI never seem to run out of space... and, yet,\nmy earlier notes have gradually become harder\nto decipher. I hope it does not continue to deteriorate.\""
+  },
+  "Wolfsblood Tome-1": {
+    "location": "Blue",
+    "masterwork": "1",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Wolfsblood Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "sustenance": 1,
+      "magic_damage_percent": 30,
+      "agility": 6
+    },
+    "lore": "The pages are lined with the words of\nan ancient god. You feel understanding\nflood your mind. The Great Wolf's blessing\nhas been extended."
+  },
+  "Wolfsblood Tome-4": {
+    "location": "Blue",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Wolfsblood Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "sustenance": 1,
+      "agility": 7,
+      "magic_damage_percent": 40
+    },
+    "lore": "The pages are lined with the words of\nan ancient god. You feel understanding\nflood your mind. The Great Wolf's blessing\nhas been extended."
+  },
+  "Wolfsblood Tome-2": {
+    "location": "Blue",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Wolfsblood Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "sustenance": 1,
+      "magic_damage_percent": 35,
+      "agility": 6
+    },
+    "lore": "The pages are lined with the words of\nan ancient god. You feel understanding\nflood your mind. The Great Wolf's blessing\nhas been extended."
+  },
+  "Wolfsblood Tome-3": {
+    "location": "Blue",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Wolfsblood Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "sustenance": 1,
+      "magic_damage_percent": 35,
+      "agility": 7
+    },
+    "lore": "The pages are lined with the words of\nan ancient god. You feel understanding\nflood your mind. The Great Wolf's blessing\nhas been extended."
+  },
+  "Silver Codex": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silver Codex",
+    "power": 3,
+    "base_item": "Book",
+    "release_status": "public",
+    "stats": {
+      "coup_de_grace_threshold_percent": 10,
+      "coup_de_grace_elite_threshold_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
+  "Tome of Broken Vows": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Tome of Broken Vows",
+    "power": 5,
+    "base_item": "Book",
+    "release_status": "public",
+    "stats": {
+      "dark_pact_absorption_health_per_kill_flat": 1
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Chaos Codex": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Chaos Codex",
+    "power": 4,
+    "base_item": "Book",
+    "release_status": "public",
+    "stats": {
+      "voodoo_bonds_received_damage_percent": -60,
+      "voodoo_bonds_cooldown_percent": -40,
+      "voodoo_bonds_transfer_time_limit_percent": -100
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Witch's Spellbook": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Witch's Spellbook",
+    "power": 4,
+    "base_item": "Book",
+    "release_status": "public",
+    "stats": {
+      "amplifying_hex_damage_percent": 10,
+      "grasping_claws_pull_strength_percent": 50,
+      "grasping_claws_cooldown_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "The Bestiary": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "The Bestiary",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Keeps track of all of the mobs\nyou've killed across the world.\nOpened with Right Click while\nin the mainhand or inventory."
+  },
+  "Poultry Purification Passage": {
+    "name": "Poultry Purification Passage",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "clucking": 1
+    },
+    "lore": "* Quest Item *\n#Q38I02"
+  },
+  "Tome of the Jungle": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Tome of the Jungle",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "regeneration": 1,
+      "speed_percent": 15
+    }
+  },
+  "Blitz Master Guide": {
+    "location": "Blitz",
+    "region": "Valley",
+    "name": "Blitz Master Guide",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right Button while in the mainhand\nto open the main GUI.\nShift + Right Button to open a shortcut\nto the shop.\nShift + Left Button to instantly\nstart the next round."
+  },
+  "Apprentice's Notes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Apprentice's Notes",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "agility": 2,
+      "magic_damage_percent": 10
+    }
+  },
+  "Fragment of Reality": {
+    "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Fragment of Reality",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"The elements opened before me... this\nDoorway at last stands complete. After all\nthis time. After all I was forced to do,\nI can step into the Veil and claim what must\nbe mine.\""
+  },
+  "Ancient Grimoire": {
+    "name": "Ancient Grimoire",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Dark arts scripted in blood and ink."
+  },
+  "Pulsating Ticket Book": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Pulsating Ticket Book",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Ingredient\nRedeemable for fabulous prizes!"
+  },
+  "Tome of Madness": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Tome of Madness",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "smite": 1,
+      "knockback": 1,
+      "chaotic": 5,
+      "attack_damage_base": 11.5,
+      "attack_speed_base": 0.5
+    }
+  },
+  "Tome of Aquatic Shards": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Tome of Aquatic Shards",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Partially erased symbols written on the dusty pages.\nTime has not spared the sheets."
+  },
+  "Tome of the Rainforest": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Tome of the Rainforest",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Lying is a skill like any other.\nAnd if you want to maintain a\nlevel of excellence, you\nhave to practice constantly."
+  },
+  "Tome of the Pretsell": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Tome of the Pretsell",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "slayer": 1,
+      "smite": 1,
+      "knockback": 1,
+      "adrenaline": 1,
+      "regeneration": 2,
+      "speed_percent": 15
+    },
+    "lore": "Do not wait for the Last Judgement.\nIt takes place every day."
+  },
+  "Tome of Thundering Clouds": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Tome of Thundering Clouds",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "\"The truth is just an excuse\nfor lack of imagination.\""
+  },
+  "Tome of Insanity": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Tome of Insanity",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Treason, like beauty, is in\nthe eye of the beholder."
+  },
+  "Tome of Judgement": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Tome of Judgement",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "I don't know about you,\nbut I'd call that a bargain."
+  },
+  "Cat's Destruction": {
+    "location": "Storied Skin",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Cat's Destruction",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "armor": 2.5,
+      "agility": 2.5,
+      "max_health_flat": 2
+    },
+    "lore": "With the fury of ten thousand wretched\nspectres, the realm of stories vanished.\nEach page- torn and fluttering in the\nashy air- would burn."
+  },
+  "Tome of Arcane Horrors": {
+    "location": "Light Blue",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Tome of Arcane Horrors",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "fire_aspect": 3,
+      "knockback": 3,
+      "attack_damage_base": 13,
+      "attack_speed_base": 0.5,
+      "spell_power_base": 25
+    },
+    "lore": "Some things were never\nmeant to be read."
+  },
+  "Corrupted Log": {
+    "name": "Corrupted Log",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Its pages emit a foul corruption\nthat makes your stomach ache.\n* Quest Item *\n#Q110I06"
+  },
+  "Book of Alutana": {
+    "name": "Book of Alutana",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A religious manuscript containing\nthe myth of Alutana.\n* Quest Item *\n#Q134I04"
+  },
+  "Tome of Lost Time": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Tome of Lost Time",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "thunder_aspect": 3,
+      "knockback": 2,
+      "attack_damage_base": 22,
+      "attack_speed_base": 0.5,
+      "spell_power_base": 55
+    },
+    "lore": "The chapters just fly by..."
+  },
+  "Redacted Mining Records": {
+    "name": "Redacted Mining Records",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Almost all the words have been scratched out.\nPerhaps Issa can make some use of it.\n* Quest Item *\n#Q109I01"
+  },
+  "Encoded Message": {
+    "name": "Encoded Message",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A message written in a secretive code.\n* Quest Item *\n#Q123I01"
+  },
+  "Alchemical Report": {
+    "name": "Alchemical Report",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It contains a few scribbles about the\ntubes you just sorted.\n* Quest Item *\n#Q145I01"
+  },
+  "Knights of the Frost Moon": {
+    "name": "Knights of the Frost Moon",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Details the history of\nthe Frost Moon Knights.\n* Quest Item *\n#Q134I02"
+  },
+  "Sixteen Shades of Wool": {
+    "name": "Sixteen Shades of Wool",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A legendarily bad romance novel.\n* Quest Item *\n#Q118I03"
+  },
+  "Knowledge's End": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Knowledge's End",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Upon witnessing the power of The Book,\nsome sought to remove not just the\ntome itself, but all knowledge of it."
+  },
+  "Uncompleted Mystery": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Uncompleted Mystery",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Yet the power of The Book still lingers,\nyearning to be released."
+  },
+  "Wax Seal": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Wax Seal",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "After decades of research and a\ndive into the darkest of magic,\nthe seal was broken.\nSoon The Book would be too."
+  },
+  "A Revelation On Knowledge Itself": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "A Revelation On Knowledge Itself",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Those who dared to read the cursed tome known\nonly as The Book, seeking knowledge, would\nsoon fall to power outside of their control."
+  },
+  "Ybessat's Druidcraft": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Ybessat's Druidcraft",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "This book details how to properly turn\nrecently deceased creatures back\ninto their raw magic essence. There's also\na footnote about turning into plants..."
+  },
+  "An Untold Story": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "An Untold Story",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Countless decades passed since.\nIn the end, The Book was lost to time."
+  },
+  "Completely Harmless Tome": {
+    "location": "Forum",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Completely Harmless Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "decay": 2,
+      "hex_eater": 1,
+      "ice_aspect": 1,
+      "life_drain": 2,
+      "second_wind": 2,
+      "sustenance": 2,
+      "two_handed": 1,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 15,
+      "spell_power_base": 62
+    },
+    "lore": "So hungry... Feed me"
+  },
+  "Fallen Forum Key": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Fallen Forum Key",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to dungeon:\nThe Fallen Forum\nDifficulty : ☠☠☠☠☠"
+  },
+  "Pact of Punishment": {
+    "location": "Carnival",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Pact of Punishment",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 2,
+      "projectile_protection": 1,
+      "poise": 2,
+      "armor": 3,
+      "max_health_percent": -25,
+      "speed_percent": 15,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 20
+    },
+    "lore": "The power of the infernal slowly\ndemands more and more, with diminishing\nreturns..."
+  },
+  "The Glass Canon": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "The Glass Canon",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "feather_falling": 2,
+      "blast_protection": 2,
+      "armor": -3,
+      "agility": -3,
+      "magic_damage_percent": 45
+    },
+    "lore": "The book that is not a book."
+  },
+  "Enchanted Tome": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Enchanted Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
+  },
+  "Necronomicon": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Necronomicon",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The lexicon of forbidden knowledge comes\nin many forms. Some are even cute.\nRight Click in main hand or inventory\nto spend 10 levels worth of EXP,\nremoving Poison, Wither, and Nausea."
+  },
+  "Ash Codex": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Ash Codex",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "inferno": 4,
+      "max_health_flat": 6,
+      "knockback_resistance_flat": 2
+    },
+    "lore": "An ancient presence fills these pages,\nlending power to its wielder."
+  },
+  "Infernal Codex": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Infernal Codex",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "sustenance": 2,
+      "second_wind": 2,
+      "ice_aspect": 1,
+      "life_drain": 2,
+      "two_handed": 1,
+      "hex_eater": 1,
+      "decay": 2,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 15,
+      "spell_power_base": 62
+    },
+    "lore": "The tome's spine spasms with explosive energy.\nA hungering flame awaited within."
+  },
+  "Poet's Tome": {
+    "location": "Eldrask",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Poet's Tome",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "shielding": 2,
+      "curse_of_corruption": 1,
+      "max_health_percent": 15,
+      "speed_percent": 15,
+      "armor": 1.5
+    },
+    "lore": "The legendary folio, composed by ancient hands.\nIt tells of Giants long ago, who shaped these verdant lands."
+  },
+  "Burned Knowledge": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 5",
+    "name": "Burned Knowledge",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 2,
+      "armor": 3.5,
+      "magic_damage_percent": 17
+    }
+  },
+  "Apparatus of Olive": {
+    "location": "Forum",
+    "region": "Isles",
+    "tier": "Trophy",
+    "name": "Apparatus of Olive",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "They had done it. The scientists of\nIshnir and Chillwind had created a living\nspirit. A being of conscious nature\ninfused with the power of Keter magic.\nIt would be the start of a new Node of\nthe Tree of Life. Below Malkus would lie\nNihilo. Now, to place this life inside their\nconstruction. A new wool would be made,\nfor the first time in generations."
+  },
+  "Refound Knowledge": {
+    "location": "Lime",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Refound Knowledge",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
+  },
+  "Twisted Soul Thread": {
+    "location": "Soulwoven",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Twisted Soul Thread",
+    "base_item": "Cobweb",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "XXXXX XXXX : Currency\nSoulwoven\nEight Soul Threads, deeply entwined. Its\npower can bring anything into creation.\nRight Click while holding to decompress once.\nRight Click + Sneak while holding to decompress all."
+  },
+  "Spider Silk": {
+    "name": "Spider Silk",
+    "base_item": "Cobweb",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q43I01"
+  },
   "Soulfruit": {
     "location": "Soulwoven",
     "name": "Soulfruit",
@@ -53649,6 +54627,8 @@
     "stats": {}
   },
   "Ambrosia": {
+    "location": "Delves",
+    "region": "Isles",
     "name": "Ambrosia",
     "effects": [
       {
@@ -55611,7 +56591,9 @@
     "base_item": "Poppy",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "material": 1
+    },
     "lore": "Left in Ducalian's workshop\nfor his lost love."
   },
   "Royal Red Tea Leaves": {
@@ -56434,7 +57416,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The Snow Wool Spirit has powerful attacks,\nbringing down the festivities themselves onto players.\nCompletion of Vernal Nightmare is recommended\nbefore attempting this boss fight!\nPlayers 1-8 (Keep Inventory, but only 1 life per player)"
+    "lore": "The Snow Wool Spirit has powerful attacks,\nbringing down the festivities themselves onto players.\nCompletion of Vernal Nightmare is recommended\nbefore attempting this boss fight!\nPlayers 1-6 (Keep Inventory, but only 1 life per player)"
   },
   "Permafrost Ice": {
     "name": "Permafrost Ice",
@@ -57166,6 +58148,9 @@
     "lore": "Epic Crafting Material"
   },
   "Eye of the Storm": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Key",
     "name": "Eye of the Storm",
     "base_item": "Ender Eye",
     "release_status": "public",
@@ -59062,796 +60047,6 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
-  "Thank You Note": {
-    "location": "April's Fools",
-    "region": "Valley",
-    "tier": "Event",
-    "name": "Thank You Note",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "max_health_flat": 2,
-      "knockback_resistance_flat": 1
-    }
-  },
-  "Snowblossom Codex": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Tier 3",
-    "name": "Snowblossom Codex",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "magic_protection": 1,
-      "agility": 6,
-      "speed_percent": 5,
-      "magic_damage_percent": 25
-    }
-  },
-  "Dichen Tome": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Tier 1",
-    "name": "Dichen Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "magic_protection": 1,
-      "agility": 5.5,
-      "speed_percent": 5,
-      "magic_damage_percent": 20
-    }
-  },
-  "Tuathan Tome": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Tier 2",
-    "name": "Tuathan Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "magic_protection": 1,
-      "agility": 6,
-      "speed_percent": 5,
-      "magic_damage_percent": 20
-    }
-  },
-  "Gallery Brochure": {
-    "location": "Gallery of Fear",
-    "region": "Ring",
-    "name": "Gallery Brochure",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Press Swap to interact with\nobjects in The Gallery of Fear.\nRight Button to view player info.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
-  },
-  "Somnus Tractate": {
-    "location": "Gallery of Fear",
-    "region": "Ring",
-    "tier": "Obfuscated",
-    "name": "Somnus Tractate",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "aptitude": 2,
-      "regeneration": 1,
-      "armor": 5.5,
-      "agility": 5.5,
-      "magic_damage_percent": 40
-    },
-    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
-  },
-  "Tome of Epiphany": {
-    "location": "Gallery of Fear",
-    "region": "Ring",
-    "tier": "Obfuscated",
-    "name": "Tome of Epiphany",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "arcane_thrust": 3,
-      "thunder_aspect": 3,
-      "fire_aspect": 3,
-      "inferno": 3,
-      "spell_power_base": 100,
-      "attack_speed_base": 1.8,
-      "attack_damage_base": 14
-    },
-    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
-  },
-  "Tattered Notebook": {
-    "location": "Willows",
-    "name": "Tattered Notebook",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "\"How long has it been now? I have long since\nlost track of time. No matter how much I write,\nI never seem to run out of space... and, yet,\nmy earlier notes have gradually become harder\nto decipher. I hope it does not continue to deteriorate.\""
-  },
-  "Wolfsblood Tome-1": {
-    "location": "Blue",
-    "masterwork": "1",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Wolfsblood Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "sustenance": 1,
-      "magic_damage_percent": 30,
-      "agility": 6
-    },
-    "lore": "The pages are lined with the words of\nan ancient god. You feel understanding\nflood your mind. The Great Wolf's blessing\nhas been extended."
-  },
-  "Wolfsblood Tome-4": {
-    "location": "Blue",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Wolfsblood Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "sustenance": 1,
-      "agility": 7,
-      "magic_damage_percent": 40
-    },
-    "lore": "The pages are lined with the words of\nan ancient god. You feel understanding\nflood your mind. The Great Wolf's blessing\nhas been extended."
-  },
-  "Wolfsblood Tome-2": {
-    "location": "Blue",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Wolfsblood Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "sustenance": 1,
-      "magic_damage_percent": 35,
-      "agility": 6
-    },
-    "lore": "The pages are lined with the words of\nan ancient god. You feel understanding\nflood your mind. The Great Wolf's blessing\nhas been extended."
-  },
-  "Wolfsblood Tome-3": {
-    "location": "Blue",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Wolfsblood Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "sustenance": 1,
-      "magic_damage_percent": 35,
-      "agility": 7
-    },
-    "lore": "The pages are lined with the words of\nan ancient god. You feel understanding\nflood your mind. The Great Wolf's blessing\nhas been extended."
-  },
-  "Silver Codex": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Silver Codex",
-    "power": 3,
-    "base_item": "Book",
-    "release_status": "public",
-    "stats": {
-      "coup_de_grace_threshold_percent": 10,
-      "coup_de_grace_elite_threshold_percent": -10
-    },
-    "type": "Charm",
-    "class_name": "Rogue"
-  },
-  "Tome of Broken Vows": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Tome of Broken Vows",
-    "power": 5,
-    "base_item": "Book",
-    "release_status": "public",
-    "stats": {
-      "dark_pact_absorption_health_per_kill_flat": 1
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Chaos Codex": {
-    "location": "Starpoint",
-    "region": "Ring",
-    "tier": "Epic",
-    "name": "Chaos Codex",
-    "power": 4,
-    "base_item": "Book",
-    "release_status": "public",
-    "stats": {
-      "voodoo_bonds_received_damage_percent": -60,
-      "voodoo_bonds_cooldown_percent": -40,
-      "voodoo_bonds_transfer_time_limit_percent": -100
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Witch's Spellbook": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Witch's Spellbook",
-    "power": 4,
-    "base_item": "Book",
-    "release_status": "public",
-    "stats": {
-      "amplifying_hex_damage_percent": 10,
-      "grasping_claws_pull_strength_percent": 50,
-      "grasping_claws_cooldown_percent": -10
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "The Bestiary": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Unique",
-    "name": "The Bestiary",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Keeps track of all of the mobs\nyou've killed across the world.\nOpened with Right Click while\nin the mainhand or inventory."
-  },
-  "Poultry Purification Passage": {
-    "name": "Poultry Purification Passage",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "clucking": 1
-    },
-    "lore": "* Quest Item *\n#Q38I02"
-  },
-  "Tome of the Jungle": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Tome of the Jungle",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "regeneration": 1,
-      "speed_percent": 15
-    }
-  },
-  "Blitz Master Guide": {
-    "location": "Blitz",
-    "region": "Valley",
-    "name": "Blitz Master Guide",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Right Button while in the mainhand\nto open the main GUI.\nShift + Right Button to open a shortcut\nto the shop.\nShift + Left Button to instantly\nstart the next round."
-  },
-  "Apprentice's Notes": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Apprentice's Notes",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "agility": 2,
-      "magic_damage_percent": 10
-    }
-  },
-  "Fragment of Reality": {
-    "location": "Willows",
-    "name": "Fragment of Reality",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "\"The elements opened before me... this\nDoorway at last stands complete. After all\nthis time. After all I was forced to do,\nI can step into the Veil and claim what must\nbe mine.\""
-  },
-  "Ancient Grimoire": {
-    "name": "Ancient Grimoire",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Dark arts scripted in blood and ink."
-  },
-  "Pulsating Ticket Book": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Pulsating Ticket Book",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Ingredient\nRedeemable for fabulous prizes!"
-  },
-  "Tome of Madness": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Tome of Madness",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "smite": 1,
-      "knockback": 1,
-      "chaotic": 5,
-      "attack_damage_base": 11.5,
-      "attack_speed_base": 0.5
-    }
-  },
-  "Tome of Aquatic Shards": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Tome of Aquatic Shards",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Partially erased symbols written on the dusty pages.\nTime has not spared the sheets."
-  },
-  "Tome of the Rainforest": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Tome of the Rainforest",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Lying is a skill like any other.\nAnd if you want to maintain a\nlevel of excellence, you\nhave to practice constantly."
-  },
-  "Tome of the Pretsell": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Tome of the Pretsell",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "slayer": 1,
-      "smite": 1,
-      "knockback": 1,
-      "adrenaline": 1,
-      "regeneration": 2,
-      "speed_percent": 15
-    },
-    "lore": "Do not wait for the Last Judgement.\nIt takes place every day."
-  },
-  "Tome of Thundering Clouds": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Tome of Thundering Clouds",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "\"The truth is just an excuse\nfor lack of imagination.\""
-  },
-  "Tome of Insanity": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Tome of Insanity",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Treason, like beauty, is in\nthe eye of the beholder."
-  },
-  "Tome of Judgement": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Tome of Judgement",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "I don't know about you,\nbut I'd call that a bargain."
-  },
-  "Cat's Destruction": {
-    "location": "Storied Skin",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Cat's Destruction",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "armor": 2.5,
-      "agility": 2.5,
-      "max_health_flat": 2
-    },
-    "lore": "With the fury of ten thousand wretched\nspectres, the realm of stories vanished.\nEach page- torn and fluttering in the\nashy air- would burn."
-  },
-  "Tome of Arcane Horrors": {
-    "location": "Light Blue",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Tome of Arcane Horrors",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "fire_aspect": 3,
-      "knockback": 3,
-      "attack_damage_base": 13,
-      "attack_speed_base": 0.5,
-      "spell_power_base": 25
-    },
-    "lore": "Some things were never\nmeant to be read."
-  },
-  "Corrupted Log": {
-    "name": "Corrupted Log",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Its pages emit a foul corruption\nthat makes your stomach ache.\n* Quest Item *\n#Q110I06"
-  },
-  "Book of Alutana": {
-    "name": "Book of Alutana",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A religious manuscript containing\nthe myth of Alutana.\n* Quest Item *\n#Q134I04"
-  },
-  "Tome of Lost Time": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Unique",
-    "name": "Tome of Lost Time",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "thunder_aspect": 3,
-      "knockback": 2,
-      "attack_damage_base": 22,
-      "attack_speed_base": 0.5,
-      "spell_power_base": 55
-    },
-    "lore": "The chapters just fly by..."
-  },
-  "Redacted Mining Records": {
-    "name": "Redacted Mining Records",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Almost all the words have been scratched out.\nPerhaps Issa can make some use of it.\n* Quest Item *\n#Q109I01"
-  },
-  "Encoded Message": {
-    "name": "Encoded Message",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A message written in a secretive code.\n* Quest Item *\n#Q123I01"
-  },
-  "Alchemical Report": {
-    "name": "Alchemical Report",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "It contains a few scribbles about the\ntubes you just sorted.\n* Quest Item *\n#Q145I01"
-  },
-  "Knights of the Frost Moon": {
-    "name": "Knights of the Frost Moon",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Details the history of\nthe Frost Moon Knights.\n* Quest Item *\n#Q134I02"
-  },
-  "Sixteen Shades of Wool": {
-    "name": "Sixteen Shades of Wool",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A legendarily bad romance novel.\n* Quest Item *\n#Q118I03"
-  },
-  "Knowledge's End": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Knowledge's End",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Upon witnessing the power of The Book,\nsome sought to remove not just the\ntome itself, but all knowledge of it."
-  },
-  "Uncompleted Mystery": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Uncompleted Mystery",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Yet the power of The Book still lingers,\nyearning to be released."
-  },
-  "Wax Seal": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Wax Seal",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "After decades of research and a\ndive into the darkest of magic,\nthe seal was broken.\nSoon The Book would be too."
-  },
-  "A Revelation On Knowledge Itself": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "A Revelation On Knowledge Itself",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Those who dared to read the cursed tome known\nonly as The Book, seeking knowledge, would\nsoon fall to power outside of their control."
-  },
-  "Ybessat's Druidcraft": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Ybessat's Druidcraft",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "This book details how to properly turn\nrecently deceased creatures back\ninto their raw magic essence. There's also\na footnote about turning into plants..."
-  },
-  "An Untold Story": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "An Untold Story",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Countless decades passed since.\nIn the end, The Book was lost to time."
-  },
-  "Completely Harmless Tome": {
-    "location": "Forum",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Completely Harmless Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "decay": 2,
-      "hex_eater": 1,
-      "ice_aspect": 1,
-      "life_drain": 2,
-      "second_wind": 2,
-      "sustenance": 2,
-      "two_handed": 1,
-      "attack_speed_base": 1.8,
-      "attack_damage_base": 15,
-      "spell_power_base": 62
-    },
-    "lore": "So hungry... Feed me"
-  },
-  "Fallen Forum Key": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Key",
-    "name": "Fallen Forum Key",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Grants access to dungeon:\nThe Fallen Forum\nDifficulty : ☠☠☠☠☠"
-  },
-  "Pact of Punishment": {
-    "location": "Carnival",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Pact of Punishment",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "melee_protection": 2,
-      "projectile_protection": 1,
-      "poise": 2,
-      "armor": 3,
-      "max_health_percent": -25,
-      "speed_percent": 15,
-      "attack_speed_percent": 10,
-      "attack_damage_percent": 20
-    },
-    "lore": "The power of the infernal slowly\ndemands more and more, with diminishing\nreturns..."
-  },
-  "The Glass Canon": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "The Glass Canon",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "feather_falling": 2,
-      "blast_protection": 2,
-      "armor": -3,
-      "agility": -3,
-      "magic_damage_percent": 45
-    },
-    "lore": "The book that is not a book."
-  },
-  "Enchanted Tome": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Enchanted Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    }
-  },
-  "Necronomicon": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Necronomicon",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "The lexicon of forbidden knowledge comes\nin many forms. Some are even cute.\nRight Click in main hand to spend 10 levels worth\nof EXP, removing Poison, Wither, and Nausea."
-  },
-  "Ash Codex": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Ash Codex",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "inferno": 4,
-      "max_health_flat": 6,
-      "knockback_resistance_flat": 2
-    },
-    "lore": "An ancient presence fills these pages,\nlending power to its wielder."
-  },
-  "Infernal Codex": {
-    "location": "Challenger",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Infernal Codex",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "sustenance": 2,
-      "second_wind": 2,
-      "ice_aspect": 1,
-      "life_drain": 2,
-      "two_handed": 1,
-      "hex_eater": 1,
-      "decay": 2,
-      "attack_speed_base": 1.8,
-      "attack_damage_base": 15,
-      "spell_power_base": 62
-    },
-    "lore": "The tome's spine spasms with explosive energy.\nA hungering flame awaited within."
-  },
-  "Poet's Tome": {
-    "location": "Eldrask",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Poet's Tome",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "shielding": 2,
-      "curse_of_corruption": 1,
-      "max_health_percent": 15,
-      "speed_percent": 15,
-      "armor": 1.5
-    },
-    "lore": "The legendary folio, composed by ancient hands.\nIt tells of Giants long ago, who shaped these verdant lands."
-  },
-  "Burned Knowledge": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 5",
-    "name": "Burned Knowledge",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "melee_protection": 2,
-      "armor": 3.5,
-      "magic_damage_percent": 17
-    }
-  },
-  "Apparatus of Olive": {
-    "location": "Forum",
-    "region": "Isles",
-    "tier": "Trophy",
-    "name": "Apparatus of Olive",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "They had done it. The scientists of\nIshnir and Chillwind had created a living\nspirit. A being of conscious nature\ninfused with the power of Keter magic.\nIt would be the start of a new Node of\nthe Tree of Life. Below Malkus would lie\nNihilo. Now, to place this life inside their\nconstruction. A new wool would be made,\nfor the first time in generations."
-  },
-  "Refound Knowledge": {
-    "location": "Lime",
-    "region": "Isles",
-    "tier": "Currency",
-    "name": "Refound Knowledge",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
-  },
   "Gnarled Baseball Bat": {
     "location": "Halloween Event",
     "region": "Valley",
@@ -60318,6 +60513,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "A trophy awarded to the\n#3 submission in the Monumenta\n2020 Screenshot Competition."
+  },
+  "Spectral Maravedi": {
+    "location": "Mist",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Spectral Maravedi",
+    "base_item": "Brick",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material\nThe flames burn hotter\nand must never die.\nWorth 8 Spectral Doubloons"
   },
   "Immaculate Copper": {
     "location": "Celsian Isles",
@@ -65022,6 +65228,8 @@
   },
   "Scrap of Fabric": {
     "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Scrap of Fabric",
     "base_item": "Black Dye",
     "release_status": "public",
@@ -65151,6 +65359,17 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Arcane Crystal": {
+    "location": "Light Blue",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Arcane Crystal",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
   },
   "Ex Nihil": {
     "name": "Ex Nihil",
@@ -67695,6 +67914,7 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "infinity": 1,
       "spell_power_base": 1
     },
     "lore": "I'm sure.... nobody would buy this.\nIts scales gleam with arcane power."
@@ -67970,17 +68190,6 @@
       "material": 1
     },
     "lore": "It's a thing of Nightmares."
-  },
-  "Arcane Crystal": {
-    "location": "Light Blue",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Arcane Crystal",
-    "base_item": "Prismarine Crystals",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
   },
   "Epic Power Crystal": {
     "location": "Transmogrifier",
@@ -68760,7 +68969,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot an orange portal.\nLeft Click to shoot a red portal."
+    "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot an orange portal.\nLeft Click to shoot a red portal.\nf to clear all portals."
   },
   "C.A.L.D.E.R.S. Fourth Dimensional Wand (u)": {
     "name": "C.A.L.D.E.R.S. Fourth Dimensional Wand (u)",
@@ -68768,7 +68977,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot a brown portal.\nLeft Click to shoot a pink portal."
+    "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot a brown portal.\nLeft Click to shoot a pink portal.\nf to clear all portals."
   },
   "C.A.L.D.E.R.S. First Dimensional Wand (u)": {
     "name": "C.A.L.D.E.R.S. First Dimensional Wand (u)",
@@ -68776,7 +68985,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot a green portal.\nLeft Click to shoot a yellow portal."
+    "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot a green portal.\nLeft Click to shoot a yellow portal.\nf to clear all portals."
   },
   "C.A.L.D.E.R.S. Third Dimensional Wand (u)": {
     "name": "C.A.L.D.E.R.S. Third Dimensional Wand (u)",
@@ -68784,7 +68993,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot a blue portal.\nLeft Click to shoot a purple portal."
+    "lore": "Prototype v1.18.2\nCaution! Risk of appendage loss!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* PS Key Item *\n\nWhen in Main Hand:\nRight Click to shoot a blue portal.\nLeft Click to shoot a purple portal.\nf to clear all portals."
   },
   "Aether Dart": {
     "location": "Brown",
@@ -69098,7 +69307,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Prototype v1.16.3\nCaution! Risk of appendage loss!\n* Quest Item *\n#Q143I01\n\nWhen in Main Hand:\nRight Click to shoot an orange portal.\nLeft Click to shoot a blue portal."
+    "lore": "Prototype v1.16.3\nCaution! Risk of appendage loss!\n* Quest Item *\n#Q143I01\n\nWhen in Main Hand:\nRight Click to shoot an orange portal.\nLeft Click to shoot a blue portal.\nf to clear all portals."
   },
   "Combustion Staff": {
     "location": "Celsian Isles",
@@ -71532,6 +71741,8 @@
   },
   "Thresher's Sickle": {
     "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Thresher's Sickle",
     "base_item": "Wooden Hoe",
     "release_status": "public",
@@ -73246,6 +73457,8 @@
     "stats": {}
   },
   "Twisted Pome": {
+    "location": "Delves",
+    "region": "Isles",
     "name": "Twisted Pome",
     "effects": [
       {
@@ -73309,7 +73522,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Right click in an inventory\nto open the Armory screen.\nPress f to quick-swap."
+    "lore": "Right Click in an inventory\nto open the Armory screen.\nPress f to quick-swap."
   },
   "Everflow Pendant": {
     "location": "Pelias' Keep",
@@ -74115,6 +74328,8 @@
   },
   "Fallen Lantern": {
     "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Fallen Lantern",
     "base_item": "Lantern",
     "release_status": "public",
@@ -74449,6 +74664,8 @@
   },
   "Otherworldly Fruit": {
     "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Otherworldly Fruit",
     "base_item": "Chorus Flower",
     "release_status": "public",
@@ -74765,81 +74982,6 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
-  },
-  "Nadir Sporran": {
-    "location": "Starpoint",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Nadir Sporran",
-    "power": 3,
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "stats": {
-      "bodkin_blitz_cooldown_percent": -25,
-      "bodkin_blitz_damage_percent": 25,
-      "bodkin_blitz_distance_percent": -50
-    },
-    "type": "Charm",
-    "class_name": "Rogue"
-  },
-  "Blindness Reagent": {
-    "name": "Blindness Reagent",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q13I05"
-  },
-  "Thick Ink Pouch": {
-    "name": "Thick Ink Pouch",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "It sticks to your fingers almost instantly.\n* Quest Item *\n#Q110I10"
-  },
-  "Fingerprinting Kit": {
-    "name": "Fingerprinting Kit",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A kit used to extract fingerprints\nfrom items.\n* Quest Item *\n#Q139I02"
-  },
-  "Exquisite Ink": {
-    "name": "Exquisite Ink",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    }
-  },
-  "Enchanted Ink": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Enchanted Ink",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Magical ink imbued with\nthe ashes of a powerful mage."
-  },
-  "Dark Pine Resin": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Dark Pine Resin",
-    "base_item": "Ink Sac",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Charcoal pine resin cursed by dark magic.\nPermanently applies dark power to a weapon."
   },
   "Malhuer Reach": {
     "location": "Godspore",
@@ -78537,10 +78679,20 @@
     "lore": "A record player, enhanced\nby power incomprehensible...\nLeft Click while in main hand or\nRight Click in an inventory to open\nthe menu and select a song to play."
   },
   "Pretzel": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Pretzel",
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      }
+    ],
     "base_item": "Bread",
     "release_status": "public",
-    "type": "Misc",
+    "type": "Consumable",
     "stats": {}
   },
   "Prets' Homemade Bread": {
@@ -78737,6 +78889,16 @@
       "armor": 5
     },
     "lore": "Fashioned in the visage of Myrahg,\ntwisted by those sealed within the Temple."
+  },
+  "Silkshine Bracelet": {
+    "location": "Light Gray",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Silkshine Bracelet",
+    "base_item": "Totem Of Undying",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Sacred Ankh": {
     "location": "Shifting",
@@ -79009,6 +79171,19 @@
       "armor": 4
     },
     "lore": "Made to ignite the sacred\nflames of Eldim."
+  },
+  "Tlaxan Fire Striker": {
+    "location": "Sanctum",
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Tlaxan Fire Striker",
+    "base_item": "Flint And Steel",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Formerly used in sacred Tlaxan ceremonies,\nperhaps this can be repurposed to\nstave off Ta'Ferna's corruption...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* FS Key 1 *"
   },
   "Abyssal Flame": {
     "location": "Yellow",
@@ -79286,8 +79461,10 @@
     "name": "Tesseract of Light",
     "base_item": "Light Gray Stained Glass",
     "release_status": "public",
-    "type": "Misc",
-    "stats": {},
+    "type": "Offhand",
+    "stats": {
+      "weightless": 1
+    },
     "lore": "Attuned to the power of Light.\nBrings forth light that will pierce\nthrough the darkness around you.\nActivated by Right Click\nwhile in the mainhand.\nCharges : 12\nCooldown : 3s per charge"
   },
   "Tesseract of Light (u)": {
@@ -79297,8 +79474,10 @@
     "name": "Tesseract of Light (u)",
     "base_item": "Light Gray Stained Glass",
     "release_status": "public",
-    "type": "Misc",
-    "stats": {},
+    "type": "Offhand",
+    "stats": {
+      "weightless": 1
+    },
     "lore": "Attuned to the power of Light.\nBrings forth light that will pierce\nthrough the darkness around you.\nActivated by Right Click\nwhile in the mainhand.\nCharges : ∞\nCooldown : None"
   },
   "Crimson Scraps": {
@@ -80145,6 +80324,8 @@
   },
   "Helm of Immortals": {
     "location": "Willows",
+    "region": "Valley",
+    "tier": "Uncommon",
     "name": "Helm of Immortals",
     "base_item": "Chiseled Stone Bricks",
     "release_status": "public",
@@ -80241,6 +80422,34 @@
     "stats": {},
     "lore": "Not all alchemists shun magic.\nSome incorporate arcane symbols into their\nrepertoire, achieving great feats with\ntheir thus created alchemical circles.\nPurchase of this item will grant you a full set of\ncosmetic skills for Alchemist and its specializations."
   },
+  "Guild Gondola": {
+    "name": "Guild Gondola",
+    "base_item": "Jungle Boat",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Jungle Cruise": {
+    "name": "Jungle Cruise",
+    "base_item": "Jungle Boat",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Lowtide Lowrider": {
+    "name": "Lowtide Lowrider",
+    "base_item": "Jungle Boat",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Sierhaven Shuttle": {
+    "name": "Sierhaven Shuttle",
+    "base_item": "Jungle Boat",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Pulsating Silver": {
     "location": "King's Valley",
     "region": "Valley",
@@ -80274,6 +80483,78 @@
       "material": 1
     },
     "lore": "The item seem to resonate under the\nnight sky. What secrets does it hold?"
+  },
+  "Signal Flare - Leafstorm": {
+    "name": "Signal Flare - Leafstorm",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Applies Glowing for 10 seconds when used."
+  },
+  "Angry Etna": {
+    "name": "Angry Etna",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Signal Flare - Location": {
+    "name": "Signal Flare - Location",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "To signal your location to nearby allies.\nApplies Glowing for 10 seconds when used."
+  },
+  "Blue Pop": {
+    "name": "Blue Pop",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Signal Flare - Burst": {
+    "name": "Signal Flare - Burst",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Applies Glowing for 10 seconds when used."
+  },
+  "Boomy Creeper": {
+    "name": "Boomy Creeper",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Signal Flare - Danger": {
+    "name": "Signal Flare - Danger",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "To signal potential danger to nearby allies.\nApplies Glowing for 10 seconds when used."
+  },
+  "Signal Flare - Party Rocket": {
+    "name": "Signal Flare - Party Rocket",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "To signal that you're ready to party!\nApplies Glowing for 10 seconds when used."
+  },
+  "Bewitched Firework": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Bewitched Firework",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A firework enchanted by Ebonee."
   },
   "Loofah": {
     "location": "King's Valley",
@@ -80432,17 +80713,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "* Quest Item *\n#Q128I03"
-  },
-  "Bewitched Firework": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Unique",
-    "name": "Bewitched Firework",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A firework enchanted by Ebonee."
   },
   "Wispleaf Wood": {
     "name": "Wispleaf Wood",
