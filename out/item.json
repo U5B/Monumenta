@@ -1859,8 +1859,8 @@
       "first_strike": 1,
       "projectile_protection": 2,
       "attack_damage_percent": 30,
-      "agility": 7.5,
-      "speed_percent": 15
+      "speed_percent": 15,
+      "agility": 7
     },
     "lore": "As the two bands of Mycelia\ntore into each other's flesh,\nthe root network pulsed with\nnaught but pain and fear."
   },
@@ -1876,9 +1876,9 @@
     "stats": {
       "first_strike": 1,
       "projectile_protection": 2,
+      "attack_damage_percent": 30,
       "agility": 7,
-      "speed_percent": 10,
-      "attack_damage_percent": 30
+      "speed_percent": 10
     },
     "lore": "As the two bands of Mycelia\ntore into each other's flesh,\nthe root network pulsed with\nnaught but pain and fear."
   },
@@ -1894,9 +1894,9 @@
     "stats": {
       "first_strike": 1,
       "projectile_protection": 2,
+      "agility": 8,
       "attack_damage_percent": 30,
-      "speed_percent": 15,
-      "agility": 8
+      "speed_percent": 15
     },
     "lore": "As the two bands of Mycelia\ntore into each other's flesh,\nthe root network pulsed with\nnaught but pain and fear."
   },
@@ -1914,8 +1914,8 @@
       "aqua_affinity": 1,
       "depth_strider": 3,
       "gills": 1,
-      "attack_damage_percent": 20,
-      "agility": 9
+      "agility": 9,
+      "attack_damage_percent": 20
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -1931,10 +1931,10 @@
     "stats": {
       "abyssal": 3,
       "aqua_affinity": 1,
-      "depth_strider": 2,
+      "depth_strider": 3,
       "gills": 1,
-      "attack_damage_percent": 10,
-      "agility": 8
+      "agility": 8,
+      "attack_damage_percent": 10
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -1952,8 +1952,8 @@
       "aqua_affinity": 1,
       "depth_strider": 3,
       "gills": 1,
-      "attack_damage_percent": 15,
-      "agility": 9
+      "agility": 9,
+      "attack_damage_percent": 15
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -2967,8 +2967,8 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "reflexes": 1,
       "melee_protection": 1,
+      "reflexes": 1,
       "agility": 3.5
     },
     "lore": "Those called into this world were happy to provide.\nThey would feast soon enough."
@@ -3652,9 +3652,9 @@
     "type": "Helmet",
     "stats": {
       "adaptability": 1,
-      "sustenance": 1,
-      "projectile_protection": 1,
       "poise": 1,
+      "projectile_protection": 1,
+      "sustenance": 1,
       "speed_percent": 10,
       "agility": 5.5
     },
@@ -5813,11 +5813,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 5,
-      "fire_protection": 2,
       "blast_protection": 2,
-      "projectile_protection": 2,
+      "fire_protection": 2,
       "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 5,
       "magic_damage_percent": 10,
       "agility": 2
     },
@@ -5832,9 +5832,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "curse_of_anemia": 2,
       "second_wind": 2,
       "unbreaking": 12,
-      "curse_of_anemia": 2,
       "magic_damage_percent": 5,
       "thorns_flat": 2,
       "agility": 8.5
@@ -8305,11 +8305,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "blast_protection": 1,
+      "inure": 1,
+      "magic_protection": 1,
       "projectile_protection": 1,
       "unbreaking": 12,
-      "inure": 1,
-      "blast_protection": 1,
-      "magic_protection": 1,
       "armor": 6.5
     },
     "lore": "With every attack you feel it shift\nand blow around your body - first\nwith a furious tempest, then a soft\nspring breeze."
@@ -9420,10 +9420,10 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "curse_of_anemia": 2,
       "second_wind": 2,
       "steadfast": 1,
       "unbreakable": 1,
-      "curse_of_anemia": 2,
       "armor": 4,
       "attack_damage_percent": 25
     },
@@ -9491,6 +9491,569 @@
       "attack_damage_percent": 30
     }
   },
+  "Riftwalker's Boots": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Tier 3",
+    "name": "Riftwalker's Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 7,
+      "tempo": 1,
+      "agility": 7.5
+    }
+  },
+  "Windblessed Boots": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Tier 2",
+    "name": "Windblessed Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 7,
+      "agility": 9,
+      "speed_percent": 5
+    }
+  },
+  "Footprints Beneath Void-4": {
+    "location": "Starpoint",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Footprints Beneath Void",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "first_strike": 3,
+      "magic_protection": 3,
+      "second_wind": 2,
+      "unbreaking": 25,
+      "attack_speed_percent": 18,
+      "armor": 7.5
+    },
+    "lore": "Something lived in the city by the emptiness\nonce. Whatever it once was had to be eliminated\nonce Uriddan commanded it..."
+  },
+  "Footprints Beneath Void-2": {
+    "location": "Starpoint",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Footprints Beneath Void",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "first_strike": 3,
+      "magic_protection": 2,
+      "second_wind": 2,
+      "unbreaking": 17,
+      "attack_speed_percent": 18,
+      "armor": 6.5
+    },
+    "lore": "Something lived in the city by the emptiness\nonce. Whatever it once was had to be eliminated\nonce Uriddan commanded it..."
+  },
+  "Footprints Beneath Void-3": {
+    "location": "Starpoint",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Footprints Beneath Void",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "first_strike": 3,
+      "magic_protection": 3,
+      "second_wind": 2,
+      "unbreaking": 20,
+      "attack_speed_percent": 18,
+      "armor": 6.5
+    },
+    "lore": "Something lived in the city by the emptiness\nonce. Whatever it once was had to be eliminated\nonce Uriddan commanded it..."
+  },
+  "Royal Anklets-3": {
+    "location": "Sanguine Halls",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Royal Anklets",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "cloaked": 1,
+      "sustenance": 1,
+      "unbreaking": 20,
+      "agility": 9
+    },
+    "lore": "The blood-soaked bracelets retain their\nshape even inside the nightmare, leaving\na trail of blood behind them."
+  },
+  "Royal Anklets-2": {
+    "location": "Sanguine Halls",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Royal Anklets",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "cloaked": 1,
+      "sustenance": 1,
+      "unbreaking": 17,
+      "agility": 8.5
+    },
+    "lore": "The blood-soaked bracelets retain their\nshape even inside the nightmare, leaving\na trail of blood behind them."
+  },
+  "Royal Anklets-4": {
+    "location": "Sanguine Halls",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Royal Anklets",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "cloaked": 1,
+      "sustenance": 1,
+      "unbreaking": 25,
+      "agility": 9.5,
+      "speed_percent": 5
+    },
+    "lore": "The blood-soaked bracelets retain their\nshape even inside the nightmare, leaving\na trail of blood behind them."
+  },
+  "Soothing Starblood-1": {
+    "location": "Starpoint",
+    "masterwork": "1",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Soothing Starblood",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "mending": 1,
+      "regeneration": 2,
+      "triage": 2,
+      "unbreaking": 2,
+      "agility": 7.5
+    },
+    "lore": "In one's journey to seek out the stars, one\nmust also know the cost of their path."
+  },
+  "Soothing Starblood-4": {
+    "location": "Starpoint",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Soothing Starblood",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "mending": 1,
+      "regeneration": 3,
+      "triage": 2,
+      "unbreaking": 4,
+      "agility": 9.5
+    },
+    "lore": "In one's journey to seek out the stars, one\nmust also know the cost of their path."
+  },
+  "Soothing Starblood-2": {
+    "location": "Starpoint",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Soothing Starblood",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "mending": 1,
+      "regeneration": 2,
+      "triage": 2,
+      "unbreaking": 3,
+      "agility": 8.5
+    },
+    "lore": "In one's journey to seek out the stars, one\nmust also know the cost of their path."
+  },
+  "Soothing Starblood-3": {
+    "location": "Starpoint",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Soothing Starblood",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "mending": 1,
+      "regeneration": 2,
+      "triage": 2,
+      "unbreaking": 3,
+      "agility": 9
+    },
+    "lore": "In one's journey to seek out the stars, one\nmust also know the cost of their path."
+  },
+  "Queen's Sabatons": {
+    "location": "Royal Armory",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Queen's Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "feather_falling": 2,
+      "unbreakable": 1,
+      "projectile_protection": 2,
+      "armor": 3.5,
+      "attack_damage_percent": 15
+    },
+    "lore": "Isadora's heels clicked on the cold tiles of\nthe castle floor. Before her, the\nstrongest mages in the empire: the Mage's Council."
+  },
+  "King's Sabatons": {
+    "location": "Royal Armory",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "King's Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "feather_falling": 2,
+      "unbreakable": 1,
+      "projectile_protection": 2,
+      "armor": 3.5,
+      "attack_damage_percent": 15
+    },
+    "lore": "Johannes' feet stomped upon the deck of his longship.\nBehind him was nothing but memories and dust.\nBefore him, Kaulslund.\nA new home for his people."
+  },
+  "Imperial Boots": {
+    "location": "Corridors",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Imperial Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 2,
+      "unbreaking": 4,
+      "armor": 4,
+      "magic_damage_percent": 10
+    },
+    "lore": "History travels the road with those\nwho still remember it."
+  },
+  "Mechanized Treads": {
+    "location": "Forum",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Mechanized Treads",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "second_wind": 2,
+      "unbreaking": 5,
+      "magic_protection": 3,
+      "armor": 5,
+      "knockback_resistance_flat": 2
+    },
+    "lore": "You feel a prick, and see your blood\nrunning through the veins of the machinery.\nWhat madman built these?"
+  },
+  "Cursestone Boots": {
+    "location": "Cyan",
+    "region": "Isles",
+    "tier": "Uncommon",
+    "name": "Cursestone Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "fire_protection": 2,
+      "mending": 1,
+      "blast_protection": 2,
+      "armor": 5.5,
+      "thorns_flat": 3
+    }
+  },
+  "Aspiration": {
+    "location": "Cyan",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Aspiration",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 7,
+      "fire_protection": 3,
+      "inferno": 3,
+      "agility": 6.5
+    },
+    "lore": "He spilled the blood.\nFor his sacrifice, his dreams were actualized.\nSo too were his nightmares."
+  },
+  "Salazar's Spats": {
+    "location": "Lime",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Salazar's Spats",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "abyssal": 1,
+      "mending": 1,
+      "respiration": 2,
+      "depth_strider": 3,
+      "agility": 6,
+      "speed_percent": 5
+    },
+    "lore": "In the end, Salazar chose to flee rather\nthan face his folly. The great empire\nof Viridia sunk beneath the waves,\ndrowned forevermore."
+  },
+  "Goddess' Sandals": {
+    "location": "Mist",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Goddess' Sandals",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "sustenance": 2,
+      "unbreaking": 9,
+      "speed_percent": 10,
+      "magic_damage_percent": 5,
+      "armor": 7
+    },
+    "lore": "Ransacking and defiling our temples... Is\nnothing sacred to these sea rats?"
+  },
+  "Giant Sabatons": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Giant Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Become unstoppable."
+  },
+  "Blackflame Solleret": {
+    "location": "Remorseful Skin",
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Blackflame Solleret",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "sustenance": 2,
+      "unbreaking": 9,
+      "speed_percent": 10,
+      "magic_damage_percent": 5,
+      "armor": 7
+    },
+    "lore": "Ripped from the corpse of\na Blackflame Cultist, their\nlifeblood still stains the\nbone it is shaped from."
+  },
+  "Patinated Sabatons": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 2",
+    "name": "Patinated Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 2,
+      "unbreaking": 3,
+      "armor": 5,
+      "knockback_resistance_flat": 1.5
+    }
+  },
+  "Stalwart Boots": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 2",
+    "name": "Stalwart Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "projectile_protection": 1,
+      "unbreaking": 2,
+      "armor": 6,
+      "speed_percent": -5
+    }
+  },
+  "Phalanx's Sabatons": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 2",
+    "name": "Phalanx's Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 2,
+      "melee_protection": 2,
+      "projectile_protection": 1,
+      "armor": 3.5
+    }
+  },
+  "Rhinoceros Boots": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 3",
+    "name": "Rhinoceros Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 4,
+      "armor": 5,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 10
+    }
+  },
+  "Briskbronze Boots": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 3",
+    "name": "Briskbronze Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 3,
+      "armor": 4,
+      "agility": 4,
+      "speed_percent": 5
+    }
+  },
+  "Juggernaut's Sabatons": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 3",
+    "name": "Juggernaut's Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 3,
+      "melee_protection": 2,
+      "armor": 5
+    }
+  },
+  "Mercurial Sandals": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 5",
+    "name": "Mercurial Sandals",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 5,
+      "agility": 6.5,
+      "speed_percent": 10
+    }
+  },
+  "Golden Sun Boots": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 5",
+    "name": "Golden Sun Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "mending": 1,
+      "agility": 4,
+      "max_health_flat": 5
+    }
+  },
+  "Oracle's Sandals": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 5",
+    "name": "Oracle's Sandals",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 5,
+      "magic_protection": 1,
+      "tempo": 1,
+      "agility": 5
+    }
+  },
+  "Sentinel's Boots": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 1",
+    "name": "Sentinel's Boots",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 2,
+      "armor": 4
+    }
+  },
+  "Bastion's Chausse": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 4",
+    "name": "Bastion's Chausse",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 4,
+      "armor": 6,
+      "knockback_resistance_flat": 2.5
+    }
+  },
+  "Lemurian Flippers": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 4",
+    "name": "Lemurian Flippers",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 5,
+      "depth_strider": 2,
+      "agility": 6.5
+    }
+  },
+  "Bladedancer's Sabatons": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 4",
+    "name": "Bladedancer's Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 4,
+      "melee_protection": 3,
+      "agility": 5
+    }
+  },
   "Highwatch Pike": {
     "location": "Seasonal Pass",
     "region": "Valley",
@@ -9516,9 +10079,9 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 5,
       "duelist": 2,
       "two_handed": 1,
+      "unbreaking": 5,
       "attack_damage_base": 28,
       "attack_speed_base": 1.2,
       "projectile_damage_base": 32,
@@ -9536,9 +10099,9 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "knockback": 1,
       "smite": 3,
       "unbreaking": 2,
-      "knockback": 1,
       "attack_damage_base": 8,
       "attack_speed_base": 1.1,
       "projectile_damage_base": 11,
@@ -11492,7 +12055,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "Seldomly, a tree in the Wolfswood\nproduces a intense, red sap said to\nbe the anger of great wolf himself."
+    "lore": "Seldomly, a tree in the Wolfswood\nproduces an intense, red sap said to\nbe the anger of the great wolf himself."
   },
   "Dichen Energy Brew": {
     "name": "Dichen Energy Brew",
@@ -17679,8 +18242,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 9,
       "fire_protection": 2,
+      "unbreaking": 9,
       "agility": 6,
       "speed_percent": 15,
       "magic_damage_percent": 18
@@ -20073,8 +20636,8 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 4,
       "curse_of_corruption": 1,
+      "unbreaking": 4,
       "armor": 3,
       "max_health_flat": 6
     },
@@ -20830,11 +21393,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "slayer": 3,
-      "unbreakable": 1,
       "bleeding": 2,
       "decay": 3,
       "duelist": 3,
+      "slayer": 3,
+      "unbreakable": 1,
       "attack_damage_base": 16.5,
       "attack_speed_base": 0.9
     },
@@ -21792,9 +22355,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 2,
-      "mending": 1,
       "blast_protection": 1,
+      "mending": 1,
+      "unbreaking": 2,
       "armor": 6.5,
       "attack_damage_percent": 30
     },
@@ -26672,8 +27235,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "arcane_thrust": 3,
-      "unbreakable": 1,
       "sweeping_edge": 3,
+      "unbreakable": 1,
       "attack_speed_base": 1.8,
       "attack_damage_base": 11,
       "speed_percent": 10
@@ -27367,7 +27930,7 @@
     "stats": {
       "worldly_protection": 3
     },
-    "lore": "Rather than an eldritch disc infected\nby Faimynyw, Annilys has become the\nTeal Tesseract, powered by time itself.\nRight Click to enter Stasis.\nCooldown : 6m"
+    "lore": "Rather than an eldritch disc infected\nby Faimynyw, Annilys has become the\nTeal Tesseract, powered by time itself.\nRight Click or f to enter Stasis.\nCooldown : 6m"
   },
   "Sunken Holotape": {
     "name": "Sunken Holotape",
@@ -27388,7 +27951,7 @@
     "stats": {
       "worldly_protection": 3
     },
-    "lore": "Her touch distorts the mightiest of\npower. Her retreat leaves that power to\nbe claimed by those who truly need it.\nf while in mainhand to activate.\nCooldown : 6m"
+    "lore": "Her touch distorts the mightiest of\npower. Her retreat leaves that power to\nbe claimed by those who truly need it.\nRight Click or f to enter Stasis.\nCooldown : 6m"
   },
   "Sketched Crimson Contract": {
     "location": "Sketched",
@@ -27429,10 +27992,10 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "efficiency": 2,
+      "mending": 1,
       "silk_touch": 1,
       "unbreaking": 3,
-      "mending": 1,
-      "efficiency": 2,
       "speed_percent": 15,
       "attack_damage_base": 7,
       "attack_speed_base": 1
@@ -30666,7 +31229,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#QAFI04"
+    "lore": "Hunger (0:15)\nMemory (0:30)\n* Quest Item *\n#QAFI04"
   },
   "Vessel of Boons": {
     "location": "Architect's Ring",
@@ -31690,10 +32253,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "efficiency": 2,
+      "eruption": 3,
       "sapper": 2,
       "unbreaking": 5,
-      "eruption": 3,
-      "efficiency": 2,
       "thorns_flat": 6,
       "attack_damage_base": 4,
       "attack_speed_base": 1.2
@@ -36059,9 +36622,9 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "poise": 1,
-      "mending": 1,
       "adaptability": 1,
+      "mending": 1,
+      "poise": 1,
       "tempo": 1,
       "armor": 1.5,
       "agility": 1.5
@@ -36474,7 +37037,7 @@
     }
   },
   "Conduit Key": {
-    "location": "Celsian Isles",
+    "location": "Shifting",
     "region": "Isles",
     "tier": "Key",
     "name": "Conduit Key",
@@ -40562,9 +41125,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 4,
-      "projectile_protection": 1,
       "magic_protection": 3,
+      "projectile_protection": 1,
+      "unbreaking": 4,
       "armor": 8.5
     },
     "lore": "Reflected in its gem you see a massive\ntree, reaching toward the heavens."
@@ -41375,569 +41938,6 @@
     "base_item": "Golden Chestplate",
     "release_status": "public",
     "type": "Chestplate",
-    "stats": {
-      "unbreaking": 4,
-      "melee_protection": 3,
-      "agility": 5
-    }
-  },
-  "Riftwalker's Boots": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Tier 3",
-    "name": "Riftwalker's Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 7,
-      "tempo": 1,
-      "agility": 7.5
-    }
-  },
-  "Windblessed Boots": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Tier 2",
-    "name": "Windblessed Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 7,
-      "agility": 9,
-      "speed_percent": 5
-    }
-  },
-  "Footprints Beneath Void-4": {
-    "location": "Starpoint",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Footprints Beneath Void",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "first_strike": 3,
-      "magic_protection": 3,
-      "second_wind": 2,
-      "unbreaking": 25,
-      "attack_speed_percent": 18,
-      "armor": 7.5
-    },
-    "lore": "Something lived in the city by the emptiness\nonce. Whatever it once was had to be eliminated\nonce Uriddan commanded it..."
-  },
-  "Footprints Beneath Void-2": {
-    "location": "Starpoint",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Footprints Beneath Void",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "first_strike": 3,
-      "magic_protection": 2,
-      "second_wind": 2,
-      "unbreaking": 17,
-      "attack_speed_percent": 18,
-      "armor": 6.5
-    },
-    "lore": "Something lived in the city by the emptiness\nonce. Whatever it once was had to be eliminated\nonce Uriddan commanded it..."
-  },
-  "Footprints Beneath Void-3": {
-    "location": "Starpoint",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Footprints Beneath Void",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "first_strike": 3,
-      "magic_protection": 3,
-      "second_wind": 2,
-      "unbreaking": 20,
-      "attack_speed_percent": 18,
-      "armor": 6.5
-    },
-    "lore": "Something lived in the city by the emptiness\nonce. Whatever it once was had to be eliminated\nonce Uriddan commanded it..."
-  },
-  "Royal Anklets-3": {
-    "location": "Sanguine Halls",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Royal Anklets",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "cloaked": 1,
-      "sustenance": 1,
-      "unbreaking": 20,
-      "agility": 9
-    },
-    "lore": "The blood-soaked bracelets retain their\nshape even inside the nightmare, leaving\na trail of blood behind them."
-  },
-  "Royal Anklets-2": {
-    "location": "Sanguine Halls",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Royal Anklets",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "cloaked": 1,
-      "sustenance": 1,
-      "unbreaking": 17,
-      "agility": 8.5
-    },
-    "lore": "The blood-soaked bracelets retain their\nshape even inside the nightmare, leaving\na trail of blood behind them."
-  },
-  "Royal Anklets-4": {
-    "location": "Sanguine Halls",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Royal Anklets",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "cloaked": 1,
-      "sustenance": 1,
-      "unbreaking": 25,
-      "agility": 9.5,
-      "speed_percent": 5
-    },
-    "lore": "The blood-soaked bracelets retain their\nshape even inside the nightmare, leaving\na trail of blood behind them."
-  },
-  "Soothing Starblood-1": {
-    "location": "Starpoint",
-    "masterwork": "1",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Soothing Starblood",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "mending": 1,
-      "regeneration": 2,
-      "triage": 2,
-      "unbreaking": 2,
-      "agility": 7.5
-    },
-    "lore": "In one's journey to seek out the stars, one\nmust also know the cost of their path."
-  },
-  "Soothing Starblood-4": {
-    "location": "Starpoint",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Soothing Starblood",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "mending": 1,
-      "regeneration": 3,
-      "triage": 2,
-      "unbreaking": 4,
-      "agility": 9.5
-    },
-    "lore": "In one's journey to seek out the stars, one\nmust also know the cost of their path."
-  },
-  "Soothing Starblood-2": {
-    "location": "Starpoint",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Soothing Starblood",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "mending": 1,
-      "regeneration": 2,
-      "triage": 2,
-      "unbreaking": 3,
-      "agility": 8.5
-    },
-    "lore": "In one's journey to seek out the stars, one\nmust also know the cost of their path."
-  },
-  "Soothing Starblood-3": {
-    "location": "Starpoint",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Soothing Starblood",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "mending": 1,
-      "regeneration": 2,
-      "triage": 2,
-      "unbreaking": 3,
-      "agility": 9
-    },
-    "lore": "In one's journey to seek out the stars, one\nmust also know the cost of their path."
-  },
-  "Queen's Sabatons": {
-    "location": "Royal Armory",
-    "region": "Valley",
-    "tier": "Epic",
-    "name": "Queen's Sabatons",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "feather_falling": 2,
-      "unbreakable": 1,
-      "projectile_protection": 2,
-      "armor": 3.5,
-      "attack_damage_percent": 15
-    },
-    "lore": "Isadora's heels clicked on the cold tiles of\nthe castle floor. Before her, the\nstrongest mages in the empire: the Mage's Council."
-  },
-  "King's Sabatons": {
-    "location": "Royal Armory",
-    "region": "Valley",
-    "tier": "Epic",
-    "name": "King's Sabatons",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "feather_falling": 2,
-      "unbreakable": 1,
-      "projectile_protection": 2,
-      "armor": 3.5,
-      "attack_damage_percent": 15
-    },
-    "lore": "Johannes' feet stomped upon the deck of his longship.\nBehind him was nothing but memories and dust.\nBefore him, Kaulslund.\nA new home for his people."
-  },
-  "Imperial Boots": {
-    "location": "Corridors",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Imperial Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "blast_protection": 2,
-      "unbreaking": 4,
-      "armor": 4,
-      "magic_damage_percent": 10
-    },
-    "lore": "History travels the road with those\nwho still remember it."
-  },
-  "Mechanized Treads": {
-    "location": "Forum",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Mechanized Treads",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "second_wind": 2,
-      "unbreaking": 5,
-      "magic_protection": 3,
-      "armor": 5,
-      "knockback_resistance_flat": 2
-    },
-    "lore": "You feel a prick, and see your blood\nrunning through the veins of the machinery.\nWhat madman built these?"
-  },
-  "Cursestone Boots": {
-    "location": "Cyan",
-    "region": "Isles",
-    "tier": "Uncommon",
-    "name": "Cursestone Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "fire_protection": 2,
-      "mending": 1,
-      "blast_protection": 2,
-      "armor": 5.5,
-      "thorns_flat": 3
-    }
-  },
-  "Aspiration": {
-    "location": "Cyan",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Aspiration",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 7,
-      "fire_protection": 3,
-      "inferno": 3,
-      "agility": 6.5
-    },
-    "lore": "He spilled the blood.\nFor his sacrifice, his dreams were actualized.\nSo too were his nightmares."
-  },
-  "Salazar's Spats": {
-    "location": "Lime",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Salazar's Spats",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "abyssal": 1,
-      "mending": 1,
-      "respiration": 2,
-      "depth_strider": 3,
-      "agility": 6,
-      "speed_percent": 5
-    },
-    "lore": "In the end, Salazar chose to flee rather\nthan face his folly. The great empire\nof Viridia sunk beneath the waves,\ndrowned forevermore."
-  },
-  "Goddess' Sandals": {
-    "location": "Mist",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Goddess' Sandals",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "sustenance": 2,
-      "unbreaking": 9,
-      "speed_percent": 10,
-      "magic_damage_percent": 5,
-      "armor": 7
-    },
-    "lore": "Ransacking and defiling our temples... Is\nnothing sacred to these sea rats?"
-  },
-  "Giant Sabatons": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Giant Sabatons",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "Become unstoppable."
-  },
-  "Blackflame Solleret": {
-    "location": "Remorseful Skin",
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Blackflame Solleret",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "sustenance": 2,
-      "unbreaking": 9,
-      "speed_percent": 10,
-      "magic_damage_percent": 5,
-      "armor": 7
-    },
-    "lore": "Ripped from the corpse of\na Blackflame Cultist, their\nlifeblood still stains the\nbone it is shaped from."
-  },
-  "Patinated Sabatons": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 2",
-    "name": "Patinated Sabatons",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "blast_protection": 2,
-      "unbreaking": 3,
-      "armor": 5,
-      "knockback_resistance_flat": 1.5
-    }
-  },
-  "Stalwart Boots": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 2",
-    "name": "Stalwart Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "projectile_protection": 1,
-      "unbreaking": 2,
-      "armor": 6,
-      "speed_percent": -5
-    }
-  },
-  "Phalanx's Sabatons": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 2",
-    "name": "Phalanx's Sabatons",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 2,
-      "melee_protection": 2,
-      "projectile_protection": 1,
-      "armor": 3.5
-    }
-  },
-  "Rhinoceros Boots": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 3",
-    "name": "Rhinoceros Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 4,
-      "armor": 5,
-      "attack_speed_percent": 10,
-      "attack_damage_percent": 10
-    }
-  },
-  "Briskbronze Boots": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 3",
-    "name": "Briskbronze Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "armor": 4,
-      "agility": 4,
-      "speed_percent": 5
-    }
-  },
-  "Juggernaut's Sabatons": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 3",
-    "name": "Juggernaut's Sabatons",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 5
-    }
-  },
-  "Mercurial Sandals": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 5",
-    "name": "Mercurial Sandals",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 5,
-      "agility": 6.5,
-      "speed_percent": 10
-    }
-  },
-  "Golden Sun Boots": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 5",
-    "name": "Golden Sun Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "mending": 1,
-      "agility": 4,
-      "max_health_flat": 5
-    }
-  },
-  "Oracle's Sandals": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 5",
-    "name": "Oracle's Sandals",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 5,
-      "magic_protection": 1,
-      "tempo": 1,
-      "agility": 5
-    }
-  },
-  "Sentinel's Boots": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 1",
-    "name": "Sentinel's Boots",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 2,
-      "armor": 4
-    }
-  },
-  "Bastion's Chausse": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 4",
-    "name": "Bastion's Chausse",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 4,
-      "armor": 6,
-      "knockback_resistance_flat": 2.5
-    }
-  },
-  "Lemurian Flippers": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 4",
-    "name": "Lemurian Flippers",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 5,
-      "depth_strider": 2,
-      "agility": 6.5
-    }
-  },
-  "Bladedancer's Sabatons": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 4",
-    "name": "Bladedancer's Sabatons",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
     "stats": {
       "unbreaking": 4,
       "melee_protection": 3,
@@ -45618,9 +45618,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 5,
-      "evasion": 1,
       "curse_of_crippling": 2,
+      "evasion": 1,
+      "unbreaking": 5,
       "agility": 6,
       "max_health_flat": 2,
       "magic_damage_percent": 10,
@@ -46864,9 +46864,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "depth_strider": 1,
       "feather_falling": 1,
       "mending": 1,
-      "depth_strider": 1,
       "tempo": 2,
       "speed_percent": -10,
       "agility": 4.5
@@ -48535,9 +48535,9 @@
     "type": "Leggings",
     "stats": {
       "adaptability": 1,
-      "unbreaking": 4,
       "ethereal": 1,
       "regeneration": 1,
+      "unbreaking": 4,
       "armor": 5,
       "speed_percent": 10
     },
@@ -49138,9 +49138,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 7,
       "inferno": 2,
       "magic_protection": 1,
+      "unbreaking": 7,
       "armor": 7,
       "attack_damage_percent": 10
     },
@@ -52030,7 +52030,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#QAFI03"
+    "lore": "* Quest Item *\n#QAFI03\nI, Captain Indigo, will not set sail today at least."
   },
   "Sand Sticker": {
     "location": "Fishing",
@@ -53525,7 +53525,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#QAFI05"
+    "lore": "* Quest Item *\n#QAFI05\nCast into the Wind to speak to the Breeze..."
   },
   "Soul Thread": {
     "location": "Soulwoven",
@@ -53752,7 +53752,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#QAFI06"
+    "lore": "* Quest Item *\n#QAFI06\nYou want to read it so badly..."
   },
   "Thank You Note": {
     "location": "April's Fools",
@@ -55669,6 +55669,13 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q30I01"
   },
+  "Breeze Magic": {
+    "name": "Breeze Magic",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
   "Copy of Notes": {
     "location": "King's Valley",
     "region": "Valley",
@@ -55883,7 +55890,7 @@
   "Apartments Dev Note": {
     "location": "Valley Overworld",
     "region": "Valley",
-    "tier": "Uncommon",
+    "tier": "Legacy",
     "name": "Apartments Dev Note",
     "base_item": "Written Book",
     "release_status": "public",
@@ -56873,6 +56880,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Used for skinning items\nto match one's own greed."
+  },
+  "Summoning Crystal": {
+    "location": "Shifting",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Summoning Crystal",
+    "base_item": "Yellow Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "When used within the halls of the City,\nthis crystal can summon Cornifer to\nyour location.\nActivated by Right Click while holding."
   },
   "Essence of Greed": {
     "location": "Celsian Isles",
@@ -59796,9 +59814,9 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "quick_charge": 2,
       "regicide": 1,
       "unbreaking": 4,
-      "quick_charge": 2,
       "projectile_speed_base": 1.2,
       "projectile_damage_base": 18
     },
@@ -60303,6 +60321,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Rigged\nWho needs luck when you can cheat?"
+  },
+  "Energetic Powder": {
+    "location": "Shifting",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Energetic Powder",
+    "base_item": "Light Blue Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Drop this in to the waters of the first room to\nenvelop the remaining power crystals in spectral light."
   },
   "Crystalline Chip": {
     "location": "Isles Casino",
@@ -62131,8 +62160,8 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 4,
       "evasion": 1,
+      "unbreaking": 4,
       "projectile_damage_percent": 20,
       "agility": 5
     },
@@ -74149,6 +74178,9 @@
     }
   },
   "Magisolve Crystal": {
+    "location": "Shifting",
+    "region": "Isles",
+    "tier": "Key",
     "name": "Magisolve Crystal",
     "base_item": "Purple Dye",
     "release_status": "public",
