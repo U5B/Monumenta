@@ -37,8 +37,8 @@
     "release_status": "public",
     "stats": {
       "chain_lightning_knockback_percent": 40,
-      "chain_lightning_charges_flat": 1,
-      "chain_lightning_targets_flat": 1
+      "chain_healing_wave_targets_flat": 2,
+      "chain_lightning_charges_flat": 1
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -6044,7 +6044,7 @@
     "type": "Chestplate",
     "stats": {
       "blast_protection": 2,
-      "unbreaking": 2,
+      "unbreaking": 4,
       "max_health_flat": -4,
       "attack_damage_percent": 20,
       "agility": 5.5
@@ -6060,7 +6060,7 @@
     "type": "Chestplate",
     "stats": {
       "blast_protection": 2,
-      "unbreaking": 2,
+      "unbreaking": 4,
       "max_health_flat": -4,
       "attack_damage_percent": 20,
       "agility": 5.5
@@ -6917,12 +6917,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "curse_of_crippling": 1,
       "guard": 2,
       "mending": 1,
       "unbreaking": 4,
-      "knockback_resistance_flat": 2.5,
-      "attack_damage_percent": 20,
-      "armor": 4
+      "knockback_resistance_flat": 6,
+      "armor": 6
     },
     "lore": "Worship of the broodmother is absolute.\nThose who do not offer veneration find\nthemselves useful in more delicious ways."
   },
@@ -6936,12 +6936,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "curse_of_crippling": 1,
       "guard": 2,
       "mending": 1,
       "unbreaking": 4,
-      "knockback_resistance_flat": 2.5,
-      "armor": 4,
-      "attack_damage_percent": 25
+      "armor": 7,
+      "knockback_resistance_flat": 7
     },
     "lore": "Worship of the broodmother is absolute.\nThose who do not offer veneration find\nthemselves useful in more delicious ways."
   },
@@ -7399,9 +7399,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 3,
       "projectile_protection": 1,
       "regeneration": 2,
+      "unbreaking": 4,
       "agility": 3,
       "max_health_flat": -2
     },
@@ -8389,8 +8389,8 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 8,
       "fire_protection": 4,
+      "unbreaking": 10,
       "agility": 6.5,
       "speed_percent": 15,
       "projectile_damage_percent": 10
@@ -9979,8 +9979,8 @@
     "type": "Boots",
     "stats": {
       "mending": 1,
-      "agility": 4,
-      "max_health_flat": 5
+      "max_health_flat": 5,
+      "armor": 4
     }
   },
   "Oracle's Sandals": {
@@ -10310,13 +10310,11 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "abyssal": 1,
-      "earth_aspect": 2,
       "riptide": 2,
+      "technique": 2,
       "unbreaking": 6,
-      "attack_speed_base": 1.2,
-      "knockback_resistance_flat": 3,
-      "attack_damage_base": 17.5
+      "attack_damage_base": 15.5,
+      "attack_speed_base": 1.3
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -10330,13 +10328,12 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "abyssal": 2,
-      "earth_aspect": 2,
+      "magic_protection": 1,
       "riptide": 2,
+      "technique": 3,
       "unbreaking": 6,
-      "attack_speed_base": 1.2,
-      "knockback_resistance_flat": 4,
-      "attack_damage_base": 19
+      "attack_damage_base": 17,
+      "attack_speed_base": 1.3
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -10350,13 +10347,12 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "abyssal": 1,
-      "earth_aspect": 2,
+      "magic_protection": 1,
       "riptide": 2,
+      "technique": 2,
       "unbreaking": 6,
-      "attack_speed_base": 1.2,
-      "knockback_resistance_flat": 4,
-      "attack_damage_base": 18
+      "attack_damage_base": 16,
+      "attack_speed_base": 1.3
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -10370,13 +10366,12 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "abyssal": 1,
-      "earth_aspect": 2,
+      "magic_protection": 1,
       "riptide": 2,
+      "technique": 2,
       "unbreaking": 6,
-      "attack_speed_base": 1.2,
-      "knockback_resistance_flat": 4,
-      "attack_damage_base": 18.5
+      "attack_damage_base": 16.5,
+      "attack_speed_base": 1.3
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -10487,7 +10482,7 @@
     "stats": {
       "bleeding": 1,
       "decay": 2,
-      "first_strike": 1,
+      "first_strike": 2,
       "unbreaking": 6,
       "projectile_speed_base": 1,
       "attack_speed_base": 1,
@@ -10509,6 +10504,7 @@
     "stats": {
       "bleeding": 1,
       "decay": 1,
+      "first_strike": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1,
       "attack_speed_base": 1,
@@ -10530,6 +10526,7 @@
     "stats": {
       "bleeding": 1,
       "decay": 2,
+      "first_strike": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1,
       "attack_speed_base": 1,
@@ -10551,6 +10548,7 @@
     "stats": {
       "bleeding": 1,
       "decay": 2,
+      "first_strike": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1,
       "attack_speed_base": 1,
@@ -10815,7 +10813,8 @@
       "attack_speed_base": 1.3,
       "projectile_damage_base": 22,
       "projectile_speed_base": 0.8,
-      "throw_rate_base": 0.8
+      "throw_rate_base": 0.8,
+      "speed_percent": 10
     },
     "lore": "A replica of a cursed but powerful\nspear. Static energy surrounds\nyou as you hold it."
   },
@@ -13558,6 +13557,23 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Vigor of the Tlaxans": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "name": "Vigor of the Tlaxans",
+    "effects": [
+      {
+        "EffectDuration": 18000,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Warriors on the move were expected to\nnot rest until nightfall, when there was no\nchoice but to make camp. Failing to keep\npace meant being abandoned to the beasts\nand diseases of the tangled undergrowth."
+  },
   "Minor Healing Potion": {
     "location": "King's Valley",
     "region": "Valley",
@@ -13605,6 +13621,23 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Energizing Octli": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "name": "Energizing Octli",
+    "effects": [
+      {
+        "EffectDuration": 18000,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "During the long struggle between the Narsens and\nTlaxans, there was no greater killer than the\njungle itself. The Tlaxans knew this, and prepared\ncountermeasures such as this fermented\nenergy drink which wards off biting insects."
   },
   "Strength Potion": {
     "location": "King's Valley",
@@ -15721,7 +15754,7 @@
     "type": "Leggings",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 2,
+      "unbreaking": 4,
       "max_health_flat": -4,
       "agility": 6.5,
       "attack_speed_percent": 25
@@ -15737,7 +15770,7 @@
     "type": "Leggings",
     "stats": {
       "projectile_protection": 2,
-      "unbreaking": 2,
+      "unbreaking": 4,
       "max_health_flat": -4,
       "agility": 6.5,
       "attack_speed_percent": 25
@@ -17008,8 +17041,8 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 3,
       "fire_protection": 1,
+      "unbreaking": 4,
       "armor": 2.5,
       "max_health_flat": 2
     },
@@ -17880,9 +17913,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 3,
-      "projectile_protection": 3,
       "magic_protection": 2,
+      "projectile_protection": 3,
+      "unbreaking": 4,
       "agility": 2.5
     },
     "lore": "We will remember them,\nwe who are left."
@@ -21362,8 +21395,8 @@
     "type": "Helmet",
     "stats": {
       "mending": 1,
-      "agility": 4,
-      "max_health_flat": 5
+      "max_health_flat": 5,
+      "armor": 4
     }
   },
   "Siren's Serenade": {
@@ -21646,7 +21679,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "adrenaline": 2,
+      "adrenaline": 1,
       "life_drain": 1,
       "unbreaking": 5,
       "attack_speed_base": 0.9,
@@ -21664,7 +21697,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "adrenaline": 2,
+      "adrenaline": 1,
       "life_drain": 1,
       "sustenance": 1,
       "unbreaking": 7,
@@ -21683,7 +21716,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "adrenaline": 2,
+      "adrenaline": 1,
       "life_drain": 1,
       "unbreaking": 4,
       "attack_speed_base": 0.9,
@@ -21701,7 +21734,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "adrenaline": 2,
+      "adrenaline": 1,
       "life_drain": 1,
       "unbreaking": 5,
       "attack_speed_base": 0.9,
@@ -21719,7 +21752,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "adrenaline": 2,
+      "adrenaline": 1,
       "life_drain": 1,
       "unbreaking": 6,
       "attack_speed_base": 0.9,
@@ -21927,7 +21960,7 @@
       "shielding": 1,
       "unbreakable": 1,
       "attack_speed_base": 0.6,
-      "attack_damage_base": 20
+      "attack_damage_base": 21.5
     },
     "lore": "Such battle fierce, the storm did\nrage, then swift the axe did fall.\nLord Alric stumbled from the rift,\nfor he had slain them all."
   },
@@ -22568,7 +22601,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 4,
       "max_health_flat": -4,
       "speed_percent": 12,
       "knockback_resistance_flat": 6,
@@ -22584,7 +22617,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 2,
+      "unbreaking": 4,
       "max_health_flat": -4,
       "speed_percent": 12,
       "knockback_resistance_flat": 6,
@@ -24319,7 +24352,7 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 8,
+      "unbreaking": 11,
       "agility": 6,
       "magic_damage_percent": 15
     },
@@ -24383,9 +24416,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "blast_protection": 3,
+      "depth_strider": 1,
       "feather_falling": 1,
       "mending": 1,
-      "blast_protection": 3,
+      "unbreaking": 2,
       "speed_percent": 5,
       "agility": 9
     },
@@ -24682,7 +24717,7 @@
     "type": "Boots",
     "stats": {
       "magic_protection": 1,
-      "unbreaking": 8,
+      "unbreaking": 11,
       "armor": 6,
       "projectile_damage_percent": 15
     },
@@ -30538,8 +30573,8 @@
     "type": "Helmet",
     "stats": {
       "feather_falling": 2,
-      "unbreaking": 3,
       "fire_protection": 2,
+      "unbreaking": 4,
       "armor": 2.5,
       "knockback_resistance_flat": 1
     },
@@ -31346,7 +31381,7 @@
     "lore": "It emanates a vile aura."
   },
   "Experience Flask": {
-    "location": "Valley Overworld",
+    "location": "King's Valley",
     "region": "Valley",
     "tier": "Artifact",
     "name": "Experience Flask",
@@ -33156,12 +33191,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "curse_of_anemia": 2,
+      "curse_of_anemia": 1,
       "unbreakable": 1,
       "attack_speed_percent": -15,
       "max_health_percent": 10,
       "attack_damage_percent": 55,
-      "agility": 6.5
+      "agility": 6
     },
     "lore": "After Markus' mother died, he was expelled from the manor.\nPelias' lack of use for him saved him from consumption.\nDespite his failure, the Architect had spared him.\nHe would spend the rest of his life in penance."
   },
@@ -33175,12 +33210,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "curse_of_anemia": 2,
+      "curse_of_anemia": 1,
       "unbreakable": 1,
       "attack_speed_percent": -15,
       "max_health_percent": 10,
       "attack_damage_percent": 60,
-      "agility": 6.5
+      "agility": 6
     },
     "lore": "After Markus' mother died, he was expelled from the manor.\nPelias' lack of use for him saved him from consumption.\nDespite his failure, the Architect had spared him.\nHe would spend the rest of his life in penance."
   },
@@ -33194,12 +33229,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "curse_of_anemia": 2,
+      "curse_of_anemia": 1,
       "unbreakable": 1,
       "attack_speed_percent": -15,
       "max_health_percent": 10,
-      "agility": 7,
-      "attack_damage_percent": 65
+      "attack_damage_percent": 65,
+      "agility": 6.5
     },
     "lore": "After Markus' mother died, he was expelled from the manor.\nPelias' lack of use for him saved him from consumption.\nDespite his failure, the Architect had spared him.\nHe would spend the rest of his life in penance."
   },
@@ -39629,7 +39664,7 @@
       "stamina": 2,
       "unbreaking": 7,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 14
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -39648,7 +39683,7 @@
       "stamina": 1,
       "unbreaking": 4,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 12
+      "attack_damage_base": 12.5
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -39667,7 +39702,7 @@
       "stamina": 1,
       "unbreaking": 5,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 12.5
+      "attack_damage_base": 13
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -39686,7 +39721,7 @@
       "stamina": 1,
       "unbreaking": 6,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 14
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -40003,6 +40038,7 @@
     "type": "Scythe",
     "stats": {
       "melee_protection": 2,
+      "unbreaking": 2,
       "attack_damage_base": 5.5,
       "attack_speed_base": 2
     },
@@ -40923,7 +40959,7 @@
     "type": "Helmet",
     "stats": {
       "melee_protection": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "armor": 4.5,
       "attack_damage_percent": 20,
       "attack_speed_percent": 20
@@ -41141,8 +41177,8 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 3,
       "inferno": 2,
+      "unbreaking": 4,
       "magic_damage_percent": 12,
       "agility": 5.5
     },
@@ -41547,9 +41583,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 4,
       "fire_protection": 1,
       "projectile_protection": 1,
+      "unbreaking": 6,
       "armor": 7,
       "speed_percent": 15
     },
@@ -41869,8 +41905,8 @@
     "type": "Chestplate",
     "stats": {
       "mending": 1,
-      "agility": 4,
-      "max_health_flat": 5
+      "max_health_flat": 5,
+      "armor": 4
     }
   },
   "Oracle's Vestments": {
@@ -44290,7 +44326,7 @@
       "fire_aspect": 1,
       "magic_protection": 1,
       "thunder_aspect": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "attack_damage_base": 5,
       "attack_speed_base": 2
     },
@@ -47371,6 +47407,17 @@
     },
     "lore": "A giant tooth, ripped bare from its\nscaly owner. Its inner magic\nleaks ominously."
   },
+  "Femur of the Blackflame": {
+    "location": "Remorse",
+    "region": "Isles",
+    "tier": "Trophy",
+    "name": "Femur of the Blackflame",
+    "base_item": "Bone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Sevvet parted the shroud, the pocket\nof void they had crafted for their\nmission. He gazed down upon his prize,\nproof of their success to present to\nThe Architect. Surely, he thought to\nhimself, he would soon find himself\nhome once again, training with the\ndragons amongst His presence."
+  },
   "Dragonbone Key": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -48246,9 +48293,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "reflexes": 1,
-      "unbreaking": 2,
       "melee_protection": 2,
+      "reflexes": 1,
+      "unbreaking": 3,
       "agility": 4
     },
     "lore": "Once owned by a professor of wind magic,\nthe greaves were lost in a levitation mishap,\nthen found in a separate one."
@@ -49260,8 +49307,8 @@
     "type": "Leggings",
     "stats": {
       "mending": 1,
-      "agility": 4,
-      "max_health_flat": 5
+      "max_health_flat": 5,
+      "armor": 4
     }
   },
   "Oracle's Greaves": {
@@ -51929,6 +51976,17 @@
     "stats": {},
     "lore": "Once, it was tossed into the\ndepths for luck. Now, perhaps\nit can be used for something\nmore..."
   },
+  "Piece of Hate": {
+    "location": "Mist",
+    "region": "Isles",
+    "tier": "Trophy",
+    "name": "Piece of Hate",
+    "base_item": "Sunflower",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "As the stranger progressed through\nthe temple, reaching its inner most\ndepths, Varcosa's soul could feel the\nshackles that had long binded him fall\naway. Had it been done? Had someone\ntruly claimed The Corsair, tearing it\nfrom the anchor that gave it dominion\nhere? The time had come for him to\nleave. He must scour the Veil and find\nhis crew. They needed their captain."
+  },
   "Viridian Den": {
     "location": "Shifting",
     "region": "Isles",
@@ -53138,11 +53196,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "curse_of_crippling": 1,
       "second_wind": 2,
       "attack_speed_base": 0.9,
       "attack_damage_base": 19,
-      "spell_power_base": 75
+      "spell_power_base": 70
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -53156,11 +53213,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "curse_of_crippling": 1,
       "second_wind": 1,
-      "spell_power_base": 65,
       "attack_damage_base": 18,
-      "attack_speed_base": 0.9
+      "attack_speed_base": 0.9,
+      "spell_power_base": 60
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -53174,11 +53230,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "curse_of_crippling": 1,
       "second_wind": 2,
-      "spell_power_base": 70,
       "attack_damage_base": 19,
-      "attack_speed_base": 0.9
+      "attack_speed_base": 0.9,
+      "spell_power_base": 65
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -53192,11 +53247,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "curse_of_crippling": 1,
       "second_wind": 1,
-      "spell_power_base": 70,
       "attack_damage_base": 18.5,
-      "attack_speed_base": 0.9
+      "attack_speed_base": 0.9,
+      "spell_power_base": 65
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -53538,6 +53592,17 @@
     "stats": {},
     "lore": "XXXXX XXXX : Currency\nSoulwoven\nA strand of Soul energy, found in\nall things. Its form can be woven\ninto nearly any material.\nLeft Click while holding to compress once.\nLeft Click + Sneak while holding to compress all."
   },
+  "Blue-Colored Thread": {
+    "location": "Ruin",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Blue-Colored Thread",
+    "base_item": "String",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An incident like with Teal could not be\nallowed to occur again. Clearly, Calder\nthought, there are things unknown to\nthe scribes of history. Secrets within\nsecrets that have been scrubbed\nfrom the world's eye. The imprisoned\nones are more than proof of this.\nBut he must persist regardless, as\nnothing can truly be indestructable.\nWhatever method it may take to rid the\nworld of them, he will find it."
+  },
   "Silver Strings": {
     "location": "Ruin",
     "region": "Ring",
@@ -53684,13 +53749,13 @@
   "Golden Strand": {
     "location": "Sanctum",
     "region": "Valley",
-    "tier": "Legacy",
+    "tier": "Trophy",
     "name": "Golden Strand",
     "base_item": "String",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "It whispers with power long lost."
+    "lore": "C'Axtal bore witness to the secret\nKaul had been hiding from his people,\na god that had gone unknown to them.\nEnraged by the betrayal of his chosen\nSoulspeaker, to whom he had bestowed\nhis blessings, Kaul woke. Ta'Ferna\nwould burn for this sin."
   },
   "Snow Wool Strand": {
     "location": "Celsian Isles",
@@ -53969,7 +54034,7 @@
     "base_item": "Book",
     "release_status": "public",
     "stats": {
-      "voodoo_bonds_received_damage_percent": -60,
+      "voodoo_bonds_received_damage_percent": -40,
       "voodoo_bonds_cooldown_percent": -40,
       "voodoo_bonds_transfer_time_limit_percent": -100
     },
@@ -58028,7 +58093,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Lesser Charm of Insight",
-    "power": 1,
+    "power": 2,
     "base_item": "Ender Eye",
     "release_status": "public",
     "stats": {
@@ -63961,7 +64026,7 @@
     "release_status": "public",
     "stats": {
       "deadly_ronde_damage_percent": 10,
-      "deadly_ronde_angle_percent": 200
+      "deadly_ronde_angle_percent": 100
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -64096,6 +64161,21 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Hexcrafted Siphon": {
+    "location": "Blue",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Hexcrafted Siphon",
+    "power": 1,
+    "base_item": "Amethyst Cluster",
+    "release_status": "public",
+    "stats": {
+      "amplifying_hex_enhancement_health_threshold_percent": -15,
+      "amplifying_hex_enhancement_damage_bonus_percent": 10
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
   },
   "Distant Charm of Mana": {
     "location": "Architect's Ring",
@@ -64303,9 +64383,9 @@
     "base_item": "Large Amethyst Bud",
     "release_status": "public",
     "stats": {
-      "blade_dance_radius_percent": 35,
-      "blade_dance_root_duration_flat": 1.5,
-      "blade_dance_cooldown_percent": 35
+      "blade_dance_radius_percent": 50,
+      "blade_dance_root_duration_flat": 1,
+      "blade_dance_cooldown_percent": 25
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -64849,7 +64929,7 @@
     "release_status": "public",
     "stats": {
       "blizzard_duration_flat": 20,
-      "blizzard_damage_percent": -70,
+      "blizzard_damage_percent": -90,
       "blizzard_slowness_amplifier_percent": -10
     },
     "type": "Charm",
@@ -65236,13 +65316,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Echo of the Beast",
-    "power": 5,
+    "power": 4,
     "base_item": "Black Dye",
     "release_status": "public",
     "stats": {
       "bodkin_blitz_stealth_duration_flat": 1,
       "cloak_and_dagger_stealth_duration_flat": 0.5,
-      "bodkin_blitz_distance_percent": 25
+      "bodkin_blitz_distance_percent": 10
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -65565,6 +65645,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Epic Crafting Material"
+  },
+  "Corrupted Remnant": {
+    "location": "PORTAL",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Corrupted Remnant",
+    "base_item": "Raw Copper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Iota scoured her data banks, seeking\nthe source of the corruption that\nhad taken her mind and freedom from\nher. It seemed to have left no trace,\nuntil she noticed a small, seemingly\nnegligable blip of energy within her.\nIt whispered in an inaudible tone, the\nwords incomprehensible. But... it was\nwas almost as if she could make out\nthe repeated use of \"Neo\"..."
   },
   "Gears of the King": {
     "location": "Brown",
@@ -69982,6 +70073,17 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q01I01"
   },
+  "Depleted Shard": {
+    "location": "Verdant",
+    "region": "Valley",
+    "tier": "Trophy",
+    "name": "Depleted Shard",
+    "base_item": "Flint",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The shard no longer pulses with the\nmalevolent energy it once held, its\npower having been dispersed by\nR'Kitxet's sacrifice. Oddly, it faintly\nnudges eastward as it rests in your\npalm, as if it wishes to reunite with\na greater whole in some far off land."
+  },
   "Silvic Instrument": {
     "name": "Silvic Instrument",
     "base_item": "Flint",
@@ -72295,20 +72397,6 @@
     "type": "Charm",
     "class_name": "Scout"
   },
-  "Molldyer's Inferno": {
-    "location": "Blue",
-    "region": "Ring",
-    "tier": "Epic",
-    "name": "Molldyer's Inferno",
-    "power": 1,
-    "base_item": "Blaze Powder",
-    "release_status": "public",
-    "stats": {
-      "choleric_flames_enhancement_radius_percent": 100
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
   "Lesser Rage Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -73564,6 +73652,7 @@
     "stats": {
       "blade_dance_damage_percent": 30,
       "blade_dance_cooldown_percent": -50,
+      "blade_dance_radius_percent": -30,
       "blade_dance_root_duration_flat": -1,
       "blade_dance_resistance_duration_flat": -0.5
     },
@@ -75269,12 +75358,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Spring-Loaded Sheath",
-    "power": 2,
+    "power": 1,
     "base_item": "Leather",
     "release_status": "public",
     "stats": {
-      "dagger_throw_daggers_flat": 4,
-      "dagger_throw_cooldown_percent": -10
+      "dagger_throw_daggers_flat": 3,
+      "dagger_throw_damage_percent": 10,
+      "dagger_throw_range_percent": -20
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -75952,22 +76042,29 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
-  "Copper Furnace": {
+  "Copper Relay Unit": {
     "location": "Brown",
     "region": "Ring",
     "tier": "Rare",
-    "name": "Copper Furnace",
-    "power": 5,
-    "base_item": "Cut Copper",
+    "name": "Copper Relay Unit",
+    "power": 2,
+    "base_item": "Repeater",
     "release_status": "public",
     "stats": {
-      "choleric_flames_cooldown_percent": -50,
-      "choleric_flames_duration_flat": 7,
-      "choleric_flames_damage_percent": -100,
-      "inferno_damage_percent": -10
+      "restless_souls_debuff_radius_flat": 2.5,
+      "restless_souls_debuff_duration_flat": 2.5,
+      "restless_souls_damage_percent": -10
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Cloudpiercer Fork": {
+    "name": "Cloudpiercer Fork",
+    "base_item": "Repeater",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A part of a complicated mechanism\nwith an unknown purpose.\n* Quest Item *\n#Q44I02"
   },
   "Explosive Counter Charm": {
     "location": "Architect's Ring",
@@ -77093,7 +77190,6 @@
     "base_item": "Snow Block",
     "release_status": "public",
     "stats": {
-      "blizzard_damage_percent": 10,
       "blizzard_range_percent": 30,
       "blizzard_cooldown_percent": -10
     },
@@ -78336,14 +78432,6 @@
       "material": 1
     },
     "lore": "With every ruin of man\nplants will soon take back\nwhat was originally theirs."
-  },
-  "Cloudpiercer Fork": {
-    "name": "Cloudpiercer Fork",
-    "base_item": "Repeater",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A part of a complicated mechanism\nwith an unknown purpose.\n* Quest Item *\n#Q44I02"
   },
   "Polished Jade": {
     "location": "King's Valley",
