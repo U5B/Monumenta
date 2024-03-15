@@ -37,7 +37,7 @@
     "release_status": "public",
     "stats": {
       "chain_lightning_knockback_percent": 40,
-      "chain_healing_wave_targets_flat": 2,
+      "chain_lightning_targets_flat": 2,
       "chain_lightning_charges_flat": 1
     },
     "type": "Charm",
@@ -53819,7 +53819,18 @@
     "stats": {},
     "lore": "* Quest Item *\n#QAFI06\nYou want to read it so badly..."
   },
-  "Thank You Note": {
+  "Thank You Note (paper)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Trophy",
+    "name": "Thank You Note",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A thank you note delivered to\nyou by a proud Delivery Man."
+  },
+  "Thank You Note (book)": {
     "location": "April's Fools",
     "region": "Valley",
     "tier": "Event",
@@ -69668,8 +69679,8 @@
       "quake": 2,
       "shielding": 1,
       "unbreakable": 1,
-      "attack_damage_base": 20,
-      "attack_speed_base": 0.6
+      "attack_speed_base": 0.6,
+      "attack_damage_base": 21.5
     },
     "lore": "It wants more.\nMore than what you can offer.\nIt wants everything."
   },

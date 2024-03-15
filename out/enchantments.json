@@ -361,7 +361,7 @@
   },
   "inferno": {
     "name": "Inferno",
-    "description": "When you ignite an enemy, they take level^0.9 extra damage once a second for the initial duration of the fire.",
+    "description": "When you ignite an enemy, they take level^0.95 extra damage once a second for the initial duration of the fire.",
     "category": "Weapons"
   },
   "infinity": {
@@ -531,7 +531,7 @@
   },
   "poise": {
     "name": "Poise",
-    "description": "Gain (Level*20%) effective Armor when above 90% Max Health.",
+    "description": "Gain (Level*20%) effective Armor when above 90% Max Health. Half of the bonus is granted when above 70% Max Health.",
     "category": "Defenses"
   },
   "projectilefragility": {
@@ -721,7 +721,7 @@
   },
   "steadfast": {
     "name": "Steadfast",
-    "description": "Gain 0.33% Armor per 1% health lost, up to 20% Armor.",
+    "description": "Gain (0.33% * Level) Armor per 1% health lost, up to (20% * Level) Armor.",
     "category": "Defenses"
   },
   "sustenance": {
@@ -736,7 +736,7 @@
   },
   "technique": {
     "name": "Technique",
-    "description": "When damaging a mob within 2.5 blocks, deal 10 * level % more magic and melee ability (not physical) damage, and 7.5 * level % more projectile damage.",
+    "description": "When damaging a mob within 3 blocks, deal 10 * level % more magic and melee ability (not physical) damage, and 7.5 * level % more projectile damage.",
     "category": "Weapons"
   },
   "tempo": {
