@@ -836,6 +836,17 @@
     "stats": {},
     "lore": "\"As I approached the massive tree near\nthe end of a grove, reality seemed to shift.\nGrass, flowers, plants, even the creatures\naround me began to wither and die.\""
   },
+  "Vinetangled Poppet": {
+    "location": "Yellow",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Vinetangled Poppet",
+    "base_item": "Wither Rose",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Thrash and tangle, little poppet.\nHurt our foes until we stop it.\nBeasts in the canopy will chitter\nAs we stalk through the leaf litter.\nPurchase of this item will grant you a full set of\ncosmetic skills for Warlock and its specializations."
+  },
   "Twisted Luciae": {
     "name": "Twisted Luciae",
     "base_item": "Wither Rose",
@@ -22290,9 +22301,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "chaotic": 25,
       "thunder_aspect": 1,
       "unbreakable": 1,
-      "chaotic": 25,
       "attack_speed_base": 1.6
     },
     "lore": "Victory or Destruction? The ancient power\nof randomness chooses no sides."
@@ -25027,7 +25038,7 @@
       "attack_damage_percent": 15,
       "armor": 7.5
     },
-    "lore": "Akin to a raging current, twisting back and\nand forth. This grim transfer of power\nremains ageless, like the primordial ocean,\nand the sweet release of death."
+    "lore": "Akin to a raging current, twisting back\nand forth. This grim transfer of power\nremains ageless, like the primordial ocean,\nand the sweet release of death."
   },
   "Striking Torrent-2": {
     "location": "Marina Noir",
@@ -25045,7 +25056,7 @@
       "attack_damage_percent": 10,
       "armor": 7.5
     },
-    "lore": "Akin to a raging current, twisting back and\nand forth. This grim transfer of power\nremains ageless, like the primordial ocean,\nand the sweet release of death."
+    "lore": "Akin to a raging current, twisting back\nand forth. This grim transfer of power\nremains ageless, like the primordial ocean,\nand the sweet release of death."
   },
   "Striking Torrent-4": {
     "location": "Marina Noir",
@@ -25063,7 +25074,7 @@
       "armor": 7.5,
       "attack_damage_percent": 18
     },
-    "lore": "Akin to a raging current, twisting back and\nand forth. This grim transfer of power\nremains ageless, like the primordial ocean,\nand the sweet release of death."
+    "lore": "Akin to a raging current, twisting back\nand forth. This grim transfer of power\nremains ageless, like the primordial ocean,\nand the sweet release of death."
   },
   "Umbral Robe": {
     "location": "King's Valley",
@@ -75385,7 +75396,7 @@
     "base_item": "Leather",
     "release_status": "public",
     "stats": {
-      "dagger_throw_daggers_flat": 3,
+      "dagger_throw_daggers_flat": 4,
       "dagger_throw_damage_percent": 10,
       "dagger_throw_range_percent": -20
     },
@@ -80629,6 +80640,56 @@
     },
     "lore": "The item seem to resonate under the\nnight sky. What secrets does it hold?"
   },
+  "Odious Husk": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Odious Husk",
+    "base_item": "Dried Kelp",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Ingredient"
+  },
+  "Food Ration": {
+    "name": "Food Ration",
+    "base_item": "Dried Kelp",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q129I02"
+  },
+  "Fraying Veil": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Fraying Veil",
+    "base_item": "Dried Kelp",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1,
+      "gills": 1
+    },
+    "lore": "You can hold it, yet it does not\nseem to be truly there..."
+  },
+  "Glacial Cabbage": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Glacial Cabbage",
+    "base_item": "Dried Kelp",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "knockback": 1,
+      "ice_aspect": 2,
+      "infinity": 1,
+      "armor": 3,
+      "knockback_resistance_flat": 3
+    },
+    "lore": "It's shiny and crystalline,\nbut has a frigid cold to it."
+  },
   "Signal Flare - Leafstorm": {
     "name": "Signal Flare - Leafstorm",
     "base_item": "Firework Rocket",
@@ -80894,45 +80955,6 @@
       "attack_speed_base": 1
     },
     "lore": "From shoar to shoar, no one\nwood dare oppose you."
-  },
-  "Food Ration": {
-    "name": "Food Ration",
-    "base_item": "Dried Kelp",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q129I02"
-  },
-  "Fraying Veil": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Unique",
-    "name": "Fraying Veil",
-    "base_item": "Dried Kelp",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1,
-      "gills": 1
-    },
-    "lore": "You can hold it, yet it does not\nseem to be truly there..."
-  },
-  "Glacial Cabbage": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Glacial Cabbage",
-    "base_item": "Dried Kelp",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "knockback": 1,
-      "ice_aspect": 2,
-      "infinity": 1,
-      "armor": 3,
-      "knockback_resistance_flat": 3
-    },
-    "lore": "It's shiny and crystalline,\nbut has a frigid cold to it."
   },
   "Tesseract of Pestilence": {
     "location": "Celsian Isles",
