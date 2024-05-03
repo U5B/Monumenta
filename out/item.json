@@ -1328,7 +1328,7 @@
     "release_status": "public",
     "stats": {
       "judgement_chain_cooldown_percent": -30,
-      "judgement_chain_damage_percent": -20
+      "judgement_chain_debuff_duration_percent": -100
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -14400,12 +14400,12 @@
     "type": "Mainhand Sword",
     "stats": {
       "bleeding": 2,
-      "unbreaking": 2,
-      "mending": 1,
       "decay": 3,
       "efficiency": 3,
+      "mending": 1,
+      "unbreaking": 2,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 11.5
+      "attack_damage_base": 10.5
     },
     "lore": "Precise hits mean nothing with\na rapier this sharp."
   },
@@ -53599,7 +53599,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "An incident like with Teal could not be\nallowed to occur again. Clearly, Calder\nthought, there are things unknown to\nthe scribes of history. Secrets within\nsecrets that have been scrubbed\nfrom the world's eye. The imprisoned\nones are more than proof of this.\nBut he must persist regardless, as\nnothing can truly be indestructable.\nWhatever method it may take to rid the\nworld of them, he will find it."
+    "lore": "An incident like with Teal could not be\nallowed to occur again. Clearly, Calder\nthought, there are things unknown to\nthe scribes of history. Secrets within\nsecrets that have been scrubbed\nfrom the world's eye. The imprisoned\nones are more than proof of this.\nBut he must persist regardless, as\nnothing can truly be indestructible.\nWhatever method it may take to rid the\nworld of them, he will find it."
   },
   "Silver Strings": {
     "location": "Ruin",
@@ -54045,7 +54045,8 @@
     "stats": {
       "voodoo_bonds_received_damage_percent": -40,
       "voodoo_bonds_cooldown_percent": -40,
-      "voodoo_bonds_transfer_time_limit_percent": -100
+      "voodoo_bonds_protection_duration_percent": 50,
+      "voodoo_bonds_curse_duration_percent": -100
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -60824,7 +60825,7 @@
       "shield_wall_damage_percent": 250,
       "shield_wall_cooldown_percent": -65,
       "shield_wall_duration_percent": -65,
-      "shield_wall_radius_percent": -45
+      "shield_wall_radius_percent": -20
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -73352,9 +73353,9 @@
     "base_item": "Clock",
     "release_status": "public",
     "stats": {
-      "voodoo_bonds_transfer_time_limit_percent": -40,
-      "voodoo_bonds_radius_percent": 50,
-      "voodoo_bonds_transfer_damage_percent": 20,
+      "voodoo_bonds_curse_duration_percent": -50,
+      "voodoo_bonds_curse_radius_percent": 50,
+      "voodoo_bonds_curse_death_damage_percent": 20,
       "voodoo_bonds_cooldown_percent": -20
     },
     "type": "Charm",
@@ -75286,8 +75287,8 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "judgement_chain_damage_percent": 5,
-      "judgement_chain_cooldown_percent": -20
+      "judgement_chain_cooldown_percent": -15,
+      "judgement_chain_debuff_duration_flat": 0.5
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -75301,8 +75302,8 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "judgement_chain_damage_percent": 20,
-      "judgement_chain_buff_duration_flat": 2
+      "judgement_chain_slowness_amplifier_percent": 10,
+      "judgement_chain_weakness_amplifier_percent": 10
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -75316,8 +75317,8 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "judgement_chain_damage_percent": 10,
-      "judgement_chain_range_percent": 50
+      "judgement_chain_range_percent": 50,
+      "judgement_chain_extra_target_radius_percent": 50
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -75331,8 +75332,8 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "judgement_chain_damage_percent": 10,
-      "judgement_chain_buff_duration_flat": 1
+      "judgement_chain_slowness_amplifier_percent": 5,
+      "judgement_chain_weakness_amplifier_percent": 5
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -77961,8 +77962,8 @@
     "base_item": "Jack O Lantern",
     "release_status": "public",
     "stats": {
-      "voodoo_bonds_transfer_time_limit_flat": 1,
-      "voodoo_bonds_radius_percent": 50
+      "voodoo_bonds_pin_range_percent": 50,
+      "voodoo_bonds_curse_radius_percent": 50
     },
     "type": "Charm",
     "class_name": "Warlock"
