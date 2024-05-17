@@ -9412,6 +9412,25 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Spectre Potion": {
+    "name": "Spectre Potion",
+    "effects": [
+      {
+        "EffectDuration": 9600,
+        "EffectStrength": 1,
+        "EffectType": "NightVision"
+      },
+      {
+        "EffectDuration": 9600,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Cheap Beer": {
     "name": "Cheap Beer",
     "effects": [
@@ -9623,6 +9642,7 @@
   },
   "Totem of Undying Extract": {
     "location": "Arena of Terth",
+    "region": "Valley",
     "name": "Totem of Undying Extract",
     "effects": [
       {
@@ -9666,6 +9686,7 @@
   },
   "Goddess Brew": {
     "location": "Arena of Terth",
+    "region": "Valley",
     "name": "Goddess Brew",
     "effects": [
       {
@@ -9692,6 +9713,7 @@
   },
   "Greater Swift Mixture": {
     "location": "Arena of Terth",
+    "region": "Valley",
     "name": "Greater Swift Mixture",
     "effects": [
       {
@@ -9713,6 +9735,7 @@
   },
   "Swift Mixture": {
     "location": "Arena of Terth",
+    "region": "Valley",
     "name": "Swift Mixture",
     "effects": [
       {
@@ -10508,69 +10531,6 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Swamp Goo": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "name": "Swamp Goo",
-    "effects": [
-      {
-        "EffectDuration": 120,
-        "EffectStrength": 0,
-        "EffectType": "Nausea"
-      },
-      {
-        "EffectDuration": 1200,
-        "EffectStrength": 0,
-        "EffectType": "WaterBreath"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Water Lily Mixture": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "name": "Water Lily Mixture",
-    "effects": [
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.1,
-        "EffectType": "InstantDamagePercent"
-      },
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 0.6,
-        "EffectType": "Speed"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Red Mushroom Tincture": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "name": "Red Mushroom Tincture",
-    "effects": [
-      {
-        "EffectDuration": 900,
-        "EffectStrength": 0.15,
-        "EffectType": "Slow"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 0.2,
-        "EffectType": "damage"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
   "Potion of Masterful Agility": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -10585,6 +10545,37 @@
         "EffectDuration": 18000,
         "EffectStrength": 2,
         "EffectType": "JumpBoost"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Ragebrew": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Ragebrew",
+    "effects": [
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
       }
     ],
     "base_item": "Potion",
@@ -10778,6 +10769,97 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Light Roast": {
+    "name": "Light Roast",
+    "effects": [
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Caffinated Cream": {
+    "name": "Caffinated Cream",
+    "effects": [
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Swamp Goo": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Swamp Goo",
+    "effects": [
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0,
+        "EffectType": "Nausea"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0,
+        "EffectType": "WaterBreath"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Red Mushroom Tincture": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Red Mushroom Tincture",
+    "effects": [
+      {
+        "EffectDuration": 900,
+        "EffectStrength": 0.15,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "damage"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Water Lily Mixture": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Water Lily Mixture",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantDamagePercent"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.6,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Bastion's Brew": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -10825,6 +10907,24 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Supreme Light Roast": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Supreme Light Roast",
+    "effects": [
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Coffee Cat Cafe's Coffee"
+  },
   "Potion of Agility": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -10845,6 +10945,39 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Caramel Mocha": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Caramel Mocha",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Very Dark Roast": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Very Dark Roast",
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Coffee Cat Cafe's Coffee"
   },
   "Fisherman's Folly": {
     "location": "Valley Overworld",
@@ -10881,6 +11014,32 @@
         "EffectDuration": 1,
         "EffectStrength": 0.3,
         "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Black Cat Brew": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Black Cat Brew",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "BadLuck"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 6,
+        "EffectType": "JumpBoost"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.15,
+        "EffectType": "Resistance"
       }
     ],
     "base_item": "Potion",
@@ -11075,6 +11234,27 @@
     "type": "Consumable",
     "stats": {},
     "lore": "* Quest Item *\n#Q104I03\nIt's the quenchiest!"
+  },
+  "Fresh Salty Swill": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Fresh Salty Swill",
+    "effects": [
+      {
+        "EffectDuration": 800,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
   },
   "Deadly Poison": {
     "name": "Deadly Poison",
@@ -11310,41 +11490,15 @@
     },
     "lore": "Imbued with the power of the depths,\nyou can sense a strange, bubbling\nbreathing issuing from the vial."
   },
-  "Gate's Ale": {
+  "Depth Lurker": {
     "location": "Isles Overworld",
     "region": "Isles",
-    "name": "Gate's Ale",
+    "name": "Depth Lurker",
     "effects": [
       {
-        "EffectDuration": 600,
-        "EffectStrength": 0.2,
-        "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 0.4,
-        "EffectType": "Speed"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Fast Forward": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "Fast Forward",
-    "effects": [
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.6,
-        "EffectType": "Speed"
-      },
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.3,
-        "EffectType": "FallResistance"
+        "EffectDuration": 10800,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
       }
     ],
     "base_item": "Potion",
@@ -11383,15 +11537,25 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Brittle-Ice Brew": {
+  "Blur Brew": {
     "location": "Isles Overworld",
     "region": "Isles",
-    "name": "Brittle-Ice Brew",
+    "name": "Blur Brew",
     "effects": [
       {
-        "EffectDuration": 9600,
-        "EffectStrength": 0.3,
-        "EffectType": "KnockbackResist"
+        "EffectDuration": 800,
+        "EffectStrength": 0.6,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 800,
+        "EffectStrength": 3,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 800,
+        "EffectStrength": 3,
+        "EffectType": "JumpBoost"
       }
     ],
     "base_item": "Potion",
@@ -11399,15 +11563,20 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Depth Lurker": {
+  "Fast Forward": {
     "location": "Isles Overworld",
     "region": "Isles",
-    "name": "Depth Lurker",
+    "name": "Fast Forward",
     "effects": [
       {
-        "EffectDuration": 10800,
-        "EffectStrength": 1,
-        "EffectType": "WaterBreath"
+        "EffectDuration": 3600,
+        "EffectStrength": 0.6,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.3,
+        "EffectType": "FallResistance"
       }
     ],
     "base_item": "Potion",
@@ -11441,6 +11610,75 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Rose Wine": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Rose Wine",
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "MaxHealthIncrease"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "A single rose petal floats\non top of the wine."
+  },
+  "Myriad's Martini": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Myriad's Martini",
+    "effects": [
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileDamage"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Rakija": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Rakija",
+    "effects": [
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 3,
+        "EffectType": "Haste"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Charger's Lager": {
     "location": "Isles Overworld",
     "region": "Isles",
@@ -11457,15 +11695,88 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Sea Gills": {
+  "River's Malt": {
     "location": "Isles Overworld",
     "region": "Isles",
-    "name": "Sea Gills",
+    "name": "River's Malt",
     "effects": [
       {
-        "EffectDuration": 12000,
+        "EffectDuration": 1200,
         "EffectStrength": 1,
-        "EffectType": "WaterBreath"
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.2,
+        "EffectType": "MaxHealthIncrease"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Royalty's Stout": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Royalty's Stout",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "MiningFatigue"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.2,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Golden Ale": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Golden Ale",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 2,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Gate's Ale": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Gate's Ale",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
       }
     ],
     "base_item": "Potion",
@@ -11493,6 +11804,279 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Brittle-Ice Brew": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Brittle-Ice Brew",
+    "effects": [
+      {
+        "EffectDuration": 9600,
+        "EffectStrength": 0.3,
+        "EffectType": "KnockbackResist"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Shulker's Essence": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "tier": "Uncommon",
+    "name": "Shulker's Essence",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.2,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Shulker Soul": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "tier": "Uncommon",
+    "name": "Shulker Soul",
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.2,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.6,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Health Pot": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Health Pot",
+    "effects": [
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 0.1,
+        "EffectType": "MaxHealthIncrease"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {
+      "instant_drink": 1
+    },
+    "lore": "This can't be good for me,\nbut I feel great!"
+  },
+  "Sea Gills": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Sea Gills",
+    "effects": [
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Fever Buster": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Fever Buster",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.3,
+        "EffectType": "KnockbackResist"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "You'll be so cold, even fire\nwill feel lukewarm."
+  },
+  "Saltwater Pint": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Saltwater Pint",
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 1,
+        "EffectType": "NightVision"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Enderpox": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Enderpox",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.1,
+        "EffectType": "Weakness"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.1,
+        "EffectType": "Weakness"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Perfect counter to Creeperpox.\nWarning: Results may vary."
+  },
+  "Pirate's Brew": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Pirate's Brew",
+    "effects": [
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Crow's Nest Concoction": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Crow's Nest Concoction",
+    "effects": [
+      {
+        "EffectDuration": 1600,
+        "EffectStrength": 0.2,
+        "EffectType": "ProjectileDamage"
+      },
+      {
+        "EffectDuration": 1600,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 1600,
+        "EffectStrength": 1,
+        "EffectType": "NightVision"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "The Ex-Wife": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "The Ex-Wife",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 3,
+        "EffectType": "Hunger"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 3,
+        "EffectType": "Wither"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "BadLuck"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Blindness"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Perfect for when you need\nan excuse to miss work."
+  },
+  "Hangover Cure": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Hangover Cure",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.2,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {
+      "instant_drink": 1
+    },
+    "lore": "For nights when you hit the\npub a tad too hard."
   },
   "Empowered Azure Mixture": {
     "location": "Celsian Isles",
@@ -11624,253 +12208,6 @@
         "EffectDuration": 3000,
         "EffectStrength": 1,
         "EffectType": "Haste"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Rose Wine": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "Rose Wine",
-    "effects": [
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.1,
-        "EffectType": "MaxHealthIncrease"
-      },
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.1,
-        "EffectType": "Resistance"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {},
-    "lore": "A single rose petal floats\non top of the wine."
-  },
-  "Fever Buster": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "Fever Buster",
-    "effects": [
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 0.3,
-        "EffectType": "KnockbackResist"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {},
-    "lore": "You'll be so cold, even fire\nwill feel lukewarm."
-  },
-  "Enderpox": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "Enderpox",
-    "effects": [
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 0.1,
-        "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 0.1,
-        "EffectType": "Weakness"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 0.1,
-        "EffectType": "Weakness"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {},
-    "lore": "Perfect counter to Creeperpox.\nWarning: Results may vary."
-  },
-  "Hangover Cure": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "Hangover Cure",
-    "effects": [
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
-        "EffectDuration": 400,
-        "EffectStrength": 2,
-        "EffectType": "Regeneration"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {
-      "instant_drink": 1
-    },
-    "lore": "For nights when you hit the\npub a tad too hard."
-  },
-  "Shulker Soul": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "tier": "Uncommon",
-    "name": "Shulker Soul",
-    "effects": [
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.2,
-        "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.6,
-        "EffectType": "InstantHealthPercent"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "The Ex-Wife": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "The Ex-Wife",
-    "effects": [
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 3,
-        "EffectType": "Hunger"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 3,
-        "EffectType": "Wither"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 1,
-        "EffectType": "BadLuck"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 1,
-        "EffectType": "Blindness"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {},
-    "lore": "Perfect for when you need\nan excuse to miss work."
-  },
-  "Health Pot": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "Health Pot",
-    "effects": [
-      {
-        "EffectDuration": 12000,
-        "EffectStrength": 0.1,
-        "EffectType": "MaxHealthIncrease"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {
-      "instant_drink": 1
-    },
-    "lore": "This can't be good for me,\nbut I feel great!"
-  },
-  "Blur Brew": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "Blur Brew",
-    "effects": [
-      {
-        "EffectDuration": 800,
-        "EffectStrength": 0.6,
-        "EffectType": "Speed"
-      },
-      {
-        "EffectDuration": 800,
-        "EffectStrength": 3,
-        "EffectType": "Haste"
-      },
-      {
-        "EffectDuration": 800,
-        "EffectStrength": 3,
-        "EffectType": "JumpBoost"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Black Cat Brew": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "name": "Black Cat Brew",
-    "effects": [
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 1,
-        "EffectType": "BadLuck"
-      },
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 6,
-        "EffectType": "JumpBoost"
-      },
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 0.15,
-        "EffectType": "Resistance"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Shulker's Essence": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "tier": "Uncommon",
-    "name": "Shulker's Essence",
-    "effects": [
-      {
-        "EffectDuration": 1200,
-        "EffectStrength": 0.2,
-        "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
       }
     ],
     "base_item": "Potion",
@@ -24080,8 +24417,8 @@
       "projectile_protection": 2,
       "unbreaking": 4,
       "max_health_flat": -4,
-      "agility": 6.5,
-      "attack_speed_percent": 25
+      "attack_speed_percent": 25,
+      "agility": 6
     }
   },
   "Plague Bearer's Soiled Trousers": {
@@ -35975,9 +36312,8 @@
     "lore": "The ritual was complete. The blood\nprice was paid. Astaroth had become\na part of the wool. Nay, Astaroth\nand the wool were the same now. There\nwas no separation. They were one."
   },
   "Healing Bomb": {
-    "location": "King's Valley",
+    "location": "Arena of Terth",
     "region": "Valley",
-    "tier": "Legacy",
     "name": "Healing Bomb",
     "base_item": "Lingering Potion",
     "release_status": "public",
@@ -37047,20 +37383,13 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Potion of Greater Salvation": {
-    "location": "Isles Overworld",
-    "region": "Isles",
-    "name": "Potion of Greater Salvation",
+  "Firecloak Vial": {
+    "name": "Firecloak Vial",
     "effects": [
       {
-        "EffectDuration": 200,
-        "EffectStrength": 2,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 3600,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
       }
     ],
     "base_item": "Splash Potion",
@@ -37284,6 +37613,7 @@
   },
   "Arena Extinguisher": {
     "location": "Arena of Terth",
+    "region": "Valley",
     "name": "Arena Extinguisher",
     "effects": [
       {
@@ -37615,6 +37945,27 @@
         "EffectDuration": 1,
         "EffectStrength": 0.4,
         "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Divine Potion of Protection": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Divine Potion of Protection",
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.5,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 0.1,
+        "EffectType": "MagicResistance"
       }
     ],
     "base_item": "Splash Potion",
@@ -38063,6 +38414,28 @@
     },
     "lore": "A few golden doubloons are left in the\notherwise empty sack. Simply reaching\nwithin fills your mind with a desire for more."
   },
+  "Inner Flame": {
+    "location": "Docks",
+    "region": "Isles",
+    "name": "Inner Flame",
+    "effects": [
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Kindle my soul, make my\nflames rise from within."
+  },
   "Pineapple Extract": {
     "location": "Docks",
     "region": "Isles",
@@ -38093,6 +38466,27 @@
         "EffectDuration": 400,
         "EffectStrength": 1,
         "EffectType": "VanillaFireRes"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Potion of Greater Salvation": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "name": "Potion of Greater Salvation",
+    "effects": [
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
       }
     ],
     "base_item": "Splash Potion",
@@ -38240,28 +38634,6 @@
     "type": "Consumable",
     "stats": {},
     "lore": "Despite the Empire's claimed aversion\nto magic, most healers choose the\npragmatic solution when time is short."
-  },
-  "Inner Flame": {
-    "location": "Docks",
-    "region": "Isles",
-    "name": "Inner Flame",
-    "effects": [
-      {
-        "EffectDuration": 400,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 400,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {},
-    "lore": "Kindle my soul, make my\nflames rise from within."
   },
   "Dragonrage Brew": {
     "location": "Remorse",
@@ -54733,6 +55105,98 @@
     "stats": {},
     "lore": "It emanates a sickly sweet scent."
   },
+  "Kingfruit": {
+    "name": "Kingfruit",
+    "effects": [
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "Heal"
+      }
+    ],
+    "base_item": "Golden Apple",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Energetic Fruit": {
+    "location": "Ring Casino",
+    "region": "Ring",
+    "name": "Energetic Fruit",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 3,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Golden Apple",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Jungle's Boon": {
+    "location": "Kaul",
+    "region": "Valley",
+    "name": "Jungle's Boon",
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileResistance"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "BlastResistance"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "MagicResistance"
+      }
+    ],
+    "base_item": "Golden Apple",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Twisted Pome": {
+    "location": "Delves",
+    "region": "Isles",
+    "name": "Twisted Pome",
+    "effects": [
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Golden Apple",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Jungle Research Notes": {
     "name": "Jungle Research Notes",
     "base_item": "Written Book",
@@ -65673,7 +66137,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Iota scoured her data banks, seeking\nthe source of the corruption that\nhad taken her mind and freedom from\nher. It seemed to have left no trace,\nuntil she noticed a small, seemingly\nnegligable blip of energy within her.\nIt whispered in an inaudible tone, the\nwords incomprehensible. But... it was\nwas almost as if she could make out\nthe repeated use of \"Neo\"..."
+    "lore": "Iota scoured her data banks, seeking\nthe source of the corruption that\nhad taken her mind and freedom from\nher. It seemed to have left no trace,\nuntil she noticed a small, seemingly\nnegligable blip of energy within her.\nIt whispered in an inaudible tone, the\nwords incomprehensible. But... it was\nalmost as if she could make out the\nrepeated use of \"Neo\"..."
   },
   "Gears of the King": {
     "location": "Brown",
@@ -73513,98 +73977,6 @@
     },
     "type": "Charm",
     "class_name": "Generalist"
-  },
-  "Energetic Fruit": {
-    "location": "Ring Casino",
-    "region": "Ring",
-    "name": "Energetic Fruit",
-    "effects": [
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 3,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 0.1,
-        "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 0.2,
-        "EffectType": "Speed"
-      }
-    ],
-    "base_item": "Golden Apple",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Kingfruit": {
-    "name": "Kingfruit",
-    "effects": [
-      {
-        "EffectDuration": 2400,
-        "EffectStrength": 0.2,
-        "EffectType": "Absorption"
-      },
-      {
-        "EffectDuration": 600,
-        "EffectStrength": 0.2,
-        "EffectType": "Heal"
-      }
-    ],
-    "base_item": "Golden Apple",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Jungle's Boon": {
-    "location": "Kaul",
-    "region": "Valley",
-    "name": "Jungle's Boon",
-    "effects": [
-      {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.1,
-        "EffectType": "ProjectileResistance"
-      },
-      {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.1,
-        "EffectType": "BlastResistance"
-      },
-      {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.1,
-        "EffectType": "MagicResistance"
-      }
-    ],
-    "base_item": "Golden Apple",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Twisted Pome": {
-    "location": "Delves",
-    "region": "Isles",
-    "name": "Twisted Pome",
-    "effects": [
-      {
-        "EffectDuration": 2400,
-        "EffectStrength": 0.2,
-        "EffectType": "Absorption"
-      },
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 2,
-        "EffectType": "Regeneration"
-      }
-    ],
-    "base_item": "Golden Apple",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
   },
   "Magical Azalea": {
     "location": "Blue",
