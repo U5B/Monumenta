@@ -36611,6 +36611,8 @@
     "stats": {}
   },
   "Potion of Fortitude": {
+    "location": "The Wolfswood",
+    "region": "Ring",
     "name": "Potion of Fortitude",
     "effects": [
       {
@@ -36630,6 +36632,8 @@
     "stats": {}
   },
   "Potion of Alacrity": {
+    "location": "The Wolfswood",
+    "region": "Ring",
     "name": "Potion of Alacrity",
     "effects": [
       {
@@ -36649,6 +36653,8 @@
     "stats": {}
   },
   "Potion of Potency": {
+    "location": "The Wolfswood",
+    "region": "Ring",
     "name": "Potion of Potency",
     "effects": [
       {
@@ -76411,7 +76417,15 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
-  "Event Horizon": {
+  "Event Horizon (written book)": {
+    "name": "Event Horizon",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I09"
+  },
+  "Event Horizon (orange_glazed_terracotta)": {
     "location": "Sanguine Halls",
     "region": "Ring",
     "tier": "Rare",
@@ -81669,7 +81683,7 @@
     "stats": {
       "material": 1
     },
-    "lore": "You can see a slight seeps of black,\ndripping in and out of existance."
+    "lore": "You can see slight seeps of black,\ndripping in and out of existance."
   },
   "Broken Beyond": {
     "location": "Mist",
