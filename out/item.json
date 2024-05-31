@@ -12305,12 +12305,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "starvation": 5,
       "infinity": 1,
+      "starvation": 5,
       "armor": 3,
       "speed_percent": 10
     },
-    "lore": "Starvation V\nInfinity\nCelsian Isles : Patron Made\nAnd the Sun swallowed me."
+    "lore": "And the Sun swallowed me."
   },
   "Consuming Elixir": {
     "location": "Transmogrifier",
@@ -12328,10 +12328,10 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {
-      "starvation": 10,
-      "infinity": 1
+      "infinity": 1,
+      "starvation": 10
     },
-    "lore": "Starvation X\nInfinity\nCelsian Isles : Rare\nTransmogrifier\nThe elixir twitches and bubbles."
+    "lore": "The elixir twitches and bubbles."
   },
   "Elixir of Bountiful Sunlight": {
     "location": "Depths",
@@ -14076,6 +14076,67 @@
       "armor": 6
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Irrus' Memory-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Irrus' Memory",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adaptability": 1,
+      "life_drain": 1,
+      "magic_protection": 1,
+      "melee_protection": 2,
+      "unbreakable": 1,
+      "speed_percent": 10,
+      "armor": 6.5
+    },
+    "lore": "What does it mean to be alive? Is it\nflesh? Blood? Is it a pulsing core\nwithin your chest? In Irrus' final\nmoments, she realized... It is not the\nArchitect by which she defined her\nlife, but her own memories."
+  },
+  "Irrus' Memory-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Irrus' Memory",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adaptability": 1,
+      "life_drain": 1,
+      "magic_protection": 2,
+      "melee_protection": 2,
+      "unbreakable": 1,
+      "speed_percent": 10,
+      "armor": 6.5
+    },
+    "lore": "What does it mean to be alive? Is it\nflesh? Blood? Is it a pulsing core\nwithin your chest? In Irrus' final\nmoments, she realized... It is not the\nArchitect by which she defined her\nlife, but her own memories."
+  },
+  "Irrus' Memory-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Irrus' Memory",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adaptability": 1,
+      "aptitude": 1,
+      "life_drain": 1,
+      "magic_protection": 2,
+      "melee_protection": 2,
+      "unbreakable": 1,
+      "speed_percent": 10,
+      "armor": 6.5
+    },
+    "lore": "What does it mean to be alive? Is it\nflesh? Blood? Is it a pulsing core\nwithin your chest? In Irrus' final\nmoments, she realized... It is not the\nArchitect by which she defined her\nlife, but her own memories."
   },
   "Soulcopper Defender-2": {
     "location": "Brown",
@@ -23124,6 +23185,23 @@
       "agility": 2
     },
     "lore": "The claws of a jaguar.\nThe soul of the jungle."
+  },
+  "Irrus' Brace": {
+    "location": "Quest Reward",
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Irrus' Brace",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adaptability": 1,
+      "life_drain": 1,
+      "unbreakable": 1,
+      "speed_percent": 10,
+      "armor": 6.5
+    },
+    "lore": "The intricate crafting has been\nseverely worn by ages of decay\nwithin the Veil. It would take someone\nexceptionally knowledgeable in its\ndesign in order to repair it."
   },
   "Rootstrike": {
     "location": "Celsian Isles",
@@ -55251,6 +55329,14 @@
     "type": "Written Book",
     "stats": {}
   },
+  "The Third Vault": {
+    "name": "The Third Vault",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "Some research notes on\nan underwater vault."
+  },
   "The Otherworldly": {
     "name": "The Otherworldly",
     "base_item": "Written Book",
@@ -55360,6 +55446,14 @@
     "type": "Written Book",
     "stats": {},
     "lore": "* Quest Item *\n#Q31I04"
+  },
+  "Singularity": {
+    "name": "Singularity",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I10"
   },
   "Struck Down": {
     "name": "Struck Down",
@@ -55822,12 +55916,28 @@
     "type": "Written Book",
     "stats": {}
   },
+  "Construct Log I": {
+    "name": "Construct Log I",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "A documented account extracted\nfrom the construct's databank."
+  },
   "Chronicles of Hekawt, Vol. 5": {
     "name": "Chronicles of Hekawt, Vol. 5",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "Construct Log II": {
+    "name": "Construct Log II",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "A documented account extracted\nfrom the construct's databank."
   },
   "Chronicles of Hekawt, Vol. 4": {
     "name": "Chronicles of Hekawt, Vol. 4",
@@ -55891,6 +56001,14 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "Construct Log III": {
+    "name": "Construct Log III",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "A documented account extracted\nfrom the construct's databank."
   },
   "Chronicles of Hekawt, Vol. 6": {
     "name": "Chronicles of Hekawt, Vol. 6",
@@ -56439,6 +56557,22 @@
     "stats": {},
     "lore": "I wouldn't want to be on the\nother side of that quill.\n* Quest Item *\n#Q107I03"
   },
+  "Aleph Null, Vol. 6": {
+    "name": "Aleph Null, Vol. 6",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I06"
+  },
+  "Aleph Null, Vol. 2": {
+    "name": "Aleph Null, Vol. 2",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I02"
+  },
   "Apartments Dev Note": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -56448,6 +56582,14 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "Aleph Null, Vol. 7": {
+    "name": "Aleph Null, Vol. 7",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I07"
   },
   "Ancient Writings": {
     "base_item": "Written Book",
@@ -56463,6 +56605,14 @@
     "type": "Written Book",
     "stats": {}
   },
+  "Aleph Null, Vol. 3": {
+    "name": "Aleph Null, Vol. 3",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I03"
+  },
   "Amaryllis": {
     "name": "Amaryllis",
     "base_item": "Written Book",
@@ -56471,11 +56621,27 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q133I04"
   },
+  "Aleph Null, Vol. 5": {
+    "name": "Aleph Null, Vol. 5",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I05"
+  },
   "C'Axtal": {
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "Aleph Null, Vol. 1": {
+    "name": "Aleph Null, Vol. 1",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I01"
   },
   "Aleph (bow)": {
     "location": "Teal",
@@ -56515,6 +56681,14 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "Aleph Null, Vol. 4": {
+    "name": "Aleph Null, Vol. 4",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q156I04"
   },
   "Kurtis' Journal": {
     "base_item": "Written Book",
@@ -70578,6 +70752,14 @@
       "infinity": 1
     },
     "lore": "A strange tool provided to you by Fred.\nRight Click while holding to activate the crystal.\n* Quest Item *\n#Q142I01"
+  },
+  "Slate Shard": {
+    "name": "Slate Shard",
+    "base_item": "Flint",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Its glow wanes in and out of reality,\nand you question if what you are holding\nis truly there. You swear you have seen\nsomething like this before.\n* Quest Item *\n#Q156I08"
   },
   "Unholy Chiastolite": {
     "name": "Unholy Chiastolite",
