@@ -3077,6 +3077,11 @@
     "description": "Discover the Sacrarium of Aeons Coordinates: x=-809 y=30 z=-455",
     "parent": "monumenta:pois/r2/ocean/mid-late/rosebud_ruins"
   },
+  "monumenta:pois/r2/ocean/mid-late/shifting_amalgam": {
+    "title": "Shifting Amalgam",
+    "description": "Discover the Shifting Amalgam",
+    "parent": "monumenta:pois/r2/ocean/mid-late/vengeance_of_the_sea"
+  },
   "monumenta:pois/r2/ocean/mid-late/shroom_spires": {
     "title": "Shroom Spires",
     "description": "Discover the Shroom Spires Coordinates: x=-2019 y=84 z=-54",
@@ -5893,7 +5898,7 @@
   },
   "monumenta:general/jackpot3": {
     "title": "Shady Jackpot!",
-    "description": "Win the Grand Prize Ticket in the Sticks and Stone Tavern.",
+    "description": "Win the Grand Prize Ticket in the Sticks and Stones Tavern.",
     "parent": "monumenta:general/jackpot2"
   },
   "monumenta:general/kings_crown": {
