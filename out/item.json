@@ -1557,6 +1557,19 @@
     "stats": {},
     "lore": "Something about this strange tool calls to you.\nPerhaps it's what the Proprietor sent you for?\n* Quest Item *\n#Q210I01"
   },
+  "Silent Knight": {
+    "location": "Winter Event",
+    "region": "Ring",
+    "tier": "Unique",
+    "name": "Silent Knight",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "darksight": 1
+    },
+    "lore": "You shake the snow globe experimentally.\nSnow kicks up inside, creating a beautiful\nwinter scene of Ravenna.\nHappy Silvernalia, one and all!"
+  },
   "Arrow Crate": {
     "name": "Arrow Crate",
     "base_item": "Player Head",
@@ -2360,6 +2373,14 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Parrot": {
+    "name": "Parrot",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q31I01"
   },
   "Jungle Fragment": {
     "location": "Kaul",
@@ -6115,6 +6136,63 @@
     },
     "lore": "A merciless ocean washed upon the burdened\ncloth, its purpose in execution lost. But it is\nbeyond its craftsmanship now, left with a silence\nno other could bear."
   },
+  "Stargazer's Shadow-4": {
+    "location": "Seasonal Pass",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Stargazer's Shadow",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "cloaked": 1,
+      "mending": 1,
+      "technique": 2,
+      "unbreaking": 3,
+      "agility": 8,
+      "attack_speed_percent": 12
+    },
+    "lore": "Ganzir bound the thick cloak tighter around\nhis body. The wind was cold and biting. It\nwhistled and whispered as it bit into his skin.\nHe should be invisible, yet he still felt something\nwatching closely... He was next..."
+  },
+  "Stargazer's Shadow-2": {
+    "location": "Seasonal Pass",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Stargazer's Shadow",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "cloaked": 1,
+      "mending": 1,
+      "technique": 1,
+      "unbreaking": 3,
+      "attack_speed_percent": 10,
+      "agility": 7.5
+    },
+    "lore": "Ganzir bound the thick cloak tighter around\nhis body. The wind was cold and biting. It\nwhistled and whispered as it bit into his skin.\nHe should be invisible, yet he still felt something\nwatching closely... He was next..."
+  },
+  "Stargazer's Shadow-3": {
+    "location": "Seasonal Pass",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Stargazer's Shadow",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "cloaked": 1,
+      "mending": 1,
+      "technique": 2,
+      "unbreaking": 3,
+      "attack_speed_percent": 10,
+      "agility": 7.5
+    },
+    "lore": "Ganzir bound the thick cloak tighter around\nhis body. The wind was cold and biting. It\nwhistled and whispered as it bit into his skin.\nHe should be invisible, yet he still felt something\nwatching closely... He was next..."
+  },
   "Mycelian Mantra-4": {
     "location": "The Wolfswood",
     "masterwork": "4",
@@ -8417,7 +8495,7 @@
     "effects": [
       {
         "EffectDuration": 12000,
-        "EffectStrength": 3,
+        "EffectStrength": 2,
         "EffectType": "Haste"
       },
       {
@@ -8776,12 +8854,12 @@
     "name": "Concentrated Mechanical Monkfish",
     "effects": [
       {
-        "EffectDuration": 1200,
-        "EffectStrength": 2,
+        "EffectDuration": 2400,
+        "EffectStrength": 1,
         "EffectType": "Haste"
       },
       {
-        "EffectDuration": 600,
+        "EffectDuration": 2400,
         "EffectStrength": 1,
         "EffectType": "NightVision"
       }
@@ -8797,8 +8875,8 @@
     "name": "Concentrated Shade Seabass",
     "effects": [
       {
-        "EffectDuration": 240,
-        "EffectStrength": 0.45,
+        "EffectDuration": 600,
+        "EffectStrength": 0.4,
         "EffectType": "BlastResistance"
       }
     ],
@@ -8834,17 +8912,17 @@
     "effects": [
       {
         "EffectDuration": 200,
-        "EffectStrength": 0.4,
+        "EffectStrength": 0.3,
         "EffectType": "Speed"
       },
       {
-        "EffectDuration": 3600,
+        "EffectDuration": 1200,
         "EffectStrength": 1,
         "EffectType": "Haste"
       },
       {
-        "EffectDuration": 200,
-        "EffectStrength": 3,
+        "EffectDuration": 250,
+        "EffectStrength": 2,
         "EffectType": "Regeneration"
       }
     ],
@@ -8877,16 +8955,16 @@
     "effects": [
       {
         "EffectDuration": 200,
-        "EffectStrength": 0.6,
+        "EffectStrength": 0.4,
         "EffectType": "Speed"
       },
       {
-        "EffectDuration": 6000,
+        "EffectDuration": 2400,
         "EffectStrength": 1,
         "EffectType": "Haste"
       },
       {
-        "EffectDuration": 200,
+        "EffectDuration": 120,
         "EffectStrength": 3,
         "EffectType": "Regeneration"
       }
@@ -8961,8 +9039,8 @@
     "effects": [
       {
         "EffectDuration": 72000,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
+        "EffectStrength": 0.7,
+        "EffectType": "FireResistance"
       },
       {
         "EffectDuration": 72000,
@@ -9362,6 +9440,354 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Immovable Libation": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Immovable Libation",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.08,
+        "EffectType": "MagicDamage"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.05,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.5,
+        "EffectType": "KnockbackResist"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Uriddan's Apology": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Uriddan's Apology",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "AntiHeal"
+      },
+      {
+        "EffectDuration": 60,
+        "EffectStrength": 1,
+        "EffectType": "Blindness"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.5,
+        "EffectType": "DurabilityLoss"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "KnockbackResist"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.5,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Distilled Bloodrage": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Distilled Bloodrage",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.05,
+        "EffectType": "AttackSpeed"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.08,
+        "EffectType": "MeleeDamage"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.2,
+        "EffectType": "FallResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Firewater Fuel": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Firewater Fuel",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 1,
+        "EffectType": "JumpBoost"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.1,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Vial of Empty Stars": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Vial of Empty Stars",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.03,
+        "EffectType": "AbilityCooldownDecrease"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.1,
+        "EffectType": "MagicResistance"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Bonedust Brew": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Bonedust Brew",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.2,
+        "EffectType": "ArrowSaving"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.08,
+        "EffectType": "ProjectileDamage"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.1,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Silvertouch Rotgut": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Silvertouch Rotgut",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 1,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {
+      "instant_drink": 1
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Essence of the Obscure": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Essence of the Obscure",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.05,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.1,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.05,
+        "EffectType": "damage"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Stardancer Ectoplasm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Stardancer Ectoplasm",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.2,
+        "EffectType": "DurabilitySave"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.1,
+        "EffectType": "MaxHealthIncrease"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Verminkiller": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Verminkiller",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.2,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 18000,
+        "EffectStrength": 0.2,
+        "EffectType": "damage"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Breathtaker Draught": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Breathtaker Draught",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.05,
+        "EffectType": "AbilityCooldownDecrease"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.08,
+        "EffectType": "MagicDamage"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.05,
+        "EffectType": "MagicResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Unquenchable Thirst": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Unquenchable Thirst",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.08,
+        "EffectType": "Heal"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 0.05,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Healing Potion": {
     "name": "Healing Potion",
     "effects": [
@@ -9405,6 +9831,25 @@
         "EffectDuration": 9600,
         "EffectStrength": 1,
         "EffectType": "WaterBreath"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Potion of Agility": {
+    "name": "Potion of Agility",
+    "effects": [
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 1,
+        "EffectType": "JumpBoost"
       }
     ],
     "base_item": "Potion",
@@ -9557,18 +10002,13 @@
     "effects": [
       {
         "EffectDuration": 1,
-        "EffectStrength": 0.4,
+        "EffectStrength": 0.3,
         "EffectType": "InstantHealthPercent"
       },
       {
         "EffectDuration": 400,
         "EffectStrength": 0.3,
         "EffectType": "KnockbackResist"
-      },
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 1,
-        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -9723,8 +10163,8 @@
       },
       {
         "EffectDuration": 3600,
-        "EffectStrength": 2,
-        "EffectType": "Haste"
+        "EffectStrength": 0.2,
+        "EffectType": "AttackSpeed"
       }
     ],
     "base_item": "Potion",
@@ -9745,8 +10185,8 @@
       },
       {
         "EffectDuration": 1200,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
+        "EffectStrength": 0.1,
+        "EffectType": "AttackSpeed"
       }
     ],
     "base_item": "Potion",
@@ -9780,8 +10220,8 @@
     "effects": [
       {
         "EffectDuration": 12000,
-        "EffectStrength": 0.1,
-        "EffectType": "MaxHealthIncrease"
+        "EffectStrength": 0.15,
+        "EffectType": "MagicResistance"
       },
       {
         "EffectDuration": 12000,
@@ -9789,14 +10229,14 @@
         "EffectType": "Speed"
       },
       {
-        "EffectDuration": 12000,
-        "EffectStrength": 1,
-        "EffectType": "WaterBreath"
-      },
-      {
         "EffectDuration": 400,
         "EffectStrength": 3,
         "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
       }
     ],
     "base_item": "Potion",
@@ -9824,11 +10264,6 @@
         "EffectDuration": 2400,
         "EffectStrength": 0.2,
         "EffectType": "damage"
-      },
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
       }
     ],
     "base_item": "Potion",
@@ -9843,27 +10278,22 @@
     "name": "Fury of the Elements",
     "effects": [
       {
-        "EffectDuration": 7200,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
-      },
-      {
-        "EffectDuration": 7200,
-        "EffectStrength": 2,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 7200,
-        "EffectStrength": 0.4,
-        "EffectType": "Absorption"
-      },
-      {
-        "EffectDuration": 7200,
+        "EffectDuration": 4800,
         "EffectStrength": 0.3,
         "EffectType": "Speed"
       },
       {
-        "EffectDuration": 7200,
+        "EffectDuration": 4800,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      },
+      {
+        "EffectDuration": 4800,
         "EffectStrength": 1,
         "EffectType": "WaterBreath"
       }
@@ -10012,11 +10442,6 @@
         "EffectDuration": 12000,
         "EffectStrength": 1,
         "EffectType": "Haste"
-      },
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
       }
     ],
     "base_item": "Potion",
@@ -10032,14 +10457,14 @@
     "name": "Elemental Resin",
     "effects": [
       {
-        "EffectDuration": 1200,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 1200,
+        "EffectDuration": 1800,
         "EffectStrength": 0.1,
         "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
       }
     ],
     "base_item": "Potion",
@@ -10127,14 +10552,14 @@
     "name": "Essence of Flame",
     "effects": [
       {
-        "EffectDuration": 14400,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
-      },
-      {
-        "EffectDuration": 14400,
+        "EffectDuration": 18000,
         "EffectStrength": 0.2,
         "EffectType": "MagicDamage"
+      },
+      {
+        "EffectDuration": 18000,
+        "EffectStrength": 0.9,
+        "EffectType": "FireResistance"
       }
     ],
     "base_item": "Potion",
@@ -10288,19 +10713,19 @@
     "name": "Eggnog",
     "effects": [
       {
-        "EffectDuration": 360,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 360,
-        "EffectStrength": 2,
-        "EffectType": "Haste"
-      },
-      {
         "EffectDuration": 1,
         "EffectStrength": 0.2,
         "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
       }
     ],
     "base_item": "Potion",
@@ -10559,23 +10984,23 @@
     "effects": [
       {
         "EffectDuration": 4800,
-        "EffectStrength": 0.2,
-        "EffectType": "Speed"
-      },
-      {
-        "EffectDuration": 4800,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
+        "EffectStrength": 0.1,
+        "EffectType": "AttackSpeed"
       },
       {
         "EffectDuration": 4800,
         "EffectStrength": 0.1,
-        "EffectType": "damage"
+        "EffectType": "MeleeDamage"
       },
       {
         "EffectDuration": 4800,
         "EffectStrength": 0.1,
         "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
       }
     ],
     "base_item": "Potion",
@@ -10602,11 +11027,6 @@
         "EffectDuration": 600,
         "EffectStrength": 1,
         "EffectType": "Poison"
-      },
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 1,
-        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -10628,11 +11048,6 @@
         "EffectDuration": 100,
         "EffectStrength": 2,
         "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 1,
-        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -10664,14 +11079,14 @@
     "name": "Worker's Pale Ale",
     "effects": [
       {
-        "EffectDuration": 6000,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
+        "EffectDuration": 1200,
+        "EffectStrength": 0.2,
+        "EffectType": "FallResistance"
       },
       {
-        "EffectDuration": 100,
-        "EffectStrength": 1,
-        "EffectType": "Nausea"
+        "EffectDuration": 1200,
+        "EffectStrength": 0.2,
+        "EffectType": "KnockbackResist"
       }
     ],
     "base_item": "Potion",
@@ -10709,11 +11124,6 @@
         "EffectDuration": 400,
         "EffectStrength": 0.1,
         "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 100,
-        "EffectStrength": 1,
-        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -10866,18 +11276,18 @@
     "name": "Bastion's Brew",
     "effects": [
       {
-        "EffectDuration": 1500,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 1500,
+        "EffectDuration": 1800,
         "EffectStrength": 0.2,
         "EffectType": "damage"
       },
       {
-        "EffectDuration": 1500,
-        "EffectStrength": 0.45,
+        "EffectDuration": 1800,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.3,
         "EffectType": "Slow"
       }
     ],
@@ -10898,7 +11308,7 @@
       },
       {
         "EffectDuration": 3600,
-        "EffectStrength": 2,
+        "EffectStrength": 1,
         "EffectType": "Haste"
       }
     ],
@@ -10924,27 +11334,6 @@
     "type": "Consumable",
     "stats": {},
     "lore": "Coffee Cat Cafe's Coffee"
-  },
-  "Potion of Agility": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "name": "Potion of Agility",
-    "effects": [
-      {
-        "EffectDuration": 3000,
-        "EffectStrength": 0.2,
-        "EffectType": "Speed"
-      },
-      {
-        "EffectDuration": 3000,
-        "EffectStrength": 1,
-        "EffectType": "JumpBoost"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
   },
   "Caramel Mocha": {
     "location": "King's Valley",
@@ -11523,11 +11912,6 @@
       },
       {
         "EffectDuration": 7200,
-        "EffectStrength": 0.2,
-        "EffectType": "Absorption"
-      },
-      {
-        "EffectDuration": 7200,
         "EffectStrength": 1,
         "EffectType": "Haste"
       }
@@ -11543,17 +11927,17 @@
     "name": "Blur Brew",
     "effects": [
       {
-        "EffectDuration": 800,
+        "EffectDuration": 1200,
         "EffectStrength": 0.6,
         "EffectType": "Speed"
       },
       {
-        "EffectDuration": 800,
+        "EffectDuration": 1200,
         "EffectStrength": 3,
         "EffectType": "Haste"
       },
       {
-        "EffectDuration": 800,
+        "EffectDuration": 1200,
         "EffectStrength": 3,
         "EffectType": "JumpBoost"
       }
@@ -11598,11 +11982,6 @@
         "EffectDuration": 4800,
         "EffectStrength": 0.1,
         "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 200,
-        "EffectStrength": 1,
-        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -11646,11 +12025,6 @@
         "EffectDuration": 4800,
         "EffectStrength": 0.1,
         "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 200,
-        "EffectStrength": 1,
-        "EffectType": "Nausea"
       }
     ],
     "base_item": "Potion",
@@ -12084,14 +12458,14 @@
     "name": "Empowered Azure Mixture",
     "effects": [
       {
-        "EffectDuration": 5600,
-        "EffectStrength": 0.4,
-        "EffectType": "Speed"
+        "EffectDuration": 4800,
+        "EffectStrength": 0.1,
+        "EffectType": "AttackSpeed"
       },
       {
-        "EffectDuration": 5600,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
+        "EffectDuration": 4800,
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
       }
     ],
     "base_item": "Potion",
@@ -12104,14 +12478,14 @@
     "name": "Azure Mixture",
     "effects": [
       {
-        "EffectDuration": 5600,
-        "EffectStrength": 0.2,
-        "EffectType": "Speed"
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "AttackSpeed"
       },
       {
-        "EffectDuration": 5600,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
+        "EffectDuration": 3600,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
       }
     ],
     "base_item": "Potion",
@@ -12139,14 +12513,14 @@
     "name": "Potion of Warcry",
     "effects": [
       {
+        "EffectDuration": 1,
+        "EffectStrength": 0.25,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
         "EffectDuration": 3600,
         "EffectStrength": 0.1,
         "EffectType": "damage"
-      },
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
       }
     ],
     "base_item": "Potion",
@@ -12162,14 +12536,14 @@
     "name": "Strong Potion of Warcry",
     "effects": [
       {
+        "EffectDuration": 1,
+        "EffectStrength": 0.3,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
         "EffectDuration": 2400,
         "EffectStrength": 0.2,
         "EffectType": "damage"
-      },
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
       }
     ],
     "base_item": "Potion",
@@ -12200,14 +12574,14 @@
     "name": "Weak Azure Mixture",
     "effects": [
       {
-        "EffectDuration": 3000,
-        "EffectStrength": 0.2,
-        "EffectType": "Speed"
+        "EffectDuration": 2400,
+        "EffectStrength": 0.1,
+        "EffectType": "AttackSpeed"
       },
       {
-        "EffectDuration": 3000,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
+        "EffectDuration": 2400,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
       }
     ],
     "base_item": "Potion",
@@ -12383,14 +12757,19 @@
     "name": "Spirits of the Song",
     "effects": [
       {
-        "EffectDuration": 12000,
-        "EffectStrength": 0.1,
-        "EffectType": "Resistance"
+        "EffectDuration": 24000,
+        "EffectStrength": 0.3,
+        "EffectType": "FallResistance"
       },
       {
-        "EffectDuration": 12000,
-        "EffectStrength": 2,
-        "EffectType": "Haste"
+        "EffectDuration": 24000,
+        "EffectStrength": 0.8,
+        "EffectType": "FireResistance"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.4,
+        "EffectType": "KnockbackResist"
       }
     ],
     "base_item": "Potion",
@@ -12428,13 +12807,13 @@
     "effects": [
       {
         "EffectDuration": 1200,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
+        "EffectStrength": 0.3,
+        "EffectType": "Absorption"
       },
       {
         "EffectDuration": 1200,
-        "EffectStrength": 0.3,
-        "EffectType": "Absorption"
+        "EffectStrength": 0.8,
+        "EffectType": "FireResistance"
       }
     ],
     "base_item": "Potion",
@@ -14699,6 +15078,23 @@
       "attack_speed_base": 1.6
     },
     "lore": "A memory of light, still shining,\ncalling for a master."
+  },
+  "Stiletto of the Summoner": {
+    "location": "Seasonal Pass",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Stiletto of the Summoner",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "duelist": 3,
+      "magic_protection": 1,
+      "unbreaking": 20,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 4
+    },
+    "lore": "Evermore burns the flame of pact.\nBy Crimson glow, the Veil attacked.\nGrow and feed on poor contract."
   },
   "Soulvenom Dagger": {
     "location": "Valley Overworld",
@@ -20718,9 +21114,9 @@
     "stats": {
       "abyssal": 2,
       "unbreaking": 2,
-      "projectile_damage_base": 12,
       "projectile_speed_base": 0.8,
-      "throw_rate_base": 1.1
+      "throw_rate_base": 1.1,
+      "projectile_damage_base": 14.5
     },
     "lore": "The waters of Celsian Ocean are home\nto all sorts of predators. One wouldn't\ndare to imagine what lurks in its\ndarkest depths."
   },
@@ -23187,7 +23583,7 @@
     "lore": "The claws of a jaguar.\nThe soul of the jungle."
   },
   "Irrus' Brace": {
-    "location": "Quest Reward",
+    "location": "Celsian Isles",
     "region": "Isles",
     "tier": "Unique",
     "name": "Irrus' Brace",
@@ -27975,6 +28371,22 @@
     "stats": {},
     "lore": "Its taste can be compared to a smoked quail egg.\nAwarded for finishing in the top #5\nin the Easter Event."
   },
+  "Elite Vindicator Training Dummy": {
+    "name": "Elite Vindicator Training Dummy",
+    "base_item": "Vindicator Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Elite Vindicator"
+  },
+  "Vindicator Training Dummy": {
+    "name": "Vindicator Training Dummy",
+    "base_item": "Vindicator Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Regular Vindicator"
+  },
   "Elder Gillman Dummy": {
     "location": "Seasonal Pass",
     "name": "Elder Gillman Dummy",
@@ -27989,6 +28401,16 @@
     "region": "Valley",
     "name": "Azacor Dummy",
     "base_item": "Drowned Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A toy replica of a fearsome entity."
+  },
+  "Mimic Dummy": {
+    "location": "Blitz",
+    "region": "Valley",
+    "name": "Mimic Dummy",
+    "base_item": "Husk Spawn Egg",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
@@ -31287,9 +31709,8 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 2,
-      "sapper": 1,
       "efficiency": 3,
+      "unbreaking": 2,
       "agility": 2,
       "knockback_resistance_flat": 2,
       "attack_damage_base": 4,
@@ -36494,7 +36915,7 @@
     "name": "Extinguisher Bomb",
     "effects": [
       {
-        "EffectDuration": 240,
+        "EffectDuration": 140,
         "EffectStrength": 1,
         "EffectType": "VanillaFireRes"
       }
@@ -36510,14 +36931,14 @@
     "name": "Advanced Extinguisher Bomb",
     "effects": [
       {
-        "EffectDuration": 440,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
+        "EffectDuration": 300,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
       },
       {
-        "EffectDuration": 440,
-        "EffectStrength": 0.2,
-        "EffectType": "Absorption"
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
       }
     ],
     "base_item": "Lingering Potion",
@@ -36770,14 +37191,14 @@
     "name": "Empowered Swiftshield Tincture",
     "effects": [
       {
-        "EffectDuration": 1200,
-        "EffectStrength": 0.4,
-        "EffectType": "Speed"
+        "EffectDuration": 2400,
+        "EffectStrength": 0.3,
+        "EffectType": "Absorption"
       },
       {
-        "EffectDuration": 1200,
+        "EffectDuration": 2400,
         "EffectStrength": 0.4,
-        "EffectType": "Absorption"
+        "EffectType": "Speed"
       }
     ],
     "base_item": "Splash Potion",
@@ -37472,8 +37893,8 @@
     "effects": [
       {
         "EffectDuration": 3600,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
+        "EffectStrength": 0.8,
+        "EffectType": "FireResistance"
       }
     ],
     "base_item": "Splash Potion",
@@ -37585,20 +38006,6 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Minor Venom Bomb": {
-    "name": "Minor Venom Bomb",
-    "effects": [
-      {
-        "EffectDuration": 900,
-        "EffectStrength": 1,
-        "EffectType": "Poison"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
   "Potion of Restoration": {
     "name": "Potion of Restoration",
     "effects": [
@@ -37611,6 +38018,20 @@
         "EffectDuration": 1,
         "EffectStrength": 0.4,
         "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Minor Venom Bomb": {
+    "name": "Minor Venom Bomb",
+    "effects": [
+      {
+        "EffectDuration": 900,
+        "EffectStrength": 1,
+        "EffectType": "Poison"
       }
     ],
     "base_item": "Splash Potion",
@@ -37659,8 +38080,8 @@
     "effects": [
       {
         "EffectDuration": 2400,
-        "EffectStrength": 0.3,
-        "EffectType": "Slow"
+        "EffectStrength": 0.15,
+        "EffectType": "ProjectileDamage"
       },
       {
         "EffectDuration": 2400,
@@ -37669,8 +38090,8 @@
       },
       {
         "EffectDuration": 2400,
-        "EffectStrength": 2,
-        "EffectType": "Haste"
+        "EffectStrength": 0.3,
+        "EffectType": "Slow"
       }
     ],
     "base_item": "Splash Potion",
@@ -37719,12 +38140,12 @@
     "name": "Earth's Might",
     "effects": [
       {
-        "EffectDuration": 2400,
+        "EffectDuration": 3600,
         "EffectStrength": 0.1,
         "EffectType": "MaxHealthIncrease"
       },
       {
-        "EffectDuration": 2400,
+        "EffectDuration": 3600,
         "EffectStrength": 0.2,
         "EffectType": "Resistance"
       }
@@ -37741,9 +38162,9 @@
     "name": "Wind's Strength",
     "effects": [
       {
-        "EffectDuration": 6000,
-        "EffectStrength": 2,
-        "EffectType": "Haste"
+        "EffectDuration": 1200,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
       },
       {
         "EffectDuration": 6000,
@@ -37751,9 +38172,9 @@
         "EffectType": "Speed"
       },
       {
-        "EffectDuration": 1200,
-        "EffectStrength": 0.2,
-        "EffectType": "Absorption"
+        "EffectDuration": 6000,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
       }
     ],
     "base_item": "Splash Potion",
@@ -38094,12 +38515,12 @@
     "name": "Minotaur's Wrath",
     "effects": [
       {
-        "EffectDuration": 600,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "AttackSpeed"
       },
       {
-        "EffectDuration": 600,
+        "EffectDuration": 1200,
         "EffectStrength": 0.1,
         "EffectType": "Resistance"
       }
@@ -38131,13 +38552,18 @@
     "effects": [
       {
         "EffectDuration": 600,
-        "EffectStrength": 0.1,
-        "EffectType": "Resistance"
+        "EffectStrength": 0.2,
+        "EffectType": "BlastResistance"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "MagicResistance"
       },
       {
         "EffectDuration": 600,
         "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
+        "EffectType": "Glowing"
       }
     ],
     "base_item": "Splash Potion",
@@ -38504,7 +38930,7 @@
     "name": "Inner Flame",
     "effects": [
       {
-        "EffectDuration": 400,
+        "EffectDuration": 200,
         "EffectStrength": 1,
         "EffectType": "Regeneration"
       },
@@ -38527,13 +38953,13 @@
     "effects": [
       {
         "EffectDuration": 400,
-        "EffectStrength": 2,
-        "EffectType": "Regeneration"
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
       },
       {
         "EffectDuration": 400,
-        "EffectStrength": 0.2,
-        "EffectType": "Speed"
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
       }
     ],
     "base_item": "Splash Potion",
@@ -38547,7 +38973,7 @@
     "name": "Advanced Extinguisher",
     "effects": [
       {
-        "EffectDuration": 400,
+        "EffectDuration": 600,
         "EffectStrength": 1,
         "EffectType": "VanillaFireRes"
       }
@@ -38727,13 +39153,13 @@
     "effects": [
       {
         "EffectDuration": 600,
-        "EffectStrength": 0.4,
-        "EffectType": "Speed"
+        "EffectStrength": 0.3,
+        "EffectType": "Absorption"
       },
       {
         "EffectDuration": 600,
-        "EffectStrength": 3,
-        "EffectType": "Haste"
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
       },
       {
         "EffectDuration": 600,
@@ -38742,8 +39168,8 @@
       },
       {
         "EffectDuration": 600,
-        "EffectStrength": 0.3,
-        "EffectType": "Absorption"
+        "EffectStrength": 2,
+        "EffectType": "Haste"
       }
     ],
     "base_item": "Splash Potion",
@@ -39415,11 +39841,11 @@
     "type": "Scythe",
     "stats": {
       "hex_eater": 2,
+      "inferno": 2,
       "smite": 2,
       "unbreaking": 2,
-      "inferno": 2,
-      "attack_damage_base": 9,
-      "attack_speed_base": 1
+      "attack_speed_base": 1,
+      "attack_damage_base": 10
     },
     "lore": "Misty taste of Moonshine,\nteardrops in my eye..."
   },
@@ -39598,8 +40024,8 @@
       "inferno": 2,
       "smite": 2,
       "unbreaking": 2,
-      "attack_damage_base": 9,
-      "attack_speed_base": 1
+      "attack_speed_base": 1,
+      "attack_damage_base": 10
     },
     "lore": "Keep on goin' 'til you get someplace\nwhere you can truly rest."
   },
@@ -42459,7 +42885,7 @@
       "projectile_damage_base": 25.5,
       "projectile_speed_base": 1.5
     },
-    "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
+    "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
   "Bonepiercer-3": {
     "location": "Orange",
@@ -42478,7 +42904,7 @@
       "projectile_damage_base": 26,
       "projectile_speed_base": 1.5
     },
-    "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
+    "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
   "Bonepiercer-1": {
     "location": "Orange",
@@ -42497,7 +42923,7 @@
       "projectile_damage_base": 25,
       "projectile_speed_base": 1.5
     },
-    "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
+    "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
   "Bonepiercer-4": {
     "location": "Orange",
@@ -42516,7 +42942,7 @@
       "projectile_speed_base": 1.5,
       "projectile_damage_base": 27
     },
-    "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
+    "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
   "Highstorm": {
     "location": "King's Valley",
@@ -43088,7 +43514,7 @@
       "projectile_damage_base": 12,
       "projectile_speed_base": 1
     },
-    "lore": "Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
+    "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
   "Thousand Fists of Turaal": {
     "location": "Celsian Isles",
@@ -51959,6 +52385,14 @@
     "stats": {},
     "lore": "* Quest Item *\n#QAFI03\nI, Captain Indigo, will not set sail today at least."
   },
+  "Apology Letter": {
+    "name": "Apology Letter",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "To Elder Lytania,\nI'm sorry! ❤\n- From Bermuda.\n* Quest Item *\n#Q209I03"
+  },
   "Sand Sticker": {
     "location": "Fishing",
     "region": "Ring",
@@ -55102,6 +55536,11 @@
     "effects": [
       {
         "EffectDuration": 2400,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      },
+      {
+        "EffectDuration": 1200,
         "EffectStrength": 0.5,
         "EffectType": "Absorption"
       },
@@ -55109,16 +55548,6 @@
         "EffectDuration": 1200,
         "EffectStrength": 0.2,
         "EffectType": "Heal"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.3,
-        "EffectType": "KnockbackResist"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
       }
     ],
     "base_item": "Enchanted Golden Apple",
@@ -55164,23 +55593,18 @@
     "effects": [
       {
         "EffectDuration": 2400,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      },
+      {
+        "EffectDuration": 1200,
         "EffectStrength": 0.5,
         "EffectType": "Absorption"
       },
       {
-        "EffectDuration": 400,
-        "EffectStrength": 2,
+        "EffectDuration": 150,
+        "EffectStrength": 3,
         "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.1,
-        "EffectType": "Resistance"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
       }
     ],
     "base_item": "Enchanted Golden Apple",
@@ -55240,19 +55664,19 @@
     "name": "Jungle's Boon",
     "effects": [
       {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.1,
-        "EffectType": "ProjectileResistance"
-      },
-      {
-        "EffectDuration": 1800,
+        "EffectDuration": 2400,
         "EffectStrength": 0.1,
         "EffectType": "BlastResistance"
       },
       {
-        "EffectDuration": 1800,
+        "EffectDuration": 2400,
         "EffectStrength": 0.1,
         "EffectType": "MagicResistance"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileResistance"
       }
     ],
     "base_item": "Golden Apple",
@@ -60814,6 +61238,14 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q43I03"
   },
+  "Peg Leg": {
+    "name": "Peg Leg",
+    "base_item": "Wooden Shovel",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q14I01"
+  },
   "Arrowmeld": {
     "location": "King's Valley",
     "region": "Valley",
@@ -64180,6 +64612,22 @@
       "armor": 9.5
     },
     "lore": "A talon from the great ancient, lost\nin the fury of battle with titans\nof yore. With dying dragonbreath,\nit radiates heat."
+  },
+  "Elite Creeper Training Dummy": {
+    "name": "Elite Creeper Training Dummy",
+    "base_item": "Creeper Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Elite Creeper\nNote: Long fuse, zero explosion"
+  },
+  "Creeper Training Dummy": {
+    "name": "Creeper Training Dummy",
+    "base_item": "Creeper Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Regular Creeper\nNote: Long fuse, zero explosion"
   },
   "Construct Core": {
     "name": "Construct Core",
@@ -67548,6 +67996,14 @@
     "stats": {},
     "lore": "Attunes to a specific energy signal, and\nlocates similar signals near your location.\nLeft Click while in hand to operate.\n* Quest Item *\n#Q130I01"
   },
+  "Updated Energy Detector": {
+    "name": "Updated Energy Detector",
+    "base_item": "Nautilus Shell",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Attunes to a specific energy signal, and\nlocates similar signals near your location.\nLeft Click while in hand to operate.\n* Quest Item *\n#Q130I03"
+  },
   "Gleaming Seashell": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -68010,7 +68466,7 @@
     "fish_quality": 3,
     "effects": [
       {
-        "EffectDuration": 40,
+        "EffectDuration": 100,
         "EffectStrength": 1,
         "EffectType": "Haste"
       }
@@ -68179,7 +68635,7 @@
     "fish_quality": 4,
     "effects": [
       {
-        "EffectDuration": 100,
+        "EffectDuration": 300,
         "EffectStrength": 1,
         "EffectType": "Haste"
       }
@@ -68215,8 +68671,8 @@
     "fish_quality": 5,
     "effects": [
       {
-        "EffectDuration": 100,
-        "EffectStrength": 2,
+        "EffectDuration": 600,
+        "EffectStrength": 1,
         "EffectType": "Haste"
       }
     ],
@@ -68389,7 +68845,7 @@
     "fish_quality": 2,
     "effects": [
       {
-        "EffectDuration": 40,
+        "EffectDuration": 100,
         "EffectStrength": 1,
         "EffectType": "MiningFatigue"
       }
@@ -68507,8 +68963,8 @@
     "fish_quality": 1,
     "effects": [
       {
-        "EffectDuration": 80,
-        "EffectStrength": 2,
+        "EffectDuration": 200,
+        "EffectStrength": 1,
         "EffectType": "MiningFatigue"
       }
     ],
@@ -70860,11 +71316,11 @@
     "type": "Mainhand",
     "stats": {
       "darksight": 1,
-      "feather_falling": 3,
+      "feather_falling": 2,
       "fire_protection": 3,
       "gills": 1,
-      "regeneration": 2,
-      "worldly_protection": 2,
+      "regeneration": 1,
+      "worldly_protection": 1,
       "knockback_resistance_flat": 6,
       "speed_percent": 18
     },
@@ -70919,9 +71375,9 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "material": 1,
       "gills": 1,
-      "speed_percent": 7
+      "material": 1,
+      "speed_percent": 8
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
@@ -70934,12 +71390,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "feather_falling": 2,
-      "material": 1,
+      "feather_falling": 1,
       "fire_protection": 1,
       "gills": 1,
-      "speed_percent": 10,
-      "knockback_resistance_flat": 1
+      "material": 1,
+      "knockback_resistance_flat": 1,
+      "speed_percent": 11
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
@@ -70952,12 +71408,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "feather_falling": 1,
-      "material": 1,
       "fire_protection": 1,
       "gills": 1,
-      "speed_percent": 9,
-      "knockback_resistance_flat": 1
+      "material": 1,
+      "knockback_resistance_flat": 1,
+      "speed_percent": 10
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
@@ -70971,7 +71426,7 @@
     "type": "Mainhand",
     "stats": {
       "material": 1,
-      "speed_percent": 6
+      "speed_percent": 7
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
@@ -70995,14 +71450,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "feather_falling": 2,
-      "material": 1,
-      "fire_protection": 2,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 2,
       "gills": 1,
+      "material": 1,
       "regeneration": 1,
-      "speed_percent": 13,
-      "knockback_resistance_flat": 2
+      "knockback_resistance_flat": 2,
+      "speed_percent": 14
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
@@ -71026,10 +71481,10 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
+      "fire_protection": 1,
       "gills": 1,
       "material": 1,
-      "fire_protection": 1,
-      "speed_percent": 8
+      "speed_percent": 9
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
@@ -71042,13 +71497,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "feather_falling": 2,
-      "material": 1,
-      "fire_protection": 2,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 1,
       "gills": 1,
-      "speed_percent": 12,
-      "knockback_resistance_flat": 2
+      "material": 1,
+      "regeneration": 1,
+      "knockback_resistance_flat": 2,
+      "speed_percent": 13
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
@@ -71061,13 +71517,13 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "feather_falling": 2,
-      "material": 1,
-      "fire_protection": 1,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 1,
       "gills": 1,
-      "speed_percent": 11,
-      "knockback_resistance_flat": 1
+      "material": 1,
+      "knockback_resistance_flat": 1,
+      "speed_percent": 12
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
   },
@@ -71080,12 +71536,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
-      "feather_falling": 2,
-      "fire_protection": 2,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 2,
       "gills": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "knockback_resistance_flat": 3,
       "speed_percent": 15
     },
@@ -71113,13 +71569,13 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 3,
-      "material": 1,
-      "fire_protection": 3,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 3,
+      "gills": 1,
+      "material": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "speed_percent": 16,
       "knockback_resistance_flat": 5
     },
@@ -71134,13 +71590,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 2,
       "darksight": 1,
-      "regeneration": 1,
+      "feather_falling": 1,
+      "fire_protection": 1,
+      "gills": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 13,
       "knockback_resistance_flat": 4
     },
@@ -71155,13 +71610,13 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 2,
-      "feather_falling": 3,
-      "material": 1,
-      "fire_protection": 3,
       "darksight": 1,
+      "feather_falling": 2,
+      "fire_protection": 3,
+      "gills": 1,
+      "material": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "speed_percent": 17,
       "knockback_resistance_flat": 5
     },
@@ -71176,13 +71631,13 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 2,
-      "material": 1,
-      "fire_protection": 3,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 2,
+      "gills": 1,
+      "material": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "speed_percent": 15,
       "knockback_resistance_flat": 5
     },
@@ -71208,10 +71663,10 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
       "darksight": 1,
+      "fire_protection": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 10,
       "knockback_resistance_flat": 3
     },
@@ -71226,11 +71681,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
       "darksight": 1,
+      "fire_protection": 1,
       "gills": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 11,
       "knockback_resistance_flat": 3
     },
@@ -71256,12 +71711,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 2,
       "darksight": 1,
+      "fire_protection": 1,
       "gills": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 12,
       "knockback_resistance_flat": 4
     },
@@ -71276,13 +71730,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 3,
       "darksight": 1,
-      "regeneration": 1,
+      "feather_falling": 1,
+      "fire_protection": 2,
+      "gills": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 14,
       "knockback_resistance_flat": 4
     },
@@ -71297,12 +71750,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 2,
-      "feather_falling": 3,
-      "fire_protection": 3,
       "darksight": 1,
+      "feather_falling": 2,
+      "fire_protection": 3,
       "gills": 1,
-      "regeneration": 2,
+      "regeneration": 1,
+      "worldly_protection": 1,
       "knockback_resistance_flat": 6,
       "speed_percent": 18
     },
@@ -71317,9 +71770,9 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
       "darksight": 1,
       "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 9,
       "knockback_resistance_flat": 3
     },
@@ -71480,13 +71933,13 @@
     "type": "Mainhand",
     "stats": {
       "darksight": 1,
-      "feather_falling": 3,
-      "fire_protection": 3,
+      "feather_falling": 2,
+      "fire_protection": 4,
       "gills": 1,
       "multitool": 1,
-      "regeneration": 2,
+      "regeneration": 1,
       "unbreakable": 1,
-      "worldly_protection": 2,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 6
     },
@@ -71503,13 +71956,13 @@
     "type": "Mainhand",
     "stats": {
       "darksight": 1,
-      "feather_falling": 3,
-      "fire_protection": 3,
+      "feather_falling": 2,
+      "fire_protection": 4,
       "gills": 1,
       "multitool": 1,
-      "regeneration": 2,
+      "regeneration": 1,
       "unbreakable": 1,
-      "worldly_protection": 2,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 6
     },
@@ -71527,13 +71980,12 @@
     "stats": {
       "darksight": 1,
       "feather_falling": 4,
-      "fire_protection": 3,
+      "fire_protection": 6,
       "gills": 1,
       "multitool": 1,
-      "regeneration": 2,
-      "sustenance": 1,
+      "regeneration": 1,
       "unbreakable": 1,
-      "worldly_protection": 2,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
     },
@@ -71551,13 +72003,12 @@
     "stats": {
       "darksight": 1,
       "feather_falling": 4,
-      "fire_protection": 3,
+      "fire_protection": 6,
       "gills": 1,
       "multitool": 1,
-      "regeneration": 2,
-      "sustenance": 1,
+      "regeneration": 1,
       "unbreakable": 1,
-      "worldly_protection": 2,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
     },
@@ -71575,15 +72026,14 @@
     "stats": {
       "darksight": 1,
       "feather_falling": 3,
-      "fire_protection": 3,
+      "fire_protection": 4,
       "gills": 1,
       "multitool": 1,
-      "regeneration": 2,
-      "sustenance": 1,
+      "regeneration": 1,
       "unbreakable": 1,
-      "worldly_protection": 2,
+      "worldly_protection": 1,
       "speed_percent": 18,
-      "knockback_resistance_flat": 6
+      "knockback_resistance_flat": 7
     },
     "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
   },
@@ -71599,15 +72049,14 @@
     "stats": {
       "darksight": 1,
       "feather_falling": 3,
-      "fire_protection": 3,
+      "fire_protection": 4,
       "gills": 1,
       "multitool": 1,
-      "regeneration": 2,
-      "sustenance": 1,
+      "regeneration": 1,
       "unbreakable": 1,
-      "worldly_protection": 2,
+      "worldly_protection": 1,
       "speed_percent": 18,
-      "knockback_resistance_flat": 6
+      "knockback_resistance_flat": 7
     },
     "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
   },
@@ -71623,13 +72072,12 @@
     "stats": {
       "darksight": 1,
       "feather_falling": 3,
-      "fire_protection": 3,
+      "fire_protection": 5,
       "gills": 1,
       "multitool": 1,
-      "regeneration": 2,
-      "sustenance": 1,
+      "regeneration": 1,
       "unbreakable": 1,
-      "worldly_protection": 2,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
     },
@@ -71647,13 +72095,12 @@
     "stats": {
       "darksight": 1,
       "feather_falling": 3,
-      "fire_protection": 3,
+      "fire_protection": 5,
       "gills": 1,
       "multitool": 1,
-      "regeneration": 2,
-      "sustenance": 1,
+      "regeneration": 1,
       "unbreakable": 1,
-      "worldly_protection": 2,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
     },
@@ -71668,6 +72115,7 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "unbreakable": 1,
       "agility": 8,
       "speed_percent": 15,
       "attack_damage_percent": -20
@@ -74007,7 +74455,7 @@
     "stats": {
       "voodoo_bonds_curse_duration_percent": -50,
       "voodoo_bonds_curse_radius_percent": 50,
-      "voodoo_bonds_curse_death_damage_percent": 20,
+      "voodoo_bonds_pin_damage_percent": 20,
       "voodoo_bonds_cooldown_percent": -20
     },
     "type": "Charm",
@@ -74761,6 +75209,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Right click in hand or inventory to increase\nWindwalker tree odds to 75%.\n(100% chance in normal or rigged runs)\nLeft click in hand to reset preference."
+  },
+  "Ladder of Honesty": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Legacy",
+    "name": "Ladder of Honesty",
+    "base_item": "Ladder",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Many attempted the arduous climb, yet\nyou ascended the trail of temperance.\nGiven to those who did not abuse the Zenith\nrevive exploit before it was patched."
   },
   "Charms Trinket": {
     "name": "Charms Trinket",
@@ -76792,12 +77251,11 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Focused Shielding Charm",
-    "power": 3,
+    "power": 2,
     "base_item": "Stone Brick Wall",
     "release_status": "public",
     "stats": {
-      "shield_wall_damage_percent": 30,
-      "shield_wall_knockback_percent": 100,
+      "shield_wall_damage_percent": 20,
       "shield_wall_duration_flat": 2
     },
     "type": "Charm",
@@ -79383,7 +79841,6 @@
   "Pretzel": {
     "location": "Valley Overworld",
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Pretzel",
     "effects": [
       {
@@ -80225,16 +80682,6 @@
       "attack_damage_base": 6,
       "attack_speed_base": 1.2
     }
-  },
-  "Mimic Dummy": {
-    "location": "Blitz",
-    "region": "Valley",
-    "name": "Mimic Dummy",
-    "base_item": "Husk Spawn Egg",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A toy replica of a fearsome entity."
   },
   "NoL TLhis Again": {
     "location": "Sanctum",
@@ -81237,6 +81684,38 @@
     },
     "lore": "It's shiny and crystalline,\nbut has a frigid cold to it."
   },
+  "Spider Training Dummy": {
+    "name": "Spider Training Dummy",
+    "base_item": "Spider Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Regular Spider"
+  },
+  "Elite Spider Training Dummy": {
+    "name": "Elite Spider Training Dummy",
+    "base_item": "Spider Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Elite Spider"
+  },
+  "Elite Guardian Training Dummy": {
+    "name": "Elite Guardian Training Dummy",
+    "base_item": "Guardian Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Elite Guardian\nWarning: Flops around if not in water!"
+  },
+  "Guardian Training Dummy": {
+    "name": "Guardian Training Dummy",
+    "base_item": "Guardian Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Regular Guardian\nWarning: Flops around if not in water!"
+  },
   "Signal Flare - Leafstorm": {
     "name": "Signal Flare - Leafstorm",
     "base_item": "Firework Rocket",
@@ -81308,6 +81787,78 @@
     "type": "Misc",
     "stats": {},
     "lore": "A firework enchanted by Ebonee."
+  },
+  "Plot DJ": {
+    "name": "Plot DJ",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : JamminDJ\nCan only be placed on a plot."
+  },
+  "Plot Class Selector": {
+    "name": "Plot Class Selector",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : D'Orin\nCan only be placed on a plot."
+  },
+  "Plot Quartermaster": {
+    "name": "Plot Quartermaster",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : Quartermaster\nCan only be placed on a plot."
+  },
+  "Plot Architect": {
+    "name": "Plot Architect",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : Architect\nCan only be placed on a plot."
+  },
+  "Plot Alchemist": {
+    "name": "Plot Alchemist",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : Alchemist\nCan only be placed on a plot."
+  },
+  "Plot Market Access": {
+    "name": "Plot Market Access",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : M'Orin\nCan only be placed on a plot."
+  },
+  "Plot.. Resident": {
+    "name": "Plot.. Resident",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : Rambling Old Man\nCan only be placed on a plot."
+  },
+  "Plot Teleporter": {
+    "name": "Plot Teleporter",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : Orin\nCan only be placed on a plot."
+  },
+  "Plot Engineer": {
+    "name": "Plot Engineer",
+    "base_item": "Villager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Plot Villager : Engineer\nCan only be placed on a plot."
   },
   "Loofah": {
     "location": "King's Valley",
