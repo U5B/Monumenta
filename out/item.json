@@ -10693,7 +10693,7 @@
     "name": "Aesir's Embrace",
     "effects": [
       {
-        "EffectDuration": 999999999,
+        "EffectDuration": -1,
         "EffectStrength": 1,
         "EffectType": "Glowing"
       }
@@ -11403,32 +11403,6 @@
         "EffectDuration": 1,
         "EffectStrength": 0.3,
         "EffectType": "InstantHealthPercent"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Black Cat Brew": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "name": "Black Cat Brew",
-    "effects": [
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 1,
-        "EffectType": "BadLuck"
-      },
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 6,
-        "EffectType": "JumpBoost"
-      },
-      {
-        "EffectDuration": 300,
-        "EffectStrength": 0.15,
-        "EffectType": "Resistance"
       }
     ],
     "base_item": "Potion",
@@ -12458,14 +12432,14 @@
     "name": "Empowered Azure Mixture",
     "effects": [
       {
-        "EffectDuration": 4800,
-        "EffectStrength": 0.1,
-        "EffectType": "AttackSpeed"
-      },
-      {
-        "EffectDuration": 4800,
+        "EffectDuration": 7200,
         "EffectStrength": 0.4,
         "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
       }
     ],
     "base_item": "Potion",
@@ -12478,14 +12452,14 @@
     "name": "Azure Mixture",
     "effects": [
       {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.1,
-        "EffectType": "AttackSpeed"
-      },
-      {
-        "EffectDuration": 3600,
+        "EffectDuration": 4800,
         "EffectStrength": 0.2,
         "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
       }
     ],
     "base_item": "Potion",
@@ -12575,13 +12549,13 @@
     "effects": [
       {
         "EffectDuration": 2400,
-        "EffectStrength": 0.1,
-        "EffectType": "AttackSpeed"
-      },
-      {
-        "EffectDuration": 2400,
         "EffectStrength": 0.2,
         "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
       }
     ],
     "base_item": "Potion",
