@@ -1246,6 +1246,17 @@
     "stats": {},
     "lore": "A golden coin won in a bet against\nLevyn, even if you didn't bet anything."
   },
+  "Royal Crystal": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Royal Crystal",
+    "base_item": "Magma Cream",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Ingredient\nA reward for completing\na King's Bounty."
+  },
   "Volcanic Orb": {
     "location": "King's Valley",
     "region": "Valley",
@@ -1259,17 +1270,6 @@
       "max_health_flat": 2,
       "magic_damage_percent": 12
     }
-  },
-  "Royal Crystal": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Royal Crystal",
-    "base_item": "Magma Cream",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Ingredient\nA reward for completing\na King's Bounty."
   },
   "Sunlit Charm": {
     "location": "Celsian Isles",
@@ -2557,21 +2557,6 @@
     "stats": {},
     "lore": "\"A casualty of opening the Veil. It had\nto be done. I hated betraying them, but they\nknew not what they had. We were clueless to\nthe true power of the wool we had only\njust discovered. The spell had to be mine, alone.\""
   },
-  "Peaceful Slumber": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Peaceful Slumber",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "blast_protection": 2,
-      "melee_protection": 3,
-      "projectile_protection": 3
-    },
-    "lore": "Some dreams were never meant to be."
-  },
   "Strange Shipment": {
     "location": "Verdant",
     "region": "Valley",
@@ -2786,19 +2771,6 @@
     "stats": {},
     "lore": "Artist Plushie #7\nWONDERHOI!\nSpecial Artist Plushie - Collect Them All!"
   },
-  "Azacor's Mask": {
-    "location": "Azacor",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Azacor's Mask",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "The mask buzzes with power,\neven as its master falls.\nYou feel like the eyes still watch you."
-  },
   "Hellpact Gaze": {
     "location": "Azacor",
     "region": "Valley",
@@ -2923,6 +2895,34 @@
       "thorns_flat": 2
     },
     "lore": "Every age, it seems, is tainted\nby the greed of men."
+  },
+  "Peaceful Slumber": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Peaceful Slumber",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "blast_protection": 2,
+      "melee_protection": 3,
+      "projectile_protection": 3
+    },
+    "lore": "Some dreams were never meant to be."
+  },
+  "Azacor's Mask": {
+    "location": "Azacor",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Azacor's Mask",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "The mask buzzes with power,\neven as its master falls.\nYou feel like the eyes still watch you."
   },
   "C'Shura's Blighted Mask": {
     "location": "Sanctum",
@@ -4209,28 +4209,6 @@
     "stats": {},
     "lore": "You hear a whispering when you touch it.\nThe only word you can make out is \"Kaul\"..."
   },
-  "Jewel of the Blackroot": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Key",
-    "name": "Jewel of the Blackroot",
-    "base_item": "Nether Star",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Kaul has strong attacks and a brutal level of difficulty,\nharder than any other endgame experience.\nUnveiled is required and Malevolent Reverie is strongly\nrecommended before attempting to fight Kaul.\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants access to Kaul, Soul of the Jungle"
-  },
-  "Jewel of the Blackroot (Instant)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Key",
-    "name": "Jewel of the Blackroot (Instant)",
-    "base_item": "Nether Star",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Kaul has strong attacks and a brutal level of difficulty,\nharder than any other endgame experience.\nUnveiled is required and Malevolent Reverie is strongly\nrecommended before attempting to fight Kaul.\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants instant access to Kaul, Soul of the Jungle"
-  },
   "Experiencinator (u)": {
     "location": "King's Valley",
     "region": "Valley",
@@ -4252,6 +4230,28 @@
     "type": "Misc",
     "stats": {},
     "lore": "Converts King's Valley items into currency.\nLeft Click in main hand or Right Click in inventory to operate.\nLeft Click + Sneak for instant converting.\nRight Click + Sneak for instant configuring.\nPress f in inventory for instant converting."
+  },
+  "Jewel of the Blackroot (Instant)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Jewel of the Blackroot (Instant)",
+    "base_item": "Nether Star",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Kaul has strong attacks and a brutal level of difficulty,\nharder than any other endgame experience.\nUnveiled is required and Malevolent Reverie is strongly\nrecommended before attempting to fight Kaul.\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants instant access to Kaul, Soul of the Jungle"
+  },
+  "Jewel of the Blackroot": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Jewel of the Blackroot",
+    "base_item": "Nether Star",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Kaul has strong attacks and a brutal level of difficulty,\nharder than any other endgame experience.\nUnveiled is required and Malevolent Reverie is strongly\nrecommended before attempting to fight Kaul.\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants access to Kaul, Soul of the Jungle"
   },
   "Aberration's Amulet": {
     "location": "Mist",
@@ -4651,15 +4651,80 @@
       "attack_speed_base": 0.8
     }
   },
-  "Heavy Warhammer": {
-    "location": "King's Valley",
+  "Tkaa of C'Axtal": {
+    "location": "Reverie",
     "region": "Valley",
-    "tier": "Legacy",
-    "name": "Heavy Warhammer",
+    "tier": "Uncommon",
+    "name": "Tkaa of C'Axtal",
     "base_item": "Stone Axe",
     "release_status": "public",
-    "type": "Misc",
-    "stats": {}
+    "type": "Axe",
+    "stats": {
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10
+    },
+    "lore": "I clutched my Tkaa in my hands, prepared\nto fight whatever emerged. For my people.\nAll I had done was for them. I could not\nstop now. We were so close to freedom."
+  },
+  "Phoenix Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Phoenix Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 3,
+      "knockback": 1,
+      "unbreaking": 4,
+      "attack_damage_base": 9.5,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Soulhammer": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Soulhammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "knockback": 1,
+      "mending": 1,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10
+    }
+  },
+  "Blessed Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Blessed Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 3,
+      "unbreaking": 4,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Crushing Mace": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Crushing Mace",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "smite": 1,
+      "unbreaking": 3,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 10.5
+    }
   },
   "Divine Cleaver": {
     "location": "King's Valley",
@@ -4690,82 +4755,6 @@
       "attack_damage_base": 10
     }
   },
-  "Blessed Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Blessed Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "efficiency": 3,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Crushing Mace": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Crushing Mace",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "smite": 1,
-      "unbreaking": 3,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10.5
-    }
-  },
-  "Phoenix Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Phoenix Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 4,
-      "fire_aspect": 3,
-      "knockback": 1,
-      "attack_damage_base": 9.5,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Soulhammer": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Soulhammer",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "knockback": 1,
-      "mending": 1,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10
-    }
-  },
-  "Woodsman's Axe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Woodsman's Axe",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 1,
-      "efficiency": 2,
-      "attack_damage_base": 9,
-      "attack_speed_base": 0.8
-    }
-  },
   "Jagged Cleaver": {
     "location": "King's Valley",
     "region": "Valley",
@@ -4779,20 +4768,6 @@
       "attack_damage_base": 10,
       "attack_speed_base": 0.8
     }
-  },
-  "Tkaa of C'Axtal": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Tkaa of C'Axtal",
-    "base_item": "Stone Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 10
-    },
-    "lore": "I clutched my Tkaa in my hands, prepared\nto fight whatever emerged. For my people.\nAll I had done was for them. I could not\nstop now. We were so close to freedom."
   },
   "Lunatic's Respite": {
     "location": "Ephemeral Enhancements",
@@ -6820,51 +6795,6 @@
     },
     "lore": "Covered in medals and\ninsignias of victory."
   },
-  "Infernal Tunic": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Infernal Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 2,
-      "fire_protection": 2,
-      "blast_protection": 2,
-      "attack_damage_percent": 5,
-      "agility": 3.5
-    }
-  },
-  "Plaguehide Torso": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Plaguehide Torso",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 3,
-      "armor": 3.5,
-      "max_health_flat": -1,
-      "attack_damage_percent": 10
-    }
-  },
-  "Fur Tunic": {
-    "location": "Orange",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Fur Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 1,
-      "knockback_resistance_flat": 2.5,
-      "agility": 3
-    }
-  },
   "Dreamweave Vest": {
     "location": "Yellow",
     "region": "Valley",
@@ -6894,23 +6824,6 @@
       "speed_percent": -5
     },
     "lore": "The protection of an apron is usually\nsuperficial when working with magic.\nThis one however..."
-  },
-  "C'Zanil's Shroud": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "C'Zanil's Shroud",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "projectile_protection": 1,
-      "regeneration": 2,
-      "unbreaking": 4,
-      "agility": 3,
-      "max_health_flat": -2
-    },
-    "lore": "Even in death, C'Zanil's\nritual lives on."
   },
   "Pink Racing Cloak": {
     "location": "King's Valley",
@@ -6953,183 +6866,6 @@
       "feather_falling": 2,
       "unbreaking": 3,
       "agility": 2.5
-    }
-  },
-  "Molten Cloak": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Molten Cloak",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "feather_falling": 1,
-      "unbreaking": 3,
-      "fire_protection": 7,
-      "agility": 1
-    }
-  },
-  "Heavy Leather Tunic": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Heavy Leather Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 4,
-      "armor": 3,
-      "knockback_resistance_flat": 1
-    }
-  },
-  "Gemcrust Vest": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Gemcrust Vest",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "curse_of_vanishing": 1,
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 4
-    }
-  },
-  "Nereid Tunic": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Nereid Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 3,
-      "respiration": 1,
-      "depth_strider": 1,
-      "agility": 3.5
-    }
-  },
-  "Hardened Leather Tunic": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Hardened Leather Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "armor": 3.5
-    }
-  },
-  "Soulleather Cloak": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Soulleather Cloak",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "mending": 1,
-      "curse_of_vanishing": 1,
-      "blast_protection": 1,
-      "armor": 4.5
-    }
-  },
-  "Dualsun Cloak": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Dualsun Cloak",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 5,
-      "fire_protection": 2,
-      "armor": 3,
-      "max_health_flat": 1
-    }
-  },
-  "Brigand's Tunic": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Brigand's Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 2,
-      "attack_damage_percent": 5
-    }
-  },
-  "Puresilk Tunic": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Puresilk Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 3,
-      "agility": 3,
-      "speed_percent": 15,
-      "attack_speed_percent": 10
-    }
-  },
-  "Sky Mage Cloak": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Sky Mage Cloak",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "feather_falling": 2,
-      "unbreaking": 3,
-      "agility": 2.5
-    }
-  },
-  "Spellweave Tunic": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Spellweave Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 3,
-      "agility": 3
-    }
-  },
-  "Demoncaller Tunic": {
-    "location": "Azacor",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Demoncaller Tunic",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "feather_falling": 3,
-      "unbreaking": 3,
-      "max_health_flat": -2,
-      "attack_speed_percent": 15,
-      "knockback_resistance_flat": 2,
-      "agility": 4.5
     }
   },
   "Ugly Sweater": {
@@ -7243,6 +6979,95 @@
       "armor": 2
     }
   },
+  "Puresilk Tunic": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Puresilk Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreaking": 3,
+      "agility": 3,
+      "speed_percent": 15,
+      "attack_speed_percent": 10
+    }
+  },
+  "Brigand's Tunic": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Brigand's Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "armor": 2,
+      "attack_damage_percent": 5
+    }
+  },
+  "Nereid Tunic": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Nereid Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "depth_strider": 1,
+      "respiration": 1,
+      "unbreaking": 3,
+      "agility": 3.5
+    }
+  },
+  "Soulleather Cloak": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Soulleather Cloak",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "blast_protection": 1,
+      "curse_of_vanishing": 1,
+      "mending": 1,
+      "armor": 4.5
+    }
+  },
+  "Dualsun Cloak": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Dualsun Cloak",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 5,
+      "armor": 3,
+      "max_health_flat": 1
+    }
+  },
+  "Hardened Leather Tunic": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Hardened Leather Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "armor": 3.5
+    }
+  },
   "Cloth Shirt": {
     "location": "King's Valley",
     "region": "Valley",
@@ -7253,6 +7078,77 @@
     "type": "Chestplate",
     "stats": {
       "armor": 0.5
+    }
+  },
+  "Gemcrust Vest": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Gemcrust Vest",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "curse_of_vanishing": 1,
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "armor": 4
+    }
+  },
+  "Molten Cloak": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Molten Cloak",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "feather_falling": 1,
+      "fire_protection": 7,
+      "unbreaking": 3,
+      "agility": 1
+    }
+  },
+  "Heavy Leather Tunic": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Heavy Leather Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreaking": 4,
+      "armor": 3,
+      "knockback_resistance_flat": 1
+    }
+  },
+  "Spellweave Tunic": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Spellweave Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreaking": 3,
+      "agility": 3
+    }
+  },
+  "Sky Mage Cloak": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Sky Mage Cloak",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "feather_falling": 2,
+      "unbreaking": 3,
+      "agility": 2.5
     }
   },
   "TE Tunic": {
@@ -7275,6 +7171,68 @@
     "type": "Misc",
     "stats": {},
     "lore": "I finished a Jumping Puzzle and\nall I got was this lousy t-shirt."
+  },
+  "Plaguehide Torso": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Plaguehide Torso",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreaking": 3,
+      "armor": 3.5,
+      "max_health_flat": -1,
+      "attack_damage_percent": 10
+    }
+  },
+  "Infernal Tunic": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Infernal Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "blast_protection": 2,
+      "fire_protection": 2,
+      "unbreaking": 2,
+      "attack_damage_percent": 5,
+      "agility": 3.5
+    }
+  },
+  "Fur Tunic": {
+    "location": "Orange",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Fur Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreaking": 1,
+      "knockback_resistance_flat": 2.5,
+      "agility": 3
+    }
+  },
+  "Demoncaller Tunic": {
+    "location": "Azacor",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Demoncaller Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "feather_falling": 3,
+      "unbreaking": 3,
+      "max_health_flat": -2,
+      "attack_speed_percent": 15,
+      "knockback_resistance_flat": 2,
+      "agility": 4.5
+    }
   },
   "Cobaltean Cape": {
     "location": "King's Valley",
@@ -7521,6 +7479,23 @@
       "agility": 4
     },
     "lore": "Once the armor of a Warden of the Forest.\nNow, the elemental energy flowing through\nthe leather has given it a new, glorious\npurpose."
+  },
+  "C'Zanil's Shroud": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "C'Zanil's Shroud",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "projectile_protection": 1,
+      "regeneration": 2,
+      "unbreaking": 4,
+      "agility": 3,
+      "max_health_flat": -2
+    },
+    "lore": "Even in death, C'Zanil's\nritual lives on."
   },
   "Broodhide Tunic": {
     "location": "Orange",
@@ -9838,6 +9813,16 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Lucky Cream": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Lucky Cream",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Potion of Agility": {
     "name": "Potion of Agility",
     "effects": [
@@ -9874,6 +9859,16 @@
     "base_item": "Potion",
     "release_status": "public",
     "type": "Consumable",
+    "stats": {}
+  },
+  "Mundane Cream": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Mundane Cream",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
     "stats": {}
   },
   "Cheap Beer": {
@@ -10211,97 +10206,6 @@
     "type": "Consumable",
     "stats": {},
     "lore": "Its healing properties are underestimated."
-  },
-  "Water's Blessing": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Water's Blessing",
-    "effects": [
-      {
-        "EffectDuration": 12000,
-        "EffectStrength": 0.15,
-        "EffectType": "MagicResistance"
-      },
-      {
-        "EffectDuration": 12000,
-        "EffectStrength": 0.2,
-        "EffectType": "Speed"
-      },
-      {
-        "EffectDuration": 400,
-        "EffectStrength": 3,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 12000,
-        "EffectStrength": 1,
-        "EffectType": "WaterBreath"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Flame's Warmth": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Flame's Warmth",
-    "effects": [
-      {
-        "EffectDuration": 1200,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
-      },
-      {
-        "EffectDuration": 1200,
-        "EffectStrength": 0.4,
-        "EffectType": "Absorption"
-      },
-      {
-        "EffectDuration": 2400,
-        "EffectStrength": 0.2,
-        "EffectType": "damage"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Fury of the Elements": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Fury of the Elements",
-    "effects": [
-      {
-        "EffectDuration": 4800,
-        "EffectStrength": 0.3,
-        "EffectType": "Speed"
-      },
-      {
-        "EffectDuration": 4800,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 2400,
-        "EffectStrength": 1,
-        "EffectType": "VanillaFireRes"
-      },
-      {
-        "EffectDuration": 4800,
-        "EffectStrength": 1,
-        "EffectType": "WaterBreath"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
   },
   "Mana Potion": {
     "location": "Light Blue",
@@ -10685,26 +10589,6 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
-  },
-  "Aesir's Embrace": {
-    "location": "Azacor",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Aesir's Embrace",
-    "effects": [
-      {
-        "EffectDuration": -1,
-        "EffectStrength": 1,
-        "EffectType": "Glowing"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {
-      "infinity": 1
-    },
-    "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends its death."
   },
   "Eggnog": {
     "location": "Valley Overworld",
@@ -11458,6 +11342,97 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Fury of the Elements": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Fury of the Elements",
+    "effects": [
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.3,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Flame's Warmth": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Flame's Warmth",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "VanillaFireRes"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.4,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.2,
+        "EffectType": "damage"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Water's Blessing": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Water's Blessing",
+    "effects": [
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 0.15,
+        "EffectType": "MagicResistance"
+      },
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 3,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Craft Beer": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -11487,6 +11462,26 @@
     "type": "Misc",
     "stats": {},
     "lore": "Cures scurvy, cholera, the pox, dropsy,\ngout, monumentitis, and all other ailments!\n\nWhen Consumed:\nNothing (60:00)"
+  },
+  "Aesir's Embrace": {
+    "location": "Azacor",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Aesir's Embrace",
+    "effects": [
+      {
+        "EffectDuration": -1,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {
+      "infinity": 1
+    },
+    "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends its death."
   },
   "Silverblood": {
     "name": "Silverblood",
@@ -13266,21 +13261,6 @@
     },
     "lore": "Carelessly left by one of the rebels\nduring their escapade."
   },
-  "Crusader's Sword": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Crusader's Sword",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "smite": 1,
-      "unbreaking": 2,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.6
-    }
-  },
   "Fish Fin": {
     "location": "King's Valley",
     "region": "Valley",
@@ -13311,114 +13291,6 @@
       "speed_percent": 7.5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.8
-    }
-  },
-  "Godwood Sword": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Godwood Sword",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "smite": 2,
-      "unbreaking": 2,
-      "fire_aspect": 2,
-      "knockback": 1,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Druidic Broadsword": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Druidic Broadsword",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "sweeping_edge": 3,
-      "unbreaking": 2,
-      "attack_speed_base": 1.6,
-      "attack_damage_base": 6
-    }
-  },
-  "Eternal Crescent": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Eternal Crescent",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "sweeping_edge": 3,
-      "mending": 1,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Living Thorn": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Living Thorn",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "slayer": 1,
-      "mending": 1,
-      "attack_damage_base": 4.5,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Light Scimitar": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Light Scimitar",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "sweeping_edge": 3,
-      "unbreaking": 3,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.8
-    }
-  },
-  "Flamewreath Splinter": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Flamewreath Splinter",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "fire_aspect": 3,
-      "knockback": 2,
-      "unbreaking": 3,
-      "attack_speed_base": 1.6,
-      "attack_damage_base": 5
-    }
-  },
-  "Thief's Dagger": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Thief's Dagger",
-    "base_item": "Wooden Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "looting": 4,
-      "unbreaking": 2,
-      "attack_speed_base": 1.6,
-      "attack_damage_base": 5.5
     }
   },
   "Hunter's Stake": {
@@ -13596,6 +13468,21 @@
       "attack_damage_percent": 5
     }
   },
+  "Eternal Crescent": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Eternal Crescent",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "mending": 1,
+      "sweeping_edge": 3,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.6
+    }
+  },
   "Novice's Shortsword": {
     "location": "King's Valley",
     "region": "Valley",
@@ -13620,6 +13507,114 @@
     "stats": {
       "unbreakable": 1,
       "speed_percent": 10
+    }
+  },
+  "Druidic Broadsword": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Druidic Broadsword",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "sweeping_edge": 3,
+      "unbreaking": 2,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 6
+    }
+  },
+  "Godwood Sword": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Godwood Sword",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "fire_aspect": 2,
+      "knockback": 1,
+      "smite": 2,
+      "unbreaking": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Light Scimitar": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Light Scimitar",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "sweeping_edge": 3,
+      "unbreaking": 3,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.8
+    }
+  },
+  "Thief's Dagger": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Thief's Dagger",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "looting": 4,
+      "unbreaking": 2,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 5.5
+    }
+  },
+  "Living Thorn": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Living Thorn",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "mending": 1,
+      "slayer": 1,
+      "attack_damage_base": 4.5,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Crusader's Sword": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Crusader's Sword",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "smite": 1,
+      "unbreaking": 2,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Flamewreath Splinter": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Flamewreath Splinter",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "fire_aspect": 3,
+      "knockback": 2,
+      "unbreaking": 3,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 5
     }
   },
   "Steelwood Blade": {
@@ -13771,6 +13766,20 @@
       "projectile_damage_percent": 5
     },
     "lore": "The dagger is lightweight, and easy\nto wield. Engraved on the blade,\nthe crest of a bird."
+  },
+  "Swordsage Training Blade": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "name": "Swordsage Training Blade",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "unbreakable": 1,
+      "attack_damage_base": 1.5,
+      "attack_speed_base": 1.8
+    },
+    "lore": "* Quest Item *\n#Q138I07\nA training blade, given to new recruits\nat the Swordsage Academy. Can be\nwielded in either hand."
   },
   "Swoard": {
     "location": "Mist",
@@ -14252,22 +14261,6 @@
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
-  "Albino Spider Egg": {
-    "location": "Orange",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Albino Spider Egg",
-    "base_item": "Snowball",
-    "release_status": "public",
-    "type": "Snowball",
-    "stats": {
-      "infinity": 1,
-      "fire_aspect": 1,
-      "throw_rate_base": 0.5,
-      "projectile_speed_base": 0.5,
-      "projectile_damage_base": 8
-    }
-  },
   "Snowball?": {
     "name": "Snowball?",
     "base_item": "Snowball",
@@ -14311,6 +14304,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "An unusually dense snowball."
+  },
+  "Albino Spider Egg": {
+    "location": "Orange",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Albino Spider Egg",
+    "base_item": "Snowball",
+    "release_status": "public",
+    "type": "Snowball",
+    "stats": {
+      "infinity": 1,
+      "fire_aspect": 1,
+      "throw_rate_base": 0.5,
+      "projectile_speed_base": 0.5,
+      "projectile_damage_base": 8
+    }
   },
   "Orb of Winter": {
     "location": "Eldrask",
@@ -18898,65 +18907,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Infernal Boots": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Infernal Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 2,
-      "fire_protection": 2,
-      "blast_protection": 2,
-      "attack_damage_percent": 5,
-      "agility": 3.5
-    }
-  },
-  "Explorer's Boots": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Explorer's Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 2,
-      "depth_strider": 3,
-      "agility": 2
-    }
-  },
-  "Plaguehide Boots": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Plaguehide Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "armor": 3.5,
-      "max_health_flat": -1,
-      "attack_damage_percent": 10
-    }
-  },
-  "Fur Boots": {
-    "location": "Orange",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Fur Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 1,
-      "knockback_resistance_flat": 2.5,
-      "agility": 3
-    }
-  },
   "Dreamweave Boots": {
     "location": "Yellow",
     "region": "Valley",
@@ -18970,36 +18920,6 @@
       "unbreaking": 2,
       "magic_protection": 1,
       "armor": 3.5
-    }
-  },
-  "Offering's Robe (chest)": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Offering's Robe",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 1,
-      "fire_protection": 2,
-      "projectile_protection": 2,
-      "armor": 2
-    }
-  },
-  "Offering's Robe (feet)": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Offering's Robe",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 1,
-      "fire_protection": 2,
-      "projectile_protection": 2,
-      "armor": 2
     }
   },
   "Swimming Shoes": {
@@ -19031,273 +18951,6 @@
       "agility": 2
     }
   },
-  "Cerulean Mage Robes (chest)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Cerulean Mage Robes",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "projectile_protection": 1,
-      "unbreaking": 3,
-      "agility": 3
-    }
-  },
-  "Cerulean Mage Robes (feet)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Cerulean Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "magic_protection": 1,
-      "unbreaking": 3,
-      "agility": 3
-    }
-  },
-  "Molten Boots": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Molten Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "feather_falling": 1,
-      "unbreaking": 3,
-      "fire_protection": 7,
-      "agility": 1
-    }
-  },
-  "Heavy Leather Boots": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Heavy Leather Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 4,
-      "armor": 3,
-      "knockback_resistance_flat": 1
-    }
-  },
-  "Gemcrust Shoes": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Gemcrust Shoes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "curse_of_vanishing": 1,
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 4
-    }
-  },
-  "Nereid Sandals": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Nereid Sandals",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "respiration": 1,
-      "depth_strider": 1,
-      "agility": 3.5
-    }
-  },
-  "Hardened Leather Boots": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Hardened Leather Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "armor": 3.5
-    }
-  },
-  "Scout's Leathers (chest)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Scout's Leathers",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 3,
-      "agility": 2.5,
-      "projectile_damage_percent": 5
-    }
-  },
-  "Scout's Leathers (feet)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Scout's Leathers",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 3,
-      "agility": 2.5,
-      "projectile_damage_percent": 5
-    }
-  },
-  "Soulleather Shoes": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Soulleather Shoes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "mending": 1,
-      "curse_of_vanishing": 1,
-      "blast_protection": 1,
-      "armor": 4.5
-    }
-  },
-  "Viridian Mage Robes (chest)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Viridian Mage Robes",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 3,
-      "blast_protection": 1,
-      "projectile_protection": 1,
-      "magic_protection": 1,
-      "magic_damage_percent": 5,
-      "agility": 2.5
-    }
-  },
-  "Viridian Mage Robes (feet)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Viridian Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "blast_protection": 1,
-      "projectile_protection": 1,
-      "magic_protection": 1,
-      "magic_damage_percent": 5,
-      "agility": 2.5
-    }
-  },
-  "Dualsun Shoes": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Dualsun Shoes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 5,
-      "fire_protection": 2,
-      "armor": 3,
-      "max_health_flat": 1
-    }
-  },
-  "Brigand's Shoes": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Brigand's Shoes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 2,
-      "attack_damage_percent": 5
-    }
-  },
-  "Puresilk Slippers": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Puresilk Slippers",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "agility": 3,
-      "speed_percent": 15,
-      "attack_speed_percent": 10
-    }
-  },
-  "Sky Mage Slippers": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Sky Mage Slippers",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "feather_falling": 2,
-      "unbreaking": 3,
-      "agility": 2.5
-    }
-  },
-  "Spellweave Shoes": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Spellweave Shoes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "agility": 3
-    }
-  },
-  "Warlock Boots": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Warlock Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 4,
-      "fire_protection": 2,
-      "magic_protection": 1,
-      "armor": 2
-    }
-  },
   "Bloodsoaked Boots": {
     "location": "Willows",
     "region": "Valley",
@@ -19308,23 +18961,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "\"I've been wounded badly. My leg\ngrows numb and necrotic. I fear I\nwill be forced to cut it off if I cannot\nfind a way to heal it soon. I must\npress on. I will not die in this place.\nNot when the world depends on me\nsucceeding, no matter what the others on\nthe council think...\""
-  },
-  "Demoncaller Boots": {
-    "location": "Azacor",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Demoncaller Boots",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "max_health_flat": -2,
-      "speed_percent": 10,
-      "thorns_flat": 2,
-      "agility": 4.5
-    }
   },
   "Infused Cloth Shoes": {
     "location": "King's Valley",
@@ -19452,6 +19088,159 @@
       "agility": 1.5
     }
   },
+  "Dualsun Shoes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Dualsun Shoes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 5,
+      "armor": 3,
+      "max_health_flat": 1
+    }
+  },
+  "Soulleather Shoes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Soulleather Shoes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 1,
+      "curse_of_vanishing": 1,
+      "mending": 1,
+      "armor": 4.5
+    }
+  },
+  "Hardened Leather Boots": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Hardened Leather Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "armor": 3.5
+    }
+  },
+  "Puresilk Slippers": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Puresilk Slippers",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 3,
+      "agility": 3,
+      "speed_percent": 15,
+      "attack_speed_percent": 10
+    }
+  },
+  "Brigand's Shoes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Brigand's Shoes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "armor": 2,
+      "attack_damage_percent": 5
+    }
+  },
+  "Nereid Sandals": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Nereid Sandals",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "depth_strider": 1,
+      "respiration": 1,
+      "unbreaking": 3,
+      "agility": 3.5
+    }
+  },
+  "Viridian Mage Robes (chest)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Viridian Mage Robes",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "blast_protection": 1,
+      "magic_protection": 1,
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "magic_damage_percent": 5,
+      "agility": 2.5
+    }
+  },
+  "Viridian Mage Robes (feet)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Viridian Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 1,
+      "magic_protection": 1,
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "magic_damage_percent": 5,
+      "agility": 2.5
+    }
+  },
+  "Scout's Leathers (chest)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Scout's Leathers",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 3,
+      "agility": 2.5,
+      "projectile_damage_percent": 5
+    }
+  },
+  "Scout's Leathers (feet)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Scout's Leathers",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 3,
+      "agility": 2.5,
+      "projectile_damage_percent": 5
+    }
+  },
   "Cloth Shoes": {
     "location": "King's Valley",
     "region": "Valley",
@@ -19464,6 +19253,120 @@
       "armor": 0.5
     }
   },
+  "Gemcrust Shoes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Gemcrust Shoes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "curse_of_vanishing": 1,
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "armor": 4
+    }
+  },
+  "Cerulean Mage Robes (chest)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Cerulean Mage Robes",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "agility": 3
+    }
+  },
+  "Cerulean Mage Robes (feet)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Cerulean Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 1,
+      "unbreaking": 3,
+      "agility": 3
+    }
+  },
+  "Heavy Leather Boots": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Heavy Leather Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 4,
+      "armor": 3,
+      "knockback_resistance_flat": 1
+    }
+  },
+  "Molten Boots": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Molten Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "feather_falling": 1,
+      "fire_protection": 7,
+      "unbreaking": 3,
+      "agility": 1
+    }
+  },
+  "Warlock Boots": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Warlock Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "fire_protection": 2,
+      "magic_protection": 1,
+      "unbreaking": 4,
+      "armor": 2
+    }
+  },
+  "Sky Mage Slippers": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Sky Mage Slippers",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "feather_falling": 2,
+      "unbreaking": 3,
+      "agility": 2.5
+    }
+  },
+  "Spellweave Shoes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Spellweave Shoes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 3,
+      "agility": 3
+    }
+  },
   "TE Boots": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -19473,6 +19376,95 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Plaguehide Boots": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Plaguehide Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 3,
+      "armor": 3.5,
+      "max_health_flat": -1,
+      "attack_damage_percent": 10
+    }
+  },
+  "Explorer's Boots": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Explorer's Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "depth_strider": 3,
+      "unbreaking": 2,
+      "agility": 2
+    }
+  },
+  "Offering's Robe (chest)": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Offering's Robe",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "fire_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 1,
+      "armor": 2
+    }
+  },
+  "Offering's Robe (feet)": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Offering's Robe",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "fire_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 1,
+      "armor": 2
+    }
+  },
+  "Infernal Boots": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Infernal Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 2,
+      "fire_protection": 2,
+      "unbreaking": 2,
+      "attack_damage_percent": 5,
+      "agility": 3.5
+    }
+  },
+  "Fur Boots": {
+    "location": "Orange",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Fur Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 1,
+      "knockback_resistance_flat": 2.5,
+      "agility": 3
+    }
   },
   "Red Dress (chest)": {
     "location": "Valley Overworld",
@@ -19494,6 +19486,23 @@
     "type": "Misc",
     "stats": {}
   },
+  "Demoncaller Boots": {
+    "location": "Azacor",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Demoncaller Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "max_health_flat": -2,
+      "speed_percent": 10,
+      "thorns_flat": 2,
+      "agility": 4.5
+    }
+  },
   "Jeweled Bunny Slippers": {
     "location": "King's Valley",
     "region": "Valley",
@@ -19511,23 +19520,6 @@
       "knockback_resistance_flat": 1.7
     },
     "lore": "Hopping mad about these numbers."
-  },
-  "Pilgrimage": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Pilgrimage",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "melee_protection": 1,
-      "magic_protection": 2,
-      "unbreaking": 5,
-      "attack_damage_percent": 15,
-      "agility": 2.5
-    },
-    "lore": "Despite the obvious signs of wear, these\nboots are clean and well maintained. Words\nare stitched onto the right boot's outside:\n\"In all these things we are more than\nconquerors through him that loved us.\""
   },
   "Breaking Wave": {
     "location": "Ephemeral Enhancements",
@@ -19774,6 +19766,23 @@
       "agility": 2.5
     },
     "lore": "The rhythm has been forgotten,\nnow torment is their only song,\nhowled at an uncaring moon."
+  },
+  "Pilgrimage": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Pilgrimage",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "melee_protection": 1,
+      "magic_protection": 2,
+      "unbreaking": 5,
+      "attack_damage_percent": 15,
+      "agility": 2.5
+    },
+    "lore": "Despite the obvious signs of wear, these\nboots are clean and well maintained. Words\nare stitched onto the right boot's outside:\n\"In all these things we are more than\nconquerors through him that loved us.\""
   },
   "Warm Crystal Boots": {
     "location": "Celsian Isles",
@@ -20958,22 +20967,6 @@
     },
     "lore": "An enchanted broom owned by the\nMistress of Sundown and Waves.\nPerhaps you can use it to help\nyou reach her hex.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D12 Key 1-1 *"
   },
-  "Blightbane": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Blightbane",
-    "base_item": "Trident",
-    "release_status": "public",
-    "type": "Trident",
-    "stats": {
-      "projectile_speed_base": 0.8,
-      "projectile_damage_base": 8,
-      "attack_damage_base": 7,
-      "throw_rate_base": 1.1,
-      "attack_speed_base": 1.1
-    }
-  },
   "Lacuna": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -21003,6 +20996,22 @@
       "projectile_damage_base": 15,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 0.5
+    }
+  },
+  "Blightbane": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Blightbane",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "projectile_speed_base": 0.8,
+      "projectile_damage_base": 8,
+      "attack_damage_base": 7,
+      "throw_rate_base": 1.1,
+      "attack_speed_base": 1.1
     }
   },
   "Soulblighter's Sacrifice": {
@@ -22702,23 +22711,6 @@
     },
     "lore": "A broken blade, once held by a\ntraveler that has become Memory."
   },
-  "Elemental Spellblade": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Elemental Spellblade",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "unbreaking": 4,
-      "fire_aspect": 1,
-      "knockback": 1,
-      "attack_damage_base": 6,
-      "attack_speed_base": 1.6,
-      "spell_power_base": 35
-    }
-  },
   "Forsworn Dagger": {
     "location": "Sanctum",
     "region": "Valley",
@@ -22745,53 +22737,6 @@
       "attack_speed_base": 1.6
     },
     "lore": "The specimens of this lab must be\nquite the hassle..."
-  },
-  "Sacrificial Blade": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Sacrificial Blade",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "fire_aspect": 1,
-      "attack_damage_base": 6,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Ashheart Dagger": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Ashheart Dagger",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "unbreaking": 3,
-      "fire_aspect": 4,
-      "fire_protection": 2,
-      "sweeping_edge": 2,
-      "armor": 2,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.6
-    },
-    "lore": "Stab down, and take their soul."
-  },
-  "Poisoned Shank": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Poisoned Shank",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "agility": 1.5,
-      "attack_damage_percent": 15
-    }
   },
   "Vermin's Scourge": {
     "location": "Valley Overworld",
@@ -22841,170 +22786,6 @@
     },
     "lore": "The sword emanates a familiar energy."
   },
-  "Nest's Bane": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Nest's Bane",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "slayer": 1,
-      "unbreaking": 3,
-      "efficiency": 2,
-      "attack_damage_base": 5.5,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Officer's Blade": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Officer's Blade",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "sweeping_edge": 1,
-      "unbreaking": 2,
-      "attack_damage_base": 5.5,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Masterwork Sabre": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Masterwork Sabre",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "unbreaking": 5,
-      "attack_speed_base": 1.6,
-      "attack_damage_base": 6
-    }
-  },
-  "Duelist's Sword": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Duelist's Sword",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "melee_protection": 2,
-      "attack_damage_percent": 20
-    }
-  },
-  "Assassin's Dagger": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Assassin's Dagger",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "agility": 2,
-      "speed_percent": 15,
-      "attack_damage_percent": 8
-    }
-  },
-  "Macuahuitl": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Macuahuitl",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "unbreaking": 3,
-      "attack_damage_base": 7,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Versatile Cutlass": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Versatile Cutlass",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "slayer": 2,
-      "unbreaking": 3,
-      "efficiency": 2,
-      "attack_damage_base": 5,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Molten Rapier": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Molten Rapier",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "smite": 1,
-      "unbreaking": 3,
-      "fire_aspect": 2,
-      "attack_damage_base": 5.5,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Polished Gladius": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Polished Gladius",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "knockback": 3,
-      "unbreaking": 3,
-      "attack_damage_base": 5.5,
-      "attack_speed_base": 1.6
-    }
-  },
-  "Scout's Companion": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Scout's Companion",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "agility": 2,
-      "speed_percent": 12,
-      "projectile_damage_percent": 10
-    }
-  },
-  "Scoundrel's Rapier": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Scoundrel's Rapier",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "unbreakable": 1,
-      "melee_protection": 1,
-      "armor": 2
-    }
-  },
   "Blizzard Blade": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -23036,6 +22817,184 @@
       "attack_speed_base": 1.6
     }
   },
+  "Molten Rapier": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Molten Rapier",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "fire_aspect": 2,
+      "smite": 1,
+      "unbreaking": 3,
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Macuahuitl": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Macuahuitl",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "unbreaking": 3,
+      "attack_damage_base": 7,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Scout's Companion": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Scout's Companion",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "unbreakable": 1,
+      "agility": 2,
+      "speed_percent": 12,
+      "projectile_damage_percent": 10
+    }
+  },
+  "Versatile Cutlass": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Versatile Cutlass",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 2,
+      "slayer": 2,
+      "unbreaking": 3,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Polished Gladius": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Polished Gladius",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "knockback": 3,
+      "unbreaking": 3,
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Nest's Bane": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Nest's Bane",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "efficiency": 2,
+      "slayer": 1,
+      "unbreaking": 3,
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Assassin's Dagger": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Assassin's Dagger",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "unbreakable": 1,
+      "agility": 2,
+      "speed_percent": 15,
+      "attack_damage_percent": 8
+    }
+  },
+  "Masterwork Sabre": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Masterwork Sabre",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "unbreaking": 5,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 6
+    }
+  },
+  "Officer's Blade": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Officer's Blade",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "sweeping_edge": 1,
+      "unbreaking": 2,
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 1.6
+    }
+  },
+  "Duelist's Sword": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Duelist's Sword",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "melee_protection": 2,
+      "unbreakable": 1,
+      "attack_damage_percent": 20
+    }
+  },
+  "Poisoned Shank": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Poisoned Shank",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "unbreakable": 1,
+      "agility": 1.5,
+      "attack_damage_percent": 15
+    }
+  },
+  "Scoundrel's Rapier": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Scoundrel's Rapier",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "melee_protection": 1,
+      "unbreakable": 1,
+      "armor": 2
+    }
+  },
   "Completely Normal Sword": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -23050,6 +23009,20 @@
     },
     "lore": "Price: 5 stacks of Concentrated XP"
   },
+  "Sacrificial Blade": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Sacrificial Blade",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "fire_aspect": 1,
+      "attack_damage_base": 6,
+      "attack_speed_base": 1.6
+    }
+  },
   "Feldspar Sabre": {
     "location": "King's Valley",
     "region": "Valley",
@@ -23059,6 +23032,23 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Elemental Spellblade": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Elemental Spellblade",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "fire_aspect": 1,
+      "knockback": 1,
+      "unbreaking": 4,
+      "attack_damage_base": 6,
+      "attack_speed_base": 1.6,
+      "spell_power_base": 35
+    }
   },
   "Frodian Keyblade": {
     "location": "King's Valley",
@@ -23524,6 +23514,25 @@
     },
     "lore": "From the Sea to the Maw, the brackish\nBlackroot ebbs steady. Not swamp nor\nForest will alter the flow of its\nlife-giving waters."
   },
+  "Ashheart Dagger": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Ashheart Dagger",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "unbreaking": 3,
+      "fire_aspect": 4,
+      "fire_protection": 2,
+      "sweeping_edge": 2,
+      "armor": 2,
+      "attack_damage_base": 5,
+      "attack_speed_base": 1.6
+    },
+    "lore": "Stab down, and take their soul."
+  },
   "Wildthrasher": {
     "location": "Orange",
     "region": "Valley",
@@ -23598,6 +23607,23 @@
     "type": "Misc",
     "stats": {},
     "lore": "The holy blade which only legends fabled.\n* Quest Item *\n#Q117I01"
+  },
+  "Onyx Dagger": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Onyx Dagger",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "adrenaline": 1,
+      "regeneration": 1,
+      "unbreaking": 10,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 13.5
+    },
+    "lore": "A flawless, jet-black blade that\nhums with vibrant energy. Its hilt\nis inscribed with the name \"Noren\"."
   },
   "Rinascita": {
     "location": "Titanic Skin",
@@ -26023,51 +26049,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Infernal Pants": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Infernal Pants",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 2,
-      "fire_protection": 2,
-      "blast_protection": 2,
-      "attack_damage_percent": 5,
-      "agility": 3.5
-    }
-  },
-  "Plaguehide Pants": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Plaguehide Pants",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "armor": 3.5,
-      "max_health_flat": -1,
-      "attack_damage_percent": 10
-    }
-  },
-  "Fur Leggings": {
-    "location": "Orange",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Fur Leggings",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 1,
-      "knockback_resistance_flat": 2.5,
-      "agility": 3
-    }
-  },
   "Dreamweave Leggings": {
     "location": "Yellow",
     "region": "Valley",
@@ -26099,37 +26080,6 @@
     },
     "lore": "Very heat-resistant, but best not\nto wear them for too long."
   },
-  "Offering's Robe (legs)": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Offering's Robe",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 1,
-      "fire_protection": 2,
-      "projectile_protection": 2,
-      "armor": 2
-    }
-  },
-  "Ancient Robes": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Ancient Robes",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "fire_protection": 1,
-      "unbreaking": 4,
-      "armor": 2.5,
-      "max_health_flat": 2
-    },
-    "lore": "Flecks of blood stain these ancient\nsacrificial robes."
-  },
   "Infernal Robe": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -26142,258 +26092,6 @@
       "unbreaking": 3,
       "fire_protection": 3,
       "armor": 2,
-      "attack_damage_percent": 15
-    }
-  },
-  "Cerulean Mage Robes (legs)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Cerulean Mage Robes",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "melee_protection": 1,
-      "agility": 3
-    }
-  },
-  "Molten Pants": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Molten Pants",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "feather_falling": 1,
-      "unbreaking": 3,
-      "fire_protection": 7,
-      "agility": 1
-    }
-  },
-  "Heavy Leather Pants": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Heavy Leather Pants",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 4,
-      "armor": 3,
-      "knockback_resistance_flat": 1
-    }
-  },
-  "Gemcrust Pants": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Gemcrust Pants",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "curse_of_vanishing": 1,
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 4
-    }
-  },
-  "Nereid Leggings": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Nereid Leggings",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "respiration": 1,
-      "depth_strider": 1,
-      "agility": 3.5
-    }
-  },
-  "Hardened Leather Pants": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Hardened Leather Pants",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "armor": 3.5
-    }
-  },
-  "Scout's Leathers (legs)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Scout's Leathers",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 3,
-      "agility": 2.5,
-      "projectile_damage_percent": 5
-    }
-  },
-  "Soulleather Robe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Soulleather Robe",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "mending": 1,
-      "curse_of_vanishing": 1,
-      "blast_protection": 1,
-      "armor": 4.5
-    }
-  },
-  "Viridian Mage Robes (legs)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Viridian Mage Robes",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "blast_protection": 1,
-      "projectile_protection": 1,
-      "magic_protection": 1,
-      "magic_damage_percent": 5,
-      "agility": 2.5
-    }
-  },
-  "Dualsun Robe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Dualsun Robe",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 5,
-      "fire_protection": 2,
-      "armor": 3,
-      "max_health_flat": 1
-    }
-  },
-  "Brigand's Trousers": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Brigand's Trousers",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 2,
-      "attack_damage_percent": 5
-    }
-  },
-  "Puresilk Leggings": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Puresilk Leggings",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "agility": 3,
-      "speed_percent": 15,
-      "attack_speed_percent": 10
-    }
-  },
-  "Sky Mage Robe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Sky Mage Robe",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "feather_falling": 2,
-      "unbreaking": 3,
-      "agility": 2.5
-    }
-  },
-  "Spellweave Trousers": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Spellweave Trousers",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "agility": 3
-    }
-  },
-  "Warlock Robe (chest)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Warlock Robe",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 4,
-      "fire_protection": 2,
-      "magic_protection": 1,
-      "armor": 2
-    }
-  },
-  "Warlock Robe (legs)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Warlock Robe",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 4,
-      "fire_protection": 2,
-      "magic_protection": 1,
-      "armor": 2
-    }
-  },
-  "Demoncaller Pants": {
-    "location": "Azacor",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Demoncaller Pants",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "unbreaking": 3,
-      "fire_protection": 3,
-      "agility": 3.5,
-      "max_health_flat": -2,
       "attack_damage_percent": 15
     }
   },
@@ -26509,6 +26207,127 @@
       "armor": 2
     }
   },
+  "Soulleather Robe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Soulleather Robe",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "blast_protection": 1,
+      "curse_of_vanishing": 1,
+      "mending": 1,
+      "armor": 4.5
+    }
+  },
+  "Viridian Mage Robes (legs)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Viridian Mage Robes",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "blast_protection": 1,
+      "magic_protection": 1,
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "magic_damage_percent": 5,
+      "agility": 2.5
+    }
+  },
+  "Nereid Leggings": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Nereid Leggings",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "depth_strider": 1,
+      "respiration": 1,
+      "unbreaking": 3,
+      "agility": 3.5
+    }
+  },
+  "Hardened Leather Pants": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Hardened Leather Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "armor": 3.5
+    }
+  },
+  "Puresilk Leggings": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Puresilk Leggings",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "unbreaking": 3,
+      "agility": 3,
+      "speed_percent": 15,
+      "attack_speed_percent": 10
+    }
+  },
+  "Dualsun Robe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Dualsun Robe",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 5,
+      "armor": 3,
+      "max_health_flat": 1
+    }
+  },
+  "Brigand's Trousers": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Brigand's Trousers",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "armor": 2,
+      "attack_damage_percent": 5
+    }
+  },
+  "Scout's Leathers (legs)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Scout's Leathers",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 3,
+      "agility": 2.5,
+      "projectile_damage_percent": 5
+    }
+  },
   "Cloth Pants": {
     "location": "King's Valley",
     "region": "Valley",
@@ -26521,6 +26340,121 @@
       "armor": 0.5
     }
   },
+  "Molten Pants": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Molten Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "feather_falling": 1,
+      "fire_protection": 7,
+      "unbreaking": 3,
+      "agility": 1
+    }
+  },
+  "Cerulean Mage Robes (legs)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Cerulean Mage Robes",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "melee_protection": 1,
+      "unbreaking": 3,
+      "agility": 3
+    }
+  },
+  "Heavy Leather Pants": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Heavy Leather Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "unbreaking": 4,
+      "armor": 3,
+      "knockback_resistance_flat": 1
+    }
+  },
+  "Gemcrust Pants": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Gemcrust Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "curse_of_vanishing": 1,
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "armor": 4
+    }
+  },
+  "Warlock Robe (chest)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Warlock Robe",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "fire_protection": 2,
+      "magic_protection": 1,
+      "unbreaking": 4,
+      "armor": 2
+    }
+  },
+  "Warlock Robe (legs)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Warlock Robe",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 2,
+      "magic_protection": 1,
+      "unbreaking": 4,
+      "armor": 2
+    }
+  },
+  "Spellweave Trousers": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Spellweave Trousers",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "unbreaking": 3,
+      "agility": 3
+    }
+  },
+  "Sky Mage Robe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Sky Mage Robe",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "feather_falling": 2,
+      "unbreaking": 3,
+      "agility": 2.5
+    }
+  },
   "TE Pants": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -26531,6 +26465,66 @@
     "type": "Misc",
     "stats": {}
   },
+  "Plaguehide Pants": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Plaguehide Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "unbreaking": 3,
+      "armor": 3.5,
+      "max_health_flat": -1,
+      "attack_damage_percent": 10
+    }
+  },
+  "Offering's Robe (legs)": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Offering's Robe",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 1,
+      "armor": 2
+    }
+  },
+  "Infernal Pants": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Infernal Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "blast_protection": 2,
+      "fire_protection": 2,
+      "unbreaking": 2,
+      "attack_damage_percent": 5,
+      "agility": 3.5
+    }
+  },
+  "Fur Leggings": {
+    "location": "Orange",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Fur Leggings",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "unbreaking": 1,
+      "knockback_resistance_flat": 2.5,
+      "agility": 3
+    }
+  },
   "Red Dress (legs)": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -26540,6 +26534,22 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Demoncaller Pants": {
+    "location": "Azacor",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Demoncaller Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 3,
+      "unbreaking": 3,
+      "agility": 3.5,
+      "max_health_flat": -2,
+      "attack_damage_percent": 15
+    }
   },
   "Gem Encrusted Manpance": {
     "location": "King's Valley",
@@ -26947,6 +26957,22 @@
       "agility": 2.5
     },
     "lore": "We will remember them,\nwe who are left."
+  },
+  "Ancient Robes": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Ancient Robes",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_protection": 1,
+      "unbreaking": 4,
+      "armor": 2.5,
+      "max_health_flat": 2
+    },
+    "lore": "Flecks of blood stain these ancient\nsacrificial robes."
   },
   "Boomwoven Vines": {
     "location": "Orange",
@@ -29501,66 +29527,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Infernal Cap": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Infernal Cap",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 2,
-      "fire_protection": 2,
-      "blast_protection": 2,
-      "attack_damage_percent": 5,
-      "agility": 3.5
-    }
-  },
-  "Explorer's Cap": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Explorer's Cap",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 2,
-      "aqua_affinity": 1,
-      "respiration": 3,
-      "agility": 2
-    }
-  },
-  "Plaguehide Cap": {
-    "location": "Magenta",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Plaguehide Cap",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 3,
-      "armor": 3.5,
-      "max_health_flat": -1,
-      "attack_damage_percent": 10
-    }
-  },
-  "Fur Cap": {
-    "location": "Orange",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Fur Cap",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 1,
-      "knockback_resistance_flat": 2.5,
-      "agility": 3
-    }
-  },
   "Dreamweave Hat": {
     "location": "Yellow",
     "region": "Valley",
@@ -29574,21 +29540,6 @@
       "unbreaking": 2,
       "magic_protection": 1,
       "armor": 3.5
-    }
-  },
-  "Offering's Hood": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Offering's Hood",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 1,
-      "fire_protection": 2,
-      "projectile_protection": 2,
-      "armor": 2
     }
   },
   "Primordial Coif": {
@@ -29633,227 +29584,6 @@
       "blast_protection": 1,
       "unbreaking": 3,
       "armor": 4
-    }
-  },
-  "Cerulean Mage Hat": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Cerulean Mage Hat",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "blast_protection": 1,
-      "unbreaking": 3,
-      "agility": 3
-    }
-  },
-  "Molten Hood": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Molten Hood",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "feather_falling": 1,
-      "unbreaking": 3,
-      "fire_protection": 7,
-      "agility": 1
-    }
-  },
-  "Heavy Leather Cap": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Heavy Leather Cap",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 4,
-      "armor": 3,
-      "knockback_resistance_flat": 1
-    }
-  },
-  "Gemcrust Coif": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Gemcrust Coif",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "curse_of_vanishing": 1,
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 4
-    }
-  },
-  "Nereid Cap": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Nereid Cap",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 3,
-      "aqua_affinity": 1,
-      "respiration": 1,
-      "agility": 3.5
-    }
-  },
-  "Hardened Leather Cap": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Hardened Leather Cap",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "blast_protection": 3,
-      "unbreaking": 3,
-      "armor": 3.5
-    }
-  },
-  "Scout's Leathers (head)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Scout's Leathers",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 3,
-      "agility": 2.5,
-      "projectile_damage_percent": 5
-    }
-  },
-  "Soulleather Veil": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Soulleather Veil",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "mending": 1,
-      "curse_of_vanishing": 1,
-      "blast_protection": 1,
-      "armor": 4.5
-    }
-  },
-  "Viridian Mage Hat": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Viridian Mage Hat",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 3,
-      "blast_protection": 1,
-      "projectile_protection": 1,
-      "magic_protection": 1,
-      "magic_damage_percent": 5,
-      "agility": 2.5
-    }
-  },
-  "Dualsun Hood": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Dualsun Hood",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 5,
-      "fire_protection": 2,
-      "armor": 3,
-      "max_health_flat": 1
-    }
-  },
-  "Brigand's Coif": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Brigand's Coif",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 3,
-      "melee_protection": 2,
-      "armor": 2,
-      "attack_damage_percent": 5
-    }
-  },
-  "Puresilk Coif": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Puresilk Coif",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 3,
-      "agility": 3,
-      "speed_percent": 15,
-      "attack_speed_percent": 10
-    }
-  },
-  "Sky Mage Coif": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Sky Mage Coif",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "feather_falling": 2,
-      "unbreaking": 3,
-      "agility": 2.5
-    }
-  },
-  "Spellweave Hat": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Spellweave Hat",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 3,
-      "agility": 3
-    }
-  },
-  "Warlock Helm": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Warlock Helm",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreaking": 4,
-      "fire_protection": 2,
-      "magic_protection": 1,
-      "armor": 2
     }
   },
   "Padded Cloth Coif": {
@@ -29968,6 +29698,127 @@
       "agility": 1
     }
   },
+  "Brigand's Coif": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Brigand's Coif",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "armor": 2,
+      "attack_damage_percent": 5
+    }
+  },
+  "Puresilk Coif": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Puresilk Coif",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "unbreaking": 3,
+      "agility": 3,
+      "speed_percent": 15,
+      "attack_speed_percent": 10
+    }
+  },
+  "Hardened Leather Cap": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Hardened Leather Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 3,
+      "unbreaking": 3,
+      "armor": 3.5
+    }
+  },
+  "Dualsun Hood": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Dualsun Hood",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 5,
+      "armor": 3,
+      "max_health_flat": 1
+    }
+  },
+  "Soulleather Veil": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Soulleather Veil",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 1,
+      "curse_of_vanishing": 1,
+      "mending": 1,
+      "armor": 4.5
+    }
+  },
+  "Viridian Mage Hat": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Viridian Mage Hat",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 1,
+      "magic_protection": 1,
+      "projectile_protection": 1,
+      "unbreaking": 3,
+      "magic_damage_percent": 5,
+      "agility": 2.5
+    }
+  },
+  "Nereid Cap": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Nereid Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "aqua_affinity": 1,
+      "respiration": 1,
+      "unbreaking": 3,
+      "agility": 3.5
+    }
+  },
+  "Scout's Leathers (head)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Scout's Leathers",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 3,
+      "agility": 2.5,
+      "projectile_damage_percent": 5
+    }
+  },
   "Cloth Cap": {
     "location": "King's Valley",
     "region": "Valley",
@@ -29978,6 +29829,106 @@
     "type": "Helmet",
     "stats": {
       "armor": 0.5
+    }
+  },
+  "Molten Hood": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Molten Hood",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "feather_falling": 1,
+      "fire_protection": 7,
+      "unbreaking": 3,
+      "agility": 1
+    }
+  },
+  "Gemcrust Coif": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Gemcrust Coif",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "curse_of_vanishing": 1,
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "armor": 4
+    }
+  },
+  "Heavy Leather Cap": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Heavy Leather Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "unbreaking": 4,
+      "armor": 3,
+      "knockback_resistance_flat": 1
+    }
+  },
+  "Cerulean Mage Hat": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Cerulean Mage Hat",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 1,
+      "unbreaking": 3,
+      "agility": 3
+    }
+  },
+  "Warlock Helm": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Warlock Helm",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fire_protection": 2,
+      "magic_protection": 1,
+      "unbreaking": 4,
+      "armor": 2
+    }
+  },
+  "Sky Mage Coif": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Sky Mage Coif",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "feather_falling": 2,
+      "unbreaking": 3,
+      "agility": 2.5
+    }
+  },
+  "Spellweave Hat": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Spellweave Hat",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "unbreaking": 3,
+      "agility": 3
     }
   },
   "Builder Helmet": {
@@ -30004,6 +29955,81 @@
     },
     "lore": "Nice guys finish last... M'lady"
   },
+  "Explorer's Cap": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Explorer's Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "aqua_affinity": 1,
+      "respiration": 3,
+      "unbreaking": 2,
+      "agility": 2
+    }
+  },
+  "Plaguehide Cap": {
+    "location": "Magenta",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Plaguehide Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "unbreaking": 3,
+      "armor": 3.5,
+      "max_health_flat": -1,
+      "attack_damage_percent": 10
+    }
+  },
+  "Offering's Hood": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Offering's Hood",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fire_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 1,
+      "armor": 2
+    }
+  },
+  "Infernal Cap": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Infernal Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 2,
+      "fire_protection": 2,
+      "unbreaking": 2,
+      "attack_damage_percent": 5,
+      "agility": 3.5
+    }
+  },
+  "Fur Cap": {
+    "location": "Orange",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Fur Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "unbreaking": 1,
+      "knockback_resistance_flat": 2.5,
+      "agility": 3
+    }
+  },
   "Big Hat": {
     "location": "King's Valley",
     "region": "Valley",
@@ -30018,20 +30044,6 @@
       "magic_damage_percent": 15
     },
     "lore": "What is it with Wizards and\ntheir giant hats?"
-  },
-  "Grasses": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Patron",
-    "name": "Grasses",
-    "base_item": "Leather Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "unbreakable": 1,
-      "max_health_flat": 2
-    },
-    "lore": "Nothing will be wrong."
   },
   "Silvered Sight": {
     "location": "King's Valley",
@@ -30258,6 +30270,20 @@
       "armor": 3
     },
     "lore": "Those who built these halls watch over you.\nLet their souls guide your careful eyes..."
+  },
+  "Grasses": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Patron",
+    "name": "Grasses",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "unbreakable": 1,
+      "max_health_flat": 2
+    },
+    "lore": "Nothing will be wrong."
   },
   "Xeno's Pirate Hat": {
     "location": "Celsian Isles",
@@ -35482,115 +35508,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Meat Shield": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Meat Shield",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "unbreaking": 3,
-      "armor": 2,
-      "thorns_flat": 3
-    }
-  },
-  "Polished Shield": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Polished Shield",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Malevolent Reverie\nNot a spot of Rust!"
-  },
-  "Hide Shield": {
-    "location": "Orange",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Hide Shield",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "unbreaking": 3,
-      "knockback_resistance_flat": 2,
-      "speed_percent": 10
-    }
-  },
-  "Ironwrought Shield": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Ironwrought Shield",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "knockback_resistance_flat": 2,
-      "armor": 1.5
-    }
-  },
-  "Spiked Buckler": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Spiked Buckler",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "knockback": 1,
-      "material": 1,
-      "attack_speed_base": 2,
-      "attack_damage_base": 4
-    }
-  },
-  "Swiftwood Buckler": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Swiftwood Buckler",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "unbreaking": 1,
-      "speed_percent": 15,
-      "agility": 2
-    }
-  },
-  "Soulguard": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Soulguard",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "mending": 1,
-      "magic_protection": 2,
-      "armor": 2
-    }
-  },
-  "Hardened Shield": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Hardened Shield",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "blast_protection": 1,
-      "unbreaking": 1,
-      "armor": 1
-    }
-  },
   "Turtle Shield": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -35646,6 +35563,34 @@
     "type": "Misc",
     "stats": {}
   },
+  "Soulguard": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Soulguard",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "magic_protection": 2,
+      "mending": 1,
+      "armor": 2
+    }
+  },
+  "Swiftwood Buckler": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Swiftwood Buckler",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "unbreaking": 1,
+      "speed_percent": 15,
+      "agility": 2
+    }
+  },
   "Rusty Shield": {
     "location": "King's Valley",
     "region": "Valley",
@@ -35665,6 +35610,87 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Spiked Buckler": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Spiked Buckler",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "knockback": 1,
+      "material": 1,
+      "attack_speed_base": 2,
+      "attack_damage_base": 4
+    }
+  },
+  "Ironwrought Shield": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Ironwrought Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "knockback_resistance_flat": 2,
+      "armor": 1.5
+    }
+  },
+  "Hardened Shield": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Hardened Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "blast_protection": 1,
+      "unbreaking": 1,
+      "armor": 1
+    }
+  },
+  "Polished Shield": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Polished Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Malevolent Reverie\nNot a spot of Rust!"
+  },
+  "Meat Shield": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Meat Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "unbreaking": 3,
+      "armor": 2,
+      "thorns_flat": 3
+    }
+  },
+  "Hide Shield": {
+    "location": "Orange",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Hide Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "unbreaking": 3,
+      "knockback_resistance_flat": 2,
+      "speed_percent": 10
+    }
   },
   "Spellready Buckler": {
     "location": "Valley Overworld",
@@ -38107,55 +38133,6 @@
     "stats": {},
     "lore": "Now the flowers will grow!"
   },
-  "Earth's Might": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Earth's Might",
-    "effects": [
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.1,
-        "EffectType": "MaxHealthIncrease"
-      },
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.2,
-        "EffectType": "Resistance"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Wind's Strength": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Wind's Strength",
-    "effects": [
-      {
-        "EffectDuration": 1200,
-        "EffectStrength": 0.2,
-        "EffectType": "Absorption"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 0.4,
-        "EffectType": "Speed"
-      },
-      {
-        "EffectDuration": 6000,
-        "EffectStrength": 1,
-        "EffectType": "Haste"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
   "C'Zanil's Transgression": {
     "location": "Sanctum",
     "region": "Valley",
@@ -38347,22 +38324,6 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Minor Strength Vial": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "name": "Minor Strength Vial",
-    "effects": [
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.1,
-        "EffectType": "damage"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
   "Major Strength Vial": {
     "location": "King's Valley",
     "region": "Valley",
@@ -38372,22 +38333,6 @@
         "EffectDuration": 1800,
         "EffectStrength": 0.2,
         "EffectType": "damage"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Minor Swiftness Vial": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "name": "Minor Swiftness Vial",
-    "effects": [
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 0.2,
-        "EffectType": "Speed"
       }
     ],
     "base_item": "Splash Potion",
@@ -38496,6 +38441,55 @@
       {
         "EffectDuration": 1200,
         "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Wind's Strength": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Wind's Strength",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.4,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Earth's Might": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Earth's Might",
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "MaxHealthIncrease"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.2,
         "EffectType": "Resistance"
       }
     ],
@@ -43043,78 +43037,6 @@
       "projectile_damage_base": 10
     }
   },
-  "Hawk's Talon": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Hawk's Talon",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "unbreaking": 1,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1
-    }
-  },
-  "Pyromancer's Bow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Pyromancer's Bow",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "unbreaking": 3,
-      "fire_aspect": 1,
-      "projectile_damage_base": 10,
-      "projectile_speed_base": 1
-    }
-  },
-  "Composite Bow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Composite Bow",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "punch": 1,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1
-    }
-  },
-  "Korbaran Shortbow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Korbaran Shortbow",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "unbreaking": 1,
-      "projectile_damage_base": 14,
-      "projectile_speed_base": 1
-    }
-  },
-  "Searing Bow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Searing Bow",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "fire_aspect": 1,
-      "unbreaking": 1,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 9
-    }
-  },
   "Oncoming Tide": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -43129,23 +43051,6 @@
       "projectile_damage_base": 8,
       "projectile_speed_base": 1
     }
-  },
-  "Demonic Manifest": {
-    "location": "Azacor",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Demonic Manifest",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "infinity": 1,
-      "curse_of_vanishing": 1,
-      "mending": 1,
-      "projectile_damage_base": 14,
-      "projectile_speed_base": 1
-    },
-    "lore": "Power from memory, manifest."
   },
   "Farmer's Bow": {
     "location": "King's Valley",
@@ -43189,6 +43094,20 @@
       "projectile_speed_base": 1
     }
   },
+  "Korbaran Shortbow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Korbaran Shortbow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "unbreaking": 1,
+      "projectile_damage_base": 14,
+      "projectile_speed_base": 1
+    }
+  },
   "Novice's Bow": {
     "location": "King's Valley",
     "region": "Valley",
@@ -43199,6 +43118,64 @@
     "type": "Bow",
     "stats": {
       "projectile_damage_base": 7,
+      "projectile_speed_base": 1
+    }
+  },
+  "Pyromancer's Bow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Pyromancer's Bow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 1,
+      "unbreaking": 3,
+      "projectile_damage_base": 10,
+      "projectile_speed_base": 1
+    }
+  },
+  "Composite Bow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Composite Bow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "punch": 1,
+      "projectile_damage_base": 12,
+      "projectile_speed_base": 1
+    }
+  },
+  "Searing Bow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Searing Bow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 1,
+      "unbreaking": 1,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 9
+    }
+  },
+  "Hawk's Talon": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Hawk's Talon",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "unbreaking": 1,
+      "projectile_damage_base": 12,
       "projectile_speed_base": 1
     }
   },
@@ -43216,6 +43193,23 @@
       "projectile_damage_base": 10,
       "projectile_speed_base": 1
     }
+  },
+  "Demonic Manifest": {
+    "location": "Azacor",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Demonic Manifest",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "curse_of_vanishing": 1,
+      "infinity": 1,
+      "mending": 1,
+      "projectile_damage_base": 14,
+      "projectile_speed_base": 1
+    },
+    "lore": "Power from memory, manifest."
   },
   "Polar Wind": {
     "location": "King's Valley",
@@ -44279,35 +44273,6 @@
     },
     "lore": "The collective roots of the Mycelia\nonce showed solidarity, but with the\nGodspore turned tyrant, they now\nshow only its insidious reach."
   },
-  "Ruffian's Scythe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Ruffian's Scythe",
-    "base_item": "Stone Hoe",
-    "release_status": "public",
-    "type": "Scythe",
-    "stats": {
-      "smite": 1,
-      "unbreaking": 2,
-      "attack_damage_base": 3.5,
-      "attack_speed_base": 2
-    }
-  },
-  "Bountiful Hoe": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Bountiful Hoe",
-    "base_item": "Stone Hoe",
-    "release_status": "public",
-    "type": "Scythe",
-    "stats": {
-      "fortune": 3,
-      "unbreaking": 5,
-      "attack_speed_base": 2
-    }
-  },
   "Blighted Scythe": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -44323,67 +44288,6 @@
       "unbreaking": 3,
       "attack_speed_base": 2,
       "attack_damage_base": 4
-    }
-  },
-  "Rebel's Scythe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Rebel's Scythe",
-    "base_item": "Stone Hoe",
-    "release_status": "public",
-    "type": "Scythe",
-    "stats": {
-      "smite": 1,
-      "unbreaking": 2,
-      "attack_damage_base": 4,
-      "attack_speed_base": 2
-    }
-  },
-  "Salubric Scythe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Salubric Scythe",
-    "base_item": "Stone Hoe",
-    "release_status": "public",
-    "type": "Scythe",
-    "stats": {
-      "melee_protection": 1,
-      "slayer": 1,
-      "attack_damage_base": 4,
-      "attack_speed_base": 2
-    }
-  },
-  "Executioner's Scythe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Executioner's Scythe",
-    "base_item": "Stone Hoe",
-    "release_status": "public",
-    "type": "Scythe",
-    "stats": {
-      "smite": 2,
-      "unbreaking": 3,
-      "attack_damage_base": 3.5,
-      "attack_speed_base": 2
-    }
-  },
-  "Windborn Scythe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Windborn Scythe",
-    "base_item": "Stone Hoe",
-    "release_status": "public",
-    "type": "Scythe",
-    "stats": {
-      "knockback": 2,
-      "unbreaking": 3,
-      "speed_percent": 10,
-      "attack_damage_base": 5,
-      "attack_speed_base": 2
     }
   },
   "Weak Scythe": {
@@ -44412,6 +44316,96 @@
       "smite": 1,
       "unbreaking": 1,
       "attack_damage_base": 3,
+      "attack_speed_base": 2
+    }
+  },
+  "Windborn Scythe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Windborn Scythe",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "knockback": 2,
+      "unbreaking": 3,
+      "speed_percent": 10,
+      "attack_damage_base": 5,
+      "attack_speed_base": 2
+    }
+  },
+  "Executioner's Scythe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Executioner's Scythe",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "smite": 2,
+      "unbreaking": 3,
+      "attack_damage_base": 3.5,
+      "attack_speed_base": 2
+    }
+  },
+  "Salubric Scythe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Salubric Scythe",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "melee_protection": 1,
+      "slayer": 1,
+      "attack_damage_base": 4,
+      "attack_speed_base": 2
+    }
+  },
+  "Rebel's Scythe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Rebel's Scythe",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "smite": 1,
+      "unbreaking": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 2
+    }
+  },
+  "Ruffian's Scythe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Ruffian's Scythe",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "smite": 1,
+      "unbreaking": 2,
+      "attack_damage_base": 3.5,
+      "attack_speed_base": 2
+    }
+  },
+  "Bountiful Hoe": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Bountiful Hoe",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "fortune": 3,
+      "unbreaking": 5,
       "attack_speed_base": 2
     }
   },
@@ -47514,21 +47508,6 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
-  "Shaman's Staff": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Shaman's Staff",
-    "base_item": "Bone",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "slayer": 2,
-      "knockback": 1,
-      "attack_damage_base": 3,
-      "spell_power_base": 25
-    }
-  },
   "Restless Bone": {
     "name": "Restless Bone",
     "base_item": "Bone",
@@ -47538,6 +47517,21 @@
       "material": 1
     },
     "lore": "Its owner was never laid to rest."
+  },
+  "Shaman's Staff": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Shaman's Staff",
+    "base_item": "Bone",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "knockback": 1,
+      "slayer": 2,
+      "attack_damage_base": 3,
+      "spell_power_base": 25
+    }
   },
   "C'Zanil's Talisman": {
     "location": "Ephemeral Enhancements",
@@ -50151,32 +50145,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q19I01\nIt radiates a strange energy that makes\nyou reflect on times long past."
   },
-  "Corrupted Stick of Ultimate Destiny!": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Corrupted Stick of Ultimate Destiny!",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "depth_strider": 10,
-      "efficiency": 10,
-      "fire_aspect": 10,
-      "fortune": 10,
-      "ice_aspect": 10,
-      "infinity": 10,
-      "lure": 10,
-      "mending": 10,
-      "point_blank": 10,
-      "punch": 10,
-      "riptide": 10,
-      "sweeping_edge": 10,
-      "thunder_aspect": 10,
-      "unbreaking": 10
-    },
-    "lore": "The lava actually hurts this time!"
-  },
   "Alchemic Caster": {
     "location": "Labs",
     "region": "Valley",
@@ -50192,21 +50160,6 @@
       "spell_power_base": 20
     },
     "lore": "The spells you cast with the wand\nseem to smell of sulfur and chemicals."
-  },
-  "Consecrated Wand": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Consecrated Wand",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "smite": 2,
-      "knockback": 1,
-      "attack_damage_base": 1.5,
-      "spell_power_base": 20
-    }
   },
   "The Stick of Ultimate Destiny!": {
     "location": "King's Valley",
@@ -50249,65 +50202,6 @@
       "spell_power_base": 30
     }
   },
-  "Swiftwood Quiver": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Swiftwood Quiver",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "feather_falling": 1,
-      "projectile_protection": 2,
-      "speed_percent": 10,
-      "projectile_damage_percent": 8
-    }
-  },
-  "Journeyman's Staff": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Journeyman's Staff",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "fire_aspect": 2,
-      "knockback": 1,
-      "attack_damage_base": 3,
-      "spell_power_base": 25
-    }
-  },
-  "Wand of Storms": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Wand of Storms",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "knockback": 3,
-      "speed_percent": 10,
-      "attack_damage_base": 2.5,
-      "spell_power_base": 35
-    }
-  },
-  "Apprentice's Wand": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Apprentice's Wand",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "knockback": 1,
-      "attack_damage_base": 3,
-      "spell_power_base": 20
-    }
-  },
   "Corrupted Staff": {
     "name": "Corrupted Staff",
     "base_item": "Stick",
@@ -50344,6 +50238,21 @@
       "spell_power_base": 20
     }
   },
+  "Wand of Storms": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Wand of Storms",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "knockback": 3,
+      "speed_percent": 10,
+      "attack_damage_base": 2.5,
+      "spell_power_base": 35
+    }
+  },
   "Novice's Wand": {
     "location": "King's Valley",
     "region": "Valley",
@@ -50356,6 +50265,91 @@
       "attack_damage_base": 2,
       "spell_power_base": 15
     }
+  },
+  "Journeyman's Staff": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Journeyman's Staff",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "fire_aspect": 2,
+      "knockback": 1,
+      "attack_damage_base": 3,
+      "spell_power_base": 25
+    }
+  },
+  "Swiftwood Quiver": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Swiftwood Quiver",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "feather_falling": 1,
+      "projectile_protection": 2,
+      "speed_percent": 10,
+      "projectile_damage_percent": 8
+    }
+  },
+  "Apprentice's Wand": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Apprentice's Wand",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "knockback": 1,
+      "attack_damage_base": 3,
+      "spell_power_base": 20
+    }
+  },
+  "Consecrated Wand": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Consecrated Wand",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "knockback": 1,
+      "smite": 2,
+      "attack_damage_base": 1.5,
+      "spell_power_base": 20
+    }
+  },
+  "Corrupted Stick of Ultimate Destiny!": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Corrupted Stick of Ultimate Destiny!",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "depth_strider": 10,
+      "efficiency": 10,
+      "fire_aspect": 10,
+      "fortune": 10,
+      "ice_aspect": 10,
+      "infinity": 10,
+      "lure": 10,
+      "mending": 10,
+      "point_blank": 10,
+      "punch": 10,
+      "riptide": 10,
+      "sweeping_edge": 10,
+      "thunder_aspect": 10,
+      "unbreaking": 10
+    },
+    "lore": "The lava actually hurts this time!"
   },
   "Glass Rod": {
     "location": "Valley Overworld",
@@ -53259,21 +53253,6 @@
     },
     "lore": "These crumbling temples and flooded\nhalls, they look man-made, but what\npeople built them?"
   },
-  "Masterwork Pickaxe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Masterwork Pickaxe",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "unbreaking": 2,
-      "efficiency": 1,
-      "attack_damage_base": 3,
-      "attack_speed_base": 1.2
-    }
-  },
   "Enchanted Pickaxe": {
     "name": "Enchanted Pickaxe",
     "base_item": "Stone Pickaxe",
@@ -53284,94 +53263,6 @@
       "efficiency": 1
     },
     "lore": "Enchanted to destroy the\ndruids' summoning stone"
-  },
-  "Balanced Adze": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Balanced Adze",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "unbreaking": 2,
-      "efficiency": 2,
-      "attack_damage_base": 3,
-      "attack_speed_base": 1.2
-    }
-  },
-  "Bountiful Chisel": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Bountiful Chisel",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "fortune": 3,
-      "attack_damage_base": 3,
-      "attack_speed_base": 1.2
-    }
-  },
-  "Undying Chisel": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Undying Chisel",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "mending": 1,
-      "efficiency": 1,
-      "attack_damage_base": 3,
-      "attack_speed_base": 1.2
-    }
-  },
-  "Truerune Pick": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Truerune Pick",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "fortune": 4,
-      "unbreaking": 2,
-      "attack_damage_base": 3,
-      "attack_speed_base": 1.2
-    }
-  },
-  "Runic Pickaxe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Runic Pickaxe",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "fortune": 2,
-      "unbreaking": 2,
-      "attack_damage_base": 3,
-      "attack_speed_base": 1.2
-    }
-  },
-  "Resilient Pickaxe": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Resilient Pickaxe",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "unbreaking": 10,
-      "attack_damage_base": 3,
-      "attack_speed_base": 1.2
-    }
   },
   "Icicle Chisel": {
     "location": "Valley Overworld",
@@ -53415,6 +53306,109 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "unbreaking": 2,
+      "attack_damage_base": 3,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Undying Chisel": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Undying Chisel",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 1,
+      "mending": 1,
+      "attack_damage_base": 3,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Truerune Pick": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Truerune Pick",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "fortune": 4,
+      "unbreaking": 2,
+      "attack_damage_base": 3,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Balanced Adze": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Balanced Adze",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 2,
+      "unbreaking": 2,
+      "attack_damage_base": 3,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Bountiful Chisel": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Bountiful Chisel",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "fortune": 3,
+      "attack_damage_base": 3,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Runic Pickaxe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Runic Pickaxe",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "fortune": 2,
+      "unbreaking": 2,
+      "attack_damage_base": 3,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Resilient Pickaxe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Resilient Pickaxe",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "unbreaking": 10,
+      "attack_damage_base": 3,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Masterwork Pickaxe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Masterwork Pickaxe",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 1,
       "unbreaking": 2,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
@@ -54952,19 +54946,6 @@
     },
     "lore": "* Quest Item *\n#Q38I02"
   },
-  "Tome of the Jungle": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Tome of the Jungle",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "regeneration": 1,
-      "speed_percent": 15
-    }
-  },
   "Blitz Master Guide": {
     "location": "Blitz",
     "region": "Valley",
@@ -54974,19 +54955,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Right Button while in the mainhand\nto open the main GUI.\nShift + Right Button to open a shortcut\nto the shop.\nShift + Left Button to instantly\nstart the next round."
-  },
-  "Apprentice's Notes": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Apprentice's Notes",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "agility": 2,
-      "magic_damage_percent": 10
-    }
   },
   "Fragment of Reality": {
     "location": "Willows",
@@ -55020,6 +54988,19 @@
     "stats": {},
     "lore": "Epic Crafting Ingredient\nRedeemable for fabulous prizes!"
   },
+  "Apprentice's Notes": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Apprentice's Notes",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "agility": 2,
+      "magic_damage_percent": 10
+    }
+  },
   "Tome of Madness": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -55034,6 +55015,19 @@
       "chaotic": 5,
       "attack_damage_base": 11.5,
       "attack_speed_base": 0.5
+    }
+  },
+  "Tome of the Jungle": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Tome of the Jungle",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "regeneration": 1,
+      "speed_percent": 15
     }
   },
   "Tome of Aquatic Shards": {
@@ -55687,6 +55681,14 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q03I01"
   },
+  "Journal V4": {
+    "name": "Journal V4",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q138I04"
+  },
   "Thief's Guide : Nyr": {
     "base_item": "Written Book",
     "release_status": "public",
@@ -55955,6 +55957,14 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "My 1st Joural": {
+    "name": "My 1st Joural",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q138I05"
   },
   "The Mimicylopedia": {
     "name": "The Mimicylopedia",
@@ -57080,6 +57090,12 @@
     "type": "Written Book",
     "stats": {}
   },
+  "Awalterskong": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
   "Aleph Null, Vol. 4": {
     "name": "Aleph Null, Vol. 4",
     "base_item": "Written Book",
@@ -57841,7 +57857,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "This lovely flower was said to be a\na favorite of the Agarthians.\nGone extinct after the war against XXXXXX."
+    "lore": "This lovely flower was said to be\na favorite of the Agarthians,\ngone extinct after the war against XXXXXX."
   },
   "Ancient Oxeye Daisy": {
     "name": "Ancient Oxeye Daisy",
@@ -58805,16 +58821,6 @@
     },
     "lore": "Legends speak of a mighty power, earned\nonly if one kisses you below the bloom.\nSadly, nobody seems to want to."
   },
-  "Deepdream Roots": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Deepdream Roots",
-    "base_item": "Jungle Sapling",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Corrupted Key 4": {
     "location": "Reverie",
     "region": "Valley",
@@ -58827,6 +58833,16 @@
       "curse_of_corruption": 1
     },
     "lore": "The Sanctum is empty. Kaul is gone. He no longer\nreplies to my calls, and the leaves within this\nplace have begun to wilt. My mind feels empty.\nI am no longer the Soulspeaker for Kaul. I am useless.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DN Key 4 *"
+  },
+  "Deepdream Roots": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Deepdream Roots",
+    "base_item": "Jungle Sapling",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Willowtwist Memory": {
     "location": "Ephemeral Enhancements",
@@ -60189,51 +60205,6 @@
       "projectile_speed_base": 1
     }
   },
-  "Juggernaut Crossbow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Juggernaut Crossbow",
-    "base_item": "Crossbow",
-    "release_status": "public",
-    "type": "Crossbow",
-    "stats": {
-      "projectile_damage_base": 14,
-      "projectile_speed_base": 0.6
-    }
-  },
-  "Blazing Crossbow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Blazing Crossbow",
-    "base_item": "Crossbow",
-    "release_status": "public",
-    "type": "Crossbow",
-    "stats": {
-      "unbreaking": 1,
-      "punch": 2,
-      "fire_aspect": 1,
-      "quick_charge": 1,
-      "projectile_damage_base": 11,
-      "projectile_speed_base": 1
-    }
-  },
-  "Quickload Crossbow": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Quickload Crossbow",
-    "base_item": "Crossbow",
-    "release_status": "public",
-    "type": "Crossbow",
-    "stats": {
-      "unbreaking": 1,
-      "quick_charge": 1,
-      "projectile_damage_base": 11,
-      "projectile_speed_base": 1
-    }
-  },
   "Simple Crossbow": {
     "location": "King's Valley",
     "region": "Valley",
@@ -60256,6 +60227,51 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "unbreaking": 1,
+      "projectile_damage_base": 11,
+      "projectile_speed_base": 1
+    }
+  },
+  "Blazing Crossbow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Blazing Crossbow",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "fire_aspect": 1,
+      "punch": 2,
+      "quick_charge": 1,
+      "unbreaking": 1,
+      "projectile_damage_base": 11,
+      "projectile_speed_base": 1
+    }
+  },
+  "Juggernaut Crossbow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Juggernaut Crossbow",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "projectile_damage_base": 14,
+      "projectile_speed_base": 0.6
+    }
+  },
+  "Quickload Crossbow": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Quickload Crossbow",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "quick_charge": 1,
       "unbreaking": 1,
       "projectile_damage_base": 11,
       "projectile_speed_base": 1
@@ -61220,21 +61236,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q14I01"
   },
-  "Arrowmeld": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Arrowmeld",
-    "base_item": "Wooden Shovel",
-    "release_status": "public",
-    "type": "Shovel",
-    "stats": {
-      "fortune": 3,
-      "unbreaking": 5,
-      "attack_damage_base": 2.5,
-      "attack_speed_base": 1
-    }
-  },
   "Swiftwood Shovel": {
     "location": "King's Valley",
     "region": "Valley",
@@ -61274,6 +61275,21 @@
     "release_status": "public",
     "type": "Shovel",
     "stats": {
+      "attack_damage_base": 2.5,
+      "attack_speed_base": 1
+    }
+  },
+  "Arrowmeld": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Arrowmeld",
+    "base_item": "Wooden Shovel",
+    "release_status": "public",
+    "type": "Shovel",
+    "stats": {
+      "fortune": 3,
+      "unbreaking": 5,
       "attack_damage_base": 2.5,
       "attack_speed_base": 1
     }
@@ -69945,19 +69961,6 @@
       "speed_percent": 16
     }
   },
-  "Mermaid's Touch": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Mermaid's Touch",
-    "base_item": "Fishing Rod",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "lure": 4,
-      "mending": 1
-    }
-  },
   "Novice's Fishing Rod": {
     "location": "King's Valley",
     "region": "Valley",
@@ -69969,6 +69972,19 @@
     "stats": {
       "lure": 1,
       "unbreaking": 2
+    }
+  },
+  "Mermaid's Touch": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Mermaid's Touch",
+    "base_item": "Fishing Rod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "lure": 4,
+      "mending": 1
     }
   },
   "Angler's Rod": {
@@ -70403,20 +70419,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Pyromancer's Staff": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Pyromancer's Staff",
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "fire_aspect": 2,
-      "attack_damage_base": 3.5,
-      "spell_power_base": 30
-    }
-  },
   "Flame Wand": {
     "location": "King's Valley",
     "region": "Valley",
@@ -70430,6 +70432,20 @@
       "knockback": 2,
       "attack_damage_base": 1.5,
       "spell_power_base": 20
+    }
+  },
+  "Pyromancer's Staff": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Pyromancer's Staff",
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "fire_aspect": 2,
+      "attack_damage_base": 3.5,
+      "spell_power_base": 30
     }
   },
   "Fire Tempest": {
@@ -73996,45 +74012,6 @@
     },
     "lore": "The Vedha saw no reason to limit herself\nto just the power of Water, when Earth\nwould work deliciously. Her methods may\nbe brutal, but none dared stop her."
   },
-  "Verdant Crusher": {
-    "location": "Kaul",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Verdant Crusher",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "slayer": 2,
-      "unbreaking": 2,
-      "mending": 1,
-      "efficiency": 2,
-      "attack_damage_base": 8,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Shaman's Crusher": {
-    "location": "Challenger",
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Shaman's Crusher",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "efficiency": 5,
-      "mending": 1,
-      "quake": 4,
-      "regeneration": 2,
-      "two_handed": 1,
-      "unbreaking": 2,
-      "knockback_resistance_flat": 6,
-      "attack_damage_base": 25,
-      "attack_speed_base": 0.8,
-      "armor": 2
-    },
-    "lore": "Even in betrayal, the Soulspeaker feared not\nthe price of his failure. Rather, he feared the\noutlash of the Jungle's wrath on his people."
-  },
   "Plagueborne Axe": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -74048,67 +74025,6 @@
       "unbreaking": 5,
       "attack_speed_base": 0.8,
       "attack_damage_base": 9.5
-    }
-  },
-  "Falling Comet": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Falling Comet",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "slayer": 1,
-      "unbreaking": 5,
-      "fire_aspect": 2,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 9.5
-    }
-  },
-  "Deforester": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Deforester",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 3,
-      "efficiency": 4,
-      "attack_damage_base": 7,
-      "attack_speed_base": 0.8
-    }
-  },
-  "Meteor Hammer": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Meteor Hammer",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "fire_aspect": 2,
-      "unbreaking": 4,
-      "attack_damage_base": 10,
-      "attack_speed_base": 0.7
-    }
-  },
-  "Tempered Mace": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Tempered Mace",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "knockback": 2,
-      "unbreaking": 4,
-      "attack_speed_base": 0.8,
-      "attack_damage_base": 9
     }
   },
   "Swiftwood Axe": {
@@ -74216,6 +74132,84 @@
       "attack_speed_base": 0.8
     }
   },
+  "Falling Comet": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Falling Comet",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 2,
+      "slayer": 1,
+      "unbreaking": 5,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 9.5
+    }
+  },
+  "Deforester": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Deforester",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 4,
+      "unbreaking": 3,
+      "attack_damage_base": 7,
+      "attack_speed_base": 0.8
+    }
+  },
+  "Meteor Hammer": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Meteor Hammer",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "fire_aspect": 2,
+      "unbreaking": 4,
+      "attack_damage_base": 10,
+      "attack_speed_base": 0.7
+    }
+  },
+  "Tempered Mace": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Tempered Mace",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "knockback": 2,
+      "unbreaking": 4,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 9
+    }
+  },
+  "Verdant Crusher": {
+    "location": "Kaul",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Verdant Crusher",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 2,
+      "mending": 1,
+      "slayer": 2,
+      "unbreaking": 2,
+      "attack_damage_base": 8,
+      "attack_speed_base": 0.8
+    }
+  },
   "Shaman's Broken Crusher": {
     "location": "Sanctum",
     "region": "Valley",
@@ -74308,6 +74302,28 @@
       "thorns_flat": 2
     },
     "lore": "The crystals lining the Staff gleam beautifully,\nholding pleasant memories that would otherwise\nbe forgotten."
+  },
+  "Shaman's Crusher": {
+    "location": "Challenger",
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Shaman's Crusher",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 5,
+      "mending": 1,
+      "quake": 4,
+      "regeneration": 2,
+      "two_handed": 1,
+      "unbreaking": 2,
+      "knockback_resistance_flat": 6,
+      "attack_damage_base": 25,
+      "attack_speed_base": 0.8,
+      "armor": 2
+    },
+    "lore": "Even in betrayal, the Soulspeaker feared not\nthe price of his failure. Rather, he feared the\noutlash of the Jungle's wrath on his people."
   },
   "Withering Hydrangea-3": {
     "location": "Zenith",
@@ -74662,8 +74678,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 1,
       "material": 1,
+      "projectile_protection": 1,
       "speed_percent": 10
     }
   },
@@ -80198,19 +80214,17 @@
       "attack_damage_base": 7
     }
   },
-  "Speed Spade": {
-    "location": "Valley Overworld",
+  "Undying Trowel": {
+    "location": "King's Valley",
     "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Speed Spade",
+    "tier": "Tier 5",
+    "name": "Undying Trowel",
     "base_item": "Stone Shovel",
     "release_status": "public",
     "type": "Shovel",
     "stats": {
-      "unbreaking": 1,
-      "fortune": 1,
-      "efficiency": 2,
-      "speed_percent": 10,
+      "efficiency": 3,
+      "mending": 1,
       "attack_damage_base": 3.5,
       "attack_speed_base": 1
     }
@@ -80224,23 +80238,8 @@
     "release_status": "public",
     "type": "Shovel",
     "stats": {
+      "efficiency": 3,
       "unbreaking": 3,
-      "efficiency": 3,
-      "attack_damage_base": 3.5,
-      "attack_speed_base": 1
-    }
-  },
-  "Undying Trowel": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Undying Trowel",
-    "base_item": "Stone Shovel",
-    "release_status": "public",
-    "type": "Shovel",
-    "stats": {
-      "mending": 1,
-      "efficiency": 3,
       "attack_damage_base": 3.5,
       "attack_speed_base": 1
     }
@@ -80258,6 +80257,23 @@
       "unbreaking": 1,
       "mending": 1,
       "efficiency": 1,
+      "attack_damage_base": 3.5,
+      "attack_speed_base": 1
+    }
+  },
+  "Speed Spade": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Speed Spade",
+    "base_item": "Stone Shovel",
+    "release_status": "public",
+    "type": "Shovel",
+    "stats": {
+      "unbreaking": 1,
+      "fortune": 1,
+      "efficiency": 2,
+      "speed_percent": 10,
       "attack_damage_base": 3.5,
       "attack_speed_base": 1
     }
@@ -81129,85 +81145,6 @@
     },
     "lore": "Old alchemical remains cake the outside-\ntake care while using it."
   },
-  "Ashfloe Chisel": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Rare",
-    "name": "Ashfloe Chisel",
-    "base_item": "Wooden Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "unbreaking": 1,
-      "fire_protection": 3,
-      "fortune": 5,
-      "efficiency": 3,
-      "attack_damage_base": 2,
-      "attack_speed_base": 1.2
-    },
-    "lore": "Used to clear chunks of magma\nfrom important channels."
-  },
-  "Bluescourge Chisel": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Bluescourge Chisel",
-    "base_item": "Wooden Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "unbreaking": 1,
-      "efficiency": 3,
-      "attack_damage_base": 2,
-      "attack_speed_base": 1.2
-    }
-  },
-  "Coal Devourer": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Coal Devourer",
-    "base_item": "Wooden Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "fortune": 4,
-      "unbreaking": 2,
-      "attack_damage_base": 2,
-      "attack_speed_base": 1.2
-    }
-  },
-  "Evanescent": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Evanescent",
-    "base_item": "Wooden Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "curse_of_vanishing": 1,
-      "efficiency": 4,
-      "attack_damage_base": 2,
-      "attack_speed_base": 1.2
-    }
-  },
-  "Sapper's Tool": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Sapper's Tool",
-    "base_item": "Wooden Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "unbreaking": 3,
-      "knockback": 1,
-      "efficiency": 2,
-      "attack_damage_base": 2,
-      "attack_speed_base": 1.2
-    }
-  },
   "Swiftwood Pickaxe": {
     "location": "King's Valley",
     "region": "Valley",
@@ -81267,6 +81204,21 @@
       "attack_speed_base": 1.2
     }
   },
+  "Evanescent": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Evanescent",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "curse_of_vanishing": 1,
+      "efficiency": 4,
+      "attack_damage_base": 2,
+      "attack_speed_base": 1.2
+    }
+  },
   "Novice's Pickaxe": {
     "location": "King's Valley",
     "region": "Valley",
@@ -81276,6 +81228,52 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "attack_damage_base": 2,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Coal Devourer": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Coal Devourer",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "fortune": 4,
+      "unbreaking": 2,
+      "attack_damage_base": 2,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Bluescourge Chisel": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Bluescourge Chisel",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 3,
+      "unbreaking": 1,
+      "attack_damage_base": 2,
+      "attack_speed_base": 1.2
+    }
+  },
+  "Sapper's Tool": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Sapper's Tool",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 2,
+      "knockback": 1,
+      "unbreaking": 3,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2
     }
@@ -81295,6 +81293,24 @@
       "attack_damage_base": 2,
       "attack_speed_base": 1.2
     }
+  },
+  "Ashfloe Chisel": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Ashfloe Chisel",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "unbreaking": 1,
+      "fire_protection": 3,
+      "fortune": 5,
+      "efficiency": 3,
+      "attack_damage_base": 2,
+      "attack_speed_base": 1.2
+    },
+    "lore": "Used to clear chunks of magma\nfrom important channels."
   },
   "Branch of Life": {
     "location": "Isles Casino",
@@ -81457,6 +81473,24 @@
     "stats": {},
     "lore": "\"I don't know how I did it, but I\nmanaged to incapacitate one of the\nguardians roaming this forest. It took\nmore magic than I knew I had in me, but\nat last, the Immortal froze and screamed.\nI don't know why, but I took the helm\nit wore before I fled.\""
   },
+  "Plush Panda Bear": {
+    "name": "Plush Panda Bear",
+    "base_item": "Panda Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Forsworn Sanctum Key": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Forsworn Sanctum Key",
+    "base_item": "Jungle Log",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Fireblossom": {
     "location": "Azacor",
     "region": "Valley",
@@ -81484,24 +81518,6 @@
     },
     "lore": "The flame cares not who gets burnt."
   },
-  "Plush Panda Bear": {
-    "name": "Plush Panda Bear",
-    "base_item": "Panda Spawn Egg",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "It's hyper-realistic!"
-  },
-  "Forsworn Sanctum Key": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Forsworn Sanctum Key",
-    "base_item": "Jungle Log",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Pulsating Dust Fragment": {
     "location": "King's Valley",
     "region": "Valley",
@@ -81523,6 +81539,78 @@
     "type": "Misc",
     "stats": {},
     "lore": "You seek the missing Tlaxan Elder inside the\nruins of the Verdant Fortress.\nThis Strike contains unreal levels of difficulty, and you are\nrecommended to have a group of 4 players in end-game gear.\nPlayers: 1-4 (Keep Inventory, but only 1 life per player)\nGrants access to the Verdant Remnants Strike."
+  },
+  "Signal Flare - Leafstorm": {
+    "name": "Signal Flare - Leafstorm",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Applies Glowing for 10 seconds when used."
+  },
+  "Angry Etna": {
+    "name": "Angry Etna",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Signal Flare - Location": {
+    "name": "Signal Flare - Location",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "To signal your location to nearby allies.\nApplies Glowing for 10 seconds when used."
+  },
+  "Blue Pop": {
+    "name": "Blue Pop",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Signal Flare - Burst": {
+    "name": "Signal Flare - Burst",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Applies Glowing for 10 seconds when used."
+  },
+  "Boomy Creeper": {
+    "name": "Boomy Creeper",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Signal Flare - Danger": {
+    "name": "Signal Flare - Danger",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "To signal potential danger to nearby allies.\nApplies Glowing for 10 seconds when used."
+  },
+  "Signal Flare - Party Rocket": {
+    "name": "Signal Flare - Party Rocket",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "To signal that you're ready to party!\nApplies Glowing for 10 seconds when used."
+  },
+  "Bewitched Firework": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Bewitched Firework",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A firework enchanted by Ebonee."
   },
   "Ancient Power Crystal": {
     "location": "Transmogrifier",
@@ -81586,6 +81674,14 @@
       "material": 1
     },
     "lore": "A strange, twitching metal, never before seen."
+  },
+  "Strange Relic": {
+    "name": "Strange Relic",
+    "base_item": "End Rod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q138I06"
   },
   "Communication Crystal": {
     "name": "Communication Crystal",
@@ -81689,78 +81785,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Regular Guardian\nWarning: Flops around if not in water!"
-  },
-  "Signal Flare - Leafstorm": {
-    "name": "Signal Flare - Leafstorm",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Applies Glowing for 10 seconds when used."
-  },
-  "Angry Etna": {
-    "name": "Angry Etna",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Signal Flare - Location": {
-    "name": "Signal Flare - Location",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "To signal your location to nearby allies.\nApplies Glowing for 10 seconds when used."
-  },
-  "Blue Pop": {
-    "name": "Blue Pop",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Signal Flare - Burst": {
-    "name": "Signal Flare - Burst",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Applies Glowing for 10 seconds when used."
-  },
-  "Boomy Creeper": {
-    "name": "Boomy Creeper",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Signal Flare - Danger": {
-    "name": "Signal Flare - Danger",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "To signal potential danger to nearby allies.\nApplies Glowing for 10 seconds when used."
-  },
-  "Signal Flare - Party Rocket": {
-    "name": "Signal Flare - Party Rocket",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "To signal that you're ready to party!\nApplies Glowing for 10 seconds when used."
-  },
-  "Bewitched Firework": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Unique",
-    "name": "Bewitched Firework",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A firework enchanted by Ebonee."
   },
   "Plot DJ": {
     "name": "Plot DJ",
@@ -82270,6 +82294,30 @@
     "type": "Misc",
     "stats": {},
     "lore": "Attuned to the power of the Body.\nCan strengthen your body for 10 minutes,\ngranting you periodic Absorption I and Speed I.\nActivated by Right Click\nwhile in the mainhand or inventory.\nCooldown : 20m"
+  },
+  "Bamboo Training Sword (Deadly Ronde)": {
+    "name": "Bamboo Training Sword (Deadly Ronde)",
+    "base_item": "Bamboo",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right-click with this item during the Deadly Ronde\ntrial to launch foes and try to score points.\n* Quest Item *\n#Q138I03"
+  },
+  "Bamboo Training Sword (Wind Walk)": {
+    "name": "Bamboo Training Sword (Wind Walk)",
+    "base_item": "Bamboo",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right-click with this item during the Wind Walk\ntrial to move in the direction you are facing.\n* Quest Item *\n#Q138I01"
+  },
+  "Bamboo Training Sword (Blade Dance)": {
+    "name": "Bamboo Training Sword (Blade Dance)",
+    "base_item": "Bamboo",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Right-click with this item during the Blade Dance\ntrial to weaken and disable foes for a short time.\n* Quest Item *\n#Q138I02"
   },
   "The Best Bamboo in the World": {
     "location": "Celsian Isles",

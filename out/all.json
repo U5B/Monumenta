@@ -1,198 +1,4 @@
 {
-  "monumenta:acrobat/r1/all": {
-    "title": "Acrobat of the King's Valley",
-    "description": "Complete every Jumping Puzzle in the King's Valley.",
-    "parent": "monumenta:acrobat/root"
-  },
-  "monumenta:acrobat/r1/farr/clocktower": {
-    "title": "Acrobat of the Clocktower",
-    "description": "Complete the Farr Clocktower Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/farr/shops"
-  },
-  "monumenta:acrobat/r1/farr/shops": {
-    "title": "Acrobat of Farr",
-    "description": "Complete the Farr Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/grove/azacorlobby": {
-    "title": "Acrobat of the Demon",
-    "description": "Complete the Azacor Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/verdant/verdantlobby"
-  },
-  "monumenta:acrobat/r1/highwatch/bathhouse2": {
-    "title": "Acrobat of the Bathhouse",
-    "description": "Complete the Highwatch Bathhouse Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/highwatch/castle2"
-  },
-  "monumenta:acrobat/r1/highwatch/castle2": {
-    "title": "Acrobat of Highwatch Castle",
-    "description": "Complete the Highwatch Castle Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/highwatch/monument": {
-    "title": "Acrobat of the Monument",
-    "description": "Complete the Monument Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/highwatch/bathhouse2"
-  },
-  "monumenta:acrobat/r1/lowtide/library_tower": {
-    "title": "Acrobat of the Library",
-    "description": "Complete the Lowtide Library Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/lowtide/seagate": {
-    "title": "Acrobat of the Seagate",
-    "description": "Complete the Lowtide Seagate Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/lowtide/ship"
-  },
-  "monumenta:acrobat/r1/lowtide/ship": {
-    "title": "Acrobat of the Ship",
-    "description": "Complete the Lowtide Ship Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/lowtide/library_tower"
-  },
-  "monumenta:acrobat/r1/nyr/armory": {
-    "title": "Acrobat of the Armory",
-    "description": "Complete the Armory Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/nyr/windmill"
-  },
-  "monumenta:acrobat/r1/nyr/windmill": {
-    "title": "Acrobat of Nyr",
-    "description": "Complete the Windmill Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/oceangate/beam": {
-    "title": "Acrobat of the Beam",
-    "description": "Complete the Beam Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/reverie/lobby": {
-    "title": "Acrobat of the Dream",
-    "description": "Complete the Reverie Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/sierhaven/apartments": {
-    "title": "Acrobat of the Teleporter",
-    "description": "Complete the Sierhaven Teleporter Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/flag"
-  },
-  "monumenta:acrobat/r1/sierhaven/flag": {
-    "title": "Acrobat of the Flag",
-    "description": "Complete the Sierhaven Flag Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/royal"
-  },
-  "monumenta:acrobat/r1/sierhaven/prison": {
-    "title": "Acrobat of the Prison",
-    "description": "Complete the Sierhaven Prison Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/west"
-  },
-  "monumenta:acrobat/r1/sierhaven/royal": {
-    "title": "Acrobat of Royalty",
-    "description": "Complete the Sierhaven Royal Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/tree"
-  },
-  "monumenta:acrobat/r1/sierhaven/tree": {
-    "title": "Acrobat of the Tree",
-    "description": "Complete the Sierhaven Tree Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/sierhaven/west": {
-    "title": "Acrobat of the West",
-    "description": "Complete the Western Tower Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/sierhaven/apartments"
-  },
-  "monumenta:acrobat/r1/taeldim/plague": {
-    "title": "Acrobat of the Plague",
-    "description": "Complete the Plagueroot Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/taeldim/spring"
-  },
-  "monumenta:acrobat/r1/taeldim/spring": {
-    "title": "Acrobat of the Springs",
-    "description": "Complete the Ta'Eldim Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/all"
-  },
-  "monumenta:acrobat/r1/verdant/verdantlobby": {
-    "title": "Acrobat of the Remnants",
-    "description": "Complete the Verdant Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r1/reverie/lobby"
-  },
-  "monumenta:acrobat/r2/all": {
-    "title": "Aerialist of the Celsian Isles",
-    "description": "Complete every Jumping Puzzle in the Celsian Isles.",
-    "parent": "monumenta:acrobat/root"
-  },
-  "monumenta:acrobat/r2/alnera/leaves": {
-    "title": "Aerialist of the Teleporter",
-    "description": "Complete the Alnera Teleporter Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/depths/deep": {
-    "title": "Aerialist of the Deep",
-    "description": "Complete the Darkest Depths Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/remorse/void"
-  },
-  "monumenta:acrobat/r2/forum/bookshelves": {
-    "title": "Aerialist of the Bookshelves",
-    "description": "Complete The Fallen Forum Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/frostgate/cathedral": {
-    "title": "Aerialist of the Cathedral",
-    "description": "Complete the Frostgate Cathedral Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/mistport/carnival": {
-    "title": "Aerialist of the Carnival",
-    "description": "Complete the Floating Carnival Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/mistport/lighthouse"
-  },
-  "monumenta:acrobat/r2/mistport/garden": {
-    "title": "Aerialist of the Gardens",
-    "description": "You conquered the hardest parkour in the game - the Gardens of Yesel!",
-    "parent": "monumenta:acrobat/r2/mistport/mist"
-  },
-  "monumenta:acrobat/r2/mistport/lighthouse": {
-    "title": "Aerialist of the Lighthouse",
-    "description": "Complete the Mistport Lighthouse Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/mistport/mist": {
-    "title": "Aerialist of the Mist",
-    "description": "Complete The Black Mist Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/mistport/carnival"
-  },
-  "monumenta:acrobat/r2/remorse/void": {
-    "title": "Aerialist of the Void",
-    "description": "Complete the Sealed Remorse Lobby Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/forum/bookshelves"
-  },
-  "monumenta:acrobat/r2/steelmeld/laboratory": {
-    "title": "Aerialist of the Laboratory",
-    "description": "Complete The Steelmeld Laboratory Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r2/wispervale/academy": {
-    "title": "Aerialist of the Academy",
-    "description": "Complete the Wispervale Academy Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r2/all"
-  },
-  "monumenta:acrobat/r3/all": {
-    "title": "Funambulist of the Ring",
-    "description": "Complete every Jumping Puzzle in the Architect's Ring.",
-    "parent": "monumenta:acrobat/root"
-  },
-  "monumenta:acrobat/r3/chantry/borealis": {
-    "title": "Funambulist of the Borealis",
-    "description": "Complete the Chantry Borealis Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r3/all"
-  },
-  "monumenta:acrobat/r3/starpoint/tower": {
-    "title": "Funambulist of the Ruined Tower",
-    "description": "Complete the Ruined Tower Jumping Puzzle.",
-    "parent": "monumenta:acrobat/r3/all"
-  },
-  "monumenta:acrobat/root": {
-    "title": "Parkour",
-    "description": "Complete the Jumping Puzzles of each region."
-  },
   "monumenta:trophies/events/2017/halloween": {
     "title": "Cured King's Valley",
     "description": "Halloween 2017",
@@ -1734,6 +1540,639 @@
     "description": "Discover the Vibrant Hollow Coordinates: -549 42 -698",
     "parent": "monumenta:pois/r3/wolfswood/root"
   },
+  "monumenta:challenges/r1/arena/complete": {
+    "title": "Defeat the Arena of Terth",
+    "description": "The master of the arena has fallen, but Yeigar swears to return...",
+    "parent": "monumenta:challenges/r1/arena/wave40"
+  },
+  "monumenta:challenges/r1/arena/find": {
+    "title": "Discovered Arena of Terth",
+    "description": "Welcome, challengers and spectators alike, to the Arena of Terth! Town: Sierhaven Coordinates: x=-946 y=107 z=-104",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/arena/wave10": {
+    "title": "Defeated Plague Immortal",
+    "description": "Survived 10 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave5"
+  },
+  "monumenta:challenges/r1/arena/wave15": {
+    "title": "Defeated Phantom",
+    "description": "Survived 15 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave10"
+  },
+  "monumenta:challenges/r1/arena/wave20": {
+    "title": "Defeated Eternal Mindfaser",
+    "description": "Survived 20 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave15"
+  },
+  "monumenta:challenges/r1/arena/wave25": {
+    "title": "Defeated Adrash",
+    "description": "Survived 25 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave20"
+  },
+  "monumenta:challenges/r1/arena/wave30": {
+    "title": "Defeated Abrax&aacute;s",
+    "description": "Survived 30 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave25"
+  },
+  "monumenta:challenges/r1/arena/wave35": {
+    "title": "Defeated Baudric",
+    "description": "Survived 35 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave30"
+  },
+  "monumenta:challenges/r1/arena/wave40": {
+    "title": "Defeated Yeigar",
+    "description": "Survived 40 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/wave35"
+  },
+  "monumenta:challenges/r1/arena/wave5": {
+    "title": "Defeated Luke",
+    "description": "Survived 5 waves of the Arena.",
+    "parent": "monumenta:challenges/r1/arena/find"
+  },
+  "monumenta:challenges/r1/azacor_grove/beat_azacor_hard": {
+    "title": "Azacor",
+    "description": "Defeat Azacor the Dark Summoner.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/browncorp/1": {
+    "title": "Hall of Kings",
+    "description": "Browncorp #1 -734 135 -93",
+    "parent": "monumenta:challenges/r1/browncorp/all"
+  },
+  "monumenta:challenges/r1/browncorp/2": {
+    "title": "Isle of Susan",
+    "description": "Browncorp #2 -968 94 439",
+    "parent": "monumenta:challenges/r1/browncorp/1"
+  },
+  "monumenta:challenges/r1/browncorp/25": {
+    "title": "Apartment 666",
+    "description": "Browncorp #25 -162 85 -112",
+    "parent": "monumenta:challenges/r1/browncorp/2"
+  },
+  "monumenta:challenges/r1/browncorp/35": {
+    "title": "Jungle Workshop",
+    "description": "Browncorp #35 196 108 -29",
+    "parent": "monumenta:challenges/r1/browncorp/25"
+  },
+  "monumenta:challenges/r1/browncorp/36": {
+    "title": "The House on the Cliffside",
+    "description": "Browncorp #36 -82 218 -175",
+    "parent": "monumenta:challenges/r1/browncorp/35"
+  },
+  "monumenta:challenges/r1/browncorp/37": {
+    "title": "The Meme Team Balloon",
+    "description": "Browncorp #37 420 174 167",
+    "parent": "monumenta:challenges/r1/browncorp/36"
+  },
+  "monumenta:challenges/r1/browncorp/39": {
+    "title": "Farr Out",
+    "description": "Browncorp #39 603 87 159",
+    "parent": "monumenta:challenges/r1/browncorp/37"
+  },
+  "monumenta:challenges/r1/browncorp/57": {
+    "title": "End of the World",
+    "description": "Browncorp #57 900 209 -908",
+    "parent": "monumenta:challenges/r1/browncorp/39"
+  },
+  "monumenta:challenges/r1/browncorp/97": {
+    "title": "The Death of Browncorp",
+    "description": "Browncorp #97 1094 114 -151",
+    "parent": "monumenta:challenges/r1/browncorp/57"
+  },
+  "monumenta:challenges/r1/browncorp/all": {
+    "title": "Brown Corp",
+    "description": "Find all Brown Corp locations.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/horseman/beat_horseman": {
+    "title": "Headless Horseman",
+    "description": "Killed the Headless Horseman.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/horseman/solo_horseman": {
+    "title": "Headless Horseman (Solo)",
+    "description": "Killed the Headless Horseman solo.",
+    "parent": "monumenta:challenges/r1/horseman/beat_horseman"
+  },
+  "monumenta:challenges/r1/kaul/beat_kaul": {
+    "title": "Kaul",
+    "description": "Defeat Kaul, Soul of the Jungle.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/kaul/celebrity": {
+    "title": "Celebrity",
+    "description": "Have 15 or more people spectating during any point of the fight.",
+    "parent": "monumenta:challenges/r1/kaul/beat_kaul"
+  },
+  "monumenta:challenges/r1/kaul/dynamicduo": {
+    "title": "Dynamic Duo",
+    "description": "Defeat Kaul in a match with 1 other player.",
+    "parent": "monumenta:challenges/r1/kaul/unlucky"
+  },
+  "monumenta:challenges/r1/kaul/kaulsolo": {
+    "title": "Kaul (Solo)",
+    "description": "Defeat Kaul Solo You are a true master of the jungle.",
+    "parent": "monumenta:challenges/r1/kaul/dynamicduo"
+  },
+  "monumenta:challenges/r1/kaul/lastmanstanding": {
+    "title": "Last Man Standing",
+    "description": "Take part in a raid of 5 or more people where only you survive to defeat Kaul.",
+    "parent": "monumenta:challenges/r1/kaul/celebrity"
+  },
+  "monumenta:challenges/r1/kaul/massacre": {
+    "title": "Massacre",
+    "description": "Take part in a raid of 10 or more people in which all party members die.",
+    "parent": "monumenta:challenges/r1/kaul/suchdevastation"
+  },
+  "monumenta:challenges/r1/kaul/mloci": {
+    "title": "M'Loci",
+    "description": "Defeat Kaul while having worn a Fedora for the entire duration of the fight.",
+    "parent": "monumenta:challenges/r1/kaul/massacre"
+  },
+  "monumenta:challenges/r1/kaul/overwhelmingnumbers": {
+    "title": "Overwhelming Numbers",
+    "description": "Take part in a raid of 20 or more people, and be one of the winning players.",
+    "parent": "monumenta:challenges/r1/kaul/lastmanstanding"
+  },
+  "monumenta:challenges/r1/kaul/perfectplatoon": {
+    "title": "Perfect Platoon",
+    "description": "Take part in a raid of 10 or more people that suffers no casualties throughout the duration of the fight.",
+    "parent": "monumenta:challenges/r1/kaul/overwhelmingnumbers"
+  },
+  "monumenta:challenges/r1/kaul/soclose": {
+    "title": "So Close",
+    "description": "Die to Kaul when his health is at 10% or less.",
+    "parent": "monumenta:challenges/r1/kaul/mloci"
+  },
+  "monumenta:challenges/r1/kaul/suchdevastation": {
+    "title": "Such Devastation",
+    "description": "Witness Kaul casting 5 Volcanic Demises in a single fight.",
+    "parent": "monumenta:challenges/r1/kaul/trinity"
+  },
+  "monumenta:challenges/r1/kaul/trinity": {
+    "title": "Holy Trinity",
+    "description": "Defeat Kaul with a team of exactly 3 clerics.",
+    "parent": "monumenta:challenges/r1/kaul/vanilla"
+  },
+  "monumenta:challenges/r1/kaul/unlucky": {
+    "title": "Unlucky",
+    "description": "Get sent to judgement both times in a group of 10 or more, and succeed in both.",
+    "parent": "monumenta:challenges/r1/kaul/soclose"
+  },
+  "monumenta:challenges/r1/kaul/vanilla": {
+    "title": "Vanilla",
+    "description": "Defeat Kaul without having any class selected.",
+    "parent": "monumenta:challenges/r1/kaul/perfectplatoon"
+  },
+  "monumenta:challenges/r1/rushdown/find": {
+    "title": "Enter the Dissonant Realm",
+    "description": "You discovered the Rush of Dissonance lobby.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/rushdown/rose": {
+    "title": "Remnant of the Rose",
+    "description": "Purchase the Remnant of the Rose.",
+    "parent": "monumenta:challenges/r1/rushdown/wave75"
+  },
+  "monumenta:challenges/r1/rushdown/wave25": {
+    "title": "Reliction",
+    "description": "Defeat 25 waves inside Rush of Dissonance.",
+    "parent": "monumenta:challenges/r1/rushdown/find"
+  },
+  "monumenta:challenges/r1/rushdown/wave40": {
+    "title": "Epicurean",
+    "description": "Defeat 40 waves inside Rush of Dissonance.",
+    "parent": "monumenta:challenges/r1/rushdown/wave25"
+  },
+  "monumenta:challenges/r1/rushdown/wave75": {
+    "title": "Conqueror",
+    "description": "Defeat 75 waves inside Rush of Dissonance.",
+    "parent": "monumenta:challenges/r1/rushdown/wave40"
+  },
+  "monumenta:challenges/r1/sanctum/find": {
+    "title": "A Shaman's Sin",
+    "description": "C'Shura awaits you in the former resting place of Kaul. How will she greet you after so many years of isolation?",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r1/sanctum/sanctum": {
+    "title": "A Shaman's Lament",
+    "description": "You have conquered the corrupted grounds of the Forsworn Sanctum.",
+    "parent": "monumenta:challenges/r1/sanctum/find"
+  },
+  "monumenta:challenges/r1/sanctum/three": {
+    "title": "Three is the Key",
+    "description": "You have awoken Ami Udake within the Forsworn Sanctum.",
+    "parent": "monumenta:challenges/r1/sanctum/sanctum"
+  },
+  "monumenta:challenges/r1/snowspirit/beat_snowspirit": {
+    "title": "Snow Spirit",
+    "description": "Defeat the Snow Wool Spirit.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r1/snowspirit/solo_snowspirit": {
+    "title": "Snow Spirit (Solo)",
+    "description": "Defeat Snow Spirit Solo You've somehow beaten Winter Incarnate, most impressive.",
+    "parent": "monumenta:challenges/r1/snowspirit/beat_snowspirit"
+  },
+  "monumenta:challenges/r1/verdant/find": {
+    "title": "Shards of the Past",
+    "description": "You have discovered the Verdant lobby. Something dark lies beyond...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r1/verdant/verdant": {
+    "title": "Threads of Fate",
+    "description": "You have conquered the threadwarped Remnants of Verdant.",
+    "parent": "monumenta:challenges/r1/verdant/find"
+  },
+  "monumenta:challenges/r2/delves/all": {
+    "title": "Dungeon Modding",
+    "description": "You conquered a dungeon with all possible delve modifiers active!",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/fg/cold_like_company": {
+    "title": "Cold Likes Company",
+    "description": "Defeat Eldrask with 2 players.",
+    "parent": "monumenta:challenges/r2/fg/icicle_crash"
+  },
+  "monumenta:challenges/r2/fg/ice_cold_vanilla": {
+    "title": "Ice-Cold Vanilla",
+    "description": "Defeat Eldrask without having any class selected for the entire duration of the fight.",
+    "parent": "monumenta:challenges/r2/fg/ice_division"
+  },
+  "monumenta:challenges/r2/fg/ice_division": {
+    "title": "Ice Division",
+    "description": "Defeat Eldrask with a raid of 10 or more players where no one dies.",
+    "parent": "monumenta:challenges/r2/fg/last_of_the_challengers"
+  },
+  "monumenta:challenges/r2/fg/icicle_crash": {
+    "title": "Icicle Crash",
+    "description": "Hit Eldrask with 10 or more icicles in a single fight.",
+    "parent": "monumenta:challenges/r2/fg/lonely_soloist"
+  },
+  "monumenta:challenges/r2/fg/last_of_the_challengers": {
+    "title": "Last of the Challengers",
+    "description": "Be the only survivor in a raid of 5 or more people. Now you too shall outlast the others.",
+    "parent": "monumenta:challenges/r2/fg/win"
+  },
+  "monumenta:challenges/r2/fg/lonely_soloist": {
+    "title": "The Song's Lonely Soloist",
+    "description": "Use Annilys to survive a would-be fatal Titanic Rupture.",
+    "parent": "monumenta:challenges/r2/fg/shattered_yet_standing"
+  },
+  "monumenta:challenges/r2/fg/shattered_yet_standing": {
+    "title": "Shattered Yet Standing",
+    "description": "Survive Eldrask's Shatter attack during his final phase and win.",
+    "parent": "monumenta:challenges/r2/fg/stalwart_trio"
+  },
+  "monumenta:challenges/r2/fg/stalwart_trio": {
+    "title": "Stalwart Trio",
+    "description": "Defeat Eldrask with a team of exactly 3 warriors.",
+    "parent": "monumenta:challenges/r2/fg/ice_cold_vanilla"
+  },
+  "monumenta:challenges/r2/fg/win": {
+    "title": "Eldrask",
+    "description": "Defeat Eldrask, the last of the Frost Giants.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/fg/win_solo": {
+    "title": "Defeat Eldrask Solo",
+    "description": "You have heard the song, and know its tale.",
+    "parent": "monumenta:challenges/r2/fg/cold_like_company"
+  },
+  "monumenta:challenges/r2/lich/accursed_one": {
+    "title": "Feeble Cursed One",
+    "description": "Get cursed by Hekawt 3 times in a single fight and win.",
+    "parent": "monumenta:challenges/r2/lich/putrid_platoon"
+  },
+  "monumenta:challenges/r2/lich/day_of_wrath": {
+    "title": "Day of Wrath",
+    "description": "Survive Dies Irae at 5 Crystals or higher and win to tell the tale.",
+    "parent": "monumenta:challenges/r2/lich/player_slayer"
+  },
+  "monumenta:challenges/r2/lich/death_report": {
+    "title": "Death Report",
+    "description": "Enter Hekawt's Shadow Realm and escape with less than 1 second remaining. Reports of my death were greatly exaggerated.",
+    "parent": "monumenta:challenges/r2/lich/accursed_one"
+  },
+  "monumenta:challenges/r2/lich/deathly_duo": {
+    "title": "Deathly Duo",
+    "description": "Defeat Hekawt with 2 players.",
+    "parent": "monumenta:challenges/r2/lich/unholy_trinity"
+  },
+  "monumenta:challenges/r2/lich/player_slayer": {
+    "title": "Player Slayer",
+    "description": "Slay a Player... as a revenant.",
+    "parent": "monumenta:challenges/r2/lich/revenant_slayer"
+  },
+  "monumenta:challenges/r2/lich/putrid_platoon": {
+    "title": "Putrid Platoon",
+    "description": "Defeat Hekawt with 10 or more players where no one dies.",
+    "parent": "monumenta:challenges/r2/lich/deathly_duo"
+  },
+  "monumenta:challenges/r2/lich/revenant_slayer": {
+    "title": "Revenant Slayer",
+    "description": "Slay 3 Player Revenants outside the Shadow Realm in a single fight.",
+    "parent": "monumenta:challenges/r2/lich/death_report"
+  },
+  "monumenta:challenges/r2/lich/unholy_trinity": {
+    "title": "Unholy Trinity",
+    "description": "Defeat Hekawt with a team of exactly 3 Warlocks.",
+    "parent": "monumenta:challenges/r2/lich/win"
+  },
+  "monumenta:challenges/r2/lich/win": {
+    "title": "Hekawt",
+    "description": "Defeat Hekawt, the Lich.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/lich/win_solo": {
+    "title": "Defeat Hekawt Solo",
+    "description": "To conquer that who has conquered death...",
+    "parent": "monumenta:challenges/r2/lich/day_of_wrath"
+  },
+  "monumenta:challenges/r2/mist/bounty": {
+    "title": "Varcosa's Bounty",
+    "description": "Acquired a long lost Golden Key from Varcosa's ship, and slew the Mimic Queen guarding his final hoard.",
+    "parent": "monumenta:challenges/r2/mist/chime"
+  },
+  "monumenta:challenges/r2/mist/chime": {
+    "title": "Depth's Chime",
+    "description": "Once again infused the Chime with the dying breath of Captain Varcosa, awakening its true potential.",
+    "parent": "monumenta:challenges/r2/mist/nearsighted"
+  },
+  "monumenta:challenges/r2/mist/find": {
+    "title": "The Captain Returns",
+    "description": "You have discovered the Black Mist lobby. The crew is expecting you...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r2/mist/mist": {
+    "title": "The Black Mist",
+    "description": "Cleared the Black Mist and conquered its captain, Varcosa.",
+    "parent": "monumenta:challenges/r2/mist/find"
+  },
+  "monumenta:challenges/r2/mist/nearsighted": {
+    "title": "Nearsighted",
+    "description": "Cleared the Black Mist with only 1 secret wall found.",
+    "parent": "monumenta:challenges/r2/mist/stone"
+  },
+  "monumenta:challenges/r2/mist/spiritbusters": {
+    "title": "Spiritbusters",
+    "description": "Cleared the Black Mist with 4 people.",
+    "parent": "monumenta:challenges/r2/mist/mist"
+  },
+  "monumenta:challenges/r2/mist/stone": {
+    "title": "No Stone Unturned",
+    "description": "Found all hidden walls and every chest.",
+    "parent": "monumenta:challenges/r2/mist/spiritbusters"
+  },
+  "monumenta:challenges/r2/partingveil": {
+    "title": "The Parting Veil",
+    "description": "You have completed everything there is to do in the Parting Veil expansion and learned of dangers from Hekawt's shade.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/rooster/all": {
+    "title": "Rooster Caches",
+    "description": "You've found all the Rooster Caches!",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/rooster/eight": {
+    "title": "Molta",
+    "description": "You recovered the cache in Molta.",
+    "parent": "monumenta:challenges/r2/rooster/seven"
+  },
+  "monumenta:challenges/r2/rooster/five": {
+    "title": "Steelmeld",
+    "description": "You recovered the cache in Steelmeld.",
+    "parent": "monumenta:challenges/r2/rooster/four"
+  },
+  "monumenta:challenges/r2/rooster/four": {
+    "title": "Rahkeri",
+    "description": "You recovered the cache in Rahkeri.",
+    "parent": "monumenta:challenges/r2/rooster/three"
+  },
+  "monumenta:challenges/r2/rooster/one": {
+    "title": "Nightroost",
+    "description": "You recovered the cache in Nightroost.",
+    "parent": "monumenta:challenges/r2/rooster/all"
+  },
+  "monumenta:challenges/r2/rooster/seven": {
+    "title": "Frostgate",
+    "description": "You recovered the cache in Frostgate.",
+    "parent": "monumenta:challenges/r2/rooster/six"
+  },
+  "monumenta:challenges/r2/rooster/six": {
+    "title": "Alnera",
+    "description": "You recovered the cache in Alnera.",
+    "parent": "monumenta:challenges/r2/rooster/five"
+  },
+  "monumenta:challenges/r2/rooster/three": {
+    "title": "Wispervale",
+    "description": "You recovered the cache in Wispervale.",
+    "parent": "monumenta:challenges/r2/rooster/two"
+  },
+  "monumenta:challenges/r2/rooster/two": {
+    "title": "Mistport",
+    "description": "You recovered the cache in Mistport.",
+    "parent": "monumenta:challenges/r2/rooster/one"
+  },
+  "monumenta:challenges/r2/sr/find": {
+    "title": "Unavoidable Fate",
+    "description": "You have discovered the Sealed Remorse lobby. What awaits you below...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r2/sr/sr": {
+    "title": "Staring into the Void",
+    "description": "You have conquered the depths of Sealed Remorse.",
+    "parent": "monumenta:challenges/r2/sr/find"
+  },
+  "monumenta:challenges/r2/sr/tension": {
+    "title": "Void of Tension",
+    "description": "You conquered Sealed Remorse with over 200 seconds remaining on the clock!",
+    "parent": "monumenta:challenges/r2/sr/sr"
+  },
+  "monumenta:challenges/r2/sr/vigil": {
+    "title": "The Void Stares Back",
+    "description": "You have parted the void and witnessed the Eternal Vigil.",
+    "parent": "monumenta:challenges/r2/sr/tension"
+  },
+  "monumenta:challenges/r2/treasure_hunt/1": {
+    "title": "Cached Out",
+    "description": "Claim a Treasures of Viridia cache for your own.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r2/treasure_hunt/10": {
+    "title": "Decadence",
+    "description": "Claim 10 Treasures of Viridia caches.",
+    "parent": "monumenta:challenges/r2/treasure_hunt/1"
+  },
+  "monumenta:challenges/r2/treasure_hunt/25": {
+    "title": "Quartering",
+    "description": "Claim 25 Treasures of Viridia caches.",
+    "parent": "monumenta:challenges/r2/treasure_hunt/10"
+  },
+  "monumenta:challenges/r3/gallery/complete": {
+    "title": "The Great Secret",
+    "description": "You have dispelled Markus' Nightmare in the Sanguine Halls.",
+    "parent": "monumenta:challenges/r3/gallery/wave50"
+  },
+  "monumenta:challenges/r3/gallery/find": {
+    "title": "Enter the Nightmares",
+    "description": "You discovered the Gallery of Fear lobby.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r3/gallery/map2anacosmia": {
+    "title": "Anacosmia",
+    "description": "You unraveled the threads of the dream beyond the dream, and saw what lay there.",
+    "parent": "monumenta:challenges/r3/gallery/map2complete"
+  },
+  "monumenta:challenges/r3/gallery/map2complete": {
+    "title": "Thanatopsis",
+    "description": "You have dispelled Levyn's Nightmare in Marina Noir.",
+    "parent": "monumenta:challenges/r3/gallery/map2wave50"
+  },
+  "monumenta:challenges/r3/gallery/map2wave35": {
+    "title": "Dreaming in Black and White",
+    "description": "Defeat 35 waves in Marina Noir",
+    "parent": "monumenta:challenges/r3/gallery/unlock_marina"
+  },
+  "monumenta:challenges/r3/gallery/map2wave50": {
+    "title": "Thanatophobia",
+    "description": "Defeat 50 waves in Marina Noir",
+    "parent": "monumenta:challenges/r3/gallery/map2wave35"
+  },
+  "monumenta:challenges/r3/gallery/unlock_marina": {
+    "title": "Marina Noir",
+    "description": "You unlocked the Marina Noir by absorbing the nightmares of your crewmate Levyn.",
+    "parent": "monumenta:challenges/r3/gallery/find"
+  },
+  "monumenta:challenges/r3/gallery/unlock_sanguine": {
+    "title": "Sanguine Halls",
+    "description": "You unlocked the Sanguine Halls by absorbing the nightmares of the charm trader Markus.",
+    "parent": "monumenta:challenges/r3/gallery/find"
+  },
+  "monumenta:challenges/r3/gallery/wave35": {
+    "title": "Dreaming of the Manor",
+    "description": "Defeat 35 waves in the Sanguine Halls",
+    "parent": "monumenta:challenges/r3/gallery/unlock_sanguine"
+  },
+  "monumenta:challenges/r3/gallery/wave50": {
+    "title": "Hemophobia",
+    "description": "Defeat 50 waves in the Sanguine Halls",
+    "parent": "monumenta:challenges/r3/gallery/wave35"
+  },
+  "monumenta:challenges/r3/godspore/beat_godspore": {
+    "title": "The Godspore",
+    "description": "Defeated The Godspore.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r3/godspore/duo_godspore": {
+    "title": "Divine Duo",
+    "description": "Defeat Godspore with 2 players.",
+    "parent": "monumenta:challenges/r3/godspore/beat_godspore"
+  },
+  "monumenta:challenges/r3/godspore/healthy_hero": {
+    "title": "Healthy Hero",
+    "description": "Defeat Godspore without falling under 70 Vitality for the entire fight.",
+    "parent": "monumenta:challenges/r3/godspore/duo_godspore"
+  },
+  "monumenta:challenges/r3/godspore/hurricane_yuti": {
+    "title": "Hurricane Yuti",
+    "description": "Be blown away by Windstorm Spores 3 times in a single fight and live to tell the tale.",
+    "parent": "monumenta:challenges/r3/godspore/healthy_hero"
+  },
+  "monumenta:challenges/r3/godspore/shrine_supplier": {
+    "title": "Shrine Fanatic",
+    "description": "Defeat the Godspore after activating all 4 Shrines at the same time.",
+    "parent": "monumenta:challenges/r3/godspore/hurricane_yuti"
+  },
+  "monumenta:challenges/r3/godspore/solo_godspore": {
+    "title": "Godspore (Solo)",
+    "description": "Defeated Godspore Solo.",
+    "parent": "monumenta:challenges/r3/godspore/sporefection"
+  },
+  "monumenta:challenges/r3/godspore/sporefection": {
+    "title": "Sporefection",
+    "description": "Defeat Godspore without being hit by an ability that reduces your Vitality.",
+    "parent": "monumenta:challenges/r3/godspore/shrine_supplier"
+  },
+  "monumenta:challenges/r3/portal/find": {
+    "title": "Where's the Cake?",
+    "description": "You have discovered the P.O.R.T.A.L. lobby. The lab awaits... the cake awaits, too...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r3/portal/portal": {
+    "title": "What's the acronym stand for?",
+    "description": "You have conquered the P.O.R.T.A.L. Strike. With no cake in sight.",
+    "parent": "monumenta:challenges/r3/portal/find"
+  },
+  "monumenta:challenges/r3/ruin/find": {
+    "title": "The Masked Fortress",
+    "description": "You have discovered the Masquerader's Ruin lobby. The Blue Wool awaits...",
+    "parent": "monumenta:challenges/root_strikes"
+  },
+  "monumenta:challenges/r3/ruin/ruin": {
+    "title": "Retrieving What was Stolen",
+    "description": "You have conquered the Masquerader's Ruin.",
+    "parent": "monumenta:challenges/r3/ruin/find"
+  },
+  "monumenta:challenges/r3/sirius/blight": {
+    "title": "Silent Blight",
+    "description": "A squadron of 10 combatants defeated the final herald without a single blight pod evolving.",
+    "parent": "monumenta:challenges/r3/sirius/inquiries"
+  },
+  "monumenta:challenges/r3/sirius/condition": {
+    "title": "Sirius Condition",
+    "description": "Even though the final herald came incredibly close to victory, you overcame the blight regardless.",
+    "parent": "monumenta:challenges/r3/sirius/blight"
+  },
+  "monumenta:challenges/r3/sirius/duo": {
+    "title": "Getting Sirius",
+    "description": "You and a single partner took down the final herald, both emerging successful.",
+    "parent": "monumenta:challenges/r3/sirius/win_solo"
+  },
+  "monumenta:challenges/r3/sirius/everyone_dies": {
+    "title": "Stars Fall, Everyone Dies",
+    "description": "Even in a group of at least 10 combatants, you could not take down the final herald.",
+    "parent": "monumenta:challenges/r3/sirius/so_sirius"
+  },
+  "monumenta:challenges/r3/sirius/fault": {
+    "title": "The Fault in Our Stars",
+    "description": "While you and your allies fought courageously against the final herald, the blight was too much to handle.",
+    "parent": "monumenta:challenges/r3/sirius/starfall"
+  },
+  "monumenta:challenges/r3/sirius/inquiries": {
+    "title": "Sirius Inquiries Only",
+    "description": "The sole power of magic has taken down the final herald.",
+    "parent": "monumenta:challenges/r3/sirius/duo"
+  },
+  "monumenta:challenges/r3/sirius/so_sirius": {
+    "title": "Why So Sirius?",
+    "description": "You conquered the final herald using only your brute strength and determination.",
+    "parent": "monumenta:challenges/r3/sirius/fault"
+  },
+  "monumenta:challenges/r3/sirius/starfall": {
+    "title": "Let the Stars Fall",
+    "description": "While you mustered the courage to face the final herald, you fell short of his crushing weight.",
+    "parent": "monumenta:challenges/r3/sirius/condition"
+  },
+  "monumenta:challenges/r3/sirius/win": {
+    "title": "Sirius",
+    "description": "Defeat Sirius, the Final Herald.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r3/sirius/win_solo": {
+    "title": "Defeat Sirius Solo",
+    "description": "The Stars have been thoroughly defeated on this day.",
+    "parent": "monumenta:challenges/r3/sirius/win"
+  },
+  "monumenta:challenges/root": {
+    "title": "Challenges",
+    "description": "Complete the special challenges of each region."
+  },
+  "monumenta:challenges/root_strikes": {
+    "title": "Strikes",
+    "description": null
+  },
   "monumenta:dungeons/blue/challenge": {
     "title": "Hycenea's Challenge",
     "description": "You conquered the Blue Wool dungeon under Challenge Delve conditions!",
@@ -2462,639 +2901,6 @@
     "description": "Purchase the King's Greaves",
     "parent": "monumenta:general/transmog5"
   },
-  "monumenta:challenges/r1/arena/complete": {
-    "title": "Defeat the Arena of Terth",
-    "description": "The master of the arena has fallen, but Yeigar swears to return...",
-    "parent": "monumenta:challenges/r1/arena/wave40"
-  },
-  "monumenta:challenges/r1/arena/find": {
-    "title": "Discovered Arena of Terth",
-    "description": "Welcome, challengers and spectators alike, to the Arena of Terth! Town: Sierhaven Coordinates: x=-946 y=107 z=-104",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/arena/wave10": {
-    "title": "Defeated Plague Immortal",
-    "description": "Survived 10 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave5"
-  },
-  "monumenta:challenges/r1/arena/wave15": {
-    "title": "Defeated Phantom",
-    "description": "Survived 15 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave10"
-  },
-  "monumenta:challenges/r1/arena/wave20": {
-    "title": "Defeated Eternal Mindfaser",
-    "description": "Survived 20 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave15"
-  },
-  "monumenta:challenges/r1/arena/wave25": {
-    "title": "Defeated Adrash",
-    "description": "Survived 25 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave20"
-  },
-  "monumenta:challenges/r1/arena/wave30": {
-    "title": "Defeated Abrax&aacute;s",
-    "description": "Survived 30 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave25"
-  },
-  "monumenta:challenges/r1/arena/wave35": {
-    "title": "Defeated Baudric",
-    "description": "Survived 35 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave30"
-  },
-  "monumenta:challenges/r1/arena/wave40": {
-    "title": "Defeated Yeigar",
-    "description": "Survived 40 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/wave35"
-  },
-  "monumenta:challenges/r1/arena/wave5": {
-    "title": "Defeated Luke",
-    "description": "Survived 5 waves of the Arena.",
-    "parent": "monumenta:challenges/r1/arena/find"
-  },
-  "monumenta:challenges/r1/azacor_grove/beat_azacor_hard": {
-    "title": "Azacor",
-    "description": "Defeat Azacor the Dark Summoner.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/browncorp/1": {
-    "title": "Hall of Kings",
-    "description": "Browncorp #1 -734 135 -93",
-    "parent": "monumenta:challenges/r1/browncorp/all"
-  },
-  "monumenta:challenges/r1/browncorp/2": {
-    "title": "Isle of Susan",
-    "description": "Browncorp #2 -968 94 439",
-    "parent": "monumenta:challenges/r1/browncorp/1"
-  },
-  "monumenta:challenges/r1/browncorp/25": {
-    "title": "Apartment 666",
-    "description": "Browncorp #25 -162 85 -112",
-    "parent": "monumenta:challenges/r1/browncorp/2"
-  },
-  "monumenta:challenges/r1/browncorp/35": {
-    "title": "Jungle Workshop",
-    "description": "Browncorp #35 196 108 -29",
-    "parent": "monumenta:challenges/r1/browncorp/25"
-  },
-  "monumenta:challenges/r1/browncorp/36": {
-    "title": "The House on the Cliffside",
-    "description": "Browncorp #36 -82 218 -175",
-    "parent": "monumenta:challenges/r1/browncorp/35"
-  },
-  "monumenta:challenges/r1/browncorp/37": {
-    "title": "The Meme Team Balloon",
-    "description": "Browncorp #37 420 174 167",
-    "parent": "monumenta:challenges/r1/browncorp/36"
-  },
-  "monumenta:challenges/r1/browncorp/39": {
-    "title": "Farr Out",
-    "description": "Browncorp #39 603 87 159",
-    "parent": "monumenta:challenges/r1/browncorp/37"
-  },
-  "monumenta:challenges/r1/browncorp/57": {
-    "title": "End of the World",
-    "description": "Browncorp #57 900 209 -908",
-    "parent": "monumenta:challenges/r1/browncorp/39"
-  },
-  "monumenta:challenges/r1/browncorp/97": {
-    "title": "The Death of Browncorp",
-    "description": "Browncorp #97 1094 114 -151",
-    "parent": "monumenta:challenges/r1/browncorp/57"
-  },
-  "monumenta:challenges/r1/browncorp/all": {
-    "title": "Brown Corp",
-    "description": "Find all Brown Corp locations.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/horseman/beat_horseman": {
-    "title": "Headless Horseman",
-    "description": "Killed the Headless Horseman.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/horseman/solo_horseman": {
-    "title": "Headless Horseman (Solo)",
-    "description": "Killed the Headless Horseman solo.",
-    "parent": "monumenta:challenges/r1/horseman/beat_horseman"
-  },
-  "monumenta:challenges/r1/kaul/beat_kaul": {
-    "title": "Kaul",
-    "description": "Defeat Kaul, Soul of the Jungle.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/kaul/celebrity": {
-    "title": "Celebrity",
-    "description": "Have 15 or more people spectating during any point of the fight.",
-    "parent": "monumenta:challenges/r1/kaul/beat_kaul"
-  },
-  "monumenta:challenges/r1/kaul/dynamicduo": {
-    "title": "Dynamic Duo",
-    "description": "Defeat Kaul in a match with 1 other player.",
-    "parent": "monumenta:challenges/r1/kaul/unlucky"
-  },
-  "monumenta:challenges/r1/kaul/kaulsolo": {
-    "title": "Kaul (Solo)",
-    "description": "Defeat Kaul Solo You are a true master of the jungle.",
-    "parent": "monumenta:challenges/r1/kaul/dynamicduo"
-  },
-  "monumenta:challenges/r1/kaul/lastmanstanding": {
-    "title": "Last Man Standing",
-    "description": "Take part in a raid of 5 or more people where only you survive to defeat Kaul.",
-    "parent": "monumenta:challenges/r1/kaul/celebrity"
-  },
-  "monumenta:challenges/r1/kaul/massacre": {
-    "title": "Massacre",
-    "description": "Take part in a raid of 10 or more people in which all party members die.",
-    "parent": "monumenta:challenges/r1/kaul/suchdevastation"
-  },
-  "monumenta:challenges/r1/kaul/mloci": {
-    "title": "M'Loci",
-    "description": "Defeat Kaul while having worn a Fedora for the entire duration of the fight.",
-    "parent": "monumenta:challenges/r1/kaul/massacre"
-  },
-  "monumenta:challenges/r1/kaul/overwhelmingnumbers": {
-    "title": "Overwhelming Numbers",
-    "description": "Take part in a raid of 20 or more people, and be one of the winning players.",
-    "parent": "monumenta:challenges/r1/kaul/lastmanstanding"
-  },
-  "monumenta:challenges/r1/kaul/perfectplatoon": {
-    "title": "Perfect Platoon",
-    "description": "Take part in a raid of 10 or more people that suffers no casualties throughout the duration of the fight.",
-    "parent": "monumenta:challenges/r1/kaul/overwhelmingnumbers"
-  },
-  "monumenta:challenges/r1/kaul/soclose": {
-    "title": "So Close",
-    "description": "Die to Kaul when his health is at 10% or less.",
-    "parent": "monumenta:challenges/r1/kaul/mloci"
-  },
-  "monumenta:challenges/r1/kaul/suchdevastation": {
-    "title": "Such Devastation",
-    "description": "Witness Kaul casting 5 Volcanic Demises in a single fight.",
-    "parent": "monumenta:challenges/r1/kaul/trinity"
-  },
-  "monumenta:challenges/r1/kaul/trinity": {
-    "title": "Holy Trinity",
-    "description": "Defeat Kaul with a team of exactly 3 clerics.",
-    "parent": "monumenta:challenges/r1/kaul/vanilla"
-  },
-  "monumenta:challenges/r1/kaul/unlucky": {
-    "title": "Unlucky",
-    "description": "Get sent to judgement both times in a group of 10 or more, and succeed in both.",
-    "parent": "monumenta:challenges/r1/kaul/soclose"
-  },
-  "monumenta:challenges/r1/kaul/vanilla": {
-    "title": "Vanilla",
-    "description": "Defeat Kaul without having any class selected.",
-    "parent": "monumenta:challenges/r1/kaul/perfectplatoon"
-  },
-  "monumenta:challenges/r1/rushdown/find": {
-    "title": "Enter the Dissonant Realm",
-    "description": "You discovered the Rush of Dissonance lobby.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/rushdown/rose": {
-    "title": "Remnant of the Rose",
-    "description": "Purchase the Remnant of the Rose.",
-    "parent": "monumenta:challenges/r1/rushdown/wave75"
-  },
-  "monumenta:challenges/r1/rushdown/wave25": {
-    "title": "Reliction",
-    "description": "Defeat 25 waves inside Rush of Dissonance.",
-    "parent": "monumenta:challenges/r1/rushdown/find"
-  },
-  "monumenta:challenges/r1/rushdown/wave40": {
-    "title": "Epicurean",
-    "description": "Defeat 40 waves inside Rush of Dissonance.",
-    "parent": "monumenta:challenges/r1/rushdown/wave25"
-  },
-  "monumenta:challenges/r1/rushdown/wave75": {
-    "title": "Conqueror",
-    "description": "Defeat 75 waves inside Rush of Dissonance.",
-    "parent": "monumenta:challenges/r1/rushdown/wave40"
-  },
-  "monumenta:challenges/r1/sanctum/find": {
-    "title": "A Shaman's Sin",
-    "description": "C'Shura awaits you in the former resting place of Kaul. How will she greet you after so many years of isolation?",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r1/sanctum/sanctum": {
-    "title": "A Shaman's Lament",
-    "description": "You have conquered the corrupted grounds of the Forsworn Sanctum.",
-    "parent": "monumenta:challenges/r1/sanctum/find"
-  },
-  "monumenta:challenges/r1/sanctum/three": {
-    "title": "Three is the Key",
-    "description": "You have awoken Ami Udake within the Forsworn Sanctum.",
-    "parent": "monumenta:challenges/r1/sanctum/sanctum"
-  },
-  "monumenta:challenges/r1/snowspirit/beat_snowspirit": {
-    "title": "Snow Spirit",
-    "description": "Defeat the Snow Wool Spirit.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r1/snowspirit/solo_snowspirit": {
-    "title": "Snow Spirit (Solo)",
-    "description": "Defeat Snow Spirit Solo You've somehow beaten Winter Incarnate, most impressive.",
-    "parent": "monumenta:challenges/r1/snowspirit/beat_snowspirit"
-  },
-  "monumenta:challenges/r1/verdant/find": {
-    "title": "Shards of the Past",
-    "description": "You have discovered the Verdant lobby. Something dark lies beyond...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r1/verdant/verdant": {
-    "title": "Threads of Fate",
-    "description": "You have conquered the threadwarped Remnants of Verdant.",
-    "parent": "monumenta:challenges/r1/verdant/find"
-  },
-  "monumenta:challenges/r2/delves/all": {
-    "title": "Dungeon Modding",
-    "description": "You conquered a dungeon with all possible delve modifiers active!",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/fg/cold_like_company": {
-    "title": "Cold Likes Company",
-    "description": "Defeat Eldrask with 2 players.",
-    "parent": "monumenta:challenges/r2/fg/icicle_crash"
-  },
-  "monumenta:challenges/r2/fg/ice_cold_vanilla": {
-    "title": "Ice-Cold Vanilla",
-    "description": "Defeat Eldrask without having any class selected for the entire duration of the fight.",
-    "parent": "monumenta:challenges/r2/fg/ice_division"
-  },
-  "monumenta:challenges/r2/fg/ice_division": {
-    "title": "Ice Division",
-    "description": "Defeat Eldrask with a raid of 10 or more players where no one dies.",
-    "parent": "monumenta:challenges/r2/fg/last_of_the_challengers"
-  },
-  "monumenta:challenges/r2/fg/icicle_crash": {
-    "title": "Icicle Crash",
-    "description": "Hit Eldrask with 10 or more icicles in a single fight.",
-    "parent": "monumenta:challenges/r2/fg/lonely_soloist"
-  },
-  "monumenta:challenges/r2/fg/last_of_the_challengers": {
-    "title": "Last of the Challengers",
-    "description": "Be the only survivor in a raid of 5 or more people. Now you too shall outlast the others.",
-    "parent": "monumenta:challenges/r2/fg/win"
-  },
-  "monumenta:challenges/r2/fg/lonely_soloist": {
-    "title": "The Song's Lonely Soloist",
-    "description": "Use Annilys to survive a would-be fatal Titanic Rupture.",
-    "parent": "monumenta:challenges/r2/fg/shattered_yet_standing"
-  },
-  "monumenta:challenges/r2/fg/shattered_yet_standing": {
-    "title": "Shattered Yet Standing",
-    "description": "Survive Eldrask's Shatter attack during his final phase and win.",
-    "parent": "monumenta:challenges/r2/fg/stalwart_trio"
-  },
-  "monumenta:challenges/r2/fg/stalwart_trio": {
-    "title": "Stalwart Trio",
-    "description": "Defeat Eldrask with a team of exactly 3 warriors.",
-    "parent": "monumenta:challenges/r2/fg/ice_cold_vanilla"
-  },
-  "monumenta:challenges/r2/fg/win": {
-    "title": "Eldrask",
-    "description": "Defeat Eldrask, the last of the Frost Giants.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/fg/win_solo": {
-    "title": "Defeat Eldrask Solo",
-    "description": "You have heard the song, and know its tale.",
-    "parent": "monumenta:challenges/r2/fg/cold_like_company"
-  },
-  "monumenta:challenges/r2/lich/accursed_one": {
-    "title": "Feeble Cursed One",
-    "description": "Get cursed by Hekawt 3 times in a single fight and win.",
-    "parent": "monumenta:challenges/r2/lich/putrid_platoon"
-  },
-  "monumenta:challenges/r2/lich/day_of_wrath": {
-    "title": "Day of Wrath",
-    "description": "Survive Dies Irae at 5 Crystals or higher and win to tell the tale.",
-    "parent": "monumenta:challenges/r2/lich/player_slayer"
-  },
-  "monumenta:challenges/r2/lich/death_report": {
-    "title": "Death Report",
-    "description": "Enter Hekawt's Shadow Realm and escape with less than 1 second remaining. Reports of my death were greatly exaggerated.",
-    "parent": "monumenta:challenges/r2/lich/accursed_one"
-  },
-  "monumenta:challenges/r2/lich/deathly_duo": {
-    "title": "Deathly Duo",
-    "description": "Defeat Hekawt with 2 players.",
-    "parent": "monumenta:challenges/r2/lich/unholy_trinity"
-  },
-  "monumenta:challenges/r2/lich/player_slayer": {
-    "title": "Player Slayer",
-    "description": "Slay a Player... as a revenant.",
-    "parent": "monumenta:challenges/r2/lich/revenant_slayer"
-  },
-  "monumenta:challenges/r2/lich/putrid_platoon": {
-    "title": "Putrid Platoon",
-    "description": "Defeat Hekawt with 10 or more players where no one dies.",
-    "parent": "monumenta:challenges/r2/lich/deathly_duo"
-  },
-  "monumenta:challenges/r2/lich/revenant_slayer": {
-    "title": "Revenant Slayer",
-    "description": "Slay 3 Player Revenants outside the Shadow Realm in a single fight.",
-    "parent": "monumenta:challenges/r2/lich/death_report"
-  },
-  "monumenta:challenges/r2/lich/unholy_trinity": {
-    "title": "Unholy Trinity",
-    "description": "Defeat Hekawt with a team of exactly 3 Warlocks.",
-    "parent": "monumenta:challenges/r2/lich/win"
-  },
-  "monumenta:challenges/r2/lich/win": {
-    "title": "Hekawt",
-    "description": "Defeat Hekawt, the Lich.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/lich/win_solo": {
-    "title": "Defeat Hekawt Solo",
-    "description": "To conquer that who has conquered death...",
-    "parent": "monumenta:challenges/r2/lich/day_of_wrath"
-  },
-  "monumenta:challenges/r2/mist/bounty": {
-    "title": "Varcosa's Bounty",
-    "description": "Acquired a long lost Golden Key from Varcosa's ship, and slew the Mimic Queen guarding his final hoard.",
-    "parent": "monumenta:challenges/r2/mist/chime"
-  },
-  "monumenta:challenges/r2/mist/chime": {
-    "title": "Depth's Chime",
-    "description": "Once again infused the Chime with the dying breath of Captain Varcosa, awakening its true potential.",
-    "parent": "monumenta:challenges/r2/mist/nearsighted"
-  },
-  "monumenta:challenges/r2/mist/find": {
-    "title": "The Captain Returns",
-    "description": "You have discovered the Black Mist lobby. The crew is expecting you...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r2/mist/mist": {
-    "title": "The Black Mist",
-    "description": "Cleared the Black Mist and conquered its captain, Varcosa.",
-    "parent": "monumenta:challenges/r2/mist/find"
-  },
-  "monumenta:challenges/r2/mist/nearsighted": {
-    "title": "Nearsighted",
-    "description": "Cleared the Black Mist with only 1 secret wall found.",
-    "parent": "monumenta:challenges/r2/mist/stone"
-  },
-  "monumenta:challenges/r2/mist/spiritbusters": {
-    "title": "Spiritbusters",
-    "description": "Cleared the Black Mist with 4 people.",
-    "parent": "monumenta:challenges/r2/mist/mist"
-  },
-  "monumenta:challenges/r2/mist/stone": {
-    "title": "No Stone Unturned",
-    "description": "Found all hidden walls and every chest.",
-    "parent": "monumenta:challenges/r2/mist/spiritbusters"
-  },
-  "monumenta:challenges/r2/partingveil": {
-    "title": "The Parting Veil",
-    "description": "You have completed everything there is to do in the Parting Veil expansion and learned of dangers from Hekawt's shade.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/rooster/all": {
-    "title": "Rooster Caches",
-    "description": "You've found all the Rooster Caches!",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/rooster/eight": {
-    "title": "Molta",
-    "description": "You recovered the cache in Molta.",
-    "parent": "monumenta:challenges/r2/rooster/seven"
-  },
-  "monumenta:challenges/r2/rooster/five": {
-    "title": "Steelmeld",
-    "description": "You recovered the cache in Steelmeld.",
-    "parent": "monumenta:challenges/r2/rooster/four"
-  },
-  "monumenta:challenges/r2/rooster/four": {
-    "title": "Rahkeri",
-    "description": "You recovered the cache in Rahkeri.",
-    "parent": "monumenta:challenges/r2/rooster/three"
-  },
-  "monumenta:challenges/r2/rooster/one": {
-    "title": "Nightroost",
-    "description": "You recovered the cache in Nightroost.",
-    "parent": "monumenta:challenges/r2/rooster/all"
-  },
-  "monumenta:challenges/r2/rooster/seven": {
-    "title": "Frostgate",
-    "description": "You recovered the cache in Frostgate.",
-    "parent": "monumenta:challenges/r2/rooster/six"
-  },
-  "monumenta:challenges/r2/rooster/six": {
-    "title": "Alnera",
-    "description": "You recovered the cache in Alnera.",
-    "parent": "monumenta:challenges/r2/rooster/five"
-  },
-  "monumenta:challenges/r2/rooster/three": {
-    "title": "Wispervale",
-    "description": "You recovered the cache in Wispervale.",
-    "parent": "monumenta:challenges/r2/rooster/two"
-  },
-  "monumenta:challenges/r2/rooster/two": {
-    "title": "Mistport",
-    "description": "You recovered the cache in Mistport.",
-    "parent": "monumenta:challenges/r2/rooster/one"
-  },
-  "monumenta:challenges/r2/sr/find": {
-    "title": "Unavoidable Fate",
-    "description": "You have discovered the Sealed Remorse lobby. What awaits you below...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r2/sr/sr": {
-    "title": "Staring into the Void",
-    "description": "You have conquered the depths of Sealed Remorse.",
-    "parent": "monumenta:challenges/r2/sr/find"
-  },
-  "monumenta:challenges/r2/sr/tension": {
-    "title": "Void of Tension",
-    "description": "You conquered Sealed Remorse with over 200 seconds remaining on the clock!",
-    "parent": "monumenta:challenges/r2/sr/sr"
-  },
-  "monumenta:challenges/r2/sr/vigil": {
-    "title": "The Void Stares Back",
-    "description": "You have parted the void and witnessed the Eternal Vigil.",
-    "parent": "monumenta:challenges/r2/sr/tension"
-  },
-  "monumenta:challenges/r2/treasure_hunt/1": {
-    "title": "Cached Out",
-    "description": "Claim a Treasures of Viridia cache for your own.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r2/treasure_hunt/10": {
-    "title": "Decadence",
-    "description": "Claim 10 Treasures of Viridia caches.",
-    "parent": "monumenta:challenges/r2/treasure_hunt/1"
-  },
-  "monumenta:challenges/r2/treasure_hunt/25": {
-    "title": "Quartering",
-    "description": "Claim 25 Treasures of Viridia caches.",
-    "parent": "monumenta:challenges/r2/treasure_hunt/10"
-  },
-  "monumenta:challenges/r3/gallery/complete": {
-    "title": "The Great Secret",
-    "description": "You have dispelled Markus' Nightmare in the Sanguine Halls.",
-    "parent": "monumenta:challenges/r3/gallery/wave50"
-  },
-  "monumenta:challenges/r3/gallery/find": {
-    "title": "Enter the Nightmares",
-    "description": "You discovered the Gallery of Fear lobby.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r3/gallery/map2anacosmia": {
-    "title": "Anacosmia",
-    "description": "You unraveled the threads of the dream beyond the dream, and saw what lay there.",
-    "parent": "monumenta:challenges/r3/gallery/map2complete"
-  },
-  "monumenta:challenges/r3/gallery/map2complete": {
-    "title": "Thanatopsis",
-    "description": "You have dispelled Levyn's Nightmare in Marina Noir.",
-    "parent": "monumenta:challenges/r3/gallery/map2wave50"
-  },
-  "monumenta:challenges/r3/gallery/map2wave35": {
-    "title": "Dreaming in Black and White",
-    "description": "Defeat 35 waves in Marina Noir",
-    "parent": "monumenta:challenges/r3/gallery/unlock_marina"
-  },
-  "monumenta:challenges/r3/gallery/map2wave50": {
-    "title": "Thanatophobia",
-    "description": "Defeat 50 waves in Marina Noir",
-    "parent": "monumenta:challenges/r3/gallery/map2wave35"
-  },
-  "monumenta:challenges/r3/gallery/unlock_marina": {
-    "title": "Marina Noir",
-    "description": "You unlocked the Marina Noir by absorbing the nightmares of your crewmate Levyn.",
-    "parent": "monumenta:challenges/r3/gallery/find"
-  },
-  "monumenta:challenges/r3/gallery/unlock_sanguine": {
-    "title": "Sanguine Halls",
-    "description": "You unlocked the Sanguine Halls by absorbing the nightmares of the charm trader Markus.",
-    "parent": "monumenta:challenges/r3/gallery/find"
-  },
-  "monumenta:challenges/r3/gallery/wave35": {
-    "title": "Dreaming of the Manor",
-    "description": "Defeat 35 waves in the Sanguine Halls",
-    "parent": "monumenta:challenges/r3/gallery/unlock_sanguine"
-  },
-  "monumenta:challenges/r3/gallery/wave50": {
-    "title": "Hemophobia",
-    "description": "Defeat 50 waves in the Sanguine Halls",
-    "parent": "monumenta:challenges/r3/gallery/wave35"
-  },
-  "monumenta:challenges/r3/godspore/beat_godspore": {
-    "title": "The Godspore",
-    "description": "Defeated The Godspore.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r3/godspore/duo_godspore": {
-    "title": "Divine Duo",
-    "description": "Defeat Godspore with 2 players.",
-    "parent": "monumenta:challenges/r3/godspore/beat_godspore"
-  },
-  "monumenta:challenges/r3/godspore/healthy_hero": {
-    "title": "Healthy Hero",
-    "description": "Defeat Godspore without falling under 70 Vitality for the entire fight.",
-    "parent": "monumenta:challenges/r3/godspore/duo_godspore"
-  },
-  "monumenta:challenges/r3/godspore/hurricane_yuti": {
-    "title": "Hurricane Yuti",
-    "description": "Be blown away by Windstorm Spores 3 times in a single fight and live to tell the tale.",
-    "parent": "monumenta:challenges/r3/godspore/healthy_hero"
-  },
-  "monumenta:challenges/r3/godspore/shrine_supplier": {
-    "title": "Shrine Fanatic",
-    "description": "Defeat the Godspore after activating all 4 Shrines at the same time.",
-    "parent": "monumenta:challenges/r3/godspore/hurricane_yuti"
-  },
-  "monumenta:challenges/r3/godspore/solo_godspore": {
-    "title": "Godspore (Solo)",
-    "description": "Defeated Godspore Solo.",
-    "parent": "monumenta:challenges/r3/godspore/sporefection"
-  },
-  "monumenta:challenges/r3/godspore/sporefection": {
-    "title": "Sporefection",
-    "description": "Defeat Godspore without being hit by an ability that reduces your Vitality.",
-    "parent": "monumenta:challenges/r3/godspore/shrine_supplier"
-  },
-  "monumenta:challenges/r3/portal/find": {
-    "title": "Where's the Cake?",
-    "description": "You have discovered the P.O.R.T.A.L. lobby. The lab awaits... the cake awaits, too...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r3/portal/portal": {
-    "title": "What's the acronym stand for?",
-    "description": "You have conquered the P.O.R.T.A.L. Strike. With no cake in sight.",
-    "parent": "monumenta:challenges/r3/portal/find"
-  },
-  "monumenta:challenges/r3/ruin/find": {
-    "title": "The Masked Fortress",
-    "description": "You have discovered the Masquerader's Ruin lobby. The Blue Wool awaits...",
-    "parent": "monumenta:challenges/root_strikes"
-  },
-  "monumenta:challenges/r3/ruin/ruin": {
-    "title": "Retrieving What was Stolen",
-    "description": "You have conquered the Masquerader's Ruin.",
-    "parent": "monumenta:challenges/r3/ruin/find"
-  },
-  "monumenta:challenges/r3/sirius/blight": {
-    "title": "Silent Blight",
-    "description": "A squadron of 10 combatants defeated the final herald without a single blight pod evolving.",
-    "parent": "monumenta:challenges/r3/sirius/inquiries"
-  },
-  "monumenta:challenges/r3/sirius/condition": {
-    "title": "Sirius Condition",
-    "description": "Even though the final herald came incredibly close to victory, you overcame the blight regardless.",
-    "parent": "monumenta:challenges/r3/sirius/blight"
-  },
-  "monumenta:challenges/r3/sirius/duo": {
-    "title": "Getting Sirius",
-    "description": "You and a single partner took down the final herald, both emerging successful.",
-    "parent": "monumenta:challenges/r3/sirius/win_solo"
-  },
-  "monumenta:challenges/r3/sirius/everyone_dies": {
-    "title": "Stars Fall, Everyone Dies",
-    "description": "Even in a group of at least 10 combatants, you could not take down the final herald.",
-    "parent": "monumenta:challenges/r3/sirius/so_sirius"
-  },
-  "monumenta:challenges/r3/sirius/fault": {
-    "title": "The Fault in Our Stars",
-    "description": "While you and your allies fought courageously against the final herald, the blight was too much to handle.",
-    "parent": "monumenta:challenges/r3/sirius/starfall"
-  },
-  "monumenta:challenges/r3/sirius/inquiries": {
-    "title": "Sirius Inquiries Only",
-    "description": "The sole power of magic has taken down the final herald.",
-    "parent": "monumenta:challenges/r3/sirius/duo"
-  },
-  "monumenta:challenges/r3/sirius/so_sirius": {
-    "title": "Why So Sirius?",
-    "description": "You conquered the final herald using only your brute strength and determination.",
-    "parent": "monumenta:challenges/r3/sirius/fault"
-  },
-  "monumenta:challenges/r3/sirius/starfall": {
-    "title": "Let the Stars Fall",
-    "description": "While you mustered the courage to face the final herald, you fell short of his crushing weight.",
-    "parent": "monumenta:challenges/r3/sirius/condition"
-  },
-  "monumenta:challenges/r3/sirius/win": {
-    "title": "Sirius",
-    "description": "Defeat Sirius, the Final Herald.",
-    "parent": "monumenta:challenges/root"
-  },
-  "monumenta:challenges/r3/sirius/win_solo": {
-    "title": "Defeat Sirius Solo",
-    "description": "The Stars have been thoroughly defeated on this day.",
-    "parent": "monumenta:challenges/r3/sirius/win"
-  },
-  "monumenta:challenges/root": {
-    "title": "Challenges",
-    "description": "Complete the special challenges of each region."
-  },
-  "monumenta:challenges/root_strikes": {
-    "title": "Strikes",
-    "description": null
-  },
   "monumenta:quests/r1/abeastofabook": {
     "title": "A Beast of a Book",
     "description": "You learned from an expert hunter and earned your own Bestiary.",
@@ -3443,6 +3249,11 @@
     "title": "An Otherworldly Hunt",
     "description": "You gather the pelts of rare creatures and learned the Hunter Specialization. Found in the Ishnir Overworld.",
     "parent": "monumenta:quests/r2/unyieldingpotential"
+  },
+  "monumenta:quests/r2/anunexpectedlesson": {
+    "title": "An Unexpected Lesson",
+    "description": "The Duchess called upon you once again, and an unnerving secret was uncovered about Salieri's past.",
+    "parent": "monumenta:quests/r2/anunlikelypartnership"
   },
   "monumenta:quests/r2/anunlikelypartnership": {
     "title": "An Unlikely Partnership",
@@ -3922,639 +3733,199 @@
     "description": "You retrieved the Blue Wool from Samwell in the Masquerader's Ruin",
     "parent": "monumenta:quests/r3/ofmushroomsandmagic"
   },
-  "monumenta:speedster/bonusdungeons/all": {
-    "title": "Alternative Speedster",
-    "description": "Complete all races of Bonus Dungeons.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/bonusdungeons/bursting_bonus": {
-    "title": "Speedster: Bursting Bonus",
-    "description": "Successfully finished Bursting Bonus Race",
-    "parent": "monumenta:speedster/bonusdungeons/swift_alchemy"
-  },
-  "monumenta:speedster/bonusdungeons/circuit": {
-    "title": "Speedster: C'Ircuit",
-    "description": "Successfully finished C'Ircuit Race",
-    "parent": "monumenta:speedster/bonusdungeons/bursting_bonus"
-  },
-  "monumenta:speedster/bonusdungeons/shift_clicking": {
-    "title": "Speedster: Shift Clicking",
-    "description": "Successfully finished Shift Clicking Race",
-    "parent": "monumenta:speedster/bonusdungeons/circuit"
-  },
-  "monumenta:speedster/bonusdungeons/silver_surfer": {
-    "title": "Speedster: Silver Surfer",
-    "description": "Successfully finished Silver Surfer Race",
-    "parent": "monumenta:speedster/bonusdungeons/speed_reading"
-  },
-  "monumenta:speedster/bonusdungeons/speed_reading": {
-    "title": "Speedster: Speed Reading",
-    "description": "Successfully finished Speed Reading Race",
-    "parent": "monumenta:speedster/bonusdungeons/shift_clicking"
-  },
-  "monumenta:speedster/bonusdungeons/swift_alchemy": {
-    "title": "Speedster: Swift Alchemy",
-    "description": "Successfully finished Swift Alchemy Race",
-    "parent": "monumenta:speedster/bonusdungeons/all"
-  },
-  "monumenta:speedster/r1/all": {
-    "title": "Speedster",
-    "description": "Complete all races in King's Valley at Master rank.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/r1/elemental_shuffle/0": {
-    "title": "Speedster: Elemental Shuffle",
-    "description": "Reached Master time on Numah's Race",
-    "parent": "monumenta:speedster/r1/elemental_shuffle/1"
-  },
-  "monumenta:speedster/r1/elemental_shuffle/1": {
-    "title": "Speedster: Elemental Shuffle",
-    "description": "Reached Gold time on Numah's Race",
-    "parent": "monumenta:speedster/r1/elemental_shuffle/2"
-  },
-  "monumenta:speedster/r1/elemental_shuffle/2": {
-    "title": "Speedster: Elemental Shuffle",
-    "description": "Reached Silver time on Numah's Race",
-    "parent": "monumenta:speedster/r1/elemental_shuffle/3"
-  },
-  "monumenta:speedster/r1/elemental_shuffle/3": {
-    "title": "Speedster: Elemental Shuffle",
-    "description": "Reached Bronze time on Numah's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/high_to_low/0": {
-    "title": "Speedster: High to Low",
-    "description": "Reached Master time on Linebeck's Race",
-    "parent": "monumenta:speedster/r1/high_to_low/1"
-  },
-  "monumenta:speedster/r1/high_to_low/1": {
-    "title": "Speedster: High to Low",
-    "description": "Reached Gold time on Linebeck's Race",
-    "parent": "monumenta:speedster/r1/high_to_low/2"
-  },
-  "monumenta:speedster/r1/high_to_low/2": {
-    "title": "Speedster: High to Low",
-    "description": "Reached Silver time on Linebeck's Race",
-    "parent": "monumenta:speedster/r1/high_to_low/3"
-  },
-  "monumenta:speedster/r1/high_to_low/3": {
-    "title": "Speedster: High to Low",
-    "description": "Reached Bronze time on Linebeck's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/mariyas_game/0": {
-    "title": "Speedster: Mariya's Game",
-    "description": "Reached Master time on the Mariya's Game race",
-    "parent": "monumenta:speedster/r1/mariyas_game/1"
-  },
-  "monumenta:speedster/r1/mariyas_game/1": {
-    "title": "Speedster: Mariya's Game",
-    "description": "Reached Gold time on the Mariya's Game race",
-    "parent": "monumenta:speedster/r1/mariyas_game/2"
-  },
-  "monumenta:speedster/r1/mariyas_game/2": {
-    "title": "Speedster: Mariya's Game",
-    "description": "Reached Silver time on the Mariya's Game race",
-    "parent": "monumenta:speedster/r1/mariyas_game/3"
-  },
-  "monumenta:speedster/r1/mariyas_game/3": {
-    "title": "Speedster: Mariya's Game",
-    "description": "Reached Bronze time on the Mariya's Game race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/royal_gambit/0": {
-    "title": "Speedster: Royal Gambit",
-    "description": "Reached Master time on the Royal Gambit race",
-    "parent": "monumenta:speedster/r1/royal_gambit/1"
-  },
-  "monumenta:speedster/r1/royal_gambit/1": {
-    "title": "Speedster: Royal Gambit",
-    "description": "Reached Gold time on the Royal Gambit race",
-    "parent": "monumenta:speedster/r1/royal_gambit/2"
-  },
-  "monumenta:speedster/r1/royal_gambit/2": {
-    "title": "Speedster: Royal Gambit",
-    "description": "Reached Silver time on the Royal Gambit race",
-    "parent": "monumenta:speedster/r1/royal_gambit/3"
-  },
-  "monumenta:speedster/r1/royal_gambit/3": {
-    "title": "Speedster: Royal Gambit",
-    "description": "Reached Bronze time on the Royal Gambit race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/tree_hopping_madness/0": {
-    "title": "Speedster: Tree Hopping Madness",
-    "description": "Reached Master time on Dalisay's Race",
-    "parent": "monumenta:speedster/r1/tree_hopping_madness/1"
-  },
-  "monumenta:speedster/r1/tree_hopping_madness/1": {
-    "title": "Speedster: Tree Hopping Madness",
-    "description": "Reached Gold time on Dalisay's Race",
-    "parent": "monumenta:speedster/r1/tree_hopping_madness/2"
-  },
-  "monumenta:speedster/r1/tree_hopping_madness/2": {
-    "title": "Speedster: Tree Hopping Madness",
-    "description": "Reached Silver time on Dalisay's Race",
-    "parent": "monumenta:speedster/r1/tree_hopping_madness/3"
-  },
-  "monumenta:speedster/r1/tree_hopping_madness/3": {
-    "title": "Speedster: Tree Hopping Madness",
-    "description": "Reached Bronze time on Dalisay's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/tutorial": {
-    "title": "Speedster of Sierhaven",
-    "description": "Complete the Sierhaven Race under the time limit.",
-    "parent": "monumenta:speedster/root"
-  },
-  "monumenta:speedster/r1/tutorial_plus/0": {
-    "title": "Speedster: Tutorial+",
-    "description": "Reached Master time on Flashy's Race",
-    "parent": "monumenta:speedster/r1/tutorial_plus/1"
-  },
-  "monumenta:speedster/r1/tutorial_plus/1": {
-    "title": "Speedster: Tutorial+",
-    "description": "Reached Gold time on Flashy's Race",
-    "parent": "monumenta:speedster/r1/tutorial_plus/2"
-  },
-  "monumenta:speedster/r1/tutorial_plus/2": {
-    "title": "Speedster: Tutorial+",
-    "description": "Reached Silver time on Flashy's Race",
-    "parent": "monumenta:speedster/r1/tutorial_plus/3"
-  },
-  "monumenta:speedster/r1/tutorial_plus/3": {
-    "title": "Speedster: Tutorial+",
-    "description": "Reached Bronze time on Flashy's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/velaraocity/0": {
-    "title": "Speedster: Velara-ocity",
-    "description": "Reached Master time on Krikk's Race",
-    "parent": "monumenta:speedster/r1/velaraocity/1"
-  },
-  "monumenta:speedster/r1/velaraocity/1": {
-    "title": "Speedster: Velara-ocity",
-    "description": "Reached Gold time on Krikk's Race",
-    "parent": "monumenta:speedster/r1/velaraocity/2"
-  },
-  "monumenta:speedster/r1/velaraocity/2": {
-    "title": "Speedster: Velara-ocity",
-    "description": "Reached Silver time on Krikk's Race",
-    "parent": "monumenta:speedster/r1/velaraocity/3"
-  },
-  "monumenta:speedster/r1/velaraocity/3": {
-    "title": "Speedster: Velara-ocity",
-    "description": "Reached Bronze time on Krikk's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r2/all": {
-    "title": "Speedster of Celsian Isles",
-    "description": "Complete all races in Celsian Isles at Master rank.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/r2/allfornera/0": {
-    "title": "Speedster: All for Nera",
-    "description": "Reached Master time on All for Nera Race",
-    "parent": "monumenta:speedster/r2/allfornera/1"
-  },
-  "monumenta:speedster/r2/allfornera/1": {
-    "title": "Speedster: All for Nera",
-    "description": "Reached Gold time on All for Nera Race",
-    "parent": "monumenta:speedster/r2/allfornera/2"
-  },
-  "monumenta:speedster/r2/allfornera/2": {
-    "title": "Speedster: All for Nera",
-    "description": "Reached Silver time on All for Nera Race",
-    "parent": "monumenta:speedster/r2/allfornera/3"
-  },
-  "monumenta:speedster/r2/allfornera/3": {
-    "title": "Speedster: All for Nera",
-    "description": "Reached Bronze time on All for Nera Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/deliverydash/0": {
-    "title": "Speedster: Delivery Dash",
-    "description": "Reached Master time on Delivery Dash Race",
-    "parent": "monumenta:speedster/r2/deliverydash/1"
-  },
-  "monumenta:speedster/r2/deliverydash/1": {
-    "title": "Speedster: Delivery Dash",
-    "description": "Reached Gold time on Delivery Dash Race",
-    "parent": "monumenta:speedster/r2/deliverydash/2"
-  },
-  "monumenta:speedster/r2/deliverydash/2": {
-    "title": "Speedster: Delivery Dash",
-    "description": "Reached Silver time on Delivery Dash Race",
-    "parent": "monumenta:speedster/r2/deliverydash/3"
-  },
-  "monumenta:speedster/r2/deliverydash/3": {
-    "title": "Speedster: Delivery Dash",
-    "description": "Reached Bronze time on Delivery Dash Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/fastwhispers/0": {
-    "title": "Speedster: Fast Whispers",
-    "description": "Reached Master time on Fast Whispers Race",
-    "parent": "monumenta:speedster/r2/fastwhispers/1"
-  },
-  "monumenta:speedster/r2/fastwhispers/1": {
-    "title": "Speedster: Fast Whispers",
-    "description": "Reached Gold time on Fast Whispers Race",
-    "parent": "monumenta:speedster/r2/fastwhispers/2"
-  },
-  "monumenta:speedster/r2/fastwhispers/2": {
-    "title": "Speedster: Fast Whispers",
-    "description": "Reached Silver time on Fast Whispers Race",
-    "parent": "monumenta:speedster/r2/fastwhispers/3"
-  },
-  "monumenta:speedster/r2/fastwhispers/3": {
-    "title": "Speedster: Fast Whispers",
-    "description": "Reached Bronze time on Fast Whispers Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/frostdrift/0": {
-    "title": "Speedster: Frost Drift",
-    "description": "Reached Master time on Frost Drift Race",
-    "parent": "monumenta:speedster/r2/frostdrift/1"
-  },
-  "monumenta:speedster/r2/frostdrift/1": {
-    "title": "Speedster: Frost Drift",
-    "description": "Reached Gold time on Frost Drift Race",
-    "parent": "monumenta:speedster/r2/frostdrift/2"
-  },
-  "monumenta:speedster/r2/frostdrift/2": {
-    "title": "Speedster: Frost Drift",
-    "description": "Reached Silver time on Frost Drift Race",
-    "parent": "monumenta:speedster/r2/frostdrift/3"
-  },
-  "monumenta:speedster/r2/frostdrift/3": {
-    "title": "Speedster: Frost Drift",
-    "description": "Reached Bronze time on Frost Drift Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/mistywaters/0": {
-    "title": "Speedster: Misty Waters",
-    "description": "Reached Master time on Misty Waters",
-    "parent": "monumenta:speedster/r2/mistywaters/1"
-  },
-  "monumenta:speedster/r2/mistywaters/1": {
-    "title": "Speedster: Misty Waters",
-    "description": "Reached Gold time on Misty Waters",
-    "parent": "monumenta:speedster/r2/mistywaters/2"
-  },
-  "monumenta:speedster/r2/mistywaters/2": {
-    "title": "Speedster: Misty Waters",
-    "description": "Reached Silver time on Misty Waters",
-    "parent": "monumenta:speedster/r2/mistywaters/3"
-  },
-  "monumenta:speedster/r2/mistywaters/3": {
-    "title": "Speedster: Misty Waters",
-    "description": "Reached Bronze time on Misty Waters",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/runnersofmist/0": {
-    "title": "Speedster: Runners of Mist",
-    "description": "Reached Master time on Runners of Mist Race",
-    "parent": "monumenta:speedster/r2/runnersofmist/1"
-  },
-  "monumenta:speedster/r2/runnersofmist/1": {
-    "title": "Speedster: Runners of Mist",
-    "description": "Reached Gold time on Runners of Mist Race",
-    "parent": "monumenta:speedster/r2/runnersofmist/2"
-  },
-  "monumenta:speedster/r2/runnersofmist/2": {
-    "title": "Speedster: Runners of Mist",
-    "description": "Reached Silver time on Runners of Mist Race",
-    "parent": "monumenta:speedster/r2/runnersofmist/3"
-  },
-  "monumenta:speedster/r2/runnersofmist/3": {
-    "title": "Speedster: Runners of Mist",
-    "description": "Reached Bronze time on Runners of Mist Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/sixshotsprint/0": {
-    "title": "Speedster: Six Shot Sprint",
-    "description": "Reached Master time on Six Shot Sprint Race",
-    "parent": "monumenta:speedster/r2/sixshotsprint/1"
-  },
-  "monumenta:speedster/r2/sixshotsprint/1": {
-    "title": "Speedster: Six Shot Sprint",
-    "description": "Reached Gold time on Six Shot Sprint Race",
-    "parent": "monumenta:speedster/r2/sixshotsprint/2"
-  },
-  "monumenta:speedster/r2/sixshotsprint/2": {
-    "title": "Speedster: Six Shot Sprint",
-    "description": "Reached Silver time on Six Shot Sprint Race",
-    "parent": "monumenta:speedster/r2/sixshotsprint/3"
-  },
-  "monumenta:speedster/r2/sixshotsprint/3": {
-    "title": "Speedster: Six Shot Sprint",
-    "description": "Reached Bronze time on Six Shot Sprint Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/speedfitness/0": {
-    "title": "Speedster: Speed Fitness",
-    "description": "Reached Master time on Speed Fitness Race",
-    "parent": "monumenta:speedster/r2/speedfitness/1"
-  },
-  "monumenta:speedster/r2/speedfitness/1": {
-    "title": "Speedster: Speed Fitness",
-    "description": "Reached Gold time on Speed Fitness Race",
-    "parent": "monumenta:speedster/r2/speedfitness/2"
-  },
-  "monumenta:speedster/r2/speedfitness/2": {
-    "title": "Speedster: Speed Fitness",
-    "description": "Reached Silver time on Speed Fitness Race",
-    "parent": "monumenta:speedster/r2/speedfitness/3"
-  },
-  "monumenta:speedster/r2/speedfitness/3": {
-    "title": "Speedster: Speed Fitness",
-    "description": "Reached Bronze time on Speed Fitness Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/trackmaster/0": {
-    "title": "Speedster: Trackmaster",
-    "description": "Reached Master time on Trackmaster Race",
-    "parent": "monumenta:speedster/r2/trackmaster/1"
-  },
-  "monumenta:speedster/r2/trackmaster/1": {
-    "title": "Speedster: Trackmaster",
-    "description": "Reached Gold time on Trackmaster Race",
-    "parent": "monumenta:speedster/r2/trackmaster/2"
-  },
-  "monumenta:speedster/r2/trackmaster/2": {
-    "title": "Speedster: Trackmaster",
-    "description": "Reached Silver time on Trackmaster Race",
-    "parent": "monumenta:speedster/r2/trackmaster/3"
-  },
-  "monumenta:speedster/r2/trackmaster/3": {
-    "title": "Speedster: Trackmaster",
-    "description": "Reached Bronze time on Trackmaster Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r3/all": {
-    "title": "Speedster of Architect's Ring",
-    "description": "Complete all races in Architect's Ring at Master rank.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/r3/boatmanteau/0": {
-    "title": "Speedster: Boat Manteau",
-    "description": "Reached Master time on Boat Manteau Race",
-    "parent": "monumenta:speedster/r3/boatmanteau/1"
-  },
-  "monumenta:speedster/r3/boatmanteau/1": {
-    "title": "Speedster: Boat Manteau",
-    "description": "Reached Gold time on Boat Manteau Race",
-    "parent": "monumenta:speedster/r3/boatmanteau/2"
-  },
-  "monumenta:speedster/r3/boatmanteau/2": {
-    "title": "Speedster: Boat Manteau",
-    "description": "Reached Silver time on Boat Manteau Race",
-    "parent": "monumenta:speedster/r3/boatmanteau/3"
-  },
-  "monumenta:speedster/r3/boatmanteau/3": {
-    "title": "Speedster: Boat Manteau",
-    "description": "Reached Bronze time on Boat Manteau Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/citytour/0": {
-    "title": "Speedster: City Tour",
-    "description": "Reached Master time on City Tour Race",
-    "parent": "monumenta:speedster/r3/citytour/1"
-  },
-  "monumenta:speedster/r3/citytour/1": {
-    "title": "Speedster: City Tour",
-    "description": "Reached Gold time on City Tour Race",
-    "parent": "monumenta:speedster/r3/citytour/2"
-  },
-  "monumenta:speedster/r3/citytour/2": {
-    "title": "Speedster: City Tour",
-    "description": "Reached Silver time on City Race",
-    "parent": "monumenta:speedster/r3/citytour/3"
-  },
-  "monumenta:speedster/r3/citytour/3": {
-    "title": "Speedster: City Tour",
-    "description": "Reached Bronze time on City Tour Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/coastalcurcuit/0": {
-    "title": "Speedster: Coastal Curcuit",
-    "description": "Reached Master time on Coastal Curcuit Race",
-    "parent": "monumenta:speedster/r3/coastalcurcuit/1"
-  },
-  "monumenta:speedster/r3/coastalcurcuit/1": {
-    "title": "Speedster: Coastal Curcuit",
-    "description": "Reached Gold time on Coastal Curcuit Race",
-    "parent": "monumenta:speedster/r3/coastalcurcuit/2"
-  },
-  "monumenta:speedster/r3/coastalcurcuit/2": {
-    "title": "Speedster: Coastal Curcuit",
-    "description": "Reached Silver time on Coastal Curcuit Race",
-    "parent": "monumenta:speedster/r3/coastalcurcuit/3"
-  },
-  "monumenta:speedster/r3/coastalcurcuit/3": {
-    "title": "Speedster: Coastal Curcuit",
-    "description": "Reached Bronze time on Coastal Curcuit Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/covenfrostress/0": {
-    "title": "Speedster: Coven Frostress",
-    "description": "Reached Master time on Coven Frostress Race",
-    "parent": "monumenta:speedster/r3/covenfrostress/1"
-  },
-  "monumenta:speedster/r3/covenfrostress/1": {
-    "title": "Speedster: Coven Frostress",
-    "description": "Reached Gold time on Coven Frostress Race",
-    "parent": "monumenta:speedster/r3/covenfrostress/2"
-  },
-  "monumenta:speedster/r3/covenfrostress/2": {
-    "title": "Speedster: Coven Frostress",
-    "description": "Reached Silver time on Coven Frostress Race",
-    "parent": "monumenta:speedster/r3/covenfrostress/3"
-  },
-  "monumenta:speedster/r3/covenfrostress/3": {
-    "title": "Speedster: Coven Frostress",
-    "description": "Reached Bronze time on Coven Frostress Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/frostbitecascade/0": {
-    "title": "Speedster: Frostbite Cascade",
-    "description": "Reached Master time on Frostbite Cascade Race",
-    "parent": "monumenta:speedster/r3/frostbitecascade/1"
-  },
-  "monumenta:speedster/r3/frostbitecascade/1": {
-    "title": "Speedster: Frostbite Cascade",
-    "description": "Reached Gold time on Frostbite Cascade Race",
-    "parent": "monumenta:speedster/r3/frostbitecascade/2"
-  },
-  "monumenta:speedster/r3/frostbitecascade/2": {
-    "title": "Speedster: Frostbite Cascade",
-    "description": "Reached Silver time on Frostbite Cascade Race",
-    "parent": "monumenta:speedster/r3/frostbitecascade/3"
-  },
-  "monumenta:speedster/r3/frostbitecascade/3": {
-    "title": "Speedster: Frostbite Cascade",
-    "description": "Reached Bronze time on Frostbite Cascade Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/rapidascent/0": {
-    "title": "Speedster: Rapid Ascent",
-    "description": "Reached Master time on Rapid Ascent Race",
-    "parent": "monumenta:speedster/r3/rapidascent/1"
-  },
-  "monumenta:speedster/r3/rapidascent/1": {
-    "title": "Speedster: Rapid Ascent",
-    "description": "Reached Gold time on Rapid Ascent Race",
-    "parent": "monumenta:speedster/r3/rapidascent/2"
-  },
-  "monumenta:speedster/r3/rapidascent/2": {
-    "title": "Speedster: Rapid Ascent",
-    "description": "Reached Silver time on Rapid Ascent Race",
-    "parent": "monumenta:speedster/r3/rapidascent/3"
-  },
-  "monumenta:speedster/r3/rapidascent/3": {
-    "title": "Speedster: Rapid Ascent",
-    "description": "Reached Bronze time on Rapid Ascent Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/refrigeratedremorse/0": {
-    "title": "Speedster: Refrigerated Remorse",
-    "description": "Reached Master time on Refrigerated Remorse Race",
-    "parent": "monumenta:speedster/r3/refrigeratedremorse/1"
-  },
-  "monumenta:speedster/r3/refrigeratedremorse/1": {
-    "title": "Speedster: Refrigerated Remorse",
-    "description": "Reached Gold time on Refrigerated Remorse Race",
-    "parent": "monumenta:speedster/r3/refrigeratedremorse/2"
-  },
-  "monumenta:speedster/r3/refrigeratedremorse/2": {
-    "title": "Speedster: Refrigerated Remorse",
-    "description": "Reached Silver time on Refrigerated Remorse Race",
-    "parent": "monumenta:speedster/r3/refrigeratedremorse/3"
-  },
-  "monumenta:speedster/r3/refrigeratedremorse/3": {
-    "title": "Speedster: Refrigerated Remorse",
-    "description": "Reached Bronze time on Refrigerated Remorse Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/skyhighbora/0": {
-    "title": "Speedster: Skyhigh Bora",
-    "description": "Reached Master time on Skyhigh Bora Race",
-    "parent": "monumenta:speedster/r3/skyhighbora/1"
-  },
-  "monumenta:speedster/r3/skyhighbora/1": {
-    "title": "Speedster: Skyhigh Bora",
-    "description": "Reached Gold time on Skyhigh Bora Race",
-    "parent": "monumenta:speedster/r3/skyhighbora/2"
-  },
-  "monumenta:speedster/r3/skyhighbora/2": {
-    "title": "Speedster: Skyhigh Bora",
-    "description": "Reached Silver time on Skyhigh Bora Race",
-    "parent": "monumenta:speedster/r3/skyhighbora/3"
-  },
-  "monumenta:speedster/r3/skyhighbora/3": {
-    "title": "Speedster: Skyhigh Bora",
-    "description": "Reached Bronze time on Skyhigh Bora Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/starpointbellrace/0": {
-    "title": "Speedster: They Toll for Thee",
-    "description": "Reached Master time on They Toll for Thee Race",
-    "parent": "monumenta:speedster/r3/starpointbellrace/1"
-  },
-  "monumenta:speedster/r3/starpointbellrace/1": {
-    "title": "Speedster: They Toll for Thee",
-    "description": "Reached Gold time on They Toll for Thee Race",
-    "parent": "monumenta:speedster/r3/starpointbellrace/2"
-  },
-  "monumenta:speedster/r3/starpointbellrace/2": {
-    "title": "Speedster: They Toll for Thee",
-    "description": "Reached Silver time on They Toll for Thee Race",
-    "parent": "monumenta:speedster/r3/starpointbellrace/3"
-  },
-  "monumenta:speedster/r3/starpointbellrace/3": {
-    "title": "Speedster: They Toll for Thee",
-    "description": "Reached Bronze time on They Toll for Thee Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/root": {
-    "title": "Speedster of Monumenta",
-    "description": null
-  },
-  "monumenta:speedster/wooldungeons/all": {
-    "title": "Primordial Speedster",
-    "description": "Complete all races of Wool Dungeons.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/wooldungeons/blood_rush": {
-    "title": "Speedster: Blood Rush",
-    "description": "Successfully finished Blood Rush Race",
-    "parent": "monumenta:speedster/wooldungeons/all"
-  },
-  "monumenta:speedster/wooldungeons/light_footed": {
-    "title": "Speedster: Light Footed",
-    "description": "Successfully finished Light Footed Race",
-    "parent": "monumenta:speedster/wooldungeons/sand_struggles"
-  },
-  "monumenta:speedster/wooldungeons/miasma_theory": {
-    "title": "Speedster: Miasma Theory",
-    "description": "Successfully finished Miasma Theory Race",
-    "parent": "monumenta:speedster/wooldungeons/zoo_tour"
-  },
-  "monumenta:speedster/wooldungeons/minds_eye": {
-    "title": "Speedster: Mind's Eye",
-    "description": "Successfully finished Mind's Eye Race",
-    "parent": "monumenta:speedster/wooldungeons/light_footed"
-  },
-  "monumenta:speedster/wooldungeons/pirate_pass": {
-    "title": "Speedster: Pirate Pass",
-    "description": "Successfully finished Pirate Pass Race",
-    "parent": "monumenta:speedster/wooldungeons/minds_eye"
-  },
-  "monumenta:speedster/wooldungeons/ruined_run": {
-    "title": "Speedster: Ruined Run",
-    "description": "Successfully finished Ruined Run Race",
-    "parent": "monumenta:speedster/wooldungeons/all"
-  },
-  "monumenta:speedster/wooldungeons/sand_struggles": {
-    "title": "Speedster: Sand Struggles",
-    "description": "Successfully finished Sand Struggles Race",
-    "parent": "monumenta:speedster/wooldungeons/seasons_grace"
-  },
-  "monumenta:speedster/wooldungeons/seasons_grace": {
-    "title": "Speedster: Season's Grace",
-    "description": "Successfully finished Season's Grace Race",
-    "parent": "monumenta:speedster/wooldungeons/ruined_run"
-  },
-  "monumenta:speedster/wooldungeons/time_flies": {
-    "title": "Speedster: Time Flies",
-    "description": "Successfully finished Time Flies Race",
-    "parent": "monumenta:speedster/wooldungeons/pirate_pass"
-  },
-  "monumenta:speedster/wooldungeons/treks_machina": {
-    "title": "Speedster: Treks Machina",
-    "description": "Successfully finished Treks Machina Race",
-    "parent": "monumenta:speedster/wooldungeons/witchhiking"
-  },
-  "monumenta:speedster/wooldungeons/truly_occult": {
-    "title": "Speedster: Truly Occult",
-    "description": "Successfully finished Truly Occult Race",
-    "parent": "monumenta:speedster/wooldungeons/miasma_theory"
-  },
-  "monumenta:speedster/wooldungeons/wild_waltz": {
-    "title": "Speedster: Wild Waltz",
-    "description": "Successfully finished Wild Waltz Race",
-    "parent": "monumenta:speedster/wooldungeons/truly_occult"
-  },
-  "monumenta:speedster/wooldungeons/witchhiking": {
-    "title": "Speedster: Witchhiking",
-    "description": "Successfully finished Witchhiking Race",
-    "parent": "monumenta:speedster/wooldungeons/all"
-  },
-  "monumenta:speedster/wooldungeons/zoo_tour": {
-    "title": "Speedster: Zoo Tour",
-    "description": "Successfully finished Zoo Tour Race",
-    "parent": "monumenta:speedster/wooldungeons/blood_rush"
+  "monumenta:acrobat/r1/all": {
+    "title": "Acrobat of the King's Valley",
+    "description": "Complete every Jumping Puzzle in the King's Valley.",
+    "parent": "monumenta:acrobat/root"
+  },
+  "monumenta:acrobat/r1/farr/clocktower": {
+    "title": "Acrobat of the Clocktower",
+    "description": "Complete the Farr Clocktower Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/farr/shops"
+  },
+  "monumenta:acrobat/r1/farr/shops": {
+    "title": "Acrobat of Farr",
+    "description": "Complete the Farr Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/grove/azacorlobby": {
+    "title": "Acrobat of the Demon",
+    "description": "Complete the Azacor Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/verdant/verdantlobby"
+  },
+  "monumenta:acrobat/r1/highwatch/bathhouse2": {
+    "title": "Acrobat of the Bathhouse",
+    "description": "Complete the Highwatch Bathhouse Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/highwatch/castle2"
+  },
+  "monumenta:acrobat/r1/highwatch/castle2": {
+    "title": "Acrobat of Highwatch Castle",
+    "description": "Complete the Highwatch Castle Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/highwatch/monument": {
+    "title": "Acrobat of the Monument",
+    "description": "Complete the Monument Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/highwatch/bathhouse2"
+  },
+  "monumenta:acrobat/r1/lowtide/library_tower": {
+    "title": "Acrobat of the Library",
+    "description": "Complete the Lowtide Library Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/lowtide/seagate": {
+    "title": "Acrobat of the Seagate",
+    "description": "Complete the Lowtide Seagate Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/lowtide/ship"
+  },
+  "monumenta:acrobat/r1/lowtide/ship": {
+    "title": "Acrobat of the Ship",
+    "description": "Complete the Lowtide Ship Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/lowtide/library_tower"
+  },
+  "monumenta:acrobat/r1/nyr/armory": {
+    "title": "Acrobat of the Armory",
+    "description": "Complete the Armory Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/nyr/windmill"
+  },
+  "monumenta:acrobat/r1/nyr/windmill": {
+    "title": "Acrobat of Nyr",
+    "description": "Complete the Windmill Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/oceangate/beam": {
+    "title": "Acrobat of the Beam",
+    "description": "Complete the Beam Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/reverie/lobby": {
+    "title": "Acrobat of the Dream",
+    "description": "Complete the Reverie Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/sierhaven/apartments": {
+    "title": "Acrobat of the Teleporter",
+    "description": "Complete the Sierhaven Teleporter Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/flag"
+  },
+  "monumenta:acrobat/r1/sierhaven/flag": {
+    "title": "Acrobat of the Flag",
+    "description": "Complete the Sierhaven Flag Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/royal"
+  },
+  "monumenta:acrobat/r1/sierhaven/prison": {
+    "title": "Acrobat of the Prison",
+    "description": "Complete the Sierhaven Prison Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/west"
+  },
+  "monumenta:acrobat/r1/sierhaven/royal": {
+    "title": "Acrobat of Royalty",
+    "description": "Complete the Sierhaven Royal Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/tree"
+  },
+  "monumenta:acrobat/r1/sierhaven/tree": {
+    "title": "Acrobat of the Tree",
+    "description": "Complete the Sierhaven Tree Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/sierhaven/west": {
+    "title": "Acrobat of the West",
+    "description": "Complete the Western Tower Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/sierhaven/apartments"
+  },
+  "monumenta:acrobat/r1/taeldim/plague": {
+    "title": "Acrobat of the Plague",
+    "description": "Complete the Plagueroot Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/taeldim/spring"
+  },
+  "monumenta:acrobat/r1/taeldim/spring": {
+    "title": "Acrobat of the Springs",
+    "description": "Complete the Ta'Eldim Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/all"
+  },
+  "monumenta:acrobat/r1/verdant/verdantlobby": {
+    "title": "Acrobat of the Remnants",
+    "description": "Complete the Verdant Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r1/reverie/lobby"
+  },
+  "monumenta:acrobat/r2/all": {
+    "title": "Aerialist of the Celsian Isles",
+    "description": "Complete every Jumping Puzzle in the Celsian Isles.",
+    "parent": "monumenta:acrobat/root"
+  },
+  "monumenta:acrobat/r2/alnera/leaves": {
+    "title": "Aerialist of the Teleporter",
+    "description": "Complete the Alnera Teleporter Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/depths/deep": {
+    "title": "Aerialist of the Deep",
+    "description": "Complete the Darkest Depths Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/remorse/void"
+  },
+  "monumenta:acrobat/r2/forum/bookshelves": {
+    "title": "Aerialist of the Bookshelves",
+    "description": "Complete The Fallen Forum Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/frostgate/cathedral": {
+    "title": "Aerialist of the Cathedral",
+    "description": "Complete the Frostgate Cathedral Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/mistport/carnival": {
+    "title": "Aerialist of the Carnival",
+    "description": "Complete the Floating Carnival Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/mistport/lighthouse"
+  },
+  "monumenta:acrobat/r2/mistport/garden": {
+    "title": "Aerialist of the Gardens",
+    "description": "You conquered the hardest parkour in the game - the Gardens of Yesel!",
+    "parent": "monumenta:acrobat/r2/mistport/mist"
+  },
+  "monumenta:acrobat/r2/mistport/lighthouse": {
+    "title": "Aerialist of the Lighthouse",
+    "description": "Complete the Mistport Lighthouse Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/mistport/mist": {
+    "title": "Aerialist of the Mist",
+    "description": "Complete The Black Mist Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/mistport/carnival"
+  },
+  "monumenta:acrobat/r2/remorse/void": {
+    "title": "Aerialist of the Void",
+    "description": "Complete the Sealed Remorse Lobby Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/forum/bookshelves"
+  },
+  "monumenta:acrobat/r2/steelmeld/laboratory": {
+    "title": "Aerialist of the Laboratory",
+    "description": "Complete The Steelmeld Laboratory Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r2/wispervale/academy": {
+    "title": "Aerialist of the Academy",
+    "description": "Complete the Wispervale Academy Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r2/all"
+  },
+  "monumenta:acrobat/r3/all": {
+    "title": "Funambulist of the Ring",
+    "description": "Complete every Jumping Puzzle in the Architect's Ring.",
+    "parent": "monumenta:acrobat/root"
+  },
+  "monumenta:acrobat/r3/chantry/borealis": {
+    "title": "Funambulist of the Borealis",
+    "description": "Complete the Chantry Borealis Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r3/all"
+  },
+  "monumenta:acrobat/r3/starpoint/tower": {
+    "title": "Funambulist of the Ruined Tower",
+    "description": "Complete the Ruined Tower Jumping Puzzle.",
+    "parent": "monumenta:acrobat/r3/all"
+  },
+  "monumenta:acrobat/root": {
+    "title": "Parkour",
+    "description": "Complete the Jumping Puzzles of each region."
   },
   "monumenta:handbook/enchantments/abyssal": {
     "title": "Abyssal",
@@ -5999,5 +5370,639 @@
   "monumenta:handbook/root": {
     "title": "Handbook",
     "description": "Your guide for Monumenta"
+  },
+  "monumenta:speedster/bonusdungeons/all": {
+    "title": "Alternative Speedster",
+    "description": "Complete all races of Bonus Dungeons.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/bonusdungeons/bursting_bonus": {
+    "title": "Speedster: Bursting Bonus",
+    "description": "Successfully finished Bursting Bonus Race",
+    "parent": "monumenta:speedster/bonusdungeons/swift_alchemy"
+  },
+  "monumenta:speedster/bonusdungeons/circuit": {
+    "title": "Speedster: C'Ircuit",
+    "description": "Successfully finished C'Ircuit Race",
+    "parent": "monumenta:speedster/bonusdungeons/bursting_bonus"
+  },
+  "monumenta:speedster/bonusdungeons/shift_clicking": {
+    "title": "Speedster: Shift Clicking",
+    "description": "Successfully finished Shift Clicking Race",
+    "parent": "monumenta:speedster/bonusdungeons/circuit"
+  },
+  "monumenta:speedster/bonusdungeons/silver_surfer": {
+    "title": "Speedster: Silver Surfer",
+    "description": "Successfully finished Silver Surfer Race",
+    "parent": "monumenta:speedster/bonusdungeons/speed_reading"
+  },
+  "monumenta:speedster/bonusdungeons/speed_reading": {
+    "title": "Speedster: Speed Reading",
+    "description": "Successfully finished Speed Reading Race",
+    "parent": "monumenta:speedster/bonusdungeons/shift_clicking"
+  },
+  "monumenta:speedster/bonusdungeons/swift_alchemy": {
+    "title": "Speedster: Swift Alchemy",
+    "description": "Successfully finished Swift Alchemy Race",
+    "parent": "monumenta:speedster/bonusdungeons/all"
+  },
+  "monumenta:speedster/r1/all": {
+    "title": "Speedster",
+    "description": "Complete all races in King's Valley at Master rank.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/r1/elemental_shuffle/0": {
+    "title": "Speedster: Elemental Shuffle",
+    "description": "Reached Master time on Numah's Race",
+    "parent": "monumenta:speedster/r1/elemental_shuffle/1"
+  },
+  "monumenta:speedster/r1/elemental_shuffle/1": {
+    "title": "Speedster: Elemental Shuffle",
+    "description": "Reached Gold time on Numah's Race",
+    "parent": "monumenta:speedster/r1/elemental_shuffle/2"
+  },
+  "monumenta:speedster/r1/elemental_shuffle/2": {
+    "title": "Speedster: Elemental Shuffle",
+    "description": "Reached Silver time on Numah's Race",
+    "parent": "monumenta:speedster/r1/elemental_shuffle/3"
+  },
+  "monumenta:speedster/r1/elemental_shuffle/3": {
+    "title": "Speedster: Elemental Shuffle",
+    "description": "Reached Bronze time on Numah's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/high_to_low/0": {
+    "title": "Speedster: High to Low",
+    "description": "Reached Master time on Linebeck's Race",
+    "parent": "monumenta:speedster/r1/high_to_low/1"
+  },
+  "monumenta:speedster/r1/high_to_low/1": {
+    "title": "Speedster: High to Low",
+    "description": "Reached Gold time on Linebeck's Race",
+    "parent": "monumenta:speedster/r1/high_to_low/2"
+  },
+  "monumenta:speedster/r1/high_to_low/2": {
+    "title": "Speedster: High to Low",
+    "description": "Reached Silver time on Linebeck's Race",
+    "parent": "monumenta:speedster/r1/high_to_low/3"
+  },
+  "monumenta:speedster/r1/high_to_low/3": {
+    "title": "Speedster: High to Low",
+    "description": "Reached Bronze time on Linebeck's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/mariyas_game/0": {
+    "title": "Speedster: Mariya's Game",
+    "description": "Reached Master time on the Mariya's Game race",
+    "parent": "monumenta:speedster/r1/mariyas_game/1"
+  },
+  "monumenta:speedster/r1/mariyas_game/1": {
+    "title": "Speedster: Mariya's Game",
+    "description": "Reached Gold time on the Mariya's Game race",
+    "parent": "monumenta:speedster/r1/mariyas_game/2"
+  },
+  "monumenta:speedster/r1/mariyas_game/2": {
+    "title": "Speedster: Mariya's Game",
+    "description": "Reached Silver time on the Mariya's Game race",
+    "parent": "monumenta:speedster/r1/mariyas_game/3"
+  },
+  "monumenta:speedster/r1/mariyas_game/3": {
+    "title": "Speedster: Mariya's Game",
+    "description": "Reached Bronze time on the Mariya's Game race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/royal_gambit/0": {
+    "title": "Speedster: Royal Gambit",
+    "description": "Reached Master time on the Royal Gambit race",
+    "parent": "monumenta:speedster/r1/royal_gambit/1"
+  },
+  "monumenta:speedster/r1/royal_gambit/1": {
+    "title": "Speedster: Royal Gambit",
+    "description": "Reached Gold time on the Royal Gambit race",
+    "parent": "monumenta:speedster/r1/royal_gambit/2"
+  },
+  "monumenta:speedster/r1/royal_gambit/2": {
+    "title": "Speedster: Royal Gambit",
+    "description": "Reached Silver time on the Royal Gambit race",
+    "parent": "monumenta:speedster/r1/royal_gambit/3"
+  },
+  "monumenta:speedster/r1/royal_gambit/3": {
+    "title": "Speedster: Royal Gambit",
+    "description": "Reached Bronze time on the Royal Gambit race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/tree_hopping_madness/0": {
+    "title": "Speedster: Tree Hopping Madness",
+    "description": "Reached Master time on Dalisay's Race",
+    "parent": "monumenta:speedster/r1/tree_hopping_madness/1"
+  },
+  "monumenta:speedster/r1/tree_hopping_madness/1": {
+    "title": "Speedster: Tree Hopping Madness",
+    "description": "Reached Gold time on Dalisay's Race",
+    "parent": "monumenta:speedster/r1/tree_hopping_madness/2"
+  },
+  "monumenta:speedster/r1/tree_hopping_madness/2": {
+    "title": "Speedster: Tree Hopping Madness",
+    "description": "Reached Silver time on Dalisay's Race",
+    "parent": "monumenta:speedster/r1/tree_hopping_madness/3"
+  },
+  "monumenta:speedster/r1/tree_hopping_madness/3": {
+    "title": "Speedster: Tree Hopping Madness",
+    "description": "Reached Bronze time on Dalisay's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/tutorial": {
+    "title": "Speedster of Sierhaven",
+    "description": "Complete the Sierhaven Race under the time limit.",
+    "parent": "monumenta:speedster/root"
+  },
+  "monumenta:speedster/r1/tutorial_plus/0": {
+    "title": "Speedster: Tutorial+",
+    "description": "Reached Master time on Flashy's Race",
+    "parent": "monumenta:speedster/r1/tutorial_plus/1"
+  },
+  "monumenta:speedster/r1/tutorial_plus/1": {
+    "title": "Speedster: Tutorial+",
+    "description": "Reached Gold time on Flashy's Race",
+    "parent": "monumenta:speedster/r1/tutorial_plus/2"
+  },
+  "monumenta:speedster/r1/tutorial_plus/2": {
+    "title": "Speedster: Tutorial+",
+    "description": "Reached Silver time on Flashy's Race",
+    "parent": "monumenta:speedster/r1/tutorial_plus/3"
+  },
+  "monumenta:speedster/r1/tutorial_plus/3": {
+    "title": "Speedster: Tutorial+",
+    "description": "Reached Bronze time on Flashy's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/velaraocity/0": {
+    "title": "Speedster: Velara-ocity",
+    "description": "Reached Master time on Krikk's Race",
+    "parent": "monumenta:speedster/r1/velaraocity/1"
+  },
+  "monumenta:speedster/r1/velaraocity/1": {
+    "title": "Speedster: Velara-ocity",
+    "description": "Reached Gold time on Krikk's Race",
+    "parent": "monumenta:speedster/r1/velaraocity/2"
+  },
+  "monumenta:speedster/r1/velaraocity/2": {
+    "title": "Speedster: Velara-ocity",
+    "description": "Reached Silver time on Krikk's Race",
+    "parent": "monumenta:speedster/r1/velaraocity/3"
+  },
+  "monumenta:speedster/r1/velaraocity/3": {
+    "title": "Speedster: Velara-ocity",
+    "description": "Reached Bronze time on Krikk's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r2/all": {
+    "title": "Speedster of Celsian Isles",
+    "description": "Complete all races in Celsian Isles at Master rank.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/r2/allfornera/0": {
+    "title": "Speedster: All for Nera",
+    "description": "Reached Master time on All for Nera Race",
+    "parent": "monumenta:speedster/r2/allfornera/1"
+  },
+  "monumenta:speedster/r2/allfornera/1": {
+    "title": "Speedster: All for Nera",
+    "description": "Reached Gold time on All for Nera Race",
+    "parent": "monumenta:speedster/r2/allfornera/2"
+  },
+  "monumenta:speedster/r2/allfornera/2": {
+    "title": "Speedster: All for Nera",
+    "description": "Reached Silver time on All for Nera Race",
+    "parent": "monumenta:speedster/r2/allfornera/3"
+  },
+  "monumenta:speedster/r2/allfornera/3": {
+    "title": "Speedster: All for Nera",
+    "description": "Reached Bronze time on All for Nera Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/deliverydash/0": {
+    "title": "Speedster: Delivery Dash",
+    "description": "Reached Master time on Delivery Dash Race",
+    "parent": "monumenta:speedster/r2/deliverydash/1"
+  },
+  "monumenta:speedster/r2/deliverydash/1": {
+    "title": "Speedster: Delivery Dash",
+    "description": "Reached Gold time on Delivery Dash Race",
+    "parent": "monumenta:speedster/r2/deliverydash/2"
+  },
+  "monumenta:speedster/r2/deliverydash/2": {
+    "title": "Speedster: Delivery Dash",
+    "description": "Reached Silver time on Delivery Dash Race",
+    "parent": "monumenta:speedster/r2/deliverydash/3"
+  },
+  "monumenta:speedster/r2/deliverydash/3": {
+    "title": "Speedster: Delivery Dash",
+    "description": "Reached Bronze time on Delivery Dash Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/fastwhispers/0": {
+    "title": "Speedster: Fast Whispers",
+    "description": "Reached Master time on Fast Whispers Race",
+    "parent": "monumenta:speedster/r2/fastwhispers/1"
+  },
+  "monumenta:speedster/r2/fastwhispers/1": {
+    "title": "Speedster: Fast Whispers",
+    "description": "Reached Gold time on Fast Whispers Race",
+    "parent": "monumenta:speedster/r2/fastwhispers/2"
+  },
+  "monumenta:speedster/r2/fastwhispers/2": {
+    "title": "Speedster: Fast Whispers",
+    "description": "Reached Silver time on Fast Whispers Race",
+    "parent": "monumenta:speedster/r2/fastwhispers/3"
+  },
+  "monumenta:speedster/r2/fastwhispers/3": {
+    "title": "Speedster: Fast Whispers",
+    "description": "Reached Bronze time on Fast Whispers Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/frostdrift/0": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Master time on Frost Drift Race",
+    "parent": "monumenta:speedster/r2/frostdrift/1"
+  },
+  "monumenta:speedster/r2/frostdrift/1": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Gold time on Frost Drift Race",
+    "parent": "monumenta:speedster/r2/frostdrift/2"
+  },
+  "monumenta:speedster/r2/frostdrift/2": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Silver time on Frost Drift Race",
+    "parent": "monumenta:speedster/r2/frostdrift/3"
+  },
+  "monumenta:speedster/r2/frostdrift/3": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Bronze time on Frost Drift Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/mistywaters/0": {
+    "title": "Speedster: Misty Waters",
+    "description": "Reached Master time on Misty Waters",
+    "parent": "monumenta:speedster/r2/mistywaters/1"
+  },
+  "monumenta:speedster/r2/mistywaters/1": {
+    "title": "Speedster: Misty Waters",
+    "description": "Reached Gold time on Misty Waters",
+    "parent": "monumenta:speedster/r2/mistywaters/2"
+  },
+  "monumenta:speedster/r2/mistywaters/2": {
+    "title": "Speedster: Misty Waters",
+    "description": "Reached Silver time on Misty Waters",
+    "parent": "monumenta:speedster/r2/mistywaters/3"
+  },
+  "monumenta:speedster/r2/mistywaters/3": {
+    "title": "Speedster: Misty Waters",
+    "description": "Reached Bronze time on Misty Waters",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/runnersofmist/0": {
+    "title": "Speedster: Runners of Mist",
+    "description": "Reached Master time on Runners of Mist Race",
+    "parent": "monumenta:speedster/r2/runnersofmist/1"
+  },
+  "monumenta:speedster/r2/runnersofmist/1": {
+    "title": "Speedster: Runners of Mist",
+    "description": "Reached Gold time on Runners of Mist Race",
+    "parent": "monumenta:speedster/r2/runnersofmist/2"
+  },
+  "monumenta:speedster/r2/runnersofmist/2": {
+    "title": "Speedster: Runners of Mist",
+    "description": "Reached Silver time on Runners of Mist Race",
+    "parent": "monumenta:speedster/r2/runnersofmist/3"
+  },
+  "monumenta:speedster/r2/runnersofmist/3": {
+    "title": "Speedster: Runners of Mist",
+    "description": "Reached Bronze time on Runners of Mist Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/sixshotsprint/0": {
+    "title": "Speedster: Six Shot Sprint",
+    "description": "Reached Master time on Six Shot Sprint Race",
+    "parent": "monumenta:speedster/r2/sixshotsprint/1"
+  },
+  "monumenta:speedster/r2/sixshotsprint/1": {
+    "title": "Speedster: Six Shot Sprint",
+    "description": "Reached Gold time on Six Shot Sprint Race",
+    "parent": "monumenta:speedster/r2/sixshotsprint/2"
+  },
+  "monumenta:speedster/r2/sixshotsprint/2": {
+    "title": "Speedster: Six Shot Sprint",
+    "description": "Reached Silver time on Six Shot Sprint Race",
+    "parent": "monumenta:speedster/r2/sixshotsprint/3"
+  },
+  "monumenta:speedster/r2/sixshotsprint/3": {
+    "title": "Speedster: Six Shot Sprint",
+    "description": "Reached Bronze time on Six Shot Sprint Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/speedfitness/0": {
+    "title": "Speedster: Speed Fitness",
+    "description": "Reached Master time on Speed Fitness Race",
+    "parent": "monumenta:speedster/r2/speedfitness/1"
+  },
+  "monumenta:speedster/r2/speedfitness/1": {
+    "title": "Speedster: Speed Fitness",
+    "description": "Reached Gold time on Speed Fitness Race",
+    "parent": "monumenta:speedster/r2/speedfitness/2"
+  },
+  "monumenta:speedster/r2/speedfitness/2": {
+    "title": "Speedster: Speed Fitness",
+    "description": "Reached Silver time on Speed Fitness Race",
+    "parent": "monumenta:speedster/r2/speedfitness/3"
+  },
+  "monumenta:speedster/r2/speedfitness/3": {
+    "title": "Speedster: Speed Fitness",
+    "description": "Reached Bronze time on Speed Fitness Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/trackmaster/0": {
+    "title": "Speedster: Trackmaster",
+    "description": "Reached Master time on Trackmaster Race",
+    "parent": "monumenta:speedster/r2/trackmaster/1"
+  },
+  "monumenta:speedster/r2/trackmaster/1": {
+    "title": "Speedster: Trackmaster",
+    "description": "Reached Gold time on Trackmaster Race",
+    "parent": "monumenta:speedster/r2/trackmaster/2"
+  },
+  "monumenta:speedster/r2/trackmaster/2": {
+    "title": "Speedster: Trackmaster",
+    "description": "Reached Silver time on Trackmaster Race",
+    "parent": "monumenta:speedster/r2/trackmaster/3"
+  },
+  "monumenta:speedster/r2/trackmaster/3": {
+    "title": "Speedster: Trackmaster",
+    "description": "Reached Bronze time on Trackmaster Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r3/all": {
+    "title": "Speedster of Architect's Ring",
+    "description": "Complete all races in Architect's Ring at Master rank.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/r3/boatmanteau/0": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Master time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/1"
+  },
+  "monumenta:speedster/r3/boatmanteau/1": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Gold time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/2"
+  },
+  "monumenta:speedster/r3/boatmanteau/2": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Silver time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/3"
+  },
+  "monumenta:speedster/r3/boatmanteau/3": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Bronze time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/citytour/0": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Master time on City Tour Race",
+    "parent": "monumenta:speedster/r3/citytour/1"
+  },
+  "monumenta:speedster/r3/citytour/1": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Gold time on City Tour Race",
+    "parent": "monumenta:speedster/r3/citytour/2"
+  },
+  "monumenta:speedster/r3/citytour/2": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Silver time on City Race",
+    "parent": "monumenta:speedster/r3/citytour/3"
+  },
+  "monumenta:speedster/r3/citytour/3": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Bronze time on City Tour Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/0": {
+    "title": "Speedster: Coastal Curcuit",
+    "description": "Reached Master time on Coastal Curcuit Race",
+    "parent": "monumenta:speedster/r3/coastalcurcuit/1"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/1": {
+    "title": "Speedster: Coastal Curcuit",
+    "description": "Reached Gold time on Coastal Curcuit Race",
+    "parent": "monumenta:speedster/r3/coastalcurcuit/2"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/2": {
+    "title": "Speedster: Coastal Curcuit",
+    "description": "Reached Silver time on Coastal Curcuit Race",
+    "parent": "monumenta:speedster/r3/coastalcurcuit/3"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/3": {
+    "title": "Speedster: Coastal Curcuit",
+    "description": "Reached Bronze time on Coastal Curcuit Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/covenfrostress/0": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Master time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/1"
+  },
+  "monumenta:speedster/r3/covenfrostress/1": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Gold time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/2"
+  },
+  "monumenta:speedster/r3/covenfrostress/2": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Silver time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/3"
+  },
+  "monumenta:speedster/r3/covenfrostress/3": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Bronze time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/frostbitecascade/0": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Master time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/1"
+  },
+  "monumenta:speedster/r3/frostbitecascade/1": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Gold time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/2"
+  },
+  "monumenta:speedster/r3/frostbitecascade/2": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Silver time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/3"
+  },
+  "monumenta:speedster/r3/frostbitecascade/3": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Bronze time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/rapidascent/0": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Master time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/rapidascent/1"
+  },
+  "monumenta:speedster/r3/rapidascent/1": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Gold time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/rapidascent/2"
+  },
+  "monumenta:speedster/r3/rapidascent/2": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Silver time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/rapidascent/3"
+  },
+  "monumenta:speedster/r3/rapidascent/3": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Bronze time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/0": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Master time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/1"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/1": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Gold time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/2"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/2": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Silver time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/3"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/3": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Bronze time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/skyhighbora/0": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Master time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/1"
+  },
+  "monumenta:speedster/r3/skyhighbora/1": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Gold time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/2"
+  },
+  "monumenta:speedster/r3/skyhighbora/2": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Silver time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/3"
+  },
+  "monumenta:speedster/r3/skyhighbora/3": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Bronze time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/starpointbellrace/0": {
+    "title": "Speedster: They Toll for Thee",
+    "description": "Reached Master time on They Toll for Thee Race",
+    "parent": "monumenta:speedster/r3/starpointbellrace/1"
+  },
+  "monumenta:speedster/r3/starpointbellrace/1": {
+    "title": "Speedster: They Toll for Thee",
+    "description": "Reached Gold time on They Toll for Thee Race",
+    "parent": "monumenta:speedster/r3/starpointbellrace/2"
+  },
+  "monumenta:speedster/r3/starpointbellrace/2": {
+    "title": "Speedster: They Toll for Thee",
+    "description": "Reached Silver time on They Toll for Thee Race",
+    "parent": "monumenta:speedster/r3/starpointbellrace/3"
+  },
+  "monumenta:speedster/r3/starpointbellrace/3": {
+    "title": "Speedster: They Toll for Thee",
+    "description": "Reached Bronze time on They Toll for Thee Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/root": {
+    "title": "Speedster of Monumenta",
+    "description": null
+  },
+  "monumenta:speedster/wooldungeons/all": {
+    "title": "Primordial Speedster",
+    "description": "Complete all races of Wool Dungeons.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/wooldungeons/blood_rush": {
+    "title": "Speedster: Blood Rush",
+    "description": "Successfully finished Blood Rush Race",
+    "parent": "monumenta:speedster/wooldungeons/all"
+  },
+  "monumenta:speedster/wooldungeons/light_footed": {
+    "title": "Speedster: Light Footed",
+    "description": "Successfully finished Light Footed Race",
+    "parent": "monumenta:speedster/wooldungeons/sand_struggles"
+  },
+  "monumenta:speedster/wooldungeons/miasma_theory": {
+    "title": "Speedster: Miasma Theory",
+    "description": "Successfully finished Miasma Theory Race",
+    "parent": "monumenta:speedster/wooldungeons/zoo_tour"
+  },
+  "monumenta:speedster/wooldungeons/minds_eye": {
+    "title": "Speedster: Mind's Eye",
+    "description": "Successfully finished Mind's Eye Race",
+    "parent": "monumenta:speedster/wooldungeons/light_footed"
+  },
+  "monumenta:speedster/wooldungeons/pirate_pass": {
+    "title": "Speedster: Pirate Pass",
+    "description": "Successfully finished Pirate Pass Race",
+    "parent": "monumenta:speedster/wooldungeons/minds_eye"
+  },
+  "monumenta:speedster/wooldungeons/ruined_run": {
+    "title": "Speedster: Ruined Run",
+    "description": "Successfully finished Ruined Run Race",
+    "parent": "monumenta:speedster/wooldungeons/all"
+  },
+  "monumenta:speedster/wooldungeons/sand_struggles": {
+    "title": "Speedster: Sand Struggles",
+    "description": "Successfully finished Sand Struggles Race",
+    "parent": "monumenta:speedster/wooldungeons/seasons_grace"
+  },
+  "monumenta:speedster/wooldungeons/seasons_grace": {
+    "title": "Speedster: Season's Grace",
+    "description": "Successfully finished Season's Grace Race",
+    "parent": "monumenta:speedster/wooldungeons/ruined_run"
+  },
+  "monumenta:speedster/wooldungeons/time_flies": {
+    "title": "Speedster: Time Flies",
+    "description": "Successfully finished Time Flies Race",
+    "parent": "monumenta:speedster/wooldungeons/pirate_pass"
+  },
+  "monumenta:speedster/wooldungeons/treks_machina": {
+    "title": "Speedster: Treks Machina",
+    "description": "Successfully finished Treks Machina Race",
+    "parent": "monumenta:speedster/wooldungeons/witchhiking"
+  },
+  "monumenta:speedster/wooldungeons/truly_occult": {
+    "title": "Speedster: Truly Occult",
+    "description": "Successfully finished Truly Occult Race",
+    "parent": "monumenta:speedster/wooldungeons/miasma_theory"
+  },
+  "monumenta:speedster/wooldungeons/wild_waltz": {
+    "title": "Speedster: Wild Waltz",
+    "description": "Successfully finished Wild Waltz Race",
+    "parent": "monumenta:speedster/wooldungeons/truly_occult"
+  },
+  "monumenta:speedster/wooldungeons/witchhiking": {
+    "title": "Speedster: Witchhiking",
+    "description": "Successfully finished Witchhiking Race",
+    "parent": "monumenta:speedster/wooldungeons/all"
+  },
+  "monumenta:speedster/wooldungeons/zoo_tour": {
+    "title": "Speedster: Zoo Tour",
+    "description": "Successfully finished Zoo Tour Race",
+    "parent": "monumenta:speedster/wooldungeons/blood_rush"
   }
 }
