@@ -12,6 +12,16 @@
     },
     "lore": "Broken, but could be rebuilt."
   },
+  "Glimmering Geode": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Glimmering Geode",
+    "base_item": "Quartz",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Cerberus Tooth": {
     "location": "Blue",
     "region": "Ring",
@@ -411,6 +421,16 @@
     "type": "Misc",
     "stats": {},
     "lore": "Crystals with minor control\nover the magics of the Shifting City."
+  },
+  "Legacy Crystalline Shard": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Legacy Crystalline Shard",
+    "base_item": "Quartz",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Paperification Doohickey": {
     "name": "Paperification Doohickey",
@@ -4339,6 +4359,16 @@
     "type": "Misc",
     "stats": {}
   },
+  "Chaotic Maul": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Chaotic Maul",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Creepah's Fury": {
     "location": "King's Valley",
     "region": "Valley",
@@ -5258,11 +5288,21 @@
       "curse_of_anemia": 2,
       "second_wind": 2,
       "unbreaking": 12,
-      "magic_damage_percent": 5,
       "thorns_flat": 2,
-      "agility": 8.5
+      "agility": 8.5,
+      "magic_damage_percent": 7
     },
     "lore": "An alternate reality skin where the\nFailure of the Void was transformed\ninto an aspect of Nihilo itself."
+  },
+  "Judgemental Tunic": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Judgemental Tunic",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Sparkcloth Chestplate": {
     "location": "King's Valley",
@@ -8215,6 +8255,77 @@
     "type": "Misc",
     "stats": {}
   },
+  "Backline Bolster": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Backline Bolster",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Petalbrew Potion": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Petalbrew Potion",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Potion of the Turtle Master": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Potion of the Turtle Master",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "How did you even get this?"
+  },
+  "Injected Extinguisher": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Injected Extinguisher",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Frontline Adrenaline": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Frontline Adrenaline",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Aurora Elixir": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Aurora Elixir",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Angel's Grace": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Angel's Grace",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Flamekissed Brew": {
     "location": "King's Valley",
     "region": "Valley",
@@ -9868,6 +9979,16 @@
     "base_item": "Potion",
     "release_status": "public",
     "type": "Consumable",
+    "stats": {}
+  },
+  "Phantom Brew": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Phantom Brew",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
     "stats": {}
   },
   "Minor Aqueous Potion": {
@@ -11715,6 +11836,16 @@
     },
     "lore": "Black death seeps from the seemingly\nair tight flask, it's almost... serene."
   },
+  "Curse of Immortality": {
+    "location": "Rush",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Curse of Immortality",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Dark Thunder": {
     "location": "Rush",
     "region": "Isles",
@@ -13019,6 +13150,26 @@
       "attack_damage_percent": 42
     },
     "lore": "There are few sights more beloved than the\nrising of the cooling moon during a voyage across\ndunes of Ishnir. Within the cities, it is the setting\nof the moon that brings joy and heralds Mauta's rise."
+  },
+  "Angeltouched Blade": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Angeltouched Blade",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Brutal Splinter": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Brutal Splinter",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Bloody Thorn": {
     "location": "King's Valley",
@@ -14371,6 +14522,16 @@
       "attack_damage_base": 15
     },
     "lore": "Tavern tales in Mistport speak of a storm that\nappears once a century. They say the sea will\nthirst for blood, and not even a ghost ship\ncould escape Her calls."
+  },
+  "Gold Experience": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Gold Experience",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Peppermint Punisher": {
     "location": "Holiday Skin",
@@ -16836,6 +16997,17 @@
     },
     "lore": "Fleshbreaker, but like breaking eyes\nwith beautiful RGB color spam instead!"
   },
+  "Querter's Hatchet": {
+    "location": "Isles Casino",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Querter's Hatchet",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Cuts through forest and foes alike."
+  },
   "Subzero Tomahawk": {
     "location": "Winter Event",
     "region": "Isles",
@@ -17604,11 +17776,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "slayer": 3,
-      "unbreakable": 1,
       "bleeding": 2,
       "decay": 3,
       "duelist": 3,
+      "slayer": 3,
+      "unbreakable": 1,
       "attack_damage_base": 16.5,
       "attack_speed_base": 0.9
     },
@@ -17801,6 +17973,36 @@
     "region": "Valley",
     "tier": "Legacy",
     "name": "Fisherman's Waders",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Firestorm Mage Robes (chest)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Firestorm Mage Robes",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Firestorm Mage Robes (feet)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Firestorm Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Judgemental Boots": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Judgemental Boots",
     "base_item": "Leather Boots",
     "release_status": "public",
     "type": "Misc",
@@ -20715,8 +20917,8 @@
       "riptide": 2,
       "technique": 2,
       "unbreaking": 6,
-      "attack_speed_base": 1.3,
-      "attack_damage_base": 16.5
+      "attack_damage_base": 16.5,
+      "attack_speed_base": 1.1
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -20734,8 +20936,8 @@
       "riptide": 2,
       "technique": 3,
       "unbreaking": 6,
-      "attack_speed_base": 1.3,
-      "attack_damage_base": 18.5
+      "attack_damage_base": 18.5,
+      "attack_speed_base": 1.1
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -20753,8 +20955,8 @@
       "riptide": 2,
       "technique": 2,
       "unbreaking": 6,
-      "attack_speed_base": 1.3,
-      "attack_damage_base": 17
+      "attack_damage_base": 17,
+      "attack_speed_base": 1.1
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -20772,8 +20974,8 @@
       "riptide": 2,
       "technique": 2,
       "unbreaking": 6,
-      "attack_speed_base": 1.3,
-      "attack_damage_base": 17.5
+      "attack_damage_base": 17.5,
+      "attack_speed_base": 1.1
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -21682,6 +21884,36 @@
       "attack_damage_percent": 32
     },
     "lore": "While Cascade brings to mind the flow\nof a river, what could it be if frozen?\nPerhaps we could call it \"Frostbite\"?"
+  },
+  "Adaptable Razor": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Adaptable Razor",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Versatile Blade": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Versatile Blade",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Pirate's Sabre": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Pirate's Sabre",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Repellant Broadsword": {
     "location": "King's Valley",
@@ -24708,8 +24940,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "arcane_thrust": 3,
-      "unbreakable": 1,
       "sweeping_edge": 3,
+      "unbreakable": 1,
       "attack_speed_base": 1.8,
       "speed_percent": 10,
       "attack_damage_base": 11
@@ -24731,6 +24963,26 @@
       "speed_percent": 25
     },
     "lore": "An alternate reality skin, where these\npants belonged to the Crimson King,\nwandering the sands of Ishnir."
+  },
+  "Judgemental Leggings": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Judgemental Leggings",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Firestorm Mage Robes (legs)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Firestorm Mage Robes",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Crimstonian Leggings": {
     "location": "Yellow",
@@ -27647,7 +27899,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "worldly_protection": 3
+      "worldly_protection": 2
     },
     "lore": "Rather than an eldritch disc infected\nby Faimynyw, Annilys has become the\nTeal Tesseract, powered by time itself.\nRight Click or f to enter Stasis.\nCooldown : 6m"
   },
@@ -27668,7 +27920,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "worldly_protection": 3
+      "worldly_protection": 2
     },
     "lore": "Her touch distorts the mightiest of\npower. Her retreat leaves that power to\nbe claimed by those who truly need it.\nRight Click or f to enter Stasis.\nCooldown : 6m"
   },
@@ -27720,6 +27972,16 @@
       "attack_speed_base": 1
     },
     "lore": "This axe once belonged to Commander Haynes, who\nlost her life in the Sanctum during the war.\nWith the Sons' presence encroaching, the Highwatch\nscouts have taken this tool to enact what she would have\nwanted - the Sons beheaded and the Fortress dismantled."
+  },
+  "Vento Aureo": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Vento Aureo",
+    "base_item": "Golden Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Magmatic Hatchet": {
     "location": "King's Valley",
@@ -28249,7 +28511,6 @@
     "lore": "A replica of the Queen."
   },
   "Pillar Gamma Dummy": {
-    "location": "Delves",
     "name": "Pillar Gamma Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28258,7 +28519,6 @@
     "lore": "A replica of star pillar Gamma."
   },
   "Pillar Lambda Dummy": {
-    "location": "Delves",
     "name": "Pillar Lambda Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28267,7 +28527,6 @@
     "lore": "A replica of star pillar Lambda."
   },
   "Pillar Epsilon Dummy": {
-    "location": "Delves",
     "name": "Pillar Epsilon Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28276,7 +28535,6 @@
     "lore": "A replica of star pillar Epsilon."
   },
   "Pillar Beta Dummy": {
-    "location": "Delves",
     "name": "Pillar Beta Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28285,7 +28543,6 @@
     "lore": "A replica of star pillar Beta."
   },
   "Pillar Eta Dummy": {
-    "location": "Delves",
     "name": "Pillar Eta Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28294,7 +28551,6 @@
     "lore": "A replica of star pillar Eta."
   },
   "Pillar Alpha Dummy": {
-    "location": "Delves",
     "name": "Pillar Alpha Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28303,7 +28559,6 @@
     "lore": "A replica of star pillar Alpha."
   },
   "Pillar Xi Dummy": {
-    "location": "Delves",
     "name": "Pillar Xi Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28312,7 +28567,6 @@
     "lore": "A replica of star pillar Xi."
   },
   "Pillar Nu Dummy": {
-    "location": "Delves",
     "name": "Pillar Nu Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28321,7 +28575,6 @@
     "lore": "A replica of star pillar Nu."
   },
   "Pillar Delta Dummy": {
-    "location": "Delves",
     "name": "Pillar Delta Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -28339,7 +28592,6 @@
     "lore": "Obtained in the Medieval Pass."
   },
   "Crystal Behemoth Dummy": {
-    "location": "Seasonal Pass",
     "name": "Crystal Behemoth Dummy",
     "base_item": "Ravager Spawn Egg",
     "release_status": "public",
@@ -28570,6 +28822,26 @@
     "region": "Valley",
     "tier": "Legacy",
     "name": "Fisherman's Cap",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Firestorm Mage Hat": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Firestorm Mage Hat",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Judgemental Helm": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Judgemental Helm",
     "base_item": "Leather Helmet",
     "release_status": "public",
     "type": "Misc",
@@ -30968,6 +31240,17 @@
     "stats": {},
     "lore": "Given to those who endlessly slaughtered the\nHeadless Horseman on that fateful day,\nafter they paid their taxes of course."
   },
+  "Will": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Will",
+    "base_item": "Glass Bottle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Proof that you overcame the Trickster's\ngame. You can trade it with him for other prizes."
+  },
   "Memory Bomb": {
     "name": "Memory Bomb",
     "base_item": "Glass Bottle",
@@ -31136,6 +31419,17 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Frost Giant's Party Hat": {
+    "location": "Isles Casino",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Frost Giant's Party Hat",
+    "base_item": "Iron Helmet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Give this to a moderator in exchange\nfor 80 casino chips!"
   },
   "Midat Helm": {
     "location": "Architect's Ring",
@@ -31705,6 +31999,28 @@
     },
     "lore": "Patience - to hide and to wait.\nThat is the nature of the hunt."
   },
+  "Worldshaper's Staff (axe)": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Worldshaper's Staff",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "With creation comes necessary\ndestruction."
+  },
+  "Worldshaper's Staff (pickaxe)": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Worldshaper's Staff",
+    "base_item": "Iron Pickaxe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "With creation comes necessary\ndestruction."
+  },
   "Silverheart": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -31771,6 +32087,24 @@
       "attack_speed_base": 1.2
     }
   },
+  "King's Dolabra (axe)": {
+    "location": "Royal Armory",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "King's Dolabra",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The longboats arrived upon fresh\nshores. Soon, Johannes' people would\nbuild a new home. A safe haven for\nthe Narsen people."
+  },
   "King's Dolabra (pickaxe)": {
     "location": "Royal Armory",
     "region": "Valley",
@@ -31789,6 +32123,24 @@
     },
     "lore": "The longboats arrived upon fresh\nshores. Soon, Johannes' people would\nbuild a new home. A safe haven for\nthe Narsen people."
   },
+  "Queen's Dolabra (axe)": {
+    "location": "Royal Armory",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Queen's Dolabra",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "Isadora had done all she had wanted to do.\nEleven years of peace. A strong family.\nAn Empire worthy of Abeliar. It was time now\nto give control to her eldest son. He would\ncarry on her legacy. Of this she was sure."
+  },
   "Queen's Dolabra (pickaxe)": {
     "location": "Royal Armory",
     "region": "Valley",
@@ -31806,6 +32158,24 @@
       "attack_speed_base": 1.2
     },
     "lore": "Isadora had done all she had wanted to do.\nEleven years of peace. A strong family.\nAn Empire worthy of Abeliar. It was time now\nto give control to her eldest son. He would\ncarry on her legacy. Of this she was sure."
+  },
+  "Forest's Gambit (axe)": {
+    "location": "Threadwarped Skin",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Forest's Gambit",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The Sons of the Forest's dig to Kaul was\nnever meant to succeed. Cazol had other plans.\nHe needed the Genius Loci furious. It was\ntime to wake the nightmare."
   },
   "Forest's Gambit (pickaxe)": {
     "location": "Threadwarped Skin",
@@ -32268,6 +32638,26 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Duality's Razor": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Duality's Razor",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Unbalanced Sabre": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Unbalanced Sabre",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Tube of Toothpaste": {
     "location": "Halloween Event",
@@ -34346,6 +34736,17 @@
     },
     "lore": "Good may not always triumph, but I'll take\nthe company of knights and heroes to that\nof knaves and scoundrels any day."
   },
+  "Worldshaper's Staff (shovel)": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Worldshaper's Staff",
+    "base_item": "Iron Shovel",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "With creation comes necessary\ndestruction."
+  },
   "Tuathan Earthpiercer": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -34360,6 +34761,60 @@
       "attack_damage_base": 4.5,
       "attack_speed_base": 1
     }
+  },
+  "Queen's Dolabra (shovel)": {
+    "location": "Royal Armory",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Queen's Dolabra",
+    "base_item": "Iron Shovel",
+    "release_status": "public",
+    "type": "Shovel",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "Isadora had done all she had wanted to do.\nEleven years of peace. A strong family.\nAn Empire worthy of Abeliar. It was time now\nto give control to her eldest son. He would\ncarry on her legacy. Of this she was sure."
+  },
+  "King's Dolabra (shovel)": {
+    "location": "Royal Armory",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "King's Dolabra",
+    "base_item": "Iron Shovel",
+    "release_status": "public",
+    "type": "Shovel",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The longboats arrived upon fresh\nshores. Soon, Johannes' people would\nbuild a new home. A safe haven for\nthe Narsen people."
+  },
+  "Forest's Gambit (shovel)": {
+    "location": "Threadwarped Skin",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Forest's Gambit",
+    "base_item": "Iron Shovel",
+    "release_status": "public",
+    "type": "Shovel",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The Sons of the Forest's dig to Kaul was\nnever meant to succeed. Cazol had other plans.\nHe needed the Genius Loci furious. It was\ntime to wake the nightmare."
   },
   "Magic Mirror": {
     "name": "Magic Mirror",
@@ -34463,6 +34918,27 @@
       "attack_damage_base": 4.5,
       "attack_speed_base": 1
     }
+  },
+  "Págos": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Pgos",
+    "base_item": "Iron Shovel",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Ice Barrier": {
+    "location": "Isles Casino",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Ice Barrier",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Cold to the touch, but shines\nwarmly in the light"
   },
   "Eye of the Spider": {
     "location": "King's Valley",
@@ -35771,11 +36247,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "life_drain": 1,
-      "unbreaking": 3,
-      "inure": 1,
-      "mending": 1,
       "adaptability": 1,
+      "inure": 1,
+      "life_drain": 1,
+      "mending": 1,
+      "unbreaking": 3,
       "max_health_flat": 2,
       "thorns_flat": 2
     },
@@ -36751,6 +37227,16 @@
     "type": "Misc",
     "stats": {}
   },
+  "Whirlpool's Grasp": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Whirlpool's Grasp",
+    "base_item": "Cyan Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Ice Charm": {
     "location": "Arena of Terth",
     "region": "Valley",
@@ -36798,6 +37284,36 @@
     "type": "Misc",
     "stats": {},
     "lore": "The ritual was complete. The blood\nprice was paid. Astaroth had become\na part of the wool. Nay, Astaroth\nand the wool were the same now. There\nwas no separation. They were one."
+  },
+  "Weak Soulgazer Potion": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Weak Soulgazer Potion",
+    "base_item": "Lingering Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Enhanced Soulgazer Potion": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Enhanced Soulgazer Potion",
+    "base_item": "Lingering Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Soulgazer Potion": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Soulgazer Potion",
+    "base_item": "Lingering Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Healing Bomb": {
     "location": "Arena of Terth",
@@ -36893,6 +37409,16 @@
     "region": "Valley",
     "tier": "Legacy",
     "name": "Manna Dew",
+    "base_item": "Lingering Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Ascension Platform": {
+    "location": "Rush",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Ascension Platform",
     "base_item": "Lingering Potion",
     "release_status": "public",
     "type": "Misc",
@@ -39261,6 +39787,16 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Coldfire Sickle": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Coldfire Sickle",
+    "base_item": "Iron Hoe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Arcane Confection": {
     "location": "Holiday Skin",
     "region": "Isles",
@@ -39781,13 +40317,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "chaotic": 6,
+      "duelist": 2,
+      "fire_aspect": 2,
       "knockback": 1,
       "unbreaking": 2,
-      "fire_aspect": 2,
-      "chaotic": 4,
-      "duelist": 2,
       "attack_speed_base": 1.2,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 16.5
     },
     "lore": "The scythe, relinquished through\nmany tavern gambles, seems to bring\nfortune to its owner... until their\nluck runs out."
   },
@@ -39822,7 +40358,7 @@
       "thunder_aspect": 2,
       "unbreaking": 3,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 9.5
+      "attack_damage_base": 10
     },
     "lore": "Crack the sky with a scattered beam."
   },
@@ -39852,12 +40388,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 3,
       "ice_aspect": 2,
-      "two_handed": 1,
       "poise": 2,
+      "two_handed": 1,
+      "unbreaking": 3,
       "attack_speed_base": 1,
-      "attack_damage_base": 20
+      "attack_damage_base": 22
     },
     "lore": "Nothing known can cut the True Ice, yet\nthis tooth slices through like a hot knife!\nSurely this is of use to our archeologists!"
   },
@@ -40016,11 +40552,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreakable": 1,
       "ice_aspect": 3,
       "shielding": 1,
-      "attack_damage_base": 21,
-      "attack_speed_base": 0.7
+      "unbreakable": 1,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 20
     },
     "lore": "When work was done a rest deserved,\nso slumber did these gods. But soon\nthe waking ones did rise and for\ntheir power clawed."
   },
@@ -42257,6 +42793,16 @@
       "agility": 5
     }
   },
+  "Ebon Recurve": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Ebon Recurve",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Wrath of the Skeleton King": {
     "location": "King's Valley",
     "region": "Valley",
@@ -43248,11 +43794,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreakable": 1,
-      "thunder_aspect": 5,
       "fire_aspect": 2,
-      "infinity": 1,
       "ice_aspect": 2,
+      "infinity": 1,
+      "thunder_aspect": 5,
+      "unbreakable": 1,
       "projectile_speed_base": 1,
       "projectile_damage_base": 15
     },
@@ -44139,6 +44685,26 @@
     },
     "lore": "\"Cast your worries to the waves,\nfor they will guide you.\""
   },
+  "Driftwood Scepter": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Driftwood Scepter",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Scythe of Shielding": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Scythe of Shielding",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Reaper's Scythe": {
     "location": "King's Valley",
     "region": "Valley",
@@ -44634,11 +45200,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "sustenance": 2,
       "steadfast": 1,
+      "sustenance": 2,
       "unbreaking": 10,
-      "attack_speed_base": 2,
-      "attack_damage_base": 9
+      "attack_damage_base": 10,
+      "attack_speed_base": 1.7
     },
     "lore": "The heart is still and the blood\nruns cold. Its hatred however...\nThat will never die."
   },
@@ -46963,8 +47529,8 @@
     "type": "Boots",
     "stats": {
       "feather_falling": 2,
-      "unbreakable": 1,
       "regeneration": 4,
+      "unbreakable": 1,
       "agility": 2.5
     },
     "lore": "A single scale from the great Serpent\nGod's flesh could ruin nations, if\nonly he could be found."
@@ -47371,17 +47937,27 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreakable": 1,
-      "magic_protection": 3,
+      "blast_protection": 3,
       "curse_of_anemia": 2,
       "fire_protection": 3,
-      "blast_protection": 3,
+      "magic_protection": 3,
       "projectile_protection": 3,
+      "unbreakable": 1,
       "max_health_flat": -4,
       "speed_percent": 10,
       "armor": 11
     },
     "lore": "The storm of war became a gyre.\nThe doors of the Arboretum shut.\nBy The Father's grace, they would survive."
+  },
+  "Wand of Chaos": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Wand of Chaos",
+    "base_item": "Bone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "C'Zanil's Charm-4": {
     "location": "White",
@@ -49695,6 +50271,16 @@
     },
     "lore": "Viridia, Gem of the Sea.\nIt shall stand as a beacon\nof progress, eternal."
   },
+  "Warded Rod": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Warded Rod",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "North Pole": {
     "location": "Holiday Skin",
     "region": "Valley",
@@ -50819,6 +51405,16 @@
       "projectile_damage_percent": 18
     }
   },
+  "Unfinished Arrow": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Unfinished Arrow",
+    "base_item": "Arrow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "The Flying Cluck": {
     "name": "The Flying Cluck",
     "base_item": "Arrow",
@@ -50858,6 +51454,56 @@
       "material": 1
     },
     "lore": "A special ammo, supposedly for Harold?"
+  },
+  "Amethyst Arrow": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Amethyst Arrow",
+    "base_item": "Tipped Arrow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Diamond Arrow": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Diamond Arrow",
+    "base_item": "Tipped Arrow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Rose Quartz Arrow": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Rose Quartz Arrow",
+    "base_item": "Tipped Arrow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Shulker Dart": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Shulker Dart",
+    "base_item": "Tipped Arrow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Ruby Arrow": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Ruby Arrow",
+    "base_item": "Tipped Arrow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Arrow of Rooting": {
     "location": "King's Valley",
@@ -51867,6 +52513,17 @@
     "stats": {},
     "lore": "Epic Crafting Material"
   },
+  "P.I.D.S.": {
+    "location": "Trickster",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "P.I.D.S.",
+    "base_item": "Orange Shulker Box",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "You're wondering what it\nstands for, aren't you?"
+  },
   "Omnilockbox": {
     "location": "PORTAL",
     "region": "Ring",
@@ -51884,6 +52541,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Right-click this in your ender\nchest to manage its contents."
+  },
+  "Mouth of the Mimic": {
+    "location": "Mythic Reliquary",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Mouth of the Mimic",
+    "base_item": "Orange Shulker Box",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Somehow kept complacent, this living box\neats what it can, then offers you the\nrest. Hopefully it never comes for you...\nWhile in inventory, will store your portion\nof any nearby opened loot chest.\n0/100 shares"
   },
   "Rubiks' Prism": {
     "location": "Storied Skin",
@@ -51983,6 +52651,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Holds equipment and charms for\nuse by the Mechanical Armory."
+  },
+  "Box of Endless Echoes": {
+    "location": "Willows",
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Box of Endless Echoes",
+    "base_item": "Brown Shulker Box",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The inside of the box has fragmented,\ncreating a near-endless space within a\nseemingly normal container.\nWhile in inventory, will store your portion\nof any nearby opened loot chest.\n0/100 shares"
   },
   "Bottomless Present": {
     "location": "Holiday Skin",
@@ -52278,6 +52957,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Sailing the seven seas can often\nget boring. Music certainly helps, but\nnothing beats taking a wrong turn\noutside our plane of existence."
+  },
+  "8 Petalbrew Potions": {
+    "location": "Trickster",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "8 Petalbrew Potions",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Shaking the bottle causes\na swirl of petals to form."
   },
   "Writ of Promise": {
     "name": "Writ of Promise",
@@ -53689,6 +54379,16 @@
       "attack_speed_base": 1.2
     }
   },
+  "Fotiá": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Foti",
+    "base_item": "Golden Pickaxe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Soul Devouring Booper": {
     "location": "Arena of Terth",
     "region": "Valley",
@@ -54300,6 +55000,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Used for bringing Halloween\nspirit to select items."
+  },
+  "Lesser Magma Crystal": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Lesser Magma Crystal",
+    "base_item": "Orange Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Legacy currency for the Transmogrifier."
   },
   "Burning Dye": {
     "name": "Burning Dye",
@@ -57105,6 +57816,16 @@
     "type": "Written Book",
     "stats": {},
     "lore": "* Quest Item *\n#Q106I03\nWhat is this doing in the record's chamber?\nYou need to approach Obadiah about this."
+  },
+  "Overgrown Note": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Overgrown Note",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
   },
   "Of Shamans and Spells": {
     "name": "Of Shamans and Spells",
@@ -60471,6 +61192,16 @@
       "projectile_speed_base": 1
     },
     "lore": "Engraved on the burning shaft, a message.\n\"Into the mist, and beyond\"."
+  },
+  "The Final Hour": {
+    "location": "Mist",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "The Final Hour",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Springloaded Gadget": {
     "location": "Isles Casino",
@@ -67824,6 +68555,17 @@
     "stats": {},
     "lore": "Incredibly flammable, and highly reactive.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D6 Key 1-3 *"
   },
+  "Magma Crystal": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Magma Crystal",
+    "base_item": "Redstone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Legacy currency for the Transmogrifier."
+  },
   "Empowered Dust": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -70694,11 +71436,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "ice_aspect": 1,
-      "thunder_aspect": 1,
-      "fire_aspect": 3,
-      "inferno": 2,
       "adrenaline": 3,
+      "fire_aspect": 3,
+      "ice_aspect": 1,
+      "inferno": 2,
+      "thunder_aspect": 1,
       "attack_damage_base": 5,
       "spell_power_base": 65
     },
@@ -71236,6 +71978,17 @@
     },
     "lore": "The razor's edge of Ixume's own arrows.\nThey will tear through flesh."
   },
+  "Eternity Remnants": {
+    "location": "Hekawt",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Eternity Remnants",
+    "base_item": "Flint",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Random debris from time spent in the Veil.\nCould possibly be used for something."
+  },
   "Abyssal Amulet": {
     "location": "Depths",
     "region": "Isles",
@@ -71661,15 +72414,15 @@
     "lore": "Wrestled from the bridge\nof a derelict frigate."
   },
   "Corroded Truer North": {
-    "location": "King's Valley",
-    "region": "Valley",
+    "location": "True North",
+    "region": "Isles",
     "tier": "Legacy",
     "name": "Corroded Truer North",
     "base_item": "Compass",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Corroded after all its Experience\nTalk with Lady Edmond for a refund."
+    "lore": "Corroded due to its Experience.\nTalk with Lady Edmond for a refund."
   },
   "Pioneer's Pelorus IV": {
     "location": "True North",
@@ -72084,6 +72837,7 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "unbreakable": 1,
       "agility": 8,
       "speed_percent": 15,
       "attack_damage_percent": -30
@@ -72294,11 +73048,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "melee_protection": 1,
       "reflexes": 1,
       "unbreaking": 30,
-      "melee_protection": 1,
-      "attack_speed_base": 2,
-      "attack_damage_base": 9
+      "attack_damage_base": 11.5,
+      "attack_speed_base": 1.6
     },
     "lore": "The mist of rage clouds raider's eyes.\nSink deeper still and claim your prize."
   },
@@ -72430,11 +73184,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "life_drain": 1,
-      "unbreakable": 1,
-      "hex_eater": 1,
       "ashes_of_eternity": 1,
+      "hex_eater": 1,
+      "life_drain": 1,
       "regeneration": 1,
+      "unbreakable": 1,
       "attack_speed_base": 1.5,
       "magic_damage_percent": 5,
       "attack_damage_base": 10.5
@@ -74627,7 +75381,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Right Click in an inventory\nto open the Armory screen.\nPress f to quick-swap."
+    "lore": "Right Click in an inventory\nto open the Armory screen.\nPress f or a hotbar key to quick-swap."
   },
   "Everflow Pendant": {
     "location": "Pelias' Keep",
@@ -76776,6 +77530,17 @@
       "material": 1
     },
     "lore": "A fragment from the past.\nCould be used to power something."
+  },
+  "Icicle Shard": {
+    "location": "Eldrask",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Icicle Shard",
+    "base_item": "Prismarine Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Fragments of a greater power.\nCould they be restored?"
   },
   "Twisted Timestrand": {
     "location": "Teal",
@@ -82475,8 +83240,8 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {
-      "rage_of_the_keter": 1,
-      "infinity": 1
+      "infinity": 1,
+      "rage_of_the_keter": 1
     },
     "lore": "Deep below the Tree of Life, an emptiness\nhad begun to gnaw. From nothing they came.\nInto nothing they must go."
   },
@@ -82991,11 +83756,11 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "ice_aspect": 3,
-      "unbreaking": 3,
-      "mending": 1,
       "blast_protection": 3,
+      "ice_aspect": 3,
       "magic_protection": 3,
+      "mending": 1,
+      "unbreaking": 3,
       "knockback_resistance_flat": 3,
       "armor": 3.5
     },
@@ -83009,11 +83774,11 @@
     "base_item": "Shield",
     "release_status": "public",
     "stats": {
-      "ice_aspect": 3,
-      "unbreaking": 3,
-      "mending": 1,
       "blast_protection": 3,
+      "ice_aspect": 3,
       "magic_protection": 3,
+      "mending": 1,
+      "unbreaking": 3,
       "armor": 6,
       "knockback_resistance_flat": 3
     },
