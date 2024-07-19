@@ -301,7 +301,7 @@
   },
   "focus": {
     "name": "Focus",
-    "description": "+(level * 0.75)% projectile damage.",
+    "description": "Gain (level * X)% projectile damage, where X is 1/1.25/1.5 in regions 1/2/3.",
     "category": "Infusions"
   },
   "fortune": {
@@ -511,7 +511,7 @@
   },
   "perspicacity": {
     "name": "Perspicacity",
-    "description": "+(level * 0.75)% magic damage.",
+    "description": "Gain (level * X)% magic damage, where X is 1/1.25/1.5 in regions 1/2/3.",
     "category": "Infusions"
   },
   "phylactery": {
@@ -826,7 +826,7 @@
   },
   "vigor": {
     "name": "Vigor",
-    "description": "+(level * 0.75)% melee damage.",
+    "description": "Gain (level * X)% melee damage, where X is 1/1.25/1.5 in regions 1/2/3.",
     "category": "Infusions"
   },
   "vitality": {

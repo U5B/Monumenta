@@ -58,13 +58,12 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Rootways Boulder",
-    "power": 5,
+    "power": 4,
     "base_item": "Quartz",
     "release_status": "public",
     "stats": {
       "challenge_max_mobs_flat": 3,
-      "challenge_cooldown_reduction_per_mob_flat": 0.5,
-      "challenge_speed_per_mob_percent": 2
+      "challenge_cooldown_reduction_per_mob_flat": 0.5
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -1816,8 +1815,8 @@
     "stats": {
       "regeneration": 4,
       "max_health_flat": -2,
-      "armor": 8,
-      "thorns_flat": 6
+      "thorns_flat": 6,
+      "armor": 7.5
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -1832,9 +1831,9 @@
     "type": "Helmet",
     "stats": {
       "regeneration": 4,
-      "armor": 7.5,
       "max_health_flat": -2,
-      "thorns_flat": 5
+      "thorns_flat": 5,
+      "armor": 7
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -1851,8 +1850,8 @@
       "magic_protection": 1,
       "regeneration": 5,
       "max_health_flat": -2,
-      "armor": 9.5,
-      "thorns_flat": 8
+      "thorns_flat": 8,
+      "armor": 8.5
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -1868,8 +1867,8 @@
     "stats": {
       "regeneration": 5,
       "max_health_flat": -2,
-      "armor": 8.5,
-      "thorns_flat": 6
+      "thorns_flat": 6,
+      "armor": 8
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -1885,8 +1884,8 @@
     "stats": {
       "regeneration": 5,
       "max_health_flat": -2,
-      "armor": 9,
-      "thorns_flat": 7
+      "thorns_flat": 7,
+      "armor": 8.5
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -2161,8 +2160,8 @@
       "intuition": 1,
       "melee_protection": 3,
       "thorns_flat": 10,
-      "armor": 5.5,
-      "agility": 5.5
+      "agility": 5,
+      "armor": 5
     },
     "lore": "Every age, it seems, is tainted by\nthe greed of men."
   },
@@ -2180,8 +2179,8 @@
       "intuition": 1,
       "melee_protection": 3,
       "thorns_flat": 10,
-      "armor": 5,
-      "agility": 5
+      "armor": 4.5,
+      "agility": 4.5
     },
     "lore": "Every age, it seems, is tainted by\nthe greed of men."
   },
@@ -2198,9 +2197,9 @@
       "blast_protection": 3,
       "intuition": 1,
       "melee_protection": 3,
-      "armor": 4.5,
-      "agility": 4.5,
-      "thorns_flat": 8
+      "thorns_flat": 8,
+      "armor": 4,
+      "agility": 4
     },
     "lore": "Every age, it seems, is tainted by\nthe greed of men."
   },
@@ -5691,7 +5690,7 @@
       "melee_protection": 1,
       "unbreaking": 35,
       "thorns_flat": 10,
-      "agility": 9
+      "agility": 8
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -5707,8 +5706,8 @@
     "stats": {
       "ethereal": 1,
       "unbreaking": 15,
-      "agility": 7,
-      "thorns_flat": 6
+      "thorns_flat": 6,
+      "agility": 6
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -5724,8 +5723,8 @@
     "stats": {
       "ethereal": 1,
       "unbreaking": 17,
-      "agility": 7.5,
-      "thorns_flat": 7
+      "thorns_flat": 7,
+      "agility": 6.5
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -5741,8 +5740,8 @@
     "stats": {
       "ethereal": 1,
       "unbreaking": 30,
-      "agility": 9,
-      "thorns_flat": 9
+      "thorns_flat": 9,
+      "agility": 8
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -5758,8 +5757,8 @@
     "stats": {
       "ethereal": 1,
       "unbreaking": 25,
-      "agility": 8.5,
-      "thorns_flat": 8
+      "thorns_flat": 8,
+      "agility": 7.5
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -5909,7 +5908,7 @@
       "fire_protection": 3,
       "magic_protection": 3,
       "mending": 1,
-      "stamina": 2,
+      "stamina": 3,
       "unbreaking": 3,
       "attack_speed_flat": 0.1,
       "agility": 7.5
@@ -5930,7 +5929,7 @@
       "fire_protection": 3,
       "magic_protection": 3,
       "mending": 1,
-      "stamina": 2,
+      "stamina": 3,
       "unbreaking": 3,
       "attack_speed_flat": 0.1,
       "agility": 8
@@ -5951,7 +5950,7 @@
       "fire_protection": 3,
       "magic_protection": 3,
       "mending": 1,
-      "stamina": 3,
+      "stamina": 4,
       "unbreaking": 3,
       "attack_speed_flat": 0.1,
       "agility": 8
@@ -6534,7 +6533,7 @@
     "stats": {
       "aptitude": 1,
       "melee_fragility": 2,
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 25,
       "agility": 8.5,
       "magic_damage_percent": 12
@@ -6553,7 +6552,7 @@
     "stats": {
       "aptitude": 1,
       "melee_fragility": 2,
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 30,
       "agility": 9,
       "magic_damage_percent": 12
@@ -6572,7 +6571,7 @@
     "stats": {
       "aptitude": 1,
       "melee_fragility": 2,
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 35,
       "agility": 9,
       "magic_damage_percent": 18
@@ -18770,7 +18769,7 @@
     "stats": {
       "magic_protection": 2,
       "regeneration": 1,
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 35,
       "armor": 7.5,
       "magic_damage_percent": 15
@@ -18808,7 +18807,7 @@
     "stats": {
       "magic_protection": 1,
       "regeneration": 1,
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 30,
       "armor": 7.5,
       "magic_damage_percent": 12
@@ -24081,9 +24080,9 @@
     "type": "Offhand Sword",
     "stats": {
       "unbreakable": 1,
-      "armor": 2.5,
       "speed_percent": -5,
-      "attack_damage_percent": 35
+      "attack_damage_percent": 35,
+      "armor": 3
     }
   },
   "Acute Webslasher": {
@@ -24833,8 +24832,8 @@
       "ethereal": 1,
       "unbreaking": 1,
       "attack_speed_base": 1.2,
-      "thorns_flat": 6,
-      "attack_damage_base": 19
+      "attack_damage_base": 19,
+      "thorns_flat": 4
     },
     "lore": "The metal itself seems to have been deeply\ncorrupted by gore left in Sirius' wake."
   },
@@ -24852,8 +24851,8 @@
       "ethereal": 1,
       "unbreaking": 1,
       "attack_speed_base": 1.2,
-      "thorns_flat": 6,
-      "attack_damage_base": 18.5
+      "attack_damage_base": 18.5,
+      "thorns_flat": 4
     },
     "lore": "The metal itself seems to have been deeply\ncorrupted by gore left in Sirius' wake."
   },
@@ -32371,9 +32370,9 @@
       "eruption": 3,
       "sapper": 2,
       "unbreaking": 5,
-      "thorns_flat": 6,
       "attack_damage_base": 4,
-      "attack_speed_base": 1.2
+      "attack_speed_base": 1.2,
+      "thorns_flat": 4
     },
     "lore": "Hunger courses through the veins\nof this plantlike pick. Turn it\nto your benefit - or else."
   },
@@ -33329,7 +33328,7 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 3,
+      "stamina": 4,
       "unbreakable": 1,
       "armor": 7.5,
       "attack_damage_percent": 10
@@ -33347,7 +33346,7 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 2,
+      "stamina": 3,
       "unbreakable": 1,
       "armor": 6,
       "attack_damage_percent": 5
@@ -33365,7 +33364,7 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 2,
+      "stamina": 3,
       "unbreakable": 1,
       "armor": 6.5,
       "attack_damage_percent": 5
@@ -33383,7 +33382,7 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 3,
+      "stamina": 4,
       "unbreakable": 1,
       "armor": 7,
       "attack_damage_percent": 10
@@ -33401,7 +33400,7 @@
     "type": "Offhand Sword",
     "stats": {
       "shielding": 1,
-      "stamina": 3,
+      "stamina": 4,
       "unbreakable": 1,
       "armor": 6.5,
       "attack_damage_percent": 5
@@ -33874,9 +33873,9 @@
     "type": "Offhand Sword",
     "stats": {
       "unbreakable": 1,
-      "thorns_flat": 8,
-      "armor": 6.5,
-      "attack_damage_percent": 25
+      "attack_damage_percent": 25,
+      "armor": 6,
+      "thorns_flat": 7
     },
     "lore": "Not a step back, impale the marauders\nupon this line!"
   },
@@ -34142,8 +34141,8 @@
       "unbreakable": 1,
       "max_health_flat": 4,
       "attack_speed_flat": -0.3,
-      "thorns_flat": 8,
-      "attack_damage_percent": 42
+      "attack_damage_percent": 42,
+      "thorns_flat": 7
     },
     "lore": "Bring them to their knees."
   },
@@ -35409,7 +35408,7 @@
     "type": "Offhand Shield",
     "stats": {
       "second_wind": 2,
-      "stamina": 1,
+      "stamina": 2,
       "unbreaking": 6,
       "knockback_resistance_flat": 4,
       "max_health_flat": 4,
@@ -35429,7 +35428,7 @@
     "type": "Offhand Shield",
     "stats": {
       "second_wind": 2,
-      "stamina": 1,
+      "stamina": 2,
       "unbreaking": 5,
       "attack_speed_flat": 0.1,
       "max_health_flat": 4,
@@ -35449,7 +35448,7 @@
     "type": "Offhand Shield",
     "stats": {
       "second_wind": 2,
-      "stamina": 1,
+      "stamina": 2,
       "unbreaking": 4,
       "attack_speed_flat": 0.1,
       "max_health_flat": 4,
@@ -46127,8 +46126,8 @@
     "stats": {
       "inure": 2,
       "unbreaking": 9,
-      "thorns_flat": 10,
-      "armor": 8
+      "armor": 8,
+      "thorns_flat": 9
     },
     "lore": "The Abello were to be returned to\nthe rootmind. Then, the Dichen threat\nwould be dealt with the same way it\nhad so long ago. Infection."
   },
@@ -46144,8 +46143,8 @@
     "stats": {
       "inure": 2,
       "unbreaking": 7,
-      "thorns_flat": 9,
-      "armor": 6.5
+      "armor": 6.5,
+      "thorns_flat": 8
     },
     "lore": "The Abello were to be returned to\nthe rootmind. Then, the Dichen threat\nwould be dealt with the same way it\nhad so long ago. Infection."
   },
@@ -46161,8 +46160,8 @@
     "stats": {
       "inure": 2,
       "unbreaking": 8,
-      "thorns_flat": 10,
-      "armor": 7.5
+      "armor": 7.5,
+      "thorns_flat": 9
     },
     "lore": "The Abello were to be returned to\nthe rootmind. Then, the Dichen threat\nwould be dealt with the same way it\nhad so long ago. Infection."
   },
@@ -47406,7 +47405,7 @@
     "stats": {
       "ethereal": 1,
       "soul_speed": 2,
-      "stamina": 3,
+      "stamina": 4,
       "unbreaking": 9,
       "speed_percent": -10,
       "agility": 9
@@ -47425,7 +47424,7 @@
     "stats": {
       "ethereal": 1,
       "soul_speed": 2,
-      "stamina": 3,
+      "stamina": 4,
       "unbreaking": 8,
       "speed_percent": -10,
       "agility": 8
@@ -48735,10 +48734,10 @@
     "type": "Leggings",
     "stats": {
       "unbreaking": 9,
-      "thorns_flat": 9,
-      "max_health_flat": 11,
       "agility": 4.5,
-      "thorns_percent": 30
+      "thorns_percent": 30,
+      "max_health_flat": 8,
+      "thorns_flat": 9
     },
     "lore": "Deicide was not an act taken\nlightly by the Abello, but as their\nbound brethren suffered, they\nsaw no other choice."
   },
@@ -48754,9 +48753,9 @@
     "stats": {
       "unbreaking": 7,
       "agility": 4,
-      "max_health_flat": 10,
-      "thorns_flat": 9,
-      "thorns_percent": 25
+      "thorns_percent": 25,
+      "max_health_flat": 7,
+      "thorns_flat": 9
     },
     "lore": "Deicide was not an act taken\nlightly by the Abello, but as their\nbound brethren suffered, they\nsaw no other choice."
   },
@@ -48772,9 +48771,9 @@
     "stats": {
       "unbreaking": 8,
       "agility": 4,
-      "thorns_flat": 9,
       "thorns_percent": 25,
-      "max_health_flat": 11
+      "max_health_flat": 8,
+      "thorns_flat": 9
     },
     "lore": "Deicide was not an act taken\nlightly by the Abello, but as their\nbound brethren suffered, they\nsaw no other choice."
   },
@@ -49658,7 +49657,7 @@
       "armor": 6,
       "agility": 6,
       "max_health_percent": -50,
-      "thorns_flat": 16
+      "thorns_flat": 15
     },
     "lore": "WHY IS IT SO BRIGHT?\nMY EYES!!!"
   },
@@ -59725,10 +59724,9 @@
     "type": "Helmet",
     "stats": {
       "adrenaline": 3,
-      "armor": 1,
       "max_health_percent": 10,
       "speed_percent": -10,
-      "agility": 1.5
+      "armor": 1.5
     },
     "lore": "If you dare carve away the rest of the helm\nto see better, the Pumpking will find you.\nWe promise."
   },
@@ -64229,7 +64227,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "trivium": 2,
+      "trivium": 3,
       "unbreaking": 9,
       "speed_percent": 5,
       "agility": 8,
@@ -64247,7 +64245,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "trivium": 2,
+      "trivium": 3,
       "unbreaking": 8,
       "agility": 8,
       "speed_percent": 5,
@@ -64265,7 +64263,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 7,
       "speed_percent": 5,
       "agility": 8,
@@ -64369,7 +64367,7 @@
     "type": "Leggings",
     "stats": {
       "melee_protection": 3,
-      "regicide": 1,
+      "regicide": 2,
       "stamina": 3,
       "unbreaking": 7,
       "armor": 6,
@@ -64388,7 +64386,7 @@
     "type": "Leggings",
     "stats": {
       "melee_protection": 3,
-      "regicide": 1,
+      "regicide": 2,
       "stamina": 3,
       "unbreaking": 8,
       "attack_speed_percent": 10,
@@ -64407,7 +64405,7 @@
     "type": "Leggings",
     "stats": {
       "melee_protection": 3,
-      "regicide": 1,
+      "regicide": 2,
       "stamina": 4,
       "unbreaking": 9,
       "attack_speed_percent": 10,
@@ -64673,12 +64671,12 @@
     "type": "Leggings",
     "stats": {
       "curse_of_corruption": 1,
-      "melee_protection": 4,
+      "melee_protection": 3,
       "unbreaking": 4,
       "thorns_flat": 4,
       "thorns_percent": 25,
-      "armor": 6,
-      "attack_damage_percent": 25
+      "attack_damage_percent": 25,
+      "armor": 5.5
     },
     "lore": "As the scourge of battle beset the land,\nthe hammers turned to swords.\nIce was shaped to armor\nas the giants stood for war."
   },
@@ -64692,12 +64690,12 @@
     "type": "Leggings",
     "stats": {
       "curse_of_corruption": 1,
-      "melee_protection": 4,
+      "melee_protection": 3,
       "unbreaking": 4,
       "thorns_flat": 4,
       "thorns_percent": 25,
-      "armor": 6,
-      "attack_damage_percent": 25
+      "attack_damage_percent": 25,
+      "armor": 5.5
     },
     "lore": "He wades through the fury of the blizzard,\nuntouched by the ants below his feet."
   },
@@ -67044,7 +67042,7 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "melee_protection": 2,
+      "melee_protection": 1,
       "sustenance": 1,
       "thorns_flat": 6,
       "max_health_flat": 2,
@@ -67062,11 +67060,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "melee_protection": 3,
+      "melee_protection": 2,
       "sustenance": 2,
       "max_health_flat": 2,
       "agility": 7,
-      "thorns_flat": 12
+      "thorns_flat": 9
     },
     "lore": "Proof of the traitorous dead\nbrings power to those who survived."
   },
@@ -67080,11 +67078,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "melee_protection": 3,
+      "melee_protection": 2,
       "sustenance": 1,
       "max_health_flat": 2,
-      "thorns_flat": 8,
-      "agility": 6.5
+      "agility": 6.5,
+      "thorns_flat": 7
     },
     "lore": "Proof of the traitorous dead\nbrings power to those who survived."
   },
@@ -67098,11 +67096,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "melee_protection": 3,
+      "melee_protection": 2,
       "sustenance": 1,
       "max_health_flat": 2,
-      "thorns_flat": 10,
-      "agility": 7
+      "agility": 7,
+      "thorns_flat": 8
     },
     "lore": "Proof of the traitorous dead\nbrings power to those who survived."
   },
@@ -73031,11 +73029,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "melee_protection": 1,
       "reflexes": 1,
       "unbreaking": 30,
-      "melee_protection": 1,
-      "attack_speed_base": 2,
-      "attack_damage_base": 9
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 11.5
     },
     "lore": "Even the most ferocious of seafarers lost\nlimbs in their most storied battles. A spare few\ngained notoriety, seen wearing unorthodox\nprostheses into battle."
   },
@@ -74105,7 +74103,7 @@
     "type": "Offhand",
     "stats": {
       "inferno": 3,
-      "trivium": 3,
+      "trivium": 4,
       "speed_percent": 10,
       "agility": 7
     },
@@ -74122,7 +74120,7 @@
     "type": "Offhand",
     "stats": {
       "inferno": 3,
-      "trivium": 3,
+      "trivium": 4,
       "speed_percent": 15,
       "agility": 7.5
     },
@@ -74139,7 +74137,7 @@
     "type": "Offhand",
     "stats": {
       "inferno": 3,
-      "trivium": 3,
+      "trivium": 4,
       "speed_percent": 15,
       "agility": 8
     },
@@ -75593,11 +75591,11 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
-  "Uriddan's Eternal Call": {
+  "Uriddan's Eternal Call (A15)": {
     "location": "Zenith",
     "region": "Ring",
-    "tier": "Trophy",
-    "name": "Uriddan's Eternal Call",
+    "tier": "Legacy",
+    "name": "Uriddan's Eternal Call (A15)",
     "base_item": "Goat Horn",
     "release_status": "public",
     "type": "Misc",
@@ -76707,7 +76705,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Duelist's Sigil",
-    "power": 3,
+    "power": 2,
     "base_item": "Cyan Glazed Terracotta",
     "release_status": "public",
     "stats": {
