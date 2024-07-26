@@ -3833,7 +3833,7 @@
     "class_name": "Mage"
   },
   "Warped Emblem": {
-    "location": "Celsian Isles",
+    "location": "Hekawt",
     "region": "Isles",
     "tier": "Key",
     "name": "Warped Emblem",
@@ -3841,10 +3841,10 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Hekawt has very strong attacks and is the master of\nundeath, able to resurrect the fallen.\nThe City of Shifting Waters is required\nbefore you would dare attempt this fight!\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants access to Hekawt, the Eternal"
+    "lore": "The master of undeath tolerates your meddling\nno longer. The Veil parts once more.\nCompletion of the City of Shifting Waters is required\nand end-game gear is recommended for this boss!\nHekawt's mastery over Death allows him to resurrect\nothers and sustain himself. Those inflicted with his\ncurse must seek unconventional measures for relief.\nPlayers: 1-25 (One life per player)\nGrants access to Hekawt the Eternal."
   },
   "Warped Emblem (Instant)": {
-    "location": "Celsian Isles",
+    "location": "Hekawt",
     "region": "Isles",
     "tier": "Key",
     "name": "Warped Emblem (Instant)",
@@ -3852,7 +3852,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Hekawt has very strong attacks and is the master of\nundeath, able to resurrect the fallen.\nThe City of Shifting Waters is required\nbefore you would dare attempt this fight!\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants instant access to Hekawt, the Eternal"
+    "lore": "The master of undeath tolerates your meddling\nno longer. The Veil parts once more.\nCompletion of the City of Shifting Waters is required\nand end-game gear is recommended for this boss!\nHekawt's mastery over Death allows him to resurrect\nothers and sustain himself. Those inflicted with his\ncurse must seek unconventional measures for relief.\nPlayers: 1-25 (One life per player)\nGrants instant access to Hekawt the Eternal."
   },
   "Rainbowcomb": {
     "location": "Celsian Isles",
@@ -4251,7 +4251,7 @@
     "lore": "Converts King's Valley items into currency.\nLeft Click in main hand or Right Click in inventory to operate.\nLeft Click + Sneak for instant converting.\nRight Click + Sneak for instant configuring.\nPress f in inventory for instant converting."
   },
   "Jewel of the Blackroot (Instant)": {
-    "location": "King's Valley",
+    "location": "Kaul",
     "region": "Valley",
     "tier": "Key",
     "name": "Jewel of the Blackroot (Instant)",
@@ -4259,10 +4259,10 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Kaul has strong attacks and a brutal level of difficulty,\nharder than any other endgame experience.\nUnveiled is required and Malevolent Reverie is strongly\nrecommended before attempting to fight Kaul.\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants instant access to Kaul, Soul of the Jungle"
+    "lore": "The loci's anger demands an answer.\nCompletion of Unveiled is required and completion\nof Malevolent Reverie is recommended for this boss!\nKaul, entwined with the force of the Jungle, uses\nits creations and the powers of the elements\nto judge those who go against the Jungle's will.\nPlayers: 1-25 (One life per player)\nGrants instant access to Kaul, Soul of the Jungle."
   },
   "Jewel of the Blackroot": {
-    "location": "King's Valley",
+    "location": "Kaul",
     "region": "Valley",
     "tier": "Key",
     "name": "Jewel of the Blackroot",
@@ -4270,7 +4270,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Kaul has strong attacks and a brutal level of difficulty,\nharder than any other endgame experience.\nUnveiled is required and Malevolent Reverie is strongly\nrecommended before attempting to fight Kaul.\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants access to Kaul, Soul of the Jungle"
+    "lore": "The loci's anger demands an answer.\nCompletion of Unveiled is required and completion\nof Malevolent Reverie is recommended for this boss!\nKaul, entwined with the force of the Jungle, uses\nits creations and the powers of the elements\nto judge those who go against the Jungle's will.\nPlayers: 1-25 (One life per player)\nGrants access to Kaul, Soul of the Jungle."
   },
   "Aberration's Amulet": {
     "location": "Mist",
@@ -4286,6 +4286,17 @@
       "magic_damage_percent": 28
     },
     "lore": "A mere ageless existence doesn't prevent\none from passing through the veil."
+  },
+  "Evoking Catalyst": {
+    "location": "Cyan",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Evoking Catalyst",
+    "base_item": "Nether Star",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Your perception of the world shifts upon\ntouching the strange object. Are you witnessing\nthe past, or what is yet to come?"
   },
   "Inactive Emblem of the Last Gift": {
     "location": "Celsian Isles",
@@ -7568,6 +7579,24 @@
     },
     "lore": "As their people bled, they\nlooked to the moon for answers,\nand found only silence."
   },
+  "Swollen Scales": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Swollen Scales",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_protection": 1,
+      "melee_protection": 1,
+      "projectile_protection": 2,
+      "unbreaking": 3,
+      "magic_damage_percent": 10,
+      "speed_percent": 5
+    },
+    "lore": "As Tlaxan Shamans poured magic deeper into\neffigies of their gods, the gods responded with\nblessings for the most faithful."
+  },
   "Varcosa's Doublet": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -8882,13 +8911,13 @@
     "name": "Concentrated Hexed Salmon",
     "effects": [
       {
-        "EffectDuration": 4800,
-        "EffectStrength": 0.15,
+        "EffectDuration": 6000,
+        "EffectStrength": 0.2,
         "EffectType": "MagicDamage"
       },
       {
-        "EffectDuration": 4800,
-        "EffectStrength": 0.2,
+        "EffectDuration": 6000,
+        "EffectStrength": 0.1,
         "EffectType": "MagicVulnerability"
       }
     ],
@@ -9988,25 +10017,6 @@
     "base_item": "Potion",
     "release_status": "public",
     "type": "Misc",
-    "stats": {}
-  },
-  "Minor Aqueous Potion": {
-    "name": "Minor Aqueous Potion",
-    "effects": [
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 1,
-        "EffectType": "WaterBreath"
-      },
-      {
-        "EffectDuration": 3600,
-        "EffectStrength": 1,
-        "EffectType": "WaterBreath"
-      }
-    ],
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Consumable",
     "stats": {}
   },
   "Darksight Potion": {
@@ -11367,7 +11377,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "There's a breeze that wasn't there before.."
+    "lore": "There's a breeze that\nwasn't there before..."
   },
   "Burn Panacea": {
     "location": "Verdant",
@@ -11436,7 +11446,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "There's a fire and fury coming from this remedy..."
+    "lore": "There's a fire and fury\ncoming from this remedy..."
   },
   "Elemental Resin": {
     "location": "Sanctum",
@@ -17929,7 +17939,7 @@
     "lore": "Smoke swirls from within, and you gaze\na glimpse of that which is to come.\nPain. Suffering. But also, sometimes, hope."
   },
   "Permafrost Core (Instant)": {
-    "location": "Celsian Isles",
+    "location": "Eldrask",
     "region": "Isles",
     "tier": "Key",
     "name": "Permafrost Core (Instant)",
@@ -17937,10 +17947,10 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Eldrask has titanic attacks and massive damage,\neven just his presence creates a powerful blizzard\naround him, that damages if you stay far away.\nEchoes of Oblivion is required\nbefore you would dare attempt this fight!\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants instant access to Eldrask, Last of the Frost Giants"
+    "lore": "The song must continue. The Giant wakes.\nCompletion of the Echoes of Oblivion is required\nand end-game gear is recommended for this boss!\nEldrask has devastating attacks and massive\ndamage. His presence creates a powerful blizzard\nthat damages those who attempt to flee his battle.\nPlayers: 1-25 (One life per player)\nGrants instant access to Eldrask, Last of the Frost Giants."
   },
   "Permafrost Core": {
-    "location": "Celsian Isles",
+    "location": "Eldrask",
     "region": "Isles",
     "tier": "Key",
     "name": "Permafrost Core",
@@ -17948,7 +17958,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Eldrask has titanic attacks and massive damage,\neven just his presence creates a powerful blizzard\naround him, that damages if you stay far away.\nEchoes of Oblivion is required\nbefore you would dare attempt this fight!\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants access to Eldrask, Last of the Frost Giants"
+    "lore": "The song must continue. The Giant wakes.\nCompletion of the Echoes of Oblivion is required\nand end-game gear is recommended for this boss!\nEldrask has devastating attacks and massive\ndamage. His presence creates a powerful blizzard\nthat damages those who attempt to flee his battle.\nPlayers: 1-25 (One life per player)\nGrants access to Eldrask, Last of the Frost Giants."
   },
   "Sketched Bark of the Gateway Tree": {
     "location": "Sketched",
@@ -38447,25 +38457,6 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Aqueous Vial": {
-    "name": "Aqueous Vial",
-    "effects": [
-      {
-        "EffectDuration": 9600,
-        "EffectStrength": 1,
-        "EffectType": "WaterBreath"
-      },
-      {
-        "EffectDuration": 9600,
-        "EffectStrength": 1,
-        "EffectType": "WaterBreath"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
   "Harming Vial": {
     "name": "Harming Vial",
     "effects": [
@@ -38727,54 +38718,6 @@
         "EffectDuration": 200,
         "EffectStrength": 1,
         "EffectType": "Regeneration"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Major Swiftness Vial": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "name": "Major Swiftness Vial",
-    "effects": [
-      {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.4,
-        "EffectType": "Speed"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Major Regeneration Vial": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "name": "Major Regeneration Vial",
-    "effects": [
-      {
-        "EffectDuration": 440,
-        "EffectStrength": 2,
-        "EffectType": "Regeneration"
-      }
-    ],
-    "base_item": "Splash Potion",
-    "release_status": "public",
-    "type": "Consumable",
-    "stats": {}
-  },
-  "Major Strength Vial": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "name": "Major Strength Vial",
-    "effects": [
-      {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.2,
-        "EffectType": "damage"
       }
     ],
     "base_item": "Splash Potion",
@@ -39806,12 +39749,12 @@
     "type": "Scythe",
     "stats": {
       "abyssal": 1,
-      "unbreaking": 3,
       "regeneration": 2,
+      "unbreaking": 3,
       "attack_speed_base": 2,
       "speed_percent": 15,
-      "magic_damage_percent": 15,
-      "attack_damage_base": 7
+      "attack_damage_base": 7,
+      "magic_damage_percent": 18
     },
     "lore": "In the wee hours of the night,\neven practitioners of the dark\narts make time for sweets."
   },
@@ -48273,7 +48216,7 @@
     "lore": "Sevvet parted the shroud, the pocket\nof void they had crafted for their\nmission. He gazed down upon his prize,\nproof of their success to present to\nThe Architect. Surely, he thought to\nhimself, he would soon find himself\nhome once again, training with the\ndragons amongst His presence."
   },
   "Dragonbone Key": {
-    "location": "Celsian Isles",
+    "location": "Remorse",
     "region": "Isles",
     "tier": "Key",
     "name": "Dragonbone Key",
@@ -48281,7 +48224,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The fortress of the bone cultists lies before you.\nTreasure, and ancient secrets, lie within.\nThis Strike features unreal levels of difficulty and you are\nrecommended to have a group of 4+ players in end-game gear.\nThis Strike also features a time, beginning at 30\nseconds and incrementing with spawner breaking\nrequiring quick thinking and play.\nPlayers: 1-6 (Keep Inventory, but only 1 life per player)\nGrants access to the Sealed Remorse Strike."
+    "lore": "The fortress of the bone cultists lies before you.\nTreasure, and ancient secrets, lie within.\nCompletion of Here There Be Dragons is required and\nend-game gear is heavily recommended for this Strike!\nThis Strike features a timer that starts at 30\nseconds and increases with broken spawners.\nQuick thinking and fast play are required.\nPlayers: 1-6 (One life per player)\nGrants access to the Sealed Remorse Strike."
   },
   "Bone Carving - Verandebeen": {
     "name": "Bone Carving - Verandebeen",
@@ -53348,6 +53291,17 @@
     "stats": {},
     "lore": "A lullaby said to be a song of life\nfrom the heavens... I've yet to fully\ndecipher the original texts, however.\n↑ C ↓ → ← ↑ ?"
   },
+  "Frayed Page": {
+    "location": "Cyan",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Frayed Page",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The pages are filled with ancient Ishniran\nhieroglyphs... although you've never seen these\nbefore, their meanings stand crystal clear to you."
+  },
   "Ticket Bundle": {
     "location": "Carnival",
     "region": "Isles",
@@ -54108,7 +54062,7 @@
       "attack_speed_base": 1.2,
       "speed_percent": 15
     },
-    "lore": "\"Mana, manifesting as lightning, seems\nto regularly pierce the silver barrier.\nIf I can harness that energy,,,\""
+    "lore": "\"Mana, manifesting as lightning, seems\nto regularly pierce the silver barrier.\nIf I can harness that energy...\""
   },
   "The Overclocker-3": {
     "location": "PORTAL",
@@ -54128,7 +54082,7 @@
       "attack_speed_base": 1.2,
       "speed_percent": 10
     },
-    "lore": "\"Mana, manifesting as lightning, seems\nto regularly pierce the silver barrier.\nIf I can harness that energy,,,\""
+    "lore": "\"Mana, manifesting as lightning, seems\nto regularly pierce the silver barrier.\nIf I can harness that energy...\""
   },
   "The Overclocker-2": {
     "location": "PORTAL",
@@ -54148,7 +54102,7 @@
       "attack_speed_base": 1.2,
       "speed_percent": 10
     },
-    "lore": "\"Mana, manifesting as lightning, seems\nto regularly pierce the silver barrier.\nIf I can harness that energy,,,\""
+    "lore": "\"Mana, manifesting as lightning, seems\nto regularly pierce the silver barrier.\nIf I can harness that energy...\""
   },
   "Supernova Mattock-4": {
     "location": "Sirius",
@@ -54656,7 +54610,7 @@
     "lore": "No matter how hard you ring,\nno sound rings forth.\nThe chime last rang before its\ncaptain entered the Grasp.\nIf it were rung again, the\nBlack Mist would sail anew.\n* Quest Item *\n#Q151I01"
   },
   "Unlucky Horseshoe": {
-    "location": "Celsian Isles",
+    "location": "Horseman",
     "region": "Isles",
     "tier": "Key",
     "name": "Unlucky Horseshoe",
@@ -54664,7 +54618,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The Headless Horseman emerges from the Veil!\nThis fight features powerful and relentless\nattacks recommended for end game players.\nIt is strongly recommended to have beaten The\nScourge of Lunacy before attempting this fight.\nPlayers: 1-6 (Keep Inventory, but only 1 life per player)\nGrants access to The Headless Horseman"
+    "lore": "The Headless Horseman emerges from the Veil!\nCompletion of The Scourge of Lunacy and the\nPalace of Mirrors are recommended for this boss!\nThe Horseman's relentless speed and powerful\nattacks are sure to catch the slow or unprepared.\nPlayers: 1-6 (One life per player)\nGrants access to The Headless Horseman."
   },
   "Despondent Doubloon": {
     "location": "Purple",
@@ -56011,6 +55965,17 @@
       "spell_power_base": 62
     },
     "lore": "So hungry... Feed me"
+  },
+  "Sins of the Voracious": {
+    "location": "Cyan",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Sins of the Voracious",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "And in his final moments, the Pharaoh would repeat the sins\nof his past. The last essence of his life, erasing history\nonce more. In time, a new vessel would be found.\nPurchase of this item will grant you a full set of\ncosmetic skills for Cleric and its specializations."
   },
   "Fallen Forum Key": {
     "location": "Celsian Isles",
@@ -66143,6 +66108,16 @@
     "stats": {},
     "lore": "A pebble shines with bright colors after it\nhas been thrown into the water.\nYour hands are illuminated by its glow.\n* Quest Item *\n#Q205I08"
   },
+  "Fractal Fish Food": {
+    "location": "Fishing",
+    "region": "Ring",
+    "name": "Fractal Fish Food",
+    "base_item": "Medium Amethyst Bud",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Quality Bonus (+20%)\nHypnotic glimmers of light almost\ncompel you to taste this glowing\npile of rocks."
+  },
   "Pulsating Shard Fragment": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -67236,28 +67211,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "A large gemstone, imported from lands\nbeyond, and imbued with the dream itself.\nIts surface ripples with unseen things.\n* Quest Item *\n#Q216I04"
-  },
-  "Radiant Starblight (Instant)": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Key",
-    "name": "Radiant Starblight (Instant)",
-    "base_item": "Echo Shard",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Sirius holds order over powerful Starblight forces, controlling\nthe battlefield and the wills of those who dare to defy his rule.\nStarless Night or Celestial Zenith completion is required and\n4★ Masterwork is recommended before you attempt this fight!\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants instant access to Sirius, the Final Herald"
-  },
-  "Radiant Starblight": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Key",
-    "name": "Radiant Starblight",
-    "base_item": "Echo Shard",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Sirius holds order over powerful Starblight forces, controlling\nthe battlefield and the wills of those who dare to defy his rule.\nStarless Night or Celestial Zenith completion is required and\n4★ Masterwork is recommended before you attempt this fight!\nPlayers: 1-25 (Keep Inventory, but only 1 life per player)\nGrants access to Sirius, the Final Herald"
   },
   "Astral Attractor": {
     "location": "Starpoint",
@@ -68849,13 +68802,13 @@
     "fish_quality": 3,
     "effects": [
       {
-        "EffectDuration": 240,
-        "EffectStrength": 0.08,
+        "EffectDuration": 2400,
+        "EffectStrength": 0.05,
         "EffectType": "MagicDamage"
       },
       {
-        "EffectDuration": 240,
-        "EffectStrength": 0.3,
+        "EffectDuration": 2400,
+        "EffectStrength": 0.2,
         "EffectType": "MagicVulnerability"
       }
     ],
@@ -68890,13 +68843,13 @@
     "fish_quality": 4,
     "effects": [
       {
-        "EffectDuration": 240,
+        "EffectDuration": 3000,
         "EffectStrength": 0.1,
         "EffectType": "MagicDamage"
       },
       {
-        "EffectDuration": 240,
-        "EffectStrength": 0.25,
+        "EffectDuration": 3000,
+        "EffectStrength": 0.15,
         "EffectType": "MagicVulnerability"
       }
     ],
@@ -68995,13 +68948,13 @@
     "fish_quality": 5,
     "effects": [
       {
-        "EffectDuration": 480,
-        "EffectStrength": 0.15,
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
         "EffectType": "MagicDamage"
       },
       {
-        "EffectDuration": 480,
-        "EffectStrength": 0.2,
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
         "EffectType": "MagicVulnerability"
       }
     ],
@@ -69059,13 +69012,13 @@
     "fish_quality": 2,
     "effects": [
       {
-        "EffectDuration": 120,
-        "EffectStrength": 0.06,
+        "EffectDuration": 1800,
+        "EffectStrength": 0.05,
         "EffectType": "MagicDamage"
       },
       {
-        "EffectDuration": 120,
-        "EffectStrength": 0.3,
+        "EffectDuration": 1800,
+        "EffectStrength": 0.25,
         "EffectType": "MagicVulnerability"
       }
     ],
@@ -69123,12 +69076,12 @@
     "fish_quality": 1,
     "effects": [
       {
-        "EffectDuration": 120,
-        "EffectStrength": 0.03,
+        "EffectDuration": 1200,
+        "EffectStrength": 0.05,
         "EffectType": "MagicDamage"
       },
       {
-        "EffectDuration": 120,
+        "EffectDuration": 1200,
         "EffectStrength": 0.3,
         "EffectType": "MagicVulnerability"
       }
@@ -69851,6 +69804,16 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Thrice-Sliced Starfish": {
+    "location": "Fishing",
+    "region": "Ring",
+    "name": "Thrice-Sliced Starfish",
+    "base_item": "Tropical Fish",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Quality Bonus (+20%)\nHigh quality prepared bait,\nit has an artist's touch."
+  },
   "Arcane Fish": {
     "location": "Isles Overworld",
     "region": "Isles",
@@ -70059,6 +70022,87 @@
     "type": "Misc",
     "stats": {},
     "lore": "Quality Bonus (+20%)\nThis collection of plants\nalmost tempts you to\ntake a bite."
+  },
+  "Infected Shrimp": {
+    "location": "Fishing",
+    "region": "Ring",
+    "name": "Infected Shrimp",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Quality Bonus (+20%)\nHandle with gloves and care.\nVery slippery and oozing green\nliquids."
+  },
+  "Pulsing Orb-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Pulsing Orb",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "adaptability": 1,
+      "regeneration": 1,
+      "retrieval": 2,
+      "sustenance": 2,
+      "armor": 6.5,
+      "throw_rate_percent": 10,
+      "projectile_damage_percent": 12
+    },
+    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
+  },
+  "Pulsing Orb-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pulsing Orb",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "adaptability": 1,
+      "regeneration": 1,
+      "retrieval": 2,
+      "sustenance": 2,
+      "throw_rate_percent": 10,
+      "armor": 6,
+      "projectile_damage_percent": 12
+    },
+    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
+  },
+  "Pulsing Orb-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pulsing Orb",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "adaptability": 1,
+      "regeneration": 1,
+      "retrieval": 2,
+      "sustenance": 1,
+      "throw_rate_percent": 10,
+      "armor": 6,
+      "projectile_damage_percent": 12
+    },
+    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
+  },
+  "Nightmare Fuel": {
+    "location": "Reverie",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Nightmare Fuel",
+    "base_item": "Nether Wart",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
   },
   "Gourmet Fungus": {
     "location": "Fishing",
@@ -70446,7 +70490,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Someone has to clean up Bermuda's mess,\nand there's no better someone than you.\nPlayers: 1-4 (One life per player)\nGrants access to the Portal Strike."
+    "lore": "Someone has to clean up Bermuda's mess,\nand there's no better someone than you.\nProgress in Scientists of Steelmeld III is required and\n1⭐ Masterwork gear is recommended for this Strike!\nThis Strike requires the collection of\nS.O.U.L.S. to progress to the final boss.\nPlayers: 1-4 (One life per player)\nGrants access to the P.O.R.T.A.L. Strike."
   },
   "Exalted Light Blue Key": {
     "location": "Architect's Ring",
@@ -70490,7 +70534,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The Masked are holed up in the\nancient Silver Knight caverns. It's\ntime to bring the fight to them.\nPlayers: 1-6 (One life per player)\nGrants access to the Masquerader's Ruin Strike."
+    "lore": "The Masked are holed up in the ancient Silver\nKnight caverns. It's time to bring the fight to them.\nProgress in Unraveled is required and 1⭐\nMasterwork gear is recommended for this Strike!\nThis Strike features a timer that starts at 30\nseconds and increases with broken spawners.\nQuick thinking and fast play are required.\nPlayers: 1-6 (One life per player)\nGrants access to the Masquerader's Ruin Strike."
   },
   "Celestial Zenith Key - Ascension": {
     "location": "Architect's Ring",
@@ -70636,7 +70680,7 @@
     "lore": "Grants access to dungeon:\nThe Black Willows\nDifficulty : ☠☠☠☠☠"
   },
   "Blighted Catalyst": {
-    "location": "Architect's Ring",
+    "location": "Godspore",
     "region": "Ring",
     "tier": "Key",
     "name": "Blighted Catalyst",
@@ -70644,7 +70688,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "3⭐ Masterwork and Completion of The Cradle of the Broken God\nis heavily recommended before attempting this fight.\nPlayers: 1-4 (Infinite Attempts)\nGrants access to Godspore's Domain."
+    "lore": "A people's plea for freedom and your might\nclash against the mind of all Mycelia.\nCompletion of Sporetal Combat and 3⭐\nMasterwork are recommended for this boss!\nThe Godspore stands resolute in the midst of\nits domain. Its most loyal followers protect it\nfrom all attacks and must be dealt with swiftly.\nPlayers: 1-4 (Infinite attempts)\nGrants access to The Godspore."
   },
   "Bag of Hoarding": {
     "location": "The Wolfswood",
@@ -73870,77 +73914,6 @@
     "stats": {},
     "lore": "Endeavors of the inferno manifest flames more\nintense than the heart of an eruption. This flame\nmight be powerful enough for another use..."
   },
-  "Pulsing Orb-4": {
-    "location": "Quest Reward",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Pulsing Orb",
-    "base_item": "Nether Wart",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "adaptability": 1,
-      "regeneration": 1,
-      "retrieval": 2,
-      "sustenance": 2,
-      "armor": 6.5,
-      "throw_rate_percent": 10,
-      "projectile_damage_percent": 12
-    },
-    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
-  },
-  "Pulsing Orb-3": {
-    "location": "Quest Reward",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Pulsing Orb",
-    "base_item": "Nether Wart",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "adaptability": 1,
-      "regeneration": 1,
-      "retrieval": 2,
-      "sustenance": 2,
-      "throw_rate_percent": 10,
-      "armor": 6,
-      "projectile_damage_percent": 12
-    },
-    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
-  },
-  "Pulsing Orb-2": {
-    "location": "Quest Reward",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Pulsing Orb",
-    "base_item": "Nether Wart",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "adaptability": 1,
-      "regeneration": 1,
-      "retrieval": 2,
-      "sustenance": 1,
-      "throw_rate_percent": 10,
-      "armor": 6,
-      "projectile_damage_percent": 12
-    },
-    "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
-  },
-  "Nightmare Fuel": {
-    "location": "Reverie",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Nightmare Fuel",
-    "base_item": "Nether Wart",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
-  },
   "Totem of Life-4": {
     "location": "Transmogrifier",
     "masterwork": "4",
@@ -76210,7 +76183,7 @@
     "lore": "\"This place terrifies me. I knew what\nI was getting into, of course, but\nactually witnessing the Veil is\nan experience I could never prepare\nfor. My light is lost. Will I too be lost?\""
   },
   "Soulfire Lantern": {
-    "location": "Celsian Isles",
+    "location": "Mist",
     "region": "Isles",
     "tier": "Key",
     "name": "Soulfire Lantern",
@@ -76218,7 +76191,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The Black Mist rolls forth, calling to unsuspecting heroes.\nThis Strike features unreal levels of difficulty, and you are\nrecommended to have a group of 4+ players in end-game gear.\nPlayers: 1-6 (Keep Inventory, but only 1 life per player)\nGrants access to the Black Mist Strike"
+    "lore": "The Black Mist rolls forth,\ncalling to unsuspecting heroes.\nCompletion of The End Chimes is required and\n4+ players are recommended for this Strike!\nThis Strike requires breaking spawners\nto progress to the final boss.\nPlayers: 1-6 (One life per player)\nGrants access to The Black Mist Strike."
   },
   "Flame of Fallen Grace": {
     "location": "Cyan",
@@ -76624,7 +76597,7 @@
     "lore": "Epic Crafting Material"
   },
   "Azacor Key": {
-    "location": "King's Valley",
+    "location": "Azacor",
     "region": "Valley",
     "tier": "Key",
     "name": "Azacor Key",
@@ -76632,7 +76605,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Boss mode that features fast attacks and\na brutal level of difficulty on par with\nan end game experience.\nIt is strongly recommended to complete the\nMonument before attempting this boss.\nPlayers: 1-6"
+    "lore": "The ghost of mistakes past, made corporeal.\nThe demon summoner and his minions await.\nCompletion of Outer Demons is required and completion\nof the Monument is recommended for this boss!\nAzacor's spells and trident make him a formidable\nfoe. Anyone caught in his area of effect\nattacks becomes short work for his minions.\nPlayers: 1-6 (One life per player)\nGrants access to Azacor the Dark Summoner."
   },
   "Azacor Key Hard": {
     "location": "King's Valley",
@@ -80404,7 +80377,7 @@
     "lore": "A helm once required to access\nThe Sons of the Forest's Sanctum."
   },
   "Forsworn Key": {
-    "location": "King's Valley",
+    "location": "Sanctum",
     "region": "Valley",
     "tier": "Key",
     "name": "Forsworn Key",
@@ -80412,10 +80385,10 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "You seek the Soulbinder inside the\nruins of the Forsworn Sanctum.\nThis Strike contains unreal levels of difficulty, and you are\nrecommended to have a group of 4+ players in end-game gear.\nPlayers: 1-6 (Keep Inventory, but only 1 life per player)\nGrants access to the Forsworn Sanctum Strike."
+    "lore": "The sprawling ruins of Ta'Ferna and the\ncorrupted Soulbinder stand against you.\nCompletion of Shurima's Big Day Off is required\nand end-game gear is recommended for this Strike!\nThis Strike requires the collection of\nSouls to progress to the final boss.\nQuick thinking and fast play are required.\nPlayers: 1-6 (One life per player)\nGrants access to the Forsworn Sanctum Strike."
   },
   "Inner Sanctum Key": {
-    "location": "King's Valley",
+    "location": "Verdant",
     "region": "Valley",
     "tier": "Key",
     "name": "Inner Sanctum Key",
@@ -80423,7 +80396,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The time has come to enter the Inner Sanctum.\nThis Strike contains a mid-game challenge. It is\nrecommended to have a group of 1-4 players in\nmid-to-end game gear.\nPlayers: 1-4 (Respawning enabled.)\nGrants access to the Inner Sanctum Story Strike."
+    "lore": "The time has come to enter the Inner Sanctum.\nThis Strike contains a mid-game challenge. Completion\nof Unveiled is required and a group of 1-4 players\nin mid-to-end game gear is recommended for this Strike.\nPlayers: 1-4 (Infinite attempts)\nGrants access to the Inner Sanctum Story Strike."
   },
   "Mountainous Wheat": {
     "name": "Mountainous Wheat",
@@ -82056,7 +82029,7 @@
     "lore": "Can be sold or transmogrified\nlike any other tier V item.\nCan be put into a wallet."
   },
   "Threadwarped Key": {
-    "location": "King's Valley",
+    "location": "Verdant",
     "region": "Valley",
     "tier": "Key",
     "name": "Threadwarped Key",
@@ -82064,7 +82037,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "You seek the missing Tlaxan Elder inside the\nruins of the Verdant Fortress.\nThis Strike contains unreal levels of difficulty, and you are\nrecommended to have a group of 4 players in end-game gear.\nPlayers: 1-4 (Keep Inventory, but only 1 life per player)\nGrants access to the Verdant Remnants Strike."
+    "lore": "You seek the missing Tlaxan Elder inside\nthe ruins of the Verdant Fortress.\nCompletion of The Elder's Scrolls is required and\nend-game gear is recommended for this Strike!\nThis Strike requires breaking spawners\nto progress to the final boss.\nPlayers: 1-4 (One life per player)\nGrants access to the Verdant Remnants Strike."
   },
   "Swiftwood Pickaxe": {
     "location": "King's Valley",
@@ -83499,11 +83472,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreakable": 1,
       "ice_aspect": 3,
       "shielding": 1,
-      "attack_damage_base": 21,
-      "attack_speed_base": 0.7
+      "unbreakable": 1,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 20
     },
     "lore": "Each spectral swing carves a path through\neternity, a needless blow to form."
   },
