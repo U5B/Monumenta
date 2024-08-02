@@ -8837,6 +8837,27 @@
       "instant_drink": 1
     }
   },
+  "Concentrated Startouched Swordfish": {
+    "location": "Fishing",
+    "region": "Ring",
+    "name": "Concentrated Startouched Swordfish",
+    "effects": [
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.2,
+        "EffectType": "MeleeDamage"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeVulnerability"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Concentrated Shroomfish": {
     "location": "Fishing",
     "region": "Ring",
@@ -8905,6 +8926,27 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Concentrated Norvigut Tuna": {
+    "location": "Fishing",
+    "region": "Ring",
+    "name": "Concentrated Norvigut Tuna",
+    "effects": [
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 2,
+        "EffectType": "Poison"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Concentrated Hexed Salmon": {
     "location": "Fishing",
     "region": "Ring",
@@ -8940,6 +8982,37 @@
         "EffectDuration": 1,
         "EffectStrength": 0.55,
         "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Concentrated Crystallized Cod": {
+    "location": "Fishing",
+    "region": "Ring",
+    "name": "Concentrated Crystallized Cod",
+    "effects": [
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.1,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 72000,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
       }
     ],
     "base_item": "Potion",
@@ -17106,11 +17179,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "first_strike": 3,
+      "first_strike": 4,
       "thunder_aspect": 2,
       "unbreaking": 6,
       "attack_speed_base": 0.7,
-      "attack_damage_base": 24
+      "attack_damage_base": 23
     },
     "lore": "While the mind who planned the assault\non Galengarde was sharp as a knife,\na blunter sort of tool was required\nfor the plot's execution."
   },
@@ -17124,11 +17197,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "first_strike": 3,
+      "first_strike": 4,
       "thunder_aspect": 2,
       "unbreaking": 5,
       "attack_speed_base": 0.7,
-      "attack_damage_base": 23.5
+      "attack_damage_base": 22.5
     },
     "lore": "While the mind who planned the assault\non Galengarde was sharp as a knife,\na blunter sort of tool was required\nfor the plot's execution."
   },
@@ -17142,11 +17215,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "first_strike": 3,
+      "first_strike": 5,
       "thunder_aspect": 2,
       "unbreaking": 7,
       "attack_speed_base": 0.7,
-      "attack_damage_base": 24.5
+      "attack_damage_base": 23.5
     },
     "lore": "While the mind who planned the assault\non Galengarde was sharp as a knife,\na blunter sort of tool was required\nfor the plot's execution."
   },
@@ -20927,7 +21000,7 @@
       "technique": 2,
       "unbreaking": 6,
       "attack_damage_base": 16.5,
-      "attack_speed_base": 1.1
+      "attack_speed_base": 1.2
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -20946,7 +21019,7 @@
       "technique": 3,
       "unbreaking": 6,
       "attack_damage_base": 18.5,
-      "attack_speed_base": 1.1
+      "attack_speed_base": 1.2
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -20965,7 +21038,7 @@
       "technique": 2,
       "unbreaking": 6,
       "attack_damage_base": 17,
-      "attack_speed_base": 1.1
+      "attack_speed_base": 1.2
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -20984,7 +21057,7 @@
       "technique": 2,
       "unbreaking": 6,
       "attack_damage_base": 17.5,
-      "attack_speed_base": 1.1
+      "attack_speed_base": 1.2
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -21328,14 +21401,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "knockback": 1,
       "smite": 3,
       "unbreaking": 2,
-      "knockback": 1,
-      "attack_damage_base": 8,
-      "attack_speed_base": 1.1,
       "projectile_damage_base": 11,
       "projectile_speed_base": 0.8,
-      "throw_rate_base": 0.8
+      "throw_rate_base": 0.8,
+      "attack_damage_base": 6,
+      "attack_speed_base": 1
     },
     "lore": "Once a trident of the Slayers,\nbut with Azacor fallen, it has\nbecome something more."
   },
@@ -22225,7 +22298,7 @@
     "stats": {
       "life_drain": 1,
       "mending": 1,
-      "stamina": 2,
+      "stamina": 3,
       "unbreaking": 3,
       "attack_speed_base": 1.7,
       "attack_damage_base": 14.5
@@ -25912,8 +25985,8 @@
       "unbreaking": 30,
       "max_health_flat": -4,
       "thorns_flat": 3,
-      "projectile_damage_percent": 32,
-      "armor": 10.5
+      "armor": 10.5,
+      "projectile_damage_percent": 35
     },
     "lore": "The deepest-rooted Mycelia\nwere even more embroiled with\nZealotry than the Amanita, willing\nto sacrifice anything for their God."
   },
@@ -25950,8 +26023,8 @@
       "unbreaking": 35,
       "max_health_flat": -4,
       "thorns_flat": 3,
-      "projectile_damage_percent": 35,
-      "armor": 10.5
+      "armor": 10.5,
+      "projectile_damage_percent": 40
     },
     "lore": "The deepest-rooted Mycelia\nwere even more embroiled with\nZealotry than the Amanita, willing\nto sacrifice anything for their God."
   },
@@ -33078,7 +33151,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "duelist": 2,
-      "first_strike": 1,
+      "first_strike": 2,
       "unbreaking": 7,
       "attack_speed_base": 1.4,
       "attack_damage_base": 17
@@ -39851,7 +39924,7 @@
     "stats": {
       "earth_aspect": 1,
       "melee_protection": 2,
-      "stamina": 2,
+      "stamina": 3,
       "unbreaking": 7,
       "attack_speed_base": 1.5,
       "attack_damage_base": 15
@@ -39870,7 +39943,7 @@
     "stats": {
       "earth_aspect": 1,
       "melee_protection": 2,
-      "stamina": 1,
+      "stamina": 2,
       "unbreaking": 4,
       "attack_speed_base": 1.5,
       "attack_damage_base": 13
@@ -39889,7 +39962,7 @@
     "stats": {
       "earth_aspect": 1,
       "melee_protection": 2,
-      "stamina": 1,
+      "stamina": 2,
       "unbreaking": 5,
       "attack_speed_base": 1.5,
       "attack_damage_base": 13.5
@@ -39908,7 +39981,7 @@
     "stats": {
       "earth_aspect": 1,
       "melee_protection": 2,
-      "stamina": 1,
+      "stamina": 2,
       "unbreaking": 6,
       "attack_speed_base": 1.5,
       "attack_damage_base": 14.5
@@ -39927,7 +40000,7 @@
     "stats": {
       "earth_aspect": 1,
       "melee_protection": 2,
-      "stamina": 1,
+      "stamina": 2,
       "unbreaking": 5,
       "attack_speed_base": 1.5,
       "attack_damage_base": 14
@@ -40019,7 +40092,7 @@
       "bleeding": 2,
       "fire_aspect": 2,
       "inferno": 4,
-      "quake": 1,
+      "quake": 2,
       "unbreaking": 7,
       "attack_speed_base": 1.2,
       "attack_damage_base": 15.5
@@ -40039,7 +40112,7 @@
       "bleeding": 2,
       "fire_aspect": 2,
       "inferno": 4,
-      "quake": 1,
+      "quake": 2,
       "unbreaking": 6,
       "attack_damage_base": 15,
       "attack_speed_base": 1.2
@@ -40059,7 +40132,7 @@
       "bleeding": 2,
       "fire_aspect": 2,
       "inferno": 4,
-      "quake": 1,
+      "quake": 2,
       "unbreaking": 5,
       "attack_damage_base": 14.5,
       "attack_speed_base": 1.2
@@ -43024,7 +43097,7 @@
       "wind_aspect": 2,
       "speed_percent": 11,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27.5
+      "projectile_damage_base": 28
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -43042,7 +43115,7 @@
       "wind_aspect": 2,
       "speed_percent": 10,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 27.5
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -43060,7 +43133,7 @@
       "wind_aspect": 2,
       "projectile_speed_base": 1,
       "speed_percent": 14,
-      "projectile_damage_base": 29.5
+      "projectile_damage_base": 30
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -43078,7 +43151,7 @@
       "wind_aspect": 2,
       "speed_percent": 12,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 28.5
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -43096,7 +43169,7 @@
       "wind_aspect": 2,
       "speed_percent": 13,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 29
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -59236,7 +59309,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The Snow Wool Spirit has powerful attacks,\nbringing down the festivities themselves onto players.\nCompletion of Vernal Nightmare is recommended\nbefore attempting this boss fight!\nPlayers 1-6 (Keep Inventory, but only 1 life per player)"
+    "lore": "Your quest to find the Snow Wool\nends here.\nCompletion of Vernal Nightmare\nis recommended for this boss!\nThe Snow Wool Spirit's festive\npowers and minions repel all but\nthe most jolly of challengers.\nPlayers 1-6 (One life per player)\nGrants access to Snow Wool Spirit."
   },
   "Permafrost Ice": {
     "name": "Permafrost Ice",
@@ -60324,7 +60397,7 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 5,
+      "point_blank": 4,
       "unbreaking": 5,
       "projectile_speed_base": 1.2,
       "projectile_damage_base": 19.5
@@ -60343,7 +60416,7 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 5,
+      "point_blank": 4,
       "unbreaking": 4,
       "projectile_speed_base": 1.2,
       "projectile_damage_base": 19
@@ -60362,7 +60435,7 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 4,
+      "point_blank": 3,
       "unbreaking": 3,
       "projectile_speed_base": 1.2,
       "projectile_damage_base": 19
@@ -66165,9 +66238,10 @@
     "base_item": "Large Amethyst Bud",
     "release_status": "public",
     "stats": {
+      "blade_dance_damage_percent": 50,
       "blade_dance_radius_percent": 50,
-      "blade_dance_root_duration_flat": 1,
-      "blade_dance_cooldown_percent": 25
+      "blade_dance_root_duration_flat": 0.5,
+      "blade_dance_cooldown_percent": 50
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -68817,6 +68891,29 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Vile Norvigut Tuna": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Vile Norvigut Tuna",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 10800,
+        "EffectStrength": 1,
+        "EffectType": "Poison"
+      },
+      {
+        "EffectDuration": 10800,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Swift Shade Seabass": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -68828,6 +68925,29 @@
         "EffectDuration": 120,
         "EffectStrength": 0.05,
         "EffectType": "BlastResistance"
+      }
+    ],
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Nauseating Norvigut Tuna": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Nauseating Norvigut Tuna",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 14400,
+        "EffectStrength": 1,
+        "EffectType": "Poison"
+      },
+      {
+        "EffectDuration": 14400,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
       }
     ],
     "base_item": "Salmon",
@@ -68940,6 +69060,29 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Repugnant Norvigut Tuna": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Repugnant Norvigut Tuna",
+    "fish_quality": 5,
+    "effects": [
+      {
+        "EffectDuration": 18000,
+        "EffectStrength": 2,
+        "EffectType": "Poison"
+      },
+      {
+        "EffectDuration": 18000,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Masterfully Hexed Salmon": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -69020,6 +69163,52 @@
         "EffectDuration": 1800,
         "EffectStrength": 0.25,
         "EffectType": "MagicVulnerability"
+      }
+    ],
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Disgusting Norvigut Tuna": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Disgusting Norvigut Tuna",
+    "fish_quality": 2,
+    "effects": [
+      {
+        "EffectDuration": 7200,
+        "EffectStrength": 1,
+        "EffectType": "Poison"
+      },
+      {
+        "EffectDuration": 7200,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Unappetizing Norvigut Tuna": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Unappetizing Norvigut Tuna",
+    "fish_quality": 1,
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 1,
+        "EffectType": "Poison"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
       }
     ],
     "base_item": "Salmon",
@@ -69138,6 +69327,29 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Acute Startouched Swordfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Acute Startouched Swordfish",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.05,
+        "EffectType": "MeleeDamage"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.2,
+        "EffectType": "MeleeVulnerability"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Tender Keep-side Sardine": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -69220,6 +69432,39 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Sparkling Crystallized Cod": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Sparkling Crystallized Cod",
+    "fish_quality": 3,
+    "effects": [
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.05,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.05,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.05,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Bulky Keep-side Sardine": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -69236,6 +69481,39 @@
         "EffectDuration": 360,
         "EffectStrength": 0.06,
         "EffectType": "MeleeResistance"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Lustrous Crystallized Cod": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Lustrous Crystallized Cod",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.05,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.05,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.05,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
       }
     ],
     "base_item": "Cod",
@@ -69307,6 +69585,29 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Piercing Startouched Swordfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Piercing Startouched Swordfish",
+    "fish_quality": 4,
+    "effects": [
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeDamage"
+      },
+      {
+        "EffectDuration": 3000,
+        "EffectStrength": 0.15,
+        "EffectType": "MeleeVulnerability"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Massive Wolfswood Carp": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -69366,6 +69667,29 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Razor-Edged Startouched Swordfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Razor-Edged Startouched Swordfish",
+    "fish_quality": 5,
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeDamage"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeVulnerability"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Pleasant Mungfish": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -69412,6 +69736,39 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Prismatic Crystallized Cod": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Prismatic Crystallized Cod",
+    "fish_quality": 5,
+    "effects": [
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 3600,
+        "EffectStrength": 0.1,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 36000,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Immaculate Keep-side Sardine": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -69446,6 +69803,39 @@
         "EffectDuration": 140,
         "EffectStrength": 1,
         "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Reflective Crystallized Cod": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Reflective Crystallized Cod",
+    "fish_quality": 2,
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.05,
+        "EffectType": "Vulnerability"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.05,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.05,
+        "EffectType": "Weakness"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
       }
     ],
     "base_item": "Cod",
@@ -69517,6 +69907,29 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Sharp Startouched Swordfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Sharp Startouched Swordfish",
+    "fish_quality": 2,
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.05,
+        "EffectType": "MeleeDamage"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.25,
+        "EffectType": "MeleeVulnerability"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Soft Keep-side Sardine": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -69528,6 +69941,29 @@
         "EffectDuration": 360,
         "EffectStrength": 0.03,
         "EffectType": "ProjectileResistance"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Keen Startouched Swordfish": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Keen Startouched Swordfish",
+    "fish_quality": 1,
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.05,
+        "EffectType": "MeleeDamage"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.3,
+        "EffectType": "MeleeVulnerability"
       }
     ],
     "base_item": "Cod",
@@ -69610,6 +70046,39 @@
         "EffectDuration": 100,
         "EffectStrength": 1,
         "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Hard Crystallized Cod": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Fish",
+    "name": "Hard Crystallized Cod",
+    "fish_quality": 1,
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "Vulnerability"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "Slow"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "Weakness"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "Glowing"
       }
     ],
     "base_item": "Cod",
@@ -70044,12 +70513,11 @@
     "type": "Offhand",
     "stats": {
       "adaptability": 1,
+      "melee_protection": 2,
       "regeneration": 1,
-      "retrieval": 2,
-      "sustenance": 2,
-      "armor": 6.5,
-      "throw_rate_percent": 10,
-      "projectile_damage_percent": 12
+      "armor": 5,
+      "max_health_flat": 3,
+      "projectile_damage_percent": 20
     },
     "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
   },
@@ -70064,12 +70532,11 @@
     "type": "Offhand",
     "stats": {
       "adaptability": 1,
+      "melee_protection": 2,
       "regeneration": 1,
-      "retrieval": 2,
-      "sustenance": 2,
-      "throw_rate_percent": 10,
-      "armor": 6,
-      "projectile_damage_percent": 12
+      "armor": 4.5,
+      "max_health_flat": 3,
+      "projectile_damage_percent": 15
     },
     "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
   },
@@ -70084,12 +70551,11 @@
     "type": "Offhand",
     "stats": {
       "adaptability": 1,
+      "melee_protection": 2,
       "regeneration": 1,
-      "retrieval": 2,
-      "sustenance": 1,
-      "throw_rate_percent": 10,
-      "armor": 6,
-      "projectile_damage_percent": 12
+      "armor": 4.5,
+      "max_health_flat": 2,
+      "projectile_damage_percent": 15
     },
     "lore": "The deeper you gaze into the orb,\nthe more you ponder the great\nquestions of the universe."
   },
@@ -71623,14 +72089,14 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "sustenance": 1,
+      "triage": 2,
       "unbreakable": 1,
-      "fire_aspect": 2,
-      "ice_aspect": 1,
-      "attack_damage_base": 10,
-      "attack_speed_base": 2,
       "armor": 2,
-      "magic_damage_percent": 10,
-      "agility": 2
+      "agility": 2,
+      "attack_damage_base": 13,
+      "attack_speed_base": 1.6,
+      "magic_damage_percent": 13
     },
     "lore": "Even through the intense pressure\nof the depths, you can feel it\nshivering with anticipation. ready.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DD Key Item *"
   },
@@ -72913,7 +73379,7 @@
     "type": "Scythe",
     "stats": {
       "regicide": 2,
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 60,
       "attack_speed_base": 1.3,
       "attack_damage_base": 15.5
@@ -72931,7 +73397,7 @@
     "type": "Scythe",
     "stats": {
       "regicide": 2,
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 50,
       "attack_speed_base": 1.3,
       "attack_damage_base": 14.5
@@ -72949,7 +73415,7 @@
     "type": "Scythe",
     "stats": {
       "regicide": 2,
-      "trivium": 1,
+      "trivium": 2,
       "unbreaking": 55,
       "attack_speed_base": 1.3,
       "attack_damage_base": 15
@@ -74645,7 +75111,7 @@
       "unbreaking": 9,
       "thorns_flat": 4,
       "attack_speed_base": 0.8,
-      "attack_damage_base": 20
+      "attack_damage_base": 21
     },
     "lore": "The Vedha saw no reason to limit herself\nto just the power of Water, when Earth\nwould work deliciously. Her methods may\nbe brutal, but none dared stop her."
   },
@@ -74667,7 +75133,7 @@
       "unbreaking": 5,
       "thorns_flat": 3,
       "attack_speed_base": 0.8,
-      "attack_damage_base": 18.5
+      "attack_damage_base": 19
     },
     "lore": "The Vedha saw no reason to limit herself\nto just the power of Water, when Earth\nwould work deliciously. Her methods may\nbe brutal, but none dared stop her."
   },
@@ -74689,7 +75155,7 @@
       "unbreaking": 8,
       "thorns_flat": 4,
       "attack_speed_base": 0.8,
-      "attack_damage_base": 19.5
+      "attack_damage_base": 20
     },
     "lore": "The Vedha saw no reason to limit herself\nto just the power of Water, when Earth\nwould work deliciously. Her methods may\nbe brutal, but none dared stop her."
   },
@@ -74711,7 +75177,7 @@
       "unbreaking": 7,
       "thorns_flat": 3,
       "attack_speed_base": 0.8,
-      "attack_damage_base": 19
+      "attack_damage_base": 19.5
     },
     "lore": "The Vedha saw no reason to limit herself\nto just the power of Water, when Earth\nwould work deliciously. Her methods may\nbe brutal, but none dared stop her."
   },
@@ -75363,9 +75829,7 @@
     "base_item": "Blue Dye",
     "release_status": "public",
     "stats": {
-      "blade_dance_damage_percent": 30,
       "blade_dance_cooldown_percent": -50,
-      "blade_dance_radius_percent": -30,
       "blade_dance_root_duration_flat": -1,
       "blade_dance_resistance_duration_flat": -0.5
     },
@@ -75569,6 +76033,17 @@
     "region": "Ring",
     "tier": "Legacy",
     "name": "Uriddan's Eternal Call (A15)",
+    "base_item": "Goat Horn",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Before, there were armies of Knights. Now,\ntheir numbers are collapsing. This is all\nthanks to what Uriddan needs. Only his mission\nmattered. As slumbering Knights across the\nworld were slaughtered, their essence\nreturned to him, leaving a trail of corpses\nand confused and injured people behind.\nAll in the service of the great Architect."
+  },
+  "Uriddan's Eternal Call (A18)": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Uriddan's Eternal Call (A18)",
     "base_item": "Goat Horn",
     "release_status": "public",
     "type": "Misc",
@@ -77168,13 +77643,13 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Lunacrestum Pulsar",
-    "power": 4,
+    "power": 5,
     "base_item": "Raw Gold Block",
     "release_status": "public",
     "stats": {
-      "luminous_infusion_infused_hits_flat": 1,
-      "luminous_infusion_damage_percent": -20,
-      "luminous_infusion_radius_percent": -20
+      "luminous_infusion_infused_hits_flat": 2,
+      "luminous_infusion_damage_percent": -45,
+      "luminous_infusion_cooldown_percent": 30
     },
     "type": "Charm",
     "class_name": "Cleric"

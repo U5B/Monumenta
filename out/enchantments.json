@@ -56,7 +56,7 @@
   },
   "ashesofeternity": {
     "name": "Ashes of Eternity",
-    "description": "Applies the effect of Resurrection upon death while holding this item. This removes the enchant from the item. If the item has the enchant by default, it will be restored after every weekly update.",
+    "description": "Applies the effect of Resurrection upon death while holding in mainhand. When a player triggers this effect, the enchant is marked as \"Used\" and becomes unusable to them until the next new day. The enchant is refreshed and mark is removed when clicking with the item in mainhand, if a new day has occurred since last use.",
     "category": "Consumables"
   },
   "aura": {
@@ -296,7 +296,7 @@
   },
   "firststrike": {
     "name": "First Strike",
-    "description": "The first melee hit against a mob deals 10 * level % more damage, the first projectile hit against a mob deals 7.5 * level % more damage.",
+    "description": "The first melee hit against a mob deals 10 * level % more damage, and the first projectile hit against a mob deals 7.5 * level % more damage. The bonus damage can be reapplied to the same target every 3 seconds.",
     "category": "Weapons"
   },
   "focus": {
@@ -469,10 +469,20 @@
     "description": "Items with Mending that are worn or held repair 2 durability per xp orb consumed, chosen at random among your items with Mending.",
     "category": "Passives"
   },
+  "meowing": {
+    "name": "Meowing",
+    "description": "Meow mrow",
+    "category": "Cosmetic"
+  },
   "mitosis": {
     "name": "Mitosis",
     "description": "Mining a spawner debuffs all enemies in a 5 block radius with (level * 3.75)% Weaken for 3 seconds.",
     "category": "Delve Infusions"
+  },
+  "mooing": {
+    "name": "Mooing",
+    "description": "Mooooooo",
+    "category": "Cosmetic"
   },
   "multishot": {
     "name": "Multishot",
