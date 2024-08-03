@@ -5031,20 +5031,10 @@
     "description": "Items with Mending that are worn or held repair 2 durability per xp orb consumed, chosen at random among your items with Mending.",
     "parent": "monumenta:handbook/enchantments/unbreaking"
   },
-  "monumenta:handbook/enchantments/meowing": {
-    "title": "Meowing",
-    "description": "Meow mrow",
-    "parent": "monumenta:handbook/enchantments/baaing"
-  },
   "monumenta:handbook/enchantments/mitosis": {
     "title": "Mitosis",
     "description": "Mining a spawner debuffs all enemies in a 5 block radius with (level * 3.75)% Weaken for 3 seconds.",
     "parent": "monumenta:handbook/enchantments/reflection"
-  },
-  "monumenta:handbook/enchantments/mooing": {
-    "title": "Mooing",
-    "description": "Mooooooo",
-    "parent": "monumenta:handbook/enchantments/meowing"
   },
   "monumenta:handbook/enchantments/multishot": {
     "title": "Multishot",
