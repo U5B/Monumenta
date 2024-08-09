@@ -41,7 +41,7 @@
   },
   "arcane_thrust": {
     "name": "Arcane Thrust",
-    "description": "Your attacks damage all enemies 3 blocks in front of you, in a 0.6-block-wide line.  Damage: 1 + melee damage dealt * level / (level + 1)",
+    "description": "Your melee attacks damage all enemies 3 blocks in front of you, in a 0.6-block-wide line, dealt as melee damage.  Damage: 1 + base damage * level / (level + 1)",
     "category": "Weapons"
   },
   "ardor": {
