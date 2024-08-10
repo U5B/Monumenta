@@ -20788,11 +20788,11 @@
       "knockback": 1,
       "smite": 3,
       "unbreaking": 2,
-      "attack_damage_base": 8,
-      "attack_speed_base": 1.1,
       "projectile_damage_base": 11,
       "projectile_speed_base": 0.8,
-      "throw_rate_base": 0.8
+      "throw_rate_base": 0.8,
+      "attack_damage_base": 6,
+      "attack_speed_base": 1
     },
     "lore": "Lightbringer's beauty, corrupted deeply\nby Azacor's fateful wounds. Perhaps now\nhe still uses it to cause pain."
   },
@@ -20816,14 +20816,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "knockback": 1,
       "smite": 3,
       "unbreaking": 2,
-      "knockback": 1,
-      "attack_damage_base": 8,
-      "attack_speed_base": 1.1,
       "projectile_damage_base": 11,
       "projectile_speed_base": 0.8,
-      "throw_rate_base": 0.8
+      "throw_rate_base": 0.8,
+      "attack_damage_base": 6,
+      "attack_speed_base": 1
     },
     "lore": "Its brilliant starlight shines forth\nto guide foes to their destiny."
   },
@@ -23883,6 +23883,21 @@
       "attack_damage_percent": 25
     },
     "lore": "The claws of a jaguar.\nThe soul of the jungle."
+  },
+  "Worn Claymore": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Worn Claymore",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "unbreaking": 1,
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 7
+    },
+    "lore": "An unusually large and heavy\ngreatsword normally wielded\nwith two hands. It looks worn."
   },
   "Irrus' Brace": {
     "location": "Celsian Isles",
@@ -67447,7 +67462,7 @@
   "Piggy Bank": {
     "location": "The Wolfswood",
     "region": "Ring",
-    "tier": "Rare",
+    "tier": "Artifact",
     "name": "Piggy Bank",
     "base_item": "Porkchop",
     "release_status": "public",
