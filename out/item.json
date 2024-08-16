@@ -65876,6 +65876,17 @@
     },
     "lore": "To imprison beings of such power, the Knights\nrequired magic without equal."
   },
+  "Celestial Gem": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Celestial Gem",
+    "base_item": "Amethyst Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Radiance from the Stars coalesces into\na shimmering gemstone in your hands.\nUpgrades a Zenith Charm to the next rarity.\nCannot be used on the same charm more than once.\nRight Click onto a Zenith Charm to use."
+  },
   "Aether Edge": {
     "location": "Brown",
     "region": "Ring",
@@ -67646,17 +67657,6 @@
     },
     "lore": "The longer plasma remains in the gun,\nthe more that can go wrong."
   },
-  "Indigo Scented Candle": {
-    "location": "Transmogrifier",
-    "region": "Ring",
-    "tier": "Currency",
-    "name": "Indigo Scented Candle",
-    "base_item": "Purple Candle",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Used to Transmogrify Zenith Charms.\nRight Button while in main hand to activate."
-  },
   "Lime Scented Candle": {
     "location": "Transmogrifier",
     "region": "Ring",
@@ -68111,6 +68111,28 @@
     "type": "Misc",
     "stats": {},
     "lore": "Used to Transmogrify Rare items.\nRight Button while in main hand to activate."
+  },
+  "Dawnbringer's Candle": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Dawnbringer's Candle",
+    "base_item": "Yellow Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Guarantees a Dawnbringer charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
+  },
+  "Frostborn's Candle": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Frostborn's Candle",
+    "base_item": "Light Blue Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Guarantees a Frostborn charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
   },
   "Stellar Augment": {
     "location": "Architect's Ring",
@@ -70470,6 +70492,7 @@
   },
   "Soul Grubs": {
     "location": "Fishing",
+    "region": "Ring",
     "name": "Soul Grubs",
     "base_item": "Melon Seeds",
     "release_status": "public",
@@ -76404,6 +76427,117 @@
     "stats": {},
     "lore": "Many attempted the arduous climb, yet\nyou ascended the trail of temperance.\nGiven to those who did not abuse the Zenith\nrevive exploit before it was patched."
   },
+  "Indigo Scented Candle": {
+    "location": "Transmogrifier",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Indigo Scented Candle",
+    "base_item": "Purple Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Used to Transmogrify Zenith Charms.\nRight Button while in main hand to activate."
+  },
+  "Windwalker's Candle": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Windwalker's Candle",
+    "base_item": "White Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Guarantees a Windwalker charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
+  },
+  "Shadowdancer's Candle": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Shadowdancer's Candle",
+    "base_item": "Black Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Guarantees a Shadowdancer charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
+  },
+  "Final Herald's Lifeblood": {
+    "location": "Sirius",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Final Herald's Lifeblood",
+    "power": 4,
+    "base_item": "Black Candle",
+    "release_status": "public",
+    "stats": {
+      "desecrating_shot_cooldown_percent": -50,
+      "desecrating_shot_damage_percent": 10,
+      "desecrating_shot_radius_flat": -1,
+      "desecrating_shot_weakness_amplifier_percent": -15
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Eroded Sconce": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Eroded Sconce",
+    "power": 2,
+    "base_item": "Black Candle",
+    "release_status": "public",
+    "stats": {
+      "decay_damage_percent": 100
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Corroded Sconce": {
+    "location": "The Wolfswood",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Corroded Sconce",
+    "power": 3,
+    "base_item": "Black Candle",
+    "release_status": "public",
+    "stats": {
+      "decay_damage_percent": 250
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Earthbound's Candle": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Earthbound's Candle",
+    "base_item": "Brown Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Guarantees a Earthbound charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
+  },
+  "Steelsage's Candle": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Steelsage's Candle",
+    "base_item": "Gray Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Guarantees a Steelsage charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
+  },
+  "Flamecaller's Candle": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Flamecaller's Candle",
+    "base_item": "Orange Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Guarantees a Flamecaller charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
+  },
   "Charms Trinket": {
     "name": "Charms Trinket",
     "base_item": "Purple Dye",
@@ -76784,51 +76918,6 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
-  },
-  "Final Herald's Lifeblood": {
-    "location": "Sirius",
-    "region": "Ring",
-    "tier": "Epic",
-    "name": "Final Herald's Lifeblood",
-    "power": 4,
-    "base_item": "Black Candle",
-    "release_status": "public",
-    "stats": {
-      "desecrating_shot_cooldown_percent": -50,
-      "desecrating_shot_damage_percent": 10,
-      "desecrating_shot_radius_flat": -1,
-      "desecrating_shot_weakness_amplifier_percent": -15
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Eroded Sconce": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Eroded Sconce",
-    "power": 2,
-    "base_item": "Black Candle",
-    "release_status": "public",
-    "stats": {
-      "decay_damage_percent": 100
-    },
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
-  "Corroded Sconce": {
-    "location": "The Wolfswood",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Corroded Sconce",
-    "power": 3,
-    "base_item": "Black Candle",
-    "release_status": "public",
-    "stats": {
-      "decay_damage_percent": 250
-    },
-    "type": "Charm",
-    "class_name": "Generalist"
   },
   "Unstable Reactor": {
     "location": "PORTAL",
@@ -82263,6 +82352,7 @@
   "Golden Grooves": {
     "location": "Shifting",
     "region": "Isles",
+    "tier": "Artifact",
     "name": "Golden Grooves",
     "base_item": "Music Disc 13",
     "release_status": "public",
@@ -83741,6 +83831,7 @@
   "Frayed Cacophony": {
     "location": "Shifting",
     "region": "Isles",
+    "tier": "Artifact",
     "name": "Frayed Cacophony",
     "base_item": "Music Disc Blocks",
     "release_status": "public",
