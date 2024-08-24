@@ -38616,11 +38616,6 @@
     "name": "Jar of Clucks",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 20,
         "EffectStrength": 1,
         "EffectType": "Clucking"
@@ -38736,21 +38731,16 @@
     "name": "Antidote",
     "effects": [
       {
-        "EffectDuration": 120,
-        "EffectStrength": 3,
-        "EffectType": "Regeneration"
-      },
-      {
-        "EffectDuration": 20,
-        "EffectStrength": 3,
-        "EffectType": "Poison"
+        "EffectDuration": 200,
+        "EffectStrength": 2,
+        "EffectType": "PoisonImmunity"
       }
     ],
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "Removes Poison II or lower."
+    "lore": "Removes and grants immunity\nto Poison II and lower."
   },
   "Minor Healing Vial": {
     "location": "King's Valley",
@@ -63872,7 +63862,7 @@
       "armor": 10,
       "speed_percent": 15
     },
-    "lore": "Her time spent in Galengarde gave Bermuda\na quite reasonable fear of heights.\nShe crafted these so that she'd never\nneed fear again."
+    "lore": "Her time spent in Galengarde gave Bermuda\na quite reasonable fear of heights.\nShe crafted these so that she'd never\nneed to fear again."
   },
   "Long Drop Boots-3": {
     "location": "PORTAL",
@@ -63891,7 +63881,7 @@
       "armor": 9.5,
       "speed_percent": 10
     },
-    "lore": "Her time spent in Galengarde gave Bermuda\na quite reasonable fear of heights.\nShe crafted these so that she'd never\nneed fear again."
+    "lore": "Her time spent in Galengarde gave Bermuda\na quite reasonable fear of heights.\nShe crafted these so that she'd never\nneed to fear again."
   },
   "Long Drop Boots-2": {
     "location": "PORTAL",
@@ -63910,7 +63900,7 @@
       "armor": 9,
       "speed_percent": 10
     },
-    "lore": "Her time spent in Galengarde gave Bermuda\na quite reasonable fear of heights.\nShe crafted these so that she'd never\nneed fear again."
+    "lore": "Her time spent in Galengarde gave Bermuda\na quite reasonable fear of heights.\nShe crafted these so that she'd never\nneed to fear again."
   },
   "Sludge Stompers-4": {
     "location": "Brown",
@@ -65885,7 +65875,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Radiance from the Stars coalesces into\na shimmering gemstone in your hands.\nUpgrades a Zenith Charm to the next rarity.\nCannot be used on the same charm more than once.\nRight Click onto a Zenith Charm to use."
+    "lore": "Radiance from the Stars coalesces into\na shimmering gemstone in your hands.\nUpgrades a Zenith Charm to the next rarity.\nCannot be used on the same charm more than once.\nf on a Zenith Charm to preview the upgrade.\nRight Click onto a Zenith Charm to use."
   },
   "Aether Edge": {
     "location": "Brown",
@@ -66228,6 +66218,17 @@
     "stats": {},
     "lore": "Can be sold or transmogrified\nlike any other tier III item.\nCan be put into a wallet."
   },
+  "Shattered Gem": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Shattered Gem",
+    "base_item": "Medium Amethyst Bud",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Something has fractured this gem beyond recognition...\nbut perhaps its luster can be restored.\nBring to The Rionnagfaire to unlock its full potential."
+  },
   "Arcane Pigment": {
     "location": "Light Blue",
     "region": "Valley",
@@ -66254,6 +66255,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Words of power are contained within this stone.\nNo matter which angle you look at it from,\nyou can see the moon in its reflection.\nThis night, it shines particularly brightly.\n* Quest Item \n#Q205I09"
+  },
+  "Flickering Gem": {
+    "location": "Zenith",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Flickering Gem",
+    "base_item": "Large Amethyst Bud",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The gem seems to flicker with the light of dying Stars...\nbut perhaps its radiance can be restored.\nBring to The Rionnagfaire to unlock its full potential."
   },
   "Silvari Blade Handle": {
     "location": "Starpoint",
