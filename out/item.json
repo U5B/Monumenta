@@ -65370,6 +65370,43 @@
     "stats": {},
     "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Regular Creeper\nNote: Long fuse, zero explosion"
   },
+  "Arcane Amethyst": {
+    "name": "Arcane Amethyst",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A large gemstone, imported from lands\nbeyond, and imbued with the dream itself.\nIts surface ripples with unseen things.\n* Quest Item *\n#Q216I04"
+  },
+  "Astral Attractor": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Astral Attractor",
+    "power": 3,
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "stats": {
+      "melancholic_lament_enhancement_damage_modifier_percent": 2.5,
+      "melancholic_lament_cooldown_percent": -30,
+      "melancholic_lament_weakness_amplifier_percent": -10,
+      "melancholic_lament_enhancement_duration_percent": -30,
+      "melancholic_lament_silence_radius_percent": -95
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
+  "Arcane Crystal": {
+    "location": "Light Blue",
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Arcane Crystal",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material"
+  },
   "Construct Core": {
     "name": "Construct Core",
     "base_item": "Fire Charge",
@@ -67316,43 +67353,6 @@
     "stats": {},
     "lore": "A mysterious, curse-stained substance."
   },
-  "Arcane Amethyst": {
-    "name": "Arcane Amethyst",
-    "base_item": "Echo Shard",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A large gemstone, imported from lands\nbeyond, and imbued with the dream itself.\nIts surface ripples with unseen things.\n* Quest Item *\n#Q216I04"
-  },
-  "Astral Attractor": {
-    "location": "Starpoint",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Astral Attractor",
-    "power": 3,
-    "base_item": "Echo Shard",
-    "release_status": "public",
-    "stats": {
-      "melancholic_lament_enhancement_damage_modifier_percent": 2.5,
-      "melancholic_lament_cooldown_percent": -30,
-      "melancholic_lament_weakness_amplifier_percent": -10,
-      "melancholic_lament_enhancement_duration_percent": -30,
-      "melancholic_lament_silence_radius_percent": -95
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
-  },
-  "Arcane Crystal": {
-    "location": "Light Blue",
-    "region": "Valley",
-    "tier": "Currency",
-    "name": "Arcane Crystal",
-    "base_item": "Echo Shard",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Epic Crafting Material"
-  },
   "Ex Nihil": {
     "name": "Ex Nihil",
     "base_item": "Netherite Sword",
@@ -68134,6 +68134,77 @@
     "type": "Misc",
     "stats": {},
     "lore": "Guarantees a Dawnbringer charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
+  },
+  "Maestro Bauble": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Maestro Bauble",
+    "power": 4,
+    "base_item": "Scute",
+    "release_status": "public",
+    "stats": {
+      "smite_damage_percent": 50,
+      "slayer_damage_percent": 50,
+      "duelist_damage_percent": 50
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Specialist Bauble": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Specialist Bauble",
+    "power": 2,
+    "base_item": "Scute",
+    "release_status": "public",
+    "stats": {
+      "smite_damage_percent": 20,
+      "slayer_damage_percent": 20,
+      "duelist_damage_percent": 20
+    },
+    "type": "Charm",
+    "class_name": "Generalist"
+  },
+  "Piece of Hate (Tails)": {
+    "location": "Purple",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Piece of Hate (Tails)",
+    "base_item": "Scute",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A symbol of pure emotion.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D11 Key 2-2 *"
+  },
+  "Piece of Hate (Heads)": {
+    "location": "Purple",
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Piece of Hate (Heads)",
+    "base_item": "Scute",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A symbol of pure emotion.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D11 Key 1-2 *"
+  },
+  "Mutated Scale": {
+    "location": "Lime",
+    "region": "Isles",
+    "tier": "Uncommon",
+    "name": "Mutated Scale",
+    "base_item": "Scute",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "fire_protection": 2,
+      "material": 1,
+      "melee_protection": 2,
+      "speed_percent": 10,
+      "agility": 3.5,
+      "attack_damage_percent": 12
+    }
   },
   "Frostborn's Candle": {
     "location": "Zenith",
@@ -76700,6 +76771,17 @@
     "stats": {},
     "lore": "Spinning V\nKing's Valley : Unique"
   },
+  "Pulsating Dust Fragment": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Pulsating Dust Fragment",
+    "base_item": "Sugar Cane",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Can be sold or transmogrified\nlike any other tier V item.\nCan be put into a wallet."
+  },
   "Teliko Theama": {
     "location": "Sirius",
     "region": "Ring",
@@ -76873,6 +76955,13 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
+  "Bloodroot Soup": {
+    "name": "Bloodroot Soup",
+    "base_item": "Beetroot Soup",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Propulsion Engine": {
     "location": "PORTAL",
     "region": "Ring",
@@ -76915,6 +77004,22 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Bloodlust": {
+    "location": "Sanguine Halls",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bloodlust",
+    "power": 3,
+    "base_item": "Red Glazed Terracotta",
+    "release_status": "public",
+    "stats": {
+      "glorious_battle_charges_flat": 1,
+      "glorious_battle_damage_percent": -10,
+      "glorious_battle_velocity_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
   },
   "Totem of the Tombstone": {
     "location": "Sirius",
@@ -76996,77 +77101,6 @@
     },
     "type": "Charm",
     "class_name": "Generalist"
-  },
-  "Maestro Bauble": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Maestro Bauble",
-    "power": 4,
-    "base_item": "Scute",
-    "release_status": "public",
-    "stats": {
-      "smite_damage_percent": 50,
-      "slayer_damage_percent": 50,
-      "duelist_damage_percent": 50
-    },
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
-  "Specialist Bauble": {
-    "location": "Pelias' Keep",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Specialist Bauble",
-    "power": 2,
-    "base_item": "Scute",
-    "release_status": "public",
-    "stats": {
-      "smite_damage_percent": 20,
-      "slayer_damage_percent": 20,
-      "duelist_damage_percent": 20
-    },
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
-  "Piece of Hate (Tails)": {
-    "location": "Purple",
-    "region": "Isles",
-    "tier": "Key",
-    "name": "Piece of Hate (Tails)",
-    "base_item": "Scute",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A symbol of pure emotion.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D11 Key 2-2 *"
-  },
-  "Piece of Hate (Heads)": {
-    "location": "Purple",
-    "region": "Isles",
-    "tier": "Key",
-    "name": "Piece of Hate (Heads)",
-    "base_item": "Scute",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A symbol of pure emotion.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D11 Key 1-2 *"
-  },
-  "Mutated Scale": {
-    "location": "Lime",
-    "region": "Isles",
-    "tier": "Uncommon",
-    "name": "Mutated Scale",
-    "base_item": "Scute",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "fire_protection": 2,
-      "material": 1,
-      "melee_protection": 2,
-      "speed_percent": 10,
-      "agility": 3.5,
-      "attack_damage_percent": 12
-    }
   },
   "Keter Core": {
     "location": "SKT",
@@ -77247,22 +77281,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "The portal inside allows you to\nreach all of the trinkets you've\nencountered in your journeys.\nRight Click in your hand or\ninventory to access your trinkets."
-  },
-  "Bloodlust": {
-    "location": "Sanguine Halls",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Bloodlust",
-    "power": 3,
-    "base_item": "Red Glazed Terracotta",
-    "release_status": "public",
-    "stats": {
-      "glorious_battle_charges_flat": 1,
-      "glorious_battle_damage_percent": -10,
-      "glorious_battle_velocity_percent": -10
-    },
-    "type": "Charm",
-    "class_name": "Warrior"
   },
   "Duelist's Sigil": {
     "location": "SKT",
@@ -82535,13 +82553,6 @@
     },
     "lore": "The safest pet in existence.\nAlso very RED."
   },
-  "Bloodroot Soup": {
-    "name": "Bloodroot Soup",
-    "base_item": "Beetroot Soup",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Challenger's Emblem": {
     "location": "Challenger",
     "region": "Valley",
@@ -82608,17 +82619,6 @@
       "spell_power_base": 50
     },
     "lore": "The flame cares not who gets burnt."
-  },
-  "Pulsating Dust Fragment": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Pulsating Dust Fragment",
-    "base_item": "Sugar Cane",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Can be sold or transmogrified\nlike any other tier V item.\nCan be put into a wallet."
   },
   "Threadwarped Key": {
     "location": "Verdant",
