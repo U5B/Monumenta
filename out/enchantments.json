@@ -274,6 +274,11 @@
     "description": "Multiplies fall damage taken by (0.96) ^ (3 * level).",
     "category": "Defenses"
   },
+  "fervor": {
+    "name": "Fervor",
+    "description": "Deal 1.5% additional damage per level for 3s after gaining a buff that lasts at least 5s.",
+    "category": "Delve Infusions"
+  },
   "festive": {
     "name": "Festive",
     "description": "While equipped, gain an aura of festive particles that improve with every additional item.",
@@ -756,7 +761,7 @@
   },
   "thorns_damage": {
     "name": "Thorns Damage",
-    "description": "Deal (level) damage to a mob when it damages you with melee or projectile damage",
+    "description": "Deal (level) damage to a mob when it damages you with melee or projectile damage.",
     "category": "Passives"
   },
   "throwingknife": {
