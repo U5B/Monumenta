@@ -773,6 +773,21 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
+  "Poisoned Wisteria": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Poisoned Wisteria",
+    "power": 2,
+    "base_item": "Wither Rose",
+    "release_status": "public",
+    "stats": {
+      "enchanted_prayer_cooldown_percent": -40,
+      "enchanted_prayer_healing_percent": -10
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
   "Focused Charm of the Gorgon": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -2297,6 +2312,17 @@
     "region": "Ring",
     "tier": "Currency",
     "name": "Star Point Fragment",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An item, crushed to pieces.\nMaybe it can be turned back into an item?"
+  },
+  "Hexfall Fragment": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Hexfall Fragment",
     "base_item": "Player Head",
     "release_status": "public",
     "type": "Misc",
@@ -13365,6 +13391,25 @@
       "attack_damage_percent": 65
     }
   },
+  "Last Respects-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Last Respects",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "curse_of_crippling": 1,
+      "quake": 4,
+      "unbreaking": 55,
+      "knockback_resistance_flat": 2,
+      "attack_damage_base": 16,
+      "attack_speed_base": 1.4
+    },
+    "lore": "With Hycenea sealed inside Blue alongside Harrakfar,\nher grasp over the Wolfswood disappeared entirely.\nIt did not concern her, however. Her reunion with\nHarrakfar was all that she needed."
+  },
   "Symbiosis-3": {
     "location": "The Wolfswood",
     "masterwork": "3",
@@ -16447,6 +16492,26 @@
     },
     "lore": "The Machine needed to watch each inch of\nNeo Antium in order to keep its inhabitants\nsafe - and in line."
   },
+  "Bryophyte Roots-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Bryophyte Roots",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fire_protection": 4,
+      "life_drain": 1,
+      "sustenance": 2,
+      "unbreaking": 25,
+      "attack_speed_percent": 18,
+      "max_health_flat": 5,
+      "agility": 5
+    },
+    "lore": "The Genius Loci buried his roots deep within the\nfoundation of the Sanctum. Ru'Ten didn't have a\nreason to leave the chamber, why would he?\nHe was certain Harrakfar would be safe here..."
+  },
   "Flesh Without Names-1": {
     "location": "Starpoint",
     "masterwork": "1",
@@ -17219,6 +17284,26 @@
     },
     "lore": "While the mind who planned the assault\non Galengarde was sharp as a knife,\na blunter sort of tool was required\nfor the plot's execution."
   },
+  "The Knucklebones-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "The Knucklebones",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "curse_of_crippling": 2,
+      "knockback": 1,
+      "poise": 2,
+      "unbreaking": 7,
+      "attack_damage_base": 23,
+      "attack_speed_base": 0.7,
+      "knockback_resistance_flat": 4
+    },
+    "lore": "High-ranking Witchknights wielded large wrought-iron\nwaraxes, with iron knuckles forged into their crests.\nIts purpose was left unclear to their enemies.\nThen it hit them."
+  },
   "Shroombane-2": {
     "location": "Quest Reward",
     "masterwork": "2",
@@ -17606,7 +17691,7 @@
     "type": "Axe",
     "stats": {
       "ice_aspect": 3,
-      "quake": 2,
+      "quake": 3,
       "shielding": 1,
       "unbreakable": 1,
       "attack_speed_base": 0.6,
@@ -18616,6 +18701,24 @@
       "agility": 4.5
     },
     "lore": "As the mechanism whirs to life, you feel\nthe vitality of the ancient construct flowing\nthrough your very soul."
+  },
+  "Nature's Failure-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Nature's Failure",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "adrenaline": 1,
+      "sustenance": 3,
+      "unbreaking": 25,
+      "agility": 10,
+      "attack_speed_flat": 0.15
+    },
+    "lore": "Ru'Ten had failed to guard Harrakfar within the\nSanctum, a greatest shame. His power drained for\nwhat seemed like millennia, and yet a vengeance\nremained, yearning for his return."
   },
   "Treads of the Hungerer-4": {
     "location": "Blue",
@@ -35505,6 +35608,25 @@
     },
     "lore": "Each one is but a speck in the sky, all but\nthe star that shines the brightest."
   },
+  "Hexcrafted Barrier-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Hexcrafted Barrier",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "magic_protection": 2,
+      "mending": 1,
+      "projectile_protection": 2,
+      "technique": 3,
+      "speed_percent": 10,
+      "agility": 7
+    },
+    "lore": "Potent magic seals Harrakfar, keeping him separated\nfrom the outside, and from Hycenea. She couldn't\nmanage freeing him, but she could perhaps rejoin\nher love in other ways."
+  },
   "Remnants of Isharist-4": {
     "location": "SKT",
     "masterwork": "4",
@@ -38160,6 +38282,25 @@
       "potion_damage_flat": 12.5
     },
     "lore": "The contents of the flask glimmer menacingly,\nbut the crystal encasing it holds firm."
+  },
+  "Amberlight Vial-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Amberlight Vial",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "feather_falling": 2,
+      "technique": 2,
+      "potion_radius_flat": 3,
+      "potion_damage_flat": 11.7,
+      "projectile_speed_base": 1
+    },
+    "lore": "Vibrant berries adorn the outer casing of the\notherwise ancient apparatus, growing off the\nintense magical index harbored within."
   },
   "Brimstone Alembic-3": {
     "location": "Reverie",
@@ -42346,6 +42487,27 @@
       "armor": 7
     },
     "lore": "Something lived in the city by the emptiness\nonce. Whatever it once was had to be eliminated\nonce Uriddan commanded it..."
+  },
+  "Agaric Abhorrence-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Agaric Abhorrence",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "curse_of_anemia": 2,
+      "mending": 1,
+      "regeneration": 2,
+      "unbreaking": 4,
+      "max_health_percent": -25,
+      "speed_percent": 15,
+      "armor": 12,
+      "attack_damage_percent": 40
+    },
+    "lore": "Previously, it was the role of nature to decide the fate\nof those who had wronged it. That power now belonged\nto Hycenea. An ancient power, held with a new cruelty."
   },
   "Royal Anklets-3": {
     "location": "Sanguine Halls",
@@ -51466,9 +51628,12 @@
     "name": "Throwing Dart",
     "base_item": "Arrow",
     "release_status": "public",
-    "type": "Misc",
+    "type": "Mainhand",
     "stats": {
-      "throwing_knife": 1
+      "throwing_knife": 1,
+      "projectile_damage_base": 1,
+      "projectile_speed_base": 1,
+      "throw_rate_base": 1.4
     }
   },
   "Unkempt Six Shot": {
@@ -51653,6 +51818,16 @@
       "fire_aspect": 1,
       "ice_aspect": 1,
       "thunder_aspect": 1
+    }
+  },
+  "Bramblethorn Bolt": {
+    "name": "Bramblethorn Bolt",
+    "base_item": "Tipped Arrow",
+    "release_status": "public",
+    "type": "Projectile",
+    "stats": {
+      "hex_eater": 1,
+      "magic_damage_percent": 5
     }
   },
   "Argone Bolt": {
@@ -54522,6 +54697,21 @@
     "stats": {},
     "lore": "Not all that looks like gold is."
   },
+  "Emerald Ascension": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Emerald Ascension",
+    "power": 3,
+    "base_item": "Gold Nugget",
+    "release_status": "public",
+    "stats": {
+      "by_my_blade_haste_duration_percent": 100,
+      "by_my_blade_haste_amplifier_flat": -2
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
   "Explosive Charm of Conversion": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -54833,6 +55023,23 @@
       "spell_power_base": 65
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
+  },
+  "Bewitching Lantern": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Bewitching Lantern",
+    "power": 3,
+    "base_item": "Soul Lantern",
+    "release_status": "public",
+    "stats": {
+      "hallowed_beam_cooldown_percent": -50,
+      "hallowed_beam_stun_duration_percent": -100,
+      "hallowed_beam_healing_percent": -15,
+      "hallowed_beam_resistance_percent": -15
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
   },
   "Focused Charm of the Hive": {
     "location": "Architect's Ring",
@@ -59889,6 +60096,23 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
+  "Coven Amulet": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Coven Amulet",
+    "power": 3,
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "stats": {
+      "transmutation_ring_radius_percent": 100,
+      "transmutation_ring_damage_cap_percent": 30,
+      "transmutation_ring_per_death_amplifier_percent": 3,
+      "transmutation_ring_damage_amplifier_percent": -15
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Bewildered Eye": {
     "location": "The Wolfswood",
     "region": "Ring",
@@ -60696,6 +60920,27 @@
       "projectile_damage_base": 21
     },
     "lore": "Dreams naturally desire to coalesce\ninto a greater whole, but their bonds\nare weak and frail. If it could hold\nthem together, it could create a\nworld unto itself."
+  },
+  "Covenmourn Rend-6": {
+    "location": "Hexfall",
+    "masterwork": "6",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Covenmourn Rend",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "hex_eater": 1,
+      "multi-load": 2,
+      "quick_charge": 1,
+      "unbreakable": 1,
+      "projectile_speed_base": 1.5,
+      "thorns_flat": 4,
+      "knockback_resistance_flat": 4,
+      "projectile_damage_base": 22
+    },
+    "lore": "The Vedha took the last of Hycenea's lingering\nfury to craft an elegy for her fallen sisters.\nShe would bury their memory, and begin anew."
   },
   "Sanguinis-4": {
     "location": "Sanguine Halls",
@@ -62957,6 +63202,25 @@
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
+  "Effulgent Fragment-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Effulgent Fragment",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "life_drain": 1,
+      "melee_protection": 1,
+      "poise": 1,
+      "unbreaking": 9,
+      "armor": 6,
+      "attack_damage_percent": 23
+    },
+    "lore": "Ru'Ten's existence within the Sanctum was timeless.\nThe fragment is inscribed with thousands of rings,\nand splints like the leshen bark of the Wolfswood.\nHe had remained bound to this earthly prison."
+  },
   "Pelias' Warden-4": {
     "location": "Pelias' Keep",
     "masterwork": "4",
@@ -64253,24 +64517,6 @@
     },
     "lore": "The Masked repurposed not only the stronghold\nthat the ancient Knights had built beneath\nthe earth, but their legendary weaponry\nas well."
   },
-  "Reforged Greaves-4": {
-    "location": "Ruin",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Reforged Greaves",
-    "base_item": "Iron Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "adrenaline": 2,
-      "blast_protection": 5,
-      "unbreaking": 9,
-      "knockback_resistance_flat": 4,
-      "armor": 11.5
-    },
-    "lore": "The Masked repurposed not only the stronghold\nthat the ancient Knights had built beneath\nthe earth, but their legendary weaponry\nas well."
-  },
   "Circuit Breaker-4": {
     "location": "PORTAL",
     "masterwork": "4",
@@ -64664,6 +64910,25 @@
       "attack_damage_percent": 35
     },
     "lore": "The closer you step to the Zenith, the more\nthe Stars grasp at your very being."
+  },
+  "Greaves of Sunken Faith-4": {
+    "location": "Hexfall",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Greaves of Sunken Faith",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "depth_strider": 3,
+      "regeneration": 1,
+      "steadfast": 1,
+      "unbreaking": 9,
+      "armor": 7,
+      "magic_damage_percent": 10
+    },
+    "lore": "Garrisons of Witchknights were sent by Hycenea\nto defend Harrakfar from being taken by the\nSilver Order. Deep gashes upon the greaves\nevoke memories of the Knights' violent magic,\nagainst the tempered steel of the Coven."
   },
   "Eternity": {
     "location": "Hekawt",
@@ -67753,6 +68018,17 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
+  "Liferoot Sapling": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Liferoot Sapling",
+    "base_item": "Azalea",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Among those who knew of the Tree's power,\na scant few dedicated their life to studying\nand nurturing its offshoots."
+  },
   "Hyperchromatic Archos Ring": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -67878,6 +68154,24 @@
     "stats": {
       "material": 1
     }
+  },
+  "Ironwood Vambrace": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Ironwood Vambrace",
+    "power": 2,
+    "base_item": "Raw Iron",
+    "release_status": "public",
+    "stats": {
+      "elemental_spirits_size_percent": 35,
+      "ice_elemental_spirit_damage_percent": 35,
+      "fire_elemental_spirit_cooldown_percent": -25,
+      "ice_elemental_spirit_cooldown_percent": 25,
+      "fire_elemental_spirit_damage_percent": -15
+    },
+    "type": "Charm",
+    "class_name": "Mage"
   },
   "Pulsating Diamond": {
     "location": "Architect's Ring",
@@ -68139,6 +68433,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Guarantees a Dawnbringer charm\nwhen transmogrifying Zenith Charms.\nRight Click while in main hand to activate."
+  },
+  "Fragrant Branch of Fen": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Fragrant Branch of Fen",
+    "base_item": "Scute",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material\nHarvested from the hexed trees\nwhich grow in the Sanctum of Sunken\nFaith. It emits a faint sweet smell."
   },
   "Maestro Bauble": {
     "location": "Pelias' Keep",
@@ -68767,6 +69072,21 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Amberlight Seed": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Amberlight Seed",
+    "power": 2,
+    "base_item": "Glow Berries",
+    "release_status": "public",
+    "stats": {
+      "judgement_chain_extra_targets_flat": 2,
+      "judgement_chain_extra_target_radius_percent": 100
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
   },
   "Sand Dollar": {
     "location": "Fishing",
@@ -70477,6 +70797,24 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
+  "Vires Terrae": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Vires Terrae",
+    "power": 1,
+    "base_item": "Bowl",
+    "release_status": "public",
+    "stats": {
+      "challenge_cooldown_percent": -35,
+      "challenge_damage_percent": 15,
+      "challenge_duration_percent": -50,
+      "challenge_max_absorption_health_flat": -5,
+      "challenge_max_mobs_flat": -5
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
   "Ancient Mortar": {
     "location": "Light Blue",
     "region": "Valley",
@@ -72124,7 +72462,7 @@
     "type": "Axe",
     "stats": {
       "ice_aspect": 3,
-      "quake": 2,
+      "quake": 3,
       "shielding": 1,
       "unbreakable": 1,
       "attack_speed_base": 0.6,
@@ -75934,6 +76272,28 @@
       "noglint": 1
     }
   },
+  "Hexfall Key": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Hexfall Key",
+    "base_item": "Waxed Weathered Copper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants better loot on\nthe first win of the week.\nGrants access to dungeon:\nDifficulty : ☠☠☠☠☠\nPlayers Required: 1-4"
+  },
+  "Meshuga": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Meshuga",
+    "base_item": "Blue Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "In one moment, he felt his love nearby.\nIn the next, she was gone. The world within\nwas much like the one he had always known,\nthe same landscape and the familiar sky,\nthe only difference was the deafening\nsilence. Harrakfar traveled the world far\nand wide, searching for Hycenea, but soon\nrealized the truth - he was alone in this\nprison reality. From this unyielding loneliness,\nmadness gave way."
+  },
   "Everflow Pendant": {
     "location": "Pelias' Keep",
     "region": "Ring",
@@ -76230,6 +76590,22 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
+  },
+  "Leyline Conduit": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Leyline Conduit",
+    "power": 4,
+    "base_item": "Feather",
+    "release_status": "public",
+    "stats": {
+      "elemental_arrows_thunder_arrow_cooldown_percent": -30,
+      "elemental_arrows_damage_percent": 30,
+      "elemental_arrows_area_damage_percent": -30
+    },
+    "type": "Charm",
+    "class_name": "Mage"
   },
   "Greater Charm of Frenzy": {
     "location": "Architect's Ring",
@@ -76773,6 +77149,23 @@
     "stats": {},
     "lore": "Spinning V\nKing's Valley : Unique"
   },
+  "Lifewood Dew": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Lifewood Dew",
+    "power": 2,
+    "base_item": "Sugar Cane",
+    "release_status": "public",
+    "stats": {
+      "energizing_elixir_damage_modifier_percent": 40,
+      "energizing_elixir_effect_duration_flat": 4,
+      "energizing_elixir_potion_price_flat": 4,
+      "energizing_elixir_jump_boost_modifier_flat": -2
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Pulsating Dust Fragment": {
     "location": "King's Valley",
     "region": "Valley",
@@ -76811,6 +77204,22 @@
     "release_status": "public",
     "stats": {
       "quickdraw_piercing_flat": 2
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
+  "Loci Carving": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Loci Carving",
+    "power": 3,
+    "base_item": "Mud Brick Wall",
+    "release_status": "public",
+    "stats": {
+      "volley_cooldown_percent": -60,
+      "volley_damage_percent": -30,
+      "volley_arrows_flat": -6
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -76957,6 +77366,23 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
+  "Frenzied Earth": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Frenzied Earth",
+    "power": 2,
+    "base_item": "Beetroot Soup",
+    "release_status": "public",
+    "stats": {
+      "earthen_tremor_shockwave_distance_percent": 300,
+      "earthen_tremor_silence_duration_flat": 1.5,
+      "earthen_tremor_shockwaves_flat": -5,
+      "earthen_tremor_radius_percent": -100
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Bloodroot Soup": {
     "name": "Bloodroot Soup",
     "base_item": "Beetroot Soup",
@@ -77003,6 +77429,22 @@
     "stats": {
       "decayed_totem_radius_percent": 30,
       "decayed_totem_targets_flat": 1
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Briar of Binding": {
+    "location": "Hexfall",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Briar of Binding",
+    "power": 3,
+    "base_item": "Red Glazed Terracotta",
+    "release_status": "public",
+    "stats": {
+      "devastation_cooldown_reduction_flat": 3,
+      "devastation_cooldown_percent": -30,
+      "devastation_damage_percent": -30
     },
     "type": "Charm",
     "class_name": "Shaman"
