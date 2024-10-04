@@ -697,8 +697,8 @@
       "hex_eater": 2,
       "tempo": 1,
       "speed_percent": -10,
-      "spell_power_base": 70,
-      "attack_damage_base": 6
+      "attack_damage_base": 6,
+      "spell_power_base": 72
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -716,8 +716,8 @@
       "hex_eater": 2,
       "tempo": 1,
       "speed_percent": -10,
-      "spell_power_base": 70,
-      "attack_damage_base": 6.5
+      "attack_damage_base": 6.5,
+      "spell_power_base": 75
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -735,8 +735,8 @@
       "hex_eater": 2,
       "tempo": 1,
       "speed_percent": -10,
-      "spell_power_base": 75,
-      "attack_damage_base": 6.5
+      "attack_damage_base": 6.5,
+      "spell_power_base": 80
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -783,7 +783,7 @@
     "release_status": "public",
     "stats": {
       "enchanted_prayer_cooldown_percent": -40,
-      "enchanted_prayer_healing_percent": -10
+      "enchanted_prayer_healing_percent": -50
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -1362,7 +1362,7 @@
     "base_item": "Emerald",
     "release_status": "public",
     "stats": {
-      "judgement_chain_cooldown_percent": -30,
+      "judgement_chain_cooldown_percent": -40,
       "judgement_chain_debuff_duration_percent": -100
     },
     "type": "Charm",
@@ -3836,7 +3836,7 @@
     "base_item": "Honeycomb",
     "release_status": "public",
     "stats": {
-      "taboo_damage_modifier_percent": 10,
+      "taboo_damage_modifier_percent": 25,
       "taboo_potion_recharge_rate_flat": 0.25,
       "taboo_healing_penalty_percent": 50,
       "taboo_absorption_penalty_percent": 50
@@ -4071,7 +4071,7 @@
     "release_status": "public",
     "stats": {
       "astral_omen_damage_percent": 25,
-      "astral_omen_damage_modifier_percent": 5
+      "astral_omen_damage_modifier_percent": 10
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -4480,8 +4480,8 @@
       "regeneration": 1,
       "smite": 3,
       "unbreaking": 11,
-      "attack_speed_base": 0.6,
-      "attack_damage_base": 21
+      "attack_damage_base": 21,
+      "attack_speed_base": 0.7
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
@@ -4499,8 +4499,8 @@
       "regeneration": 1,
       "smite": 4,
       "unbreaking": 12,
-      "attack_speed_base": 0.6,
-      "attack_damage_base": 21
+      "attack_damage_base": 21,
+      "attack_speed_base": 0.7
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
@@ -4518,8 +4518,8 @@
       "regeneration": 1,
       "smite": 3,
       "unbreaking": 10,
-      "attack_speed_base": 0.6,
-      "attack_damage_base": 20
+      "attack_damage_base": 20,
+      "attack_speed_base": 0.7
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
@@ -4537,8 +4537,8 @@
       "regeneration": 1,
       "smite": 4,
       "unbreaking": 14,
-      "attack_speed_base": 0.6,
-      "attack_damage_base": 21.5
+      "attack_damage_base": 21.5,
+      "attack_speed_base": 0.7
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
@@ -4558,7 +4558,7 @@
       "regicide": 1,
       "unbreaking": 12,
       "attack_speed_base": 1.1,
-      "attack_damage_base": 20.5
+      "attack_damage_base": 21
     },
     "lore": "The sea boils. Soon you shall too."
   },
@@ -4578,7 +4578,7 @@
       "regicide": 1,
       "unbreaking": 12,
       "attack_speed_base": 1.1,
-      "attack_damage_base": 21
+      "attack_damage_base": 21.5
     },
     "lore": "The sea boils. Soon you shall too."
   },
@@ -4845,11 +4845,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 5,
       "fire_aspect": 2,
       "knockback": 3,
-      "attack_damage_base": 11,
-      "attack_speed_base": 1
+      "unbreaking": 5,
+      "attack_speed_base": 1,
+      "attack_damage_base": 12
     },
     "lore": "A spark of humanity gleams in the Beastman's\neye. The only respite for the Lunatics comes\nfrom beyond this world."
   },
@@ -6684,7 +6684,7 @@
       "regicide": 1,
       "unbreaking": 35,
       "armor": 9,
-      "magic_damage_percent": 18
+      "magic_damage_percent": 22
     },
     "lore": "One ancient force of the Coven was lost to\nthe Deep countless years ago. Yet this faded\nregalia still bears her sigil. Strange."
   },
@@ -6703,7 +6703,7 @@
       "regicide": 1,
       "unbreaking": 20,
       "armor": 7.5,
-      "magic_damage_percent": 12
+      "magic_damage_percent": 15
     },
     "lore": "One ancient force of the Coven was lost to\nthe Deep countless years ago. Yet this faded\nregalia still bears her sigil. Strange."
   },
@@ -6722,7 +6722,7 @@
       "regicide": 1,
       "unbreaking": 30,
       "armor": 8.5,
-      "magic_damage_percent": 15
+      "magic_damage_percent": 18
     },
     "lore": "One ancient force of the Coven was lost to\nthe Deep countless years ago. Yet this faded\nregalia still bears her sigil. Strange."
   },
@@ -6741,7 +6741,7 @@
       "regicide": 1,
       "unbreaking": 25,
       "armor": 8.5,
-      "magic_damage_percent": 12
+      "magic_damage_percent": 15
     },
     "lore": "One ancient force of the Coven was lost to\nthe Deep countless years ago. Yet this faded\nregalia still bears her sigil. Strange."
   },
@@ -21269,10 +21269,10 @@
       "first_strike": 2,
       "unbreaking": 6,
       "attack_damage_base": 21,
-      "projectile_damage_base": 28,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 30
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -21292,8 +21292,8 @@
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 27,
-      "attack_damage_base": 19.5
+      "attack_damage_base": 19.5,
+      "projectile_damage_base": 28.5
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -21312,9 +21312,9 @@
       "unbreaking": 5,
       "attack_damage_base": 20.5,
       "attack_speed_base": 1.2,
-      "projectile_damage_base": 28,
       "throw_rate_base": 0.6,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 29.5
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -21333,9 +21333,9 @@
       "unbreaking": 5,
       "attack_damage_base": 20,
       "attack_speed_base": 1.2,
-      "projectile_damage_base": 27.5,
       "throw_rate_base": 0.6,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 29
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -22041,7 +22041,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "regicide": 2,
+      "regicide": 3,
       "unbreaking": 10,
       "attack_speed_base": 1,
       "attack_damage_base": 16
@@ -22246,7 +22246,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "regicide": 2,
+      "regicide": 3,
       "unbreaking": 10,
       "attack_damage_base": 16,
       "attack_speed_base": 1
@@ -24140,7 +24140,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "regicide": 2,
+      "regicide": 3,
       "unbreaking": 10,
       "attack_speed_base": 1,
       "attack_damage_base": 16
@@ -24235,7 +24235,7 @@
       "unbreakable": 1,
       "max_health_flat": 2,
       "magic_damage_percent": 20,
-      "armor": 4
+      "armor": 4.5
     },
     "lore": "Near death a hazy rage did fall\nand Alric breathed in gore.\nWith final strength the dagger fell.\nThe giant was no more."
   },
@@ -24499,8 +24499,8 @@
       "melee_protection": 1,
       "mending": 1,
       "regicide": 1,
-      "attack_speed_base": 1.5,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 14.5,
+      "attack_speed_base": 1.6
     },
     "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
   },
@@ -24517,8 +24517,8 @@
       "melee_protection": 2,
       "mending": 1,
       "regicide": 1,
-      "attack_speed_base": 1.5,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 14.5,
+      "attack_speed_base": 1.6
     },
     "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
   },
@@ -24554,8 +24554,8 @@
       "melee_protection": 2,
       "mending": 1,
       "regicide": 1,
-      "attack_speed_base": 1.5,
-      "attack_damage_base": 15
+      "attack_damage_base": 15,
+      "attack_speed_base": 1.6
     },
     "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
   },
@@ -24572,8 +24572,8 @@
       "melee_protection": 3,
       "mending": 1,
       "regicide": 1,
-      "attack_speed_base": 1.5,
-      "attack_damage_base": 15
+      "attack_damage_base": 15,
+      "attack_speed_base": 1.6
     },
     "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
   },
@@ -24743,8 +24743,8 @@
       "thunder_aspect": 3,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "spell_power_base": 75,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 13.5,
+      "spell_power_base": 82
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -24762,8 +24762,8 @@
       "thunder_aspect": 3,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "spell_power_base": 75,
-      "attack_damage_base": 14
+      "attack_damage_base": 14,
+      "spell_power_base": 85
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -24781,8 +24781,8 @@
       "thunder_aspect": 3,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "spell_power_base": 70,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 13.5,
+      "spell_power_base": 77
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -24800,8 +24800,8 @@
       "thunder_aspect": 3,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "spell_power_base": 70,
-      "attack_damage_base": 13
+      "attack_damage_base": 13,
+      "spell_power_base": 75
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -24820,7 +24820,7 @@
       "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 14,
-      "spell_power_base": 80
+      "spell_power_base": 90
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -28243,7 +28243,7 @@
       "unbreaking": 60,
       "attack_speed_base": 0.9,
       "attack_damage_base": 15.5,
-      "spell_power_base": 75
+      "spell_power_base": 82
     },
     "lore": "Memories cling to the edges of the time\nthey once occupied. Some slip through\nthe cracks and never let go."
   },
@@ -28262,9 +28262,9 @@
       "magic_protection": 2,
       "smite": 2,
       "unbreaking": 55,
-      "spell_power_base": 70,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 15.5,
+      "spell_power_base": 77
     },
     "lore": "Memories cling to the edges of the time\nthey once occupied. Some slip through\nthe cracks and never let go."
   },
@@ -28283,9 +28283,9 @@
       "magic_protection": 2,
       "smite": 2,
       "unbreaking": 50,
-      "spell_power_base": 70,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 15
+      "attack_damage_base": 15,
+      "spell_power_base": 75
     },
     "lore": "Memories cling to the edges of the time\nthey once occupied. Some slip through\nthe cracks and never let go."
   },
@@ -34458,8 +34458,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "quake": 2,
-      "regicide": 2,
+      "quake": 3,
+      "regicide": 3,
       "sweeping_edge": 3,
       "two_handed": 1,
       "unbreaking": 3,
@@ -35702,7 +35702,7 @@
       "attack_speed_base": 1.8,
       "thorns_flat": 4,
       "attack_damage_base": 12,
-      "spell_power_base": 70
+      "spell_power_base": 75
     },
     "lore": "A shaving of the Godspore's cap.\nAs an entity that once shared mana\nwith Life himself, each part of its body\ncarries diverse magical strengths."
   },
@@ -35720,8 +35720,8 @@
       "unbreaking": 4,
       "attack_speed_base": 1.8,
       "thorns_flat": 3,
-      "spell_power_base": 65,
-      "attack_damage_base": 11.5
+      "attack_damage_base": 11.5,
+      "spell_power_base": 68
     },
     "lore": "A shaving of the Godspore's cap.\nAs an entity that once shared mana\nwith Life himself, each part of its body\ncarries diverse magical strengths."
   },
@@ -35738,110 +35738,11 @@
       "sustenance": 1,
       "unbreaking": 5,
       "attack_speed_base": 1.8,
-      "spell_power_base": 65,
       "thorns_flat": 4,
-      "attack_damage_base": 12
+      "attack_damage_base": 12,
+      "spell_power_base": 70
     },
     "lore": "A shaving of the Godspore's cap.\nAs an entity that once shared mana\nwith Life himself, each part of its body\ncarries diverse magical strengths."
-  },
-  "Iridium Bulwark-1": {
-    "location": "The Wolfswood",
-    "masterwork": "1",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Iridium Bulwark",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "fire_protection": 2,
-      "knockback": 2,
-      "melee_protection": 3,
-      "projectile_protection": 3,
-      "regeneration": 1,
-      "unbreaking": 3,
-      "speed_percent": 15
-    },
-    "lore": "Never tarnishing, and unmeltable by forge\nor furnace, it was rumored that only the Architect\ncould mold Iridium."
-  },
-  "Iridium Bulwark-4": {
-    "location": "The Wolfswood",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Iridium Bulwark",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "fire_protection": 3,
-      "knockback": 3,
-      "melee_protection": 3,
-      "projectile_protection": 4,
-      "regeneration": 1,
-      "unbreaking": 6,
-      "speed_percent": 17
-    },
-    "lore": "Never tarnishing, and unmeltable by forge\nor furnace, it was rumored that only the Architect\ncould mold Iridium."
-  },
-  "Iridium Bulwark-0": {
-    "location": "The Wolfswood",
-    "masterwork": "0",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Iridium Bulwark",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "knockback": 1,
-      "melee_protection": 3,
-      "projectile_protection": 3,
-      "regeneration": 1,
-      "unbreaking": 3,
-      "speed_percent": 15
-    },
-    "lore": "Never tarnishing, and unmeltable by forge\nor furnace, it was rumored that only the Architect\ncould mold Iridium."
-  },
-  "Iridium Bulwark-2": {
-    "location": "The Wolfswood",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Iridium Bulwark",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "fire_protection": 2,
-      "knockback": 2,
-      "melee_protection": 3,
-      "projectile_protection": 4,
-      "regeneration": 1,
-      "unbreaking": 4,
-      "speed_percent": 15
-    },
-    "lore": "Never tarnishing, and unmeltable by forge\nor furnace, it was rumored that only the Architect\ncould mold Iridium."
-  },
-  "Iridium Bulwark-3": {
-    "location": "The Wolfswood",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Iridium Bulwark",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "fire_protection": 2,
-      "knockback": 3,
-      "melee_protection": 3,
-      "projectile_protection": 4,
-      "regeneration": 1,
-      "unbreaking": 5,
-      "speed_percent": 16
-    },
-    "lore": "Never tarnishing, and unmeltable by forge\nor furnace, it was rumored that only the Architect\ncould mold Iridium."
   },
   "Silver Heart-4": {
     "location": "Sanguine Halls",
@@ -36133,12 +36034,13 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "adrenaline": 2,
+      "knockback": 2,
+      "magic_protection": 4,
+      "melee_fragility": 1,
       "mending": 1,
-      "second_wind": 2,
+      "tempo": 1,
       "unbreaking": 3,
-      "wind_aspect": 3,
-      "agility": 1.5
+      "agility": 0.5
     },
     "lore": "At last, Sirius fell into the ocean and was\nno more. In the Herald’s final moments,\nthe hold it held over Star Point wavered,\nthen broke. Somewhere off in the sky,\nsomething shuddered."
   },
@@ -36152,12 +36054,13 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "adrenaline": 2,
+      "knockback": 2,
+      "magic_protection": 4,
+      "melee_fragility": 1,
       "mending": 1,
-      "second_wind": 2,
+      "tempo": 1,
       "unbreaking": 3,
-      "wind_aspect": 3,
-      "agility": 2
+      "agility": 1
     },
     "lore": "At last, Sirius fell into the ocean and was\nno more. In the Herald’s final moments,\nthe hold it held over Star Point wavered,\nthen broke. Somewhere off in the sky,\nsomething shuddered."
   },
@@ -37181,7 +37084,8 @@
     "stats": {
       "unbreaking": 1,
       "armor": 2,
-      "attack_speed_percent": 30
+      "attack_damage_percent": 10,
+      "attack_speed_percent": 10
     }
   },
   "Sandstone Shield": {
@@ -38295,10 +38199,10 @@
     "stats": {
       "alchemical_utensil": 1,
       "feather_falling": 2,
-      "technique": 2,
+      "technique": 5,
       "potion_radius_flat": 3,
-      "potion_damage_flat": 11.7,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "potion_damage_flat": 11.2
     },
     "lore": "Vibrant berries adorn the outer casing of the\notherwise ancient apparatus, growing off the\nintense magical index harbored within."
   },
@@ -40084,7 +39988,7 @@
       "stamina": 3,
       "unbreaking": 7,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 15
+      "attack_damage_base": 15.5
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -40103,7 +40007,7 @@
       "stamina": 2,
       "unbreaking": 4,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 13
+      "attack_damage_base": 13.5
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -40122,7 +40026,7 @@
       "stamina": 2,
       "unbreaking": 5,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 14
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -40141,7 +40045,7 @@
       "stamina": 2,
       "unbreaking": 6,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 15
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -40160,7 +40064,7 @@
       "stamina": 2,
       "unbreaking": 5,
       "attack_speed_base": 1.5,
-      "attack_damage_base": 14
+      "attack_damage_base": 14.5
     },
     "lore": "With each swing, the crystalline\nblade resonates with an energy sealed\ndeep beneath the earth."
   },
@@ -40174,11 +40078,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 3,
+      "ice_aspect": 1,
+      "slayer": 1,
       "unbreaking": 6,
-      "attack_speed_base": 0.8,
       "speed_percent": 15,
-      "attack_damage_base": 21
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 15.5
     },
     "lore": "Their gleaming blades cut through\nthe very thread that binds the soul.\nThe spirits could not stand against\ntheir legions."
   },
@@ -40192,11 +40097,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 3,
+      "ice_aspect": 1,
+      "slayer": 1,
       "unbreaking": 5,
-      "attack_speed_base": 0.8,
       "speed_percent": 15,
-      "attack_damage_base": 20.5
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 15
     },
     "lore": "Their gleaming blades cut through\nthe very thread that binds the soul.\nThe spirits could not stand against\ntheir legions."
   },
@@ -40210,11 +40116,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 4,
+      "ice_aspect": 1,
+      "slayer": 2,
       "unbreaking": 7,
-      "attack_speed_base": 0.8,
       "speed_percent": 15,
-      "attack_damage_base": 21
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 15.5
     },
     "lore": "Their gleaming blades cut through\nthe very thread that binds the soul.\nThe spirits could not stand against\ntheir legions."
   },
@@ -40228,11 +40135,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 3,
+      "ice_aspect": 1,
+      "slayer": 1,
       "unbreaking": 5,
-      "attack_speed_base": 0.8,
       "speed_percent": 15,
-      "attack_damage_base": 20
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 14.5
     },
     "lore": "Their gleaming blades cut through\nthe very thread that binds the soul.\nThe spirits could not stand against\ntheir legions."
   },
@@ -40252,7 +40160,7 @@
       "quake": 2,
       "unbreaking": 7,
       "attack_speed_base": 1.2,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 16
     },
     "lore": "Each wound inflicted with this weapon disperses\nthe victim's blood circulation. In time,\nthe blood begins to boil, bringing terrible\nagony to the unfortunate."
   },
@@ -40271,8 +40179,8 @@
       "inferno": 4,
       "quake": 2,
       "unbreaking": 6,
-      "attack_damage_base": 15,
-      "attack_speed_base": 1.2
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 15.5
     },
     "lore": "Each wound inflicted with this weapon disperses\nthe victim's blood circulation. In time,\nthe blood begins to boil, bringing terrible\nagony to the unfortunate."
   },
@@ -40291,8 +40199,8 @@
       "inferno": 4,
       "quake": 2,
       "unbreaking": 5,
-      "attack_damage_base": 14.5,
-      "attack_speed_base": 1.2
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 15
     },
     "lore": "Each wound inflicted with this weapon disperses\nthe victim's blood circulation. In time,\nthe blood begins to boil, bringing terrible\nagony to the unfortunate."
   },
@@ -40311,7 +40219,7 @@
       "unbreaking": 4,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
-      "attack_damage_base": 7
+      "attack_damage_base": 8
     },
     "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
@@ -40330,7 +40238,7 @@
       "unbreaking": 7,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
-      "attack_damage_base": 9
+      "attack_damage_base": 10
     },
     "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
@@ -40349,7 +40257,7 @@
       "unbreaking": 5,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
-      "attack_damage_base": 7.5
+      "attack_damage_base": 8.5
     },
     "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
@@ -40368,7 +40276,7 @@
       "unbreaking": 6,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
-      "attack_damage_base": 8.5
+      "attack_damage_base": 9.5
     },
     "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
@@ -40387,7 +40295,7 @@
       "unbreaking": 5,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
-      "attack_damage_base": 8
+      "attack_damage_base": 9
     },
     "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
@@ -40543,9 +40451,9 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "regicide": 2,
-      "unbreaking": 3,
       "duelist": 2,
+      "regicide": 4,
+      "unbreaking": 3,
       "attack_speed_base": 2,
       "attack_damage_base": 8
     },
@@ -43109,7 +43017,7 @@
       "unbreaking": 3,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
-      "projectile_damage_base": 21.5
+      "projectile_damage_base": 19.5
     },
     "lore": "A brutal bow, made from twisting roots\nand the heartstrings of those who fell\nill of the Mycelia."
   },
@@ -43127,7 +43035,7 @@
       "unbreaking": 4,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 20
     },
     "lore": "A brutal bow, made from twisting roots\nand the heartstrings of those who fell\nill of the Mycelia."
   },
@@ -43145,7 +43053,7 @@
       "unbreaking": 3,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
-      "projectile_damage_base": 21
+      "projectile_damage_base": 19
     },
     "lore": "A brutal bow, made from twisting roots\nand the heartstrings of those who fell\nill of the Mycelia."
   },
@@ -43163,7 +43071,7 @@
       "unbreaking": 3,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
-      "projectile_damage_base": 20.5
+      "projectile_damage_base": 18.5
     },
     "lore": "A brutal bow, made from twisting roots\nand the heartstrings of those who fell\nill of the Mycelia."
   },
@@ -43181,7 +43089,7 @@
       "unbreaking": 5,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 20
     },
     "lore": "A brutal bow, made from twisting roots\nand the heartstrings of those who fell\nill of the Mycelia."
   },
@@ -44980,9 +44888,9 @@
       "duelist": 3,
       "thunder_aspect": 2,
       "unbreaking": 10,
-      "attack_speed_base": 0.9,
-      "attack_damage_base": 19,
-      "thorns_flat": 4
+      "thorns_flat": 4,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 11.5
     },
     "lore": "The collective roots of the Mycelia\nonce showed solidarity, but with the\nGodspore turned tyrant, they now\nshow only its insidious reach."
   },
@@ -44999,9 +44907,9 @@
       "duelist": 3,
       "thunder_aspect": 2,
       "unbreaking": 12,
-      "attack_speed_base": 0.9,
-      "attack_damage_base": 19.5,
-      "thorns_flat": 5
+      "thorns_flat": 5,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 11
     },
     "lore": "The collective roots of the Mycelia\nonce showed solidarity, but with the\nGodspore turned tyrant, they now\nshow only its insidious reach."
   },
@@ -45018,9 +44926,9 @@
       "duelist": 3,
       "thunder_aspect": 2,
       "unbreaking": 14,
-      "attack_speed_base": 0.9,
-      "attack_damage_base": 20,
-      "thorns_flat": 6
+      "thorns_flat": 6,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 10.5
     },
     "lore": "The collective roots of the Mycelia\nonce showed solidarity, but with the\nGodspore turned tyrant, they now\nshow only its insidious reach."
   },
@@ -48601,7 +48509,7 @@
       "shielding": 1,
       "attack_speed_base": 0.8,
       "spell_power_base": 50,
-      "attack_damage_base": 17.5
+      "attack_damage_base": 18.5
     },
     "lore": "In time before the time you know,\nthe Giants shaped these lands. Shaped\nfrom the mantle, ocean floor, turned\nthen to ice and sand."
   },
@@ -50621,60 +50529,6 @@
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
-  "Woolwoven Staff-4": {
-    "location": "Ruin",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Woolwoven Staff",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "bleeding": 2,
-      "decay": 10,
-      "regeneration": 1,
-      "spell_power_base": 80,
-      "attack_damage_base": 9.5
-    },
-    "lore": "Magic penetrated the very air of\nthe fortress as the powers of Life\nand Reality met for the first time\nin thousands of years."
-  },
-  "Woolwoven Staff-3": {
-    "location": "Ruin",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Woolwoven Staff",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "bleeding": 2,
-      "decay": 7,
-      "regeneration": 1,
-      "spell_power_base": 75,
-      "attack_damage_base": 9
-    },
-    "lore": "Magic penetrated the very air of\nthe fortress as the powers of Life\nand Reality met for the first time\nin thousands of years."
-  },
-  "Woolwoven Staff-2": {
-    "location": "Ruin",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Woolwoven Staff",
-    "base_item": "Stick",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "bleeding": 2,
-      "decay": 9,
-      "regeneration": 1,
-      "spell_power_base": 75,
-      "attack_damage_base": 8.5
-    },
-    "lore": "Magic penetrated the very air of\nthe fortress as the powers of Life\nand Reality met for the first time\nin thousands of years."
-  },
   "Timerift Stave-3": {
     "location": "SKT",
     "masterwork": "3",
@@ -50788,7 +50642,7 @@
     "release_status": "public",
     "stats": {
       "restless_souls_vex_cap_flat": 2,
-      "hex_eater_damage_percent": 18
+      "restless_souls_damage_percent": 10
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -53235,11 +53089,11 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Martial Mantra",
-    "power": 1,
+    "power": 2,
     "base_item": "Paper",
     "release_status": "public",
     "stats": {
-      "luminous_infusion_cooldown_percent": -30,
+      "luminous_infusion_cooldown_percent": -50,
       "luminous_infusion_radius_percent": -100
     },
     "type": "Charm",
@@ -54969,7 +54823,7 @@
       "second_wind": 2,
       "attack_speed_base": 0.9,
       "attack_damage_base": 19,
-      "spell_power_base": 70
+      "spell_power_base": 77
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -54986,7 +54840,7 @@
       "second_wind": 1,
       "attack_damage_base": 18,
       "attack_speed_base": 0.9,
-      "spell_power_base": 60
+      "spell_power_base": 68
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -55003,7 +54857,7 @@
       "second_wind": 2,
       "attack_damage_base": 19,
       "attack_speed_base": 0.9,
-      "spell_power_base": 65
+      "spell_power_base": 72
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -55020,7 +54874,7 @@
       "second_wind": 1,
       "attack_damage_base": 18.5,
       "attack_speed_base": 0.9,
-      "spell_power_base": 65
+      "spell_power_base": 70
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -55723,12 +55577,12 @@
     "type": "Wand",
     "stats": {
       "arcane_thrust": 3,
-      "thunder_aspect": 3,
       "fire_aspect": 3,
       "inferno": 3,
-      "spell_power_base": 100,
+      "thunder_aspect": 3,
       "attack_speed_base": 1.8,
-      "attack_damage_base": 14
+      "attack_damage_base": 14,
+      "spell_power_base": 111
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -55825,7 +55679,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Tome of Broken Vows",
-    "power": 5,
+    "power": 4,
     "base_item": "Book",
     "release_status": "public",
     "stats": {
@@ -58868,7 +58722,7 @@
     "base_item": "Yellow Dye",
     "release_status": "public",
     "stats": {
-      "divine_justice_damage_percent": 10
+      "divine_justice_percent_damage_percent": 10
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -58882,7 +58736,7 @@
     "base_item": "Yellow Dye",
     "release_status": "public",
     "stats": {
-      "divine_justice_damage_percent": 35
+      "divine_justice_percent_damage_percent": 35
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -58896,7 +58750,7 @@
     "base_item": "Yellow Dye",
     "release_status": "public",
     "stats": {
-      "divine_justice_damage_percent": 20
+      "divine_justice_percent_damage_percent": 20
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -58910,7 +58764,7 @@
     "base_item": "Yellow Dye",
     "release_status": "public",
     "stats": {
-      "divine_justice_damage_percent": 10,
+      "divine_justice_percent_damage_percent": 10,
       "divine_justice_self_heal_percent": 25,
       "divine_justice_ally_heal_percent": 25
     },
@@ -59063,7 +58917,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "True Ice Pendant",
-    "power": 3,
+    "power": 2,
     "base_item": "Ice",
     "release_status": "public",
     "stats": {
@@ -59300,7 +59154,7 @@
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
-      "chain_healing_wave_healing_percent": 6
+      "chain_healing_wave_healing_percent": 20
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -59314,7 +59168,7 @@
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
-      "chain_healing_wave_healing_percent": 10,
+      "chain_healing_wave_healing_percent": 33,
       "chain_healing_wave_bounce_radius_percent": 40
     },
     "type": "Charm",
@@ -59329,7 +59183,7 @@
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
-      "chain_healing_wave_healing_percent": 6,
+      "chain_healing_wave_healing_percent": 20,
       "chain_healing_wave_cooldown_percent": -10
     },
     "type": "Charm",
@@ -59344,7 +59198,7 @@
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
-      "chain_healing_wave_healing_percent": 18
+      "chain_healing_wave_healing_percent": 60
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -59358,7 +59212,7 @@
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
-      "chain_healing_wave_healing_percent": 12
+      "chain_healing_wave_healing_percent": 40
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -59572,7 +59426,7 @@
     "release_status": "public",
     "stats": {
       "alchemical_artillery_velocity_percent": 30,
-      "alchemical_artillery_aftershock_damage_percent": 30,
+      "alchemical_artillery_aftershock_damage_percent": 150,
       "alchemical_artillery_aftershock_delay_percent": -30
     },
     "type": "Charm",
@@ -59601,7 +59455,7 @@
     "base_item": "Bell",
     "release_status": "public",
     "stats": {
-      "choir_bells_damage_percent": 50,
+      "choir_bells_damage_percent": 100,
       "choir_bells_slowness_amplifier_percent": 25,
       "choir_bells_vulnerability_amplifier_percent": -25,
       "choir_bells_weakness_amplifier_percent": -15,
@@ -60106,8 +59960,7 @@
     "release_status": "public",
     "stats": {
       "transmutation_ring_radius_percent": 100,
-      "transmutation_ring_damage_cap_percent": 30,
-      "transmutation_ring_per_death_amplifier_percent": 3,
+      "transmutation_ring_per_death_amplifier_percent": 2,
       "transmutation_ring_damage_amplifier_percent": -15
     },
     "type": "Charm",
@@ -60933,12 +60786,12 @@
     "stats": {
       "hex_eater": 1,
       "multi-load": 2,
-      "quick_charge": 1,
+      "quick_charge": 2,
       "unbreakable": 1,
       "projectile_speed_base": 1.5,
       "thorns_flat": 4,
       "knockback_resistance_flat": 4,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 20.5
     },
     "lore": "The Vedha took the last of Hycenea's lingering\nfury to craft an elegy for her fallen sisters.\nShe would bury their memory, and begin anew."
   },
@@ -61933,11 +61786,11 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "quick_charge": 2,
       "regicide": 1,
       "unbreaking": 4,
-      "quick_charge": 2,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 18
+      "projectile_damage_base": 19
     },
     "lore": "What value is there in reality when nothing\nneeds to follow those rules?"
   },
@@ -61967,7 +61820,7 @@
       "regicide": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 18
+      "projectile_damage_base": 19
     },
     "lore": "Reality moves differently in the darkest\nof depths. Sometimes it twists into\nsomething... else."
   },
@@ -64926,7 +64779,7 @@
       "steadfast": 1,
       "unbreaking": 9,
       "armor": 7,
-      "magic_damage_percent": 10
+      "magic_damage_percent": 15
     },
     "lore": "Garrisons of Witchknights were sent by Hycenea\nto defend Harrakfar from being taken by the\nSilver Order. Deep gashes upon the greaves\nevoke memories of the Knights' violent magic,\nagainst the tempered steel of the Coven."
   },
@@ -65996,8 +65849,8 @@
     "type": "Wand",
     "stats": {
       "ice_aspect": 2,
-      "spell_power_base": 65,
-      "attack_damage_base": 8.5
+      "attack_damage_base": 8.5,
+      "spell_power_base": 70
     }
   },
   "Shard of the Dreamer": {
@@ -66010,11 +65863,11 @@
     "type": "Wand",
     "stats": {
       "aptitude": 1,
-      "trivium": 1,
-      "magic_protection": 2,
       "ice_aspect": 2,
-      "spell_power_base": 100,
-      "attack_damage_base": 10
+      "magic_protection": 2,
+      "trivium": 1,
+      "attack_damage_base": 10,
+      "spell_power_base": 111
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -66119,8 +65972,8 @@
     "stats": {
       "magic_protection": 1,
       "regicide": 1,
-      "spell_power_base": 70,
-      "attack_damage_base": 8.5
+      "attack_damage_base": 8.5,
+      "spell_power_base": 72
     },
     "lore": "To imprison beings of such power, the Knights\nrequired magic without equal."
   },
@@ -66137,7 +65990,7 @@
       "magic_protection": 2,
       "regicide": 1,
       "attack_damage_base": 9,
-      "spell_power_base": 75
+      "spell_power_base": 82
     },
     "lore": "To imprison beings of such power, the Knights\nrequired magic without equal."
   },
@@ -66153,8 +66006,8 @@
     "stats": {
       "magic_protection": 1,
       "regicide": 1,
-      "spell_power_base": 75,
-      "attack_damage_base": 8.5
+      "attack_damage_base": 8.5,
+      "spell_power_base": 77
     },
     "lore": "To imprison beings of such power, the Knights\nrequired magic without equal."
   },
@@ -66170,8 +66023,8 @@
     "stats": {
       "magic_protection": 1,
       "regicide": 1,
-      "spell_power_base": 75,
-      "attack_damage_base": 9
+      "attack_damage_base": 9,
+      "spell_power_base": 80
     },
     "lore": "To imprison beings of such power, the Knights\nrequired magic without equal."
   },
@@ -66321,7 +66174,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Deep Resonant Fragment",
-    "power": 4,
+    "power": 3,
     "base_item": "Amethyst Cluster",
     "release_status": "public",
     "stats": {
@@ -67130,7 +66983,7 @@
     "release_status": "public",
     "stats": {
       "blizzard_duration_flat": 20,
-      "blizzard_damage_percent": -90,
+      "blizzard_damage_percent": -95,
       "blizzard_slowness_amplifier_percent": -10
     },
     "type": "Charm",
@@ -67643,7 +67496,7 @@
     "type": "Mainhand Sword",
     "stats": {
       "second_wind": 2,
-      "stamina": 1,
+      "stamina": 2,
       "sustenance": 2,
       "sweeping_edge": 3,
       "unbreakable": 1,
@@ -67809,6 +67662,7 @@
     "base_item": "Raw Copper",
     "release_status": "public",
     "stats": {
+      "celestial_blessing_cooldown_percent": -33,
       "celestial_blessing_damage_modifier_percent": 20,
       "celestial_blessing_duration_percent": -50
     },
@@ -67840,7 +67694,7 @@
       "wind_aspect": 2,
       "speed_percent": 15,
       "attack_damage_base": 9,
-      "spell_power_base": 75
+      "spell_power_base": 80
     },
     "lore": "Magic doesn't have the same function\nwithin the Machine God's domain. Steam\noffers power. Power offers truth."
   },
@@ -67858,7 +67712,7 @@
       "wind_aspect": 2,
       "speed_percent": 15,
       "attack_damage_base": 9.5,
-      "spell_power_base": 75
+      "spell_power_base": 82
     },
     "lore": "Magic doesn't have the same function\nwithin the Machine God's domain. Steam\noffers power. Power offers truth."
   },
@@ -67876,7 +67730,7 @@
       "wind_aspect": 2,
       "speed_percent": 15,
       "attack_damage_base": 10,
-      "spell_power_base": 75
+      "spell_power_base": 85
     },
     "lore": "Magic doesn't have the same function\nwithin the Machine God's domain. Steam\noffers power. Power offers truth."
   },
@@ -67890,7 +67744,8 @@
     "release_status": "public",
     "stats": {
       "brute_force_wave_delay_percent": -70,
-      "brute_force_radius_percent": 25
+      "brute_force_radius_percent": 20,
+      "brute_force_wave_damage_ratio_percent": 20
     },
     "type": "Charm",
     "class_name": "Warrior"
@@ -67914,7 +67769,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Rusted Bracers",
-    "power": 3,
+    "power": 2,
     "base_item": "Copper Ingot",
     "release_status": "public",
     "stats": {
@@ -67971,7 +67826,7 @@
     "release_status": "public",
     "stats": {
       "interconnected_havoc_range_percent": 80,
-      "interconnected_havoc_damage_percent": 10
+      "totemic_projection_spread_percent": 80
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -68164,11 +68019,11 @@
     "base_item": "Raw Iron",
     "release_status": "public",
     "stats": {
-      "elemental_spirits_size_percent": 35,
-      "ice_elemental_spirit_damage_percent": 35,
+      "elemental_spirits_size_percent": 50,
+      "ice_elemental_spirit_damage_percent": 40,
       "fire_elemental_spirit_cooldown_percent": -25,
       "ice_elemental_spirit_cooldown_percent": 25,
-      "fire_elemental_spirit_damage_percent": -15
+      "fire_elemental_spirit_damage_percent": -10
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -68828,12 +68683,12 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodhound's Crest",
-    "power": 5,
+    "power": 3,
     "base_item": "Redstone",
     "release_status": "public",
     "stats": {
-      "quickdraw_cooldown_percent": -50,
-      "quickdraw_damage_percent": -10
+      "quickdraw_cooldown_percent": -33,
+      "quickdraw_damage_percent": -15
     },
     "type": "Charm",
     "class_name": "Scout"
@@ -68843,12 +68698,14 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodborne Locket",
-    "power": 2,
+    "power": 3,
     "base_item": "Redstone",
     "release_status": "public",
     "stats": {
       "by_my_blade_enhancement_health_percent": 5,
-      "by_my_blade_enhancement_elite_health_percent": 10
+      "by_my_blade_enhancement_elite_health_percent": 10,
+      "by_my_blade_cooldown_percent": -15,
+      "by_my_blade_damage_percent": -15
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -68863,7 +68720,7 @@
     "release_status": "public",
     "stats": {
       "divine_justice_self_heal_percent": -30,
-      "divine_justice_damage_percent": 30
+      "divine_justice_percent_damage_percent": 30
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -69216,7 +69073,7 @@
     "stats": {
       "thunder_step_distance_percent": 200,
       "thunder_step_radius_percent": 100,
-      "thunder_step_damage_percent": -20
+      "thunder_step_damage_percent": -35
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -70775,7 +70632,7 @@
     "base_item": "Bowl",
     "release_status": "public",
     "stats": {
-      "riposte_cooldown_flat": -1.5,
+      "riposte_cooldown_percent": -20,
       "riposte_root_duration_flat": 1.5,
       "riposte_knockback_flat": 1.5
     },
@@ -70807,7 +70664,7 @@
     "release_status": "public",
     "stats": {
       "challenge_cooldown_percent": -35,
-      "challenge_damage_percent": 15,
+      "challenge_damage_percent": 20,
       "challenge_duration_percent": -50,
       "challenge_max_absorption_health_flat": -5,
       "challenge_max_mobs_flat": -5
@@ -71762,11 +71619,11 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 4,
-      "inferno": 4,
+      "inferno": 5,
       "knockback": 3,
       "attack_damage_base": 20.5,
       "attack_speed_base": 0.8,
-      "spell_power_base": 70
+      "spell_power_base": 75
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -71781,11 +71638,11 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 4,
-      "inferno": 4,
+      "inferno": 5,
       "knockback": 3,
       "attack_damage_base": 20.5,
       "attack_speed_base": 0.8,
-      "spell_power_base": 65
+      "spell_power_base": 70
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -71800,11 +71657,11 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 4,
-      "inferno": 5,
+      "inferno": 6,
       "knockback": 3,
       "attack_speed_base": 0.8,
-      "spell_power_base": 70,
-      "attack_damage_base": 20.5
+      "attack_damage_base": 20.5,
+      "spell_power_base": 75
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -71819,11 +71676,11 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 4,
-      "inferno": 4,
+      "inferno": 5,
       "knockback": 3,
       "attack_damage_base": 20,
       "attack_speed_base": 0.8,
-      "spell_power_base": 65
+      "spell_power_base": 68
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -71841,7 +71698,7 @@
       "ice_aspect": 2,
       "trivium": 1,
       "attack_damage_base": 9,
-      "spell_power_base": 80
+      "spell_power_base": 88
     },
     "lore": "Though its dimensional features no longer\nseem to function, the wand still has plenty\nof more aggressive applications."
   },
@@ -71858,8 +71715,8 @@
       "fire_aspect": 2,
       "ice_aspect": 2,
       "trivium": 1,
-      "spell_power_base": 75,
-      "attack_damage_base": 8.5
+      "attack_damage_base": 8.5,
+      "spell_power_base": 80
     },
     "lore": "Though its dimensional features no longer\nseem to function, the wand still has plenty\nof more aggressive applications."
   },
@@ -71876,8 +71733,8 @@
       "fire_aspect": 2,
       "ice_aspect": 2,
       "trivium": 1,
-      "spell_power_base": 75,
-      "attack_damage_base": 9
+      "attack_damage_base": 9,
+      "spell_power_base": 82
     },
     "lore": "Though its dimensional features no longer\nseem to function, the wand still has plenty\nof more aggressive applications."
   },
@@ -71918,7 +71775,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Aether Dart",
-    "power": 3,
+    "power": 2,
     "base_item": "Blaze Rod",
     "release_status": "public",
     "stats": {
@@ -72501,7 +72358,7 @@
       "quake": 5,
       "unbreakable": 1,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 23
+      "attack_damage_base": 26
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -72519,7 +72376,7 @@
       "trivium": 3,
       "unbreakable": 1,
       "attack_speed_base": 2,
-      "attack_damage_base": 14
+      "attack_damage_base": 16
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -72610,6 +72467,7 @@
     "base_item": "Flower Banner Pattern",
     "release_status": "public",
     "stats": {
+      "astral_omen_damage_percent": 10,
       "astral_omen_range_percent": 100,
       "astral_omen_pull_speed_percent": 50
     },
@@ -72813,11 +72671,11 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Masked's Black Knife",
-    "power": 2,
+    "power": 1,
     "base_item": "Flint",
     "release_status": "public",
     "stats": {
-      "cloak_and_dagger_max_stacks_flat": 8
+      "cloak_and_dagger_max_stacks_flat": 6
     },
     "type": "Charm",
     "class_name": "Rogue"
@@ -73845,7 +73703,7 @@
       "trivium": 2,
       "unbreaking": 60,
       "attack_speed_base": 1.3,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 17.5
     },
     "lore": "Visions from inside the bloody dream encircle the\nweapon, desperately clinging to our world in an\nattempt to escape its own. Horrors of unimaginable\nfortitude were forever confined within, but if more\nwere to somehow break free..."
   },
@@ -73863,7 +73721,7 @@
       "trivium": 2,
       "unbreaking": 50,
       "attack_speed_base": 1.3,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 16.5
     },
     "lore": "Visions from inside the bloody dream encircle the\nweapon, desperately clinging to our world in an\nattempt to escape its own. Horrors of unimaginable\nfortitude were forever confined within, but if more\nwere to somehow break free..."
   },
@@ -73881,7 +73739,7 @@
       "trivium": 2,
       "unbreaking": 55,
       "attack_speed_base": 1.3,
-      "attack_damage_base": 15
+      "attack_damage_base": 17
     },
     "lore": "Visions from inside the bloody dream encircle the\nweapon, desperately clinging to our world in an\nattempt to escape its own. Horrors of unimaginable\nfortitude were forever confined within, but if more\nwere to somehow break free..."
   },
@@ -73938,7 +73796,7 @@
       "smite": 4,
       "unbreaking": 7,
       "attack_speed_base": 1,
-      "attack_damage_base": 15
+      "attack_damage_base": 15.5
     },
     "lore": "Death stalked the halls of\nthe Plagueroot temple."
   },
@@ -73957,7 +73815,7 @@
       "smite": 4,
       "unbreaking": 4,
       "attack_speed_base": 1,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 14
     },
     "lore": "Death stalked the halls of\nthe Plagueroot temple."
   },
@@ -74624,8 +74482,8 @@
       "second_wind": 2,
       "unbreaking": 7,
       "knockback_resistance_flat": 2,
-      "attack_damage_base": 21.5,
-      "attack_speed_base": 0.9
+      "attack_speed_base": 0.9,
+      "attack_damage_base": 22
     },
     "lore": "As the air thins, the dance begins. Jerky,\ntwisting gasps. Convulsions. Each twitch is\nanother step in a fatal dance."
   },
@@ -74644,8 +74502,8 @@
       "second_wind": 2,
       "unbreaking": 7,
       "knockback_resistance_flat": 2,
-      "attack_damage_base": 20.5,
-      "attack_speed_base": 0.9
+      "attack_speed_base": 0.9,
+      "attack_damage_base": 21.5
     },
     "lore": "As the air thins, the dance begins. Jerky,\ntwisting gasps. Convulsions. Each twitch is\nanother step in a fatal dance."
   },
@@ -74798,7 +74656,7 @@
     "base_item": "Netherite Scrap",
     "release_status": "public",
     "stats": {
-      "scorched_earth_cooldown_percent": -20,
+      "scorched_earth_cooldown_percent": -30,
       "scorched_earth_charge_flat": 1,
       "scorched_earth_duration_percent": -50
     },
@@ -75970,9 +75828,9 @@
       "aptitude": 1,
       "decay": 1,
       "ice_aspect": 1,
-      "spell_power_base": 70,
       "speed_percent": 5,
-      "attack_damage_base": 6.5
+      "attack_damage_base": 6.5,
+      "spell_power_base": 77
     },
     "lore": "One sister left for the Depths. Another\nrose to far greater heights."
   },
@@ -75989,9 +75847,9 @@
       "aptitude": 1,
       "decay": 1,
       "ice_aspect": 1,
-      "spell_power_base": 75,
       "speed_percent": 5,
-      "attack_damage_base": 6.5
+      "attack_damage_base": 6.5,
+      "spell_power_base": 82
     },
     "lore": "One sister left for the Depths. Another\nrose to far greater heights."
   },
@@ -76376,7 +76234,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Blessing of the Convert",
-    "power": 3,
+    "power": 2,
     "base_item": "Candle",
     "release_status": "public",
     "stats": {
@@ -76950,7 +76808,7 @@
     "release_status": "public",
     "stats": {
       "voodoo_bonds_curse_spread_count_flat": 2,
-      "voodoo_bonds_curse_duration_percent": -20
+      "voodoo_bonds_curse_duration_percent": -35
     },
     "type": "Charm",
     "class_name": "Warlock"
@@ -77013,7 +76871,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Porphyry Shackle",
-    "power": 3,
+    "power": 2,
     "base_item": "Purple Dye",
     "release_status": "public",
     "stats": {
@@ -77218,7 +77076,7 @@
     "release_status": "public",
     "stats": {
       "volley_cooldown_percent": -60,
-      "volley_damage_percent": -30,
+      "volley_damage_percent": -40,
       "volley_arrows_flat": -6
     },
     "type": "Charm",
@@ -77371,11 +77229,11 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Frenzied Earth",
-    "power": 2,
+    "power": 1,
     "base_item": "Beetroot Soup",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_shockwave_distance_percent": 300,
+      "earthen_tremor_shockwave_distance_percent": 200,
       "earthen_tremor_silence_duration_flat": 1.5,
       "earthen_tremor_shockwaves_flat": -5,
       "earthen_tremor_radius_percent": -100
@@ -77400,7 +77258,7 @@
     "release_status": "public",
     "stats": {
       "earthen_tremor_knockback_percent": 100,
-      "earthen_tremor_damage_percent": 45
+      "earthen_tremor_damage_percent": 50
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -77427,8 +77285,8 @@
     "base_item": "Blackstone Wall",
     "release_status": "public",
     "stats": {
-      "decayed_totem_radius_percent": 30,
-      "decayed_totem_targets_flat": 1
+      "decayed_totem_radius_percent": 20,
+      "decayed_totem_targets_flat": 2
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -77474,8 +77332,8 @@
     "base_item": "Warped Fungus",
     "release_status": "public",
     "stats": {
-      "totemic_projection_enhancement_damage_percent": 100,
-      "totemic_projection_enhancement_damage_duration_percent": -40
+      "totemic_projection_enhancement_damage_percent": 80,
+      "totemic_projection_enhancement_damage_duration_percent": -25
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -77870,7 +77728,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Nalatia's Sigil",
-    "power": 4,
+    "power": 3,
     "base_item": "Light Gray Glazed Terracotta",
     "release_status": "public",
     "stats": {
@@ -77992,7 +77850,7 @@
     "release_status": "public",
     "stats": {
       "sanctified_armor_damage_percent": 15,
-      "divine_justice_damage_percent": 15,
+      "divine_justice_percent_damage_percent": 15,
       "divine_justice_self_heal_percent": 15,
       "divine_justice_ally_heal_percent": 15
     },
@@ -78008,7 +77866,7 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "interconnected_havoc_damage_percent": 20
+      "interconnected_havoc_damage_percent": 25
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -78022,7 +77880,7 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "interconnected_havoc_damage_percent": 35
+      "interconnected_havoc_damage_percent": 40
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -78036,7 +77894,7 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "interconnected_havoc_damage_percent": 10
+      "interconnected_havoc_damage_percent": 12
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -78314,11 +78172,12 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Emerald Lens",
-    "power": 3,
+    "power": 2,
     "base_item": "Lime Stained Glass Pane",
     "release_status": "public",
     "stats": {
-      "hallowed_beam_charge_flat": 1
+      "hallowed_beam_charge_flat": 1,
+      "hallowed_beam_damage_percent": -15
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -78381,7 +78240,7 @@
     "release_status": "public",
     "stats": {
       "arcane_strike_cooldown_percent": -30,
-      "arcane_strike_damage_percent": -20
+      "arcane_strike_damage_percent": -15
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -78614,7 +78473,7 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "cleansing_totem_healing_percent": 2,
+      "cleansing_totem_healing_percent": 33,
       "cleansing_totem_cooldown_percent": -10
     },
     "type": "Charm",
@@ -78629,7 +78488,7 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "cleansing_totem_healing_percent": 2
+      "cleansing_totem_healing_percent": 33
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -78643,7 +78502,7 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "cleansing_totem_healing_percent": 3
+      "cleansing_totem_healing_percent": 50
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -78657,7 +78516,7 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "cleansing_totem_healing_percent": 1,
+      "cleansing_totem_healing_percent": 16,
       "cleansing_totem_radius_percent": 30
     },
     "type": "Charm",
@@ -78672,7 +78531,7 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "cleansing_totem_healing_percent": 1
+      "cleansing_totem_healing_percent": 16
     },
     "type": "Charm",
     "class_name": "Shaman"
@@ -79953,7 +79812,7 @@
     "base_item": "Snow Block",
     "release_status": "public",
     "stats": {
-      "blizzard_damage_percent": 35
+      "blizzard_damage_percent": 30
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -80040,7 +79899,7 @@
     "base_item": "Light Blue Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "cosmic_moonblade_damage_percent": 10,
+      "cosmic_moonblade_damage_percent": 15,
       "cosmic_moonblade_range_percent": 40
     },
     "type": "Charm",
@@ -80051,7 +79910,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Swift Lunar Charm",
-    "power": 4,
+    "power": 3,
     "base_item": "Light Blue Glazed Terracotta",
     "release_status": "public",
     "stats": {
@@ -82769,7 +82628,7 @@
       "magic_protection": 1,
       "projectile_protection": 1,
       "agility": 3,
-      "attack_damage_base": 4.5
+      "attack_damage_base": 5
     }
   },
   "Black Swan Song": {
