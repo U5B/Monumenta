@@ -4299,6 +4299,17 @@
     "stats": {},
     "lore": "The loci's anger demands an answer.\nCompletion of Unveiled is required and completion\nof Malevolent Reverie is recommended for this boss!\nKaul, entwined with the force of the Jungle, uses\nits creations and the powers of the elements\nto judge those who go against the Jungle's will.\nPlayers: 1-25 (One life per player)\nGrants access to Kaul, Soul of the Jungle."
   },
+  "Sealing Keystone": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Sealing Keystone",
+    "base_item": "Nether Star",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Ka'Vei'Lok was sealed by invocation of the mighty\nSource of All Things, and the construction of the\nfour holy temples. A conspicuous way of hiding such\na terrible power. The second great discovery of\nthe veil-obsessed shamans was hidden away much\nmore subtly, left to simply be forgotten.\nThe Narsens' decision to erect their capital\non top of the forsaken vault certainly helped.\n\nThe Blind Eye, however, sees the forgotten\neven clearer than the remembered."
+  },
   "Aberration's Amulet": {
     "location": "Mist",
     "region": "Isles",
@@ -32060,6 +32071,25 @@
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
+  "Judgement of the Outer World-4": {
+    "location": "Starpoint",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Judgement of the Outer World",
+    "base_item": "Iron Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "curse_of_the_veil": 3,
+      "life_drain": 4,
+      "unbreaking": 10,
+      "armor": 9.5,
+      "agility": 9.5,
+      "max_health_flat": -2
+    },
+    "lore": "As Faraheim's people cowered in fear, as reality\ntore open around them, another battle raged\nfar beyond their understanding. The gnashing\nteeth, the unblinking eyes of the unknowable ones\nwaited with bated breath. Waited, for Her Judgement."
+  },
   "Iridium Crown-2": {
     "location": "Pelias' Keep",
     "masterwork": "2",
@@ -44890,7 +44920,7 @@
       "unbreaking": 10,
       "thorns_flat": 4,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 11.5
+      "attack_damage_base": 10.5
     },
     "lore": "The collective roots of the Mycelia\nonce showed solidarity, but with the\nGodspore turned tyrant, they now\nshow only its insidious reach."
   },
@@ -44928,7 +44958,7 @@
       "unbreaking": 14,
       "thorns_flat": 6,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 10.5
+      "attack_damage_base": 11.5
     },
     "lore": "The collective roots of the Mycelia\nonce showed solidarity, but with the\nGodspore turned tyrant, they now\nshow only its insidious reach."
   },
@@ -58722,7 +58752,7 @@
     "base_item": "Yellow Dye",
     "release_status": "public",
     "stats": {
-      "divine_justice_percent_damage_percent": 10
+      "divine_justice_percent_damage_percent": 5
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -58736,7 +58766,7 @@
     "base_item": "Yellow Dye",
     "release_status": "public",
     "stats": {
-      "divine_justice_percent_damage_percent": 35
+      "divine_justice_percent_damage_percent": 15
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -58750,7 +58780,7 @@
     "base_item": "Yellow Dye",
     "release_status": "public",
     "stats": {
-      "divine_justice_percent_damage_percent": 20
+      "divine_justice_percent_damage_percent": 10
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -58764,9 +58794,8 @@
     "base_item": "Yellow Dye",
     "release_status": "public",
     "stats": {
-      "divine_justice_percent_damage_percent": 10,
       "divine_justice_self_heal_percent": 25,
-      "divine_justice_ally_heal_percent": 25
+      "divine_justice_ally_heal_percent": 50
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -68719,8 +68748,8 @@
     "base_item": "Redstone",
     "release_status": "public",
     "stats": {
-      "divine_justice_self_heal_percent": -30,
-      "divine_justice_percent_damage_percent": 30
+      "divine_justice_percent_damage_percent": 20,
+      "divine_justice_self_heal_percent": -50
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -77850,9 +77879,8 @@
     "release_status": "public",
     "stats": {
       "sanctified_armor_damage_percent": 15,
-      "divine_justice_percent_damage_percent": 15,
-      "divine_justice_self_heal_percent": 15,
-      "divine_justice_ally_heal_percent": 15
+      "divine_justice_self_heal_percent": 25,
+      "divine_justice_ally_heal_percent": 25
     },
     "type": "Charm",
     "class_name": "Cleric"

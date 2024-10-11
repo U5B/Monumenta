@@ -829,6 +829,11 @@
     "description": "When held in inventory, an item with Curse of Vanishing shatters upon death. Curse of Vanishing II will cause the item to be completely deleted upon death.",
     "category": "Curses"
   },
+  "veil": {
+    "name": "Curse of the Veil",
+    "description": "When equipped, drain (level) health every 3 seconds.",
+    "category": "Curses"
+  },
   "vengeful": {
     "name": "Vengeful",
     "description": "Deal (level * 2)% additional damage to the last mob that damaged you.",
