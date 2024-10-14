@@ -44,6 +44,11 @@
     "description": "You amplified the Litterbox into the Purrfect Winter Retreat!",
     "parent": "monumenta:pois/r1/amped/forsworn_cave"
   },
+  "monumenta:pois/r1/amped/root": {
+    "title": "Amplified POIs",
+    "description": "Discover and conquer the Amplified POIs of the King's Valley",
+    "parent": "monumenta:pois/r1/root"
+  },
   "monumenta:pois/r1/amped/tempest_shrine": {
     "title": "Tempest Shrine",
     "description": "You amplified the Air Shrine into the Tempest Shrine!",
@@ -53,6 +58,11 @@
     "title": "Twisted Cave",
     "description": "You amplified the Overgrown Cave into the Twisted Cave!",
     "parent": "monumenta:pois/r1/amped/ezariahs_tomb"
+  },
+  "monumenta:pois/r1/amped/whirlpool_shrine": {
+    "title": "Whirlpool Shrine",
+    "description": "You amplified the Water Shrine into the Whirlpool Shrine!",
+    "parent": "monumenta:pois/r1/amped/root"
   },
   "monumenta:pois/r1/azacor_grove/azacorsmansion": {
     "title": "Azacor's Mansion",

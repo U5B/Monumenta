@@ -45,7 +45,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4,
+      "playersCompleted": 5,
       "playersCompletedPercentage": 0.01
     }
   },
@@ -70,8 +70,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 12,
-      "playersCompletedPercentage": 0.02
+      "playersCompleted": 16,
+      "playersCompletedPercentage": 0.03
     }
   },
   "monumenta:pois/r1/amped/ezariahs_tomb": {
@@ -120,7 +120,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7,
+      "playersCompleted": 8,
       "playersCompletedPercentage": 0.01
     }
   },
@@ -145,8 +145,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8,
-      "playersCompletedPercentage": 0.01
+      "playersCompleted": 10,
+      "playersCompletedPercentage": 0.02
     }
   },
   "monumenta:pois/r1/amped/ice_shrine": {
@@ -170,8 +170,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 18,
-      "playersCompletedPercentage": 0.03
+      "playersCompleted": 21,
+      "playersCompletedPercentage": 0.04
     }
   },
   "monumenta:pois/r1/amped/mercenary_mine": {
@@ -224,6 +224,31 @@
       "playersCompletedPercentage": 0.02
     }
   },
+  "monumenta:pois/r1/amped/root": {
+    "id": "monumenta:pois/r1/amped/root",
+    "display": {
+      "title": {
+        "text": "Amplified POIs          ",
+        "color": "white"
+      },
+      "description": {
+        "text": "Discover and conquer the Amplified POIs of the King's Valley",
+        "color": "white"
+      },
+      "icon": {
+        "item": "minecraft:quartz",
+        "nbt": "{plain:{display:{Name:\"Adventurer's Crystal\"}}}"
+      },
+      "hidden": true
+    },
+    "parent": "monumenta:pois/r1/root",
+    "children": [],
+    "totalCriteria": 1,
+    "stats": {
+      "playersCompleted": 58,
+      "playersCompletedPercentage": 0.1
+    }
+  },
   "monumenta:pois/r1/amped/tempest_shrine": {
     "id": "monumenta:pois/r1/amped/tempest_shrine",
     "display": {
@@ -245,7 +270,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 12,
+      "playersCompleted": 13,
       "playersCompletedPercentage": 0.02
     }
   },
@@ -270,8 +295,33 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3,
+      "playersCompleted": 4,
       "playersCompletedPercentage": 0.01
+    }
+  },
+  "monumenta:pois/r1/amped/whirlpool_shrine": {
+    "id": "monumenta:pois/r1/amped/whirlpool_shrine",
+    "display": {
+      "title": {
+        "text": "Whirlpool Shrine         ",
+        "color": "white"
+      },
+      "description": {
+        "text": "You amplified the Water Shrine into the Whirlpool Shrine!",
+        "color": "white"
+      },
+      "icon": {
+        "item": "minecraft:dark_prismarine",
+        "nbt": "{display:{Name:'[{\"text\":\"monumenta:pois/r1/amped/whirlpool_shrine\"}]'},plain:{display:{Name:\"monumenta:pois/r1/amped/whirlpool_shrine\"}}}"
+      },
+      "hidden": true
+    },
+    "parent": "monumenta:pois/r1/amped/root",
+    "children": [],
+    "totalCriteria": 1,
+    "stats": {
+      "playersCompleted": 12,
+      "playersCompletedPercentage": 0.02
     }
   },
   "monumenta:pois/r1/azacor_grove/azacorsmansion": {
@@ -310,8 +360,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2972,
-      "playersCompletedPercentage": 5.19
+      "playersCompleted": 2975,
+      "playersCompletedPercentage": 5.2
     }
   },
   "monumenta:pois/r1/azacor_grove/consecratedgrounds": {
@@ -350,7 +400,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3088,
+      "playersCompleted": 3091,
       "playersCompletedPercentage": 5.4
     }
   },
@@ -390,7 +440,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2978,
+      "playersCompleted": 2979,
       "playersCompletedPercentage": 5.2
     }
   },
@@ -430,8 +480,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3514,
-      "playersCompletedPercentage": 6.14
+      "playersCompleted": 3519,
+      "playersCompletedPercentage": 6.15
     }
   },
   "monumenta:pois/r1/azacor_grove/igorslaboratory": {
@@ -470,7 +520,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2314,
+      "playersCompleted": 2315,
       "playersCompletedPercentage": 4.04
     }
   },
@@ -510,7 +560,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2945,
+      "playersCompleted": 2948,
       "playersCompletedPercentage": 5.15
     }
   },
@@ -550,7 +600,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3382,
+      "playersCompleted": 3384,
       "playersCompletedPercentage": 5.91
     }
   },
@@ -575,8 +625,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4152,
-      "playersCompletedPercentage": 7.25
+      "playersCompleted": 4155,
+      "playersCompletedPercentage": 7.26
     }
   },
   "monumenta:pois/r1/azacor_grove/undergrowth": {
@@ -615,7 +665,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2937,
+      "playersCompleted": 2938,
       "playersCompletedPercentage": 5.13
     }
   },
@@ -655,7 +705,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3029,
+      "playersCompleted": 3031,
       "playersCompletedPercentage": 5.29
     }
   },
@@ -695,7 +745,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2979,
+      "playersCompleted": 2983,
       "playersCompletedPercentage": 5.21
     }
   },
@@ -815,7 +865,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5085,
+      "playersCompleted": 5086,
       "playersCompletedPercentage": 8.88
     }
   },
@@ -856,7 +906,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 3426,
-      "playersCompletedPercentage": 5.99
+      "playersCompletedPercentage": 5.98
     }
   },
   "monumenta:pois/r1/highlands/graveyard": {
@@ -895,8 +945,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4401,
-      "playersCompletedPercentage": 7.69
+      "playersCompleted": 4400,
+      "playersCompletedPercentage": 7.68
     }
   },
   "monumenta:pois/r1/highlands/infestedhouse": {
@@ -935,8 +985,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4009,
-      "playersCompletedPercentage": 7
+      "playersCompleted": 4015,
+      "playersCompletedPercentage": 7.01
     }
   },
   "monumenta:pois/r1/highlands/root": {
@@ -961,7 +1011,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 6473,
-      "playersCompletedPercentage": 11.31
+      "playersCompletedPercentage": 11.3
     }
   },
   "monumenta:pois/r1/highlands/verdantfortress": {
@@ -1000,7 +1050,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4238,
+      "playersCompleted": 4240,
       "playersCompletedPercentage": 7.4
     }
   },
@@ -1040,7 +1090,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4260,
+      "playersCompleted": 4261,
       "playersCompletedPercentage": 7.44
     }
   },
@@ -1081,7 +1131,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 4616,
-      "playersCompletedPercentage": 8.07
+      "playersCompletedPercentage": 8.06
     }
   },
   "monumenta:pois/r1/jungle/center/grandmaw": {
@@ -1120,8 +1170,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5423,
-      "playersCompletedPercentage": 9.48
+      "playersCompleted": 5421,
+      "playersCompletedPercentage": 9.47
     }
   },
   "monumenta:pois/r1/jungle/center/hawkfortress": {
@@ -1160,8 +1210,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6117,
-      "playersCompletedPercentage": 10.69
+      "playersCompleted": 6115,
+      "playersCompletedPercentage": 10.68
     }
   },
   "monumenta:pois/r1/jungle/center/root": {
@@ -1185,8 +1235,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7966,
-      "playersCompletedPercentage": 13.92
+      "playersCompleted": 7968,
+      "playersCompletedPercentage": 13.91
     }
   },
   "monumenta:pois/r1/jungle/mountains/axtanmonastary": {
@@ -1225,7 +1275,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6052,
+      "playersCompleted": 6051,
       "playersCompletedPercentage": 10.57
     }
   },
@@ -1265,8 +1315,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4675,
-      "playersCompletedPercentage": 8.17
+      "playersCompleted": 4674,
+      "playersCompletedPercentage": 8.16
     }
   },
   "monumenta:pois/r1/jungle/mountains/creeperfarm": {
@@ -1305,8 +1355,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4646,
-      "playersCompletedPercentage": 8.12
+      "playersCompleted": 4644,
+      "playersCompletedPercentage": 8.11
     }
   },
   "monumenta:pois/r1/jungle/mountains/firecave": {
@@ -1345,7 +1395,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4119,
+      "playersCompleted": 4121,
       "playersCompletedPercentage": 7.2
     }
   },
@@ -1385,7 +1435,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2302,
+      "playersCompleted": 2304,
       "playersCompletedPercentage": 4.02
     }
   },
@@ -1530,8 +1580,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5881,
-      "playersCompletedPercentage": 10.28
+      "playersCompleted": 5880,
+      "playersCompletedPercentage": 10.27
     }
   },
   "monumenta:pois/r1/jungle/northeast/junglemine": {
@@ -1571,7 +1621,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1955,
-      "playersCompletedPercentage": 3.42
+      "playersCompletedPercentage": 3.41
     }
   },
   "monumenta:pois/r1/jungle/northeast/litterbox": {
@@ -1610,7 +1660,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2864,
+      "playersCompleted": 2865,
       "playersCompletedPercentage": 5
     }
   },
@@ -1650,8 +1700,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4278,
-      "playersCompletedPercentage": 7.47
+      "playersCompleted": 4281,
+      "playersCompletedPercentage": 7.48
     }
   },
   "monumenta:pois/r1/jungle/northeast/moltenchasm": {
@@ -1690,8 +1740,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5618,
-      "playersCompletedPercentage": 9.82
+      "playersCompleted": 5620,
+      "playersCompletedPercentage": 9.81
     }
   },
   "monumenta:pois/r1/jungle/northeast/root": {
@@ -1715,8 +1765,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6947,
-      "playersCompletedPercentage": 12.14
+      "playersCompleted": 6949,
+      "playersCompletedPercentage": 12.13
     }
   },
   "monumenta:pois/r1/jungle/northeast/suspiciousvillage": {
@@ -1755,8 +1805,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5204,
-      "playersCompletedPercentage": 9.09
+      "playersCompleted": 5202,
+      "playersCompletedPercentage": 9.08
     }
   },
   "monumenta:pois/r1/jungle/northeast/templetokaul": {
@@ -1795,7 +1845,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3690,
+      "playersCompleted": 3693,
       "playersCompletedPercentage": 6.45
     }
   },
@@ -1835,7 +1885,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4435,
+      "playersCompleted": 4438,
       "playersCompletedPercentage": 7.75
     }
   },
@@ -1875,7 +1925,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6868,
+      "playersCompleted": 6871,
       "playersCompletedPercentage": 12
     }
   },
@@ -1915,8 +1965,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6512,
-      "playersCompletedPercentage": 11.38
+      "playersCompleted": 6513,
+      "playersCompletedPercentage": 11.37
     }
   },
   "monumenta:pois/r1/jungle/northwest/murkymaze": {
@@ -1995,8 +2045,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4235,
-      "playersCompletedPercentage": 7.4
+      "playersCompleted": 4234,
+      "playersCompletedPercentage": 7.39
     }
   },
   "monumenta:pois/r1/jungle/northwest/northjaguar": {
@@ -2035,7 +2085,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7075,
+      "playersCompleted": 7076,
       "playersCompletedPercentage": 12.36
     }
   },
@@ -2075,7 +2125,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3175,
+      "playersCompleted": 3177,
       "playersCompletedPercentage": 5.55
     }
   },
@@ -2100,7 +2150,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 13503,
+      "playersCompleted": 13508,
       "playersCompletedPercentage": 23.59
     }
   },
@@ -2140,7 +2190,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 12582,
+      "playersCompleted": 12586,
       "playersCompletedPercentage": 21.98
     }
   },
@@ -2180,8 +2230,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 11720,
-      "playersCompletedPercentage": 20.48
+      "playersCompleted": 11723,
+      "playersCompletedPercentage": 20.47
     }
   },
   "monumenta:pois/r1/jungle/northwest/watercavern": {
@@ -2220,7 +2270,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3125,
+      "playersCompleted": 3124,
       "playersCompletedPercentage": 5.46
     }
   },
@@ -2245,7 +2295,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 13795,
+      "playersCompleted": 13800,
       "playersCompletedPercentage": 24.1
     }
   },
@@ -2285,7 +2335,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5250,
+      "playersCompleted": 5254,
       "playersCompletedPercentage": 9.17
     }
   },
@@ -2325,7 +2375,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4801,
+      "playersCompleted": 4802,
       "playersCompletedPercentage": 8.39
     }
   },
@@ -2405,7 +2455,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6965,
+      "playersCompleted": 6967,
       "playersCompletedPercentage": 12.17
     }
   },
@@ -2445,7 +2495,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5531,
+      "playersCompleted": 5529,
       "playersCompletedPercentage": 9.66
     }
   },
@@ -2470,8 +2520,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7879,
-      "playersCompletedPercentage": 13.77
+      "playersCompleted": 7882,
+      "playersCompletedPercentage": 13.76
     }
   },
   "monumenta:pois/r1/jungle/southeast/southerncenote": {
@@ -2510,7 +2560,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3975,
+      "playersCompleted": 3979,
       "playersCompletedPercentage": 6.95
     }
   },
@@ -2550,7 +2600,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8001,
+      "playersCompleted": 8004,
       "playersCompletedPercentage": 13.98
     }
   },
@@ -2590,7 +2640,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7058,
+      "playersCompleted": 7061,
       "playersCompletedPercentage": 12.33
     }
   },
@@ -2615,7 +2665,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 9138,
+      "playersCompleted": 9143,
       "playersCompletedPercentage": 15.97
     }
   },
@@ -2655,7 +2705,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6525,
+      "playersCompleted": 6528,
       "playersCompletedPercentage": 11.4
     }
   },
@@ -2695,8 +2745,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8342,
-      "playersCompletedPercentage": 14.58
+      "playersCompleted": 8345,
+      "playersCompletedPercentage": 14.57
     }
   },
   "monumenta:pois/r1/jungle/southwest/templetomemory": {
@@ -2735,8 +2785,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2722,
-      "playersCompletedPercentage": 4.76
+      "playersCompleted": 2721,
+      "playersCompletedPercentage": 4.75
     }
   },
   "monumenta:pois/r1/root": {
@@ -2756,7 +2806,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 57210,
+      "playersCompleted": 57242,
       "playersCompletedPercentage": 99.96
     }
   },
@@ -2796,7 +2846,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2866,
+      "playersCompleted": 2868,
       "playersCompletedPercentage": 5.01
     }
   },
@@ -2836,7 +2886,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2673,
+      "playersCompleted": 2676,
       "playersCompletedPercentage": 4.67
     }
   },
@@ -2876,7 +2926,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2204,
+      "playersCompleted": 2206,
       "playersCompletedPercentage": 3.85
     }
   },
@@ -2916,7 +2966,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2350,
+      "playersCompleted": 2352,
       "playersCompletedPercentage": 4.11
     }
   },
@@ -2956,7 +3006,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2616,
+      "playersCompleted": 2619,
       "playersCompletedPercentage": 4.57
     }
   },
@@ -2981,7 +3031,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6633,
+      "playersCompleted": 6636,
       "playersCompletedPercentage": 11.59
     }
   },
@@ -3006,7 +3056,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3203,
+      "playersCompleted": 3205,
       "playersCompletedPercentage": 5.6
     }
   },
@@ -3031,7 +3081,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4815,
+      "playersCompleted": 4818,
       "playersCompletedPercentage": 8.41
     }
   },
@@ -3071,7 +3121,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2908,
+      "playersCompleted": 2910,
       "playersCompletedPercentage": 5.08
     }
   },
@@ -3151,7 +3201,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2572,
+      "playersCompleted": 2573,
       "playersCompletedPercentage": 4.49
     }
   },
@@ -3191,7 +3241,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2216,
+      "playersCompleted": 2219,
       "playersCompletedPercentage": 3.87
     }
   },
@@ -3231,7 +3281,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2879,
+      "playersCompleted": 2882,
       "playersCompletedPercentage": 5.03
     }
   },
@@ -3391,8 +3441,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 9956,
-      "playersCompletedPercentage": 17.4
+      "playersCompleted": 9958,
+      "playersCompletedPercentage": 17.39
     }
   },
   "monumenta:pois/r1/swamp/east/root": {
@@ -3416,7 +3466,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 18940,
+      "playersCompleted": 18949,
       "playersCompletedPercentage": 33.09
     }
   },
@@ -3456,8 +3506,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 10800,
-      "playersCompletedPercentage": 18.87
+      "playersCompleted": 10803,
+      "playersCompletedPercentage": 18.86
     }
   },
   "monumenta:pois/r1/swamp/east/theoldtower": {
@@ -3496,7 +3546,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6188,
+      "playersCompleted": 6189,
       "playersCompletedPercentage": 10.81
     }
   },
@@ -3536,7 +3586,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 9743,
+      "playersCompleted": 9745,
       "playersCompletedPercentage": 17.02
     }
   },
@@ -3576,8 +3626,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 10265,
-      "playersCompletedPercentage": 17.94
+      "playersCompleted": 10270,
+      "playersCompletedPercentage": 17.93
     }
   },
   "monumenta:pois/r1/swamp/north/banditstronghold": {
@@ -3616,7 +3666,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 12937,
+      "playersCompleted": 12943,
       "playersCompletedPercentage": 22.6
     }
   },
@@ -3657,7 +3707,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1955,
-      "playersCompletedPercentage": 3.42
+      "playersCompletedPercentage": 3.41
     }
   },
   "monumenta:pois/r1/swamp/north/magetower": {
@@ -3696,7 +3746,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 18767,
+      "playersCompleted": 18776,
       "playersCompletedPercentage": 32.79
     }
   },
@@ -3736,7 +3786,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3189,
+      "playersCompleted": 3191,
       "playersCompletedPercentage": 5.57
     }
   },
@@ -3776,7 +3826,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 14010,
+      "playersCompleted": 14017,
       "playersCompletedPercentage": 24.48
     }
   },
@@ -3801,8 +3851,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 23871,
-      "playersCompletedPercentage": 41.71
+      "playersCompleted": 23882,
+      "playersCompletedPercentage": 41.7
     }
   },
   "monumenta:pois/r1/swamp/north/sinkhole": {
@@ -3841,7 +3891,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8003,
+      "playersCompleted": 8006,
       "playersCompletedPercentage": 13.98
     }
   },
@@ -3881,7 +3931,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 17073,
+      "playersCompleted": 17081,
       "playersCompletedPercentage": 29.83
     }
   },
@@ -3906,7 +3956,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 25325,
+      "playersCompleted": 25338,
       "playersCompletedPercentage": 44.25
     }
   },
@@ -3947,7 +3997,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 5042,
-      "playersCompletedPercentage": 8.81
+      "playersCompletedPercentage": 8.8
     }
   },
   "monumenta:pois/r1/swamp/south/lighthouse": {
@@ -3986,7 +4036,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7711,
+      "playersCompleted": 7713,
       "playersCompletedPercentage": 13.47
     }
   },
@@ -4026,8 +4076,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5003,
-      "playersCompletedPercentage": 8.74
+      "playersCompleted": 5002,
+      "playersCompletedPercentage": 8.73
     }
   },
   "monumenta:pois/r1/swamp/south/root": {
@@ -4051,8 +4101,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 14216,
-      "playersCompletedPercentage": 24.84
+      "playersCompleted": 14221,
+      "playersCompletedPercentage": 24.83
     }
   },
   "monumenta:pois/r1/swamp/south/southeasternmine": {
@@ -4091,8 +4141,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5613,
-      "playersCompletedPercentage": 9.81
+      "playersCompleted": 5611,
+      "playersCompletedPercentage": 9.8
     }
   },
   "monumenta:pois/r1/swamp/south/southernmine": {
@@ -4131,7 +4181,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8272,
+      "playersCompleted": 8276,
       "playersCompletedPercentage": 14.45
     }
   },
@@ -4171,8 +4221,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7801,
-      "playersCompletedPercentage": 13.63
+      "playersCompleted": 7802,
+      "playersCompletedPercentage": 13.62
     }
   },
   "monumenta:pois/r1/swamp/south/witchvillage": {
@@ -4211,8 +4261,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 10300,
-      "playersCompletedPercentage": 18
+      "playersCompleted": 10301,
+      "playersCompletedPercentage": 17.99
     }
   },
   "monumenta:pois/r2/chillwind/crystalshroom_valley/bandit_encampment": {
@@ -4251,7 +4301,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2525,
+      "playersCompleted": 2523,
       "playersCompletedPercentage": 4.41
     }
   },
@@ -4291,7 +4341,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2706,
+      "playersCompleted": 2707,
       "playersCompletedPercentage": 4.73
     }
   },
@@ -4331,7 +4381,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2638,
+      "playersCompleted": 2640,
       "playersCompletedPercentage": 4.61
     }
   },
@@ -4371,7 +4421,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1635,
+      "playersCompleted": 1636,
       "playersCompletedPercentage": 2.86
     }
   },
@@ -4412,7 +4462,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 2293,
-      "playersCompletedPercentage": 4.01
+      "playersCompletedPercentage": 4
     }
   },
   "monumenta:pois/r2/chillwind/crystalshroom_valley/irilyth": {
@@ -4476,7 +4526,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2916,
+      "playersCompleted": 2917,
       "playersCompletedPercentage": 5.09
     }
   },
@@ -4516,7 +4566,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2798,
+      "playersCompleted": 2803,
       "playersCompletedPercentage": 4.89
     }
   },
@@ -4556,7 +4606,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2719,
+      "playersCompleted": 2718,
       "playersCompletedPercentage": 4.75
     }
   },
@@ -4596,7 +4646,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2743,
+      "playersCompleted": 2744,
       "playersCompletedPercentage": 4.79
     }
   },
@@ -4636,7 +4686,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2517,
+      "playersCompleted": 2518,
       "playersCompletedPercentage": 4.4
     }
   },
@@ -4661,7 +4711,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3084,
+      "playersCompleted": 3087,
       "playersCompletedPercentage": 5.39
     }
   },
@@ -4701,7 +4751,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2755,
+      "playersCompleted": 2756,
       "playersCompletedPercentage": 4.81
     }
   },
@@ -4741,8 +4791,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2577,
-      "playersCompletedPercentage": 4.5
+      "playersCompleted": 2580,
+      "playersCompletedPercentage": 4.51
     }
   },
   "monumenta:pois/r2/chillwind/forest/tundra_lighthouse": {
@@ -4781,7 +4831,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1679,
+      "playersCompleted": 1677,
       "playersCompletedPercentage": 2.93
     }
   },
@@ -4861,7 +4911,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1632,
+      "playersCompleted": 1633,
       "playersCompletedPercentage": 2.85
     }
   },
@@ -4901,8 +4951,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2506,
-      "playersCompletedPercentage": 4.38
+      "playersCompleted": 2505,
+      "playersCompletedPercentage": 4.37
     }
   },
   "monumenta:pois/r2/chillwind/mountains/frigid_laboratory": {
@@ -4981,7 +5031,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2535,
+      "playersCompleted": 2536,
       "playersCompletedPercentage": 4.43
     }
   },
@@ -5022,7 +5072,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 2407,
-      "playersCompletedPercentage": 4.21
+      "playersCompletedPercentage": 4.2
     }
   },
   "monumenta:pois/r2/chillwind/mountains/mountain_market": {
@@ -5061,8 +5111,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2481,
-      "playersCompletedPercentage": 4.33
+      "playersCompleted": 2483,
+      "playersCompletedPercentage": 4.34
     }
   },
   "monumenta:pois/r2/chillwind/mountains/mountainside_hideaway": {
@@ -5141,7 +5191,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1840,
+      "playersCompleted": 1838,
       "playersCompletedPercentage": 3.21
     }
   },
@@ -5166,7 +5216,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2884,
+      "playersCompleted": 2885,
       "playersCompletedPercentage": 5.04
     }
   },
@@ -5206,7 +5256,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2124,
+      "playersCompleted": 2127,
       "playersCompletedPercentage": 3.71
     }
   },
@@ -5286,7 +5336,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2355,
+      "playersCompleted": 2356,
       "playersCompletedPercentage": 4.11
     }
   },
@@ -5326,7 +5376,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1753,
+      "playersCompleted": 1752,
       "playersCompletedPercentage": 3.06
     }
   },
@@ -5406,7 +5456,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2624,
+      "playersCompleted": 2625,
       "playersCompletedPercentage": 4.58
     }
   },
@@ -5446,7 +5496,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2652,
+      "playersCompleted": 2651,
       "playersCompletedPercentage": 4.63
     }
   },
@@ -5486,7 +5536,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1848,
+      "playersCompleted": 1849,
       "playersCompletedPercentage": 3.23
     }
   },
@@ -5526,7 +5576,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2771,
+      "playersCompleted": 2770,
       "playersCompletedPercentage": 4.84
     }
   },
@@ -5566,7 +5616,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2317,
+      "playersCompleted": 2319,
       "playersCompletedPercentage": 4.05
     }
   },
@@ -5686,7 +5736,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1944,
+      "playersCompleted": 1947,
       "playersCompletedPercentage": 3.4
     }
   },
@@ -5711,7 +5761,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3133,
+      "playersCompleted": 3134,
       "playersCompletedPercentage": 5.47
     }
   },
@@ -5751,8 +5801,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2757,
-      "playersCompletedPercentage": 4.82
+      "playersCompleted": 2756,
+      "playersCompletedPercentage": 4.81
     }
   },
   "monumenta:pois/r2/chillwind/root": {
@@ -5776,7 +5826,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3195,
+      "playersCompleted": 3198,
       "playersCompletedPercentage": 5.58
     }
   },
@@ -5816,7 +5866,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2589,
+      "playersCompleted": 2588,
       "playersCompletedPercentage": 4.52
     }
   },
@@ -5856,7 +5906,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2479,
+      "playersCompleted": 2481,
       "playersCompletedPercentage": 4.33
     }
   },
@@ -5896,7 +5946,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2675,
+      "playersCompleted": 2677,
       "playersCompletedPercentage": 4.67
     }
   },
@@ -5936,7 +5986,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2361,
+      "playersCompleted": 2364,
       "playersCompletedPercentage": 4.13
     }
   },
@@ -5976,7 +6026,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2838,
+      "playersCompleted": 2839,
       "playersCompletedPercentage": 4.96
     }
   },
@@ -6016,7 +6066,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1532,
+      "playersCompleted": 1534,
       "playersCompletedPercentage": 2.68
     }
   },
@@ -6041,7 +6091,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3027,
+      "playersCompleted": 3031,
       "playersCompletedPercentage": 5.29
     }
   },
@@ -6081,7 +6131,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2145,
+      "playersCompleted": 2146,
       "playersCompletedPercentage": 3.75
     }
   },
@@ -6121,7 +6171,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2257,
+      "playersCompleted": 2256,
       "playersCompletedPercentage": 3.94
     }
   },
@@ -6201,7 +6251,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2342,
+      "playersCompleted": 2345,
       "playersCompletedPercentage": 4.09
     }
   },
@@ -6241,7 +6291,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1853,
+      "playersCompleted": 1856,
       "playersCompletedPercentage": 3.24
     }
   },
@@ -6281,7 +6331,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2655,
+      "playersCompleted": 2657,
       "playersCompletedPercentage": 4.64
     }
   },
@@ -6321,7 +6371,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2118,
+      "playersCompleted": 2116,
       "playersCompletedPercentage": 3.7
     }
   },
@@ -6361,8 +6411,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2346,
-      "playersCompletedPercentage": 4.1
+      "playersCompleted": 2351,
+      "playersCompletedPercentage": 4.11
     }
   },
   "monumenta:pois/r2/desert/canyonlands/lost_lava_labs": {
@@ -6401,7 +6451,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1739,
+      "playersCompleted": 1742,
       "playersCompletedPercentage": 3.04
     }
   },
@@ -6441,7 +6491,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2672,
+      "playersCompleted": 2673,
       "playersCompletedPercentage": 4.67
     }
   },
@@ -6481,7 +6531,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1775,
+      "playersCompleted": 1777,
       "playersCompletedPercentage": 3.1
     }
   },
@@ -6506,7 +6556,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3023,
+      "playersCompleted": 3024,
       "playersCompletedPercentage": 5.28
     }
   },
@@ -6546,7 +6596,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2669,
+      "playersCompleted": 2668,
       "playersCompletedPercentage": 4.66
     }
   },
@@ -6586,7 +6636,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1791,
+      "playersCompleted": 1792,
       "playersCompletedPercentage": 3.13
     }
   },
@@ -6666,7 +6716,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2633,
+      "playersCompleted": 2636,
       "playersCompletedPercentage": 4.6
     }
   },
@@ -6706,7 +6756,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2233,
+      "playersCompleted": 2232,
       "playersCompletedPercentage": 3.9
     }
   },
@@ -6746,7 +6796,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2057,
+      "playersCompleted": 2055,
       "playersCompletedPercentage": 3.59
     }
   },
@@ -6826,8 +6876,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2566,
-      "playersCompletedPercentage": 4.48
+      "playersCompleted": 2570,
+      "playersCompletedPercentage": 4.49
     }
   },
   "monumenta:pois/r2/desert/mesa/floating_fortress": {
@@ -6867,7 +6917,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1486,
-      "playersCompletedPercentage": 2.6
+      "playersCompletedPercentage": 2.59
     }
   },
   "monumenta:pois/r2/desert/mesa/hill_fortress": {
@@ -6906,7 +6956,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1935,
+      "playersCompleted": 1937,
       "playersCompletedPercentage": 3.38
     }
   },
@@ -6946,7 +6996,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2157,
+      "playersCompleted": 2160,
       "playersCompletedPercentage": 3.77
     }
   },
@@ -6971,7 +7021,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2946,
+      "playersCompleted": 2948,
       "playersCompletedPercentage": 5.15
     }
   },
@@ -7011,7 +7061,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1584,
+      "playersCompleted": 1586,
       "playersCompletedPercentage": 2.77
     }
   },
@@ -7051,8 +7101,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2683,
-      "playersCompletedPercentage": 4.69
+      "playersCompleted": 2682,
+      "playersCompletedPercentage": 4.68
     }
   },
   "monumenta:pois/r2/desert/mesa/twilight_aqueduct": {
@@ -7131,7 +7181,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1867,
+      "playersCompleted": 1868,
       "playersCompletedPercentage": 3.26
     }
   },
@@ -7211,7 +7261,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2939,
+      "playersCompleted": 2941,
       "playersCompletedPercentage": 5.14
     }
   },
@@ -7251,7 +7301,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1631,
+      "playersCompleted": 1632,
       "playersCompletedPercentage": 2.85
     }
   },
@@ -7291,8 +7341,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2746,
-      "playersCompletedPercentage": 4.8
+      "playersCompleted": 2745,
+      "playersCompletedPercentage": 4.79
     }
   },
   "monumenta:pois/r2/desert/oasis/dehydrated_oasis": {
@@ -7331,7 +7381,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2850,
+      "playersCompleted": 2851,
       "playersCompletedPercentage": 4.98
     }
   },
@@ -7371,7 +7421,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1755,
+      "playersCompleted": 1757,
       "playersCompletedPercentage": 3.07
     }
   },
@@ -7411,7 +7461,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2920,
+      "playersCompleted": 2921,
       "playersCompletedPercentage": 5.1
     }
   },
@@ -7451,7 +7501,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2724,
+      "playersCompleted": 2723,
       "playersCompletedPercentage": 4.76
     }
   },
@@ -7516,7 +7566,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3153,
+      "playersCompleted": 3154,
       "playersCompletedPercentage": 5.51
     }
   },
@@ -7541,7 +7591,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3175,
+      "playersCompleted": 3176,
       "playersCompletedPercentage": 5.55
     }
   },
@@ -7581,7 +7631,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1475,
+      "playersCompleted": 1476,
       "playersCompletedPercentage": 2.58
     }
   },
@@ -7621,7 +7671,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1487,
+      "playersCompleted": 1488,
       "playersCompletedPercentage": 2.6
     }
   },
@@ -7661,7 +7711,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2797,
+      "playersCompleted": 2798,
       "playersCompletedPercentage": 4.89
     }
   },
@@ -7701,7 +7751,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1293,
+      "playersCompleted": 1292,
       "playersCompletedPercentage": 2.26
     }
   },
@@ -7741,7 +7791,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2679,
+      "playersCompleted": 2678,
       "playersCompletedPercentage": 4.68
     }
   },
@@ -7766,8 +7816,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2919,
-      "playersCompletedPercentage": 5.1
+      "playersCompleted": 2917,
+      "playersCompletedPercentage": 5.09
     }
   },
   "monumenta:pois/r2/desert/trade_route/silverbrooke_outpost": {
@@ -7806,7 +7856,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1902,
+      "playersCompleted": 1903,
       "playersCompletedPercentage": 3.32
     }
   },
@@ -7926,7 +7976,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3086,
+      "playersCompleted": 3089,
       "playersCompletedPercentage": 5.39
     }
   },
@@ -7966,8 +8016,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2892,
-      "playersCompletedPercentage": 5.05
+      "playersCompleted": 2900,
+      "playersCompletedPercentage": 5.06
     }
   },
   "monumenta:pois/r2/ocean/early/corsairs_claw": {
@@ -8006,7 +8056,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2374,
+      "playersCompleted": 2377,
       "playersCompletedPercentage": 4.15
     }
   },
@@ -8046,7 +8096,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1777,
+      "playersCompleted": 1776,
       "playersCompletedPercentage": 3.1
     }
   },
@@ -8086,8 +8136,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2953,
-      "playersCompletedPercentage": 5.16
+      "playersCompleted": 2958,
+      "playersCompletedPercentage": 5.17
     }
   },
   "monumenta:pois/r2/ocean/early/guardians_gate": {
@@ -8191,7 +8241,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3299,
+      "playersCompleted": 3301,
       "playersCompletedPercentage": 5.76
     }
   },
@@ -8231,7 +8281,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2741,
+      "playersCompleted": 2742,
       "playersCompletedPercentage": 4.79
     }
   },
@@ -8311,7 +8361,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2152,
+      "playersCompleted": 2153,
       "playersCompletedPercentage": 3.76
     }
   },
@@ -8351,7 +8401,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2066,
+      "playersCompleted": 2068,
       "playersCompletedPercentage": 3.61
     }
   },
@@ -8391,8 +8441,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 967,
-      "playersCompletedPercentage": 1.69
+      "playersCompleted": 972,
+      "playersCompletedPercentage": 1.7
     }
   },
   "monumenta:pois/r2/ocean/mid-late/magmortic_atheneum": {
@@ -8471,8 +8521,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1136,
-      "playersCompletedPercentage": 1.98
+      "playersCompleted": 1138,
+      "playersCompletedPercentage": 1.99
     }
   },
   "monumenta:pois/r2/ocean/mid-late/root": {
@@ -8496,7 +8546,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2675,
+      "playersCompleted": 2676,
       "playersCompletedPercentage": 4.67
     }
   },
@@ -8644,7 +8694,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1903,
-      "playersCompletedPercentage": 3.33
+      "playersCompletedPercentage": 3.32
     }
   },
   "monumenta:pois/r2/ocean/mid-late/steelmeld_passage": {
@@ -8683,8 +8733,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1977,
-      "playersCompletedPercentage": 3.45
+      "playersCompleted": 1979,
+      "playersCompletedPercentage": 3.46
     }
   },
   "monumenta:pois/r2/ocean/mid-late/sunken_tomb": {
@@ -8723,7 +8773,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2123,
+      "playersCompleted": 2125,
       "playersCompletedPercentage": 3.71
     }
   },
@@ -8803,7 +8853,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2356,
+      "playersCompleted": 2358,
       "playersCompletedPercentage": 4.12
     }
   },
@@ -8843,8 +8893,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2474,
-      "playersCompletedPercentage": 4.32
+      "playersCompleted": 2478,
+      "playersCompletedPercentage": 4.33
     }
   },
   "monumenta:pois/r2/ocean/mistport/fungus_thorn_cave": {
@@ -8883,7 +8933,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3052,
+      "playersCompleted": 3053,
       "playersCompletedPercentage": 5.33
     }
   },
@@ -8948,7 +8998,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3319,
+      "playersCompleted": 3321,
       "playersCompletedPercentage": 5.8
     }
   },
@@ -8988,8 +9038,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2366,
-      "playersCompletedPercentage": 4.13
+      "playersCompleted": 2369,
+      "playersCompletedPercentage": 4.14
     }
   },
   "monumenta:pois/r2/ocean/mistport/skull_island": {
@@ -9028,7 +9078,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2984,
+      "playersCompleted": 2986,
       "playersCompletedPercentage": 5.21
     }
   },
@@ -9068,7 +9118,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3042,
+      "playersCompleted": 3045,
       "playersCompletedPercentage": 5.32
     }
   },
@@ -9108,8 +9158,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2515,
-      "playersCompletedPercentage": 4.39
+      "playersCompleted": 2519,
+      "playersCompletedPercentage": 4.4
     }
   },
   "monumenta:pois/r2/ocean/mistport/tangled_cove": {
@@ -9149,7 +9199,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 2361,
-      "playersCompletedPercentage": 4.13
+      "playersCompletedPercentage": 4.12
     }
   },
   "monumenta:pois/r2/ocean/mistport/taproot_ruins": {
@@ -9188,7 +9238,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1986,
+      "playersCompleted": 1988,
       "playersCompletedPercentage": 3.47
     }
   },
@@ -9228,7 +9278,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3063,
+      "playersCompleted": 3064,
       "playersCompletedPercentage": 5.35
     }
   },
@@ -9253,7 +9303,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3324,
+      "playersCompleted": 3326,
       "playersCompletedPercentage": 5.81
     }
   },
@@ -9274,7 +9324,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3597,
+      "playersCompleted": 3598,
       "playersCompletedPercentage": 6.28
     }
   },
@@ -9314,7 +9364,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1562,
+      "playersCompleted": 1563,
       "playersCompletedPercentage": 2.73
     }
   },
@@ -9394,7 +9444,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1680,
+      "playersCompleted": 1682,
       "playersCompletedPercentage": 2.94
     }
   },
@@ -9434,7 +9484,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1812,
+      "playersCompleted": 1813,
       "playersCompletedPercentage": 3.17
     }
   },
@@ -9459,7 +9509,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1801,
+      "playersCompleted": 1802,
       "playersCompletedPercentage": 3.15
     }
   },
@@ -9499,7 +9549,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1646,
+      "playersCompleted": 1647,
       "playersCompletedPercentage": 2.88
     }
   },
@@ -9560,7 +9610,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2255,
+      "playersCompleted": 2257,
       "playersCompletedPercentage": 3.94
     }
   },
@@ -9612,7 +9662,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1167,
+      "playersCompleted": 1168,
       "playersCompletedPercentage": 2.04
     }
   },
@@ -9664,7 +9714,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1308,
+      "playersCompleted": 1309,
       "playersCompletedPercentage": 2.29
     }
   },
@@ -9716,8 +9766,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 741,
-      "playersCompletedPercentage": 1.29
+      "playersCompleted": 745,
+      "playersCompletedPercentage": 1.3
     }
   },
   "monumenta:pois/r3/shrines/boon_of_the_pit": {
@@ -9768,7 +9818,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1137,
+      "playersCompleted": 1138,
       "playersCompletedPercentage": 1.99
     }
   },
@@ -9820,7 +9870,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1443,
+      "playersCompleted": 1442,
       "playersCompletedPercentage": 2.52
     }
   },
@@ -9872,7 +9922,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 708,
+      "playersCompleted": 709,
       "playersCompletedPercentage": 1.24
     }
   },
@@ -9924,7 +9974,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1123,
+      "playersCompleted": 1125,
       "playersCompletedPercentage": 1.96
     }
   },
@@ -9976,7 +10026,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 625,
+      "playersCompleted": 627,
       "playersCompletedPercentage": 1.09
     }
   },
@@ -10028,7 +10078,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1503,
+      "playersCompleted": 1507,
       "playersCompletedPercentage": 2.63
     }
   },
@@ -10080,8 +10130,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1576,
-      "playersCompletedPercentage": 2.75
+      "playersCompleted": 1578,
+      "playersCompletedPercentage": 2.76
     }
   },
   "monumenta:pois/r3/shrines/pool_of_purging": {
@@ -10132,7 +10182,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 753,
+      "playersCompleted": 755,
       "playersCompletedPercentage": 1.32
     }
   },
@@ -10169,7 +10219,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1721,
+      "playersCompleted": 1723,
       "playersCompletedPercentage": 3.01
     }
   },
@@ -10221,8 +10271,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 887,
-      "playersCompletedPercentage": 1.55
+      "playersCompleted": 891,
+      "playersCompletedPercentage": 1.56
     }
   },
   "monumenta:pois/r3/shrines/tuathan_blessing": {
@@ -10273,7 +10323,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1119,
+      "playersCompleted": 1120,
       "playersCompletedPercentage": 1.96
     }
   },
@@ -10313,8 +10363,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1358,
-      "playersCompletedPercentage": 2.37
+      "playersCompleted": 1362,
+      "playersCompletedPercentage": 2.38
     }
   },
   "monumenta:pois/r3/star_point/chittering_gutters": {
@@ -10353,7 +10403,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1145,
+      "playersCompleted": 1148,
       "playersCompletedPercentage": 2
     }
   },
@@ -10393,8 +10443,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1344,
-      "playersCompletedPercentage": 2.35
+      "playersCompleted": 1349,
+      "playersCompletedPercentage": 2.36
     }
   },
   "monumenta:pois/r3/star_point/root": {
@@ -10418,8 +10468,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1460,
-      "playersCompletedPercentage": 2.55
+      "playersCompleted": 1466,
+      "playersCompletedPercentage": 2.56
     }
   },
   "monumenta:pois/r3/star_point/starbound_sanctuary": {
@@ -10458,8 +10508,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1283,
-      "playersCompletedPercentage": 2.24
+      "playersCompleted": 1287,
+      "playersCompletedPercentage": 2.25
     }
   },
   "monumenta:pois/r3/star_point/the_nadir": {
@@ -10498,8 +10548,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1322,
-      "playersCompletedPercentage": 2.31
+      "playersCompleted": 1328,
+      "playersCompletedPercentage": 2.32
     }
   },
   "monumenta:pois/r3/star_point/the_tolumaeus": {
@@ -10538,7 +10588,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1271,
+      "playersCompleted": 1274,
       "playersCompletedPercentage": 2.22
     }
   },
@@ -10618,7 +10668,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1526,
+      "playersCompleted": 1527,
       "playersCompletedPercentage": 2.67
     }
   },
@@ -10658,7 +10708,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1706,
+      "playersCompleted": 1708,
       "playersCompletedPercentage": 2.98
     }
   },
@@ -10698,7 +10748,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1746,
+      "playersCompleted": 1747,
       "playersCompletedPercentage": 3.05
     }
   },
@@ -10738,7 +10788,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1837,
+      "playersCompleted": 1840,
       "playersCompletedPercentage": 3.21
     }
   },
@@ -10764,7 +10814,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 2093,
-      "playersCompletedPercentage": 3.66
+      "playersCompletedPercentage": 3.65
     }
   },
   "monumenta:pois/r3/wolfswood/shadowcast_bastille": {
@@ -10803,7 +10853,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1673,
+      "playersCompleted": 1672,
       "playersCompletedPercentage": 2.92
     }
   },
@@ -10844,7 +10894,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1966,
-      "playersCompletedPercentage": 3.44
+      "playersCompletedPercentage": 3.43
     }
   },
   "monumenta:handbook/enchantments/abyssal": {
@@ -10868,8 +10918,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4827,
-      "playersCompletedPercentage": 8.43
+      "playersCompleted": 4834,
+      "playersCompletedPercentage": 8.44
     }
   },
   "monumenta:handbook/enchantments/acumen": {
@@ -10893,7 +10943,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1471,
+      "playersCompleted": 1470,
       "playersCompletedPercentage": 2.57
     }
   },
@@ -10943,7 +10993,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2672,
+      "playersCompleted": 2675,
       "playersCompletedPercentage": 4.67
     }
   },
@@ -10968,8 +11018,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 24474,
-      "playersCompletedPercentage": 42.76
+      "playersCompleted": 24492,
+      "playersCompletedPercentage": 42.77
     }
   },
   "monumenta:handbook/enchantments/anemia": {
@@ -11018,7 +11068,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1758,
+      "playersCompleted": 1759,
       "playersCompletedPercentage": 3.07
     }
   },
@@ -11043,8 +11093,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 12678,
-      "playersCompletedPercentage": 22.15
+      "playersCompleted": 12690,
+      "playersCompletedPercentage": 22.16
     }
   },
   "monumenta:handbook/enchantments/arcane_thrust": {
@@ -11109,7 +11159,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1448,
+      "playersCompleted": 1449,
       "playersCompletedPercentage": 2.53
     }
   },
@@ -11134,7 +11184,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 511,
+      "playersCompleted": 512,
       "playersCompletedPercentage": 0.89
     }
   },
@@ -11159,8 +11209,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 31495,
-      "playersCompletedPercentage": 55.03
+      "playersCompleted": 31527,
+      "playersCompletedPercentage": 55.05
     }
   },
   "monumenta:handbook/enchantments/ashesofeternity": {
@@ -11209,7 +11259,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 686,
+      "playersCompleted": 689,
       "playersCompletedPercentage": 1.2
     }
   },
@@ -11234,7 +11284,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 416,
+      "playersCompleted": 417,
       "playersCompletedPercentage": 0.73
     }
   },
@@ -11285,7 +11335,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 975,
+      "playersCompleted": 976,
       "playersCompletedPercentage": 1.7
     }
   },
@@ -11310,8 +11360,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 26045,
-      "playersCompletedPercentage": 45.51
+      "playersCompleted": 26066,
+      "playersCompletedPercentage": 45.52
     }
   },
   "monumenta:handbook/enchantments/bleeding": {
@@ -11335,7 +11385,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4518,
+      "playersCompleted": 4521,
       "playersCompletedPercentage": 7.89
     }
   },
@@ -11412,7 +11462,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 354,
+      "playersCompleted": 355,
       "playersCompletedPercentage": 0.62
     }
   },
@@ -11437,7 +11487,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2797,
+      "playersCompleted": 2800,
       "playersCompletedPercentage": 4.89
     }
   },
@@ -11488,7 +11538,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1360,
-      "playersCompletedPercentage": 2.38
+      "playersCompletedPercentage": 2.37
     }
   },
   "monumenta:handbook/enchantments/clucking": {
@@ -11512,7 +11562,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3515,
+      "playersCompleted": 3516,
       "playersCompletedPercentage": 6.14
     }
   },
@@ -11537,7 +11587,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1214,
+      "playersCompleted": 1215,
       "playersCompletedPercentage": 2.12
     }
   },
@@ -11563,7 +11613,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 54245,
+      "playersCompleted": 54277,
       "playersCompletedPercentage": 94.78
     }
   },
@@ -11588,7 +11638,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3573,
+      "playersCompleted": 3576,
       "playersCompletedPercentage": 6.24
     }
   },
@@ -11614,7 +11664,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 54245,
+      "playersCompleted": 54277,
       "playersCompletedPercentage": 94.78
     }
   },
@@ -11639,7 +11689,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1569,
+      "playersCompleted": 1571,
       "playersCompletedPercentage": 2.74
     }
   },
@@ -11664,7 +11714,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1185,
+      "playersCompleted": 1187,
       "playersCompletedPercentage": 2.07
     }
   },
@@ -11690,7 +11740,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 54245,
+      "playersCompleted": 54277,
       "playersCompletedPercentage": 94.78
     }
   },
@@ -11716,7 +11766,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 3924,
-      "playersCompletedPercentage": 6.86
+      "playersCompletedPercentage": 6.85
     }
   },
   "monumenta:handbook/enchantments/debarking": {
@@ -11790,7 +11840,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 11548,
+      "playersCompleted": 11556,
       "playersCompletedPercentage": 20.18
     }
   },
@@ -11816,8 +11866,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 38287,
-      "playersCompletedPercentage": 66.9
+      "playersCompleted": 38320,
+      "playersCompletedPercentage": 66.92
     }
   },
   "monumenta:handbook/enchantments/delve_infusions": {
@@ -11842,8 +11892,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 43457,
-      "playersCompletedPercentage": 75.93
+      "playersCompleted": 43489,
+      "playersCompletedPercentage": 75.94
     }
   },
   "monumenta:handbook/enchantments/depthstrider": {
@@ -11867,7 +11917,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 13049,
+      "playersCompleted": 13059,
       "playersCompletedPercentage": 22.8
     }
   },
@@ -11892,7 +11942,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1670,
+      "playersCompleted": 1671,
       "playersCompletedPercentage": 2.92
     }
   },
@@ -11949,7 +11999,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2842,
+      "playersCompleted": 2846,
       "playersCompletedPercentage": 4.97
     }
   },
@@ -11974,7 +12024,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2872,
+      "playersCompleted": 2874,
       "playersCompletedPercentage": 5.02
     }
   },
@@ -11999,8 +12049,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 28252,
-      "playersCompletedPercentage": 49.36
+      "playersCompleted": 28272,
+      "playersCompletedPercentage": 49.37
     }
   },
   "monumenta:handbook/enchantments/empowered": {
@@ -12024,7 +12074,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 809,
+      "playersCompleted": 810,
       "playersCompletedPercentage": 1.41
     }
   },
@@ -12049,7 +12099,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2037,
+      "playersCompleted": 2038,
       "playersCompletedPercentage": 3.56
     }
   },
@@ -12099,8 +12149,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2372,
-      "playersCompletedPercentage": 4.14
+      "playersCompleted": 2374,
+      "playersCompletedPercentage": 4.15
     }
   },
   "monumenta:handbook/enchantments/ethereal": {
@@ -12124,7 +12174,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2354,
+      "playersCompleted": 2353,
       "playersCompletedPercentage": 4.11
     }
   },
@@ -12149,7 +12199,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2243,
+      "playersCompleted": 2242,
       "playersCompletedPercentage": 3.92
     }
   },
@@ -12174,7 +12224,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 749,
+      "playersCompleted": 750,
       "playersCompletedPercentage": 1.31
     }
   },
@@ -12199,8 +12249,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1130,
-      "playersCompletedPercentage": 1.97
+      "playersCompleted": 1131,
+      "playersCompletedPercentage": 1.98
     }
   },
   "monumenta:handbook/enchantments/exorcism": {
@@ -12224,8 +12274,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2537,
-      "playersCompletedPercentage": 4.43
+      "playersCompleted": 2540,
+      "playersCompletedPercentage": 4.44
     }
   },
   "monumenta:handbook/enchantments/expedite": {
@@ -12274,7 +12324,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8993,
+      "playersCompleted": 8999,
       "playersCompletedPercentage": 15.71
     }
   },
@@ -12301,8 +12351,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 93,
-      "playersCompletedPercentage": 0.16
+      "playersCompleted": 96,
+      "playersCompletedPercentage": 0.17
     }
   },
   "monumenta:handbook/enchantments/festive": {
@@ -12351,8 +12401,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 23318,
-      "playersCompletedPercentage": 40.74
+      "playersCompleted": 23336,
+      "playersCompletedPercentage": 40.75
     }
   },
   "monumenta:handbook/enchantments/firefragility": {
@@ -12401,7 +12451,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 22650,
+      "playersCompleted": 22667,
       "playersCompletedPercentage": 39.58
     }
   },
@@ -12428,7 +12478,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1626,
+      "playersCompleted": 1629,
       "playersCompletedPercentage": 2.84
     }
   },
@@ -12453,7 +12503,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1741,
+      "playersCompleted": 1743,
       "playersCompletedPercentage": 3.04
     }
   },
@@ -12478,8 +12528,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 16953,
-      "playersCompletedPercentage": 29.62
+      "playersCompleted": 16965,
+      "playersCompletedPercentage": 29.63
     }
   },
   "monumenta:handbook/enchantments/fueled": {
@@ -12503,7 +12553,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 501,
+      "playersCompleted": 504,
       "playersCompletedPercentage": 0.88
     }
   },
@@ -12553,7 +12603,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 749,
+      "playersCompleted": 750,
       "playersCompletedPercentage": 1.31
     }
   },
@@ -12578,7 +12628,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4195,
+      "playersCompleted": 4197,
       "playersCompletedPercentage": 7.33
     }
   },
@@ -12628,7 +12678,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1335,
+      "playersCompleted": 1337,
       "playersCompletedPercentage": 2.33
     }
   },
@@ -12653,7 +12703,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2556,
+      "playersCompleted": 2558,
       "playersCompletedPercentage": 4.47
     }
   },
@@ -12678,7 +12728,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3653,
+      "playersCompleted": 3651,
       "playersCompletedPercentage": 6.38
     }
   },
@@ -12703,7 +12753,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 13448,
+      "playersCompleted": 13455,
       "playersCompletedPercentage": 23.5
     }
   },
@@ -12728,7 +12778,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1420,
+      "playersCompleted": 1421,
       "playersCompletedPercentage": 2.48
     }
   },
@@ -12753,7 +12803,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2758,
+      "playersCompleted": 2760,
       "playersCompletedPercentage": 4.82
     }
   },
@@ -12778,7 +12828,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 10905,
+      "playersCompleted": 10910,
       "playersCompletedPercentage": 19.05
     }
   },
@@ -12804,7 +12854,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 54245,
+      "playersCompleted": 54277,
       "playersCompletedPercentage": 94.78
     }
   },
@@ -12829,7 +12879,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 668,
+      "playersCompleted": 670,
       "playersCompletedPercentage": 1.17
     }
   },
@@ -12854,7 +12904,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3081,
+      "playersCompleted": 3082,
       "playersCompletedPercentage": 5.38
     }
   },
@@ -12879,7 +12929,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 973,
+      "playersCompleted": 974,
       "playersCompletedPercentage": 1.7
     }
   },
@@ -12904,7 +12954,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2297,
+      "playersCompleted": 2298,
       "playersCompletedPercentage": 4.01
     }
   },
@@ -12929,7 +12979,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3376,
+      "playersCompleted": 3380,
       "playersCompletedPercentage": 5.9
     }
   },
@@ -12954,7 +13004,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4152,
+      "playersCompleted": 4154,
       "playersCompletedPercentage": 7.25
     }
   },
@@ -12979,8 +13029,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3078,
-      "playersCompletedPercentage": 5.38
+      "playersCompleted": 3077,
+      "playersCompletedPercentage": 5.37
     }
   },
   "monumenta:handbook/enchantments/knockback": {
@@ -13004,8 +13054,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 24205,
-      "playersCompletedPercentage": 42.29
+      "playersCompleted": 24224,
+      "playersCompletedPercentage": 42.3
     }
   },
   "monumenta:handbook/enchantments/lifedrain": {
@@ -13084,7 +13134,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2995,
+      "playersCompleted": 2996,
       "playersCompletedPercentage": 5.23
     }
   },
@@ -13109,7 +13159,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 845,
+      "playersCompleted": 848,
       "playersCompletedPercentage": 1.48
     }
   },
@@ -13134,8 +13184,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1267,
-      "playersCompletedPercentage": 2.21
+      "playersCompleted": 1269,
+      "playersCompletedPercentage": 2.22
     }
   },
   "monumenta:handbook/enchantments/looting": {
@@ -13159,8 +13209,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5115,
-      "playersCompletedPercentage": 8.94
+      "playersCompleted": 5113,
+      "playersCompletedPercentage": 8.93
     }
   },
   "monumenta:handbook/enchantments/lure": {
@@ -13184,7 +13234,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 11257,
+      "playersCompleted": 11264,
       "playersCompletedPercentage": 19.67
     }
   },
@@ -13209,7 +13259,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1772,
+      "playersCompleted": 1775,
       "playersCompletedPercentage": 3.1
     }
   },
@@ -13234,8 +13284,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 14001,
-      "playersCompletedPercentage": 24.46
+      "playersCompleted": 14010,
+      "playersCompletedPercentage": 24.47
     }
   },
   "monumenta:handbook/enchantments/material": {
@@ -13259,8 +13309,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 11324,
-      "playersCompletedPercentage": 19.79
+      "playersCompleted": 11323,
+      "playersCompletedPercentage": 19.77
     }
   },
   "monumenta:handbook/enchantments/meleefragility": {
@@ -13284,7 +13334,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 820,
+      "playersCompleted": 821,
       "playersCompletedPercentage": 1.43
     }
   },
@@ -13309,8 +13359,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 32019,
-      "playersCompletedPercentage": 55.94
+      "playersCompleted": 32049,
+      "playersCompletedPercentage": 55.97
     }
   },
   "monumenta:handbook/enchantments/mending": {
@@ -13334,7 +13384,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 16278,
+      "playersCompleted": 16289,
       "playersCompletedPercentage": 28.44
     }
   },
@@ -13384,8 +13434,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 93,
-      "playersCompletedPercentage": 0.16
+      "playersCompleted": 96,
+      "playersCompletedPercentage": 0.17
     }
   },
   "monumenta:handbook/enchantments/multishot": {
@@ -13409,7 +13459,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1969,
+      "playersCompleted": 1971,
       "playersCompletedPercentage": 3.44
     }
   },
@@ -13434,7 +13484,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1738,
+      "playersCompleted": 1739,
       "playersCompletedPercentage": 3.04
     }
   },
@@ -13509,8 +13559,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2653,
-      "playersCompletedPercentage": 4.64
+      "playersCompleted": 2652,
+      "playersCompletedPercentage": 4.63
     }
   },
   "monumenta:handbook/enchantments/passiveeffects": {
@@ -13535,7 +13585,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 54245,
+      "playersCompleted": 54277,
       "playersCompletedPercentage": 94.78
     }
   },
@@ -13585,8 +13635,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1756,
-      "playersCompletedPercentage": 3.07
+      "playersCompleted": 1755,
+      "playersCompletedPercentage": 3.06
     }
   },
   "monumenta:handbook/enchantments/phylactery": {
@@ -13610,7 +13660,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 940,
+      "playersCompleted": 942,
       "playersCompletedPercentage": 1.64
     }
   },
@@ -13635,8 +13685,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1946,
-      "playersCompletedPercentage": 3.4
+      "playersCompleted": 1954,
+      "playersCompletedPercentage": 3.41
     }
   },
   "monumenta:handbook/enchantments/pointblank": {
@@ -13660,7 +13710,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3101,
+      "playersCompleted": 3104,
       "playersCompletedPercentage": 5.42
     }
   },
@@ -13685,7 +13735,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2433,
+      "playersCompleted": 2435,
       "playersCompletedPercentage": 4.25
     }
   },
@@ -13710,7 +13760,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1204,
+      "playersCompleted": 1205,
       "playersCompletedPercentage": 2.1
     }
   },
@@ -13735,8 +13785,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 32425,
-      "playersCompletedPercentage": 56.65
+      "playersCompleted": 32455,
+      "playersCompletedPercentage": 56.68
     }
   },
   "monumenta:handbook/enchantments/punch": {
@@ -13760,7 +13810,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 13986,
+      "playersCompleted": 13997,
       "playersCompletedPercentage": 24.44
     }
   },
@@ -13785,7 +13835,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2144,
+      "playersCompleted": 2146,
       "playersCompletedPercentage": 3.75
     }
   },
@@ -13835,7 +13885,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 13291,
+      "playersCompleted": 13299,
       "playersCompletedPercentage": 23.22
     }
   },
@@ -13860,7 +13910,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1274,
+      "playersCompleted": 1275,
       "playersCompletedPercentage": 2.23
     }
   },
@@ -13885,7 +13935,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1454,
+      "playersCompleted": 1455,
       "playersCompletedPercentage": 2.54
     }
   },
@@ -13911,7 +13961,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 54245,
+      "playersCompleted": 54277,
       "playersCompletedPercentage": 94.78
     }
   },
@@ -13938,8 +13988,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2236,
-      "playersCompletedPercentage": 3.91
+      "playersCompleted": 2242,
+      "playersCompletedPercentage": 3.92
     }
   },
   "monumenta:handbook/enchantments/reflection": {
@@ -13963,7 +14013,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 415,
+      "playersCompleted": 416,
       "playersCompletedPercentage": 0.73
     }
   },
@@ -13988,7 +14038,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3053,
+      "playersCompleted": 3051,
       "playersCompletedPercentage": 5.33
     }
   },
@@ -14013,7 +14063,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 560,
+      "playersCompleted": 561,
       "playersCompletedPercentage": 0.98
     }
   },
@@ -14040,7 +14090,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6394,
+      "playersCompleted": 6397,
       "playersCompletedPercentage": 11.17
     }
   },
@@ -14065,7 +14115,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2634,
+      "playersCompleted": 2636,
       "playersCompletedPercentage": 4.6
     }
   },
@@ -14090,8 +14140,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 15593,
-      "playersCompletedPercentage": 27.24
+      "playersCompleted": 15606,
+      "playersCompletedPercentage": 27.25
     }
   },
   "monumenta:handbook/enchantments/resurrection": {
@@ -14116,7 +14166,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 518,
-      "playersCompletedPercentage": 0.91
+      "playersCompletedPercentage": 0.9
     }
   },
   "monumenta:handbook/enchantments/retrieval": {
@@ -14140,7 +14190,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2196,
+      "playersCompleted": 2198,
       "playersCompletedPercentage": 3.84
     }
   },
@@ -14192,8 +14242,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 924,
-      "playersCompletedPercentage": 1.61
+      "playersCompleted": 925,
+      "playersCompletedPercentage": 1.62
     }
   },
   "monumenta:handbook/enchantments/riptide": {
@@ -14218,7 +14268,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 3048,
-      "playersCompletedPercentage": 5.33
+      "playersCompletedPercentage": 5.32
     }
   },
   "monumenta:handbook/enchantments/root": {
@@ -14243,7 +14293,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 56673,
+      "playersCompleted": 56705,
       "playersCompletedPercentage": 99.02
     }
   },
@@ -14293,7 +14343,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2957,
+      "playersCompleted": 2958,
       "playersCompletedPercentage": 5.17
     }
   },
@@ -14318,7 +14368,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2407,
+      "playersCompleted": 2408,
       "playersCompletedPercentage": 4.21
     }
   },
@@ -14343,7 +14393,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2643,
+      "playersCompleted": 2647,
       "playersCompletedPercentage": 4.62
     }
   },
@@ -14368,7 +14418,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 588,
+      "playersCompleted": 589,
       "playersCompletedPercentage": 1.03
     }
   },
@@ -14393,7 +14443,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2094,
+      "playersCompleted": 2095,
       "playersCompletedPercentage": 3.66
     }
   },
@@ -14418,8 +14468,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 18749,
-      "playersCompletedPercentage": 32.76
+      "playersCompleted": 18766,
+      "playersCompletedPercentage": 32.77
     }
   },
   "monumenta:handbook/enchantments/smite": {
@@ -14443,8 +14493,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 17570,
-      "playersCompletedPercentage": 30.7
+      "playersCompleted": 17584,
+      "playersCompletedPercentage": 30.71
     }
   },
   "monumenta:handbook/enchantments/sniper": {
@@ -14468,7 +14518,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4623,
+      "playersCompleted": 4627,
       "playersCompletedPercentage": 8.08
     }
   },
@@ -14493,7 +14543,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 656,
+      "playersCompleted": 658,
       "playersCompletedPercentage": 1.15
     }
   },
@@ -14543,8 +14593,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 33454,
-      "playersCompletedPercentage": 58.45
+      "playersCompleted": 33475,
+      "playersCompletedPercentage": 58.46
     }
   },
   "monumenta:handbook/enchantments/stamina": {
@@ -14568,7 +14618,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1469,
+      "playersCompleted": 1472,
       "playersCompletedPercentage": 2.57
     }
   },
@@ -14618,7 +14668,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 835,
+      "playersCompleted": 836,
       "playersCompletedPercentage": 1.46
     }
   },
@@ -14643,7 +14693,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1653,
+      "playersCompleted": 1655,
       "playersCompletedPercentage": 2.89
     }
   },
@@ -14668,7 +14718,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2137,
+      "playersCompleted": 2136,
       "playersCompletedPercentage": 3.73
     }
   },
@@ -14718,7 +14768,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 16378,
+      "playersCompleted": 16389,
       "playersCompletedPercentage": 28.62
     }
   },
@@ -14745,7 +14795,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1214,
+      "playersCompleted": 1215,
       "playersCompletedPercentage": 2.12
     }
   },
@@ -14770,7 +14820,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3555,
+      "playersCompleted": 3559,
       "playersCompletedPercentage": 6.21
     }
   },
@@ -14795,7 +14845,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 972,
+      "playersCompleted": 973,
       "playersCompletedPercentage": 1.7
     }
   },
@@ -14820,7 +14870,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1917,
+      "playersCompleted": 1921,
       "playersCompletedPercentage": 3.35
     }
   },
@@ -14845,7 +14895,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 27054,
+      "playersCompleted": 27069,
       "playersCompletedPercentage": 47.27
     }
   },
@@ -14895,8 +14945,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4586,
-      "playersCompletedPercentage": 8.01
+      "playersCompleted": 4590,
+      "playersCompletedPercentage": 8.02
     }
   },
   "monumenta:handbook/enchantments/tools": {
@@ -14921,8 +14971,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 54202,
-      "playersCompletedPercentage": 94.7
+      "playersCompleted": 54234,
+      "playersCompletedPercentage": 94.71
     }
   },
   "monumenta:handbook/enchantments/triage": {
@@ -14946,7 +14996,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1413,
+      "playersCompleted": 1414,
       "playersCompletedPercentage": 2.47
     }
   },
@@ -14971,8 +15021,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1353,
-      "playersCompletedPercentage": 2.36
+      "playersCompleted": 1355,
+      "playersCompletedPercentage": 2.37
     }
   },
   "monumenta:handbook/enchantments/two_handed": {
@@ -14996,7 +15046,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2186,
+      "playersCompleted": 2189,
       "playersCompletedPercentage": 3.82
     }
   },
@@ -15021,7 +15071,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 49466,
+      "playersCompleted": 49496,
       "playersCompletedPercentage": 86.43
     }
   },
@@ -15046,7 +15096,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1165,
+      "playersCompleted": 1167,
       "playersCompletedPercentage": 2.04
     }
   },
@@ -15096,7 +15146,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 505,
+      "playersCompleted": 506,
       "playersCompletedPercentage": 0.88
     }
   },
@@ -15121,7 +15171,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1036,
+      "playersCompleted": 1038,
       "playersCompletedPercentage": 1.81
     }
   },
@@ -15146,7 +15196,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8038,
+      "playersCompleted": 8041,
       "playersCompletedPercentage": 14.04
     }
   },
@@ -15171,8 +15221,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 202,
-      "playersCompletedPercentage": 0.35
+      "playersCompleted": 205,
+      "playersCompletedPercentage": 0.36
     }
   },
   "monumenta:handbook/enchantments/vengeful": {
@@ -15221,7 +15271,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2153,
+      "playersCompleted": 2155,
       "playersCompletedPercentage": 3.76
     }
   },
@@ -15246,8 +15296,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1702,
-      "playersCompletedPercentage": 2.97
+      "playersCompleted": 1706,
+      "playersCompletedPercentage": 2.98
     }
   },
   "monumenta:handbook/enchantments/waxoff": {
@@ -15271,7 +15321,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 494,
+      "playersCompleted": 495,
       "playersCompletedPercentage": 0.86
     }
   },
@@ -15296,7 +15346,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 524,
+      "playersCompleted": 525,
       "playersCompletedPercentage": 0.92
     }
   },
@@ -15322,7 +15372,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 54245,
+      "playersCompleted": 54277,
       "playersCompletedPercentage": 94.78
     }
   },
@@ -15347,7 +15397,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1937,
+      "playersCompleted": 1938,
       "playersCompletedPercentage": 3.38
     }
   },
@@ -15372,7 +15422,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2100,
+      "playersCompleted": 2102,
       "playersCompletedPercentage": 3.67
     }
   },
@@ -15397,8 +15447,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1784,
-      "playersCompletedPercentage": 3.12
+      "playersCompleted": 1783,
+      "playersCompletedPercentage": 3.11
     }
   },
   "monumenta:handbook/important_sites/r1/academy": {
@@ -15424,7 +15474,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 29024,
+      "playersCompleted": 29039,
       "playersCompletedPercentage": 50.71
     }
   },
@@ -15457,8 +15507,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 17058,
-      "playersCompletedPercentage": 29.8
+      "playersCompleted": 17069,
+      "playersCompletedPercentage": 29.81
     }
   },
   "monumenta:handbook/important_sites/r1/casino": {
@@ -15492,7 +15542,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5230,
+      "playersCompleted": 5233,
       "playersCompletedPercentage": 9.14
     }
   },
@@ -15537,7 +15587,7 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 51303,
+      "playersCompleted": 51334,
       "playersCompletedPercentage": 89.64
     }
   },
@@ -15572,8 +15622,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 10131,
-      "playersCompletedPercentage": 17.7
+      "playersCompleted": 10133,
+      "playersCompletedPercentage": 17.69
     }
   },
   "monumenta:handbook/important_sites/r1/city_guide": {
@@ -15605,7 +15655,7 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 34123,
+      "playersCompleted": 34143,
       "playersCompletedPercentage": 59.62
     }
   },
@@ -15638,8 +15688,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 3992,
-      "playersCompletedPercentage": 6.97
+      "playersCompleted": 3997,
+      "playersCompletedPercentage": 6.98
     }
   },
   "monumenta:handbook/important_sites/r1/ctaz": {
@@ -15678,7 +15728,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5948,
+      "playersCompleted": 5947,
       "playersCompletedPercentage": 10.39
     }
   },
@@ -15718,7 +15768,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7125,
+      "playersCompleted": 7128,
       "playersCompletedPercentage": 12.45
     }
   },
@@ -15745,8 +15795,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5872,
-      "playersCompletedPercentage": 10.26
+      "playersCompleted": 5871,
+      "playersCompletedPercentage": 10.25
     }
   },
   "monumenta:handbook/important_sites/r1/highwatch": {
@@ -15786,7 +15836,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 5437,
-      "playersCompletedPercentage": 9.5
+      "playersCompletedPercentage": 9.49
     }
   },
   "monumenta:handbook/important_sites/r1/hotsprings": {
@@ -15810,8 +15860,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3202,
-      "playersCompletedPercentage": 5.59
+      "playersCompleted": 3206,
+      "playersCompletedPercentage": 5.6
     }
   },
   "monumenta:handbook/important_sites/r1/infusion": {
@@ -15835,7 +15885,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2471,
+      "playersCompleted": 2473,
       "playersCompletedPercentage": 4.32
     }
   },
@@ -15875,7 +15925,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5432,
+      "playersCompleted": 5435,
       "playersCompletedPercentage": 9.49
     }
   },
@@ -15906,7 +15956,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3927,
+      "playersCompleted": 3928,
       "playersCompletedPercentage": 6.86
     }
   },
@@ -15946,7 +15996,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 14697,
+      "playersCompleted": 14704,
       "playersCompletedPercentage": 25.68
     }
   },
@@ -15986,8 +16036,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3093,
-      "playersCompletedPercentage": 5.4
+      "playersCompleted": 3096,
+      "playersCompletedPercentage": 5.41
     }
   },
   "monumenta:handbook/important_sites/r1/patron_shrine": {
@@ -16029,8 +16079,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 13228,
-      "playersCompletedPercentage": 23.11
+      "playersCompleted": 13241,
+      "playersCompletedPercentage": 23.12
     }
   },
   "monumenta:handbook/important_sites/r1/root": {
@@ -16056,7 +16106,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 56664,
+      "playersCompleted": 56696,
       "playersCompletedPercentage": 99.01
     }
   },
@@ -16091,7 +16141,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6336,
+      "playersCompleted": 6339,
       "playersCompletedPercentage": 11.07
     }
   },
@@ -16131,8 +16181,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 55461,
-      "playersCompletedPercentage": 96.9
+      "playersCompleted": 55493,
+      "playersCompletedPercentage": 96.91
     }
   },
   "monumenta:handbook/important_sites/r1/taeldim": {
@@ -16171,8 +16221,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3270,
-      "playersCompletedPercentage": 5.71
+      "playersCompleted": 3273,
+      "playersCompletedPercentage": 5.72
     }
   },
   "monumenta:handbook/important_sites/r1/teleport_hub": {
@@ -16202,7 +16252,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 19805,
+      "playersCompleted": 19815,
       "playersCompletedPercentage": 34.6
     }
   },
@@ -16261,8 +16311,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4342,
-      "playersCompletedPercentage": 7.59
+      "playersCompleted": 4343,
+      "playersCompletedPercentage": 7.58
     }
   },
   "monumenta:handbook/important_sites/r2/academy": {
@@ -16293,8 +16343,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 3150,
-      "playersCompletedPercentage": 5.5
+      "playersCompleted": 3153,
+      "playersCompletedPercentage": 5.51
     }
   },
   "monumenta:handbook/important_sites/r2/alnera": {
@@ -16333,7 +16383,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3119,
+      "playersCompleted": 3120,
       "playersCompletedPercentage": 5.45
     }
   },
@@ -16364,7 +16414,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1005,
+      "playersCompleted": 1006,
       "playersCompletedPercentage": 1.76
     }
   },
@@ -16404,7 +16454,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2038,
+      "playersCompleted": 2041,
       "playersCompletedPercentage": 3.56
     }
   },
@@ -16431,8 +16481,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2260,
-      "playersCompletedPercentage": 3.95
+      "playersCompleted": 2259,
+      "playersCompletedPercentage": 3.94
     }
   },
   "monumenta:handbook/important_sites/r2/casino": {
@@ -16466,7 +16516,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2564,
+      "playersCompleted": 2565,
       "playersCompletedPercentage": 4.48
     }
   },
@@ -16491,7 +16541,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1995,
+      "playersCompleted": 1998,
       "playersCompletedPercentage": 3.49
     }
   },
@@ -16522,8 +16572,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3288,
-      "playersCompletedPercentage": 5.74
+      "playersCompleted": 3291,
+      "playersCompletedPercentage": 5.75
     }
   },
   "monumenta:handbook/important_sites/r2/frostgate": {
@@ -16562,7 +16612,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3132,
+      "playersCompleted": 3135,
       "playersCompletedPercentage": 5.47
     }
   },
@@ -16627,7 +16677,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3573,
+      "playersCompleted": 3574,
       "playersCompletedPercentage": 6.24
     }
   },
@@ -16668,7 +16718,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 2733,
-      "playersCompletedPercentage": 4.78
+      "playersCompletedPercentage": 4.77
     }
   },
   "monumenta:handbook/important_sites/r2/monument": {
@@ -16698,8 +16748,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2406,
-      "playersCompletedPercentage": 4.2
+      "playersCompleted": 2408,
+      "playersCompletedPercentage": 4.21
     }
   },
   "monumenta:handbook/important_sites/r2/nightroost": {
@@ -16738,7 +16788,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2883,
+      "playersCompleted": 2886,
       "playersCompletedPercentage": 5.04
     }
   },
@@ -16781,7 +16831,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2722,
+      "playersCompleted": 2723,
       "playersCompletedPercentage": 4.76
     }
   },
@@ -16821,8 +16871,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2876,
-      "playersCompletedPercentage": 5.03
+      "playersCompleted": 2877,
+      "playersCompletedPercentage": 5.02
     }
   },
   "monumenta:handbook/important_sites/r2/repairstations": {
@@ -16848,7 +16898,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3297,
+      "playersCompleted": 3298,
       "playersCompletedPercentage": 5.76
     }
   },
@@ -16875,7 +16925,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3587,
+      "playersCompleted": 3588,
       "playersCompletedPercentage": 6.27
     }
   },
@@ -16910,7 +16960,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2710,
+      "playersCompleted": 2713,
       "playersCompletedPercentage": 4.74
     }
   },
@@ -16950,7 +17000,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2480,
+      "playersCompleted": 2479,
       "playersCompletedPercentage": 4.33
     }
   },
@@ -16981,7 +17031,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3562,
+      "playersCompleted": 3564,
       "playersCompletedPercentage": 6.22
     }
   },
@@ -17040,7 +17090,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2353,
+      "playersCompleted": 2354,
       "playersCompletedPercentage": 4.11
     }
   },
@@ -17080,7 +17130,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2782,
+      "playersCompleted": 2784,
       "playersCompletedPercentage": 4.86
     }
   },
@@ -17115,8 +17165,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2080,
-      "playersCompletedPercentage": 3.63
+      "playersCompleted": 2082,
+      "playersCompletedPercentage": 3.64
     }
   },
   "monumenta:handbook/important_sites/r3/casino": {
@@ -17150,7 +17200,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1618,
+      "playersCompleted": 1621,
       "playersCompletedPercentage": 2.83
     }
   },
@@ -17217,7 +17267,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2243,
+      "playersCompleted": 2244,
       "playersCompletedPercentage": 3.92
     }
   },
@@ -17244,7 +17294,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1531,
+      "playersCompleted": 1533,
       "playersCompletedPercentage": 2.68
     }
   },
@@ -17361,7 +17411,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1867,
+      "playersCompleted": 1868,
       "playersCompletedPercentage": 3.26
     }
   },
@@ -17404,7 +17454,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1619,
+      "playersCompleted": 1622,
       "playersCompletedPercentage": 2.83
     }
   },
@@ -17444,7 +17494,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2247,
+      "playersCompleted": 2248,
       "playersCompletedPercentage": 3.93
     }
   },
@@ -17471,7 +17521,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2255,
+      "playersCompleted": 2257,
       "playersCompletedPercentage": 3.94
     }
   },
@@ -17554,7 +17604,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1892,
-      "playersCompletedPercentage": 3.31
+      "playersCompletedPercentage": 3.3
     }
   },
   "monumenta:handbook/important_sites/root": {
@@ -17579,8 +17629,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 55604,
-      "playersCompletedPercentage": 97.15
+      "playersCompleted": 55636,
+      "playersCompletedPercentage": 97.16
     }
   },
   "monumenta:handbook/item_tiers/ar/architectring": {
@@ -17620,7 +17670,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3057,
+      "playersCompleted": 3059,
       "playersCompletedPercentage": 5.34
     }
   },
@@ -17718,8 +17768,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1038,
-      "playersCompletedPercentage": 1.81
+      "playersCompleted": 1041,
+      "playersCompletedPercentage": 1.82
     }
   },
   "monumenta:handbook/item_tiers/ar/fish": {
@@ -17832,7 +17882,7 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 2367,
+      "playersCompleted": 2368,
       "playersCompletedPercentage": 4.14
     }
   },
@@ -17873,7 +17923,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1834,
+      "playersCompleted": 1833,
       "playersCompletedPercentage": 3.2
     }
   },
@@ -17931,7 +17981,7 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 4670,
+      "playersCompleted": 4672,
       "playersCompletedPercentage": 8.16
     }
   },
@@ -17972,7 +18022,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 47250,
+      "playersCompleted": 47280,
       "playersCompletedPercentage": 82.56
     }
   },
@@ -18017,7 +18067,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 41413,
+      "playersCompleted": 41439,
       "playersCompletedPercentage": 72.36
     }
   },
@@ -18062,7 +18112,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 23924,
+      "playersCompleted": 23936,
       "playersCompletedPercentage": 41.8
     }
   },
@@ -18107,7 +18157,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 10725,
+      "playersCompleted": 10730,
       "playersCompletedPercentage": 18.74
     }
   },
@@ -18156,8 +18206,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6632,
-      "playersCompletedPercentage": 11.59
+      "playersCompleted": 6633,
+      "playersCompletedPercentage": 11.58
     }
   },
   "monumenta:handbook/item_tiers/kv/artifact": {
@@ -18193,7 +18243,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6082,
+      "playersCompleted": 6085,
       "playersCompletedPercentage": 10.63
     }
   },
@@ -18235,7 +18285,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3046,
+      "playersCompleted": 3047,
       "playersCompletedPercentage": 5.32
     }
   },
@@ -18292,7 +18342,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4785,
+      "playersCompleted": 4786,
       "playersCompletedPercentage": 8.36
     }
   },
@@ -18341,7 +18391,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4391,
+      "playersCompleted": 4390,
       "playersCompletedPercentage": 7.67
     }
   },
@@ -18390,7 +18440,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 9570,
+      "playersCompleted": 9573,
       "playersCompletedPercentage": 16.72
     }
   },
@@ -18439,7 +18489,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 36572,
+      "playersCompleted": 36594,
       "playersCompletedPercentage": 63.9
     }
   },
@@ -18484,7 +18534,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 18122,
+      "playersCompleted": 18130,
       "playersCompletedPercentage": 31.66
     }
   },
@@ -18510,7 +18560,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 53930,
+      "playersCompleted": 53962,
       "playersCompletedPercentage": 94.23
     }
   },
@@ -18542,7 +18592,7 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 41977,
+      "playersCompleted": 42001,
       "playersCompletedPercentage": 73.34
     }
   },
@@ -18601,7 +18651,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 33365,
+      "playersCompleted": 33384,
       "playersCompletedPercentage": 58.3
     }
   },
@@ -18627,7 +18677,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 56673,
+      "playersCompleted": 56705,
       "playersCompletedPercentage": 99.02
     }
   },
@@ -18681,8 +18731,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 24187,
-      "playersCompletedPercentage": 42.26
+      "playersCompleted": 24207,
+      "playersCompletedPercentage": 42.27
     }
   },
   "monumenta:handbook/money/ac": {
@@ -18706,8 +18756,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35643,
-      "playersCompletedPercentage": 62.28
+      "playersCompleted": 35640,
+      "playersCompletedPercentage": 62.24
     }
   },
   "monumenta:handbook/money/achip": {
@@ -18731,8 +18781,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 30854,
-      "playersCompletedPercentage": 53.91
+      "playersCompleted": 30851,
+      "playersCompletedPercentage": 53.87
     }
   },
   "monumenta:handbook/money/ar": {
@@ -18756,8 +18806,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 30867,
-      "playersCompletedPercentage": 53.93
+      "playersCompleted": 30865,
+      "playersCompletedPercentage": 53.9
     }
   },
   "monumenta:handbook/money/augments": {
@@ -18788,8 +18838,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 30861,
-      "playersCompletedPercentage": 53.92
+      "playersCompleted": 30858,
+      "playersCompletedPercentage": 53.89
     }
   },
   "monumenta:handbook/money/cchip": {
@@ -18818,8 +18868,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 35374,
-      "playersCompletedPercentage": 61.81
+      "playersCompleted": 35370,
+      "playersCompletedPercentage": 61.77
     }
   },
   "monumenta:handbook/money/ccs": {
@@ -18849,8 +18899,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 35862,
-      "playersCompletedPercentage": 62.66
+      "playersCompleted": 35860,
+      "playersCompletedPercentage": 62.62
     }
   },
   "monumenta:handbook/money/chip": {
@@ -18879,8 +18929,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 36794,
-      "playersCompletedPercentage": 64.29
+      "playersCompleted": 36792,
+      "playersCompletedPercentage": 64.25
     }
   },
   "monumenta:handbook/money/cs": {
@@ -18904,8 +18954,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35800,
-      "playersCompletedPercentage": 62.55
+      "playersCompleted": 35798,
+      "playersCompletedPercentage": 62.51
     }
   },
   "monumenta:handbook/money/cxp": {
@@ -18935,8 +18985,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 48726,
-      "playersCompletedPercentage": 85.14
+      "playersCompleted": 48748,
+      "playersCompletedPercentage": 85.13
     }
   },
   "monumenta:handbook/money/discoveries": {
@@ -18984,8 +19034,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1694,
-      "playersCompletedPercentage": 2.96
+      "playersCompleted": 1705,
+      "playersCompletedPercentage": 2.98
     }
   },
   "monumenta:handbook/money/gc": {
@@ -19009,8 +19059,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 30857,
-      "playersCompletedPercentage": 53.91
+      "playersCompleted": 30854,
+      "playersCompletedPercentage": 53.88
     }
   },
   "monumenta:handbook/money/gd": {
@@ -19034,8 +19084,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35557,
-      "playersCompletedPercentage": 62.13
+      "playersCompleted": 35555,
+      "playersCompletedPercentage": 62.09
     }
   },
   "monumenta:handbook/money/gs": {
@@ -19059,8 +19109,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35640,
-      "playersCompletedPercentage": 62.27
+      "playersCompleted": 35638,
+      "playersCompletedPercentage": 62.23
     }
   },
   "monumenta:handbook/money/har": {
@@ -19090,8 +19140,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 30867,
-      "playersCompletedPercentage": 53.93
+      "playersCompleted": 30864,
+      "playersCompletedPercentage": 53.9
     }
   },
   "monumenta:handbook/money/hcs": {
@@ -19121,8 +19171,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 35719,
-      "playersCompletedPercentage": 62.41
+      "playersCompleted": 35716,
+      "playersCompletedPercentage": 62.37
     }
   },
   "monumenta:handbook/money/hxp": {
@@ -19152,8 +19202,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 37130,
-      "playersCompletedPercentage": 64.88
+      "playersCompleted": 37133,
+      "playersCompletedPercentage": 64.84
     }
   },
   "monumenta:handbook/money/pd": {
@@ -19177,8 +19227,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35704,
-      "playersCompletedPercentage": 62.38
+      "playersCompleted": 35702,
+      "playersCompletedPercentage": 62.35
     }
   },
   "monumenta:handbook/money/pdia": {
@@ -19202,8 +19252,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 30854,
-      "playersCompletedPercentage": 53.91
+      "playersCompleted": 30851,
+      "playersCompletedPercentage": 53.87
     }
   },
   "monumenta:handbook/money/pe": {
@@ -19227,8 +19277,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35587,
-      "playersCompletedPercentage": 62.18
+      "playersCompleted": 35585,
+      "playersCompletedPercentage": 62.14
     }
   },
   "monumenta:handbook/money/pg": {
@@ -19252,8 +19302,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35654,
-      "playersCompletedPercentage": 62.3
+      "playersCompleted": 35651,
+      "playersCompletedPercentage": 62.26
     }
   },
   "monumenta:handbook/money/pp": {
@@ -19277,8 +19327,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35566,
-      "playersCompletedPercentage": 62.14
+      "playersCompleted": 35564,
+      "playersCompletedPercentage": 62.1
     }
   },
   "monumenta:handbook/money/ps": {
@@ -19302,8 +19352,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 30852,
-      "playersCompletedPercentage": 53.91
+      "playersCompleted": 30849,
+      "playersCompletedPercentage": 53.87
     }
   },
   "monumenta:handbook/money/rc": {
@@ -19327,8 +19377,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 36194,
-      "playersCompletedPercentage": 63.24
+      "playersCompleted": 36191,
+      "playersCompletedPercentage": 63.2
     }
   },
   "monumenta:handbook/money/rd": {
@@ -19352,8 +19402,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35646,
-      "playersCompletedPercentage": 62.28
+      "playersCompleted": 35643,
+      "playersCompletedPercentage": 62.24
     }
   },
   "monumenta:handbook/money/root": {
@@ -19378,7 +19428,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 56673,
+      "playersCompleted": 56705,
       "playersCompletedPercentage": 99.02
     }
   },
@@ -19403,8 +19453,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 35531,
-      "playersCompletedPercentage": 62.08
+      "playersCompleted": 35528,
+      "playersCompletedPercentage": 62.04
     }
   },
   "monumenta:handbook/money/sd": {
@@ -19428,8 +19478,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 30854,
-      "playersCompletedPercentage": 53.91
+      "playersCompleted": 30851,
+      "playersCompletedPercentage": 53.87
     }
   },
   "monumenta:handbook/money/soul_thread": {
@@ -19453,8 +19503,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 14738,
-      "playersCompletedPercentage": 25.75
+      "playersCompleted": 14768,
+      "playersCompletedPercentage": 25.79
     }
   },
   "monumenta:handbook/money/xp": {
@@ -19478,8 +19528,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 51843,
-      "playersCompletedPercentage": 90.58
+      "playersCompleted": 51866,
+      "playersCompletedPercentage": 90.57
     }
   },
   "monumenta:handbook/root": {
@@ -19502,7 +19552,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 56841,
+      "playersCompleted": 56873,
       "playersCompletedPercentage": 99.32
     }
   },
@@ -19529,8 +19579,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 493,
-      "playersCompletedPercentage": 0.86
+      "playersCompleted": 498,
+      "playersCompletedPercentage": 0.87
     }
   },
   "monumenta:handbook/spawners_/earthquake_spawner": {
@@ -19556,8 +19606,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 618,
-      "playersCompletedPercentage": 1.08
+      "playersCompleted": 627,
+      "playersCompletedPercentage": 1.09
     }
   },
   "monumenta:handbook/spawners_/firework_spawner": {
@@ -19583,8 +19633,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 467,
-      "playersCompletedPercentage": 0.82
+      "playersCompleted": 477,
+      "playersCompletedPercentage": 0.83
     }
   },
   "monumenta:handbook/spawners_/healer_spawner": {
@@ -19637,8 +19687,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 608,
-      "playersCompletedPercentage": 1.06
+      "playersCompleted": 621,
+      "playersCompletedPercentage": 1.08
     }
   },
   "monumenta:handbook/spawners_/revenge_spawner": {
@@ -19664,8 +19714,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 685,
-      "playersCompletedPercentage": 1.2
+      "playersCompleted": 693,
+      "playersCompletedPercentage": 1.21
     }
   },
   "monumenta:handbook/spawners_/root": {
@@ -19690,8 +19740,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3025,
-      "playersCompletedPercentage": 5.29
+      "playersCompleted": 3084,
+      "playersCompletedPercentage": 5.39
     }
   },
   "monumenta:handbook/spawners_/shielded_spawner": {
@@ -19717,8 +19767,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 710,
-      "playersCompletedPercentage": 1.24
+      "playersCompleted": 720,
+      "playersCompletedPercentage": 1.26
     }
   },
   "monumenta:handbook/spawners_/treasure_spawner": {
@@ -19744,7 +19794,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 187,
+      "playersCompleted": 190,
       "playersCompletedPercentage": 0.33
     }
   },
@@ -19899,7 +19949,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 73,
+      "playersCompleted": 74,
       "playersCompletedPercentage": 0.13
     }
   },
@@ -19925,7 +19975,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 276,
+      "playersCompleted": 275,
       "playersCompletedPercentage": 0.48
     }
   },
@@ -19976,8 +20026,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 301,
-      "playersCompletedPercentage": 0.53
+      "playersCompleted": 300,
+      "playersCompletedPercentage": 0.52
     }
   },
   "monumenta:speedster/r1/elemental_shuffle/1": {
@@ -20002,7 +20052,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 340,
+      "playersCompleted": 339,
       "playersCompletedPercentage": 0.59
     }
   },
@@ -20028,7 +20078,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 385,
+      "playersCompleted": 384,
       "playersCompletedPercentage": 0.67
     }
   },
@@ -20054,7 +20104,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 460,
+      "playersCompleted": 459,
       "playersCompletedPercentage": 0.8
     }
   },
@@ -20080,8 +20130,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 318,
-      "playersCompletedPercentage": 0.56
+      "playersCompleted": 317,
+      "playersCompletedPercentage": 0.55
     }
   },
   "monumenta:speedster/r1/high_to_low/1": {
@@ -20106,7 +20156,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 383,
+      "playersCompleted": 382,
       "playersCompletedPercentage": 0.67
     }
   },
@@ -20132,7 +20182,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 554,
+      "playersCompleted": 553,
       "playersCompletedPercentage": 0.97
     }
   },
@@ -20158,7 +20208,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 556,
+      "playersCompleted": 555,
       "playersCompletedPercentage": 0.97
     }
   },
@@ -20314,8 +20364,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 209,
-      "playersCompletedPercentage": 0.37
+      "playersCompleted": 208,
+      "playersCompletedPercentage": 0.36
     }
   },
   "monumenta:speedster/r1/royal_gambit/2": {
@@ -20340,7 +20390,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 242,
+      "playersCompleted": 241,
       "playersCompletedPercentage": 0.42
     }
   },
@@ -20366,7 +20416,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 263,
+      "playersCompleted": 262,
       "playersCompletedPercentage": 0.46
     }
   },
@@ -20392,7 +20442,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 367,
+      "playersCompleted": 366,
       "playersCompletedPercentage": 0.64
     }
   },
@@ -20418,8 +20468,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 421,
-      "playersCompletedPercentage": 0.74
+      "playersCompleted": 420,
+      "playersCompletedPercentage": 0.73
     }
   },
   "monumenta:speedster/r1/tree_hopping_madness/2": {
@@ -20444,7 +20494,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 511,
+      "playersCompleted": 510,
       "playersCompletedPercentage": 0.89
     }
   },
@@ -20470,8 +20520,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 581,
-      "playersCompletedPercentage": 1.02
+      "playersCompleted": 580,
+      "playersCompletedPercentage": 1.01
     }
   },
   "monumenta:speedster/r1/tutorial": {
@@ -20495,7 +20545,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5914,
+      "playersCompleted": 5916,
       "playersCompletedPercentage": 10.33
     }
   },
@@ -20521,7 +20571,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 500,
+      "playersCompleted": 499,
       "playersCompletedPercentage": 0.87
     }
   },
@@ -20547,7 +20597,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1777,
+      "playersCompleted": 1776,
       "playersCompletedPercentage": 3.1
     }
   },
@@ -20573,7 +20623,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1891,
+      "playersCompleted": 1890,
       "playersCompletedPercentage": 3.3
     }
   },
@@ -20599,7 +20649,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1959,
+      "playersCompleted": 1958,
       "playersCompletedPercentage": 3.42
     }
   },
@@ -20780,7 +20830,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 214,
+      "playersCompleted": 213,
       "playersCompletedPercentage": 0.37
     }
   },
@@ -20806,7 +20856,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 239,
+      "playersCompleted": 238,
       "playersCompletedPercentage": 0.42
     }
   },
@@ -20832,8 +20882,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 312,
-      "playersCompletedPercentage": 0.55
+      "playersCompleted": 311,
+      "playersCompletedPercentage": 0.54
     }
   },
   "monumenta:speedster/r2/deliverydash/0": {
@@ -21144,7 +21194,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 185,
+      "playersCompleted": 186,
       "playersCompletedPercentage": 0.32
     }
   },
@@ -21248,7 +21298,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 363,
+      "playersCompleted": 362,
       "playersCompletedPercentage": 0.63
     }
   },
@@ -21300,7 +21350,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 480,
+      "playersCompleted": 479,
       "playersCompletedPercentage": 0.84
     }
   },
@@ -21326,7 +21376,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 529,
+      "playersCompleted": 528,
       "playersCompletedPercentage": 0.92
     }
   },
@@ -21352,7 +21402,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 706,
+      "playersCompleted": 705,
       "playersCompletedPercentage": 1.23
     }
   },
@@ -21508,8 +21558,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 175,
-      "playersCompletedPercentage": 0.31
+      "playersCompleted": 174,
+      "playersCompletedPercentage": 0.3
     }
   },
   "monumenta:speedster/r2/speedfitness/2": {
@@ -21534,7 +21584,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 223,
+      "playersCompleted": 222,
       "playersCompletedPercentage": 0.39
     }
   },
@@ -21560,7 +21610,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 240,
+      "playersCompleted": 239,
       "playersCompletedPercentage": 0.42
     }
   },
@@ -21638,8 +21688,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 267,
-      "playersCompletedPercentage": 0.47
+      "playersCompleted": 266,
+      "playersCompletedPercentage": 0.46
     }
   },
   "monumenta:speedster/r2/trackmaster/3": {
@@ -21664,7 +21714,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 448,
+      "playersCompleted": 447,
       "playersCompletedPercentage": 0.78
     }
   },
@@ -22002,7 +22052,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 209,
-      "playersCompletedPercentage": 0.37
+      "playersCompletedPercentage": 0.36
     }
   },
   "monumenta:speedster/r3/covenfrostress/0": {
@@ -22651,8 +22701,8 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 55558,
-      "playersCompletedPercentage": 97.07
+      "playersCompleted": 55590,
+      "playersCompletedPercentage": 97.08
     }
   },
   "monumenta:speedster/wooldungeons/all": {
@@ -23065,7 +23115,7 @@
     "children": [],
     "totalCriteria": 23,
     "stats": {
-      "playersCompleted": 26,
+      "playersCompleted": 27,
       "playersCompletedPercentage": 0.05
     }
   },
@@ -23221,7 +23271,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 315,
+      "playersCompleted": 314,
       "playersCompletedPercentage": 0.55
     }
   },
@@ -23325,8 +23375,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 707,
-      "playersCompletedPercentage": 1.24
+      "playersCompleted": 706,
+      "playersCompletedPercentage": 1.23
     }
   },
   "monumenta:acrobat/r1/nyr/windmill": {
@@ -23429,8 +23479,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 25,
-      "playersCompletedPercentage": 0.04
+      "playersCompleted": 27,
+      "playersCompletedPercentage": 0.05
     }
   },
   "monumenta:acrobat/r1/sierhaven/alchemist": {
@@ -23481,7 +23531,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 514,
+      "playersCompleted": 515,
       "playersCompletedPercentage": 0.9
     }
   },
@@ -23585,7 +23635,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 821,
+      "playersCompleted": 820,
       "playersCompletedPercentage": 1.43
     }
   },
@@ -23611,7 +23661,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 258,
+      "playersCompleted": 259,
       "playersCompletedPercentage": 0.45
     }
   },
@@ -23637,7 +23687,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 665,
+      "playersCompleted": 664,
       "playersCompletedPercentage": 1.16
     }
   },
@@ -23792,8 +23842,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 439,
-      "playersCompletedPercentage": 0.77
+      "playersCompleted": 438,
+      "playersCompletedPercentage": 0.76
     }
   },
   "monumenta:acrobat/r2/mistport/carnival": {
@@ -23922,7 +23972,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 97,
+      "playersCompleted": 98,
       "playersCompletedPercentage": 0.17
     }
   },
@@ -24076,7 +24126,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 56546,
+      "playersCompleted": 56578,
       "playersCompletedPercentage": 98.8
     }
   },
@@ -24128,7 +24178,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4530,
+      "playersCompleted": 4537,
       "playersCompletedPercentage": 7.92
     }
   },
@@ -24180,7 +24230,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7159,
+      "playersCompleted": 7162,
       "playersCompletedPercentage": 12.51
     }
   },
@@ -24206,7 +24256,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5560,
+      "playersCompleted": 5562,
       "playersCompletedPercentage": 9.71
     }
   },
@@ -24232,7 +24282,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 917,
+      "playersCompleted": 918,
       "playersCompletedPercentage": 1.6
     }
   },
@@ -24258,8 +24308,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2179,
-      "playersCompletedPercentage": 3.81
+      "playersCompleted": 2178,
+      "playersCompletedPercentage": 3.8
     }
   },
   "monumenta:quests/r1/astudyincrimsonone": {
@@ -24284,8 +24334,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1925,
-      "playersCompletedPercentage": 3.36
+      "playersCompleted": 1927,
+      "playersCompletedPercentage": 3.37
     }
   },
   "monumenta:quests/r1/astudyincrimsontwo": {
@@ -24310,7 +24360,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1727,
+      "playersCompleted": 1732,
       "playersCompletedPercentage": 3.02
     }
   },
@@ -24336,8 +24386,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3224,
-      "playersCompletedPercentage": 5.63
+      "playersCompleted": 3228,
+      "playersCompletedPercentage": 5.64
     }
   },
   "monumenta:quests/r1/bandittroubles": {
@@ -24362,7 +24412,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8083,
+      "playersCompleted": 8087,
       "playersCompletedPercentage": 14.12
     }
   },
@@ -24388,8 +24438,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5596,
-      "playersCompletedPercentage": 9.78
+      "playersCompleted": 5597,
+      "playersCompletedPercentage": 9.77
     }
   },
   "monumenta:quests/r1/buriedblade": {
@@ -24414,7 +24464,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1265,
+      "playersCompleted": 1266,
       "playersCompletedPercentage": 2.21
     }
   },
@@ -24440,7 +24490,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1449,
+      "playersCompleted": 1448,
       "playersCompletedPercentage": 2.53
     }
   },
@@ -24466,8 +24516,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4685,
-      "playersCompletedPercentage": 8.19
+      "playersCompleted": 4687,
+      "playersCompletedPercentage": 8.18
     }
   },
   "monumenta:quests/r1/clearasglass": {
@@ -24492,7 +24542,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2446,
+      "playersCompleted": 2448,
       "playersCompletedPercentage": 4.27
     }
   },
@@ -24544,7 +24594,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 440,
+      "playersCompleted": 441,
       "playersCompletedPercentage": 0.77
     }
   },
@@ -24570,8 +24620,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2008,
-      "playersCompletedPercentage": 3.51
+      "playersCompleted": 2007,
+      "playersCompletedPercentage": 3.5
     }
   },
   "monumenta:quests/r1/farr": {
@@ -24596,8 +24646,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 7421,
-      "playersCompletedPercentage": 12.97
+      "playersCompleted": 7424,
+      "playersCompletedPercentage": 12.96
     }
   },
   "monumenta:quests/r1/finishedbusiness": {
@@ -24622,7 +24672,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 851,
+      "playersCompleted": 852,
       "playersCompletedPercentage": 1.49
     }
   },
@@ -24648,7 +24698,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5960,
+      "playersCompleted": 5962,
       "playersCompletedPercentage": 10.41
     }
   },
@@ -24674,7 +24724,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3370,
+      "playersCompleted": 3371,
       "playersCompletedPercentage": 5.89
     }
   },
@@ -24700,7 +24750,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1796,
+      "playersCompleted": 1799,
       "playersCompletedPercentage": 3.14
     }
   },
@@ -24726,7 +24776,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1314,
+      "playersCompleted": 1316,
       "playersCompletedPercentage": 2.3
     }
   },
@@ -24752,7 +24802,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 31425,
+      "playersCompleted": 31442,
       "playersCompletedPercentage": 54.91
     }
   },
@@ -24882,7 +24932,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5609,
+      "playersCompleted": 5612,
       "playersCompletedPercentage": 9.8
     }
   },
@@ -24908,7 +24958,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 14034,
+      "playersCompleted": 14042,
       "playersCompletedPercentage": 24.52
     }
   },
@@ -25012,7 +25062,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3334,
+      "playersCompleted": 3337,
       "playersCompletedPercentage": 5.83
     }
   },
@@ -25038,8 +25088,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 15262,
-      "playersCompletedPercentage": 26.67
+      "playersCompleted": 15269,
+      "playersCompletedPercentage": 26.66
     }
   },
   "monumenta:quests/r1/oceangate": {
@@ -25064,7 +25114,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3323,
+      "playersCompleted": 3326,
       "playersCompletedPercentage": 5.81
     }
   },
@@ -25116,7 +25166,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2777,
+      "playersCompleted": 2780,
       "playersCompletedPercentage": 4.85
     }
   },
@@ -25142,7 +25192,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4006,
+      "playersCompleted": 4007,
       "playersCompletedPercentage": 7
     }
   },
@@ -25166,7 +25216,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 57210,
+      "playersCompleted": 57242,
       "playersCompletedPercentage": 99.96
     }
   },
@@ -25192,7 +25242,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3961,
+      "playersCompleted": 3964,
       "playersCompletedPercentage": 6.92
     }
   },
@@ -25218,7 +25268,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 57069,
+      "playersCompleted": 57101,
       "playersCompletedPercentage": 99.71
     }
   },
@@ -25244,8 +25294,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1394,
-      "playersCompletedPercentage": 2.44
+      "playersCompleted": 1393,
+      "playersCompletedPercentage": 2.43
     }
   },
   "monumenta:quests/r1/sonsoftheforest": {
@@ -25271,7 +25321,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 4520,
-      "playersCompletedPercentage": 7.9
+      "playersCompletedPercentage": 7.89
     }
   },
   "monumenta:quests/r1/starriernight": {
@@ -25296,7 +25346,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2315,
+      "playersCompleted": 2316,
       "playersCompletedPercentage": 4.04
     }
   },
@@ -25322,7 +25372,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1751,
+      "playersCompleted": 1752,
       "playersCompletedPercentage": 3.06
     }
   },
@@ -25348,7 +25398,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4168,
+      "playersCompleted": 4170,
       "playersCompletedPercentage": 7.28
     }
   },
@@ -25374,8 +25424,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8320,
-      "playersCompletedPercentage": 14.54
+      "playersCompleted": 8323,
+      "playersCompletedPercentage": 14.53
     }
   },
   "monumenta:quests/r1/taeldim": {
@@ -25400,7 +25450,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3315,
+      "playersCompleted": 3318,
       "playersCompletedPercentage": 5.79
     }
   },
@@ -25426,7 +25476,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2905,
+      "playersCompleted": 2908,
       "playersCompletedPercentage": 5.08
     }
   },
@@ -25452,8 +25502,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2212,
-      "playersCompletedPercentage": 3.86
+      "playersCompleted": 2214,
+      "playersCompletedPercentage": 3.87
     }
   },
   "monumenta:quests/r1/theplague": {
@@ -25478,7 +25528,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5347,
+      "playersCompleted": 5346,
       "playersCompletedPercentage": 9.34
     }
   },
@@ -25504,8 +25554,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2001,
-      "playersCompletedPercentage": 3.5
+      "playersCompleted": 2000,
+      "playersCompletedPercentage": 3.49
     }
   },
   "monumenta:quests/r1/thescoutscodex": {
@@ -25530,7 +25580,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5187,
+      "playersCompleted": 5191,
       "playersCompletedPercentage": 9.06
     }
   },
@@ -25556,8 +25606,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2525,
-      "playersCompletedPercentage": 4.41
+      "playersCompleted": 2530,
+      "playersCompletedPercentage": 4.42
     }
   },
   "monumenta:quests/r1/tlaxantroubles": {
@@ -25582,7 +25632,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3311,
+      "playersCompleted": 3314,
       "playersCompletedPercentage": 5.79
     }
   },
@@ -25609,7 +25659,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 352,
-      "playersCompletedPercentage": 0.62
+      "playersCompletedPercentage": 0.61
     }
   },
   "monumenta:quests/r1/truergenius": {
@@ -25660,8 +25710,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3357,
-      "playersCompletedPercentage": 5.87
+      "playersCompleted": 3355,
+      "playersCompletedPercentage": 5.86
     }
   },
   "monumenta:quests/r1/wuhl": {
@@ -25718,7 +25768,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2327,
+      "playersCompleted": 2328,
       "playersCompletedPercentage": 4.07
     }
   },
@@ -25744,7 +25794,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1333,
+      "playersCompleted": 1334,
       "playersCompletedPercentage": 2.33
     }
   },
@@ -25770,8 +25820,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3128,
-      "playersCompletedPercentage": 5.47
+      "playersCompleted": 3129,
+      "playersCompletedPercentage": 5.46
     }
   },
   "monumenta:quests/r2/alostcause": {
@@ -25796,7 +25846,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 824,
+      "playersCompleted": 825,
       "playersCompletedPercentage": 1.44
     }
   },
@@ -25822,7 +25872,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1237,
+      "playersCompleted": 1238,
       "playersCompletedPercentage": 2.16
     }
   },
@@ -25848,8 +25898,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1147,
-      "playersCompletedPercentage": 2
+      "playersCompleted": 1149,
+      "playersCompletedPercentage": 2.01
     }
   },
   "monumenta:quests/r2/analcoholicaccord": {
@@ -25874,7 +25924,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2871,
+      "playersCompleted": 2877,
       "playersCompletedPercentage": 5.02
     }
   },
@@ -25991,7 +26041,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1846,
-      "playersCompletedPercentage": 3.23
+      "playersCompletedPercentage": 3.22
     }
   },
   "monumenta:quests/r2/asimplefavor": {
@@ -26022,7 +26072,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2313,
+      "playersCompleted": 2314,
       "playersCompletedPercentage": 4.04
     }
   },
@@ -26054,7 +26104,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1858,
+      "playersCompleted": 1859,
       "playersCompletedPercentage": 3.25
     }
   },
@@ -26080,8 +26130,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1521,
-      "playersCompletedPercentage": 2.66
+      "playersCompleted": 1519,
+      "playersCompletedPercentage": 2.65
     }
   },
   "monumenta:quests/r2/atoweringobjective": {
@@ -26138,8 +26188,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2259,
-      "playersCompletedPercentage": 3.95
+      "playersCompleted": 2258,
+      "playersCompletedPercentage": 3.94
     }
   },
   "monumenta:quests/r2/bloodybanquet": {
@@ -26190,7 +26240,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1578,
+      "playersCompleted": 1581,
       "playersCompletedPercentage": 2.76
     }
   },
@@ -26216,7 +26266,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2052,
+      "playersCompleted": 2055,
       "playersCompletedPercentage": 3.59
     }
   },
@@ -26242,7 +26292,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 275,
+      "playersCompleted": 276,
       "playersCompletedPercentage": 0.48
     }
   },
@@ -26268,7 +26318,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 941,
+      "playersCompleted": 942,
       "playersCompletedPercentage": 1.64
     }
   },
@@ -26300,7 +26350,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2173,
+      "playersCompleted": 2176,
       "playersCompletedPercentage": 3.8
     }
   },
@@ -26326,7 +26376,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1451,
+      "playersCompleted": 1452,
       "playersCompletedPercentage": 2.54
     }
   },
@@ -26352,7 +26402,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1024,
+      "playersCompleted": 1025,
       "playersCompletedPercentage": 1.79
     }
   },
@@ -26405,7 +26455,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1606,
-      "playersCompletedPercentage": 2.81
+      "playersCompletedPercentage": 2.8
     }
   },
   "monumenta:quests/r2/flockandkey": {
@@ -26430,7 +26480,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 860,
+      "playersCompleted": 861,
       "playersCompletedPercentage": 1.5
     }
   },
@@ -26456,7 +26506,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3147,
+      "playersCompleted": 3150,
       "playersCompletedPercentage": 5.5
     }
   },
@@ -26514,7 +26564,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 374,
+      "playersCompleted": 375,
       "playersCompletedPercentage": 0.65
     }
   },
@@ -26546,8 +26596,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2218,
-      "playersCompletedPercentage": 3.88
+      "playersCompleted": 2216,
+      "playersCompletedPercentage": 3.87
     }
   },
   "monumenta:quests/r2/heretherebedragons": {
@@ -26572,7 +26622,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1825,
+      "playersCompleted": 1828,
       "playersCompletedPercentage": 3.19
     }
   },
@@ -26598,7 +26648,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2131,
+      "playersCompleted": 2130,
       "playersCompletedPercentage": 3.72
     }
   },
@@ -26630,7 +26680,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2207,
+      "playersCompleted": 2208,
       "playersCompletedPercentage": 3.86
     }
   },
@@ -26656,7 +26706,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1057,
+      "playersCompleted": 1058,
       "playersCompletedPercentage": 1.85
     }
   },
@@ -26688,7 +26738,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2228,
+      "playersCompleted": 2230,
       "playersCompletedPercentage": 3.89
     }
   },
@@ -26713,8 +26763,8 @@
     "children": [],
     "totalCriteria": 16,
     "stats": {
-      "playersCompleted": 1943,
-      "playersCompletedPercentage": 3.39
+      "playersCompleted": 1945,
+      "playersCompletedPercentage": 3.4
     }
   },
   "monumenta:quests/r2/masterofone": {
@@ -26739,7 +26789,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2979,
+      "playersCompleted": 2982,
       "playersCompletedPercentage": 5.21
     }
   },
@@ -26765,7 +26815,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3579,
+      "playersCompleted": 3580,
       "playersCompletedPercentage": 6.25
     }
   },
@@ -26817,7 +26867,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2895,
+      "playersCompleted": 2898,
       "playersCompletedPercentage": 5.06
     }
   },
@@ -26875,8 +26925,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1033,
-      "playersCompletedPercentage": 1.8
+      "playersCompleted": 1034,
+      "playersCompletedPercentage": 1.81
     }
   },
   "monumenta:quests/r2/overdoomed": {
@@ -26901,7 +26951,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1034,
+      "playersCompleted": 1036,
       "playersCompletedPercentage": 1.81
     }
   },
@@ -26927,7 +26977,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1195,
+      "playersCompleted": 1196,
       "playersCompletedPercentage": 2.09
     }
   },
@@ -26979,7 +27029,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2032,
+      "playersCompleted": 2035,
       "playersCompletedPercentage": 3.55
     }
   },
@@ -27005,7 +27055,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1957,
+      "playersCompleted": 1960,
       "playersCompletedPercentage": 3.42
     }
   },
@@ -27083,7 +27133,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1631,
+      "playersCompleted": 1632,
       "playersCompletedPercentage": 2.85
     }
   },
@@ -27109,7 +27159,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1546,
+      "playersCompleted": 1547,
       "playersCompletedPercentage": 2.7
     }
   },
@@ -27141,7 +27191,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2285,
+      "playersCompleted": 2284,
       "playersCompletedPercentage": 3.99
     }
   },
@@ -27193,7 +27243,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2884,
+      "playersCompleted": 2885,
       "playersCompletedPercentage": 5.04
     }
   },
@@ -27219,7 +27269,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2931,
+      "playersCompleted": 2934,
       "playersCompletedPercentage": 5.12
     }
   },
@@ -27269,7 +27319,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3597,
+      "playersCompleted": 3598,
       "playersCompletedPercentage": 6.28
     }
   },
@@ -27295,7 +27345,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1011,
+      "playersCompleted": 1012,
       "playersCompletedPercentage": 1.77
     }
   },
@@ -27348,7 +27398,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1222,
-      "playersCompletedPercentage": 2.14
+      "playersCompletedPercentage": 2.13
     }
   },
   "monumenta:quests/r2/silverskinned": {
@@ -27425,7 +27475,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2479,
+      "playersCompleted": 2478,
       "playersCompletedPercentage": 4.33
     }
   },
@@ -27451,7 +27501,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1387,
+      "playersCompleted": 1388,
       "playersCompletedPercentage": 2.42
     }
   },
@@ -27483,8 +27533,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2172,
-      "playersCompletedPercentage": 3.8
+      "playersCompleted": 2173,
+      "playersCompletedPercentage": 3.79
     }
   },
   "monumenta:quests/r2/theendchimes": {
@@ -27509,7 +27559,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1770,
+      "playersCompleted": 1771,
       "playersCompletedPercentage": 3.09
     }
   },
@@ -27561,7 +27611,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1323,
+      "playersCompleted": 1324,
       "playersCompletedPercentage": 2.31
     }
   },
@@ -27587,7 +27637,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1698,
+      "playersCompleted": 1700,
       "playersCompletedPercentage": 2.97
     }
   },
@@ -27613,7 +27663,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1851,
+      "playersCompleted": 1852,
       "playersCompletedPercentage": 3.23
     }
   },
@@ -27645,7 +27695,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2330,
+      "playersCompleted": 2332,
       "playersCompletedPercentage": 4.07
     }
   },
@@ -27697,7 +27747,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3553,
+      "playersCompleted": 3555,
       "playersCompletedPercentage": 6.21
     }
   },
@@ -27729,7 +27779,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2315,
+      "playersCompleted": 2314,
       "playersCompletedPercentage": 4.04
     }
   },
@@ -27755,7 +27805,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2791,
+      "playersCompleted": 2793,
       "playersCompletedPercentage": 4.88
     }
   },
@@ -27781,8 +27831,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2841,
-      "playersCompletedPercentage": 4.96
+      "playersCompleted": 2847,
+      "playersCompletedPercentage": 4.97
     }
   },
   "monumenta:quests/r2/woof": {
@@ -27807,7 +27857,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 915,
+      "playersCompleted": 916,
       "playersCompletedPercentage": 1.6
     }
   },
@@ -27833,7 +27883,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 306,
+      "playersCompleted": 305,
       "playersCompletedPercentage": 0.53
     }
   },
@@ -27911,7 +27961,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2675,
+      "playersCompleted": 2677,
       "playersCompletedPercentage": 4.67
     }
   },
@@ -27963,7 +28013,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1047,
+      "playersCompleted": 1049,
       "playersCompletedPercentage": 1.83
     }
   },
@@ -27989,8 +28039,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 758,
-      "playersCompletedPercentage": 1.32
+      "playersCompleted": 759,
+      "playersCompletedPercentage": 1.33
     }
   },
   "monumenta:quests/r3/behindthestarlitshroud": {
@@ -28015,7 +28065,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1097,
+      "playersCompleted": 1098,
       "playersCompletedPercentage": 1.92
     }
   },
@@ -28041,8 +28091,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1437,
-      "playersCompletedPercentage": 2.51
+      "playersCompleted": 1443,
+      "playersCompletedPercentage": 2.52
     }
   },
   "monumenta:quests/r3/cureforinsomnia": {
@@ -28067,7 +28117,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1479,
+      "playersCompleted": 1480,
       "playersCompletedPercentage": 2.58
     }
   },
@@ -28119,7 +28169,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2245,
+      "playersCompleted": 2246,
       "playersCompletedPercentage": 3.92
     }
   },
@@ -28145,7 +28195,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1013,
+      "playersCompleted": 1014,
       "playersCompletedPercentage": 1.77
     }
   },
@@ -28171,7 +28221,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1728,
+      "playersCompleted": 1731,
       "playersCompletedPercentage": 3.02
     }
   },
@@ -28197,7 +28247,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1377,
+      "playersCompleted": 1379,
       "playersCompletedPercentage": 2.41
     }
   },
@@ -28223,7 +28273,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1802,
+      "playersCompleted": 1803,
       "playersCompletedPercentage": 3.15
     }
   },
@@ -28275,7 +28325,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2247,
+      "playersCompleted": 2248,
       "playersCompletedPercentage": 3.93
     }
   },
@@ -28301,7 +28351,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1399,
+      "playersCompleted": 1400,
       "playersCompletedPercentage": 2.44
     }
   },
@@ -28327,7 +28377,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1883,
+      "playersCompleted": 1884,
       "playersCompletedPercentage": 3.29
     }
   },
@@ -28351,7 +28401,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2255,
+      "playersCompleted": 2257,
       "playersCompletedPercentage": 3.94
     }
   },
@@ -28377,7 +28427,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1069,
+      "playersCompleted": 1073,
       "playersCompletedPercentage": 1.87
     }
   },
@@ -28455,7 +28505,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1174,
+      "playersCompleted": 1175,
       "playersCompletedPercentage": 2.05
     }
   },
@@ -28481,7 +28531,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 864,
+      "playersCompleted": 867,
       "playersCompletedPercentage": 1.51
     }
   },
@@ -28559,7 +28609,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 195,
+      "playersCompleted": 197,
       "playersCompletedPercentage": 0.34
     }
   },
@@ -28625,8 +28675,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 225,
-      "playersCompletedPercentage": 0.39
+      "playersCompleted": 227,
+      "playersCompletedPercentage": 0.4
     }
   },
   "monumenta:challenges/r1/arena/complete": {
@@ -28651,7 +28701,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 641,
+      "playersCompleted": 642,
       "playersCompletedPercentage": 1.12
     }
   },
@@ -28700,7 +28750,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 10456,
+      "playersCompleted": 10460,
       "playersCompletedPercentage": 18.27
     }
   },
@@ -28727,7 +28777,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 2929,
-      "playersCompletedPercentage": 5.12
+      "playersCompletedPercentage": 5.11
     }
   },
   "monumenta:challenges/r1/arena/wave15": {
@@ -28778,8 +28828,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1365,
-      "playersCompletedPercentage": 2.38
+      "playersCompleted": 1366,
+      "playersCompletedPercentage": 2.39
     }
   },
   "monumenta:challenges/r1/arena/wave25": {
@@ -28804,7 +28854,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1206,
+      "playersCompleted": 1207,
       "playersCompletedPercentage": 2.11
     }
   },
@@ -28830,8 +28880,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1027,
-      "playersCompletedPercentage": 1.79
+      "playersCompleted": 1028,
+      "playersCompletedPercentage": 1.8
     }
   },
   "monumenta:challenges/r1/arena/wave35": {
@@ -28856,7 +28906,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 801,
+      "playersCompleted": 802,
       "playersCompletedPercentage": 1.4
     }
   },
@@ -28882,7 +28932,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 643,
+      "playersCompleted": 644,
       "playersCompletedPercentage": 1.12
     }
   },
@@ -28935,7 +28985,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1858,
+      "playersCompleted": 1860,
       "playersCompletedPercentage": 3.25
     }
   },
@@ -28999,7 +29049,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 14473,
+      "playersCompleted": 14483,
       "playersCompletedPercentage": 25.29
     }
   },
@@ -29031,7 +29081,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1144,
+      "playersCompleted": 1145,
       "playersCompletedPercentage": 2
     }
   },
@@ -29127,7 +29177,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 866,
+      "playersCompleted": 865,
       "playersCompletedPercentage": 1.51
     }
   },
@@ -29191,7 +29241,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2240,
+      "playersCompleted": 2241,
       "playersCompletedPercentage": 3.91
     }
   },
@@ -29307,8 +29357,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1412,
-      "playersCompletedPercentage": 2.47
+      "playersCompleted": 1411,
+      "playersCompletedPercentage": 2.46
     }
   },
   "monumenta:challenges/r1/horseman/solo_horseman": {
@@ -29361,7 +29411,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2622,
+      "playersCompleted": 2621,
       "playersCompletedPercentage": 4.58
     }
   },
@@ -29617,7 +29667,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2343,
+      "playersCompleted": 2342,
       "playersCompletedPercentage": 4.09
     }
   },
@@ -29701,7 +29751,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2182,
+      "playersCompleted": 2181,
       "playersCompletedPercentage": 3.81
     }
   },
@@ -29781,7 +29831,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 910,
+      "playersCompleted": 912,
       "playersCompletedPercentage": 1.59
     }
   },
@@ -29807,7 +29857,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1309,
+      "playersCompleted": 1310,
       "playersCompletedPercentage": 2.29
     }
   },
@@ -29833,7 +29883,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1131,
+      "playersCompleted": 1134,
       "playersCompletedPercentage": 1.98
     }
   },
@@ -29887,7 +29937,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2350,
+      "playersCompleted": 2352,
       "playersCompletedPercentage": 4.11
     }
   },
@@ -29913,7 +29963,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1758,
+      "playersCompleted": 1757,
       "playersCompletedPercentage": 3.07
     }
   },
@@ -29966,7 +30016,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1471,
+      "playersCompleted": 1470,
       "playersCompletedPercentage": 2.57
     }
   },
@@ -29998,7 +30048,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 460,
+      "playersCompleted": 459,
       "playersCompletedPercentage": 0.8
     }
   },
@@ -30050,7 +30100,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 84,
+      "playersCompleted": 87,
       "playersCompletedPercentage": 0.15
     }
   },
@@ -30076,7 +30126,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1690,
+      "playersCompleted": 1692,
       "playersCompletedPercentage": 2.95
     }
   },
@@ -30206,7 +30256,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 914,
+      "playersCompleted": 917,
       "playersCompletedPercentage": 1.6
     }
   },
@@ -30342,7 +30392,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1502,
+      "playersCompleted": 1503,
       "playersCompletedPercentage": 2.62
     }
   },
@@ -30453,7 +30503,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 691,
+      "playersCompleted": 692,
       "playersCompletedPercentage": 1.21
     }
   },
@@ -30609,7 +30659,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1526,
+      "playersCompleted": 1527,
       "playersCompletedPercentage": 2.67
     }
   },
@@ -30713,8 +30763,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1879,
-      "playersCompletedPercentage": 3.28
+      "playersCompleted": 1885,
+      "playersCompletedPercentage": 3.29
     }
   },
   "monumenta:challenges/r2/mist/mist": {
@@ -30739,7 +30789,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1500,
+      "playersCompleted": 1501,
       "playersCompletedPercentage": 2.62
     }
   },
@@ -30817,7 +30867,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1106,
+      "playersCompleted": 1107,
       "playersCompletedPercentage": 1.93
     }
   },
@@ -30898,7 +30948,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 432,
+      "playersCompleted": 431,
       "playersCompletedPercentage": 0.75
     }
   },
@@ -31010,7 +31060,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 434,
+      "playersCompleted": 433,
       "playersCompletedPercentage": 0.76
     }
   },
@@ -31094,7 +31144,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 477,
+      "playersCompleted": 476,
       "playersCompletedPercentage": 0.83
     }
   },
@@ -31120,7 +31170,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1855,
+      "playersCompleted": 1857,
       "playersCompletedPercentage": 3.24
     }
   },
@@ -31198,7 +31248,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 533,
+      "playersCompleted": 534,
       "playersCompletedPercentage": 0.93
     }
   },
@@ -31224,7 +31274,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1136,
+      "playersCompleted": 1135,
       "playersCompletedPercentage": 1.98
     }
   },
@@ -31330,7 +31380,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1485,
+      "playersCompleted": 1486,
       "playersCompletedPercentage": 2.59
     }
   },
@@ -31464,7 +31514,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 876,
+      "playersCompleted": 877,
       "playersCompletedPercentage": 1.53
     }
   },
@@ -31490,7 +31540,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1060,
+      "playersCompleted": 1061,
       "playersCompletedPercentage": 1.85
     }
   },
@@ -31764,8 +31814,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1478,
-      "playersCompletedPercentage": 2.58
+      "playersCompleted": 1482,
+      "playersCompletedPercentage": 2.59
     }
   },
   "monumenta:challenges/r3/portal/portal": {
@@ -31790,7 +31840,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1209,
+      "playersCompleted": 1211,
       "playersCompletedPercentage": 2.11
     }
   },
@@ -31816,7 +31866,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1472,
+      "playersCompleted": 1473,
       "playersCompletedPercentage": 2.57
     }
   },
@@ -31868,8 +31918,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 757,
-      "playersCompletedPercentage": 1.32
+      "playersCompleted": 763,
+      "playersCompletedPercentage": 1.33
     }
   },
   "monumenta:challenges/r3/sirius/condition": {
@@ -31946,7 +31996,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 308,
+      "playersCompleted": 311,
       "playersCompletedPercentage": 0.54
     }
   },
@@ -32076,8 +32126,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 978,
-      "playersCompletedPercentage": 1.71
+      "playersCompleted": 983,
+      "playersCompletedPercentage": 1.72
     }
   },
   "monumenta:challenges/r3/sirius/win_solo": {
@@ -32127,7 +32177,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 56546,
+      "playersCompleted": 56578,
       "playersCompletedPercentage": 98.8
     }
   },
@@ -32152,8 +32202,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 32231,
-      "playersCompletedPercentage": 56.32
+      "playersCompleted": 32265,
+      "playersCompletedPercentage": 56.34
     }
   },
   "monumenta:trophies/events/2017/halloween": {
@@ -32340,7 +32390,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 83,
-      "playersCompletedPercentage": 0.15
+      "playersCompletedPercentage": 0.14
     }
   },
   "monumenta:trophies/events/2018/snowmansolo": {
@@ -32421,7 +32471,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 249,
-      "playersCompletedPercentage": 0.44
+      "playersCompletedPercentage": 0.43
     }
   },
   "monumenta:trophies/events/2019/halloween": {
@@ -33061,7 +33111,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 55287,
+      "playersCompleted": 55319,
       "playersCompletedPercentage": 96.6
     }
   },
@@ -33088,8 +33138,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1572,
-      "playersCompletedPercentage": 2.75
+      "playersCompleted": 1571,
+      "playersCompletedPercentage": 2.74
     }
   },
   "monumenta:general/fisherman2": {
@@ -33224,8 +33274,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6387,
-      "playersCompletedPercentage": 11.16
+      "playersCompleted": 6386,
+      "playersCompletedPercentage": 11.15
     }
   },
   "monumenta:general/gluttony2": {
@@ -33252,7 +33302,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3770,
+      "playersCompleted": 3773,
       "playersCompletedPercentage": 6.59
     }
   },
@@ -33280,7 +33330,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2816,
+      "playersCompleted": 2815,
       "playersCompletedPercentage": 4.92
     }
   },
@@ -33308,7 +33358,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1986,
+      "playersCompleted": 1985,
       "playersCompletedPercentage": 3.47
     }
   },
@@ -33336,7 +33386,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1058,
+      "playersCompleted": 1060,
       "playersCompletedPercentage": 1.85
     }
   },
@@ -33391,7 +33441,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1016,
-      "playersCompletedPercentage": 1.78
+      "playersCompletedPercentage": 1.77
     }
   },
   "monumenta:general/igor/3": {
@@ -33445,7 +33495,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 581,
-      "playersCompletedPercentage": 1.02
+      "playersCompletedPercentage": 1.01
     }
   },
   "monumenta:general/igor/5": {
@@ -33498,7 +33548,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 372,
+      "playersCompleted": 371,
       "playersCompletedPercentage": 0.65
     }
   },
@@ -33579,7 +33629,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1082,
+      "playersCompleted": 1085,
       "playersCompletedPercentage": 1.89
     }
   },
@@ -33635,8 +33685,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 775,
-      "playersCompletedPercentage": 1.35
+      "playersCompleted": 777,
+      "playersCompletedPercentage": 1.36
     }
   },
   "monumenta:general/kings_crown": {
@@ -33689,8 +33739,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 661,
-      "playersCompletedPercentage": 1.15
+      "playersCompleted": 662,
+      "playersCompletedPercentage": 1.16
     }
   },
   "monumenta:general/r2transmog1": {
@@ -33743,7 +33793,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1243,
+      "playersCompleted": 1242,
       "playersCompletedPercentage": 2.17
     }
   },
@@ -33851,7 +33901,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5032,
+      "playersCompleted": 5031,
       "playersCompletedPercentage": 8.79
     }
   },
@@ -33878,7 +33928,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3823,
+      "playersCompleted": 3824,
       "playersCompletedPercentage": 6.68
     }
   },
@@ -33905,8 +33955,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3049,
-      "playersCompletedPercentage": 5.33
+      "playersCompleted": 3048,
+      "playersCompletedPercentage": 5.32
     }
   },
   "monumenta:general/repair4": {
@@ -33932,7 +33982,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2359,
+      "playersCompleted": 2358,
       "playersCompletedPercentage": 4.12
     }
   },
@@ -33959,7 +34009,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1538,
+      "playersCompleted": 1540,
       "playersCompletedPercentage": 2.69
     }
   },
@@ -33985,7 +34035,7 @@
       ]
     ],
     "stats": {
-      "playersCompleted": 57218,
+      "playersCompleted": 57250,
       "playersCompletedPercentage": 99.97
     }
   },
@@ -34012,7 +34062,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1831,
+      "playersCompleted": 1830,
       "playersCompletedPercentage": 3.2
     }
   },
@@ -34039,7 +34089,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1279,
+      "playersCompleted": 1277,
       "playersCompletedPercentage": 2.23
     }
   },
@@ -34093,7 +34143,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 531,
+      "playersCompleted": 530,
       "playersCompletedPercentage": 0.93
     }
   },
@@ -34256,7 +34306,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1643,
+      "playersCompleted": 1644,
       "playersCompletedPercentage": 2.87
     }
   },
@@ -34284,7 +34334,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1420,
+      "playersCompleted": 1422,
       "playersCompletedPercentage": 2.48
     }
   },
@@ -34340,7 +34390,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1439,
+      "playersCompleted": 1438,
       "playersCompletedPercentage": 2.51
     }
   },
@@ -34394,7 +34444,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1514,
-      "playersCompletedPercentage": 2.65
+      "playersCompletedPercentage": 2.64
     }
   },
   "monumenta:dungeons/brown/find_quest": {
@@ -34419,7 +34469,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1352,
+      "playersCompleted": 1353,
       "playersCompletedPercentage": 2.36
     }
   },
@@ -34447,8 +34497,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 379,
-      "playersCompletedPercentage": 0.66
+      "playersCompleted": 381,
+      "playersCompletedPercentage": 0.67
     }
   },
   "monumenta:dungeons/cyan/complete": {
@@ -34475,7 +34525,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2394,
+      "playersCompleted": 2395,
       "playersCompletedPercentage": 4.18
     }
   },
@@ -34524,7 +34574,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2470,
+      "playersCompleted": 2471,
       "playersCompletedPercentage": 4.32
     }
   },
@@ -34552,7 +34602,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2419,
+      "playersCompleted": 2421,
       "playersCompletedPercentage": 4.23
     }
   },
@@ -34580,7 +34630,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1414,
+      "playersCompleted": 1417,
       "playersCompletedPercentage": 2.47
     }
   },
@@ -34629,7 +34679,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1982,
+      "playersCompleted": 1984,
       "playersCompletedPercentage": 3.46
     }
   },
@@ -34685,7 +34735,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1964,
+      "playersCompleted": 1963,
       "playersCompletedPercentage": 3.43
     }
   },
@@ -34726,7 +34776,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2014,
+      "playersCompleted": 2013,
       "playersCompletedPercentage": 3.52
     }
   },
@@ -34754,7 +34804,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1974,
+      "playersCompleted": 1973,
       "playersCompletedPercentage": 3.45
     }
   },
@@ -34782,7 +34832,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 246,
+      "playersCompleted": 247,
       "playersCompletedPercentage": 0.43
     }
   },
@@ -34867,7 +34917,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 1863,
-      "playersCompletedPercentage": 3.26
+      "playersCompletedPercentage": 3.25
     }
   },
   "monumenta:dungeons/fred/find": {
@@ -34915,8 +34965,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1994,
-      "playersCompletedPercentage": 3.48
+      "playersCompleted": 1996,
+      "playersCompletedPercentage": 3.49
     }
   },
   "monumenta:dungeons/fred/find_quest": {
@@ -34943,7 +34993,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1991,
+      "playersCompleted": 1993,
       "playersCompletedPercentage": 3.48
     }
   },
@@ -34971,7 +35021,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1511,
+      "playersCompleted": 1513,
       "playersCompletedPercentage": 2.64
     }
   },
@@ -35027,7 +35077,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 364,
+      "playersCompleted": 366,
       "playersCompletedPercentage": 0.64
     }
   },
@@ -35055,7 +35105,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2582,
+      "playersCompleted": 2585,
       "playersCompletedPercentage": 4.51
     }
   },
@@ -35104,7 +35154,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2656,
+      "playersCompleted": 2659,
       "playersCompletedPercentage": 4.64
     }
   },
@@ -35132,7 +35182,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2615,
+      "playersCompleted": 2618,
       "playersCompletedPercentage": 4.57
     }
   },
@@ -35160,7 +35210,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 9,
+      "playersCompleted": 12,
       "playersCompletedPercentage": 0.02
     }
   },
@@ -35188,8 +35238,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 122,
-      "playersCompletedPercentage": 0.21
+      "playersCompleted": 128,
+      "playersCompletedPercentage": 0.22
     }
   },
   "monumenta:dungeons/hexfall/complete_ruten": {
@@ -35216,7 +35266,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 318,
+      "playersCompleted": 322,
       "playersCompletedPercentage": 0.56
     }
   },
@@ -35297,7 +35347,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 444,
+      "playersCompleted": 446,
       "playersCompletedPercentage": 0.78
     }
   },
@@ -35325,7 +35375,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 550,
+      "playersCompleted": 551,
       "playersCompletedPercentage": 0.96
     }
   },
@@ -35353,7 +35403,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 16,
+      "playersCompleted": 20,
       "playersCompletedPercentage": 0.03
     }
   },
@@ -35381,7 +35431,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 85,
+      "playersCompleted": 88,
       "playersCompletedPercentage": 0.15
     }
   },
@@ -35409,8 +35459,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 114,
-      "playersCompletedPercentage": 0.2
+      "playersCompleted": 118,
+      "playersCompletedPercentage": 0.21
     }
   },
   "monumenta:dungeons/hexfall/ruten_master": {
@@ -35437,7 +35487,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 138,
+      "playersCompleted": 139,
       "playersCompletedPercentage": 0.24
     }
   },
@@ -35521,7 +35571,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 25908,
+      "playersCompleted": 25923,
       "playersCompletedPercentage": 45.27
     }
   },
@@ -35570,7 +35620,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 44435,
+      "playersCompleted": 44462,
       "playersCompletedPercentage": 77.64
     }
   },
@@ -35598,7 +35648,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 26664,
+      "playersCompleted": 26679,
       "playersCompletedPercentage": 46.59
     }
   },
@@ -35626,7 +35676,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 524,
+      "playersCompleted": 525,
       "playersCompletedPercentage": 0.92
     }
   },
@@ -35654,7 +35704,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4042,
+      "playersCompleted": 4041,
       "playersCompletedPercentage": 7.06
     }
   },
@@ -35682,7 +35732,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 954,
+      "playersCompleted": 956,
       "playersCompletedPercentage": 1.67
     }
   },
@@ -35731,7 +35781,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4260,
+      "playersCompleted": 4258,
       "playersCompletedPercentage": 7.44
     }
   },
@@ -35759,8 +35809,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4041,
-      "playersCompletedPercentage": 7.06
+      "playersCompleted": 4039,
+      "playersCompletedPercentage": 7.05
     }
   },
   "monumenta:dungeons/light_gray/challenge": {
@@ -35864,7 +35914,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2534,
+      "playersCompleted": 2535,
       "playersCompletedPercentage": 4.43
     }
   },
@@ -35892,7 +35942,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2453,
+      "playersCompleted": 2454,
       "playersCompletedPercentage": 4.29
     }
   },
@@ -35920,7 +35970,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 363,
+      "playersCompleted": 362,
       "playersCompletedPercentage": 0.63
     }
   },
@@ -35948,8 +35998,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2793,
-      "playersCompletedPercentage": 4.88
+      "playersCompleted": 2800,
+      "playersCompletedPercentage": 4.89
     }
   },
   "monumenta:dungeons/lime/find": {
@@ -35997,8 +36047,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2866,
-      "playersCompletedPercentage": 5.01
+      "playersCompleted": 2874,
+      "playersCompletedPercentage": 5.02
     }
   },
   "monumenta:dungeons/lime/find_quest": {
@@ -36025,8 +36075,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2807,
-      "playersCompletedPercentage": 4.9
+      "playersCompleted": 2814,
+      "playersCompletedPercentage": 4.91
     }
   },
   "monumenta:dungeons/magenta/challenge": {
@@ -36081,7 +36131,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4633,
+      "playersCompleted": 4631,
       "playersCompletedPercentage": 8.09
     }
   },
@@ -36156,7 +36206,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4942,
+      "playersCompleted": 4940,
       "playersCompletedPercentage": 8.63
     }
   },
@@ -36184,8 +36234,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 4580,
-      "playersCompletedPercentage": 8
+      "playersCompleted": 4578,
+      "playersCompletedPercentage": 7.99
     }
   },
   "monumenta:dungeons/orange/challenge": {
@@ -36317,7 +36367,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 6022,
+      "playersCompleted": 6024,
       "playersCompletedPercentage": 10.52
     }
   },
@@ -36345,7 +36395,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 5700,
+      "playersCompleted": 5702,
       "playersCompletedPercentage": 9.96
     }
   },
@@ -36450,7 +36500,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2696,
+      "playersCompleted": 2695,
       "playersCompletedPercentage": 4.71
     }
   },
@@ -36478,7 +36528,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2647,
+      "playersCompleted": 2646,
       "playersCompletedPercentage": 4.62
     }
   },
@@ -36534,7 +36584,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 262,
+      "playersCompleted": 265,
       "playersCompletedPercentage": 0.46
     }
   },
@@ -36562,8 +36612,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2298,
-      "playersCompletedPercentage": 4.02
+      "playersCompleted": 2299,
+      "playersCompletedPercentage": 4.01
     }
   },
   "monumenta:dungeons/purple/find": {
@@ -36611,8 +36661,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2366,
-      "playersCompletedPercentage": 4.13
+      "playersCompleted": 2368,
+      "playersCompletedPercentage": 4.14
     }
   },
   "monumenta:dungeons/purple/find_quest": {
@@ -36639,7 +36689,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2295,
+      "playersCompleted": 2297,
       "playersCompletedPercentage": 4.01
     }
   },
@@ -36667,8 +36717,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 576,
-      "playersCompletedPercentage": 1.01
+      "playersCompleted": 575,
+      "playersCompletedPercentage": 1
     }
   },
   "monumenta:dungeons/r1bonus/complete": {
@@ -36695,7 +36745,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2915,
+      "playersCompleted": 2914,
       "playersCompletedPercentage": 5.09
     }
   },
@@ -36723,7 +36773,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 958,
+      "playersCompleted": 959,
       "playersCompletedPercentage": 1.67
     }
   },
@@ -36773,7 +36823,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 3295,
-      "playersCompletedPercentage": 5.76
+      "playersCompletedPercentage": 5.75
     }
   },
   "monumenta:dungeons/r1bonus/find_quest": {
@@ -36799,7 +36849,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 3266,
-      "playersCompletedPercentage": 5.71
+      "playersCompletedPercentage": 5.7
     }
   },
   "monumenta:dungeons/r1bonus/find_quest2": {
@@ -36824,8 +36874,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1348,
-      "playersCompletedPercentage": 2.36
+      "playersCompleted": 1347,
+      "playersCompletedPercentage": 2.35
     }
   },
   "monumenta:dungeons/reverie/challenge": {
@@ -36850,7 +36900,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 349,
+      "playersCompleted": 350,
       "playersCompletedPercentage": 0.61
     }
   },
@@ -36876,7 +36926,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2845,
+      "playersCompleted": 2844,
       "playersCompletedPercentage": 4.97
     }
   },
@@ -36953,8 +37003,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3354,
-      "playersCompletedPercentage": 5.86
+      "playersCompleted": 3352,
+      "playersCompletedPercentage": 5.85
     }
   },
   "monumenta:dungeons/reverie/find_quest2": {
@@ -37005,8 +37055,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2390,
-      "playersCompletedPercentage": 4.18
+      "playersCompleted": 2389,
+      "playersCompletedPercentage": 4.17
     }
   },
   "monumenta:dungeons/roguelike/completeclassic": {
@@ -37107,7 +37157,7 @@
     "totalCriteria": 1,
     "stats": {
       "playersCompleted": 4045,
-      "playersCompletedPercentage": 7.07
+      "playersCompletedPercentage": 7.06
     }
   },
   "monumenta:dungeons/roguelike/secret": {
@@ -37154,7 +37204,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 57217,
+      "playersCompleted": 57249,
       "playersCompletedPercentage": 99.97
     }
   },
@@ -37181,8 +37231,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 32231,
-      "playersCompletedPercentage": 56.32
+      "playersCompleted": 32265,
+      "playersCompletedPercentage": 56.34
     }
   },
   "monumenta:dungeons/root_r2": {
@@ -37208,8 +37258,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 25950,
-      "playersCompletedPercentage": 45.34
+      "playersCompleted": 25948,
+      "playersCompletedPercentage": 45.31
     }
   },
   "monumenta:dungeons/root_r3": {
@@ -37235,8 +37285,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 12186,
-      "playersCompletedPercentage": 21.29
+      "playersCompleted": 12188,
+      "playersCompletedPercentage": 21.28
     }
   },
   "monumenta:dungeons/sanctum/find_quest": {
@@ -37263,7 +37313,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2615,
+      "playersCompleted": 2617,
       "playersCompletedPercentage": 4.57
     }
   },
@@ -37319,7 +37369,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 986,
+      "playersCompleted": 987,
       "playersCompletedPercentage": 1.72
     }
   },
@@ -37347,8 +37397,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 781,
-      "playersCompletedPercentage": 1.36
+      "playersCompleted": 783,
+      "playersCompletedPercentage": 1.37
     }
   },
   "monumenta:dungeons/skt/find": {
@@ -37388,7 +37438,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1574,
+      "playersCompleted": 1575,
       "playersCompletedPercentage": 2.75
     }
   },
@@ -37416,7 +37466,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 1559,
+      "playersCompleted": 1560,
       "playersCompletedPercentage": 2.72
     }
   },
@@ -37444,8 +37494,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 254,
-      "playersCompletedPercentage": 0.44
+      "playersCompleted": 256,
+      "playersCompletedPercentage": 0.45
     }
   },
   "monumenta:dungeons/teal/challenge": {
@@ -37500,7 +37550,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2099,
+      "playersCompleted": 2101,
       "playersCompletedPercentage": 3.67
     }
   },
@@ -37577,7 +37627,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 2032,
+      "playersCompleted": 2033,
       "playersCompletedPercentage": 3.55
     }
   },
@@ -37605,7 +37655,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 471,
+      "playersCompleted": 472,
       "playersCompletedPercentage": 0.82
     }
   },
@@ -37661,7 +37711,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 8047,
+      "playersCompleted": 8050,
       "playersCompletedPercentage": 14.06
     }
   },
@@ -37738,8 +37788,8 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 11245,
-      "playersCompletedPercentage": 19.65
+      "playersCompleted": 11247,
+      "playersCompletedPercentage": 19.64
     }
   },
   "monumenta:dungeons/white/find_quest": {
@@ -37766,7 +37816,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 10344,
+      "playersCompleted": 10346,
       "playersCompletedPercentage": 18.07
     }
   },
@@ -37822,7 +37872,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3666,
+      "playersCompleted": 3668,
       "playersCompletedPercentage": 6.41
     }
   },
@@ -37850,7 +37900,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 878,
+      "playersCompleted": 879,
       "playersCompletedPercentage": 1.53
     }
   },
@@ -37899,7 +37949,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3859,
+      "playersCompleted": 3861,
       "playersCompletedPercentage": 6.74
     }
   },
@@ -37927,7 +37977,7 @@
     "children": [],
     "totalCriteria": 1,
     "stats": {
-      "playersCompleted": 3668,
+      "playersCompleted": 3670,
       "playersCompletedPercentage": 6.41
     }
   }
