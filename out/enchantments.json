@@ -301,7 +301,7 @@
   },
   "firststrike": {
     "name": "First Strike",
-    "description": "The first melee hit against a mob deals 10 * level % more damage, and the first projectile hit against a mob deals 7.5 * level % more damage. The bonus damage can be reapplied to the same target every 3 seconds.",
+    "description": "The first melee hit against a mob deals 10 * level % more damage, and the first projectile damage against a mob deals 7.5 * level % more damage. Melee damage from enchantments or abilities will also be affected if it is applied simultaneously with a melee hit. The bonus damage can be reapplied to the same target every 3 seconds.",
     "category": "Weapons"
   },
   "focus": {
@@ -831,7 +831,7 @@
   },
   "veil": {
     "name": "Curse of the Veil",
-    "description": "When equipped, drain (level) health every 3 seconds.",
+    "description": "When equipped, drain (level) health every 3 seconds. This damage cannot kill you, and only triggers if there is a hostile mob within 24 blocks, Boss mob within 80 blocks, or the player has dealt damage within the last 12 seconds.",
     "category": "Curses"
   },
   "vengeful": {
