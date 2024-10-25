@@ -65683,6 +65683,14 @@
     "stats": {},
     "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Regular Creeper\nNote: Long fuse, zero explosion"
   },
+  "Fire Suppressant": {
+    "name": "Fire Suppressant",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Can extinguish magic fires with a\nsimple use in the mainhand.\n* Quest Item *\n#Q224I01"
+  },
   "Arcane Amethyst": {
     "name": "Arcane Amethyst",
     "base_item": "Echo Shard",
