@@ -694,6 +694,11 @@
     "description": "Projectiles deal an additional (level * 2) damage if the enemy is further than 12 blocks.",
     "category": "Ranged"
   },
+  "snowy": {
+    "name": "Snowy",
+    "description": "While you have an item with this enchantment in your inventory, you are able to be hit by other players with a Snowball Launcher. Be careful!",
+    "category": "Cosmetic"
+  },
   "soothing": {
     "name": "Soothing",
     "description": "Regenerate 0.04 health per level each second.",
