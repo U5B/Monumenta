@@ -2079,6 +2079,23 @@
     "type": "Misc",
     "stats": {}
   },
+  "Caramel-Covered Staff": {
+    "location": "Halloween Event",
+    "region": "Isles",
+    "tier": "Event",
+    "name": "Caramel-Covered Staff",
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "sustenance": 2,
+      "adrenaline": 3,
+      "spell_power_base": 50,
+      "attack_damage_base": 10,
+      "speed_percent": -30,
+      "attack_speed_base": 1.5
+    }
+  },
   "Combustion Staff": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -14401,6 +14418,22 @@
       "projectile_speed_base": 1.5
     }
   },
+  "Minted Megaphone": {
+    "location": "Halloween Event",
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Minted Megaphone",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "piercing": 3,
+      "mending": 1,
+      "quick_charge": 3,
+      "projectile_speed_base": 2,
+      "projectile_damage_base": 5
+    }
+  },
   "Monsoon": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -17289,6 +17322,26 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Mage"
+  },
+  "Dry-Aged Licorice": {
+    "location": "Halloween Event",
+    "region": "Isles",
+    "tier": "Event",
+    "name": "Dry-Aged Licorice",
+    "effects": [
+      {
+        "EffectDuration": 20,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantHealthPercent"
+      }
+    ],
+    "base_item": "Dried Kelp",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {
+      "starvation": 1,
+      "infinity": 1
+    }
   },
   "Food Ration": {
     "name": "Food Ration",
@@ -62541,7 +62594,7 @@
   "Cryosphere": {
     "location": "Winter Event",
     "region": "Valley",
-    "tier": "Event",
+    "tier": "Event_currency",
     "name": "Cryosphere",
     "base_item": "Snowball",
     "release_status": "public",
@@ -63185,6 +63238,8 @@
     "class_name": "Warlock"
   },
   "Chronobolt": {
+    "location": "Teal",
+    "region": "Isles",
     "name": "Chronobolt",
     "base_item": "Spectral Arrow",
     "release_status": "public",
@@ -63195,6 +63250,8 @@
     }
   },
   "Scout's Heartseeker": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Scout's Heartseeker",
     "base_item": "Spectral Arrow",
     "release_status": "public",
@@ -71824,17 +71881,21 @@
     "stats": {}
   },
   "Arboretum Arrow": {
+    "location": "Pink",
+    "region": "Isles",
     "name": "Arboretum Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "thunder_aspect": 1,
       "fire_aspect": 1,
-      "ice_aspect": 1
+      "ice_aspect": 1,
+      "thunder_aspect": 1
     }
   },
   "Argone Bolt": {
+    "location": "Light Blue",
+    "region": "Valley",
     "name": "Argone Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71844,6 +71905,8 @@
     }
   },
   "Arrow of Causality": {
+    "location": "Corridors",
+    "region": "Valley",
     "name": "Arrow of Causality",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71864,6 +71927,8 @@
     "stats": {}
   },
   "Ashkii Quarrel": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
     "name": "Ashkii Quarrel",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71875,16 +71940,20 @@
     }
   },
   "Aster's Flames": {
+    "location": "Cyan",
+    "region": "Isles",
     "name": "Aster's Flames",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "inferno": 1,
-      "decay": 1
+      "decay": 1,
+      "inferno": 1
     }
   },
   "Ateoq Arrow": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Ateoq Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71894,6 +71963,8 @@
     }
   },
   "Axcanyotl Arrow": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Axcanyotl Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71903,6 +71974,8 @@
     }
   },
   "Beastblood Quarrel": {
+    "location": "Orange",
+    "region": "Valley",
     "name": "Beastblood Quarrel",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71912,6 +71985,8 @@
     }
   },
   "Blackbearer's Bolt": {
+    "location": "Willows",
+    "region": "Valley",
     "name": "Blackbearer's Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71922,6 +71997,8 @@
     }
   },
   "Bramblethorn Bolt": {
+    "location": "Hexfall",
+    "region": "Ring",
     "name": "Bramblethorn Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71942,6 +72019,8 @@
     "stats": {}
   },
   "Chillwind Bolt": {
+    "location": "Isles Casino",
+    "region": "Isles",
     "name": "Chillwind Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71952,6 +72031,8 @@
     }
   },
   "Corrupted Chronobolt": {
+    "location": "Teal",
+    "region": "Isles",
     "name": "Corrupted Chronobolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -71962,28 +72043,34 @@
     }
   },
   "Covenstead Dart": {
+    "location": "Blue",
+    "region": "Ring",
     "name": "Covenstead Dart",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "wind_aspect": 1,
       "earth_aspect": 1,
       "fire_aspect": 1,
-      "ice_aspect": 1
+      "ice_aspect": 1,
+      "wind_aspect": 1
     }
   },
   "Cursestone Quarrel": {
+    "location": "Cyan",
+    "region": "Isles",
     "name": "Cursestone Quarrel",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "inferno": 2,
-      "decay": 2
+      "decay": 2,
+      "inferno": 2
     }
   },
   "Deathknell Arrow": {
+    "location": "Gray",
+    "region": "Isles",
     "name": "Deathknell Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72005,16 +72092,20 @@
     "stats": {}
   },
   "Dichen Bolt": {
+    "location": "The Wolfswood",
+    "region": "Ring",
     "name": "Dichen Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "first_strike": 1,
-      "earth_aspect": 1
+      "earth_aspect": 1,
+      "first_strike": 1
     }
   },
   "Elemental Arrow": {
+    "location": "Yellow",
+    "region": "Valley",
     "name": "Elemental Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72024,6 +72115,8 @@
     }
   },
   "Fish Popper": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Fish Popper",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72033,6 +72126,8 @@
     }
   },
   "Gillman's Dart": {
+    "location": "Lime",
+    "region": "Isles",
     "name": "Gillman's Dart",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72043,6 +72138,8 @@
     }
   },
   "Godslayer Arrow": {
+    "location": "Ruin",
+    "region": "Ring",
     "name": "Godslayer Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72053,16 +72150,20 @@
     }
   },
   "Hailstorm Arrow": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Hailstorm Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "thunder_aspect": 1,
-      "ice_aspect": 1
+      "ice_aspect": 1,
+      "thunder_aspect": 1
     }
   },
   "Ix's Bolt": {
+    "location": "Orange",
+    "region": "Valley",
     "name": "Ix's Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72072,6 +72173,8 @@
     }
   },
   "Kaul's Fury": {
+    "location": "Yellow",
+    "region": "Valley",
     "name": "Kaul's Fury",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72081,6 +72184,8 @@
     }
   },
   "Keterborn Bolt": {
+    "location": "Forum",
+    "region": "Isles",
     "name": "Keterborn Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72091,6 +72196,8 @@
     }
   },
   "Lightning Bolt": {
+    "location": "PORTAL",
+    "region": "Ring",
     "name": "Lightning Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72102,6 +72209,8 @@
     }
   },
   "Luther's Bolt": {
+    "location": "Light Gray",
+    "region": "Isles",
     "name": "Luther's Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72112,6 +72221,8 @@
     }
   },
   "Marksman's Longshot": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Marksman's Longshot",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72121,6 +72232,8 @@
     }
   },
   "Memory Piercer": {
+    "location": "Valley Casino",
+    "region": "Valley",
     "name": "Memory Piercer",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72140,6 +72253,8 @@
     }
   },
   "Molten Arrow": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Molten Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72150,6 +72265,8 @@
     }
   },
   "Myra's Miasma": {
+    "location": "Magenta",
+    "region": "Valley",
     "name": "Myra's Miasma",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72159,6 +72276,8 @@
     }
   },
   "Nightmare Bolt": {
+    "location": "Reverie",
+    "region": "Valley",
     "name": "Nightmare Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72170,6 +72289,8 @@
     }
   },
   "Pale Arrow": {
+    "location": "Shifting",
+    "region": "Isles",
     "name": "Pale Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72189,6 +72310,8 @@
     }
   },
   "Pirate's Bolt": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Pirate's Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72198,16 +72321,20 @@
     }
   },
   "Plagued Arrow": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Plagued Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "ice_aspect": 1,
-      "decay": 1
+      "decay": 1,
+      "ice_aspect": 1
     }
   },
   "Plagueroot Arrow": {
+    "location": "Magenta",
+    "region": "Valley",
     "name": "Plagueroot Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72217,17 +72344,21 @@
     }
   },
   "Proprietor's Present": {
+    "location": "Ring Casino",
+    "region": "Ring",
     "name": "Proprietor's Present",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "thunder_aspect": 2,
       "piercing": 1,
+      "thunder_aspect": 2,
       "projectile_damage_percent": -10
     }
   },
   "Quetz's Breath": {
+    "location": "White",
+    "region": "Valley",
     "name": "Quetz's Breath",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72237,6 +72368,8 @@
     }
   },
   "Ranger's Bolt": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Ranger's Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72286,24 +72419,28 @@
     "stats": {}
   },
   "Sentry's Arrow": {
+    "location": "Brown",
+    "region": "Ring",
     "name": "Sentry's Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "point_blank": 1,
       "piercing": 1,
+      "point_blank": 1,
       "projectile_damage_percent": -30
     }
   },
   "Serrated Arrow": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Serrated Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "fire_aspect": 1,
-      "bleeding": 1
+      "bleeding": 1,
+      "fire_aspect": 1
     }
   },
   "Shaman's Quiver": {
@@ -72327,6 +72464,8 @@
     "stats": {}
   },
   "Sier's Arcana": {
+    "location": "Light Blue",
+    "region": "Valley",
     "name": "Sier's Arcana",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72336,6 +72475,8 @@
     }
   },
   "Silver Bolt": {
+    "location": "SKT",
+    "region": "Ring",
     "name": "Silver Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72347,6 +72488,8 @@
     }
   },
   "Soulflame Arrow": {
+    "location": "White",
+    "region": "Valley",
     "name": "Soulflame Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72356,6 +72499,8 @@
     }
   },
   "Star Seeker's Needle": {
+    "location": "Starpoint",
+    "region": "Ring",
     "name": "Star Seeker's Needle",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72366,6 +72511,8 @@
     }
   },
   "Star-tipped Arrow": {
+    "location": "Light Gray",
+    "region": "Isles",
     "name": "Star-tipped Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72376,6 +72523,8 @@
     }
   },
   "Star-touched Bolt": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Star-touched Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72386,6 +72535,8 @@
     }
   },
   "Stormsurge Quarrel": {
+    "location": "Shifting",
+    "region": "Isles",
     "name": "Stormsurge Quarrel",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72397,6 +72548,8 @@
     }
   },
   "Strange Arrow": {
+    "location": "Teal",
+    "region": "Isles",
     "name": "Strange Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72404,6 +72557,8 @@
     "stats": {}
   },
   "Tencualac Arrow": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Tencualac Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72413,6 +72568,8 @@
     }
   },
   "Timetorn Arrow": {
+    "location": "Teal",
+    "region": "Isles",
     "name": "Timetorn Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72434,6 +72591,8 @@
     }
   },
   "Vizier's Tool": {
+    "location": "Gray",
+    "region": "Isles",
     "name": "Vizier's Tool",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72444,6 +72603,8 @@
     }
   },
   "Void-dipped Arrow": {
+    "location": "Purple",
+    "region": "Isles",
     "name": "Void-dipped Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",

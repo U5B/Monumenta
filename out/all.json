@@ -593,6 +593,1443 @@
     "description": "You reclaimed the ancient relic from the Sons of the Forest and have given Highwatch an opportunity to attack Verdant Fortress.",
     "parent": "monumenta:dungeons/yellow/find"
   },
+  "monumenta:pois/r1/amped/antipodean_tower": {
+    "title": "Antipodean Tower",
+    "description": "You amplified the Collapsing Tower into the Antipodean Tower!",
+    "parent": "monumenta:pois/r1/amped/festive_fortress"
+  },
+  "monumenta:pois/r1/amped/cindered_cave": {
+    "title": "Cindered Cave",
+    "description": "You amplified the Fire Cave into the Cindered Cave!",
+    "parent": "monumenta:pois/r1/amped/twisted_cave"
+  },
+  "monumenta:pois/r1/amped/earthquake_shrine": {
+    "title": "Earthquake Shrine",
+    "description": "You amplified the Earth Shrine into the Earthquake Shrine!",
+    "parent": "monumenta:pois/r1/amped/ice_shrine"
+  },
+  "monumenta:pois/r1/amped/ezariahs_tomb": {
+    "title": "Ezariah's Tomb",
+    "description": "You amplified Waterfall Island into Ezariah's Tomb!",
+    "parent": "monumenta:pois/r1/amped/tempest_shrine"
+  },
+  "monumenta:pois/r1/amped/festive_fortress": {
+    "title": "Festive Fortress",
+    "description": "You amplified the Hawk Fortress into the Festive Fortress!",
+    "parent": "monumenta:pois/r1/amped/cindered_cave"
+  },
+  "monumenta:pois/r1/amped/forsworn_cave": {
+    "title": "Forsworn Cave",
+    "description": "You amplified the Corrupted Cave into the Forsworn Cave!",
+    "parent": "monumenta:pois/r1/amped/mercenary_mine"
+  },
+  "monumenta:pois/r1/amped/ice_shrine": {
+    "title": "Ice Shrine",
+    "description": "You amplified the Fire Shrine into the Ice Shrine!",
+    "parent": "monumenta:pois/r1/amped/whirlpool_shrine"
+  },
+  "monumenta:pois/r1/amped/mercenary_mine": {
+    "title": "Mercenary Mine",
+    "description": "You amplified the Jungle Mine into the Mercenary Mine!",
+    "parent": "monumenta:pois/r1/amped/antipodean_tower"
+  },
+  "monumenta:pois/r1/amped/purrfect_winter_retreat": {
+    "title": "Purrfect Winter Retreat",
+    "description": "You amplified the Litterbox into the Purrfect Winter Retreat!",
+    "parent": "monumenta:pois/r1/amped/forsworn_cave"
+  },
+  "monumenta:pois/r1/amped/root": {
+    "title": "Amplified POIs",
+    "description": "Discover and conquer the Amplified POIs of the King's Valley",
+    "parent": "monumenta:pois/r1/root"
+  },
+  "monumenta:pois/r1/amped/tempest_shrine": {
+    "title": "Tempest Shrine",
+    "description": "You amplified the Air Shrine into the Tempest Shrine!",
+    "parent": "monumenta:pois/r1/amped/earthquake_shrine"
+  },
+  "monumenta:pois/r1/amped/twisted_cave": {
+    "title": "Twisted Cave",
+    "description": "You amplified the Overgrown Cave into the Twisted Cave!",
+    "parent": "monumenta:pois/r1/amped/ezariahs_tomb"
+  },
+  "monumenta:pois/r1/amped/whirlpool_shrine": {
+    "title": "Whirlpool Shrine",
+    "description": "You amplified the Water Shrine into the Whirlpool Shrine!",
+    "parent": "monumenta:pois/r1/amped/root"
+  },
+  "monumenta:pois/r1/azacor_grove/azacorsmansion": {
+    "title": "Azacor's Mansion",
+    "description": "Discover Azacor's Mansion Coordinates: x=1308 y=167 z=299",
+    "parent": "monumenta:pois/r1/azacor_grove/whisperingwoods"
+  },
+  "monumenta:pois/r1/azacor_grove/consecratedgrounds": {
+    "title": "Consecrated Grounds",
+    "description": "Discover the Consecrated Grounds Coordinates: x=1400 y=165 z=40",
+    "parent": "monumenta:pois/r1/azacor_grove/namelessruins"
+  },
+  "monumenta:pois/r1/azacor_grove/floodedfoyer": {
+    "title": "Flooded Foyer",
+    "description": "Discover the Flooded Foyer Coordinates: x=1418 y=96 z=138",
+    "parent": "monumenta:pois/r1/azacor_grove/weepingwormwood"
+  },
+  "monumenta:pois/r1/azacor_grove/hallowedhedges": {
+    "title": "Hallowed Hedges",
+    "description": "Discover the Hallowed Hedges Coordinates: x=1237 y=102 z=-18",
+    "parent": "monumenta:pois/r1/azacor_grove/root"
+  },
+  "monumenta:pois/r1/azacor_grove/igorslaboratory": {
+    "title": "Igor's Laboratory",
+    "description": "Discover Igor's Laboratory Coordinates: x=1313 y=130 z=151",
+    "parent": "monumenta:pois/r1/azacor_grove/consecratedgrounds"
+  },
+  "monumenta:pois/r1/azacor_grove/mapleroottown": {
+    "title": "Mapleroot Town",
+    "description": "Discover the Mapleroot Town Coordinates: x=1390 y=117 z=306",
+    "parent": "monumenta:pois/r1/azacor_grove/floodedfoyer"
+  },
+  "monumenta:pois/r1/azacor_grove/namelessruins": {
+    "title": "Nameless Ruins",
+    "description": "Discover the Nameless Ruins Coordinates: x=1216 y=102 z=3",
+    "parent": "monumenta:pois/r1/azacor_grove/hallowedhedges"
+  },
+  "monumenta:pois/r1/azacor_grove/root": {
+    "title": "Azacor's Grove",
+    "description": "Discover Azacor's Grove",
+    "parent": "monumenta:pois/r1/root"
+  },
+  "monumenta:pois/r1/azacor_grove/undergrowth": {
+    "title": "The Undergrowth",
+    "description": "Discover the Undergrowth Coordinates: x=1479 y=96 z=168",
+    "parent": "monumenta:pois/r1/azacor_grove/azacorsmansion"
+  },
+  "monumenta:pois/r1/azacor_grove/weepingwormwood": {
+    "title": "Weeping Wormwood",
+    "description": "Discover the Weeping Wormwood Coordinates: x=1346 y=128 z=175",
+    "parent": "monumenta:pois/r1/azacor_grove/igorslaboratory"
+  },
+  "monumenta:pois/r1/azacor_grove/whisperingwoods": {
+    "title": "Whispering Woods",
+    "description": "Discover the Whispering Woods Coordinates: x=1443 y=150 z=312",
+    "parent": "monumenta:pois/r1/azacor_grove/mapleroottown"
+  },
+  "monumenta:pois/r1/highlands/anthill": {
+    "title": "Anthill",
+    "description": "Discover the Anthill Coordinates: x=819 y=110 z=209",
+    "parent": "monumenta:pois/r1/highlands/root"
+  },
+  "monumenta:pois/r1/highlands/caveofbones": {
+    "title": "Cave of Bones",
+    "description": "Discover the Cave of Bones Coordinates: x=1000 y=102 z=-43",
+    "parent": "monumenta:pois/r1/highlands/anthill"
+  },
+  "monumenta:pois/r1/highlands/cursedforest": {
+    "title": "Cursed Forest",
+    "description": "Discover the Cursed Forest Coordinates: x=1100 y=104 z=60",
+    "parent": "monumenta:pois/r1/highlands/infestedhouse"
+  },
+  "monumenta:pois/r1/highlands/easternpass": {
+    "title": "Eastern Pass",
+    "description": "Discover the Eastern Pass Coordinates: x=853 y=77 z=322",
+    "parent": "monumenta:pois/r1/highlands/caveofbones"
+  },
+  "monumenta:pois/r1/highlands/graveyard": {
+    "title": "Graveyard",
+    "description": "Discover the Graveyard Coordinates: x=1033 y=124 z=-169",
+    "parent": "monumenta:pois/r1/highlands/easternpass"
+  },
+  "monumenta:pois/r1/highlands/infestedhouse": {
+    "title": "Infested House",
+    "description": "Discover the Infested House Coordinates: x=1017 y=117 z=77",
+    "parent": "monumenta:pois/r1/highlands/graveyard"
+  },
+  "monumenta:pois/r1/highlands/root": {
+    "title": "Korbar Highlands",
+    "description": "Discover the Korbar Highlands",
+    "parent": "monumenta:pois/r1/root"
+  },
+  "monumenta:pois/r1/highlands/verdantfortress": {
+    "title": "Verdant Fortress",
+    "description": "Discover the Verdant Fortress Coordinates: x=916 y=106 z=182",
+    "parent": "monumenta:pois/r1/highlands/cursedforest"
+  },
+  "monumenta:pois/r1/highlands/volcano": {
+    "title": "Volcano",
+    "description": "Discover the Volcano Coordinates: x=936 y=142 z=-144",
+    "parent": "monumenta:pois/r1/highlands/verdantfortress"
+  },
+  "monumenta:pois/r1/jungle/center/airshrine": {
+    "title": "Air Shrine",
+    "description": "Discover the Air Shrine Coordinates: x=446 y=129 z=-43",
+    "parent": "monumenta:pois/r1/jungle/center/hawkfortress"
+  },
+  "monumenta:pois/r1/jungle/center/grandmaw": {
+    "title": "Grand Maw",
+    "description": "Discover the Grand Maw Coordinates: x=350 y=71 z=82",
+    "parent": "monumenta:pois/r1/jungle/center/root"
+  },
+  "monumenta:pois/r1/jungle/center/hawkfortress": {
+    "title": "Hawk Fortress",
+    "description": "Discover the Hawk Fortress Coordinates: x=454 y=123 z=106",
+    "parent": "monumenta:pois/r1/jungle/center/grandmaw"
+  },
+  "monumenta:pois/r1/jungle/center/root": {
+    "title": "Central Plateau",
+    "description": "Enter the Central Plateau",
+    "parent": "monumenta:pois/r1/jungle/root"
+  },
+  "monumenta:pois/r1/jungle/mountains/axtanmonastary": {
+    "title": "Axtan Monastery",
+    "description": "Discover the Axtan Monastery Coordinates: x=664 y=121 z=-263",
+    "parent": "monumenta:pois/r1/jungle/mountains/root"
+  },
+  "monumenta:pois/r1/jungle/mountains/collapsingtower": {
+    "title": "Collapsing Tower",
+    "description": "Discover the Collapsing Tower Coordinates: x=860 y=157 z=-314",
+    "parent": "monumenta:pois/r1/jungle/mountains/axtanmonastary"
+  },
+  "monumenta:pois/r1/jungle/mountains/creeperfarm": {
+    "title": "Creeper Farm",
+    "description": "Discover the Creeper Farm Coordinates: x=797 y=174 z=-317",
+    "parent": "monumenta:pois/r1/jungle/mountains/collapsingtower"
+  },
+  "monumenta:pois/r1/jungle/mountains/firecave": {
+    "title": "Fire Cave",
+    "description": "Discover the Fire Cave Coordinates: x=570 y=86 z=-194",
+    "parent": "monumenta:pois/r1/jungle/mountains/creeperfarm"
+  },
+  "monumenta:pois/r1/jungle/mountains/mountainhideaway": {
+    "title": "Mountain Hideaway",
+    "description": "Discover the Mountain Hideaway Coordinates: x=614 y=146 z=-351",
+    "parent": "monumenta:pois/r1/jungle/mountains/firecave"
+  },
+  "monumenta:pois/r1/jungle/mountains/mountainmines": {
+    "title": "Mountain Mineshaft",
+    "description": "Discover the Mountain Mineshaft Coordinates: x=952 y=147 z=-347",
+    "parent": "monumenta:pois/r1/jungle/mountains/mountainhideaway"
+  },
+  "monumenta:pois/r1/jungle/mountains/root": {
+    "title": "Jaguar Tooth Mountains",
+    "description": "Enter the Jaguar Tooth Mountains",
+    "parent": "monumenta:pois/r1/jungle/root"
+  },
+  "monumenta:pois/r1/jungle/northeast/caveofsecrets": {
+    "title": "Cave of Secrets",
+    "description": "Discover the Cave of Secrets Coordinates: x=458 y=74 z=-103",
+    "parent": "monumenta:pois/r1/jungle/northeast/tinyjungleruin"
+  },
+  "monumenta:pois/r1/jungle/northeast/crossroadruins": {
+    "title": "Crossroad Ruins",
+    "description": "Discover the Crossroad Ruins Coordinates: x=623 y=71 z=-112",
+    "parent": "monumenta:pois/r1/jungle/northeast/root"
+  },
+  "monumenta:pois/r1/jungle/northeast/junglemine": {
+    "title": "Jungle Mine",
+    "description": "Discover the Jungle Mine Coordinates: x=565 y=77 z=-69",
+    "parent": "monumenta:pois/r1/jungle/northeast/crossroadruins"
+  },
+  "monumenta:pois/r1/jungle/northeast/litterbox": {
+    "title": "The Litterbox",
+    "description": "Discover The Litterbox Coordinates: x=890 y=73 z=42",
+    "parent": "monumenta:pois/r1/jungle/northeast/moltenchasm"
+  },
+  "monumenta:pois/r1/jungle/northeast/moistruins": {
+    "title": "Moist Ruins",
+    "description": "Discover the Moist Ruins Coordinates: x=826 y=74 z=-209",
+    "parent": "monumenta:pois/r1/jungle/northeast/junglemine"
+  },
+  "monumenta:pois/r1/jungle/northeast/moltenchasm": {
+    "title": "Molten Chasm",
+    "description": "Discover the Molten Chasm Coordinates: x=735 y=71 z=84",
+    "parent": "monumenta:pois/r1/jungle/northeast/moistruins"
+  },
+  "monumenta:pois/r1/jungle/northeast/root": {
+    "title": "Northeastern Jungle",
+    "description": "Enter the Northeastern Jungle",
+    "parent": "monumenta:pois/r1/jungle/root"
+  },
+  "monumenta:pois/r1/jungle/northeast/suspiciousvillage": {
+    "title": "Suspicious Village",
+    "description": "Discover the Suspicious Village Coordinates: x=693 y=74 z=-140",
+    "parent": "monumenta:pois/r1/jungle/northeast/litterbox"
+  },
+  "monumenta:pois/r1/jungle/northeast/templetokaul": {
+    "title": "Temple to Kaul",
+    "description": "Discover the Temple to Kaul Coordinates: x=773 y=84 z=-24",
+    "parent": "monumenta:pois/r1/jungle/northeast/caveofsecrets"
+  },
+  "monumenta:pois/r1/jungle/northeast/tinyjungleruin": {
+    "title": "Tiny Jungle Ruin",
+    "description": "Discover the Tiny Jungle Ruin Coordinates: x=503 y=80 z=-162",
+    "parent": "monumenta:pois/r1/jungle/northeast/suspiciousvillage"
+  },
+  "monumenta:pois/r1/jungle/northwest/ancientruin": {
+    "title": "Ancient Ruin",
+    "description": "Discover the Ancient Ruin Coordinates: x=359 y=73 z=-55",
+    "parent": "monumenta:pois/r1/jungle/northwest/root"
+  },
+  "monumenta:pois/r1/jungle/northwest/hawkvillage": {
+    "title": "Hawk Village",
+    "description": "Discover the Hawk Village Coordinates: x=137 y=123 z=-114",
+    "parent": "monumenta:pois/r1/jungle/northwest/ancientruin"
+  },
+  "monumenta:pois/r1/jungle/northwest/murkymaze": {
+    "title": "Murky Maze",
+    "description": "Discover the Murky Maze Coordinates: x=-45 y=70 z=-25",
+    "parent": "monumenta:pois/r1/jungle/northwest/overgrowncave"
+  },
+  "monumenta:pois/r1/jungle/northwest/mysteriouscenote": {
+    "title": "Mysterious Cenote",
+    "description": "Discover the Mysterious Cenote Coordinates: x=159 y=123 z=-78",
+    "parent": "monumenta:pois/r1/jungle/northwest/tlaxanziggurat"
+  },
+  "monumenta:pois/r1/jungle/northwest/northjaguar": {
+    "title": "Northern Jaguar Village",
+    "description": "Discover the Northern Jaguar Village Coordinates: x=268 y=74 z=6",
+    "parent": "monumenta:pois/r1/jungle/northwest/hawkvillage"
+  },
+  "monumenta:pois/r1/jungle/northwest/overgrowncave": {
+    "title": "Overgrown Cave",
+    "description": "Discover the Overgrown Cave Coordinates: x=194 y=74 z=31",
+    "parent": "monumenta:pois/r1/jungle/northwest/northjaguar"
+  },
+  "monumenta:pois/r1/jungle/northwest/root": {
+    "title": "Northwestern Jungle",
+    "description": "Enter the Northwestern Jungle",
+    "parent": "monumenta:pois/r1/jungle/root"
+  },
+  "monumenta:pois/r1/jungle/northwest/ruinedmansion": {
+    "title": "Ruined Mansion",
+    "description": "Discover the Ruined Mansion Coordinates: x=-7 y=72 z=-165",
+    "parent": "monumenta:pois/r1/jungle/northwest/murkymaze"
+  },
+  "monumenta:pois/r1/jungle/northwest/tlaxanziggurat": {
+    "title": "Tlaxan Ziggurat",
+    "description": "Discover the Tlaxan Ziggurat Coordinates: x=215 y=125 z=-109",
+    "parent": "monumenta:pois/r1/jungle/northwest/watercavern"
+  },
+  "monumenta:pois/r1/jungle/northwest/watercavern": {
+    "title": "Water Cavern",
+    "description": "Discover the Water Cavern Coordinates: x=90 y=71 z=29",
+    "parent": "monumenta:pois/r1/jungle/northwest/ruinedmansion"
+  },
+  "monumenta:pois/r1/jungle/root": {
+    "title": "Blackroot Jungle",
+    "description": "Enter the Blackroot Jungle",
+    "parent": "monumenta:pois/r1/root"
+  },
+  "monumenta:pois/r1/jungle/southeast/corruptedcaves": {
+    "title": "Corrupted Caves",
+    "description": "Discover the Corrupted Caves Coordinates: x=515 y=71 z=391",
+    "parent": "monumenta:pois/r1/jungle/southeast/lowlandtemple"
+  },
+  "monumenta:pois/r1/jungle/southeast/corruptedisland": {
+    "title": "Corrupted Island",
+    "description": "Discover the Corrupted Island Coordinates: x=619 y=73 z=467",
+    "parent": "monumenta:pois/r1/jungle/southeast/corruptedcaves"
+  },
+  "monumenta:pois/r1/jungle/southeast/creepertower": {
+    "title": "Creeper Tower",
+    "description": "Discover the Creeper Tower Coordinates: x=750 y=83 z=319",
+    "parent": "monumenta:pois/r1/jungle/southeast/corruptedisland"
+  },
+  "monumenta:pois/r1/jungle/southeast/hallowedpond": {
+    "title": "Hallowed Pond",
+    "description": "Discover the Hallowed Pond Coordinates: x=454 y=72 z=247",
+    "parent": "monumenta:pois/r1/jungle/southeast/creepertower"
+  },
+  "monumenta:pois/r1/jungle/southeast/lowlandtemple": {
+    "title": "Lowland Temple",
+    "description": "Discover the Lowland Temple Coordinates: x=480 y=71 z=154",
+    "parent": "monumenta:pois/r1/jungle/southeast/root"
+  },
+  "monumenta:pois/r1/jungle/southeast/root": {
+    "title": "Southeastern Jungle",
+    "description": "Enter the Southeastern Jungle",
+    "parent": "monumenta:pois/r1/jungle/root"
+  },
+  "monumenta:pois/r1/jungle/southeast/southerncenote": {
+    "title": "Southern Cenote",
+    "description": "Discover the Southern Cenote Coordinates: x=551 y=45 z=325",
+    "parent": "monumenta:pois/r1/jungle/southeast/hallowedpond"
+  },
+  "monumenta:pois/r1/jungle/southwest/abandonedtunnels": {
+    "title": "Abandoned Tunnels",
+    "description": "Discover the Abandoned Tunnels Coordinates: x=109 y=79 z=143",
+    "parent": "monumenta:pois/r1/jungle/southwest/earthshrine"
+  },
+  "monumenta:pois/r1/jungle/southwest/earthshrine": {
+    "title": "Earth Shrine",
+    "description": "Discover the Earth Shrine Coordinates: x=250 y=75 z=152",
+    "parent": "monumenta:pois/r1/jungle/southwest/root"
+  },
+  "monumenta:pois/r1/jungle/southwest/root": {
+    "title": "Southwestern Jungle",
+    "description": "Enter the Southwestern Jungle",
+    "parent": "monumenta:pois/r1/jungle/root"
+  },
+  "monumenta:pois/r1/jungle/southwest/serpentruins": {
+    "title": "Serpent Ruins",
+    "description": "Discover the Serpent Ruins Coordinates: x=22 y=127 z=148",
+    "parent": "monumenta:pois/r1/jungle/southwest/abandonedtunnels"
+  },
+  "monumenta:pois/r1/jungle/southwest/southjaguar": {
+    "title": "Southern Jaguar Village",
+    "description": "Discover the Southern Jaguar Village Coordinates: x=107 y=72 z=95",
+    "parent": "monumenta:pois/r1/jungle/southwest/serpentruins"
+  },
+  "monumenta:pois/r1/jungle/southwest/templetomemory": {
+    "title": "Altar of Evocation",
+    "description": "Discover the Altar of Evocation Coordinates: x=216 y=92 z=144",
+    "parent": "monumenta:pois/r1/jungle/southwest/southjaguar"
+  },
+  "monumenta:pois/r1/root": {
+    "title": "King's Valley",
+    "description": null
+  },
+  "monumenta:pois/r1/sea/aphelionisle": {
+    "title": "Aphelion Isle",
+    "description": "Discover the Aphelion Isle Coordinates: x=-1533 y=94 z=364",
+    "parent": "monumenta:pois/r1/sea/root_farwaters"
+  },
+  "monumenta:pois/r1/sea/bastionofspires": {
+    "title": "Bastion of Spires",
+    "description": "Discover the Bastion of Spires Coordinates: x=-1358 y=92 z=-291",
+    "parent": "monumenta:pois/r1/sea/aphelionisle"
+  },
+  "monumenta:pois/r1/sea/cathedralofthedeep": {
+    "title": "Cathedral of the Deep",
+    "description": "Discover the Cathedral of the Deep Coordinates: x=-1596 y=34 z=355",
+    "parent": "monumenta:pois/r1/sea/cloudpiercer"
+  },
+  "monumenta:pois/r1/sea/cloudpiercer": {
+    "title": "Cloud Piercer",
+    "description": "Discover the Cloud Piercer Coordinates: x=-1473 y=128 z=-265",
+    "parent": "monumenta:pois/r1/sea/bastionofspires"
+  },
+  "monumenta:pois/r1/sea/forsakenwatchtower": {
+    "title": "Forsaken Watchtower",
+    "description": "Discover the Forsaken Watchtower Coordinates: x=-1416 y=95 z=333",
+    "parent": "monumenta:pois/r1/sea/cathedralofthedeep"
+  },
+  "monumenta:pois/r1/sea/root": {
+    "title": "Narsen Sea",
+    "description": "Enter the Narsen Sea",
+    "parent": "monumenta:pois/r1/root"
+  },
+  "monumenta:pois/r1/sea/root_farwaters": {
+    "title": "Far Waters",
+    "description": "Enter the Far Waters",
+    "parent": "monumenta:pois/r1/sea/root"
+  },
+  "monumenta:pois/r1/sea/root_royalshoreline": {
+    "title": "Royal Shoreline",
+    "description": "Enter the Royal Shoreline",
+    "parent": "monumenta:pois/r1/sea/root"
+  },
+  "monumenta:pois/r1/sea/seaoutpost": {
+    "title": "Sea Outpost",
+    "description": "Discover the Sea Outpost Coordinates: x=-1161 y=92 z=-176",
+    "parent": "monumenta:pois/r1/sea/root_royalshoreline"
+  },
+  "monumenta:pois/r1/sea/shroomboundgrotto": {
+    "title": "Shroombound Grotto",
+    "description": "Discover the Shroombound Grotto Coordinates: x=-1079 y=92 z=359",
+    "parent": "monumenta:pois/r1/sea/submergedgateway"
+  },
+  "monumenta:pois/r1/sea/submergedgateway": {
+    "title": "Submerged Gateway",
+    "description": "Discover the Submerged Gateway Coordinates: x=-1141 y=90 z=238",
+    "parent": "monumenta:pois/r1/sea/toxinlab"
+  },
+  "monumenta:pois/r1/sea/sunkencity": {
+    "title": "Sunken City",
+    "description": "Discover the Sunken City Coordinates: x=-1362 y=95 z=-147",
+    "parent": "monumenta:pois/r1/sea/forsakenwatchtower"
+  },
+  "monumenta:pois/r1/sea/toxinlab": {
+    "title": "Toxin Lab",
+    "description": "Discover the Toxin Lab Coordinates: x=-1223 y=88 z=93",
+    "parent": "monumenta:pois/r1/sea/witheredhideout"
+  },
+  "monumenta:pois/r1/sea/witheredhideout": {
+    "title": "Withered Hideout",
+    "description": "Discover the Withered Hideout Coordinates: x=-1219 y=93 z=426",
+    "parent": "monumenta:pois/r1/sea/seaoutpost"
+  },
+  "monumenta:pois/r1/swamp/east/easternmine": {
+    "title": "Eastern Mineshaft",
+    "description": "Discover the Eastern Mineshaft Coordinates: x=-334 y=101 z=-159",
+    "parent": "monumenta:pois/r1/swamp/east/root"
+  },
+  "monumenta:pois/r1/swamp/east/fireshrine": {
+    "title": "Fire Shrine",
+    "description": "Discover the Fire Shrine Coordinates: x=-240 y=92 z=84",
+    "parent": "monumenta:pois/r1/swamp/east/fishinghuts"
+  },
+  "monumenta:pois/r1/swamp/east/fishinghuts": {
+    "title": "Fishing Huts",
+    "description": "Discover the Fishing Huts Coordinates: x=-369 y=91 z=5",
+    "parent": "monumenta:pois/r1/swamp/east/watershrine"
+  },
+  "monumenta:pois/r1/swamp/east/root": {
+    "title": "Eastern Swamplands",
+    "description": "Enter the Eastern Swamplands",
+    "parent": "monumenta:pois/r1/swamp/root"
+  },
+  "monumenta:pois/r1/swamp/east/ruineddocks": {
+    "title": "Ruined Docks",
+    "description": "Discover the Ruined Docks Coordinates: x=-401 y=93 z=208",
+    "parent": "monumenta:pois/r1/swamp/east/easternmine"
+  },
+  "monumenta:pois/r1/swamp/east/theoldtower": {
+    "title": "The Old Tower",
+    "description": "Discover the Old Tower Coordinates: x=-441 y=91 z=-163",
+    "parent": "monumenta:pois/r1/swamp/east/fireshrine"
+  },
+  "monumenta:pois/r1/swamp/east/watershrine": {
+    "title": "Water Shrine",
+    "description": "Discover the Water Shrine Coordinates: x=-317 y=91 z=-55",
+    "parent": "monumenta:pois/r1/swamp/east/ruineddocks"
+  },
+  "monumenta:pois/r1/swamp/north/banditcamp": {
+    "title": "Bandit Camp",
+    "description": "Discover the Bandit Camp Coordinates: x=-397 y=92 z=-376",
+    "parent": "monumenta:pois/r1/swamp/north/root"
+  },
+  "monumenta:pois/r1/swamp/north/banditstronghold": {
+    "title": "Bandit Stronghold",
+    "description": "Discover the Bandit Stronghold Coordinates: x=-829 y=97 z=-392",
+    "parent": "monumenta:pois/r1/swamp/north/waterfallisland"
+  },
+  "monumenta:pois/r1/swamp/north/ctelsketsmemory": {
+    "title": "C'Telsket's Memory",
+    "description": "Discover C'Telsket's Memory Coordinates: x=-923 y=86 z=-133",
+    "parent": "monumenta:pois/r1/swamp/north/banditstronghold"
+  },
+  "monumenta:pois/r1/swamp/north/magetower": {
+    "title": "Mage Tower",
+    "description": "Discover the Mage Tower Coordinates: x=-523 y=119 z=-518",
+    "parent": "monumenta:pois/r1/swamp/north/banditcamp"
+  },
+  "monumenta:pois/r1/swamp/north/mercenarycamp": {
+    "title": "Mercenary Fort",
+    "description": "Discover the Mercenary Fort Coordinates: x=-299 y=93 z=-244",
+    "parent": "monumenta:pois/r1/swamp/north/magetower"
+  },
+  "monumenta:pois/r1/swamp/north/northmine": {
+    "title": "Northern Mineshaft",
+    "description": "Discover the Northern Mineshaft Coordinates: x=-806 y=94 z=-370",
+    "parent": "monumenta:pois/r1/swamp/north/mercenarycamp"
+  },
+  "monumenta:pois/r1/swamp/north/root": {
+    "title": "Northern Swamplands",
+    "description": "Enter the Northern Swamplands",
+    "parent": "monumenta:pois/r1/swamp/root"
+  },
+  "monumenta:pois/r1/swamp/north/sinkhole": {
+    "title": "Swamp Sinkhole",
+    "description": "Discover the Swamp Sinkhole Coordinates: x=-669 y=78 z=-348",
+    "parent": "monumenta:pois/r1/swamp/north/northmine"
+  },
+  "monumenta:pois/r1/swamp/north/waterfallisland": {
+    "title": "Waterfall Island",
+    "description": "Discover the Waterfall Island Coordinates: x=-667 y=90 z=-408",
+    "parent": "monumenta:pois/r1/swamp/north/sinkhole"
+  },
+  "monumenta:pois/r1/swamp/root": {
+    "title": "Swamplands",
+    "description": "Enter the Swamplands",
+    "parent": "monumenta:pois/r1/root"
+  },
+  "monumenta:pois/r1/swamp/south/hauntedmine": {
+    "title": "Haunted Mine",
+    "description": "Discover the Haunted Mine Coordinates: x=-652 y=119 z=537",
+    "parent": "monumenta:pois/r1/swamp/south/root"
+  },
+  "monumenta:pois/r1/swamp/south/lighthouse": {
+    "title": "Lighthouse",
+    "description": "Discover the Lighthouse Coordinates: x=-822 y=100 z=427",
+    "parent": "monumenta:pois/r1/swamp/south/hauntedmine"
+  },
+  "monumenta:pois/r1/swamp/south/riftofthedrowned": {
+    "title": "Rift of the Drowned",
+    "description": "Discover the Rift of the Drowned Coordinates: x=-479 y=93 z=309",
+    "parent": "monumenta:pois/r1/swamp/south/witchvillage"
+  },
+  "monumenta:pois/r1/swamp/south/root": {
+    "title": "Southern Swamplands",
+    "description": "Enter the Southern Swamplands",
+    "parent": "monumenta:pois/r1/swamp/root"
+  },
+  "monumenta:pois/r1/swamp/south/southeasternmine": {
+    "title": "Southeastern Mineshaft",
+    "description": "Discover the Southeastern Mineshaft Coordinates: x=-352 y=95 z=275",
+    "parent": "monumenta:pois/r1/swamp/south/lighthouse"
+  },
+  "monumenta:pois/r1/swamp/south/southernmine": {
+    "title": "Southern Mineshaft",
+    "description": "Discover the Southern Mineshaft Coordinates: x=-536 y=98 z=461",
+    "parent": "monumenta:pois/r1/swamp/south/southeasternmine"
+  },
+  "monumenta:pois/r1/swamp/south/southernvillage": {
+    "title": "Southern Village",
+    "description": "Discover the Southern Village Coordinates: x=-642 y=92 z=428",
+    "parent": "monumenta:pois/r1/swamp/south/southernmine"
+  },
+  "monumenta:pois/r1/swamp/south/witchvillage": {
+    "title": "Witch Village",
+    "description": "Discover the Witch Village Coordinates: x=-387 y=95 z=401",
+    "parent": "monumenta:pois/r1/swamp/south/southernvillage"
+  },
+  "monumenta:pois/r2/chillwind/crystalshroom_valley/bandit_encampment": {
+    "title": "Bandit Encampment",
+    "description": "Discover the Bandit Encampment Coordinates: x=-1591 y=103 z=599",
+    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/root"
+  },
+  "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_forest_grove": {
+    "title": "Crystal Forest Grove",
+    "description": "Discover the Crystal Forest Grove Coordinates: x=-1733 y=110 z=422",
+    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/bandit_encampment"
+  },
+  "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_mines": {
+    "title": "Crystal Mines",
+    "description": "Discover the Crystal Mines Coordinates: x=-1581 y=111 z=296",
+    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_forest_grove"
+  },
+  "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_outpost": {
+    "title": "Crystal Outpost",
+    "description": "Discover the Crystal Outpost Coordinates: x=-1933 y=83 z=606",
+    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_mines"
+  },
+  "monumenta:pois/r2/chillwind/crystalshroom_valley/igloos_and_you": {
+    "title": "Igloos and You",
+    "description": "Discover the Igloos and You Coordinates: x=-1704 y=112 z=552",
+    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_outpost"
+  },
+  "monumenta:pois/r2/chillwind/crystalshroom_valley/irilyth": {
+    "title": "Irilyth",
+    "description": "Discover Irilyth Coordinates: x=-1597 y=109 z=497",
+    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/igloos_and_you"
+  },
+  "monumenta:pois/r2/chillwind/crystalshroom_valley/root": {
+    "title": "Crystalshroom Valley",
+    "description": "Enter the Crystalshroom Valley",
+    "parent": "monumenta:pois/r2/chillwind/root"
+  },
+  "monumenta:pois/r2/chillwind/forest/abandoned_winery": {
+    "title": "Abandoned Winery",
+    "description": "Discover the Abandoned Winery Coordinates: x=-1790 y=111 z=859",
+    "parent": "monumenta:pois/r2/chillwind/forest/root"
+  },
+  "monumenta:pois/r2/chillwind/forest/fall_shrine": {
+    "title": "Fall Shrine",
+    "description": "Discover the Fall Shrine Coordinates: x=-1738 y=97 z=1008",
+    "parent": "monumenta:pois/r2/chillwind/forest/abandoned_winery"
+  },
+  "monumenta:pois/r2/chillwind/forest/ice_mine": {
+    "title": "Ice Mine",
+    "description": "Discover the Ice Mine Coordinates: x=-1447 y=88 z=719",
+    "parent": "monumenta:pois/r2/chillwind/forest/fall_shrine"
+  },
+  "monumenta:pois/r2/chillwind/forest/mini_mining_camp": {
+    "title": "Mini Mining Camp",
+    "description": "Discover the Mini Mining Camp Coordinates: x=-1660 y=112 z=644",
+    "parent": "monumenta:pois/r2/chillwind/forest/ice_mine"
+  },
+  "monumenta:pois/r2/chillwind/forest/root": {
+    "title": "Forest",
+    "description": "Enter the Forest",
+    "parent": "monumenta:pois/r2/chillwind/root"
+  },
+  "monumenta:pois/r2/chillwind/forest/smugglers_cabin": {
+    "title": "Smuggler's Cabin",
+    "description": "Discover the Smuggler's Cabin Coordinates: x=-1565 y=94 z=753",
+    "parent": "monumenta:pois/r2/chillwind/forest/mini_mining_camp"
+  },
+  "monumenta:pois/r2/chillwind/forest/supply_fort": {
+    "title": "Supply Fort",
+    "description": "Discover the Supply Fort Coordinates: x=-1727 y=94 z=834",
+    "parent": "monumenta:pois/r2/chillwind/forest/smugglers_cabin"
+  },
+  "monumenta:pois/r2/chillwind/forest/tundra_lighthouse": {
+    "title": "Tundra Lighthouse",
+    "description": "Discover the Tundra Lighthouse Coordinates: x=-1726 y=104 z=679",
+    "parent": "monumenta:pois/r2/chillwind/forest/supply_fort"
+  },
+  "monumenta:pois/r2/chillwind/mountains/bandits_by_the_sea": {
+    "title": "Bandits By The Sea",
+    "description": "Discover the Bandits By The Sea Coordinates: x=-1130 y=106 z=92",
+    "parent": "monumenta:pois/r2/chillwind/mountains/root"
+  },
+  "monumenta:pois/r2/chillwind/mountains/brewery": {
+    "title": "Brewery",
+    "description": "Discover the Brewery Coordinates: x=-1372 y=111 z=204",
+    "parent": "monumenta:pois/r2/chillwind/mountains/bandits_by_the_sea"
+  },
+  "monumenta:pois/r2/chillwind/mountains/cliffside_ruins": {
+    "title": "Cliffside Ruins",
+    "description": "Discover the Cliffside Ruins Coordinates: x=-1836 y=121 z=202",
+    "parent": "monumenta:pois/r2/chillwind/mountains/brewery"
+  },
+  "monumenta:pois/r2/chillwind/mountains/frigid_laboratory": {
+    "title": "Frigid Laboratory",
+    "description": "Discover the Frigid Laboratory Coordinates: x=-1593 y=102 z=-117",
+    "parent": "monumenta:pois/r2/chillwind/mountains/cliffside_ruins"
+  },
+  "monumenta:pois/r2/chillwind/mountains/grim_towers": {
+    "title": "The Grim Towers",
+    "description": "Discover the Grim Towers Coordinates: x=-1505 y=99 z=-148",
+    "parent": "monumenta:pois/r2/chillwind/mountains/stargazers_hideaway"
+  },
+  "monumenta:pois/r2/chillwind/mountains/hot_springs": {
+    "title": "Hot Springs",
+    "description": "Discover the Hot Springs Coordinates: x=-1381 y=134 z=63",
+    "parent": "monumenta:pois/r2/chillwind/mountains/frigid_laboratory"
+  },
+  "monumenta:pois/r2/chillwind/mountains/mountain_market": {
+    "title": "Mountain Market",
+    "description": "Discover the Mountain Market Coordinates: x=-1594 y=133 z=65",
+    "parent": "monumenta:pois/r2/chillwind/mountains/hot_springs"
+  },
+  "monumenta:pois/r2/chillwind/mountains/mountainside_hideaway": {
+    "title": "Mountainside Hideaway",
+    "description": "Discover the Mountainside Hideaway Coordinates: x=-1367 y=111 z=-97",
+    "parent": "monumenta:pois/r2/chillwind/mountains/mountain_market"
+  },
+  "monumenta:pois/r2/chillwind/mountains/mountaintop_bandits": {
+    "title": "Mountaintop Bandits",
+    "description": "Discover the Mountaintop Bandits Coordinates: x=-1510 y=133 z=137",
+    "parent": "monumenta:pois/r2/chillwind/mountains/mountainside_hideaway"
+  },
+  "monumenta:pois/r2/chillwind/mountains/root": {
+    "title": "Mountains",
+    "description": "Enter the Mountains",
+    "parent": "monumenta:pois/r2/chillwind/root"
+  },
+  "monumenta:pois/r2/chillwind/mountains/smitten_library": {
+    "title": "Smitten Library",
+    "description": "Discover the Smitten Library Coordinates: x=-1327 y=151 z=95",
+    "parent": "monumenta:pois/r2/chillwind/mountains/mountaintop_bandits"
+  },
+  "monumenta:pois/r2/chillwind/mountains/stargazers_hideaway": {
+    "title": "Stargazer's Hideaway",
+    "description": "Discover the Stargazer's Hideaway Coordinates: x=-1388 y=129 z=-171",
+    "parent": "monumenta:pois/r2/chillwind/mountains/smitten_library"
+  },
+  "monumenta:pois/r2/chillwind/mountains/underground_settlement": {
+    "title": "Underground Settlement",
+    "description": "Discover the Underground Settlement Coordinates: x=-1290 y=121 z=116",
+    "parent": "monumenta:pois/r2/chillwind/mountains/grim_towers"
+  },
+  "monumenta:pois/r2/chillwind/mountains/weathered_citadel": {
+    "title": "Weathered Citadel",
+    "description": "Discover the Weathered Citadel Coordinates: x=-1219 y=104 z=236",
+    "parent": "monumenta:pois/r2/chillwind/mountains/underground_settlement"
+  },
+  "monumenta:pois/r2/chillwind/mountains/weathered_tower": {
+    "title": "Weathered Tower",
+    "description": "Discover the Weathered Tower Coordinates: x=-1171 y=113 z=22",
+    "parent": "monumenta:pois/r2/chillwind/mountains/weathered_citadel"
+  },
+  "monumenta:pois/r2/chillwind/mountains/whitecliffe_citadel": {
+    "title": "Whitecliffe Citadel",
+    "description": "Discover the Whitecliffe Citadel Coordinates: x=-1611 y=133 z=5",
+    "parent": "monumenta:pois/r2/chillwind/mountains/weathered_tower"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/abandoned_snowman_settlement": {
+    "title": "Abandoned Snowman Settlement",
+    "description": "Discover the Abandoned Snowman Settlement Coordinates: x=-1308 y=101 z=784",
+    "parent": "monumenta:pois/r2/chillwind/permafrost/root"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/frostbitten_caves": {
+    "title": "Frostbitten Caves",
+    "description": "Discover the Frostbitten Caves Coordinates: x=-1044 y=82 z=796",
+    "parent": "monumenta:pois/r2/chillwind/permafrost/abandoned_snowman_settlement"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/frostgate_ruins": {
+    "title": "Frostgate Ruins",
+    "description": "Discover the Frostgate Ruins Coordinates: x=-1267 y=87 z=933",
+    "parent": "monumenta:pois/r2/chillwind/permafrost/frostbitten_caves"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/ice_boat": {
+    "title": "Ice Boat",
+    "description": "Discover the Ice Boat Coordinates: x=-1259 y=78 z=1061",
+    "parent": "monumenta:pois/r2/chillwind/permafrost/frostgate_ruins"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/ice_castle": {
+    "title": "Ice Castle",
+    "description": "Discover the Ice Castle Coordinates: x=-1282 y=119 z=678",
+    "parent": "monumenta:pois/r2/chillwind/permafrost/ice_boat"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/military_base": {
+    "title": "Military Base",
+    "description": "Discover the Military Base Coordinates: x=-1174 y=86 z=947",
+    "parent": "monumenta:pois/r2/chillwind/permafrost/ice_castle"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/raider_camp": {
+    "title": "Raider Camp",
+    "description": "Discover the Raider Camp Coordinates: x=-1197 y=87 z=863",
+    "parent": "monumenta:pois/r2/chillwind/permafrost/military_base"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/root": {
+    "title": "Permafrost",
+    "description": "Enter the Permafrost",
+    "parent": "monumenta:pois/r2/chillwind/root"
+  },
+  "monumenta:pois/r2/chillwind/permafrost/sealed_descent": {
+    "title": "Sealed Descent",
+    "description": "Discover the Sealed Descent Coordinates: x=-1098 y=118 z=681",
+    "parent": "monumenta:pois/r2/chillwind/permafrost/raider_camp"
+  },
+  "monumenta:pois/r2/chillwind/root": {
+    "title": "Chillwind",
+    "description": "Enter the Chillwind Tundra",
+    "parent": "monumenta:pois/r2/root"
+  },
+  "monumenta:pois/r2/chillwind/tundra/archaeological_dig_site": {
+    "title": "Archaeological Dig Site",
+    "description": "Discover the Archaeological Dig Site Coordinates: x=-1260 y=77 z=566",
+    "parent": "monumenta:pois/r2/chillwind/tundra/root"
+  },
+  "monumenta:pois/r2/chillwind/tundra/church_of_munk": {
+    "title": "Church of Munk",
+    "description": "Discover the Church of Munk Coordinates: x=-1180 y=108 z=474",
+    "parent": "monumenta:pois/r2/chillwind/tundra/archaeological_dig_site"
+  },
+  "monumenta:pois/r2/chillwind/tundra/fortress_of_bacon": {
+    "title": "Fortress of Bacon",
+    "description": "Discover the Fortress of Bacon Coordinates: x=-1477 y=103 z=497",
+    "parent": "monumenta:pois/r2/chillwind/tundra/church_of_munk"
+  },
+  "monumenta:pois/r2/chillwind/tundra/kreepa_kastle": {
+    "title": "Kreepa Kastle",
+    "description": "Discover the Kreepa Kastle Coordinates: x=-1629 y=134 z=165",
+    "parent": "monumenta:pois/r2/chillwind/tundra/fortress_of_bacon"
+  },
+  "monumenta:pois/r2/chillwind/tundra/riverbed_cavern": {
+    "title": "Riverbed Cavern",
+    "description": "Discover the Riverbed Cavern Coordinates: x=-1358 y=91 z=455",
+    "parent": "monumenta:pois/r2/chillwind/tundra/kreepa_kastle"
+  },
+  "monumenta:pois/r2/chillwind/tundra/rogues_fortress": {
+    "title": "Rogue's Fortress",
+    "description": "Discover the Rogue's Fortress Coordinates: x=-1121 y=104 z=369",
+    "parent": "monumenta:pois/r2/chillwind/tundra/riverbed_cavern"
+  },
+  "monumenta:pois/r2/chillwind/tundra/root": {
+    "title": "Icelands",
+    "description": "Enter the Icelands",
+    "parent": "monumenta:pois/r2/chillwind/root"
+  },
+  "monumenta:pois/r2/chillwind/tundra/ship_landing_zone": {
+    "title": "Ship Landing Zone",
+    "description": "Discover the Ship Landing Zone Coordinates: x=-1080 y=96 z=420",
+    "parent": "monumenta:pois/r2/chillwind/tundra/rogues_fortress"
+  },
+  "monumenta:pois/r2/chillwind/tundra/silver_tower": {
+    "title": "Silver Tower",
+    "description": "Discover the Silver Tower Coordinates: x=-1872 y=89 z=419",
+    "parent": "monumenta:pois/r2/chillwind/tundra/ship_landing_zone"
+  },
+  "monumenta:pois/r2/chillwind/tundra/winter_shrine": {
+    "title": "Winter Shrine",
+    "description": "Discover the Winter Shrine Coordinates: x=-1253 y=143 z=322",
+    "parent": "monumenta:pois/r2/chillwind/tundra/silver_tower"
+  },
+  "monumenta:pois/r2/desert/canyonlands/abandoned_lab": {
+    "title": "Abandoned Lab",
+    "description": "Discover the Abandoned Lab Coordinates: x=25 y=92 z=652",
+    "parent": "monumenta:pois/r2/desert/canyonlands/root"
+  },
+  "monumenta:pois/r2/desert/canyonlands/canyon_bandit_camp": {
+    "title": "Canyon Bandit Camp",
+    "description": "Discover the Canyon Bandit Camp Coordinates: x=-21 y=56 z=639",
+    "parent": "monumenta:pois/r2/desert/canyonlands/library"
+  },
+  "monumenta:pois/r2/desert/canyonlands/cavern_of_cinders": {
+    "title": "Cavern of Cinders",
+    "description": "Discover the Cavern of Cinders Coordinates: x=-73 y=61 z=497",
+    "parent": "monumenta:pois/r2/desert/canyonlands/canyon_bandit_camp"
+  },
+  "monumenta:pois/r2/desert/canyonlands/cinders_roost": {
+    "title": "Cinder's Roost",
+    "description": "Discover the Cinder's Roost Coordinates: x=126 y=131 z=619",
+    "parent": "monumenta:pois/r2/desert/canyonlands/cavern_of_cinders"
+  },
+  "monumenta:pois/r2/desert/canyonlands/library": {
+    "title": "Abandoned Library",
+    "description": "Discover the Abandoned Library Coordinates: x=-44 y=131 z=577",
+    "parent": "monumenta:pois/r2/desert/canyonlands/abandoned_lab"
+  },
+  "monumenta:pois/r2/desert/canyonlands/lost_lava_labs": {
+    "title": "Lost Lava Labs",
+    "description": "Discover the Lost Lava Labs Coordinates: x=-88 y=49 z=599",
+    "parent": "monumenta:pois/r2/desert/canyonlands/cinders_roost"
+  },
+  "monumenta:pois/r2/desert/canyonlands/marble_mine": {
+    "title": "Marble Mine",
+    "description": "Discover the Marble Mine Coordinates: x=-145 y=74 z=514",
+    "parent": "monumenta:pois/r2/desert/canyonlands/lost_lava_labs"
+  },
+  "monumenta:pois/r2/desert/canyonlands/rockspider_cavern": {
+    "title": "Rockspider Cavern",
+    "description": "Discover the Rockspider Cavern Coordinates: x=145 y=61 z=534",
+    "parent": "monumenta:pois/r2/desert/canyonlands/marble_mine"
+  },
+  "monumenta:pois/r2/desert/canyonlands/root": {
+    "title": "Canyonlands",
+    "description": "Enter the Canyonlands",
+    "parent": "monumenta:pois/r2/desert/root"
+  },
+  "monumenta:pois/r2/desert/canyonlands/sunken_tower": {
+    "title": "Sunken Tower",
+    "description": "Discover the Sunken Tower Coordinates: x=-3 y=88 z=474",
+    "parent": "monumenta:pois/r2/desert/canyonlands/rockspider_cavern"
+  },
+  "monumenta:pois/r2/desert/mesa/antlion_pit": {
+    "title": "Antlion Pit",
+    "description": "Discover the Antlion Pit Coordinates: x=431 y=90 z=-94",
+    "parent": "monumenta:pois/r2/desert/mesa/root"
+  },
+  "monumenta:pois/r2/desert/mesa/ashen_fortress": {
+    "title": "Ashen Fortress",
+    "description": "Discover the Ashen Fortress Coordinates: x=388 y=137 z=11",
+    "parent": "monumenta:pois/r2/desert/mesa/antlion_pit"
+  },
+  "monumenta:pois/r2/desert/mesa/basanite_bore": {
+    "title": "Basanite Bore",
+    "description": "Discover the Basanite Bore Coordinates: x=41 y=117 z=285",
+    "parent": "monumenta:pois/r2/desert/mesa/ashen_fortress"
+  },
+  "monumenta:pois/r2/desert/mesa/charn": {
+    "title": "Charn",
+    "description": "Discover the Charn Coordinates: x=303 y=92 z=265",
+    "parent": "monumenta:pois/r2/desert/mesa/basanite_bore"
+  },
+  "monumenta:pois/r2/desert/mesa/corrupted_fort": {
+    "title": "Corrupted Fort",
+    "description": "Discover the Corrupted Fort Coordinates: x=103 y=135 z=-39",
+    "parent": "monumenta:pois/r2/desert/mesa/charn"
+  },
+  "monumenta:pois/r2/desert/mesa/crystal_crown": {
+    "title": "Crystal Crown",
+    "description": "Discover the Crystal Crown Coordinates: x=354 y=123 z=124",
+    "parent": "monumenta:pois/r2/desert/mesa/corrupted_fort"
+  },
+  "monumenta:pois/r2/desert/mesa/emberborne_sanctuary": {
+    "title": "Emberborne Sanctuary",
+    "description": "Discover the Emberborne Sanctuary Coordinates: x=-122 y=96 z=345",
+    "parent": "monumenta:pois/r2/desert/mesa/crystal_crown"
+  },
+  "monumenta:pois/r2/desert/mesa/floating_fortress": {
+    "title": "Floating Fortress",
+    "description": "Discover the Floating Fortress Coordinates: x=53 y=152 z=-94",
+    "parent": "monumenta:pois/r2/desert/mesa/emberborne_sanctuary"
+  },
+  "monumenta:pois/r2/desert/mesa/hill_fortress": {
+    "title": "Hill Fortress",
+    "description": "Discover the Hill Fortress Coordinates: x=66 y=142 z=61",
+    "parent": "monumenta:pois/r2/desert/mesa/floating_fortress"
+  },
+  "monumenta:pois/r2/desert/mesa/magmashroom_mine": {
+    "title": "Magmashroom Mine",
+    "description": "Discover the Magmashroom Mine Coordinates: x=-109 y=103 z=48",
+    "parent": "monumenta:pois/r2/desert/mesa/hill_fortress"
+  },
+  "monumenta:pois/r2/desert/mesa/root": {
+    "title": "Mesa",
+    "description": "Enter the Mesa",
+    "parent": "monumenta:pois/r2/desert/root"
+  },
+  "monumenta:pois/r2/desert/mesa/scorch_valley": {
+    "title": "Scorch Valley",
+    "description": "Discover the Scorch Valley Coordinates: x=525 y=89 z=103",
+    "parent": "monumenta:pois/r2/desert/mesa/magmashroom_mine"
+  },
+  "monumenta:pois/r2/desert/mesa/terracotta_mining_town": {
+    "title": "Terracotta Mining Town",
+    "description": "Discover the Terracotta Mining Town Coordinates: x=142 y=120 z=343",
+    "parent": "monumenta:pois/r2/desert/mesa/scorch_valley"
+  },
+  "monumenta:pois/r2/desert/mesa/twilight_aqueduct": {
+    "title": "Twilight Aqueduct",
+    "description": "Discover the Twilight Aqueduct Coordinates: x=654 y=88 z=21",
+    "parent": "monumenta:pois/r2/desert/mesa/terracotta_mining_town"
+  },
+  "monumenta:pois/r2/desert/mesa/twilight_ruins": {
+    "title": "Twilight Ruins",
+    "description": "Discover the Twilight Ruins Coordinates: x=579 y=94 z=-21",
+    "parent": "monumenta:pois/r2/desert/mesa/twilight_aqueduct"
+  },
+  "monumenta:pois/r2/desert/oasis/aquamarine_monastery": {
+    "title": "Aquamarine Monastery",
+    "description": "Discover the Aquamarine Monastery Coordinates: x=272 y=80 z=641",
+    "parent": "monumenta:pois/r2/desert/oasis/root"
+  },
+  "monumenta:pois/r2/desert/oasis/arcane_spire": {
+    "title": "Arcane Spire",
+    "description": "Discover the Arcane Spire Coordinates: x=209 y=89 z=780",
+    "parent": "monumenta:pois/r2/desert/oasis/aquamarine_monastery"
+  },
+  "monumenta:pois/r2/desert/oasis/cave_village": {
+    "title": "Cave Village",
+    "description": "Discover the Cave Village Coordinates: x=78 y=80 z=877",
+    "parent": "monumenta:pois/r2/desert/oasis/arcane_spire"
+  },
+  "monumenta:pois/r2/desert/oasis/charred_arcanery": {
+    "title": "Charred Arcanery",
+    "description": "Discover the Charred Arcanery Coordinates: x=59 y=103 z=934",
+    "parent": "monumenta:pois/r2/desert/oasis/cave_village"
+  },
+  "monumenta:pois/r2/desert/oasis/dehydrated_oasis": {
+    "title": "Dehydrated Oasis",
+    "description": "Discover the Dehydrated Oasis Coordinates: x=24 y=88 z=749",
+    "parent": "monumenta:pois/r2/desert/oasis/charred_arcanery"
+  },
+  "monumenta:pois/r2/desert/oasis/mini_oasis": {
+    "title": "Mini Oasis",
+    "description": "Discover the Mini Oasis Coordinates: x=318 y=88 z=1027",
+    "parent": "monumenta:pois/r2/desert/oasis/dehydrated_oasis"
+  },
+  "monumenta:pois/r2/desert/oasis/oasis_town": {
+    "title": "Oasis Town",
+    "description": "Discover the Oasis Town Coordinates: x=226 y=93 z=941",
+    "parent": "monumenta:pois/r2/desert/oasis/mini_oasis"
+  },
+  "monumenta:pois/r2/desert/oasis/palm_tree_paradise": {
+    "title": "Palm Tree Paradise",
+    "description": "Discover the Palm Tree Paradise Coordinates: x=-35 y=102 z=915",
+    "parent": "monumenta:pois/r2/desert/oasis/oasis_town"
+  },
+  "monumenta:pois/r2/desert/oasis/refuge_of_the_drowned": {
+    "title": "Refuge of the Drowned",
+    "description": "Discover the Refuge of the Drowned Coordinates: x=155 y=83 z=1042",
+    "parent": "monumenta:pois/r2/desert/oasis/palm_tree_paradise"
+  },
+  "monumenta:pois/r2/desert/oasis/root": {
+    "title": "Oasis",
+    "description": "Enter the Oasis",
+    "parent": "monumenta:pois/r2/desert/root"
+  },
+  "monumenta:pois/r2/desert/root": {
+    "title": "Ishnir",
+    "description": "Enter the Ishnir Desert",
+    "parent": "monumenta:pois/r2/root"
+  },
+  "monumenta:pois/r2/desert/trade_route/bandit_hideaway_hill": {
+    "title": "Bandit Hideaway Hill",
+    "description": "Discover the Bandit Hideaway Hill Coordinates: x=555 y=89 z=373",
+    "parent": "monumenta:pois/r2/desert/trade_route/root"
+  },
+  "monumenta:pois/r2/desert/trade_route/crystal_haven": {
+    "title": "Crystal Haven",
+    "description": "Discover the Crystal Haven Coordinates: x=493 y=100 z=387",
+    "parent": "monumenta:pois/r2/desert/trade_route/bandit_hideaway_hill"
+  },
+  "monumenta:pois/r2/desert/trade_route/lost_sands_city": {
+    "title": "Lost Sands City",
+    "description": "Discover the Lost Sands City Coordinates: x=224 y=93 z=481",
+    "parent": "monumenta:pois/r2/desert/trade_route/crystal_haven"
+  },
+  "monumenta:pois/r2/desert/trade_route/mines_of_duality": {
+    "title": "Mines of Duality",
+    "description": "Discover the Mines of Duality Coordinates: x=491 y=114 z=258",
+    "parent": "monumenta:pois/r2/desert/trade_route/lost_sands_city"
+  },
+  "monumenta:pois/r2/desert/trade_route/riverbank_camp": {
+    "title": "Riverbank Camp",
+    "description": "Discover the Riverbank Camp Coordinates: x=354 y=92 z=542",
+    "parent": "monumenta:pois/r2/desert/trade_route/mines_of_duality"
+  },
+  "monumenta:pois/r2/desert/trade_route/root": {
+    "title": "Trade Route",
+    "description": "Enter the Trade Route",
+    "parent": "monumenta:pois/r2/desert/root"
+  },
+  "monumenta:pois/r2/desert/trade_route/silverbrooke_outpost": {
+    "title": "Silverbrooke Outpost",
+    "description": "Discover the Silverbrooke Outpost Coordinates: x=327 y=96 z=439",
+    "parent": "monumenta:pois/r2/desert/trade_route/riverbank_camp"
+  },
+  "monumenta:pois/r2/desert/trade_route/warehouse_compound": {
+    "title": "Warehouse Compound",
+    "description": "Discover the Warehouse Compound Coordinates: x=265 y=98 z=356",
+    "parent": "monumenta:pois/r2/desert/trade_route/silverbrooke_outpost"
+  },
+  "monumenta:pois/r2/ocean/early/abbey": {
+    "title": "Abbey of Angels",
+    "description": "Discover the Abbey of Angels Coordinates: x=-171 y=87 z=658",
+    "parent": "monumenta:pois/r2/ocean/early/root"
+  },
+  "monumenta:pois/r2/ocean/early/barracks_at_sea": {
+    "title": "Barracks at Sea",
+    "description": "Discover the Barracks at Sea Coordinates: x=-262 y=86 z=956",
+    "parent": "monumenta:pois/r2/ocean/early/abbey"
+  },
+  "monumenta:pois/r2/ocean/early/bastion_at_sea": {
+    "title": "Bastion at Sea",
+    "description": "Discover the Bastion at Sea Coordinates: x=-515 y=84 z=680",
+    "parent": "monumenta:pois/r2/ocean/early/barracks_at_sea"
+  },
+  "monumenta:pois/r2/ocean/early/corsairs_claw": {
+    "title": "Corsair's Claw",
+    "description": "Discover Corsair's Claw Coordinates: x=551 y=81 z=1407",
+    "parent": "monumenta:pois/r2/ocean/early/bastion_at_sea"
+  },
+  "monumenta:pois/r2/ocean/early/dueling_fleets": {
+    "title": "Dueling Fleets",
+    "description": "Discover the Dueling Fleets Coordinates: x=-1999 y=89 z=1079",
+    "parent": "monumenta:pois/r2/ocean/early/corsairs_claw"
+  },
+  "monumenta:pois/r2/ocean/early/garden_at_sea": {
+    "title": "Garden at Sea",
+    "description": "Discover the Garden at Sea Coordinates: x=-805 y=89 z=924",
+    "parent": "monumenta:pois/r2/ocean/early/dueling_fleets"
+  },
+  "monumenta:pois/r2/ocean/early/guardians_gate": {
+    "title": "Guardian's Gate",
+    "description": "Discover the Guardian's Gate Coordinates: x=-1769 y=81 z=1325",
+    "parent": "monumenta:pois/r2/ocean/early/garden_at_sea"
+  },
+  "monumenta:pois/r2/ocean/early/mystical_tower": {
+    "title": "Mystical Tower",
+    "description": "Discover the Mystical Tower Coordinates: x=-2028 y=84 z=1258",
+    "parent": "monumenta:pois/r2/ocean/early/guardians_gate"
+  },
+  "monumenta:pois/r2/ocean/early/root": {
+    "title": "Viridian Archipelago",
+    "description": "Enter the Viridian Archipelago",
+    "parent": "monumenta:pois/r2/ocean/root"
+  },
+  "monumenta:pois/r2/ocean/early/spring_shrine": {
+    "title": "Spring Shrine",
+    "description": "Discover the Spring Shrine Coordinates: x=219 y=100 z=1276",
+    "parent": "monumenta:pois/r2/ocean/early/mystical_tower"
+  },
+  "monumenta:pois/r2/ocean/early/summer_shrine": {
+    "title": "Summer Shrine",
+    "description": "Discover the Summer Shrine Coordinates: x=-1346 y=121 z=1350",
+    "parent": "monumenta:pois/r2/ocean/early/spring_shrine"
+  },
+  "monumenta:pois/r2/ocean/mid-late/city_of_bones": {
+    "title": "City of Bones",
+    "description": "Discover the City of Bones Coordinates: x=-2049 y=102 z=-494",
+    "parent": "monumenta:pois/r2/ocean/mid-late/root"
+  },
+  "monumenta:pois/r2/ocean/mid-late/crystalline_vault": {
+    "title": "Crystalline Vault",
+    "description": "Discover the Crystalline Vault Coordinates: x=-2149 y=58 z=596",
+    "parent": "monumenta:pois/r2/ocean/mid-late/city_of_bones"
+  },
+  "monumenta:pois/r2/ocean/mid-late/madmans_redoubt": {
+    "title": "Madman's Redoubt",
+    "description": "Discover the Madman's Redoubt Coordinates: x=-2166 y=82 z=-261",
+    "parent": "monumenta:pois/r2/ocean/mid-late/crystalline_vault"
+  },
+  "monumenta:pois/r2/ocean/mid-late/magmortic_atheneum": {
+    "title": "Magmortic Atheneum",
+    "description": "Discover the Magmortic Atheneum Coordinates: x=508 y=28 z=-357",
+    "parent": "monumenta:pois/r2/ocean/mid-late/madmans_redoubt"
+  },
+  "monumenta:pois/r2/ocean/mid-late/moltaria_palace": {
+    "title": "Moltaria Palace",
+    "description": "Discover the Moltaria Palace Coordinates: x=110 y=84 z=-549",
+    "parent": "monumenta:pois/r2/ocean/mid-late/magmortic_atheneum"
+  },
+  "monumenta:pois/r2/ocean/mid-late/root": {
+    "title": "Ocean's Reach",
+    "description": "Enter the Ocean's Reach",
+    "parent": "monumenta:pois/r2/ocean/root"
+  },
+  "monumenta:pois/r2/ocean/mid-late/rosebud_ruins": {
+    "title": "Rosebud Ruins",
+    "description": "Discover the Rosebud Ruins Coordinates: x=-761 y=102 z=217",
+    "parent": "monumenta:pois/r2/ocean/mid-late/moltaria_palace"
+  },
+  "monumenta:pois/r2/ocean/mid-late/sacrarium_of_aeons": {
+    "title": "Sacrarium of Aeons",
+    "description": "Discover the Sacrarium of Aeons Coordinates: x=-809 y=30 z=-455",
+    "parent": "monumenta:pois/r2/ocean/mid-late/rosebud_ruins"
+  },
+  "monumenta:pois/r2/ocean/mid-late/shifting_amalgam": {
+    "title": "Shifting Amalgam",
+    "description": "Discover the Shifting Amalgam",
+    "parent": "monumenta:pois/r2/ocean/mid-late/vengeance_of_the_sea"
+  },
+  "monumenta:pois/r2/ocean/mid-late/shroom_spires": {
+    "title": "Shroom Spires",
+    "description": "Discover the Shroom Spires Coordinates: x=-2019 y=84 z=-54",
+    "parent": "monumenta:pois/r2/ocean/mid-late/sacrarium_of_aeons"
+  },
+  "monumenta:pois/r2/ocean/mid-late/steelmeld_passage": {
+    "title": "Steelmeld Passage",
+    "description": "Discover the Steelmeld Passage Coordinates: x=-433 y=14 z=-495",
+    "parent": "monumenta:pois/r2/ocean/mid-late/shroom_spires"
+  },
+  "monumenta:pois/r2/ocean/mid-late/sunken_tomb": {
+    "title": "Sunken Tomb",
+    "description": "Discover the Sunken Tomb Coordinates: x=-321 y=83 z=26",
+    "parent": "monumenta:pois/r2/ocean/mid-late/steelmeld_passage"
+  },
+  "monumenta:pois/r2/ocean/mid-late/the_minefield": {
+    "title": "The Minefield",
+    "description": "Discover The Minefield Coordinates: x=-122 y=9 z=3318",
+    "parent": "monumenta:pois/r2/ocean/mid-late/sunken_tomb"
+  },
+  "monumenta:pois/r2/ocean/mid-late/vengeance_of_the_sea": {
+    "title": "Vengeance of the Sea",
+    "description": "Discover the Vengeance of the Sea Coordinates: x=-1662 y=80 z=-374",
+    "parent": "monumenta:pois/r2/ocean/mid-late/the_minefield"
+  },
+  "monumenta:pois/r2/ocean/mistport/feyrune_forest": {
+    "title": "Feyrune Forest",
+    "description": "Discover the Feyrune Forest Coordinates: x=-909 y=123 z=1536",
+    "parent": "monumenta:pois/r2/ocean/mistport/root"
+  },
+  "monumenta:pois/r2/ocean/mistport/fungus_thorn_cave": {
+    "title": "Fungus Thorn Cave",
+    "description": "Discover the Fungus Thorn Cave Coordinates: x=-590 y=106 z=1269",
+    "parent": "monumenta:pois/r2/ocean/mistport/feyrune_forest"
+  },
+  "monumenta:pois/r2/ocean/mistport/pineapple_plantation": {
+    "title": "Mr. Happy's Pineapple Plantation",
+    "description": "Discover Mr. Happy's Pineapple Plantation Coordinates: x=-289 y=86 z=1297",
+    "parent": "monumenta:pois/r2/ocean/mistport/fungus_thorn_cave"
+  },
+  "monumenta:pois/r2/ocean/mistport/root": {
+    "title": "Mistport Outlands",
+    "description": "Enter the Mistport Outlands",
+    "parent": "monumenta:pois/r2/ocean/root"
+  },
+  "monumenta:pois/r2/ocean/mistport/seigrit_mineshaft": {
+    "title": "Seigrit Mineshaft",
+    "description": "Discover the Seigrit Mineshaft Coordinates: x=-249 y=89 z=1548",
+    "parent": "monumenta:pois/r2/ocean/mistport/pineapple_plantation"
+  },
+  "monumenta:pois/r2/ocean/mistport/skull_island": {
+    "title": "Skull Island",
+    "description": "Discover the Skull Island Coordinates: x=-131 y=84 z=1468",
+    "parent": "monumenta:pois/r2/ocean/mistport/seigrit_mineshaft"
+  },
+  "monumenta:pois/r2/ocean/mistport/spiral_island": {
+    "title": "Spiral Island",
+    "description": "Discover the Spiral Island Coordinates: x=-772 y=86 z=1140",
+    "parent": "monumenta:pois/r2/ocean/mistport/skull_island"
+  },
+  "monumenta:pois/r2/ocean/mistport/sunken_ship": {
+    "title": "Sunken Ship",
+    "description": "Discover the Sunken Ship Coordinates: x=-1123 y=82 z=1601",
+    "parent": "monumenta:pois/r2/ocean/mistport/spiral_island"
+  },
+  "monumenta:pois/r2/ocean/mistport/tangled_cove": {
+    "title": "Tangled Cove",
+    "description": "Discover the Tangled Cove Coordinates: x=-696 y=84 z=1753",
+    "parent": "monumenta:pois/r2/ocean/mistport/taproot_ruins"
+  },
+  "monumenta:pois/r2/ocean/mistport/taproot_ruins": {
+    "title": "Taproot Ruins",
+    "description": "Discover the Taproot Ruins Coordinates: x=-562 y=141 z=1424",
+    "parent": "monumenta:pois/r2/ocean/mistport/sunken_ship"
+  },
+  "monumenta:pois/r2/ocean/mistport/the_watch": {
+    "title": "The Watch",
+    "description": "Discover The Watch Coordinates: x=-458 y=86 z=1092",
+    "parent": "monumenta:pois/r2/ocean/mistport/tangled_cove"
+  },
+  "monumenta:pois/r2/ocean/root": {
+    "title": "Ocean",
+    "description": "Enter the Celsian Ocean",
+    "parent": "monumenta:pois/r2/root"
+  },
+  "monumenta:pois/r2/root": {
+    "title": "Celsian Isles",
+    "description": null
+  },
+  "monumenta:pois/r3/pelias_keep/arx_spirensis": {
+    "title": "Arx Spirensis",
+    "description": "Discover the Arx Spirensis Coordinates: -487 60 15",
+    "parent": "monumenta:pois/r3/pelias_keep/submerged_citadel"
+  },
+  "monumenta:pois/r3/pelias_keep/doomed_encampment": {
+    "title": "Doomed Encampment",
+    "description": "Discover the Doomed Encampment Coordinates: -506 177 65",
+    "parent": "monumenta:pois/r3/pelias_keep/silvic_quarry"
+  },
+  "monumenta:pois/r3/pelias_keep/forsaken_manor": {
+    "title": "Forsaken Manor",
+    "description": "Discover the Forsaken Manor Coordinates: -462 181 139",
+    "parent": "monumenta:pois/r3/pelias_keep/arx_spirensis"
+  },
+  "monumenta:pois/r3/pelias_keep/quelled_convent": {
+    "title": "Quelled Convent",
+    "description": "Discover the Quelled Convent Coordinates: -365 186 35",
+    "parent": "monumenta:pois/r3/pelias_keep/forsaken_manor"
+  },
+  "monumenta:pois/r3/pelias_keep/root": {
+    "title": "Pelias' Keep",
+    "description": "Enter Pelias' Keep",
+    "parent": "monumenta:pois/r3/root"
+  },
+  "monumenta:pois/r3/pelias_keep/silvic_quarry": {
+    "title": "Silvic Quarry",
+    "description": "Discover the Silvic Quarry Coordinates: -543 183 -58",
+    "parent": "monumenta:pois/r3/pelias_keep/root"
+  },
+  "monumenta:pois/r3/pelias_keep/submerged_citadel": {
+    "title": "Submerged Citadel",
+    "description": "Discover the Submerged Citadel Coordinates: -376 102 220",
+    "parent": "monumenta:pois/r3/pelias_keep/doomed_encampment"
+  },
+  "monumenta:pois/r3/root": {
+    "title": "Architect's Ring",
+    "description": null
+  },
+  "monumenta:pois/r3/shrines/boon_of_knightly_prayer": {
+    "title": "Boon of Knightly Prayer",
+    "description": "Discover the Knightly Prayer Shrine. Effects: Gain 100% Knockback Resistance under 50% Max Health. Coordinates: -421 179 233",
+    "parent": "monumenta:pois/r3/shrines/boon_of_the_pit"
+  },
+  "monumenta:pois/r3/shrines/boon_of_silver_scales": {
+    "title": "Boon of Silver Scales",
+    "description": "Discover the Silver Scales Shrine. Effects: 5% Cooldown Reduction Coordinates: -279 83 -486",
+    "parent": "monumenta:pois/r3/shrines/crystalline_blessing"
+  },
+  "monumenta:pois/r3/shrines/boon_of_the_fractured_tree": {
+    "title": "Boon of the Fractured Tree",
+    "description": "Discover the Fractured Tree Shrine. Effects: Deal 7.5% more damage when striking an enemy from behind, but receive 5% more damage when an enemy strikes you from behind. Coordinates: 227 133 881",
+    "parent": "monumenta:pois/r3/shrines/sky_seekers_grace"
+  },
+  "monumenta:pois/r3/shrines/boon_of_the_pit": {
+    "title": "Boon of the Pit",
+    "description": "Discover the Pit Shrine. Effects: Deal 20% more damage on the first hit to a mob, however your Healing is reduced by 10%. Coordinates: -618 64 -408",
+    "parent": "monumenta:pois/r3/shrines/deep_gods_endowment"
+  },
+  "monumenta:pois/r3/shrines/crystalline_blessing": {
+    "title": "Crystalline Blessing",
+    "description": "Discover the Crystalline Shrine. Effects: 15% Damage for 3 seconds after taking Magic or Projectile damage. Coordinates: -260 43 -366",
+    "parent": "monumenta:pois/r3/shrines/harrakfars_blessing"
+  },
+  "monumenta:pois/r3/shrines/curse_of_the_dark_soul": {
+    "title": "Curse of the Dark Soul",
+    "description": "Discover the Cursed Shrine. Effects: ??? Coordinates: ???",
+    "parent": "monumenta:pois/r3/shrines/pool_of_purging"
+  },
+  "monumenta:pois/r3/shrines/deep_gods_endowment": {
+    "title": "Deep God's Endowment",
+    "description": "Discover the Deep God Shrine. Effects: Every 5 melee hits, gain a random Combos effect from Darkest Depths. Coordinates: -389 91 -294",
+    "parent": "monumenta:pois/r3/shrines/boon_of_silver_scales"
+  },
+  "monumenta:pois/r3/shrines/gift_of_the_stars": {
+    "title": "Gift of the Stars",
+    "description": "Discover the Star Shrine. Effects: After slaying an elite enemy, reduce your debuffs' durations by 50%. Coordinates: 53 117 1417",
+    "parent": "monumenta:pois/r3/shrines/boon_of_the_fractured_tree"
+  },
+  "monumenta:pois/r3/shrines/grace_of_star_communion": {
+    "title": "Grace of Star Communion",
+    "description": "Discover the Star Communion Shrine. Effects: While above 90% Max Health, damaging enemies inflicts 15% Slow for 4 seconds. Coordinates: -399 175 502",
+    "parent": "monumenta:pois/r3/shrines/boon_of_knightly_prayer"
+  },
+  "monumenta:pois/r3/shrines/harrakfars_blessing": {
+    "title": "Harrakfar's Blessing",
+    "description": "Discover Harrakfar's Shrine. Effects: 10% Healing Coordinates: -339 89 -719",
+    "parent": "monumenta:pois/r3/shrines/root"
+  },
+  "monumenta:pois/r3/shrines/pool_of_purging": {
+    "title": "Pool of Purging",
+    "description": "Discover the Pool of Purging. Effects: Cleanses Shrine Buffs. Does not cost any materials. Coordinates: -430 65 -549",
+    "parent": "monumenta:pois/r3/shrines/tuathan_blessing"
+  },
+  "monumenta:pois/r3/shrines/root": {
+    "title": "Shrines",
+    "description": "Shrines are special locations in the Architect's Ring where you may obtain powerful 4-hour buffs in exchange for overworld materials.  Learn more about it with Cadeus in Galengarde.",
+    "parent": "monumenta:pois/r3/root"
+  },
+  "monumenta:pois/r3/shrines/sky_seekers_grace": {
+    "title": "Sky Seeker's Grace",
+    "description": "Discover the Sky Seeker's Shrine. Effects: After slaying an enemy, if it has not done damage to you, gain 10% speed and 7.5% damage for 4 seconds, otherwise, lose 7.5% damage for 4 seconds. Coordinates: 161 206 817",
+    "parent": "monumenta:pois/r3/shrines/curse_of_the_dark_soul"
+  },
+  "monumenta:pois/r3/shrines/tuathan_blessing": {
+    "title": "Tuathan Blessing",
+    "description": "Discover the Tuathan Shrine. Effects: If there are players in a 12 block radius, they gain 5% Damage Resistance and you gain 5% Speed. Coordinates: -321 177 62",
+    "parent": "monumenta:pois/r3/shrines/grace_of_star_communion"
+  },
+  "monumenta:pois/r3/star_point/celestial_rampart": {
+    "title": "Celestial Rampart",
+    "description": "Discover the Celestial Rampart Coordinates: 29 181 905",
+    "parent": "monumenta:pois/r3/star_point/root"
+  },
+  "monumenta:pois/r3/star_point/chittering_gutters": {
+    "title": "Chittering Gutters",
+    "description": "Discover the Chittering Gutters Coordinates: 189 52 764",
+    "parent": "monumenta:pois/r3/star_point/the_nadir"
+  },
+  "monumenta:pois/r3/star_point/constellation_tower": {
+    "title": "Constellation Tower",
+    "description": "Discover the Constellation Tower Coordinates: 135 223 625",
+    "parent": "monumenta:pois/r3/star_point/celestial_rampart"
+  },
+  "monumenta:pois/r3/star_point/root": {
+    "title": "Star Point",
+    "description": "Enter Star Point",
+    "parent": "monumenta:pois/r3/root"
+  },
+  "monumenta:pois/r3/star_point/starbound_sanctuary": {
+    "title": "Starbound Sanctuary",
+    "description": "Discover the Starbound Sanctuary Coordinates: 66 217 1277",
+    "parent": "monumenta:pois/r3/star_point/constellation_tower"
+  },
+  "monumenta:pois/r3/star_point/the_nadir": {
+    "title": "The Nadir",
+    "description": "Discover The Nadir Coordinates: -21 42 728",
+    "parent": "monumenta:pois/r3/star_point/starbound_sanctuary"
+  },
+  "monumenta:pois/r3/star_point/the_tolumaeus": {
+    "title": "The Tolumaeus",
+    "description": "Discover The Tolumaeus Coordinates: 255 44 787",
+    "parent": "monumenta:pois/r3/star_point/chittering_gutters"
+  },
+  "monumenta:pois/r3/wolfswood/amanita_colony": {
+    "title": "Amanita Colony",
+    "description": "Discover the Amanita Colony Coordinates: -270 104 -292",
+    "parent": "monumenta:pois/r3/wolfswood/chanterelle_village"
+  },
+  "monumenta:pois/r3/wolfswood/bewitched_dominion": {
+    "title": "Bewitched Dominion",
+    "description": "Discover the Bewitched Dominion Coordinates: -681 107 -220",
+    "parent": "monumenta:pois/r3/wolfswood/locum_vernantia"
+  },
+  "monumenta:pois/r3/wolfswood/chanterelle_village": {
+    "title": "Chanterelle Village",
+    "description": "Discover the Chanterelle Village Coordinates: -300 98 -390",
+    "parent": "monumenta:pois/r3/wolfswood/vibrant_hollow"
+  },
+  "monumenta:pois/r3/wolfswood/coven_fortress": {
+    "title": "Coven Fortress",
+    "description": "Discover the Coven Fortress Coordinates: -547 100 -320",
+    "parent": "monumenta:pois/r3/wolfswood/bewitched_dominion"
+  },
+  "monumenta:pois/r3/wolfswood/locum_vernantia": {
+    "title": "Locum Vernantia",
+    "description": "Discover the Locum Vernantia Coordinates: -631 35 -576",
+    "parent": "monumenta:pois/r3/wolfswood/amanita_colony"
+  },
+  "monumenta:pois/r3/wolfswood/root": {
+    "title": "Wolfswood",
+    "description": "Enter the Wolfswood",
+    "parent": "monumenta:pois/r3/root"
+  },
+  "monumenta:pois/r3/wolfswood/shadowcast_bastille": {
+    "title": "Shadowcast Bastille",
+    "description": "Discover the Shadowcast Bastille Coordinates: -202 72 -503",
+    "parent": "monumenta:pois/r3/wolfswood/coven_fortress"
+  },
+  "monumenta:pois/r3/wolfswood/vibrant_hollow": {
+    "title": "Vibrant Hollow",
+    "description": "Discover the Vibrant Hollow Coordinates: -549 42 -698",
+    "parent": "monumenta:pois/r3/wolfswood/root"
+  },
   "monumenta:general/fisherman1": {
     "title": "Fisherman I",
     "description": "Catch 150 Fish.",
@@ -1668,6 +3105,640 @@
   "monumenta:challenges/root_strikes": {
     "title": "Strikes",
     "description": null
+  },
+  "monumenta:speedster/bonusdungeons/all": {
+    "title": "Alternative Speedster",
+    "description": "Complete all races of Bonus Dungeons.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/bonusdungeons/bursting_bonus": {
+    "title": "Speedster: Bursting Bonus",
+    "description": "Successfully finished Bursting Bonus Race",
+    "parent": "monumenta:speedster/bonusdungeons/swift_alchemy"
+  },
+  "monumenta:speedster/bonusdungeons/circuit": {
+    "title": "Speedster: C'Ircuit",
+    "description": "Successfully finished C'Ircuit Race",
+    "parent": "monumenta:speedster/bonusdungeons/bursting_bonus"
+  },
+  "monumenta:speedster/bonusdungeons/shift_clicking": {
+    "title": "Speedster: Shift Clicking",
+    "description": "Successfully finished Shift Clicking Race",
+    "parent": "monumenta:speedster/bonusdungeons/circuit"
+  },
+  "monumenta:speedster/bonusdungeons/silver_surfer": {
+    "title": "Speedster: Silver Surfer",
+    "description": "Successfully finished Silver Surfer Race",
+    "parent": "monumenta:speedster/bonusdungeons/speed_reading"
+  },
+  "monumenta:speedster/bonusdungeons/speed_reading": {
+    "title": "Speedster: Speed Reading",
+    "description": "Successfully finished Speed Reading Race",
+    "parent": "monumenta:speedster/bonusdungeons/shift_clicking"
+  },
+  "monumenta:speedster/bonusdungeons/swift_alchemy": {
+    "title": "Speedster: Swift Alchemy",
+    "description": "Successfully finished Swift Alchemy Race",
+    "parent": "monumenta:speedster/bonusdungeons/all"
+  },
+  "monumenta:speedster/r1/all": {
+    "title": "Speedster",
+    "description": "Complete all races in King's Valley at Master rank.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/r1/elemental_shuffle/0": {
+    "title": "Speedster: Elemental Shuffle",
+    "description": "Reached Master time on Numah's Race",
+    "parent": "monumenta:speedster/r1/elemental_shuffle/1"
+  },
+  "monumenta:speedster/r1/elemental_shuffle/1": {
+    "title": "Speedster: Elemental Shuffle",
+    "description": "Reached Gold time on Numah's Race",
+    "parent": "monumenta:speedster/r1/elemental_shuffle/2"
+  },
+  "monumenta:speedster/r1/elemental_shuffle/2": {
+    "title": "Speedster: Elemental Shuffle",
+    "description": "Reached Silver time on Numah's Race",
+    "parent": "monumenta:speedster/r1/elemental_shuffle/3"
+  },
+  "monumenta:speedster/r1/elemental_shuffle/3": {
+    "title": "Speedster: Elemental Shuffle",
+    "description": "Reached Bronze time on Numah's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/high_to_low/0": {
+    "title": "Speedster: High to Low",
+    "description": "Reached Master time on Linebeck's Race",
+    "parent": "monumenta:speedster/r1/high_to_low/1"
+  },
+  "monumenta:speedster/r1/high_to_low/1": {
+    "title": "Speedster: High to Low",
+    "description": "Reached Gold time on Linebeck's Race",
+    "parent": "monumenta:speedster/r1/high_to_low/2"
+  },
+  "monumenta:speedster/r1/high_to_low/2": {
+    "title": "Speedster: High to Low",
+    "description": "Reached Silver time on Linebeck's Race",
+    "parent": "monumenta:speedster/r1/high_to_low/3"
+  },
+  "monumenta:speedster/r1/high_to_low/3": {
+    "title": "Speedster: High to Low",
+    "description": "Reached Bronze time on Linebeck's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/mariyas_game/0": {
+    "title": "Speedster: Mariya's Game",
+    "description": "Reached Master time on the Mariya's Game race",
+    "parent": "monumenta:speedster/r1/mariyas_game/1"
+  },
+  "monumenta:speedster/r1/mariyas_game/1": {
+    "title": "Speedster: Mariya's Game",
+    "description": "Reached Gold time on the Mariya's Game race",
+    "parent": "monumenta:speedster/r1/mariyas_game/2"
+  },
+  "monumenta:speedster/r1/mariyas_game/2": {
+    "title": "Speedster: Mariya's Game",
+    "description": "Reached Silver time on the Mariya's Game race",
+    "parent": "monumenta:speedster/r1/mariyas_game/3"
+  },
+  "monumenta:speedster/r1/mariyas_game/3": {
+    "title": "Speedster: Mariya's Game",
+    "description": "Reached Bronze time on the Mariya's Game race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/royal_gambit/0": {
+    "title": "Speedster: Royal Gambit",
+    "description": "Reached Master time on the Royal Gambit race",
+    "parent": "monumenta:speedster/r1/royal_gambit/1"
+  },
+  "monumenta:speedster/r1/royal_gambit/1": {
+    "title": "Speedster: Royal Gambit",
+    "description": "Reached Gold time on the Royal Gambit race",
+    "parent": "monumenta:speedster/r1/royal_gambit/2"
+  },
+  "monumenta:speedster/r1/royal_gambit/2": {
+    "title": "Speedster: Royal Gambit",
+    "description": "Reached Silver time on the Royal Gambit race",
+    "parent": "monumenta:speedster/r1/royal_gambit/3"
+  },
+  "monumenta:speedster/r1/royal_gambit/3": {
+    "title": "Speedster: Royal Gambit",
+    "description": "Reached Bronze time on the Royal Gambit race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/tree_hopping_madness/0": {
+    "title": "Speedster: Tree Hopping Madness",
+    "description": "Reached Master time on Dalisay's Race",
+    "parent": "monumenta:speedster/r1/tree_hopping_madness/1"
+  },
+  "monumenta:speedster/r1/tree_hopping_madness/1": {
+    "title": "Speedster: Tree Hopping Madness",
+    "description": "Reached Gold time on Dalisay's Race",
+    "parent": "monumenta:speedster/r1/tree_hopping_madness/2"
+  },
+  "monumenta:speedster/r1/tree_hopping_madness/2": {
+    "title": "Speedster: Tree Hopping Madness",
+    "description": "Reached Silver time on Dalisay's Race",
+    "parent": "monumenta:speedster/r1/tree_hopping_madness/3"
+  },
+  "monumenta:speedster/r1/tree_hopping_madness/3": {
+    "title": "Speedster: Tree Hopping Madness",
+    "description": "Reached Bronze time on Dalisay's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/tutorial": {
+    "title": "Speedster of Sierhaven",
+    "description": "Complete the Sierhaven Race under the time limit.",
+    "parent": "monumenta:speedster/root"
+  },
+  "monumenta:speedster/r1/tutorial_plus/0": {
+    "title": "Speedster: Tutorial+",
+    "description": "Reached Master time on Flashy's Race",
+    "parent": "monumenta:speedster/r1/tutorial_plus/1"
+  },
+  "monumenta:speedster/r1/tutorial_plus/1": {
+    "title": "Speedster: Tutorial+",
+    "description": "Reached Gold time on Flashy's Race",
+    "parent": "monumenta:speedster/r1/tutorial_plus/2"
+  },
+  "monumenta:speedster/r1/tutorial_plus/2": {
+    "title": "Speedster: Tutorial+",
+    "description": "Reached Silver time on Flashy's Race",
+    "parent": "monumenta:speedster/r1/tutorial_plus/3"
+  },
+  "monumenta:speedster/r1/tutorial_plus/3": {
+    "title": "Speedster: Tutorial+",
+    "description": "Reached Bronze time on Flashy's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r1/velaraocity/0": {
+    "title": "Speedster: Velara-ocity",
+    "description": "Reached Master time on Krikk's Race",
+    "parent": "monumenta:speedster/r1/velaraocity/1"
+  },
+  "monumenta:speedster/r1/velaraocity/1": {
+    "title": "Speedster: Velara-ocity",
+    "description": "Reached Gold time on Krikk's Race",
+    "parent": "monumenta:speedster/r1/velaraocity/2"
+  },
+  "monumenta:speedster/r1/velaraocity/2": {
+    "title": "Speedster: Velara-ocity",
+    "description": "Reached Silver time on Krikk's Race",
+    "parent": "monumenta:speedster/r1/velaraocity/3"
+  },
+  "monumenta:speedster/r1/velaraocity/3": {
+    "title": "Speedster: Velara-ocity",
+    "description": "Reached Bronze time on Krikk's Race",
+    "parent": "monumenta:speedster/r1/all"
+  },
+  "monumenta:speedster/r2/all": {
+    "title": "Speedster of Celsian Isles",
+    "description": "Complete all races in Celsian Isles at Master rank.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/r2/allfornera/0": {
+    "title": "Speedster: All for Nera",
+    "description": "Reached Master time on All for Nera Race",
+    "parent": "monumenta:speedster/r2/allfornera/1"
+  },
+  "monumenta:speedster/r2/allfornera/1": {
+    "title": "Speedster: All for Nera",
+    "description": "Reached Gold time on All for Nera Race",
+    "parent": "monumenta:speedster/r2/allfornera/2"
+  },
+  "monumenta:speedster/r2/allfornera/2": {
+    "title": "Speedster: All for Nera",
+    "description": "Reached Silver time on All for Nera Race",
+    "parent": "monumenta:speedster/r2/allfornera/3"
+  },
+  "monumenta:speedster/r2/allfornera/3": {
+    "title": "Speedster: All for Nera",
+    "description": "Reached Bronze time on All for Nera Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/deliverydash/0": {
+    "title": "Speedster: Delivery Dash",
+    "description": "Reached Master time on Delivery Dash Race",
+    "parent": "monumenta:speedster/r2/deliverydash/1"
+  },
+  "monumenta:speedster/r2/deliverydash/1": {
+    "title": "Speedster: Delivery Dash",
+    "description": "Reached Gold time on Delivery Dash Race",
+    "parent": "monumenta:speedster/r2/deliverydash/2"
+  },
+  "monumenta:speedster/r2/deliverydash/2": {
+    "title": "Speedster: Delivery Dash",
+    "description": "Reached Silver time on Delivery Dash Race",
+    "parent": "monumenta:speedster/r2/deliverydash/3"
+  },
+  "monumenta:speedster/r2/deliverydash/3": {
+    "title": "Speedster: Delivery Dash",
+    "description": "Reached Bronze time on Delivery Dash Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/fastwhispers/0": {
+    "title": "Speedster: Fast Whispers",
+    "description": "Reached Master time on Fast Whispers Race",
+    "parent": "monumenta:speedster/r2/fastwhispers/1"
+  },
+  "monumenta:speedster/r2/fastwhispers/1": {
+    "title": "Speedster: Fast Whispers",
+    "description": "Reached Gold time on Fast Whispers Race",
+    "parent": "monumenta:speedster/r2/fastwhispers/2"
+  },
+  "monumenta:speedster/r2/fastwhispers/2": {
+    "title": "Speedster: Fast Whispers",
+    "description": "Reached Silver time on Fast Whispers Race",
+    "parent": "monumenta:speedster/r2/fastwhispers/3"
+  },
+  "monumenta:speedster/r2/fastwhispers/3": {
+    "title": "Speedster: Fast Whispers",
+    "description": "Reached Bronze time on Fast Whispers Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/frostdrift/0": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Master time on Frost Drift Race",
+    "parent": "monumenta:speedster/r2/frostdrift/1"
+  },
+  "monumenta:speedster/r2/frostdrift/1": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Gold time on Frost Drift Race",
+    "parent": "monumenta:speedster/r2/frostdrift/2"
+  },
+  "monumenta:speedster/r2/frostdrift/2": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Silver time on Frost Drift Race",
+    "parent": "monumenta:speedster/r2/frostdrift/3"
+  },
+  "monumenta:speedster/r2/frostdrift/3": {
+    "title": "Speedster: Frost Drift",
+    "description": "Reached Bronze time on Frost Drift Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/mistywaters/0": {
+    "title": "Speedster: Misty Waters",
+    "description": "Reached Master time on Misty Waters",
+    "parent": "monumenta:speedster/r2/mistywaters/1"
+  },
+  "monumenta:speedster/r2/mistywaters/1": {
+    "title": "Speedster: Misty Waters",
+    "description": "Reached Gold time on Misty Waters",
+    "parent": "monumenta:speedster/r2/mistywaters/2"
+  },
+  "monumenta:speedster/r2/mistywaters/2": {
+    "title": "Speedster: Misty Waters",
+    "description": "Reached Silver time on Misty Waters",
+    "parent": "monumenta:speedster/r2/mistywaters/3"
+  },
+  "monumenta:speedster/r2/mistywaters/3": {
+    "title": "Speedster: Misty Waters",
+    "description": "Reached Bronze time on Misty Waters",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/runnersofmist/0": {
+    "title": "Speedster: Runners of Mist",
+    "description": "Reached Master time on Runners of Mist Race",
+    "parent": "monumenta:speedster/r2/runnersofmist/1"
+  },
+  "monumenta:speedster/r2/runnersofmist/1": {
+    "title": "Speedster: Runners of Mist",
+    "description": "Reached Gold time on Runners of Mist Race",
+    "parent": "monumenta:speedster/r2/runnersofmist/2"
+  },
+  "monumenta:speedster/r2/runnersofmist/2": {
+    "title": "Speedster: Runners of Mist",
+    "description": "Reached Silver time on Runners of Mist Race",
+    "parent": "monumenta:speedster/r2/runnersofmist/3"
+  },
+  "monumenta:speedster/r2/runnersofmist/3": {
+    "title": "Speedster: Runners of Mist",
+    "description": "Reached Bronze time on Runners of Mist Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/sixshotsprint/0": {
+    "title": "Speedster: Six Shot Sprint",
+    "description": "Reached Master time on Six Shot Sprint Race",
+    "parent": "monumenta:speedster/r2/sixshotsprint/1"
+  },
+  "monumenta:speedster/r2/sixshotsprint/1": {
+    "title": "Speedster: Six Shot Sprint",
+    "description": "Reached Gold time on Six Shot Sprint Race",
+    "parent": "monumenta:speedster/r2/sixshotsprint/2"
+  },
+  "monumenta:speedster/r2/sixshotsprint/2": {
+    "title": "Speedster: Six Shot Sprint",
+    "description": "Reached Silver time on Six Shot Sprint Race",
+    "parent": "monumenta:speedster/r2/sixshotsprint/3"
+  },
+  "monumenta:speedster/r2/sixshotsprint/3": {
+    "title": "Speedster: Six Shot Sprint",
+    "description": "Reached Bronze time on Six Shot Sprint Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/speedfitness/0": {
+    "title": "Speedster: Speed Fitness",
+    "description": "Reached Master time on Speed Fitness Race",
+    "parent": "monumenta:speedster/r2/speedfitness/1"
+  },
+  "monumenta:speedster/r2/speedfitness/1": {
+    "title": "Speedster: Speed Fitness",
+    "description": "Reached Gold time on Speed Fitness Race",
+    "parent": "monumenta:speedster/r2/speedfitness/2"
+  },
+  "monumenta:speedster/r2/speedfitness/2": {
+    "title": "Speedster: Speed Fitness",
+    "description": "Reached Silver time on Speed Fitness Race",
+    "parent": "monumenta:speedster/r2/speedfitness/3"
+  },
+  "monumenta:speedster/r2/speedfitness/3": {
+    "title": "Speedster: Speed Fitness",
+    "description": "Reached Bronze time on Speed Fitness Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r2/trackmaster/0": {
+    "title": "Speedster: Trackmaster",
+    "description": "Reached Master time on Trackmaster Race",
+    "parent": "monumenta:speedster/r2/trackmaster/1"
+  },
+  "monumenta:speedster/r2/trackmaster/1": {
+    "title": "Speedster: Trackmaster",
+    "description": "Reached Gold time on Trackmaster Race",
+    "parent": "monumenta:speedster/r2/trackmaster/2"
+  },
+  "monumenta:speedster/r2/trackmaster/2": {
+    "title": "Speedster: Trackmaster",
+    "description": "Reached Silver time on Trackmaster Race",
+    "parent": "monumenta:speedster/r2/trackmaster/3"
+  },
+  "monumenta:speedster/r2/trackmaster/3": {
+    "title": "Speedster: Trackmaster",
+    "description": "Reached Bronze time on Trackmaster Race",
+    "parent": "monumenta:speedster/r2/all"
+  },
+  "monumenta:speedster/r3/all": {
+    "title": "Speedster of Architect's Ring",
+    "description": "Complete all races in Architect's Ring at Master rank.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/r3/boatmanteau/0": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Master time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/1"
+  },
+  "monumenta:speedster/r3/boatmanteau/1": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Gold time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/2"
+  },
+  "monumenta:speedster/r3/boatmanteau/2": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Silver time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/boatmanteau/3"
+  },
+  "monumenta:speedster/r3/boatmanteau/3": {
+    "title": "Speedster: Boat Manteau",
+    "description": "Reached Bronze time on Boat Manteau Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/citytour/0": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Master time on City Tour Race",
+    "parent": "monumenta:speedster/r3/citytour/1"
+  },
+  "monumenta:speedster/r3/citytour/1": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Gold time on City Tour Race",
+    "parent": "monumenta:speedster/r3/citytour/2"
+  },
+  "monumenta:speedster/r3/citytour/2": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Silver time on City Race",
+    "parent": "monumenta:speedster/r3/citytour/3"
+  },
+  "monumenta:speedster/r3/citytour/3": {
+    "title": "Speedster: City Tour",
+    "description": "Reached Bronze time on City Tour Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/0": {
+    "title": "Speedster: Coastal Circuit",
+    "description": "Reached Master time on Coastal Circuit Race",
+    "parent": "monumenta:speedster/r3/coastalcurcuit/1"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/1": {
+    "title": "Speedster: Coastal Circuit",
+    "description": "Reached Gold time on Coastal Circuit Race",
+    "parent": "monumenta:speedster/r3/coastalcurcuit/2"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/2": {
+    "title": "Speedster: Coastal Circuit",
+    "description": "Reached Silver time on Coastal Circuit Race",
+    "parent": "monumenta:speedster/r3/coastalcurcuit/3"
+  },
+  "monumenta:speedster/r3/coastalcurcuit/3": {
+    "title": "Speedster: Coastal Circuit",
+    "description": "Reached Bronze time on Coastal Circuit Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/covenfrostress/0": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Master time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/1"
+  },
+  "monumenta:speedster/r3/covenfrostress/1": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Gold time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/2"
+  },
+  "monumenta:speedster/r3/covenfrostress/2": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Silver time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/covenfrostress/3"
+  },
+  "monumenta:speedster/r3/covenfrostress/3": {
+    "title": "Speedster: Coven Frostress",
+    "description": "Reached Bronze time on Coven Frostress Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/frostbitecascade/0": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Master time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/1"
+  },
+  "monumenta:speedster/r3/frostbitecascade/1": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Gold time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/2"
+  },
+  "monumenta:speedster/r3/frostbitecascade/2": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Silver time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/frostbitecascade/3"
+  },
+  "monumenta:speedster/r3/frostbitecascade/3": {
+    "title": "Speedster: Frostbite Cascade",
+    "description": "Reached Bronze time on Frostbite Cascade Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/rapidascent/0": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Master time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/rapidascent/1"
+  },
+  "monumenta:speedster/r3/rapidascent/1": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Gold time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/rapidascent/2"
+  },
+  "monumenta:speedster/r3/rapidascent/2": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Silver time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/rapidascent/3"
+  },
+  "monumenta:speedster/r3/rapidascent/3": {
+    "title": "Speedster: Rapid Ascent",
+    "description": "Reached Bronze time on Rapid Ascent Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/0": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Master time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/1"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/1": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Gold time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/2"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/2": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Silver time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/refrigeratedremorse/3"
+  },
+  "monumenta:speedster/r3/refrigeratedremorse/3": {
+    "title": "Speedster: Refrigerated Remorse",
+    "description": "Reached Bronze time on Refrigerated Remorse Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/skyhighbora/0": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Master time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/1"
+  },
+  "monumenta:speedster/r3/skyhighbora/1": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Gold time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/2"
+  },
+  "monumenta:speedster/r3/skyhighbora/2": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Silver time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/skyhighbora/3"
+  },
+  "monumenta:speedster/r3/skyhighbora/3": {
+    "title": "Speedster: Skyhigh Bora",
+    "description": "Reached Bronze time on Skyhigh Bora Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/r3/starpointbellrace/0": {
+    "title": "Speedster: They Toll for Thee",
+    "description": "Reached Master time on They Toll for Thee Race",
+    "parent": "monumenta:speedster/r3/starpointbellrace/1"
+  },
+  "monumenta:speedster/r3/starpointbellrace/1": {
+    "title": "Speedster: They Toll for Thee",
+    "description": "Reached Gold time on They Toll for Thee Race",
+    "parent": "monumenta:speedster/r3/starpointbellrace/2"
+  },
+  "monumenta:speedster/r3/starpointbellrace/2": {
+    "title": "Speedster: They Toll for Thee",
+    "description": "Reached Silver time on They Toll for Thee Race",
+    "parent": "monumenta:speedster/r3/starpointbellrace/3"
+  },
+  "monumenta:speedster/r3/starpointbellrace/3": {
+    "title": "Speedster: They Toll for Thee",
+    "description": "Reached Bronze time on They Toll for Thee Race",
+    "parent": "monumenta:speedster/r3/all"
+  },
+  "monumenta:speedster/root": {
+    "title": "Speedster of Monumenta",
+    "description": null
+  },
+  "monumenta:speedster/wooldungeons/all": {
+    "title": "Primordial Speedster",
+    "description": "Complete all races of Wool Dungeons.",
+    "parent": "monumenta:speedster/r1/tutorial"
+  },
+  "monumenta:speedster/wooldungeons/blood_rush": {
+    "title": "Speedster: Blood Rush",
+    "description": "Successfully finished Blood Rush Race",
+    "parent": "monumenta:speedster/wooldungeons/all"
+  },
+  "monumenta:speedster/wooldungeons/light_footed": {
+    "title": "Speedster: Light Footed",
+    "description": "Successfully finished Light Footed Race",
+    "parent": "monumenta:speedster/wooldungeons/sand_struggles"
+  },
+  "monumenta:speedster/wooldungeons/miasma_theory": {
+    "title": "Speedster: Miasma Theory",
+    "description": "Successfully finished Miasma Theory Race",
+    "parent": "monumenta:speedster/wooldungeons/zoo_tour"
+  },
+  "monumenta:speedster/wooldungeons/minds_eye": {
+    "title": "Speedster: Mind's Eye",
+    "description": "Successfully finished Mind's Eye Race",
+    "parent": "monumenta:speedster/wooldungeons/light_footed"
+  },
+  "monumenta:speedster/wooldungeons/pirate_pass": {
+    "title": "Speedster: Pirate Pass",
+    "description": "Successfully finished Pirate Pass Race",
+    "parent": "monumenta:speedster/wooldungeons/minds_eye"
+  },
+  "monumenta:speedster/wooldungeons/ruined_run": {
+    "title": "Speedster: Ruined Run",
+    "description": "Successfully finished Ruined Run Race",
+    "parent": "monumenta:speedster/wooldungeons/all"
+  },
+  "monumenta:speedster/wooldungeons/sand_struggles": {
+    "title": "Speedster: Quicksand",
+    "description": "Successfully finished Quicksand Race",
+    "parent": "monumenta:speedster/wooldungeons/seasons_grace"
+  },
+  "monumenta:speedster/wooldungeons/seasons_grace": {
+    "title": "Speedster: Season's Grace",
+    "description": "Successfully finished Season's Grace Race",
+    "parent": "monumenta:speedster/wooldungeons/ruined_run"
+  },
+  "monumenta:speedster/wooldungeons/time_flies": {
+    "title": "Speedster: Time Flies",
+    "description": "Successfully finished Time Flies Race",
+    "parent": "monumenta:speedster/wooldungeons/pirate_pass"
+  },
+  "monumenta:speedster/wooldungeons/treks_machina": {
+    "title": "Speedster: Treks Machina",
+    "description": "Successfully finished Treks Machina Race",
+    "parent": "monumenta:speedster/wooldungeons/witchhiking"
+  },
+  "monumenta:speedster/wooldungeons/truly_occult": {
+    "title": "Speedster: Truly Occult",
+    "description": "Successfully finished Truly Occult Race",
+    "parent": "monumenta:speedster/wooldungeons/miasma_theory"
+  },
+  "monumenta:speedster/wooldungeons/wild_waltz": {
+    "title": "Speedster: Wild Waltz",
+    "description": "Successfully finished Wild Waltz Race",
+    "parent": "monumenta:speedster/wooldungeons/truly_occult"
+  },
+  "monumenta:speedster/wooldungeons/witchhiking": {
+    "title": "Speedster: Witchhiking",
+    "description": "Successfully finished Witchhiking Race",
+    "parent": "monumenta:speedster/wooldungeons/all"
+  },
+  "monumenta:speedster/wooldungeons/zoo_tour": {
+    "title": "Speedster: Zoo Tour",
+    "description": "Successfully finished Zoo Tour Race",
+    "parent": "monumenta:speedster/wooldungeons/blood_rush"
   },
   "monumenta:handbook/enchantments/abyssal": {
     "title": "Abyssal",
@@ -4233,2076 +6304,5 @@
   "monumenta:acrobat/root": {
     "title": "Parkour",
     "description": "Complete the Jumping Puzzles of each region."
-  },
-  "monumenta:pois/r1/amped/antipodean_tower": {
-    "title": "Antipodean Tower",
-    "description": "You amplified the Collapsing Tower into the Antipodean Tower!",
-    "parent": "monumenta:pois/r1/amped/festive_fortress"
-  },
-  "monumenta:pois/r1/amped/cindered_cave": {
-    "title": "Cindered Cave",
-    "description": "You amplified the Fire Cave into the Cindered Cave!",
-    "parent": "monumenta:pois/r1/amped/twisted_cave"
-  },
-  "monumenta:pois/r1/amped/earthquake_shrine": {
-    "title": "Earthquake Shrine",
-    "description": "You amplified the Earth Shrine into the Earthquake Shrine!",
-    "parent": "monumenta:pois/r1/amped/ice_shrine"
-  },
-  "monumenta:pois/r1/amped/ezariahs_tomb": {
-    "title": "Ezariah's Tomb",
-    "description": "You amplified Waterfall Island into Ezariah's Tomb!",
-    "parent": "monumenta:pois/r1/amped/tempest_shrine"
-  },
-  "monumenta:pois/r1/amped/festive_fortress": {
-    "title": "Festive Fortress",
-    "description": "You amplified the Hawk Fortress into the Festive Fortress!",
-    "parent": "monumenta:pois/r1/amped/cindered_cave"
-  },
-  "monumenta:pois/r1/amped/forsworn_cave": {
-    "title": "Forsworn Cave",
-    "description": "You amplified the Corrupted Cave into the Forsworn Cave!",
-    "parent": "monumenta:pois/r1/amped/mercenary_mine"
-  },
-  "monumenta:pois/r1/amped/ice_shrine": {
-    "title": "Ice Shrine",
-    "description": "You amplified the Fire Shrine into the Ice Shrine!",
-    "parent": "monumenta:pois/r1/amped/whirlpool_shrine"
-  },
-  "monumenta:pois/r1/amped/mercenary_mine": {
-    "title": "Mercenary Mine",
-    "description": "You amplified the Jungle Mine into the Mercenary Mine!",
-    "parent": "monumenta:pois/r1/amped/antipodean_tower"
-  },
-  "monumenta:pois/r1/amped/purrfect_winter_retreat": {
-    "title": "Purrfect Winter Retreat",
-    "description": "You amplified the Litterbox into the Purrfect Winter Retreat!",
-    "parent": "monumenta:pois/r1/amped/forsworn_cave"
-  },
-  "monumenta:pois/r1/amped/root": {
-    "title": "Amplified POIs",
-    "description": "Discover and conquer the Amplified POIs of the King's Valley",
-    "parent": "monumenta:pois/r1/root"
-  },
-  "monumenta:pois/r1/amped/tempest_shrine": {
-    "title": "Tempest Shrine",
-    "description": "You amplified the Air Shrine into the Tempest Shrine!",
-    "parent": "monumenta:pois/r1/amped/earthquake_shrine"
-  },
-  "monumenta:pois/r1/amped/twisted_cave": {
-    "title": "Twisted Cave",
-    "description": "You amplified the Overgrown Cave into the Twisted Cave!",
-    "parent": "monumenta:pois/r1/amped/ezariahs_tomb"
-  },
-  "monumenta:pois/r1/amped/whirlpool_shrine": {
-    "title": "Whirlpool Shrine",
-    "description": "You amplified the Water Shrine into the Whirlpool Shrine!",
-    "parent": "monumenta:pois/r1/amped/root"
-  },
-  "monumenta:pois/r1/azacor_grove/azacorsmansion": {
-    "title": "Azacor's Mansion",
-    "description": "Discover Azacor's Mansion Coordinates: x=1308 y=167 z=299",
-    "parent": "monumenta:pois/r1/azacor_grove/whisperingwoods"
-  },
-  "monumenta:pois/r1/azacor_grove/consecratedgrounds": {
-    "title": "Consecrated Grounds",
-    "description": "Discover the Consecrated Grounds Coordinates: x=1400 y=165 z=40",
-    "parent": "monumenta:pois/r1/azacor_grove/namelessruins"
-  },
-  "monumenta:pois/r1/azacor_grove/floodedfoyer": {
-    "title": "Flooded Foyer",
-    "description": "Discover the Flooded Foyer Coordinates: x=1418 y=96 z=138",
-    "parent": "monumenta:pois/r1/azacor_grove/weepingwormwood"
-  },
-  "monumenta:pois/r1/azacor_grove/hallowedhedges": {
-    "title": "Hallowed Hedges",
-    "description": "Discover the Hallowed Hedges Coordinates: x=1237 y=102 z=-18",
-    "parent": "monumenta:pois/r1/azacor_grove/root"
-  },
-  "monumenta:pois/r1/azacor_grove/igorslaboratory": {
-    "title": "Igor's Laboratory",
-    "description": "Discover Igor's Laboratory Coordinates: x=1313 y=130 z=151",
-    "parent": "monumenta:pois/r1/azacor_grove/consecratedgrounds"
-  },
-  "monumenta:pois/r1/azacor_grove/mapleroottown": {
-    "title": "Mapleroot Town",
-    "description": "Discover the Mapleroot Town Coordinates: x=1390 y=117 z=306",
-    "parent": "monumenta:pois/r1/azacor_grove/floodedfoyer"
-  },
-  "monumenta:pois/r1/azacor_grove/namelessruins": {
-    "title": "Nameless Ruins",
-    "description": "Discover the Nameless Ruins Coordinates: x=1216 y=102 z=3",
-    "parent": "monumenta:pois/r1/azacor_grove/hallowedhedges"
-  },
-  "monumenta:pois/r1/azacor_grove/root": {
-    "title": "Azacor's Grove",
-    "description": "Discover Azacor's Grove",
-    "parent": "monumenta:pois/r1/root"
-  },
-  "monumenta:pois/r1/azacor_grove/undergrowth": {
-    "title": "The Undergrowth",
-    "description": "Discover the Undergrowth Coordinates: x=1479 y=96 z=168",
-    "parent": "monumenta:pois/r1/azacor_grove/azacorsmansion"
-  },
-  "monumenta:pois/r1/azacor_grove/weepingwormwood": {
-    "title": "Weeping Wormwood",
-    "description": "Discover the Weeping Wormwood Coordinates: x=1346 y=128 z=175",
-    "parent": "monumenta:pois/r1/azacor_grove/igorslaboratory"
-  },
-  "monumenta:pois/r1/azacor_grove/whisperingwoods": {
-    "title": "Whispering Woods",
-    "description": "Discover the Whispering Woods Coordinates: x=1443 y=150 z=312",
-    "parent": "monumenta:pois/r1/azacor_grove/mapleroottown"
-  },
-  "monumenta:pois/r1/highlands/anthill": {
-    "title": "Anthill",
-    "description": "Discover the Anthill Coordinates: x=819 y=110 z=209",
-    "parent": "monumenta:pois/r1/highlands/root"
-  },
-  "monumenta:pois/r1/highlands/caveofbones": {
-    "title": "Cave of Bones",
-    "description": "Discover the Cave of Bones Coordinates: x=1000 y=102 z=-43",
-    "parent": "monumenta:pois/r1/highlands/anthill"
-  },
-  "monumenta:pois/r1/highlands/cursedforest": {
-    "title": "Cursed Forest",
-    "description": "Discover the Cursed Forest Coordinates: x=1100 y=104 z=60",
-    "parent": "monumenta:pois/r1/highlands/infestedhouse"
-  },
-  "monumenta:pois/r1/highlands/easternpass": {
-    "title": "Eastern Pass",
-    "description": "Discover the Eastern Pass Coordinates: x=853 y=77 z=322",
-    "parent": "monumenta:pois/r1/highlands/caveofbones"
-  },
-  "monumenta:pois/r1/highlands/graveyard": {
-    "title": "Graveyard",
-    "description": "Discover the Graveyard Coordinates: x=1033 y=124 z=-169",
-    "parent": "monumenta:pois/r1/highlands/easternpass"
-  },
-  "monumenta:pois/r1/highlands/infestedhouse": {
-    "title": "Infested House",
-    "description": "Discover the Infested House Coordinates: x=1017 y=117 z=77",
-    "parent": "monumenta:pois/r1/highlands/graveyard"
-  },
-  "monumenta:pois/r1/highlands/root": {
-    "title": "Korbar Highlands",
-    "description": "Discover the Korbar Highlands",
-    "parent": "monumenta:pois/r1/root"
-  },
-  "monumenta:pois/r1/highlands/verdantfortress": {
-    "title": "Verdant Fortress",
-    "description": "Discover the Verdant Fortress Coordinates: x=916 y=106 z=182",
-    "parent": "monumenta:pois/r1/highlands/cursedforest"
-  },
-  "monumenta:pois/r1/highlands/volcano": {
-    "title": "Volcano",
-    "description": "Discover the Volcano Coordinates: x=936 y=142 z=-144",
-    "parent": "monumenta:pois/r1/highlands/verdantfortress"
-  },
-  "monumenta:pois/r1/jungle/center/airshrine": {
-    "title": "Air Shrine",
-    "description": "Discover the Air Shrine Coordinates: x=446 y=129 z=-43",
-    "parent": "monumenta:pois/r1/jungle/center/hawkfortress"
-  },
-  "monumenta:pois/r1/jungle/center/grandmaw": {
-    "title": "Grand Maw",
-    "description": "Discover the Grand Maw Coordinates: x=350 y=71 z=82",
-    "parent": "monumenta:pois/r1/jungle/center/root"
-  },
-  "monumenta:pois/r1/jungle/center/hawkfortress": {
-    "title": "Hawk Fortress",
-    "description": "Discover the Hawk Fortress Coordinates: x=454 y=123 z=106",
-    "parent": "monumenta:pois/r1/jungle/center/grandmaw"
-  },
-  "monumenta:pois/r1/jungle/center/root": {
-    "title": "Central Plateau",
-    "description": "Enter the Central Plateau",
-    "parent": "monumenta:pois/r1/jungle/root"
-  },
-  "monumenta:pois/r1/jungle/mountains/axtanmonastary": {
-    "title": "Axtan Monastery",
-    "description": "Discover the Axtan Monastery Coordinates: x=664 y=121 z=-263",
-    "parent": "monumenta:pois/r1/jungle/mountains/root"
-  },
-  "monumenta:pois/r1/jungle/mountains/collapsingtower": {
-    "title": "Collapsing Tower",
-    "description": "Discover the Collapsing Tower Coordinates: x=860 y=157 z=-314",
-    "parent": "monumenta:pois/r1/jungle/mountains/axtanmonastary"
-  },
-  "monumenta:pois/r1/jungle/mountains/creeperfarm": {
-    "title": "Creeper Farm",
-    "description": "Discover the Creeper Farm Coordinates: x=797 y=174 z=-317",
-    "parent": "monumenta:pois/r1/jungle/mountains/collapsingtower"
-  },
-  "monumenta:pois/r1/jungle/mountains/firecave": {
-    "title": "Fire Cave",
-    "description": "Discover the Fire Cave Coordinates: x=570 y=86 z=-194",
-    "parent": "monumenta:pois/r1/jungle/mountains/creeperfarm"
-  },
-  "monumenta:pois/r1/jungle/mountains/mountainhideaway": {
-    "title": "Mountain Hideaway",
-    "description": "Discover the Mountain Hideaway Coordinates: x=614 y=146 z=-351",
-    "parent": "monumenta:pois/r1/jungle/mountains/firecave"
-  },
-  "monumenta:pois/r1/jungle/mountains/mountainmines": {
-    "title": "Mountain Mineshaft",
-    "description": "Discover the Mountain Mineshaft Coordinates: x=952 y=147 z=-347",
-    "parent": "monumenta:pois/r1/jungle/mountains/mountainhideaway"
-  },
-  "monumenta:pois/r1/jungle/mountains/root": {
-    "title": "Jaguar Tooth Mountains",
-    "description": "Enter the Jaguar Tooth Mountains",
-    "parent": "monumenta:pois/r1/jungle/root"
-  },
-  "monumenta:pois/r1/jungle/northeast/caveofsecrets": {
-    "title": "Cave of Secrets",
-    "description": "Discover the Cave of Secrets Coordinates: x=458 y=74 z=-103",
-    "parent": "monumenta:pois/r1/jungle/northeast/tinyjungleruin"
-  },
-  "monumenta:pois/r1/jungle/northeast/crossroadruins": {
-    "title": "Crossroad Ruins",
-    "description": "Discover the Crossroad Ruins Coordinates: x=623 y=71 z=-112",
-    "parent": "monumenta:pois/r1/jungle/northeast/root"
-  },
-  "monumenta:pois/r1/jungle/northeast/junglemine": {
-    "title": "Jungle Mine",
-    "description": "Discover the Jungle Mine Coordinates: x=565 y=77 z=-69",
-    "parent": "monumenta:pois/r1/jungle/northeast/crossroadruins"
-  },
-  "monumenta:pois/r1/jungle/northeast/litterbox": {
-    "title": "The Litterbox",
-    "description": "Discover The Litterbox Coordinates: x=890 y=73 z=42",
-    "parent": "monumenta:pois/r1/jungle/northeast/moltenchasm"
-  },
-  "monumenta:pois/r1/jungle/northeast/moistruins": {
-    "title": "Moist Ruins",
-    "description": "Discover the Moist Ruins Coordinates: x=826 y=74 z=-209",
-    "parent": "monumenta:pois/r1/jungle/northeast/junglemine"
-  },
-  "monumenta:pois/r1/jungle/northeast/moltenchasm": {
-    "title": "Molten Chasm",
-    "description": "Discover the Molten Chasm Coordinates: x=735 y=71 z=84",
-    "parent": "monumenta:pois/r1/jungle/northeast/moistruins"
-  },
-  "monumenta:pois/r1/jungle/northeast/root": {
-    "title": "Northeastern Jungle",
-    "description": "Enter the Northeastern Jungle",
-    "parent": "monumenta:pois/r1/jungle/root"
-  },
-  "monumenta:pois/r1/jungle/northeast/suspiciousvillage": {
-    "title": "Suspicious Village",
-    "description": "Discover the Suspicious Village Coordinates: x=693 y=74 z=-140",
-    "parent": "monumenta:pois/r1/jungle/northeast/litterbox"
-  },
-  "monumenta:pois/r1/jungle/northeast/templetokaul": {
-    "title": "Temple to Kaul",
-    "description": "Discover the Temple to Kaul Coordinates: x=773 y=84 z=-24",
-    "parent": "monumenta:pois/r1/jungle/northeast/caveofsecrets"
-  },
-  "monumenta:pois/r1/jungle/northeast/tinyjungleruin": {
-    "title": "Tiny Jungle Ruin",
-    "description": "Discover the Tiny Jungle Ruin Coordinates: x=503 y=80 z=-162",
-    "parent": "monumenta:pois/r1/jungle/northeast/suspiciousvillage"
-  },
-  "monumenta:pois/r1/jungle/northwest/ancientruin": {
-    "title": "Ancient Ruin",
-    "description": "Discover the Ancient Ruin Coordinates: x=359 y=73 z=-55",
-    "parent": "monumenta:pois/r1/jungle/northwest/root"
-  },
-  "monumenta:pois/r1/jungle/northwest/hawkvillage": {
-    "title": "Hawk Village",
-    "description": "Discover the Hawk Village Coordinates: x=137 y=123 z=-114",
-    "parent": "monumenta:pois/r1/jungle/northwest/ancientruin"
-  },
-  "monumenta:pois/r1/jungle/northwest/murkymaze": {
-    "title": "Murky Maze",
-    "description": "Discover the Murky Maze Coordinates: x=-45 y=70 z=-25",
-    "parent": "monumenta:pois/r1/jungle/northwest/overgrowncave"
-  },
-  "monumenta:pois/r1/jungle/northwest/mysteriouscenote": {
-    "title": "Mysterious Cenote",
-    "description": "Discover the Mysterious Cenote Coordinates: x=159 y=123 z=-78",
-    "parent": "monumenta:pois/r1/jungle/northwest/tlaxanziggurat"
-  },
-  "monumenta:pois/r1/jungle/northwest/northjaguar": {
-    "title": "Northern Jaguar Village",
-    "description": "Discover the Northern Jaguar Village Coordinates: x=268 y=74 z=6",
-    "parent": "monumenta:pois/r1/jungle/northwest/hawkvillage"
-  },
-  "monumenta:pois/r1/jungle/northwest/overgrowncave": {
-    "title": "Overgrown Cave",
-    "description": "Discover the Overgrown Cave Coordinates: x=194 y=74 z=31",
-    "parent": "monumenta:pois/r1/jungle/northwest/northjaguar"
-  },
-  "monumenta:pois/r1/jungle/northwest/root": {
-    "title": "Northwestern Jungle",
-    "description": "Enter the Northwestern Jungle",
-    "parent": "monumenta:pois/r1/jungle/root"
-  },
-  "monumenta:pois/r1/jungle/northwest/ruinedmansion": {
-    "title": "Ruined Mansion",
-    "description": "Discover the Ruined Mansion Coordinates: x=-7 y=72 z=-165",
-    "parent": "monumenta:pois/r1/jungle/northwest/murkymaze"
-  },
-  "monumenta:pois/r1/jungle/northwest/tlaxanziggurat": {
-    "title": "Tlaxan Ziggurat",
-    "description": "Discover the Tlaxan Ziggurat Coordinates: x=215 y=125 z=-109",
-    "parent": "monumenta:pois/r1/jungle/northwest/watercavern"
-  },
-  "monumenta:pois/r1/jungle/northwest/watercavern": {
-    "title": "Water Cavern",
-    "description": "Discover the Water Cavern Coordinates: x=90 y=71 z=29",
-    "parent": "monumenta:pois/r1/jungle/northwest/ruinedmansion"
-  },
-  "monumenta:pois/r1/jungle/root": {
-    "title": "Blackroot Jungle",
-    "description": "Enter the Blackroot Jungle",
-    "parent": "monumenta:pois/r1/root"
-  },
-  "monumenta:pois/r1/jungle/southeast/corruptedcaves": {
-    "title": "Corrupted Caves",
-    "description": "Discover the Corrupted Caves Coordinates: x=515 y=71 z=391",
-    "parent": "monumenta:pois/r1/jungle/southeast/lowlandtemple"
-  },
-  "monumenta:pois/r1/jungle/southeast/corruptedisland": {
-    "title": "Corrupted Island",
-    "description": "Discover the Corrupted Island Coordinates: x=619 y=73 z=467",
-    "parent": "monumenta:pois/r1/jungle/southeast/corruptedcaves"
-  },
-  "monumenta:pois/r1/jungle/southeast/creepertower": {
-    "title": "Creeper Tower",
-    "description": "Discover the Creeper Tower Coordinates: x=750 y=83 z=319",
-    "parent": "monumenta:pois/r1/jungle/southeast/corruptedisland"
-  },
-  "monumenta:pois/r1/jungle/southeast/hallowedpond": {
-    "title": "Hallowed Pond",
-    "description": "Discover the Hallowed Pond Coordinates: x=454 y=72 z=247",
-    "parent": "monumenta:pois/r1/jungle/southeast/creepertower"
-  },
-  "monumenta:pois/r1/jungle/southeast/lowlandtemple": {
-    "title": "Lowland Temple",
-    "description": "Discover the Lowland Temple Coordinates: x=480 y=71 z=154",
-    "parent": "monumenta:pois/r1/jungle/southeast/root"
-  },
-  "monumenta:pois/r1/jungle/southeast/root": {
-    "title": "Southeastern Jungle",
-    "description": "Enter the Southeastern Jungle",
-    "parent": "monumenta:pois/r1/jungle/root"
-  },
-  "monumenta:pois/r1/jungle/southeast/southerncenote": {
-    "title": "Southern Cenote",
-    "description": "Discover the Southern Cenote Coordinates: x=551 y=45 z=325",
-    "parent": "monumenta:pois/r1/jungle/southeast/hallowedpond"
-  },
-  "monumenta:pois/r1/jungle/southwest/abandonedtunnels": {
-    "title": "Abandoned Tunnels",
-    "description": "Discover the Abandoned Tunnels Coordinates: x=109 y=79 z=143",
-    "parent": "monumenta:pois/r1/jungle/southwest/earthshrine"
-  },
-  "monumenta:pois/r1/jungle/southwest/earthshrine": {
-    "title": "Earth Shrine",
-    "description": "Discover the Earth Shrine Coordinates: x=250 y=75 z=152",
-    "parent": "monumenta:pois/r1/jungle/southwest/root"
-  },
-  "monumenta:pois/r1/jungle/southwest/root": {
-    "title": "Southwestern Jungle",
-    "description": "Enter the Southwestern Jungle",
-    "parent": "monumenta:pois/r1/jungle/root"
-  },
-  "monumenta:pois/r1/jungle/southwest/serpentruins": {
-    "title": "Serpent Ruins",
-    "description": "Discover the Serpent Ruins Coordinates: x=22 y=127 z=148",
-    "parent": "monumenta:pois/r1/jungle/southwest/abandonedtunnels"
-  },
-  "monumenta:pois/r1/jungle/southwest/southjaguar": {
-    "title": "Southern Jaguar Village",
-    "description": "Discover the Southern Jaguar Village Coordinates: x=107 y=72 z=95",
-    "parent": "monumenta:pois/r1/jungle/southwest/serpentruins"
-  },
-  "monumenta:pois/r1/jungle/southwest/templetomemory": {
-    "title": "Altar of Evocation",
-    "description": "Discover the Altar of Evocation Coordinates: x=216 y=92 z=144",
-    "parent": "monumenta:pois/r1/jungle/southwest/southjaguar"
-  },
-  "monumenta:pois/r1/root": {
-    "title": "King's Valley",
-    "description": null
-  },
-  "monumenta:pois/r1/sea/aphelionisle": {
-    "title": "Aphelion Isle",
-    "description": "Discover the Aphelion Isle Coordinates: x=-1533 y=94 z=364",
-    "parent": "monumenta:pois/r1/sea/root_farwaters"
-  },
-  "monumenta:pois/r1/sea/bastionofspires": {
-    "title": "Bastion of Spires",
-    "description": "Discover the Bastion of Spires Coordinates: x=-1358 y=92 z=-291",
-    "parent": "monumenta:pois/r1/sea/aphelionisle"
-  },
-  "monumenta:pois/r1/sea/cathedralofthedeep": {
-    "title": "Cathedral of the Deep",
-    "description": "Discover the Cathedral of the Deep Coordinates: x=-1596 y=34 z=355",
-    "parent": "monumenta:pois/r1/sea/cloudpiercer"
-  },
-  "monumenta:pois/r1/sea/cloudpiercer": {
-    "title": "Cloud Piercer",
-    "description": "Discover the Cloud Piercer Coordinates: x=-1473 y=128 z=-265",
-    "parent": "monumenta:pois/r1/sea/bastionofspires"
-  },
-  "monumenta:pois/r1/sea/forsakenwatchtower": {
-    "title": "Forsaken Watchtower",
-    "description": "Discover the Forsaken Watchtower Coordinates: x=-1416 y=95 z=333",
-    "parent": "monumenta:pois/r1/sea/cathedralofthedeep"
-  },
-  "monumenta:pois/r1/sea/root": {
-    "title": "Narsen Sea",
-    "description": "Enter the Narsen Sea",
-    "parent": "monumenta:pois/r1/root"
-  },
-  "monumenta:pois/r1/sea/root_farwaters": {
-    "title": "Far Waters",
-    "description": "Enter the Far Waters",
-    "parent": "monumenta:pois/r1/sea/root"
-  },
-  "monumenta:pois/r1/sea/root_royalshoreline": {
-    "title": "Royal Shoreline",
-    "description": "Enter the Royal Shoreline",
-    "parent": "monumenta:pois/r1/sea/root"
-  },
-  "monumenta:pois/r1/sea/seaoutpost": {
-    "title": "Sea Outpost",
-    "description": "Discover the Sea Outpost Coordinates: x=-1161 y=92 z=-176",
-    "parent": "monumenta:pois/r1/sea/root_royalshoreline"
-  },
-  "monumenta:pois/r1/sea/shroomboundgrotto": {
-    "title": "Shroombound Grotto",
-    "description": "Discover the Shroombound Grotto Coordinates: x=-1079 y=92 z=359",
-    "parent": "monumenta:pois/r1/sea/submergedgateway"
-  },
-  "monumenta:pois/r1/sea/submergedgateway": {
-    "title": "Submerged Gateway",
-    "description": "Discover the Submerged Gateway Coordinates: x=-1141 y=90 z=238",
-    "parent": "monumenta:pois/r1/sea/toxinlab"
-  },
-  "monumenta:pois/r1/sea/sunkencity": {
-    "title": "Sunken City",
-    "description": "Discover the Sunken City Coordinates: x=-1362 y=95 z=-147",
-    "parent": "monumenta:pois/r1/sea/forsakenwatchtower"
-  },
-  "monumenta:pois/r1/sea/toxinlab": {
-    "title": "Toxin Lab",
-    "description": "Discover the Toxin Lab Coordinates: x=-1223 y=88 z=93",
-    "parent": "monumenta:pois/r1/sea/witheredhideout"
-  },
-  "monumenta:pois/r1/sea/witheredhideout": {
-    "title": "Withered Hideout",
-    "description": "Discover the Withered Hideout Coordinates: x=-1219 y=93 z=426",
-    "parent": "monumenta:pois/r1/sea/seaoutpost"
-  },
-  "monumenta:pois/r1/swamp/east/easternmine": {
-    "title": "Eastern Mineshaft",
-    "description": "Discover the Eastern Mineshaft Coordinates: x=-334 y=101 z=-159",
-    "parent": "monumenta:pois/r1/swamp/east/root"
-  },
-  "monumenta:pois/r1/swamp/east/fireshrine": {
-    "title": "Fire Shrine",
-    "description": "Discover the Fire Shrine Coordinates: x=-240 y=92 z=84",
-    "parent": "monumenta:pois/r1/swamp/east/fishinghuts"
-  },
-  "monumenta:pois/r1/swamp/east/fishinghuts": {
-    "title": "Fishing Huts",
-    "description": "Discover the Fishing Huts Coordinates: x=-369 y=91 z=5",
-    "parent": "monumenta:pois/r1/swamp/east/watershrine"
-  },
-  "monumenta:pois/r1/swamp/east/root": {
-    "title": "Eastern Swamplands",
-    "description": "Enter the Eastern Swamplands",
-    "parent": "monumenta:pois/r1/swamp/root"
-  },
-  "monumenta:pois/r1/swamp/east/ruineddocks": {
-    "title": "Ruined Docks",
-    "description": "Discover the Ruined Docks Coordinates: x=-401 y=93 z=208",
-    "parent": "monumenta:pois/r1/swamp/east/easternmine"
-  },
-  "monumenta:pois/r1/swamp/east/theoldtower": {
-    "title": "The Old Tower",
-    "description": "Discover the Old Tower Coordinates: x=-441 y=91 z=-163",
-    "parent": "monumenta:pois/r1/swamp/east/fireshrine"
-  },
-  "monumenta:pois/r1/swamp/east/watershrine": {
-    "title": "Water Shrine",
-    "description": "Discover the Water Shrine Coordinates: x=-317 y=91 z=-55",
-    "parent": "monumenta:pois/r1/swamp/east/ruineddocks"
-  },
-  "monumenta:pois/r1/swamp/north/banditcamp": {
-    "title": "Bandit Camp",
-    "description": "Discover the Bandit Camp Coordinates: x=-397 y=92 z=-376",
-    "parent": "monumenta:pois/r1/swamp/north/root"
-  },
-  "monumenta:pois/r1/swamp/north/banditstronghold": {
-    "title": "Bandit Stronghold",
-    "description": "Discover the Bandit Stronghold Coordinates: x=-829 y=97 z=-392",
-    "parent": "monumenta:pois/r1/swamp/north/waterfallisland"
-  },
-  "monumenta:pois/r1/swamp/north/ctelsketsmemory": {
-    "title": "C'Telsket's Memory",
-    "description": "Discover C'Telsket's Memory Coordinates: x=-923 y=86 z=-133",
-    "parent": "monumenta:pois/r1/swamp/north/banditstronghold"
-  },
-  "monumenta:pois/r1/swamp/north/magetower": {
-    "title": "Mage Tower",
-    "description": "Discover the Mage Tower Coordinates: x=-523 y=119 z=-518",
-    "parent": "monumenta:pois/r1/swamp/north/banditcamp"
-  },
-  "monumenta:pois/r1/swamp/north/mercenarycamp": {
-    "title": "Mercenary Fort",
-    "description": "Discover the Mercenary Fort Coordinates: x=-299 y=93 z=-244",
-    "parent": "monumenta:pois/r1/swamp/north/magetower"
-  },
-  "monumenta:pois/r1/swamp/north/northmine": {
-    "title": "Northern Mineshaft",
-    "description": "Discover the Northern Mineshaft Coordinates: x=-806 y=94 z=-370",
-    "parent": "monumenta:pois/r1/swamp/north/mercenarycamp"
-  },
-  "monumenta:pois/r1/swamp/north/root": {
-    "title": "Northern Swamplands",
-    "description": "Enter the Northern Swamplands",
-    "parent": "monumenta:pois/r1/swamp/root"
-  },
-  "monumenta:pois/r1/swamp/north/sinkhole": {
-    "title": "Swamp Sinkhole",
-    "description": "Discover the Swamp Sinkhole Coordinates: x=-669 y=78 z=-348",
-    "parent": "monumenta:pois/r1/swamp/north/northmine"
-  },
-  "monumenta:pois/r1/swamp/north/waterfallisland": {
-    "title": "Waterfall Island",
-    "description": "Discover the Waterfall Island Coordinates: x=-667 y=90 z=-408",
-    "parent": "monumenta:pois/r1/swamp/north/sinkhole"
-  },
-  "monumenta:pois/r1/swamp/root": {
-    "title": "Swamplands",
-    "description": "Enter the Swamplands",
-    "parent": "monumenta:pois/r1/root"
-  },
-  "monumenta:pois/r1/swamp/south/hauntedmine": {
-    "title": "Haunted Mine",
-    "description": "Discover the Haunted Mine Coordinates: x=-652 y=119 z=537",
-    "parent": "monumenta:pois/r1/swamp/south/root"
-  },
-  "monumenta:pois/r1/swamp/south/lighthouse": {
-    "title": "Lighthouse",
-    "description": "Discover the Lighthouse Coordinates: x=-822 y=100 z=427",
-    "parent": "monumenta:pois/r1/swamp/south/hauntedmine"
-  },
-  "monumenta:pois/r1/swamp/south/riftofthedrowned": {
-    "title": "Rift of the Drowned",
-    "description": "Discover the Rift of the Drowned Coordinates: x=-479 y=93 z=309",
-    "parent": "monumenta:pois/r1/swamp/south/witchvillage"
-  },
-  "monumenta:pois/r1/swamp/south/root": {
-    "title": "Southern Swamplands",
-    "description": "Enter the Southern Swamplands",
-    "parent": "monumenta:pois/r1/swamp/root"
-  },
-  "monumenta:pois/r1/swamp/south/southeasternmine": {
-    "title": "Southeastern Mineshaft",
-    "description": "Discover the Southeastern Mineshaft Coordinates: x=-352 y=95 z=275",
-    "parent": "monumenta:pois/r1/swamp/south/lighthouse"
-  },
-  "monumenta:pois/r1/swamp/south/southernmine": {
-    "title": "Southern Mineshaft",
-    "description": "Discover the Southern Mineshaft Coordinates: x=-536 y=98 z=461",
-    "parent": "monumenta:pois/r1/swamp/south/southeasternmine"
-  },
-  "monumenta:pois/r1/swamp/south/southernvillage": {
-    "title": "Southern Village",
-    "description": "Discover the Southern Village Coordinates: x=-642 y=92 z=428",
-    "parent": "monumenta:pois/r1/swamp/south/southernmine"
-  },
-  "monumenta:pois/r1/swamp/south/witchvillage": {
-    "title": "Witch Village",
-    "description": "Discover the Witch Village Coordinates: x=-387 y=95 z=401",
-    "parent": "monumenta:pois/r1/swamp/south/southernvillage"
-  },
-  "monumenta:pois/r2/chillwind/crystalshroom_valley/bandit_encampment": {
-    "title": "Bandit Encampment",
-    "description": "Discover the Bandit Encampment Coordinates: x=-1591 y=103 z=599",
-    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/root"
-  },
-  "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_forest_grove": {
-    "title": "Crystal Forest Grove",
-    "description": "Discover the Crystal Forest Grove Coordinates: x=-1733 y=110 z=422",
-    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/bandit_encampment"
-  },
-  "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_mines": {
-    "title": "Crystal Mines",
-    "description": "Discover the Crystal Mines Coordinates: x=-1581 y=111 z=296",
-    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_forest_grove"
-  },
-  "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_outpost": {
-    "title": "Crystal Outpost",
-    "description": "Discover the Crystal Outpost Coordinates: x=-1933 y=83 z=606",
-    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_mines"
-  },
-  "monumenta:pois/r2/chillwind/crystalshroom_valley/igloos_and_you": {
-    "title": "Igloos and You",
-    "description": "Discover the Igloos and You Coordinates: x=-1704 y=112 z=552",
-    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/crystal_outpost"
-  },
-  "monumenta:pois/r2/chillwind/crystalshroom_valley/irilyth": {
-    "title": "Irilyth",
-    "description": "Discover Irilyth Coordinates: x=-1597 y=109 z=497",
-    "parent": "monumenta:pois/r2/chillwind/crystalshroom_valley/igloos_and_you"
-  },
-  "monumenta:pois/r2/chillwind/crystalshroom_valley/root": {
-    "title": "Crystalshroom Valley",
-    "description": "Enter the Crystalshroom Valley",
-    "parent": "monumenta:pois/r2/chillwind/root"
-  },
-  "monumenta:pois/r2/chillwind/forest/abandoned_winery": {
-    "title": "Abandoned Winery",
-    "description": "Discover the Abandoned Winery Coordinates: x=-1790 y=111 z=859",
-    "parent": "monumenta:pois/r2/chillwind/forest/root"
-  },
-  "monumenta:pois/r2/chillwind/forest/fall_shrine": {
-    "title": "Fall Shrine",
-    "description": "Discover the Fall Shrine Coordinates: x=-1738 y=97 z=1008",
-    "parent": "monumenta:pois/r2/chillwind/forest/abandoned_winery"
-  },
-  "monumenta:pois/r2/chillwind/forest/ice_mine": {
-    "title": "Ice Mine",
-    "description": "Discover the Ice Mine Coordinates: x=-1447 y=88 z=719",
-    "parent": "monumenta:pois/r2/chillwind/forest/fall_shrine"
-  },
-  "monumenta:pois/r2/chillwind/forest/mini_mining_camp": {
-    "title": "Mini Mining Camp",
-    "description": "Discover the Mini Mining Camp Coordinates: x=-1660 y=112 z=644",
-    "parent": "monumenta:pois/r2/chillwind/forest/ice_mine"
-  },
-  "monumenta:pois/r2/chillwind/forest/root": {
-    "title": "Forest",
-    "description": "Enter the Forest",
-    "parent": "monumenta:pois/r2/chillwind/root"
-  },
-  "monumenta:pois/r2/chillwind/forest/smugglers_cabin": {
-    "title": "Smuggler's Cabin",
-    "description": "Discover the Smuggler's Cabin Coordinates: x=-1565 y=94 z=753",
-    "parent": "monumenta:pois/r2/chillwind/forest/mini_mining_camp"
-  },
-  "monumenta:pois/r2/chillwind/forest/supply_fort": {
-    "title": "Supply Fort",
-    "description": "Discover the Supply Fort Coordinates: x=-1727 y=94 z=834",
-    "parent": "monumenta:pois/r2/chillwind/forest/smugglers_cabin"
-  },
-  "monumenta:pois/r2/chillwind/forest/tundra_lighthouse": {
-    "title": "Tundra Lighthouse",
-    "description": "Discover the Tundra Lighthouse Coordinates: x=-1726 y=104 z=679",
-    "parent": "monumenta:pois/r2/chillwind/forest/supply_fort"
-  },
-  "monumenta:pois/r2/chillwind/mountains/bandits_by_the_sea": {
-    "title": "Bandits By The Sea",
-    "description": "Discover the Bandits By The Sea Coordinates: x=-1130 y=106 z=92",
-    "parent": "monumenta:pois/r2/chillwind/mountains/root"
-  },
-  "monumenta:pois/r2/chillwind/mountains/brewery": {
-    "title": "Brewery",
-    "description": "Discover the Brewery Coordinates: x=-1372 y=111 z=204",
-    "parent": "monumenta:pois/r2/chillwind/mountains/bandits_by_the_sea"
-  },
-  "monumenta:pois/r2/chillwind/mountains/cliffside_ruins": {
-    "title": "Cliffside Ruins",
-    "description": "Discover the Cliffside Ruins Coordinates: x=-1836 y=121 z=202",
-    "parent": "monumenta:pois/r2/chillwind/mountains/brewery"
-  },
-  "monumenta:pois/r2/chillwind/mountains/frigid_laboratory": {
-    "title": "Frigid Laboratory",
-    "description": "Discover the Frigid Laboratory Coordinates: x=-1593 y=102 z=-117",
-    "parent": "monumenta:pois/r2/chillwind/mountains/cliffside_ruins"
-  },
-  "monumenta:pois/r2/chillwind/mountains/grim_towers": {
-    "title": "The Grim Towers",
-    "description": "Discover the Grim Towers Coordinates: x=-1505 y=99 z=-148",
-    "parent": "monumenta:pois/r2/chillwind/mountains/stargazers_hideaway"
-  },
-  "monumenta:pois/r2/chillwind/mountains/hot_springs": {
-    "title": "Hot Springs",
-    "description": "Discover the Hot Springs Coordinates: x=-1381 y=134 z=63",
-    "parent": "monumenta:pois/r2/chillwind/mountains/frigid_laboratory"
-  },
-  "monumenta:pois/r2/chillwind/mountains/mountain_market": {
-    "title": "Mountain Market",
-    "description": "Discover the Mountain Market Coordinates: x=-1594 y=133 z=65",
-    "parent": "monumenta:pois/r2/chillwind/mountains/hot_springs"
-  },
-  "monumenta:pois/r2/chillwind/mountains/mountainside_hideaway": {
-    "title": "Mountainside Hideaway",
-    "description": "Discover the Mountainside Hideaway Coordinates: x=-1367 y=111 z=-97",
-    "parent": "monumenta:pois/r2/chillwind/mountains/mountain_market"
-  },
-  "monumenta:pois/r2/chillwind/mountains/mountaintop_bandits": {
-    "title": "Mountaintop Bandits",
-    "description": "Discover the Mountaintop Bandits Coordinates: x=-1510 y=133 z=137",
-    "parent": "monumenta:pois/r2/chillwind/mountains/mountainside_hideaway"
-  },
-  "monumenta:pois/r2/chillwind/mountains/root": {
-    "title": "Mountains",
-    "description": "Enter the Mountains",
-    "parent": "monumenta:pois/r2/chillwind/root"
-  },
-  "monumenta:pois/r2/chillwind/mountains/smitten_library": {
-    "title": "Smitten Library",
-    "description": "Discover the Smitten Library Coordinates: x=-1327 y=151 z=95",
-    "parent": "monumenta:pois/r2/chillwind/mountains/mountaintop_bandits"
-  },
-  "monumenta:pois/r2/chillwind/mountains/stargazers_hideaway": {
-    "title": "Stargazer's Hideaway",
-    "description": "Discover the Stargazer's Hideaway Coordinates: x=-1388 y=129 z=-171",
-    "parent": "monumenta:pois/r2/chillwind/mountains/smitten_library"
-  },
-  "monumenta:pois/r2/chillwind/mountains/underground_settlement": {
-    "title": "Underground Settlement",
-    "description": "Discover the Underground Settlement Coordinates: x=-1290 y=121 z=116",
-    "parent": "monumenta:pois/r2/chillwind/mountains/grim_towers"
-  },
-  "monumenta:pois/r2/chillwind/mountains/weathered_citadel": {
-    "title": "Weathered Citadel",
-    "description": "Discover the Weathered Citadel Coordinates: x=-1219 y=104 z=236",
-    "parent": "monumenta:pois/r2/chillwind/mountains/underground_settlement"
-  },
-  "monumenta:pois/r2/chillwind/mountains/weathered_tower": {
-    "title": "Weathered Tower",
-    "description": "Discover the Weathered Tower Coordinates: x=-1171 y=113 z=22",
-    "parent": "monumenta:pois/r2/chillwind/mountains/weathered_citadel"
-  },
-  "monumenta:pois/r2/chillwind/mountains/whitecliffe_citadel": {
-    "title": "Whitecliffe Citadel",
-    "description": "Discover the Whitecliffe Citadel Coordinates: x=-1611 y=133 z=5",
-    "parent": "monumenta:pois/r2/chillwind/mountains/weathered_tower"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/abandoned_snowman_settlement": {
-    "title": "Abandoned Snowman Settlement",
-    "description": "Discover the Abandoned Snowman Settlement Coordinates: x=-1308 y=101 z=784",
-    "parent": "monumenta:pois/r2/chillwind/permafrost/root"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/frostbitten_caves": {
-    "title": "Frostbitten Caves",
-    "description": "Discover the Frostbitten Caves Coordinates: x=-1044 y=82 z=796",
-    "parent": "monumenta:pois/r2/chillwind/permafrost/abandoned_snowman_settlement"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/frostgate_ruins": {
-    "title": "Frostgate Ruins",
-    "description": "Discover the Frostgate Ruins Coordinates: x=-1267 y=87 z=933",
-    "parent": "monumenta:pois/r2/chillwind/permafrost/frostbitten_caves"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/ice_boat": {
-    "title": "Ice Boat",
-    "description": "Discover the Ice Boat Coordinates: x=-1259 y=78 z=1061",
-    "parent": "monumenta:pois/r2/chillwind/permafrost/frostgate_ruins"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/ice_castle": {
-    "title": "Ice Castle",
-    "description": "Discover the Ice Castle Coordinates: x=-1282 y=119 z=678",
-    "parent": "monumenta:pois/r2/chillwind/permafrost/ice_boat"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/military_base": {
-    "title": "Military Base",
-    "description": "Discover the Military Base Coordinates: x=-1174 y=86 z=947",
-    "parent": "monumenta:pois/r2/chillwind/permafrost/ice_castle"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/raider_camp": {
-    "title": "Raider Camp",
-    "description": "Discover the Raider Camp Coordinates: x=-1197 y=87 z=863",
-    "parent": "monumenta:pois/r2/chillwind/permafrost/military_base"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/root": {
-    "title": "Permafrost",
-    "description": "Enter the Permafrost",
-    "parent": "monumenta:pois/r2/chillwind/root"
-  },
-  "monumenta:pois/r2/chillwind/permafrost/sealed_descent": {
-    "title": "Sealed Descent",
-    "description": "Discover the Sealed Descent Coordinates: x=-1098 y=118 z=681",
-    "parent": "monumenta:pois/r2/chillwind/permafrost/raider_camp"
-  },
-  "monumenta:pois/r2/chillwind/root": {
-    "title": "Chillwind",
-    "description": "Enter the Chillwind Tundra",
-    "parent": "monumenta:pois/r2/root"
-  },
-  "monumenta:pois/r2/chillwind/tundra/archaeological_dig_site": {
-    "title": "Archaeological Dig Site",
-    "description": "Discover the Archaeological Dig Site Coordinates: x=-1260 y=77 z=566",
-    "parent": "monumenta:pois/r2/chillwind/tundra/root"
-  },
-  "monumenta:pois/r2/chillwind/tundra/church_of_munk": {
-    "title": "Church of Munk",
-    "description": "Discover the Church of Munk Coordinates: x=-1180 y=108 z=474",
-    "parent": "monumenta:pois/r2/chillwind/tundra/archaeological_dig_site"
-  },
-  "monumenta:pois/r2/chillwind/tundra/fortress_of_bacon": {
-    "title": "Fortress of Bacon",
-    "description": "Discover the Fortress of Bacon Coordinates: x=-1477 y=103 z=497",
-    "parent": "monumenta:pois/r2/chillwind/tundra/church_of_munk"
-  },
-  "monumenta:pois/r2/chillwind/tundra/kreepa_kastle": {
-    "title": "Kreepa Kastle",
-    "description": "Discover the Kreepa Kastle Coordinates: x=-1629 y=134 z=165",
-    "parent": "monumenta:pois/r2/chillwind/tundra/fortress_of_bacon"
-  },
-  "monumenta:pois/r2/chillwind/tundra/riverbed_cavern": {
-    "title": "Riverbed Cavern",
-    "description": "Discover the Riverbed Cavern Coordinates: x=-1358 y=91 z=455",
-    "parent": "monumenta:pois/r2/chillwind/tundra/kreepa_kastle"
-  },
-  "monumenta:pois/r2/chillwind/tundra/rogues_fortress": {
-    "title": "Rogue's Fortress",
-    "description": "Discover the Rogue's Fortress Coordinates: x=-1121 y=104 z=369",
-    "parent": "monumenta:pois/r2/chillwind/tundra/riverbed_cavern"
-  },
-  "monumenta:pois/r2/chillwind/tundra/root": {
-    "title": "Icelands",
-    "description": "Enter the Icelands",
-    "parent": "monumenta:pois/r2/chillwind/root"
-  },
-  "monumenta:pois/r2/chillwind/tundra/ship_landing_zone": {
-    "title": "Ship Landing Zone",
-    "description": "Discover the Ship Landing Zone Coordinates: x=-1080 y=96 z=420",
-    "parent": "monumenta:pois/r2/chillwind/tundra/rogues_fortress"
-  },
-  "monumenta:pois/r2/chillwind/tundra/silver_tower": {
-    "title": "Silver Tower",
-    "description": "Discover the Silver Tower Coordinates: x=-1872 y=89 z=419",
-    "parent": "monumenta:pois/r2/chillwind/tundra/ship_landing_zone"
-  },
-  "monumenta:pois/r2/chillwind/tundra/winter_shrine": {
-    "title": "Winter Shrine",
-    "description": "Discover the Winter Shrine Coordinates: x=-1253 y=143 z=322",
-    "parent": "monumenta:pois/r2/chillwind/tundra/silver_tower"
-  },
-  "monumenta:pois/r2/desert/canyonlands/abandoned_lab": {
-    "title": "Abandoned Lab",
-    "description": "Discover the Abandoned Lab Coordinates: x=25 y=92 z=652",
-    "parent": "monumenta:pois/r2/desert/canyonlands/root"
-  },
-  "monumenta:pois/r2/desert/canyonlands/canyon_bandit_camp": {
-    "title": "Canyon Bandit Camp",
-    "description": "Discover the Canyon Bandit Camp Coordinates: x=-21 y=56 z=639",
-    "parent": "monumenta:pois/r2/desert/canyonlands/library"
-  },
-  "monumenta:pois/r2/desert/canyonlands/cavern_of_cinders": {
-    "title": "Cavern of Cinders",
-    "description": "Discover the Cavern of Cinders Coordinates: x=-73 y=61 z=497",
-    "parent": "monumenta:pois/r2/desert/canyonlands/canyon_bandit_camp"
-  },
-  "monumenta:pois/r2/desert/canyonlands/cinders_roost": {
-    "title": "Cinder's Roost",
-    "description": "Discover the Cinder's Roost Coordinates: x=126 y=131 z=619",
-    "parent": "monumenta:pois/r2/desert/canyonlands/cavern_of_cinders"
-  },
-  "monumenta:pois/r2/desert/canyonlands/library": {
-    "title": "Abandoned Library",
-    "description": "Discover the Abandoned Library Coordinates: x=-44 y=131 z=577",
-    "parent": "monumenta:pois/r2/desert/canyonlands/abandoned_lab"
-  },
-  "monumenta:pois/r2/desert/canyonlands/lost_lava_labs": {
-    "title": "Lost Lava Labs",
-    "description": "Discover the Lost Lava Labs Coordinates: x=-88 y=49 z=599",
-    "parent": "monumenta:pois/r2/desert/canyonlands/cinders_roost"
-  },
-  "monumenta:pois/r2/desert/canyonlands/marble_mine": {
-    "title": "Marble Mine",
-    "description": "Discover the Marble Mine Coordinates: x=-145 y=74 z=514",
-    "parent": "monumenta:pois/r2/desert/canyonlands/lost_lava_labs"
-  },
-  "monumenta:pois/r2/desert/canyonlands/rockspider_cavern": {
-    "title": "Rockspider Cavern",
-    "description": "Discover the Rockspider Cavern Coordinates: x=145 y=61 z=534",
-    "parent": "monumenta:pois/r2/desert/canyonlands/marble_mine"
-  },
-  "monumenta:pois/r2/desert/canyonlands/root": {
-    "title": "Canyonlands",
-    "description": "Enter the Canyonlands",
-    "parent": "monumenta:pois/r2/desert/root"
-  },
-  "monumenta:pois/r2/desert/canyonlands/sunken_tower": {
-    "title": "Sunken Tower",
-    "description": "Discover the Sunken Tower Coordinates: x=-3 y=88 z=474",
-    "parent": "monumenta:pois/r2/desert/canyonlands/rockspider_cavern"
-  },
-  "monumenta:pois/r2/desert/mesa/antlion_pit": {
-    "title": "Antlion Pit",
-    "description": "Discover the Antlion Pit Coordinates: x=431 y=90 z=-94",
-    "parent": "monumenta:pois/r2/desert/mesa/root"
-  },
-  "monumenta:pois/r2/desert/mesa/ashen_fortress": {
-    "title": "Ashen Fortress",
-    "description": "Discover the Ashen Fortress Coordinates: x=388 y=137 z=11",
-    "parent": "monumenta:pois/r2/desert/mesa/antlion_pit"
-  },
-  "monumenta:pois/r2/desert/mesa/basanite_bore": {
-    "title": "Basanite Bore",
-    "description": "Discover the Basanite Bore Coordinates: x=41 y=117 z=285",
-    "parent": "monumenta:pois/r2/desert/mesa/ashen_fortress"
-  },
-  "monumenta:pois/r2/desert/mesa/charn": {
-    "title": "Charn",
-    "description": "Discover the Charn Coordinates: x=303 y=92 z=265",
-    "parent": "monumenta:pois/r2/desert/mesa/basanite_bore"
-  },
-  "monumenta:pois/r2/desert/mesa/corrupted_fort": {
-    "title": "Corrupted Fort",
-    "description": "Discover the Corrupted Fort Coordinates: x=103 y=135 z=-39",
-    "parent": "monumenta:pois/r2/desert/mesa/charn"
-  },
-  "monumenta:pois/r2/desert/mesa/crystal_crown": {
-    "title": "Crystal Crown",
-    "description": "Discover the Crystal Crown Coordinates: x=354 y=123 z=124",
-    "parent": "monumenta:pois/r2/desert/mesa/corrupted_fort"
-  },
-  "monumenta:pois/r2/desert/mesa/emberborne_sanctuary": {
-    "title": "Emberborne Sanctuary",
-    "description": "Discover the Emberborne Sanctuary Coordinates: x=-122 y=96 z=345",
-    "parent": "monumenta:pois/r2/desert/mesa/crystal_crown"
-  },
-  "monumenta:pois/r2/desert/mesa/floating_fortress": {
-    "title": "Floating Fortress",
-    "description": "Discover the Floating Fortress Coordinates: x=53 y=152 z=-94",
-    "parent": "monumenta:pois/r2/desert/mesa/emberborne_sanctuary"
-  },
-  "monumenta:pois/r2/desert/mesa/hill_fortress": {
-    "title": "Hill Fortress",
-    "description": "Discover the Hill Fortress Coordinates: x=66 y=142 z=61",
-    "parent": "monumenta:pois/r2/desert/mesa/floating_fortress"
-  },
-  "monumenta:pois/r2/desert/mesa/magmashroom_mine": {
-    "title": "Magmashroom Mine",
-    "description": "Discover the Magmashroom Mine Coordinates: x=-109 y=103 z=48",
-    "parent": "monumenta:pois/r2/desert/mesa/hill_fortress"
-  },
-  "monumenta:pois/r2/desert/mesa/root": {
-    "title": "Mesa",
-    "description": "Enter the Mesa",
-    "parent": "monumenta:pois/r2/desert/root"
-  },
-  "monumenta:pois/r2/desert/mesa/scorch_valley": {
-    "title": "Scorch Valley",
-    "description": "Discover the Scorch Valley Coordinates: x=525 y=89 z=103",
-    "parent": "monumenta:pois/r2/desert/mesa/magmashroom_mine"
-  },
-  "monumenta:pois/r2/desert/mesa/terracotta_mining_town": {
-    "title": "Terracotta Mining Town",
-    "description": "Discover the Terracotta Mining Town Coordinates: x=142 y=120 z=343",
-    "parent": "monumenta:pois/r2/desert/mesa/scorch_valley"
-  },
-  "monumenta:pois/r2/desert/mesa/twilight_aqueduct": {
-    "title": "Twilight Aqueduct",
-    "description": "Discover the Twilight Aqueduct Coordinates: x=654 y=88 z=21",
-    "parent": "monumenta:pois/r2/desert/mesa/terracotta_mining_town"
-  },
-  "monumenta:pois/r2/desert/mesa/twilight_ruins": {
-    "title": "Twilight Ruins",
-    "description": "Discover the Twilight Ruins Coordinates: x=579 y=94 z=-21",
-    "parent": "monumenta:pois/r2/desert/mesa/twilight_aqueduct"
-  },
-  "monumenta:pois/r2/desert/oasis/aquamarine_monastery": {
-    "title": "Aquamarine Monastery",
-    "description": "Discover the Aquamarine Monastery Coordinates: x=272 y=80 z=641",
-    "parent": "monumenta:pois/r2/desert/oasis/root"
-  },
-  "monumenta:pois/r2/desert/oasis/arcane_spire": {
-    "title": "Arcane Spire",
-    "description": "Discover the Arcane Spire Coordinates: x=209 y=89 z=780",
-    "parent": "monumenta:pois/r2/desert/oasis/aquamarine_monastery"
-  },
-  "monumenta:pois/r2/desert/oasis/cave_village": {
-    "title": "Cave Village",
-    "description": "Discover the Cave Village Coordinates: x=78 y=80 z=877",
-    "parent": "monumenta:pois/r2/desert/oasis/arcane_spire"
-  },
-  "monumenta:pois/r2/desert/oasis/charred_arcanery": {
-    "title": "Charred Arcanery",
-    "description": "Discover the Charred Arcanery Coordinates: x=59 y=103 z=934",
-    "parent": "monumenta:pois/r2/desert/oasis/cave_village"
-  },
-  "monumenta:pois/r2/desert/oasis/dehydrated_oasis": {
-    "title": "Dehydrated Oasis",
-    "description": "Discover the Dehydrated Oasis Coordinates: x=24 y=88 z=749",
-    "parent": "monumenta:pois/r2/desert/oasis/charred_arcanery"
-  },
-  "monumenta:pois/r2/desert/oasis/mini_oasis": {
-    "title": "Mini Oasis",
-    "description": "Discover the Mini Oasis Coordinates: x=318 y=88 z=1027",
-    "parent": "monumenta:pois/r2/desert/oasis/dehydrated_oasis"
-  },
-  "monumenta:pois/r2/desert/oasis/oasis_town": {
-    "title": "Oasis Town",
-    "description": "Discover the Oasis Town Coordinates: x=226 y=93 z=941",
-    "parent": "monumenta:pois/r2/desert/oasis/mini_oasis"
-  },
-  "monumenta:pois/r2/desert/oasis/palm_tree_paradise": {
-    "title": "Palm Tree Paradise",
-    "description": "Discover the Palm Tree Paradise Coordinates: x=-35 y=102 z=915",
-    "parent": "monumenta:pois/r2/desert/oasis/oasis_town"
-  },
-  "monumenta:pois/r2/desert/oasis/refuge_of_the_drowned": {
-    "title": "Refuge of the Drowned",
-    "description": "Discover the Refuge of the Drowned Coordinates: x=155 y=83 z=1042",
-    "parent": "monumenta:pois/r2/desert/oasis/palm_tree_paradise"
-  },
-  "monumenta:pois/r2/desert/oasis/root": {
-    "title": "Oasis",
-    "description": "Enter the Oasis",
-    "parent": "monumenta:pois/r2/desert/root"
-  },
-  "monumenta:pois/r2/desert/root": {
-    "title": "Ishnir",
-    "description": "Enter the Ishnir Desert",
-    "parent": "monumenta:pois/r2/root"
-  },
-  "monumenta:pois/r2/desert/trade_route/bandit_hideaway_hill": {
-    "title": "Bandit Hideaway Hill",
-    "description": "Discover the Bandit Hideaway Hill Coordinates: x=555 y=89 z=373",
-    "parent": "monumenta:pois/r2/desert/trade_route/root"
-  },
-  "monumenta:pois/r2/desert/trade_route/crystal_haven": {
-    "title": "Crystal Haven",
-    "description": "Discover the Crystal Haven Coordinates: x=493 y=100 z=387",
-    "parent": "monumenta:pois/r2/desert/trade_route/bandit_hideaway_hill"
-  },
-  "monumenta:pois/r2/desert/trade_route/lost_sands_city": {
-    "title": "Lost Sands City",
-    "description": "Discover the Lost Sands City Coordinates: x=224 y=93 z=481",
-    "parent": "monumenta:pois/r2/desert/trade_route/crystal_haven"
-  },
-  "monumenta:pois/r2/desert/trade_route/mines_of_duality": {
-    "title": "Mines of Duality",
-    "description": "Discover the Mines of Duality Coordinates: x=491 y=114 z=258",
-    "parent": "monumenta:pois/r2/desert/trade_route/lost_sands_city"
-  },
-  "monumenta:pois/r2/desert/trade_route/riverbank_camp": {
-    "title": "Riverbank Camp",
-    "description": "Discover the Riverbank Camp Coordinates: x=354 y=92 z=542",
-    "parent": "monumenta:pois/r2/desert/trade_route/mines_of_duality"
-  },
-  "monumenta:pois/r2/desert/trade_route/root": {
-    "title": "Trade Route",
-    "description": "Enter the Trade Route",
-    "parent": "monumenta:pois/r2/desert/root"
-  },
-  "monumenta:pois/r2/desert/trade_route/silverbrooke_outpost": {
-    "title": "Silverbrooke Outpost",
-    "description": "Discover the Silverbrooke Outpost Coordinates: x=327 y=96 z=439",
-    "parent": "monumenta:pois/r2/desert/trade_route/riverbank_camp"
-  },
-  "monumenta:pois/r2/desert/trade_route/warehouse_compound": {
-    "title": "Warehouse Compound",
-    "description": "Discover the Warehouse Compound Coordinates: x=265 y=98 z=356",
-    "parent": "monumenta:pois/r2/desert/trade_route/silverbrooke_outpost"
-  },
-  "monumenta:pois/r2/ocean/early/abbey": {
-    "title": "Abbey of Angels",
-    "description": "Discover the Abbey of Angels Coordinates: x=-171 y=87 z=658",
-    "parent": "monumenta:pois/r2/ocean/early/root"
-  },
-  "monumenta:pois/r2/ocean/early/barracks_at_sea": {
-    "title": "Barracks at Sea",
-    "description": "Discover the Barracks at Sea Coordinates: x=-262 y=86 z=956",
-    "parent": "monumenta:pois/r2/ocean/early/abbey"
-  },
-  "monumenta:pois/r2/ocean/early/bastion_at_sea": {
-    "title": "Bastion at Sea",
-    "description": "Discover the Bastion at Sea Coordinates: x=-515 y=84 z=680",
-    "parent": "monumenta:pois/r2/ocean/early/barracks_at_sea"
-  },
-  "monumenta:pois/r2/ocean/early/corsairs_claw": {
-    "title": "Corsair's Claw",
-    "description": "Discover Corsair's Claw Coordinates: x=551 y=81 z=1407",
-    "parent": "monumenta:pois/r2/ocean/early/bastion_at_sea"
-  },
-  "monumenta:pois/r2/ocean/early/dueling_fleets": {
-    "title": "Dueling Fleets",
-    "description": "Discover the Dueling Fleets Coordinates: x=-1999 y=89 z=1079",
-    "parent": "monumenta:pois/r2/ocean/early/corsairs_claw"
-  },
-  "monumenta:pois/r2/ocean/early/garden_at_sea": {
-    "title": "Garden at Sea",
-    "description": "Discover the Garden at Sea Coordinates: x=-805 y=89 z=924",
-    "parent": "monumenta:pois/r2/ocean/early/dueling_fleets"
-  },
-  "monumenta:pois/r2/ocean/early/guardians_gate": {
-    "title": "Guardian's Gate",
-    "description": "Discover the Guardian's Gate Coordinates: x=-1769 y=81 z=1325",
-    "parent": "monumenta:pois/r2/ocean/early/garden_at_sea"
-  },
-  "monumenta:pois/r2/ocean/early/mystical_tower": {
-    "title": "Mystical Tower",
-    "description": "Discover the Mystical Tower Coordinates: x=-2028 y=84 z=1258",
-    "parent": "monumenta:pois/r2/ocean/early/guardians_gate"
-  },
-  "monumenta:pois/r2/ocean/early/root": {
-    "title": "Viridian Archipelago",
-    "description": "Enter the Viridian Archipelago",
-    "parent": "monumenta:pois/r2/ocean/root"
-  },
-  "monumenta:pois/r2/ocean/early/spring_shrine": {
-    "title": "Spring Shrine",
-    "description": "Discover the Spring Shrine Coordinates: x=219 y=100 z=1276",
-    "parent": "monumenta:pois/r2/ocean/early/mystical_tower"
-  },
-  "monumenta:pois/r2/ocean/early/summer_shrine": {
-    "title": "Summer Shrine",
-    "description": "Discover the Summer Shrine Coordinates: x=-1346 y=121 z=1350",
-    "parent": "monumenta:pois/r2/ocean/early/spring_shrine"
-  },
-  "monumenta:pois/r2/ocean/mid-late/city_of_bones": {
-    "title": "City of Bones",
-    "description": "Discover the City of Bones Coordinates: x=-2049 y=102 z=-494",
-    "parent": "monumenta:pois/r2/ocean/mid-late/root"
-  },
-  "monumenta:pois/r2/ocean/mid-late/crystalline_vault": {
-    "title": "Crystalline Vault",
-    "description": "Discover the Crystalline Vault Coordinates: x=-2149 y=58 z=596",
-    "parent": "monumenta:pois/r2/ocean/mid-late/city_of_bones"
-  },
-  "monumenta:pois/r2/ocean/mid-late/madmans_redoubt": {
-    "title": "Madman's Redoubt",
-    "description": "Discover the Madman's Redoubt Coordinates: x=-2166 y=82 z=-261",
-    "parent": "monumenta:pois/r2/ocean/mid-late/crystalline_vault"
-  },
-  "monumenta:pois/r2/ocean/mid-late/magmortic_atheneum": {
-    "title": "Magmortic Atheneum",
-    "description": "Discover the Magmortic Atheneum Coordinates: x=508 y=28 z=-357",
-    "parent": "monumenta:pois/r2/ocean/mid-late/madmans_redoubt"
-  },
-  "monumenta:pois/r2/ocean/mid-late/moltaria_palace": {
-    "title": "Moltaria Palace",
-    "description": "Discover the Moltaria Palace Coordinates: x=110 y=84 z=-549",
-    "parent": "monumenta:pois/r2/ocean/mid-late/magmortic_atheneum"
-  },
-  "monumenta:pois/r2/ocean/mid-late/root": {
-    "title": "Ocean's Reach",
-    "description": "Enter the Ocean's Reach",
-    "parent": "monumenta:pois/r2/ocean/root"
-  },
-  "monumenta:pois/r2/ocean/mid-late/rosebud_ruins": {
-    "title": "Rosebud Ruins",
-    "description": "Discover the Rosebud Ruins Coordinates: x=-761 y=102 z=217",
-    "parent": "monumenta:pois/r2/ocean/mid-late/moltaria_palace"
-  },
-  "monumenta:pois/r2/ocean/mid-late/sacrarium_of_aeons": {
-    "title": "Sacrarium of Aeons",
-    "description": "Discover the Sacrarium of Aeons Coordinates: x=-809 y=30 z=-455",
-    "parent": "monumenta:pois/r2/ocean/mid-late/rosebud_ruins"
-  },
-  "monumenta:pois/r2/ocean/mid-late/shifting_amalgam": {
-    "title": "Shifting Amalgam",
-    "description": "Discover the Shifting Amalgam",
-    "parent": "monumenta:pois/r2/ocean/mid-late/vengeance_of_the_sea"
-  },
-  "monumenta:pois/r2/ocean/mid-late/shroom_spires": {
-    "title": "Shroom Spires",
-    "description": "Discover the Shroom Spires Coordinates: x=-2019 y=84 z=-54",
-    "parent": "monumenta:pois/r2/ocean/mid-late/sacrarium_of_aeons"
-  },
-  "monumenta:pois/r2/ocean/mid-late/steelmeld_passage": {
-    "title": "Steelmeld Passage",
-    "description": "Discover the Steelmeld Passage Coordinates: x=-433 y=14 z=-495",
-    "parent": "monumenta:pois/r2/ocean/mid-late/shroom_spires"
-  },
-  "monumenta:pois/r2/ocean/mid-late/sunken_tomb": {
-    "title": "Sunken Tomb",
-    "description": "Discover the Sunken Tomb Coordinates: x=-321 y=83 z=26",
-    "parent": "monumenta:pois/r2/ocean/mid-late/steelmeld_passage"
-  },
-  "monumenta:pois/r2/ocean/mid-late/the_minefield": {
-    "title": "The Minefield",
-    "description": "Discover The Minefield Coordinates: x=-122 y=9 z=3318",
-    "parent": "monumenta:pois/r2/ocean/mid-late/sunken_tomb"
-  },
-  "monumenta:pois/r2/ocean/mid-late/vengeance_of_the_sea": {
-    "title": "Vengeance of the Sea",
-    "description": "Discover the Vengeance of the Sea Coordinates: x=-1662 y=80 z=-374",
-    "parent": "monumenta:pois/r2/ocean/mid-late/the_minefield"
-  },
-  "monumenta:pois/r2/ocean/mistport/feyrune_forest": {
-    "title": "Feyrune Forest",
-    "description": "Discover the Feyrune Forest Coordinates: x=-909 y=123 z=1536",
-    "parent": "monumenta:pois/r2/ocean/mistport/root"
-  },
-  "monumenta:pois/r2/ocean/mistport/fungus_thorn_cave": {
-    "title": "Fungus Thorn Cave",
-    "description": "Discover the Fungus Thorn Cave Coordinates: x=-590 y=106 z=1269",
-    "parent": "monumenta:pois/r2/ocean/mistport/feyrune_forest"
-  },
-  "monumenta:pois/r2/ocean/mistport/pineapple_plantation": {
-    "title": "Mr. Happy's Pineapple Plantation",
-    "description": "Discover Mr. Happy's Pineapple Plantation Coordinates: x=-289 y=86 z=1297",
-    "parent": "monumenta:pois/r2/ocean/mistport/fungus_thorn_cave"
-  },
-  "monumenta:pois/r2/ocean/mistport/root": {
-    "title": "Mistport Outlands",
-    "description": "Enter the Mistport Outlands",
-    "parent": "monumenta:pois/r2/ocean/root"
-  },
-  "monumenta:pois/r2/ocean/mistport/seigrit_mineshaft": {
-    "title": "Seigrit Mineshaft",
-    "description": "Discover the Seigrit Mineshaft Coordinates: x=-249 y=89 z=1548",
-    "parent": "monumenta:pois/r2/ocean/mistport/pineapple_plantation"
-  },
-  "monumenta:pois/r2/ocean/mistport/skull_island": {
-    "title": "Skull Island",
-    "description": "Discover the Skull Island Coordinates: x=-131 y=84 z=1468",
-    "parent": "monumenta:pois/r2/ocean/mistport/seigrit_mineshaft"
-  },
-  "monumenta:pois/r2/ocean/mistport/spiral_island": {
-    "title": "Spiral Island",
-    "description": "Discover the Spiral Island Coordinates: x=-772 y=86 z=1140",
-    "parent": "monumenta:pois/r2/ocean/mistport/skull_island"
-  },
-  "monumenta:pois/r2/ocean/mistport/sunken_ship": {
-    "title": "Sunken Ship",
-    "description": "Discover the Sunken Ship Coordinates: x=-1123 y=82 z=1601",
-    "parent": "monumenta:pois/r2/ocean/mistport/spiral_island"
-  },
-  "monumenta:pois/r2/ocean/mistport/tangled_cove": {
-    "title": "Tangled Cove",
-    "description": "Discover the Tangled Cove Coordinates: x=-696 y=84 z=1753",
-    "parent": "monumenta:pois/r2/ocean/mistport/taproot_ruins"
-  },
-  "monumenta:pois/r2/ocean/mistport/taproot_ruins": {
-    "title": "Taproot Ruins",
-    "description": "Discover the Taproot Ruins Coordinates: x=-562 y=141 z=1424",
-    "parent": "monumenta:pois/r2/ocean/mistport/sunken_ship"
-  },
-  "monumenta:pois/r2/ocean/mistport/the_watch": {
-    "title": "The Watch",
-    "description": "Discover The Watch Coordinates: x=-458 y=86 z=1092",
-    "parent": "monumenta:pois/r2/ocean/mistport/tangled_cove"
-  },
-  "monumenta:pois/r2/ocean/root": {
-    "title": "Ocean",
-    "description": "Enter the Celsian Ocean",
-    "parent": "monumenta:pois/r2/root"
-  },
-  "monumenta:pois/r2/root": {
-    "title": "Celsian Isles",
-    "description": null
-  },
-  "monumenta:pois/r3/pelias_keep/arx_spirensis": {
-    "title": "Arx Spirensis",
-    "description": "Discover the Arx Spirensis Coordinates: -487 60 15",
-    "parent": "monumenta:pois/r3/pelias_keep/submerged_citadel"
-  },
-  "monumenta:pois/r3/pelias_keep/doomed_encampment": {
-    "title": "Doomed Encampment",
-    "description": "Discover the Doomed Encampment Coordinates: -506 177 65",
-    "parent": "monumenta:pois/r3/pelias_keep/silvic_quarry"
-  },
-  "monumenta:pois/r3/pelias_keep/forsaken_manor": {
-    "title": "Forsaken Manor",
-    "description": "Discover the Forsaken Manor Coordinates: -462 181 139",
-    "parent": "monumenta:pois/r3/pelias_keep/arx_spirensis"
-  },
-  "monumenta:pois/r3/pelias_keep/quelled_convent": {
-    "title": "Quelled Convent",
-    "description": "Discover the Quelled Convent Coordinates: -365 186 35",
-    "parent": "monumenta:pois/r3/pelias_keep/forsaken_manor"
-  },
-  "monumenta:pois/r3/pelias_keep/root": {
-    "title": "Pelias' Keep",
-    "description": "Enter Pelias' Keep",
-    "parent": "monumenta:pois/r3/root"
-  },
-  "monumenta:pois/r3/pelias_keep/silvic_quarry": {
-    "title": "Silvic Quarry",
-    "description": "Discover the Silvic Quarry Coordinates: -543 183 -58",
-    "parent": "monumenta:pois/r3/pelias_keep/root"
-  },
-  "monumenta:pois/r3/pelias_keep/submerged_citadel": {
-    "title": "Submerged Citadel",
-    "description": "Discover the Submerged Citadel Coordinates: -376 102 220",
-    "parent": "monumenta:pois/r3/pelias_keep/doomed_encampment"
-  },
-  "monumenta:pois/r3/root": {
-    "title": "Architect's Ring",
-    "description": null
-  },
-  "monumenta:pois/r3/shrines/boon_of_knightly_prayer": {
-    "title": "Boon of Knightly Prayer",
-    "description": "Discover the Knightly Prayer Shrine. Effects: Gain 100% Knockback Resistance under 50% Max Health. Coordinates: -421 179 233",
-    "parent": "monumenta:pois/r3/shrines/boon_of_the_pit"
-  },
-  "monumenta:pois/r3/shrines/boon_of_silver_scales": {
-    "title": "Boon of Silver Scales",
-    "description": "Discover the Silver Scales Shrine. Effects: 5% Cooldown Reduction Coordinates: -279 83 -486",
-    "parent": "monumenta:pois/r3/shrines/crystalline_blessing"
-  },
-  "monumenta:pois/r3/shrines/boon_of_the_fractured_tree": {
-    "title": "Boon of the Fractured Tree",
-    "description": "Discover the Fractured Tree Shrine. Effects: Deal 7.5% more damage when striking an enemy from behind, but receive 5% more damage when an enemy strikes you from behind. Coordinates: 227 133 881",
-    "parent": "monumenta:pois/r3/shrines/sky_seekers_grace"
-  },
-  "monumenta:pois/r3/shrines/boon_of_the_pit": {
-    "title": "Boon of the Pit",
-    "description": "Discover the Pit Shrine. Effects: Deal 20% more damage on the first hit to a mob, however your Healing is reduced by 10%. Coordinates: -618 64 -408",
-    "parent": "monumenta:pois/r3/shrines/deep_gods_endowment"
-  },
-  "monumenta:pois/r3/shrines/crystalline_blessing": {
-    "title": "Crystalline Blessing",
-    "description": "Discover the Crystalline Shrine. Effects: 15% Damage for 3 seconds after taking Magic or Projectile damage. Coordinates: -260 43 -366",
-    "parent": "monumenta:pois/r3/shrines/harrakfars_blessing"
-  },
-  "monumenta:pois/r3/shrines/curse_of_the_dark_soul": {
-    "title": "Curse of the Dark Soul",
-    "description": "Discover the Cursed Shrine. Effects: ??? Coordinates: ???",
-    "parent": "monumenta:pois/r3/shrines/pool_of_purging"
-  },
-  "monumenta:pois/r3/shrines/deep_gods_endowment": {
-    "title": "Deep God's Endowment",
-    "description": "Discover the Deep God Shrine. Effects: Every 5 melee hits, gain a random Combos effect from Darkest Depths. Coordinates: -389 91 -294",
-    "parent": "monumenta:pois/r3/shrines/boon_of_silver_scales"
-  },
-  "monumenta:pois/r3/shrines/gift_of_the_stars": {
-    "title": "Gift of the Stars",
-    "description": "Discover the Star Shrine. Effects: After slaying an elite enemy, reduce your debuffs' durations by 50%. Coordinates: 53 117 1417",
-    "parent": "monumenta:pois/r3/shrines/boon_of_the_fractured_tree"
-  },
-  "monumenta:pois/r3/shrines/grace_of_star_communion": {
-    "title": "Grace of Star Communion",
-    "description": "Discover the Star Communion Shrine. Effects: While above 90% Max Health, damaging enemies inflicts 15% Slow for 4 seconds. Coordinates: -399 175 502",
-    "parent": "monumenta:pois/r3/shrines/boon_of_knightly_prayer"
-  },
-  "monumenta:pois/r3/shrines/harrakfars_blessing": {
-    "title": "Harrakfar's Blessing",
-    "description": "Discover Harrakfar's Shrine. Effects: 10% Healing Coordinates: -339 89 -719",
-    "parent": "monumenta:pois/r3/shrines/root"
-  },
-  "monumenta:pois/r3/shrines/pool_of_purging": {
-    "title": "Pool of Purging",
-    "description": "Discover the Pool of Purging. Effects: Cleanses Shrine Buffs. Does not cost any materials. Coordinates: -430 65 -549",
-    "parent": "monumenta:pois/r3/shrines/tuathan_blessing"
-  },
-  "monumenta:pois/r3/shrines/root": {
-    "title": "Shrines",
-    "description": "Shrines are special locations in the Architect's Ring where you may obtain powerful 4-hour buffs in exchange for overworld materials.  Learn more about it with Cadeus in Galengarde.",
-    "parent": "monumenta:pois/r3/root"
-  },
-  "monumenta:pois/r3/shrines/sky_seekers_grace": {
-    "title": "Sky Seeker's Grace",
-    "description": "Discover the Sky Seeker's Shrine. Effects: After slaying an enemy, if it has not done damage to you, gain 10% speed and 7.5% damage for 4 seconds, otherwise, lose 7.5% damage for 4 seconds. Coordinates: 161 206 817",
-    "parent": "monumenta:pois/r3/shrines/curse_of_the_dark_soul"
-  },
-  "monumenta:pois/r3/shrines/tuathan_blessing": {
-    "title": "Tuathan Blessing",
-    "description": "Discover the Tuathan Shrine. Effects: If there are players in a 12 block radius, they gain 5% Damage Resistance and you gain 5% Speed. Coordinates: -321 177 62",
-    "parent": "monumenta:pois/r3/shrines/grace_of_star_communion"
-  },
-  "monumenta:pois/r3/star_point/celestial_rampart": {
-    "title": "Celestial Rampart",
-    "description": "Discover the Celestial Rampart Coordinates: 29 181 905",
-    "parent": "monumenta:pois/r3/star_point/root"
-  },
-  "monumenta:pois/r3/star_point/chittering_gutters": {
-    "title": "Chittering Gutters",
-    "description": "Discover the Chittering Gutters Coordinates: 189 52 764",
-    "parent": "monumenta:pois/r3/star_point/the_nadir"
-  },
-  "monumenta:pois/r3/star_point/constellation_tower": {
-    "title": "Constellation Tower",
-    "description": "Discover the Constellation Tower Coordinates: 135 223 625",
-    "parent": "monumenta:pois/r3/star_point/celestial_rampart"
-  },
-  "monumenta:pois/r3/star_point/root": {
-    "title": "Star Point",
-    "description": "Enter Star Point",
-    "parent": "monumenta:pois/r3/root"
-  },
-  "monumenta:pois/r3/star_point/starbound_sanctuary": {
-    "title": "Starbound Sanctuary",
-    "description": "Discover the Starbound Sanctuary Coordinates: 66 217 1277",
-    "parent": "monumenta:pois/r3/star_point/constellation_tower"
-  },
-  "monumenta:pois/r3/star_point/the_nadir": {
-    "title": "The Nadir",
-    "description": "Discover The Nadir Coordinates: -21 42 728",
-    "parent": "monumenta:pois/r3/star_point/starbound_sanctuary"
-  },
-  "monumenta:pois/r3/star_point/the_tolumaeus": {
-    "title": "The Tolumaeus",
-    "description": "Discover The Tolumaeus Coordinates: 255 44 787",
-    "parent": "monumenta:pois/r3/star_point/chittering_gutters"
-  },
-  "monumenta:pois/r3/wolfswood/amanita_colony": {
-    "title": "Amanita Colony",
-    "description": "Discover the Amanita Colony Coordinates: -270 104 -292",
-    "parent": "monumenta:pois/r3/wolfswood/chanterelle_village"
-  },
-  "monumenta:pois/r3/wolfswood/bewitched_dominion": {
-    "title": "Bewitched Dominion",
-    "description": "Discover the Bewitched Dominion Coordinates: -681 107 -220",
-    "parent": "monumenta:pois/r3/wolfswood/locum_vernantia"
-  },
-  "monumenta:pois/r3/wolfswood/chanterelle_village": {
-    "title": "Chanterelle Village",
-    "description": "Discover the Chanterelle Village Coordinates: -300 98 -390",
-    "parent": "monumenta:pois/r3/wolfswood/vibrant_hollow"
-  },
-  "monumenta:pois/r3/wolfswood/coven_fortress": {
-    "title": "Coven Fortress",
-    "description": "Discover the Coven Fortress Coordinates: -547 100 -320",
-    "parent": "monumenta:pois/r3/wolfswood/bewitched_dominion"
-  },
-  "monumenta:pois/r3/wolfswood/locum_vernantia": {
-    "title": "Locum Vernantia",
-    "description": "Discover the Locum Vernantia Coordinates: -631 35 -576",
-    "parent": "monumenta:pois/r3/wolfswood/amanita_colony"
-  },
-  "monumenta:pois/r3/wolfswood/root": {
-    "title": "Wolfswood",
-    "description": "Enter the Wolfswood",
-    "parent": "monumenta:pois/r3/root"
-  },
-  "monumenta:pois/r3/wolfswood/shadowcast_bastille": {
-    "title": "Shadowcast Bastille",
-    "description": "Discover the Shadowcast Bastille Coordinates: -202 72 -503",
-    "parent": "monumenta:pois/r3/wolfswood/coven_fortress"
-  },
-  "monumenta:pois/r3/wolfswood/vibrant_hollow": {
-    "title": "Vibrant Hollow",
-    "description": "Discover the Vibrant Hollow Coordinates: -549 42 -698",
-    "parent": "monumenta:pois/r3/wolfswood/root"
-  },
-  "monumenta:speedster/bonusdungeons/all": {
-    "title": "Alternative Speedster",
-    "description": "Complete all races of Bonus Dungeons.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/bonusdungeons/bursting_bonus": {
-    "title": "Speedster: Bursting Bonus",
-    "description": "Successfully finished Bursting Bonus Race",
-    "parent": "monumenta:speedster/bonusdungeons/swift_alchemy"
-  },
-  "monumenta:speedster/bonusdungeons/circuit": {
-    "title": "Speedster: C'Ircuit",
-    "description": "Successfully finished C'Ircuit Race",
-    "parent": "monumenta:speedster/bonusdungeons/bursting_bonus"
-  },
-  "monumenta:speedster/bonusdungeons/shift_clicking": {
-    "title": "Speedster: Shift Clicking",
-    "description": "Successfully finished Shift Clicking Race",
-    "parent": "monumenta:speedster/bonusdungeons/circuit"
-  },
-  "monumenta:speedster/bonusdungeons/silver_surfer": {
-    "title": "Speedster: Silver Surfer",
-    "description": "Successfully finished Silver Surfer Race",
-    "parent": "monumenta:speedster/bonusdungeons/speed_reading"
-  },
-  "monumenta:speedster/bonusdungeons/speed_reading": {
-    "title": "Speedster: Speed Reading",
-    "description": "Successfully finished Speed Reading Race",
-    "parent": "monumenta:speedster/bonusdungeons/shift_clicking"
-  },
-  "monumenta:speedster/bonusdungeons/swift_alchemy": {
-    "title": "Speedster: Swift Alchemy",
-    "description": "Successfully finished Swift Alchemy Race",
-    "parent": "monumenta:speedster/bonusdungeons/all"
-  },
-  "monumenta:speedster/r1/all": {
-    "title": "Speedster",
-    "description": "Complete all races in King's Valley at Master rank.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/r1/elemental_shuffle/0": {
-    "title": "Speedster: Elemental Shuffle",
-    "description": "Reached Master time on Numah's Race",
-    "parent": "monumenta:speedster/r1/elemental_shuffle/1"
-  },
-  "monumenta:speedster/r1/elemental_shuffle/1": {
-    "title": "Speedster: Elemental Shuffle",
-    "description": "Reached Gold time on Numah's Race",
-    "parent": "monumenta:speedster/r1/elemental_shuffle/2"
-  },
-  "monumenta:speedster/r1/elemental_shuffle/2": {
-    "title": "Speedster: Elemental Shuffle",
-    "description": "Reached Silver time on Numah's Race",
-    "parent": "monumenta:speedster/r1/elemental_shuffle/3"
-  },
-  "monumenta:speedster/r1/elemental_shuffle/3": {
-    "title": "Speedster: Elemental Shuffle",
-    "description": "Reached Bronze time on Numah's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/high_to_low/0": {
-    "title": "Speedster: High to Low",
-    "description": "Reached Master time on Linebeck's Race",
-    "parent": "monumenta:speedster/r1/high_to_low/1"
-  },
-  "monumenta:speedster/r1/high_to_low/1": {
-    "title": "Speedster: High to Low",
-    "description": "Reached Gold time on Linebeck's Race",
-    "parent": "monumenta:speedster/r1/high_to_low/2"
-  },
-  "monumenta:speedster/r1/high_to_low/2": {
-    "title": "Speedster: High to Low",
-    "description": "Reached Silver time on Linebeck's Race",
-    "parent": "monumenta:speedster/r1/high_to_low/3"
-  },
-  "monumenta:speedster/r1/high_to_low/3": {
-    "title": "Speedster: High to Low",
-    "description": "Reached Bronze time on Linebeck's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/mariyas_game/0": {
-    "title": "Speedster: Mariya's Game",
-    "description": "Reached Master time on the Mariya's Game race",
-    "parent": "monumenta:speedster/r1/mariyas_game/1"
-  },
-  "monumenta:speedster/r1/mariyas_game/1": {
-    "title": "Speedster: Mariya's Game",
-    "description": "Reached Gold time on the Mariya's Game race",
-    "parent": "monumenta:speedster/r1/mariyas_game/2"
-  },
-  "monumenta:speedster/r1/mariyas_game/2": {
-    "title": "Speedster: Mariya's Game",
-    "description": "Reached Silver time on the Mariya's Game race",
-    "parent": "monumenta:speedster/r1/mariyas_game/3"
-  },
-  "monumenta:speedster/r1/mariyas_game/3": {
-    "title": "Speedster: Mariya's Game",
-    "description": "Reached Bronze time on the Mariya's Game race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/royal_gambit/0": {
-    "title": "Speedster: Royal Gambit",
-    "description": "Reached Master time on the Royal Gambit race",
-    "parent": "monumenta:speedster/r1/royal_gambit/1"
-  },
-  "monumenta:speedster/r1/royal_gambit/1": {
-    "title": "Speedster: Royal Gambit",
-    "description": "Reached Gold time on the Royal Gambit race",
-    "parent": "monumenta:speedster/r1/royal_gambit/2"
-  },
-  "monumenta:speedster/r1/royal_gambit/2": {
-    "title": "Speedster: Royal Gambit",
-    "description": "Reached Silver time on the Royal Gambit race",
-    "parent": "monumenta:speedster/r1/royal_gambit/3"
-  },
-  "monumenta:speedster/r1/royal_gambit/3": {
-    "title": "Speedster: Royal Gambit",
-    "description": "Reached Bronze time on the Royal Gambit race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/tree_hopping_madness/0": {
-    "title": "Speedster: Tree Hopping Madness",
-    "description": "Reached Master time on Dalisay's Race",
-    "parent": "monumenta:speedster/r1/tree_hopping_madness/1"
-  },
-  "monumenta:speedster/r1/tree_hopping_madness/1": {
-    "title": "Speedster: Tree Hopping Madness",
-    "description": "Reached Gold time on Dalisay's Race",
-    "parent": "monumenta:speedster/r1/tree_hopping_madness/2"
-  },
-  "monumenta:speedster/r1/tree_hopping_madness/2": {
-    "title": "Speedster: Tree Hopping Madness",
-    "description": "Reached Silver time on Dalisay's Race",
-    "parent": "monumenta:speedster/r1/tree_hopping_madness/3"
-  },
-  "monumenta:speedster/r1/tree_hopping_madness/3": {
-    "title": "Speedster: Tree Hopping Madness",
-    "description": "Reached Bronze time on Dalisay's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/tutorial": {
-    "title": "Speedster of Sierhaven",
-    "description": "Complete the Sierhaven Race under the time limit.",
-    "parent": "monumenta:speedster/root"
-  },
-  "monumenta:speedster/r1/tutorial_plus/0": {
-    "title": "Speedster: Tutorial+",
-    "description": "Reached Master time on Flashy's Race",
-    "parent": "monumenta:speedster/r1/tutorial_plus/1"
-  },
-  "monumenta:speedster/r1/tutorial_plus/1": {
-    "title": "Speedster: Tutorial+",
-    "description": "Reached Gold time on Flashy's Race",
-    "parent": "monumenta:speedster/r1/tutorial_plus/2"
-  },
-  "monumenta:speedster/r1/tutorial_plus/2": {
-    "title": "Speedster: Tutorial+",
-    "description": "Reached Silver time on Flashy's Race",
-    "parent": "monumenta:speedster/r1/tutorial_plus/3"
-  },
-  "monumenta:speedster/r1/tutorial_plus/3": {
-    "title": "Speedster: Tutorial+",
-    "description": "Reached Bronze time on Flashy's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r1/velaraocity/0": {
-    "title": "Speedster: Velara-ocity",
-    "description": "Reached Master time on Krikk's Race",
-    "parent": "monumenta:speedster/r1/velaraocity/1"
-  },
-  "monumenta:speedster/r1/velaraocity/1": {
-    "title": "Speedster: Velara-ocity",
-    "description": "Reached Gold time on Krikk's Race",
-    "parent": "monumenta:speedster/r1/velaraocity/2"
-  },
-  "monumenta:speedster/r1/velaraocity/2": {
-    "title": "Speedster: Velara-ocity",
-    "description": "Reached Silver time on Krikk's Race",
-    "parent": "monumenta:speedster/r1/velaraocity/3"
-  },
-  "monumenta:speedster/r1/velaraocity/3": {
-    "title": "Speedster: Velara-ocity",
-    "description": "Reached Bronze time on Krikk's Race",
-    "parent": "monumenta:speedster/r1/all"
-  },
-  "monumenta:speedster/r2/all": {
-    "title": "Speedster of Celsian Isles",
-    "description": "Complete all races in Celsian Isles at Master rank.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/r2/allfornera/0": {
-    "title": "Speedster: All for Nera",
-    "description": "Reached Master time on All for Nera Race",
-    "parent": "monumenta:speedster/r2/allfornera/1"
-  },
-  "monumenta:speedster/r2/allfornera/1": {
-    "title": "Speedster: All for Nera",
-    "description": "Reached Gold time on All for Nera Race",
-    "parent": "monumenta:speedster/r2/allfornera/2"
-  },
-  "monumenta:speedster/r2/allfornera/2": {
-    "title": "Speedster: All for Nera",
-    "description": "Reached Silver time on All for Nera Race",
-    "parent": "monumenta:speedster/r2/allfornera/3"
-  },
-  "monumenta:speedster/r2/allfornera/3": {
-    "title": "Speedster: All for Nera",
-    "description": "Reached Bronze time on All for Nera Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/deliverydash/0": {
-    "title": "Speedster: Delivery Dash",
-    "description": "Reached Master time on Delivery Dash Race",
-    "parent": "monumenta:speedster/r2/deliverydash/1"
-  },
-  "monumenta:speedster/r2/deliverydash/1": {
-    "title": "Speedster: Delivery Dash",
-    "description": "Reached Gold time on Delivery Dash Race",
-    "parent": "monumenta:speedster/r2/deliverydash/2"
-  },
-  "monumenta:speedster/r2/deliverydash/2": {
-    "title": "Speedster: Delivery Dash",
-    "description": "Reached Silver time on Delivery Dash Race",
-    "parent": "monumenta:speedster/r2/deliverydash/3"
-  },
-  "monumenta:speedster/r2/deliverydash/3": {
-    "title": "Speedster: Delivery Dash",
-    "description": "Reached Bronze time on Delivery Dash Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/fastwhispers/0": {
-    "title": "Speedster: Fast Whispers",
-    "description": "Reached Master time on Fast Whispers Race",
-    "parent": "monumenta:speedster/r2/fastwhispers/1"
-  },
-  "monumenta:speedster/r2/fastwhispers/1": {
-    "title": "Speedster: Fast Whispers",
-    "description": "Reached Gold time on Fast Whispers Race",
-    "parent": "monumenta:speedster/r2/fastwhispers/2"
-  },
-  "monumenta:speedster/r2/fastwhispers/2": {
-    "title": "Speedster: Fast Whispers",
-    "description": "Reached Silver time on Fast Whispers Race",
-    "parent": "monumenta:speedster/r2/fastwhispers/3"
-  },
-  "monumenta:speedster/r2/fastwhispers/3": {
-    "title": "Speedster: Fast Whispers",
-    "description": "Reached Bronze time on Fast Whispers Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/frostdrift/0": {
-    "title": "Speedster: Frost Drift",
-    "description": "Reached Master time on Frost Drift Race",
-    "parent": "monumenta:speedster/r2/frostdrift/1"
-  },
-  "monumenta:speedster/r2/frostdrift/1": {
-    "title": "Speedster: Frost Drift",
-    "description": "Reached Gold time on Frost Drift Race",
-    "parent": "monumenta:speedster/r2/frostdrift/2"
-  },
-  "monumenta:speedster/r2/frostdrift/2": {
-    "title": "Speedster: Frost Drift",
-    "description": "Reached Silver time on Frost Drift Race",
-    "parent": "monumenta:speedster/r2/frostdrift/3"
-  },
-  "monumenta:speedster/r2/frostdrift/3": {
-    "title": "Speedster: Frost Drift",
-    "description": "Reached Bronze time on Frost Drift Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/mistywaters/0": {
-    "title": "Speedster: Misty Waters",
-    "description": "Reached Master time on Misty Waters",
-    "parent": "monumenta:speedster/r2/mistywaters/1"
-  },
-  "monumenta:speedster/r2/mistywaters/1": {
-    "title": "Speedster: Misty Waters",
-    "description": "Reached Gold time on Misty Waters",
-    "parent": "monumenta:speedster/r2/mistywaters/2"
-  },
-  "monumenta:speedster/r2/mistywaters/2": {
-    "title": "Speedster: Misty Waters",
-    "description": "Reached Silver time on Misty Waters",
-    "parent": "monumenta:speedster/r2/mistywaters/3"
-  },
-  "monumenta:speedster/r2/mistywaters/3": {
-    "title": "Speedster: Misty Waters",
-    "description": "Reached Bronze time on Misty Waters",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/runnersofmist/0": {
-    "title": "Speedster: Runners of Mist",
-    "description": "Reached Master time on Runners of Mist Race",
-    "parent": "monumenta:speedster/r2/runnersofmist/1"
-  },
-  "monumenta:speedster/r2/runnersofmist/1": {
-    "title": "Speedster: Runners of Mist",
-    "description": "Reached Gold time on Runners of Mist Race",
-    "parent": "monumenta:speedster/r2/runnersofmist/2"
-  },
-  "monumenta:speedster/r2/runnersofmist/2": {
-    "title": "Speedster: Runners of Mist",
-    "description": "Reached Silver time on Runners of Mist Race",
-    "parent": "monumenta:speedster/r2/runnersofmist/3"
-  },
-  "monumenta:speedster/r2/runnersofmist/3": {
-    "title": "Speedster: Runners of Mist",
-    "description": "Reached Bronze time on Runners of Mist Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/sixshotsprint/0": {
-    "title": "Speedster: Six Shot Sprint",
-    "description": "Reached Master time on Six Shot Sprint Race",
-    "parent": "monumenta:speedster/r2/sixshotsprint/1"
-  },
-  "monumenta:speedster/r2/sixshotsprint/1": {
-    "title": "Speedster: Six Shot Sprint",
-    "description": "Reached Gold time on Six Shot Sprint Race",
-    "parent": "monumenta:speedster/r2/sixshotsprint/2"
-  },
-  "monumenta:speedster/r2/sixshotsprint/2": {
-    "title": "Speedster: Six Shot Sprint",
-    "description": "Reached Silver time on Six Shot Sprint Race",
-    "parent": "monumenta:speedster/r2/sixshotsprint/3"
-  },
-  "monumenta:speedster/r2/sixshotsprint/3": {
-    "title": "Speedster: Six Shot Sprint",
-    "description": "Reached Bronze time on Six Shot Sprint Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/speedfitness/0": {
-    "title": "Speedster: Speed Fitness",
-    "description": "Reached Master time on Speed Fitness Race",
-    "parent": "monumenta:speedster/r2/speedfitness/1"
-  },
-  "monumenta:speedster/r2/speedfitness/1": {
-    "title": "Speedster: Speed Fitness",
-    "description": "Reached Gold time on Speed Fitness Race",
-    "parent": "monumenta:speedster/r2/speedfitness/2"
-  },
-  "monumenta:speedster/r2/speedfitness/2": {
-    "title": "Speedster: Speed Fitness",
-    "description": "Reached Silver time on Speed Fitness Race",
-    "parent": "monumenta:speedster/r2/speedfitness/3"
-  },
-  "monumenta:speedster/r2/speedfitness/3": {
-    "title": "Speedster: Speed Fitness",
-    "description": "Reached Bronze time on Speed Fitness Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r2/trackmaster/0": {
-    "title": "Speedster: Trackmaster",
-    "description": "Reached Master time on Trackmaster Race",
-    "parent": "monumenta:speedster/r2/trackmaster/1"
-  },
-  "monumenta:speedster/r2/trackmaster/1": {
-    "title": "Speedster: Trackmaster",
-    "description": "Reached Gold time on Trackmaster Race",
-    "parent": "monumenta:speedster/r2/trackmaster/2"
-  },
-  "monumenta:speedster/r2/trackmaster/2": {
-    "title": "Speedster: Trackmaster",
-    "description": "Reached Silver time on Trackmaster Race",
-    "parent": "monumenta:speedster/r2/trackmaster/3"
-  },
-  "monumenta:speedster/r2/trackmaster/3": {
-    "title": "Speedster: Trackmaster",
-    "description": "Reached Bronze time on Trackmaster Race",
-    "parent": "monumenta:speedster/r2/all"
-  },
-  "monumenta:speedster/r3/all": {
-    "title": "Speedster of Architect's Ring",
-    "description": "Complete all races in Architect's Ring at Master rank.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/r3/boatmanteau/0": {
-    "title": "Speedster: Boat Manteau",
-    "description": "Reached Master time on Boat Manteau Race",
-    "parent": "monumenta:speedster/r3/boatmanteau/1"
-  },
-  "monumenta:speedster/r3/boatmanteau/1": {
-    "title": "Speedster: Boat Manteau",
-    "description": "Reached Gold time on Boat Manteau Race",
-    "parent": "monumenta:speedster/r3/boatmanteau/2"
-  },
-  "monumenta:speedster/r3/boatmanteau/2": {
-    "title": "Speedster: Boat Manteau",
-    "description": "Reached Silver time on Boat Manteau Race",
-    "parent": "monumenta:speedster/r3/boatmanteau/3"
-  },
-  "monumenta:speedster/r3/boatmanteau/3": {
-    "title": "Speedster: Boat Manteau",
-    "description": "Reached Bronze time on Boat Manteau Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/citytour/0": {
-    "title": "Speedster: City Tour",
-    "description": "Reached Master time on City Tour Race",
-    "parent": "monumenta:speedster/r3/citytour/1"
-  },
-  "monumenta:speedster/r3/citytour/1": {
-    "title": "Speedster: City Tour",
-    "description": "Reached Gold time on City Tour Race",
-    "parent": "monumenta:speedster/r3/citytour/2"
-  },
-  "monumenta:speedster/r3/citytour/2": {
-    "title": "Speedster: City Tour",
-    "description": "Reached Silver time on City Race",
-    "parent": "monumenta:speedster/r3/citytour/3"
-  },
-  "monumenta:speedster/r3/citytour/3": {
-    "title": "Speedster: City Tour",
-    "description": "Reached Bronze time on City Tour Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/coastalcurcuit/0": {
-    "title": "Speedster: Coastal Circuit",
-    "description": "Reached Master time on Coastal Circuit Race",
-    "parent": "monumenta:speedster/r3/coastalcurcuit/1"
-  },
-  "monumenta:speedster/r3/coastalcurcuit/1": {
-    "title": "Speedster: Coastal Circuit",
-    "description": "Reached Gold time on Coastal Circuit Race",
-    "parent": "monumenta:speedster/r3/coastalcurcuit/2"
-  },
-  "monumenta:speedster/r3/coastalcurcuit/2": {
-    "title": "Speedster: Coastal Circuit",
-    "description": "Reached Silver time on Coastal Circuit Race",
-    "parent": "monumenta:speedster/r3/coastalcurcuit/3"
-  },
-  "monumenta:speedster/r3/coastalcurcuit/3": {
-    "title": "Speedster: Coastal Circuit",
-    "description": "Reached Bronze time on Coastal Circuit Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/covenfrostress/0": {
-    "title": "Speedster: Coven Frostress",
-    "description": "Reached Master time on Coven Frostress Race",
-    "parent": "monumenta:speedster/r3/covenfrostress/1"
-  },
-  "monumenta:speedster/r3/covenfrostress/1": {
-    "title": "Speedster: Coven Frostress",
-    "description": "Reached Gold time on Coven Frostress Race",
-    "parent": "monumenta:speedster/r3/covenfrostress/2"
-  },
-  "monumenta:speedster/r3/covenfrostress/2": {
-    "title": "Speedster: Coven Frostress",
-    "description": "Reached Silver time on Coven Frostress Race",
-    "parent": "monumenta:speedster/r3/covenfrostress/3"
-  },
-  "monumenta:speedster/r3/covenfrostress/3": {
-    "title": "Speedster: Coven Frostress",
-    "description": "Reached Bronze time on Coven Frostress Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/frostbitecascade/0": {
-    "title": "Speedster: Frostbite Cascade",
-    "description": "Reached Master time on Frostbite Cascade Race",
-    "parent": "monumenta:speedster/r3/frostbitecascade/1"
-  },
-  "monumenta:speedster/r3/frostbitecascade/1": {
-    "title": "Speedster: Frostbite Cascade",
-    "description": "Reached Gold time on Frostbite Cascade Race",
-    "parent": "monumenta:speedster/r3/frostbitecascade/2"
-  },
-  "monumenta:speedster/r3/frostbitecascade/2": {
-    "title": "Speedster: Frostbite Cascade",
-    "description": "Reached Silver time on Frostbite Cascade Race",
-    "parent": "monumenta:speedster/r3/frostbitecascade/3"
-  },
-  "monumenta:speedster/r3/frostbitecascade/3": {
-    "title": "Speedster: Frostbite Cascade",
-    "description": "Reached Bronze time on Frostbite Cascade Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/rapidascent/0": {
-    "title": "Speedster: Rapid Ascent",
-    "description": "Reached Master time on Rapid Ascent Race",
-    "parent": "monumenta:speedster/r3/rapidascent/1"
-  },
-  "monumenta:speedster/r3/rapidascent/1": {
-    "title": "Speedster: Rapid Ascent",
-    "description": "Reached Gold time on Rapid Ascent Race",
-    "parent": "monumenta:speedster/r3/rapidascent/2"
-  },
-  "monumenta:speedster/r3/rapidascent/2": {
-    "title": "Speedster: Rapid Ascent",
-    "description": "Reached Silver time on Rapid Ascent Race",
-    "parent": "monumenta:speedster/r3/rapidascent/3"
-  },
-  "monumenta:speedster/r3/rapidascent/3": {
-    "title": "Speedster: Rapid Ascent",
-    "description": "Reached Bronze time on Rapid Ascent Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/refrigeratedremorse/0": {
-    "title": "Speedster: Refrigerated Remorse",
-    "description": "Reached Master time on Refrigerated Remorse Race",
-    "parent": "monumenta:speedster/r3/refrigeratedremorse/1"
-  },
-  "monumenta:speedster/r3/refrigeratedremorse/1": {
-    "title": "Speedster: Refrigerated Remorse",
-    "description": "Reached Gold time on Refrigerated Remorse Race",
-    "parent": "monumenta:speedster/r3/refrigeratedremorse/2"
-  },
-  "monumenta:speedster/r3/refrigeratedremorse/2": {
-    "title": "Speedster: Refrigerated Remorse",
-    "description": "Reached Silver time on Refrigerated Remorse Race",
-    "parent": "monumenta:speedster/r3/refrigeratedremorse/3"
-  },
-  "monumenta:speedster/r3/refrigeratedremorse/3": {
-    "title": "Speedster: Refrigerated Remorse",
-    "description": "Reached Bronze time on Refrigerated Remorse Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/skyhighbora/0": {
-    "title": "Speedster: Skyhigh Bora",
-    "description": "Reached Master time on Skyhigh Bora Race",
-    "parent": "monumenta:speedster/r3/skyhighbora/1"
-  },
-  "monumenta:speedster/r3/skyhighbora/1": {
-    "title": "Speedster: Skyhigh Bora",
-    "description": "Reached Gold time on Skyhigh Bora Race",
-    "parent": "monumenta:speedster/r3/skyhighbora/2"
-  },
-  "monumenta:speedster/r3/skyhighbora/2": {
-    "title": "Speedster: Skyhigh Bora",
-    "description": "Reached Silver time on Skyhigh Bora Race",
-    "parent": "monumenta:speedster/r3/skyhighbora/3"
-  },
-  "monumenta:speedster/r3/skyhighbora/3": {
-    "title": "Speedster: Skyhigh Bora",
-    "description": "Reached Bronze time on Skyhigh Bora Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/r3/starpointbellrace/0": {
-    "title": "Speedster: They Toll for Thee",
-    "description": "Reached Master time on They Toll for Thee Race",
-    "parent": "monumenta:speedster/r3/starpointbellrace/1"
-  },
-  "monumenta:speedster/r3/starpointbellrace/1": {
-    "title": "Speedster: They Toll for Thee",
-    "description": "Reached Gold time on They Toll for Thee Race",
-    "parent": "monumenta:speedster/r3/starpointbellrace/2"
-  },
-  "monumenta:speedster/r3/starpointbellrace/2": {
-    "title": "Speedster: They Toll for Thee",
-    "description": "Reached Silver time on They Toll for Thee Race",
-    "parent": "monumenta:speedster/r3/starpointbellrace/3"
-  },
-  "monumenta:speedster/r3/starpointbellrace/3": {
-    "title": "Speedster: They Toll for Thee",
-    "description": "Reached Bronze time on They Toll for Thee Race",
-    "parent": "monumenta:speedster/r3/all"
-  },
-  "monumenta:speedster/root": {
-    "title": "Speedster of Monumenta",
-    "description": null
-  },
-  "monumenta:speedster/wooldungeons/all": {
-    "title": "Primordial Speedster",
-    "description": "Complete all races of Wool Dungeons.",
-    "parent": "monumenta:speedster/r1/tutorial"
-  },
-  "monumenta:speedster/wooldungeons/blood_rush": {
-    "title": "Speedster: Blood Rush",
-    "description": "Successfully finished Blood Rush Race",
-    "parent": "monumenta:speedster/wooldungeons/all"
-  },
-  "monumenta:speedster/wooldungeons/light_footed": {
-    "title": "Speedster: Light Footed",
-    "description": "Successfully finished Light Footed Race",
-    "parent": "monumenta:speedster/wooldungeons/sand_struggles"
-  },
-  "monumenta:speedster/wooldungeons/miasma_theory": {
-    "title": "Speedster: Miasma Theory",
-    "description": "Successfully finished Miasma Theory Race",
-    "parent": "monumenta:speedster/wooldungeons/zoo_tour"
-  },
-  "monumenta:speedster/wooldungeons/minds_eye": {
-    "title": "Speedster: Mind's Eye",
-    "description": "Successfully finished Mind's Eye Race",
-    "parent": "monumenta:speedster/wooldungeons/light_footed"
-  },
-  "monumenta:speedster/wooldungeons/pirate_pass": {
-    "title": "Speedster: Pirate Pass",
-    "description": "Successfully finished Pirate Pass Race",
-    "parent": "monumenta:speedster/wooldungeons/minds_eye"
-  },
-  "monumenta:speedster/wooldungeons/ruined_run": {
-    "title": "Speedster: Ruined Run",
-    "description": "Successfully finished Ruined Run Race",
-    "parent": "monumenta:speedster/wooldungeons/all"
-  },
-  "monumenta:speedster/wooldungeons/sand_struggles": {
-    "title": "Speedster: Sand Struggles",
-    "description": "Successfully finished Sand Struggles Race",
-    "parent": "monumenta:speedster/wooldungeons/seasons_grace"
-  },
-  "monumenta:speedster/wooldungeons/seasons_grace": {
-    "title": "Speedster: Season's Grace",
-    "description": "Successfully finished Season's Grace Race",
-    "parent": "monumenta:speedster/wooldungeons/ruined_run"
-  },
-  "monumenta:speedster/wooldungeons/time_flies": {
-    "title": "Speedster: Time Flies",
-    "description": "Successfully finished Time Flies Race",
-    "parent": "monumenta:speedster/wooldungeons/pirate_pass"
-  },
-  "monumenta:speedster/wooldungeons/treks_machina": {
-    "title": "Speedster: Treks Machina",
-    "description": "Successfully finished Treks Machina Race",
-    "parent": "monumenta:speedster/wooldungeons/witchhiking"
-  },
-  "monumenta:speedster/wooldungeons/truly_occult": {
-    "title": "Speedster: Truly Occult",
-    "description": "Successfully finished Truly Occult Race",
-    "parent": "monumenta:speedster/wooldungeons/miasma_theory"
-  },
-  "monumenta:speedster/wooldungeons/wild_waltz": {
-    "title": "Speedster: Wild Waltz",
-    "description": "Successfully finished Wild Waltz Race",
-    "parent": "monumenta:speedster/wooldungeons/truly_occult"
-  },
-  "monumenta:speedster/wooldungeons/witchhiking": {
-    "title": "Speedster: Witchhiking",
-    "description": "Successfully finished Witchhiking Race",
-    "parent": "monumenta:speedster/wooldungeons/all"
-  },
-  "monumenta:speedster/wooldungeons/zoo_tour": {
-    "title": "Speedster: Zoo Tour",
-    "description": "Successfully finished Zoo Tour Race",
-    "parent": "monumenta:speedster/wooldungeons/blood_rush"
   }
 }
