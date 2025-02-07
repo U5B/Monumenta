@@ -15118,59 +15118,6 @@
       "projectile_speed_base": 1
     }
   },
-  "Witchbane Revolver-2": {
-    "location": "Transmogrifier",
-    "masterwork": "2",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Witchbane Revolver",
-    "base_item": "Crossbow",
-    "release_status": "public",
-    "type": "Crossbow",
-    "stats": {
-      "regicide": 2,
-      "quick_charge": 4,
-      "unbreaking": 4,
-      "projectile_speed_base": 1.2,
-      "projectile_damage_base": 12
-    }
-  },
-  "Witchbane Revolver-3": {
-    "location": "Transmogrifier",
-    "masterwork": "3",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Witchbane Revolver",
-    "base_item": "Crossbow",
-    "release_status": "public",
-    "type": "Crossbow",
-    "stats": {
-      "regicide": 2,
-      "quick_charge": 4,
-      "unbreaking": 4,
-      "speed_percent": 10,
-      "projectile_speed_base": 1.2,
-      "projectile_damage_base": 12
-    }
-  },
-  "Witchbane Revolver-4": {
-    "location": "Transmogrifier",
-    "masterwork": "4",
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Witchbane Revolver",
-    "base_item": "Crossbow",
-    "release_status": "public",
-    "type": "Crossbow",
-    "stats": {
-      "regicide": 2,
-      "quick_charge": 4,
-      "unbreaking": 5,
-      "projectile_speed_base": 1.2,
-      "speed_percent": 10,
-      "projectile_damage_base": 12.5
-    }
-  },
   "Z.A.P.": {
     "location": "Isles Overworld",
     "region": "Isles",
@@ -72243,6 +72190,8 @@
     }
   },
   "Mist-touched Arrow": {
+    "location": "Isles Overworld",
+    "region": "Isles",
     "name": "Mist-touched Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72524,7 +72473,7 @@
   },
   "Star-touched Bolt": {
     "location": "Valley Overworld",
-    "region": "Valley",
+    "region": "Isles",
     "name": "Star-touched Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -72580,6 +72529,8 @@
     }
   },
   "Urchin Barb": {
+    "location": "Fishing",
+    "region": "Ring",
     "name": "Urchin Barb",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -78513,6 +78464,12 @@
     "stats": {}
   },
   "Specimen Results": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
+  "Starvation": {
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
