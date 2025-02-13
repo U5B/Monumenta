@@ -1455,7 +1455,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Crumbling Effigy",
-    "power": 3,
+    "power": 4,
     "base_item": "Blackstone Wall",
     "release_status": "public",
     "stats": {},
@@ -1914,18 +1914,6 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Shaman"
-  },
-  "Swift Divine Flare Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Divine Flare Charm",
-    "power": 3,
-    "base_item": "Blaze Powder",
-    "release_status": "public",
-    "stats": {},
-    "type": "Charm",
-    "class_name": "Cleric"
   },
   "Swift Legerity Charm": {
     "location": "Architect's Ring",
@@ -4027,7 +4015,7 @@
       "sniper": 2,
       "unbreaking": 2,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 22.5
+      "projectile_damage_base": 21.5
     }
   },
   "Aperion": {
@@ -4041,8 +4029,8 @@
     "stats": {
       "infinity": 1,
       "unbreaking": 1,
-      "projectile_damage_base": 18,
-      "projectile_speed_base": 2
+      "projectile_speed_base": 2,
+      "projectile_damage_base": 20
     }
   },
   "Arcane Snowstorm": {
@@ -4085,11 +4073,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "projectile_damage_base": 16,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 15.5
     }
   },
-  "Astéri": {
+  "Astri": {
     "location": "Carnival",
     "region": "Isles",
     "tier": "Uncommon",
@@ -4099,11 +4087,11 @@
     "type": "Bow",
     "stats": {
       "curse_of_irreparability": 1,
+      "infinity": 1,
       "punch": 2,
       "unbreaking": 1,
-      "infinity": 1,
-      "projectile_damage_base": 24,
-      "projectile_speed_base": 1
+      "projectile_damage_base": 25,
+      "projectile_speed_base": 1.4
     }
   },
   "Basic Bow": {
@@ -4118,7 +4106,7 @@
       "projectile_speed_base": 1
     }
   },
-  "Begone Bow™": {
+  "Begone Bow": {
     "location": "Arena of Terth",
     "region": "Valley",
     "name": "Begone Bow",
@@ -4157,12 +4145,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
+      "bleeding": 2,
       "fire_aspect": 2,
       "piercing": 1,
-      "bleeding": 2,
-      "projectile_damage_base": 25,
-      "projectile_speed_base": 1.5
+      "unbreaking": 3,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 26
     }
   },
   "Bonepiercer-2": {
@@ -4175,12 +4163,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
+      "bleeding": 2,
       "fire_aspect": 2,
       "piercing": 1,
-      "bleeding": 2,
-      "projectile_damage_base": 25.5,
-      "projectile_speed_base": 1.5
+      "unbreaking": 3,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 27
     }
   },
   "Bonepiercer-3": {
@@ -4193,12 +4181,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 4,
+      "bleeding": 2,
       "fire_aspect": 2,
       "piercing": 1,
-      "bleeding": 2,
-      "projectile_damage_base": 26,
-      "projectile_speed_base": 1.5
+      "unbreaking": 4,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 28.5
     }
   },
   "Bonepiercer-4": {
@@ -4211,12 +4199,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 5,
+      "bleeding": 3,
       "fire_aspect": 2,
       "piercing": 1,
-      "bleeding": 3,
+      "unbreaking": 5,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 30
     }
   },
   "Bound Bow": {
@@ -4241,13 +4229,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 4,
       "regeneration": 2,
+      "unbreaking": 4,
       "speed_percent": 16,
-      "projectile_damage_base": 14,
       "projectile_speed_base": 1,
       "armor": 2,
-      "magic_damage_percent": 18
+      "magic_damage_percent": 18,
+      "projectile_damage_base": 19
     }
   },
   "Chillwind Shortbow": {
@@ -4321,10 +4309,10 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
       "regeneration": 1,
-      "projectile_damage_base": 22,
-      "projectile_speed_base": 1
+      "unbreaking": 3,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 22.5
     }
   },
   "Crest of the Covetous": {
@@ -4336,10 +4324,10 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
       "regeneration": 1,
-      "projectile_damage_base": 22,
-      "projectile_speed_base": 1
+      "unbreaking": 3,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 22.5
     }
   },
   "Cupid's Bow": {
@@ -4383,12 +4371,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "ice_aspect": 1,
+      "piercing": 2,
       "unbreaking": 4,
       "wind_aspect": 1,
-      "piercing": 2,
-      "ice_aspect": 1,
-      "projectile_damage_base": 23.5,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 25
     }
   },
   "Death's Gaze-3": {
@@ -4401,13 +4389,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "ice_aspect": 1,
+      "piercing": 2,
       "unbreaking": 4,
       "wind_aspect": 1,
-      "piercing": 2,
-      "ice_aspect": 1,
       "speed_percent": 5,
-      "projectile_damage_base": 23.5,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 26
     }
   },
   "Death's Gaze-4": {
@@ -4420,13 +4408,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "ice_aspect": 1,
+      "piercing": 2,
       "unbreaking": 5,
       "wind_aspect": 1,
-      "piercing": 2,
-      "ice_aspect": 1,
       "speed_percent": 5,
-      "projectile_damage_base": 24,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 27
     }
   },
   "Demonic Manifest": {
@@ -4488,10 +4476,10 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 1,
       "fire_aspect": 1,
-      "projectile_damage_base": 16,
-      "projectile_speed_base": 1
+      "unbreaking": 1,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 16.5
     }
   },
   "Eastern Winds": {
@@ -4504,7 +4492,7 @@
     "type": "Bow",
     "stats": {
       "sniper": 3,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "projectile_speed_base": 1,
       "projectile_damage_base": 21.5
     }
@@ -4529,8 +4517,8 @@
     "type": "Bow",
     "stats": {
       "unbreaking": 1,
-      "projectile_damage_base": 18,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 19
     }
   },
   "Embers of Thori'dal": {
@@ -4559,12 +4547,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 2,
       "fire_aspect": 3,
       "inferno": 2,
+      "unbreaking": 2,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 17.5,
-      "armor": 2
+      "armor": 2,
+      "projectile_damage_base": 20
     }
   },
   "Everlasting Bow": {
@@ -4602,12 +4590,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "punch": 3,
       "fire_aspect": 1,
+      "punch": 3,
       "sniper": 1,
       "speed_percent": 7,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 9
+      "projectile_damage_base": 10.5
     }
   },
   "Final Crescent": {
@@ -4619,8 +4607,8 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "projectile_damage_base": 20,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 21
     }
   },
   "Floral Anguish-3": {
@@ -4634,12 +4622,12 @@
     "type": "Bow",
     "stats": {
       "earth_aspect": 2,
-      "triage": 2,
       "mending": 1,
       "regeneration": 1,
+      "triage": 2,
       "magic_damage_percent": 10,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 25.5
+      "projectile_damage_base": 28.5
     }
   },
   "Floral Anguish-4": {
@@ -4653,12 +4641,12 @@
     "type": "Bow",
     "stats": {
       "earth_aspect": 2,
-      "triage": 2,
       "mending": 1,
       "regeneration": 1,
+      "triage": 2,
       "magic_damage_percent": 10,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 26
+      "projectile_damage_base": 30
     }
   },
   "Freezeflame": {
@@ -4671,10 +4659,10 @@
     "type": "Bow",
     "stats": {
       "fire_aspect": 2,
-      "mending": 1,
       "ice_aspect": 2,
+      "mending": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 21.5
     }
   },
   "Frostbomb Lobber": {
@@ -4686,11 +4674,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "punch": 1,
-      "mending": 1,
       "ice_aspect": 2,
-      "projectile_damage_base": 14,
-      "projectile_speed_base": 1
+      "mending": 1,
+      "punch": 1,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 17.5
     }
   },
   "Frozen Longbow": {
@@ -4702,12 +4690,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "ice_aspect": 2,
       "punch": 2,
       "sniper": 4,
-      "ice_aspect": 2,
       "knockback_resistance_flat": 2,
-      "projectile_damage_base": 8,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 13
     }
   },
   "Fury of the Designer": {
@@ -4723,8 +4711,8 @@
       "thunder_aspect": 5,
       "unbreaking": 1,
       "speed_percent": 8,
-      "projectile_damage_base": 20,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 21
     }
   },
   "Fury of the Storm": {
@@ -4740,8 +4728,8 @@
       "thunder_aspect": 5,
       "unbreaking": 1,
       "speed_percent": 8,
-      "projectile_damage_base": 20,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 21
     }
   },
   "Glacial Railgun": {
@@ -4753,13 +4741,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 10,
       "fire_aspect": 1,
-      "sniper": 3,
       "infinity": 1,
-      "projectile_damage_base": 16,
+      "sniper": 3,
+      "unbreaking": 10,
       "projectile_speed_base": 5,
-      "speed_percent": 16
+      "speed_percent": 16,
+      "projectile_damage_base": 17
     }
   },
   "Hawk's Talon": {
@@ -4803,8 +4791,8 @@
     "stats": {
       "ice_aspect": 2,
       "unbreaking": 3,
-      "projectile_damage_base": 20,
-      "projectile_speed_base": 1.2
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 21.5
     }
   },
   "Icicle Greatbow": {
@@ -4816,13 +4804,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 2,
-      "sniper": 4,
       "poise": 1,
+      "sniper": 4,
+      "unbreaking": 2,
       "knockback_resistance_flat": 5,
-      "projectile_damage_base": 14,
       "projectile_speed_base": 1.5,
-      "speed_percent": -20
+      "speed_percent": -20,
+      "projectile_damage_base": 16
     }
   },
   "Imminent Requiem": {
@@ -4835,11 +4823,11 @@
     "type": "Bow",
     "stats": {
       "punch": 3,
-      "unbreaking": 1,
-      "sniper": 7,
       "regeneration": 1,
-      "projectile_damage_base": 8,
-      "projectile_speed_base": 2
+      "sniper": 7,
+      "unbreaking": 1,
+      "projectile_speed_base": 2,
+      "projectile_damage_base": 10
     }
   },
   "Ironwood Bow": {
@@ -4866,10 +4854,10 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 1,
-      "punch": 1,
       "fire_aspect": 1,
+      "punch": 1,
       "sniper": 4,
+      "unbreaking": 1,
       "projectile_damage_base": 14,
       "projectile_speed_base": 1
     }
@@ -4981,7 +4969,7 @@
       "punch": 1,
       "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20
     }
   },
   "Mycelian Crescent-0": {
@@ -5094,8 +5082,8 @@
     "type": "Bow",
     "stats": {
       "punch": 1,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 13.5
     }
   },
   "Novice's Bow": {
@@ -5169,15 +5157,15 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "punch": 1,
-      "unbreaking": 2,
-      "point_blank": 7,
       "fire_aspect": 1,
       "inferno": 1,
+      "point_blank": 7,
       "projectile_protection": 3,
+      "punch": 1,
+      "unbreaking": 2,
       "speed_percent": 10,
-      "projectile_damage_base": 8,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 10
     }
   },
   "Pyromancer's Bow": {
@@ -5236,8 +5224,8 @@
       "punch": 2,
       "unbreaking": 2,
       "speed_percent": 10,
-      "projectile_damage_base": 14,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 16.5
     }
   },
   "Roar of the Valley": {
@@ -5268,14 +5256,14 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreakable": 1,
-      "ice_aspect": 2,
-      "thunder_aspect": 5,
       "earth_aspect": 2,
       "fire_aspect": 2,
+      "ice_aspect": 2,
       "infinity": 1,
+      "thunder_aspect": 5,
+      "unbreakable": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 25.5
+      "projectile_damage_base": 27.5
     }
   },
   "Roar of the Valley-3": {
@@ -5288,14 +5276,14 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreakable": 1,
-      "ice_aspect": 2,
-      "thunder_aspect": 5,
       "earth_aspect": 2,
       "fire_aspect": 2,
+      "ice_aspect": 2,
       "infinity": 1,
+      "thunder_aspect": 5,
+      "unbreakable": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 26
+      "projectile_damage_base": 28.5
     }
   },
   "Roar of the Valley-4": {
@@ -5308,14 +5296,14 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreakable": 1,
-      "ice_aspect": 2,
-      "thunder_aspect": 5,
       "earth_aspect": 2,
       "fire_aspect": 2,
+      "ice_aspect": 2,
       "infinity": 1,
+      "thunder_aspect": 5,
+      "unbreakable": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 29.5
     }
   },
   "Scarab's Bane": {
@@ -5327,13 +5315,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "slayer": 4,
-      "punch": 2,
-      "unbreaking": 2,
       "knockback": 3,
+      "punch": 2,
+      "slayer": 4,
+      "unbreaking": 2,
       "attack_damage_base": 2,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 22
     }
   },
   "Screamcaller": {
@@ -5362,10 +5350,10 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 2,
       "fire_aspect": 1,
-      "projectile_damage_base": 14,
-      "projectile_speed_base": 1
+      "unbreaking": 2,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 15
     }
   },
   "Searing Bow": {
@@ -5422,10 +5410,10 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
       "point_blank": 3,
-      "projectile_damage_base": 8,
-      "projectile_speed_base": 1
+      "unbreaking": 3,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 9
     }
   },
   "Starbound Longbow": {
@@ -5441,7 +5429,7 @@
       "sniper": 3,
       "speed_percent": 10,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 12.5
+      "projectile_damage_base": 13.5
     }
   },
   "Steelsiege": {
@@ -5486,8 +5474,8 @@
     "stats": {
       "punch": 1,
       "speed_percent": 5,
-      "projectile_damage_base": 14,
-      "projectile_speed_base": 1
+      "projectile_damage_base": 14.5,
+      "projectile_speed_base": 1.2
     }
   },
   "Sundew's Patience": {
@@ -5527,12 +5515,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreakable": 1,
-      "thunder_aspect": 10,
-      "wind_aspect": 1,
       "infinity": 1,
+      "thunder_aspect": 10,
+      "unbreakable": 1,
+      "wind_aspect": 1,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 34
+      "projectile_damage_base": 36
     }
   },
   "Thousand Fists of Turaal": {
@@ -5544,12 +5532,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 2,
-      "point_blank": 6,
       "fire_aspect": 1,
       "melee_protection": 3,
-      "projectile_damage_base": 8,
-      "projectile_speed_base": 1
+      "point_blank": 6,
+      "unbreaking": 2,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 9.5
     }
   },
   "Tsunami Shortbow": {
@@ -5588,8 +5576,8 @@
     "type": "Bow",
     "stats": {
       "sniper": 3,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 13
     }
   },
   "Waveborn Bow": {
@@ -5601,11 +5589,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "punch": 4,
-      "mending": 1,
       "infinity": 1,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1
+      "mending": 1,
+      "punch": 4,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 14.5
     }
   },
   "Wildthorn Crescent": {
@@ -5619,9 +5607,9 @@
     "stats": {
       "unbreaking": 4,
       "speed_percent": 10,
-      "projectile_damage_base": 20,
       "projectile_speed_base": 1.5,
-      "magic_damage_percent": 18
+      "magic_damage_percent": 18,
+      "projectile_damage_base": 22
     }
   },
   "Wind's Gaze-0": {
@@ -5638,7 +5626,7 @@
       "wind_aspect": 2,
       "speed_percent": 10,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27.5
+      "projectile_damage_base": 27
     }
   },
   "Wind's Gaze-1": {
@@ -5672,7 +5660,7 @@
       "wind_aspect": 2,
       "speed_percent": 12,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 29.5
     }
   },
   "Wind's Gaze-3": {
@@ -5689,7 +5677,7 @@
       "wind_aspect": 2,
       "speed_percent": 13,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 29
+      "projectile_damage_base": 30.5
     }
   },
   "Wind's Gaze-4": {
@@ -5706,7 +5694,7 @@
       "wind_aspect": 2,
       "projectile_speed_base": 1,
       "speed_percent": 14,
-      "projectile_damage_base": 30
+      "projectile_damage_base": 32
     }
   },
   "Word of the Architect-1": {
@@ -5719,12 +5707,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "infinity": 1,
+      "sniper": 5,
       "thunder_aspect": 2,
       "unbreaking": 3,
-      "sniper": 5,
-      "infinity": 1,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 20.5
+      "projectile_damage_base": 21
     }
   },
   "Word of the Architect-2": {
@@ -5737,12 +5725,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "infinity": 1,
+      "sniper": 5,
       "thunder_aspect": 2,
       "unbreaking": 3,
-      "sniper": 5,
-      "infinity": 1,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 21
+      "projectile_damage_base": 22
     }
   },
   "Word of the Architect-3": {
@@ -5755,12 +5743,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "infinity": 1,
+      "sniper": 6,
       "thunder_aspect": 2,
       "unbreaking": 4,
-      "sniper": 6,
-      "infinity": 1,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 21.5
+      "projectile_damage_base": 22
     }
   },
   "Word of the Architect-4": {
@@ -5773,12 +5761,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "infinity": 1,
+      "sniper": 6,
       "thunder_aspect": 2,
       "unbreaking": 5,
-      "sniper": 6,
-      "infinity": 1,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 22.5
+      "projectile_damage_base": 23
     }
   },
   "Worn Viridian Hunter": {
@@ -7327,12 +7315,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 2,
+      "melee_protection": 2,
       "unbreaking": 6,
-      "melee_protection": 3,
-      "magic_protection": 3,
       "speed_percent": 5,
       "agility": 7,
-      "attack_damage_percent": 10
+      "attack_damage_percent": 15
     }
   },
   "Shrouded Sabatons-1": {
@@ -7346,12 +7334,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 2,
+      "melee_protection": 2,
       "unbreaking": 6,
-      "melee_protection": 3,
-      "magic_protection": 3,
       "speed_percent": 8,
-      "attack_damage_percent": 15,
-      "agility": 7.5
+      "agility": 7.5,
+      "attack_damage_percent": 20
     }
   },
   "Shrouded Sabatons-2": {
@@ -7365,12 +7353,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 3,
+      "melee_protection": 2,
       "unbreaking": 7,
-      "melee_protection": 3,
-      "magic_protection": 4,
-      "attack_damage_percent": 15,
       "speed_percent": 10,
-      "agility": 7.5
+      "agility": 7.5,
+      "attack_damage_percent": 20
     }
   },
   "Shrouded Sabatons-3": {
@@ -7384,12 +7372,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 3,
+      "melee_protection": 3,
       "unbreaking": 8,
-      "melee_protection": 4,
-      "magic_protection": 4,
       "speed_percent": 10,
       "agility": 7.5,
-      "attack_damage_percent": 15
+      "attack_damage_percent": 20
     }
   },
   "Shrouded Sabatons-4": {
@@ -7403,12 +7391,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
+      "magic_protection": 3,
+      "melee_protection": 3,
       "unbreaking": 9,
-      "melee_protection": 4,
-      "magic_protection": 4,
       "speed_percent": 10,
       "agility": 8,
-      "attack_damage_percent": 18
+      "attack_damage_percent": 25
     }
   },
   "Siegebreaker Boots-2": {
@@ -13740,7 +13728,7 @@
       "quick_charge": 2,
       "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 19
     }
   },
   "Ashkii Pine Crossbow": {
@@ -13756,7 +13744,7 @@
       "quick_charge": 1,
       "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 21.5
     }
   },
   "Baxeico": {
@@ -13806,7 +13794,7 @@
       "quick_charge": 1,
       "unbreaking": 2,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 23.5
     }
   },
   "Callum's Spellslinger": {
@@ -13833,12 +13821,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "regicide": 2,
       "punch": 1,
-      "unbreaking": 3,
+      "regicide": 2,
       "sniper": 6,
-      "projectile_damage_base": 16,
-      "projectile_speed_base": 1.5
+      "unbreaking": 3,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 18
     }
   },
   "Celsian Standard": {
@@ -13851,8 +13839,8 @@
     "type": "Crossbow",
     "stats": {
       "quick_charge": 1,
-      "projectile_damage_base": 13,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 14
     }
   },
   "Chillwind Repeater": {
@@ -13865,10 +13853,9 @@
     "type": "Crossbow",
     "stats": {
       "quick_charge": 2,
-      "punch": 1,
       "unbreaking": 2,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 13
+      "projectile_damage_base": 14,
+      "projectile_speed_base": 1.1
     }
   },
   "Colossal Crossbow": {
@@ -13880,11 +13867,11 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "infinity": 1,
       "recoil": 5,
       "unbreakable": 1,
-      "infinity": 1,
-      "projectile_damage_base": 26,
-      "projectile_speed_base": 3
+      "projectile_speed_base": 3,
+      "projectile_damage_base": 26.5
     }
   },
   "Covenmourn Rend-6": {
@@ -13932,8 +13919,8 @@
       "fire_aspect": 1,
       "point_blank": 1,
       "unbreaking": 2,
-      "projectile_damage_base": 20,
-      "projectile_speed_base": 0.9
+      "projectile_speed_base": 0.9,
+      "projectile_damage_base": 24
     }
   },
   "Dragonbreath Repeater": {
@@ -13981,11 +13968,11 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 3,
-      "multishot": 1,
       "ice_aspect": 2,
-      "projectile_damage_base": 16,
-      "projectile_speed_base": 1
+      "multishot": 1,
+      "unbreaking": 3,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 17
     }
   },
   "Failnaught": {
@@ -14015,12 +14002,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "ice_aspect": 2,
+      "piercing": 2,
       "recoil": 1,
       "unbreaking": 3,
-      "piercing": 3,
-      "ice_aspect": 2,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 20.5
     }
   },
   "Frodian Yeetcannon": {
@@ -14052,12 +14039,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "ice_aspect": 2,
+      "multishot": 1,
       "punch": 2,
       "unbreaking": 4,
-      "multishot": 1,
-      "ice_aspect": 2,
-      "projectile_damage_base": 18,
-      "projectile_speed_base": 0.5
+      "projectile_speed_base": 0.5,
+      "projectile_damage_base": 22
     }
   },
   "General's Sidearm": {
@@ -14071,8 +14058,8 @@
     "stats": {
       "quick_charge": 1,
       "unbreaking": 2,
-      "projectile_damage_base": 15,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 15.5
     }
   },
   "Ghastcaller's Gunblade": {
@@ -14101,12 +14088,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "quick_charge": 2,
-      "unbreaking": 5,
       "ice_aspect": 2,
       "infinity": 1,
+      "quick_charge": 2,
+      "unbreaking": 5,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 16
+      "projectile_damage_base": 17
     }
   },
   "Heart Stopper": {
@@ -14118,12 +14105,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "infinity": 1,
-      "unbreakable": 1,
-      "piercing": 10,
       "ice_aspect": 2,
+      "infinity": 1,
+      "piercing": 10,
+      "unbreakable": 1,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 29.5
+      "projectile_damage_base": 34
     }
   },
   "Heatwave": {
@@ -14224,11 +14211,11 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
+      "inferno": 3,
       "punch": 1,
       "unbreaking": 2,
-      "inferno": 3,
-      "projectile_damage_base": 17,
-      "projectile_speed_base": 1.5
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 23
     }
   },
   "Ire of the Gods": {
@@ -14240,11 +14227,11 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "infinity": 1,
       "recoil": 5,
       "unbreakable": 1,
-      "infinity": 1,
-      "projectile_damage_base": 26,
-      "projectile_speed_base": 3
+      "projectile_speed_base": 3,
+      "projectile_damage_base": 26.5
     }
   },
   "Ishnir Sharpshooter": {
@@ -14258,8 +14245,8 @@
     "stats": {
       "piercing": 1,
       "unbreaking": 1,
-      "projectile_damage_base": 14,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 15.5
     }
   },
   "Juggernaut Crossbow": {
@@ -14301,13 +14288,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "fire_aspect": 2,
-      "thunder_aspect": 4,
       "point_blank": 5,
-      "unbreaking": 3,
       "quick_charge": 1,
+      "regicide": 2,
+      "thunder_aspect": 4,
+      "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 17
+      "projectile_damage_base": 20
     }
   },
   "Kisarith-1": {
@@ -14320,13 +14307,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "fire_aspect": 2,
-      "thunder_aspect": 5,
       "point_blank": 5,
-      "unbreaking": 3,
       "quick_charge": 1,
+      "regicide": 2,
+      "thunder_aspect": 5,
+      "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 17.5
+      "projectile_damage_base": 21
     }
   },
   "Kisarith-2": {
@@ -14339,13 +14326,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "fire_aspect": 2,
-      "thunder_aspect": 5,
       "point_blank": 5,
-      "unbreaking": 3,
       "quick_charge": 1,
+      "regicide": 2,
+      "thunder_aspect": 5,
+      "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 18
+      "projectile_damage_base": 22.5
     }
   },
   "Kisarith-3": {
@@ -14358,13 +14345,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "fire_aspect": 3,
-      "thunder_aspect": 5,
       "point_blank": 5,
-      "unbreaking": 4,
       "quick_charge": 1,
+      "regicide": 3,
+      "thunder_aspect": 5,
+      "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 18.5
+      "projectile_damage_base": 23.5
     }
   },
   "Kisarith-4": {
@@ -14377,13 +14364,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "fire_aspect": 3,
-      "thunder_aspect": 5,
       "point_blank": 6,
-      "unbreaking": 5,
       "quick_charge": 1,
+      "regicide": 3,
+      "thunder_aspect": 5,
+      "unbreaking": 5,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 18.5
+      "projectile_damage_base": 23.5
     }
   },
   "Memory Maker": {
@@ -14412,10 +14399,10 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "punch": 2,
       "fire_aspect": 1,
-      "projectile_damage_base": 15,
-      "projectile_speed_base": 1.5
+      "punch": 2,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 16.5
     }
   },
   "Minted Megaphone": {
@@ -14537,11 +14524,11 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "piercing": 10,
+      "piercing": 5,
       "quick_charge": 1,
       "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 16
+      "projectile_damage_base": 19
     }
   },
   "Pirate's Flintlock": {
@@ -14553,13 +14540,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "point_blank": 4,
       "fire_aspect": 1,
+      "point_blank": 4,
       "punch": 1,
-      "unbreaking": 1,
       "quick_charge": 1,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1.5
+      "unbreaking": 1,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 13
     }
   },
   "Plasma Annihilator": {
@@ -14602,13 +14589,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "recoil": 2,
-      "quick_charge": 1,
       "punch": 1,
-      "unbreaking": 3,
+      "quick_charge": 1,
+      "recoil": 2,
       "sniper": 3,
-      "projectile_damage_base": 18,
-      "projectile_speed_base": 1.5
+      "unbreaking": 3,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 18.5
     }
   },
   "Prismatic Enigma-3": {
@@ -14621,12 +14608,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "thunder_aspect": 2,
       "fire_aspect": 2,
       "mending": 1,
       "reverb": 6,
+      "thunder_aspect": 2,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 31
+      "projectile_damage_base": 31.5
     }
   },
   "Prismatic Enigma-4": {
@@ -14639,12 +14626,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "thunder_aspect": 2,
       "fire_aspect": 2,
       "mending": 1,
       "reverb": 6,
+      "thunder_aspect": 2,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 32
+      "projectile_damage_base": 32.5
     }
   },
   "Quickload Crossbow": {
@@ -14798,11 +14785,11 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
+      "multishot": 1,
       "point_blank": 3,
       "unbreaking": 3,
-      "multishot": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 24.5
     }
   },
   "Shadowstone Ballista-3": {
@@ -14816,11 +14803,11 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
+      "multishot": 1,
       "point_blank": 4,
       "unbreaking": 4,
-      "multishot": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 24.5
     }
   },
   "Shadowstone Ballista-4": {
@@ -14834,11 +14821,11 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
+      "multishot": 1,
       "point_blank": 4,
       "unbreaking": 5,
-      "multishot": 1,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 25.5
     }
   },
   "Simple Crossbow": {
@@ -14882,7 +14869,7 @@
       "punch": 4,
       "unbreaking": 3,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 24
+      "projectile_damage_base": 26.5
     }
   },
   "Stalker's Repeater": {
@@ -14894,12 +14881,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "quick_charge": 1,
-      "unbreaking": 2,
       "evasion": 1,
       "infinity": 1,
-      "projectile_damage_base": 18,
-      "projectile_speed_base": 1.5
+      "quick_charge": 1,
+      "unbreaking": 2,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 20
     }
   },
   "Steelsage Talisman": {
@@ -14939,7 +14926,7 @@
       "punch": 4,
       "unbreaking": 3,
       "projectile_speed_base": 0.8,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 23
     }
   },
   "Syringe Sharpshooter": {
@@ -15074,13 +15061,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "infinity": 1,
+      "piercing": 1,
       "quick_charge": 1,
       "thunder_aspect": 5,
       "unbreaking": 2,
-      "piercing": 1,
-      "infinity": 1,
-      "projectile_damage_base": 15,
-      "projectile_speed_base": 1.5
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 19
     }
   },
   "Warforged Crossbow": {
@@ -23769,7 +23756,7 @@
       "attack_speed_base": 0.8
     }
   },
-  "Fotiá": {
+  "Foti": {
     "location": "Celsian Isles",
     "region": "Isles",
     "tier": "Legacy",
@@ -31774,7 +31761,7 @@
       "attack_speed_base": 1.2
     }
   },
-  "Págos": {
+  "Pgos": {
     "location": "Celsian Isles",
     "region": "Isles",
     "tier": "Legacy",
@@ -32074,7 +32061,7 @@
       "agility": 7
     }
   },
-  "Ashed Zweihänder": {
+  "Ashed Zweihnder": {
     "location": "Celsian Isles",
     "region": "Isles",
     "tier": "Patron",
@@ -33025,8 +33012,8 @@
     "stats": {
       "sweeping_edge": 1,
       "unbreaking": 2,
-      "attack_damage_base": 12,
-      "attack_speed_base": 1.6
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 14
     }
   },
   "Oasis Scimitar": {
@@ -33423,7 +33410,7 @@
       "sweeping_edge": 1,
       "unbreaking": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 13
+      "attack_damage_base": 15
     }
   },
   "Silver Knight's Failure": {
@@ -33456,7 +33443,7 @@
       "sweeping_edge": 2,
       "unbreaking": 2,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14
+      "attack_damage_base": 15.5
     }
   },
   "Spectral Seax": {
@@ -42068,7 +42055,7 @@
       "projectile_damage_percent": 15
     }
   },
-  "Vivacé": {
+  "Vivac": {
     "location": "Celsian Isles",
     "region": "Isles",
     "tier": "Patron",
@@ -48656,7 +48643,7 @@
     "type": "Misc",
     "stats": {}
   },
-  "Simbelmynë": {
+  "Simbelmyn": {
     "location": "Light Blue",
     "region": "Valley",
     "tier": "Key",
@@ -52167,7 +52154,7 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Arboreal Society Fungicide™": {
+  "Arboreal Society Fungicide": {
     "name": "Arboreal Society Fungicide",
     "base_item": "Potion",
     "release_status": "public",
@@ -54840,7 +54827,7 @@
     "type": "Consumable",
     "stats": {}
   },
-  "Legionary Lambanóg": {
+  "Legionary Lambang": {
     "location": "Delves",
     "region": "Isles",
     "name": "Legionary Lambang",
@@ -57739,7 +57726,7 @@
       "material": 1
     }
   },
-  "Corrupted Ōkubi Tooth": {
+  "Corrupted kubi Tooth": {
     "location": "Celsian Isles",
     "region": "Isles",
     "tier": "Patron",
@@ -62365,8 +62352,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "magic_protection": 3,
       "projectile_protection": 4,
-      "magic_protection": 4,
       "max_health_flat": 6,
       "speed_percent": 15,
       "magic_damage_percent": 25
@@ -67659,12 +67646,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "duelist": 3,
       "thunder_aspect": 2,
       "unbreaking": 10,
-      "duelist": 3,
       "thorns_flat": 4,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14
+      "attack_damage_base": 13
     }
   },
   "Crescent of Dominion-3": {
@@ -67677,12 +67664,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "duelist": 3,
       "thunder_aspect": 2,
       "unbreaking": 12,
-      "duelist": 3,
       "thorns_flat": 5,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 13.5
     }
   },
   "Crescent of Dominion-4": {
@@ -67695,12 +67682,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "duelist": 3,
       "thunder_aspect": 2,
       "unbreaking": 14,
-      "duelist": 3,
       "thorns_flat": 6,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 15
+      "attack_damage_base": 14
     }
   },
   "Demon's Scar (stone_hoe)": {
@@ -71883,7 +71870,7 @@
     "stats": {
       "piercing": 1,
       "sniper": 1,
-      "projectile_damage_percent": -30
+      "projectile_damage_percent": -35
     }
   },
   "Aster's Flames": {
@@ -72139,7 +72126,7 @@
     "type": "Projectile",
     "stats": {
       "point_blank": 1,
-      "projectile_damage_percent": 10
+      "projectile_damage_percent": 5
     }
   },
   "Lightning Bolt": {
@@ -72164,7 +72151,7 @@
     "type": "Projectile",
     "stats": {
       "piercing": 1,
-      "projectile_damage_percent": -25
+      "projectile_damage_percent": -30
     }
   },
   "Marksman's Longshot": {
@@ -72245,7 +72232,7 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "projectile_damage_percent": 25
+      "projectile_damage_percent": 15
     }
   },
   "Phantom Spines": {
@@ -72302,7 +72289,7 @@
     "stats": {
       "piercing": 1,
       "thunder_aspect": 2,
-      "projectile_damage_percent": -10
+      "projectile_damage_percent": -20
     }
   },
   "Quetz's Breath": {
@@ -72377,7 +72364,7 @@
     "stats": {
       "piercing": 1,
       "point_blank": 1,
-      "projectile_damage_percent": -30
+      "projectile_damage_percent": -35
     }
   },
   "Serrated Arrow": {
@@ -72456,7 +72443,7 @@
     "type": "Projectile",
     "stats": {
       "sniper": 1,
-      "projectile_damage_percent": 10
+      "projectile_damage_percent": 5
     }
   },
   "Star-tipped Arrow": {
@@ -72491,9 +72478,9 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "abyssal": 10,
+      "abyssal": 6,
       "projectile_speed_percent": 100,
-      "projectile_damage_percent": -35
+      "projectile_damage_percent": -25
     }
   },
   "Strange Arrow": {
@@ -72525,7 +72512,7 @@
     "type": "Projectile",
     "stats": {
       "sniper": 2,
-      "projectile_speed_percent": 100
+      "projectile_speed_percent": 50
     }
   },
   "Urchin Barb": {
@@ -73395,25 +73382,6 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
-  },
-  "Lightbringer": {
-    "location": "Azacor",
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Lightbringer",
-    "base_item": "Trident",
-    "release_status": "public",
-    "type": "Trident",
-    "stats": {
-      "smite": 3,
-      "unbreaking": 2,
-      "knockback": 1,
-      "projectile_damage_base": 11,
-      "projectile_speed_base": 0.8,
-      "throw_rate_base": 0.8,
-      "attack_speed_base": 1,
-      "attack_damage_base": 7
-    }
   },
   "Myrahg's Pestilence": {
     "location": "Magenta",
@@ -75654,15 +75622,15 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 5,
-      "mending": 1,
       "earth_aspect": 2,
       "efficiency": 2,
+      "mending": 1,
       "quake": 3,
       "regeneration": 1,
+      "unbreaking": 5,
       "thorns_flat": 3,
       "attack_speed_base": 0.8,
-      "attack_damage_base": 20
+      "attack_damage_base": 22.5
     }
   },
   "The Vedha's Soulcrusher-2": {
@@ -75675,15 +75643,15 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 7,
-      "mending": 1,
       "earth_aspect": 2,
       "efficiency": 2,
+      "mending": 1,
       "quake": 3,
       "regeneration": 1,
+      "unbreaking": 7,
       "thorns_flat": 3,
       "attack_speed_base": 0.8,
-      "attack_damage_base": 21
+      "attack_damage_base": 23.5
     }
   },
   "The Vedha's Soulcrusher-3": {
@@ -75696,15 +75664,15 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 8,
-      "mending": 1,
       "earth_aspect": 2,
       "efficiency": 2,
+      "mending": 1,
       "quake": 3,
       "regeneration": 1,
+      "unbreaking": 8,
       "thorns_flat": 4,
       "attack_speed_base": 0.8,
-      "attack_damage_base": 21.5
+      "attack_damage_base": 24
     }
   },
   "The Vedha's Soulcrusher-4": {
@@ -75717,15 +75685,15 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 9,
-      "mending": 1,
       "earth_aspect": 2,
       "efficiency": 2,
+      "mending": 1,
       "quake": 3,
       "regeneration": 1,
+      "unbreaking": 9,
       "thorns_flat": 4,
       "attack_speed_base": 0.8,
-      "attack_damage_base": 22.5
+      "attack_damage_base": 25
     }
   },
   "Verdant Crusher": {
@@ -75943,13 +75911,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "second_wind": 2,
-      "unbreaking": 7,
       "ice_aspect": 1,
       "mending": 1,
+      "second_wind": 2,
+      "unbreaking": 7,
       "knockback_resistance_flat": 2,
-      "attack_speed_base": 0.9,
-      "attack_damage_base": 21.5
+      "attack_damage_base": 24,
+      "attack_speed_base": 0.8
     }
   },
   "Vermin's Waltz-4": {
@@ -75962,13 +75930,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "second_wind": 2,
-      "unbreaking": 7,
       "ice_aspect": 1,
       "mending": 1,
+      "second_wind": 2,
+      "unbreaking": 7,
       "knockback_resistance_flat": 2,
-      "attack_speed_base": 0.9,
-      "attack_damage_base": 22
+      "attack_damage_base": 25,
+      "attack_speed_base": 0.8
     }
   },
   "Ashfloe Chisel": {
@@ -77262,13 +77230,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 10,
       "fire_aspect": 1,
-      "sniper": 3,
       "infinity": 1,
-      "projectile_damage_base": 16,
+      "sniper": 3,
+      "unbreaking": 10,
       "speed_percent": 16,
-      "projectile_speed_base": 5
+      "projectile_speed_base": 5,
+      "projectile_damage_base": 17
     }
   },
   "Aleph (written_book)": {
@@ -77663,12 +77631,12 @@
     "type": "Bow",
     "stats": {
       "curse_of_corruption": 1,
-      "thunder_aspect": 10,
-      "unbreaking": 5,
       "ice_aspect": 2,
       "regeneration": 2,
-      "projectile_damage_base": 22,
-      "projectile_speed_base": 1
+      "thunder_aspect": 10,
+      "unbreaking": 5,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 26.5
     }
   },
   "Creation (written_book)": {
@@ -78157,6 +78125,25 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "Lightbringer (trident)": {
+    "location": "Azacor",
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Lightbringer",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "smite": 3,
+      "unbreaking": 2,
+      "knockback": 1,
+      "projectile_damage_base": 11,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 0.8,
+      "attack_speed_base": 1,
+      "attack_damage_base": 7
+    }
   },
   "Lily of the Valley": {
     "name": "Lily of the Valley",
