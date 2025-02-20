@@ -47630,11 +47630,11 @@
     "type": "Axe",
     "stats": {
       "ice_aspect": 3,
-      "unbreakable": 1,
-      "shielding": 1,
       "quake": 3,
+      "shielding": 1,
+      "unbreakable": 1,
       "attack_speed_base": 0.6,
-      "attack_damage_base": 21.5
+      "attack_damage_base": 23
     }
   },
   "Silent Night": {
@@ -57766,6 +57766,18 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Distant Lacerating Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Distant Lacerating Charm",
+    "power": 3,
+    "base_item": "Quartz",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Eternal Magma Crystal": {
     "name": "Eternal Magma Crystal",
     "base_item": "Quartz",
@@ -57810,6 +57822,18 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Focused Lacerating Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Lacerating Charm",
+    "power": 3,
+    "base_item": "Quartz",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Focused Razor Charm": {
     "location": "Architect's Ring",
@@ -57856,6 +57880,18 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Greater Lacerating Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Lacerating Charm",
+    "power": 2,
+    "base_item": "Quartz",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Greater Razor Charm": {
     "location": "Architect's Ring",
@@ -57909,6 +57945,18 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Lesser Lacerating Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Lacerating Charm",
+    "power": 1,
+    "base_item": "Quartz",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Lesser Razor Charm": {
     "location": "Architect's Ring",
@@ -58067,6 +58115,18 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Swift Lacerating Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Lacerating Charm",
+    "power": 2,
+    "base_item": "Quartz",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Swift Razor Charm": {
     "location": "Architect's Ring",
@@ -62882,6 +62942,20 @@
       "throw_rate_base": 0.5,
       "projectile_speed_base": 1,
       "projectile_damage_base": 11
+    }
+  },
+  "Snowball Launcher": {
+    "location": "Winter Event",
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Snowball Launcher",
+    "base_item": "Snowball",
+    "release_status": "public",
+    "type": "Snowball",
+    "stats": {
+      "infinity": 1,
+      "snowy": 1,
+      "throw_rate_base": 6
     }
   },
   "Snowball?": {
