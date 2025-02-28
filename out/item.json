@@ -899,10 +899,24 @@
     "stats": {}
   },
   "Bloodroot Soup": {
+    "location": "Valley Overworld",
+    "region": "Valley",
     "name": "Bloodroot Soup",
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.15,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.2,
+        "EffectType": "Vulnerability"
+      }
+    ],
     "base_item": "Beetroot Soup",
     "release_status": "public",
-    "type": "Misc",
+    "type": "Consumable",
     "stats": {}
   },
   "Frenzied Earth": {
@@ -5912,7 +5926,7 @@
     "name": "Pretzel",
     "effects": [
       {
-        "EffectDuration": 100,
+        "EffectDuration": 200,
         "EffectStrength": 1,
         "EffectType": "Haste"
       }
@@ -67036,12 +67050,12 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "curse_of_corruption": 1,
       "abyssal": 2,
-      "unbreaking": 5,
+      "curse_of_corruption": 1,
       "efficiency": 3,
-      "attack_damage_base": 13.5,
-      "attack_speed_base": 0.8
+      "unbreaking": 5,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 14
     }
   },
   "Erebus": {
