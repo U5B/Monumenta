@@ -62,6 +62,18 @@
     "type": "Misc",
     "stats": {}
   },
+  "Outsider's Gaze": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Outsider's Gaze",
+    "power": 2,
+    "base_item": "Amethyst Block",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
   "Crystal Cluster": {
     "location": "Isles Overworld",
     "region": "Isles",
@@ -566,6 +578,22 @@
     "base_item": "Andesite Wall",
     "release_status": "public",
     "type": "Misc",
+    "stats": {}
+  },
+  "Blackroot Fruit": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Blackroot Fruit",
+    "effects": [
+      {
+        "EffectDuration": 500,
+        "EffectStrength": 0.05,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Apple",
+    "release_status": "public",
+    "type": "Consumable",
     "stats": {}
   },
   "Caramel Apple": {
@@ -2507,6 +2535,16 @@
     "region": "Isles",
     "tier": "Legacy",
     "name": "Replica Dimensional Wand",
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Scepter of Agony": {
+    "location": "Pink",
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Scepter of Agony",
     "base_item": "Blaze Rod",
     "release_status": "public",
     "type": "Misc",
@@ -5180,6 +5218,60 @@
       "speed_percent": 10,
       "projectile_speed_base": 1,
       "projectile_damage_base": 10
+    }
+  },
+  "Ppanvel's Wolfbone Greatbow-2": {
+    "location": "Skr",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Ppanvel's Wolfbone Greatbow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "mending": 1,
+      "point_blank": 2,
+      "shielding": 1,
+      "stamina": 3,
+      "projectile_speed_base": 2.5,
+      "projectile_damage_base": 25
+    }
+  },
+  "Ppanvel's Wolfbone Greatbow-3": {
+    "location": "Skr",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Ppanvel's Wolfbone Greatbow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "mending": 1,
+      "point_blank": 2,
+      "shielding": 1,
+      "stamina": 3,
+      "projectile_speed_base": 2.5,
+      "projectile_damage_base": 26
+    }
+  },
+  "Ppanvel's Wolfbone Greatbow-4": {
+    "location": "Skr",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Ppanvel's Wolfbone Greatbow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "mending": 1,
+      "point_blank": 3,
+      "shielding": 1,
+      "stamina": 3,
+      "projectile_speed_base": 2.5,
+      "projectile_damage_base": 26
     }
   },
   "Pyromancer's Bow": {
@@ -9068,6 +9160,60 @@
       "armor": 4.5
     }
   },
+  "Watcher's Warning-2": {
+    "location": "Skr",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Watcher's Warning",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_fragility": 2,
+      "projectile_protection": 2,
+      "second_wind": 2,
+      "unbreaking": 7,
+      "agility": 8,
+      "magic_damage_percent": 15
+    }
+  },
+  "Watcher's Warning-3": {
+    "location": "Skr",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Watcher's Warning",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_fragility": 2,
+      "projectile_protection": 3,
+      "second_wind": 2,
+      "unbreaking": 8,
+      "agility": 8,
+      "magic_damage_percent": 15
+    }
+  },
+  "Watcher's Warning-4": {
+    "location": "Skr",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Watcher's Warning",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_fragility": 2,
+      "projectile_protection": 3,
+      "second_wind": 3,
+      "unbreaking": 9,
+      "agility": 8,
+      "magic_damage_percent": 15
+    }
+  },
   "Whispering Chains": {
     "location": "Azacor",
     "region": "Valley",
@@ -9849,6 +9995,60 @@
       "attack_damage_percent": 25
     }
   },
+  "Tarri's Windeater-2": {
+    "location": "Skr",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Tarri's Windeater",
+    "base_item": "Chainmail Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adrenaline": 1,
+      "magic_protection": 2,
+      "unbreaking": 6,
+      "attack_speed_percent": 15,
+      "agility": 6.5,
+      "attack_damage_percent": 20
+    }
+  },
+  "Tarri's Windeater-3": {
+    "location": "Skr",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Tarri's Windeater",
+    "base_item": "Chainmail Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adrenaline": 1,
+      "magic_protection": 2,
+      "unbreaking": 7,
+      "attack_speed_percent": 15,
+      "agility": 7,
+      "attack_damage_percent": 20
+    }
+  },
+  "Tarri's Windeater-4": {
+    "location": "Skr",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Tarri's Windeater",
+    "base_item": "Chainmail Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adrenaline": 2,
+      "magic_protection": 2,
+      "unbreaking": 8,
+      "attack_speed_percent": 15,
+      "attack_damage_percent": 25,
+      "agility": 7.5
+    }
+  },
   "Umbras Visage": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -9894,6 +10094,57 @@
       "aqua_affinity": 1,
       "respiration": 2,
       "armor": 4.5
+    }
+  },
+  "Across the Ocean-2": {
+    "location": "Skr",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Across the Ocean",
+    "base_item": "Chainmail Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "life_drain": 1,
+      "unbreaking": 9,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 10,
+      "armor": 8.5
+    }
+  },
+  "Across the Ocean-3": {
+    "location": "Skr",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Across the Ocean",
+    "base_item": "Chainmail Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "life_drain": 1,
+      "unbreaking": 9,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 15,
+      "armor": 9
+    }
+  },
+  "Across the Ocean-4": {
+    "location": "Skr",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Across the Ocean",
+    "base_item": "Chainmail Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "life_drain": 1,
+      "unbreaking": 9,
+      "attack_speed_percent": 15,
+      "attack_damage_percent": 15,
+      "armor": 9.5
     }
   },
   "Adamantium Skin (legs)": {
@@ -12984,6 +13235,18 @@
       "speed_percent": 15
     }
   },
+  "Vile Ground": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Vile Ground",
+    "power": 3,
+    "base_item": "Composter",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "C'Nai's Cube": {
     "location": "Sanctum",
     "region": "Valley",
@@ -15255,6 +15518,18 @@
     "type": "Misc",
     "stats": {}
   },
+  "Windeater Icon": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Windeater Icon",
+    "power": 2,
+    "base_item": "Cyan Dye",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
   "Duelist's Sigil": {
     "location": "SKT",
     "region": "Ring",
@@ -15525,6 +15800,16 @@
   "Tube Coral Dissolver": {
     "name": "Tube Coral Dissolver",
     "base_item": "Dead Tube Coral",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Portable Gatecharm": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Portable Gatecharm",
+    "base_item": "Decorated Pot",
     "release_status": "public",
     "type": "Misc",
     "stats": {}
@@ -17287,8 +17572,8 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {
-      "starvation": 1,
-      "infinity": 1
+      "infinity": 1,
+      "starvation": 1
     }
   },
   "Food Ration": {
@@ -19008,6 +19293,16 @@
   },
   "Purified Silvic Crystal": {
     "name": "Purified Silvic Crystal",
+    "base_item": "Flint",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Remnant Scroll Fragment": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Remnant Scroll Fragment",
     "base_item": "Flint",
     "release_status": "public",
     "type": "Misc",
@@ -23471,6 +23766,63 @@
       "unbreaking": 5,
       "speed_percent": 10,
       "agility": 7
+    }
+  },
+  "Moqqil's Tarnished Legguards-2": {
+    "location": "Skr",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Moqqil's Tarnished Legguards",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "aptitude": 1,
+      "fire_protection": 3,
+      "projectile_protection": 2,
+      "unbreaking": 17,
+      "agility": 7,
+      "projectile_damage_percent": 8,
+      "magic_damage_percent": 8
+    }
+  },
+  "Moqqil's Tarnished Legguards-3": {
+    "location": "Skr",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Moqqil's Tarnished Legguards",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "aptitude": 1,
+      "fire_protection": 4,
+      "projectile_protection": 2,
+      "unbreaking": 20,
+      "agility": 7,
+      "magic_damage_percent": 11,
+      "projectile_damage_percent": 11
+    }
+  },
+  "Moqqil's Tarnished Legguards-4": {
+    "location": "Skr",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Moqqil's Tarnished Legguards",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "aptitude": 1,
+      "fire_protection": 4,
+      "projectile_protection": 2,
+      "unbreaking": 20,
+      "agility": 7,
+      "magic_damage_percent": 15,
+      "projectile_damage_percent": 15
     }
   },
   "Oracle's Greaves": {
@@ -28823,6 +29175,57 @@
       "armor": 9
     }
   },
+  "Silver Armament-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silver Armament",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "melee_protection": 1,
+      "projectile_protection": 2,
+      "unbreaking": 8,
+      "speed_percent": 10,
+      "armor": 10
+    }
+  },
+  "Silver Armament-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silver Armament",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "melee_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 9,
+      "speed_percent": 10,
+      "armor": 10
+    }
+  },
+  "Silver Armament-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Silver Armament",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "melee_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 10,
+      "speed_percent": 10,
+      "armor": 11
+    }
+  },
   "Silverthread Raiment": {
     "location": "Remorse",
     "region": "Isles",
@@ -31218,6 +31621,16 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
+  "Silver Memory Fragment": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Silver Memory Fragment",
+    "base_item": "Iron Nugget",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Silver Remnant": {
     "location": "SKT",
     "region": "Ring",
@@ -31954,6 +32367,63 @@
       "stamina": 4,
       "armor": 7.5,
       "attack_damage_percent": 10
+    }
+  },
+  "Aggripa's Gearshredder-2": {
+    "location": "Skr",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Aggripa's Gearshredder",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adaptability": 1,
+      "melee_protection": 1,
+      "poise": 1,
+      "tempo": 1,
+      "unbreakable": 1,
+      "agility": 4,
+      "attack_damage_percent": 25
+    }
+  },
+  "Aggripa's Gearshredder-3": {
+    "location": "Skr",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Aggripa's Gearshredder",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adaptability": 1,
+      "melee_protection": 1,
+      "poise": 1,
+      "tempo": 1,
+      "unbreakable": 1,
+      "agility": 4,
+      "attack_damage_percent": 30
+    }
+  },
+  "Aggripa's Gearshredder-4": {
+    "location": "Skr",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Aggripa's Gearshredder",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "adaptability": 1,
+      "melee_protection": 2,
+      "poise": 1,
+      "tempo": 1,
+      "unbreakable": 1,
+      "agility": 4,
+      "attack_damage_percent": 30
     }
   },
   "Akam's Ferocity": {
@@ -34209,6 +34679,18 @@
       "knockback_resistance_flat": 8
     }
   },
+  "Nullwick Lantern": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Nullwick Lantern",
+    "power": 2,
+    "base_item": "Lantern",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Mage"
+  },
   "Prophetic Moonbeam": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -34277,6 +34759,16 @@
     "type": "Charm",
     "class_name": "Cleric"
   },
+  "Harmonic Crystalline Cluster": {
+    "location": "Pink",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Harmonic Crystalline Cluster",
+    "base_item": "Large Amethyst Bud",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Lesser Consecrated Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -34331,6 +34823,18 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Cleric"
+  },
+  "Short Circuit": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Short Circuit",
+    "power": 1,
+    "base_item": "Lead",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Rogue"
   },
   "Bloodied Leathers": {
     "name": "Bloodied Leathers",
@@ -48120,6 +48624,17 @@
       "armor": 7.5
     }
   },
+  "Dormant Sequence Scroll": {
+    "location": "Skr",
+    "region": "Ring",
+    "name": "Dormant Sequence Scroll",
+    "base_item": "Netherite Scrap",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
+  },
   "Echoes of the Veil": {
     "location": "Willows",
     "region": "Valley",
@@ -57204,6 +57719,18 @@
     "type": "Misc",
     "stats": {}
   },
+  "Primeval Scale": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Primeval Scale",
+    "power": 2,
+    "base_item": "Prismarine Shard",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Prophecy's Crystal": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -58353,6 +58880,18 @@
       "material": 1
     }
   },
+  "Wolfbone Pendant": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Wolfbone Pendant",
+    "power": 1,
+    "base_item": "Rabbit Hide",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Crystal Behemoth Dummy": {
     "location": "Seasonal Pass",
     "name": "Crystal Behemoth Dummy",
@@ -58459,6 +58998,60 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Merdd's Nullwick Candle-2": {
+    "location": "Skr",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Merdd's Nullwick Candle",
+    "base_item": "Red Candle",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "decay": 2,
+      "fire_aspect": 2,
+      "inferno": 1,
+      "steadfast": 1,
+      "spell_power_base": 75,
+      "attack_damage_base": 9
+    }
+  },
+  "Merdd's Nullwick Candle-3": {
+    "location": "Skr",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Merdd's Nullwick Candle",
+    "base_item": "Red Candle",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "decay": 2,
+      "fire_aspect": 2,
+      "inferno": 2,
+      "steadfast": 1,
+      "attack_damage_base": 10,
+      "spell_power_base": 75
+    }
+  },
+  "Merdd's Nullwick Candle-4": {
+    "location": "Skr",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Merdd's Nullwick Candle",
+    "base_item": "Red Candle",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "decay": 2,
+      "fire_aspect": 2,
+      "inferno": 2,
+      "steadfast": 1,
+      "spell_power_base": 80,
+      "attack_damage_base": 10
+    }
   },
   "Ashkii Galero": {
     "location": "The Wolfswood",
@@ -58572,18 +59165,6 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Shaman"
-  },
-  "Fortitude Augment": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Currency",
-    "name": "Fortitude Augment",
-    "base_item": "Red Dye",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    }
   },
   "Greater Charm of Healing": {
     "location": "Architect's Ring",
@@ -59045,6 +59626,16 @@
       "material": 1
     }
   },
+  "Cacophonous Catalyst": {
+    "location": "Rush",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Cacophonous Catalyst",
+    "base_item": "Redstone Block",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Flawless Magma Fragment": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -59093,6 +59684,39 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Chipped Remnant Scroll -=- Sequence": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Chipped Remnant Scroll -=- Sequence",
+    "base_item": "Rib Armor Trim Smithing Template",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to:\n▶ 1 Normal Combat Room\n▶ 1 Normal Puzzle Room\n▶ 1 Long Combat Room\nClick in mainhand to use."
+  },
+  "Fractured Remnant Scroll -=- Sequence": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Fractured Remnant Scroll -=- Sequence",
+    "base_item": "Rib Armor Trim Smithing Template",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to:\n▶ 1 Normal Combat Room\n▶ 1 Normal Puzzle Room\n▶ 1 Long Combat Room\nClick in mainhand to use."
+  },
+  "Remnant Scroll -=- Sequence": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Remnant Scroll -=- Sequence",
+    "base_item": "Rib Armor Trim Smithing Template",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to:\n▶ 1 Normal Combat Room\n▶ 1 Normal Puzzle Room\n▶ 1 Long Combat Room\nClick in mainhand to use."
   },
   "Malhuer Reach": {
     "location": "Godspore",
@@ -60358,6 +60982,63 @@
       "speed_percent": -25,
       "attack_speed_base": 0.9,
       "attack_damage_base": 22
+    }
+  },
+  "Echoes of Ru'Ten-2": {
+    "location": "Skr",
+    "masterwork": "2",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Echoes of Ru'Ten",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_instability": 1,
+      "life_drain": 1,
+      "mending": 1,
+      "reflexes": 1,
+      "attack_speed_percent": 10,
+      "max_health_flat": -2,
+      "agility": 8.5
+    }
+  },
+  "Echoes of Ru'Ten-3": {
+    "location": "Skr",
+    "masterwork": "3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Echoes of Ru'Ten",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_instability": 1,
+      "life_drain": 1,
+      "mending": 1,
+      "reflexes": 1,
+      "attack_speed_percent": 10,
+      "max_health_flat": -2,
+      "agility": 9.5
+    }
+  },
+  "Echoes of Ru'Ten-4": {
+    "location": "Skr",
+    "masterwork": "4",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Echoes of Ru'Ten",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_instability": 1,
+      "life_drain": 1,
+      "mending": 1,
+      "reflexes": 1,
+      "attack_speed_percent": 10,
+      "max_health_flat": -2,
+      "agility": 10
     }
   },
   "Etke of C'Axtal": {
@@ -62478,6 +63159,18 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Loci's Hunger": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Loci's Hunger",
+    "power": 3,
+    "base_item": "Smithing Table",
+    "release_status": "public",
+    "stats": {},
+    "type": "Charm",
+    "class_name": "Warrior"
   },
   "Mechanical Armory": {
     "location": "PORTAL",
@@ -66183,6 +66876,16 @@
       "magic_damage_percent": 20,
       "max_health_flat": 6
     }
+  },
+  "Scepter of Euphony": {
+    "location": "Pink",
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Scepter of Euphony",
+    "base_item": "Stick",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Siershen's Caster": {
     "location": "King's Valley",
@@ -74471,6 +75174,17 @@
     "type": "Misc",
     "stats": {}
   },
+  "Remnant Scroll -=- Puzzle": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Remnant Scroll -=- Puzzle",
+    "base_item": "Vex Armor Trim Smithing Template",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to:\n▶ 1 Normal Puzzle Room\nClick in mainhand to use."
+  },
   "Plot Alchemist": {
     "name": "Plot Alchemist",
     "base_item": "Villager Spawn Egg",
@@ -74547,6 +75261,17 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Remnant Scroll -=- Combat": {
+    "location": "Skr",
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Remnant Scroll -=- Combat",
+    "base_item": "Ward Armor Trim Smithing Template",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to:\n▶ 1 Normal Combat Room\nClick in mainhand to use."
   },
   "Totem of the Tombstone": {
     "location": "Sirius",
@@ -75267,7 +75992,6 @@
   },
   "Hekawt Dummy": {
     "location": "Blitz",
-    "region": "Valley",
     "name": "Hekawt Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -75415,7 +76139,6 @@
   },
   "Varcosa Dummy": {
     "location": "Blitz",
-    "region": "Valley",
     "name": "Varcosa Dummy",
     "base_item": "Wither Skeleton Spawn Egg",
     "release_status": "public",
@@ -75611,16 +76334,16 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 2,
-      "mending": 1,
-      "two_handed": 1,
       "efficiency": 5,
+      "mending": 1,
       "quake": 4,
       "regeneration": 2,
+      "two_handed": 1,
+      "unbreaking": 2,
       "knockback_resistance_flat": 6,
-      "attack_damage_base": 25,
       "attack_speed_base": 0.8,
-      "armor": 2
+      "armor": 2,
+      "attack_damage_base": 26
     }
   },
   "Smoldering Hatchet": {
@@ -78313,6 +79036,13 @@
     "type": "Written Book",
     "stats": {}
   },
+  "Memory Log - Silver Knight Merdd I": {
+    "name": "Memory Log - Silver Knight Merdd I",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
   "Message from a Bottle": {
     "name": "Message from a Bottle",
     "base_item": "Written Book",
@@ -79501,7 +80231,6 @@
   },
   "Archmage Dummy": {
     "location": "Blitz",
-    "region": "Valley",
     "name": "Archmage Dummy",
     "base_item": "Zombie Spawn Egg",
     "release_status": "public",
