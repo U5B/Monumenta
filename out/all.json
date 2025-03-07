@@ -1646,6 +1646,46 @@
     "description": "The Stars have been thoroughly defeated on this day.",
     "parent": "monumenta:challenges/r3/sirius/win"
   },
+  "monumenta:challenges/r3/skr/base": {
+    "title": "Silver Knight Remnants",
+    "description": "You found and conquered a Silver Knight Remnant cache!",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r3/skr/galos": {
+    "title": "Galos Cache",
+    "description": "You found and conquered a Galos cache!",
+    "parent": "monumenta:challenges/r3/skr/isharist_ruined"
+  },
+  "monumenta:challenges/r3/skr/isharist_preserved": {
+    "title": "Isharist - Tarkir Cache",
+    "description": "You found and conquered a Tarkir cache!",
+    "parent": "monumenta:challenges/r3/skr/starblight"
+  },
+  "monumenta:challenges/r3/skr/isharist_ruined": {
+    "title": "Isharist - Moltaria Cache",
+    "description": "You found and conquered a Moltaria cache!",
+    "parent": "monumenta:challenges/r3/skr/isharist_preserved"
+  },
+  "monumenta:challenges/r3/skr/keep": {
+    "title": "Pelias' Keep Cache",
+    "description": "You found and conquered a Pelias' Keep cache!",
+    "parent": "monumenta:challenges/r3/skr/wolfswood"
+  },
+  "monumenta:challenges/r3/skr/lier": {
+    "title": "Lier Cache",
+    "description": "You found and conquered a Lier cache!",
+    "parent": "monumenta:challenges/r3/skr/galos"
+  },
+  "monumenta:challenges/r3/skr/starblight": {
+    "title": "Starblight Cache",
+    "description": "You found and conquered a Starblight cache!",
+    "parent": "monumenta:challenges/r3/skr/keep"
+  },
+  "monumenta:challenges/r3/skr/wolfswood": {
+    "title": "Wolfswood Cache",
+    "description": "You found and conquered a Wolfswood cache!",
+    "parent": "monumenta:challenges/r3/skr/base"
+  },
   "monumenta:challenges/root": {
     "title": "Challenges",
     "description": "Complete the special challenges of each region."
