@@ -23094,7 +23094,7 @@
       "trivium": 2,
       "unbreaking": 50,
       "attack_speed_base": 1.3,
-      "attack_damage_base": 16.5
+      "attack_damage_base": 17
     }
   },
   "Eschar Dreamcatcher-3": {
@@ -23111,7 +23111,7 @@
       "trivium": 2,
       "unbreaking": 55,
       "attack_speed_base": 1.3,
-      "attack_damage_base": 17
+      "attack_damage_base": 17.5
     }
   },
   "Eschar Dreamcatcher-4": {
@@ -23128,7 +23128,7 @@
       "trivium": 2,
       "unbreaking": 60,
       "attack_speed_base": 1.3,
-      "attack_damage_base": 17.5
+      "attack_damage_base": 18
     }
   },
   "Inevitable Demise": {
@@ -23253,12 +23253,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "smite": 4,
-      "unbreaking": 4,
       "magic_protection": 2,
       "mending": 1,
+      "smite": 4,
+      "unbreaking": 4,
       "attack_speed_base": 1,
-      "attack_damage_base": 14
+      "attack_damage_base": 15.5
     }
   },
   "Reaper's Harvest-2": {
@@ -23271,12 +23271,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "smite": 4,
-      "unbreaking": 5,
       "magic_protection": 2,
       "mending": 1,
+      "smite": 4,
+      "unbreaking": 5,
       "attack_speed_base": 1,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 16
     }
   },
   "Reaper's Harvest-3": {
@@ -23289,12 +23289,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "smite": 4,
-      "unbreaking": 6,
       "magic_protection": 2,
       "mending": 1,
+      "smite": 4,
+      "unbreaking": 6,
       "attack_speed_base": 1,
-      "attack_damage_base": 15
+      "attack_damage_base": 16.5
     }
   },
   "Reaper's Harvest-4": {
@@ -23307,12 +23307,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "smite": 4,
-      "unbreaking": 7,
       "magic_protection": 3,
       "mending": 1,
+      "smite": 4,
+      "unbreaking": 7,
       "attack_speed_base": 1,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 17
     }
   },
   "Soul of Ishnir": {
@@ -29952,12 +29952,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
+      "first_strike": 2,
+      "knockback": 1,
       "unbreaking": 5,
-      "wind_aspect": 1,
-      "regeneration": 1,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 16
     }
   },
   "Air-Purified Thresher-3": {
@@ -29970,12 +29971,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
+      "first_strike": 2,
+      "knockback": 1,
       "unbreaking": 6,
-      "wind_aspect": 1,
-      "regeneration": 1,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 16
+      "attack_damage_base": 16.5
     }
   },
   "Air-Purified Thresher-4": {
@@ -29988,12 +29990,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
+      "first_strike": 2,
+      "knockback": 1,
       "unbreaking": 7,
-      "wind_aspect": 1,
-      "regeneration": 1,
-      "speed_percent": 15,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 16
+      "speed_percent": 10,
+      "attack_damage_base": 17
     }
   },
   "Arcane Confection": {
@@ -30247,12 +30250,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 3,
+      "ethereal": 1,
       "ice_aspect": 2,
+      "second_wind": 1,
       "two_handed": 1,
-      "poise": 2,
-      "attack_speed_base": 1,
-      "attack_damage_base": 22
+      "unbreaking": 3,
+      "attack_damage_base": 19,
+      "attack_speed_base": 1.4
     }
   },
   "Hunter's Edge": {
@@ -30797,13 +30801,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 5,
+      "bleeding": 2,
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 2,
-      "bleeding": 2,
+      "unbreaking": 5,
       "attack_speed_base": 1.2,
-      "attack_damage_base": 15
+      "attack_damage_base": 16.5
     }
   },
   "Veinshredder-3": {
@@ -30816,13 +30820,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 6,
+      "bleeding": 2,
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 2,
-      "bleeding": 2,
+      "unbreaking": 6,
       "attack_speed_base": 1.2,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 17
     }
   },
   "Veinshredder-4": {
@@ -30835,13 +30839,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 7,
+      "bleeding": 2,
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 2,
-      "bleeding": 2,
+      "unbreaking": 7,
       "attack_speed_base": 1.2,
-      "attack_damage_base": 16
+      "attack_damage_base": 17.5
     }
   },
   "Vulture Khopesh": {
@@ -33094,11 +33098,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 1,
       "first_strike": 1,
       "unbreaking": 4,
-      "duelist": 1,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 16
     }
   },
   "Harrakfar's Claw-1": {
@@ -33111,11 +33115,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 1,
       "first_strike": 1,
       "unbreaking": 5,
-      "duelist": 1,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 16
+      "attack_damage_base": 16.5
     }
   },
   "Harrakfar's Claw-2": {
@@ -33128,11 +33132,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 1,
       "first_strike": 1,
       "unbreaking": 5,
-      "duelist": 1,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 16.5
+      "attack_damage_base": 17
     }
   },
   "Harrakfar's Claw-3": {
@@ -33145,11 +33149,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 2,
       "first_strike": 1,
       "unbreaking": 6,
-      "duelist": 2,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 16.5
+      "attack_damage_base": 17.5
     }
   },
   "Harrakfar's Claw-4": {
@@ -33162,11 +33166,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 2,
       "first_strike": 2,
       "unbreaking": 7,
-      "duelist": 2,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 17
+      "attack_damage_base": 18
     }
   },
   "Heiress' Rapier": {
@@ -33405,8 +33409,8 @@
       "unbreaking": 4,
       "wind_aspect": 2,
       "speed_percent": 12,
-      "attack_damage_base": 14.5,
-      "attack_speed_base": 1.8
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 15.5
     }
   },
   "Nalatia's Galeblade-2": {
@@ -33422,8 +33426,8 @@
       "unbreaking": 5,
       "wind_aspect": 2,
       "speed_percent": 12,
-      "attack_damage_base": 15,
-      "attack_speed_base": 1.8
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 16
     }
   },
   "Nalatia's Galeblade-3": {
@@ -33439,8 +33443,8 @@
       "unbreaking": 6,
       "wind_aspect": 2,
       "speed_percent": 13,
-      "attack_damage_base": 15.5,
-      "attack_speed_base": 1.8
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 16.5
     }
   },
   "Nalatia's Galeblade-4": {
@@ -33456,8 +33460,8 @@
       "unbreaking": 7,
       "wind_aspect": 2,
       "speed_percent": 14,
-      "attack_damage_base": 16,
-      "attack_speed_base": 1.8
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 17
     }
   },
   "Nightfall": {
@@ -33777,12 +33781,12 @@
     "type": "Mainhand Sword",
     "stats": {
       "abyssal": 2,
-      "unbreaking": 4,
-      "ice_aspect": 1,
       "adrenaline": 1,
-      "attack_damage_base": 15.5,
+      "ice_aspect": 1,
+      "unbreaking": 4,
       "speed_percent": 3,
-      "attack_speed_base": 1.4
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 16.5
     }
   },
   "Seafarer's Rapier-2": {
@@ -33796,12 +33800,12 @@
     "type": "Mainhand Sword",
     "stats": {
       "abyssal": 2,
-      "unbreaking": 5,
-      "ice_aspect": 1,
       "adrenaline": 1,
-      "attack_damage_base": 16,
+      "ice_aspect": 1,
+      "unbreaking": 5,
       "speed_percent": 5,
-      "attack_speed_base": 1.4
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17
     }
   },
   "Seafarer's Rapier-3": {
@@ -33815,12 +33819,12 @@
     "type": "Mainhand Sword",
     "stats": {
       "abyssal": 2,
-      "unbreaking": 6,
-      "ice_aspect": 1,
       "adrenaline": 2,
+      "ice_aspect": 1,
+      "unbreaking": 6,
       "speed_percent": 5,
-      "attack_damage_base": 16.5,
-      "attack_speed_base": 1.4
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17.5
     }
   },
   "Seafarer's Rapier-4": {
@@ -33834,12 +33838,12 @@
     "type": "Mainhand Sword",
     "stats": {
       "abyssal": 2,
-      "unbreaking": 7,
-      "ice_aspect": 1,
       "adrenaline": 2,
+      "ice_aspect": 1,
+      "unbreaking": 7,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 17,
-      "speed_percent": 7
+      "speed_percent": 7,
+      "attack_damage_base": 18
     }
   },
   "Shadowdancer Talisman": {
@@ -34268,11 +34272,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 2,
       "second_wind": 1,
       "unbreaking": 5,
-      "duelist": 2,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14
+      "attack_damage_base": 13.5
     }
   },
   "Will of the Codex-2": {
@@ -34285,9 +34289,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 2,
       "second_wind": 1,
       "unbreaking": 5,
-      "duelist": 3,
       "attack_speed_base": 1.6,
       "attack_damage_base": 14
     }
@@ -34302,11 +34306,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 3,
       "second_wind": 1,
       "unbreaking": 6,
-      "duelist": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 14
     }
   },
   "Will of the Codex-4": {
@@ -34319,9 +34323,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "duelist": 3,
       "second_wind": 1,
       "unbreaking": 7,
-      "duelist": 4,
       "attack_speed_base": 1.6,
       "attack_damage_base": 14.5
     }
@@ -63808,9 +63812,9 @@
     "type": "Wand",
     "stats": {
       "second_wind": 1,
-      "attack_damage_base": 18,
       "attack_speed_base": 0.9,
-      "spell_power_base": 68
+      "spell_power_base": 68,
+      "attack_damage_base": 19.5
     }
   },
   "Thalassic Cinders-2": {
@@ -63824,9 +63828,9 @@
     "type": "Wand",
     "stats": {
       "second_wind": 1,
-      "attack_damage_base": 18.5,
       "attack_speed_base": 0.9,
-      "spell_power_base": 70
+      "spell_power_base": 70,
+      "attack_damage_base": 20
     }
   },
   "Thalassic Cinders-3": {
@@ -63840,9 +63844,9 @@
     "type": "Wand",
     "stats": {
       "second_wind": 2,
-      "attack_damage_base": 19,
       "attack_speed_base": 0.9,
-      "spell_power_base": 72
+      "spell_power_base": 72,
+      "attack_damage_base": 20.5
     }
   },
   "Thalassic Cinders-4": {
@@ -63857,8 +63861,8 @@
     "stats": {
       "second_wind": 2,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 19,
-      "spell_power_base": 77
+      "spell_power_base": 77,
+      "attack_damage_base": 21
     }
   },
   "Focused Charm of the Contract": {
@@ -67362,7 +67366,7 @@
     "type": "Wand",
     "stats": {
       "bleeding": 2,
-      "decay": 8,
+      "decay": 9,
       "regeneration": 1,
       "attack_damage_base": 8.5,
       "spell_power_base": 80
@@ -67379,7 +67383,7 @@
     "type": "Wand",
     "stats": {
       "bleeding": 2,
-      "decay": 9,
+      "decay": 12,
       "regeneration": 1,
       "attack_damage_base": 9,
       "spell_power_base": 82
@@ -67396,7 +67400,7 @@
     "type": "Wand",
     "stats": {
       "bleeding": 2,
-      "decay": 10,
+      "decay": 15,
       "regeneration": 1,
       "attack_damage_base": 9.5,
       "spell_power_base": 85
@@ -68442,7 +68446,7 @@
       "unbreaking": 10,
       "thorns_flat": 4,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 13
+      "attack_damage_base": 14
     }
   },
   "Crescent of Dominion-3": {
@@ -68460,7 +68464,7 @@
       "unbreaking": 12,
       "thorns_flat": 5,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 14.5
     }
   },
   "Crescent of Dominion-4": {
@@ -68478,7 +68482,7 @@
       "unbreaking": 14,
       "thorns_flat": 6,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14
+      "attack_damage_base": 15
     }
   },
   "Demon's Scar (stone_hoe)": {
@@ -70252,11 +70256,11 @@
     "type": "Mainhand Sword",
     "stats": {
       "life_drain": 1,
-      "unbreaking": 3,
-      "stamina": 2,
       "mending": 1,
+      "stamina": 2,
+      "unbreaking": 3,
       "attack_speed_base": 1.7,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 14.5
     }
   },
   "Fading Horizon-3": {
@@ -70270,11 +70274,11 @@
     "type": "Mainhand Sword",
     "stats": {
       "life_drain": 1,
-      "unbreaking": 3,
-      "stamina": 2,
       "mending": 1,
+      "stamina": 2,
+      "unbreaking": 3,
       "attack_speed_base": 1.7,
-      "attack_damage_base": 14
+      "attack_damage_base": 15
     }
   },
   "Fading Horizon-4": {
@@ -70288,11 +70292,11 @@
     "type": "Mainhand Sword",
     "stats": {
       "life_drain": 1,
-      "unbreaking": 3,
-      "stamina": 3,
       "mending": 1,
+      "stamina": 3,
+      "unbreaking": 3,
       "attack_speed_base": 1.7,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 15.5
     }
   },
   "Feldspar Sabre": {
@@ -74090,7 +74094,7 @@
       "unbreaking": 3,
       "projectile_speed_base": 0.7,
       "throw_rate_base": 1.5,
-      "projectile_damage_base": 11
+      "projectile_damage_base": 13
     }
   },
   "Hydraal": {
@@ -76603,12 +76607,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "inure": 1,
       "decay": 15,
+      "inure": 1,
       "unbreaking": 40,
       "attack_speed_base": 2,
       "knockback_resistance_flat": 2.5,
-      "attack_damage_base": 11.5
+      "attack_damage_base": 11.5,
+      "armor": 1
     }
   },
   "Medicine Stick": {
@@ -77477,12 +77482,12 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 55,
       "curse_of_crippling": 1,
       "quake": 4,
+      "unbreaking": 55,
       "knockback_resistance_flat": 2,
-      "attack_damage_base": 16,
-      "attack_speed_base": 1.4
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17
     }
   },
   "Light Scimitar": {
@@ -79031,13 +79036,6 @@
   },
   "Marked Dream Dictionary": {
     "name": "Marked Dream Dictionary",
-    "base_item": "Written Book",
-    "release_status": "public",
-    "type": "Written Book",
-    "stats": {}
-  },
-  "Memory Log - Silver Knight Merdd I": {
-    "name": "Memory Log - Silver Knight Merdd I",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
