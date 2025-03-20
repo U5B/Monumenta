@@ -53464,6 +53464,98 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Coffee": {
+    "location": "Isles Overworld",
+    "region": "Isles",
+    "tier": "Uncommon",
+    "name": "Coffee",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "AbilityCooldownIncrease"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "AntiHeal"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "BlastVulnerability"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "Bleed"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "DurabilityLoss"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "ExpLoss"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "FireVulnerability"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "MagicVulnerability"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "MaxHealthDecrease"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeVulnerability"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "NegativeAttackSpeed"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "NegativeKnockbackResist"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileVulnerability"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "FallVulnerability"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "SoulThreadReduction"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.1,
+        "EffectType": "Vulnerability"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Colossal Cognac": {
     "location": "Delves",
     "name": "Colossal Cognac",
@@ -59169,6 +59261,18 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Fortitude Augment": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Fortitude Augment",
+    "base_item": "Red Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
   },
   "Greater Charm of Healing": {
     "location": "Architect's Ring",

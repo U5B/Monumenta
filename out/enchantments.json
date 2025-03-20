@@ -359,6 +359,11 @@
     "description": "Applies (level * 10)% Slowness for 4 seconds when dealing melee or projectile damage. Deals 1 extra damage to Blazes.",
     "category": "Weapons"
   },
+  "impact": {
+    "name": "Impact",
+    "description": "For the next 2s after you attack a mob, deal an additional (level * 10)% of your physical attack's damage to the mob when they hit a wall, or if they fall from more than 3 blocks.",
+    "category": "Weapons"
+  },
   "ineptitude": {
     "name": "Ineptitude",
     "description": "Increases the cooldown of all of your skills by 5% per level multiplicatively.",
@@ -628,6 +633,11 @@
     "name": "Resurrection",
     "description": "When you are about to die, this item provides 8 Absorption for 5 sconds, Regeneration 2 for 45 seconds, and Fire Resistance for 40 seconds, destroying itself in the process.",
     "category": "Consumables"
+  },
+  "retaliation": {
+    "name": "Retaliation",
+    "description": "Your next attack on a mob within 5s of successfully blocking a melee hit, projectile or explosion, will deal increased damage to that mob, based on how much damage the blocked attack would've dealt. Additionally, certain blocked debuffs will infuse the attack with an effect corresponding to that debuff. Your shield is stunned for 1s on block.",
+    "category": "Weapons"
   },
   "retrieval": {
     "name": "Retrieval",
