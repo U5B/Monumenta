@@ -3877,7 +3877,7 @@
   },
   "monumenta:handbook/enchantments/retaliation": {
     "title": "Retaliation",
-    "description": "Your next attack on a mob within 5s of successfully blocking a melee hit, projectile or explosion, will deal increased damage to that mob, based on how much damage the blocked attack would've dealt. Additionally, certain blocked debuffs will infuse the attack with an effect corresponding to that debuff. Your shield is stunned for 1s on block.",
+    "description": "The next mob you attack within 5s of successfully blocking damage, will take increased damage from the attack, based on how much damage was blocked. Additionally, certain blocked debuffs will infuse the attack with an effect corresponding to that debuff.",
     "parent": "monumenta:handbook/enchantments/impact"
   },
   "monumenta:handbook/enchantments/retrieval": {
@@ -3994,6 +3994,11 @@
     "title": "Steadfast",
     "description": "Gain (0.33% * Level) Armor per 1% health lost, up to (20% * Level) Armor.",
     "parent": "monumenta:handbook/enchantments/inure"
+  },
+  "monumenta:handbook/enchantments/sturdy": {
+    "title": "Sturdy",
+    "description": "Reduces the duration shields are stunned for by 5% per level.",
+    "parent": "monumenta:handbook/enchantments/fervor"
   },
   "monumenta:handbook/enchantments/sustenance": {
     "title": "Sustenance",
