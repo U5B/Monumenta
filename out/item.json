@@ -473,6 +473,22 @@
     "type": "Charm",
     "class_name": "Mage"
   },
+  "Guillotine Wings": {
+    "location": "Hunts",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Guillotine Wings",
+    "power": 1,
+    "base_item": "Amethyst Shard",
+    "release_status": "public",
+    "stats": {
+      "tactical_maneuver_cooldown_percent": -40,
+      "tactical_maneuver_velocity_percent": -60,
+      "tactical_maneuver_stun_duration_flat": -10
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Heavy Prismatic Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -8005,6 +8021,22 @@
     "stats": {},
     "lore": "Quality Bonus (+20%)\nThis shiny snail stands out\nincredibly well underwater."
   },
+  "Ruck": {
+    "location": "Hunts",
+    "mmlore": [
+      "<gray>Epic Crafting Material",
+      "Hand-carved by local Dichen children, each",
+      "is a unique work of tourist-fooling art!"
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Ruck",
+    "base_item": "Bowl",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material\nHand-carved by local Dichen children, each\nis a unique work of tourist-fooling art!"
+  },
   "Trembling Root": {
     "location": "The Wolfswood",
     "region": "Ring",
@@ -8113,6 +8145,28 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Swiftgrain Loaf": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "The grains growing outside the",
+      "Abandoned Tunnels are highly sought",
+      "for their hastening qualities."
+    ],
+    "region": "Valley",
+    "name": "Swiftgrain Loaf",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.05,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Bread",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "The grains growing outside the\nAbandoned Tunnels are highly sought\nfor their hastening qualities."
   },
   "Unsettling Bread": {
     "location": "King's Valley",
@@ -8332,6 +8386,20 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
+  "Mad Science Gland": {
+    "location": "Hunts",
+    "mmlore": [
+      "Contains precisely zero natural ingredients."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Mad Science Gland",
+    "base_item": "Brown Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Contains precisely zero natural ingredients."
+  },
   "Swift Fissure Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -8347,6 +8415,21 @@
     },
     "type": "Charm",
     "class_name": "Alchemist"
+  },
+  "Mire's Influence": {
+    "location": "Hunts",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Mire's Influence",
+    "power": 2,
+    "base_item": "Brown Glazed Terracotta",
+    "release_status": "public",
+    "stats": {
+      "judgement_chain_damage_boost_percent": 15,
+      "judgement_chain_range_percent": -40
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
   },
   "Bound Vessel": {
     "location": "Celsian Isles",
@@ -9765,6 +9848,56 @@
       "knockback_resistance_flat": 4
     },
     "lore": "For on that day young Pelias would\nsee his blessed empire fall. His name\nnow cursed, for what he did brought\nholy wrath upon us all."
+  },
+  "Piercing Steel-3": {
+    "location": "Hunts",
+    "masterwork": "3",
+    "mmlore": [
+      "Dark blades of metal feathers decorate",
+      "the otherwise unassuming boots. The",
+      "formidable hawk's likeness lends itself",
+      "well here, a testament to its strength."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Piercing Steel",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "feather_falling": 3,
+      "magic_protection": 1,
+      "projectile_fragility": 2,
+      "tempo": 2,
+      "unbreaking": 8,
+      "agility": 6
+    },
+    "lore": "Dark blades of metal feathers decorate\nthe otherwise unassuming boots. The\nformidable hawk's likeness lends itself\nwell here, a testament to its strength."
+  },
+  "Piercing Steel-4": {
+    "location": "Hunts",
+    "masterwork": "4",
+    "mmlore": [
+      "Dark blades of metal feathers decorate",
+      "the otherwise unassuming boots. The",
+      "formidable hawk's likeness lends itself",
+      "well here, a testament to its strength."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Piercing Steel",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "feather_falling": 3,
+      "magic_protection": 2,
+      "projectile_fragility": 2,
+      "tempo": 2,
+      "unbreaking": 9,
+      "agility": 6
+    },
+    "lore": "Dark blades of metal feathers decorate\nthe otherwise unassuming boots. The\nformidable hawk's likeness lends itself\nwell here, a testament to its strength."
   },
   "Sandals of Attunement": {
     "location": "Kaul",
@@ -17482,6 +17615,48 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Shoal Skimmer": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "The Fishmongers of Sierhaven treasure these fish as",
+      "a keystone ingredient in their reknowned stews."
+    ],
+    "region": "Valley",
+    "name": "Shoal Skimmer",
+    "effects": [
+      {
+        "EffectDuration": 800,
+        "EffectStrength": 1,
+        "EffectType": "WaterBreath"
+      }
+    ],
+    "base_item": "Cooked Cod",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "The Fishmongers of Sierhaven treasure these fish as\na keystone ingredient in their reknowned stews."
+  },
+  "Charred Mutton": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "The meat is uncomfortably tough and has a",
+      "very hard layer of char on the outside."
+    ],
+    "region": "Valley",
+    "name": "Charred Mutton",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 2,
+        "EffectType": "FireDamageNegate"
+      }
+    ],
+    "base_item": "Cooked Mutton",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "The meat is uncomfortably tough and has a\nvery hard layer of char on the outside."
+  },
   "Dog Treat": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Smells delicious... to a dog.",
@@ -17530,6 +17705,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "A particularly gruesome food for\nthe desperate or the insane."
+  },
+  "Miner's Ration": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "A hearty meal will invigorate the body and energize",
+      "the mind; the perfect food for an excavator."
+    ],
+    "region": "Valley",
+    "name": "Miner's Ration",
+    "effects": [
+      {
+        "EffectDuration": 400,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      }
+    ],
+    "base_item": "Cooked Rabbit",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "A hearty meal will invigorate the body and energize\nthe mind; the perfect food for an excavator."
   },
   "Fruits of the Catch": {
     "location": "Transmogrifier",
@@ -21094,6 +21290,56 @@
     },
     "lore": "A talon from the great ancient, lost\nin the fury of battle with titans\nof yore. With dying dragonbreath,\nit radiates heat."
   },
+  "Cloak of Immortals-3": {
+    "location": "Hunts",
+    "masterwork": "3",
+    "mmlore": [
+      "The segmented plates of The Impenetrable's shell",
+      "were heated and shaped intensely to weave the",
+      "immortal hewn crystal. Its unbreakable will now",
+      "belonged to a different sort of beast."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Cloak of Immortals",
+    "base_item": "Diamond Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "cloaked": 1,
+      "ineptitude": 2,
+      "magic_protection": 1,
+      "mending": 1,
+      "agility": 9,
+      "attack_damage_percent": 25
+    },
+    "lore": "The segmented plates of The Impenetrable's shell\nwere heated and shaped intensely to weave the\nimmortal hewn crystal. Its unbreakable will now\nbelonged to a different sort of beast."
+  },
+  "Cloak of Immortals-4": {
+    "location": "Hunts",
+    "masterwork": "4",
+    "mmlore": [
+      "The segmented plates of The Impenetrable's shell",
+      "were heated and shaped intensely to weave the",
+      "immortal hewn crystal. Its unbreakable will now",
+      "belonged to a different sort of beast."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Cloak of Immortals",
+    "base_item": "Diamond Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "cloaked": 1,
+      "ineptitude": 2,
+      "magic_protection": 2,
+      "mending": 1,
+      "agility": 9,
+      "attack_damage_percent": 30
+    },
+    "lore": "The segmented plates of The Impenetrable's shell\nwere heated and shaped intensely to weave the\nimmortal hewn crystal. Its unbreakable will now\nbelonged to a different sort of beast."
+  },
   "Starhungry Coriaceus-3": {
     "location": "Sirius",
     "masterwork": "3",
@@ -21399,6 +21645,56 @@
       "attack_speed_percent": 20
     },
     "lore": "Motes of light dance around the scarred\nmetal - fragments of the power still held\nwithin after surviving the Rootways' collapse."
+  },
+  "Hailstorm Pelt-3": {
+    "location": "Hunts",
+    "masterwork": "3",
+    "mmlore": [
+      "Lady Morgan designed this pelt as a fashionable",
+      "alternative to the traditional hunter garb. It bears",
+      "tufts of fur and quilted, luxurious leather."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Hailstorm Pelt",
+    "base_item": "Diamond Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_fragility": 3,
+      "magic_protection": 2,
+      "mending": 1,
+      "projectile_protection": 2,
+      "trivium": 2,
+      "speed_percent": 10,
+      "armor": 10
+    },
+    "lore": "Lady Morgan designed this pelt as a fashionable\nalternative to the traditional hunter garb. It bears\ntufts of fur and quilted, luxurious leather."
+  },
+  "Hailstorm Pelt-4": {
+    "location": "Hunts",
+    "masterwork": "4",
+    "mmlore": [
+      "Lady Morgan designed this pelt as a fashionable",
+      "alternative to the traditional hunter garb. It bears",
+      "tufts of fur and quilted, luxurious leather."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Hailstorm Pelt",
+    "base_item": "Diamond Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "fire_fragility": 3,
+      "magic_protection": 2,
+      "mending": 1,
+      "projectile_protection": 2,
+      "trivium": 3,
+      "speed_percent": 10,
+      "armor": 10
+    },
+    "lore": "Lady Morgan designed this pelt as a fashionable\nalternative to the traditional hunter garb. It bears\ntufts of fur and quilted, luxurious leather."
   },
   "Gem-Tipped Boilerdrill-2": {
     "location": "Brown",
@@ -24426,6 +24722,21 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
+  "Plume of Steel": {
+    "location": "Hunts",
+    "mmlore": [
+      "Seriously, how does it fly covered in these?",
+      "One would think such plumage would make it hard to fly..."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Plume of Steel",
+    "base_item": "Feather",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Seriously, how does it fly covered in these?\nOne would think such plumage would make it hard to fly..."
+  },
   "Rapid Hunting Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -26560,6 +26871,22 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
+  "Stonebearer Toxin": {
+    "location": "Hunts",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Stonebearer Toxin",
+    "power": 2,
+    "base_item": "Glass Bottle",
+    "release_status": "public",
+    "stats": {
+      "iron_tincture_enhancement_resistance_amplifier_percent": 10,
+      "iron_tincture_velocity_percent": 50,
+      "iron_tincture_absorption_health_percent": -25
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Swift Iron Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -27463,6 +27790,23 @@
     "stats": {},
     "lore": "Not all that looks like gold is."
   },
+  "Pyroclastic Emesis": {
+    "location": "Hunts",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pyroclastic Emesis",
+    "power": 1,
+    "base_item": "Gold Nugget",
+    "release_status": "public",
+    "stats": {
+      "starfall_damage_percent": 150,
+      "starfall_range_percent": -100,
+      "starfall_fall_speed_percent": -50,
+      "starfall_cooldown_percent": 50
+    },
+    "type": "Charm",
+    "class_name": "Mage"
+  },
   "Sunlit Gold": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -27861,6 +28205,54 @@
       "attack_speed_base": 1.1
     },
     "lore": "It consumed the energy of the world\naround it, slowly increasing its power.\nIncreasing its awareness."
+  },
+  "Extinction-3": {
+    "location": "Hunts",
+    "masterwork": "3",
+    "mmlore": [
+      "A gift from New Antium for the extermination of",
+      "the Hoglin infestation. A hammer so large only",
+      "a scant few could bear its monstrous weight."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Extinction",
+    "base_item": "Golden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "cumbersome": 1,
+      "impact": 2,
+      "knockback": 3,
+      "unbreaking": 60,
+      "attack_speed_base": 1,
+      "attack_damage_base": 31
+    },
+    "lore": "A gift from New Antium for the extermination of\nthe Hoglin infestation. A hammer so large only\na scant few could bear its monstrous weight."
+  },
+  "Extinction-4": {
+    "location": "Hunts",
+    "masterwork": "4",
+    "mmlore": [
+      "A gift from New Antium for the extermination of",
+      "the Hoglin infestation. A hammer so large only",
+      "a scant few could bear its monstrous weight."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Extinction",
+    "base_item": "Golden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "cumbersome": 1,
+      "impact": 3,
+      "knockback": 3,
+      "unbreaking": 60,
+      "attack_speed_base": 1,
+      "attack_damage_base": 32
+    },
+    "lore": "A gift from New Antium for the extermination of\nthe Hoglin infestation. A hammer so large only\na scant few could bear its monstrous weight."
   },
   "Forlorn Flames": {
     "location": "Cyan",
@@ -32666,6 +33058,58 @@
       "speed_percent": 18
     },
     "lore": "It is not the man who has too little,\nbut the man who craves more,\nthat is poor.\nWith an empty cursor,  on\nthe blade to extract a stack of HCS."
+  },
+  "Ignistone Cluster-3": {
+    "location": "Hunts",
+    "masterwork": "3",
+    "mmlore": [
+      "Chunks of molten rock erupted violently from its",
+      "core, threatening to return all it touched to",
+      "ash and silt. Back to the primordial flame."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Ignistone Cluster",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "blast_protection": 2,
+      "curse_of_instability": 1,
+      "ethereal": 1,
+      "fire_protection": 2,
+      "magic_protection": 2,
+      "unbreakable": 1,
+      "attack_damage_percent": 27,
+      "agility": 6.5
+    },
+    "lore": "Chunks of molten rock erupted violently from its\ncore, threatening to return all it touched to\nash and silt. Back to the primordial flame."
+  },
+  "Ignistone Cluster-4": {
+    "location": "Hunts",
+    "masterwork": "4",
+    "mmlore": [
+      "Chunks of molten rock erupted violently from its",
+      "core, threatening to return all it touched to",
+      "ash and silt. Back to the primordial flame."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Ignistone Cluster",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "blast_protection": 2,
+      "curse_of_instability": 1,
+      "ethereal": 1,
+      "fire_protection": 2,
+      "magic_protection": 2,
+      "unbreakable": 1,
+      "attack_damage_percent": 33,
+      "agility": 7
+    },
+    "lore": "Chunks of molten rock erupted violently from its\ncore, threatening to return all it touched to\nash and silt. Back to the primordial flame."
   },
   "Inflation I": {
     "location": "Celsian Isles",
@@ -48552,6 +48996,58 @@
     },
     "lore": "Here, the trees show no age. The stumps\nare marked not with concentric bands,\nbut rather contain a seemingly infinite\nspiral. This forest is ancient, yet timeless."
   },
+  "The Statue-3": {
+    "location": "Hunts",
+    "masterwork": "3",
+    "mmlore": [
+      "The grassy fields became a tomb for any life",
+      "that greeted its petrifying gaze. The statues",
+      "were almost like a recollection of those who",
+      "who had faced the beast prior."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "The Statue",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "curse_of_crippling": 1,
+      "second_wind": 2,
+      "unbreaking": 30,
+      "speed_percent": -15,
+      "magic_damage_percent": 20,
+      "knockback_resistance_flat": 6,
+      "armor": 8.5
+    },
+    "lore": "The grassy fields became a tomb for any life\nthat greeted its petrifying gaze. The statues\nwere almost like a recollection of those who\nwho had faced the beast prior."
+  },
+  "The Statue-4": {
+    "location": "Hunts",
+    "masterwork": "4",
+    "mmlore": [
+      "The grassy fields became a tomb for any life",
+      "that greeted its petrifying gaze. The statues",
+      "were almost like a recollection of those who",
+      "who had faced the beast prior."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "The Statue",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "curse_of_crippling": 1,
+      "second_wind": 2,
+      "unbreaking": 35,
+      "magic_damage_percent": 25,
+      "speed_percent": -15,
+      "knockback_resistance_flat": 6,
+      "armor": 8.5
+    },
+    "lore": "The grassy fields became a tomb for any life\nthat greeted its petrifying gaze. The statues\nwere almost like a recollection of those who\nwho had faced the beast prior."
+  },
   "Thornskin Shoes": {
     "location": "King's Valley",
     "region": "Valley",
@@ -60684,6 +61180,21 @@
     "type": "Charm",
     "class_name": "Mage"
   },
+  "Magmatic Ooze Sac": {
+    "location": "Hunts",
+    "mmlore": [
+      "\"Explosive to the nth degree. For artillery charges only.\"",
+      "\"Only add to a rifle if you really hate your shoulder.\""
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Magmatic Ooze Sac",
+    "base_item": "Magma Cream",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"Explosive to the nth degree. For artillery charges only.\"\n\"Only add to a rifle if you really hate your shoulder.\""
+  },
   "Molten Meteorite": {
     "location": "Ruin",
     "region": "Ring",
@@ -61114,6 +61625,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "It refracts the light in an interesting\nway for a fungus.\n* Quest Item *\n#Q115I03"
+  },
+  "Fermented Offering": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "To drink such an offering in a hallowed temple",
+      "was known to grant clarity and peace of mind."
+    ],
+    "region": "Valley",
+    "name": "Fermented Offering",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.1,
+        "EffectType": "Absorption"
+      }
+    ],
+    "base_item": "Mushroom Stew",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "To drink such an offering in a hallowed temple\nwas known to grant clarity and peace of mind."
   },
   "Annilys": {
     "location": "Depths",
@@ -69655,6 +70187,37 @@
     "stats": {},
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Boon of Petrification": {
+    "location": "Hunts",
+    "mmlore": [
+      "“Our flesh is so tender and impermanent.",
+      "How fortunate that He has the cure.”"
+    ],
+    "region": "Ring",
+    "name": "Boon of Petrification",
+    "effects": [
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 1,
+        "EffectType": "DurabilitySave"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.15,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.1,
+        "EffectType": "Slow"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "“Our flesh is so tender and impermanent.\nHow fortunate that He has the cure.”"
+  },
   "Bottle of Souls": {
     "location": "King's Valley",
     "mmlore": [
@@ -70821,6 +71384,42 @@
     "stats": {},
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Distilled Gemstones": {
+    "location": "Hunts",
+    "mmlore": [
+      "“Of the art of vaporizing and condensating",
+      "jewels, I cannot reveal in words alone.\""
+    ],
+    "region": "Ring",
+    "name": "Distilled Gemstones",
+    "effects": [
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.25,
+        "EffectType": "MaxHealthIncrease"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.15,
+        "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.1,
+        "EffectType": "AbilityCooldownIncrease"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.1,
+        "EffectType": "NegativeAttackSpeed"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "“Of the art of vaporizing and condensating\njewels, I cannot reveal in words alone.\""
+  },
   "Distilled Leprechaun Blood": {
     "location": "King's Valley",
     "region": "Valley",
@@ -71410,6 +72009,37 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Extravagant Liquor": {
+    "location": "Hunts",
+    "mmlore": [
+      "\"Just the ticket to keep the chill out without",
+      "putting on more layers. Shame about the taste.\""
+    ],
+    "region": "Ring",
+    "name": "Extravagant Liquor",
+    "effects": [
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.1,
+        "EffectType": "MagicResistance"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.1,
+        "EffectType": "ProjectileResistance"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "\"Just the ticket to keep the chill out without\nputting on more layers. Shame about the taste.\""
   },
   "Fangorn Draught": {
     "location": "King's Valley",
@@ -72912,6 +73542,32 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Quicksilver Vial": {
+    "location": "Hunts",
+    "mmlore": [
+      "\"Her claim to the heavens is flimsy.",
+      "The skies can be yours too, ami.”"
+    ],
+    "region": "Ring",
+    "name": "Quicksilver Vial",
+    "effects": [
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 2,
+        "EffectType": "JumpBoost"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.05,
+        "EffectType": "AbilityCooldownDecrease"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "\"Her claim to the heavens is flimsy.\nThe skies can be yours too, ami.”"
   },
   "Ragebrew": {
     "location": "Valley Overworld",
@@ -74801,6 +75457,24 @@
     "stats": {},
     "lore": "Legacy currency for the transmogrifier."
   },
+  "Titanic Hailstone": {
+    "location": "Hunts",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Titanic Hailstone",
+    "power": 3,
+    "base_item": "Prismarine Crystals",
+    "release_status": "public",
+    "stats": {
+      "illuminate_damage_percent": 75,
+      "illuminate_radius_percent": 75,
+      "illuminate_knockback_percent": 75,
+      "illuminate_velocity_percent": -75,
+      "illuminate_trail_duration_percent": -75
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
   "Warped Battery": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>A strange, almost inaudible hum",
@@ -76545,6 +77219,20 @@
       "knockback": 2,
       "speed_percent": 15
     }
+  },
+  "Alabaster Hide": {
+    "location": "Hunts",
+    "mmlore": [
+      "Luxury arguably worth travelling to The Ring for!"
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Alabaster Hide",
+    "base_item": "Rabbit Hide",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Luxury arguably worth travelling to The Ring for!"
   },
   "Chaparral Circlet": {
     "location": "Sanctum",
@@ -78974,6 +79662,31 @@
       "speed_percent": 15,
       "armor": 1
     }
+  },
+  "Chimera's Grace-6": {
+    "location": "Hunts",
+    "masterwork": "6",
+    "mmlore": [
+      "“Accepting death may be wisdom or folly,",
+      "but the dilemma never occurs to a beast.“"
+    ],
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Chimera's Grace",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "ethereal": 1,
+      "melee_protection": 2,
+      "retaliation": 1,
+      "technique": 3,
+      "unbreakable": 1,
+      "attack_speed_percent": 15,
+      "speed_percent": 15,
+      "knockback_resistance_flat": 5
+    },
+    "lore": "“Accepting death may be wisdom or folly,\nbut the dilemma never occurs to a beast.“"
   },
   "Corrupted Morphic Shield": {
     "location": "Reverie",
@@ -81456,6 +82169,23 @@
     },
     "lore": "The wood of the Wispleaf Tree offers\na familiar protection from the cold.\nA wreath adorns the shield, frosted with\nthe sharp ice of winter."
   },
+  "Indomitable Prism": {
+    "location": "Hunts",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Indomitable Prism",
+    "power": 2,
+    "base_item": "Shulker Shell",
+    "release_status": "public",
+    "stats": {
+      "bodyguard_cooldown_percent": -25,
+      "bodyguard_range_percent": 100,
+      "bodyguard_stun_radius_percent": -200,
+      "bodyguard_absorption_duration_percent": -25
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
   "Shulker Shell Fragment": {
     "name": "Shulker Shell Fragment",
     "base_item": "Shulker Shell",
@@ -81464,6 +82194,21 @@
     "stats": {
       "material": 1
     }
+  },
+  "Unbreakable Shell": {
+    "location": "Hunts",
+    "mmlore": [
+      "Much like the creature it came from,",
+      "this shell's durability is quite exaggerated."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Unbreakable Shell",
+    "base_item": "Shulker Shell",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Much like the creature it came from,\nthis shell's durability is quite exaggerated."
   },
   "Blighted Skull": {
     "location": "King's Valley",
@@ -84607,6 +85352,32 @@
     },
     "lore": "Aether streaks through the flowing metal\ncontained within the crucible you hold."
   },
+  "Muddied Tincture": {
+    "location": "Hunts",
+    "mmlore": [
+      "“Really, what good is pain? Useless data.",
+      "Let’s just ignore it.”"
+    ],
+    "region": "Ring",
+    "name": "Muddied Tincture",
+    "effects": [
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.1,
+        "EffectType": "MeleeResistance"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.5,
+        "EffectType": "KnockbackResist"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "“Really, what good is pain? Useless data.\nLet’s just ignore it.”"
+  },
   "Nightbarb Flask": {
     "location": "Gallery of Fear",
     "mmlore": [
@@ -85560,6 +86331,37 @@
     "type": "Consumable",
     "stats": {},
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DD Key Item *"
+  },
+  "Unstable Canister": {
+    "location": "Hunts",
+    "mmlore": [
+      "“Another synthesis failure… yet one",
+      "chemist’s trash may be a mage’s tincture.”"
+    ],
+    "region": "Ring",
+    "name": "Unstable Canister",
+    "effects": [
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.35,
+        "EffectType": "BlastResistance"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.35,
+        "EffectType": "FireResistance"
+      },
+      {
+        "EffectDuration": 24000,
+        "EffectStrength": 0.1,
+        "EffectType": "MagicDamage"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "“Another synthesis failure… yet one\nchemist’s trash may be a mage’s tincture.”"
   },
   "Unstable Willowfruit": {
     "location": "Willows",
@@ -93063,6 +93865,21 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Terrestrial Sinew": {
+    "location": "Hunts",
+    "mmlore": [
+      "Drawing a bow across it produces an",
+      "unfathomably profane timbre."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Terrestrial Sinew",
+    "base_item": "String",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Drawing a bow across it produces an\nunfathomably profane timbre."
   },
   "Twisted Strand": {
     "location": "Delves",
@@ -102457,6 +103274,13 @@
   },
   "The Horizon": {
     "name": "The Horizon",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
+  "The Hunter's Prayer": {
+    "name": "The Hunter's Prayer",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
