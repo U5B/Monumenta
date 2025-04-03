@@ -451,8 +451,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "regicide": 1,
       "magic_protection": 2,
+      "regicide": 1,
       "attack_damage_base": 9,
       "spell_power_base": 82
     },
@@ -1641,7 +1641,7 @@
     "stats": {
       "desecrating_shot_cooldown_percent": -50,
       "desecrating_shot_damage_percent": 10,
-      "desecrating_shot_radius_flat": -1,
+      "desecrating_shot_radius_percent": -25,
       "desecrating_shot_weakness_amplifier_percent": -15
     },
     "type": "Charm",
@@ -3313,9 +3313,9 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 3,
       "fire_aspect": 4,
       "inferno": 5,
+      "knockback": 3,
       "attack_speed_base": 0.8,
       "spell_power_base": 68,
       "attack_damage_base": 21
@@ -3338,9 +3338,9 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 3,
       "fire_aspect": 4,
       "inferno": 5,
+      "knockback": 3,
       "attack_speed_base": 0.8,
       "spell_power_base": 70,
       "attack_damage_base": 21.5
@@ -3363,9 +3363,9 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 3,
       "fire_aspect": 4,
       "inferno": 5,
+      "knockback": 3,
       "attack_speed_base": 0.8,
       "spell_power_base": 75,
       "attack_damage_base": 22
@@ -3388,9 +3388,9 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 3,
       "fire_aspect": 4,
       "inferno": 6,
+      "knockback": 3,
       "attack_speed_base": 0.8,
       "spell_power_base": 75,
       "attack_damage_base": 22.5
@@ -8262,8 +8262,8 @@
     "type": "Wand",
     "stats": {
       "poise": 1,
-      "spell_power_base": 50,
-      "attack_damage_base": 6
+      "attack_damage_base": 6,
+      "spell_power_base": 50
     },
     "lore": "Dancing flames jut across the gauntlet's molten\ncrust, a catalyst for the ritualistic flame."
   },
@@ -20330,6 +20330,80 @@
     },
     "lore": "A fraying wing stretches across the\nrickety bow, demanding flight."
   },
+  "Witchbane Revolver-2": {
+    "location": "Transmogrifier",
+    "masterwork": "2",
+    "mmlore": [
+      "At times, the conflict between the Dichen and",
+      "the Coven was like a simmering cauldron,",
+      "stable and quiet. Some years, however,",
+      "ran red with bloodshed."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Witchbane Revolver",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "quick_charge": 4,
+      "regicide": 2,
+      "unbreaking": 4,
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 12.5
+    },
+    "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
+  },
+  "Witchbane Revolver-3": {
+    "location": "Transmogrifier",
+    "masterwork": "3",
+    "mmlore": [
+      "At times, the conflict between the Dichen and",
+      "the Coven was like a simmering cauldron,",
+      "stable and quiet. Some years, however,",
+      "ran red with bloodshed."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Witchbane Revolver",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "quick_charge": 4,
+      "regicide": 2,
+      "unbreaking": 4,
+      "speed_percent": 10,
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 12.5
+    },
+    "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
+  },
+  "Witchbane Revolver-4": {
+    "location": "Transmogrifier",
+    "masterwork": "4",
+    "mmlore": [
+      "At times, the conflict between the Dichen and",
+      "the Coven was like a simmering cauldron,",
+      "stable and quiet. Some years, however,",
+      "ran red with bloodshed."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Witchbane Revolver",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "quick_charge": 4,
+      "regicide": 2,
+      "unbreaking": 5,
+      "projectile_speed_base": 1.2,
+      "speed_percent": 10,
+      "projectile_damage_base": 13
+    },
+    "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
+  },
   "Z.A.P.": {
     "location": "Isles Overworld",
     "mmlore": [
@@ -20402,8 +20476,8 @@
       "decay": 1,
       "ice_aspect": 1,
       "speed_percent": 5,
-      "attack_damage_base": 6.5,
-      "spell_power_base": 77
+      "spell_power_base": 77,
+      "attack_damage_base": 6.5
     },
     "lore": "One sister left for the Depths. Another\nrose to far greater heights."
   },
@@ -20425,8 +20499,8 @@
       "decay": 1,
       "ice_aspect": 1,
       "speed_percent": 5,
-      "attack_damage_base": 6.5,
-      "spell_power_base": 82
+      "spell_power_base": 82,
+      "attack_damage_base": 6.5
     },
     "lore": "One sister left for the Depths. Another\nrose to far greater heights."
   },
@@ -21991,12 +22065,12 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 1,
       "bleeding": 2,
       "ethereal": 1,
+      "unbreaking": 1,
       "attack_speed_base": 1.2,
-      "attack_damage_base": 18.5,
-      "thorns_flat": 4
+      "thorns_flat": 4,
+      "attack_damage_base": 18.5
     },
     "lore": "The metal itself seems to have been deeply\ncorrupted by gore left in Sirius' wake."
   },
@@ -22014,12 +22088,12 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 1,
       "bleeding": 2,
       "ethereal": 1,
+      "unbreaking": 1,
       "attack_speed_base": 1.2,
-      "attack_damage_base": 19,
-      "thorns_flat": 4
+      "thorns_flat": 4,
+      "attack_damage_base": 19
     },
     "lore": "The metal itself seems to have been deeply\ncorrupted by gore left in Sirius' wake."
   },
@@ -22727,12 +22801,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 13,
-      "spell_power_base": 75
+      "spell_power_base": 75,
+      "attack_damage_base": 13
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -22751,12 +22825,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 13.5,
-      "spell_power_base": 77
+      "spell_power_base": 77,
+      "attack_damage_base": 13.5
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -22775,12 +22849,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 13.5,
-      "spell_power_base": 82
+      "spell_power_base": 82,
+      "attack_damage_base": 13.5
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -22799,12 +22873,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14,
-      "spell_power_base": 85
+      "spell_power_base": 85,
+      "attack_damage_base": 14
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -22823,12 +22897,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14,
-      "spell_power_base": 90
+      "spell_power_base": 90,
+      "attack_damage_base": 14
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -23528,8 +23602,9 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "material": 1,
-      "gills": 1
+      "gills": 1,
+      "infinity": 1,
+      "material": 1
     },
     "lore": "You can hold it, yet it does not\nseem to be truly there..."
   },
@@ -27800,9 +27875,9 @@
     "release_status": "public",
     "stats": {
       "starfall_damage_percent": 150,
-      "starfall_range_percent": -100,
       "starfall_fall_speed_percent": -50,
-      "starfall_cooldown_percent": 50
+      "starfall_cooldown_percent": 50,
+      "starfall_range_percent": -100
     },
     "type": "Charm",
     "class_name": "Mage"
@@ -28302,14 +28377,14 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "unbreaking": 50,
-      "smite": 2,
-      "magic_protection": 2,
       "duelist": 2,
       "life_drain": 2,
+      "magic_protection": 2,
+      "smite": 2,
+      "unbreaking": 50,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 15,
-      "spell_power_base": 75
+      "spell_power_base": 75,
+      "attack_damage_base": 15
     },
     "lore": "Memories cling to the edges of the time\nthey once occupied. Some slip through\nthe cracks and never let go."
   },
@@ -28328,14 +28403,14 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "unbreaking": 55,
-      "smite": 2,
-      "magic_protection": 2,
       "duelist": 2,
       "life_drain": 2,
+      "magic_protection": 2,
+      "smite": 2,
+      "unbreaking": 55,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 15.5,
-      "spell_power_base": 77
+      "spell_power_base": 77,
+      "attack_damage_base": 15.5
     },
     "lore": "Memories cling to the edges of the time\nthey once occupied. Some slip through\nthe cracks and never let go."
   },
@@ -28354,14 +28429,14 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "unbreaking": 60,
-      "smite": 2,
-      "magic_protection": 2,
       "duelist": 2,
       "life_drain": 2,
+      "magic_protection": 2,
+      "smite": 2,
+      "unbreaking": 60,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 15.5,
-      "spell_power_base": 82
+      "spell_power_base": 82,
+      "attack_damage_base": 15.5
     },
     "lore": "Memories cling to the edges of the time\nthey once occupied. Some slip through\nthe cracks and never let go."
   },
@@ -37684,10 +37759,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "regicide": 1,
       "inferno": 4,
+      "regicide": 1,
       "unbreaking": 8,
-      "agility": 7,
+      "agility": 8,
       "magic_damage_percent": 12
     },
     "lore": "Mechanical fragments of once-mighty\nconstructs still hold glimpses of great\npower."
@@ -37707,10 +37782,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "regicide": 1,
       "inferno": 4,
+      "regicide": 1,
       "unbreaking": 9,
-      "agility": 7,
+      "agility": 8.5,
       "magic_damage_percent": 18
     },
     "lore": "Mechanical fragments of once-mighty\nconstructs still hold glimpses of great\npower."
@@ -37730,10 +37805,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "regicide": 1,
       "inferno": 5,
+      "regicide": 1,
       "unbreaking": 10,
-      "agility": 7,
+      "agility": 9,
       "magic_damage_percent": 18
     },
     "lore": "Mechanical fragments of once-mighty\nconstructs still hold glimpses of great\npower."
@@ -62187,8 +62262,8 @@
     "type": "Wand",
     "stats": {
       "poise": 1,
-      "spell_power_base": 50,
-      "attack_damage_base": 6
+      "attack_damage_base": 6,
+      "spell_power_base": 50
     },
     "lore": "A metallic gauntlet, used by cultists as\na catalyst for eldritch rituals."
   },
@@ -71406,12 +71481,12 @@
       {
         "EffectDuration": 24000,
         "EffectStrength": 0.1,
-        "EffectType": "AbilityCooldownIncrease"
+        "EffectType": "NegativeAttackSpeed"
       },
       {
         "EffectDuration": 24000,
         "EffectStrength": 0.1,
-        "EffectType": "NegativeAttackSpeed"
+        "EffectType": "AbilityCooldownIncrease"
       }
     ],
     "base_item": "Potion",
@@ -73554,13 +73629,13 @@
     "effects": [
       {
         "EffectDuration": 24000,
-        "EffectStrength": 2,
-        "EffectType": "JumpBoost"
+        "EffectStrength": 0.05,
+        "EffectType": "AbilityCooldownDecrease"
       },
       {
         "EffectDuration": 24000,
-        "EffectStrength": 0.05,
-        "EffectType": "AbilityCooldownDecrease"
+        "EffectStrength": 2,
+        "EffectType": "JumpBoost"
       }
     ],
     "base_item": "Potion",
@@ -75470,7 +75545,7 @@
       "illuminate_radius_percent": 75,
       "illuminate_knockback_percent": 75,
       "illuminate_velocity_percent": -75,
-      "illuminate_trail_duration_percent": -75
+      "illuminate_trail_width_percent": -75
     },
     "type": "Charm",
     "class_name": "Cleric"
@@ -77279,7 +77354,7 @@
     "base_item": "Rabbit Hide",
     "release_status": "public",
     "stats": {
-      "hunting_companion_healing_percent": 5,
+      "hunting_companion_healing_percent": 100,
       "hunting_companion_speed_percent": 25,
       "hunting_companion_damage_percent": -25
     },
@@ -81714,8 +81789,8 @@
       "unbreaking": 4,
       "attack_speed_base": 1.8,
       "thorns_flat": 3,
-      "attack_damage_base": 11.5,
-      "spell_power_base": 68
+      "spell_power_base": 68,
+      "attack_damage_base": 11.5
     },
     "lore": "A shaving of the Godspore's cap.\nAs an entity that once shared mana\nwith Life himself, each part of its body\ncarries diverse magical strengths."
   },
@@ -81739,8 +81814,8 @@
       "unbreaking": 5,
       "attack_speed_base": 1.8,
       "thorns_flat": 4,
-      "attack_damage_base": 12,
-      "spell_power_base": 70
+      "spell_power_base": 70,
+      "attack_damage_base": 12
     },
     "lore": "A shaving of the Godspore's cap.\nAs an entity that once shared mana\nwith Life himself, each part of its body\ncarries diverse magical strengths."
   },
@@ -81764,8 +81839,8 @@
       "unbreaking": 6,
       "attack_speed_base": 1.8,
       "thorns_flat": 4,
-      "attack_damage_base": 12,
-      "spell_power_base": 75
+      "spell_power_base": 75,
+      "attack_damage_base": 12
     },
     "lore": "A shaving of the Godspore's cap.\nAs an entity that once shared mana\nwith Life himself, each part of its body\ncarries diverse magical strengths."
   },
@@ -88208,12 +88283,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "unbreaking": 4,
-      "knockback": 1,
       "bleeding": 1,
+      "knockback": 1,
+      "unbreaking": 4,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 9,
-      "spell_power_base": 35
+      "spell_power_base": 35,
+      "attack_damage_base": 9
     },
     "lore": "Over time through many thousands of spells,\na mage's magic eventually seeps into their bones."
   },
@@ -98569,8 +98644,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "hex_eater": 2,
       "decay": 2,
+      "hex_eater": 2,
       "tempo": 1,
       "speed_percent": -10,
       "attack_damage_base": 6,
@@ -98595,8 +98670,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "hex_eater": 2,
       "decay": 3,
+      "hex_eater": 2,
       "tempo": 1,
       "speed_percent": -10,
       "attack_damage_base": 6.5,
@@ -98621,12 +98696,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "hex_eater": 2,
       "decay": 3,
+      "hex_eater": 2,
       "tempo": 1,
       "speed_percent": -10,
-      "attack_damage_base": 6.5,
-      "spell_power_base": 80
+      "spell_power_base": 80,
+      "attack_damage_base": 6.5
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
