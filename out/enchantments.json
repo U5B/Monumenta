@@ -396,7 +396,7 @@
   },
   "intoxicatingwarmth": {
     "name": "Intoxicating Warmth",
-    "description": "When consumed, gain 1 hunger and 1 saturation per second for 15s. Cooldown: 30s.",
+    "description": "When consumed, gain 1 hunger and 1 saturation per second for 12s. Cooldown: 30s.",
     "category": "Consumables"
   },
   "intuition": {
@@ -586,7 +586,7 @@
   },
   "rageoftheketer": {
     "name": "Rage of the Keter",
-    "description": "When consumed, gain 6 hunger, 6 saturation, +20% damage, and +15% speed for 15s. Cooldown: 25s.",
+    "description": "When consumed, gain 4 hunger, 4 saturation, a +20% damage buff to melee, magic, and projectile damage, and +15% speed for 15s. Cooldown: 25s.",
     "category": "Consumables"
   },
   "ranged": {
@@ -621,7 +621,7 @@
   },
   "regicide": {
     "name": "Regicide",
-    "description": "While equipped, deal an additional (level * 10)% damage to Elite enemies and (level * 5)% damage to Boss enemies.",
+    "description": "While equipped, deal an additional (level * 10)% damage to Elite and Boss enemies.",
     "category": "Weapons"
   },
   "respiration": {
@@ -636,7 +636,7 @@
   },
   "retaliation": {
     "name": "Retaliation",
-    "description": "The next mob you attack within 5s of successfully blocking damage will take increased damage from the attack based on how much damage was blocked. Additionally, certain blocked debuffs will infuse the attack with an effect corresponding to that debuff.",
+    "description": "Any mob you attack within 4s of successfully blocking damage (max 1 mob per tick), will take increased damage from all the damage you deal in that tick, based on the type of enemy blocked (25% for normal, 40% for elite, 50% for boss). Certain blocked debuffs will infuse the first attack with an effect based on those debuffs.",
     "category": "Weapons"
   },
   "retrieval": {
@@ -651,7 +651,7 @@
   },
   "reverb": {
     "name": "Reverb",
-    "description": "On kill by melee strike or basic projectile attack, deal (10 * level)% of your overkill damage plus (5 * level)% of your highest damage source within the killing attack to an enemy within 8 blocks.",
+    "description": "On kill by melee strike or basic projectile attack, deal (10 * level)% of your overkill damage plus (5 * level)% of your highest damage source within the killing attack to an enemy within 8 blocks. Enemies killed by this damage can also trigger Reverb.",
     "category": "Weapons"
   },
   "riptide": {
@@ -776,7 +776,7 @@
   },
   "temporalbender": {
     "name": "Temporal Bender",
-    "description": "When consumed, gain 6 hunger, 6 saturation, and refresh all class ability cooldowns by 5s. Cooldown: 30s.",
+    "description": "When consumed, gain 4 hunger, 4 saturation, and +100% Ability Cooldown Recharge Rate for 5s. Cooldown: 30s.",
     "category": "Consumables"
   },
   "tenacity": {
