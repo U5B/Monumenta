@@ -23022,20 +23022,6 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
-  "Bottled Twisted": {
-    "mmlore": [
-      "The shadow doesn't seem angry, but it would",
-      "likely be unwise to provoke it.",
-      "<light_purple>* Quest Item *",
-      "#Q22803"
-    ],
-    "name": "Bottled Twisted",
-    "base_item": "Dragon Breath",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "The shadow doesn't seem angry, but it would\nlikely be unwise to provoke it.\n* Quest Item *\n#Q22803"
-  },
   "Bottled Wind": {
     "location": "Ruin",
     "region": "Ring",
@@ -26975,20 +26961,6 @@
     },
     "type": "Charm",
     "class_name": "Alchemist"
-  },
-  "Reinforced Bottle": {
-    "mmlore": [
-      "This should be sufficient for the",
-      "evil you were sent to contain.",
-      "<light_purple>* Quest Item *",
-      "#Q22802"
-    ],
-    "name": "Reinforced Bottle",
-    "base_item": "Glass Bottle",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "This should be sufficient for the\nevil you were sent to contain.\n* Quest Item *\n#Q22802"
   },
   "Stonebearer Toxin": {
     "location": "Hunts",
@@ -86799,20 +86771,6 @@
       "knockback_resistance_flat": 3
     }
   },
-  "Ornate Spyglass": {
-    "mmlore": [
-      "The crystalline lens seems magical, but the",
-      "rest of the contraption seems fairly normal.",
-      "<light_purple>* Quest Item *",
-      "#Q22801"
-    ],
-    "name": "Ornate Spyglass",
-    "base_item": "Spyglass",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "The crystalline lens seems magical, but the\nrest of the contraption seems fairly normal.\n* Quest Item *\n#Q22801"
-  },
   "Spyglass": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -99916,12 +99874,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "inure": 1,
       "decay": 12,
+      "inure": 1,
       "unbreaking": 35,
       "attack_speed_base": 2,
       "knockback_resistance_flat": 2.5,
-      "attack_damage_base": 11
+      "attack_damage_base": 11,
+      "armor": 1
     },
     "lore": "Once, the twin spirits worked in harmony.\nBut death without life reaped horrible rewards.\nSoon, the one who remained would welcome the end."
   },
