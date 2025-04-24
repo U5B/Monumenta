@@ -371,7 +371,7 @@
   },
   "inferno": {
     "name": "Inferno",
-    "description": "When you ignite an enemy, they take level^0.95 extra damage once a second for the initial duration of the fire.",
+    "description": "Ignited enemies take (level) ailment damage every second for the duration they are on fire. Subsequent reapplications of Inferno refresh its duration.",
     "category": "Weapons"
   },
   "infinity": {
@@ -431,7 +431,7 @@
   },
   "liquidcourage": {
     "name": "Liquid Courage",
-    "description": "Restores 8 hunger and 8 saturation when consumed. For 15 seconds, gives player 20% damage resistance of the next 3 incoming Melee, Projectile or Magic attacks. 30 second cooldown.",
+    "description": "When consumed, gain 8 hunger, 8 saturation, and 20% Resistance against 3 incoming Melee, Projectile or Magic attacks for 15s. Cooldown: 30s.",
     "category": "Consumables"
   },
   "locked": {

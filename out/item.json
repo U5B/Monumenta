@@ -3624,7 +3624,7 @@
   "Dryadic Resurrection": {
     "location": "Blue",
     "mmlore": [
-      "Hycenea’s fury filled the Tree of Life",
+      "Hycenea's fury filled the Tree of Life",
       "completely. Molldyer, The Vedha, Laurey,",
       "and Nalatia, each one the absolute of their",
       "domains, fell back in fear. With a thought,",
@@ -3641,7 +3641,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Hycenea’s fury filled the Tree of Life\ncompletely. Molldyer, The Vedha, Laurey,\nand Nalatia, each one the absolute of their\ndomains, fell back in fear. With a thought,\nHycenea sent them tumbling from their perch\non the Tree into the endless darkness below.\nThey could stay there forever for all she\ncared. The seeds were planted for her\nAttendants to grow anew. She was free."
+    "lore": "Hycenea's fury filled the Tree of Life\ncompletely. Molldyer, The Vedha, Laurey,\nand Nalatia, each one the absolute of their\ndomains, fell back in fear. With a thought,\nHycenea sent them tumbling from their perch\non the Tree into the endless darkness below.\nThey could stay there forever for all she\ncared. The seeds were planted for her\nAttendants to grow anew. She was free."
   },
   "Everflow Pendant": {
     "location": "Pelias' Keep",
@@ -7248,6 +7248,22 @@
       "speed_percent": 10,
       "projectile_speed_base": 1,
       "projectile_damage_base": 16.5
+    }
+  },
+  "Replica Cupid's Bow": {
+    "location": "Valentine's Day",
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Replica Cupid's Bow",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "regeneration": 1,
+      "unbreakable": 1,
+      "projectile_damage_base": 12,
+      "projectile_speed_base": 3,
+      "thorns_flat": 2
     }
   },
   "Roar of the Valley": {
@@ -17733,7 +17749,7 @@
     "location": "Transmogrifier",
     "mmlore": [
       "Sometimes, the latent magic of the",
-      "Architect’s Ring takes the form not of power,",
+      "Architect's Ring takes the form not of power,",
       "but of life, passed on to those who truly need it."
     ],
     "region": "Ring",
@@ -17757,7 +17773,7 @@
     "stats": {
       "infinity": 1
     },
-    "lore": "Sometimes, the latent magic of the\nArchitect’s Ring takes the form not of power,\nbut of life, passed on to those who truly need it."
+    "lore": "Sometimes, the latent magic of the\nArchitect's Ring takes the form not of power,\nbut of life, passed on to those who truly need it."
   },
   "Regal Salmon": {
     "mmlore": [
@@ -24235,7 +24251,7 @@
     "location": "Orange",
     "mmlore": [
       "<gray>Epic Crafting Material",
-      "Eggs left over from C’Zanil's experiments.",
+      "Eggs left over from C'Zanil's experiments.",
       "You really, really hope that you never",
       "find out what they hatch into."
     ],
@@ -24246,7 +24262,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Epic Crafting Material\nEggs left over from C’Zanil's experiments.\nYou really, really hope that you never\nfind out what they hatch into."
+    "lore": "Epic Crafting Material\nEggs left over from C'Zanil's experiments.\nYou really, really hope that you never\nfind out what they hatch into."
   },
   "Bewildered Eye": {
     "location": "The Wolfswood",
@@ -26491,7 +26507,7 @@
       "sage's_insight_decay_duration_percent": -20
     },
     "type": "Charm",
-    "class_name": "Generalist"
+    "class_name": "Mage"
   },
   "Death's Shadow": {
     "location": "Eternity Skin",
@@ -35667,7 +35683,7 @@
     "release_status": "public",
     "stats": {
       "unstable_amalgam_damage_percent": 10,
-      "unstable_amalgam_cast_range_flat": 2,
+      "unstable_amalgam_cast_range_percent": 25,
       "unstable_amalgam_knockback_speed_percent": 50
     },
     "type": "Charm",
@@ -68555,7 +68571,7 @@
   "Salmon Hexing Barrel": {
     "location": "Architect's Ring",
     "mmlore": [
-      "\"There’s nothing easier than hexing",
+      "\"There's nothing easier than hexing",
       "a fish in a barrel.\" - A saying that's",
       "spread around the Coven of the Ring",
       "for generations. It's not actually true",
@@ -68571,7 +68587,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "\"There’s nothing easier than hexing\na fish in a barrel.\" - A saying that's\nspread around the Coven of the Ring\nfor generations. It's not actually true\nthough, as it's notoriously difficult to\nhex a fish you can't see. Such tough coven\nteachings leave many scars of battle on\nthe poor barrels of the Wolfswood."
+    "lore": "\"There's nothing easier than hexing\na fish in a barrel.\" - A saying that's\nspread around the Coven of the Ring\nfor generations. It's not actually true\nthough, as it's notoriously difficult to\nhex a fish you can't see. Such tough coven\nteachings leave many scars of battle on\nthe poor barrels of the Wolfswood."
   },
   "Shifting Fragment": {
     "location": "Shifting",
@@ -70297,8 +70313,8 @@
   "Boon of Petrification": {
     "location": "Hunts",
     "mmlore": [
-      "“Our flesh is so tender and impermanent.",
-      "How fortunate that He has the cure.”"
+      "\"Our flesh is so tender and impermanent.",
+      "How fortunate that He has the cure.\""
     ],
     "region": "Ring",
     "name": "Boon of Petrification",
@@ -70323,7 +70339,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "“Our flesh is so tender and impermanent.\nHow fortunate that He has the cure.”"
+    "lore": "\"Our flesh is so tender and impermanent.\nHow fortunate that He has the cure.\""
   },
   "Bottle of Souls": {
     "location": "King's Valley",
@@ -71511,7 +71527,7 @@
   "Distilled Gemstones": {
     "location": "Hunts",
     "mmlore": [
-      "“Of the art of vaporizing and condensating",
+      "\"Of the art of vaporizing and condensating",
       "jewels, I cannot reveal in words alone.\""
     ],
     "region": "Ring",
@@ -71542,7 +71558,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "“Of the art of vaporizing and condensating\njewels, I cannot reveal in words alone.\""
+    "lore": "\"Of the art of vaporizing and condensating\njewels, I cannot reveal in words alone.\""
   },
   "Distilled Leprechaun Blood": {
     "location": "King's Valley",
@@ -73671,7 +73687,7 @@
     "location": "Hunts",
     "mmlore": [
       "\"Her claim to the heavens is flimsy.",
-      "The skies can be yours too, ami.”"
+      "The skies can be yours too, ami.\""
     ],
     "region": "Ring",
     "name": "Quicksilver Vial",
@@ -73696,7 +73712,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "\"Her claim to the heavens is flimsy.\nThe skies can be yours too, ami.”"
+    "lore": "\"Her claim to the heavens is flimsy.\nThe skies can be yours too, ami.\""
   },
   "Ragebrew": {
     "location": "Valley Overworld",
@@ -79794,8 +79810,8 @@
     "location": "Hunts",
     "masterwork": "6",
     "mmlore": [
-      "“Accepting death may be wisdom or folly,",
-      "but the dilemma never occurs to a beast.“"
+      "\"Accepting death may be wisdom or folly,",
+      "but the dilemma never occurs to a beast.\""
     ],
     "region": "Ring",
     "tier": "Epic",
@@ -79814,7 +79830,7 @@
       "speed_percent": 15,
       "knockback_resistance_flat": 5
     },
-    "lore": "“Accepting death may be wisdom or folly,\nbut the dilemma never occurs to a beast.“"
+    "lore": "\"Accepting death may be wisdom or folly,\nbut the dilemma never occurs to a beast.\""
   },
   "Corrupted Morphic Shield": {
     "location": "Reverie",
@@ -81055,9 +81071,8 @@
     "lore": "It doesn't make for the best defense, but\nit can block a shot here and there."
   },
   "Polished Shield": {
-    "location": "King's Valley",
+    "location": "Reverie",
     "mmlore": [
-      "<#790e47>Malevolent Reverie",
       "Not a spot of Rust!"
     ],
     "region": "Valley",
@@ -81067,7 +81082,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Malevolent Reverie\nNot a spot of Rust!"
+    "lore": "Not a spot of Rust!"
   },
   "Portable Defender": {
     "location": "Celsian Isles",
@@ -81694,7 +81709,7 @@
     "masterwork": "3",
     "mmlore": [
       "At last, Sirius fell into the ocean and was",
-      "no more. In the Herald’s final moments,",
+      "no more. In the Herald's final moments,",
       "the hold it held over Star Point wavered,",
       "then broke. Somewhere off in the sky,",
       "something shuddered."
@@ -81706,22 +81721,22 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "unbreaking": 3,
       "knockback": 2,
-      "mending": 1,
       "magic_protection": 4,
       "melee_fragility": 1,
+      "mending": 1,
       "tempo": 1,
+      "unbreaking": 3,
       "agility": 0.5
     },
-    "lore": "At last, Sirius fell into the ocean and was\nno more. In the Herald’s final moments,\nthe hold it held over Star Point wavered,\nthen broke. Somewhere off in the sky,\nsomething shuddered."
+    "lore": "At last, Sirius fell into the ocean and was\nno more. In the Herald's final moments,\nthe hold it held over Star Point wavered,\nthen broke. Somewhere off in the sky,\nsomething shuddered."
   },
   "Spatial Rift-4": {
     "location": "Sirius",
     "masterwork": "4",
     "mmlore": [
       "At last, Sirius fell into the ocean and was",
-      "no more. In the Herald’s final moments,",
+      "no more. In the Herald's final moments,",
       "the hold it held over Star Point wavered,",
       "then broke. Somewhere off in the sky,",
       "something shuddered."
@@ -81733,15 +81748,15 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "unbreaking": 3,
       "knockback": 2,
-      "mending": 1,
       "magic_protection": 4,
       "melee_fragility": 1,
+      "mending": 1,
       "tempo": 1,
+      "unbreaking": 3,
       "agility": 1
     },
-    "lore": "At last, Sirius fell into the ocean and was\nno more. In the Herald’s final moments,\nthe hold it held over Star Point wavered,\nthen broke. Somewhere off in the sky,\nsomething shuddered."
+    "lore": "At last, Sirius fell into the ocean and was\nno more. In the Herald's final moments,\nthe hold it held over Star Point wavered,\nthen broke. Somewhere off in the sky,\nsomething shuddered."
   },
   "Spellready Buckler": {
     "location": "Valley Overworld",
@@ -85484,8 +85499,8 @@
   "Muddied Tincture": {
     "location": "Hunts",
     "mmlore": [
-      "“Really, what good is pain? Useless data.",
-      "Let’s just ignore it.”"
+      "\"Really, what good is pain?",
+      "Useless data. Let’s just ignore it.\""
     ],
     "region": "Ring",
     "name": "Muddied Tincture",
@@ -85505,7 +85520,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "“Really, what good is pain? Useless data.\nLet’s just ignore it.”"
+    "lore": "\"Really, what good is pain?\nUseless data. Let’s just ignore it.\""
   },
   "Nightbarb Flask": {
     "location": "Gallery of Fear",
@@ -86464,8 +86479,8 @@
   "Unstable Canister": {
     "location": "Hunts",
     "mmlore": [
-      "“Another synthesis failure… yet one",
-      "chemist’s trash may be a mage’s tincture.”"
+      "\"Another synthesis failure... yet one",
+      "chemist’s trash may be a mage’s tincture.\""
     ],
     "region": "Ring",
     "name": "Unstable Canister",
@@ -86490,7 +86505,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "“Another synthesis failure… yet one\nchemist’s trash may be a mage’s tincture.”"
+    "lore": "\"Another synthesis failure... yet one\nchemist’s trash may be a mage’s tincture.\""
   },
   "Unstable Willowfruit": {
     "location": "Willows",
@@ -95422,7 +95437,7 @@
   },
   "Star-touched Bolt": {
     "location": "Valley Overworld",
-    "region": "Isles",
+    "region": "Valley",
     "name": "Star-touched Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
@@ -104678,7 +104693,7 @@
   "Friend (mainhand)": {
     "location": "Celsian Isles",
     "mmlore": [
-      "The rael epic was the friend’s",
+      "The rael epic was the friend's",
       "we made along the way.."
     ],
     "region": "Isles",
@@ -104688,19 +104703,19 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "curse_of_shrapnel": 100,
       "curse_of_crippling": 1,
+      "curse_of_shrapnel": 100,
       "regeneration": 3,
       "speed_percent": -9.978,
       "attack_damage_percent": -30,
       "projectile_damage_percent": 1.5
     },
-    "lore": "The rael epic was the friend’s\nwe made along the way.."
+    "lore": "The rael epic was the friend's\nwe made along the way.."
   },
   "Friend (offhand)": {
     "location": "Celsian Isles",
     "mmlore": [
-      "The rael epic was the friend’s",
+      "The rael epic was the friend's",
       "we made along the way.."
     ],
     "region": "Isles",
@@ -104709,8 +104724,8 @@
     "base_item": "Shield",
     "release_status": "public",
     "stats": {
-      "curse_of_shrapnel": 100,
       "curse_of_crippling": 1,
+      "curse_of_shrapnel": 100,
       "regeneration": 3,
       "armor_percent": -10,
       "agility_percent": -8,
@@ -104718,7 +104733,7 @@
       "max_health_flat": 1
     },
     "type": "Offhand Shield",
-    "lore": "The rael epic was the friend’s\nwe made along the way.."
+    "lore": "The rael epic was the friend's\nwe made along the way.."
   },
   "Frodian Doors (offhand)": {
     "location": "Celsian Isles",
