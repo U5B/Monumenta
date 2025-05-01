@@ -21432,6 +21432,31 @@
     },
     "lore": "The segmented plates of The Impenetrable's shell\nwere heated and shaped intensely to weave the\nimmortal hewn crystal. Its unbreakable will now\nbelonged to a different sort of beast."
   },
+  "Shell of Kokytos": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "<dark_gray>Kokytos bled into the reservoir below, blight",
+      "<dark_gray>filling the basin with darkness. He was held",
+      "<dark_gray>together only by the statue encasing him and",
+      "<dark_gray>the presence of power his masters could only",
+      "<dark_gray>dream of claiming for themselves."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Shell of Kokytos",
+    "base_item": "Diamond Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "ineptitude": 2,
+      "magic_protection": 2,
+      "mending": 1,
+      "max_health_flat": 4,
+      "armor": 7
+    },
+    "lore": "Kokytos bled into the reservoir below, blight\nfilling the basin with darkness. He was held\ntogether only by the statue encasing him and\nthe presence of power his masters could only\ndream of claiming for themselves."
+  },
   "Starhungry Coriaceus-3": {
     "location": "Sirius",
     "masterwork": "3",
@@ -81173,6 +81198,29 @@
       "attack_speed_percent": 15
     },
     "lore": "In time, even the mightiest of walls\nwill crumble to nothing. In memory,\nthey shall stand forever."
+  },
+  "Roaring Reverence": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "\"Great svartvlam sees us. Us, the empty ones",
+      "under them. Flames of ours must match theirs,",
+      "must be perfek. You understand, sah?\""
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Roaring Reverence",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "fire_protection": 3,
+      "projectile_protection": 3,
+      "unbreaking": 4,
+      "attack_damage_percent": 20,
+      "speed_percent": -10,
+      "armor": 6
+    },
+    "lore": "\"Great svartvlam sees us. Us, the empty ones\nunder them. Flames of ours must match theirs,\nmust be perfek. You understand, sah?\""
   },
   "Rootweave Shield": {
     "location": "Architect's Ring",
