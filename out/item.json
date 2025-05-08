@@ -9639,13 +9639,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "tempo": 1,
       "magic_protection": 1,
+      "tempo": 1,
       "unbreaking": 8,
       "max_health_flat": -2,
       "projectile_damage_percent": 35,
       "projectile_speed_percent": 5,
-      "armor": 7
+      "armor": 6.5
     },
     "lore": "Aurora's forces wear boots of strange\nstarmetal. These in particular have been\nhardened by the blood of the stars."
   },
@@ -9664,13 +9664,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "tempo": 1,
       "magic_protection": 1,
+      "tempo": 1,
       "unbreaking": 9,
       "max_health_flat": -2,
       "projectile_damage_percent": 35,
       "projectile_speed_percent": 10,
-      "armor": 7.5
+      "armor": 7
     },
     "lore": "Aurora's forces wear boots of strange\nstarmetal. These in particular have been\nhardened by the blood of the stars."
   },
@@ -10376,10 +10376,10 @@
     "type": "Boots",
     "stats": {
       "ineptitude": 2,
-      "unbreaking": 8,
       "shielding": 1,
-      "armor": 7.5,
-      "magic_damage_percent": 25
+      "unbreaking": 8,
+      "magic_damage_percent": 25,
+      "armor": 7
     },
     "lore": "\"We shall bind them in the very threads\nof reality. For who can escape a prison\nthat is a world unto itself?\""
   },
@@ -10399,10 +10399,10 @@
     "type": "Boots",
     "stats": {
       "ineptitude": 2,
-      "unbreaking": 8,
       "shielding": 1,
-      "armor": 8,
-      "magic_damage_percent": 28
+      "unbreaking": 8,
+      "magic_damage_percent": 28,
+      "armor": 7.5
     },
     "lore": "\"We shall bind them in the very threads\nof reality. For who can escape a prison\nthat is a world unto itself?\""
   },
@@ -10422,10 +10422,10 @@
     "type": "Boots",
     "stats": {
       "ineptitude": 2,
-      "unbreaking": 8,
       "shielding": 1,
-      "armor": 8.5,
-      "magic_damage_percent": 30
+      "unbreaking": 8,
+      "magic_damage_percent": 30,
+      "armor": 8
     },
     "lore": "\"We shall bind them in the very threads\nof reality. For who can escape a prison\nthat is a world unto itself?\""
   },
@@ -10445,10 +10445,10 @@
     "type": "Boots",
     "stats": {
       "ineptitude": 2,
-      "unbreaking": 9,
       "shielding": 1,
-      "armor": 9,
-      "magic_damage_percent": 35
+      "unbreaking": 9,
+      "magic_damage_percent": 35,
+      "armor": 8.5
     },
     "lore": "\"We shall bind them in the very threads\nof reality. For who can escape a prison\nthat is a world unto itself?\""
   },
@@ -21829,9 +21829,9 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "sapper": 1,
+      "efficiency": 2,
       "reflexes": 1,
-      "efficiency": 1,
+      "sapper": 1,
       "agility": 2,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2,
@@ -21855,9 +21855,9 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "sapper": 1,
+      "efficiency": 2,
       "reflexes": 1,
-      "efficiency": 1,
+      "sapper": 1,
       "agility": 2.5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2,
@@ -21881,10 +21881,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "sapper": 1,
-      "reflexes": 1,
       "drilling": 1,
-      "efficiency": 1,
+      "efficiency": 2,
+      "reflexes": 1,
+      "sapper": 1,
       "agility": 2.5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2,
@@ -21907,10 +21907,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "efficiency": 1,
+      "magic_protection": 1,
+      "projectile_protection": 1,
       "sapper": 3,
-      "magic_protection": 2,
-      "projectile_protection": 2,
-      "efficiency": 2,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2
     },
@@ -21931,10 +21931,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "sapper": 3,
+      "efficiency": 1,
       "magic_protection": 2,
-      "projectile_protection": 2,
-      "efficiency": 2,
+      "projectile_protection": 1,
+      "sapper": 3,
       "armor": 0.5,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2
@@ -21956,10 +21956,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "sapper": 3,
+      "efficiency": 1,
       "magic_protection": 2,
       "projectile_protection": 2,
-      "efficiency": 2,
+      "sapper": 3,
       "armor": 0.5,
       "agility": 0.5,
       "attack_damage_base": 5,
@@ -21982,10 +21982,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "sapper": 3,
+      "efficiency": 1,
       "magic_protection": 2,
       "projectile_protection": 2,
-      "efficiency": 2,
+      "sapper": 3,
       "armor": 1,
       "agility": 1,
       "attack_damage_base": 5,
@@ -22008,10 +22008,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "sapper": 3,
+      "efficiency": 1,
       "magic_protection": 2,
       "projectile_protection": 2,
-      "efficiency": 2,
+      "sapper": 3,
       "attack_damage_base": 5,
       "attack_speed_base": 1.2,
       "armor": 1.5,
@@ -22254,13 +22254,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ice_aspect": 1,
       "cumbersome": 1,
-      "unbreaking": 1,
-      "sweeping_edge": 4,
+      "ice_aspect": 1,
       "quake": 2,
+      "sweeping_edge": 4,
+      "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 18
+      "attack_damage_base": 19
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -22278,13 +22278,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ice_aspect": 1,
       "cumbersome": 1,
-      "unbreaking": 1,
-      "sweeping_edge": 4,
+      "ice_aspect": 1,
       "quake": 2,
+      "sweeping_edge": 4,
+      "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 19
+      "attack_damage_base": 20
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -22302,13 +22302,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ice_aspect": 1,
       "cumbersome": 1,
-      "unbreaking": 1,
-      "sweeping_edge": 4,
+      "ice_aspect": 1,
       "quake": 2,
+      "sweeping_edge": 4,
+      "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 19.5
+      "attack_damage_base": 20.5
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -22326,13 +22326,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ice_aspect": 1,
       "cumbersome": 1,
-      "unbreaking": 1,
-      "sweeping_edge": 5,
+      "ice_aspect": 1,
       "quake": 2,
+      "sweeping_edge": 5,
+      "unbreaking": 1,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 20
+      "attack_damage_base": 21
     },
     "lore": "Each terrifying swing seems to warp\nthe flow of time itself."
   },
@@ -32469,9 +32469,9 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "eruption": 5,
       "thunder_aspect": 1,
       "unbreaking": 50,
-      "eruption": 3,
       "speed_percent": 15,
       "attack_damage_base": 8,
       "attack_speed_base": 2
@@ -32515,11 +32515,11 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "eruption": 6,
-      "unbreaking": 50,
+      "efficiency": 1,
+      "eruption": 7,
       "fire_aspect": 2,
       "inferno": 2,
-      "efficiency": 1,
+      "unbreaking": 50,
       "attack_damage_base": 13,
       "attack_speed_base": 1.2
     },
@@ -32540,11 +32540,11 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "eruption": 7,
-      "unbreaking": 50,
+      "efficiency": 1,
+      "eruption": 8,
       "fire_aspect": 2,
       "inferno": 3,
-      "efficiency": 1,
+      "unbreaking": 50,
       "attack_damage_base": 13,
       "attack_speed_base": 1.2
     },
@@ -32603,10 +32603,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "thunder_aspect": 1,
-      "unbreaking": 50,
-      "eruption": 4,
       "adrenaline": 2,
+      "eruption": 4,
+      "thunder_aspect": 2,
+      "unbreaking": 50,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2,
       "speed_percent": 10
@@ -32628,10 +32628,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "thunder_aspect": 1,
-      "unbreaking": 50,
-      "eruption": 5,
       "adrenaline": 2,
+      "eruption": 5,
+      "thunder_aspect": 2,
+      "unbreaking": 50,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2,
       "speed_percent": 10
@@ -32653,10 +32653,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "thunder_aspect": 1,
-      "unbreaking": 50,
-      "eruption": 5,
       "adrenaline": 2,
+      "eruption": 5,
+      "thunder_aspect": 2,
+      "unbreaking": 50,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2,
       "speed_percent": 15
@@ -36112,8 +36112,7 @@
     "base_item": "Honeycomb",
     "release_status": "public",
     "stats": {
-      "taboo_damage_modifier_percent": 12,
-      "taboo_potion_recharge_rate_flat": 0.25,
+      "taboo_damage_modifier_percent": 20,
       "taboo_healing_penalty_percent": 50,
       "taboo_absorption_penalty_percent": 50
     },
@@ -37887,11 +37886,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 7,
       "melee_protection": 1,
       "projectile_protection": 1,
+      "unbreaking": 7,
       "magic_damage_percent": 30,
-      "agility": 6.5
+      "agility": 6
     },
     "lore": "The energy of the fissure infested\nevery bit of the laboratory. Even\nthe steel panels shed their screws\nand began to attack."
   },
@@ -37911,11 +37910,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 8,
       "melee_protection": 1,
       "projectile_protection": 2,
+      "unbreaking": 8,
       "magic_damage_percent": 30,
-      "agility": 6.5
+      "agility": 6
     },
     "lore": "The energy of the fissure infested\nevery bit of the laboratory. Even\nthe steel panels shed their screws\nand began to attack."
   },
@@ -37935,11 +37934,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 9,
       "melee_protection": 2,
       "projectile_protection": 2,
+      "unbreaking": 9,
       "magic_damage_percent": 30,
-      "agility": 6.5
+      "agility": 6
     },
     "lore": "The energy of the fissure infested\nevery bit of the laboratory. Even\nthe steel panels shed their screws\nand began to attack."
   },
@@ -38920,7 +38919,7 @@
       "steadfast": 1,
       "unbreaking": 8,
       "attack_damage_percent": 40,
-      "agility": 3
+      "agility": 2.5
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -38943,7 +38942,7 @@
       "steadfast": 1,
       "unbreaking": 9,
       "attack_damage_percent": 45,
-      "agility": 3.5
+      "agility": 3
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -38966,7 +38965,7 @@
       "steadfast": 1,
       "unbreaking": 10,
       "attack_damage_percent": 50,
-      "agility": 4
+      "agility": 3.5
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -39865,7 +39864,7 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "cloaked": 1,
+      "melee_protection": 3,
       "unbreaking": 7,
       "max_health_flat": -4,
       "agility": 8,
@@ -39889,7 +39888,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 1,
-      "cloaked": 1,
+      "melee_protection": 3,
       "unbreaking": 8,
       "max_health_flat": -4,
       "agility": 8.5,
@@ -39913,7 +39912,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 1,
-      "cloaked": 1,
+      "melee_protection": 3,
       "unbreaking": 9,
       "max_health_flat": -4,
       "agility": 8.5,
@@ -39937,7 +39936,7 @@
     "type": "Helmet",
     "stats": {
       "blast_protection": 1,
-      "cloaked": 1,
+      "melee_protection": 3,
       "unbreaking": 10,
       "max_health_flat": -4,
       "agility": 9,
@@ -42580,10 +42579,11 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "decay": 3,
+      "efficiency": 2,
+      "eruption": 3,
       "sapper": 2,
       "unbreaking": 5,
-      "eruption": 3,
-      "efficiency": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 1.2,
       "thorns_flat": 4
@@ -42647,10 +42647,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 2,
+      "efficiency": 2,
       "eruption": 3,
       "ice_aspect": 1,
-      "efficiency": 3,
+      "unbreaking": 2,
       "speed_percent": 15,
       "attack_damage_base": 4,
       "attack_speed_base": 1.2
@@ -42963,8 +42963,8 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "efficiency": 2,
       "unbreaking": 2,
-      "efficiency": 3,
       "agility": 2,
       "knockback_resistance_flat": 2,
       "attack_damage_base": 4,
@@ -42980,8 +42980,8 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "efficiency": 2,
       "unbreaking": 1,
-      "efficiency": 3,
       "attack_damage_base": 4,
       "attack_speed_base": 1.2
     }
@@ -42995,8 +42995,8 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "efficiency": 2,
       "unbreaking": 2,
-      "efficiency": 3,
       "knockback_resistance_flat": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 1.2
@@ -46721,12 +46721,12 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "melee_protection": 2,
       "blast_protection": 2,
+      "melee_protection": 2,
       "unbreaking": 25,
       "speed_percent": 20,
       "attack_speed_percent": 25,
-      "agility": 6.5
+      "agility": 6
     },
     "lore": "Rapid dispersal of aether in concentrated forms\nwas essential if the Machine wished to see its\nUtopia to fruition. It dared not waste even a second."
   },
@@ -46745,12 +46745,12 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "melee_protection": 2,
       "blast_protection": 2,
+      "melee_protection": 2,
       "unbreaking": 30,
       "attack_speed_percent": 25,
       "speed_percent": 25,
-      "agility": 7
+      "agility": 6.5
     },
     "lore": "Rapid dispersal of aether in concentrated forms\nwas essential if the Machine wished to see its\nUtopia to fruition. It dared not waste even a second."
   },
@@ -46769,12 +46769,12 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "melee_protection": 2,
       "blast_protection": 2,
+      "melee_protection": 2,
       "unbreaking": 35,
       "attack_speed_percent": 25,
       "speed_percent": 25,
-      "agility": 8
+      "agility": 7.5
     },
     "lore": "Rapid dispersal of aether in concentrated forms\nwas essential if the Machine wished to see its\nUtopia to fruition. It dared not waste even a second."
   },
@@ -80188,7 +80188,7 @@
       "reflexes": 1,
       "attack_speed_percent": 10,
       "max_health_flat": -2,
-      "agility": 8.5
+      "agility": 7.5
     },
     "lore": "Ppanvel's travels brought him to a waterlogged\nSanctum, powered by a mighty Genius Loci.\nThere would be no greater guardian of\nHarrakfar's prison than Ru'Ten, hungry\nfor the power the Wolf's presence would offer."
   },
@@ -80215,7 +80215,7 @@
       "reflexes": 1,
       "attack_speed_percent": 10,
       "max_health_flat": -2,
-      "agility": 9.5
+      "agility": 8.5
     },
     "lore": "Ppanvel's travels brought him to a waterlogged\nSanctum, powered by a mighty Genius Loci.\nThere would be no greater guardian of\nHarrakfar's prison than Ru'Ten, hungry\nfor the power the Wolf's presence would offer."
   },
@@ -80242,7 +80242,7 @@
       "reflexes": 1,
       "attack_speed_percent": 10,
       "max_health_flat": -2,
-      "agility": 10
+      "agility": 9
     },
     "lore": "Ppanvel's travels brought him to a waterlogged\nSanctum, powered by a mighty Genius Loci.\nThere would be no greater guardian of\nHarrakfar's prison than Ru'Ten, hungry\nfor the power the Wolf's presence would offer."
   },
@@ -81140,12 +81140,12 @@
     "type": "Offhand Shield",
     "stats": {
       "second_wind": 2,
-      "unbreaking": 4,
       "stamina": 2,
+      "unbreaking": 4,
       "max_health_flat": 4,
       "knockback_resistance_flat": 3,
-      "attack_damage_percent": 30,
-      "attack_speed_percent": 5
+      "attack_speed_percent": 5,
+      "attack_damage_percent": 25
     },
     "lore": "In time, even the mightiest of walls\nwill crumble to nothing. In memory,\nthey shall stand forever."
   },
@@ -81165,12 +81165,12 @@
     "type": "Offhand Shield",
     "stats": {
       "second_wind": 2,
-      "unbreaking": 5,
       "stamina": 2,
+      "unbreaking": 5,
       "max_health_flat": 4,
       "knockback_resistance_flat": 3,
-      "attack_damage_percent": 30,
-      "attack_speed_percent": 10
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 25
     },
     "lore": "In time, even the mightiest of walls\nwill crumble to nothing. In memory,\nthey shall stand forever."
   },
@@ -81190,12 +81190,12 @@
     "type": "Offhand Shield",
     "stats": {
       "second_wind": 2,
-      "unbreaking": 6,
       "stamina": 2,
+      "unbreaking": 6,
       "knockback_resistance_flat": 4,
       "max_health_flat": 4,
-      "attack_damage_percent": 30,
-      "attack_speed_percent": 15
+      "attack_speed_percent": 15,
+      "attack_damage_percent": 25
     },
     "lore": "In time, even the mightiest of walls\nwill crumble to nothing. In memory,\nthey shall stand forever."
   },
@@ -82829,11 +82829,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 2,
-      "max_health_flat": 6,
+      "projectile_protection": 2,
       "speed_percent": 10,
-      "magic_damage_percent": 20
+      "magic_damage_percent": 20,
+      "max_health_flat": 5
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -82852,11 +82852,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 3,
-      "max_health_flat": 6,
+      "projectile_protection": 2,
       "speed_percent": 10,
-      "magic_damage_percent": 20
+      "magic_damage_percent": 20,
+      "max_health_flat": 5
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -82875,11 +82875,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 3,
-      "max_health_flat": 6,
+      "projectile_protection": 2,
       "speed_percent": 10,
-      "magic_damage_percent": 25
+      "magic_damage_percent": 25,
+      "max_health_flat": 5
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -82898,11 +82898,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 3,
       "magic_protection": 3,
-      "max_health_flat": 6,
+      "projectile_protection": 3,
       "speed_percent": 15,
-      "magic_damage_percent": 25
+      "magic_damage_percent": 25,
+      "max_health_flat": 5
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -82923,9 +82923,9 @@
     "stats": {
       "magic_protection": 3,
       "projectile_protection": 4,
-      "max_health_flat": 6,
       "speed_percent": 15,
-      "magic_damage_percent": 25
+      "magic_damage_percent": 25,
+      "max_health_flat": 5
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -84441,11 +84441,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "melee_protection": 1,
       "alchemical_utensil": 1,
+      "melee_protection": 1,
       "potion_radius_flat": 3,
       "projectile_speed_base": 1.3,
-      "potion_damage_flat": 9.5
+      "potion_damage_flat": 9
     },
     "lore": "The icy jar is filled with a blight from\nbeyond the Veil. It glows with ominous\nstarlight, tempting you to crack it open."
   },
@@ -84531,11 +84531,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "decay": 2,
       "alchemical_utensil": 1,
+      "decay": 2,
       "projectile_speed_base": 1,
       "potion_radius_flat": 3,
-      "potion_damage_flat": 8.5
+      "potion_damage_flat": 8
     },
     "lore": "The golden jar appears to be smashed in\nfrustration, but it holds your alchemical\nsupplies as well as any other vessel."
   },
@@ -85004,11 +85004,11 @@
     "type": "Mainhand",
     "stats": {
       "alchemical_utensil": 1,
-      "ineptitude": 1,
+      "ineptitude": 2,
       "projectile_protection": 1,
-      "potion_radius_flat": 2.5,
       "projectile_speed_base": 1.2,
-      "potion_damage_flat": 13.7
+      "potion_damage_flat": 13,
+      "potion_radius_flat": 3
     },
     "lore": "Something has eaten away at the vial in your\nhand. You're not entirely sure it still exists..."
   },
@@ -85027,11 +85027,11 @@
     "type": "Mainhand",
     "stats": {
       "alchemical_utensil": 1,
-      "ineptitude": 1,
+      "ineptitude": 2,
       "projectile_protection": 1,
-      "potion_radius_flat": 2.5,
       "projectile_speed_base": 1.2,
-      "potion_damage_flat": 14.3
+      "potion_damage_flat": 13.5,
+      "potion_radius_flat": 3
     },
     "lore": "Something has eaten away at the vial in your\nhand. You're not entirely sure it still exists..."
   },
@@ -85053,7 +85053,7 @@
       "gills": 1,
       "projectile_speed_base": 1,
       "potion_radius_flat": 2.5,
-      "potion_damage_flat": 6.5
+      "potion_damage_flat": 7
     },
     "lore": "Your hands start to turn a sickly green\nas you grip the vial. Best to stay out of\nthe splash radius."
   },
@@ -85159,12 +85159,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "bleeding": 1,
       "alchemical_utensil": 1,
+      "bleeding": 1,
       "fire_protection": 2,
       "projectile_speed_base": 1.3,
       "potion_radius_flat": 3,
-      "potion_damage_flat": 9.5
+      "potion_damage_flat": 9
     },
     "lore": "Your alchemical supplies seem to react\nstrangely with the contents of this fleshy\nvial, creating hypnotic displays when\nimpacting the ground."
   },
@@ -86595,7 +86595,7 @@
       "magic_protection": 2,
       "potion_radius_flat": 3,
       "projectile_speed_base": 1.3,
-      "potion_damage_flat": 10.5
+      "potion_damage_flat": 10
     },
     "lore": "A few golden doubloons are left in the\notherwise empty sack. Simply reaching\nwithin fills your mind with a desire for more."
   },
@@ -90211,12 +90211,14 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "efficiency": 2,
       "eruption": 2,
-      "unbreaking": 5,
       "fire_aspect": 2,
       "inferno": 1,
-      "efficiency": 1,
-      "speed_percent": 10
+      "unbreaking": 5,
+      "speed_percent": 10,
+      "attack_damage_base": 3,
+      "attack_speed_base": 1.2
     },
     "lore": "The anger of the mountain rages deep\nbelow, only erupting long after the insult\nhas been forgotten."
   },
@@ -90571,11 +90573,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "curse_of_shrapnel": 2,
-      "earth_aspect": 1,
+      "earth_aspect": 2,
+      "efficiency": 3,
+      "melee_protection": 2,
       "unbreaking": 10,
-      "melee_protection": 1,
-      "efficiency": 4,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2,
       "knockback_resistance_flat": 2
@@ -90597,11 +90598,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "curse_of_shrapnel": 2,
-      "earth_aspect": 1,
+      "earth_aspect": 2,
+      "efficiency": 3,
+      "melee_protection": 3,
       "unbreaking": 12,
-      "melee_protection": 2,
-      "efficiency": 4,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2,
       "knockback_resistance_flat": 2
@@ -90623,11 +90623,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "curse_of_shrapnel": 2,
-      "earth_aspect": 1,
+      "earth_aspect": 2,
+      "efficiency": 3,
+      "melee_protection": 3,
       "unbreaking": 14,
-      "melee_protection": 2,
-      "efficiency": 4,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2,
       "knockback_resistance_flat": 5
@@ -103705,11 +103704,11 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "eruption": 7,
-      "unbreaking": 10,
+      "efficiency": 3,
+      "eruption": 5,
       "fire_aspect": 2,
       "inferno": 2,
-      "efficiency": 2,
+      "unbreaking": 10,
       "attack_damage_base": 12,
       "attack_speed_base": 1
     },

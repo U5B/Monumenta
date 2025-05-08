@@ -636,7 +636,7 @@
   },
   "retaliation": {
     "name": "Retaliation",
-    "description": "Any mob you attack within 4s of successfully blocking damage (max 1 mob per tick), will take increased damage from all the damage you deal in that tick, based on the type of enemy blocked (25% for normal, 40% for elite, 50% for boss). Certain blocked debuffs will infuse the first attack with an effect based on those debuffs.",
+    "description": "After blocking damage, gain a damage bonus for 4s based on the type of enemy blocked (35%/50%/65% for normal/elite/boss, halved when dealing magic/projectile damage). Certain blocked debuffs will infuse the first basic melee/projectile attack in this period with an effect corresponding to the blocked debuffs.",
     "category": "Weapons"
   },
   "retrieval": {
