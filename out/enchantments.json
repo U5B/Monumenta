@@ -236,7 +236,7 @@
   },
   "eruption": {
     "name": "Eruption",
-    "description": "Mining a spawner deals (level * 4) damage to mobs within 5 blocks and apply the effects of Fire, Ice, Thunder, and Wind Aspects as well as Decay to affected mobs. Thunder Aspect applied via Eruption always stuns mobs, for (level * 0.5) seconds. Additionally, apply effects of Sapper and Adrenaline to players within 8 blocks, if the pickaxe used to mine the spawner has the enchantment.",
+    "description": "Mining a spawner deals (level * 4) damage to mobs within 5 blocks and apply the effects of Fire, Ice, Thunder, and Wind Aspects as well as Decay to affected mobs. Thunder Aspect applied via Eruption always stuns mobs, for (level * 0.3) seconds. Additionally, apply effects of Sapper and Adrenaline to players within 8 blocks, if the pickaxe used to mine the spawner has the enchantment.",
     "category": "Tools and Utility"
   },
   "ethereal": {
