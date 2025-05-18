@@ -644,6 +644,46 @@
     "description": "Defeat Uamiel without spoiling the loot.",
     "parent": "monumenta:challenges/r3/hunts/the_impenetrable_unspoiled"
   },
+  "monumenta:challenges/r3/intruder/beat_intruder": {
+    "title": "Twisted ????????",
+    "description": "Defeat the Twisted ????????.",
+    "parent": "monumenta:challenges/root"
+  },
+  "monumenta:challenges/r3/intruder/brainwashing": {
+    "title": "Brainwashing",
+    "description": "Become inflicted with the distortion of The Screamroom and live to tell the tale.",
+    "parent": "monumenta:challenges/r3/intruder/lights_on"
+  },
+  "monumenta:challenges/r3/intruder/faceless_dozen": {
+    "title": "Faceless Dozen",
+    "description": "Have 12 Faceless Ones alive in the arena at once when ???????? casts Malevolent Conduit.",
+    "parent": "monumenta:challenges/r3/intruder/beat_intruder"
+  },
+  "monumenta:challenges/r3/intruder/insidious_tribute": {
+    "title": "Insidious Tribute",
+    "description": "Defeat the ???????? while having a Twisted Luciae in your inventory, and surviving the effects of the Antumbral Stalker.",
+    "parent": "monumenta:challenges/r3/intruder/shadowscape_duo"
+  },
+  "monumenta:challenges/r3/intruder/lights_on": {
+    "title": "Lights On",
+    "description": "Kill 25 Liminal Shadows during a single fight.",
+    "parent": "monumenta:challenges/r3/intruder/faceless_dozen"
+  },
+  "monumenta:challenges/r3/intruder/shadowscape_duo": {
+    "title": "Shadowscape Duo",
+    "description": "Defeat the Twisted ???????? with a party of 2 Rogues.",
+    "parent": "monumenta:challenges/r3/intruder/brainwashing"
+  },
+  "monumenta:challenges/r3/intruder/solo_intruder": {
+    "title": "Twisted ???????? (Solo)",
+    "description": "Defeat Twisted ???????? Solo.",
+    "parent": "monumenta:challenges/r3/intruder/three_heads_one_mind"
+  },
+  "monumenta:challenges/r3/intruder/three_heads_one_mind": {
+    "title": "Three Heads, One Mind",
+    "description": "Defeat the ???????? while both Twisted Replicants are alive at once.",
+    "parent": "monumenta:challenges/r3/intruder/insidious_tribute"
+  },
   "monumenta:challenges/r3/portal/find": {
     "title": "Where's the Cake?",
     "description": "You have discovered the P.O.R.T.A.L. lobby. The lab awaits... the cake awaits, too...",
