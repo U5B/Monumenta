@@ -224,6 +224,11 @@
     "description": "When you gain XP, you have a 0.25% chance per XP point per level to repair all currently equipped items by 1% of their max durability. There is also a slight prioritization to more damaged items.",
     "category": "Delve Infusions"
   },
+  "enlightening": {
+    "name": "Enlightening",
+    "description": "Uses the power of a Light Gray Tesseract (u) to place torches under falling blocks.",
+    "category": "Tools and Utility"
+  },
   "ephemerality": {
     "name": "Curse of Ephemerality",
     "description": "All good things must come to an end. Will vanish when you log out, transfer shards, drop it, or try to move them to another inventory.",
