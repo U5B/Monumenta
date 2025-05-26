@@ -6372,6 +6372,11 @@
     "description": "Defeat the Twisted ???????? with a party of 2 Rogues.",
     "parent": "monumenta:challenges/r3/intruder/brainwashing"
   },
+  "monumenta:challenges/r3/intruder/solo_intruder": {
+    "title": "Twisted ???????? (Solo)",
+    "description": "Defeat Twisted ???????? Solo.",
+    "parent": "monumenta:challenges/r3/intruder/insidious_tribute"
+  },
   "monumenta:challenges/r3/portal/find": {
     "title": "Where's the Cake?",
     "description": "You have discovered the P.O.R.T.A.L. lobby. The lab awaits... the cake awaits, too...",
