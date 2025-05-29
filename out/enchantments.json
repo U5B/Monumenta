@@ -106,7 +106,7 @@
   },
   "chaotic": {
     "name": "Chaotic",
-    "description": "Your weapon deals anywhere between +Level and -Level damage, in integer increments. This effect is halved for sweep attacks. This only works in your main hand.",
+    "description": "Your weapon deals anywhere between +Level and -Level damage, in integer increments, on basic melee, projectile and Alchemist Potion hits. This effect is halved for sweep attacks.",
     "category": "Weapons"
   },
   "choler": {
@@ -226,7 +226,7 @@
   },
   "enlightening": {
     "name": "Enlightening",
-    "description": "Uses the power of a Light Gray Tesseract (u) to place torches under falling blocks.",
+    "description": "Uses the power of a Tesseract of Light (u) to place torches under falling blocks.",
     "category": "Tools and Utility"
   },
   "ephemerality": {
@@ -306,7 +306,7 @@
   },
   "firststrike": {
     "name": "First Strike",
-    "description": "The first melee hit against a mob deals 10 * level % more damage, and the first projectile damage against a mob deals 7.5 * level % more damage. Melee damage from enchantments or abilities will also be affected if it is applied simultaneously with a melee hit. The bonus damage can be reapplied to the same target every 3 seconds.",
+    "description": "The first melee hit against a mob deals 10 * level % more damage, and the first projectile damage or thrown Alchemist Potion against a mob deals 7.5 * level % more damage. Melee damage from enchantments or abilities will also be affected if it is applied simultaneously with a melee hit. The bonus damage can be reapplied to the same target every 3 seconds.",
     "category": "Weapons"
   },
   "focus": {
@@ -351,7 +351,7 @@
   },
   "hexeater": {
     "name": "Hex Eater",
-    "description": "Adds (level * 0.5) extra damage per debuff on the target.",
+    "description": "Adds (level * 0.5) extra damage per debuff on the target to basic melee, projectile or Alchemist Potion hits.",
     "category": "Weapons"
   },
   "hope": {
@@ -731,7 +731,7 @@
   },
   "stamina": {
     "name": "Stamina",
-    "description": "After taking damage, gain (level * 2.5)% melee and projectile damage per level for 6 seconds. Stacks up to 4 times, for (level * 10)% max damage.",
+    "description": "After taking damage, any melee or projectile damage you deal within 6s is increased by (level * 2.5)%. Stacks up to 4 times, for (level * 10)% max damage, with duration refreshing each hit taken.",
     "category": "Passives"
   },
   "starvation": {
