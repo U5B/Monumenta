@@ -306,7 +306,7 @@
   },
   "firststrike": {
     "name": "First Strike",
-    "description": "The first melee hit against a mob deals 10 * level % more damage, and the first projectile damage or thrown Alchemist Potion against a mob deals 7.5 * level % more damage. Melee damage from enchantments or abilities will also be affected if it is applied simultaneously with a melee hit. The bonus damage can be reapplied to the same target every 3 seconds.",
+    "description": "The first melee hit, projectile damage or thrown Alchemist Potion against a mob deals 10 * level % more damage. Melee damage from enchantments or abilities will also be affected if it is applied simultaneously with a melee hit. The bonus damage can be reapplied to the same target every 3 seconds.",
     "category": "Weapons"
   },
   "focus": {
