@@ -19576,6 +19576,28 @@
       "projectile_damage_base": 19
     }
   },
+  "Ascending Winds": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "As fierce winds are heard",
+      "in the distance, you only hope",
+      "that maybe, all was meant to be."
+    ],
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Ascending Winds",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "quick_charge": 3,
+      "unbreaking": 3,
+      "wind_aspect": 2,
+      "projectile_damage_base": 5,
+      "projectile_speed_base": 2
+    },
+    "lore": "As fierce winds are heard\nin the distance, you only hope\nthat maybe, all was meant to be."
+  },
   "Ashkii Pine Crossbow": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -78878,6 +78900,35 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Windweaver Essence": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "Latent magic permeates deep within",
+      "the bedrock of the Eastern Plateau,",
+      "even seeping into the groundwater",
+      "and wellsprings from far below."
+    ],
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Windweaver Essence",
+    "effects": [
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 0.2,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 6000,
+        "EffectStrength": 2,
+        "EffectType": "FallDamageNegate"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Latent magic permeates deep within\nthe bedrock of the Eastern Plateau,\neven seeping into the groundwater\nand wellsprings from far below."
+  },
   "Wolfswood Whiskey": {
     "location": "The Wolfswood",
     "region": "Ring",
@@ -81328,6 +81379,22 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Tlaxan Slate": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "As the town below fell to the invaders, a young",
+      "girl would engrave her first runes into the",
+      "stone tablet. You wish you could read them."
+    ],
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Tlaxan Slate",
+    "base_item": "Raiser Armor Trim Smithing Template",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "As the town below fell to the invaders, a young\ngirl would engrave her first runes into the\nstone tablet. You wish you could read them."
   },
   "Crystal Behemoth Dummy": {
     "location": "Seasonal Pass",
