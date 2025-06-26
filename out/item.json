@@ -1350,6 +1350,19 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q17I03"
   },
+  "Fresh Beet Juice": {
+    "mmlore": [
+      "<dark_gray>Fresh beet juice, stored inside the beet still!",
+      "<light_purple>* Quest Item *",
+      "<dark_gray>#Q60I02"
+    ],
+    "name": "Fresh Beet Juice",
+    "base_item": "Beetroot",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Fresh beet juice, stored inside the beet still!\n* Quest Item *\n#Q60I02"
+  },
   "Plague Bearer's Heart": {
     "location": "Halloween Event",
     "mmlore": [
@@ -17031,6 +17044,19 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Creeperween Sole": {
+    "mmlore": [
+      "<dark_gray>A sole, sprinkled with gunpowder. Hope this works!",
+      "<light_purple>* Quest Item *",
+      "<dark_gray>#Q60I03"
+    ],
+    "name": "Creeperween Sole",
+    "base_item": "Cod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A sole, sprinkled with gunpowder. Hope this works!\n* Quest Item *\n#Q60I03"
+  },
   "Deep Sea Bait": {
     "location": "Fishing",
     "mmlore": [
@@ -27186,6 +27212,22 @@
     "type": "Misc",
     "stats": {}
   },
+  "Pride Launcher": {
+    "location": "King's Valley",
+    "mmlore": [
+      "Love is Love.",
+      "(Shift) Left Click to change the color of the",
+      "big (small) explosion. Right Click to shoot!"
+    ],
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Pride Launcher",
+    "base_item": "Firework Rocket",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Love is Love.\n(Shift) Left Click to change the color of the\nbig (small) explosion. Right Click to shoot!"
+  },
   "Signal Flare - Burst": {
     "mmlore": [
       "Applies Glowing for 10 seconds when used."
@@ -27473,6 +27515,31 @@
       "lure": 1,
       "unbreaking": 2
     }
+  },
+  "Sketched D.R.E.A.M.": {
+    "location": "Sketched",
+    "mmlore": [
+      "<dark_gray>The Silver Knight sat on the shores of the",
+      "<dark_gray>poison lake, daydreaming, fishing line bobbing",
+      "<dark_gray>gently in the hissing water. After some time",
+      "<dark_gray>she began to reel it back in, only to find that",
+      "<dark_gray>the water had corroded away the string. Pity..."
+    ],
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Sketched D.R.E.A.M.",
+    "base_item": "Fishing Rod",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "hex_eater": 3,
+      "knockback": 1,
+      "lure": 4,
+      "unbreakable": 1,
+      "attack_damage_base": 8,
+      "attack_speed_base": 1.6
+    },
+    "lore": "The Silver Knight sat on the shores of the\npoison lake, daydreaming, fishing line bobbing\ngently in the hissing water. After some time\nshe began to reel it back in, only to find that\nthe water had corroded away the string. Pity..."
   },
   "Swiftbreeze": {
     "location": "Celsian Isles",
@@ -62995,6 +63062,20 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
+  "Bouquet of Flowers": {
+    "mmlore": [
+      "The flowers are vibrant shades of orange, white, and dark pink.",
+      "<light_purple>* Quest Item *",
+      "#Q61I01",
+      "Inside there is a small letter attached."
+    ],
+    "name": "Bouquet of Flowers",
+    "base_item": "Lily Of The Valley",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The flowers are vibrant shades of orange, white, and dark pink.\n* Quest Item *\n#Q61I01\nInside there is a small letter attached."
+  },
   "Snowsprout Lily": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -74682,6 +74763,19 @@
       "infinity": 1
     }
   },
+  "Creeperjuice": {
+    "mmlore": [
+      "<dark_gray>Hisses, bubbles, toils and troubles...",
+      "<light_purple>* Quest Item *",
+      "<dark_gray>#Q60I04"
+    ],
+    "name": "Creeperjuice",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Hisses, bubbles, toils and troubles...\n* Quest Item *\n#Q60I04"
+  },
   "Crimstonian Brew": {
     "location": "Yellow",
     "region": "Valley",
@@ -82768,6 +82862,26 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Sketched Bag of Hoarding": {
+    "location": "Sketched",
+    "mmlore": [
+      "The Pot of Proportions is deceptive in dimension;",
+      "Compact in appearance, but with enchanted extension!",
+      "Your toys and your trinkets remain in the mixture;",
+      "No damage is done to their talent or texture!",
+      "<gray>Right Click while in inventory to spot in the pot.",
+      "<gray>But carry coins on the cursor, and they join the lot.",
+      "<gray>Press <key:key.swapOffhand> to store all the gold that you hold."
+    ],
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Sketched Bag of Hoarding",
+    "base_item": "Respawn Anchor",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The Pot of Proportions is deceptive in dimension;\nCompact in appearance, but with enchanted extension!\nYour toys and your trinkets remain in the mixture;\nNo damage is done to their talent or texture!\nRight Click while in inventory to spot in the pot.\nBut carry coins on the cursor, and they join the lot.\nPress  to store all the gold that you hold."
   },
   "Chipped Remnant Scroll -=- Sequence": {
     "location": "Skr",
@@ -103766,6 +103880,19 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Mushy Beetles": {
+    "mmlore": [
+      "<dark_gray>Squirmy, mushy little beetles. Eew!",
+      "<light_purple>* Quest Item *",
+      "<dark_gray>#Q60I01"
+    ],
+    "name": "Mushy Beetles",
+    "base_item": "Wither Rose",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Squirmy, mushy little beetles. Eew!\n* Quest Item *\n#Q60I01"
+  },
   "Nightshade": {
     "mmlore": [
       "Resourcefulness,",
@@ -107600,6 +107727,12 @@
   },
   "Harbinger (written_book)": {
     "name": "Harbinger",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
+  "Hello Hero": {
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
