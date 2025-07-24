@@ -319,6 +319,11 @@
     "description": "Increases the number of resources gained when breaking ores and certain other blocks that drop resources, based on level.",
     "category": "Tools and Utility"
   },
+  "fractal": {
+    "name": "Fractal",
+    "description": "Your magic abilities will deal (10% * Level) increased damage for 2 seconds after hitting an enemy with a magic ability. This increase can only happen once every 6 seconds.",
+    "category": "Weapons"
+  },
   "fueled": {
     "name": "Fueled",
     "description": "Gain 0.3% Damage Reduction per level for every enemy that is on fire (vanilla or Inferno), slowed, or stunned within 8 blocks, capped at 4 mobs.",
