@@ -3042,6 +3042,11 @@
     "description": "Oinkity oink",
     "parent": "monumenta:handbook/enchantments/clucking"
   },
+  "monumenta:handbook/enchantments/orbital": {
+    "title": "Orbital",
+    "description": "Gain 1.5% Damage Reduction per level against aerial mobs and knocks them downward.",
+    "parent": "monumenta:handbook/enchantments/sturdy"
+  },
   "monumenta:handbook/enchantments/passiveeffects": {
     "title": "Passives",
     "description": "Enchantments that grant a passive effect when used or worn.",
