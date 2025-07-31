@@ -99,6 +99,11 @@
     "description": "After being hit by a mob, gain (level * 1.25)% damage reduction for 5 seconds, refreshed on being hit.",
     "category": "Delve Infusions"
   },
+  "celerity": {
+    "name": "Celerity",
+    "description": "Gain 2.5% Speed per level if there are no hostile mobs within an 18 block radius.",
+    "category": "Delve Infusions"
+  },
   "celestial": {
     "name": "Celestial",
     "description": "Deal 1.5 * level % more damage to enemies at a higher elevation than you.",
