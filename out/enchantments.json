@@ -121,7 +121,7 @@
   },
   "cloaked": {
     "name": "Cloaked",
-    "description": "Gain (Level * 20)% effective Agility when there's 2 or less enemies within 5 blocks.",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when there's 2 or less enemies within 5 blocks. Half the bonus is granted if there are 3 or less enemies. The full bonus is also applied for 6 seconds after slaying an Elite or Boss enemy.",
     "category": "Defenses"
   },
   "clucking": {
@@ -251,12 +251,12 @@
   },
   "ethereal": {
     "name": "Ethereal",
-    "description": "Gain (Level*20%) effective Agility on damage taken within 1.5 seconds of any previous damage from mobs.",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage within 1.5 seconds of any previous damage from mobs.",
     "category": "Defenses"
   },
   "evasion": {
     "name": "Evasion",
-    "description": "Gain (Level*20%) effective Agility when taking damage from a source further than 4 blocks from the player.",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage from a source further than 4 blocks from the player.",
     "category": "Defenses"
   },
   "excavator": {
@@ -356,7 +356,7 @@
   },
   "guard": {
     "name": "Guard",
-    "description": "Gain (Level * 20)% effective Armor after blocking with a shield. Duration lasts for 2.5s if blocked from offhand, and 5s from mainhand.",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP after blocking with a shield. Duration lasts for 4s if blocked from offhand, and 6s from mainhand. The bonus is also granted for 4s when taking 35% or greater HP at once.",
     "category": "Defenses"
   },
   "hexeater": {
@@ -376,7 +376,7 @@
   },
   "impact": {
     "name": "Impact",
-    "description": "For the next 2s after you attack a mob, deal an additional (level * 10)% of your physical attack's damage to the mob when they hit a wall, or if they fall from more than 3 blocks.",
+    "description": "For the next 2s after you attack a mob, deal an additional (level * 10)% of your physical attack's damage to the mob when they hit a wall, or if they fall from more than 3 blocks. Hit enemies lose (level) Knockback Resistance.",
     "category": "Weapons"
   },
   "ineptitude": {
@@ -421,7 +421,7 @@
   },
   "inure": {
     "name": "Inure",
-    "description": "Gain (Level*20%) effective Armor when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic) within 60 seconds. Breaking Inure by taking a different type of damage will give half the bonus for 1 hit.",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic) within 60 seconds. Breaking Inure by taking a different type of damage will give half the bonus for 1 hit.",
     "category": "Defenses"
   },
   "irreparability": {
@@ -566,7 +566,7 @@
   },
   "poise": {
     "name": "Poise",
-    "description": "Gain (Level*20%) effective Armor when above 90% Max Health. Half of the bonus is granted when above 70% Max Health.",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when above 90% Max Health. Half of the bonus is granted when above 70% Max Health.",
     "category": "Defenses"
   },
   "projectilefragility": {
@@ -626,7 +626,7 @@
   },
   "reflexes": {
     "name": "Reflexes",
-    "description": "Gain (Level*20%) effective Agility when there are 4 or more enemies within 8 blocks.",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP for 0.65s after damaging any mob. DoT/indirect damage abilities cannot trigger this bonus.",
     "category": "Defenses"
   },
   "refresh": {
@@ -696,7 +696,7 @@
   },
   "shielding": {
     "name": "Shielding",
-    "description": "Gain Level*20% effective Armor when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding reduces Shielding's effect to half for 5 seconds.",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding reduces Shielding's effect to half for 5 seconds.",
     "category": "Defenses"
   },
   "shrapnel": {
@@ -766,7 +766,7 @@
   },
   "steadfast": {
     "name": "Steadfast",
-    "description": "Gain (0.33% * Level) Armor per 1% health lost, up to (20% * Level) Armor.",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP. This bonus scales linearly with the amount of HP you are missing, up to 60%.",
     "category": "Defenses"
   },
   "sturdy": {
@@ -781,7 +781,7 @@
   },
   "sweepingedge": {
     "name": "Sweeping Edge",
-    "description": "Increases sweep damage by (1 + Attack Damage * (level / (level + 1))).",
+    "description": "On non-critical fully charged melee swings, deals (20% * level) of the triggering attack's damage in an AoE around the targeted mob. Mobs must be within 3 blocks of the player's head or feet to be hit.",
     "category": "Weapons"
   },
   "technique": {
@@ -791,7 +791,7 @@
   },
   "tempo": {
     "name": "Tempo",
-    "description": "Gain (Level*20%) effective Agility on the first hit taken after 4 seconds of taking no damage from mobs. Half of the bonus is granted after 2 seconds of taking no damage from mobs.",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage after 4 seconds of taking no damage from mobs. Half of the bonus is granted after 2.5 seconds of taking no damage from mobs.",
     "category": "Defenses"
   },
   "temporalbender": {
