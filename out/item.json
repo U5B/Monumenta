@@ -3154,8 +3154,7 @@
       "inferno": 3,
       "trivium": 4,
       "speed_percent": 10,
-      "agility": 7,
-      "armor": 7.5
+      "agility": 7.5
     },
     "lore": "An eternal flame, burning with the\nheat of a source yet unknown."
   },
@@ -3176,8 +3175,7 @@
       "inferno": 3,
       "trivium": 4,
       "speed_percent": 15,
-      "agility": 7.5,
-      "armor": 8
+      "agility": 8
     },
     "lore": "An eternal flame, burning with the\nheat of a source yet unknown."
   },
@@ -3198,8 +3196,7 @@
       "inferno": 3,
       "trivium": 4,
       "speed_percent": 15,
-      "agility": 8,
-      "armor": 8.5
+      "agility": 8.5
     },
     "lore": "An eternal flame, burning with the\nheat of a source yet unknown."
   },
@@ -16841,12 +16838,12 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "poise": 1,
+      "projectile_protection": 2,
       "max_health_flat": -4,
       "armor": 8,
       "speed_percent": 20,
-      "magic_damage_percent": 32
+      "magic_damage_percent": 35
     },
     "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrators\nof the Machine's power matrix. It was\nan act of service for the future Architect."
   },
@@ -31731,6 +31728,28 @@
       "armor": 6,
       "speed_percent": -5
     }
+  },
+  "Talaria of Magic": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "Sandals forged eons ago,",
+      "for a speedster that never ran,",
+      "for a merchant that never sold."
+    ],
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Talaria of Magic",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "adrenaline": 1,
+      "evasion": 1,
+      "unbreakable": 1,
+      "speed_flat": 0.015,
+      "agility": 4.5
+    },
+    "lore": "Sandals forged eons ago,\nfor a speedster that never ran,\nfor a merchant that never sold."
   },
   "Windblessed Boots": {
     "location": "Architect's Ring",
@@ -52271,7 +52290,7 @@
     "stats": {
       "magic_protection": 3,
       "projectile_protection": 3,
-      "second_wind": 3,
+      "second_wind": 2,
       "unbreaking": 5,
       "speed_percent": 15
     },
@@ -60226,6 +60245,28 @@
       "armor": 6
     },
     "lore": "The walls of pure darkness close in.\nYour breath, shaken with trepidation.\nOnly one mind can claim triumph here."
+  },
+  "Eomen's Robes": {
+    "location": "Forum",
+    "mmlore": [
+      "At the end, Eomen stood with his arms",
+      "wide, ready to embrace the magic sweeping",
+      "through the Forum. This was new ground",
+      "to break."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Eomen's Robes",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "poise": 1,
+      "unbreaking": 9,
+      "max_health_flat": -2,
+      "armor": 9.5
+    },
+    "lore": "At the end, Eomen stood with his arms\nwide, ready to embrace the magic sweeping\nthrough the Forum. This was new ground\nto break."
   },
   "Fervorous Robes": {
     "location": "Purple",
@@ -73403,8 +73444,8 @@
     "stats": {
       "stamina": 2,
       "steadfast": 1,
-      "max_health_flat": 2,
-      "armor": 5
+      "armor": 5,
+      "max_health_flat": 2
     },
     "lore": "A knight should protect...\nfor our codex commands it!"
   },
@@ -104485,14 +104526,14 @@
     "release_status": "public",
     "stats": {
       "totemic_projection_cooldown_percent": {
-        "locked": true,
-        "value": -70
+        "locked": false,
+        "value": -10
+      },
+      "totemic_projection_enhancement_damage_percent": {
+        "locked": false,
+        "value": 50
       },
       "totemic_projection_enhancement_damage_duration_percent": {
-        "locked": false,
-        "value": -100
-      },
-      "totemic_projection_spread_percent": {
         "locked": false,
         "value": -50
       }
@@ -106480,8 +106521,8 @@
       "unbreaking": 40,
       "attack_speed_base": 2,
       "knockback_resistance_flat": 2.5,
-      "armor": 1,
-      "attack_damage_base": 12
+      "attack_damage_base": 12,
+      "armor": 1.5
     },
     "lore": "Once, the twin spirits worked in harmony.\nBut death without life reaped horrible rewards.\nSoon, the one who remained would welcome the end."
   },
@@ -107792,9 +107833,9 @@
     "stats": {
       "magic_protection": 2,
       "unbreakable": 1,
-      "agility": 3.5,
       "max_health_flat": 5,
-      "magic_damage_percent": 10
+      "magic_damage_percent": 10,
+      "agility": 3
     },
     "lore": "He spoke the truth to the Void.\nBeyond here there is nothingness,\nyet the nothingness hungers still."
   },
@@ -108097,10 +108138,11 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "magic_protection": 2,
       "unbreakable": 1,
-      "max_health_flat": 7,
-      "speed_percent": 5,
-      "agility": 3.5
+      "agility": 3,
+      "magic_damage_percent": 10,
+      "max_health_flat": 5
     },
     "lore": "Carved from a fallen branch,\nit whispers - persist."
   },
@@ -111190,49 +111232,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Obtained in the Anniversary Pass."
-  },
-  "Eomen's Robes (legs)": {
-    "location": "Forum",
-    "mmlore": [
-      "At the end, Eomen stood with his arms",
-      "wide, ready to embrace the magic sweeping",
-      "through the Forum. This was new ground",
-      "to break."
-    ],
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Eomen's Robes",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "poise": 1,
-      "unbreaking": 9,
-      "max_health_flat": -2,
-      "armor": 10
-    },
-    "lore": "At the end, Eomen stood with his arms\nwide, ready to embrace the magic sweeping\nthrough the Forum. This was new ground\nto break."
-  },
-  "Eomen's Robes (offhand)": {
-    "location": "Forum",
-    "mmlore": [
-      "At the end, Eomen stood with his arms",
-      "wide, ready to embrace the magic sweeping",
-      "through the Forum. This was new ground",
-      "to break."
-    ],
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Eomen's Robes",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "stats": {
-      "poise": 1,
-      "unbreaking": 9,
-      "armor": 9.5
-    },
-    "type": "Offhand",
-    "lore": "At the end, Eomen stood with his arms\nwide, ready to embrace the magic sweeping\nthrough the Forum. This was new ground\nto break."
   },
   "Lyson's Head (head)": {
     "location": "Celsian Isles",
