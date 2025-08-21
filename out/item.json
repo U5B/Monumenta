@@ -9713,6 +9713,22 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
+  "Cracked Chain": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "\"...hold an Abysswalker's remnant...\"",
+      "You can sense you will need to investigate",
+      "back in Phyrrys to continue."
+    ],
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Cracked Chain",
+    "base_item": "Chain",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"...hold an Abysswalker's remnant...\"\nYou can sense you will need to investigate\nback in Phyrrys to continue."
+  },
   "Distant Prosecutor's Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -21275,6 +21291,114 @@
     },
     "lore": "Wrenched from the towers of the Masked\nfortress, the massive ballista fires\narrows of raw iron, sure to demolish\nanything in its path."
   },
+  "Silverhook-1": {
+    "location": "Indigo",
+    "masterwork": "1",
+    "mmlore": [
+      "Legends speak of Silver Knights shooting",
+      "Stars and grabbing them out of the sky with",
+      "this artifact. In its current state, it won't do",
+      "more than grabbing the closest ledge.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silverhook",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "grappling": 20,
+      "infinity": 1,
+      "quick_charge": 5,
+      "unbreakable": 1,
+      "projectile_speed_base": 3,
+      "projectile_damage_base": 1
+    },
+    "lore": "Legends speak of Silver Knights shooting\nStars and grabbing them out of the sky with\nthis artifact. In its current state, it won't do\nmore than grabbing the closest ledge.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Silverhook-2": {
+    "location": "Indigo",
+    "masterwork": "2",
+    "mmlore": [
+      "Legends speak of Silver Knights shooting",
+      "Stars and grabbing them out of the sky with",
+      "this artifact. In its current state, it won't do",
+      "more than grabbing the closest ledge.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silverhook",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "grappling": 30,
+      "infinity": 1,
+      "quick_charge": 5,
+      "unbreakable": 1,
+      "projectile_speed_base": 3,
+      "projectile_damage_base": 1
+    },
+    "lore": "Legends speak of Silver Knights shooting\nStars and grabbing them out of the sky with\nthis artifact. In its current state, it won't do\nmore than grabbing the closest ledge.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Silverhook-3": {
+    "location": "Indigo",
+    "masterwork": "3",
+    "mmlore": [
+      "Legends speak of Silver Knights shooting",
+      "Stars and grabbing them out of the sky with",
+      "this artifact. In its current state, it won't do",
+      "more than grabbing the closest ledge.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silverhook",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "grappling": 40,
+      "infinity": 1,
+      "quick_charge": 5,
+      "unbreakable": 1,
+      "projectile_speed_base": 3,
+      "projectile_damage_base": 1
+    },
+    "lore": "Legends speak of Silver Knights shooting\nStars and grabbing them out of the sky with\nthis artifact. In its current state, it won't do\nmore than grabbing the closest ledge.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Silverhook-4": {
+    "location": "Indigo",
+    "masterwork": "4",
+    "mmlore": [
+      "Legends speak of Silver Knights shooting",
+      "Stars and grabbing them out of the sky with",
+      "this artifact. In its current state, it won't do",
+      "more than grabbing the closest ledge.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Silverhook",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "grappling": 50,
+      "infinity": 1,
+      "quick_charge": 5,
+      "unbreakable": 1,
+      "projectile_speed_base": 3,
+      "projectile_damage_base": 1
+    },
+    "lore": "Legends speak of Silver Knights shooting\nStars and grabbing them out of the sky with\nthis artifact. In its current state, it won't do\nmore than grabbing the closest ledge.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Simple Crossbow": {
     "location": "King's Valley",
     "region": "Valley",
@@ -21768,6 +21892,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "You seek the missing Tlaxan Elder inside\nthe ruins of the Verdant Fortress.\nCompletion of The Elder's Scrolls is required and\nend-game gear is recommended for this Strike!\nThis Strike requires breaking spawners\nto progress to the final boss.\nPlayers: 1-4 (One life per player)\nGrants access to the Verdant Remnants Strike."
+  },
+  "Void-Infused Stone": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "The longer you hold it, the less understandable",
+      "it gets. What is this? Where does it come from?",
+      "And where should it go?"
+    ],
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Void-Infused Stone",
+    "base_item": "Crying Obsidian",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The longer you hold it, the less understandable\nit gets. What is this? Where does it come from?\nAnd where should it go?"
   },
   "King's Valley": {
     "mmlore": [
@@ -25395,6 +25535,18 @@
     "stats": {},
     "lore": "A toy replica of a fearsome entity."
   },
+  "Blightmouth Dummy": {
+    "location": "Skr",
+    "mmlore": [
+      "Memories made manifest as a dummy."
+    ],
+    "name": "Blightmouth Dummy",
+    "base_item": "Drowned Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Memories made manifest as a dummy."
+  },
   "Elder Gillman Dummy": {
     "location": "Seasonal Pass",
     "mmlore": [
@@ -26440,6 +26592,18 @@
     "stats": {},
     "lore": "\"Things are born in the darkness.\nSometimes, with the right tools, you\ncan harvest that darkness and find\nthe spirit of what sleeps inside.\""
   },
+  "Demented Phisogue Dummy": {
+    "location": "Skr",
+    "mmlore": [
+      "Memories made manifest as a dummy."
+    ],
+    "name": "Demented Phisogue Dummy",
+    "base_item": "Evoker Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Memories made manifest as a dummy."
+  },
   "Experience Bottle": {
     "location": "King's Valley",
     "mmlore": [
@@ -27029,6 +27193,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "* Quest Item *\n#Q140I03"
+  },
+  "Starrier Chart": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "\"...and let this map guide your gaze.\"",
+      "You can sense you will need to investigate",
+      "back in Phyrrys to continue."
+    ],
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Starrier Chart",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"...and let this map guide your gaze.\"\nYou can sense you will need to investigate\nback in Phyrrys to continue."
   },
   "Angelic Crest Stone": {
     "location": "Celsian Isles",
@@ -28872,6 +29052,16 @@
     "type": "Misc",
     "stats": {},
     "lore": "Most of the writing on this tag is either\nin a language you don't understand, or\ntoo rusted out to be considered legible.\nBut... it does look valuable, both from a\nmonetary and a historical perspective."
+  },
+  "Rusted Serebrium Dagger": {
+    "location": "Indigo",
+    "name": "Rusted Serebrium Dagger",
+    "base_item": "Ghast Tear",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
   },
   "Seal of the Pharaoh": {
     "mmlore": [
@@ -39234,6 +39424,18 @@
     "stats": {},
     "lore": "Obtained in the Space Pass."
   },
+  "Wi'nstsigo Pup Dummy": {
+    "location": "Skr",
+    "mmlore": [
+      "Memories made manifest as a dummy."
+    ],
+    "name": "Wi'nstsigo Pup Dummy",
+    "base_item": "Husk Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Memories made manifest as a dummy."
+  },
   "Cooling Unit": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -46757,6 +46959,16 @@
       "attack_damage_base": 10
     },
     "lore": "Arcane flames dance off of the steel,\nburning with intensity but emitting\nno heat. The blade stays lit even when\nplunged into the sea."
+  },
+  "Ancient Silver Fang": {
+    "location": "Indigo",
+    "name": "Ancient Silver Fang",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
   },
   "Antimagic Ward": {
     "location": "Valley Overworld",
@@ -69072,6 +69284,22 @@
     "stats": {},
     "lore": "You have absolutely no idea\nwhat this could be used for.\n* Quest Item *\n#Q209I01"
   },
+  "Mirror of Silent Stars": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "Seeing your warped reflection in this wretched",
+      "shard of glass fills you with disgust. You aren't",
+      "supposed to look like this."
+    ],
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Mirror of Silent Stars",
+    "base_item": "Packed Ice",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Seeing your warped reflection in this wretched\nshard of glass fills you with disgust. You aren't\nsupposed to look like this."
+  },
   "Commemorative Screenshot": {
     "location": "King's Valley",
     "mmlore": [
@@ -69573,6 +69801,21 @@
     "type": "Misc",
     "stats": {}
   },
+  "Selenian Parchment": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "As soon as you read the words on it,",
+      "you forget them again. What an odd find."
+    ],
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Selenian Parchment",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "As soon as you read the words on it,\nyou forget them again. What an odd find."
+  },
   "Shop Upkeep Token": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><white>Worth a week's upkeep at a market shop."
@@ -69656,6 +69899,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "A lullaby said to be a song of life\nfrom the heavens... I've yet to fully\ndecipher the original texts, however.\n↑ C ↓ → ← ↑ ?"
+  },
+  "Telescope Note": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "On one side, it reads 'focal length\\<0'. Flipping",
+      "it reveals more text: \"Keep this on you",
+      "when following where the telescope leads.\""
+    ],
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Telescope Note",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "On one side, it reads 'focal length\\<0'. Flipping\nit reveals more text: \"Keep this on you\nwhen following where the telescope leads.\""
   },
   "Terms and Conditions": {
     "location": "Celsian Isles",
@@ -70269,6 +70528,18 @@
       "oinking": 1
     },
     "lore": "The peculiar head reveals dubious intentions,\nExhume the corpse, dust off the scalp,\nDig up the bones, trepan yourself a flute,\nRevel in the merriness, play with the tune."
+  },
+  "Bronze Mask Dummy": {
+    "location": "Skr",
+    "mmlore": [
+      "Memories made manifest as a dummy."
+    ],
+    "name": "Bronze Mask Dummy",
+    "base_item": "Pillager Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Memories made manifest as a dummy."
   },
   "Pink Wool Key": {
     "location": "Celsian Isles",
@@ -86809,6 +87080,16 @@
     },
     "lore": "A shield wielded by the Queen's\nRoyal Knights."
   },
+  "Rusted Foundational Plate": {
+    "location": "Indigo",
+    "name": "Rusted Foundational Plate",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    }
+  },
   "Rusty Shield": {
     "location": "King's Valley",
     "region": "Valley",
@@ -87955,6 +88236,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "Much like the creature it came from,\nthis shell's durability is quite exaggerated."
+  },
+  "Sigil without Surface": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "\"Stand in the middle of the gates to Phyrrys...\"",
+      "You can sense you will need to investigate",
+      "back in Phyrrys to continue."
+    ],
+    "region": "Ring",
+    "tier": "Obfuscated",
+    "name": "Sigil without Surface",
+    "base_item": "Silence Armor Trim Smithing Template",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "\"Stand in the middle of the gates to Phyrrys...\"\nYou can sense you will need to investigate\nback in Phyrrys to continue."
   },
   "Blighted Skull": {
     "location": "King's Valley",
@@ -89886,6 +90183,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Elite Spider"
+  },
+  "Mechanical Spider Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Mecha-Pass."
+    ],
+    "name": "Mechanical Spider Dummy",
+    "base_item": "Spider Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Mecha-Pass."
   },
   "Spider Training Dummy": {
     "mmlore": [
@@ -104171,6 +104480,19 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q38I01\nDelightfully tacky! Perfect for scaring\nPoultrygeists into revealing information."
   },
+  "Overseer Dummies Pack": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Mecha-Pass.",
+      "Press <key:key.use> to obtain the dummies."
+    ],
+    "name": "Overseer Dummies Pack",
+    "base_item": "Turtle Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Mecha-Pass.\nPress  to obtain the dummies."
+  },
   "Rebirth": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -105684,6 +106006,30 @@
     "stats": {},
     "lore": "Obtained in the Marsh Madness Pass."
   },
+  "Enchelei Dummy": {
+    "location": "Skr",
+    "mmlore": [
+      "Memories made manifest as a dummy."
+    ],
+    "name": "Enchelei Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Memories made manifest as a dummy."
+  },
+  "Energy Overseer Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Mecha-Pass."
+    ],
+    "name": "Energy Overseer Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Mecha-Pass."
+  },
   "Frost Moon Knight Dummy": {
     "location": "Blitz",
     "mmlore": [
@@ -105735,6 +106081,18 @@
     "stats": {},
     "lore": "A toy replica of a fearsome entity."
   },
+  "Hydraulic Overseer Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Mecha-Pass."
+    ],
+    "name": "Hydraulic Overseer Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Mecha-Pass."
+  },
   "Isadora, Bloodied Queen Dummy": {
     "location": "Delves",
     "mmlore": [
@@ -105759,6 +106117,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "A toy replica of a fearsome entity."
+  },
+  "Mecha-Pelias Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Mecha-Pass."
+    ],
+    "name": "Mecha-Pelias Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Mecha-Pass."
   },
   "Nightmare Infestation Dummy": {
     "location": "Seasonal Pass",
@@ -105916,6 +106286,18 @@
     "stats": {},
     "lore": "Obtained in the Blackroot Pass."
   },
+  "Siren's Lantern Dummy": {
+    "location": "Skr",
+    "mmlore": [
+      "Memories made manifest as a dummy."
+    ],
+    "name": "Siren's Lantern Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Memories made manifest as a dummy."
+  },
   "Tectonic Angler Dummy": {
     "location": "Blitz",
     "mmlore": [
@@ -105954,6 +106336,18 @@
     "stats": {},
     "lore": "Obtained in the Space Pass."
   },
+  "Tyrant of Antiquity Dummy": {
+    "location": "Skr",
+    "mmlore": [
+      "Memories made manifest as a dummy."
+    ],
+    "name": "Tyrant of Antiquity Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Memories made manifest as a dummy."
+  },
   "Varcosa Dummy": {
     "location": "Blitz",
     "mmlore": [
@@ -105965,6 +106359,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "A toy replica of a fearsome entity."
+  },
+  "Wendigo of the Wolfswood Dummy": {
+    "location": "Skr",
+    "mmlore": [
+      "Memories made manifest as a dummy."
+    ],
+    "name": "Wendigo of the Wolfswood Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Memories made manifest as a dummy."
   },
   "Xeno, Shattered Scallawag Dummy": {
     "location": "Delves",
