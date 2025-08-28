@@ -1196,7 +1196,7 @@
     "mmlore": [
       "A dud Delight seems to have fermented",
       "within a Creeper for a long time.",
-      "Luckly for you, it's even tastier now!"
+      "Luckily for you, it's even tastier now!"
     ],
     "region": "Valley",
     "tier": "Event",
@@ -1205,10 +1205,10 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "lure": 20,
-      "infinity": 1
+      "infinity": 1,
+      "lure": 20
     },
-    "lore": "A dud Delight seems to have fermented\nwithin a Creeper for a long time.\nLuckly for you, it's even tastier now!"
+    "lore": "A dud Delight seems to have fermented\nwithin a Creeper for a long time.\nLuckily for you, it's even tastier now!"
   },
   "Latke": {
     "location": "Winter Event",
@@ -14442,6 +14442,30 @@
     },
     "lore": "A tall chain-woven cap with symbols of\nthe Silver Order adorning it."
   },
+  "Sketched Mage Hunter's Mask": {
+    "location": "Sketched",
+    "mmlore": [
+      "Mechanical movements. Metal grinding at each",
+      "bated breath. Although artificial, there were",
+      "automatons who retained the memory of their",
+      "former flesh, blurring the line between",
+      "man and machine."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Sketched Mage Hunter's Mask",
+    "base_item": "Chainmail Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "magic_protection": 1,
+      "unbreaking": 4,
+      "armor": 4.5,
+      "attack_speed_percent": 20,
+      "attack_damage_percent": 20
+    },
+    "lore": "Mechanical movements. Metal grinding at each\nbated breath. Although artificial, there were\nautomatons who retained the memory of their\nformer flesh, blurring the line between\nman and machine."
+  },
   "Soulseeker's Visage": {
     "location": "Threadwarped Skin",
     "mmlore": [
@@ -18793,6 +18817,13 @@
       "infinity": 1
     },
     "lore": "To become perfection is to reject\nentropy itself. It is to sustain,\nand outlast."
+  },
+  "Wrooby Wrack": {
+    "name": "Wrooby Wrack",
+    "base_item": "Cooked Beef",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Family-Sized Roast Chicken": {
     "location": "Celsian Isles",
@@ -35170,6 +35201,31 @@
     },
     "lore": "Your recipients are sure to be\n\"stunned\" when they open this one!\nIt really is such a mystery..."
   },
+  "Sketched Earthshaker": {
+    "location": "Sketched",
+    "mmlore": [
+      "Material extracted from souls still held",
+      "the will of that from which it came - a",
+      "blasphemy that must be resolved. All",
+      "must revere the God in the Machine."
+    ],
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Sketched Earthshaker",
+    "base_item": "Golden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "sapper": 3,
+      "unbreakable": 1,
+      "armor": 2,
+      "agility": 2,
+      "knockback_resistance_flat": 4,
+      "attack_damage_base": 2,
+      "attack_speed_base": 1.2
+    },
+    "lore": "Material extracted from souls still held\nthe will of that from which it came - a\nblasphemy that must be resolved. All\nmust revere the God in the Machine."
+  },
   "Skyfeller": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -45749,6 +45805,21 @@
     },
     "lore": "A distant chime echoes,\nslowly fading away."
   },
+  "Page Upgrader Fragment": {
+    "location": "PORTAL",
+    "mmlore": [
+      "<gray>Epic Crafting Material",
+      "Combine 4 to create an Armory Page Upgrader."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Page Upgrader Fragment",
+    "base_item": "Iron Nugget",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material\nCombine 4 to create an Armory Page Upgrader."
+  },
   "Quickening Bracer": {
     "location": "Starpoint",
     "region": "Ring",
@@ -50035,18 +50106,6 @@
     "stats": {},
     "lore": "The Black Mist rolls forth,\ncalling to unsuspecting heroes.\nCompletion of The End Chimes is required and\n4+ players are recommended for this Strike!\nThis Strike requires breaking spawners\nto progress to the final boss.\nPlayers: 1-6 (One life per player)\nGrants access to The Black Mist Strike."
   },
-  "Swift Bolstering Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Legacy",
-    "name": "Swift Bolstering Charm",
-    "power": 2,
-    "base_item": "Lantern",
-    "release_status": "public",
-    "stats": {},
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
   "Means": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -52169,6 +52228,20 @@
       "attack_damage_percent": 7
     },
     "lore": "And in the end, I will reap you.\nYou will welcome it."
+  },
+  "Replica Galoshes of the Waves and Winds": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Legend says a stubborn shoemaker",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>crafted these shoes during a hurricane."
+    ],
+    "name": "Replica Galoshes of the Waves and Winds",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Legend says a stubborn shoemaker\ncrafted these shoes during a hurricane."
   },
   "Replica Plague Bearer's Boots": {
     "location": "Halloween Event",
@@ -55522,6 +55595,20 @@
       "knockback_resistance_flat": 2.5
     }
   },
+  "Replica Uniform of the Arena Champion": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Covered in medals and",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>insignias of victory."
+    ],
+    "name": "Replica Uniform of the Arena Champion",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Covered in medals and\ninsignias of victory."
+  },
   "Robes of the Pharaoh": {
     "location": "Isles Overworld",
     "mmlore": [
@@ -58709,6 +58796,20 @@
     "stats": {},
     "lore": "A cap belonging to one of two scout corporals\nsent to spy on the Southern Jaguar Village.\nThe tattered ribbons of fabric and flecks of\nblood allude to an untimely demise.\nSergeant Sigrun will certainly want to know\nabout the fates of both men.\n* Quest Item *\n#Q06I02"
   },
+  "Replica Crown of the Forbidden Yew": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Soft to the touch, yet you feel",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>a strong presence in this helm."
+    ],
+    "name": "Replica Crown of the Forbidden Yew",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Soft to the touch, yet you feel\na strong presence in this helm."
+  },
   "Replica Snegovik Helm": {
     "location": "Winter Event",
     "region": "Valley",
@@ -58824,7 +58925,7 @@
   "Sacrifice's Scalp": {
     "location": "Gray",
     "mmlore": [
-      "Lets hope you don't end up",
+      "Let's hope you don't end up",
       "like this poor fellow."
     ],
     "region": "Isles",
@@ -58834,13 +58935,13 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "projectile_protection": 3,
-      "mending": 1,
       "life_drain": 1,
+      "mending": 1,
+      "projectile_protection": 3,
       "agility": 3.5,
       "max_health_flat": 2
     },
-    "lore": "Lets hope you don't end up\nlike this poor fellow."
+    "lore": "Let's hope you don't end up\nlike this poor fellow."
   },
   "Saguaro Cap": {
     "location": "Celsian Isles",
@@ -61724,6 +61825,20 @@
       "speed_percent": -25,
       "knockback_resistance_flat": 2.5
     }
+  },
+  "Replica Starshine Pants": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>It is said that starshine grants",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>a long, fulfilling life."
+    ],
+    "name": "Replica Starshine Pants",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "It is said that starshine grants\na long, fulfilling life."
   },
   "Robe of Silence": {
     "location": "Celsian Isles",
@@ -77970,6 +78085,22 @@
     "stats": {},
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Imperial Stout": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Imperial Stout",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.2,
+        "EffectType": "Absorption"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
   "Inert Bottle": {
     "location": "King's Valley",
     "mmlore": [
@@ -78591,6 +78722,22 @@
         "EffectDuration": 12000,
         "EffectStrength": 0.1,
         "EffectType": "MagicDamage"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Pinot Grigio Wine": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Pinot Grigio Wine",
+    "effects": [
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "Speed"
       }
     ],
     "base_item": "Potion",
@@ -80573,6 +80720,22 @@
         "EffectDuration": 12000,
         "EffectStrength": 0.1,
         "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
+  },
+  "Zinfandel Wine": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Zinfandel Wine",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
       }
     ],
     "base_item": "Potion",
@@ -82980,7 +83143,7 @@
       "had taken her mind and freedom from",
       "her. It seemed to have left no trace,",
       "until she noticed a small, seemingly",
-      "negligable blip of energy within her.",
+      "negligible blip of energy within her.",
       "It whispered in an inaudible tone, the",
       "words incomprehensible. But... it was",
       "almost as if she could make out the",
@@ -82993,7 +83156,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Iota scoured her data banks, seeking\nthe source of the corruption that\nhad taken her mind and freedom from\nher. It seemed to have left no trace,\nuntil she noticed a small, seemingly\nnegligable blip of energy within her.\nIt whispered in an inaudible tone, the\nwords incomprehensible. But... it was\nalmost as if she could make out the\nrepeated use of \"Neo\"..."
+    "lore": "Iota scoured her data banks, seeking\nthe source of the corruption that\nhad taken her mind and freedom from\nher. It seemed to have left no trace,\nuntil she noticed a small, seemingly\nnegligible blip of energy within her.\nIt whispered in an inaudible tone, the\nwords incomprehensible. But... it was\nalmost as if she could make out the\nrepeated use of \"Neo\"..."
   },
   "Gears of the King": {
     "location": "Brown",
@@ -83059,6 +83222,20 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
+  },
+  "Armory Page Upgrader": {
+    "location": "PORTAL",
+    "mmlore": [
+      "Used in the Mechanical Armory GUI to purchase an additional page."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Armory Page Upgrader",
+    "base_item": "Raw Iron",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Used in the Mechanical Armory GUI to purchase an additional page."
   },
   "Iridium Catalyst": {
     "location": "Pelias' Keep",
@@ -91718,7 +91895,7 @@
     "location": "Hunts",
     "mmlore": [
       "\"Really, what good is pain?",
-      "Useless data. Let’s just ignore it.\""
+      "Useless data. Let's just ignore it.\""
     ],
     "region": "Ring",
     "name": "Muddied Tincture",
@@ -91738,7 +91915,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "\"Really, what good is pain?\nUseless data. Let’s just ignore it.\""
+    "lore": "\"Really, what good is pain?\nUseless data. Let's just ignore it.\""
   },
   "Nightbarb Flask": {
     "location": "Gallery of Fear",
@@ -92710,7 +92887,7 @@
     "location": "Hunts",
     "mmlore": [
       "\"Another synthesis failure... yet one",
-      "chemist’s trash may be a mage’s tincture.\""
+      "chemist's trash may be a mage's tincture.\""
     ],
     "region": "Ring",
     "name": "Unstable Canister",
@@ -92735,7 +92912,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "\"Another synthesis failure... yet one\nchemist’s trash may be a mage’s tincture.\""
+    "lore": "\"Another synthesis failure... yet one\nchemist's trash may be a mage's tincture.\""
   },
   "Unstable Willowfruit": {
     "location": "Willows",
@@ -111025,18 +111202,6 @@
     },
     "lore": "Glittering gold..."
   },
-  "Focused Smiting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Legacy",
-    "name": "Focused Smiting Charm",
-    "power": 3,
-    "base_item": "Yellow Dye",
-    "release_status": "public",
-    "stats": {},
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
   "Golden Coin": {
     "location": "Mist",
     "mmlore": [
@@ -111051,30 +111216,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Used for skinning items\nto match one's own greed."
-  },
-  "Greater Smiting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Legacy",
-    "name": "Greater Smiting Charm",
-    "power": 2,
-    "base_item": "Yellow Dye",
-    "release_status": "public",
-    "stats": {},
-    "type": "Charm",
-    "class_name": "Generalist"
-  },
-  "Lesser Smiting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Legacy",
-    "name": "Lesser Smiting Charm",
-    "power": 1,
-    "base_item": "Yellow Dye",
-    "release_status": "public",
-    "stats": {},
-    "type": "Charm",
-    "class_name": "Generalist"
   },
   "Life Charm (lapis lazuli)": {
     "location": "Arena of Terth",
@@ -111143,18 +111284,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "When used within the halls of the City,\nthis crystal can summon Cornifer to\nyour location.\nActivated by  while holding."
-  },
-  "Sustaining Smiting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Legacy",
-    "name": "Sustaining Smiting Charm",
-    "power": 3,
-    "base_item": "Yellow Dye",
-    "release_status": "public",
-    "stats": {},
-    "type": "Charm",
-    "class_name": "Generalist"
   },
   "Topaz": {
     "location": "King's Valley",
@@ -111570,6 +111699,21 @@
     "type": "Misc",
     "stats": {},
     "lore": "A toy dummy replica of the famous\npainter, Mob Ross. He licensed his\nlikeness to a Shadowy figure\nto pay off debt."
+  },
+  "Sacrificial Totem Dummy": {
+    "location": "Sanguine Halls",
+    "mmlore": [
+      "<gray>This dummy will damage you in its radius.",
+      "<gray>It allows you to test enchantments such as",
+      "<gray>Stamina and Thorns on your own plot.",
+      "<gray>Only one dummy within a 32 block radius."
+    ],
+    "name": "Sacrificial Totem Dummy",
+    "base_item": "Zombie Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "This dummy will damage you in its radius.\nIt allows you to test enchantments such as\nStamina and Thorns on your own plot.\nOnly one dummy within a 32 block radius."
   },
   "Stoneborn Immortal Dummy": {
     "location": "Blitz",
