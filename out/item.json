@@ -40994,6 +40994,10 @@
       "shield_wall_radius_percent": {
         "locked": false,
         "value": 100
+      },
+      "shield_wall_height_percent": {
+        "locked": false,
+        "value": 100
       }
     },
     "type": "Charm",
@@ -68913,7 +68917,7 @@
     "location": "Twisted",
     "mmlore": [
       "A fragment of a truly evil presence. Perhaps",
-      "they could be used to craft something?"
+      "it could be used to craft something?"
     ],
     "region": "Ring",
     "tier": "Currency",
@@ -68922,7 +68926,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A fragment of a truly evil presence. Perhaps\nthey could be used to craft something?"
+    "lore": "A fragment of a truly evil presence. Perhaps\nit could be used to craft something?"
   },
   "Riaz's Supplies": {
     "mmlore": [
@@ -71208,6 +71212,21 @@
     "type": "Misc",
     "stats": {},
     "lore": "Sought by many, a head of 1 of the 4 generals\nof the Sons of the Forest...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D5 Key 1-3 *"
+  },
+  "Architect's Ring Fragment": {
+    "location": "Overworld3",
+    "mmlore": [
+      "An item, crushed to pieces.",
+      "Maybe it could be turned back into an item?"
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Architect's Ring Fragment",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An item, crushed to pieces.\nMaybe it could be turned back into an item?"
   },
   "Arrow Crate": {
     "mmlore": [
@@ -104773,6 +104792,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "A pure delicacy. Given only to kings.\nAwarded for having found the most\neggs in the Easter Event."
+  },
+  "Drifting Colony": {
+    "location": "Overworld3",
+    "mmlore": [
+      "Warm water bubbles endlessly from every pore of the",
+      "coral, making a small puddle in your hand. When the",
+      "world is most quiet, and all is held still, you swear you",
+      "can faintly hear the sound of it staring at you."
+    ],
+    "region": "Ring",
+    "name": "Drifting Colony",
+    "base_item": "Tube Coral",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Warm water bubbles endlessly from every pore of the\ncoral, making a small puddle in your hand. When the\nworld is most quiet, and all is held still, you swear you\ncan faintly hear the sound of it staring at you."
   },
   "Essence of Winter": {
     "location": "Winter Event",
