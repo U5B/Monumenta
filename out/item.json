@@ -2513,6 +2513,25 @@
     "stats": {},
     "lore": "Out of circumstance, shadows coalesce and\ntwist into something utterly depraved.\nCompletion of Sleeping Shadows and 4★\nMasterwork are recommended for this boss!\nThe lxxxxxxx stands afflicted with the epiphany\nof its existence. Your memories serve only to\nbolster its nightmarish attacks.\nPlayers: 1-2 (Infinite attempts)\nGrants access to Twisted lxxxxxxx"
   },
+  "Potion Injector (black_shulker_box)": {
+    "location": "Verdant",
+    "mmlore": [
+      "Attuning to a potion allows for instant",
+      "drinking if the potion is present in",
+      "your inventory (non-hotbar) or stored",
+      "within the Potion Injector.",
+      "<gray>Operated using <key:key.attack/> while in main hand.",
+      "<gray><key:key.sneak> + <key:key.swapOffhand> to clear current potion."
+    ],
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Potion Injector",
+    "base_item": "Black Shulker Box",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Attuning to a potion allows for instant\ndrinking if the potion is present in\nyour inventory (non-hotbar) or stored\nwithin the Potion Injector.\nOperated using  while in main hand.\n +  to clear current potion."
+  },
   "Darkest Depths Key": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -4208,6 +4227,20 @@
     "type": "Misc",
     "stats": {},
     "lore": "Interdimensional magic pulses\nthrought the body of the wand.\n\n to shoot an orange firework.\n to shoot a blue firework."
+  },
+  "Unholy Caster (blaze_rod)": {
+    "mmlore": [
+      "Darkness seeps through the metal",
+      "and plants its roots.",
+      "<light_purple>* Quest Item *",
+      "#Q103iI02"
+    ],
+    "name": "Unholy Caster",
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Darkness seeps through the metal\nand plants its roots.\n* Quest Item *\n#Q103iI02"
   },
   "Vargos' Old Wand": {
     "location": "Celsian Isles",
@@ -5919,6 +5952,19 @@
     "stats": {},
     "lore": "\"How long has it been now? I have long since\nlost track of time. No matter how much I write,\nI never seem to run out of space... and, yet,\nmy earlier notes have gradually become harder\nto decipher. I hope it does not continue to deteriorate.\""
   },
+  "Thank You Note (book)": {
+    "location": "April's Fools",
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Thank You Note",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "max_health_flat": 2,
+      "knockback_resistance_flat": 1
+    }
+  },
   "The Bestiary": {
     "location": "King's Valley",
     "mmlore": [
@@ -6386,6 +6432,29 @@
       "projectile_damage_base": 21.5
     }
   },
+  "Aleph (bow)": {
+    "location": "Teal",
+    "mmlore": [
+      "Darts of light are forged in the",
+      "gears of the mechanism."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Aleph",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 1,
+      "infinity": 1,
+      "sniper": 3,
+      "unbreaking": 10,
+      "speed_percent": 16,
+      "projectile_speed_base": 5,
+      "projectile_damage_base": 17
+    },
+    "lore": "Darts of light are forged in the\ngears of the mechanism."
+  },
   "Aperion": {
     "location": "Lime",
     "mmlore": [
@@ -6733,6 +6802,30 @@
       "projectile_speed_base": 1
     },
     "lore": "Rage and Malevolence."
+  },
+  "Creation (bow)": {
+    "location": "Hekawt",
+    "mmlore": [
+      "The start of eternity is the start",
+      "of life, in death they shall be",
+      "reborn as my eternity."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Creation",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "curse_of_corruption": 1,
+      "ice_aspect": 2,
+      "regeneration": 2,
+      "thunder_aspect": 10,
+      "unbreaking": 5,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 26.5
+    },
+    "lore": "The start of eternity is the start\nof life, in death they shall be\nreborn as my eternity."
   },
   "Crest of Celsia": {
     "location": "Celsian Isles",
@@ -7286,6 +7379,16 @@
       "projectile_damage_base": 17
     },
     "lore": "Droplets of water are drawn into\nthe chamber and rapidly frozen,\ncreating deadly ice bolts."
+  },
+  "Harbinger (bow)": {
+    "location": "Sanctum",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Harbinger",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Hawk's Talon": {
     "location": "King's Valley",
@@ -10015,6 +10118,21 @@
     },
     "lore": "Despite being made of steel,\nthe chain weaves between your hands."
   },
+  "Adamantium Skin (feet)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 5",
+    "name": "Adamantium Skin",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "fire_protection": 1,
+      "shielding": 1,
+      "unbreaking": 2,
+      "armor": 5.5
+    }
+  },
   "Adventurer's Boots": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -10150,6 +10268,22 @@
       "curse_of_vanishing": 1,
       "projectile_protection": 3,
       "armor": 6
+    }
+  },
+  "Capricious Chains (feet)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 4",
+    "name": "Capricious Chains",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "curse_of_vanishing": 1,
+      "unbreaking": 1,
+      "armor": 6.5,
+      "speed_percent": 15,
+      "knockback_resistance_flat": 1
     }
   },
   "Chains of Entropy": {
@@ -10360,6 +10494,16 @@
       "armor": 8
     },
     "lore": "If we cannot wield this Magic, no one\ncan. Chain them up. Forever."
+  },
+  "Cursed Capricious Chains (feet)": {
+    "location": "Lowtide Smuggler",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Cursed Capricious Chains",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Daredevil's Wake": {
     "location": "Horseman",
@@ -10912,6 +11056,16 @@
       "agility": 7
     },
     "lore": "Dark blades of metal feathers decorate\nthe otherwise unassuming boots. The\nformidable hawk's likeness lends itself\nwell here, a testament to its strength."
+  },
+  "Rusted Adamantium Skin (feet)": {
+    "location": "Lowtide Smuggler",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Rusted Adamantium Skin",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Sandals of Attunement": {
     "location": "Kaul",
@@ -11598,21 +11752,6 @@
     },
     "lore": "As his actions caught up to his legend,\nZanil came to repent for his crimes."
   },
-  "Adamantium Skin (feet)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 5",
-    "name": "Adamantium Skin",
-    "base_item": "Chainmail Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "fire_protection": 1,
-      "shielding": 1,
-      "unbreaking": 2,
-      "armor": 5.5
-    }
-  },
   "Adamantium Skin (chest)": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -11761,22 +11900,6 @@
       "speed_percent": -5,
       "agility": 5,
       "armor": 5
-    }
-  },
-  "Capricious Chains (feet)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 4",
-    "name": "Capricious Chains",
-    "base_item": "Chainmail Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "curse_of_vanishing": 1,
-      "unbreaking": 1,
-      "armor": 6.5,
-      "speed_percent": 15,
-      "knockback_resistance_flat": 1
     }
   },
   "Capricious Chains (chest)": {
@@ -11962,6 +12085,26 @@
     },
     "lore": "Ribs of an unknown monster that dwells\nat the bottom of the bloody ocean\nsurrounding the nightmare."
   },
+  "Crusadoth (chest)": {
+    "location": "Teal",
+    "mmlore": [
+      "For glory!",
+      "For conquest!",
+      "For the Emperor!"
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Crusadoth",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreakable": 1,
+      "agility": 6.5,
+      "attack_damage_percent": 38
+    },
+    "lore": "For glory!\nFor conquest!\nFor the Emperor!"
+  },
   "Curse of Alutana": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -11988,16 +12131,6 @@
       "armor": 3.5
     },
     "lore": "In the light of the Prophet, it\nall returns to nothing."
-  },
-  "Cursed Capricious Chains (feet)": {
-    "location": "Lowtide Smuggler",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Cursed Capricious Chains",
-    "base_item": "Chainmail Boots",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
   },
   "Cursed Capricious Chains (chest)": {
     "location": "Lowtide Smuggler",
@@ -12568,6 +12701,21 @@
     },
     "lore": "To watch the oasis bloom and wither and bloom again.\nThe patience of Ammi blesses the Ishnir dunes."
   },
+  "Paladin's Maille (chest)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 5",
+    "name": "Paladin's Maille",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "projectile_protection": 3,
+      "unbreaking": 1,
+      "armor": 5,
+      "max_health_flat": 2
+    }
+  },
   "Primordial Blaze-1": {
     "location": "Blue",
     "masterwork": "1",
@@ -12659,16 +12807,6 @@
       "agility": 10
     },
     "lore": "The scars of the Silver Conquest\nlasted eons, a searing brand\non Hycenea's heart."
-  },
-  "Rusted Adamantium Skin (feet)": {
-    "location": "Lowtide Smuggler",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Rusted Adamantium Skin",
-    "base_item": "Chainmail Boots",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
   },
   "Rusted Adamantium Skin (chest)": {
     "location": "Lowtide Smuggler",
@@ -15730,21 +15868,6 @@
     },
     "lore": "Even as the city crumbles into\nnothingness, those brave enough\nto stand against the unknown\nwill protect those who need it."
   },
-  "Paladin's Maille (chest)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 5",
-    "name": "Paladin's Maille",
-    "base_item": "Chainmail Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "projectile_protection": 3,
-      "unbreaking": 1,
-      "armor": 5,
-      "max_health_flat": 2
-    }
-  },
   "Paladin's Maille (legs)": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -16837,6 +16960,27 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
+  },
+  "Khrosmos (clock)": {
+    "location": "Teal",
+    "mmlore": [
+      "An hourglass belonging to an Isharist philosopher.",
+      "The sands flow through at a calming pace."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Khrosmos",
+    "base_item": "Clock",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "adaptability": 1,
+      "material": 1,
+      "regeneration": 3,
+      "tempo": 2,
+      "knockback_resistance_flat": 2
+    },
+    "lore": "An hourglass belonging to an Isharist philosopher.\nThe sands flow through at a calming pace."
   },
   "Motherboard Calibrator-2": {
     "location": "Brown",
@@ -18713,6 +18857,118 @@
       "regeneration": 1,
       "knockback_resistance_flat": 6,
       "speed_percent": 18
+    },
+    "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
+  },
+  "Truest North-1 (compass)": {
+    "location": "True North",
+    "masterwork": "1",
+    "mmlore": [
+      "The land for which you have always",
+      "longed yet never been still awaits.",
+      "Higher up and further in."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Truest North",
+    "base_item": "Compass",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "unbreakable": 1,
+      "gills": 1,
+      "worldly_protection": 1,
+      "feather_falling": 2,
+      "fire_protection": 4,
+      "multitool": 1,
+      "darksight": 1,
+      "regeneration": 1,
+      "speed_percent": 18,
+      "knockback_resistance_flat": 6
+    },
+    "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
+  },
+  "Truest North-2 (compass)": {
+    "location": "True North",
+    "masterwork": "2",
+    "mmlore": [
+      "The land for which you have always",
+      "longed yet never been still awaits.",
+      "Higher up and further in."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Truest North",
+    "base_item": "Compass",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "unbreakable": 1,
+      "gills": 1,
+      "worldly_protection": 1,
+      "feather_falling": 3,
+      "fire_protection": 4,
+      "multitool": 1,
+      "darksight": 1,
+      "regeneration": 1,
+      "speed_percent": 18,
+      "knockback_resistance_flat": 7
+    },
+    "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
+  },
+  "Truest North-3 (compass)": {
+    "location": "True North",
+    "masterwork": "3",
+    "mmlore": [
+      "The land for which you have always",
+      "longed yet never been still awaits.",
+      "Higher up and further in."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Truest North",
+    "base_item": "Compass",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "unbreakable": 1,
+      "gills": 1,
+      "worldly_protection": 1,
+      "feather_falling": 3,
+      "fire_protection": 5,
+      "multitool": 1,
+      "darksight": 1,
+      "regeneration": 1,
+      "speed_percent": 18,
+      "knockback_resistance_flat": 8
+    },
+    "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
+  },
+  "Truest North-4 (compass)": {
+    "location": "True North",
+    "masterwork": "4",
+    "mmlore": [
+      "The land for which you have always",
+      "longed yet never been still awaits.",
+      "Higher up and further in."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Truest North",
+    "base_item": "Compass",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "unbreakable": 1,
+      "gills": 1,
+      "worldly_protection": 1,
+      "feather_falling": 4,
+      "fire_protection": 6,
+      "multitool": 1,
+      "darksight": 1,
+      "regeneration": 1,
+      "speed_percent": 18,
+      "knockback_resistance_flat": 8
     },
     "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
   },
@@ -31257,6 +31513,30 @@
     },
     "lore": "All memory loses itself to parting ages.\nSlowly, their grip on the mind fades,\nand they become lost forever."
   },
+  "Tenebris (axe)": {
+    "location": "Teal",
+    "mmlore": [
+      "A darkness fell over the Empire. Yeigar",
+      "stood to defend his people, but it was",
+      "not his people they wanted. A line ended.",
+      "A deal was made."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Tenebris",
+    "base_item": "Golden Axe",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "aptitude": 1,
+      "magic_protection": 2,
+      "unbreaking": 35,
+      "spell_power_base": 55,
+      "attack_speed_base": 1,
+      "attack_damage_base": 15
+    },
+    "lore": "A darkness fell over the Empire. Yeigar\nstood to defend his people, but it was\nnot his people they wanted. A line ended.\nA deal was made."
+  },
   "Thunderclap Battleaxe": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -31654,6 +31934,28 @@
       "agility": 6.5
     }
   },
+  "Mallavis (feet)": {
+    "location": "Teal",
+    "mmlore": [
+      "Though nature may step with time",
+      "in tandem, man must be left in",
+      "the dust of history."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Mallavis",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "sustenance": 1,
+      "unbreaking": 6,
+      "magic_protection": 3,
+      "speed_percent": 15,
+      "agility": 6.5
+    },
+    "lore": "Though nature may step with time\nin tandem, man must be left in\nthe dust of history."
+  },
   "Mechanized Treads": {
     "location": "Forum",
     "mmlore": [
@@ -32050,6 +32352,28 @@
       "armor": 6,
       "knockback_resistance_flat": 2.5
     }
+  },
+  "Bercilak (chest)": {
+    "location": "Teal",
+    "mmlore": [
+      "Emblazoned with the form of Stag,",
+      "a mantle grown of ivy green."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Bercilak",
+    "base_item": "Golden Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "blast_protection": 2,
+      "projectile_protection": 2,
+      "shielding": 1,
+      "unbreaking": 8,
+      "armor": 6,
+      "thorns_flat": 2
+    },
+    "lore": "Emblazoned with the form of Stag,\na mantle grown of ivy green."
   },
   "Bladedancer's Plate": {
     "location": "Celsian Isles",
@@ -33085,6 +33409,28 @@
       "thorns_flat": 3,
       "armor": 6
     }
+  },
+  "Eraecus (head)": {
+    "location": "Teal",
+    "mmlore": [
+      "Sparks streak past the battle-forged bronze.",
+      "The eyes of a talented mage glow behind the visage."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Eraecus",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 2,
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 6,
+      "armor": 5,
+      "magic_damage_percent": 18
+    },
+    "lore": "Sparks streak past the battle-forged bronze.\nThe eyes of a talented mage glow behind the visage."
   },
   "Faded Jeweled Tiara": {
     "location": "King's Valley",
@@ -34593,6 +34939,28 @@
     },
     "lore": "These chains that bind, they cling deeper.\nDeeper yet, the metal seeks weakness.\nDeeper yet, the metal seeks control.\nAbsolute control."
   },
+  "Lyrata (legs)": {
+    "location": "Teal",
+    "mmlore": [
+      "Untarnished, the armor seems to exist",
+      "outside of history. You feel that",
+      "fate is on your side."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Lyrata",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "projectile_protection": 2,
+      "mending": 1,
+      "regeneration": 1,
+      "agility": 6,
+      "speed_percent": 15
+    },
+    "lore": "Untarnished, the armor seems to exist\noutside of history. You feel that\nfate is on your side."
+  },
   "Madman's Leggings": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -35518,6 +35886,24 @@
       "attack_damage_base": 2.5,
       "attack_speed_base": 1
     }
+  },
+  "Lantern of Truth (shovel)": {
+    "location": "Mist",
+    "mmlore": [
+      "A blue flame burns brilliantly",
+      "inside the lantern.",
+      "<gray><key:key.use/> to reveal hidden",
+      "<gray>walls and blocks within 8 blocks.",
+      "Cooldown: <#4ac2e5>2s"
+    ],
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Lantern of Truth",
+    "base_item": "Golden Shovel",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A blue flame burns brilliantly\ninside the lantern.\n to reveal hidden\nwalls and blocks within 8 blocks.\nCooldown: 2s"
   },
   "Pulsating Gold Shovel": {
     "location": "Valley Overworld",
@@ -38292,6 +38678,21 @@
     "stats": {},
     "lore": "Epic Crafting Material\nA leaf from the gateway tree,\nfree from the nihilic corruption.\nThose in the archives sought knowledge,\nand found it - a regrettable pursuit."
   },
+  "Earth Charm (green_dye)": {
+    "location": "Arena of Terth",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Earth Charm",
+    "base_item": "Green Dye",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "material": 1,
+      "knockback_resistance_flat": 3,
+      "thorns_flat": 2,
+      "armor": 1
+    }
+  },
   "Fake Rigged Chip": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -38583,6 +38984,16 @@
     "type": "Charm",
     "class_name": "Scout"
   },
+  "Infused Gunpowder (gunpowder)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Infused Gunpowder",
+    "base_item": "Gunpowder",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Lesser Insanity Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -38695,6 +39106,20 @@
     },
     "type": "Charm",
     "class_name": "Alchemist"
+  },
+  "Sulfuric Ash (gunpowder)": {
+    "mmlore": [
+      "<!italic><dark_gray>Smells faintly like",
+      "<!italic><dark_gray>rotten eggs.<!italic><dark_purple>",
+      "<!italic><light_purple>* Quest Item *<!italic><dark_purple>",
+      "#Q144I01"
+    ],
+    "name": "Sulfuric Ash",
+    "base_item": "Gunpowder",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Smells faintly like\nrotten eggs.\n* Quest Item *\n#Q144I01"
   },
   "Swift Insanity Charm": {
     "location": "Architect's Ring",
@@ -40196,6 +40621,30 @@
     },
     "lore": "The axe screams at every touch,\na rage, crazed by hunger."
   },
+  "Forest's Gambit (axe)": {
+    "location": "Threadwarped Skin",
+    "mmlore": [
+      "The Sons of the Forest's dig to Kaul was",
+      "never meant to succeed. Cazol had other plans.",
+      "He needed the Genius Loci furious. It was",
+      "time to wake the nightmare."
+    ],
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Forest's Gambit",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The Sons of the Forest's dig to Kaul was\nnever meant to succeed. Cazol had other plans.\nHe needed the Genius Loci furious. It was\ntime to wake the nightmare."
+  },
   "Frodian Saving Grace": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -40314,6 +40763,30 @@
       "attack_damage_base": 12.5
     }
   },
+  "King's Dolabra (axe)": {
+    "location": "Royal Armory",
+    "mmlore": [
+      "The longboats arrived upon fresh",
+      "shores. Soon, Johannes' people would",
+      "build a new home. A safe haven for",
+      "the Narsen people."
+    ],
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "King's Dolabra",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The longboats arrived upon fresh\nshores. Soon, Johannes' people would\nbuild a new home. A safe haven for\nthe Narsen people."
+  },
   "Logfeller": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -40343,6 +40816,52 @@
       "attack_damage_base": 12,
       "attack_speed_base": 0.9
     }
+  },
+  "Morphic Breaker (axe)": {
+    "location": "Transmogrifier",
+    "mmlore": [
+      "Bend and break."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Morphic Breaker",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 2,
+      "multitool": 1,
+      "efficiency": 4,
+      "speed_percent": 10,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "Bend and break."
+  },
+  "Queen's Dolabra (axe)": {
+    "location": "Royal Armory",
+    "mmlore": [
+      "<dark_gray>Isadora had done all she had wanted to do.",
+      "<dark_gray>Eleven years of peace. A strong family.",
+      "<dark_gray>An Empire worthy of Abeliar. It was time now",
+      "<dark_gray>to give control to her eldest son. He would",
+      "<dark_gray>carry on her legacy. Of this she was sure."
+    ],
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Queen's Dolabra",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "silk_touch": 1,
+      "unbreakable": 1,
+      "multitool": 2,
+      "efficiency": 2,
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.2
+    },
+    "lore": "Isadora had done all she had wanted to do.\nEleven years of peace. A strong family.\nAn Empire worthy of Abeliar. It was time now\nto give control to her eldest son. He would\ncarry on her legacy. Of this she was sure."
   },
   "Querter's Hatchet": {
     "location": "Isles Casino",
@@ -40871,6 +41390,21 @@
       "attack_speed_base": 0.9,
       "attack_damage_base": 18.5
     }
+  },
+  "Worldshaper's Staff (axe)": {
+    "location": "Isles Overworld",
+    "mmlore": [
+      "With creation comes necessary",
+      "destruction."
+    ],
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Worldshaper's Staff",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "With creation comes necessary\ndestruction."
   },
   "Wrath of the Mountains": {
     "location": "Isles Overworld",
@@ -46134,30 +46668,6 @@
     },
     "lore": "Hunger courses through the veins\nof this plantlike pick. Turn it\nto your benefit - or else."
   },
-  "Forest's Gambit (axe)": {
-    "location": "Threadwarped Skin",
-    "mmlore": [
-      "The Sons of the Forest's dig to Kaul was",
-      "never meant to succeed. Cazol had other plans.",
-      "He needed the Genius Loci furious. It was",
-      "time to wake the nightmare."
-    ],
-    "region": "Valley",
-    "tier": "Epic",
-    "name": "Forest's Gambit",
-    "base_item": "Iron Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "silk_touch": 1,
-      "unbreakable": 1,
-      "multitool": 2,
-      "efficiency": 2,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.2
-    },
-    "lore": "The Sons of the Forest's dig to Kaul was\nnever meant to succeed. Cazol had other plans.\nHe needed the Genius Loci furious. It was\ntime to wake the nightmare."
-  },
   "Forest's Gambit (pickaxe)": {
     "location": "Threadwarped Skin",
     "mmlore": [
@@ -46214,30 +46724,6 @@
       "attack_damage_base": 4,
       "attack_speed_base": 1.2
     }
-  },
-  "King's Dolabra (axe)": {
-    "location": "Royal Armory",
-    "mmlore": [
-      "The longboats arrived upon fresh",
-      "shores. Soon, Johannes' people would",
-      "build a new home. A safe haven for",
-      "the Narsen people."
-    ],
-    "region": "Valley",
-    "tier": "Epic",
-    "name": "King's Dolabra",
-    "base_item": "Iron Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "silk_touch": 1,
-      "unbreakable": 1,
-      "multitool": 2,
-      "efficiency": 2,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.2
-    },
-    "lore": "The longboats arrived upon fresh\nshores. Soon, Johannes' people would\nbuild a new home. A safe haven for\nthe Narsen people."
   },
   "King's Dolabra (pickaxe)": {
     "location": "Royal Armory",
@@ -46374,31 +46860,6 @@
       "attack_speed_base": 1.2
     },
     "lore": "Fashioned from a conduit, the metal\npulses with the same energy."
-  },
-  "Queen's Dolabra (axe)": {
-    "location": "Royal Armory",
-    "mmlore": [
-      "<dark_gray>Isadora had done all she had wanted to do.",
-      "<dark_gray>Eleven years of peace. A strong family.",
-      "<dark_gray>An Empire worthy of Abeliar. It was time now",
-      "<dark_gray>to give control to her eldest son. He would",
-      "<dark_gray>carry on her legacy. Of this she was sure."
-    ],
-    "region": "Valley",
-    "tier": "Epic",
-    "name": "Queen's Dolabra",
-    "base_item": "Iron Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "silk_touch": 1,
-      "unbreakable": 1,
-      "multitool": 2,
-      "efficiency": 2,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.2
-    },
-    "lore": "Isadora had done all she had wanted to do.\nEleven years of peace. A strong family.\nAn Empire worthy of Abeliar. It was time now\nto give control to her eldest son. He would\ncarry on her legacy. Of this she was sure."
   },
   "Queen's Dolabra (pickaxe)": {
     "location": "Royal Armory",
@@ -46571,21 +47032,6 @@
     },
     "lore": "From the highest peak, all\nelse appears miniscule."
   },
-  "Worldshaper's Staff (axe)": {
-    "location": "Isles Overworld",
-    "mmlore": [
-      "With creation comes necessary",
-      "destruction."
-    ],
-    "region": "Isles",
-    "tier": "Legacy",
-    "name": "Worldshaper's Staff",
-    "base_item": "Iron Axe",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "With creation comes necessary\ndestruction."
-  },
   "Worldshaper's Staff (pickaxe)": {
     "location": "Isles Overworld",
     "mmlore": [
@@ -46681,27 +47127,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "It forces one to ponder upon the\nthe nature of their own reflection.\n- Right click while holding to be transfered\nfrom the corrupted world to the normal world.\n- Left click while holding to reset the\ntemple to the way you found it.\n* Quest Item *\n#Q110I05"
-  },
-  "Morphic Breaker (axe)": {
-    "location": "Transmogrifier",
-    "mmlore": [
-      "Bend and break."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Morphic Breaker",
-    "base_item": "Iron Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 2,
-      "multitool": 1,
-      "efficiency": 4,
-      "speed_percent": 10,
-      "attack_damage_base": 4,
-      "attack_speed_base": 1.2
-    },
-    "lore": "Bend and break."
   },
   "Morphic Breaker (shovel)": {
     "location": "Transmogrifier",
@@ -47522,6 +47947,29 @@
       "attack_speed_base": 1.6
     },
     "lore": "There is only one thing left to\ndo. Claim what is hers."
+  },
+  "Busturus (iron_sword)": {
+    "location": "Teal",
+    "mmlore": [
+      "A sword used in ceremonial combat,",
+      "often performed to mark the passing",
+      "of royalty."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Busturus",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "smite": 2,
+      "unbreaking": 4,
+      "fire_aspect": 1,
+      "duelist": 2,
+      "attack_damage_base": 10,
+      "attack_speed_base": 1.6
+    },
+    "lore": "A sword used in ceremonial combat,\noften performed to mark the passing\nof royalty."
   },
   "Celsian Heraldic Blade": {
     "location": "Celsian Isles",
@@ -48747,25 +49195,6 @@
       "attack_damage_percent": 28
     },
     "lore": "Together, we are more."
-  },
-  "Potion Injector (black shulker box)": {
-    "location": "Verdant",
-    "mmlore": [
-      "Attuning to a potion allows for instant",
-      "drinking if the potion is present in",
-      "your inventory (non-hotbar) or stored",
-      "within the Potion Injector.",
-      "<gray>Operated using <key:key.attack/> while in main hand.",
-      "<gray><key:key.sneak> + <key:key.swapOffhand> to clear current potion."
-    ],
-    "region": "Valley",
-    "tier": "Epic",
-    "name": "Potion Injector",
-    "base_item": "Black Shulker Box",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Attuning to a potion allows for instant\ndrinking if the potion is present in\nyour inventory (non-hotbar) or stored\nwithin the Potion Injector.\nOperated using  while in main hand.\n +  to clear current potion."
   },
   "Potion Injector (iron_sword)": {
     "location": "Trickster",
@@ -50255,6 +50684,16 @@
     "stats": {},
     "lore": "The Black Mist rolls forth,\ncalling to unsuspecting heroes.\nCompletion of The End Chimes is required and\n4+ players are recommended for this Strike!\nThis Strike requires breaking spawners\nto progress to the final boss.\nPlayers: 1-6 (One life per player)\nGrants access to The Black Mist Strike."
   },
+  "Life Charm (lapis_lazuli)": {
+    "location": "Arena of Terth",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Life Charm",
+    "base_item": "Lapis Lazuli",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Means": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -50955,6 +51394,20 @@
       "armor": 1.5
     }
   },
+  "Cerulean Mage Robes (feet)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Cerulean Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 1,
+      "unbreaking": 3,
+      "agility": 3
+    }
+  },
   "Chillwind Treads": {
     "location": "Isles Overworld",
     "mmlore": [
@@ -51051,6 +51504,20 @@
       "agility": 6,
       "speed_percent": 5,
       "magic_damage_percent": 15
+    }
+  },
+  "Crimson Mage Robes (feet)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Crimson Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 1,
+      "unbreaking": 2,
+      "agility": 1.5
     }
   },
   "Crimstonian Boots": {
@@ -51476,6 +51943,16 @@
       "armor": 3
     }
   },
+  "Firestorm Mage Robes (feet)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Firestorm Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Fisherman's Waders": {
     "location": "King's Valley",
     "region": "Valley",
@@ -51760,6 +52237,22 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Lavender Mage Robes (feet)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 1",
+    "name": "Lavender Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 3,
+      "blast_protection": 1,
+      "magic_protection": 1,
+      "agility": 2.5,
+      "max_health_flat": 2
+    }
   },
   "Leafweave Sandals": {
     "location": "King's Valley",
@@ -52110,6 +52603,36 @@
     },
     "lore": "Through sea and snow the stars have guided us.\nIn the distance, I see a gleaming visage.\nThe moonlight glows familiar."
   },
+  "Offering's Robe (feet)": {
+    "location": "White",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Offering's Robe",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 1,
+      "projectile_protection": 2,
+      "armor": 2
+    }
+  },
+  "Olivian Mage Robes (feet)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 2",
+    "name": "Olivian Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 1,
+      "unbreaking": 3,
+      "agility": 5,
+      "speed_percent": 5
+    }
+  },
   "Oncoming Wave": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -52382,6 +52905,16 @@
     },
     "lore": "And in the end, I will reap you.\nYou will welcome it."
   },
+  "Red Dress (feet)": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Red Dress",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Replica Galoshes of the Waves and Winds": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Legend says a stubborn shoemaker",
@@ -52533,6 +53066,21 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Scout's Leathers (feet)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Scout's Leathers",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "projectile_protection": 2,
+      "unbreaking": 3,
+      "agility": 2.5,
+      "projectile_damage_percent": 7
+    }
   },
   "Shade's Boots": {
     "location": "Architect's Ring",
@@ -52921,6 +53469,18 @@
       "unbreaking": 7,
       "speed_percent": 5,
       "agility": 7
+    }
+  },
+  "Thaumaturge's Robes (feet)": {
+    "location": "Light Blue",
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Thaumaturge's Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "agility": 4.5
     }
   },
   "The Hollow Rings-1": {
@@ -53358,6 +53918,40 @@
     },
     "lore": "The cool shade of the Fen veiled\ngreat power. As the Silver shadow\nwaxed and waned over the Ring, the\nCoven forever remained."
   },
+  "Viridian Archmage Robes (feet)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 5",
+    "name": "Viridian Archmage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 5,
+      "blast_protection": 1,
+      "projectile_protection": 1,
+      "magic_protection": 1,
+      "agility": 6,
+      "magic_damage_percent": 7
+    }
+  },
+  "Viridian Mage Robes (feet)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Viridian Mage Robes",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "unbreaking": 3,
+      "blast_protection": 1,
+      "projectile_protection": 1,
+      "magic_protection": 1,
+      "magic_damage_percent": 5,
+      "agility": 2.5
+    }
+  },
   "Warlock Boots": {
     "location": "King's Valley",
     "region": "Valley",
@@ -53698,6 +54292,16 @@
       "armor": 1.5
     },
     "lore": "Arena of Terth"
+  },
+  "Binding Robes (chest)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Binding Robes",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Blasphemous Cataphract-3": {
     "location": "Zenith",
@@ -54141,20 +54745,6 @@
     },
     "lore": "Crafted from the cartilage of a Blackflame\ncorpse, infused by the cult presiding\nover their bones."
   },
-  "Cerulean Mage Robes (feet)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 4",
-    "name": "Cerulean Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "magic_protection": 1,
-      "unbreaking": 3,
-      "agility": 3
-    }
-  },
   "Cerulean Mage Robes (chest)": {
     "location": "King's Valley",
     "region": "Valley",
@@ -54300,20 +54890,6 @@
       "magic_damage_percent": 15
     }
   },
-  "Crimson Mage Robes (feet)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 2",
-    "name": "Crimson Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "magic_protection": 1,
-      "unbreaking": 2,
-      "agility": 1.5
-    }
-  },
   "Crimson Mage Robes (chest)": {
     "location": "King's Valley",
     "region": "Valley",
@@ -54372,6 +54948,29 @@
       "knockback_resistance_flat": 2,
       "agility": 4
     }
+  },
+  "Departure (chest)": {
+    "location": "Hekawt",
+    "mmlore": [
+      "I've seen their eyes peering through the Veil.",
+      "I don't know how to make them leave.",
+      "I barely know how to rip myself away either."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Departure",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adrenaline": 3,
+      "curse_of_corruption": 1,
+      "feather_falling": 3,
+      "first_strike": 3,
+      "unbreaking": 9,
+      "agility": 9
+    },
+    "lore": "I've seen their eyes peering through the Veil.\nI don't know how to make them leave.\nI barely know how to rip myself away either."
   },
   "Dichen Gambeson": {
     "location": "Architect's Ring",
@@ -54492,6 +55091,29 @@
       "armor": 3
     },
     "lore": "We are small, but our legend\nspreads like Ebola."
+  },
+  "Emperor's Robes (chest)": {
+    "location": "Teal",
+    "mmlore": [
+      "His first grasp of real power was",
+      "at a young age. Secrets, held by a",
+      "strange being from a distant land.",
+      "He took them for himself."
+    ],
+    "region": "Isles",
+    "tier": "Uncommon",
+    "name": "Emperor's Robes",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_protection": 1,
+      "mending": 1,
+      "agility": 3.5,
+      "armor": 3.5,
+      "magic_damage_percent": 10
+    },
+    "lore": "His first grasp of real power was\nat a young age. Secrets, held by a\nstrange being from a distant land.\nHe took them for himself."
   },
   "Failure of the Void": {
     "location": "Remorse",
@@ -54636,16 +55258,6 @@
       "projectile_damage_percent": 25
     },
     "lore": "The fertile soil of the Wolfswood owes gratitude\nto the blood spilled upon it."
-  },
-  "Firestorm Mage Robes (feet)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Legacy",
-    "name": "Firestorm Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
   },
   "Firestorm Mage Robes (chest)": {
     "location": "Celsian Isles",
@@ -55023,22 +55635,6 @@
     },
     "lore": "Embrace the might of the Jungle.\nThe Jungle shall provide. The\nJungle shall protect."
   },
-  "Lavender Mage Robes (feet)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 1",
-    "name": "Lavender Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "blast_protection": 1,
-      "magic_protection": 1,
-      "agility": 2.5,
-      "max_health_flat": 2
-    }
-  },
   "Lavender Mage Robes (chest)": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -55391,21 +55987,6 @@
     },
     "lore": "My nightingale sings me enchanting\nsongs. The ice crumbles, the earth quakes,\nstill she sings."
   },
-  "Offering's Robe (feet)": {
-    "location": "White",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Offering's Robe",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "fire_protection": 2,
-      "unbreaking": 1,
-      "projectile_protection": 2,
-      "armor": 2
-    }
-  },
   "Offering's Robe (chest)": {
     "location": "White",
     "region": "Valley",
@@ -55419,21 +56000,6 @@
       "unbreaking": 1,
       "projectile_protection": 2,
       "armor": 2
-    }
-  },
-  "Olivian Mage Robes (feet)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 2",
-    "name": "Olivian Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "magic_protection": 1,
-      "unbreaking": 3,
-      "agility": 5,
-      "speed_percent": 5
     }
   },
   "Olivian Mage Robes (chest)": {
@@ -55697,16 +56263,6 @@
     },
     "lore": "I am every thud of your fearful heart."
   },
-  "Red Dress (feet)": {
-    "location": "Valley Overworld",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Red Dress",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Red Dress (chest)": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -55876,6 +56432,27 @@
       "armor": 3
     }
   },
+  "Scholar's Robes (chest)": {
+    "location": "Forum",
+    "mmlore": [
+      "Armed with the study of the branch from",
+      "a fabled tree, they began to work on what",
+      "would be their greatest folly."
+    ],
+    "region": "Isles",
+    "tier": "Uncommon",
+    "name": "Scholar's Robes",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreaking": 8,
+      "max_health_flat": 2,
+      "armor": 4,
+      "agility": 4
+    },
+    "lore": "Armed with the study of the branch from\na fabled tree, they began to work on what\nwould be their greatest folly."
+  },
   "Scoundrel's Tunic": {
     "location": "King's Valley",
     "region": "Valley",
@@ -55885,21 +56462,6 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
-  },
-  "Scout's Leathers (feet)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Scout's Leathers",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "projectile_protection": 2,
-      "unbreaking": 3,
-      "agility": 2.5,
-      "projectile_damage_percent": 7
-    }
   },
   "Scout's Leathers (chest)": {
     "location": "King's Valley",
@@ -56471,6 +57033,22 @@
       "armor": 6.5
     }
   },
+  "Storm Mage's Robe (chest)": {
+    "location": "Celsian Isles",
+    "region": "Isles",
+    "tier": "Tier 4",
+    "name": "Storm Mage's Robe",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "unbreaking": 6,
+      "projectile_protection": 2,
+      "magic_protection": 2,
+      "agility": 5,
+      "speed_percent": 10
+    }
+  },
   "Sturdy Cloth Shirt": {
     "location": "King's Valley",
     "region": "Valley",
@@ -56569,18 +57147,6 @@
       "agility": 7
     }
   },
-  "Thaumaturge's Robes (feet)": {
-    "location": "Light Blue",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Thaumaturge's Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "agility": 4.5
-    }
-  },
   "Thaumaturge's Robes (chest)": {
     "location": "Light Blue",
     "region": "Valley",
@@ -56613,6 +57179,48 @@
       "attack_damage_percent": 25
     },
     "lore": "When the last of the Blackflame died, some\nfound peace tending the bones."
+  },
+  "The Godshell (chest)": {
+    "location": "Forum",
+    "mmlore": [
+      "Legends tell of a godly being that",
+      "forsook immortality in exchange for",
+      "a shell of unbreakable will."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "The Godshell",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "second_wind": 2,
+      "unbreaking": 12,
+      "melee_protection": 1,
+      "armor": 5,
+      "attack_damage_percent": 25
+    },
+    "lore": "Legends tell of a godly being that\nforsook immortality in exchange for\na shell of unbreakable will."
+  },
+  "Thornskin Robe (chest)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Thornskin Robe",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
+  "Tlaxan Priest Robe (chest)": {
+    "location": "Sanctum",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Tlaxan Priest Robe",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Torn Coat": {
     "name": "Torn Coat",
@@ -56843,23 +57451,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Viridian Archmage Robes (feet)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 5",
-    "name": "Viridian Archmage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 5,
-      "blast_protection": 1,
-      "projectile_protection": 1,
-      "magic_protection": 1,
-      "agility": 6,
-      "magic_damage_percent": 7
-    }
-  },
   "Viridian Archmage Robes (chest)": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -56875,23 +57466,6 @@
       "magic_protection": 1,
       "agility": 6,
       "magic_damage_percent": 7
-    }
-  },
-  "Viridian Mage Robes (feet)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 5",
-    "name": "Viridian Mage Robes",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "unbreaking": 3,
-      "blast_protection": 1,
-      "projectile_protection": 1,
-      "magic_protection": 1,
-      "magic_damage_percent": 5,
-      "agility": 2.5
     }
   },
   "Viridian Mage Robes (chest)": {
@@ -57038,6 +57612,21 @@
       "attack_speed_percent": 12
     },
     "lore": "Once the armor of a Warden of the Forest.\nNow, the elemental energy flowing through\nthe leather has given it a new, glorious\npurpose."
+  },
+  "Warlock Robe (chest)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Warlock Robe",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "fire_protection": 2,
+      "unbreaking": 4,
+      "magic_protection": 1,
+      "armor": 2
+    }
   },
   "Waterfall Chestplate": {
     "location": "Arena of Terth",
@@ -60254,16 +60843,6 @@
     },
     "lore": "Arena of Terth"
   },
-  "Binding Robes (chest)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Binding Robes",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Binding Robes (legs)": {
     "location": "King's Valley",
     "region": "Valley",
@@ -60647,29 +61226,6 @@
       "max_health_flat": 2
     },
     "lore": "A simple garment, attuned with the\nstrength of the Jungle itself."
-  },
-  "Emperor's Robes (chest)": {
-    "location": "Teal",
-    "mmlore": [
-      "His first grasp of real power was",
-      "at a young age. Secrets, held by a",
-      "strange being from a distant land.",
-      "He took them for himself."
-    ],
-    "region": "Isles",
-    "tier": "Uncommon",
-    "name": "Emperor's Robes",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "magic_protection": 1,
-      "mending": 1,
-      "agility": 3.5,
-      "armor": 3.5,
-      "magic_damage_percent": 10
-    },
-    "lore": "His first grasp of real power was\nat a young age. Secrets, held by a\nstrange being from a distant land.\nHe took them for himself."
   },
   "Emperor's Robes (legs)": {
     "location": "Teal",
@@ -62133,27 +62689,6 @@
     },
     "lore": "Mauta's blessing be upon the rolling dunes\nof Ishnir. From the mesa above to the canyons\nbelow, the warmth of the Goddess is felt\nby all her creatures."
   },
-  "Scholar's Robes (chest)": {
-    "location": "Forum",
-    "mmlore": [
-      "Armed with the study of the branch from",
-      "a fabled tree, they began to work on what",
-      "would be their greatest folly."
-    ],
-    "region": "Isles",
-    "tier": "Uncommon",
-    "name": "Scholar's Robes",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 8,
-      "max_health_flat": 2,
-      "armor": 4,
-      "agility": 4
-    },
-    "lore": "Armed with the study of the branch from\na fabled tree, they began to work on what\nwould be their greatest folly."
-  },
   "Scholar's Robes (legs)": {
     "location": "Forum",
     "mmlore": [
@@ -62808,22 +63343,6 @@
       "armor": 6.5
     }
   },
-  "Storm Mage's Robe (chest)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Tier 4",
-    "name": "Storm Mage's Robe",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreaking": 6,
-      "projectile_protection": 2,
-      "magic_protection": 2,
-      "agility": 5,
-      "speed_percent": 10
-    }
-  },
   "Storm Mage's Robe (legs)": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -63053,16 +63572,6 @@
     },
     "lore": "\"We now walk on dangerous ground. The\nstones below our feet are held together\nonly by Space. Beyond that is where\nlight goes to die. Nothingness containing\nonly more nothingness.\""
   },
-  "Thornskin Robe (chest)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Thornskin Robe",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Thornskin Robe (legs)": {
     "location": "King's Valley",
     "region": "Valley",
@@ -63113,16 +63622,6 @@
       "agility": 4
     },
     "lore": "The pants are thin and water\nresistant, made to support a\nfisherman's lifestyle."
-  },
-  "Tlaxan Priest Robe (chest)": {
-    "location": "Sanctum",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Tlaxan Priest Robe",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
   },
   "Tlaxan Priest Robe (legs)": {
     "location": "Sanctum",
@@ -63411,21 +63910,6 @@
       "agility": 2.5
     }
   },
-  "Warlock Robe (chest)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Tier 3",
-    "name": "Warlock Robe",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "fire_protection": 2,
-      "unbreaking": 4,
-      "magic_protection": 1,
-      "armor": 2
-    }
-  },
   "Warlock Robe (legs)": {
     "location": "King's Valley",
     "region": "Valley",
@@ -63596,6 +64080,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "A lever handle that has broken away from its\nhinges. Perhaps it could be useful somewhere.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-4 *"
+  },
+  "Smuggler's Key (lever)": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
+      "#Q05I01"
+    ],
+    "name": "Smuggler's Key",
+    "base_item": "Lever",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q05I01"
   },
   "Tape Measure": {
     "mmlore": [
@@ -65018,21 +65514,6 @@
     "stats": {},
     "lore": "Grants access to dungeon:\nPlagueroot Temple\nDifficulty : ☠☠☠☠☠"
   },
-  "Earth Charm (green dye)": {
-    "location": "Arena of Terth",
-    "region": "Valley",
-    "tier": "Uncommon",
-    "name": "Earth Charm",
-    "base_item": "Green Dye",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "material": 1,
-      "knockback_resistance_flat": 3,
-      "thorns_flat": 2,
-      "armor": 1
-    }
-  },
   "Earth Charm (magenta_dye)": {
     "location": "Arena of Terth",
     "region": "Valley",
@@ -65153,6 +65634,20 @@
       "fire_aspect": 1
     },
     "lore": "* Quest Item *\n#Q10I01"
+  },
+  "Cracked Crystal (magma_block)": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
+      "#Q29I01"
+    ],
+    "name": "Cracked Crystal",
+    "base_item": "Magma Block",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "fire_aspect": 1
+    },
+    "lore": "* Quest Item *\n#Q29I01"
   },
   "Distant Comet Charm": {
     "location": "Architect's Ring",
@@ -69093,6 +69588,17 @@
     "stats": {},
     "lore": "Guarantees a Flamecaller charm\nwhen transmogrifying Zenith Charms.\n while in main hand to activate."
   },
+  "Chewed Carpet (orange_carpet)": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>There are bites missing..."
+    ],
+    "name": "Chewed Carpet",
+    "base_item": "Orange Carpet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "There are bites missing..."
+  },
   "Exalted Orange Key": {
     "location": "Architect's Ring",
     "mmlore": [
@@ -69349,6 +69855,31 @@
       "material": 1
     },
     "lore": "The temptation to snuggle with\nit is nearly irresistable."
+  },
+  "Event Horizon (orange_glazed_terracotta)": {
+    "location": "Sanguine Halls",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Event Horizon",
+    "power": 1,
+    "base_item": "Orange Glazed Terracotta",
+    "release_status": "public",
+    "stats": {
+      "grasping_claws_projectile_speed_percent": {
+        "locked": false,
+        "value": -70
+      },
+      "grasping_claws_pull_radius_percent": {
+        "locked": false,
+        "value": 100
+      },
+      "grasping_claws_cleave_flat_damage_flat": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
   },
   "Ender Chest Expansion": {
     "mmlore": [
@@ -70216,19 +70747,6 @@
       "material": 1
     },
     "lore": "\"IMPORTANT, PLEASE READ CAREFULLY\nBY SIGNING THIS DOCUMENT YOU AGREE TO BE BOUND\nBY THE FOLLOWING TERMS AND CONDITIONS:\nThis contract will last for the duration of ....\""
-  },
-  "Thank You Note (book)": {
-    "location": "April's Fools",
-    "region": "Valley",
-    "tier": "Event",
-    "name": "Thank You Note",
-    "base_item": "Book",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "max_health_flat": 2,
-      "knockback_resistance_flat": 1
-    }
   },
   "Thank You Note (paper)": {
     "location": "Celsian Isles",
@@ -71327,6 +71845,18 @@
       "speed_flat": 0.01
     },
     "lore": "Cleanse the sea."
+  },
+  "Best TNT Ever (player_head)": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
+      "#Q102I01"
+    ],
+    "name": "Best TNT Ever",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q102I01"
   },
   "Blackflame Remains": {
     "location": "Remorse",
@@ -72813,6 +73343,18 @@
     },
     "lore": "You laugh at its defeat...\nit laughs back."
   },
+  "Hyper TNT (player_head)": {
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
+      "#Q21I03"
+    ],
+    "name": "Hyper TNT",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q21I03"
+  },
   "Indigo Tnemgarf": {
     "location": "Indigo",
     "mmlore": [
@@ -72980,6 +73522,62 @@
       "knockback_resistance_flat": 10
     },
     "lore": "Your eyes gleam with a cold determination.\nA faint light reveals the path forward."
+  },
+  "Lyson's Head (head)": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "A ghastly reminder of political consequences.",
+      "",
+      "<gray>When in Off Hand:",
+      "<blue>+3 Max Health",
+      "<blue>+24% Attack Damage",
+      "",
+      "<gray>When on Head:",
+      "<blue>+3 Max Health",
+      "<blue>+12% Projectile Damage"
+    ],
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Lyson's Head",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "melee_protection": 2,
+      "projectile_protection": 2,
+      "magic_protection": 2,
+      "max_health_flat": 3,
+      "projectile_damage_percent": 12
+    },
+    "lore": "A ghastly reminder of political consequences.\n\nWhen in Off Hand:\n+3 Max Health\n+24% Attack Damage\n\nWhen on Head:\n+3 Max Health\n+12% Projectile Damage"
+  },
+  "Lyson's Head (offhand)": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "A ghastly reminder of political consequences.",
+      "",
+      "<gray>When in Off Hand:",
+      "<blue>+3 Max Health",
+      "<blue>+24% Attack Damage",
+      "",
+      "<gray>When on Head:",
+      "<blue>+3 Max Health",
+      "<blue>+12% Projectile Damage"
+    ],
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Lyson's Head",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "melee_protection": 2,
+      "projectile_protection": 2,
+      "magic_protection": 2,
+      "max_health_flat": 3,
+      "attack_damage_percent": 24
+    },
+    "lore": "A ghastly reminder of political consequences.\n\nWhen in Off Hand:\n+3 Max Health\n+24% Attack Damage\n\nWhen on Head:\n+3 Max Health\n+12% Projectile Damage"
   },
   "Magenta Fragment": {
     "location": "Magenta",
@@ -77012,6 +77610,16 @@
     "base_item": "Potion",
     "release_status": "public",
     "type": "Consumable",
+    "stats": {}
+  },
+  "Elixir of the Serpent (potion)": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Elixir of the Serpent",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
     "stats": {}
   },
   "Empowered Azure Mixture": {
@@ -82254,20 +82862,6 @@
     },
     "lore": "\"This sparks death.\"\n- Karie Mondo from The Illustrated\nGuide to the life-changing Magic of Monsters"
   },
-  "Cracked Crystal (magma block)": {
-    "mmlore": [
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
-      "#Q29I01"
-    ],
-    "name": "Cracked Crystal",
-    "base_item": "Magma Block",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "fire_aspect": 1
-    },
-    "lore": "* Quest Item *\n#Q29I01"
-  },
   "Cracked Crystal (quartz)": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
@@ -83593,17 +84187,6 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
-  },
-  "Chewed Carpet (orange carpet)": {
-    "mmlore": [
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>There are bites missing..."
-    ],
-    "name": "Chewed Carpet",
-    "base_item": "Orange Carpet",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "There are bites missing..."
   },
   "Chewed Carpet (red_carpet)": {
     "mmlore": [
@@ -85588,34 +86171,6 @@
     },
     "lore": "The merchants of Ishnir carry this\ntrinket for good luck."
   },
-  "Truest North-1 (compass)": {
-    "location": "True North",
-    "masterwork": "1",
-    "mmlore": [
-      "The land for which you have always",
-      "longed yet never been still awaits.",
-      "Higher up and further in."
-    ],
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Truest North",
-    "base_item": "Compass",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 2,
-      "fire_protection": 4,
-      "multitool": 1,
-      "darksight": 1,
-      "regeneration": 1,
-      "speed_percent": 18,
-      "knockback_resistance_flat": 6
-    },
-    "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
-  },
   "Truest North-1 (shears)": {
     "location": "True North",
     "masterwork": "1",
@@ -85641,34 +86196,6 @@
       "regeneration": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 6
-    },
-    "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
-  },
-  "Truest North-2 (compass)": {
-    "location": "True North",
-    "masterwork": "2",
-    "mmlore": [
-      "The land for which you have always",
-      "longed yet never been still awaits.",
-      "Higher up and further in."
-    ],
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Truest North",
-    "base_item": "Compass",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 3,
-      "fire_protection": 4,
-      "multitool": 1,
-      "darksight": 1,
-      "regeneration": 1,
-      "speed_percent": 18,
-      "knockback_resistance_flat": 7
     },
     "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
   },
@@ -85700,34 +86227,6 @@
     },
     "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
   },
-  "Truest North-3 (compass)": {
-    "location": "True North",
-    "masterwork": "3",
-    "mmlore": [
-      "The land for which you have always",
-      "longed yet never been still awaits.",
-      "Higher up and further in."
-    ],
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Truest North",
-    "base_item": "Compass",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 3,
-      "fire_protection": 5,
-      "multitool": 1,
-      "darksight": 1,
-      "regeneration": 1,
-      "speed_percent": 18,
-      "knockback_resistance_flat": 8
-    },
-    "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
-  },
   "Truest North-3 (shears)": {
     "location": "True North",
     "masterwork": "3",
@@ -85750,34 +86249,6 @@
       "fire_protection": 5,
       "darksight": 1,
       "multitool": 1,
-      "regeneration": 1,
-      "speed_percent": 18,
-      "knockback_resistance_flat": 8
-    },
-    "lore": "The land for which you have always\nlonged yet never been still awaits.\nHigher up and further in."
-  },
-  "Truest North-4 (compass)": {
-    "location": "True North",
-    "masterwork": "4",
-    "mmlore": [
-      "The land for which you have always",
-      "longed yet never been still awaits.",
-      "Higher up and further in."
-    ],
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Truest North",
-    "base_item": "Compass",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 4,
-      "fire_protection": 6,
-      "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
@@ -85850,6 +86321,54 @@
       "knockback_resistance_flat": 2
     }
   },
+  "Andromeda Fragment (mainhand)": {
+    "location": "Mythic Reliquary",
+    "mmlore": [
+      "The stars themselves gaze deep",
+      "upon thy mortal whims. Dare to",
+      "gaze back and the mind breaks."
+    ],
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Andromeda Fragment",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "mending": 1,
+      "unbreaking": 3,
+      "ice_aspect": 3,
+      "blast_protection": 3,
+      "magic_protection": 3,
+      "knockback_resistance_flat": 3,
+      "armor": 3.5
+    },
+    "lore": "The stars themselves gaze deep\nupon thy mortal whims. Dare to\ngaze back and the mind breaks."
+  },
+  "Andromeda Fragment (offhand)": {
+    "location": "Mythic Reliquary",
+    "mmlore": [
+      "The stars themselves gaze deep",
+      "upon thy mortal whims. Dare to",
+      "gaze back and the mind breaks."
+    ],
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Andromeda Fragment",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "mending": 1,
+      "unbreaking": 3,
+      "ice_aspect": 3,
+      "blast_protection": 3,
+      "magic_protection": 3,
+      "armor": 6,
+      "knockback_resistance_flat": 3
+    },
+    "lore": "The stars themselves gaze deep\nupon thy mortal whims. Dare to\ngaze back and the mind breaks."
+  },
   "Aramil's Shield Wall": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -85889,6 +86408,54 @@
       "spell_power_base": 35
     },
     "lore": "St0mp them down with your magic."
+  },
+  "Aurora Mirror (mainhand)": {
+    "location": "Light Gray",
+    "mmlore": [
+      "Gaze into the depths of the",
+      "mirror and you will see only",
+      "your darkest desires."
+    ],
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Aurora Mirror",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "mending": 1,
+      "unbreaking": 3,
+      "ice_aspect": 3,
+      "blast_protection": 3,
+      "magic_protection": 3,
+      "knockback_resistance_flat": 3,
+      "armor": 3.5
+    },
+    "lore": "Gaze into the depths of the\nmirror and you will see only\nyour darkest desires."
+  },
+  "Aurora Mirror (offhand)": {
+    "location": "Light Gray",
+    "mmlore": [
+      "Gaze into the depths of the",
+      "mirror and you will see only",
+      "your darkest desires."
+    ],
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Aurora Mirror",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "mending": 1,
+      "unbreaking": 3,
+      "ice_aspect": 3,
+      "blast_protection": 3,
+      "magic_protection": 3,
+      "armor": 6,
+      "knockback_resistance_flat": 3
+    },
+    "lore": "Gaze into the depths of the\nmirror and you will see only\nyour darkest desires."
   },
   "Bastion of Isharist": {
     "location": "Teal",
@@ -86488,6 +87055,92 @@
       "knockback_resistance_flat": 4
     },
     "lore": "Silver Knight Nessi, the Forgetender, engineered\nthe foundation of the Locus Tower of Phyrrys.\nWhen Inversion would wash over the city, her\nwork would allow the city to still function for\nthose who must remain behind."
+  },
+  "Friend (mainhand)": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "The rael epic was the friend's",
+      "we made along the way.."
+    ],
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Friend",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "curse_of_crippling": 1,
+      "curse_of_shrapnel": 100,
+      "regeneration": 3,
+      "speed_percent": -9.978,
+      "attack_damage_percent": -30,
+      "projectile_damage_percent": 1.5
+    },
+    "lore": "The rael epic was the friend's\nwe made along the way.."
+  },
+  "Friend (offhand)": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "The rael epic was the friend's",
+      "we made along the way.."
+    ],
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Friend",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_crippling": 1,
+      "curse_of_shrapnel": 100,
+      "regeneration": 3,
+      "armor_percent": -10,
+      "agility_percent": -8,
+      "speed_flat": 0.003,
+      "max_health_flat": 1
+    },
+    "lore": "The rael epic was the friend's\nwe made along the way.."
+  },
+  "Frodian Doors (offhand)": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "A door, how does that help?",
+      "Well, they're way too strong",
+      "to be ordinary doors."
+    ],
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Frodian Doors",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "unbreaking": 3,
+      "regeneration": 2,
+      "max_health_flat": 5
+    },
+    "lore": "A door, how does that help?\nWell, they're way too strong\nto be ordinary doors."
+  },
+  "Frodian Doors (mainhand)": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "A door, how does that help?",
+      "Well, they're way too strong",
+      "to be ordinary doors."
+    ],
+    "region": "Isles",
+    "tier": "Patron",
+    "name": "Frodian Doors",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "unbreaking": 3,
+      "regeneration": 2,
+      "speed_percent": -100,
+      "knockback_resistance_flat": 10
+    },
+    "lore": "A door, how does that help?\nWell, they're way too strong\nto be ordinary doors."
   },
   "Guardian Angel": {
     "location": "Carnival",
@@ -87296,6 +87949,29 @@
       "attack_damage_percent": 10,
       "attack_speed_percent": 10
     }
+  },
+  "Ratarash (shield)": {
+    "location": "Teal",
+    "mmlore": [
+      "Tarnished by a legion of blows, each",
+      "one informing the warrior's battles.",
+      "The strikes not blocked however, informing",
+      "the crowd."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Ratarash",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "inure": 1,
+      "stamina": 1,
+      "steadfast": 1,
+      "unbreaking": 3,
+      "armor": 3
+    },
+    "lore": "Tarnished by a legion of blows, each\none informing the warrior's battles.\nThe strikes not blocked however, informing\nthe crowd."
   },
   "Remnants of Isharist-2": {
     "location": "SKT",
@@ -88196,6 +88872,44 @@
     },
     "lore": "The legends are true.\nThe White Cliff stands as proof."
   },
+  "Tiffy's Shield (offhand)": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "<dark_gray>Passed down through Tiffy's family,",
+      "<dark_gray>but something seems familiar about it."
+    ],
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Tiffy's Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "unbreaking": 2,
+      "armor": 4,
+      "attack_speed_percent": 10
+    },
+    "lore": "Passed down through Tiffy's family,\nbut something seems familiar about it."
+  },
+  "Tiffy's Shield (mainhand)": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "<dark_gray>Passed down through Tiffy's family,",
+      "<dark_gray>but something seems familiar about it."
+    ],
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Tiffy's Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "unbreaking": 2,
+      "speed_percent": 15,
+      "armor": 2
+    },
+    "lore": "Passed down through Tiffy's family,\nbut something seems familiar about it."
+  },
   "Tlaxan Bulwark": {
     "location": "Magenta",
     "mmlore": [
@@ -88541,6 +89255,54 @@
       "agility": 2
     },
     "lore": "The wood of the Wispleaf Tree offers\na familiar protection from the cold.\nA wreath adorns the shield, frosted with\nthe sharp ice of winter."
+  },
+  "rorriM aroruA (mainhand)": {
+    "location": "Light Gray",
+    "mmlore": [
+      "eht fo shtped eht otni ezaG",
+      "ylno ees lliw uoy dna rorrim",
+      ".serised tsekrad ruoy"
+    ],
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "rorriM aroruA",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "mending": 1,
+      "unbreaking": 3,
+      "ice_aspect": 3,
+      "blast_protection": 3,
+      "magic_protection": 3,
+      "knockback_resistance_flat": 3,
+      "armor": 3.5
+    },
+    "lore": "eht fo shtped eht otni ezaG\nylno ees lliw uoy dna rorrim\n.serised tsekrad ruoy"
+  },
+  "rorriM aroruA (offhand)": {
+    "location": "Light Gray",
+    "mmlore": [
+      "eht fo shtped eht otni ezaG",
+      "ylno ees lliw uoy dna rorrim",
+      ".serised tsekrad ruoy"
+    ],
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "rorriM aroruA",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "mending": 1,
+      "unbreaking": 3,
+      "ice_aspect": 3,
+      "blast_protection": 3,
+      "magic_protection": 3,
+      "armor": 6,
+      "knockback_resistance_flat": 3
+    },
+    "lore": "eht fo shtped eht otni ezaG\nylno ees lliw uoy dna rorrim\n.serised tsekrad ruoy"
   },
   "Indomitable Prism": {
     "location": "Hunts",
@@ -90195,24 +90957,6 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
-  "Lantern of Truth (shovel)": {
-    "location": "Mist",
-    "mmlore": [
-      "A blue flame burns brilliantly",
-      "inside the lantern.",
-      "<gray><key:key.use/> to reveal hidden",
-      "<gray>walls and blocks within 8 blocks.",
-      "Cooldown: <#4ac2e5>2s"
-    ],
-    "region": "Isles",
-    "tier": "Key",
-    "name": "Lantern of Truth",
-    "base_item": "Golden Shovel",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A blue flame burns brilliantly\ninside the lantern.\n to reveal hidden\nwalls and blocks within 8 blocks.\nCooldown: 2s"
-  },
   "Lantern of Truth (soul_lantern)": {
     "location": "Marina Noir",
     "mmlore": [
@@ -91296,16 +92040,6 @@
     "base_item": "Splash Potion",
     "release_status": "public",
     "type": "Consumable",
-    "stats": {}
-  },
-  "Elixir of the Serpent (potion)": {
-    "location": "King's Valley",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Elixir of the Serpent",
-    "base_item": "Potion",
-    "release_status": "public",
-    "type": "Misc",
     "stats": {}
   },
   "Elixir of the Serpent (splash_potion)": {
@@ -94596,20 +95330,6 @@
     },
     "lore": "* Quest Item *\n#Q04I06\nThe Veil is a place beyond reality.\nTime bends, beings shift, and life\nloses its purpose."
   },
-  "Unholy Caster (blaze rod)": {
-    "mmlore": [
-      "Darkness seeps through the metal",
-      "and plants its roots.",
-      "<light_purple>* Quest Item *",
-      "#Q103iI02"
-    ],
-    "name": "Unholy Caster",
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Darkness seeps through the metal\nand plants its roots.\n* Quest Item *\n#Q103iI02"
-  },
   "Veil-Touched Staff": {
     "location": "King's Valley",
     "mmlore": [
@@ -97458,6 +98178,29 @@
       "attack_speed_base": 1.2
     }
   },
+  "Vesuva (pickaxe)": {
+    "location": "Teal",
+    "mmlore": [
+      "Strike down with the fury of",
+      "the slumbering volcano."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Vesuva",
+    "base_item": "Stone Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 3,
+      "eruption": 5,
+      "fire_aspect": 2,
+      "inferno": 2,
+      "unbreaking": 10,
+      "attack_damage_base": 12,
+      "attack_speed_base": 1
+    },
+    "lore": "Strike down with the fury of\nthe slumbering volcano."
+  },
   "War-ready Pickaxe": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -98276,6 +99019,27 @@
       "attack_damage_base": 5.5,
       "attack_speed_base": 1.6
     }
+  },
+  "Decretum (stone_sword)": {
+    "location": "Teal",
+    "mmlore": [
+      "A shard of obsidian, stained with the",
+      "blood of a choice yet to be made."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Decretum",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "regicide": 1,
+      "unbreakable": 1,
+      "armor": 7,
+      "max_health_flat": -2,
+      "attack_damage_percent": 38
+    },
+    "lore": "A shard of obsidian, stained with the\nblood of a choice yet to be made."
   },
   "Destroyed Ancient Blade": {
     "location": "King's Valley",
@@ -101112,16 +101876,6 @@
     "type": "Charm",
     "class_name": "Cleric"
   },
-  "Infused Gunpowder (gunpowder)": {
-    "location": "Celsian Isles",
-    "region": "Isles",
-    "tier": "Legacy",
-    "name": "Infused Gunpowder",
-    "base_item": "Gunpowder",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Infused Gunpowder (sugar)": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
@@ -101259,20 +102013,6 @@
       "material": 1
     },
     "lore": "Smaller than a block of sugar,\nyet just as sweet."
-  },
-  "Sulfuric Ash (gunpowder)": {
-    "mmlore": [
-      "<!italic><dark_gray>Smells faintly like",
-      "<!italic><dark_gray>rotten eggs.<!italic><dark_purple>",
-      "<!italic><light_purple>* Quest Item *<!italic><dark_purple>",
-      "#Q144I01"
-    ],
-    "name": "Sulfuric Ash",
-    "base_item": "Gunpowder",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Smells faintly like\nrotten eggs.\n* Quest Item *\n#Q144I01"
   },
   "Sulfuric Ash (sugar)": {
     "mmlore": [
@@ -102568,18 +103308,6 @@
       "projectile_damage_percent": 5
     }
   },
-  "Best TNT Ever (player head)": {
-    "mmlore": [
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
-      "#Q102I01"
-    ],
-    "name": "Best TNT Ever",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q102I01"
-  },
   "Best TNT Ever (tnt)": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -103726,6 +104454,31 @@
     "stats": {},
     "lore": "In loving memory..."
   },
+  "Lightbringer (trident)": {
+    "location": "Azacor",
+    "mmlore": [
+      "Once a trident of the Slayers,",
+      "but with Azacor fallen, it has",
+      "become something more."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Lightbringer",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "smite": 3,
+      "unbreaking": 2,
+      "knockback": 1,
+      "projectile_damage_base": 11,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 0.8,
+      "attack_speed_base": 1,
+      "attack_damage_base": 7
+    },
+    "lore": "Once a trident of the Slayers,\nbut with Azacor fallen, it has\nbecome something more."
+  },
   "Myrahg's Pestilence": {
     "location": "Magenta",
     "mmlore": [
@@ -104561,18 +105314,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "A key that would be useful in Mistport's market,\nwere there anything left of it...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-2 *"
-  },
-  "Smuggler's Key (lever)": {
-    "mmlore": [
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
-      "#Q05I01"
-    ],
-    "name": "Smuggler's Key",
-    "base_item": "Lever",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q05I01"
   },
   "Smuggler's Key (tripwire_hook)": {
     "location": "King's Valley",
@@ -106835,6 +107576,32 @@
       "attack_speed_base": 0.8
     }
   },
+  "Entcrusher (axe)": {
+    "location": "Forum",
+    "mmlore": [
+      "A mighty axe, swung to chop a single",
+      "branch from the Tree of Life."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Entcrusher",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "unbreaking": 2,
+      "mending": 1,
+      "two_handed": 1,
+      "efficiency": 5,
+      "quake": 4,
+      "regeneration": 2,
+      "knockback_resistance_flat": 6,
+      "attack_speed_base": 0.8,
+      "armor": 2,
+      "attack_damage_base": 26
+    },
+    "lore": "A mighty axe, swung to chop a single\nbranch from the Tree of Life."
+  },
   "Falling Comet": {
     "location": "King's Valley",
     "region": "Valley",
@@ -109000,29 +109767,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q24I03"
   },
-  "Aleph (bow)": {
-    "location": "Teal",
-    "mmlore": [
-      "Darts of light are forged in the",
-      "gears of the mechanism."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Aleph",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "fire_aspect": 1,
-      "infinity": 1,
-      "sniper": 3,
-      "unbreaking": 10,
-      "speed_percent": 16,
-      "projectile_speed_base": 5,
-      "projectile_damage_base": 17
-    },
-    "lore": "Darts of light are forged in the\ngears of the mechanism."
-  },
   "Aleph (written_book)": {
     "name": "Aleph",
     "base_item": "Written Book",
@@ -109212,28 +109956,6 @@
     "type": "Written Book",
     "stats": {}
   },
-  "Bercilak (chest)": {
-    "location": "Teal",
-    "mmlore": [
-      "Emblazoned with the form of Stag,",
-      "a mantle grown of ivy green."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Bercilak",
-    "base_item": "Golden Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "blast_protection": 2,
-      "projectile_protection": 2,
-      "shielding": 1,
-      "unbreaking": 8,
-      "armor": 6,
-      "thorns_flat": 2
-    },
-    "lore": "Emblazoned with the form of Stag,\na mantle grown of ivy green."
-  },
   "Bercilak (written_book)": {
     "name": "Bercilak",
     "base_item": "Written Book",
@@ -109274,29 +109996,6 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
-  },
-  "Busturus (iron sword)": {
-    "location": "Teal",
-    "mmlore": [
-      "A sword used in ceremonial combat,",
-      "often performed to mark the passing",
-      "of royalty."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Busturus",
-    "base_item": "Iron Sword",
-    "release_status": "public",
-    "type": "Mainhand Sword",
-    "stats": {
-      "smite": 2,
-      "unbreaking": 4,
-      "fire_aspect": 1,
-      "duelist": 2,
-      "attack_damage_base": 10,
-      "attack_speed_base": 1.6
-    },
-    "lore": "A sword used in ceremonial combat,\noften performed to mark the passing\nof royalty."
   },
   "Busturus (written_book)": {
     "name": "Busturus",
@@ -109510,30 +110209,6 @@
     "type": "Written Book",
     "stats": {}
   },
-  "Creation (bow)": {
-    "location": "Hekawt",
-    "mmlore": [
-      "The start of eternity is the start",
-      "of life, in death they shall be",
-      "reborn as my eternity."
-    ],
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Creation",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Bow",
-    "stats": {
-      "curse_of_corruption": 1,
-      "ice_aspect": 2,
-      "regeneration": 2,
-      "thunder_aspect": 10,
-      "unbreaking": 5,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 26.5
-    },
-    "lore": "The start of eternity is the start\nof life, in death they shall be\nreborn as my eternity."
-  },
   "Creation (written_book)": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>A nursery rhyme told to children"
@@ -109544,26 +110219,6 @@
     "type": "Written Book",
     "stats": {},
     "lore": "A nursery rhyme told to children"
-  },
-  "Crusadoth (chest)": {
-    "location": "Teal",
-    "mmlore": [
-      "For glory!",
-      "For conquest!",
-      "For the Emperor!"
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Crusadoth",
-    "base_item": "Chainmail Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "unbreakable": 1,
-      "agility": 6.5,
-      "attack_damage_percent": 38
-    },
-    "lore": "For glory!\nFor conquest!\nFor the Emperor!"
   },
   "Crusadoth (written_book)": {
     "name": "Crusadoth",
@@ -109604,27 +110259,6 @@
     "stats": {},
     "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I08"
   },
-  "Decretum (stone sword)": {
-    "location": "Teal",
-    "mmlore": [
-      "A shard of obsidian, stained with the",
-      "blood of a choice yet to be made."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Decretum",
-    "base_item": "Stone Sword",
-    "release_status": "public",
-    "type": "Offhand Sword",
-    "stats": {
-      "regicide": 1,
-      "unbreakable": 1,
-      "armor": 7,
-      "max_health_flat": -2,
-      "attack_damage_percent": 38
-    },
-    "lore": "A shard of obsidian, stained with the\nblood of a choice yet to be made."
-  },
   "Decretum (written_book)": {
     "name": "Decretum",
     "base_item": "Written Book",
@@ -109638,29 +110272,6 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
-  },
-  "Departure (chest)": {
-    "location": "Hekawt",
-    "mmlore": [
-      "I've seen their eyes peering through the Veil.",
-      "I don't know how to make them leave.",
-      "I barely know how to rip myself away either."
-    ],
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Departure",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "adrenaline": 3,
-      "curse_of_corruption": 1,
-      "feather_falling": 3,
-      "first_strike": 3,
-      "unbreaking": 9,
-      "agility": 9
-    },
-    "lore": "I've seen their eyes peering through the Veil.\nI don't know how to make them leave.\nI barely know how to rip myself away either."
   },
   "Departure (written_book)": {
     "base_item": "Written Book",
@@ -109802,54 +110413,6 @@
     "type": "Written Book",
     "stats": {}
   },
-  "Entcrusher (axe)": {
-    "location": "Forum",
-    "mmlore": [
-      "A mighty axe, swung to chop a single",
-      "branch from the Tree of Life."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Entcrusher",
-    "base_item": "Wooden Axe",
-    "release_status": "public",
-    "type": "Axe",
-    "stats": {
-      "unbreaking": 2,
-      "mending": 1,
-      "two_handed": 1,
-      "efficiency": 5,
-      "quake": 4,
-      "regeneration": 2,
-      "knockback_resistance_flat": 6,
-      "attack_speed_base": 0.8,
-      "armor": 2,
-      "attack_damage_base": 26
-    },
-    "lore": "A mighty axe, swung to chop a single\nbranch from the Tree of Life."
-  },
-  "Eraecus (head)": {
-    "location": "Teal",
-    "mmlore": [
-      "Sparks streak past the battle-forged bronze.",
-      "The eyes of a talented mage glow behind the visage."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Eraecus",
-    "base_item": "Golden Helmet",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "blast_protection": 2,
-      "magic_protection": 2,
-      "projectile_protection": 2,
-      "unbreaking": 6,
-      "armor": 5,
-      "magic_damage_percent": 18
-    },
-    "lore": "Sparks streak past the battle-forged bronze.\nThe eyes of a talented mage glow behind the visage."
-  },
   "Eraecus (written_book)": {
     "name": "Eraecus",
     "base_item": "Written Book",
@@ -109875,31 +110438,6 @@
     "type": "Written Book",
     "stats": {},
     "lore": "* Quest Item *\n#Q45I02"
-  },
-  "Event Horizon (orange glazed terracotta)": {
-    "location": "Sanguine Halls",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Event Horizon",
-    "power": 1,
-    "base_item": "Orange Glazed Terracotta",
-    "release_status": "public",
-    "stats": {
-      "grasping_claws_projectile_speed_percent": {
-        "locked": false,
-        "value": -70
-      },
-      "grasping_claws_pull_radius_percent": {
-        "locked": false,
-        "value": 100
-      },
-      "grasping_claws_cleave_flat_damage_flat": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Warlock"
   },
   "Event Horizon (written_book)": {
     "mmlore": [
@@ -109983,16 +110521,6 @@
     "stats": {},
     "lore": "Tutorial Book"
   },
-  "Harbinger (bow)": {
-    "location": "Sanctum",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Harbinger",
-    "base_item": "Bow",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
   "Harbinger (written_book)": {
     "name": "Harbinger",
     "base_item": "Written Book",
@@ -110024,18 +110552,6 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
-  },
-  "Hyper TNT (player head)": {
-    "mmlore": [
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
-      "#Q21I03"
-    ],
-    "name": "Hyper TNT",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "* Quest Item *\n#Q21I03"
   },
   "I Will Do What I Must": {
     "location": "Architect's Ring",
@@ -110113,27 +110629,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q03I01"
   },
-  "Khrosmos (clock)": {
-    "location": "Teal",
-    "mmlore": [
-      "An hourglass belonging to an Isharist philosopher.",
-      "The sands flow through at a calming pace."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Khrosmos",
-    "base_item": "Clock",
-    "release_status": "public",
-    "type": "Mainhand",
-    "stats": {
-      "adaptability": 1,
-      "material": 1,
-      "regeneration": 3,
-      "tempo": 2,
-      "knockback_resistance_flat": 2
-    },
-    "lore": "An hourglass belonging to an Isharist philosopher.\nThe sands flow through at a calming pace."
-  },
   "Khrosmos (written_book)": {
     "name": "Khrosmos",
     "base_item": "Written Book",
@@ -110188,31 +110683,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q24I02"
   },
-  "Lightbringer (trident)": {
-    "location": "Azacor",
-    "mmlore": [
-      "Once a trident of the Slayers,",
-      "but with Azacor fallen, it has",
-      "become something more."
-    ],
-    "region": "Valley",
-    "tier": "Artifact",
-    "name": "Lightbringer",
-    "base_item": "Trident",
-    "release_status": "public",
-    "type": "Trident",
-    "stats": {
-      "smite": 3,
-      "unbreaking": 2,
-      "knockback": 1,
-      "projectile_damage_base": 11,
-      "projectile_speed_base": 0.8,
-      "throw_rate_base": 0.8,
-      "attack_speed_base": 1,
-      "attack_damage_base": 7
-    },
-    "lore": "Once a trident of the Slayers,\nbut with Azacor fallen, it has\nbecome something more."
-  },
   "Lily of the Valley": {
     "name": "Lily of the Valley",
     "base_item": "Written Book",
@@ -110231,28 +110701,6 @@
     "type": "Written Book",
     "stats": {},
     "lore": "* Quest Item *\n#Q32I02"
-  },
-  "Lyrata (legs)": {
-    "location": "Teal",
-    "mmlore": [
-      "Untarnished, the armor seems to exist",
-      "outside of history. You feel that",
-      "fate is on your side."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Lyrata",
-    "base_item": "Golden Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "projectile_protection": 2,
-      "mending": 1,
-      "regeneration": 1,
-      "agility": 6,
-      "speed_percent": 15
-    },
-    "lore": "Untarnished, the armor seems to exist\noutside of history. You feel that\nfate is on your side."
   },
   "Lyrata (written_book)": {
     "name": "Lyrata",
@@ -110273,28 +110721,6 @@
     "type": "Written Book",
     "stats": {},
     "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I04"
-  },
-  "Mallavis (feet)": {
-    "location": "Teal",
-    "mmlore": [
-      "Though nature may step with time",
-      "in tandem, man must be left in",
-      "the dust of history."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Mallavis",
-    "base_item": "Golden Boots",
-    "release_status": "public",
-    "type": "Boots",
-    "stats": {
-      "sustenance": 1,
-      "unbreaking": 6,
-      "magic_protection": 3,
-      "speed_percent": 15,
-      "agility": 6.5
-    },
-    "lore": "Though nature may step with time\nin tandem, man must be left in\nthe dust of history."
   },
   "Mallavis (written_book)": {
     "name": "Mallavis",
@@ -110402,29 +110828,6 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
-  },
-  "Ratarash (shield)": {
-    "location": "Teal",
-    "mmlore": [
-      "Tarnished by a legion of blows, each",
-      "one informing the warrior's battles.",
-      "The strikes not blocked however, informing",
-      "the crowd."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Ratarash",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "inure": 1,
-      "stamina": 1,
-      "steadfast": 1,
-      "unbreaking": 3,
-      "armor": 3
-    },
-    "lore": "Tarnished by a legion of blows, each\none informing the warrior's battles.\nThe strikes not blocked however, informing\nthe crowd."
   },
   "Ratarash (written_book)": {
     "name": "Ratarash",
@@ -110666,30 +111069,6 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q205I01"
   },
-  "Tenebris (axe)": {
-    "location": "Teal",
-    "mmlore": [
-      "A darkness fell over the Empire. Yeigar",
-      "stood to defend his people, but it was",
-      "not his people they wanted. A line ended.",
-      "A deal was made."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Tenebris",
-    "base_item": "Golden Axe",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "aptitude": 1,
-      "magic_protection": 2,
-      "unbreaking": 35,
-      "spell_power_base": 55,
-      "attack_speed_base": 1,
-      "attack_damage_base": 15
-    },
-    "lore": "A darkness fell over the Empire. Yeigar\nstood to defend his people, but it was\nnot his people they wanted. A line ended.\nA deal was made."
-  },
   "Tenebris (written_book)": {
     "name": "Tenebris",
     "base_item": "Written Book",
@@ -110814,28 +111193,6 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
-  },
-  "The Godshell (chest)": {
-    "location": "Forum",
-    "mmlore": [
-      "Legends tell of a godly being that",
-      "forsook immortality in exchange for",
-      "a shell of unbreakable will."
-    ],
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "The Godshell",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Chestplate",
-    "stats": {
-      "second_wind": 2,
-      "unbreaking": 12,
-      "melee_protection": 1,
-      "armor": 5,
-      "attack_damage_percent": 25
-    },
-    "lore": "Legends tell of a godly being that\nforsook immortality in exchange for\na shell of unbreakable will."
   },
   "The Home": {
     "name": "The Home",
@@ -111098,29 +111455,6 @@
     "type": "Written Book",
     "stats": {},
     "lore": "* Quest Item *\n#Q106I03\nWhat is this doing in the record's chamber?\nYou need to approach Obadiah about this."
-  },
-  "Vesuva (pickaxe)": {
-    "location": "Teal",
-    "mmlore": [
-      "Strike down with the fury of",
-      "the slumbering volcano."
-    ],
-    "region": "Isles",
-    "tier": "Rare",
-    "name": "Vesuva",
-    "base_item": "Stone Pickaxe",
-    "release_status": "public",
-    "type": "Pickaxe",
-    "stats": {
-      "efficiency": 3,
-      "eruption": 5,
-      "fire_aspect": 2,
-      "inferno": 2,
-      "unbreaking": 10,
-      "attack_damage_base": 12,
-      "attack_speed_base": 1
-    },
-    "lore": "Strike down with the fury of\nthe slumbering volcano."
   },
   "Vesuva (written_book)": {
     "name": "Vesuva",
@@ -111427,16 +111761,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Used for skinning items\nto match one's own greed."
-  },
-  "Life Charm (lapis lazuli)": {
-    "location": "Arena of Terth",
-    "region": "Valley",
-    "tier": "Legacy",
-    "name": "Life Charm",
-    "base_item": "Lapis Lazuli",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
   },
   "Life Charm (yellow_dye)": {
     "location": "Arena of Terth",
@@ -111989,329 +112313,5 @@
     "type": "Misc",
     "stats": {},
     "lore": "Obtained in the Anniversary Pass."
-  },
-  "Lyson's Head (head)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "A ghastly reminder of political consequences.",
-      "",
-      "<gray>When in Off Hand:",
-      "<blue>+3 Max Health",
-      "<blue>+24% Attack Damage",
-      "",
-      "<gray>When on Head:",
-      "<blue>+3 Max Health",
-      "<blue>+12% Projectile Damage"
-    ],
-    "region": "Isles",
-    "tier": "Unique",
-    "name": "Lyson's Head",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "type": "Helmet",
-    "stats": {
-      "melee_protection": 2,
-      "projectile_protection": 2,
-      "magic_protection": 2,
-      "max_health_flat": 3,
-      "projectile_damage_percent": 12
-    },
-    "lore": "A ghastly reminder of political consequences.\n\nWhen in Off Hand:\n+3 Max Health\n+24% Attack Damage\n\nWhen on Head:\n+3 Max Health\n+12% Projectile Damage"
-  },
-  "Lyson's Head (offhand)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "A ghastly reminder of political consequences.",
-      "",
-      "<gray>When in Off Hand:",
-      "<blue>+3 Max Health",
-      "<blue>+24% Attack Damage",
-      "",
-      "<gray>When on Head:",
-      "<blue>+3 Max Health",
-      "<blue>+12% Projectile Damage"
-    ],
-    "region": "Isles",
-    "tier": "Unique",
-    "name": "Lyson's Head",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "stats": {
-      "melee_protection": 2,
-      "projectile_protection": 2,
-      "magic_protection": 2,
-      "max_health_flat": 3,
-      "attack_damage_percent": 24
-    },
-    "type": "Offhand",
-    "lore": "A ghastly reminder of political consequences.\n\nWhen in Off Hand:\n+3 Max Health\n+24% Attack Damage\n\nWhen on Head:\n+3 Max Health\n+12% Projectile Damage"
-  },
-  "Andromeda Fragment (mainhand)": {
-    "location": "Mythic Reliquary",
-    "mmlore": [
-      "The stars themselves gaze deep",
-      "upon thy mortal whims. Dare to",
-      "gaze back and the mind breaks."
-    ],
-    "region": "Isles",
-    "tier": "Epic",
-    "name": "Andromeda Fragment",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "mending": 1,
-      "unbreaking": 3,
-      "ice_aspect": 3,
-      "blast_protection": 3,
-      "magic_protection": 3,
-      "knockback_resistance_flat": 3,
-      "armor": 3.5
-    },
-    "lore": "The stars themselves gaze deep\nupon thy mortal whims. Dare to\ngaze back and the mind breaks."
-  },
-  "Andromeda Fragment (offhand)": {
-    "location": "Mythic Reliquary",
-    "mmlore": [
-      "The stars themselves gaze deep",
-      "upon thy mortal whims. Dare to",
-      "gaze back and the mind breaks."
-    ],
-    "region": "Isles",
-    "tier": "Epic",
-    "name": "Andromeda Fragment",
-    "base_item": "Shield",
-    "release_status": "public",
-    "stats": {
-      "mending": 1,
-      "unbreaking": 3,
-      "ice_aspect": 3,
-      "blast_protection": 3,
-      "magic_protection": 3,
-      "armor": 6,
-      "knockback_resistance_flat": 3
-    },
-    "type": "Offhand Shield",
-    "lore": "The stars themselves gaze deep\nupon thy mortal whims. Dare to\ngaze back and the mind breaks."
-  },
-  "Aurora Mirror (mainhand)": {
-    "location": "Light Gray",
-    "mmlore": [
-      "Gaze into the depths of the",
-      "mirror and you will see only",
-      "your darkest desires."
-    ],
-    "region": "Isles",
-    "tier": "Epic",
-    "name": "Aurora Mirror",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "mending": 1,
-      "unbreaking": 3,
-      "ice_aspect": 3,
-      "blast_protection": 3,
-      "magic_protection": 3,
-      "knockback_resistance_flat": 3,
-      "armor": 3.5
-    },
-    "lore": "Gaze into the depths of the\nmirror and you will see only\nyour darkest desires."
-  },
-  "Aurora Mirror (offhand)": {
-    "location": "Light Gray",
-    "mmlore": [
-      "Gaze into the depths of the",
-      "mirror and you will see only",
-      "your darkest desires."
-    ],
-    "region": "Isles",
-    "tier": "Epic",
-    "name": "Aurora Mirror",
-    "base_item": "Shield",
-    "release_status": "public",
-    "stats": {
-      "mending": 1,
-      "unbreaking": 3,
-      "ice_aspect": 3,
-      "blast_protection": 3,
-      "magic_protection": 3,
-      "armor": 6,
-      "knockback_resistance_flat": 3
-    },
-    "type": "Offhand Shield",
-    "lore": "Gaze into the depths of the\nmirror and you will see only\nyour darkest desires."
-  },
-  "Friend (mainhand)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "The rael epic was the friend's",
-      "we made along the way.."
-    ],
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Friend",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "curse_of_crippling": 1,
-      "curse_of_shrapnel": 100,
-      "regeneration": 3,
-      "speed_percent": -9.978,
-      "attack_damage_percent": -30,
-      "projectile_damage_percent": 1.5
-    },
-    "lore": "The rael epic was the friend's\nwe made along the way.."
-  },
-  "Friend (offhand)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "The rael epic was the friend's",
-      "we made along the way.."
-    ],
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Friend",
-    "base_item": "Shield",
-    "release_status": "public",
-    "stats": {
-      "curse_of_crippling": 1,
-      "curse_of_shrapnel": 100,
-      "regeneration": 3,
-      "armor_percent": -10,
-      "agility_percent": -8,
-      "speed_flat": 0.003,
-      "max_health_flat": 1
-    },
-    "type": "Offhand Shield",
-    "lore": "The rael epic was the friend's\nwe made along the way.."
-  },
-  "Frodian Doors (offhand)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "A door, how does that help?",
-      "Well, they're way too strong",
-      "to be ordinary doors."
-    ],
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Frodian Doors",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "unbreaking": 3,
-      "regeneration": 2,
-      "max_health_flat": 5
-    },
-    "lore": "A door, how does that help?\nWell, they're way too strong\nto be ordinary doors."
-  },
-  "Frodian Doors (mainhand)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "A door, how does that help?",
-      "Well, they're way too strong",
-      "to be ordinary doors."
-    ],
-    "region": "Isles",
-    "tier": "Patron",
-    "name": "Frodian Doors",
-    "base_item": "Shield",
-    "release_status": "public",
-    "stats": {
-      "unbreaking": 3,
-      "regeneration": 2,
-      "speed_percent": -100,
-      "knockback_resistance_flat": 10
-    },
-    "type": "Mainhand Shield",
-    "lore": "A door, how does that help?\nWell, they're way too strong\nto be ordinary doors."
-  },
-  "Tiffy's Shield (offhand)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "<dark_gray>Passed down through Tiffy's family,",
-      "<dark_gray>but something seems familiar about it."
-    ],
-    "region": "Isles",
-    "tier": "Unique",
-    "name": "Tiffy's Shield",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Offhand Shield",
-    "stats": {
-      "unbreaking": 2,
-      "armor": 4,
-      "attack_speed_percent": 10
-    },
-    "lore": "Passed down through Tiffy's family,\nbut something seems familiar about it."
-  },
-  "Tiffy's Shield (mainhand)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "<dark_gray>Passed down through Tiffy's family,",
-      "<dark_gray>but something seems familiar about it."
-    ],
-    "region": "Isles",
-    "tier": "Unique",
-    "name": "Tiffy's Shield",
-    "base_item": "Shield",
-    "release_status": "public",
-    "stats": {
-      "unbreaking": 2,
-      "speed_percent": 15,
-      "armor": 2
-    },
-    "type": "Mainhand Shield",
-    "lore": "Passed down through Tiffy's family,\nbut something seems familiar about it."
-  },
-  "rorriM aroruA (mainhand)": {
-    "location": "Light Gray",
-    "mmlore": [
-      "eht fo shtped eht otni ezaG",
-      "ylno ees lliw uoy dna rorrim",
-      ".serised tsekrad ruoy"
-    ],
-    "region": "Isles",
-    "tier": "Epic",
-    "name": "rorriM aroruA",
-    "base_item": "Shield",
-    "release_status": "public",
-    "type": "Mainhand Shield",
-    "stats": {
-      "mending": 1,
-      "unbreaking": 3,
-      "ice_aspect": 3,
-      "blast_protection": 3,
-      "magic_protection": 3,
-      "knockback_resistance_flat": 3,
-      "armor": 3.5
-    },
-    "lore": "eht fo shtped eht otni ezaG\nylno ees lliw uoy dna rorrim\n.serised tsekrad ruoy"
-  },
-  "rorriM aroruA (offhand)": {
-    "location": "Light Gray",
-    "mmlore": [
-      "eht fo shtped eht otni ezaG",
-      "ylno ees lliw uoy dna rorrim",
-      ".serised tsekrad ruoy"
-    ],
-    "region": "Isles",
-    "tier": "Epic",
-    "name": "rorriM aroruA",
-    "base_item": "Shield",
-    "release_status": "public",
-    "stats": {
-      "mending": 1,
-      "unbreaking": 3,
-      "ice_aspect": 3,
-      "blast_protection": 3,
-      "magic_protection": 3,
-      "armor": 6,
-      "knockback_resistance_flat": 3
-    },
-    "type": "Offhand Shield",
-    "lore": "eht fo shtped eht otni ezaG\nylno ees lliw uoy dna rorrim\n.serised tsekrad ruoy"
   }
 }
