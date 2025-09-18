@@ -6827,6 +6827,28 @@
     },
     "lore": "The start of eternity is the start\nof life, in death they shall be\nreborn as my eternity."
   },
+  "Crescendo": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "Each breath holds spirit. Each breath",
+      "holds courage. With each deep inhale,",
+      "winds guide your arrows."
+    ],
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Crescendo",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "sniper": 1,
+      "unbreaking": 4,
+      "wind_aspect": 1,
+      "projectile_speed_base": 1.3,
+      "projectile_damage_base": 11
+    },
+    "lore": "Each breath holds spirit. Each breath\nholds courage. With each deep inhale,\nwinds guide your arrows."
+  },
   "Crest of Celsia": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -7258,6 +7280,29 @@
     },
     "lore": "Callicarpa felt freedom for the first time in\neons the moment Indigo was damaged. In\nthat freedom, she learned what had happened\nto her siblings and wept."
   },
+  "Freedom (bow)": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "Freedom of soul, mind and body",
+      "is gifted to all those that this",
+      "bow's arrows impact."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Freedom",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "curse_of_ephemerality": 1,
+      "infinity": 1,
+      "spiritshot": 1,
+      "unbreakable": 1,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 1
+    },
+    "lore": "Freedom of soul, mind and body\nis gifted to all those that this\nbow's arrows impact."
+  },
   "Freezeflame": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -7538,6 +7583,31 @@
       "projectile_speed_base": 1
     }
   },
+  "Lacrimosa": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "Now one must face the passing of many.",
+      "They rest easier serenaded by the",
+      "song of your whistling arrow.",
+      "Breathe deep. Aim true."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Lacrimosa",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "piercing": 1,
+      "retrieval": 1,
+      "sniper": 1,
+      "unbreaking": 5,
+      "wind_aspect": 1,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 11
+    },
+    "lore": "Now one must face the passing of many.\nThey rest easier serenaded by the\nsong of your whistling arrow.\nBreathe deep. Aim true."
+  },
   "Legionis": {
     "location": "Rush",
     "mmlore": [
@@ -7573,6 +7643,27 @@
       "projectile_damage_base": 10,
       "projectile_speed_base": 1
     }
+  },
+  "Luftpause": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "As this bow takes its first breaths,",
+      "your foes take their last."
+    ],
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Luftpause",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "sniper": 1,
+      "unbreaking": 3,
+      "wind_aspect": 1,
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 10
+    },
+    "lore": "As this bow takes its first breaths,\nyour foes take their last."
   },
   "Mechanized Pipepuncher-2": {
     "location": "Brown",
@@ -7800,6 +7891,27 @@
       "projectile_speed_base": 1.2
     },
     "lore": "The King gazed upon the majesty of\nthe newly established Capital. He\nhad succeeded, and his people had\na haven to now thrive."
+  },
+  "Niente": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "A bow that could serve as",
+      "an extraordinary instrument.",
+      "Now, it is silent."
+    ],
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Niente",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "sniper": 1,
+      "unbreaking": 2,
+      "projectile_speed_base": 1.2,
+      "projectile_damage_base": 9
+    },
+    "lore": "A bow that could serve as\nan extraordinary instrument.\nNow, it is silent."
   },
   "Northwind": {
     "location": "Celsian Isles",
@@ -16623,6 +16735,39 @@
       "infinity": 1
     },
     "lore": "From the Tree also came the Rats.\nTheir flesh is tough and chewy, yet,\nthe blessing still holds."
+  },
+  "Abyssal Coral": {
+    "location": "Overworld3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Abyssal Coral",
+    "power": 1,
+    "base_item": "Chorus Plant",
+    "release_status": "public",
+    "stats": {
+      "gruesome_alchemy_damage_multiplier_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "gruesome_alchemy_vulnerability_amplifier_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "gruesome_alchemy_duration_percent": {
+        "locked": false,
+        "value": -40
+      },
+      "gruesome_alchemy_weakness_amplifier_percent": {
+        "locked": false,
+        "value": -25
+      },
+      "gruesome_alchemy_slowness_amplifier_percent": {
+        "locked": false,
+        "value": -25
+      }
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
   },
   "Fecund Berry": {
     "location": "The Wolfswood",
@@ -41107,6 +41252,29 @@
       "attack_damage_base": 14.5
     }
   },
+  "Speaker's Ward": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "Some will speak their woes, and others",
+      "will enact their pain upon others. It",
+      "is the only satisfaction they may find."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Speaker's Ward",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 1,
+      "shielding": 1,
+      "unbreaking": 3,
+      "wind_aspect": 1,
+      "attack_speed_base": 1,
+      "attack_damage_base": 10
+    },
+    "lore": "Some will speak their woes, and others\nwill enact their pain upon others. It\nis the only satisfaction they may find."
+  },
   "Spirit Hammer": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -54853,6 +55021,106 @@
       "projectile_damage_percent": 18
     }
   },
+  "Coral Carapace-1": {
+    "location": "Overworld3",
+    "masterwork": "1",
+    "mmlore": [
+      "The polyps latched onto the only substrate left in",
+      "that wild and wicked sea. And as the altars",
+      "crumbled beneath, and temples fell to ruin, new spires",
+      "sprung forth, reaching above to pierce the waves."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Coral Carapace",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "mending": 1,
+      "regeneration": 3,
+      "unbreaking": 3,
+      "speed_percent": 5,
+      "armor": 8
+    },
+    "lore": "The polyps latched onto the only substrate left in\nthat wild and wicked sea. And as the altars\ncrumbled beneath, and temples fell to ruin, new spires\nsprung forth, reaching above to pierce the waves."
+  },
+  "Coral Carapace-2": {
+    "location": "Overworld3",
+    "masterwork": "2",
+    "mmlore": [
+      "The polyps latched onto the only substrate left in",
+      "that wild and wicked sea. And as the altars",
+      "crumbled beneath, and temples fell to ruin, new spires",
+      "sprung forth, reaching above to pierce the waves."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Coral Carapace",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "mending": 1,
+      "regeneration": 3,
+      "unbreaking": 3,
+      "speed_percent": 10,
+      "armor": 8.5
+    },
+    "lore": "The polyps latched onto the only substrate left in\nthat wild and wicked sea. And as the altars\ncrumbled beneath, and temples fell to ruin, new spires\nsprung forth, reaching above to pierce the waves."
+  },
+  "Coral Carapace-3": {
+    "location": "Overworld3",
+    "masterwork": "3",
+    "mmlore": [
+      "The polyps latched onto the only substrate left in",
+      "that wild and wicked sea. And as the altars",
+      "crumbled beneath, and temples fell to ruin, new spires",
+      "sprung forth, reaching above to pierce the waves."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Coral Carapace",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "mending": 1,
+      "regeneration": 3,
+      "unbreaking": 3,
+      "speed_percent": 10,
+      "armor": 9
+    },
+    "lore": "The polyps latched onto the only substrate left in\nthat wild and wicked sea. And as the altars\ncrumbled beneath, and temples fell to ruin, new spires\nsprung forth, reaching above to pierce the waves."
+  },
+  "Coral Carapace-4": {
+    "location": "Overworld3",
+    "masterwork": "4",
+    "mmlore": [
+      "The polyps latched onto the only substrate left in",
+      "that wild and wicked sea. And as the altars",
+      "crumbled beneath, and temples fell to ruin, new spires",
+      "sprung forth, reaching above to pierce the waves."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Coral Carapace",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "mending": 1,
+      "regeneration": 4,
+      "unbreaking": 4,
+      "speed_percent": 10,
+      "armor": 9.5
+    },
+    "lore": "The polyps latched onto the only substrate left in\nthat wild and wicked sea. And as the altars\ncrumbled beneath, and temples fell to ruin, new spires\nsprung forth, reaching above to pierce the waves."
+  },
   "Corrupted Monk's Robe": {
     "location": "Reverie",
     "mmlore": [
@@ -67344,6 +67612,35 @@
     },
     "lore": "A deep dark flame, yet it\nburns so, so hot..."
   },
+  "Tarnished Inscription": {
+    "location": "Overworld3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Tarnished Inscription",
+    "power": 3,
+    "base_item": "Nether Brick",
+    "release_status": "public",
+    "stats": {
+      "frost_nova_damage_percent": {
+        "locked": false,
+        "value": 40
+      },
+      "frost_nova_cooldown_percent": {
+        "locked": false,
+        "value": -40
+      },
+      "frost_nova_range_percent": {
+        "locked": false,
+        "value": -40
+      },
+      "frost_nova_slowness_amplifier_percent": {
+        "locked": false,
+        "value": -60
+      }
+    },
+    "type": "Charm",
+    "class_name": "Mage"
+  },
   "Totem of Life-2": {
     "location": "Transmogrifier",
     "masterwork": "2",
@@ -69178,6 +69475,21 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
+  "Tormented Fragment": {
+    "location": "Twisted",
+    "mmlore": [
+      "A fragment of a truly evil presence. Perhaps",
+      "it could be used to craft something?"
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Tormented Fragment",
+    "base_item": "Netherite Scrap",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A fragment of a truly evil presence. Perhaps\nit could be used to craft something?"
+  },
   "Alcyoneus-6": {
     "location": "Indigo",
     "masterwork": "6",
@@ -69407,21 +69719,6 @@
       "attack_damage_base": 17
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
-  },
-  "Tormented Fragment": {
-    "location": "Twisted",
-    "mmlore": [
-      "A fragment of a truly evil presence. Perhaps",
-      "it could be used to craft something?"
-    ],
-    "region": "Ring",
-    "tier": "Currency",
-    "name": "Tormented Fragment",
-    "base_item": "Netherrack",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A fragment of a truly evil presence. Perhaps\nit could be used to craft something?"
   },
   "Riaz's Supplies": {
     "mmlore": [
@@ -69880,6 +70177,27 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Swirling Shoal": {
+    "location": "Overworld3",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Swirling Shoal",
+    "power": 1,
+    "base_item": "Orange Glazed Terracotta",
+    "release_status": "public",
+    "stats": {
+      "smokescreen_enhancement_damage_percent": {
+        "locked": false,
+        "value": 100
+      },
+      "smokescreen_range_percent": {
+        "locked": false,
+        "value": -35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
   },
   "Ender Chest Expansion": {
     "mmlore": [
@@ -71735,7 +72053,7 @@
     "location": "Overworld3",
     "mmlore": [
       "An item, crushed to pieces.",
-      "Maybe it could be turned back into an item?"
+      "Maybe it can be turned back into an item?"
     ],
     "region": "Ring",
     "tier": "Currency",
@@ -71744,7 +72062,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "An item, crushed to pieces.\nMaybe it could be turned back into an item?"
+    "lore": "An item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
   "Arrow Crate": {
     "mmlore": [
@@ -74235,6 +74553,106 @@
     "type": "Misc",
     "stats": {},
     "lore": "\"There's nothing easier than hexing\na fish in a barrel.\" - A saying that's\nspread around the Coven of the Ring\nfor generations. It's not actually true\nthough, as it's notoriously difficult to\nhex a fish you can't see. Such tough coven\nteachings leave many scars of battle on\nthe poor barrels of the Wolfswood."
+  },
+  "Shell of Yore-1": {
+    "location": "Overworld3",
+    "masterwork": "1",
+    "mmlore": [
+      "Woven tapestries frayed in the waves,",
+      "as fine metalworks corroded in the wind.",
+      "The arches were lost to the Mires,",
+      "as the people became one with the salt."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Shell of Yore",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "abyssal": 1,
+      "guard": 1,
+      "ineptitude": 2,
+      "speed_flat": -0.02,
+      "armor": 11,
+      "knockback_resistance_flat": 4
+    },
+    "lore": "Woven tapestries frayed in the waves,\nas fine metalworks corroded in the wind.\nThe arches were lost to the Mires,\nas the people became one with the salt."
+  },
+  "Shell of Yore-2": {
+    "location": "Overworld3",
+    "masterwork": "2",
+    "mmlore": [
+      "Woven tapestries frayed in the waves,",
+      "as fine metalworks corroded in the wind.",
+      "The arches were lost to the Mires,",
+      "as the people became one with the salt."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Shell of Yore",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "abyssal": 1,
+      "guard": 1,
+      "ineptitude": 2,
+      "speed_flat": -0.02,
+      "armor": 11.5,
+      "knockback_resistance_flat": 4
+    },
+    "lore": "Woven tapestries frayed in the waves,\nas fine metalworks corroded in the wind.\nThe arches were lost to the Mires,\nas the people became one with the salt."
+  },
+  "Shell of Yore-3": {
+    "location": "Overworld3",
+    "masterwork": "3",
+    "mmlore": [
+      "Woven tapestries frayed in the waves,",
+      "as fine metalworks corroded in the wind.",
+      "The arches were lost to the Mires,",
+      "as the people became one with the salt."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Shell of Yore",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "abyssal": 1,
+      "guard": 1,
+      "ineptitude": 2,
+      "knockback_resistance_flat": 5,
+      "speed_flat": -0.02,
+      "armor": 12
+    },
+    "lore": "Woven tapestries frayed in the waves,\nas fine metalworks corroded in the wind.\nThe arches were lost to the Mires,\nas the people became one with the salt."
+  },
+  "Shell of Yore-4": {
+    "location": "Overworld3",
+    "masterwork": "4",
+    "mmlore": [
+      "Woven tapestries frayed in the waves,",
+      "as fine metalworks corroded in the wind.",
+      "The arches were lost to the Mires,",
+      "as the people became one with the salt."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Shell of Yore",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "abyssal": 1,
+      "guard": 1,
+      "ineptitude": 2,
+      "knockback_resistance_flat": 5,
+      "armor": 13,
+      "speed_flat": -0.02
+    },
+    "lore": "Woven tapestries frayed in the waves,\nas fine metalworks corroded in the wind.\nThe arches were lost to the Mires,\nas the people became one with the salt."
   },
   "Shifting Fragment": {
     "location": "Shifting",
@@ -87018,6 +87436,114 @@
     "type": "Misc",
     "stats": {}
   },
+  "Fiddler's Claw-1": {
+    "location": "Overworld3",
+    "masterwork": "1",
+    "mmlore": [
+      "There was little refuge in the chaotic growth.",
+      "No quiet corners could be found behind the",
+      "crashing cascades to hide in. They were forced",
+      "to adapt. To change. To forget themselves."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Fiddler's Claw",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "adaptability": 1,
+      "gills": 1,
+      "mending": 1,
+      "second_wind": 1,
+      "shielding": 1,
+      "unbreaking": 1,
+      "attack_speed_percent": 15,
+      "agility": 4
+    },
+    "lore": "There was little refuge in the chaotic growth.\nNo quiet corners could be found behind the\ncrashing cascades to hide in. They were forced\nto adapt. To change. To forget themselves."
+  },
+  "Fiddler's Claw-2": {
+    "location": "Overworld3",
+    "masterwork": "2",
+    "mmlore": [
+      "There was little refuge in the chaotic growth.",
+      "No quiet corners could be found behind the",
+      "crashing cascades to hide in. They were forced",
+      "to adapt. To change. To forget themselves."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Fiddler's Claw",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "adaptability": 1,
+      "gills": 1,
+      "mending": 1,
+      "second_wind": 1,
+      "shielding": 1,
+      "unbreaking": 1,
+      "attack_speed_percent": 15,
+      "agility": 5
+    },
+    "lore": "There was little refuge in the chaotic growth.\nNo quiet corners could be found behind the\ncrashing cascades to hide in. They were forced\nto adapt. To change. To forget themselves."
+  },
+  "Fiddler's Claw-3": {
+    "location": "Overworld3",
+    "masterwork": "3",
+    "mmlore": [
+      "There was little refuge in the chaotic growth.",
+      "No quiet corners could be found behind the",
+      "crashing cascades to hide in. They were forced",
+      "to adapt. To change. To forget themselves."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Fiddler's Claw",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "adaptability": 1,
+      "gills": 1,
+      "mending": 1,
+      "second_wind": 1,
+      "shielding": 1,
+      "unbreaking": 1,
+      "attack_speed_percent": 15,
+      "agility": 5.5
+    },
+    "lore": "There was little refuge in the chaotic growth.\nNo quiet corners could be found behind the\ncrashing cascades to hide in. They were forced\nto adapt. To change. To forget themselves."
+  },
+  "Fiddler's Claw-4": {
+    "location": "Overworld3",
+    "masterwork": "4",
+    "mmlore": [
+      "There was little refuge in the chaotic growth.",
+      "No quiet corners could be found behind the",
+      "crashing cascades to hide in. They were forced",
+      "to adapt. To change. To forget themselves."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Fiddler's Claw",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "adaptability": 1,
+      "gills": 1,
+      "mending": 1,
+      "second_wind": 1,
+      "shielding": 1,
+      "unbreaking": 1,
+      "attack_speed_percent": 20,
+      "agility": 6
+    },
+    "lore": "There was little refuge in the chaotic growth.\nNo quiet corners could be found behind the\ncrashing cascades to hide in. They were forced\nto adapt. To change. To forget themselves."
+  },
   "Fleshbound Shield": {
     "location": "King's Valley",
     "region": "Valley",
@@ -97505,6 +98031,30 @@
       "attack_damage_base": 7.5
     },
     "lore": "What beasts could stalk the nightmares\nof the jungle?"
+  },
+  "The Kindling Steps": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "To dance with those who still wander,",
+      "is to remember their sacrifice.",
+      "Each step traces memories."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "The Kindling Steps",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "fire_aspect": 2,
+      "melee_protection": 2,
+      "mending": 1,
+      "unbreaking": 3,
+      "speed_percent": 10,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 7
+    },
+    "lore": "To dance with those who still wander,\nis to remember their sacrifice.\nEach step traces memories."
   },
   "Weak Scythe": {
     "location": "King's Valley",
@@ -109670,6 +110220,32 @@
     "type": "Misc",
     "stats": {}
   },
+  "Wanderer's Wick": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "Light may appear at the end of the",
+      "tunnel, should you hold out your torch.",
+      "But there was no light for them. They",
+      "remain in that darkness still."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Wanderer's Wick",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "darksight": 1,
+      "decay": 2,
+      "fire_aspect": 2,
+      "inferno": 2,
+      "mending": 1,
+      "unbreaking": 4,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 5.5
+    },
+    "lore": "Light may appear at the end of the\ntunnel, should you hold out your torch.\nBut there was no light for them. They\nremain in that darkness still."
+  },
   "Wispblade": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -110506,6 +111082,12 @@
   },
   "Foundations": {
     "name": "Foundations",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
+  "Freedom (written_book)": {
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
