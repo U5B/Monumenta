@@ -951,6 +951,23 @@
     "stats": {},
     "lore": "A fully repaired key. What strange door\ncould it unlock?"
   },
+  "Repair Anvil": {
+    "mmlore": [
+      "A mobile repair station crafted by a",
+      "repairman with experience points. Can",
+      "be used to repair any item that has",
+      "reduced durability or is Shattered.",
+      "<gray><key:key.use> on an item in your",
+      "<gray>inventory to remove one level of",
+      "<gray>Shatter or to repair it to full durability."
+    ],
+    "name": "Repair Anvil",
+    "base_item": "Anvil",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A mobile repair station crafted by a\nrepairman with experience points. Can\nbe used to repair any item that has\nreduced durability or is Shattered.\n on an item in your\ninventory to remove one level of\nShatter or to repair it to full durability."
+  },
   "Blackroot Fruit": {
     "location": "Valley Overworld",
     "mmlore": [
@@ -7283,9 +7300,10 @@
   "Freedom (bow)": {
     "location": "Valley Overworld",
     "mmlore": [
-      "Freedom of soul, mind and body",
-      "is gifted to all those that this",
-      "bow's arrows impact."
+      "The Spiritsinger has a complex",
+      "relationship with freedom. They",
+      "suggest that true \"freedom\"",
+      "may simply be peace."
     ],
     "region": "Valley",
     "tier": "Key",
@@ -7294,14 +7312,14 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "curse_of_ephemerality": 1,
+      "curse_of_ephemerality": 2,
       "infinity": 1,
       "spiritshot": 1,
       "unbreakable": 1,
       "projectile_speed_base": 1,
       "projectile_damage_base": 1
     },
-    "lore": "Freedom of soul, mind and body\nis gifted to all those that this\nbow's arrows impact."
+    "lore": "The Spiritsinger has a complex\nrelationship with freedom. They\nsuggest that true \"freedom\"\nmay simply be peace."
   },
   "Freezeflame": {
     "location": "Celsian Isles",
@@ -9833,6 +9851,127 @@
       "thorns_flat": 4,
       "agility": 7
     }
+  },
+  "Plush Black Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Black Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Calico Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Calico Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Ginger Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Ginger Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Jellie Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Jellie Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Persian Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Persian Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Ragdoll Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Ragdoll Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Shorthair Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Shorthair Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Siamese Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Siamese Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Tabby Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Tabby Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush Tuxedo Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush Tuxedo Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
+  },
+  "Plush White Cat": {
+    "mmlore": [
+      "It's hyper-realistic!"
+    ],
+    "name": "Plush White Cat",
+    "base_item": "Cat Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's hyper-realistic!"
   },
   "Automatic Distillery": {
     "location": "Brown",
@@ -24673,7 +24812,7 @@
         "locked": false,
         "value": 300
       },
-      "cosmic_moonblade_on_kill_cooldown_reduction_percent": {
+      "cosmic_moonblade_on_kill_cooldown_cap_percent": {
         "locked": false,
         "value": 100
       },
@@ -41259,7 +41398,7 @@
       "will enact their pain upon others. It",
       "is the only satisfaction they may find."
     ],
-    "region": "Ring",
+    "region": "Valley",
     "tier": "Artifact",
     "name": "Speaker's Ward",
     "base_item": "Iron Axe",
@@ -41271,7 +41410,7 @@
       "unbreaking": 3,
       "wind_aspect": 1,
       "attack_speed_base": 1,
-      "attack_damage_base": 10
+      "attack_damage_base": 9.5
     },
     "lore": "Some will speak their woes, and others\nwill enact their pain upon others. It\nis the only satisfaction they may find."
   },
@@ -43950,11 +44089,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "blast_protection": 1,
       "melee_protection": 3,
       "unbreaking": 7,
-      "max_health_flat": -4,
-      "agility": 8,
-      "magic_damage_percent": 25
+      "magic_damage_percent": 25,
+      "agility": 7,
+      "max_health_flat": -2
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
@@ -43973,12 +44113,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "blast_protection": 1,
+      "blast_protection": 2,
       "melee_protection": 3,
       "unbreaking": 8,
-      "max_health_flat": -4,
-      "agility": 8.5,
-      "magic_damage_percent": 25
+      "magic_damage_percent": 25,
+      "agility": 7.5,
+      "max_health_flat": -2
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
@@ -43997,12 +44137,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "blast_protection": 1,
+      "blast_protection": 2,
       "melee_protection": 3,
       "unbreaking": 9,
-      "max_health_flat": -4,
-      "agility": 8.5,
-      "magic_damage_percent": 30
+      "magic_damage_percent": 30,
+      "agility": 7.5,
+      "max_health_flat": -2
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
@@ -44021,12 +44161,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "blast_protection": 1,
+      "blast_protection": 2,
       "melee_protection": 3,
       "unbreaking": 10,
-      "max_health_flat": -4,
-      "agility": 9,
-      "magic_damage_percent": 30
+      "magic_damage_percent": 30,
+      "agility": 8,
+      "max_health_flat": -2
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
@@ -53577,6 +53717,27 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Sulfuric Flame Boots": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "<dark_gray>The spirits below shrieked, their flames",
+      "<dark_gray>consumed for the great war raging above."
+    ],
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Sulfuric Flame Boots",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 3,
+      "fire_protection": 4,
+      "mending": 1,
+      "speed_percent": 10,
+      "agility": 1.5
+    },
+    "lore": "The spirits below shrieked, their flames\nconsumed for the great war raging above."
   },
   "Sulfuric Sandals": {
     "location": "Shifting",
@@ -67220,6 +67381,22 @@
     "stats": {},
     "lore": "Not as sad as the name suggests.\nIt reminds you of rainy days and good times.\n* Quest Item *\n#Q47I04"
   },
+  "Lofi Hip Hop Radio 24/7 Chill Gaming / Study Beats": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>INTRNTR - Copyrighted Music",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>It has a picture of an anime girl",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>on it. All she does is study..."
+    ],
+    "region": "Isles",
+    "tier": "Legacy",
+    "name": "Lofi Hip Hop Radio 24/7 Chill Gaming / Study Beats",
+    "base_item": "Music Disc Wait",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "INTRNTR - Copyrighted Music\nIt has a picture of an anime girl\non it. All she does is study..."
+  },
   "Embalmer's Mixtape": {
     "location": "Corridors",
     "mmlore": [
@@ -74944,6 +75121,27 @@
     "stats": {},
     "lore": "An artifact, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
+  "Tarnished Flame Skull": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "<dark_gray>Once the flame burned bright, a beacon to",
+      "<dark_gray>those who would come after from those who",
+      "<dark_gray>came before. The flood washed it all away."
+    ],
+    "region": "Valley",
+    "tier": "Uncommon",
+    "name": "Tarnished Flame Skull",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fire_protection": 4,
+      "melee_protection": 1,
+      "magic_damage_percent": 5,
+      "agility": 1.5
+    },
+    "lore": "Once the flame burned bright, a beacon to\nthose who would come after from those who\ncame before. The flood washed it all away."
+  },
   "Teal Fragment": {
     "location": "Teal",
     "mmlore": [
@@ -76290,6 +76488,32 @@
       "material": 1
     },
     "lore": "Needs time to ferment..."
+  },
+  "Black Cat Brew": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "name": "Black Cat Brew",
+    "effects": [
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "BadLuck"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 6,
+        "EffectType": "JumpBoost"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 0.15,
+        "EffectType": "Resistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {}
   },
   "Black Mist": {
     "location": "Mist",
@@ -97289,6 +97513,21 @@
     "type": "Misc",
     "stats": {}
   },
+  "Woodsman's Axe": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Woodsman's Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 2,
+      "unbreaking": 1,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.8
+    }
+  },
   "Focused Shielding Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -102598,6 +102837,13 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
+  },
+  "Ghastroot": {
+    "name": "Ghastroot",
+    "base_item": "Sugar Cane",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
   },
   "Lifewood Dew": {
     "location": "Hexfall",
