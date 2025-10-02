@@ -906,7 +906,7 @@
     "stats": {
       "hand_of_light_damage_percent": {
         "locked": false,
-        "value": 150
+        "value": 120
       },
       "hand_of_light_range_percent": {
         "locked": false,
@@ -1967,7 +1967,7 @@
     "stats": {
       "blizzard_tick_delay_percent": {
         "locked": false,
-        "value": -90
+        "value": -95
       },
       "blizzard_cooldown_percent": {
         "locked": false,
@@ -1975,7 +1975,7 @@
       },
       "blizzard_duration_percent": {
         "locked": false,
-        "value": -85
+        "value": -90
       },
       "blizzard_range_percent": {
         "locked": true,
@@ -1983,7 +1983,7 @@
       },
       "blizzard_damage_percent": {
         "locked": true,
-        "value": -50
+        "value": -60
       }
     },
     "type": "Charm",
@@ -2045,7 +2045,8 @@
       "sustenance": 1,
       "thorns_flat": 6,
       "max_health_flat": 2,
-      "agility": 6.5
+      "agility": 6,
+      "magic_damage_percent": 6
     },
     "lore": "Proof of the traitorous dead\nbrings power to those who survived."
   },
@@ -2066,8 +2067,9 @@
       "melee_protection": 2,
       "sustenance": 1,
       "max_health_flat": 2,
-      "agility": 6.5,
-      "thorns_flat": 7
+      "thorns_flat": 7,
+      "agility": 6,
+      "magic_damage_percent": 8
     },
     "lore": "Proof of the traitorous dead\nbrings power to those who survived."
   },
@@ -2088,8 +2090,9 @@
       "melee_protection": 2,
       "sustenance": 1,
       "max_health_flat": 2,
-      "agility": 7,
-      "thorns_flat": 8
+      "thorns_flat": 8,
+      "agility": 6.5,
+      "magic_damage_percent": 10
     },
     "lore": "Proof of the traitorous dead\nbrings power to those who survived."
   },
@@ -2110,7 +2113,8 @@
       "melee_protection": 2,
       "sustenance": 2,
       "max_health_flat": 2,
-      "agility": 7,
+      "magic_damage_percent": 10,
+      "agility": 6.5,
       "thorns_flat": 9
     },
     "lore": "Proof of the traitorous dead\nbrings power to those who survived."
@@ -8706,6 +8710,8 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "decay": 2,
+      "triage": 2,
       "unbreaking": 4,
       "speed_percent": 10,
       "projectile_speed_base": 1.5,
@@ -9100,6 +9106,10 @@
         "value": -40
       },
       "challenge_duration_percent": {
+        "locked": false,
+        "value": -40
+      },
+      "challenge_max_absorption_health_percent": {
         "locked": false,
         "value": -40
       },
@@ -10298,9 +10308,9 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "sanctified_armor_damage_percent": {
+      "sanctified_armor_resistance_percent": {
         "locked": false,
-        "value": 15
+        "value": 4
       },
       "divine_justice_self_heal_percent": {
         "locked": false,
@@ -11274,12 +11284,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "feather_falling": 3,
-      "magic_protection": 1,
+      "first_strike": 2,
+      "magic_fragility": 2,
       "projectile_fragility": 2,
       "tempo": 2,
       "unbreaking": 8,
-      "agility": 7
+      "speed_percent": 5,
+      "agility": 7.5
     },
     "lore": "Dark blades of metal feathers decorate\nthe otherwise unassuming boots. The\nformidable hawk's likeness lends itself\nwell here, a testament to its strength."
   },
@@ -11299,12 +11310,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "feather_falling": 3,
-      "magic_protection": 2,
+      "first_strike": 2,
+      "magic_fragility": 2,
       "projectile_fragility": 2,
       "tempo": 2,
       "unbreaking": 9,
-      "agility": 7
+      "agility": 8,
+      "speed_percent": 10
     },
     "lore": "Dark blades of metal feathers decorate\nthe otherwise unassuming boots. The\nformidable hawk's likeness lends itself\nwell here, a testament to its strength."
   },
@@ -16400,11 +16412,13 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
+      "magic_protection": 2,
+      "regicide": 2,
       "unbreaking": 7,
-      "agility": 4,
-      "thorns_percent": 25,
-      "max_health_flat": 7,
-      "thorns_flat": 9
+      "max_health_flat": 5,
+      "agility": 5,
+      "knockback_resistance_flat": 5,
+      "thorns_flat": 4
     },
     "lore": "Deicide was not an act taken\nlightly by the Abello, but as their\nbound brethren suffered, they\nsaw no other choice."
   },
@@ -16424,11 +16438,13 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
+      "magic_protection": 3,
+      "regicide": 2,
       "unbreaking": 8,
-      "agility": 4,
-      "thorns_percent": 25,
-      "max_health_flat": 8,
-      "thorns_flat": 9
+      "max_health_flat": 5,
+      "agility": 5,
+      "thorns_flat": 5,
+      "knockback_resistance_flat": 5
     },
     "lore": "Deicide was not an act taken\nlightly by the Abello, but as their\nbound brethren suffered, they\nsaw no other choice."
   },
@@ -16448,11 +16464,13 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
+      "magic_protection": 3,
+      "regicide": 3,
       "unbreaking": 9,
-      "agility": 4.5,
-      "thorns_percent": 30,
-      "max_health_flat": 8,
-      "thorns_flat": 9
+      "max_health_flat": 5,
+      "agility": 5,
+      "knockback_resistance_flat": 5,
+      "thorns_flat": 5
     },
     "lore": "Deicide was not an act taken\nlightly by the Abello, but as their\nbound brethren suffered, they\nsaw no other choice."
   },
@@ -22989,25 +23007,25 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Malignant Neuron",
-    "power": 5,
+    "power": 3,
     "base_item": "Dead Bush",
     "release_status": "public",
     "stats": {
-      "heavenly_boon_enhancement_cooldown_reduction_cap_flat": {
+      "ethereal_ascension_orb_damage_percent": {
         "locked": false,
-        "value": 2
+        "value": 45
       },
-      "heavenly_boon_enhancement_cooldown_reduction_percent": {
+      "ethereal_ascension_orb_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 65
       },
-      "heavenly_boon_healing_percent": {
-        "locked": true,
-        "value": -50
+      "ethereal_ascension_max_duration_extension_flat": {
+        "locked": false,
+        "value": 3
       },
-      "heavenly_boon_radius_percent": {
+      "ethereal_ascension_cooldown_percent": {
         "locked": true,
-        "value": -50
+        "value": 50
       }
     },
     "type": "Charm",
@@ -23696,12 +23714,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "adaptability": 1,
       "ineptitude": 2,
       "magic_protection": 2,
       "mending": 1,
-      "max_health_flat": 4,
-      "armor": 7
+      "steadfast": 1,
+      "armor": 9
     },
     "lore": "Kokytos bled into the reservoir below, blight\nfilling the basin with darkness. He was held\ntogether only by the statue encasing him and\nthe presence of power his masters could only\ndream of claiming for themselves."
   },
@@ -25493,6 +25510,27 @@
     "stats": {},
     "lore": "For four hours, every five melee hits\nyou gain a random \"Combos\" effect\nfrom the Darkest Depths dungeon.\nYou feel echoes of her grasp.\n* Quest Item *\n#Q201I05"
   },
+  "Distant Boon Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Distant Boon Charm",
+    "power": 2,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "heavenly_boon_potion_chance_percent": {
+        "locked": false,
+        "value": 5
+      },
+      "heavenly_boon_radius_percent": {
+        "locked": false,
+        "value": 50
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
   "Distilled Cogniza": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -25614,13 +25652,17 @@
     "base_item": "Dragon Breath",
     "release_status": "public",
     "stats": {
+      "heavenly_boon_strength_amplifier_percent": {
+        "locked": false,
+        "value": 5
+      },
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 6
+        "value": 10
       },
-      "heavenly_boon_potion_duration_flat": {
+      "heavenly_boon_cooldown_percent": {
         "locked": false,
-        "value": 4
+        "value": -5
       }
     },
     "type": "Charm",
@@ -25692,7 +25734,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 4
+        "value": 10
       }
     },
     "type": "Charm",
@@ -25763,7 +25805,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 2
+        "value": 5
       }
     },
     "type": "Charm",
@@ -29293,25 +29335,25 @@
         "locked": false,
         "value": 25
       },
-      "enchanted_prayer_healing_percent": {
-        "locked": false,
-        "value": 50
-      },
       "hallowed_beam_healing_percent": {
+        "locked": false,
+        "value": 25
+      },
+      "keeper_virtue_healing_percent": {
         "locked": false,
         "value": 25
       },
       "hand_of_light_damage_percent": {
         "locked": false,
-        "value": -100
-      },
-      "enchanted_prayer_damage_percent": {
-        "locked": false,
-        "value": -100
+        "value": -40
       },
       "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": -100
+        "value": -40
+      },
+      "keeper_virtue_damage_percent": {
+        "locked": false,
+        "value": -40
       }
     },
     "type": "Charm",
@@ -30319,6 +30361,27 @@
     "type": "Charm",
     "class_name": "Generalist"
   },
+  "Distant Sentinel Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Distant Sentinel Charm",
+    "power": 2,
+    "base_item": "Glowstone Dust",
+    "release_status": "public",
+    "stats": {
+      "keeper_virtue_health_flat": {
+        "locked": false,
+        "value": 3
+      },
+      "keeper_virtue_action_range_percent": {
+        "locked": false,
+        "value": 50
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
   "Dusk Powder": {
     "mmlore": [
       "A bright powder that is widely used in medicine.",
@@ -30421,18 +30484,18 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
-  "Greater Thurible Charm": {
+  "Greater Sentinel Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
     "tier": "Base",
-    "name": "Greater Thurible Charm",
-    "power": 4,
+    "name": "Greater Sentinel Charm",
+    "power": 2,
     "base_item": "Glowstone Dust",
     "release_status": "public",
     "stats": {
-      "thurible_procession_damage_amplifier_percent": {
+      "keeper_virtue_health_flat": {
         "locked": false,
-        "value": 7
+        "value": 6
       }
     },
     "type": "Charm",
@@ -30480,16 +30543,16 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
-  "Lesser Thurible Charm": {
+  "Lesser Sentinel Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
     "tier": "Base",
-    "name": "Lesser Thurible Charm",
-    "power": 2,
+    "name": "Lesser Sentinel Charm",
+    "power": 1,
     "base_item": "Glowstone Dust",
     "release_status": "public",
     "stats": {
-      "thurible_procession_damage_amplifier_percent": {
+      "keeper_virtue_health_flat": {
         "locked": false,
         "value": 3
       }
@@ -31572,7 +31635,7 @@
       "impact": 3,
       "knockback": 4,
       "sweeping_edge": 4,
-      "unbreaking": 60,
+      "unbreakable": 1,
       "attack_speed_base": 1,
       "attack_damage_base": 28
     },
@@ -31597,7 +31660,7 @@
       "impact": 4,
       "knockback": 4,
       "sweeping_edge": 4,
-      "unbreaking": 70,
+      "unbreakable": 1,
       "attack_damage_base": 28.5,
       "attack_speed_base": 1
     },
@@ -33333,7 +33396,7 @@
     "type": "Chestplate",
     "stats": {
       "inure": 1,
-      "magic_protection": 2,
+      "magic_protection": 1,
       "melee_protection": 1,
       "regicide": 3,
       "unbreakable": 1,
@@ -33357,7 +33420,7 @@
     "type": "Chestplate",
     "stats": {
       "inure": 1,
-      "magic_protection": 2,
+      "magic_protection": 1,
       "melee_protection": 1,
       "regicide": 3,
       "unbreakable": 1,
@@ -38059,6 +38122,7 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "magic_protection": 1,
       "unbreakable": 1,
       "max_health_flat": 6,
       "knockback_resistance_flat": 2,
@@ -38082,6 +38146,7 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "magic_protection": 2,
       "unbreakable": 1,
       "max_health_flat": 6,
       "knockback_resistance_flat": 2,
@@ -38105,6 +38170,7 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "magic_protection": 2,
       "unbreakable": 1,
       "max_health_flat": 7,
       "knockback_resistance_flat": 3,
@@ -38128,6 +38194,7 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "magic_protection": 2,
       "unbreakable": 1,
       "max_health_flat": 8,
       "knockback_resistance_flat": 3,
@@ -38151,12 +38218,13 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "magic_protection": 2,
       "sustenance": 1,
       "unbreakable": 1,
       "max_health_flat": 8,
       "knockback_resistance_flat": 3,
-      "thorns_flat": 5,
-      "agility": 6.5
+      "agility": 6.5,
+      "thorns_flat": 5
     },
     "lore": "The Mycelia distilled the nearby cave crystals into\npure, life-granting mana. Only through this process\ncould they create more of their own."
   },
@@ -39046,17 +39114,13 @@
     "base_item": "Green Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "enchanted_prayer_attack_range_percent": {
+      "hallowed_beam_seal_radius_percent": {
         "locked": false,
-        "value": 50
+        "value": 35
       },
-      "enchanted_prayer_range_percent": {
+      "hallowed_beam_healing_percent": {
         "locked": false,
-        "value": 50
-      },
-      "enchanted_prayer_damage_percent": {
-        "locked": false,
-        "value": -25
+        "value": -40
       }
     },
     "type": "Charm",
@@ -42350,12 +42414,12 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "adrenaline": 4,
+      "adrenaline": 3,
       "magic_fragility": 1,
       "mending": 1,
       "projectile_fragility": 1,
-      "magic_damage_percent": 25,
-      "agility": 9
+      "agility": 10,
+      "magic_damage_percent": 22
     },
     "lore": "And all of a sudden, the breathing invaded.\nYou can hear it crawling into your head.\nBegging won't help now, it won't stop."
   },
@@ -45480,7 +45544,7 @@
       "ice_aspect": 1,
       "regicide": 1,
       "slayer": 2,
-      "sweeping_edge": 1,
+      "sweeping_edge": 2,
       "unbreaking": 5,
       "attack_speed_base": 1.3,
       "speed_percent": 10,
@@ -45508,7 +45572,7 @@
       "ice_aspect": 1,
       "regicide": 1,
       "slayer": 2,
-      "sweeping_edge": 1,
+      "sweeping_edge": 2,
       "unbreaking": 5,
       "attack_speed_base": 1.3,
       "speed_percent": 10,
@@ -45536,7 +45600,7 @@
       "ice_aspect": 1,
       "regicide": 1,
       "slayer": 2,
-      "sweeping_edge": 2,
+      "sweeping_edge": 3,
       "unbreaking": 6,
       "attack_speed_base": 1.3,
       "speed_percent": 10,
@@ -45564,7 +45628,7 @@
       "ice_aspect": 1,
       "regicide": 1,
       "slayer": 2,
-      "sweeping_edge": 2,
+      "sweeping_edge": 3,
       "unbreaking": 7,
       "speed_percent": 15,
       "attack_speed_base": 1.3,
@@ -48887,11 +48951,11 @@
     "stats": {
       "decay": 8,
       "earth_aspect": 2,
-      "first_strike": 1,
-      "unbreaking": 5,
+      "quake": 1,
+      "unbreaking": 7,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 15.5
     },
     "lore": "Venomous fangs may appear in Lycans\nin the wake of rare mutations. In life,\nthey defend their pack fiercely. But in\ndeath, their fangs may yet be used\nfor something far more ominous..."
   },
@@ -48914,11 +48978,11 @@
     "stats": {
       "decay": 10,
       "earth_aspect": 2,
-      "first_strike": 1,
-      "unbreaking": 6,
+      "quake": 1,
+      "unbreaking": 7,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 15
+      "attack_damage_base": 16
     },
     "lore": "Venomous fangs may appear in Lycans\nin the wake of rare mutations. In life,\nthey defend their pack fiercely. But in\ndeath, their fangs may yet be used\nfor something far more ominous..."
   },
@@ -48941,11 +49005,11 @@
     "stats": {
       "decay": 12,
       "earth_aspect": 2,
-      "first_strike": 2,
+      "quake": 2,
       "unbreaking": 7,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 15
+      "attack_damage_base": 16
     },
     "lore": "Venomous fangs may appear in Lycans\nin the wake of rare mutations. In life,\nthey defend their pack fiercely. But in\ndeath, their fangs may yet be used\nfor something far more ominous..."
   },
@@ -51018,6 +51082,27 @@
     },
     "lore": "The ability to do."
   },
+  "Explosive Transcendent Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Transcendent Charm",
+    "power": 3,
+    "base_item": "Large Amethyst Bud",
+    "release_status": "public",
+    "stats": {
+      "ethereal_ascension_orb_radius_percent": {
+        "locked": false,
+        "value": 30
+      },
+      "ethereal_ascension_orb_buff_duration_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
   "Flickering Gem": {
     "location": "Zenith",
     "mmlore": [
@@ -51060,9 +51145,30 @@
     "base_item": "Large Amethyst Bud",
     "release_status": "public",
     "stats": {
-      "sanctified_armor_damage_percent": {
+      "sanctified_armor_resistance_percent": {
         "locked": false,
-        "value": 20
+        "value": 4
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
+  "Greater Transcendent Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Transcendent Charm",
+    "power": 2,
+    "base_item": "Large Amethyst Bud",
+    "release_status": "public",
+    "stats": {
+      "ethereal_ascension_orb_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "ethereal_ascension_orb_buff_duration_percent": {
+        "locked": false,
+        "value": 10
       }
     },
     "type": "Charm",
@@ -51095,9 +51201,30 @@
     "base_item": "Large Amethyst Bud",
     "release_status": "public",
     "stats": {
-      "sanctified_armor_damage_percent": {
+      "sanctified_armor_resistance_percent": {
         "locked": false,
-        "value": 10
+        "value": 2
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
+  "Lesser Transcendent Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Transcendent Charm",
+    "power": 1,
+    "base_item": "Large Amethyst Bud",
+    "release_status": "public",
+    "stats": {
+      "ethereal_ascension_orb_damage_percent": {
+        "locked": false,
+        "value": 5
+      },
+      "ethereal_ascension_orb_buff_duration_percent": {
+        "locked": false,
+        "value": 5
       }
     },
     "type": "Charm",
@@ -51124,17 +51251,17 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Sedated Consecrated Charm",
-    "power": 3,
+    "power": 2,
     "base_item": "Large Amethyst Bud",
     "release_status": "public",
     "stats": {
-      "sanctified_armor_damage_percent": {
+      "sanctified_armor_resistance_percent": {
         "locked": false,
-        "value": 10
+        "value": 2
       },
       "sanctified_armor_slowness_amplifier_percent": {
         "locked": false,
-        "value": 10
+        "value": 15
       }
     },
     "type": "Charm",
@@ -51173,6 +51300,27 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
+  "Swift Transcendent Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Transcendent Charm",
+    "power": 3,
+    "base_item": "Large Amethyst Bud",
+    "release_status": "public",
+    "stats": {
+      "ethereal_ascension_orb_travel_speed_percent": {
+        "locked": false,
+        "value": 35
+      },
+      "ethereal_ascension_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
+  },
   "Sailor's Rope": {
     "location": "Marina Noir",
     "region": "Ring",
@@ -51182,17 +51330,17 @@
     "base_item": "Lead",
     "release_status": "public",
     "stats": {
+      "hallowed_beam_stun_duration_flat": {
+        "locked": false,
+        "value": 1.5
+      },
       "hallowed_beam_resistance_percent": {
         "locked": false,
-        "value": 25
+        "value": 10
       },
-      "hallowed_beam_resistance_duration_percent": {
+      "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": 50
-      },
-      "hallowed_beam_charge_flat": {
-        "locked": true,
-        "value": -2
+        "value": -15
       }
     },
     "type": "Charm",
@@ -57165,7 +57313,8 @@
       "ethereal": 1,
       "unbreaking": 15,
       "thorns_flat": 6,
-      "agility": 6
+      "agility": 5.5,
+      "attack_speed_percent": 10
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -57188,7 +57337,8 @@
       "ethereal": 1,
       "unbreaking": 17,
       "thorns_flat": 7,
-      "agility": 6.5
+      "agility": 6,
+      "attack_speed_percent": 12
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -57211,7 +57361,8 @@
       "ethereal": 1,
       "unbreaking": 25,
       "thorns_flat": 8,
-      "agility": 7.5
+      "agility": 7,
+      "attack_speed_percent": 12
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -57234,7 +57385,8 @@
       "ethereal": 1,
       "unbreaking": 30,
       "thorns_flat": 9,
-      "agility": 8
+      "attack_speed_percent": 15,
+      "agility": 7.5
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -57254,11 +57406,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 35,
-      "melee_protection": 1,
       "ethereal": 1,
-      "thorns_flat": 10,
-      "agility": 8
+      "melee_protection": 1,
+      "unbreaking": 35,
+      "attack_speed_percent": 15,
+      "agility": 7.5,
+      "thorns_flat": 10
     },
     "lore": "The fungal infection burrowed into\nevery part of the village. From the\nclothing to the minds of its inhabitants,\nall were tainted by what the Mycelia had done."
   },
@@ -62332,7 +62485,7 @@
       "max_health_flat": -4,
       "projectile_damage_percent": 30,
       "thorns_flat": 3,
-      "armor": 10.5
+      "armor": 11
     },
     "lore": "The deepest-rooted Mycelia\nwere even more embroiled with\nZealotry than the Amanita, willing\nto sacrifice anything for their God."
   },
@@ -62356,8 +62509,8 @@
       "unbreaking": 30,
       "max_health_flat": -4,
       "thorns_flat": 3,
-      "armor": 10.5,
-      "projectile_damage_percent": 35
+      "projectile_damage_percent": 35,
+      "armor": 11
     },
     "lore": "The deepest-rooted Mycelia\nwere even more embroiled with\nZealotry than the Amanita, willing\nto sacrifice anything for their God."
   },
@@ -62380,9 +62533,9 @@
       "blast_protection": 2,
       "unbreaking": 35,
       "max_health_flat": -4,
-      "thorns_flat": 3,
-      "armor": 10.5,
-      "projectile_damage_percent": 40
+      "projectile_damage_percent": 40,
+      "armor": 11,
+      "thorns_flat": 3
     },
     "lore": "The deepest-rooted Mycelia\nwere even more embroiled with\nZealotry than the Amanita, willing\nto sacrifice anything for their God."
   },
@@ -64927,11 +65080,11 @@
     "stats": {
       "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": 100
+        "value": 65
       },
-      "hallowed_beam_charge_flat": {
+      "hallowed_beam_distance_percent": {
         "locked": false,
-        "value": -1
+        "value": -65
       }
     },
     "type": "Charm",
@@ -65662,17 +65815,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Emerald Lens",
-    "power": 2,
+    "power": 3,
     "base_item": "Lime Stained Glass Pane",
     "release_status": "public",
     "stats": {
+      "hallowed_beam_cooldown_percent": {
+        "locked": false,
+        "value": -25
+      },
+      "hallowed_beam_healing_percent": {
+        "locked": false,
+        "value": -25
+      },
       "hallowed_beam_charge_flat": {
         "locked": false,
-        "value": 1
-      },
-      "hallowed_beam_damage_percent": {
-        "locked": false,
-        "value": -15
+        "value": -1
       }
     },
     "type": "Charm",
@@ -66392,15 +66549,15 @@
       },
       "counter_strike_damage_reduction_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       },
       "counter_strike_absorption_damage_reduction_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       },
       "counter_strike_damage_percent": {
         "locked": false,
-        "value": -20
+        "value": -12.5
       }
     },
     "type": "Charm",
@@ -70366,11 +70523,11 @@
     "stats": {
       "smokescreen_enhancement_damage_percent": {
         "locked": false,
-        "value": 100
+        "value": 60
       },
       "smokescreen_range_percent": {
         "locked": false,
-        "value": -35
+        "value": -30
       }
     },
     "type": "Charm",
@@ -70907,9 +71064,9 @@
         "locked": false,
         "value": 10
       },
-      "choir_bells_debuff_duration_percent": {
+      "choir_bells_range_percent": {
         "locked": false,
-        "value": -20
+        "value": -40
       }
     },
     "type": "Charm",
@@ -71718,7 +71875,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Sustaining Sacrosant Charm",
-    "power": 4,
+    "power": 3,
     "base_item": "Phantom Membrane",
     "release_status": "public",
     "stats": {
@@ -71728,7 +71885,7 @@
       },
       "hallowed_beam_healing_percent": {
         "locked": false,
-        "value": 50
+        "value": 30
       }
     },
     "type": "Charm",
@@ -72993,12 +73150,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "melee_protection": 3,
-      "intuition": 1,
       "blast_protection": 3,
+      "intuition": 1,
+      "melee_protection": 3,
       "thorns_flat": 8,
-      "armor": 4,
-      "agility": 4
+      "armor": 4.5,
+      "agility": 4.5
     },
     "lore": "Every age, it seems, is tainted by\nthe greed of men."
   },
@@ -73016,12 +73173,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "melee_protection": 3,
-      "intuition": 1,
       "blast_protection": 3,
+      "intuition": 1,
+      "melee_protection": 3,
       "thorns_flat": 10,
-      "armor": 4.5,
-      "agility": 4.5
+      "armor": 5,
+      "agility": 5
     },
     "lore": "Every age, it seems, is tainted by\nthe greed of men."
   },
@@ -73039,12 +73196,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "melee_protection": 3,
-      "intuition": 1,
       "blast_protection": 3,
-      "thorns_flat": 10,
-      "agility": 5,
-      "armor": 5
+      "intuition": 1,
+      "melee_protection": 3,
+      "armor": 5.5,
+      "agility": 5.5,
+      "thorns_flat": 10
     },
     "lore": "Every age, it seems, is tainted by\nthe greed of men."
   },
@@ -73483,7 +73640,7 @@
       "stamina": 1,
       "max_health_flat": -2,
       "thorns_flat": 2,
-      "armor": 7.5
+      "armor": 8
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -73506,7 +73663,7 @@
       "stamina": 2,
       "max_health_flat": -2,
       "thorns_flat": 2,
-      "armor": 8
+      "armor": 8.5
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -73529,7 +73686,7 @@
       "stamina": 2,
       "max_health_flat": -2,
       "thorns_flat": 2,
-      "armor": 8.5
+      "armor": 9
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -73552,7 +73709,7 @@
       "stamina": 2,
       "max_health_flat": -2,
       "thorns_flat": 2,
-      "armor": 8.5
+      "armor": 9
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -73576,7 +73733,7 @@
       "stamina": 2,
       "max_health_flat": -2,
       "thorns_flat": 2,
-      "armor": 8.5
+      "armor": 9
     },
     "lore": "While the Mycelia specialized in artificial\ntoxins, their natural protections were\nequally potent."
   },
@@ -75057,9 +75214,9 @@
     "type": "Helmet",
     "stats": {
       "ineptitude": 1,
-      "inure": 1,
       "projectile_protection": 2,
       "reflexes": 1,
+      "shielding": 1,
       "attack_damage_percent": 50,
       "armor": 4
     },
@@ -75082,9 +75239,9 @@
     "type": "Helmet",
     "stats": {
       "ineptitude": 1,
-      "inure": 1,
       "projectile_protection": 2,
       "reflexes": 1,
+      "shielding": 1,
       "attack_damage_percent": 50,
       "armor": 5
     },
@@ -82383,11 +82540,11 @@
     "stats": {
       "illuminate_damage_percent": {
         "locked": false,
-        "value": 125
+        "value": 100
       },
       "illuminate_radius_percent": {
         "locked": false,
-        "value": 75
+        "value": 60
       },
       "illuminate_max_range_percent": {
         "locked": false,
@@ -84818,13 +84975,13 @@
     "base_item": "Red Carpet",
     "release_status": "public",
     "stats": {
-      "thurible_procession_speed_amplifier_percent": {
+      "keeper_virtue_speed_amplifier_percent": {
         "locked": false,
         "value": 10
       },
-      "thurible_procession_attack_speed_amplifier_percent": {
+      "ethereal_ascension_throw_rate_amplifier_percent": {
         "locked": false,
-        "value": 5
+        "value": 10
       }
     },
     "type": "Charm",
@@ -85320,11 +85477,11 @@
     "base_item": "Red Mushroom",
     "release_status": "public",
     "stats": {
-      "heavenly_boon_absorption_amplifier_percent": {
-        "locked": false,
-        "value": 10
-      },
       "heavenly_boon_resistance_amplifier_percent": {
+        "locked": false,
+        "value": 5
+      },
+      "heavenly_boon_absorption_amplifier_percent": {
         "locked": false,
         "value": 10
       },
@@ -85520,7 +85677,7 @@
       },
       "divine_justice_self_heal_percent": {
         "locked": false,
-        "value": -50
+        "value": -40
       }
     },
     "type": "Charm",
@@ -86715,13 +86872,13 @@
     "base_item": "Scute",
     "release_status": "public",
     "stats": {
-      "thurible_procession_cooldown_percent": {
+      "keeper_virtue_regeneration_percent": {
         "locked": false,
-        "value": -25
+        "value": 20
       },
-      "thurible_procession_heal_percent": {
+      "keeper_virtue_cooldown_percent": {
         "locked": false,
-        "value": 50
+        "value": -20
       }
     },
     "type": "Charm",
@@ -88990,8 +89147,8 @@
       "magic_protection": 2,
       "unbreaking": 5,
       "thorns_flat": 2,
-      "agility": 4.5,
-      "attack_damage_percent": 50
+      "attack_damage_percent": 50,
+      "agility": 5
     },
     "lore": "The land trapped here is not alive, but it's\nnot... not alive. There is something more here,\nevery pore on every plant, watching."
   },
@@ -89014,9 +89171,9 @@
       "feather_falling": 3,
       "magic_protection": 3,
       "unbreaking": 6,
-      "thorns_flat": 2,
-      "agility": 5,
-      "attack_damage_percent": 50
+      "attack_damage_percent": 50,
+      "agility": 5.5,
+      "thorns_flat": 2
     },
     "lore": "The land trapped here is not alive, but it's\nnot... not alive. There is something more here,\nevery pore on every plant, watching."
   },
@@ -91565,6 +91722,60 @@
     "stats": {},
     "lore": "Definitely not from a snowcone..."
   },
+  "Versatile Vase-3": {
+    "location": "Overworld3",
+    "masterwork": "3",
+    "mmlore": [
+      "Such craftmanship is a tool to be used at",
+      "the maker's discretion. Whether that be",
+      "artistry, or smashing someone's skull in."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Versatile Vase",
+    "base_item": "Snowball",
+    "release_status": "public",
+    "type": "Snowball",
+    "stats": {
+      "earth_aspect": 3,
+      "impact": 2,
+      "infinity": 1,
+      "oversized": 1,
+      "punch": 3,
+      "projectile_speed_base": 0.7,
+      "speed_percent": -10,
+      "throw_rate_base": 0.9,
+      "projectile_damage_base": 30
+    },
+    "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
+  },
+  "Versatile Vase-4": {
+    "location": "Overworld3",
+    "masterwork": "4",
+    "mmlore": [
+      "Such craftmanship is a tool to be used at",
+      "the maker's discretion. Whether that be",
+      "artistry, or smashing someone's skull in."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Versatile Vase",
+    "base_item": "Snowball",
+    "release_status": "public",
+    "type": "Snowball",
+    "stats": {
+      "earth_aspect": 3,
+      "impact": 3,
+      "infinity": 1,
+      "oversized": 1,
+      "punch": 3,
+      "projectile_speed_base": 0.7,
+      "speed_percent": -10,
+      "projectile_damage_base": 30,
+      "throw_rate_base": 0.9
+    },
+    "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
+  },
   "Angler's Lure": {
     "location": "Depths",
     "mmlore": [
@@ -91596,21 +91807,21 @@
     "base_item": "Soul Lantern",
     "release_status": "public",
     "stats": {
-      "hallowed_beam_cooldown_percent": {
+      "keeper_virtue_health_flat": {
         "locked": false,
-        "value": -40
+        "value": 10
       },
-      "hallowed_beam_stun_duration_percent": {
+      "keeper_virtue_attack_delay_percent": {
         "locked": false,
-        "value": -100
+        "value": -60
       },
-      "hallowed_beam_healing_percent": {
+      "keeper_virtue_damage_percent": {
         "locked": false,
-        "value": -15
+        "value": -30
       },
-      "hallowed_beam_resistance_percent": {
+      "keeper_virtue_healing_percent": {
         "locked": false,
-        "value": -15
+        "value": -30
       }
     },
     "type": "Charm",
@@ -104690,9 +104901,8 @@
   "Apotheosis Spear (Fire)": {
     "location": "Celsian Isles",
     "mmlore": [
-      "A replica of a cursed but powerful",
-      "spear. Small wisps of flame dance",
-      "around the tip."
+      "A replica of a cursed but powerful spear.",
+      "Small wisps of flame dance around the tip."
     ],
     "region": "Isles",
     "tier": "Unique",
@@ -104701,15 +104911,15 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 2,
       "fire_aspect": 2,
+      "unbreaking": 2,
       "attack_damage_base": 12,
       "attack_speed_base": 1.3,
       "projectile_damage_base": 24,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 0.8
     },
-    "lore": "A replica of a cursed but powerful\nspear. Small wisps of flame dance\naround the tip."
+    "lore": "A replica of a cursed but powerful spear.\nSmall wisps of flame dance around the tip."
   },
   "Apotheosis Spear (Ice)": {
     "location": "Celsian Isles",
@@ -104737,9 +104947,8 @@
   "Apotheosis Spear (Thunder)": {
     "location": "Celsian Isles",
     "mmlore": [
-      "A replica of a cursed but powerful",
-      "spear. Static energy surrounds",
-      "you as you hold it."
+      "A replica of a cursed but powerful spear.",
+      "Static energy surrounds you as you hold it."
     ],
     "region": "Isles",
     "tier": "Unique",
@@ -104757,7 +104966,7 @@
       "speed_percent": 10,
       "projectile_damage_base": 23
     },
-    "lore": "A replica of a cursed but powerful\nspear. Static energy surrounds\nyou as you hold it."
+    "lore": "A replica of a cursed but powerful spear.\nStatic energy surrounds you as you hold it."
   },
   "Blightbane": {
     "location": "Magenta",
@@ -105143,10 +105352,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 3,
-      "projectile_speed_base": 0.7,
+      "punch": 1,
+      "sniper": 2,
+      "thunder_aspect": 2,
+      "unbreaking": 4,
       "throw_rate_base": 1.5,
-      "projectile_damage_base": 13
+      "projectile_damage_base": 12,
+      "projectile_speed_base": 1.2,
+      "armor": 1
     },
     "lore": "The mightiest of Highwatch's guards bear\na weapon like this pike, used to ward off\nmonstrosities from a distance."
   },
@@ -106793,21 +107006,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Earthquake Staff",
-    "power": 2,
+    "power": 3,
     "base_item": "Warped Fungus On A Stick",
     "release_status": "public",
     "stats": {
       "brute_force_radius_percent": {
-        "locked": true,
+        "locked": false,
         "value": 75
       },
       "brute_force_knockback_percent": {
         "locked": false,
-        "value": 25
-      },
-      "brute_force_wave_delay_percent": {
-        "locked": false,
-        "value": 75
+        "value": -30
       }
     },
     "type": "Charm",
@@ -107192,119 +107401,6 @@
     "stats": {},
     "lore": "Quetzalcoatl sees all.\n* Quest Item *\n#Q36I05"
   },
-  "Explosive Orison Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Explosive Orison Charm",
-    "power": 2,
-    "base_item": "White Glazed Terracotta",
-    "release_status": "public",
-    "stats": {
-      "enchanted_prayer_healing_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "enchanted_prayer_range_percent": {
-        "locked": false,
-        "value": 50
-      },
-      "enchanted_prayer_attack_range_percent": {
-        "locked": false,
-        "value": 50
-      }
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
-  "Focused Orison Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Orison Charm",
-    "power": 3,
-    "base_item": "White Glazed Terracotta",
-    "release_status": "public",
-    "stats": {
-      "enchanted_prayer_damage_percent": {
-        "locked": false,
-        "value": 35
-      },
-      "enchanted_prayer_healing_percent": {
-        "locked": false,
-        "value": 15
-      }
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
-  "Greater Orison Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Orison Charm",
-    "power": 2,
-    "base_item": "White Glazed Terracotta",
-    "release_status": "public",
-    "stats": {
-      "enchanted_prayer_damage_percent": {
-        "locked": false,
-        "value": 20
-      },
-      "enchanted_prayer_healing_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
-  "Lesser Orison Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Orison Charm",
-    "power": 1,
-    "base_item": "White Glazed Terracotta",
-    "release_status": "public",
-    "stats": {
-      "enchanted_prayer_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "enchanted_prayer_healing_percent": {
-        "locked": false,
-        "value": 5
-      }
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
-  "Swift Orison Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Orison Charm",
-    "power": 2,
-    "base_item": "White Glazed Terracotta",
-    "release_status": "public",
-    "stats": {
-      "enchanted_prayer_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "enchanted_prayer_healing_percent": {
-        "locked": false,
-        "value": 5
-      },
-      "enchanted_prayer_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
   "Rubiks' Prism": {
     "location": "Storied Skin",
     "mmlore": [
@@ -107644,13 +107740,13 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "enchanted_prayer_cooldown_percent": {
+      "hallowed_beam_seal_damage_percent": {
         "locked": false,
-        "value": -40
+        "value": 100
       },
-      "enchanted_prayer_healing_percent": {
+      "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": -50
+        "value": -55
       }
     },
     "type": "Charm",
