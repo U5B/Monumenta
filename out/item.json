@@ -9988,15 +9988,15 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Automatic Distillery",
-    "power": 3,
+    "power": 1,
     "base_item": "Cauldron",
     "release_status": "public",
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 10
+        "value": 80
       },
-      "heavenly_boon_radius_percent": {
+      "heavenly_boon_cooldown_percent": {
         "locked": false,
         "value": 50
       }
@@ -23013,19 +23013,23 @@
     "stats": {
       "ethereal_ascension_orb_damage_percent": {
         "locked": false,
-        "value": 45
+        "value": 30
       },
-      "ethereal_ascension_orb_radius_percent": {
+      "ethereal_ascension_orb_travel_speed_percent": {
         "locked": false,
-        "value": 65
+        "value": 40
       },
       "ethereal_ascension_max_duration_extension_flat": {
         "locked": false,
-        "value": 3
+        "value": 6
       },
-      "ethereal_ascension_cooldown_percent": {
+      "ethereal_ascension_duration_extension_flat": {
+        "locked": false,
+        "value": 0.5
+      },
+      "ethereal_ascension_duration_percent": {
         "locked": true,
-        "value": 50
+        "value": -50
       }
     },
     "type": "Charm",
@@ -30376,7 +30380,11 @@
       },
       "keeper_virtue_action_range_percent": {
         "locked": false,
-        "value": 50
+        "value": 35
+      },
+      "keeper_virtue_detection_range_percent": {
+        "locked": false,
+        "value": 35
       }
     },
     "type": "Charm",
@@ -30493,9 +30501,13 @@
     "base_item": "Glowstone Dust",
     "release_status": "public",
     "stats": {
-      "keeper_virtue_health_flat": {
+      "keeper_virtue_damage_percent": {
         "locked": false,
-        "value": 6
+        "value": 20
+      },
+      "keeper_virtue_healing_percent": {
+        "locked": false,
+        "value": 10
       }
     },
     "type": "Charm",
@@ -30552,9 +30564,13 @@
     "base_item": "Glowstone Dust",
     "release_status": "public",
     "stats": {
-      "keeper_virtue_health_flat": {
+      "keeper_virtue_damage_percent": {
         "locked": false,
-        "value": 3
+        "value": 10
+      },
+      "keeper_virtue_healing_percent": {
+        "locked": false,
+        "value": 5
       }
     },
     "type": "Charm",
@@ -39110,17 +39126,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Explosive Component",
-    "power": 1,
+    "power": 2,
     "base_item": "Green Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "hallowed_beam_seal_radius_percent": {
+      "ethereal_ascension_orb_radius_percent": {
         "locked": false,
-        "value": 35
+        "value": 65
       },
-      "hallowed_beam_healing_percent": {
+      "ethereal_ascension_orb_damage_amplifier_percent": {
         "locked": false,
-        "value": -40
+        "value": 10
+      },
+      "ethereal_ascension_orb_damage_percent": {
+        "locked": false,
+        "value": -20
       }
     },
     "type": "Charm",
@@ -51312,6 +51332,10 @@
       "ethereal_ascension_orb_travel_speed_percent": {
         "locked": false,
         "value": 35
+      },
+      "ethereal_ascension_orb_damage_percent": {
+        "locked": false,
+        "value": 5
       },
       "ethereal_ascension_cooldown_percent": {
         "locked": false,
@@ -65080,11 +65104,15 @@
     "stats": {
       "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": 65
+        "value": 40
       },
       "hallowed_beam_distance_percent": {
         "locked": false,
-        "value": -65
+        "value": -50
+      },
+      "hallowed_beam_stun_duration_percent": {
+        "locked": false,
+        "value": -50
       }
     },
     "type": "Charm",
@@ -65815,7 +65843,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Emerald Lens",
-    "power": 3,
+    "power": 2,
     "base_item": "Lime Stained Glass Pane",
     "release_status": "public",
     "stats": {
@@ -71645,7 +71673,7 @@
     "stats": {
       "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 30
       },
       "hallowed_beam_healing_percent": {
         "locked": false,
@@ -75313,18 +75341,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
-  },
-  "Teal Wool": {
-    "location": "Teal",
-    "region": "Isles",
-    "tier": "Trophy",
-    "name": "Teal Wool",
-    "base_item": "Player Head",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "noglint": 1
-    }
   },
   "Teal Wool Key": {
     "location": "Celsian Isles",
@@ -84975,13 +84991,17 @@
     "base_item": "Red Carpet",
     "release_status": "public",
     "stats": {
-      "keeper_virtue_speed_amplifier_percent": {
+      "ethereal_ascension_cooldown_percent": {
         "locked": false,
-        "value": 10
+        "value": -30
       },
-      "ethereal_ascension_throw_rate_amplifier_percent": {
+      "ethereal_ascension_duration_percent": {
         "locked": false,
-        "value": 10
+        "value": -25
+      },
+      "ethereal_ascension_orb_buff_duration_percent": {
+        "locked": false,
+        "value": -20
       }
     },
     "type": "Charm",
@@ -91744,8 +91764,8 @@
       "punch": 3,
       "projectile_speed_base": 0.7,
       "speed_percent": -10,
-      "throw_rate_base": 0.9,
-      "projectile_damage_base": 30
+      "projectile_damage_base": 28,
+      "throw_rate_base": 0.8
     },
     "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
   },
@@ -91771,8 +91791,8 @@
       "punch": 3,
       "projectile_speed_base": 0.7,
       "speed_percent": -10,
-      "projectile_damage_base": 30,
-      "throw_rate_base": 0.9
+      "projectile_damage_base": 28,
+      "throw_rate_base": 0.8
     },
     "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
   },
@@ -103116,6 +103136,21 @@
     "stats": {},
     "lore": "The most valuable coin from the\nViridian Empire."
   },
+  "Author Medal": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "A medal of honor granted to you",
+      "for your prowess in a race."
+    ],
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Author Medal",
+    "base_item": "Sunflower",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A medal of honor granted to you\nfor your prowess in a race."
+  },
   "Carnival Token": {
     "location": "Carnival",
     "region": "Isles",
@@ -107736,7 +107771,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Poisoned Wisteria",
-    "power": 2,
+    "power": 3,
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
@@ -107744,9 +107779,13 @@
         "locked": false,
         "value": 100
       },
+      "hallowed_beam_seal_radius_percent": {
+        "locked": false,
+        "value": 35
+      },
       "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": -55
+        "value": -40
       }
     },
     "type": "Charm",
