@@ -14109,9 +14109,9 @@
   "Crown of Chains": {
     "location": "Rush",
     "mmlore": [
-      "A crown woven from chains. Adorned",
-      "with Lilacs and Roses, it was rusted",
-      "in the Spring rains."
+      "It needed a name for itself. It needed",
+      "a name for them, but it knew not of the",
+      "concept of language."
     ],
     "region": "Isles",
     "tier": "Artifact",
@@ -14121,12 +14121,12 @@
     "type": "Helmet",
     "stats": {
       "curse_of_anemia": 2,
-      "unbreaking": 3,
       "inure": 2,
+      "unbreaking": 3,
       "max_health_flat": -2,
       "armor": 9.5
     },
-    "lore": "A crown woven from chains. Adorned\nwith Lilacs and Roses, it was rusted\nin the Spring rains."
+    "lore": "It needed a name for itself. It needed\na name for them, but it knew not of the\nconcept of language."
   },
   "Crown of Flames": {
     "location": "Isles Overworld",
@@ -16284,6 +16284,32 @@
       "armor": 10.5
     },
     "lore": "The mighty fist grasping the Wolfswood would serve\nas fuel for its people's passion. When a flower\nsurvives being crushed, it grows back ever stronger."
+  },
+  "Rose Touch": {
+    "location": "Rush",
+    "mmlore": [
+      "The Fomori scoured the plane, seeking",
+      "the source of the tremor. The Danann",
+      "sought answers from the strands of",
+      "fate. But only one found the power",
+      "that laid silent in that grafted temple."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Rose Touch",
+    "base_item": "Chainmail Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "aptitude": 1,
+      "magic_protection": 1,
+      "mending": 1,
+      "unbreaking": 1,
+      "magic_damage_percent": 15,
+      "projectile_damage_percent": 15,
+      "armor": 5.5
+    },
+    "lore": "The Fomori scoured the plane, seeking\nthe source of the tremor. The Danann\nsought answers from the strands of\nfate. But only one found the power\nthat laid silent in that grafted temple."
   },
   "Rusted Adamantium Skin (legs)": {
     "location": "Lowtide Smuggler",
@@ -42993,8 +43019,11 @@
   "Winter's March": {
     "location": "Rush",
     "mmlore": [
-      "He gazed upon the warring tundra, and prayed",
-      "his gift would finally end it all."
+      "Tears would appear in this new world,",
+      "granting him vision of far off lands",
+      "that held more promise than his own. His",
+      "being yearned for them, but for those",
+      "tears in reality, he was too mighty to cross."
     ],
     "region": "Isles",
     "tier": "Artifact",
@@ -43004,13 +43033,13 @@
     "type": "Boots",
     "stats": {
       "feather_falling": 3,
-      "unbreaking": 5,
       "inure": 1,
       "stamina": 1,
+      "unbreaking": 5,
       "attack_speed_percent": 10,
       "armor": 6
     },
-    "lore": "He gazed upon the warring tundra, and prayed\nhis gift would finally end it all."
+    "lore": "Tears would appear in this new world,\ngranting him vision of far off lands\nthat held more promise than his own. His\nbeing yearned for them, but for those\ntears in reality, he was too mighty to cross."
   },
   "Adept's Raiment-1": {
     "location": "SKT",
@@ -53514,6 +53543,31 @@
       "agility": 6.5
     },
     "lore": "You stand on the shoulders of those\nwho came before you. Their experiences\nnow carve the path you are destined\nto travel."
+  },
+  "Scarlet Shift": {
+    "location": "Rush",
+    "mmlore": [
+      "After many aeons, a shock was felt",
+      "across existence. A power similar to",
+      "their world had burrowed its way in,",
+      "fleeing a realm in which it couldn't exist."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Scarlet Shift",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "melee_protection": 1,
+      "regeneration": 1,
+      "sustenance": 1,
+      "unbreaking": 12,
+      "speed_percent": 10,
+      "magic_damage_percent": 10,
+      "agility": 5
+    },
+    "lore": "After many aeons, a shock was felt\nacross existence. A power similar to\ntheir world had burrowed its way in,\nfleeing a realm in which it couldn't exist."
   },
   "Scholar's Shoes": {
     "location": "Forum",
@@ -74378,6 +74432,28 @@
     "stats": {},
     "lore": "The tattered teddy bear of a\nchild, stained with blood. The\nmouth is distorted into fangs,\nand the bear looks oddly hungry.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Mask of Cacophony": {
+    "location": "Rush",
+    "mmlore": [
+      "In time, it began to perceive that",
+      "which should not be understood. The",
+      "strands that bind the very fabric of",
+      "causality. It saw... Fate."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Mask of Cacophony",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "life_drain": 1,
+      "technique": 1,
+      "attack_damage_percent": 20,
+      "armor": 6
+    },
+    "lore": "In time, it began to perceive that\nwhich should not be understood. The\nstrands that bind the very fabric of\ncausality. It saw... Fate."
+  },
   "Mask of the Father": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -91824,6 +91900,30 @@
     },
     "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
   },
+  "Void Heart": {
+    "location": "Rush",
+    "mmlore": [
+      "For time immemorial, worlds were born",
+      "from the entropic decay of that abyss",
+      "which lingers at the edge of one's fears."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Void Heart",
+    "base_item": "Snowball",
+    "release_status": "public",
+    "type": "Snowball",
+    "stats": {
+      "decay": 2,
+      "infinity": 1,
+      "point_blank": 2,
+      "regicide": 2,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 0.8,
+      "projectile_damage_base": 9
+    },
+    "lore": "For time immemorial, worlds were born\nfrom the entropic decay of that abyss\nwhich lingers at the edge of one's fears."
+  },
   "Angler's Lure": {
     "location": "Depths",
     "mmlore": [
@@ -98032,9 +98132,11 @@
   "Demon's Scar (stone_hoe)": {
     "location": "Rush",
     "mmlore": [
-      "The heart is still and the blood",
-      "runs cold. Its hatred however...",
-      "That will never die."
+      "Echoes danced in the vast abyss,",
+      "thoughts and ideas and dreams that",
+      "had long since died. From there, it",
+      "drew inspiration. In an ancient tongue,",
+      "they would be his Tuathan."
     ],
     "region": "Isles",
     "tier": "Artifact",
@@ -98043,14 +98145,14 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "sustenance": 1,
       "steadfast": 1,
+      "sustenance": 1,
       "unbreaking": 10,
       "attack_speed_base": 1.3,
       "magic_damage_percent": 10,
       "attack_damage_base": 14.5
     },
-    "lore": "The heart is still and the blood\nruns cold. Its hatred however...\nThat will never die."
+    "lore": "Echoes danced in the vast abyss,\nthoughts and ideas and dreams that\nhad long since died. From there, it\ndrew inspiration. In an ancient tongue,\nthey would be his Tuathan."
   },
   "Divine Harvestman's Scythe": {
     "location": "Divine Skin",
