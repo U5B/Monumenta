@@ -27026,14 +27026,16 @@
       "When thrown, it will track the",
       "location of the currently active",
       "Viridian Treasure chest.",
-      "<gray>Throw using <key:key.use/> while in main hand."
+      "<gray>Throw using <key:key.use/> while in main hand.",
+      "<gray><key:key.attack/> while in main hand for",
+      "<gray>information about the current cycle."
     ],
     "name": "Eye of Viridia",
     "base_item": "Ender Eye",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "When thrown, it will track the\nlocation of the currently active\nViridian Treasure chest.\nThrow using  while in main hand."
+    "lore": "When thrown, it will track the\nlocation of the currently active\nViridian Treasure chest.\nThrow using  while in main hand.\n while in main hand for\ninformation about the current cycle."
   },
   "Eye of the Storm": {
     "location": "Valley Overworld",
@@ -44150,10 +44152,10 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 5,
+      "first_strike": 2,
       "melee_protection": 2,
       "tempo": 1,
-      "first_strike": 2,
+      "unbreakable": 1,
       "agility": 6
     },
     "lore": "Patience - to hide and to wait.\nThat is the nature of the hunt."
@@ -61253,29 +61255,6 @@
     "stats": {},
     "lore": "It was only when the people of\nthe empire, whom he had so\ngreatly loved, were endangered,\nthat Almon finally began to act.\nHe quarreled with Pelias for years,\nbut nothing came of it. Until that final day.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
-  "Ad Astra": {
-    "location": "Delves",
-    "mmlore": [
-      "The outer layer of these strange greaves",
-      "have crystallized. Tougher than most metals...",
-      "Yet like the stars, majestic and graceful."
-    ],
-    "region": "Isles",
-    "tier": "Artifact",
-    "name": "Ad Astra",
-    "base_item": "Leather Leggings",
-    "release_status": "public",
-    "type": "Leggings",
-    "stats": {
-      "feather_falling": 3,
-      "unbreaking": 9,
-      "darksight": 1,
-      "shielding": 1,
-      "magic_damage_percent": 10,
-      "armor": 6
-    },
-    "lore": "The outer layer of these strange greaves\nhave crystallized. Tougher than most metals...\nYet like the stars, majestic and graceful."
-  },
   "Alchemist's Robe": {
     "location": "King's Valley",
     "region": "Valley",
@@ -74260,15 +74239,7 @@
   "Lyson's Head (head)": {
     "location": "Celsian Isles",
     "mmlore": [
-      "A ghastly reminder of political consequences.",
-      "",
-      "<gray>When in Off Hand:",
-      "<blue>+3 Max Health",
-      "<blue>+24% Attack Damage",
-      "",
-      "<gray>When on Head:",
-      "<blue>+3 Max Health",
-      "<blue>+12% Projectile Damage"
+      "A ghastly reminder of political consequences."
     ],
     "region": "Isles",
     "tier": "Unique",
@@ -74277,26 +74248,18 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "magic_protection": 2,
       "melee_protection": 2,
       "projectile_protection": 2,
-      "magic_protection": 2,
       "max_health_flat": 3,
       "projectile_damage_percent": 12
     },
-    "lore": "A ghastly reminder of political consequences.\n\nWhen in Off Hand:\n+3 Max Health\n+24% Attack Damage\n\nWhen on Head:\n+3 Max Health\n+12% Projectile Damage"
+    "lore": "A ghastly reminder of political consequences."
   },
   "Lyson's Head (offhand)": {
     "location": "Celsian Isles",
     "mmlore": [
-      "A ghastly reminder of political consequences.",
-      "",
-      "<gray>When in Off Hand:",
-      "<blue>+3 Max Health",
-      "<blue>+24% Attack Damage",
-      "",
-      "<gray>When on Head:",
-      "<blue>+3 Max Health",
-      "<blue>+12% Projectile Damage"
+      "A ghastly reminder of political consequences."
     ],
     "region": "Isles",
     "tier": "Unique",
@@ -74305,13 +74268,13 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "magic_protection": 2,
       "melee_protection": 2,
       "projectile_protection": 2,
-      "magic_protection": 2,
       "max_health_flat": 3,
       "attack_damage_percent": 24
     },
-    "lore": "A ghastly reminder of political consequences.\n\nWhen in Off Hand:\n+3 Max Health\n+24% Attack Damage\n\nWhen on Head:\n+3 Max Health\n+12% Projectile Damage"
+    "lore": "A ghastly reminder of political consequences."
   },
   "Magenta Fragment": {
     "location": "Magenta",
@@ -75435,7 +75398,9 @@
     "lore": "Grants access to dungeon:\nEchoes of Oblivion\nDifficulty : ☠☠☠☠☠"
   },
   "Terth Trophy": {
+    "location": "King's Valley",
     "mmlore": [
+      "<#ffffaa>Arena of Terth",
       "A tarnished trophy from",
       "the original Arena of Terth.",
       "A faded inscription near",
@@ -75443,12 +75408,14 @@
       "<#e0cccc>May your future fights",
       "<#e0cccc>be won with honor."
     ],
+    "region": "Valley",
+    "tier": "Trophy",
     "name": "Terth Trophy",
     "base_item": "Player Head",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A tarnished trophy from\nthe original Arena of Terth.\nA faded inscription near\nthe bottom reads:\nMay your future fights\nbe won with honor."
+    "lore": "Arena of Terth\nA tarnished trophy from\nthe original Arena of Terth.\nA faded inscription near\nthe bottom reads:\nMay your future fights\nbe won with honor."
   },
   "The Grinch": {
     "location": "Winter Event",
@@ -98588,6 +98555,31 @@
     "type": "Misc",
     "stats": {}
   },
+  "Sheol": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Not all who die are revived as revenants.",
+      "There are those who cling to the",
+      "familiarity of darkness, staring from",
+      "beyond an endless rest."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Sheol",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "cumbersome": 1,
+      "decay": 4,
+      "regicide": 1,
+      "sweeping_edge": 4,
+      "unbreaking": 10,
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 28
+    },
+    "lore": "Not all who die are revived as revenants.\nThere are those who cling to the\nfamiliarity of darkness, staring from\nbeyond an endless rest."
+  },
   "Sickle of the Maker": {
     "location": "Willows",
     "mmlore": [
@@ -104350,6 +104342,17 @@
       "projectile_damage_percent": -15
     }
   },
+  "Singularity Shaft": {
+    "location": "Indigo",
+    "name": "Singularity Shaft",
+    "base_item": "Tipped Arrow",
+    "release_status": "public",
+    "type": "Projectile",
+    "stats": {
+      "fractal": 1,
+      "projectile_speed_percent": 50
+    }
+  },
   "Soulflame Arrow": {
     "location": "White",
     "region": "Valley",
@@ -108233,6 +108236,18 @@
     "stats": {},
     "lore": "A toy replica of a fearsome entity."
   },
+  "Gaze of Winter Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Pass of Dissonance."
+    ],
+    "name": "Gaze of Winter Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Pass of Dissonance."
+  },
   "Gazing Spellcaster Dummy": {
     "location": "Blitz",
     "mmlore": [
@@ -108440,6 +108455,18 @@
     "stats": {},
     "lore": "A replica of star pillar Xi."
   },
+  "Pixie of Life Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Pass of Dissonance."
+    ],
+    "name": "Pixie of Life Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Pass of Dissonance."
+  },
   "Quetzal Priest Dummy": {
     "location": "Seasonal Pass",
     "mmlore": [
@@ -108487,6 +108514,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "Memories made manifest as a dummy."
+  },
+  "Summer Brute Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Pass of Dissonance."
+    ],
+    "name": "Summer Brute Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Pass of Dissonance."
   },
   "Tectonic Angler Dummy": {
     "location": "Blitz",
@@ -113389,6 +113428,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "A toy replica of a fearsome madman."
+  },
+  "Wandering Tuathan Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Pass of Dissonance."
+    ],
+    "name": "Wandering Tuathan Dummy",
+    "base_item": "Zombie Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Pass of Dissonance."
   },
   "Zombie Training Dummy": {
     "mmlore": [
