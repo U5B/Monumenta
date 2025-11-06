@@ -1,33 +1,83 @@
 {
-  "retaliation": {
-    "name": "Retaliation",
-    "description": "After blocking damage, gain a damage bonus for 4s based on the type of enemy blocked (35%/50%/65% for normal/elite/boss, halved when dealing magic/projectile damage). Certain blocked debuffs will infuse the first basic melee/projectile attack in this period with an effect corresponding to the blocked debuffs.",
-    "category": "Weapons"
+  "excavator": {
+    "name": "Excavator",
+    "description": "Mine extra blocks in a 3 x 3 shape. Sneaking disables the effect.",
+    "category": "Tools and Utility"
   },
-  "passiveeffects": {
-    "name": "Passives",
-    "description": "Enchantments that grant a passive effect when used or worn.",
+  "soulspeed": {
+    "name": "Soul Speed",
+    "description": "When on soul sand or soul soil, your speed will increase by (level * 10.5)%.",
     "category": "Passives"
   },
-  "weapons": {
-    "name": "Weapons",
-    "description": "Enchantments that alter your attacks and increase the damage of them.",
-    "category": "Weapons"
+  "intoxicatingwarmth": {
+    "name": "Intoxicating Warmth",
+    "description": "When consumed, gain 1 hunger and 1 saturation per second for 12s. Cooldown: 30s.",
+    "category": "Consumables"
   },
-  "aura": {
-    "name": "Aura",
-    "description": "Mobs in a 3 block radius from you are slowed by (level * 3)% for 0.5 seconds. This is refreshed as long as they are in range.",
+  "baaing": {
+    "name": "Baaing",
+    "description": "Baaaaaaa",
+    "category": "Cosmetic"
+  },
+  "galvanic": {
+    "name": "Galvanic",
+    "description": "Gain a 1.25% chance per level to stun a mob for 2 seconds (0.5 seconds for elites) when dealing or taking non-ability melee or projectile damage.",
     "category": "Delve Infusions"
   },
-  "adaptability": {
-    "name": "Adaptability",
-    "description": "Allows secondary enchants (ex: Shielding, Reflexes, etc.) to all work with the defense type (Armor or Agility) you have the most of.",
+  "quench": {
+    "name": "Quench",
+    "description": "Increase duration of consumable's effects by 2.5% per level.",
+    "category": "Delve Infusions"
+  },
+  "firefragility": {
+    "name": "Fire Fragility",
+    "description": "Multiplies fire damage taken by (0.96) ^ (-2 * level).",
+    "category": "Curses"
+  },
+  "decapitation": {
+    "name": "Decapitation",
+    "description": "On a melee critical strike, deal (1.25 * level)% additional damage.",
+    "category": "Delve Infusions"
+  },
+  "firststrike": {
+    "name": "First Strike",
+    "description": "The first melee hit, projectile damage or thrown Alchemist Potion against a mob deals 10 * level % more damage. Melee damage from enchantments or abilities will also be affected if it is applied simultaneously with a melee hit. The bonus damage can be reapplied to the same target every 3 seconds.",
+    "category": "Weapons"
+  },
+  "liquidcourage": {
+    "name": "Liquid Courage",
+    "description": "When consumed, gain 8 hunger, 8 saturation, and 20% Resistance against 3 incoming Melee, Projectile or Magic attacks for 15s. Cooldown: 30s.",
+    "category": "Consumables"
+  },
+  "clucking": {
+    "name": "Clucking",
+    "description": "Cluck cluck cluck",
+    "category": "Cosmetic"
+  },
+  "waxon": {
+    "name": "Wax On",
+    "description": "Applies wax to mined copper as your master taught you.",
+    "category": "Tools and Utility"
+  },
+  "festive": {
+    "name": "Festive",
+    "description": "While equipped, gain an aura of festive particles that improve with every additional item.",
+    "category": "Cosmetic"
+  },
+  "fireprotection": {
+    "name": "Fire Protection",
+    "description": "Multiplies fire damage taken by (0.96) ^ (2 * level). Reduces fire duration by 10% per level.",
     "category": "Defenses"
   },
-  "exorcism": {
-    "name": "Exorcism",
-    "description": "Deals 15 damage and applies Slowness III to mobs summoned within the Valley of Forgotten Pharaohs.",
-    "category": "Consumables"
+  "empowered": {
+    "name": "Empowered",
+    "description": "When you gain XP, you have a 0.25% chance per XP point per level to repair all currently equipped items by 1% of their max durability. There is also a slight prioritization to more damaged items.",
+    "category": "Delve Infusions"
+  },
+  "vengeful": {
+    "name": "Vengeful",
+    "description": "Deal (level * 2)% additional damage to the last mob that damaged you.",
+    "category": "Delve Infusions"
   },
   "abyssal": {
     "name": "Abyssal",
@@ -39,154 +89,19 @@
     "description": "Gain 1.5% Damage Reduction per level against aerial mobs and knocks them downward.",
     "category": "Delve Infusions"
   },
-  "armor": {
-    "name": "Armor",
-    "description": "One of Monumenta's primary defensive stats, along with Agility. Multiplies received damage taken by 0.96^Armor. If Armor and Agility are mixed, damage is multiplied by 0.96^(Armor + Agility - 0.5 * Armor * Agility / (Armor + Agility))",
-    "category": null
-  },
-  "explosive": {
-    "name": "Explosive",
-    "description": "Critical Arrows you shoot deals an additional (level * 10)% splash damage in a 2-block radius, which also applies any Fire/Ice/Thunder/Wind Aspect, Decay and/or Bleed enchants.",
-    "category": "Ranged"
-  },
-  "gills": {
-    "name": "Gills",
-    "description": "While equipped or held, gain Water Breathing.",
-    "category": "Passives"
-  },
-  "festive": {
-    "name": "Festive",
-    "description": "While equipped, gain an aura of festive particles that improve with every additional item.",
-    "category": "Cosmetic"
-  },
-  "bleeding": {
-    "name": "Bleeding",
-    "description": "Applies Bleed (Enchantment level) for 5 seconds to all mobs struck by the Bleeding weapon. Bleed is a custom effect that applies (level * 10)% Slowness and Weakness to mobs under 50% Max Health.",
-    "category": "Weapons"
-  },
-  "eruption": {
-    "name": "Eruption",
-    "description": "Mining a spawner deals (level * 4) damage to mobs within 5 blocks and apply the effects of Fire, Ice, Thunder, and Wind Aspects as well as Decay to affected mobs. Thunder Aspect applied via Eruption always stuns mobs, for (level * 0.3) seconds. Additionally, apply effects of Sapper and Adrenaline to players within 8 blocks, if the pickaxe used to mine the spawner has the enchantment.",
-    "category": "Tools and Utility"
-  },
-  "sapper": {
-    "name": "Sapper",
-    "description": "Restore (Enchantment Level) health by breaking a spawner.",
-    "category": "Tools and Utility"
-  },
-  "resurrection": {
-    "name": "Resurrection",
-    "description": "When you are about to die, this item provides 8 Absorption for 5 sconds, Regeneration 2 for 45 seconds, and Fire Resistance for 40 seconds, destroying itself in the process.",
-    "category": "Consumables"
-  },
-  "reverb": {
-    "name": "Reverb",
-    "description": "On kill by melee strike or basic projectile attack, deal (10 * level)% of your overkill damage plus (5 * level)% of your highest damage source within the killing attack to an enemy within 8 blocks. Enemies killed by this damage can also trigger Reverb.",
-    "category": "Weapons"
-  },
-  "thunderaspect": {
-    "name": "Thunder Aspect",
-    "description": "Has a (level * 10)% chance to stun a mob for 2 seconds (0.5 for Elites) when dealing melee damage, or for 0.5 seconds (0 for Elites) when dealing projectile damage. Deals 1 extra damage to Guardians and Iron Golems.",
-    "category": "Weapons"
-  },
-  "vanishing": {
-    "name": "Curse of Vanishing",
-    "description": "When held in inventory, an item with Curse of Vanishing shatters upon death. Curse of Vanishing II will cause the item to be completely deleted upon death.",
-    "category": "Curses"
-  },
-  "carapace": {
-    "name": "Carapace",
-    "description": "After being hit by a mob, gain (level * 1.25)% damage reduction for 5 seconds, refreshed on being hit.",
-    "category": "Delve Infusions"
-  },
-  "decay": {
-    "name": "Decay",
-    "description": "Applies a Decay effect that deals 2 damage every (40 / level) ticks for 4 seconds.",
-    "category": "Weapons"
-  },
-  "knockback": {
-    "name": "Knockback",
-    "description": "Adds (level * 3) blocks to your knockback on melee strikes.",
-    "category": "Weapons"
-  },
-  "fervor": {
-    "name": "Fervor",
-    "description": "Deal 1.5% additional damage per level for 3s after gaining a buff that lasts at least 5s.",
-    "category": "Delve Infusions"
-  },
-  "debarking": {
-    "name": "Debarking",
-    "description": "Strips the bark off the logs you chop down.",
-    "category": "Tools and Utility"
-  },
-  "hope": {
-    "name": "Hope",
-    "description": "If this item would be inflicted with more than 1 shatter level from a death, it takes 1 level less.",
-    "category": "Infusions"
-  },
-  "adrenaline": {
-    "name": "Adrenaline",
-    "description": "Upon attacking an enemy, you gain (level * 10)% speed for 3 seconds. Upon breaking a spawner with a pickaxe, you gain (level * 5)% speed for 6 seconds.",
-    "category": "Passives"
-  },
-  "execution": {
-    "name": "Execution",
-    "description": "After killing an enemy, you deal (level * 1.5)% extra damage for 4 seconds.",
-    "category": "Delve Infusions"
-  },
-  "aptitude": {
-    "name": "Aptitude",
-    "description": "Decreases the cooldown of all of your skills by 5% per level multiplicatively.",
-    "category": "Passives"
-  },
-  "sturdy": {
-    "name": "Sturdy",
-    "description": "Reduces the duration shields are stunned for by 5% per level.",
-    "category": "Delve Infusions"
-  },
-  "decapitation": {
-    "name": "Decapitation",
-    "description": "On a melee critical strike, deal (1.25 * level)% additional damage.",
-    "category": "Delve Infusions"
-  },
-  "choler": {
-    "name": "Choler",
-    "description": "Deal (level * 1)% additional damage to any mob that is on fire (vanilla or Inferno), slowed, or stunned.",
-    "category": "Delve Infusions"
-  },
-  "hexeater": {
-    "name": "Hex Eater",
-    "description": "Adds (level * 0.5) extra damage per debuff on the target to basic melee, projectile or Alchemist Potion hits.",
-    "category": "Weapons"
-  },
-  "liquidcourage": {
-    "name": "Liquid Courage",
-    "description": "When consumed, gain 8 hunger, 8 saturation, and 20% Resistance against 3 incoming Melee, Projectile or Magic attacks for 15s. Cooldown: 30s.",
-    "category": "Consumables"
-  },
-  "firefragility": {
-    "name": "Fire Fragility",
-    "description": "Multiplies fire damage taken by (0.96) ^ (-2 * level).",
-    "category": "Curses"
-  },
-  "second_wind": {
-    "name": "Second Wind",
-    "description": "Damage from attacks applied to the lower half of your max health is multiplied by 0.9^(level). Attacks received while under this threshold get their damage reduced; attacks that bring you under this threshold have the portion of the damage that is applied past the threshold reduced.",
+  "projectileprotection": {
+    "name": "Projectile Protection",
+    "description": "Multiplies projectile damage taken by (0.96) ^ (2 * level).",
     "category": "Defenses"
   },
-  "tenacity": {
-    "name": "Tenacity",
-    "description": "+(level * 0.5)% damage reduction.",
-    "category": "Infusions"
+  "weapons": {
+    "name": "Weapons",
+    "description": "Enchantments that alter your attacks and increase the damage of them.",
+    "category": "Weapons"
   },
-  "veil": {
-    "name": "Curse of the Veil",
-    "description": "When equipped, drain (level) health every 3 seconds. This damage cannot kill you, and only triggers if there is a hostile mob within 24 blocks, Boss mob within 80 blocks, or the player has dealt damage within the last 12 seconds.",
-    "category": "Curses"
-  },
-  "triage": {
-    "name": "Triage",
-    "description": "Increases the amount of healing you do to others by (level * 5)%.",
+  "darksight": {
+    "name": "Darksight",
+    "description": "Gives night vision when held or worn.",
     "category": "Passives"
   },
   "unbreaking": {
@@ -194,304 +109,244 @@
     "description": "Makes gear break (level + 1)x slower. Works the same on tools, weapons, and armor.",
     "category": "Passives"
   },
+  "silktouch": {
+    "name": "Silk Touch",
+    "description": "Allows blocks to drop as themselves instead of their normal drop, when broken with an item with this enchantment.",
+    "category": "Tools and Utility"
+  },
+  "multitool": {
+    "name": "Multitool",
+    "description": "Allows a tool to change shape when you right-click with it. Level I lets it to cycle between a shovel and an axe, or a compass and shears, depending on the item. Level II additionally lets it cycle to being a pickaxe.",
+    "category": "Tools and Utility"
+  },
   "cumbersome": {
     "name": "Cumbersome",
     "description": "Critical attacks deal normal damage instead. Abilities that require critical attacks can still be activated with a critical attack.",
     "category": "Curses"
-  },
-  "mending": {
-    "name": "Mending",
-    "description": "Items with Mending that are worn or held repair 2 durability per xp orb consumed, chosen at random among your items with Mending.",
-    "category": "Passives"
-  },
-  "stasis": {
-    "name": "Stasis",
-    "description": "While Stasis is active, you are immovable, immune to all damage and effects, and cannot use any interactions or abilities.",
-    "category": "Consumables"
-  },
-  "shrapnel": {
-    "name": "Curse of Shrapnel",
-    "description": "When used to break a spawner, take (level) damage. This damages armor and bypasses damage reductions.",
-    "category": "Curses"
-  },
-  "guard": {
-    "name": "Guard",
-    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP after blocking with a shield. Duration lasts for 4s if blocked from offhand, and 6s from mainhand. The bonus is also granted for 2s when taking 35% or greater HP at once.",
-    "category": "Defenses"
   },
   "riptide": {
     "name": "Riptide",
     "description": "A Trident with Riptide can only be thrown when in water. When this happens, you are launched with your Trident a distance based on your Riptide level.",
     "category": "Tools and Utility"
   },
-  "locked": {
-    "name": "Locked",
-    "description": "Prevents the item from being swapped by a lockbox.",
-    "category": "Infusions"
-  },
-  "ranged": {
-    "name": "Ranged",
-    "description": "Enchantments that grant special ranged effects.",
-    "category": "Ranged"
-  },
-  "steadfast": {
-    "name": "Steadfast",
-    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP. This bonus scales linearly with the amount of HP you are missing, up to 60%.",
+  "worldly_protection": {
+    "name": "Worldly Protection",
+    "description": "While held, grants 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas. However, damage dealt is reduced by 25% per level. Additionally, items with this enchantment are not affected by region restriction debuffs.",
     "category": "Defenses"
   },
-  "snowy": {
-    "name": "Snowy",
-    "description": "While you have an item with this enchantment in your inventory, you are able to be hit by other players with a Snowball Launcher. Be careful!",
-    "category": "Cosmetic"
-  },
-  "recoil": {
-    "name": "Recoil",
-    "description": "When fired, your crossbow knocks you back a short distance, increasing with level. Crouching while firing prevents the recoil, but places crossbows on cooldown for 0.5 seconds.",
-    "category": "Ranged"
-  },
-  "cloaked": {
-    "name": "Cloaked",
-    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when there's 2 or less enemies within 5 blocks. Half the bonus is granted if there are 3 or less enemies. The full bonus is also applied for 6 seconds after slaying an Elite or Boss enemy.",
-    "category": "Defenses"
-  },
-  "projectileprotection": {
-    "name": "Projectile Protection",
-    "description": "Multiplies projectile damage taken by (0.96) ^ (2 * level).",
-    "category": "Defenses"
-  },
-  "vitality": {
-    "name": "Vitality",
-    "description": "+(level * 1)% max health.",
-    "category": "Infusions"
-  },
-  "defenses": {
-    "name": "Defenses",
-    "description": "Enchantments that reduce the damage you take in some way or another.",
-    "category": "Defenses"
-  },
-  "ardor": {
-    "name": "Ardor",
-    "description": "Mining a spawner outside of water grants you (level * 2)% speed for 4s. Mining a spawner underwater refreshes (level * 0.5) breath.",
-    "category": "Delve Infusions"
-  },
-  "refresh": {
-    "name": "Refresh",
-    "description": "Reduces the cooldown of infinite consumables by 2% per level.",
-    "category": "Delve Infusions"
-  },
-  "lifedrain": {
-    "name": "Life Drain",
-    "description": "Your critical melee attacks heal you. Normal melee attacks also heal you, but for less.  Healing (falling attack): √(level) Healing (non-falling attack): 0.5 * √(level) / √(attack speed) * attack cooldown",
-    "category": "Weapons"
-  },
-  "magicprotection": {
-    "name": "Magic Protection",
-    "description": "Multiplies magic damage taken by (0.96) ^ (2 * level).",
-    "category": "Defenses"
-  },
-  "grace": {
-    "name": "Grace",
-    "description": "Gain 1.5% attack speed per level.",
-    "category": "Delve Infusions"
-  },
-  "quake": {
-    "name": "Quake",
-    "description": "When your melee attack kills an enemy, all nearby enemies in a 3-block cube take (level * 5)% of the damage dealt. Your weapon's Fire/Ice/Thunder Aspect, Decay and/or Bleed also get applied.",
-    "category": "Weapons"
-  },
-  "unyielding": {
-    "name": "Unyielding",
-    "description": "Increases your Knockback Resistance by 0.6 per level.",
-    "category": "Delve Infusions"
-  },
-  "blastprotection": {
-    "name": "Blast Protection",
-    "description": "Multiplies blast damage taken by (0.96) ^ (2 * level).",
-    "category": "Defenses"
-  },
-  "impact": {
-    "name": "Impact",
-    "description": "For the next 2s after you attack a mob, deal an additional (level * 10)% of your physical attack's damage to the mob when they hit a wall, or if they fall from more than 3 blocks. Hit enemies lose (level) Knockback Resistance.",
-    "category": "Weapons"
-  },
-  "inure": {
-    "name": "Inure",
-    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic) within 60 seconds.",
-    "category": "Defenses"
-  },
-  "grappling": {
-    "name": "Grappling",
-    "description": "Your crossbow will act as a grappling hook, allowing you to pull yourself up to (level) blocks, with an emphasis on vertical distance. Shooting arrows consumes charges. Charges replenish every 5 seconds. Sneaking near a hook (including mid-air) will pick it up and replenish one of your charges early.  After shooting a block, left-click to pull yourself towards the block. Sneaking will prevent yourself from being pulled.  Also allows you to grapple yourself to mobs. Left-click while sneaking to pull mobs towards you.  Disables projectile-based abilities while held.",
-    "category": "Ranged"
-  },
-  "sustenance": {
-    "name": "Sustenance",
-    "description": "Increases amount of healing received by (level * 10)%.",
+  "mending": {
+    "name": "Mending",
+    "description": "Items with Mending that are worn or held repair 2 durability per xp orb consumed, chosen at random among your items with Mending.",
     "category": "Passives"
   },
-  "magicfragility": {
-    "name": "Magic Fragility",
-    "description": "Multiplies magic damage taken by (0.96) ^ (-2 * level).",
-    "category": "Curses"
-  },
-  "reflexes": {
-    "name": "Reflexes",
-    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP for 0.65s after damaging any mob. DoT/indirect damage abilities cannot trigger this bonus. The bonus is granted at half effectivity for an additional 0.35s.",
-    "category": "Defenses"
-  },
-  "unrustworthy": {
-    "name": "Unrustworthy",
-    "description": "Removes all rust from mined copper.",
-    "category": "Tools and Utility"
-  },
-  "fireaspect": {
-    "name": "Fire Aspect",
-    "description": "Ignites the target for (level * 4) seconds when dealing melee or projectile damage.",
-    "category": "Weapons"
-  },
-  "curses": {
-    "name": "Curses",
-    "description": "Curses that cause negative effects. Be careful!",
-    "category": "Curses"
-  },
-  "instantdrink": {
-    "name": "Instant Drink",
-    "description": "Right clicking a potion with this enchant will instantly apply its effects to the player using it.",
-    "category": "Consumables"
-  },
-  "piercing": {
-    "name": "Piercing",
-    "description": "Lets arrows pass through up to the number of entities equal to the enchantment level.",
+  "punch": {
+    "name": "Punch",
+    "description": "Projectiles gain (level * 3) blocks of knockback.",
     "category": "Ranged"
   },
-  "shielding": {
-    "name": "Shielding",
-    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding reduces Shielding's effect to half for 5 seconds.",
-    "category": "Defenses"
-  },
-  "trivium": {
-    "name": "Trivium",
-    "description": "When hitting 3 or more mobs with a magical ability, deal (level * 10)% more magic damage.",
-    "category": "Weapons"
-  },
-  "quick_charge": {
-    "name": "Quick Charge",
-    "description": "Decreases the time it takes to load a crossbow by (level * 0.25) seconds.",
-    "category": "Ranged"
-  },
-  "delve_infusions": {
-    "name": "Delve Infusions",
-    "description": "From the Depths and the Delves, offering special enchantments that can be specially added to your gear!",
-    "category": "Delve Infusions"
-  },
-  "divineaura": {
-    "name": "Divine Aura",
-    "description": "While equipped, the player and mobs hit gain an aura of divine particles.",
+  "gilded": {
+    "name": "Gilded",
+    "description": "While equipped, you gain an aura of gold particles. While dropped, your item gains similar particles. Additional items increase your particles, capped at 10. A reward for winning the voting raffle.",
     "category": "Cosmetic"
   },
-  "poise": {
-    "name": "Poise",
-    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when above 90% Max Health. Half of the bonus is granted when above 70% Max Health.",
+  "adaptability": {
+    "name": "Adaptability",
+    "description": "Allows secondary enchants (ex: Shielding, Reflexes, etc.) to all work with the defense type (Armor or Agility) you have the most of.",
     "category": "Defenses"
   },
-  "inferno": {
-    "name": "Inferno",
-    "description": "Ignited enemies take (level) ailment damage every second for the duration they are on fire. Subsequent reapplications of Inferno refresh its duration.",
+  "adrenaline": {
+    "name": "Adrenaline",
+    "description": "Upon attacking an enemy, you gain (level * 10)% speed for 3 seconds. Upon breaking a spawner with a pickaxe, you gain (level * 5)% speed for 6 seconds.",
+    "category": "Passives"
+  },
+  "technique": {
+    "name": "Technique",
+    "description": "When damaging a mob within 3 blocks, deal 10 * level % more magic and melee ability (not physical) damage, and 7.5 * level % more projectile damage.",
     "category": "Weapons"
   },
-  "rustworthy": {
-    "name": "Rustworthy",
-    "description": "Curses mined copper to gather rust depending on the level.",
-    "category": "Tools and Utility"
-  },
-  "broomstick": {
-    "name": "Broomstick",
-    "description": "After being hurled using Riptide, apply slow falling until touching the ground.",
-    "category": "Tools and Utility"
-  },
-  "fortune": {
-    "name": "Fortune",
-    "description": "Increases the number of resources gained when breaking ores and certain other blocks that drop resources, based on level.",
-    "category": "Tools and Utility"
-  },
-  "fractal": {
-    "name": "Fractal",
-    "description": "Your magic abilities will deal (10% * Level) increased damage for 2 seconds after hitting an enemy with a magic ability. This increase can only happen once every 6 seconds.",
+  "thunderaspect": {
+    "name": "Thunder Aspect",
+    "description": "Has a (level * 10)% chance to stun a mob for 2 seconds (0.5 for Elites) when dealing melee damage, or for 0.5 seconds (0 for Elites) when dealing projectile damage. Deals 1 extra damage to Guardians and Iron Golems.",
     "category": "Weapons"
   },
-  "rageoftheketer": {
-    "name": "Rage of the Keter",
-    "description": "When consumed, gain 4 hunger, 4 saturation, a +20% damage buff to melee, magic, and projectile damage, and +15% speed for 15s. Cooldown: 25s.",
+  "resurrection": {
+    "name": "Resurrection",
+    "description": "When you are about to die, this item provides 8 Absorption for 5 sconds, Regeneration 2 for 45 seconds, and Fire Resistance for 40 seconds, destroying itself in the process.",
     "category": "Consumables"
   },
-  "duelist": {
-    "name": "Duelist",
-    "description": "Adds (level * 2) extra damage to melee hits against human-like mobs: illagers, vexes, witches, piglins, piglin brutes, golems, giants, allays, and wardens.",
-    "category": "Weapons"
-  },
-  "ethereal": {
-    "name": "Ethereal",
-    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage within 1.5 seconds of any previous damage from mobs.",
+  "featherfalling": {
+    "name": "Feather Falling",
+    "description": "Multiplies fall damage taken by (0.96) ^ (3 * level).",
     "category": "Defenses"
+  },
+  "infusions": {
+    "name": "Infusions",
+    "description": "Enchantments that can be specially added to your gear, should you pay the costs!",
+    "category": "Infusions"
   },
   "aquaaffinity": {
     "name": "Aqua Affinity",
     "description": "Allows you to mine blocks underwater as if you were on land.",
     "category": "Passives"
   },
+  "temporalbender": {
+    "name": "Temporal Bender",
+    "description": "When consumed, gain 4 hunger, 4 saturation, and +100% Ability Cooldown Recharge Rate for 5s. Cooldown: 30s.",
+    "category": "Consumables"
+  },
+  "multishot": {
+    "name": "Multishot",
+    "description": "Crossbows enchanted with Multishot fire 3 projectiles at once in a spread pattern. Only one projectile is consumed and only one out of the 3 can be picked up off the ground.",
+    "category": "Ranged"
+  },
+  "cosmetic": {
+    "name": "Cosmetic",
+    "description": "Enchantments that grant a cosmetic effect to your items.",
+    "category": "Cosmetic"
+  },
+  "inferno": {
+    "name": "Inferno",
+    "description": "Ignited enemies take (level) ailment damage every second for the duration they are on fire. Subsequent reapplications of Inferno refresh its duration.",
+    "category": "Weapons"
+  },
+  "fireaspect": {
+    "name": "Fire Aspect",
+    "description": "Ignites the target for (level * 4) seconds when dealing melee or projectile damage.",
+    "category": "Weapons"
+  },
+  "meleeprotection": {
+    "name": "Melee Protection",
+    "description": "Multiplies melee damage taken by (0.96) ^ (2 * level).",
+    "category": "Defenses"
+  },
   "regeneration": {
     "name": "Regeneration",
     "description": "When equipped, regain sqrt(level) / 12 health 4 times per second.",
     "category": "Passives"
   },
-  "celestial": {
-    "name": "Celestial",
-    "description": "Deal 1.5 * level % more damage to enemies at a higher elevation than you.",
-    "category": "Delve Infusions"
-  },
-  "vigor": {
-    "name": "Vigor",
-    "description": "Gain (level * X)% melee damage, where X is 1/1.25/1.5 in regions 1/2/3.",
-    "category": "Infusions"
-  },
-  "junglesnourishment": {
-    "name": "Jungle's Nourishment",
-    "description": "When consumed, restore all hunger, gain 40% Instant Health, and gain 20% Resistance for 5s. Cooldown: 25s.",
-    "category": "Consumables"
-  },
-  "firststrike": {
-    "name": "First Strike",
-    "description": "The first melee hit, projectile damage or thrown Alchemist Potion against a mob deals 10 * level % more damage. Melee damage from enchantments or abilities will also be affected if it is applied simultaneously with a melee hit. The bonus damage can be reapplied to the same target every 3 seconds.",
+  "trivium": {
+    "name": "Trivium",
+    "description": "When hitting 3 or more mobs with a magical ability, deal (level * 10)% more magic damage.",
     "category": "Weapons"
   },
-  "nutriment": {
-    "name": "Nutriment",
-    "description": "Gain (level * 1.5)% extra healing.",
-    "category": "Delve Infusions"
+  "regicide": {
+    "name": "Regicide",
+    "description": "While equipped, deal an additional (level * 10)% damage to Elite and Boss enemies.",
+    "category": "Weapons"
   },
-  "lure": {
-    "name": "Lure",
-    "description": "Decreases the time spent waiting for a fish to appear by (level * 5) seconds.",
-    "category": "Tools and Utility"
+  "iceaspect": {
+    "name": "Ice Aspect",
+    "description": "Applies (level * 10)% Slowness for 4 seconds when dealing melee or projectile damage. Deals 1 extra damage to Blazes.",
+    "category": "Weapons"
   },
-  "retrieval": {
-    "name": "Retrieval",
-    "description": "Arrows have a (level * 10)% chance to not be consumed.",
+  "focus": {
+    "name": "Focus",
+    "description": "Gain (level * X)% projectile damage, where X is 1/1.25/1.5 in regions 1/2/3.",
+    "category": "Infusions"
+  },
+  "infinity": {
+    "name": "Infinity",
+    "description": "Bows and crossbows do not consume vanilla arrows, potions never go empty, and food never runs out.",
     "category": "Passives"
   },
-  "projectilefragility": {
-    "name": "Projectile Fragility",
-    "description": "Multiplies projectile damage taken by (0.96) ^ (-2 * level).",
-    "category": "Curses"
+  "epoch": {
+    "name": "Epoch",
+    "description": "Class abilities cooldowns are reduced by (level * 1)%.",
+    "category": "Delve Infusions"
   },
-  "material": {
-    "name": "Material",
-    "description": "A special item, used to craft another item - often Patron related ones. Items with this enchant also can be used as crafting materials in regular vanilla Minecraft recipes.",
+  "rustworthy": {
+    "name": "Rustworthy",
+    "description": "Curses mined copper to gather rust depending on the level.",
+    "category": "Tools and Utility"
+  },
+  "second_wind": {
+    "name": "Second Wind",
+    "description": "Damage from attacks applied to the lower half of your max health is multiplied by 0.9^(level). Attacks received while under this threshold get their damage reduced; attacks that bring you under this threshold have the portion of the damage that is applied past the threshold reduced.",
+    "category": "Defenses"
+  },
+  "smite": {
+    "name": "Smite",
+    "description": "Adds (level * 2) extra damage to melee hits against Undead mobs.",
+    "category": "Weapons"
+  },
+  "divineaura": {
+    "name": "Divine Aura",
+    "description": "While equipped, the player and mobs hit gain an aura of divine particles.",
     "category": "Cosmetic"
   },
-  "meleefragility": {
-    "name": "Melee Fragility",
-    "description": "Multiplies melee damage taken by (0.96) ^ (-2 * level).",
+  "multiload": {
+    "name": "Multi-Load",
+    "description": "Upon reloading your crossbow, consume up to (level) extra arrows. For each arrow consumed, instantly reload crossbow after firing.",
+    "category": "Ranged"
+  },
+  "tempo": {
+    "name": "Tempo",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage after 4 seconds of taking no damage from mobs. Half of the bonus is granted after 2.5 seconds of taking no damage from mobs.",
+    "category": "Defenses"
+  },
+  "acumen": {
+    "name": "Acumen",
+    "description": "+(level * 2)% experience earned.",
+    "category": "Infusions"
+  },
+  "waxoff": {
+    "name": "Wax Off",
+    "description": "Removes wax from mined copper as your master taught you.",
+    "category": "Tools and Utility"
+  },
+  "blastfragility": {
+    "name": "Blast Fragility",
+    "description": "Multiplies blast damage taken by (0.96) ^ (-2 * level).",
+    "category": "Curses"
+  },
+  "refresh": {
+    "name": "Refresh",
+    "description": "Reduces the cooldown of infinite consumables by 2% per level.",
+    "category": "Delve Infusions"
+  },
+  "slayer": {
+    "name": "Slayer",
+    "description": "Adds (level * 2) extra damage to melee hits against non-Undead, non-human-like mobs: Spiders, Cave Spiders, Creepers, Endermen, Blazes, Ghasts, Slimes, Magma Cubes, Silverfish, Bees, Shulkers, Wolves, Ravagers, Hoglins, and passive animal mobs.",
+    "category": "Weapons"
+  },
+  "cloaked": {
+    "name": "Cloaked",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when there's 2 or less enemies within 5 blocks. Half the bonus is granted if there are 3 or less enemies. The full bonus is also applied for 6 seconds after slaying an Elite or Boss enemy.",
+    "category": "Defenses"
+  },
+  "sustenance": {
+    "name": "Sustenance",
+    "description": "Increases amount of healing received by (level * 10)%.",
+    "category": "Passives"
+  },
+  "tools": {
+    "name": "Tools and Utility",
+    "description": "Enchantments that grant a helpful effect to your tools and weapons.",
+    "category": "Tools and Utility"
+  },
+  "unyielding": {
+    "name": "Unyielding",
+    "description": "Increases your Knockback Resistance by 6% per level.",
+    "category": "Delve Infusions"
+  },
+  "retaliation": {
+    "name": "Retaliation",
+    "description": "After blocking damage, gain a damage bonus for 4s based on the type of enemy blocked (35%/50%/65% for normal/elite/boss, halved when dealing magic/projectile damage). Certain blocked debuffs will infuse the first basic melee/projectile attack in this period with an effect corresponding to the blocked debuffs.",
+    "category": "Weapons"
+  },
+  "colossal": {
+    "name": "Colossal",
+    "description": "Items reinforced with Colossal don't take durability damage 50% of the time. Works with the Unbreaking enchant.",
+    "category": "Infusions"
+  },
+  "intuition": {
+    "name": "Intuition",
+    "description": "While equipped, grants 50% more experience.",
+    "category": "Passives"
+  },
+  "irreparability": {
+    "name": "Curse of Irreparability",
+    "description": "Some items are too fragile to be repaired...",
     "category": "Curses"
   },
   "stat_track": {
@@ -499,385 +354,65 @@
     "description": "Designates that an item has had stat tracking added to it via a Patron. Stats are only tracked if used by the person who added it as long as they're still a patron. A variety of different stats can be tracked, such as Mobs Killed, Times Consumed, Boss Damage Dealt, and more! Consider becoming a patron if you aren't one already to gain access to this perk.",
     "category": "Cosmetic"
   },
-  "sniper": {
-    "name": "Sniper",
-    "description": "Projectiles deal an additional (level * 2) damage if the enemy is further than 12 blocks.",
-    "category": "Ranged"
-  },
-  "infusions": {
-    "name": "Infusions",
-    "description": "Enchantments that can be specially added to your gear, should you pay the costs!",
-    "category": "Infusions"
-  },
-  "sweepingedge": {
-    "name": "Sweeping Edge",
-    "description": "On non-critical fully charged melee swings, deals (20% * level) of the triggering attack's damage in an AoE around the targeted mob. Mobs must be within 3 blocks of the player's head or feet to be hit.",
-    "category": "Weapons"
-  },
-  "worldly_protection": {
-    "name": "Worldly Protection",
-    "description": "While held, grants 5% damage reduction per level in King's Valley areas, 7.5% damage reduction per level in Celsian Isles areas, and 10% damage reduction per level in Architect's Ring areas. However, damage dealt is reduced by 25% per level. Additionally, items with this enchantment are not affected by region restriction debuffs.",
-    "category": "Defenses"
-  },
-  "focus": {
-    "name": "Focus",
-    "description": "Gain (level * X)% projectile damage, where X is 1/1.25/1.5 in regions 1/2/3.",
-    "category": "Infusions"
-  },
-  "understanding": {
-    "name": "Understanding",
-    "description": "All non-Delve Infusions you are currently benefitting from gain (Understanding level * .2) levels.",
+  "natant": {
+    "name": "Natant",
+    "description": "You move (level * 4)% faster when in water.",
     "category": "Delve Infusions"
-  },
-  "epoch": {
-    "name": "Epoch",
-    "description": "Class abilities cooldowns are reduced by (level * 1)%.",
-    "category": "Delve Infusions"
-  },
-  "galvanic": {
-    "name": "Galvanic",
-    "description": "Gain a 1.25% chance per level to stun a mob for 2 seconds (0.5 seconds for elites) when dealing or taking non-ability melee or projectile damage.",
-    "category": "Delve Infusions"
-  },
-  "temporalbender": {
-    "name": "Temporal Bender",
-    "description": "When consumed, gain 4 hunger, 4 saturation, and +100% Ability Cooldown Recharge Rate for 5s. Cooldown: 30s.",
-    "category": "Consumables"
-  },
-  "two_handed": {
-    "name": "Two Handed",
-    "description": "Some items simply cannot be used correctly if your hands are full... Reduces attack damage, attack speed, and spell power of the item, reduces player movement speed, and restricts the ability to throw/shoot projectiles if held while also having an offhand equipped. Two-handed swords count as holding two swords for sake of Rogue abilities.",
-    "category": "Curses"
-  },
-  "technique": {
-    "name": "Technique",
-    "description": "When damaging a mob within 3 blocks, deal 10 * level % more magic and melee ability (not physical) damage, and 7.5 * level % more projectile damage.",
-    "category": "Weapons"
-  },
-  "smite": {
-    "name": "Smite",
-    "description": "Adds (level * 2) extra damage to melee hits against Undead mobs.",
-    "category": "Weapons"
-  },
-  "tempo": {
-    "name": "Tempo",
-    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage after 4 seconds of taking no damage from mobs. Half of the bonus is granted after 2.5 seconds of taking no damage from mobs.",
-    "category": "Defenses"
-  },
-  "waxoff": {
-    "name": "Wax Off",
-    "description": "Removes wax from mined copper as your master taught you.",
-    "category": "Tools and Utility"
-  },
-  "acumen": {
-    "name": "Acumen",
-    "description": "+(level * 2)% experience earned.",
-    "category": "Infusions"
-  },
-  "reflection": {
-    "name": "Reflection",
-    "description": "1 second after taking magic or blast damage, deal (level * 6)% of the damage to all mobs in a 4 block radius.",
-    "category": "Delve Infusions"
-  },
-  "corruption": {
-    "name": "Curse of Corruption",
-    "description": "Holding or equipping one item is fine, but too much corruption is bad for you...",
-    "category": "Curses"
-  },
-  "barking": {
-    "name": "Barking",
-    "description": "Magically regrows the bark onto the logs you chop up.",
-    "category": "Tools and Utility"
-  },
-  "stamina": {
-    "name": "Stamina",
-    "description": "After taking damage, any melee or projectile damage you deal within 6s is increased by (level * 2.5)%. Stacks up to 4 times, for (level * 10)% max damage, with duration refreshing each hit taken.",
-    "category": "Passives"
-  },
-  "respiration": {
-    "name": "Respiration",
-    "description": "Extends your breathing time underwater by (level * 15) seconds.",
-    "category": "Passives"
-  },
-  "mitosis": {
-    "name": "Mitosis",
-    "description": "Mining a spawner debuffs all enemies in a 5 block radius with (level * 3.75)% Weaken for 3 seconds.",
-    "category": "Delve Infusions"
-  },
-  "multitool": {
-    "name": "Multitool",
-    "description": "Allows a tool to change shape when you right-click with it. Level I lets it to cycle between a shovel and an axe, or a compass and shears, depending on the item. Level II additionally lets it cycle to being a pickaxe.",
-    "category": "Tools and Utility"
-  },
-  "clucking": {
-    "name": "Clucking",
-    "description": "Cluck cluck cluck",
-    "category": "Cosmetic"
-  },
-  "slayer": {
-    "name": "Slayer",
-    "description": "Adds (level * 2) extra damage to melee hits against non-Undead, non-human-like mobs: Spiders, Cave Spiders, Creepers, Endermen, Blazes, Ghasts, Slimes, Magma Cubes, Silverfish, Bees, Shulkers, Wolves, Ravagers, Hoglins, and passive animal mobs.",
-    "category": "Weapons"
-  },
-  "silktouch": {
-    "name": "Silk Touch",
-    "description": "Allows blocks to drop as themselves instead of their normal drop, when broken with an item with this enchantment.",
-    "category": "Tools and Utility"
-  },
-  "arcane_thrust": {
-    "name": "Arcane Thrust",
-    "description": "Your melee attacks damage all enemies 3 blocks in front of you, in a 0.6-block-wide line, dealt as melee damage.  Damage: 1 + base damage * level / (level + 1)",
-    "category": "Weapons"
-  },
-  "blastfragility": {
-    "name": "Blast Fragility",
-    "description": "Multiplies blast damage taken by (0.96) ^ (-2 * level).",
-    "category": "Curses"
-  },
-  "tools": {
-    "name": "Tools and Utility",
-    "description": "Enchantments that grant a helpful effect to your tools and weapons.",
-    "category": "Tools and Utility"
-  },
-  "vengeful": {
-    "name": "Vengeful",
-    "description": "Deal (level * 2)% additional damage to the last mob that damaged you.",
-    "category": "Delve Infusions"
-  },
-  "darksight": {
-    "name": "Darksight",
-    "description": "Gives night vision when held or worn.",
-    "category": "Passives"
-  },
-  "usurper": {
-    "name": "Usurper",
-    "description": "Heal (level * 2.5)% of your max health whenever you slay an elite or boss enemy.",
-    "category": "Delve Infusions"
-  },
-  "efficiency": {
-    "name": "Efficiency",
-    "description": "Increases the speed at which you break blocks with the enchanted item. If on an Axe, it also increases the chance of stunning a shield by an additional 5% per level.",
-    "category": "Tools and Utility"
   },
   "anemia": {
     "name": "Curse of Anemia",
     "description": "Reduces amount of healing received by (level * 10)%.",
     "category": "Curses"
   },
-  "intoxicatingwarmth": {
-    "name": "Intoxicating Warmth",
-    "description": "When consumed, gain 1 hunger and 1 saturation per second for 12s. Cooldown: 30s.",
-    "category": "Consumables"
-  },
-  "natant": {
-    "name": "Natant",
-    "description": "You move (level * 4)% faster when in water.",
-    "category": "Delve Infusions"
-  },
-  "irreparability": {
-    "name": "Curse of Irreparability",
-    "description": "Some items are too fragile to be repaired...",
-    "category": "Curses"
-  },
-  "empowered": {
-    "name": "Empowered",
-    "description": "When you gain XP, you have a 0.25% chance per XP point per level to repair all currently equipped items by 1% of their max durability. There is also a slight prioritization to more damaged items.",
-    "category": "Delve Infusions"
-  },
-  "thorns_damage": {
-    "name": "Thorns Damage",
-    "description": "Deal (level) damage to a mob when it damages you with melee or projectile damage.",
-    "category": "Passives"
-  },
-  "ineptitude": {
-    "name": "Ineptitude",
-    "description": "Increases the cooldown of all of your skills by 5% per level multiplicatively.",
-    "category": "Curses"
-  },
-  "starvation": {
-    "name": "Starvation",
-    "description": "Depletes your saturation and current hunger points by (Enchantment level) upon consuming the item cursed with Starvation. It fully depletes saturation, then moves on to removing hunger points.",
-    "category": "Curses"
-  },
-  "fueled": {
-    "name": "Fueled",
-    "description": "Gain 0.3% Damage Reduction per level for every enemy that is on fire (vanilla or Inferno), slowed, or stunned within 8 blocks, capped at 4 mobs.",
-    "category": "Delve Infusions"
-  },
-  "soulspeed": {
-    "name": "Soul Speed",
-    "description": "When on soul sand or soul soil, your speed will increase by (level * 10.5)%.",
-    "category": "Passives"
-  },
-  "excavator": {
-    "name": "Excavator",
-    "description": "Mine extra blocks in a 3 x 3 shape. Sneaking disables the effect.",
-    "category": "Tools and Utility"
-  },
-  "oinking": {
-    "name": "Oinking",
-    "description": "Oinkity oink",
-    "category": "Cosmetic"
-  },
-  "consumables": {
-    "name": "Consumables",
-    "description": "Enchantments that function on consumable items.",
-    "category": "Consumables"
-  },
-  "weightless": {
-    "name": "Weightless",
-    "description": "May be held in the offhand without incurring a debuff from the Two Handed curse.",
-    "category": "Passives"
-  },
-  "meleeprotection": {
-    "name": "Melee Protection",
-    "description": "Multiplies melee damage taken by (0.96) ^ (2 * level).",
-    "category": "Defenses"
-  },
-  "crippling": {
-    "name": "Curse of Crippling",
-    "description": "When under 50% health, your damage and movement speed is reduced by 10% per level.",
-    "category": "Curses"
-  },
-  "infinity": {
-    "name": "Infinity",
-    "description": "Your item gains infinite power. Bows never consume their arrow, crossbows return their loaded arrow, potions never go empty, and food never runs out.",
-    "category": "Passives"
-  },
-  "throwingknife": {
-    "name": "Throwing Knife",
-    "description": "Right-click to instantly fire an arrow, applying all enchantments and attributes. Damages the item by 1 point of durability if it has Infinity, or consumes it if it does not.",
-    "category": "Consumables"
-  },
-  "baaing": {
-    "name": "Baaing",
-    "description": "Baaaaaaa",
-    "category": "Cosmetic"
-  },
-  "evasion": {
-    "name": "Evasion",
-    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage from a source further than 4 blocks from the player.",
-    "category": "Defenses"
-  },
-  "chaotic": {
-    "name": "Chaotic",
-    "description": "Your weapon deals anywhere between +Level and -Level damage, in integer increments, on basic melee, projectile and Alchemist Potion hits. This effect is halved for sweep attacks.",
-    "category": "Weapons"
-  },
-  "cosmetic": {
-    "name": "Cosmetic",
-    "description": "Enchantments that grant a cosmetic effect to your items.",
-    "category": "Cosmetic"
-  },
-  "quench": {
-    "name": "Quench",
-    "description": "Increase duration of consumable's effects by 2.5% per level.",
-    "category": "Delve Infusions"
-  },
-  "phylactery": {
-    "name": "Phylactery",
-    "description": "Dying with an item infused with Phylactery saves (10% * level) of your experience points in your grave. This stacks additively with itself across all items equipped. Experience will only be saved if you died with more than 100 experience points. Additionally, keep potion effects upon dying for (5% * level) of the duration.",
-    "category": "Infusions"
-  },
-  "regicide": {
-    "name": "Regicide",
-    "description": "While equipped, deal an additional (level * 10)% damage to Elite and Boss enemies.",
-    "category": "Weapons"
-  },
-  "instability": {
-    "name": "Curse of Instability",
-    "description": "Randomizes the damage type of damage received when you get hit between Melee, Projectile, Magic, and Blast.",
-    "category": "Curses"
-  },
-  "agility": {
-    "name": "Agility",
-    "description": "One of Monumenta's primary defensive stats, along with Armor. Multiplies received damage taken by 0.96^Agility. If Armor and Agility are mixed, damage is multiplied by 0.96^(Armor + Agility - 0.5 * Armor * Agility / (Armor + Agility))",
-    "category": null
-  },
-  "windaspect": {
-    "name": "Wind Aspect",
-    "description": "Launch mobs hit by (Level * 1.5) blocks and applies Slow Falling for 1 second.",
-    "category": "Weapons"
-  },
-  "waxon": {
-    "name": "Wax On",
-    "description": "Applies wax to mined copper as your master taught you.",
-    "category": "Tools and Utility"
-  },
-  "looting": {
-    "name": "Looting",
-    "description": "Increases common loot drops by (Enchantment level) chances.",
-    "category": "Tools and Utility"
-  },
-  "intuition": {
-    "name": "Intuition",
-    "description": "While equipped, grants 50% more experience.",
-    "category": "Passives"
-  },
-  "pointblank": {
-    "name": "Point Blank",
-    "description": "Projectiles deal an additional (level * 2) damage if the enemy is within 8 blocks.",
-    "category": "Ranged"
-  },
-  "pennate": {
-    "name": "Pennate",
-    "description": "You receive (level * 5)% less fall damage.",
-    "category": "Delve Infusions"
-  },
-  "fireprotection": {
-    "name": "Fire Protection",
-    "description": "Multiplies fire damage taken by (0.96) ^ (2 * level). Reduces fire duration by 10% per level.",
-    "category": "Defenses"
-  },
-  "spiritshot": {
-    "name": "Spiritshot",
-    "description": "Allows the weapon to be used in the Spirit Archery Minigame.",
-    "category": "Tools and Utility"
-  },
-  "enlightening": {
-    "name": "Enlightening",
-    "description": "Uses the power of a Tesseract of Light (u) to place torches under falling blocks.",
-    "category": "Tools and Utility"
-  },
-  "earthaspect": {
-    "name": "Earth Aspect",
-    "description": "Upon dealing melee damage, grants (level * 5)% damage reduction for 3 seconds. The same effect with half of the damage reduction applies when dealing projectile damage. Also applies upon mining a spawner.",
-    "category": "Weapons"
-  },
-  "spell_power": {
-    "name": "Spell Power",
-    "description": "Increases the damage of spells (+20% Spell Power increases the damage of all spells by 20%, for example), and only works with Mage skills. Spell Power stacks with the Magic Damage attribute.",
-    "category": "Weapons"
-  },
   "drilling": {
     "name": "Drilling",
     "description": "Breaking a spawner destroys one extra Spawner Shield per level.",
     "category": "Tools and Utility"
   },
-  "colossal": {
-    "name": "Colossal",
-    "description": "Items reinforced with Colossal don't take durability damage 50% of the time. Works with the Unbreaking enchant.",
-    "category": "Infusions"
+  "instantdrink": {
+    "name": "Instant Drink",
+    "description": "Right clicking a potion with this enchant will instantly apply its effects to the player using it.",
+    "category": "Consumables"
   },
-  "gilded": {
-    "name": "Gilded",
-    "description": "While equipped, you gain an aura of gold particles. While dropped, your item gains similar particles. Additional items increase your particles, capped at 10. A reward for winning the voting raffle.",
-    "category": "Cosmetic"
+  "broomstick": {
+    "name": "Broomstick",
+    "description": "After being hurled using Riptide, apply slow falling until touching the ground.",
+    "category": "Tools and Utility"
   },
-  "punch": {
-    "name": "Punch",
-    "description": "Projectiles gain (level * 3) blocks of knockback.",
+  "kineticloading": {
+    "name": "Kinetic Loading",
+    "description": "On a successful critical melee attack, instantly reload a crossbow from your Quiver, reset the cooldown of a Trident, Snowball or Throwing Knife, or regain an Alchemist Potion.",
     "category": "Ranged"
   },
-  "perspicacity": {
-    "name": "Perspicacity",
-    "description": "Gain (level * X)% magic damage, where X is 1/1.25/1.5 in regions 1/2/3.",
-    "category": "Infusions"
+  "unrustworthy": {
+    "name": "Unrustworthy",
+    "description": "Removes all rust from mined copper.",
+    "category": "Tools and Utility"
   },
-  "multiload": {
-    "name": "Multi-Load",
-    "description": "Upon reloading your crossbow, consume up to (level) extra arrows. For each arrow consumed, instantly reload crossbow after firing.",
+  "ashesofeternity": {
+    "name": "Ashes of Eternity",
+    "description": "Applies the effect of Resurrection upon death while holding in mainhand. When a player triggers this effect, the enchant is marked as \"Used\" and becomes unusable to them until the next new day. The enchant is refreshed and mark is removed when clicking with the item in mainhand, if a new day has occurred since last use.",
+    "category": "Consumables"
+  },
+  "soothing": {
+    "name": "Soothing",
+    "description": "Regenerate 0.04 health per level each second.",
+    "category": "Delve Infusions"
+  },
+  "quick_charge": {
+    "name": "Quick Charge",
+    "description": "Decreases the time it takes to load a crossbow by (level * 0.25) seconds.",
     "category": "Ranged"
+  },
+  "fractal": {
+    "name": "Fractal",
+    "description": "Your magic abilities will deal (10% * Level) increased damage for 2 seconds after hitting an enemy with a magic ability. This increase can only happen once every 6 seconds.",
+    "category": "Weapons"
+  },
+  "duelist": {
+    "name": "Duelist",
+    "description": "Adds (level * 2) extra damage to melee hits against human-like mobs: illagers, vexes, witches, piglins, piglin brutes, golems, giants, allays, and wardens.",
+    "category": "Weapons"
   },
   "celerity": {
     "name": "Celerity",
@@ -889,25 +424,460 @@
     "description": "Damaging an enemy with an ability increases your movement speed by (level * 0.75)% for 5 seconds, stacking up to 3 times.",
     "category": "Delve Infusions"
   },
+  "fueled": {
+    "name": "Fueled",
+    "description": "Gain 0.3% Damage Reduction per level for every enemy that is on fire (vanilla or Inferno), slowed, or stunned within 8 blocks, capped at 4 mobs.",
+    "category": "Delve Infusions"
+  },
+  "fortune": {
+    "name": "Fortune",
+    "description": "Increases the number of resources gained when breaking ores and certain other blocks that drop resources, based on level.",
+    "category": "Tools and Utility"
+  },
+  "crippling": {
+    "name": "Curse of Crippling",
+    "description": "When under 50% health, your damage and movement speed is reduced by 10% per level.",
+    "category": "Curses"
+  },
+  "spell_power": {
+    "name": "Spell Power",
+    "description": "Increases the damage of spells (+20% Spell Power increases the damage of all spells by 20%, for example), and only works with Mage skills. Spell Power stacks with the Magic Damage attribute.",
+    "category": "Weapons"
+  },
+  "reflection": {
+    "name": "Reflection",
+    "description": "1 second after taking magic or blast damage, deal (level * 6)% of the damage to all mobs in a 4 block radius.",
+    "category": "Delve Infusions"
+  },
+  "exorcism": {
+    "name": "Exorcism",
+    "description": "Deals 15 damage and applies Slowness III to mobs summoned within the Valley of Forgotten Pharaohs.",
+    "category": "Consumables"
+  },
+  "earthaspect": {
+    "name": "Earth Aspect",
+    "description": "Upon dealing melee damage, grants (level * 5)% damage reduction for 3 seconds. The same effect with half of the damage reduction applies when dealing projectile damage. Also applies upon mining a spawner.",
+    "category": "Weapons"
+  },
+  "magicfragility": {
+    "name": "Magic Fragility",
+    "description": "Multiplies magic damage taken by (0.96) ^ (-2 * level).",
+    "category": "Curses"
+  },
+  "ranged": {
+    "name": "Ranged",
+    "description": "Enchantments that grant special ranged effects.",
+    "category": "Ranged"
+  },
+  "locked": {
+    "name": "Locked",
+    "description": "Prevents the item from being swapped by a lockbox.",
+    "category": "Infusions"
+  },
+  "snowy": {
+    "name": "Snowy",
+    "description": "While you have an item with this enchantment in your inventory, you are able to be hit by other players with a Snowball Launcher. Be careful!",
+    "category": "Cosmetic"
+  },
+  "eruption": {
+    "name": "Eruption",
+    "description": "Mining a spawner deals (level * 4) damage to mobs within 5 blocks and apply the effects of Fire, Ice, Thunder, and Wind Aspects as well as Decay to affected mobs. Thunder Aspect applied via Eruption always stuns mobs, for (level * 0.3) seconds. Additionally, apply effects of Sapper and Adrenaline to players within 8 blocks, if the pickaxe used to mine the spawner has the enchantment.",
+    "category": "Tools and Utility"
+  },
+  "bleeding": {
+    "name": "Bleeding",
+    "description": "Applies (level) stacks of Bleed to enemies struck by the Bleeding weapon. Bleed stacks last 5s, applying (for normal enemies / bosses) 4% / 1% weak per stack. At 5 / 20 stacks, the mob Hemorrhages, losing all stacks and taking 30% max health as damage / (region * 150) flat damage. Hemorrhaged mobs are Weakened by 30% for 5s and cannot gain Bleed stacks during this time.",
+    "category": "Weapons"
+  },
+  "corruption": {
+    "name": "Curse of Corruption",
+    "description": "Holding or equipping one item is fine, but too much corruption is bad for you...",
+    "category": "Curses"
+  },
+  "recoil": {
+    "name": "Recoil",
+    "description": "When firing a projectile weapon, get knocked back a short distance, increasing with level. Crouching while firing prevents the recoil, but places the weapon on cooldown for 0.5 seconds.",
+    "category": "Ranged"
+  },
+  "ardor": {
+    "name": "Ardor",
+    "description": "Mining a spawner outside of water grants you (level * 2)% speed for 4s. Mining a spawner underwater refreshes (level * 0.5) breath.",
+    "category": "Delve Infusions"
+  },
+  "barking": {
+    "name": "Barking",
+    "description": "Magically regrows the bark onto the logs you chop up.",
+    "category": "Tools and Utility"
+  },
+  "lure": {
+    "name": "Lure",
+    "description": "Decreases the time spent waiting for a fish to appear by (level * 5) seconds.",
+    "category": "Tools and Utility"
+  },
+  "mitosis": {
+    "name": "Mitosis",
+    "description": "Mining a spawner debuffs all enemies in a 5 block radius with (level * 3.75)% Weaken for 3 seconds.",
+    "category": "Delve Infusions"
+  },
+  "stamina": {
+    "name": "Stamina",
+    "description": "After taking damage, any melee or projectile damage you deal within 6s is increased by (level * 2.5)%. Stacks up to 4 times, for (level * 10)% max damage, with duration refreshing each hit taken.",
+    "category": "Passives"
+  },
+  "quake": {
+    "name": "Quake",
+    "description": "When your melee attack kills an enemy, all nearby enemies in a 3-block cube take (level * 5)% of the damage dealt. Your weapon's Fire/Ice/Thunder Aspect, Decay and/or Bleed also get applied.",
+    "category": "Weapons"
+  },
+  "grace": {
+    "name": "Grace",
+    "description": "Gain 1.5% attack speed per level.",
+    "category": "Delve Infusions"
+  },
+  "inure": {
+    "name": "Inure",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when taking the same type of mob damage consecutively (Melee, Projectile, Blast, or Magic) within 60 seconds.",
+    "category": "Defenses"
+  },
+  "impact": {
+    "name": "Impact",
+    "description": "For the next 2s after you attack a mob, deal an additional (level * 10)% of your physical attack's damage to the mob when they hit a wall, or if they fall from more than 3 blocks. Hit enemies lose (level) Knockback Resistance.",
+    "category": "Weapons"
+  },
+  "curses": {
+    "name": "Curses",
+    "description": "Curses that cause negative effects. Be careful!",
+    "category": "Curses"
+  },
+  "projectilefragility": {
+    "name": "Projectile Fragility",
+    "description": "Multiplies projectile damage taken by (0.96) ^ (-2 * level).",
+    "category": "Curses"
+  },
+  "thorns_damage": {
+    "name": "Thorns Damage",
+    "description": "Deal (level) damage to a mob when it damages you with melee or projectile damage.",
+    "category": "Passives"
+  },
+  "execution": {
+    "name": "Execution",
+    "description": "After killing an enemy, you deal (level * 1.5)% extra damage for 4 seconds.",
+    "category": "Delve Infusions"
+  },
+  "carapace": {
+    "name": "Carapace",
+    "description": "After being hit by a mob, gain (level * 1.25)% damage reduction for 5 seconds, refreshed on being hit.",
+    "category": "Delve Infusions"
+  },
+  "two_handed": {
+    "name": "Two Handed",
+    "description": "Some items simply cannot be used correctly if your hands are full... Reduces attack damage, attack speed, and spell power of the item, reduces player movement speed, and restricts the ability to throw/shoot projectiles if held while also having an offhand equipped. Two-handed swords count as holding two swords for sake of Rogue abilities.",
+    "category": "Curses"
+  },
+  "poise": {
+    "name": "Poise",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when above 90% Max Health. Half of the bonus is granted when above 70% Max Health.",
+    "category": "Defenses"
+  },
+  "debarking": {
+    "name": "Debarking",
+    "description": "Strips the bark off the logs you chop down.",
+    "category": "Tools and Utility"
+  },
+  "oinking": {
+    "name": "Oinking",
+    "description": "Oinkity oink",
+    "category": "Cosmetic"
+  },
+  "hexeater": {
+    "name": "Hex Eater",
+    "description": "Adds (level * 0.5) extra damage per debuff on the target to basic melee, projectile or Alchemist Potion hits.",
+    "category": "Weapons"
+  },
+  "sweepingedge": {
+    "name": "Sweeping Edge",
+    "description": "On non-critical fully charged melee swings, deals (20% * level) of the triggering attack's damage in an AoE around the targeted mob. Mobs must be within 3 blocks of the player's head or feet to be hit.",
+    "category": "Weapons"
+  },
+  "skyseeker": {
+    "name": "Skyseeker",
+    "description": "While equipped, deal an additional (level * 10)% damage to enemies who are above you.",
+    "category": "Weapons"
+  },
+  "starvation": {
+    "name": "Starvation",
+    "description": "Depletes your saturation and current hunger points by (Enchantment level) upon consuming the item cursed with Starvation. It fully depletes saturation, then moves on to removing hunger points.",
+    "category": "Curses"
+  },
+  "tenacity": {
+    "name": "Tenacity",
+    "description": "+(level * 0.5)% damage reduction.",
+    "category": "Infusions"
+  },
+  "ineptitude": {
+    "name": "Ineptitude",
+    "description": "Increases the cooldown of all of your skills by 5% per level multiplicatively.",
+    "category": "Curses"
+  },
+  "rageoftheketer": {
+    "name": "Rage of the Keter",
+    "description": "When consumed, gain 4 hunger, 4 saturation, a +20% damage buff to melee, magic, and projectile damage, and +15% speed for 15s. Cooldown: 25s.",
+    "category": "Consumables"
+  },
+  "aptitude": {
+    "name": "Aptitude",
+    "description": "Decreases the cooldown of all of your skills by 5% per level multiplicatively.",
+    "category": "Passives"
+  },
+  "knockback": {
+    "name": "Knockback",
+    "description": "Adds (level * 3) blocks to your knockback on melee strikes.",
+    "category": "Weapons"
+  },
+  "vanishing": {
+    "name": "Curse of Vanishing",
+    "description": "When held in inventory, an item with Curse of Vanishing shatters upon death. Curse of Vanishing II will cause the item to be completely deleted upon death.",
+    "category": "Curses"
+  },
+  "vigor": {
+    "name": "Vigor",
+    "description": "Gain (level * X)% melee damage, where X is 1/1.25/1.5 in regions 1/2/3.",
+    "category": "Infusions"
+  },
+  "instability": {
+    "name": "Curse of Instability",
+    "description": "Randomizes the damage type of damage received when you get hit between Melee, Projectile, Magic, and Blast.",
+    "category": "Curses"
+  },
+  "understanding": {
+    "name": "Understanding",
+    "description": "All non-Delve Infusions you are currently benefitting from gain (Understanding level * .2) levels.",
+    "category": "Delve Infusions"
+  },
+  "explosive": {
+    "name": "Explosive",
+    "description": "Critical Arrows you shoot deals an additional (level * 10)% splash damage in a 2-block radius, which also applies any Fire/Ice/Thunder/Wind Aspect, Decay and/or Bleed enchants.",
+    "category": "Ranged"
+  },
+  "efficiency": {
+    "name": "Efficiency",
+    "description": "Increases the speed at which you break blocks with the enchanted item. If on an Axe, it also increases the chance of stunning a shield by an additional 5% per level.",
+    "category": "Tools and Utility"
+  },
+  "meleefragility": {
+    "name": "Melee Fragility",
+    "description": "Multiplies melee damage taken by (0.96) ^ (-2 * level).",
+    "category": "Curses"
+  },
+  "usurper": {
+    "name": "Usurper",
+    "description": "Heal (level * 2.5)% of your max health whenever you slay an elite or boss enemy.",
+    "category": "Delve Infusions"
+  },
+  "arcane_thrust": {
+    "name": "Arcane Thrust",
+    "description": "Your melee attacks damage all enemies 3 blocks in front of you, in a 0.6-block-wide line, dealt as melee damage.  Damage: 1 + base damage * level / (level + 1)",
+    "category": "Weapons"
+  },
+  "sniper": {
+    "name": "Sniper",
+    "description": "Projectiles deal an additional (level * 2) damage if the enemy is further than 12 blocks.",
+    "category": "Ranged"
+  },
+  "shrapnel": {
+    "name": "Curse of Shrapnel",
+    "description": "When used to break a spawner, take (level) damage. This damages armor and bypasses damage reductions.",
+    "category": "Curses"
+  },
+  "pennate": {
+    "name": "Pennate",
+    "description": "You receive (level * 5)% less fall damage.",
+    "category": "Delve Infusions"
+  },
+  "windaspect": {
+    "name": "Wind Aspect",
+    "description": "Launch mobs hit by (Level * 1.5) blocks and applies Slow Falling for 1 second.",
+    "category": "Weapons"
+  },
+  "junglesnourishment": {
+    "name": "Jungle's Nourishment",
+    "description": "When consumed, restore all hunger, gain 40% Instant Health, and gain 20% Resistance for 5s. Cooldown: 25s.",
+    "category": "Consumables"
+  },
+  "looting": {
+    "name": "Looting",
+    "description": "Increases common loot drops by (Enchantment level) chances.",
+    "category": "Tools and Utility"
+  },
+  "perspicacity": {
+    "name": "Perspicacity",
+    "description": "Gain (level * X)% magic damage, where X is 1/1.25/1.5 in regions 1/2/3.",
+    "category": "Infusions"
+  },
+  "magicprotection": {
+    "name": "Magic Protection",
+    "description": "Multiplies magic damage taken by (0.96) ^ (2 * level).",
+    "category": "Defenses"
+  },
+  "spiritshot": {
+    "name": "Spiritshot",
+    "description": "Allows the weapon to be used in the Spirit Archery Minigame.",
+    "category": "Tools and Utility"
+  },
+  "retrieval": {
+    "name": "Retrieval",
+    "description": "Arrows have a (level * 10)% chance to not be consumed.",
+    "category": "Passives"
+  },
+  "armor": {
+    "name": "Armor",
+    "description": "One of Monumenta's primary defensive stats, along with Agility. Multiplies received damage taken by 0.96^Armor. If Armor and Agility are mixed, damage is multiplied by 0.96^(Armor + Agility - 0.5 * Armor * Agility / (Armor + Agility))",
+    "category": null
+  },
+  "agility": {
+    "name": "Agility",
+    "description": "One of Monumenta's primary defensive stats, along with Armor. Multiplies received damage taken by 0.96^Agility. If Armor and Agility are mixed, damage is multiplied by 0.96^(Armor + Agility - 0.5 * Armor * Agility / (Armor + Agility))",
+    "category": null
+  },
+  "defenses": {
+    "name": "Defenses",
+    "description": "Enchantments that reduce the damage you take in some way or another.",
+    "category": "Defenses"
+  },
+  "gills": {
+    "name": "Gills",
+    "description": "While equipped or held, gain Water Breathing.",
+    "category": "Passives"
+  },
+  "vitality": {
+    "name": "Vitality",
+    "description": "+(level * 1)% max health.",
+    "category": "Infusions"
+  },
+  "passiveeffects": {
+    "name": "Passives",
+    "description": "Enchantments that grant a passive effect when used or worn.",
+    "category": "Passives"
+  },
+  "pointblank": {
+    "name": "Point Blank",
+    "description": "Projectiles deal an additional (level * 2) damage if the enemy is within 8 blocks.",
+    "category": "Ranged"
+  },
+  "blastprotection": {
+    "name": "Blast Protection",
+    "description": "Multiplies blast damage taken by (0.96) ^ (2 * level).",
+    "category": "Defenses"
+  },
+  "reverb": {
+    "name": "Reverb",
+    "description": "On kill by melee strike or basic projectile attack, deal (10 * level)% of your overkill damage plus (5 * level)% of your highest damage source within the killing attack to an enemy within 8 blocks. Enemies killed by this damage can also trigger Reverb.",
+    "category": "Weapons"
+  },
+  "nutriment": {
+    "name": "Nutriment",
+    "description": "Gain (level * 1.5)% extra healing.",
+    "category": "Delve Infusions"
+  },
+  "weightless": {
+    "name": "Weightless",
+    "description": "May be held in the offhand without incurring a debuff from the Two Handed curse.",
+    "category": "Passives"
+  },
+  "sapper": {
+    "name": "Sapper",
+    "description": "Restore (Enchantment Level) health by breaking a spawner.",
+    "category": "Tools and Utility"
+  },
   "ephemerality": {
     "name": "Curse of Ephemerality",
     "description": "All good things must come to an end. Will vanish when you log out, transfer shards, drop it, or try to move them to another inventory.",
     "category": "Curses"
   },
-  "soothing": {
-    "name": "Soothing",
-    "description": "Regenerate 0.04 health per level each second.",
+  "celestial": {
+    "name": "Celestial",
+    "description": "Deal 1.5 * level % more damage to enemies at a higher elevation than you.",
     "category": "Delve Infusions"
   },
-  "featherfalling": {
-    "name": "Feather Falling",
-    "description": "Multiplies fall damage taken by (0.96) ^ (3 * level).",
+  "decay": {
+    "name": "Decay",
+    "description": "Applies a Decay effect that deals 2 damage every (40 / level) ticks for 4 seconds.",
+    "category": "Weapons"
+  },
+  "veil": {
+    "name": "Curse of the Veil",
+    "description": "When equipped, drain (level) health every 3 seconds. This damage cannot kill you, and only triggers if there is a hostile mob within 24 blocks, Boss mob within 80 blocks, or the player has dealt damage within the last 12 seconds.",
+    "category": "Curses"
+  },
+  "evasion": {
+    "name": "Evasion",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage from a source further than 4 blocks from the player.",
     "category": "Defenses"
   },
-  "iceaspect": {
-    "name": "Ice Aspect",
-    "description": "Applies (level * 10)% Slowness for 4 seconds when dealing melee or projectile damage. Deals 1 extra damage to Blazes.",
+  "depthstrider": {
+    "name": "Depth Strider",
+    "description": "Allows you to move faster by (level * 33)% when in water.",
+    "category": "Passives"
+  },
+  "hope": {
+    "name": "Hope",
+    "description": "If this item would be inflicted with more than 1 shatter level from a death, it takes 1 level less.",
+    "category": "Infusions"
+  },
+  "reflexes": {
+    "name": "Reflexes",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP for 0.65s after damaging any mob. DoT/indirect damage abilities cannot trigger this bonus. The bonus is granted at half effectivity for an additional 0.35s.",
+    "category": "Defenses"
+  },
+  "chaotic": {
+    "name": "Chaotic",
+    "description": "Your weapon deals anywhere between +Level and -Level damage, in integer increments, on basic melee, projectile and Alchemist Potion hits. This effect is halved for sweep attacks.",
     "category": "Weapons"
+  },
+  "fervor": {
+    "name": "Fervor",
+    "description": "Deal 1.5% additional damage per level for 3s after gaining a buff that lasts at least 5s.",
+    "category": "Delve Infusions"
+  },
+  "piercing": {
+    "name": "Piercing",
+    "description": "Lets arrows pass through up to the number of entities equal to the enchantment level.",
+    "category": "Ranged"
+  },
+  "consumables": {
+    "name": "Consumables",
+    "description": "Enchantments that function on consumable items.",
+    "category": "Consumables"
+  },
+  "delve_infusions": {
+    "name": "Delve Infusions",
+    "description": "From the Depths and the Delves, offering special enchantments that can be specially added to your gear!",
+    "category": "Delve Infusions"
+  },
+  "phylactery": {
+    "name": "Phylactery",
+    "description": "Dying with an item infused with Phylactery saves (10% * level) of your experience points in your grave. This stacks additively with itself across all items equipped. Experience will only be saved if you died with more than 100 experience points. Additionally, keep potion effects upon dying for (5% * level) of the duration.",
+    "category": "Infusions"
+  },
+  "harpoon": {
+    "name": "Harpoon",
+    "description": "Projectiles pull enemies towards you.",
+    "category": "Ranged"
+  },
+  "sturdy": {
+    "name": "Sturdy",
+    "description": "Reduces the duration shields are stunned for by 5% per level.",
+    "category": "Delve Infusions"
+  },
+  "throwingknife": {
+    "name": "Throwing Knife",
+    "description": "Right-click to instantly fire an arrow, applying all enchantments and attributes. Damages the item by 1 point of durability if it has Infinity, or consumes it if it does not.",
+    "category": "Consumables"
+  },
+  "shielding": {
+    "name": "Shielding",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP when taking damage from an enemy within 2.5 blocks. Taking damage that would stun a shield and activates Shielding reduces Shielding's effect to half for 5 seconds.",
+    "category": "Defenses"
   },
   "radiant": {
     "name": "Radiant",
@@ -919,19 +889,64 @@
     "description": "Items infused with Revelation increase the level of any Delve infusion on the item by one level.",
     "category": "Infusions"
   },
-  "ashesofeternity": {
-    "name": "Ashes of Eternity",
-    "description": "Applies the effect of Resurrection upon death while holding in mainhand. When a player triggers this effect, the enchant is marked as \"Used\" and becomes unusable to them until the next new day. The enchant is refreshed and mark is removed when clicking with the item in mainhand, if a new day has occurred since last use.",
-    "category": "Consumables"
+  "choler": {
+    "name": "Choler",
+    "description": "Deal (level * 1)% additional damage to any mob that is on fire (vanilla or Inferno), slowed, or stunned.",
+    "category": "Delve Infusions"
   },
-  "depthstrider": {
-    "name": "Depth Strider",
-    "description": "Allows you to move faster by (level * 33)% when in water.",
+  "ethereal": {
+    "name": "Ethereal",
+    "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP when taking damage within 1.5 seconds of any previous damage from mobs.",
+    "category": "Defenses"
+  },
+  "triage": {
+    "name": "Triage",
+    "description": "Increases the amount of healing you do to others by (level * 5)%.",
     "category": "Passives"
   },
-  "multishot": {
-    "name": "Multishot",
-    "description": "Crossbows enchanted with Multishot fire 3 projectiles at once in a spread pattern. Only one projectile is consumed and only one out of the 3 can be picked up off the ground.",
+  "material": {
+    "name": "Material",
+    "description": "A special item, used to craft another item - often Patron related ones. Items with this enchant also can be used as crafting materials in regular vanilla Minecraft recipes.",
+    "category": "Cosmetic"
+  },
+  "grappling": {
+    "name": "Grappling",
+    "description": "Your crossbow will act as a grappling hook, allowing you to pull yourself up to (level) blocks, with an emphasis on vertical distance. Shooting arrows consumes charges. Charges replenish every 5 seconds. Sneaking near a hook (including mid-air) will pick it up and replenish one of your charges early.  After shooting a block, left-click to pull yourself towards the block. Sneaking will prevent yourself from being pulled.  Also allows you to grapple yourself to mobs. Left-click while sneaking to pull mobs towards you.  Disables projectile-based abilities while held.",
     "category": "Ranged"
+  },
+  "respiration": {
+    "name": "Respiration",
+    "description": "Extends your breathing time underwater by (level * 15) seconds.",
+    "category": "Passives"
+  },
+  "stasis": {
+    "name": "Stasis",
+    "description": "While Stasis is active, you are immovable, immune to all damage and effects, and cannot use any interactions or abilities.",
+    "category": "Consumables"
+  },
+  "lifedrain": {
+    "name": "Life Drain",
+    "description": "Your critical melee attacks heal you. Normal melee attacks also heal you, but for less.  Healing (falling attack): √(level) Healing (non-falling attack): 0.5 * √(level) / √(attack speed) * attack cooldown",
+    "category": "Weapons"
+  },
+  "guard": {
+    "name": "Guard",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP after blocking with a shield. Duration lasts for 4s if blocked from offhand, and 6s from mainhand. The bonus is also granted for 2s when taking 35% or greater HP at once.",
+    "category": "Defenses"
+  },
+  "enlightening": {
+    "name": "Enlightening",
+    "description": "Uses the power of a Tesseract of Light (u) to place torches under falling blocks.",
+    "category": "Tools and Utility"
+  },
+  "aura": {
+    "name": "Aura",
+    "description": "Mobs in a 3 block radius from you are slowed by (level * 3)% for 0.5 seconds. This is refreshed as long as they are in range.",
+    "category": "Delve Infusions"
+  },
+  "steadfast": {
+    "name": "Steadfast",
+    "description": "Gain effective Armor to grant up to 20% / 25% / 30% bonus EHP. This bonus scales linearly with the amount of HP you are missing, up to 60%.",
+    "category": "Defenses"
   }
 }

@@ -1975,7 +1975,7 @@
       },
       "blizzard_duration_percent": {
         "locked": false,
-        "value": -90
+        "value": -85
       },
       "blizzard_range_percent": {
         "locked": true,
@@ -1983,7 +1983,7 @@
       },
       "blizzard_damage_percent": {
         "locked": true,
-        "value": -60
+        "value": -65
       }
     },
     "type": "Charm",
@@ -2901,7 +2901,7 @@
         "locked": false,
         "value": -100
       },
-      "hunting_companion_bleed_duration_flat": {
+      "hunting_companion_weaken_duration_flat": {
         "locked": false,
         "value": -100
       },
@@ -6510,12 +6510,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
-      "sniper": 1,
       "ice_aspect": 1,
-      "projectile_damage_base": 13.5,
+      "sniper": 1,
+      "unbreaking": 3,
       "magic_damage_percent": 8,
-      "projectile_speed_base": 1.5
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 14
     },
     "lore": "The storm arrives, a brutal\nrelease of ice."
   },
@@ -6533,11 +6533,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 2,
-      "sniper": 1,
       "ice_aspect": 1,
-      "projectile_damage_base": 12,
-      "projectile_speed_base": 1.5
+      "sniper": 1,
+      "unbreaking": 2,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 12.5
     },
     "lore": "In the furious storm of battle, the\nAurians pierced through. This storm\nwould drain to the seas..."
   },
@@ -6637,12 +6637,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
+      "bleeding": 1,
       "fire_aspect": 2,
       "piercing": 1,
-      "bleeding": 2,
+      "unbreaking": 3,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 26
+      "projectile_damage_base": 27
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6660,12 +6660,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
-      "fire_aspect": 2,
+      "bleeding": 1,
+      "fire_aspect": 3,
       "piercing": 1,
-      "bleeding": 2,
+      "unbreaking": 3,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 27.5
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6683,10 +6683,10 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 4,
-      "fire_aspect": 2,
+      "bleeding": 1,
+      "fire_aspect": 3,
       "piercing": 1,
-      "bleeding": 2,
+      "unbreaking": 4,
       "projectile_speed_base": 1.5,
       "projectile_damage_base": 28.5
     },
@@ -6706,12 +6706,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 5,
-      "fire_aspect": 2,
+      "bleeding": 2,
+      "fire_aspect": 3,
       "piercing": 1,
-      "bleeding": 3,
+      "unbreaking": 5,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 30
+      "projectile_damage_base": 29
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6816,11 +6816,12 @@
     "type": "Bow",
     "stats": {
       "curse_of_corruption": 1,
+      "piercing": 1,
       "punch": 1,
       "unbreaking": 3,
       "armor": 3,
-      "projectile_damage_base": 16,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 13
     },
     "lore": "Rage and Malevolence."
   },
@@ -6839,10 +6840,11 @@
     "type": "Bow",
     "stats": {
       "curse_of_corruption": 1,
+      "ice_aspect": 2,
+      "infinity": 1,
+      "regeneration": 2,
       "thunder_aspect": 10,
       "unbreaking": 5,
-      "ice_aspect": 2,
-      "regeneration": 2,
       "projectile_speed_base": 1,
       "projectile_damage_base": 26.5
     },
@@ -7085,12 +7087,13 @@
     "type": "Bow",
     "stats": {
       "curse_of_corruption": 1,
-      "unbreaking": 3,
-      "punch": 1,
       "divine_aura": 1,
+      "piercing": 1,
+      "punch": 1,
+      "unbreaking": 3,
       "armor": 3,
-      "projectile_damage_base": 16,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 13
     },
     "lore": "Its bearer was young, but that\ndidn't stop him from saving his\nfriends countless times."
   },
@@ -7162,12 +7165,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "fire_aspect": 1,
-      "piercing": 1,
-      "mending": 1,
       "decay": 2,
+      "fire_aspect": 1,
+      "mending": 1,
+      "piercing": 1,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 21
+      "projectile_damage_base": 20.5
     },
     "lore": "Its flame is earned from those who came\nbefore; a ruinous reminder of the cost\nof turning on those who offered power."
   },
@@ -7976,13 +7979,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreakable": 1,
-      "thunder_aspect": 5,
       "fire_aspect": 2,
       "ice_aspect": 2,
       "infinity": 1,
-      "projectile_damage_base": 15,
-      "projectile_speed_base": 1.3
+      "thunder_aspect": 5,
+      "unbreakable": 1,
+      "projectile_speed_base": 1.3,
+      "projectile_damage_base": 16
     },
     "lore": "R'Tsiv placed his bow on the table before\nthe other Elders. War was coming. They had\nto mobilize the Shamans, today."
   },
@@ -8062,10 +8065,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "point_blank": 2,
       "mending": 1,
+      "point_blank": 2,
       "shielding": 1,
       "stamina": 3,
+      "sustenance": 1,
       "projectile_speed_base": 1.2,
       "projectile_damage_base": 25
     },
@@ -8088,10 +8092,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "point_blank": 2,
       "mending": 1,
+      "point_blank": 2,
       "shielding": 1,
       "stamina": 3,
+      "sustenance": 1,
       "projectile_speed_base": 1.2,
       "projectile_damage_base": 26
     },
@@ -8114,10 +8119,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "point_blank": 3,
       "mending": 1,
+      "point_blank": 3,
       "shielding": 1,
       "stamina": 3,
+      "sustenance": 1,
       "projectile_damage_base": 26.5,
       "projectile_speed_base": 1.2
     },
@@ -8150,12 +8156,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "regicide": 1,
       "fire_aspect": 1,
       "mending": 1,
       "regeneration": 1,
+      "regicide": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 13.5
+      "projectile_damage_base": 14
     },
     "lore": "The sacrifice unworthy, his fury awoken."
   },
@@ -8226,13 +8232,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreakable": 1,
-      "thunder_aspect": 5,
       "fire_aspect": 2,
       "ice_aspect": 2,
       "infinity": 1,
-      "projectile_damage_base": 15,
-      "projectile_speed_base": 1.3
+      "thunder_aspect": 5,
+      "unbreakable": 1,
+      "projectile_speed_base": 1.3,
+      "projectile_damage_base": 16
     },
     "lore": "Kaul's anger still lingers, even\nin slumber, a pain felt by all\nattuned to nature."
   },
@@ -8350,12 +8356,14 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "knockback": 2,
-      "unbreaking": 1,
       "fire_aspect": 2,
+      "knockback": 2,
       "melee_protection": 2,
+      "unbreaking": 1,
       "projectile_speed_base": 0.5,
-      "projectile_damage_base": 14.5
+      "projectile_damage_base": 14.5,
+      "attack_damage_base": 5,
+      "attack_speed_base": 2
     },
     "lore": "With every shot, the destruction\nof the past echoes out."
   },
@@ -8736,10 +8744,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "skyseeker": 1,
       "unbreaking": 3,
       "wind_aspect": 2,
       "speed_percent": 10,
-      "projectile_speed_base": 1,
+      "projectile_speed_base": 1.8,
       "projectile_damage_base": 27
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
@@ -8760,11 +8769,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "skyseeker": 1,
       "unbreaking": 3,
       "wind_aspect": 2,
       "speed_percent": 11,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 28
+      "projectile_speed_base": 2,
+      "projectile_damage_base": 27.5
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -8784,11 +8794,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "skyseeker": 1,
       "unbreaking": 3,
       "wind_aspect": 2,
       "speed_percent": 12,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 29.5
+      "projectile_speed_base": 2,
+      "projectile_damage_base": 28.5
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -8808,11 +8819,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "skyseeker": 1,
       "unbreaking": 4,
       "wind_aspect": 2,
       "speed_percent": 13,
-      "projectile_speed_base": 1,
-      "projectile_damage_base": 30.5
+      "projectile_speed_base": 2,
+      "projectile_damage_base": 29.5
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -8832,11 +8844,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "skyseeker": 2,
       "unbreaking": 5,
       "wind_aspect": 2,
-      "projectile_speed_base": 1,
       "speed_percent": 14,
-      "projectile_damage_base": 32
+      "projectile_speed_base": 2,
+      "projectile_damage_base": 29.5
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -8855,12 +8868,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "infinity": 1,
+      "sniper": 5,
       "thunder_aspect": 2,
       "unbreaking": 3,
-      "sniper": 5,
-      "infinity": 1,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 21
+      "projectile_damage_base": 22
     },
     "lore": "His Silver wrath struck without warning.\nThey say he felled Isharist with\na wave of his hand."
   },
@@ -8879,12 +8892,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "infinity": 1,
+      "sniper": 5,
       "thunder_aspect": 2,
       "unbreaking": 3,
-      "sniper": 5,
-      "infinity": 1,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 23
     },
     "lore": "His Silver wrath struck without warning.\nThey say he felled Isharist with\na wave of his hand."
   },
@@ -8903,12 +8916,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "infinity": 1,
+      "sniper": 6,
       "thunder_aspect": 2,
       "unbreaking": 4,
-      "sniper": 6,
-      "infinity": 1,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 23
     },
     "lore": "His Silver wrath struck without warning.\nThey say he felled Isharist with\na wave of his hand."
   },
@@ -8927,12 +8940,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "infinity": 1,
+      "sniper": 6,
       "thunder_aspect": 2,
       "unbreaking": 5,
-      "sniper": 6,
-      "infinity": 1,
       "projectile_speed_base": 5,
-      "projectile_damage_base": 23
+      "projectile_damage_base": 24
     },
     "lore": "His Silver wrath struck without warning.\nThey say he felled Isharist with\na wave of his hand."
   },
@@ -8952,8 +8965,8 @@
     "stats": {
       "sniper": 3,
       "unbreaking": 4,
-      "projectile_damage_base": 11,
-      "projectile_speed_base": 1.8
+      "projectile_speed_base": 1.8,
+      "projectile_damage_base": 12
     },
     "lore": "Despite the usage, this weapon can still\nhunt down the beasts lurking within dark\nforests outside the valley."
   },
@@ -8981,12 +8994,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 3,
-      "sniper": 1,
       "ice_aspect": 1,
+      "sniper": 1,
+      "unbreaking": 3,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 13.5,
-      "magic_damage_percent": 8
+      "magic_damage_percent": 8,
+      "projectile_damage_base": 14
     },
     "lore": "Let us embrace the Stars who guide\nour souls to salvation. The gaze\nfrom beyond sees us all."
   },
@@ -9509,7 +9522,7 @@
     "stats": {
       "judgement_chain_damage_boost_percent": {
         "locked": false,
-        "value": 15
+        "value": 25
       },
       "judgement_chain_range_percent": {
         "locked": false,
@@ -9846,6 +9859,25 @@
       "thorns_flat": 4,
       "agility": 7
     }
+  },
+  "Refit Mask of the Interim": {
+    "location": "Challenger",
+    "mmlore": [
+      "A mask, refit for a hunter."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Refit Mask of the Interim",
+    "base_item": "Carved Pumpkin",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "first_strike": 2,
+      "melee_protection": 2,
+      "tempo": 1,
+      "agility": 6
+    },
+    "lore": "A mask, refit for a hunter."
   },
   "Replica Plague Bearer's Head": {
     "location": "Halloween Event",
@@ -11022,7 +11054,7 @@
       "unbreaking": 3,
       "max_health_flat": 2,
       "thorns_flat": 4,
-      "agility": 4.5
+      "agility": 5
     },
     "lore": "Woven from a few thousand locusts -\nit itches quite a bit."
   },
@@ -17385,6 +17417,25 @@
     },
     "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrators\nof the Machine's power matrix. It was\nan act of service for the future Architect."
   },
+  "Speedometer": {
+    "location": "King's Valley",
+    "mmlore": [
+      "A shiny mechanical device, with gears",
+      "that spin as you walk. A message",
+      "is engraved on it: \"Going fast is easy,",
+      "it's going slow that's harder!\"",
+      "<gray><key:key.use/> in main hand or inventory",
+      "<gray>to check your speed."
+    ],
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Speedometer",
+    "base_item": "Clock",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A shiny mechanical device, with gears\nthat spin as you walk. A message\nis engraved on it: \"Going fast is easy,\nit's going slow that's harder!\"\n in main hand or inventory\nto check your speed."
+  },
   "Stargazer's Glasses": {
     "location": "Starpoint",
     "region": "Ring",
@@ -19810,10 +19861,6 @@
       "grasping_claws_slowness_amplifier_percent": {
         "locked": false,
         "value": 10
-      },
-      "sanguine_harvest_bleed_amplifier_percent": {
-        "locked": false,
-        "value": 10
       }
     },
     "type": "Charm",
@@ -20849,12 +20896,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "ice_aspect": 2,
+      "piercing": 2,
+      "quick_charge": 1,
       "recoil": 1,
       "unbreaking": 3,
-      "piercing": 2,
-      "ice_aspect": 2,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 22
+      "projectile_damage_base": 19
     },
     "lore": "Old folklore hides an ancient myth,\nmentioning a cataclysmic blizzard,\ncaused by a single shot from\na fabled crossbow."
   },
@@ -20934,13 +20982,13 @@
     "type": "Crossbow",
     "stats": {
       "first_strike": 3,
-      "quick_charge": 3,
+      "kinetic_loading": 1,
       "unbreaking": 3,
-      "projectile_damage_base": 12,
       "speed_percent": 10,
-      "attack_damage_base": 15,
-      "attack_speed_base": 1,
-      "projectile_speed_base": 1
+      "projectile_speed_base": 0.8,
+      "attack_damage_base": 14,
+      "attack_speed_base": 1.5,
+      "projectile_damage_base": 14
     },
     "lore": "Power born from the souls of\nthe Horseman's victims."
   },
@@ -21026,13 +21074,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "quick_charge": 2,
-      "unbreaking": 3,
       "piercing": 1,
+      "quick_charge": 3,
       "reverb": 2,
+      "unbreaking": 3,
       "projectile_speed_base": 1.5,
       "magic_damage_percent": 10,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 16.5
     },
     "lore": "The final eye gazes down from the heavens,\nunmoved by the desperate pleas from the\ndevout for mercy."
   },
@@ -21051,13 +21099,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "quick_charge": 2,
-      "unbreaking": 3,
       "piercing": 1,
+      "quick_charge": 3,
       "reverb": 2,
+      "unbreaking": 3,
       "projectile_speed_base": 1.5,
       "magic_damage_percent": 14,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 17
     },
     "lore": "The final eye gazes down from the heavens,\nunmoved by the desperate pleas from the\ndevout for mercy."
   },
@@ -21076,13 +21124,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "quick_charge": 2,
-      "unbreaking": 4,
       "piercing": 1,
+      "quick_charge": 3,
       "reverb": 3,
+      "unbreaking": 4,
       "projectile_speed_base": 1.5,
       "magic_damage_percent": 14,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 17
     },
     "lore": "The final eye gazes down from the heavens,\nunmoved by the desperate pleas from the\ndevout for mercy."
   },
@@ -21101,13 +21149,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "quick_charge": 2,
-      "unbreaking": 5,
       "piercing": 1,
+      "quick_charge": 3,
       "reverb": 3,
+      "unbreaking": 5,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 20,
-      "magic_damage_percent": 18
+      "magic_damage_percent": 18,
+      "projectile_damage_base": 17.5
     },
     "lore": "The final eye gazes down from the heavens,\nunmoved by the desperate pleas from the\ndevout for mercy."
   },
@@ -21349,12 +21397,12 @@
     "type": "Crossbow",
     "stats": {
       "evasion": 1,
+      "infinity": 1,
       "quick_charge": 3,
       "unbreaking": 3,
-      "piercing": 1,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
-      "projectile_damage_base": 9.5
+      "projectile_damage_base": 11
     },
     "lore": "\"Leave a mark they'll\nnever forget.\""
   },
@@ -21614,13 +21662,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "recoil": 2,
-      "quick_charge": 1,
       "punch": 1,
+      "quick_charge": 1,
+      "recoil": 2,
+      "sniper": 1,
       "unbreaking": 3,
-      "sniper": 3,
-      "projectile_speed_base": 1.5,
-      "projectile_damage_base": 18.5
+      "projectile_damage_base": 22,
+      "projectile_speed_base": 2.2
     },
     "lore": "The hardest creatures to study are\nthe ones best protected by the natives."
   },
@@ -21769,13 +21817,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "inferno": 5,
-      "fire_aspect": 2,
-      "quick_charge": 3,
+      "bleeding": 1,
+      "curse_of_shrapnel": 2,
+      "multishot": 1,
+      "quick_charge": 1,
+      "sustenance": 1,
       "unbreaking": 5,
-      "piercing": 1,
-      "projectile_speed_base": 1.5,
-      "projectile_damage_base": 9.5
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 27
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -21795,13 +21844,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "inferno": 5,
-      "fire_aspect": 2,
-      "quick_charge": 3,
+      "bleeding": 2,
+      "curse_of_shrapnel": 2,
+      "multishot": 1,
+      "quick_charge": 1,
+      "sustenance": 1,
       "unbreaking": 5,
-      "piercing": 1,
-      "projectile_speed_base": 1.5,
-      "projectile_damage_base": 10
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 27
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -21821,13 +21871,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "inferno": 5,
-      "fire_aspect": 3,
-      "quick_charge": 3,
+      "bleeding": 2,
+      "curse_of_shrapnel": 2,
+      "multishot": 1,
+      "quick_charge": 1,
+      "sustenance": 2,
       "unbreaking": 6,
-      "piercing": 1,
-      "projectile_speed_base": 1.5,
-      "projectile_damage_base": 10.5
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 27
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -22427,14 +22478,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "regicide": 1,
-      "quick_charge": 3,
       "punch": 1,
-      "unbreaking": 3,
+      "quick_charge": 3,
+      "regicide": 1,
       "retrieval": 3,
+      "unbreaking": 3,
       "projectile_speed_base": 1.2,
       "speed_percent": 10,
-      "projectile_damage_base": 18
+      "projectile_damage_base": 19
     },
     "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
   },
@@ -22454,14 +22505,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "regicide": 2,
-      "quick_charge": 3,
       "punch": 1,
-      "unbreaking": 4,
+      "quick_charge": 3,
+      "regicide": 2,
       "retrieval": 3,
+      "unbreaking": 4,
       "projectile_speed_base": 1.2,
       "speed_percent": 10,
-      "projectile_damage_base": 18
+      "projectile_damage_base": 19
     },
     "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
   },
@@ -22481,14 +22532,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "regicide": 2,
-      "quick_charge": 3,
       "punch": 1,
-      "unbreaking": 5,
+      "quick_charge": 3,
+      "regicide": 2,
       "retrieval": 3,
+      "unbreaking": 5,
       "projectile_speed_base": 1.2,
       "speed_percent": 10,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20
     },
     "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
   },
@@ -23744,10 +23795,10 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "steadfast": 1,
       "ineptitude": 2,
+      "magic_protection": 1,
       "mending": 1,
-      "magic_protection": 2,
+      "steadfast": 1,
       "armor": 9
     },
     "lore": "Kokytos bled into the reservoir below, blight\nfilling the basin with darkness. He was held\ntogether only by the statue encasing him and\nthe presence of power his masters could only\ndream of claiming for themselves."
@@ -23794,7 +23845,7 @@
       "sustenance": 1,
       "unbreaking": 5,
       "speed_percent": 18,
-      "agility": 9.5
+      "agility": 10
     },
     "lore": "After Sirius fell from the sky, new\nstars seemed to appear in the cosmos.\nThe Stars are watching... waiting... hungry..."
   },
@@ -23960,13 +24011,6 @@
       "attack_damage_base": 21.5
     },
     "lore": "Each spectral swing carves a path through\neternity, a needless blow to form."
-  },
-  "Diamond Leggings": {
-    "name": "Diamond Leggings",
-    "base_item": "Diamond Leggings",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
   },
   "Duskroot Legguards-1": {
     "location": "Starpoint",
@@ -33040,9 +33084,9 @@
     "stats": {
       "fire_protection": 4,
       "unbreaking": 5,
-      "armor": 4,
       "max_health_flat": 4,
-      "thorns_flat": 4
+      "thorns_flat": 4,
+      "armor": 5
     },
     "lore": "Skirt along the fire's rim, and you shall\nknow its heat. Familiarize yourself and\ndraw ever closer to it."
   },
@@ -42029,12 +42073,12 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "feather_falling": 2,
-      "unbreaking": 4,
-      "melee_protection": 2,
       "blast_protection": 2,
+      "feather_falling": 2,
+      "melee_protection": 2,
+      "unbreaking": 4,
       "thorns_flat": 2,
-      "armor": 7.5
+      "armor": 8
     },
     "lore": "These boots cling tightly to your feet\nas soon as you pull them on. Weren't\nthese much larger moments ago?"
   },
@@ -42506,12 +42550,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "technique": 2,
-      "unbreaking": 9,
-      "regeneration": 2,
       "depth_strider": 3,
       "gills": 1,
-      "armor": 9.5
+      "regeneration": 2,
+      "stamina": 2,
+      "technique": 2,
+      "unbreaking": 9,
+      "armor": 9
     },
     "lore": "Rapid, unusual breathing can be heard.\nYou can hear it churning within stagnant\nwater. It remains restless, yet patient."
   },
@@ -51170,23 +51215,6 @@
     "stats": {},
     "lore": "The gem seems to flicker with the light of dying Stars...\nbut perhaps its radiance can be restored.\nBring to The Rionnagfaire to unlock its full potential."
   },
-  "Focused Consecrated Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Consecrated Charm",
-    "power": 3,
-    "base_item": "Large Amethyst Bud",
-    "release_status": "public",
-    "stats": {
-      "sanctified_armor_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Cleric"
-  },
   "Greater Consecrated Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -52770,13 +52798,6 @@
     "region": "Valley",
     "tier": "Legacy",
     "name": "Leafweave Sandals",
-    "base_item": "Leather Boots",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Leather Boots": {
-    "name": "Leather Boots",
     "base_item": "Leather Boots",
     "release_status": "public",
     "type": "Misc",
@@ -56313,13 +56334,6 @@
     "region": "Valley",
     "tier": "Legacy",
     "name": "Leafweave Vest",
-    "base_item": "Leather Chestplate",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {}
-  },
-  "Leather Tunic": {
-    "name": "Leather Tunic",
     "base_item": "Leather Chestplate",
     "release_status": "public",
     "type": "Misc",
@@ -61254,6 +61268,29 @@
     "type": "Misc",
     "stats": {},
     "lore": "It was only when the people of\nthe empire, whom he had so\ngreatly loved, were endangered,\nthat Almon finally began to act.\nHe quarreled with Pelias for years,\nbut nothing came of it. Until that final day.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Ad Astra": {
+    "location": "Delves",
+    "mmlore": [
+      "The outer layer of these strange greaves",
+      "have crystallized. Tougher than most metals...",
+      "Yet like the stars, majestic and graceful."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Ad Astra",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "feather_falling": 3,
+      "unbreaking": 9,
+      "darksight": 1,
+      "shielding": 1,
+      "magic_damage_percent": 10,
+      "armor": 6
+    },
+    "lore": "The outer layer of these strange greaves\nhave crystallized. Tougher than most metals...\nYet like the stars, majestic and graceful."
   },
   "Alchemist's Robe": {
     "location": "King's Valley",
@@ -67517,7 +67554,7 @@
       },
       "predator_strike_range_percent": {
         "locked": false,
-        "value": -30
+        "value": -60
       }
     },
     "type": "Charm",
@@ -68579,10 +68616,6 @@
       "sanguine_harvest_healing_percent": {
         "locked": false,
         "value": 10
-      },
-      "sanguine_harvest_bleed_duration_percent": {
-        "locked": false,
-        "value": 25
       },
       "sanguine_harvest_blight_duration_percent": {
         "locked": false,
@@ -89285,6 +89318,16 @@
     },
     "lore": "Is the door paying respects to\nitself? That F seems familiar..."
   },
+  "Shield": {
+    "location": "King's Valley",
+    "region": "Valley",
+    "tier": "Tier 2",
+    "name": "Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {}
+  },
   "Shimmering Veil": {
     "location": "Willows",
     "mmlore": [
@@ -91885,9 +91928,9 @@
       "infinity": 1,
       "point_blank": 2,
       "regicide": 2,
-      "projectile_speed_base": 0.8,
       "throw_rate_base": 0.8,
-      "projectile_damage_base": 9
+      "projectile_damage_base": 9,
+      "projectile_speed_base": 1
     },
     "lore": "For time immemorial, worlds were born\nfrom the entropic decay of that abyss\nwhich lingers at the edge of one's fears."
   },
@@ -92344,8 +92387,8 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "sniper": 1,
-      "projectile_speed_percent": 25
+      "first_strike": 1,
+      "projectile_speed_percent": 10
     }
   },
   "Elite Spider Training Dummy": {
@@ -103763,9 +103806,8 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "piercing": 1,
-      "sniper": 1,
-      "projectile_damage_percent": -35
+      "punch": 2,
+      "projectile_speed_percent": 35
     }
   },
   "Aster's Flames": {
@@ -103788,7 +103830,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "bleeding": 2
+      "bleeding": 1
     }
   },
   "Axcanyotl Arrow": {
@@ -103810,7 +103852,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "bleeding": 3
+      "bleeding": 1,
+      "first_strike": 1
     }
   },
   "Blackbearer's Bolt": {
@@ -103821,8 +103864,8 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "point_blank": 2,
-      "projectile_speed_percent": -50
+      "quake": 1,
+      "projectile_speed_percent": -30
     }
   },
   "Bramblethorn Bolt": {
@@ -103862,7 +103905,8 @@
     "type": "Projectile",
     "stats": {
       "ice_aspect": 2,
-      "projectile_speed_percent": -50
+      "punch": 1,
+      "projectile_speed_percent": -20
     }
   },
   "Corrupted Chronobolt": {
@@ -103957,7 +104001,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "point_blank": 1
+      "abyssal": 1,
+      "punch": 1
     }
   },
   "Gillman's Dart": {
@@ -104004,7 +104049,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "bleeding": 2
+      "bleeding": 1
     }
   },
   "Kaul's Fury": {
@@ -104024,10 +104069,9 @@
     "name": "Keterborn Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
-    "type": "Projectile",
+    "type": "Misc",
     "stats": {
-      "point_blank": 1,
-      "projectile_damage_percent": 5
+      "technique": 2
     }
   },
   "Lightning Bolt": {
@@ -104049,10 +104093,9 @@
     "name": "Luther's Bolt",
     "base_item": "Tipped Arrow",
     "release_status": "public",
-    "type": "Projectile",
+    "type": "Misc",
     "stats": {
-      "piercing": 1,
-      "projectile_damage_percent": -30
+      "wind_aspect": 1
     }
   },
   "Marksman's Longshot": {
@@ -104061,9 +104104,9 @@
     "name": "Marksman's Longshot",
     "base_item": "Tipped Arrow",
     "release_status": "public",
-    "type": "Misc",
+    "type": "Projectile",
     "stats": {
-      "sniper": 1
+      "projectile_speed_percent": 25
     }
   },
   "Memory Piercer": {
@@ -104137,7 +104180,8 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "projectile_damage_percent": 15
+      "piercing": 1,
+      "projectile_speed_percent": 15
     },
     "lore": "Could pierce through\nreality itself."
   },
@@ -104191,11 +104235,10 @@
     "name": "Proprietor's Present",
     "base_item": "Tipped Arrow",
     "release_status": "public",
-    "type": "Projectile",
+    "type": "Misc",
     "stats": {
-      "thunder_aspect": 2,
-      "piercing": 1,
-      "projectile_damage_percent": -20
+      "decay": 2,
+      "thunder_aspect": 2
     }
   },
   "Quetz's Breath": {
@@ -104272,11 +104315,10 @@
     "name": "Sentry's Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
-    "type": "Projectile",
+    "type": "Misc",
     "stats": {
-      "point_blank": 1,
-      "piercing": 1,
-      "projectile_damage_percent": -35
+      "punch": 2,
+      "thunder_aspect": 2
     }
   },
   "Serrated Arrow": {
@@ -104288,7 +104330,7 @@
     "type": "Misc",
     "stats": {
       "fire_aspect": 1,
-      "bleeding": 1
+      "first_strike": 1
     }
   },
   "Shaman's Quiver": {
@@ -104339,7 +104381,7 @@
     "stats": {
       "fire_aspect": 2,
       "ice_aspect": 2,
-      "projectile_damage_percent": -15
+      "projectile_speed_percent": -30
     }
   },
   "Singularity Shaft": {
@@ -104372,8 +104414,8 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "sniper": 1,
-      "projectile_damage_percent": 5
+      "skyseeker": 1,
+      "projectile_speed_percent": 50
     }
   },
   "Star-tipped Arrow": {
@@ -104382,10 +104424,10 @@
     "name": "Star-tipped Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
-    "type": "Projectile",
+    "type": "Misc",
     "stats": {
-      "piercing": 2,
-      "projectile_damage_percent": -35
+      "regicide": 1,
+      "wind_aspect": 1
     }
   },
   "Star-touched Bolt": {
@@ -104408,7 +104450,7 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "abyssal": 6,
+      "abyssal": 5,
       "projectile_speed_percent": 100,
       "projectile_damage_percent": -25
     }
@@ -104441,7 +104483,7 @@
     "release_status": "public",
     "type": "Projectile",
     "stats": {
-      "sniper": 2,
+      "adrenaline": 2,
       "projectile_speed_percent": 50
     }
   },
@@ -104476,11 +104518,10 @@
     "name": "Void-dipped Arrow",
     "base_item": "Tipped Arrow",
     "release_status": "public",
-    "type": "Projectile",
+    "type": "Misc",
     "stats": {
-      "regicide": 1,
       "abyssal": 1,
-      "projectile_damage_percent": 5
+      "regicide": 1
     }
   },
   "Best TNT Ever (tnt)": {
@@ -105473,6 +105514,7 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "harpoon": 2,
       "slayer": 4,
       "thunder_aspect": 2,
       "unbreaking": 1,
@@ -105708,14 +105750,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "bleeding": 2,
       "first_strike": 1,
       "unbreaking": 4,
-      "bleeding": 2,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
       "attack_damage_base": 19.5,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 29.5
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -105734,14 +105776,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "bleeding": 2,
       "first_strike": 1,
       "unbreaking": 5,
-      "bleeding": 2,
       "attack_damage_base": 20,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 29
+      "projectile_damage_base": 30
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -105760,14 +105802,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "bleeding": 2,
       "first_strike": 1,
       "unbreaking": 5,
-      "bleeding": 2,
       "attack_damage_base": 20.5,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 29.5
+      "projectile_damage_base": 30.5
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -105786,14 +105828,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "bleeding": 2,
       "first_strike": 2,
       "unbreaking": 6,
-      "bleeding": 2,
       "attack_damage_base": 21,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 30
+      "projectile_damage_base": 31
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -107809,9 +107851,9 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "withering_gaze_damage_flat": {
+      "withering_gaze_damage_percent": {
         "locked": false,
-        "value": 1.5
+        "value": 15
       },
       "withering_gaze_range_percent": {
         "locked": false,
@@ -107830,9 +107872,9 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "withering_gaze_damage_flat": {
+      "withering_gaze_damage_percent": {
         "locked": false,
-        "value": 3.5
+        "value": 35
       }
     },
     "type": "Charm",
@@ -107847,9 +107889,9 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "withering_gaze_damage_flat": {
+      "withering_gaze_damage_percent": {
         "locked": false,
-        "value": 2
+        "value": 20
       }
     },
     "type": "Charm",
@@ -107864,9 +107906,9 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "withering_gaze_damage_flat": {
+      "withering_gaze_damage_percent": {
         "locked": false,
-        "value": 1
+        "value": 10
       }
     },
     "type": "Charm",
@@ -107941,7 +107983,7 @@
         "locked": false,
         "value": -10
       },
-      "withering_gaze_dot_duration_flat": {
+      "withering_gaze_damage_over_time_duration_flat": {
         "locked": false,
         "value": 1
       }
