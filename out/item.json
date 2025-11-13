@@ -2240,7 +2240,7 @@
     "class_name": "Warlock"
   },
   "Replica Actypoh": {
-    "location": "Depths",
+    "location": "Abyssalskin",
     "mmlore": [
       "Perhaps once again this mechanism can be used",
       "to stave off the forces from the Beyond."
@@ -2254,8 +2254,8 @@
     "stats": {
       "curse_of_corruption": 1,
       "decay": 1,
-      "knockback": 1,
       "ice_aspect": 2,
+      "knockback": 1,
       "attack_damage_base": 4.5,
       "spell_power_base": 45,
       "knockback_resistance_flat": 2
@@ -6614,12 +6614,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 1,
-      "punch": 1,
       "fire_aspect": 1,
-      "bleeding": 1,
+      "punch": 1,
+      "unbreaking": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 12.5
+      "projectile_damage_base": 13
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6706,8 +6705,8 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "bleeding": 2,
-      "fire_aspect": 3,
+      "bleeding": 3,
+      "fire_aspect": 2,
       "piercing": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1.5,
@@ -21748,13 +21747,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 2,
-      "quick_charge": 4,
-      "unbreakable": 1,
+      "bleeding": 1,
       "infinity": 1,
       "multishot": 1,
+      "quick_charge": 4,
+      "unbreakable": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 14.5
+      "projectile_damage_base": 15.5
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -21871,14 +21870,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 2,
+      "bleeding": 3,
       "curse_of_shrapnel": 2,
       "multishot": 1,
       "quick_charge": 1,
       "sustenance": 2,
       "unbreaking": 6,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 29
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -40897,11 +40896,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "bleeding": 3,
+      "decay": 3,
+      "duelist": 3,
       "slayer": 3,
       "unbreakable": 1,
-      "decay": 2,
-      "bleeding": 2,
-      "duelist": 3,
       "attack_speed_base": 0.9,
       "attack_damage_base": 17
     },
@@ -41051,11 +41050,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "bleeding": 3,
+      "decay": 3,
+      "duelist": 3,
       "slayer": 3,
       "unbreakable": 1,
-      "decay": 2,
-      "bleeding": 2,
-      "duelist": 3,
       "attack_speed_base": 0.9,
       "attack_damage_base": 17
     },
@@ -41523,11 +41522,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "bleeding": 3,
+      "decay": 3,
+      "duelist": 3,
       "slayer": 3,
       "unbreakable": 1,
-      "decay": 2,
-      "bleeding": 2,
-      "duelist": 3,
       "attack_speed_base": 0.9,
       "attack_damage_base": 17
     },
@@ -44719,10 +44718,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "adrenaline": 1,
+      "bleeding": 2,
       "unbreaking": 7,
       "wind_aspect": 1,
-      "bleeding": 1,
-      "adrenaline": 1,
       "speed_percent": 15,
       "attack_speed_base": 1.4,
       "attack_damage_base": 18
@@ -45800,11 +45799,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 7,
+      "bleeding": 1,
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 2,
-      "bleeding": 2,
+      "unbreaking": 7,
       "attack_speed_base": 1.2,
       "attack_damage_base": 17
     },
@@ -49991,10 +49990,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 3,
+      "bleeding": 2,
       "duelist": 1,
-      "bleeding": 1,
       "regeneration": 1,
+      "unbreaking": 3,
       "attack_speed_base": 1.8,
       "knockback_resistance_flat": 2,
       "attack_damage_base": 6
@@ -69165,7 +69164,7 @@
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Replica C'thedrros": {
-    "location": "Depths",
+    "location": "Abyssalskin",
     "mmlore": [
       "<dark_gray>It wants more.",
       "<dark_gray>More than what you can offer.",
@@ -69179,9 +69178,9 @@
     "type": "Axe",
     "stats": {
       "ice_aspect": 3,
-      "unbreakable": 1,
-      "shielding": 1,
       "quake": 3,
+      "shielding": 1,
+      "unbreakable": 1,
       "attack_speed_base": 0.6,
       "attack_damage_base": 23.5
     },
@@ -69559,7 +69558,7 @@
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Replica Yxojh'zha": {
-    "location": "Depths",
+    "location": "Abyssalskin",
     "mmlore": [
       "The secrets of the void have at last been",
       "told. Now you hold their power."
@@ -69571,11 +69570,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "hex_eater": 1,
-      "unbreakable": 1,
-      "life_drain": 1,
       "ashes_of_eternity": 1,
+      "hex_eater": 1,
+      "life_drain": 1,
       "regeneration": 1,
+      "unbreakable": 1,
       "attack_damage_base": 10.5,
       "attack_speed_base": 1.5,
       "magic_damage_percent": 5
@@ -70104,7 +70103,7 @@
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Replica Etrexa": {
-    "location": "Depths",
+    "location": "Abyssalskin",
     "mmlore": [
       "<dark_gray>Blades flex and tense at your touch.",
       "<dark_gray>The mechanisms within sob quietly in the breeze."
@@ -70117,8 +70116,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "arcane_thrust": 3,
-      "unbreakable": 1,
       "sweeping_edge": 3,
+      "unbreakable": 1,
       "attack_damage_base": 11,
       "attack_speed_base": 1.8,
       "speed_percent": 10
@@ -76583,7 +76582,7 @@
     "stats": {}
   },
   "Artelus' Benediction": {
-    "location": "Valley Overworld",
+    "location": "Labs",
     "mmlore": [
       "May their grace shine upon you.",
       "May you see.",
@@ -89774,6 +89773,87 @@
       "agility": 2
     }
   },
+  "Tablet of Ruin-2": {
+    "location": "Seasonal Pass",
+    "masterwork": "2",
+    "mmlore": [
+      "A warning of impending ruin that",
+      "should have crumbled away long",
+      "ago. Instead, darkness fills the",
+      "cracks, fueled by the doom the",
+      "tablet promises."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Tablet of Ruin",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_crippling": 3,
+      "life_drain": 2,
+      "mending": 1,
+      "regeneration": 2,
+      "sustenance": 3,
+      "knockback_resistance_flat": 5,
+      "max_health_percent": 5
+    },
+    "lore": "A warning of impending ruin that\nshould have crumbled away long\nago. Instead, darkness fills the\ncracks, fueled by the doom the\ntablet promises."
+  },
+  "Tablet of Ruin-3": {
+    "location": "Seasonal Pass",
+    "masterwork": "3",
+    "mmlore": [
+      "A warning of impending ruin that",
+      "should have crumbled away long",
+      "ago. Instead, darkness fills the",
+      "cracks, fueled by the doom the",
+      "tablet promises."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Tablet of Ruin",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_crippling": 3,
+      "life_drain": 2,
+      "mending": 1,
+      "regeneration": 3,
+      "sustenance": 3,
+      "max_health_percent": 5,
+      "knockback_resistance_flat": 5
+    },
+    "lore": "A warning of impending ruin that\nshould have crumbled away long\nago. Instead, darkness fills the\ncracks, fueled by the doom the\ntablet promises."
+  },
+  "Tablet of Ruin-4": {
+    "location": "Seasonal Pass",
+    "masterwork": "4",
+    "mmlore": [
+      "A warning of impending ruin that",
+      "should have crumbled away long",
+      "ago. Instead, darkness fills the",
+      "cracks, fueled by the doom the",
+      "tablet promises."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Tablet of Ruin",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "curse_of_crippling": 3,
+      "life_drain": 3,
+      "mending": 1,
+      "regeneration": 3,
+      "sustenance": 3,
+      "knockback_resistance_flat": 5,
+      "max_health_percent": 5
+    },
+    "lore": "A warning of impending ruin that\nshould have crumbled away long\nago. Instead, darkness fills the\ncracks, fueled by the doom the\ntablet promises."
+  },
   "The Eternal Mist": {
     "location": "Horseman",
     "mmlore": [
@@ -92854,12 +92934,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "bleeding": 1,
-      "blast_protection": 2,
       "alchemical_utensil": 1,
+      "blast_protection": 2,
       "potion_radius_flat": 3,
       "projectile_speed_base": 1.2,
-      "potion_damage_flat": 4
+      "potion_damage_flat": 4,
+      "thorns_flat": 3
     },
     "lore": "Mismatched teeth decorate the mouth of\nthis patchwork leather bag. What horrible\nacts were done in the name of alchemy?"
   },
@@ -94404,7 +94484,7 @@
     "stats": {}
   },
   "Replica Lightning Bottle": {
-    "location": "Depths",
+    "location": "Abyssalskin",
     "mmlore": [
       "No light seeps through the glass of the flask.",
       "A potent radiance swirls within, waiting",
@@ -94417,8 +94497,8 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "blast_protection": 1,
       "alchemical_utensil": 1,
+      "blast_protection": 1,
       "potion_radius_flat": 4.5,
       "projectile_speed_base": 0.85,
       "potion_damage_flat": 9
@@ -96727,8 +96807,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "bleeding": 1,
       "decay": 15,
-      "bleeding": 2,
       "regeneration": 1,
       "attack_damage_base": 9.5,
       "spell_power_base": 85
@@ -96841,9 +96921,9 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "unbreaking": 4,
+      "bleeding": 2,
       "knockback": 1,
-      "bleeding": 1,
+      "unbreaking": 4,
       "attack_speed_base": 0.9,
       "spell_power_base": 35,
       "attack_damage_base": 11
@@ -103830,7 +103910,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "bleeding": 1
+      "adrenaline": 1
     }
   },
   "Axcanyotl Arrow": {
@@ -103852,7 +103932,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "bleeding": 1,
+      "adrenaline": 1,
       "first_strike": 1
     }
   },
@@ -104049,7 +104129,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "bleeding": 1
+      "adrenaline": 1
     }
   },
   "Kaul's Fury": {
@@ -105828,14 +105908,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "bleeding": 2,
+      "bleeding": 3,
       "first_strike": 2,
       "unbreaking": 6,
       "attack_damage_base": 21,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 31
+      "projectile_damage_base": 29
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
