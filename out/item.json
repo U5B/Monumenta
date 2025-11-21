@@ -6636,8 +6636,8 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "bleeding": 1,
-      "fire_aspect": 2,
+      "bleeding": 3,
+      "fire_aspect": 1,
       "piercing": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.5,
@@ -6659,8 +6659,8 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "bleeding": 1,
-      "fire_aspect": 3,
+      "bleeding": 3,
+      "fire_aspect": 2,
       "piercing": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.5,
@@ -6682,8 +6682,8 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "bleeding": 1,
-      "fire_aspect": 3,
+      "bleeding": 3,
+      "fire_aspect": 2,
       "piercing": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1.5,
@@ -16816,11 +16816,10 @@
     "mmlore": [
       "\"I don't know how I did it, but I",
       "managed to incapacitate one of the",
-      "guardians roaming this forest. It took",
-      "more magic than I knew I had in me, but",
-      "at last, the Immortal froze and screamed.",
-      "I don't know why, but I took the helm",
-      "it wore before I fled.\""
+      "guardians. It took more magic than I",
+      "knew I had in me, but at last, the Immortal",
+      "froze and screamed. I don't know why,",
+      "but I took the helm it wore before I fled.\""
     ],
     "region": "Valley",
     "tier": "Uncommon",
@@ -16829,7 +16828,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "\"I don't know how I did it, but I\nmanaged to incapacitate one of the\nguardians roaming this forest. It took\nmore magic than I knew I had in me, but\nat last, the Immortal froze and screamed.\nI don't know why, but I took the helm\nit wore before I fled.\""
+    "lore": "\"I don't know how I did it, but I\nmanaged to incapacitate one of the\nguardians. It took more magic than I\nknew I had in me, but at last, the Immortal\nfroze and screamed. I don't know why,\nbut I took the helm it wore before I fled.\""
   },
   "Keter Core": {
     "location": "SKT",
@@ -20337,11 +20336,11 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "recoil": 2,
-      "quick_charge": 2,
-      "unbreakable": 1,
       "curse_of_ephemerality": 1,
-      "infinity": 1
+      "quick_charge": 2,
+      "recoil": 2,
+      "retrieval": 10,
+      "unbreakable": 1
     },
     "lore": "* Quest Item *\n#Q140I02"
   },
@@ -20764,11 +20763,11 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "recoil": 2,
-      "quick_charge": 2,
-      "unbreakable": 1,
       "curse_of_ephemerality": 1,
-      "infinity": 1
+      "quick_charge": 2,
+      "recoil": 2,
+      "retrieval": 10,
+      "unbreakable": 1
     },
     "lore": "Many poor souls have lost their lives\nin pursuit of Chillwind's treasure.\n* Quest Item *\n#Q141I02"
   },
@@ -20985,9 +20984,9 @@
       "unbreaking": 3,
       "speed_percent": 10,
       "projectile_speed_base": 0.8,
-      "attack_damage_base": 14,
-      "attack_speed_base": 1.5,
-      "projectile_damage_base": 14
+      "projectile_damage_base": 14,
+      "attack_damage_base": 10,
+      "attack_speed_base": 1.8
     },
     "lore": "Power born from the souls of\nthe Horseman's victims."
   },
@@ -21747,7 +21746,7 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 1,
+      "bleeding": 2,
       "infinity": 1,
       "multishot": 1,
       "quick_charge": 4,
@@ -21816,14 +21815,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 1,
+      "bleeding": 3,
       "curse_of_shrapnel": 2,
       "multishot": 1,
       "quick_charge": 1,
       "sustenance": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 28
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -21843,14 +21842,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 2,
+      "bleeding": 3,
       "curse_of_shrapnel": 2,
       "multishot": 1,
       "quick_charge": 1,
       "sustenance": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 29
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -22001,8 +22000,8 @@
     "stats": {
       "grappling": 20,
       "quick_charge": 5,
+      "retrieval": 10,
       "unbreakable": 1,
-      "infinity": 1,
       "projectile_speed_base": 3,
       "projectile_damage_base": 1
     },
@@ -22028,8 +22027,8 @@
     "stats": {
       "grappling": 30,
       "quick_charge": 5,
+      "retrieval": 10,
       "unbreakable": 1,
-      "infinity": 1,
       "projectile_speed_base": 3,
       "projectile_damage_base": 1
     },
@@ -22055,8 +22054,8 @@
     "stats": {
       "grappling": 40,
       "quick_charge": 5,
+      "retrieval": 10,
       "unbreakable": 1,
-      "infinity": 1,
       "projectile_speed_base": 3,
       "projectile_damage_base": 1
     },
@@ -22082,8 +22081,8 @@
     "stats": {
       "grappling": 50,
       "quick_charge": 5,
+      "retrieval": 10,
       "unbreakable": 1,
-      "infinity": 1,
       "projectile_speed_base": 3,
       "projectile_damage_base": 1
     },
@@ -22504,6 +22503,7 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "bleeding": 1,
       "punch": 1,
       "quick_charge": 3,
       "regicide": 2,
@@ -22531,6 +22531,7 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "bleeding": 2,
       "punch": 1,
       "quick_charge": 3,
       "regicide": 2,
@@ -23125,9 +23126,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "bleeding": 2,
       "curse_of_anemia": 1,
-      "quake": 1,
       "decay": 6,
+      "quake": 1,
       "spell_power_base": 55,
       "attack_speed_base": 1.6,
       "attack_damage_base": 12
@@ -24447,9 +24449,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 1,
-      "ethereal": 1,
       "bleeding": 2,
+      "ethereal": 1,
+      "unbreaking": 1,
       "attack_speed_base": 1.2,
       "thorns_flat": 4,
       "attack_damage_base": 18
@@ -24470,9 +24472,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 1,
+      "bleeding": 3,
       "ethereal": 1,
-      "bleeding": 2,
+      "unbreaking": 1,
       "attack_speed_base": 1.2,
       "thorns_flat": 4,
       "attack_damage_base": 18.5
@@ -31101,9 +31103,10 @@
     "mmlore": [
       "\"Perhaps the strangest thing here is",
       "the way realities bleed into this place.",
-      "I've been assaulted by strange humanoid fae,",
-      "whispering tales of my death. It's very",
-      "odd. They seemed shocked when I didn't die.\""
+      "I've been approached by a strange",
+      "humanoid fae, whispering tales of my fate.",
+      "It's very odd. It's as if it knew what lied",
+      "ahead of me in this place.\""
     ],
     "region": "Valley",
     "tier": "Uncommon",
@@ -31112,7 +31115,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "\"Perhaps the strangest thing here is\nthe way realities bleed into this place.\nI've been assaulted by strange humanoid fae,\nwhispering tales of my death. It's very\nodd. They seemed shocked when I didn't die.\""
+    "lore": "\"Perhaps the strangest thing here is\nthe way realities bleed into this place.\nI've been approached by a strange\nhumanoid fae, whispering tales of my fate.\nIt's very odd. It's as if it knew what lied\nahead of me in this place.\""
   },
   "Golden Key": {
     "location": "Celsian Isles",
@@ -34698,9 +34701,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
+      "melee_protection": 1,
       "reflexes": 1,
       "unbreaking": 30,
-      "melee_protection": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 12.5
     },
@@ -34958,9 +34962,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
+      "melee_protection": 1,
       "reflexes": 1,
       "unbreaking": 30,
-      "melee_protection": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 12.5
     },
@@ -37975,12 +37980,12 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "bleeding": 2,
       "decay": 2,
-      "unbreaking": 30,
       "inure": 1,
       "quake": 4,
-      "bleeding": 1,
       "two_handed": 1,
+      "unbreaking": 30,
       "attack_speed_base": 1.2,
       "armor": 3,
       "attack_damage_base": 17
@@ -38052,10 +38057,10 @@
     "type": "Mainhand Sword",
     "stats": {
       "bleeding": 2,
-      "unbreaking": 2,
-      "mending": 1,
       "decay": 2,
       "efficiency": 3,
+      "mending": 1,
+      "unbreaking": 2,
       "attack_speed_base": 1.6,
       "attack_damage_base": 10.5
     },
@@ -40827,9 +40832,10 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 2,
+      "bleeding": 1,
       "duelist": 2,
       "efficiency": 1,
+      "unbreaking": 2,
       "attack_speed_base": 0.9,
       "attack_damage_base": 20
     }
@@ -41159,17 +41165,18 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "mending": 1,
-      "unbreaking": 1,
-      "knockback": 1,
-      "ice_aspect": 1,
+      "bleeding": 1,
+      "decay": 1,
       "duelist": 1,
+      "fire_aspect": 1,
+      "ice_aspect": 1,
+      "knockback": 1,
+      "mending": 1,
       "slayer": 1,
       "smite": 1,
-      "thunder_aspect": 1,
-      "fire_aspect": 1,
       "sweeping_edge": 1,
-      "decay": 1,
+      "thunder_aspect": 1,
+      "unbreaking": 1,
       "attack_damage_base": 12.5,
       "attack_speed_base": 0.9
     },
@@ -41760,10 +41767,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "unbreaking": 7,
-      "knockback": 1,
+      "bleeding": 3,
       "curse_of_crippling": 2,
+      "knockback": 1,
       "poise": 2,
+      "unbreaking": 7,
       "attack_speed_base": 0.7,
       "knockback_resistance_flat": 4,
       "attack_damage_base": 26
@@ -41904,6 +41912,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "bleeding": 1,
       "thunder_aspect": 1,
       "unbreaking": 6,
       "speed_percent": 15,
@@ -41927,6 +41936,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "bleeding": 1,
       "thunder_aspect": 1,
       "unbreaking": 7,
       "speed_percent": 16,
@@ -41950,6 +41960,7 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "bleeding": 2,
       "thunder_aspect": 1,
       "unbreaking": 8,
       "speed_percent": 16,
@@ -44666,10 +44677,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "adrenaline": 1,
+      "bleeding": 2,
       "unbreaking": 5,
       "wind_aspect": 1,
-      "bleeding": 1,
-      "adrenaline": 1,
       "attack_speed_base": 1.4,
       "attack_damage_base": 17,
       "speed_percent": 10
@@ -44692,10 +44703,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "adrenaline": 1,
+      "bleeding": 2,
       "unbreaking": 6,
       "wind_aspect": 1,
-      "bleeding": 1,
-      "adrenaline": 1,
       "speed_percent": 15,
       "attack_speed_base": 1.4,
       "attack_damage_base": 17
@@ -44788,9 +44799,9 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 3,
       "life_drain": 4,
       "unbreaking": 4,
-      "bleeding": 2,
       "attack_damage_base": 11,
       "attack_speed_base": 1
     },
@@ -45221,10 +45232,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "adrenaline": 2,
+      "bleeding": 2,
+      "knockback": 1,
       "second_wind": 1,
       "unbreaking": 3,
-      "knockback": 1,
-      "adrenaline": 2,
       "armor": 2.5,
       "attack_damage_base": 12.5,
       "attack_speed_base": 1.2
@@ -45747,11 +45759,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 5,
+      "bleeding": 1,
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 2,
-      "bleeding": 2,
+      "unbreaking": 5,
       "attack_speed_base": 1.2,
       "attack_damage_base": 16
     },
@@ -45773,11 +45785,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 6,
+      "bleeding": 1,
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 2,
-      "bleeding": 2,
+      "unbreaking": 6,
       "attack_speed_base": 1.2,
       "attack_damage_base": 16.5
     },
@@ -45799,7 +45811,7 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "bleeding": 1,
+      "bleeding": 2,
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 2,
@@ -47246,12 +47258,13 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 2,
-      "eruption": 2,
+      "bleeding": 2,
       "earth_aspect": 2,
+      "efficiency": 2,
+      "eruption": 2,
       "fire_aspect": 2,
       "inferno": 2,
-      "efficiency": 2,
+      "unbreaking": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 1.2,
       "knockback_resistance_flat": 4
@@ -49632,9 +49645,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 3,
-      "ethereal": 1,
       "decay": 2,
+      "ethereal": 1,
+      "unbreaking": 3,
       "attack_speed_base": 1.6,
       "attack_damage_base": 12
     },
@@ -49990,7 +50003,7 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "bleeding": 2,
+      "bleeding": 3,
       "duelist": 1,
       "regeneration": 1,
       "unbreaking": 3,
@@ -69134,11 +69147,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "bleeding": 3,
+      "quake": 3,
       "unbreakable": 1,
-      "quake": 2,
-      "bleeding": 2,
-      "attack_damage_base": 21,
-      "attack_speed_base": 1
+      "attack_speed_base": 1,
+      "attack_damage_base": 22
     },
     "lore": "Air bubbles leak out between the\nblades, as if breathing softly in\nthe darkest abyss.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DD Key Item *"
   },
@@ -77577,11 +77590,6 @@
         "EffectDuration": 1200,
         "EffectStrength": 0.1,
         "EffectType": "BlastVulnerability"
-      },
-      {
-        "EffectDuration": 1200,
-        "EffectStrength": 0.1,
-        "EffectType": "Bleed"
       },
       {
         "EffectDuration": 1200,
@@ -86135,9 +86143,9 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "smite": 2,
       "fire_aspect": 2,
       "knockback": 1,
+      "smite": 2,
       "attack_damage_base": 1.5,
       "spell_power_base": 25
     },
@@ -93623,8 +93631,8 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "bleeding": 1,
       "alchemical_utensil": 1,
+      "bleeding": 2,
       "fire_protection": 2,
       "projectile_speed_base": 1.3,
       "potion_radius_flat": 3,
@@ -95972,8 +95980,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "bleeding": 2,
       "decay": 6,
-      "bleeding": 1,
       "regeneration": 1,
       "spell_power_base": 55,
       "attack_damage_base": 6
@@ -96759,8 +96767,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "bleeding": 1,
       "decay": 9,
-      "bleeding": 2,
       "regeneration": 1,
       "attack_damage_base": 8.5,
       "spell_power_base": 80
@@ -96783,8 +96791,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "bleeding": 1,
       "decay": 12,
-      "bleeding": 2,
       "regeneration": 1,
       "attack_damage_base": 9,
       "spell_power_base": 82
@@ -96921,7 +96929,7 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "bleeding": 2,
+      "bleeding": 3,
       "knockback": 1,
       "unbreaking": 4,
       "attack_speed_base": 0.9,
@@ -97100,11 +97108,12 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "regicide": 1,
-      "curse_of_anemia": 1,
-      "unbreaking": 12,
       "adrenaline": 1,
+      "bleeding": 1,
+      "curse_of_anemia": 1,
       "efficiency": 3,
+      "regicide": 1,
+      "unbreaking": 12,
       "attack_speed_base": 1.1,
       "attack_damage_base": 22
     },
@@ -97123,11 +97132,12 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "regicide": 2,
-      "curse_of_anemia": 1,
-      "unbreaking": 12,
       "adrenaline": 1,
+      "bleeding": 2,
+      "curse_of_anemia": 1,
       "efficiency": 3,
+      "regicide": 2,
+      "unbreaking": 12,
       "attack_speed_base": 1.1,
       "attack_damage_base": 22.5
     },
@@ -98258,10 +98268,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 1,
-      "unbreaking": 5,
+      "bleeding": 2,
       "divine_aura": 1,
       "life_drain": 1,
+      "slayer": 1,
+      "unbreaking": 5,
       "attack_damage_base": 10.5,
       "attack_speed_base": 1
     },
@@ -98415,9 +98426,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
+      "life_drain": 1,
       "slayer": 1,
       "unbreaking": 5,
-      "life_drain": 1,
       "attack_speed_base": 1,
       "attack_damage_base": 10.5
     },
@@ -98572,6 +98584,7 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
       "reflexes": 1,
       "unbreaking": 4,
       "thorns_flat": 2,
@@ -98717,6 +98730,7 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
       "reflexes": 1,
       "unbreaking": 4,
       "thorns_flat": 2,
@@ -100229,10 +100243,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "bleeding": 2,
       "curse_of_corruption": 1,
       "smite": 2,
       "unbreaking": 5,
-      "bleeding": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 6
     },
@@ -100390,11 +100404,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "bleeding": 2,
       "curse_of_corruption": 1,
+      "divine_aura": 1,
       "smite": 2,
       "unbreaking": 5,
-      "divine_aura": 1,
-      "bleeding": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 6
     },
@@ -102468,8 +102482,8 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 3,
       "fire_aspect": 1,
+      "unbreaking": 3,
       "attack_damage_base": 6.5,
       "attack_speed_base": 1.6
     },
@@ -103910,7 +103924,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "adrenaline": 1
+      "bleeding": 1
     }
   },
   "Axcanyotl Arrow": {
@@ -105831,13 +105845,13 @@
     "type": "Trident",
     "stats": {
       "bleeding": 2,
-      "first_strike": 1,
+      "first_strike": 2,
       "unbreaking": 4,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
       "attack_damage_base": 19.5,
-      "projectile_damage_base": 29.5
+      "projectile_damage_base": 28
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -105856,14 +105870,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "bleeding": 2,
-      "first_strike": 1,
+      "bleeding": 3,
+      "first_strike": 2,
       "unbreaking": 5,
       "attack_damage_base": 20,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 30
+      "projectile_damage_base": 28
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -105882,14 +105896,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "bleeding": 2,
-      "first_strike": 1,
+      "bleeding": 3,
+      "first_strike": 2,
       "unbreaking": 5,
       "attack_damage_base": 20.5,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 30.5
+      "projectile_damage_base": 28.5
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -106515,9 +106529,9 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 6,
+      "bleeding": 3,
       "point_blank": 4,
-      "bleeding": 2,
+      "unbreaking": 6,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.8,
       "projectile_damage_base": 16
@@ -106539,9 +106553,9 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 7,
+      "bleeding": 3,
       "point_blank": 4,
-      "bleeding": 2,
+      "unbreaking": 7,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.8,
       "projectile_damage_base": 17
