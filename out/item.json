@@ -16673,6 +16673,20 @@
     },
     "lore": "Knowledge flowed in the Viridian Empire\nlike water. When the collapse came, the\nwater would carry it all away."
   },
+  "Charcoal Key": {
+    "location": "Koal",
+    "mmlore": [
+      "<gray>It hums of holidays yet unpassed."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Charcoal Key",
+    "base_item": "Charcoal",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It hums of holidays yet unpassed."
+  },
   "Heart of Dread": {
     "location": "Delves",
     "mmlore": [
@@ -27243,8 +27257,8 @@
   "Totem of Transposing": {
     "location": "Celsian Isles",
     "mmlore": [
-      "<gray><key:key.use/> while in main hand to",
-      "<gray>swap places with your partner."
+      "Swap hands while in main or off",
+      "hand to swap places with your partner."
     ],
     "region": "Isles",
     "tier": "Unique",
@@ -27252,8 +27266,10 @@
     "base_item": "Ender Eye",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
-    "lore": " while in main hand to\nswap places with your partner."
+    "stats": {
+      "transposing": 1
+    },
+    "lore": "Swap hands while in main or off\nhand to swap places with your partner."
   },
   "Tesseract of Magic": {
     "location": "Celsian Isles",
@@ -28933,6 +28949,21 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Charcoal Key Fragment": {
+    "location": "Koal",
+    "mmlore": [
+      "<gray>Shattered fragments of a key.",
+      "<gray>Maybe these could be regifted by someone?"
+    ],
+    "region": "Valley",
+    "tier": "Event_currency",
+    "name": "Charcoal Key Fragment",
+    "base_item": "Flint",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Shattered fragments of a key.\nMaybe these could be regifted by someone?"
   },
   "Depleted Shard": {
     "location": "Verdant",
@@ -47284,12 +47315,13 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 2,
-      "eruption": 2,
+      "bleeding": 2,
       "earth_aspect": 2,
+      "efficiency": 2,
+      "eruption": 2,
       "fire_aspect": 2,
       "inferno": 2,
-      "efficiency": 2,
+      "unbreaking": 2,
       "attack_damage_base": 4,
       "attack_speed_base": 1.2,
       "knockback_resistance_flat": 4
@@ -70150,11 +70182,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "quake": 5,
-      "unbreakable": 1,
-      "sweeping_edge": 3,
+      "bleeding": 4,
       "decay": 2,
-      "bleeding": 2,
+      "quake": 5,
+      "sweeping_edge": 3,
+      "unbreakable": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 17
     },
@@ -98292,9 +98324,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "bleeding": 2,
+      "life_drain": 1,
       "slayer": 1,
       "unbreaking": 5,
-      "life_drain": 1,
       "attack_damage_base": 10.5,
       "attack_speed_base": 1
     },
@@ -105851,7 +105884,7 @@
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
       "attack_damage_base": 19.5,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 29
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -105877,7 +105910,7 @@
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 30
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -105903,7 +105936,7 @@
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 30.5
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -105929,7 +105962,7 @@
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 29
+      "projectile_damage_base": 31
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
