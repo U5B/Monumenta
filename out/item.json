@@ -2496,13 +2496,17 @@
     "base_item": "Black Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "taboo_self_damage_percent": {
+      "taboo_base_self_damage_percent": {
         "locked": false,
-        "value": -20
+        "value": -15
+      },
+      "taboo_self_damage_increase_percent": {
+        "locked": false,
+        "value": -10
       },
       "taboo_damage_modifier_percent": {
         "locked": false,
-        "value": 3
+        "value": 5
       }
     },
     "type": "Charm",
@@ -2740,7 +2744,7 @@
       },
       "esoteric_enhancements_cooldown_percent": {
         "locked": false,
-        "value": -25
+        "value": -20
       }
     },
     "type": "Charm",
@@ -2833,7 +2837,7 @@
       },
       "rampage_initial_duration_flat": {
         "locked": false,
-        "value": 1
+        "value": 0.5
       }
     },
     "type": "Charm",
@@ -2858,7 +2862,7 @@
       },
       "rampage_initial_duration_flat": {
         "locked": false,
-        "value": 1
+        "value": 0.5
       }
     },
     "type": "Charm",
@@ -2992,7 +2996,7 @@
       },
       "rampage_initial_duration_flat": {
         "locked": false,
-        "value": 0.5
+        "value": 0.25
       }
     },
     "type": "Charm",
@@ -3156,10 +3160,6 @@
       "rampage_damage_percent": {
         "locked": false,
         "value": 10
-      },
-      "rampage_initial_duration_flat": {
-        "locked": false,
-        "value": 0.25
       }
     },
     "type": "Charm",
@@ -3377,7 +3377,7 @@
     "stats": {
       "chain_lightning_cooldown_percent": {
         "locked": false,
-        "value": -40
+        "value": -55
       },
       "chain_lightning_damage_percent": {
         "locked": false,
@@ -9273,7 +9273,7 @@
       },
       "alchemist_potion_recharge_rate_percent": {
         "locked": false,
-        "value": -20
+        "value": -10
       }
     },
     "type": "Charm",
@@ -38984,13 +38984,13 @@
     "base_item": "Gray Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "meteor_slam_ground_pound_damage_per_block_fallen_flat": {
+      "meteor_slam_ground_pound_damage_per_block_fallen_percent": {
         "locked": false,
-        "value": 2
+        "value": 100
       },
       "meteor_slam_max_height_flat": {
         "locked": false,
-        "value": 2
+        "value": 4
       },
       "meteor_slam_ground_pound_additional_radius_percent": {
         "locked": false,
@@ -38998,7 +38998,7 @@
       },
       "meteor_slam_vault_velocity_percent": {
         "locked": false,
-        "value": 25
+        "value": 35
       },
       "meteor_slam_damage_percent": {
         "locked": false,
@@ -39408,7 +39408,7 @@
         "locked": false,
         "value": 35
       },
-      "unstable_amalgam_knockback_speed_percent": {
+      "unstable_amalgam_player_knockback_speed_percent": {
         "locked": false,
         "value": 10
       }
@@ -39463,7 +39463,7 @@
         "locked": false,
         "value": 20
       },
-      "unstable_amalgam_knockback_speed_percent": {
+      "unstable_amalgam_player_knockback_speed_percent": {
         "locked": false,
         "value": 5
       }
@@ -39616,7 +39616,7 @@
         "locked": false,
         "value": 25
       },
-      "unstable_amalgam_knockback_speed_percent": {
+      "unstable_amalgam_player_knockback_speed_percent": {
         "locked": false,
         "value": 50
       }
@@ -40096,7 +40096,11 @@
         "locked": false,
         "value": 20
       },
-      "taboo_self_damage_percent": {
+      "taboo_base_self_damage_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "taboo_self_damage_increase_percent": {
         "locked": false,
         "value": 50
       }
@@ -46062,15 +46066,15 @@
       },
       "rampage_damage_buff_percent": {
         "locked": false,
-        "value": 10
+        "value": 7.5
       },
       "rampage_initial_duration_percent": {
         "locked": false,
-        "value": -30
+        "value": -25
       },
       "rampage_duration_per_stack_percent": {
         "locked": false,
-        "value": -30
+        "value": -25
       }
     },
     "type": "Charm",
@@ -46944,7 +46948,6 @@
   "Page Upgrader Fragment": {
     "location": "PORTAL",
     "mmlore": [
-      "<gray>Epic Crafting Material",
       "Combine 4 to create an Armory Page Upgrader."
     ],
     "region": "Ring",
@@ -46954,7 +46957,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Epic Crafting Material\nCombine 4 to create an Armory Page Upgrader."
+    "lore": "Combine 4 to create an Armory Page Upgrader."
   },
   "Quickening Bracer": {
     "location": "Starpoint",
@@ -66531,6 +66534,31 @@
     "stats": {},
     "lore": "Grants access to dungeon:\nEphemeral Corridors\nIn Standard Mode there is a time limit. Up\nto 3 players can enter the dungeon instance.\nUpon death or running out of time, you are\nejected from the dungeon (Keep Inventory)\nand granted rewards based on your treasure\nscore within the dungeon.\n1 Player: 30 Minutes per Floor\n2 Players: 17 Minutes per Floor\n3 Players: 12 Minutes per Floor"
   },
+  "Explosive Volatile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Volatile Charm",
+    "power": 2,
+    "base_item": "Magma Block",
+    "release_status": "public",
+    "stats": {
+      "volatile_reaction_detonation_damage_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "volatile_reaction_radius_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "volatile_reaction_detonation_radius_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Flawless Magma Crystal": {
     "location": "Transmogrifier",
     "mmlore": [
@@ -66580,6 +66608,27 @@
     "type": "Charm",
     "class_name": "Mage"
   },
+  "Greater Volatile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Volatile Charm",
+    "power": 2,
+    "base_item": "Magma Block",
+    "release_status": "public",
+    "stats": {
+      "volatile_reaction_main_damage_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "volatile_reaction_detonation_damage_percent": {
+        "locked": false,
+        "value": 40
+      }
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Healing Crystal": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
@@ -66610,6 +66659,27 @@
     },
     "type": "Charm",
     "class_name": "Mage"
+  },
+  "Lesser Volatile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Volatile Charm",
+    "power": 1,
+    "base_item": "Magma Block",
+    "release_status": "public",
+    "stats": {
+      "volatile_reaction_main_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "volatile_reaction_detonation_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
   },
   "Pure Crystal": {
     "mmlore": [
@@ -66673,6 +66743,31 @@
     },
     "type": "Charm",
     "class_name": "Mage"
+  },
+  "Swift Volatile Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Volatile Charm",
+    "power": 2,
+    "base_item": "Magma Block",
+    "release_status": "public",
+    "stats": {
+      "volatile_reaction_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      },
+      "volatile_reaction_main_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "volatile_reaction_detonation_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
   },
   "Teleportation Crystal": {
     "mmlore": [
@@ -66862,7 +66957,7 @@
       },
       "esoteric_enhancements_cooldown_percent": {
         "locked": false,
-        "value": 50
+        "value": 75
       }
     },
     "type": "Charm",
@@ -76126,6 +76221,27 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
+  "Earthquake Staff": {
+    "location": "Blue",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Earthquake Staff",
+    "power": 3,
+    "base_item": "Pointed Dripstone",
+    "release_status": "public",
+    "stats": {
+      "brute_force_radius_percent": {
+        "locked": false,
+        "value": 75
+      },
+      "brute_force_knockback_percent": {
+        "locked": false,
+        "value": -30
+      }
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
   "Raw Rat": {
     "location": "Forum",
     "mmlore": [
@@ -76466,8 +76582,7 @@
       "<#ff6f55>Azacor's Malice",
       "A brave soul's luminescence",
       "transcends its death.",
-      "<gray><key:key.swapOffhand/> in mainhand or inventory",
-      "<gray>to remove Glowing."
+      "<gray>Swap in mainhand to remove Glowing."
     ],
     "region": "Valley",
     "tier": "Uncommon",
@@ -76485,7 +76600,7 @@
     "stats": {
       "infinity": 1
     },
-    "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends its death.\n in mainhand or inventory\nto remove Glowing."
+    "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends its death.\nSwap in mainhand to remove Glowing."
   },
   "Agaric Ale": {
     "location": "The Wolfswood",
@@ -76637,8 +76752,7 @@
     "mmlore": [
       "May their grace shine upon you.",
       "May you see.",
-      "<gray><key:key.swapOffhand/> in mainhand or inventory",
-      "<gray>to remove Night Vision."
+      "<gray>Swap in mainhand to remove Night Vision."
     ],
     "region": "Valley",
     "tier": "Uncommon",
@@ -76656,7 +76770,7 @@
     "stats": {
       "infinity": 1
     },
-    "lore": "May their grace shine upon you.\nMay you see.\n in mainhand or inventory\nto remove Night Vision."
+    "lore": "May their grace shine upon you.\nMay you see.\nSwap in mainhand to remove Night Vision."
   },
   "Astral Ale": {
     "location": "Delves",
@@ -82956,15 +83070,15 @@
     "stats": {
       "volatile_reaction_detonation_damage_percent": {
         "locked": false,
-        "value": 100
+        "value": 50
       },
       "volatile_reaction_detonation_radius_percent": {
         "locked": false,
-        "value": 100
+        "value": 25
       },
       "volatile_reaction_main_damage_percent": {
         "locked": false,
-        "value": -50
+        "value": -25
       }
     },
     "type": "Charm",
@@ -84431,7 +84545,7 @@
       },
       "chain_lightning_cooldown_percent": {
         "locked": false,
-        "value": -25
+        "value": -35
       }
     },
     "type": "Charm",
@@ -84719,10 +84833,6 @@
       "energizing_elixir_effect_duration_flat": {
         "locked": false,
         "value": 2
-      },
-      "energizing_elixir_damage_amplifier_duration_flat": {
-        "locked": false,
-        "value": 1
       }
     },
     "type": "Charm",
@@ -85553,7 +85663,7 @@
     "stats": {
       "bloodlust_stack_threshold_flat": {
         "locked": false,
-        "value": -15
+        "value": -20
       },
       "meteor_slam_bloodlust_cost_flat": {
         "locked": false,
@@ -92805,8 +92915,8 @@
       "regicide": 1,
       "potion_radius_flat": 2.5,
       "projectile_speed_base": 1,
-      "potion_recharge_rate_percent": 90,
-      "potion_damage_flat": 7.5
+      "potion_damage_flat": 7,
+      "potion_recharge_rate_percent": 110
     },
     "lore": "Looted from the labs beneath a nightmarish\ncastle, this hellish alembic swirls with primal rage."
   },
@@ -93019,11 +93129,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "fractal": 1,
       "alchemical_utensil": 1,
+      "fractal": 1,
       "wind_aspect": 1,
-      "projectile_speed_base": 1.5,
       "potion_radius_flat": 3,
+      "potion_recharge_rate_percent": 100,
+      "projectile_speed_base": 1.5,
       "potion_damage_flat": 12
     },
     "lore": "Pieces of the Loamskattar warp in and out\nof blank space, remaining in a tranquil stasis.\nThe space beyond holds only infinite answers."
@@ -93410,10 +93521,10 @@
       "decay": 3,
       "feather_falling": 3,
       "speed_percent": 10,
-      "potion_damage_flat": 10,
       "projectile_speed_base": 1,
       "potion_radius_flat": 2.5,
-      "potion_recharge_rate_percent": 120
+      "potion_recharge_rate_percent": 120,
+      "potion_damage_flat": 9
     },
     "lore": "Within the wooden container, a sticky sap\noozes with a verve unknown to nature."
   },
@@ -93437,8 +93548,8 @@
       "potion_radius_flat": 3,
       "projectile_speed_base": 1.3,
       "speed_percent": 10,
-      "potion_damage_flat": 10,
-      "potion_recharge_rate_percent": 120
+      "potion_recharge_rate_percent": 120,
+      "potion_damage_flat": 9
     },
     "lore": "Within the wooden container, a sticky sap\noozes with a verve unknown to nature."
   },
@@ -93461,9 +93572,9 @@
       "feather_falling": 3,
       "potion_radius_flat": 3,
       "projectile_speed_base": 1.3,
-      "potion_damage_flat": 10.5,
       "speed_percent": 10,
-      "potion_recharge_rate_percent": 125
+      "potion_recharge_rate_percent": 125,
+      "potion_damage_flat": 9.5
     },
     "lore": "Within the wooden container, a sticky sap\noozes with a verve unknown to nature."
   },
@@ -93487,8 +93598,8 @@
       "potion_radius_flat": 3,
       "speed_percent": 15,
       "projectile_speed_base": 1.3,
-      "potion_damage_flat": 10.5,
-      "potion_recharge_rate_percent": 125
+      "potion_recharge_rate_percent": 125,
+      "potion_damage_flat": 9.5
     },
     "lore": "Within the wooden container, a sticky sap\noozes with a verve unknown to nature."
   },
@@ -93512,8 +93623,8 @@
       "potion_radius_flat": 3,
       "speed_percent": 15,
       "projectile_speed_base": 1.3,
-      "potion_damage_flat": 11,
-      "potion_recharge_rate_percent": 130
+      "potion_recharge_rate_percent": 130,
+      "potion_damage_flat": 10
     },
     "lore": "Within the wooden container, a sticky sap\noozes with a verve unknown to nature."
   },
@@ -103452,7 +103563,7 @@
     "stats": {
       "volatile_reaction_enhancement_dot_potency_per_stack_percent": {
         "locked": false,
-        "value": 25
+        "value": 50
       },
       "volatile_reaction_enhancement_dot_spread_radius_percent": {
         "locked": false,
@@ -103460,7 +103571,11 @@
       },
       "volatile_reaction_detonation_damage_percent": {
         "locked": false,
-        "value": -100
+        "value": -50
+      },
+      "volatile_reaction_main_damage_percent": {
+        "locked": false,
+        "value": -50
       }
     },
     "type": "Charm",
@@ -103948,7 +104063,7 @@
     "type": "Misc",
     "stats": {}
   },
-  "Arboretum Arrow": {
+  "Arboretum Arrow (tipped_arrow)": {
     "location": "Pink",
     "region": "Isles",
     "name": "Arboretum Arrow",
@@ -103961,7 +104076,7 @@
       "ice_aspect": 1
     }
   },
-  "Argone Bolt": {
+  "Argone Bolt (tipped_arrow)": {
     "location": "Light Blue",
     "region": "Valley",
     "name": "Argone Bolt",
@@ -103972,7 +104087,7 @@
       "ice_aspect": 2
     }
   },
-  "Arrow of Causality": {
+  "Arrow of Causality (tipped_arrow)": {
     "location": "Corridors",
     "region": "Valley",
     "name": "Arrow of Causality",
@@ -103994,7 +104109,7 @@
     "type": "Misc",
     "stats": {}
   },
-  "Ashkii Quarrel": {
+  "Ashkii Quarrel (tipped_arrow)": {
     "location": "Pelias' Keep",
     "region": "Ring",
     "name": "Ashkii Quarrel",
@@ -104006,7 +104121,7 @@
       "projectile_speed_percent": 35
     }
   },
-  "Aster's Flames": {
+  "Aster's Flames (tipped_arrow)": {
     "location": "Cyan",
     "region": "Isles",
     "name": "Aster's Flames",
@@ -104018,7 +104133,7 @@
       "decay": 1
     }
   },
-  "Ateoq Arrow": {
+  "Ateoq Arrow (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Ateoq Arrow",
@@ -104029,7 +104144,7 @@
       "bleeding": 1
     }
   },
-  "Axcanyotl Arrow": {
+  "Axcanyotl Arrow (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Axcanyotl Arrow",
@@ -104040,7 +104155,7 @@
       "ice_aspect": 1
     }
   },
-  "Beastblood Quarrel": {
+  "Beastblood Quarrel (tipped_arrow)": {
     "location": "Orange",
     "region": "Valley",
     "name": "Beastblood Quarrel",
@@ -104052,7 +104167,7 @@
       "first_strike": 1
     }
   },
-  "Blackbearer's Bolt": {
+  "Blackbearer's Bolt (tipped_arrow)": {
     "location": "Willows",
     "region": "Valley",
     "name": "Blackbearer's Bolt",
@@ -104064,7 +104179,7 @@
       "projectile_speed_percent": -30
     }
   },
-  "Bramblethorn Bolt": {
+  "Bramblethorn Bolt (tipped_arrow)": {
     "location": "Hexfall",
     "region": "Ring",
     "name": "Bramblethorn Bolt",
@@ -104092,7 +104207,7 @@
     "stats": {},
     "lore": "Stores picked up arrows, and uses\nstored arrows to shoot bows and crossbows.\nPress  while in your inventory to open."
   },
-  "Chillwind Bolt": {
+  "Chillwind Bolt (tipped_arrow)": {
     "location": "Isles Casino",
     "region": "Isles",
     "name": "Chillwind Bolt",
@@ -104105,7 +104220,7 @@
       "projectile_speed_percent": -20
     }
   },
-  "Corrupted Chronobolt": {
+  "Corrupted Chronobolt (tipped_arrow)": {
     "location": "Teal",
     "region": "Isles",
     "name": "Corrupted Chronobolt",
@@ -104117,7 +104232,7 @@
       "projectile_speed_percent": -1000
     }
   },
-  "Covenstead Dart": {
+  "Covenstead Dart (tipped_arrow)": {
     "location": "Blue",
     "region": "Ring",
     "name": "Covenstead Dart",
@@ -104131,7 +104246,7 @@
       "ice_aspect": 1
     }
   },
-  "Cursestone Quarrel": {
+  "Cursestone Quarrel (tipped_arrow)": {
     "location": "Cyan",
     "region": "Isles",
     "name": "Cursestone Quarrel",
@@ -104143,7 +104258,7 @@
       "decay": 2
     }
   },
-  "Deathknell Arrow": {
+  "Deathknell Arrow (tipped_arrow)": {
     "location": "Gray",
     "region": "Isles",
     "name": "Deathknell Arrow",
@@ -104166,7 +104281,7 @@
     "type": "Misc",
     "stats": {}
   },
-  "Dichen Bolt": {
+  "Dichen Bolt (tipped_arrow)": {
     "location": "The Wolfswood",
     "region": "Ring",
     "name": "Dichen Bolt",
@@ -104178,7 +104293,7 @@
       "first_strike": 1
     }
   },
-  "Elemental Arrow": {
+  "Elemental Arrow (tipped_arrow)": {
     "location": "Yellow",
     "region": "Valley",
     "name": "Elemental Arrow",
@@ -104189,7 +104304,7 @@
       "earth_aspect": 2
     }
   },
-  "Fish Popper": {
+  "Fish Popper (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Fish Popper",
@@ -104201,7 +104316,7 @@
       "punch": 1
     }
   },
-  "Gillman's Dart": {
+  "Gillman's Dart (tipped_arrow)": {
     "location": "Lime",
     "region": "Isles",
     "name": "Gillman's Dart",
@@ -104213,7 +104328,7 @@
       "projectile_damage_percent": 10
     }
   },
-  "Godslayer Arrow": {
+  "Godslayer Arrow (tipped_arrow)": {
     "location": "Ruin",
     "region": "Ring",
     "name": "Godslayer Arrow",
@@ -104225,7 +104340,7 @@
       "projectile_damage_percent": -5
     }
   },
-  "Hailstorm Arrow": {
+  "Hailstorm Arrow (tipped_arrow)": {
     "location": "Isles Overworld",
     "region": "Isles",
     "name": "Hailstorm Arrow",
@@ -104237,7 +104352,7 @@
       "ice_aspect": 1
     }
   },
-  "Ix's Bolt": {
+  "Ix's Bolt (tipped_arrow)": {
     "location": "Orange",
     "region": "Valley",
     "name": "Ix's Bolt",
@@ -104248,7 +104363,7 @@
       "adrenaline": 1
     }
   },
-  "Kaul's Fury": {
+  "Kaul's Fury (tipped_arrow)": {
     "location": "Yellow",
     "region": "Valley",
     "name": "Kaul's Fury",
@@ -104259,7 +104374,7 @@
       "earth_aspect": 1
     }
   },
-  "Keterborn Bolt": {
+  "Keterborn Bolt (tipped_arrow)": {
     "location": "Forum",
     "region": "Isles",
     "name": "Keterborn Bolt",
@@ -104270,7 +104385,7 @@
       "technique": 2
     }
   },
-  "Lightning Bolt": {
+  "Lightning Bolt (tipped_arrow)": {
     "location": "PORTAL",
     "region": "Ring",
     "name": "Lightning Bolt",
@@ -104283,7 +104398,7 @@
       "projectile_speed_percent": 50
     }
   },
-  "Luther's Bolt": {
+  "Luther's Bolt (tipped_arrow)": {
     "location": "Light Gray",
     "region": "Isles",
     "name": "Luther's Bolt",
@@ -104294,7 +104409,7 @@
       "wind_aspect": 1
     }
   },
-  "Marksman's Longshot": {
+  "Marksman's Longshot (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Marksman's Longshot",
@@ -104305,7 +104420,7 @@
       "projectile_speed_percent": 25
     }
   },
-  "Memory Piercer": {
+  "Memory Piercer (tipped_arrow)": {
     "location": "Valley Casino",
     "region": "Valley",
     "name": "Memory Piercer",
@@ -104316,7 +104431,7 @@
       "projectile_speed_percent": 50
     }
   },
-  "Mist-touched Arrow": {
+  "Mist-touched Arrow (tipped_arrow)": {
     "location": "Isles Overworld",
     "region": "Isles",
     "name": "Mist-touched Arrow",
@@ -104328,7 +104443,7 @@
       "projectile_speed_percent": 30
     }
   },
-  "Molten Arrow": {
+  "Molten Arrow (tipped_arrow)": {
     "location": "Isles Overworld",
     "region": "Isles",
     "name": "Molten Arrow",
@@ -104340,7 +104455,7 @@
       "inferno": 1
     }
   },
-  "Myra's Miasma": {
+  "Myra's Miasma (tipped_arrow)": {
     "location": "Magenta",
     "region": "Valley",
     "name": "Myra's Miasma",
@@ -104351,7 +104466,7 @@
       "decay": 1
     }
   },
-  "Nightmare Bolt": {
+  "Nightmare Bolt (tipped_arrow)": {
     "location": "Reverie",
     "region": "Valley",
     "name": "Nightmare Bolt",
@@ -104364,7 +104479,7 @@
       "projectile_damage_percent": -15
     }
   },
-  "Pale Arrow": {
+  "Pale Arrow (tipped_arrow)": {
     "location": "Shifting",
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Could pierce through",
@@ -104381,7 +104496,7 @@
     },
     "lore": "Could pierce through\nreality itself."
   },
-  "Phantom Spines": {
+  "Phantom Spines (tipped_arrow)": {
     "location": "Soulwoven",
     "name": "Phantom Spines",
     "base_item": "Tipped Arrow",
@@ -104391,7 +104506,7 @@
       "wind_aspect": 3
     }
   },
-  "Pirate's Bolt": {
+  "Pirate's Bolt (tipped_arrow)": {
     "location": "Isles Overworld",
     "region": "Isles",
     "name": "Pirate's Bolt",
@@ -104402,7 +104517,7 @@
       "projectile_damage_percent": 10
     }
   },
-  "Plagued Arrow": {
+  "Plagued Arrow (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Plagued Arrow",
@@ -104414,7 +104529,7 @@
       "ice_aspect": 1
     }
   },
-  "Plagueroot Arrow": {
+  "Plagueroot Arrow (tipped_arrow)": {
     "location": "Magenta",
     "region": "Valley",
     "name": "Plagueroot Arrow",
@@ -104425,7 +104540,7 @@
       "decay": 3
     }
   },
-  "Proprietor's Present": {
+  "Proprietor's Present (tipped_arrow)": {
     "location": "Ring Casino",
     "region": "Ring",
     "name": "Proprietor's Present",
@@ -104437,7 +104552,7 @@
       "thunder_aspect": 2
     }
   },
-  "Quetz's Breath": {
+  "Quetz's Breath (tipped_arrow)": {
     "location": "White",
     "region": "Valley",
     "name": "Quetz's Breath",
@@ -104448,7 +104563,7 @@
       "fire_aspect": 1
     }
   },
-  "Ranger's Bolt": {
+  "Ranger's Bolt (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Ranger's Bolt",
@@ -104505,7 +104620,7 @@
     "type": "Misc",
     "stats": {}
   },
-  "Sentry's Arrow": {
+  "Sentry's Arrow (tipped_arrow)": {
     "location": "Brown",
     "region": "Ring",
     "name": "Sentry's Arrow",
@@ -104517,7 +104632,7 @@
       "thunder_aspect": 2
     }
   },
-  "Serrated Arrow": {
+  "Serrated Arrow (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Serrated Arrow",
@@ -104556,7 +104671,7 @@
     "type": "Misc",
     "stats": {}
   },
-  "Sier's Arcana": {
+  "Sier's Arcana (tipped_arrow)": {
     "location": "Light Blue",
     "region": "Valley",
     "name": "Sier's Arcana",
@@ -104567,7 +104682,7 @@
       "ice_aspect": 1
     }
   },
-  "Silver Bolt": {
+  "Silver Bolt (tipped_arrow)": {
     "location": "SKT",
     "region": "Ring",
     "name": "Silver Bolt",
@@ -104580,7 +104695,7 @@
       "projectile_speed_percent": -30
     }
   },
-  "Singularity Shaft": {
+  "Singularity Shaft (tipped_arrow)": {
     "location": "Indigo",
     "name": "Singularity Shaft",
     "base_item": "Tipped Arrow",
@@ -104591,7 +104706,7 @@
       "projectile_speed_percent": 50
     }
   },
-  "Soulflame Arrow": {
+  "Soulflame Arrow (tipped_arrow)": {
     "location": "White",
     "region": "Valley",
     "name": "Soulflame Arrow",
@@ -104602,7 +104717,7 @@
       "fire_aspect": 2
     }
   },
-  "Star Seeker's Needle": {
+  "Star Seeker's Needle (tipped_arrow)": {
     "location": "Starpoint",
     "region": "Ring",
     "name": "Star Seeker's Needle",
@@ -104614,7 +104729,7 @@
       "projectile_speed_percent": 50
     }
   },
-  "Star-tipped Arrow": {
+  "Star-tipped Arrow (tipped_arrow)": {
     "location": "Light Gray",
     "region": "Isles",
     "name": "Star-tipped Arrow",
@@ -104626,7 +104741,7 @@
       "wind_aspect": 1
     }
   },
-  "Star-touched Bolt": {
+  "Star-touched Bolt (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Star-touched Bolt",
@@ -104638,7 +104753,7 @@
       "projectile_speed_percent": 20
     }
   },
-  "Stormsurge Quarrel": {
+  "Stormsurge Quarrel (tipped_arrow)": {
     "location": "Shifting",
     "region": "Isles",
     "name": "Stormsurge Quarrel",
@@ -104660,7 +104775,7 @@
     "type": "Misc",
     "stats": {}
   },
-  "Tencualac Arrow": {
+  "Tencualac Arrow (tipped_arrow)": {
     "location": "Valley Overworld",
     "region": "Valley",
     "name": "Tencualac Arrow",
@@ -104671,7 +104786,7 @@
       "decay": 1
     }
   },
-  "Timetorn Arrow": {
+  "Timetorn Arrow (tipped_arrow)": {
     "location": "Teal",
     "region": "Isles",
     "name": "Timetorn Arrow",
@@ -104683,7 +104798,7 @@
       "projectile_speed_percent": 50
     }
   },
-  "Urchin Barb": {
+  "Urchin Barb (tipped_arrow)": {
     "location": "Fishing",
     "region": "Ring",
     "name": "Urchin Barb",
@@ -104696,7 +104811,7 @@
       "projectile_damage_percent": 10
     }
   },
-  "Vizier's Tool": {
+  "Vizier's Tool (tipped_arrow)": {
     "location": "Gray",
     "region": "Isles",
     "name": "Vizier's Tool",
@@ -104708,7 +104823,7 @@
       "fire_aspect": 1
     }
   },
-  "Void-dipped Arrow": {
+  "Void-dipped Arrow (tipped_arrow)": {
     "location": "Purple",
     "region": "Isles",
     "name": "Void-dipped Arrow",
@@ -107403,27 +107518,6 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
-  "Earthquake Staff": {
-    "location": "Blue",
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Earthquake Staff",
-    "power": 3,
-    "base_item": "Warped Fungus On A Stick",
-    "release_status": "public",
-    "stats": {
-      "brute_force_radius_percent": {
-        "locked": false,
-        "value": 75
-      },
-      "brute_force_knockback_percent": {
-        "locked": false,
-        "value": -30
-      }
-    },
-    "type": "Charm",
-    "class_name": "Warrior"
-  },
   "Egginator": {
     "mmlore": [
       "<gray>Punch or right-click an NPC or",
@@ -108240,7 +108334,7 @@
     "stats": {
       "decayed_totem_pulse_delay_percent": {
         "locked": false,
-        "value": -40
+        "value": -25
       },
       "decayed_totem_slowness_amplifier_percent": {
         "locked": false,

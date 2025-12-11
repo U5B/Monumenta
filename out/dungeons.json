@@ -1,14 +1,4 @@
 {
-  "orange": {
-    "name": "Orange Dungeon",
-    "description": "You discovered a lost outpost of the Tlaxans, hiding more than just loot...",
-    "poi": "★ Abandoned Tunnels",
-    "coordinates": {
-      "x": "109",
-      "y": "79",
-      "z": "143"
-    }
-  },
   "fred": {
     "name": "City of Shifting Waters",
     "description": "Deep below Steelmeld, sealed away by its unknown former inhabitants, lies secrets long since forgotten.",
@@ -17,6 +7,46 @@
       "x": "-433",
       "y": "14",
       "z": "-495"
+    }
+  },
+  "light_blue": {
+    "name": "Light Blue Dungeon",
+    "description": "There must be secrets hiding within this ancient place.",
+    "poi": "★ Creeper Farm",
+    "coordinates": {
+      "x": "797",
+      "y": "174",
+      "z": "-317"
+    }
+  },
+  "reverie": {
+    "name": "Malevolent Reverie",
+    "description": null,
+    "poi": "★ Verdant Fortress?",
+    "coordinates": {
+      "x": "916",
+      "y": "106",
+      "z": "182"
+    }
+  },
+  "white": {
+    "name": "White Dungeon",
+    "description": "Before you lies the ancient sacrificial temple to a lost god...",
+    "poi": "★ Tlaxan Ziggurat",
+    "coordinates": {
+      "x": "215",
+      "y": "125",
+      "z": "-109"
+    }
+  },
+  "hexfall": {
+    "name": "Hexfall",
+    "description": "The time has come to face the head of the witches, the dryad Hycenea, who wishes to claim the Blue Wool from you. Do you have it within you to hold her back from her love?",
+    "poi": "★ Locum Vernantia",
+    "coordinates": {
+      "x": "-770",
+      "y": "11",
+      "z": "-651"
     }
   },
   "indigo": {
@@ -39,6 +69,16 @@
       "z": "-450"
     }
   },
+  "orange": {
+    "name": "Orange Dungeon",
+    "description": "You discovered a lost outpost of the Tlaxans, hiding more than just loot...",
+    "poi": "★ Abandoned Tunnels",
+    "coordinates": {
+      "x": "109",
+      "y": "79",
+      "z": "143"
+    }
+  },
   "labs": {
     "name": "Alchemy Labs Dungeon",
     "description": "Ahead lies the Alchemy Labs, bandits, and their cache of explosives.",
@@ -47,76 +87,6 @@
       "x": "-748",
       "y": "95",
       "z": "-87"
-    }
-  },
-  "light_blue": {
-    "name": "Light Blue Dungeon",
-    "description": "There must be secrets hiding within this ancient place.",
-    "poi": "★ Creeper Farm",
-    "coordinates": {
-      "x": "797",
-      "y": "174",
-      "z": "-317"
-    }
-  },
-  "r1bonus": {
-    "name": "The Black Willows",
-    "description": "A lost grove stretches before you, filled with riches.",
-    "poi": "★ Cave of Secrets",
-    "coordinates": {
-      "x": "458",
-      "y": "74",
-      "z": "-103"
-    }
-  },
-  "forum": {
-    "name": "The Fallen Forum",
-    "description": "Having passed through the time itself in the ruins of the Congress, the Fallen Forum awaits.",
-    "poi": null,
-    "coordinates": {
-      "x": "-600",
-      "y": "1",
-      "z": "525"
-    }
-  },
-  "yellow": {
-    "name": "Yellow Dungeon",
-    "description": "The seasons rage before you, a curse on the Sons of the Forest. Can you overcome them?",
-    "poi": "★ Cursed Forest",
-    "coordinates": {
-      "x": "1100",
-      "y": "104",
-      "z": "60"
-    }
-  },
-  "hexfall": {
-    "name": "Hexfall",
-    "description": "The time has come to face the head of the witches, the dryad Hycenea, who wishes to claim the Blue Wool from you. Do you have it within you to hold her back from her love?",
-    "poi": "★ Locum Vernantia",
-    "coordinates": {
-      "x": "-770",
-      "y": "11",
-      "z": "-651"
-    }
-  },
-  "zenith": {
-    "name": "The Celestial Zenith",
-    "description": "You find yourself for the first time within a Wool. A world awaits - as does a mission from Uriddan himself.",
-    "poi": "★ Constellation Tower",
-    "coordinates": {
-      "x": "73",
-      "y": "475",
-      "z": "625"
-    }
-  },
-  "depths": {
-    "name": "Darkest Depths",
-    "description": "Far, far below the waves lies a disturbance, a tear into our world. What possibly could have caused this?",
-    "poi": null,
-    "coordinates": {
-      "x": "-702",
-      "y": "9",
-      "z": "-186"
     }
   },
   "purple": {
@@ -139,14 +109,54 @@
       "z": "3"
     }
   },
-  "reverie": {
-    "name": "Malevolent Reverie",
-    "description": null,
-    "poi": "★ Verdant Fortress?",
+  "r1bonus": {
+    "name": "The Black Willows",
+    "description": "A lost grove stretches before you, filled with riches.",
+    "poi": "★ Cave of Secrets",
     "coordinates": {
-      "x": "916",
-      "y": "106",
-      "z": "182"
+      "x": "458",
+      "y": "74",
+      "z": "-103"
+    }
+  },
+  "depths": {
+    "name": "Darkest Depths",
+    "description": "Far, far below the waves lies a disturbance, a tear into our world. What possibly could have caused this?",
+    "poi": null,
+    "coordinates": {
+      "x": "-702",
+      "y": "9",
+      "z": "-186"
+    }
+  },
+  "zenith": {
+    "name": "The Celestial Zenith",
+    "description": "You find yourself for the first time within a Wool. A world awaits - as does a mission from Uriddan himself.",
+    "poi": "★ Constellation Tower",
+    "coordinates": {
+      "x": "73",
+      "y": "475",
+      "z": "625"
+    }
+  },
+  "brown": {
+    "name": "Brown Dungeon",
+    "description": "Mechanical clanking and buzzing noises spew forth from the ground. What lies deep below Pelias' folly?",
+    "poi": "★ Arx Spirensis",
+    "coordinates": {
+      "x": "-485",
+      "y": "62",
+      "z": "19"
+    }
+  },
+  "yellow": {
+    "name": "Yellow Dungeon",
+    "description": "The seasons rage before you, a curse on the Sons of the Forest. Can you overcome them?",
+    "poi": "★ Cursed Forest",
+    "coordinates": {
+      "x": "1100",
+      "y": "104",
+      "z": "60"
     }
   },
   "cyan": {
@@ -157,6 +167,16 @@
       "x": "41",
       "y": "114",
       "z": "285"
+    }
+  },
+  "roguelike": {
+    "name": "Ephemeral Corridors",
+    "description": null,
+    "poi": "★ Anthill",
+    "coordinates": {
+      "x": "819",
+      "y": "110",
+      "z": "209"
     }
   },
   "lime": {
@@ -179,24 +199,14 @@
       "z": "394"
     }
   },
-  "white": {
-    "name": "White Dungeon",
-    "description": "Before you lies the ancient sacrificial temple to a lost god...",
-    "poi": "★ Tlaxan Ziggurat",
+  "magenta": {
+    "name": "Magenta Dungeon",
+    "description": "From the depths, you can feel a sickness pouring. What lies below?",
+    "poi": "★ Grand Maw",
     "coordinates": {
-      "x": "215",
-      "y": "125",
-      "z": "-109"
-    }
-  },
-  "skt": {
-    "name": "Silver Knight's Tomb",
-    "description": "Before you stands a gate, leading deep into the surviving ruins of Isharist. The Teal Spirit waits within...",
-    "poi": null,
-    "coordinates": {
-      "x": "-1530",
-      "y": "9",
-      "z": "1702"
+      "x": "350",
+      "y": "71",
+      "z": "82"
     }
   },
   "pink": {
@@ -219,34 +229,24 @@
       "z": "-387"
     }
   },
-  "magenta": {
-    "name": "Magenta Dungeon",
-    "description": "From the depths, you can feel a sickness pouring. What lies below?",
-    "poi": "★ Grand Maw",
+  "forum": {
+    "name": "The Fallen Forum",
+    "description": "Having passed through the time itself in the ruins of the Congress, the Fallen Forum awaits.",
+    "poi": null,
     "coordinates": {
-      "x": "350",
-      "y": "71",
-      "z": "82"
+      "x": "-600",
+      "y": "1",
+      "z": "525"
     }
   },
-  "brown": {
-    "name": "Brown Dungeon",
-    "description": "Mechanical clanking and buzzing noises spew forth from the ground. What lies deep below Pelias' folly?",
-    "poi": "★ Arx Spirensis",
+  "skt": {
+    "name": "Silver Knight's Tomb",
+    "description": "Before you stands a gate, leading deep into the surviving ruins of Isharist. The Teal Spirit waits within...",
+    "poi": null,
     "coordinates": {
-      "x": "-485",
-      "y": "62",
-      "z": "19"
-    }
-  },
-  "roguelike": {
-    "name": "Ephemeral Corridors",
-    "description": null,
-    "poi": "★ Anthill",
-    "coordinates": {
-      "x": "819",
-      "y": "110",
-      "z": "209"
+      "x": "-1530",
+      "y": "9",
+      "z": "1702"
     }
   }
 }
