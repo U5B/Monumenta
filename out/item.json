@@ -9742,7 +9742,7 @@
     "class_name": "Warlock"
   },
   "Melted Candle": {
-    "location": "Architect's Ring",
+    "location": "Transmogrifier",
     "mmlore": [
       "<gray>Can be sold or transmogrified",
       "<gray>like any other rare item.",
@@ -39315,27 +39315,6 @@
     "stats": {},
     "lore": "A dark powder with unknown properties.\nPerhaps it was once used for something,\nbut exposure to the dream has made it\nunrecognizable. Still, it could be useful.\n* Quest Item *\n#Q216I06"
   },
-  "Explosive Charm of Blasting": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Explosive Charm of Blasting",
-    "power": 3,
-    "base_item": "Gunpowder",
-    "release_status": "public",
-    "stats": {
-      "ignition_drive_damage_percent": {
-        "locked": false,
-        "value": 15
-      },
-      "ignition_drive_radius_percent": {
-        "locked": false,
-        "value": 30
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Explosive Insanity Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -39378,23 +39357,6 @@
     "type": "Charm",
     "class_name": "Scout"
   },
-  "Focused Charm of Blasting": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Charm of Blasting",
-    "power": 3,
-    "base_item": "Gunpowder",
-    "release_status": "public",
-    "stats": {
-      "ignition_drive_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Focused Insanity Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -39432,23 +39394,6 @@
     },
     "type": "Charm",
     "class_name": "Scout"
-  },
-  "Greater Charm of Blasting": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Blasting",
-    "power": 2,
-    "base_item": "Gunpowder",
-    "release_status": "public",
-    "stats": {
-      "ignition_drive_damage_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Greater Insanity Charm": {
     "location": "Architect's Ring",
@@ -39497,23 +39442,6 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
-  },
-  "Lesser Charm of Blasting": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Blasting",
-    "power": 1,
-    "base_item": "Gunpowder",
-    "release_status": "public",
-    "stats": {
-      "ignition_drive_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Lesser Insanity Charm": {
     "location": "Architect's Ring",
@@ -39637,27 +39565,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Smells faintly like\nrotten eggs.\n* Quest Item *\n#Q144I01"
-  },
-  "Swift Charm of Blasting": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Blasting",
-    "power": 3,
-    "base_item": "Gunpowder",
-    "release_status": "public",
-    "stats": {
-      "ignition_drive_damage_percent": {
-        "locked": false,
-        "value": 15
-      },
-      "ignition_drive_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Swift Insanity Charm": {
     "location": "Architect's Ring",
@@ -51453,6 +51360,27 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
+  },
+  "Swift Consecrated Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Consecrated Charm",
+    "power": 2,
+    "base_item": "Large Amethyst Bud",
+    "release_status": "public",
+    "stats": {
+      "sanctified_armor_resistance_percent": {
+        "locked": false,
+        "value": 2
+      },
+      "sanctified_armor_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
   },
   "Swift Transcendent Charm": {
     "location": "Architect's Ring",
@@ -82617,7 +82545,7 @@
     "stats": {}
   },
   "Ancient Power Fragment": {
-    "location": "King's Valley",
+    "location": "Transmogrifier",
     "mmlore": [
       "<gray>Can be sold or transmogrified",
       "<gray>like any other rare item.",
@@ -85744,6 +85672,35 @@
     "stats": {},
     "lore": "A suspicious looking mushroom.\n* Quest Item *\n#Q120I01"
   },
+  "Thrilled Toadstool": {
+    "location": "Godspore",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Thrilled Toadstool",
+    "power": 2,
+    "base_item": "Red Mushroom Block",
+    "release_status": "public",
+    "stats": {
+      "ignition_drive_cooldown_percent": {
+        "locked": false,
+        "value": -30
+      },
+      "ignition_drive_launch_distance_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "ignition_drive_radius_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "ignition_drive_stun_duration_percent": {
+        "locked": false,
+        "value": -100
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Chiseled Key": {
     "location": "Verdant",
     "mmlore": [
@@ -86198,7 +86155,7 @@
     "lore": "Epic Crafting Material\nA mass of dissonant energy, twisted by a\nmysterious force to be capable of change\npreviously thought impossible."
   },
   "Flawless Magma Fragment": {
-    "location": "Celsian Isles",
+    "location": "Transmogrifier",
     "mmlore": [
       "<gray>Can be sold or transmogrified",
       "<gray>like any other rare item.",
@@ -92210,27 +92167,6 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
-  "Explosive Spiriting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Explosive Spiriting Charm",
-    "power": 2,
-    "base_item": "Soul Lantern",
-    "release_status": "public",
-    "stats": {
-      "spiritcatcher_orbs_orb_velocity_percent": {
-        "locked": false,
-        "value": 50
-      },
-      "spiritcatcher_orbs_spiritflame_damage_percent": {
-        "locked": false,
-        "value": 15
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Focused Charm of the Hive": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -92248,23 +92184,6 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
-  "Focused Spiriting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Spiriting Charm",
-    "power": 3,
-    "base_item": "Soul Lantern",
-    "release_status": "public",
-    "stats": {
-      "spiritcatcher_orbs_spiritflame_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Greater Charm of the Hive": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -92281,23 +92200,6 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
-  },
-  "Greater Spiriting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Spiriting Charm",
-    "power": 2,
-    "base_item": "Soul Lantern",
-    "release_status": "public",
-    "stats": {
-      "spiritcatcher_orbs_spiritflame_damage_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Lantern of Truth (soul_lantern)": {
     "location": "Marina Noir",
@@ -92332,23 +92234,6 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
-  },
-  "Lesser Spiriting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Spiriting Charm",
-    "power": 1,
-    "base_item": "Soul Lantern",
-    "release_status": "public",
-    "stats": {
-      "spiritcatcher_orbs_spiritflame_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Swarming Charm of the Hive": {
     "location": "Architect's Ring",
