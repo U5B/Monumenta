@@ -1918,6 +1918,21 @@
     "stats": {},
     "lore": "Guarantees a Shadowdancer charm\nwhen transmogrifying Zenith Charms.\n while in main hand to activate."
   },
+  "Shadowflame Candle": {
+    "mmlore": [
+      "The pitch black flame flickers in the",
+      "uneven winds of the realm. Something",
+      "like this could only exist in a dream...",
+      "<light_purple>* Quest Item *",
+      "#Q225I<obfuscated>03"
+    ],
+    "name": "Shadowflame Candle",
+    "base_item": "Black Candle",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The pitch black flame flickers in the\nuneven winds of the realm. Something\nlike this could only exist in a dream...\n* Quest Item *\n#Q225I03"
+  },
   "Torn Black Cloth": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -26385,6 +26400,26 @@
     "stats": {},
     "lore": "Can extinguish magic fires with a\nsimple use in the mainhand.\n* Quest Item *\n#Q224I01"
   },
+  "Lucidity": {
+    "location": "Quest Reward",
+    "mmlore": [
+      "Parses the fabric of consciousness,",
+      "allowing its wielder to obtain full",
+      "awareness of the dream...",
+      "<gray><key:key.use> in mainhand or inventory",
+      "<gray>to highlight all spawners in a 20",
+      "<gray>block radius.",
+      "Cooldown : <#4ac2e5>1m"
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Lucidity",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Parses the fabric of consciousness,\nallowing its wielder to obtain full\nawareness of the dream...\n in mainhand or inventory\nto highlight all spawners in a 20\nblock radius.\nCooldown : 1m"
+  },
   "Radiant Starblight": {
     "location": "Sirius",
     "mmlore": [
@@ -38854,6 +38889,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "There was an unnatural silence as\nHekawt stepped away from the fallen\ncapital. His need had outweighed the\nneed of Al Malakut. He was eternal."
+  },
+  "Deobfuscation Rune": {
+    "mmlore": [
+      "It has some glyphs engraved on",
+      "its surface. Seems like it's used",
+      "to reveal something.",
+      "<gray>Right click while holding to use.",
+      "<light_purple>* Quest Item *",
+      "#Q225I01"
+    ],
+    "name": "Deobfuscation Rune",
+    "base_item": "Gray Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It has some glyphs engraved on\nits surface. Seems like it's used\nto reveal something.\nRight click while holding to use.\n* Quest Item *\n#Q225I01"
   },
   "Distant Force Charm": {
     "location": "Architect's Ring",
@@ -72509,6 +72560,20 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
+  "Dissonant Growth": {
+    "mmlore": [
+      "It writhes in your hand, seeking to",
+      "tear into the void...",
+      "<light_purple>* Quest Item *",
+      "#Q225I<obfuscated>09"
+    ],
+    "name": "Dissonant Growth",
+    "base_item": "Pitcher Pod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It writhes in your hand, seeking to\ntear into the void...\n* Quest Item *\n#Q225I09"
+  },
   "500 Pound Roast Chicken": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -82202,6 +82267,22 @@
     "type": "Consumable",
     "stats": {},
     "lore": "A potion infused with Void itself.\nConsuming it causes instant and unpreventable death."
+  },
+  "Voidfilled Vial": {
+    "mmlore": [
+      "An inky black fluid oozed out from the",
+      "portal Max had left though. What was",
+      "this stuff, Ezariah wondered? Best to",
+      "collect some samples for testing...",
+      "<light_purple>* Quest Item *",
+      "#Q225I<obfuscated>08"
+    ],
+    "name": "Voidfilled Vial",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An inky black fluid oozed out from the\nportal Max had left though. What was\nthis stuff, Ezariah wondered? Best to\ncollect some samples for testing...\n* Quest Item *\n#Q225I08"
   },
   "Volkamph's Snake Oil": {
     "location": "Valley Overworld",
@@ -92234,6 +92315,21 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Shadowflame Lantern": {
+    "mmlore": [
+      "The pitch black flame of the candle",
+      "within pierces the fabric of the dream...",
+      "<gray>Right click in mainhand to use.",
+      "<light_purple>* Quest Item *",
+      "#Q225I<obfuscated>04"
+    ],
+    "name": "Shadowflame Lantern",
+    "base_item": "Soul Lantern",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The pitch black flame of the candle\nwithin pierces the fabric of the dream...\nRight click in mainhand to use.\n* Quest Item *\n#Q225I04"
   },
   "Swarming Charm of the Hive": {
     "location": "Architect's Ring",
@@ -106159,6 +106255,33 @@
     },
     "lore": "Like the stirring of the elements, power\nrushes to our side."
   },
+  "Requiem of the Abyss-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "mmlore": [
+      "Fate had spun its tale, the pen coming",
+      "to rest at the apex of the story. The",
+      "watcher gazed over its composition,",
+      "awaiting his moment to amend the details."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Requiem of the Abyss",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "decay": 10,
+      "hex_eater": 3,
+      "life_drain": 1,
+      "riptide": 2,
+      "unbreakable": 1,
+      "attack_damage_base": 19,
+      "attack_speed_base": 1.1,
+      "magic_damage_percent": 10
+    },
+    "lore": "Fate had spun its tale, the pen coming\nto rest at the apex of the story. The\nwatcher gazed over its composition,\nawaiting his moment to amend the details."
+  },
   "Seahunter": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -106697,6 +106820,20 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Key to Ezariah's Office": {
+    "mmlore": [
+      "A magical key that unlocks the office",
+      "of a mage council member.",
+      "<light_purple>* Quest Item *",
+      "#Q225I<obfuscated>06"
+    ],
+    "name": "Key to Ezariah's Office",
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A magical key that unlocks the office\nof a mage council member.\n* Quest Item *\n#Q225I06"
   },
   "Mineshaft Key": {
     "mmlore": [
