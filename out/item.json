@@ -37811,12 +37811,12 @@
     "type": "Offhand Sword",
     "stats": {
       "adaptability": 1,
-      "unbreakable": 1,
-      "melee_protection": 2,
       "magic_protection": 1,
-      "life_drain": 1,
+      "melee_protection": 2,
+      "technique": 2,
+      "unbreakable": 1,
       "speed_percent": 10,
-      "armor": 6.5
+      "armor": 7
     },
     "lore": "What does it mean to be alive? Is it\nflesh? Blood? Is it a pulsing core\nwithin your chest? In Irrus' final\nmoments, she realized... It is not the\nArchitect by which she defined her\nlife, but her own memories."
   },
@@ -37839,12 +37839,12 @@
     "type": "Offhand Sword",
     "stats": {
       "adaptability": 1,
-      "unbreakable": 1,
-      "melee_protection": 2,
       "magic_protection": 2,
-      "life_drain": 1,
+      "melee_protection": 2,
+      "technique": 2,
+      "unbreakable": 1,
       "speed_percent": 10,
-      "armor": 6.5
+      "armor": 7
     },
     "lore": "What does it mean to be alive? Is it\nflesh? Blood? Is it a pulsing core\nwithin your chest? In Irrus' final\nmoments, she realized... It is not the\nArchitect by which she defined her\nlife, but her own memories."
   },
@@ -37867,13 +37867,13 @@
     "type": "Offhand Sword",
     "stats": {
       "adaptability": 1,
-      "unbreakable": 1,
-      "melee_protection": 2,
       "aptitude": 1,
       "magic_protection": 2,
-      "life_drain": 1,
+      "melee_protection": 2,
+      "technique": 2,
+      "unbreakable": 1,
       "speed_percent": 10,
-      "armor": 6.5
+      "armor": 7
     },
     "lore": "What does it mean to be alive? Is it\nflesh? Blood? Is it a pulsing core\nwithin your chest? In Irrus' final\nmoments, she realized... It is not the\nArchitect by which she defined her\nlife, but her own memories."
   },
@@ -58278,12 +58278,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 3,
-      "stamina": 3,
-      "mending": 1,
-      "magic_protection": 3,
-      "fire_protection": 3,
       "blast_protection": 3,
+      "fire_protection": 3,
+      "mending": 1,
+      "projectile_protection": 3,
+      "stamina": 3,
+      "unbreaking": 3,
       "agility": 7.5,
       "attack_speed_percent": 12
     },
@@ -58305,12 +58305,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 3,
-      "stamina": 3,
-      "mending": 1,
-      "magic_protection": 3,
-      "fire_protection": 3,
       "blast_protection": 3,
+      "fire_protection": 3,
+      "mending": 1,
+      "projectile_protection": 3,
+      "stamina": 3,
+      "unbreaking": 3,
       "agility": 8,
       "attack_speed_percent": 12
     },
@@ -58332,12 +58332,12 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 3,
-      "stamina": 4,
-      "mending": 1,
-      "magic_protection": 3,
-      "fire_protection": 3,
       "blast_protection": 3,
+      "fire_protection": 3,
+      "mending": 1,
+      "projectile_protection": 3,
+      "stamina": 4,
+      "unbreaking": 3,
       "agility": 8,
       "attack_speed_percent": 12
     },
