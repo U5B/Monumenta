@@ -78251,38 +78251,16 @@
   "Dark Thunder": {
     "location": "Rush",
     "mmlore": [
-      "<gray>Instant Drink",
-      "Celsian Isles : <gray>Uncommon",
-      "<#c21e56>Rush of Dissonance",
       "Flashes of lightning illuminate the cloudy bottle."
     ],
     "region": "Isles",
-    "tier": "Uncommon",
+    "tier": "Legacy",
     "name": "Dark Thunder",
-    "effects": [
-      {
-        "EffectDuration": 260,
-        "EffectStrength": 1.4,
-        "EffectType": "Speed"
-      },
-      {
-        "EffectDuration": 260,
-        "EffectStrength": 7,
-        "EffectType": "MiningFatigue"
-      },
-      {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
-      }
-    ],
     "base_item": "Potion",
     "release_status": "public",
-    "type": "Consumable",
-    "stats": {
-      "instant_drink": 1
-    },
-    "lore": "Instant Drink\nCelsian Isles : Uncommon\nRush of Dissonance\nFlashes of lightning illuminate the cloudy bottle."
+    "type": "Misc",
+    "stats": {},
+    "lore": "Flashes of lightning illuminate the cloudy bottle."
   },
   "Darksight Potion": {
     "name": "Darksight Potion",
