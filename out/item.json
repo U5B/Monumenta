@@ -28605,22 +28605,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Pride Launcher": {
-    "location": "King's Valley",
-    "mmlore": [
-      "Love is Love.",
-      "(Shift) Left Click to change the color of the",
-      "big (small) explosion. Right Click to shoot!"
-    ],
-    "region": "Valley",
-    "tier": "Unique",
-    "name": "Pride Launcher",
-    "base_item": "Firework Rocket",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Love is Love.\n(Shift) Left Click to change the color of the\nbig (small) explosion. Right Click to shoot!"
-  },
   "Signal Flare - Burst": {
     "mmlore": [
       "Applies Glowing for 10 seconds when used."
@@ -28722,6 +28706,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "Worth 64 Archos Rings\n while holding to decompress once.\n +  while holding to decompress 10."
+  },
+  "Pride Launcher": {
+    "location": "Quest Reward",
+    "mmlore": [
+      "Love is Love.",
+      "(Shift) Left Click to change the color of the",
+      "big (small) explosion. Right Click to shoot!"
+    ],
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Pride Launcher",
+    "base_item": "Firework Star",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Love is Love.\n(Shift) Left Click to change the color of the\nbig (small) explosion. Right Click to shoot!"
   },
   "Silvari Coin-1": {
     "location": "Pelias' Keep",
@@ -87688,9 +87688,9 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
       "blast_protection": 1,
       "first_strike": 2,
+      "unbreaking": 3,
       "speed_percent": 15,
       "agility": 7
     },
@@ -87711,9 +87711,9 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
       "blast_protection": 1,
       "first_strike": 3,
+      "unbreaking": 3,
       "speed_percent": 15,
       "agility": 7
     },
@@ -87734,9 +87734,9 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 4,
       "blast_protection": 1,
       "first_strike": 3,
+      "unbreaking": 4,
       "speed_percent": 15,
       "agility": 8
     },
@@ -87757,9 +87757,9 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 5,
       "blast_protection": 1,
       "first_strike": 4,
+      "unbreaking": 5,
       "speed_percent": 15,
       "agility": 8
     },
@@ -87780,9 +87780,9 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 6,
       "blast_protection": 2,
       "first_strike": 4,
+      "unbreaking": 6,
       "speed_percent": 15,
       "agility": 8.5
     },
@@ -89601,10 +89601,10 @@
     "type": "Offhand Shield",
     "stats": {
       "guard": 1,
-      "unbreaking": 4,
-      "stamina": 1,
-      "projectile_protection": 2,
       "magic_protection": 1,
+      "projectile_protection": 2,
+      "stamina": 1,
+      "unbreaking": 4,
       "armor": 5.5,
       "knockback_resistance_flat": 3
     },
@@ -89627,10 +89627,10 @@
     "type": "Offhand Shield",
     "stats": {
       "guard": 1,
-      "unbreaking": 5,
-      "stamina": 2,
-      "projectile_protection": 2,
       "magic_protection": 1,
+      "projectile_protection": 2,
+      "stamina": 2,
+      "unbreaking": 5,
       "knockback_resistance_flat": 4,
       "armor": 5.5
     },
@@ -89653,10 +89653,10 @@
     "type": "Offhand Shield",
     "stats": {
       "guard": 1,
-      "unbreaking": 6,
-      "stamina": 2,
-      "projectile_protection": 2,
       "magic_protection": 2,
+      "projectile_protection": 2,
+      "stamina": 2,
+      "unbreaking": 6,
       "armor": 6,
       "knockback_resistance_flat": 4
     },
@@ -101598,12 +101598,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "regicide": 2,
-      "unbreakable": 1,
-      "technique": 2,
-      "magic_fragility": 2,
-      "stamina": 2,
       "first_strike": 2,
+      "magic_fragility": 2,
+      "regicide": 2,
+      "stamina": 2,
+      "technique": 2,
+      "unbreakable": 1,
       "attack_damage_percent": 20,
       "armor": 7.5
     },
@@ -101625,12 +101625,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "regicide": 2,
-      "unbreakable": 1,
-      "technique": 2,
-      "magic_fragility": 2,
-      "stamina": 2,
       "first_strike": 2,
+      "magic_fragility": 2,
+      "regicide": 2,
+      "stamina": 2,
+      "technique": 2,
+      "unbreakable": 1,
       "attack_damage_percent": 20,
       "armor": 8.5
     },
