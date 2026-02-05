@@ -3672,11 +3672,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 1,
       "fire_aspect": 1,
       "inferno": 1,
-      "attack_damage_base": 3,
-      "spell_power_base": 35
+      "knockback": 1,
+      "spell_power_base": 35,
+      "attack_damage_base": 3.5
     },
     "lore": "Though it can try, the sea itself\ncannot extinguish the flame\nof Ishnir magic."
   },
@@ -3707,9 +3707,9 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 2,
-      "knockback": 2,
-      "attack_damage_base": 1.5,
-      "spell_power_base": 20
+      "knockback": 1,
+      "spell_power_base": 20,
+      "attack_damage_base": 2
     }
   },
   "Focused Charm of Dominion": {
@@ -4096,8 +4096,8 @@
     "stats": {
       "fire_aspect": 5,
       "knockback": 3,
-      "attack_damage_base": 2.5,
-      "spell_power_base": 40
+      "spell_power_base": 35,
+      "attack_damage_base": 3
     },
     "lore": "The obsidian subtly vibrates in\nyour hand, echoing a fury from\ndeep below the land."
   },
@@ -4155,8 +4155,8 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 2,
-      "attack_damage_base": 3.5,
-      "spell_power_base": 30
+      "spell_power_base": 30,
+      "attack_damage_base": 4
     }
   },
   "Replica Dimensional Wand": {
@@ -5047,6 +5047,23 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
+  },
+  "Frog Cannon": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Warning: Highly unstable contraption.",
+      "May cause irreversible damage to the",
+      "wildlife of the region.",
+      "<gray>Right click while holding a frog to yeet."
+    ],
+    "region": "Valley",
+    "tier": "Legacy",
+    "name": "Frog Cannon",
+    "base_item": "Bone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Warning: Highly unstable contraption.\nMay cause irreversible damage to the\nwildlife of the region.\nRight click while holding a frog to yeet."
   },
   "Frost Giant's Staff": {
     "location": "Eldrask",
@@ -9756,6 +9773,57 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Focused Charm of Sanctification": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Sanctification",
+    "power": 3,
+    "base_item": "Candle",
+    "release_status": "public",
+    "stats": {
+      "totemic_consecration_base_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Greater Charm of Sanctification": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Sanctification",
+    "power": 2,
+    "base_item": "Candle",
+    "release_status": "public",
+    "stats": {
+      "totemic_consecration_base_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
+  "Lesser Charm of Sanctification": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Sanctification",
+    "power": 1,
+    "base_item": "Candle",
+    "release_status": "public",
+    "stats": {
+      "totemic_consecration_base_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Melted Candle": {
     "location": "Transmogrifier",
     "mmlore": [
@@ -9771,6 +9839,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "Can be sold or transmogrified\nlike any other rare item.\nCan be put into a wallet."
+  },
+  "Swift Charm of Sanctification": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Sanctification",
+    "power": 3,
+    "base_item": "Candle",
+    "release_status": "public",
+    "stats": {
+      "totemic_consecration_base_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "totemic_consecration_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Everflowing Carrot": {
     "location": "Valley Overworld",
@@ -16721,11 +16810,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "thunder_aspect": 2,
-      "fire_aspect": 3,
       "chaotic": 2,
-      "spell_power_base": 20,
-      "attack_damage_base": 2.5
+      "fire_aspect": 2,
+      "thunder_aspect": 2,
+      "attack_damage_base": 3,
+      "spell_power_base": 30
     },
     "lore": "Little sparks of flame dance\non the surface."
   },
@@ -22514,14 +22603,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "punch": 1,
-      "quick_charge": 3,
-      "regicide": 1,
-      "retrieval": 3,
+      "multi-load": 5,
+      "reflexes": 1,
+      "retrieval": 2,
       "unbreaking": 3,
       "projectile_speed_base": 1.2,
-      "speed_percent": 10,
-      "projectile_damage_base": 19
+      "speed_percent": 5,
+      "projectile_damage_base": 15.5
     },
     "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
   },
@@ -22541,15 +22629,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 1,
-      "punch": 1,
-      "quick_charge": 3,
-      "regicide": 2,
+      "multi-load": 5,
+      "reflexes": 1,
       "retrieval": 3,
       "unbreaking": 4,
       "projectile_speed_base": 1.2,
       "speed_percent": 10,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 16
     },
     "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
   },
@@ -22569,15 +22655,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 2,
-      "punch": 1,
-      "quick_charge": 3,
-      "regicide": 2,
+      "multi-load": 5,
+      "reflexes": 1,
       "retrieval": 3,
       "unbreaking": 5,
       "projectile_speed_base": 1.2,
       "speed_percent": 10,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 17.5
     },
     "lore": "At times, the conflict between the Dichen and\nthe Coven was like a simmering cauldron,\nstable and quiet. Some years, however,\nran red with bloodshed."
   },
@@ -27870,9 +27954,7 @@
     "base_item": "Feather",
     "release_status": "public",
     "type": "Misc",
-    "stats": {
-      "unbreakable": 1
-    },
+    "stats": {},
     "lore": "Right click in hand or inventory to guarantee\nthe Windwalker tree as one of the\noptions at the beginning of the dungeon.\nRequires purchase from trader to use.\nLeft click in hand to reset preference."
   },
   "Demonic Heart": {
@@ -28100,9 +28182,7 @@
     "base_item": "Fire Charge",
     "release_status": "public",
     "type": "Misc",
-    "stats": {
-      "unbreakable": 1
-    },
+    "stats": {},
     "lore": "Right click in hand or inventory to guarantee\nthe Flamecaller tree as one of the\noptions at the beginning of the dungeon.\nRequires purchase from trader to use.\nLeft click in hand to reset preference."
   },
   "Focused Charm of Choler": {
@@ -30349,6 +30429,20 @@
     "stats": {},
     "lore": "Do we call our visage a reflection because\nit forces one to reflect upon themselves?\n* Quest Item *\n#Q110I09"
   },
+  "Mythic Shard": {
+    "location": "Delves",
+    "mmlore": [
+      "<gray>Epic Crafting Ingredient"
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Mythic Shard",
+    "base_item": "Glistering Melon Slice",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Ingredient"
+  },
   "Amberlight Seed": {
     "location": "Hexfall",
     "region": "Ring",
@@ -30587,7 +30681,7 @@
       },
       "spellshock_slowness_amplifier_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       }
     },
     "type": "Charm",
@@ -30783,7 +30877,7 @@
       },
       "spellshock_slowness_amplifier_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       }
     },
     "type": "Charm",
@@ -39366,6 +39460,27 @@
     "stats": {},
     "lore": "A dark powder with unknown properties.\nPerhaps it was once used for something,\nbut exposure to the dream has made it\nunrecognizable. Still, it could be useful.\n* Quest Item *\n#Q216I06"
   },
+  "Explosive Charm of Blasting": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Charm of Blasting",
+    "power": 3,
+    "base_item": "Gunpowder",
+    "release_status": "public",
+    "stats": {
+      "ignition_drive_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "ignition_drive_radius_percent": {
+        "locked": false,
+        "value": 30
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Explosive Insanity Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -39408,6 +39523,23 @@
     "type": "Charm",
     "class_name": "Scout"
   },
+  "Focused Charm of Blasting": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Blasting",
+    "power": 3,
+    "base_item": "Gunpowder",
+    "release_status": "public",
+    "stats": {
+      "ignition_drive_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Focused Insanity Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -39445,6 +39577,23 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Greater Charm of Blasting": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Blasting",
+    "power": 2,
+    "base_item": "Gunpowder",
+    "release_status": "public",
+    "stats": {
+      "ignition_drive_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Greater Insanity Charm": {
     "location": "Architect's Ring",
@@ -39493,6 +39642,23 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Lesser Charm of Blasting": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Blasting",
+    "power": 1,
+    "base_item": "Gunpowder",
+    "release_status": "public",
+    "stats": {
+      "ignition_drive_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Lesser Insanity Charm": {
     "location": "Architect's Ring",
@@ -39616,6 +39782,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "Smells faintly like\nrotten eggs.\n* Quest Item *\n#Q144I01"
+  },
+  "Swift Charm of Blasting": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Blasting",
+    "power": 3,
+    "base_item": "Gunpowder",
+    "release_status": "public",
+    "stats": {
+      "ignition_drive_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "ignition_drive_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Swift Insanity Charm": {
     "location": "Architect's Ring",
@@ -40491,9 +40678,7 @@
     "base_item": "Ice",
     "release_status": "public",
     "type": "Misc",
-    "stats": {
-      "unbreakable": 1
-    },
+    "stats": {},
     "lore": "Right click in hand or inventory to guarantee\nthe Frostborn tree as one of the\noptions at the beginning of the dungeon.\nRequires purchase from trader to use.\nLeft click in hand to reset preference."
   },
   "Fullmoon Ice": {
@@ -65549,17 +65734,17 @@
     "base_item": "Light Weighted Pressure Plate",
     "release_status": "public",
     "stats": {
+      "channeling_hits_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "arcane_strike_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
       "spellshock_melee_amplifier_percent": {
         "locked": false,
-        "value": 15
-      },
-      "spellshock_slowness_amplifier_percent": {
-        "locked": false,
-        "value": 15
-      },
-      "spellshock_spell_amplifier_percent": {
-        "locked": false,
-        "value": -5
+        "value": 10
       }
     },
     "type": "Charm",
@@ -70837,7 +71022,7 @@
     "mmlore": [
       "<dark_gray>Attuned to the power of the Body.",
       "<dark_gray>Can strengthen your body for 10 minutes,",
-      "<dark_gray>granting you periodic Absorption I and Speed I.",
+      "<dark_gray>granting you periodic Absorption I and +20% speed.",
       "<gray>Activated by <key:key.use>",
       "<gray>while in the mainhand or inventory.",
       "Cooldown : <#4ac2e5>20m"
@@ -70849,7 +71034,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Attuned to the power of the Body.\nCan strengthen your body for 10 minutes,\ngranting you periodic Absorption I and Speed I.\nActivated by \nwhile in the mainhand or inventory.\nCooldown : 20m"
+    "lore": "Attuned to the power of the Body.\nCan strengthen your body for 10 minutes,\ngranting you periodic Absorption I and +20% speed.\nActivated by \nwhile in the mainhand or inventory.\nCooldown : 20m"
   },
   "Fireblossom": {
     "location": "Azacor",
@@ -76574,8 +76759,7 @@
       "King's Valley : <gray>Uncommon",
       "<#ff6f55>Azacor's Malice",
       "A brave soul's luminescence",
-      "transcends its death.",
-      "<gray>Swap in mainhand to remove Glowing."
+      "transcends its death."
     ],
     "region": "Valley",
     "tier": "Uncommon",
@@ -76593,7 +76777,7 @@
     "stats": {
       "infinity": 1
     },
-    "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends its death.\nSwap in mainhand to remove Glowing."
+    "lore": "Infinity\nKing's Valley : Uncommon\nAzacor's Malice\nA brave soul's luminescence\ntranscends its death."
   },
   "Agaric Ale": {
     "location": "The Wolfswood",
@@ -76601,14 +76785,19 @@
     "name": "Agaric Ale",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 1800,
         "EffectStrength": 0.1,
         "EffectType": "MagicResistance"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -76693,14 +76882,19 @@
     "name": "Arboreal Grandeur",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 1800,
         "EffectStrength": 0.2,
         "EffectType": "FallResistance"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -77540,14 +77734,19 @@
     "name": "Carapace Champagne",
     "effects": [
       {
-        "EffectDuration": 1200,
-        "EffectStrength": 0.5,
-        "EffectType": "Absorption"
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
       },
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.5,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 200,
+        "EffectStrength": 0.15,
+        "EffectType": "HealOverTime"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.4,
+        "EffectType": "Absorption"
       }
     ],
     "base_item": "Potion",
@@ -77561,14 +77760,19 @@
     "name": "Champignon Cider",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 1800,
         "EffectStrength": 0.1,
         "EffectType": "ProjectileResistance"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -78329,14 +78533,19 @@
     "name": "Deepwood Broth",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 1800,
         "EffectStrength": 0.1,
         "EffectType": "BlastResistance"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -78546,11 +78755,6 @@
     "name": "Eggnog",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 600,
         "EffectStrength": 1,
         "EffectType": "Haste"
@@ -78559,6 +78763,11 @@
         "EffectDuration": 600,
         "EffectStrength": 1,
         "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 60,
+        "EffectStrength": 0.2,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -78582,6 +78791,11 @@
         "EffectDuration": 1800,
         "EffectStrength": 1,
         "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.1,
+        "EffectType": "Absorption"
       }
     ],
     "base_item": "Potion",
@@ -78642,7 +78856,7 @@
     "effects": [
       {
         "EffectDuration": 3600,
-        "EffectStrength": 0.6,
+        "EffectStrength": 0.5,
         "EffectType": "Absorption"
       },
       {
@@ -79774,14 +79988,14 @@
     "name": "Hangover Cure",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 500,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
       },
       {
-        "EffectDuration": 400,
-        "EffectStrength": 2,
-        "EffectType": "Regeneration"
+        "EffectDuration": 100,
+        "EffectStrength": 0.3,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -79796,9 +80010,9 @@
     "name": "Healing Potion",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 60,
+        "EffectStrength": 0.3,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -79876,9 +80090,9 @@
         "EffectType": "Regeneration"
       },
       {
-        "EffectDuration": 1,
+        "EffectDuration": 60,
         "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -80296,9 +80510,14 @@
     "name": "Minor Healing Potion",
     "effects": [
       {
-        "EffectDuration": 1,
+        "EffectDuration": 80,
         "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
+        "EffectType": "HealOverTime"
+      },
+      {
+        "EffectDuration": 80,
+        "EffectStrength": 0.2,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -80441,7 +80660,7 @@
       },
       {
         "EffectDuration": 300,
-        "EffectStrength": 0.1,
+        "EffectStrength": 0.15,
         "EffectType": "damage"
       }
     ],
@@ -80678,14 +80897,14 @@
     "name": "Potion of Warcry",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.25,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 3600,
         "EffectStrength": 0.1,
         "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 60,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -80845,9 +81064,9 @@
     "name": "Red Potion",
     "effects": [
       {
-        "EffectDuration": 1,
+        "EffectDuration": 80,
         "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -81566,14 +81785,14 @@
     "name": "Strong Potion of Warcry",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.3,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 2400,
         "EffectStrength": 0.2,
         "EffectType": "damage"
+      },
+      {
+        "EffectDuration": 60,
+        "EffectStrength": 0.3,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -81590,7 +81809,7 @@
     "name": "Sunfish Rum",
     "effects": [
       {
-        "EffectDuration": 1800,
+        "EffectDuration": 3000,
         "EffectStrength": 1,
         "EffectType": "WaterBreath"
       },
@@ -81754,9 +81973,9 @@
     "name": "Syrup",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.3,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 40,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -81822,14 +82041,14 @@
     "name": "Tlaxan Wine",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.3,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 400,
         "EffectStrength": 0.3,
         "EffectType": "KnockbackResist"
+      },
+      {
+        "EffectDuration": 80,
+        "EffectStrength": 0.3,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -82018,7 +82237,7 @@
     "effects": [
       {
         "EffectDuration": 48000,
-        "EffectStrength": 0.2,
+        "EffectStrength": 0.15,
         "EffectType": "Heal"
       },
       {
@@ -82491,14 +82710,19 @@
     "name": "Wolfswood Whiskey",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 1800,
         "EffectStrength": 0.1,
         "EffectType": "MeleeResistance"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Potion",
@@ -83515,10 +83739,6 @@
         "locked": false,
         "value": 15
       },
-      "arcane_strike_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      },
       "arcane_strike_radius_percent": {
         "locked": false,
         "value": 50
@@ -83538,11 +83758,11 @@
     "stats": {
       "arcane_strike_damage_percent": {
         "locked": false,
-        "value": 45
+        "value": 35
       },
       "arcane_strike_bonus_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 15
       }
     },
     "type": "Charm",
@@ -83559,7 +83779,7 @@
     "stats": {
       "arcane_strike_damage_percent": {
         "locked": false,
-        "value": 30
+        "value": 20
       }
     },
     "type": "Charm",
@@ -83576,7 +83796,7 @@
     "stats": {
       "arcane_strike_damage_percent": {
         "locked": false,
-        "value": 15
+        "value": 10
       }
     },
     "type": "Charm",
@@ -92226,6 +92446,27 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Explosive Spiriting Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Spiriting Charm",
+    "power": 2,
+    "base_item": "Soul Lantern",
+    "release_status": "public",
+    "stats": {
+      "spiritcatcher_orbs_orb_velocity_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "spiritcatcher_orbs_spiritflame_damage_percent": {
+        "locked": false,
+        "value": 15
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Focused Charm of the Hive": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -92243,6 +92484,23 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Focused Spiriting Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Spiriting Charm",
+    "power": 3,
+    "base_item": "Soul Lantern",
+    "release_status": "public",
+    "stats": {
+      "spiritcatcher_orbs_spiritflame_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Greater Charm of the Hive": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -92259,6 +92517,23 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Greater Spiriting Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Spiriting Charm",
+    "power": 2,
+    "base_item": "Soul Lantern",
+    "release_status": "public",
+    "stats": {
+      "spiritcatcher_orbs_spiritflame_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Lantern of Truth (soul_lantern)": {
     "location": "Marina Noir",
@@ -92293,6 +92568,23 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Lesser Spiriting Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Spiriting Charm",
+    "power": 1,
+    "base_item": "Soul Lantern",
+    "release_status": "public",
+    "stats": {
+      "spiritcatcher_orbs_spiritflame_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Shadowflame Lantern": {
     "mmlore": [
@@ -92942,12 +93234,12 @@
     "effects": [
       {
         "EffectDuration": 1,
-        "EffectStrength": 0.4,
+        "EffectStrength": 0.3,
         "EffectType": "InstantHealthPercent"
       },
       {
-        "EffectDuration": 200,
-        "EffectStrength": 0.3,
+        "EffectDuration": 300,
+        "EffectStrength": 0.35,
         "EffectType": "damage"
       }
     ],
@@ -93290,11 +93582,11 @@
     "effects": [
       {
         "EffectDuration": 1800,
-        "EffectStrength": 0.5,
+        "EffectStrength": 0.45,
         "EffectType": "Absorption"
       },
       {
-        "EffectDuration": 100,
+        "EffectDuration": 200,
         "EffectStrength": 0.1,
         "EffectType": "MagicResistance"
       }
@@ -93749,9 +94041,9 @@
     "name": "Healing Vial",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 60,
+        "EffectStrength": 0.3,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94045,9 +94337,9 @@
     "name": "Minor Healing Vial",
     "effects": [
       {
-        "EffectDuration": 1,
+        "EffectDuration": 80,
         "EffectStrength": 0.2,
-        "EffectType": "InstantHealthPercent"
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94296,13 +94588,13 @@
     "effects": [
       {
         "EffectDuration": 600,
-        "EffectStrength": 0.2,
+        "EffectStrength": 0.25,
         "EffectType": "Speed"
       },
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 80,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94396,14 +94688,14 @@
     "name": "Potion of Endurance",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 60,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
       },
       {
-        "EffectDuration": 100,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
+        "EffectDuration": 80,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94443,9 +94735,9 @@
         "EffectType": "Regeneration"
       },
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 60,
+        "EffectStrength": 0.35,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94460,14 +94752,14 @@
     "name": "Potion of Perseverance",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 100,
+        "EffectStrength": 2,
+        "EffectType": "Regeneration"
       },
       {
-        "EffectDuration": 300,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
+        "EffectDuration": 60,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94508,8 +94800,8 @@
     "name": "Potion of Protection",
     "effects": [
       {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.4,
+        "EffectDuration": 1200,
+        "EffectStrength": 0.3,
         "EffectType": "Absorption"
       }
     ],
@@ -94535,9 +94827,9 @@
         "EffectType": "Absorption"
       },
       {
-        "EffectDuration": 1,
+        "EffectDuration": 100,
         "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94550,14 +94842,14 @@
     "name": "Potion of Restoration",
     "effects": [
       {
-        "EffectDuration": 200,
-        "EffectStrength": 1,
-        "EffectType": "Regeneration"
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantHealthPercent"
       },
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 80,
+        "EffectStrength": 0.2,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94570,8 +94862,8 @@
     "name": "Potion of Salvation",
     "effects": [
       {
-        "EffectDuration": 600,
-        "EffectStrength": 0.4,
+        "EffectDuration": 400,
+        "EffectStrength": 0.2,
         "EffectType": "Absorption"
       },
       {
@@ -94638,9 +94930,9 @@
     "name": "Remedial Brew",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 60,
+        "EffectStrength": 0.3,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -94706,9 +94998,9 @@
         "EffectType": "MeleeResistance"
       },
       {
-        "EffectDuration": 1,
+        "EffectDuration": 60,
         "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Splash Potion",
@@ -95041,14 +95333,14 @@
     "name": "Strong Potion of Protection",
     "effects": [
       {
-        "EffectDuration": 1800,
-        "EffectStrength": 0.4,
-        "EffectType": "Absorption"
-      },
-      {
         "EffectDuration": 100,
         "EffectStrength": 0.1,
         "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 1800,
+        "EffectStrength": 0.4,
+        "EffectType": "Absorption"
       }
     ],
     "base_item": "Splash Potion",
@@ -95570,10 +95862,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 2,
       "decay": 1,
+      "knockback": 1,
       "spell_power_base": 20,
-      "attack_damage_base": 2
+      "attack_damage_base": 3
     },
     "lore": "The spells you cast with the wand\nseem to smell of sulfur and chemicals."
   },
@@ -95602,8 +95894,8 @@
     "type": "Wand",
     "stats": {
       "knockback": 1,
-      "attack_damage_base": 3,
-      "spell_power_base": 20
+      "spell_power_base": 20,
+      "attack_damage_base": 3.5
     }
   },
   "Archmage's Staff": {
@@ -95720,8 +96012,8 @@
     "type": "Wand",
     "stats": {
       "knockback": 1,
-      "attack_damage_base": 4,
-      "spell_power_base": 40
+      "spell_power_base": 40,
+      "attack_damage_base": 5
     }
   },
   "Calming Incense": {
@@ -95806,10 +96098,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "smite": 2,
       "knockback": 1,
-      "attack_damage_base": 1.5,
-      "spell_power_base": 20
+      "smite": 1,
+      "spell_power_base": 20,
+      "attack_damage_base": 2.5
     }
   },
   "Corrupted Siershen's Caster": {
@@ -96067,10 +96359,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "inure": 1,
       "decay": 3,
+      "inure": 1,
       "spell_power_base": 35,
-      "attack_damage_base": 3
+      "attack_damage_base": 3.5
     },
     "lore": "A simple touch of the wood unleashes\na pain stretching across the whole of\nthe Blackroot. This wood has been stripped\nfrom Kaul's own heart."
   },
@@ -96226,8 +96518,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "attack_damage_base": 2,
-      "spell_power_base": 15
+      "spell_power_base": 15,
+      "attack_damage_base": 2.5
     }
   },
   "Paintbrush": {
@@ -96775,8 +97067,8 @@
     "stats": {
       "knockback": 3,
       "speed_percent": 10,
-      "attack_damage_base": 2.5,
-      "spell_power_base": 35
+      "attack_damage_base": 3,
+      "spell_power_base": 30
     }
   },
   "Wand of Whispers": {
@@ -96823,8 +97115,8 @@
     "stats": {
       "fire_aspect": 1,
       "ice_aspect": 1,
-      "attack_damage_base": 2.5,
-      "spell_power_base": 20
+      "spell_power_base": 20,
+      "attack_damage_base": 3
     },
     "lore": "Though he uncovered ancient secrets, the\ntrue Staff he would never reach."
   },
@@ -96851,8 +97143,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "attack_damage_base": 2,
-      "spell_power_base": 20
+      "spell_power_base": 20,
+      "attack_damage_base": 2.5
     }
   },
   "Willowtwist Wand": {
@@ -98819,11 +99111,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "fire_aspect": 2,
+      "sweeping_edge": 2,
       "unbreakable": 1,
-      "fire_aspect": 1,
       "thorns_flat": 1,
-      "attack_damage_base": 7,
-      "attack_speed_base": 1.2
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 7
     },
     "lore": "Red like roses, fills my dreams and brings\nme to the place you rest..."
   },
@@ -100656,14 +100949,14 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "unbreaking": 4,
-      "knockback": 1,
-      "ice_aspect": 1,
       "fire_aspect": 1,
+      "ice_aspect": 1,
+      "knockback": 1,
       "sweeping_edge": 1,
+      "unbreaking": 4,
       "attack_speed_base": 1.6,
       "spell_power_base": 35,
-      "attack_damage_base": 5
+      "attack_damage_base": 5.5
     }
   },
   "Entomology Scalpel": {
@@ -103629,9 +103922,7 @@
     "base_item": "Sunflower",
     "release_status": "public",
     "type": "Misc",
-    "stats": {
-      "unbreakable": 1
-    },
+    "stats": {},
     "lore": "Right click in hand or inventory to guarantee\nthe Dawnbringer tree as one of the\noptions at the beginning of the dungeon.\nRequires purchase from trader to use.\nLeft click in hand to reset preference."
   },
   "Explosive Spiritual Charm": {
@@ -103876,14 +104167,14 @@
     "name": "Swordberry Bunch",
     "effects": [
       {
-        "EffectDuration": 1,
-        "EffectStrength": 0.4,
-        "EffectType": "InstantHealthPercent"
-      },
-      {
         "EffectDuration": 1800,
         "EffectStrength": 0.15,
         "EffectType": "MeleeResistance"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
       }
     ],
     "base_item": "Sweet Berries",
@@ -112778,6 +113069,13 @@
     "type": "Written Book",
     "stats": {}
   },
+  "The Origin of Mana Vol. 1": {
+    "name": "The Origin of Mana Vol. 1",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
   "The Origin of the Pharaohs": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>A well documented account of",
@@ -113397,7 +113695,7 @@
     "stats": {
       "warding_remedy_pulse_delay_percent": {
         "locked": false,
-        "value": -15
+        "value": -20
       },
       "warding_remedy_max_absorption_health_flat": {
         "locked": false,
@@ -113418,7 +113716,7 @@
     "stats": {
       "warding_remedy_pulse_delay_percent": {
         "locked": false,
-        "value": -7.5
+        "value": -10
       },
       "warding_remedy_max_absorption_health_flat": {
         "locked": false,
