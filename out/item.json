@@ -26270,17 +26270,17 @@
     "name": "Dry-Aged Licorice",
     "effects": [
       {
-        "EffectDuration": 20,
-        "EffectStrength": 0.1,
-        "EffectType": "InstantHealthPercent"
+        "EffectDuration": 40,
+        "EffectStrength": 0.15,
+        "EffectType": "HealOverTime"
       }
     ],
     "base_item": "Dried Kelp",
     "release_status": "public",
     "type": "Consumable",
     "stats": {
-      "starvation": 1,
-      "infinity": 1
+      "infinity": 1,
+      "starvation": 1
     },
     "lore": "Surely this can't be safe to eat..."
   },
@@ -70131,6 +70131,7 @@
   "Dormant Sequence Scroll": {
     "location": "Skr",
     "region": "Ring",
+    "tier": "Currency",
     "name": "Dormant Sequence Scroll",
     "base_item": "Netherite Scrap",
     "release_status": "public",
@@ -78621,7 +78622,7 @@
         "EffectType": "Haste"
       },
       {
-        "EffectDuration": 250,
+        "EffectDuration": 180,
         "EffectStrength": 2,
         "EffectType": "Regeneration"
       }
@@ -81761,7 +81762,7 @@
         "EffectType": "Haste"
       },
       {
-        "EffectDuration": 120,
+        "EffectDuration": 100,
         "EffectStrength": 3,
         "EffectType": "Regeneration"
       }
@@ -81973,7 +81974,7 @@
     "name": "Syrup",
     "effects": [
       {
-        "EffectDuration": 40,
+        "EffectDuration": 60,
         "EffectStrength": 0.25,
         "EffectType": "HealOverTime"
       }
@@ -94593,7 +94594,7 @@
       },
       {
         "EffectDuration": 80,
-        "EffectStrength": 0.25,
+        "EffectStrength": 0.3,
         "EffectType": "HealOverTime"
       }
     ],
@@ -94694,7 +94695,7 @@
       },
       {
         "EffectDuration": 80,
-        "EffectStrength": 0.25,
+        "EffectStrength": 0.3,
         "EffectType": "HealOverTime"
       }
     ],
@@ -94758,7 +94759,7 @@
       },
       {
         "EffectDuration": 60,
-        "EffectStrength": 0.25,
+        "EffectStrength": 0.3,
         "EffectType": "HealOverTime"
       }
     ],
