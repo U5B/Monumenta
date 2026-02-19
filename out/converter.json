@@ -1,265 +1,191 @@
 {
   "quest": {
-    "ofmushroomsandmagic": "galengarde",
-    "hisfaithfulservant": "galengarde",
-    "galengarde": "ringaroundtherose",
-    "centuremlost": "unconventionalmethods",
-    "starlessnight": "asiriusproblem",
-    "acharmingproposition": "portmanteau",
-    "assisteddreaming": "cureforinsomnia",
-    "praetorerstrike": "cureforinsomnia",
-    "cureforinsomnia": "newantium",
     "aunioncross": "externalcorruption",
+    "assisteddreaming": "cureforinsomnia",
+    "aunioncross2": "aunioncross",
     "sporetalcombat": "unraveled",
     "forwhomthebelltolls": "chantryofrepentance",
-    "unconventionalmethods": "keeperagents",
-    "unraveled": "ofmushroomsandmagic",
-    "scientistsofsteelmeldiii": "galengarde",
-    "keeperagents": "praetorerstrike",
-    "intothewoods": "portmanteau",
-    "portmanteau": "ringaroundtherose",
     "newantium": "ringaroundtherose",
+    "silentknight": "rowantree",
+    "acharmingproposition": "portmanteau",
     "sleepingshadows": "cureforinsomnia",
-    "chantryofrepentance": "ringaroundtherose",
-    "aunioncross2": "aunioncross",
-    "behindthestarlitshroud": "chantryofrepentance",
-    "asiriusproblem": "behindthestarlitshroud",
     "rowantree": "ringaroundtherose",
     "externalcorruption": "assisteddreaming",
-    "silentknight": "rowantree",
-    "finishedbusiness": "sierhaven",
-    "fountainofmiracles": "farr",
-    "timetoreflect": "taeldim",
-    "baneofthebakers": "sierhaven",
-    "acrewtoremember": "sierhaven",
-    "siegeofhighwatch": "sonsoftheforest",
-    "thecrystalconnection": "tlaxantroubles",
-    "buriedblade": "bandittroubles",
-    "acrownofmadness": "acrownofmajesty",
-    "nelfinescurse": "sierhaven",
-    "taeldim": "heroreturn",
-    "lostinmymind": "farr",
-    "avaultofglass": "bandittroubles",
-    "clearasglass": "nelfinescurse",
-    "acrownofmajesty": "sierhaven",
-    "dishtodiefor": "lowtide",
-    "oceangate": "heroreturn",
-    "abeastofabook": "farr",
-    "truegenius": "thecrystalconnection",
-    "arclightandroyalblue": "sierhaven",
-    "sierhaven": "heroreturn",
-    "snowmanleftbehind": "sierhaven",
-    "astudyincrimsonone": "memoriesofbattle",
-    "cluckedup": "nyr",
-    "astudyincrimsontwo": "astudyincrimsonone",
-    "apigculiarproblem": "acrownofmadness",
-    "lightsbeyond": "starriestnight",
-    "starriernight": "starrynight",
-    "memoriesofbattle": "sierhaven",
-    "theplague": "nyr",
-    "allthatremains": "intothinair",
-    "nyr": "heroreturn",
-    "supplyanddemand": "sierhaven",
-    "unveiled": "siegeofhighwatch",
-    "halidssong": "taeldim",
-    "flashinthepan": "sierhaven",
-    "highwatch": "heroreturn",
-    "outerdemons": "lowtide",
-    "burningbright": "oceangate",
-    "starrynight": "nyr",
-    "glooperduper": "mageslegacy",
-    "farr": "heroreturn",
-    "tlaxantroubles": "taeldim",
-    "sonsoftheforest": "ofmonksandmagic",
-    "bandittroubles": "sierhaven",
-    "missingpet": "farr",
-    "lowtide": "heroreturn",
-    "wuhl": "sierhaven",
-    "starriestnight": "oceangate",
-    "thesalmon": "lowtide",
-    "theeldersscrolls": "unveiled",
-    "creeperjuice": "sierhaven",
-    "mageslegacy": "sierhaven",
-    "crazycupidlove": "sierhaven",
-    "alittlespark": "sierhaven",
-    "missingsoldiers": "bandittroubles",
-    "castingforhelp": "sierhaven",
-    "thescoutscodex": "sierhaven",
-    "ofmonksandmagic": "mageslegacy",
-    "pyromania": "farr",
-    "intothinair": "starriestnight",
-    "truergenius": "truegenius",
-    "steelmeld": "voyageofdiscovery",
-    "silverskinned": "alichinthesystem",
-    "xenophobia": "wizardsapprentice",
-    "flockandkey": "theroostercrowsatmidnight",
-    "heretherebedragons": "risforreprisal",
-    "deservedrest": "frostgate",
-    "alostcause": "dealbreaker",
-    "healthfulnetworking": "asimplefavor",
-    "primevalcreations4": "primevalcreations39",
+    "intothewoods": "portmanteau",
+    "behindthestarlitshroud": "chantryofrepentance",
+    "keeperagents": "praetorerstrike",
+    "ofmushroomsandmagic": "galengarde",
+    "galengarde": "ringaroundtherose",
+    "starlessnight": "asiriusproblem",
+    "scientistsofsteelmeldiii": "galengarde",
+    "unconventionalmethods": "keeperagents",
+    "asiriusproblem": "behindthestarlitshroud",
+    "praetorerstrike": "cureforinsomnia",
+    "chantryofrepentance": "ringaroundtherose",
+    "cureforinsomnia": "newantium",
+    "hisfaithfulservant": "galengarde",
+    "portmanteau": "ringaroundtherose",
+    "centuremlost": "unconventionalmethods",
+    "unraveled": "ofmushroomsandmagic",
     "astrokeofgenius": "ashamanslament",
-    "scientistsofsteelmeld2": "scientistsofsteelmeld1",
-    "woof100": "woof50",
-    "outwithabang": "wispervale",
-    "unyieldingpotential": "deathsswiftness",
-    "primevalcreations013": "primevalcreations6",
-    "whatlieswithin": "atoweringobjective",
-    "pyreandprejudice": "steelmeld",
-    "primevalcreations5": "primevalcreations4",
-    "frostgate": "voyageofdiscovery",
-    "dealbreaker": "amerchantswoe",
-    "atoweringobjective": "masterofall",
+    "scientistsofsteelmeld1": "steelmeld",
+    "alichinthesystem": "breachpoint",
+    "bringhimbaack": "wispervale",
+    "bloodybanquet": "frostgate",
+    "xenophobia": "wizardsapprentice",
+    "sabotage": "rahkeri",
+    "alostcause": "dealbreaker",
+    "molta": "voyageofdiscovery",
     "primevalcreations1": "alnera",
-    "breachpoint": "voyageofdiscovery",
+    "atoweringobjective": "masterofall",
+    "woof10": "woof",
     "theendchimes": "mistport",
     "anotherworldlyhunt": "unyieldingpotential",
-    "thedoctorsorders": "lifeisoftheessence",
-    "wizardsapprentice": "analcoholicaccord",
-    "woof10": "woof",
-    "masterofone": "mistport",
-    "bleedingproof": "theforeignsoldier",
-    "stablemastersrequest": "molta",
-    "longwaydown": "alnera",
-    "asimplefavor": "thedoctorsorders",
-    "theforeignsoldier": "mistport",
-    "primevalcreations39": "primevalcreations3",
-    "fableddestiny": "frostgate",
-    "scientistsofsteelmeld1": "steelmeld",
-    "masterofall": "masterofone",
-    "aimingforsuccess": "purtrefactionandpurification",
-    "tenthousandbets": "wispervale",
-    "guardingtheguarded": "lostinthedark",
-    "alricslegacy": "nightroost",
-    "anunexpectedlesson": "anunlikelypartnership",
-    "primevalcreations3": "primevalcreations2",
-    "fishybusiness": "mistport",
-    "lifeisoftheessence": "guardingtheguarded",
-    "theroostercrowsatmidnight": "nightroost",
-    "borrowedtime": "heretherebedragons",
-    "sabotage": "rahkeri",
-    "nightroost": "voyageofdiscovery",
-    "woof": "molta",
-    "wispervale": "voyageofdiscovery",
-    "amerchantswoe": "rahkeri",
-    "analcoholicaccord": "raidingparty",
-    "risforreprisal": "kingdomoflies",
-    "overdoomed": "wispervale",
-    "kingdomoflies": "bleedingproof",
-    "treasureofthepast": "alnera",
-    "rahkeri": "voyageofdiscovery",
-    "treasureforthefuture": "treasureofthepast",
-    "molta": "voyageofdiscovery",
+    "primevalcreations5": "primevalcreations4",
     "lostinthedark": "oldermagic",
-    "oldermagic": "anotherworldlyhunt",
-    "deathsswiftness": "aimingforsuccess",
-    "ashamanslament": "healthfulnetworking",
-    "anunlikelypartnership": "mistport",
-    "primevalcreations6": "primevalcreations5",
-    "raidingparty": "mistport",
-    "woof50": "woof10",
-    "purtrefactionandpurification": "whatlieswithin",
+    "outwithabang": "wispervale",
+    "analcoholicaccord": "raidingparty",
+    "amerchantswoe": "rahkeri",
+    "woof100": "woof50",
     "mistport": "voyageofdiscovery",
-    "alnera": "voyageofdiscovery",
+    "treasureforthefuture": "treasureofthepast",
+    "treasureofthepast": "alnera",
+    "primevalcreations4": "primevalcreations39",
+    "kingdomoflies": "bleedingproof",
+    "deservedrest": "frostgate",
+    "whatlieswithin": "atoweringobjective",
+    "aimingforsuccess": "purtrefactionandpurification",
+    "primevalcreations39": "primevalcreations3",
+    "heretherebedragons": "risforreprisal",
+    "fableddestiny": "frostgate",
+    "longwaydown": "alnera",
+    "theforeignsoldier": "mistport",
+    "masterofall": "masterofone",
+    "fishybusiness": "mistport",
+    "masterofone": "mistport",
+    "purtrefactionandpurification": "whatlieswithin",
+    "ashamanslament": "healthfulnetworking",
+    "steelmeld": "voyageofdiscovery",
     "primevalcreations2": "primevalcreations1",
-    "bloodybanquet": "frostgate",
-    "vitalneeds": "mistport",
-    "asunkenfeeling": "mistport",
+    "thedoctorsorders": "lifeisoftheessence",
+    "primevalcreations6": "primevalcreations5",
+    "wizardsapprentice": "analcoholicaccord",
+    "raidingparty": "mistport",
+    "bleedingproof": "theforeignsoldier",
+    "tenthousandbets": "wispervale",
+    "woof50": "woof10",
     "guildingblocks": "alostcause",
-    "alichinthesystem": "breachpoint",
-    "bringhimbaack": "wispervale"
+    "anunlikelypartnership": "mistport",
+    "asunkenfeeling": "mistport",
+    "breachpoint": "voyageofdiscovery",
+    "nightroost": "voyageofdiscovery",
+    "wispervale": "voyageofdiscovery",
+    "scientistsofsteelmeld2": "scientistsofsteelmeld1",
+    "pyreandprejudice": "steelmeld",
+    "alnera": "voyageofdiscovery",
+    "rahkeri": "voyageofdiscovery",
+    "primevalcreations013": "primevalcreations6",
+    "dealbreaker": "amerchantswoe",
+    "overdoomed": "wispervale",
+    "frostgate": "voyageofdiscovery",
+    "theroostercrowsatmidnight": "nightroost",
+    "unyieldingpotential": "deathsswiftness",
+    "oldermagic": "anotherworldlyhunt",
+    "guardingtheguarded": "lostinthedark",
+    "silverskinned": "alichinthesystem",
+    "flockandkey": "theroostercrowsatmidnight",
+    "alricslegacy": "nightroost",
+    "primevalcreations3": "primevalcreations2",
+    "anunexpectedlesson": "anunlikelypartnership",
+    "risforreprisal": "kingdomoflies",
+    "borrowedtime": "heretherebedragons",
+    "lifeisoftheessence": "guardingtheguarded",
+    "deathsswiftness": "aimingforsuccess",
+    "woof": "molta",
+    "asimplefavor": "thedoctorsorders",
+    "stablemastersrequest": "molta",
+    "healthfulnetworking": "asimplefavor",
+    "vitalneeds": "mistport",
+    "truegenius": "thecrystalconnection",
+    "intothinair": "starriestnight",
+    "truergenius": "truegenius",
+    "pyromania": "farr",
+    "memoriesofbattle": "sierhaven",
+    "mageslegacy": "sierhaven",
+    "sonsoftheforest": "ofmonksandmagic",
+    "thesalmon": "lowtide",
+    "nyr": "heroreturn",
+    "glooperduper": "mageslegacy",
+    "allthatremains": "intothinair",
+    "alittlespark": "sierhaven",
+    "halidssong": "taeldim",
+    "apigculiarproblem": "acrownofmadness",
+    "creeperjuice": "sierhaven",
+    "snowmanleftbehind": "sierhaven",
+    "siegeofhighwatch": "sonsoftheforest",
+    "missingsoldiers": "bandittroubles",
+    "taeldim": "heroreturn",
+    "finishedbusiness": "sierhaven",
+    "starrynight": "nyr",
+    "ofmonksandmagic": "mageslegacy",
+    "dishtodiefor": "lowtide",
+    "acrewtoremember": "sierhaven",
+    "outerdemons": "lowtide",
+    "farr": "heroreturn",
+    "theeldersscrolls": "unveiled",
+    "baneofthebakers": "sierhaven",
+    "starriestnight": "oceangate",
+    "clearasglass": "nelfinescurse",
+    "lostinmymind": "farr",
+    "highwatch": "heroreturn",
+    "timetoreflect": "taeldim",
+    "bandittroubles": "sierhaven",
+    "nelfinescurse": "sierhaven",
+    "acrownofmadness": "acrownofmajesty",
+    "theplague": "nyr",
+    "cluckedup": "nyr",
+    "acrownofmajesty": "sierhaven",
+    "thescoutscodex": "sierhaven",
+    "castingforhelp": "sierhaven",
+    "avaultofglass": "bandittroubles",
+    "lowtide": "heroreturn",
+    "fountainofmiracles": "farr",
+    "abeastofabook": "farr",
+    "crazycupidlove": "sierhaven",
+    "unveiled": "siegeofhighwatch",
+    "sierhaven": "heroreturn",
+    "lightsbeyond": "starriestnight",
+    "arclightandroyalblue": "sierhaven",
+    "oceangate": "heroreturn",
+    "thecrystalconnection": "tlaxantroubles",
+    "astudyincrimsontwo": "astudyincrimsonone",
+    "buriedblade": "bandittroubles",
+    "starriernight": "starrynight",
+    "wuhl": "sierhaven",
+    "burningbright": "oceangate",
+    "supplyanddemand": "sierhaven",
+    "tlaxantroubles": "taeldim",
+    "flashinthepan": "sierhaven",
+    "astudyincrimsonone": "memoriesofbattle",
+    "missingpet": "farr"
   },
   "sites": {
-    "r3": {
-      "galengarde": {
-        "name": "Galengarde",
-        "description": "A safe haven for the Dichen and capital of the region, established around a colossal tree. Coordinates: ★ x=-304 y=83 z=-655"
+    "r1": {
+      "castle": {
+        "name": "Castle Narsen",
+        "description": "Here you can found or join a guild, purchase a plot, see all our patrons, get info about Team Monumenta, or meet the King of the Narsens."
       },
       "academy": {
-        "name": "The Professor",
-        "description": "Here you can select and change your class / specialization at any time. Learn more on how you can further increase your combat capabilities with The Professor via skill enhancements!"
-      },
-      "library": {
-        "name": "Library",
-        "description": "Consult the Seanchaidh to reveal your fate. Come here to obtain a bounty and conquer it for unique rewards!"
-      },
-      "masterworkanvil": {
-        "name": "Masterwork Anvil",
-        "description": "The Masterwork Anvil is a new system to awaken your equipment's true capabilities using rare materials related to the item's origins."
-      },
-      "patron_shrine": {
-        "name": "Altar of Altruism",
-        "description": "Patrons can activate this shrine to grant buffs to the whole server. If you wish to change what messages the patron shrine sends you or toggle what effects you want to get, interact with it and select options.  Region 3 Patreon Shrine"
-      },
-      "teleport_hub": {
-        "name": "R3 Teleport Hub",
-        "description": "Fast travel to towns, plots, dungeons and more!  Region 3 Teleport Hub"
-      },
-      "portmanteau": {
-        "name": "Port Manteau",
-        "description": "A picturesque fishing town on the northern coast of the Wolfswood, overlooked by the capital. Coordinates: ★ x=-458 y=46 z=-916"
-      },
-      "newantium": {
-        "name": "New Antium",
-        "description": "The remnants of a thriving civilization, bound by hunger and haunted by shades. Coordinates: ★ x=-449 y=181 z=-75"
-      },
-      "infusion": {
-        "name": "Infusion Altar",
-        "description": "The technique to imbue power into equipment, will allow you to strengthen your gear and trascend mortal limits."
+        "name": "Narsen Academy",
+        "description": "Here you may change your class and skills at any time. If you're looking for a quest, Sybil may be able to point you in the right direction."
       },
       "casino": {
-        "name": "Sticks and Stones Tavern",
-        "description": "A Casino in an unlikely place, ran by an even more unlikely staff. Every Casino Chip grants a prize, try your hand at obtaining the Epic Consumables!"
+        "name": "Rock's Little Casino",
+        "description": "Every Casino Chip grants a prize, some more fabulous than others - none moreso than the Epic King's Warden!"
       },
-      "workshop": {
-        "name": "Workshop",
-        "description": "The Workshop is the place where you can repair items, sell tiered items and transmogrify items... all in one spot! - Transmogrifications require scented candles produced and sold by Hagatha. - Four Tier III items gives you Pulsating Shard. - Two Rare Items give you a random Rare Item."
-      },
-      "root": {
-        "name": "The Architect's Ring",
-        "description": "A secluded and isolated land, hidden away from the rest of the world."
-      },
-      "fatekeeper": {
-        "name": "Fatekeeper",
-        "description": "Check with the Fatekeeper to determine your destiny. You can change your overworld delve modifiers with the Fatekeeper."
-      }
-    },
-    "r1": {
-      "oceangate": {
-        "name": "Oceangate",
-        "description": "A mighty bastion guarding the route from the Valley Coordinates: ★ x=-1634 y=122 z=98"
-      },
-      "sierhaven": {
-        "name": "Sierhaven",
-        "description": "The shining capital of the King's Valley Coordinates: ★ x=-766 y=107 z=72"
-      },
-      "hotsprings": {
-        "name": "Hot Springs",
-        "description": "Give yourself a glowing aura, cleanse yourself and arrows of effects, or just relax and rejuvenate in the mystical Ta'Eldim hot springs."
-      },
-      "root": {
-        "name": "The King's Valley",
-        "description": "A luxuriant landscape, scarred from a recent war."
-      },
-      "transmog": {
-        "name": "Transmogrifier",
-        "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Power Crystal or greater in order to use. - Four Tier V items give you Pulsating Dust. - Two Rare items give you a random Rare item."
-      },
-      "ctaz": {
-        "name": "C'Taz",
-        "description": "A Tlaxan shaman, known for brewing elixirs and potions. Coordinates: ★ x=240 y=78 z=303"
-      },
-      "herald": {
-        "name": "King's Herald",
-        "description": "Every day the Herald offers a bounty in a POI. Complete the bounty, then talk to the Herald for your reward. The harder the POI, the better the reward. There are two available bounties a day on weekends."
-      },
-      "lowtide": {
-        "name": "Lowtide",
-        "description": "A quaint lakeside town beside a massive seagate Coordinates: ★ x=715 y=74 z=483"
-      },
-      "apartment": {
-        "name": "Apartments",
-        "description": "For a small amount of XP, you can get three Ender Chest Expansions for all your storage needs. Also the home of the snowman embassy."
+      "monument": {
+        "name": "The Monument of the Valley",
+        "description": "Five wools with magical properties must be found, one in each of the Region 1 Wool Dungeons. To reach Region 2, you need to Complete the Monument.  Region 1 Wool Monument"
       },
       "patron_shrine": {
         "name": "Shrine to the Benevolent",
@@ -273,6 +199,62 @@
         "name": "The King's Station",
         "description": "Fast travel to towns, plots, dungeons and more!  Region 1 Teleport Hub"
       },
+      "apartment": {
+        "name": "Apartments",
+        "description": "For a small amount of XP, you can get three Ender Chest Expansions for all your storage needs. Also the home of the snowman embassy."
+      },
+      "taeldim": {
+        "name": "Ta'Eldim",
+        "description": "A hidden sanctuary of the Tlaxan people Coordinates: ★ x=480 y=191 z=-349"
+      },
+      "infusion": {
+        "name": "Infusion Altar",
+        "description": "Hidden away in the city of Ta'Eldim, this sacred altar can make your equipment stronger."
+      },
+      "sierhaven": {
+        "name": "Sierhaven",
+        "description": "The shining capital of the King's Valley Coordinates: ★ x=-766 y=107 z=72"
+      },
+      "crafter": {
+        "name": "Crafter",
+        "description": "Guarded by the Tlaxans, these devices allow crafting items that can't be obtained in any other way."
+      },
+      "farr": {
+        "name": "Farr",
+        "description": "A Narsen town built from ruins of Tlaxan architecture Coordinates: ★ x=569 y=98 z=189"
+      },
+      "oceangate": {
+        "name": "Oceangate",
+        "description": "A mighty bastion guarding the route from the Valley Coordinates: ★ x=-1634 y=122 z=98"
+      },
+      "nyr": {
+        "name": "Nyr",
+        "description": "A small town overlooking a scorched battleground Coordinates: ★ x=-141 y=95 z=-79"
+      },
+      "lowtide": {
+        "name": "Lowtide",
+        "description": "A quaint lakeside town beside a massive seagate Coordinates: ★ x=715 y=74 z=483"
+      },
+      "season_pass": {
+        "name": "Seasonal Pass Hub",
+        "description": "This room serves as the hub for the amazing Seasonal Pass events that are run regularly in Monumenta."
+      },
+      "herald": {
+        "name": "King's Herald",
+        "description": "Every day the Herald offers a bounty in a POI. Complete the bounty, then talk to the Herald for your reward. The harder the POI, the better the reward. There are two available bounties a day on weekends."
+      },
+      "hotsprings": {
+        "name": "Hot Springs",
+        "description": "Give yourself a glowing aura, cleanse yourself and arrows of effects, or just relax and rejuvenate in the mystical Ta'Eldim hot springs."
+      },
+      "transmog": {
+        "name": "Transmogrifier",
+        "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Power Crystal or greater in order to use. - Four Tier V items give you Pulsating Dust. - Two Rare items give you a random Rare item."
+      },
+      "ctaz": {
+        "name": "C'Taz",
+        "description": "A Tlaxan shaman, known for brewing elixirs and potions. Coordinates: ★ x=240 y=78 z=303"
+      },
       "circus": {
         "name": "Dr Volkamph's Circus",
         "description": "Trade your Tier 1 through 5 for circus tickets! Save up for animal spawn eggs and the Epic King's Sabatons!"
@@ -281,95 +263,63 @@
         "name": "City Guide",
         "description": "She has maps and survival gear all for free in the Sierhaven plaza, with the P.E.B. Station and the Nexus entrance nearby."
       },
-      "nyr": {
-        "name": "Nyr",
-        "description": "A small town overlooking a scorched battleground Coordinates: ★ x=-141 y=95 z=-79"
-      },
-      "castle": {
-        "name": "Castle Narsen",
-        "description": "Here you can found or join a guild, purchase a plot, see all our patrons, get info about Team Monumenta, or meet the King of the Narsens."
-      },
-      "casino": {
-        "name": "Rock's Little Casino",
-        "description": "Every Casino Chip grants a prize, some more fabulous than others - none moreso than the Epic King's Warden!"
-      },
-      "infusion": {
-        "name": "Infusion Altar",
-        "description": "Hidden away in the city of Ta'Eldim, this sacred altar can make your equipment stronger."
-      },
-      "academy": {
-        "name": "Narsen Academy",
-        "description": "Here you may change your class and skills at any time. If you're looking for a quest, Sybil may be able to point you in the right direction."
-      },
-      "farr": {
-        "name": "Farr",
-        "description": "A Narsen town built from ruins of Tlaxan architecture Coordinates: ★ x=569 y=98 z=189"
-      },
-      "crafter": {
-        "name": "Crafter",
-        "description": "Guarded by the Tlaxans, these devices allow crafting items that can't be obtained in any other way."
-      },
-      "monument": {
-        "name": "The Monument of the Valley",
-        "description": "Five wools with magical properties must be found, one in each of the Region 1 Wool Dungeons. To reach Region 2, you need to Complete the Monument.  Region 1 Wool Monument"
-      },
-      "taeldim": {
-        "name": "Ta'Eldim",
-        "description": "A hidden sanctuary of the Tlaxan people Coordinates: ★ x=480 y=191 z=-349"
-      },
-      "season_pass": {
-        "name": "Seasonal Pass Hub",
-        "description": "This room serves as the hub for the amazing Seasonal Pass events that are run regularly in Monumenta."
+      "root": {
+        "name": "The King's Valley",
+        "description": "A luxuriant landscape, scarred from a recent war."
       }
     },
     "r2": {
-      "delveinfusion": {
-        "name": "Delve Infusion Station",
-        "description": "A curious machine that allows you to further enhance your equipment."
+      "seashelltrader": {
+        "name": "Shipwreck Seeker",
+        "description": "An avid diver who has built up a collection of relics. He's willing to trade them for Gleaming Seashells."
       },
-      "mistport": {
-        "name": "Mistport",
-        "description": "A small haven of piracy and lawlessness Coordinates: ★ x=-763 y=84 z=1321"
+      "root": {
+        "name": "The Celsian Isles",
+        "description": "A large archipelago, split between frost and flame."
       },
-      "alnera": {
-        "name": "Alnera",
-        "description": "The bustling capital of the Ishnir Empire Coordinates: ★ x=352 y=84 z=765"
-      },
-      "frostgate": {
-        "name": "Frostgate",
-        "description": "An oceanside citadel and capital of the Chillwind Empire Coordinates: ★ x=-1519 y=98 z=968"
-      },
-      "monument": {
-        "name": "The Monument of the Isles",
-        "description": "As with before, six powerful Wool blocks must be placed atop this hallowed altar. Scour the dungeons of the Celsian Isles to Complete the Monument!  Region 2 Wool Monument"
-      },
-      "patron_shrine": {
-        "name": "Pedestal o' Patrons",
-        "description": "Patrons can activate this shrine to grant buffs to the whole server. If you wish to change what messages the patron shrine sends you or toggle what effects you want to get, interact with it and select options.  Region 2 Patreon Shrine"
+      "blackmarket": {
+        "name": "King Barbossa's Black Market",
+        "description": "Find salvage traders from cities across the Isles selling Unique items thought lost.  Region 2 Unique Buybacks"
       },
       "infusion": {
         "name": "Infusion Altar",
         "description": "This invention of a long lost civilization will enable you to strengthen your equipment."
       },
-      "rahkeri": {
-        "name": "Rahkeri",
-        "description": "A trade town now used as a vantage point for military operations Coordinates: ★ x=-121 y=166 z=449"
+      "docks": {
+        "name": "Mistport Docks",
+        "description": "A multitude of ships dock here, including a ship carrying a mystical Seer who can tell you your fate. The dock ships will depart and new ships will lay anchor over time."
       },
-      "steelmeld": {
-        "name": "Steelmeld",
-        "description": "An isolated underwater base built from an unknown time Coordinates: ★ x=-584 y=8 z=-474"
+      "patron_shrine": {
+        "name": "Pedestal o' Patrons",
+        "description": "Patrons can activate this shrine to grant buffs to the whole server. If you wish to change what messages the patron shrine sends you or toggle what effects you want to get, interact with it and select options.  Region 2 Patreon Shrine"
       },
-      "seashelltrader": {
-        "name": "Shipwreck Seeker",
-        "description": "An avid diver who has built up a collection of relics. He's willing to trade them for Gleaming Seashells."
+      "mistport": {
+        "name": "Mistport",
+        "description": "A small haven of piracy and lawlessness Coordinates: ★ x=-763 y=84 z=1321"
       },
-      "academy": {
-        "name": "The Teacher's Domain",
-        "description": "Here you can change your class and skills at any time. The Teacher may also help you unlock new abilities to empower your class."
+      "breachpoint": {
+        "name": "Breachpoint",
+        "description": "An underwater outpost built to investigate the depths of the world Coordinates: ★ x=-702 y=10 z=-186"
       },
-      "casino": {
-        "name": "Monarch's Cozy Casino",
-        "description": "Every Casino Chip grants a prize, some more fabulous than others. Comfortably try your hand to get the Epic Frost Giant's Crown!"
+      "delveinfusion": {
+        "name": "Delve Infusion Station",
+        "description": "A curious machine that allows you to further enhance your equipment."
+      },
+      "monument": {
+        "name": "The Monument of the Isles",
+        "description": "As with before, six powerful Wool blocks must be placed atop this hallowed altar. Scour the dungeons of the Celsian Isles to Complete the Monument!  Region 2 Wool Monument"
+      },
+      "molta": {
+        "name": "Molta",
+        "description": "A mining town amidst the ruins of other expeditions Coordinates: ★ x=206 y=103 z=80"
+      },
+      "frostgate": {
+        "name": "Frostgate",
+        "description": "An oceanside citadel and capital of the Chillwind Empire Coordinates: ★ x=-1519 y=98 z=968"
+      },
+      "transmog": {
+        "name": "Transmogrifier",
+        "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Magma Crystal or greater in order to use. - Four Tier V items give you Pulsating Powder. - Two Rare items give you a random Rare item."
       },
       "wispervale": {
         "name": "Wispervale",
@@ -379,41 +329,91 @@
         "name": "Nightroost",
         "description": "A hilltop village ravaged by a threat still looming Coordinates: ★ x=-1315 y=129 z=513"
       },
+      "casino": {
+        "name": "Monarch's Cozy Casino",
+        "description": "Every Casino Chip grants a prize, some more fabulous than others. Comfortably try your hand to get the Epic Frost Giant's Crown!"
+      },
       "teleport_hub": {
         "name": "Seascour Trading Hub",
         "description": "Fast travel to towns, plots, dungeons and more!  Region 2 Teleport Hub"
       },
-      "blackmarket": {
-        "name": "King Barbossa's Black Market",
-        "description": "Find salvage traders from cities across the Isles selling Unique items thought lost.  Region 2 Unique Buybacks"
+      "steelmeld": {
+        "name": "Steelmeld",
+        "description": "An isolated underwater base built from an unknown time Coordinates: ★ x=-584 y=8 z=-474"
+      },
+      "academy": {
+        "name": "The Teacher's Domain",
+        "description": "Here you can change your class and skills at any time. The Teacher may also help you unlock new abilities to empower your class."
+      },
+      "alnera": {
+        "name": "Alnera",
+        "description": "The bustling capital of the Ishnir Empire Coordinates: ★ x=352 y=84 z=765"
       },
       "repairstations": {
         "name": "Ronevo's Repairs and Recycling",
         "description": "The dwelling of Repairman Ronevo. You can repair items here, as well as sell tiered items."
       },
+      "rahkeri": {
+        "name": "Rahkeri",
+        "description": "A trade town now used as a vantage point for military operations Coordinates: ★ x=-121 y=166 z=449"
+      },
       "carnival": {
         "name": "The Floating Carnival",
         "description": "Exchange your Tier 2 through Tier 4 items for Carnival Tokens to play minigames and win prizes!"
+      }
+    },
+    "r3": {
+      "newantium": {
+        "name": "New Antium",
+        "description": "The remnants of a thriving civilization, bound by hunger and haunted by shades. Coordinates: ★ x=-449 y=181 z=-75"
       },
-      "transmog": {
-        "name": "Transmogrifier",
-        "description": "The Transmogrifier can be used to recycle unwanted items into something more useful! - Transmogrifications require a Magma Crystal or greater in order to use. - Four Tier V items give you Pulsating Powder. - Two Rare items give you a random Rare item."
+      "infusion": {
+        "name": "Infusion Altar",
+        "description": "The technique to imbue power into equipment, will allow you to strengthen your gear and trascend mortal limits."
+      },
+      "academy": {
+        "name": "The Professor",
+        "description": "Here you can select and change your class / specialization at any time. Learn more on how you can further increase your combat capabilities with The Professor via skill enhancements!"
+      },
+      "library": {
+        "name": "Library",
+        "description": "Consult the Seanchaidh to reveal your fate. Come here to obtain a bounty and conquer it for unique rewards!"
       },
       "root": {
-        "name": "The Celsian Isles",
-        "description": "A large archipelago, split between frost and flame."
+        "name": "The Architect's Ring",
+        "description": "A secluded and isolated land, hidden away from the rest of the world."
       },
-      "molta": {
-        "name": "Molta",
-        "description": "A mining town amidst the ruins of other expeditions Coordinates: ★ x=206 y=103 z=80"
+      "workshop": {
+        "name": "Workshop",
+        "description": "The Workshop is the place where you can repair items, sell tiered items and transmogrify items... all in one spot! - Transmogrifications require scented candles produced and sold by Hagatha. - Four Tier III items gives you Pulsating Shard. - Two Rare Items give you a random Rare Item."
       },
-      "docks": {
-        "name": "Mistport Docks",
-        "description": "A multitude of ships dock here, including a ship carrying a mystical Seer who can tell you your fate. The dock ships will depart and new ships will lay anchor over time."
+      "teleport_hub": {
+        "name": "R3 Teleport Hub",
+        "description": "Fast travel to towns, plots, dungeons and more!  Region 3 Teleport Hub"
       },
-      "breachpoint": {
-        "name": "Breachpoint",
-        "description": "An underwater outpost built to investigate the depths of the world Coordinates: ★ x=-702 y=10 z=-186"
+      "patron_shrine": {
+        "name": "Altar of Altruism",
+        "description": "Patrons can activate this shrine to grant buffs to the whole server. If you wish to change what messages the patron shrine sends you or toggle what effects you want to get, interact with it and select options.  Region 3 Patreon Shrine"
+      },
+      "masterworkanvil": {
+        "name": "Masterwork Anvil",
+        "description": "The Masterwork Anvil is a new system to awaken your equipment's true capabilities using rare materials related to the item's origins."
+      },
+      "portmanteau": {
+        "name": "Port Manteau",
+        "description": "A picturesque fishing town on the northern coast of the Wolfswood, overlooked by the capital. Coordinates: ★ x=-458 y=46 z=-916"
+      },
+      "casino": {
+        "name": "Sticks and Stones Tavern",
+        "description": "A Casino in an unlikely place, ran by an even more unlikely staff. Every Casino Chip grants a prize, try your hand at obtaining the Epic Consumables!"
+      },
+      "galengarde": {
+        "name": "Galengarde",
+        "description": "A safe haven for the Dichen and capital of the region, established around a colossal tree. Coordinates: ★ x=-304 y=83 z=-655"
+      },
+      "fatekeeper": {
+        "name": "Fatekeeper",
+        "description": "Check with the Fatekeeper to determine your destiny. You can change your overworld delve modifiers with the Fatekeeper."
       }
     }
   }
