@@ -814,6 +814,11 @@
     "description": "Multiplies projectile damage taken by (0.96) ^ (2 * level).",
     "category": "Defenses"
   },
+  "pestilence": {
+    "name": "Curse of Pestilence",
+    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 4/5",
+    "category": "Curses"
+  },
   "spiritshot": {
     "name": "Spiritshot",
     "description": "Allows the weapon to be used in the Spirit Archery Minigame.",

@@ -4131,6 +4131,11 @@
     "description": "Multiplies projectile damage taken by (0.96) ^ (2 * level).",
     "parent": "monumenta:handbook/enchantments/meleeprotection"
   },
+  "monumenta:handbook/enchantments/pestilence": {
+    "title": "Curse of Pestilence",
+    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 4/5",
+    "parent": "monumenta:handbook/enchantments/oversized"
+  },
   "monumenta:handbook/enchantments/spiritshot": {
     "title": "Spiritshot",
     "description": "Allows the weapon to be used in the Spirit Archery Minigame.",
@@ -4353,12 +4358,12 @@
   },
   "monumenta:challenges/r3/hunts/sporous_amalgam_unspoiled": {
     "title": "Sporous Amalgam (Unspoiled)",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Defeat Sporous Amalgam without spoiling the loot.",
     "parent": "monumenta:challenges/r3/hunts/uamiel_unspoiled"
   },
   "monumenta:challenges/r3/hunts/sporous_amalgam": {
     "title": "Spore Amalgam",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Defeat the slime quarry, Sporous Amalgam.",
     "parent": "monumenta:challenges/r3/hunts/uamiel"
   },
   "monumenta:challenges/r3/hunts/initiation": {
