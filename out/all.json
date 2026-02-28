@@ -4133,7 +4133,7 @@
   },
   "monumenta:handbook/enchantments/pestilence": {
     "title": "Curse of Pestilence",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 4/5",
+    "description": "When dealing direct (not ability) melee or projectile damage, you have a (10% * level) chance to receive a random debuff out of Poison 1, Hunger 2, 15% Vulnerability, -15% Speed, or -30% Healing. The debuff lasts for 6 seconds.",
     "parent": "monumenta:handbook/enchantments/oversized"
   },
   "monumenta:handbook/enchantments/spiritshot": {
