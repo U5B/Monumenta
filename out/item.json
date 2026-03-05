@@ -21106,6 +21106,7 @@
     "stats": {
       "first_strike": 3,
       "kinetic_loading": 1,
+      "knockback": 1,
       "unbreaking": 3,
       "speed_percent": 10,
       "projectile_speed_base": 0.8,
@@ -58230,11 +58231,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "feather_falling": 2,
-      "unbreaking": 9,
-      "curse_of_corruption": 1,
       "adrenaline": 3,
+      "curse_of_corruption": 1,
+      "feather_falling": 3,
       "first_strike": 3,
+      "unbreaking": 9,
       "agility": 9
     },
     "lore": "I now meet their gaze in the Veil.\nI now join that fraying tapestry.\nNo longer can I leave this ethereal realm."
@@ -74601,6 +74602,29 @@
     "stats": {},
     "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
+  "Lilac Wool": {
+    "location": "Pink",
+    "mmlore": [
+      "Something is wrong. This isn't the",
+      "wool you came here for. Perhaps",
+      "part of it, once, but the other part is...",
+      "somewhere much further beyond...",
+      "",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon.",
+      "<#363486>* D7 Key 1 *"
+    ],
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Lilac Wool",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "noglint": 1
+    },
+    "lore": "Something is wrong. This isn't the\nwool you came here for. Perhaps\npart of it, once, but the other part is...\nsomewhere much further beyond...\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D7 Key 1 *"
+  },
   "Lime Fragment": {
     "location": "Lime",
     "mmlore": [
@@ -75312,6 +75336,29 @@
     "type": "Misc",
     "stats": {},
     "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
+  },
+  "Rose Wool": {
+    "location": "Pink",
+    "mmlore": [
+      "...and in another realm, the other",
+      "part is found. You can sense that",
+      "it yearns to be reunited, to be whole",
+      "once more... to be in balance.",
+      "",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon.",
+      "<#363486>* D7 Key 2 *"
+    ],
+    "region": "Isles",
+    "tier": "Key",
+    "name": "Rose Wool",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "noglint": 1
+    },
+    "lore": "...and in another realm, the other\npart is found. You can sense that\nit yearns to be reunited, to be whole\nonce more... to be in balance.\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* D7 Key 2 *"
   },
   "Rusty Diving Helmet": {
     "location": "Purple",
@@ -110932,6 +110979,56 @@
       "attack_speed_base": 1.6
     },
     "lore": "The symbol of a captain's hope.\nWhat will you do with it?"
+  },
+  "Mycotoxicosis-3": {
+    "location": "Hunts",
+    "masterwork": "3",
+    "mmlore": [
+      "There is no discrimination in mold,",
+      "mildew, and rot. They claim all eventually."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Mycotoxicosis",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "curse_of_pestilence": 2,
+      "curse_of_shrapnel": 1,
+      "decay": 22,
+      "mending": 1,
+      "sweeping_edge": 3,
+      "unbreaking": 10,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17.5
+    },
+    "lore": "There is no discrimination in mold,\nmildew, and rot. They claim all eventually."
+  },
+  "Mycotoxicosis-4": {
+    "location": "Hunts",
+    "masterwork": "4",
+    "mmlore": [
+      "There is no discrimination in mold,",
+      "mildew, and rot. They claim all eventually."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Mycotoxicosis",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "curse_of_pestilence": 2,
+      "curse_of_shrapnel": 1,
+      "decay": 25,
+      "mending": 1,
+      "sweeping_edge": 3,
+      "unbreaking": 10,
+      "attack_damage_base": 18,
+      "attack_speed_base": 1.4
+    },
+    "lore": "There is no discrimination in mold,\nmildew, and rot. They claim all eventually."
   },
   "Novice's Dagger": {
     "location": "King's Valley",
