@@ -7342,10 +7342,10 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreakable": 1,
-      "spiritshot": 1,
-      "curse_of_ephemerality": 2,
+      "curse_of_ephemerality": 1,
       "infinity": 1,
+      "spiritshot": 1,
+      "unbreakable": 1,
       "projectile_speed_base": 1,
       "projectile_damage_base": 1
     },
@@ -9552,6 +9552,31 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Basidiome Truffle": {
+    "location": "Hunts",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Basidiome Truffle",
+    "power": 1,
+    "base_item": "Brown Mushroom",
+    "release_status": "public",
+    "stats": {
+      "escape_death_regeneration_duration_flat": {
+        "locked": false,
+        "value": 10
+      },
+      "escape_death_healing_percent": {
+        "locked": false,
+        "value": -20
+      },
+      "escape_death_elite_hunt_radius_percent": {
+        "locked": false,
+        "value": -100
+      }
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
   },
   "Bound Vessel": {
     "location": "Celsian Isles",
@@ -25764,6 +25789,22 @@
       "material": 1
     },
     "lore": "A pitch black ink at first glance,\nit seems to become every other\ncolour when you stare hard\nenough at it."
+  },
+  "Dormant Spores": {
+    "location": "Hunts",
+    "mmlore": [
+      "Now that the source has been quelled,",
+      "these formerly poisonous spores have",
+      "settled into a mildly aromatic seasoning."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Dormant Spores",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Now that the source has been quelled,\nthese formerly poisonous spores have\nsettled into a mildly aromatic seasoning."
   },
   "Empowered Charm of Self": {
     "location": "Architect's Ring",
@@ -79484,6 +79525,37 @@
     "type": "Consumable",
     "stats": {},
     "lore": "\"Next, your eyes will begin to run, not with\ntears, but with your fear itself.\""
+  },
+  "Fermented Spores": {
+    "location": "Hunts",
+    "mmlore": [
+      "\"An exceptionally potent digestif.",
+      "Capable of metabolizing one's dinner in seconds!\""
+    ],
+    "region": "Ring",
+    "name": "Fermented Spores",
+    "effects": [
+      {
+        "EffectDuration": 48000,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 48000,
+        "EffectStrength": 0.2,
+        "EffectType": "MaxHealthDecrease"
+      },
+      {
+        "EffectDuration": 48000,
+        "EffectStrength": 0.15,
+        "EffectType": "Heal"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "\"An exceptionally potent digestif.\nCapable of metabolizing one's dinner in seconds!\""
   },
   "Fever Buster": {
     "location": "Isles Overworld",
