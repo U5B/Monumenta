@@ -573,25 +573,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Guillotine Wings",
-    "power": 1,
+    "power": 2,
     "base_item": "Amethyst Shard",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_cooldown_percent": {
+      "tactical_maneuver_cooldown_refund_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "tactical_maneuver_stagger_duration_percent": {
         "locked": false,
         "value": -50
       },
-      "tactical_maneuver_velocity_percent": {
+      "tactical_maneuver_charges_flat": {
         "locked": false,
-        "value": -50
-      },
-      "tactical_maneuver_stun_duration_percent": {
-        "locked": false,
-        "value": -50
-      },
-      "tactical_maneuver_charge_flat": {
-        "locked": false,
-        "value": -1
+        "value": -2
       }
     },
     "type": "Charm",
@@ -900,21 +896,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Zoetic Geas",
-    "power": 3,
+    "power": 2,
     "base_item": "Amethyst Shard",
     "release_status": "public",
     "stats": {
-      "hand_of_light_damage_percent": {
+      "hand_of_light_max_mobs_flat": {
         "locked": false,
-        "value": 120
-      },
-      "hand_of_light_range_percent": {
-        "locked": false,
-        "value": -20
+        "value": 2
       },
       "hand_of_light_healing_percent": {
         "locked": false,
-        "value": -50
+        "value": -40
       }
     },
     "type": "Charm",
@@ -1675,13 +1667,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Peakborn Windchime",
-    "power": 3,
+    "power": 1,
     "base_item": "Bell",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_velocity_percent": {
+      "swiftness_double_jump_strength_percent": {
         "locked": false,
-        "value": 50
+        "value": 80
+      },
+      "swiftness_double_jump_cooldown_percent": {
+        "locked": false,
+        "value": 80
       }
     },
     "type": "Charm",
@@ -1955,13 +1951,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Tradesman's Cape",
-    "power": 3,
+    "power": 2,
     "base_item": "Black Carpet",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_charge_flat": {
+      "tactical_maneuver_charges_flat": {
         "locked": false,
         "value": 1
+      },
+      "tactical_maneuver_weakness_duration_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "tactical_maneuver_weakness_amplifier_percent": {
+        "locked": false,
+        "value": 10
       }
     },
     "type": "Charm",
@@ -1999,6 +2003,17 @@
     },
     "type": "Charm",
     "class_name": "Mage"
+  },
+  "Scorched Residue": {
+    "mmlore": [
+      "It smells burnt. You should probably throw it away."
+    ],
+    "name": "Scorched Residue",
+    "base_item": "Black Concrete Powder",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It smells burnt. You should probably throw it away."
   },
   "Actypoh": {
     "location": "Depths",
@@ -2820,23 +2835,6 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
-  "Focused Quickshot Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Quickshot Charm",
-    "power": 3,
-    "base_item": "Blaze Powder",
-    "release_status": "public",
-    "stats": {
-      "quickdraw_damage_percent": {
-        "locked": false,
-        "value": 25
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Focused Rage Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -2900,25 +2898,13 @@
         "locked": false,
         "value": 100
       },
-      "hunting_companion_duration_flat": {
+      "hunting_companion_pounce_damage_percent": {
         "locked": false,
-        "value": 20
-      },
-      "hunting_companion_cooldown_flat": {
-        "locked": false,
-        "value": 10
+        "value": -1000
       },
       "hunting_companion_damage_percent": {
         "locked": false,
         "value": -1000
-      },
-      "hunting_companion_stun_duration_flat": {
-        "locked": false,
-        "value": -100
-      },
-      "hunting_companion_weaken_duration_flat": {
-        "locked": false,
-        "value": -100
       },
       "hunting_companion_healing_percent": {
         "locked": false,
@@ -2978,23 +2964,6 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
-  },
-  "Greater Quickshot Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Quickshot Charm",
-    "power": 2,
-    "base_item": "Blaze Powder",
-    "release_status": "public",
-    "stats": {
-      "quickdraw_damage_percent": {
-        "locked": false,
-        "value": 15
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Greater Rage Charm": {
     "location": "Architect's Ring",
@@ -3145,23 +3114,6 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
-  },
-  "Lesser Quickshot Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Quickshot Charm",
-    "power": 1,
-    "base_item": "Blaze Powder",
-    "release_status": "public",
-    "stats": {
-      "quickdraw_damage_percent": {
-        "locked": false,
-        "value": 7
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Lesser Rage Charm": {
     "location": "Architect's Ring",
@@ -3342,27 +3294,6 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
-  },
-  "Swift Quickshot Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Quickshot Charm",
-    "power": 2,
-    "base_item": "Blaze Powder",
-    "release_status": "public",
-    "stats": {
-      "quickdraw_damage_percent": {
-        "locked": false,
-        "value": 7
-      },
-      "quickdraw_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Upgrade Unit": {
     "location": "Rush",
@@ -3712,6 +3643,23 @@
       "attack_damage_base": 2
     }
   },
+  "Focused Barrage Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Barrage Charm",
+    "power": 3,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "quiver_storm_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Focused Charm of Dominion": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -3745,23 +3693,6 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
-  },
-  "Focused Splitting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Splitting Charm",
-    "power": 3,
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "stats": {
-      "split_arrow_damage_percent": {
-        "locked": false,
-        "value": 15
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Frodian Light of Unbalance": {
     "location": "Celsian Isles",
@@ -3822,6 +3753,23 @@
     },
     "lore": "A strange glowing crystal\nthat sparks with lightning."
   },
+  "Greater Barrage Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Barrage Charm",
+    "power": 2,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "quiver_storm_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Greater Charm of Dominion": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -3856,23 +3804,6 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
-  "Greater Splitting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Splitting Charm",
-    "power": 2,
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "stats": {
-      "split_arrow_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Ignition Wand": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -3903,6 +3834,23 @@
       "magic_damage_percent": 15,
       "agility": 3.5
     }
+  },
+  "Lesser Barrage Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Barrage Charm",
+    "power": 1,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "quiver_storm_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Lesser Charm of Dominion": {
     "location": "Architect's Ring",
@@ -3937,23 +3885,6 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
-  },
-  "Lesser Splitting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Splitting Charm",
-    "power": 1,
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "stats": {
-      "split_arrow_damage_percent": {
-        "locked": false,
-        "value": 5
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Molldyer's Chalk": {
     "location": "Blue",
@@ -5324,6 +5255,27 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q103nI01"
   },
+  "Focused Charm of the Tempest": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of the Tempest",
+    "power": 3,
+    "base_item": "Bone Meal",
+    "release_status": "public",
+    "stats": {
+      "gale_shot_damage_multiplier_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "gale_shot_flat_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Forgotten Ashes": {
     "location": "Gray",
     "mmlore": [
@@ -5340,6 +5292,27 @@
     "stats": {},
     "lore": "Epic Crafting Material\nEmpires become ruins, ruins become ashes,\nand ashes become forgotten."
   },
+  "Greater Charm of the Tempest": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of the Tempest",
+    "power": 2,
+    "base_item": "Bone Meal",
+    "release_status": "public",
+    "stats": {
+      "gale_shot_damage_multiplier_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "gale_shot_flat_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Leg Cast": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
@@ -5351,6 +5324,52 @@
     "type": "Misc",
     "stats": {},
     "lore": "* Quest Item *\n#Q43I02"
+  },
+  "Lesser Charm of the Tempest": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of the Tempest",
+    "power": 1,
+    "base_item": "Bone Meal",
+    "release_status": "public",
+    "stats": {
+      "gale_shot_damage_multiplier_percent": {
+        "locked": false,
+        "value": 5
+      },
+      "gale_shot_flat_damage_percent": {
+        "locked": false,
+        "value": 5
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
+  "Sedated Charm of the Tempest": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Sedated Charm of the Tempest",
+    "power": 3,
+    "base_item": "Bone Meal",
+    "release_status": "public",
+    "stats": {
+      "gale_shot_damage_multiplier_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "gale_shot_flat_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "gale_shot_slowness_duration_flat": {
+        "locked": false,
+        "value": 2
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "A Revelation On Knowledge Itself": {
     "location": "Celsian Isles",
@@ -5697,6 +5716,17 @@
     "stats": {},
     "lore": "Press Swap to interact with\nobjects in The Gallery of Fear.\nRight Button to view player info.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Harmonic Potionmaking, Vol. 2": {
+    "mmlore": [
+      "Ingredients and Intricacies, Revised Version"
+    ],
+    "name": "Harmonic Potionmaking, Vol. 2",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Ingredients and Intricacies, Revised Version"
+  },
   "Infernal Codex": {
     "location": "Challenger",
     "mmlore": [
@@ -5783,7 +5813,9 @@
     "base_item": "Book",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "The lexicon of forbidden knowledge comes\nin many forms. Some are even cute.\n in main hand or inventory\nto spend 10 levels worth of EXP,\nremoving Poison, Wither, and Nausea."
   },
   "Pact of Punishment": {
@@ -6665,7 +6697,7 @@
       "piercing": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 28
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6688,7 +6720,7 @@
       "piercing": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 27.5
+      "projectile_damage_base": 28.5
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6711,7 +6743,7 @@
       "piercing": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 29.5
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6734,7 +6766,7 @@
       "piercing": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 29
+      "projectile_damage_base": 30
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6765,13 +6797,14 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 4,
       "regeneration": 2,
+      "sustenance": 1,
+      "unbreaking": 4,
       "speed_percent": 16,
       "projectile_speed_base": 1,
-      "armor": 2,
       "magic_damage_percent": 18,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 19,
+      "armor": 3
     },
     "lore": "From the barrel of the gun,\nyou hear a symphony of brambles,\nclaws, and snares."
   },
@@ -6844,7 +6877,7 @@
       "unbreaking": 3,
       "armor": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 13
+      "projectile_damage_base": 13.5
     },
     "lore": "Rage and Malevolence."
   },
@@ -6990,12 +7023,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "ice_aspect": 2,
+      "piercing": 2,
       "unbreaking": 4,
       "wind_aspect": 1,
-      "piercing": 2,
-      "ice_aspect": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 25
+      "projectile_damage_base": 26
     },
     "lore": "Even a captain capable of rallying\nuncountable numbers of ruffians\nbehind him could not escape his\ninevitable fate. What hope, then, do you\nhave to do differently?"
   },
@@ -7016,13 +7049,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "ice_aspect": 2,
+      "piercing": 2,
       "unbreaking": 4,
       "wind_aspect": 1,
-      "piercing": 2,
-      "ice_aspect": 1,
       "speed_percent": 5,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 26
+      "projectile_damage_base": 27
     },
     "lore": "Even a captain capable of rallying\nuncountable numbers of ruffians\nbehind him could not escape his\ninevitable fate. What hope, then, do you\nhave to do differently?"
   },
@@ -7043,13 +7076,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "ice_aspect": 2,
+      "piercing": 2,
       "unbreaking": 5,
       "wind_aspect": 1,
-      "piercing": 2,
-      "ice_aspect": 1,
       "speed_percent": 5,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 28
     },
     "lore": "Even a captain capable of rallying\nuncountable numbers of ruffians\nbehind him could not escape his\ninevitable fate. What hope, then, do you\nhave to do differently?"
   },
@@ -7116,7 +7149,7 @@
       "unbreaking": 3,
       "armor": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 13
+      "projectile_damage_base": 13.5
     },
     "lore": "Its bearer was young, but that\ndidn't stop him from saving his\nfriends countless times."
   },
@@ -7193,7 +7226,7 @@
       "mending": 1,
       "piercing": 1,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 20.5
+      "projectile_damage_base": 21
     },
     "lore": "Its flame is earned from those who came\nbefore; a ruinous reminder of the cost\nof turning on those who offered power."
   },
@@ -7218,6 +7251,29 @@
       "projectile_damage_base": 20
     },
     "lore": "Shroud your body in the\ncover of crackling coals."
+  },
+  "Enlightenment": {
+    "location": "Delves",
+    "mmlore": [
+      "Inspiration spurs you as you draw...",
+      "To be greater, is to seek within and",
+      "understand that you are lesser."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Enlightenment",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "aptitude": 1,
+      "magic_protection": 2,
+      "mending": 1,
+      "speed_percent": 10,
+      "projectile_damage_base": 23,
+      "projectile_speed_base": 1.5
+    },
+    "lore": "Inspiration spurs you as you draw...\nTo be greater, is to seek within and\nunderstand that you are lesser."
   },
   "Everlasting Bow": {
     "location": "Arena of Terth",
@@ -7291,13 +7347,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "triage": 2,
       "earth_aspect": 2,
       "mending": 1,
       "regeneration": 1,
-      "magic_damage_percent": 10,
+      "triage": 2,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 28.5,
+      "magic_damage_percent": 15
     },
     "lore": "Callicarpa felt freedom for the first time in\neons the moment Indigo was damaged. In\nthat freedom, she learned what had happened\nto her siblings and wept."
   },
@@ -7317,13 +7373,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "triage": 2,
       "earth_aspect": 2,
       "mending": 1,
       "regeneration": 1,
-      "magic_damage_percent": 10,
+      "triage": 2,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 30
+      "projectile_damage_base": 30,
+      "magic_damage_percent": 15
     },
     "lore": "Callicarpa felt freedom for the first time in\neons the moment Indigo was damaged. In\nthat freedom, she learned what had happened\nto her siblings and wept."
   },
@@ -7646,13 +7702,13 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "piercing": 1,
       "retrieval": 1,
+      "sniper": 1,
       "unbreaking": 5,
       "wind_aspect": 1,
-      "piercing": 1,
-      "sniper": 1,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 11
+      "projectile_damage_base": 11.5
     },
     "lore": "Now one must face the passing of many.\nThey rest easier serenaded by the\nsong of your whistling arrow.\nBreathe deep. Aim true."
   },
@@ -7730,11 +7786,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 4,
-      "punch": 2,
       "point_blank": 3,
+      "punch": 2,
+      "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 26.5
+      "projectile_damage_base": 27
     },
     "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency, however, does not make them\npoor weapons in a pinch."
   },
@@ -7755,11 +7811,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 4,
-      "punch": 2,
       "point_blank": 3,
+      "punch": 2,
+      "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 27.5
     },
     "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency, however, does not make them\npoor weapons in a pinch."
   },
@@ -7780,11 +7836,11 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "unbreaking": 5,
-      "punch": 2,
       "point_blank": 4,
+      "punch": 2,
+      "unbreaking": 5,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 27.5
+      "projectile_damage_base": 28
     },
     "lore": "The automatons within the Machine carry\na variety of tools, each purpose-built\nfor their role in the grand factory.\nTheir efficiency, however, does not make them\npoor weapons in a pinch."
   },
@@ -8451,12 +8507,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "explosive": 2,
       "first_strike": 2,
-      "thunder_aspect": 3,
       "mending": 1,
-      "explosive": 3,
+      "thunder_aspect": 3,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 26
     },
     "lore": "In time, all light will die. That time grows ever\ncloser the closer the Empty One comes to\nfreedom."
   },
@@ -8475,12 +8531,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
+      "explosive": 3,
       "first_strike": 2,
-      "thunder_aspect": 3,
       "mending": 1,
-      "explosive": 4,
+      "thunder_aspect": 3,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 27
     },
     "lore": "In time, all light will die. That time grows ever\ncloser the closer the Empty One comes to\nfreedom."
   },
@@ -8794,7 +8850,7 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "skyseeker": 1,
+      "skyseeker": 2,
       "unbreaking": 3,
       "wind_aspect": 2,
       "speed_percent": 11,
@@ -8819,9 +8875,9 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "skyseeker": 1,
+      "skyseeker": 2,
       "unbreaking": 3,
-      "wind_aspect": 2,
+      "wind_aspect": 3,
       "speed_percent": 12,
       "projectile_speed_base": 2,
       "projectile_damage_base": 28.5
@@ -8844,9 +8900,9 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "skyseeker": 1,
+      "skyseeker": 2,
       "unbreaking": 4,
-      "wind_aspect": 2,
+      "wind_aspect": 3,
       "speed_percent": 13,
       "projectile_speed_base": 2,
       "projectile_damage_base": 29.5
@@ -8869,12 +8925,12 @@
     "release_status": "public",
     "type": "Bow",
     "stats": {
-      "skyseeker": 2,
+      "skyseeker": 3,
       "unbreaking": 5,
-      "wind_aspect": 2,
+      "wind_aspect": 3,
       "speed_percent": 14,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 29.5
+      "projectile_damage_base": 30
     },
     "lore": "The crisp breeze on the cliffs was\na constant reminder that, while\nhidden, the Architect still watched\nover the Silvari."
   },
@@ -9595,6 +9651,17 @@
     },
     "lore": "The spores are changing their form\nevery time you look at them."
   },
+  "Earthy Porcini": {
+    "mmlore": [
+      "Harvested from a cliff no human has stood on in years."
+    ],
+    "name": "Earthy Porcini",
+    "base_item": "Brown Mushroom",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Harvested from a cliff no human has stood on in years."
+  },
   "Fungal Fortitude": {
     "location": "Godspore",
     "region": "Ring",
@@ -10142,17 +10209,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Automatic Distillery",
-    "power": 1,
+    "power": 3,
     "base_item": "Cauldron",
     "release_status": "public",
     "stats": {
+      "heavenly_boon_cooldown_recharge_rate_percent": {
+        "locked": false,
+        "value": 5
+      },
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 80
+        "value": 10
       },
-      "heavenly_boon_cooldown_percent": {
+      "heavenly_boon_healing_percent": {
         "locked": false,
-        "value": 50
+        "value": -20
       }
     },
     "type": "Charm",
@@ -10335,6 +10406,23 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
+  "Greater Charm of Trapping": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Trapping",
+    "power": 2,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "steel_trap_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Greater Prosecutor's Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -10389,6 +10477,23 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
+  },
+  "Lesser Charm of Trapping": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Trapping",
+    "power": 1,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "steel_trap_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Lesser Prosecutor's Charm": {
     "location": "Architect's Ring",
@@ -10848,13 +10953,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "magic_protection": 2,
+      "mending": 1,
       "steadfast": 2,
       "unbreaking": 1,
-      "mending": 1,
-      "magic_protection": 2,
       "max_health_flat": -2,
-      "knockback_resistance_flat": 2.5,
-      "armor": 6.5
+      "armor": 6.5,
+      "knockback_resistance_flat": 3
     },
     "lore": "If we cannot wield this Magic, no one\ncan. Chain them up. Forever."
   },
@@ -10872,13 +10977,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "magic_protection": 2,
+      "mending": 1,
       "steadfast": 2,
       "unbreaking": 2,
-      "mending": 1,
-      "magic_protection": 2,
       "max_health_flat": -2,
-      "knockback_resistance_flat": 2.5,
-      "armor": 7
+      "armor": 7,
+      "knockback_resistance_flat": 3
     },
     "lore": "If we cannot wield this Magic, no one\ncan. Chain them up. Forever."
   },
@@ -10896,13 +11001,13 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "magic_protection": 2,
+      "mending": 1,
       "steadfast": 2,
       "unbreaking": 3,
-      "mending": 1,
-      "magic_protection": 2,
       "max_health_flat": -2,
-      "knockback_resistance_flat": 2.5,
-      "armor": 8
+      "armor": 8,
+      "knockback_resistance_flat": 3
     },
     "lore": "If we cannot wield this Magic, no one\ncan. Chain them up. Forever."
   },
@@ -11801,7 +11906,8 @@
       "projectile_protection": 4,
       "unbreaking": 8,
       "agility": 10,
-      "speed_percent": 10
+      "speed_percent": 10,
+      "knockback_resistance_flat": 1
     },
     "lore": "Despite the arrows hailing upon\nthem, the alliance charged the bridge\nwithout fear. There would be no\nturning back now."
   },
@@ -11825,7 +11931,7 @@
       "unbreaking": 9,
       "speed_percent": 10,
       "agility": 10.5,
-      "knockback_resistance_flat": 1.5
+      "knockback_resistance_flat": 2
     },
     "lore": "Despite the arrows hailing upon\nthem, the alliance charged the bridge\nwithout fear. There would be no\nturning back now."
   },
@@ -15428,12 +15534,12 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "projectile_protection": 2,
+      "blast_protection": 3,
+      "curse_of_crippling": 1,
       "unbreaking": 4,
-      "knockback_resistance_flat": 2,
-      "max_health_flat": 2,
-      "armor": 4,
-      "projectile_damage_percent": 16
+      "armor": 6,
+      "projectile_damage_percent": 15,
+      "knockback_resistance_flat": 4
     },
     "lore": "A pirate worth his salt knows that metal\ngarments have no place on a ship. The sea\nwater will weather them to rust and the\nwaves will drag them below."
   },
@@ -15689,7 +15795,8 @@
       "life_drain": 2,
       "second_wind": 2,
       "unbreaking": 8,
-      "armor": 8
+      "armor": 8,
+      "knockback_resistance_flat": 1
     },
     "lore": "Death begets only death. The Silver\nlegacy of the Silvari prophesied their\ndoom long before Pelias and his folly.\nYet the life of their empire was a wonder to behold."
   },
@@ -15712,8 +15819,8 @@
       "life_drain": 2,
       "second_wind": 2,
       "unbreaking": 9,
-      "knockback_resistance_flat": 1.5,
-      "armor": 8.5
+      "armor": 8.5,
+      "knockback_resistance_flat": 2
     },
     "lore": "Death begets only death. The Silver\nlegacy of the Silvari prophesied their\ndoom long before Pelias and his folly.\nYet the life of their empire was a wonder to behold."
   },
@@ -16795,7 +16902,13 @@
   "Charcoal Key": {
     "location": "Koal",
     "mmlore": [
-      "<gray>It hums of holidays yet unpassed."
+      "It hums of the holidays.",
+      "The time has come to enter Coalrupted Sierhaven.",
+      "<dark_red>This strike contains an endgame challenge. Completion",
+      "<dark_red>of Snow Man Left Behind is required and a group of 1-6 players",
+      "<dark_red>in endgame gear is recommended for this strike.",
+      "<aqua>Players: 1-6 (Single Attempt)",
+      "Grants access to Coalrupted Sierhaven."
     ],
     "region": "Valley",
     "tier": "Key",
@@ -16804,7 +16917,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "It hums of holidays yet unpassed."
+    "lore": "It hums of the holidays.\nThe time has come to enter Coalrupted Sierhaven.\nThis strike contains an endgame challenge. Completion\nof Snow Man Left Behind is required and a group of 1-6 players\nin endgame gear is recommended for this strike.\nPlayers: 1-6 (Single Attempt)\nGrants access to Coalrupted Sierhaven."
   },
   "Heart of Dread": {
     "location": "Delves",
@@ -17576,9 +17689,13 @@
     "base_item": "Clock",
     "release_status": "public",
     "stats": {
-      "sharpshooter_enhancement_max_distance_flat": {
+      "sharpshooter_stack_projectile_speed_percent": {
         "locked": false,
-        "value": 6
+        "value": 1
+      },
+      "sharpshooter_stacks_on_miss_flat": {
+        "locked": false,
+        "value": -1
       }
     },
     "type": "Charm",
@@ -20561,11 +20678,12 @@
     "type": "Crossbow",
     "stats": {
       "piercing": 2,
+      "punch": 2,
       "quick_charge": 2,
       "sniper": 2,
       "unbreaking": 3,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 18.5
+      "projectile_damage_base": 19.5
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -20586,11 +20704,12 @@
     "type": "Crossbow",
     "stats": {
       "piercing": 2,
+      "punch": 2,
       "quick_charge": 2,
       "sniper": 2,
       "unbreaking": 3,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20.5
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -20611,11 +20730,12 @@
     "type": "Crossbow",
     "stats": {
       "piercing": 2,
+      "punch": 2,
       "quick_charge": 2,
       "sniper": 2,
       "unbreaking": 3,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 19.5
+      "projectile_damage_base": 21
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -20636,11 +20756,12 @@
     "type": "Crossbow",
     "stats": {
       "piercing": 2,
+      "punch": 2,
       "quick_charge": 2,
       "sniper": 2,
       "unbreaking": 4,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 20
+      "projectile_damage_base": 21.5
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -20662,11 +20783,12 @@
     "stats": {
       "ice_aspect": 1,
       "piercing": 2,
+      "punch": 2,
       "quick_charge": 2,
       "sniper": 2,
       "unbreaking": 5,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 20.5
+      "projectile_damage_base": 22
     },
     "lore": "After the collapse, the Coven foraged for\nSilvari technology in their crumbling cities.\nImbued with the Tree's power, these weapons\nwere made anew."
   },
@@ -20892,12 +21014,12 @@
       "hex_eater": 1,
       "multi-load": 2,
       "quick_charge": 2,
-      "unbreakable": 1,
       "retrieval": 3,
+      "unbreakable": 1,
       "projectile_speed_base": 1.5,
       "thorns_flat": 4,
       "knockback_resistance_flat": 4,
-      "projectile_damage_base": 20.5
+      "projectile_damage_base": 21
     },
     "lore": "The Vedha took the last of Hycenea's lingering\nfury to craft an elegy for her fallen sisters.\nShe would bury their memory, and begin anew."
   },
@@ -20950,14 +21072,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 5,
-      "retrieval": 3,
-      "fire_aspect": 1,
-      "point_blank": 2,
-      "quick_charge": 3,
+      "fire_aspect": 3,
       "multishot": 1,
-      "projectile_damage_base": 6,
-      "projectile_speed_base": 1
+      "point_blank": 3,
+      "quick_charge": 3,
+      "retrieval": 3,
+      "unbreaking": 5,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 7
     },
     "lore": "To speak for the dead, one must\nlearn their tongue."
   },
@@ -20974,14 +21096,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 5,
-      "retrieval": 3,
-      "fire_aspect": 1,
-      "point_blank": 2,
-      "quick_charge": 3,
+      "fire_aspect": 3,
       "multishot": 1,
-      "projectile_damage_base": 6,
-      "projectile_speed_base": 1
+      "point_blank": 3,
+      "quick_charge": 3,
+      "retrieval": 3,
+      "unbreaking": 5,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 7
     },
     "lore": "Wicked glyphs are carved into the blasphemous\nartillery, luring prey to their dreadful demise."
   },
@@ -21019,13 +21141,13 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "piercing": 4,
       "quick_charge": 4,
       "unbreaking": 4,
-      "piercing": 4,
       "speed_percent": -80,
       "knockback_resistance_flat": 6,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 8
+      "projectile_damage_base": 10
     },
     "lore": "Pierce the heavens. Shatter the God."
   },
@@ -21045,12 +21167,11 @@
     "type": "Crossbow",
     "stats": {
       "ice_aspect": 2,
-      "piercing": 2,
-      "quick_charge": 1,
+      "piercing": 3,
       "recoil": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 23
     },
     "lore": "Old folklore hides an ancient myth,\nmentioning a cataclysmic blizzard,\ncaused by a single shot from\na fabled crossbow."
   },
@@ -21129,15 +21250,16 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "first_strike": 3,
       "kinetic_loading": 1,
-      "knockback": 1,
+      "life_drain": 2,
+      "melee_protection": 2,
+      "technique": 2,
       "unbreaking": 3,
       "speed_percent": 10,
       "projectile_speed_base": 0.8,
-      "projectile_damage_base": 14,
-      "attack_damage_base": 10,
-      "attack_speed_base": 1.8
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 11,
+      "projectile_damage_base": 19
     },
     "lore": "Power born from the souls of\nthe Horseman's victims."
   },
@@ -21394,11 +21516,11 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "regicide": 1,
       "quick_charge": 2,
+      "regicide": 2,
       "unbreaking": 4,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20
     },
     "lore": "Reality moves differently in the darkest\nof depths. Sometimes it twists into\nsomething... else."
   },
@@ -21551,7 +21673,7 @@
       "unbreaking": 3,
       "projectile_speed_base": 1,
       "magic_damage_percent": 15,
-      "projectile_damage_base": 11
+      "projectile_damage_base": 13.5
     },
     "lore": "\"Leave a mark they'll\nnever forget.\""
   },
@@ -21652,11 +21774,11 @@
     "stats": {
       "curse_of_crippling": 1,
       "decay": 2,
-      "quick_charge": 2,
-      "multishot": 1,
       "mending": 1,
+      "multishot": 1,
+      "quick_charge": 2,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 21.5
+      "projectile_damage_base": 23
     },
     "lore": "Dreams naturally desire to coalesce\ninto a greater whole, but their bonds\nare weak and frail. If it could hold\nthem together, it could create a\nworld unto itself."
   },
@@ -21679,11 +21801,11 @@
     "stats": {
       "curse_of_crippling": 1,
       "decay": 2,
-      "quick_charge": 2,
-      "multishot": 1,
       "mending": 1,
+      "multishot": 1,
+      "quick_charge": 2,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 22.5
+      "projectile_damage_base": 23.5
     },
     "lore": "Dreams naturally desire to coalesce\ninto a greater whole, but their bonds\nare weak and frail. If it could hold\nthem together, it could create a\nworld unto itself."
   },
@@ -21706,11 +21828,11 @@
     "stats": {
       "curse_of_crippling": 1,
       "decay": 2,
-      "quick_charge": 2,
-      "multishot": 1,
       "mending": 1,
+      "multishot": 1,
+      "quick_charge": 2,
       "projectile_speed_base": 2,
-      "projectile_damage_base": 22.5
+      "projectile_damage_base": 24
     },
     "lore": "Dreams naturally desire to coalesce\ninto a greater whole, but their bonds\nare weak and frail. If it could hold\nthem together, it could create a\nworld unto itself."
   },
@@ -21771,14 +21893,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "multishot": 1,
+      "piercing": 2,
       "point_blank": 1,
       "quick_charge": 3,
-      "unbreaking": 5,
-      "piercing": 2,
-      "multishot": 1,
       "two_handed": 1,
-      "projectile_damage_base": 10,
-      "projectile_speed_base": 1
+      "unbreaking": 5,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 11
     },
     "lore": "Warning: User is killed on\nan unmodified roll of 1."
   },
@@ -21814,7 +21936,7 @@
       "punch": 1,
       "quick_charge": 1,
       "recoil": 2,
-      "sniper": 1,
+      "sniper": 2,
       "unbreaking": 3,
       "projectile_damage_base": 22,
       "projectile_speed_base": 2.2
@@ -21838,11 +21960,10 @@
     "stats": {
       "fire_aspect": 2,
       "mending": 1,
-      "quick_charge": 1,
       "reverb": 5,
       "thunder_aspect": 2,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 33
     },
     "lore": "In an instant, something shattered within\nthe Stars. The open edge of the wool became\nlike a vacuum and changed the Lunacrest's fate."
   },
@@ -21863,11 +21984,10 @@
     "stats": {
       "fire_aspect": 2,
       "mending": 1,
-      "quick_charge": 1,
-      "reverb": 5,
+      "reverb": 6,
       "thunder_aspect": 2,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 29.5
+      "projectile_damage_base": 33
     },
     "lore": "In an instant, something shattered within\nthe Stars. The open edge of the wool became\nlike a vacuum and changed the Lunacrest's fate."
   },
@@ -21968,14 +22088,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 3,
+      "bleeding": 4,
       "curse_of_shrapnel": 2,
-      "multishot": 1,
-      "quick_charge": 1,
-      "sustenance": 1,
-      "unbreaking": 5,
+      "regeneration": 3,
+      "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 34
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -21995,14 +22113,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 3,
+      "bleeding": 4,
       "curse_of_shrapnel": 2,
-      "multishot": 1,
-      "quick_charge": 1,
-      "sustenance": 1,
+      "regeneration": 3,
       "unbreaking": 5,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 29
+      "projectile_damage_base": 35
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -22022,14 +22138,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "bleeding": 3,
+      "bleeding": 4,
       "curse_of_shrapnel": 2,
-      "multishot": 1,
-      "quick_charge": 1,
-      "sustenance": 2,
+      "regeneration": 2,
       "unbreaking": 6,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 29
+      "projectile_damage_base": 35
     },
     "lore": "\"Within the Dream, a Beast dwells vile,\nThe Sinful lurks, for prey he needs.\nHe knows what happened, won't reconcile,\nFor once again, the past now bleeds.\""
   },
@@ -22076,10 +22190,11 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 3,
+      "point_blank": 4,
+      "punch": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 26.5
+      "projectile_damage_base": 29
     },
     "lore": "Wrenched from the towers of the Masked\nfortress, the massive ballista fires\narrows of raw iron, sure to demolish\nanything in its path."
   },
@@ -22101,10 +22216,11 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 3,
+      "point_blank": 4,
+      "punch": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 27.5
+      "projectile_damage_base": 30
     },
     "lore": "Wrenched from the towers of the Masked\nfortress, the massive ballista fires\narrows of raw iron, sure to demolish\nanything in its path."
   },
@@ -22126,10 +22242,11 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 4,
+      "point_blank": 5,
+      "punch": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 27.5
+      "projectile_damage_base": 30
     },
     "lore": "Wrenched from the towers of the Masked\nfortress, the massive ballista fires\narrows of raw iron, sure to demolish\nanything in its path."
   },
@@ -22267,11 +22384,11 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "regicide": 1,
       "quick_charge": 2,
+      "regicide": 2,
       "unbreaking": 4,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 19
+      "projectile_damage_base": 20
     },
     "lore": "What value is there in reality when nothing\nneeds to follow those rules?"
   },
@@ -22289,10 +22406,12 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "multishot": 1,
+      "point_blank": 4,
       "punch": 4,
       "unbreaking": 3,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 26.5
+      "projectile_damage_base": 17
     },
     "lore": "An incredible feat of arcane engineering,\nwith springs infused with kinetic magic.\nIt's hard to believe that a student crafted it..."
   },
@@ -22436,14 +22555,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 3,
-      "retrieval": 3,
       "first_strike": 2,
+      "multishot": 1,
       "point_blank": 2,
       "quick_charge": 3,
-      "multishot": 1,
+      "retrieval": 3,
+      "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 9
+      "projectile_damage_base": 12
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -22462,14 +22581,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 3,
-      "retrieval": 3,
       "first_strike": 2,
+      "multishot": 1,
       "point_blank": 2,
       "quick_charge": 3,
-      "multishot": 1,
+      "retrieval": 3,
+      "unbreaking": 3,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 10
+      "projectile_damage_base": 13
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -22488,14 +22607,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 4,
-      "retrieval": 3,
       "first_strike": 3,
+      "multishot": 1,
       "point_blank": 2,
       "quick_charge": 3,
-      "multishot": 1,
+      "retrieval": 3,
+      "unbreaking": 4,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 10
+      "projectile_damage_base": 13
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -22514,14 +22633,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 5,
-      "retrieval": 3,
       "first_strike": 3,
+      "multishot": 1,
       "point_blank": 3,
       "quick_charge": 3,
-      "multishot": 1,
+      "retrieval": 3,
+      "unbreaking": 5,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 10
+      "projectile_damage_base": 13
     },
     "lore": "A weapon dredged from the deepest trenches\nof the Arunara Ocean. Who - or what - could\nhave lost it down there?"
   },
@@ -22580,11 +22699,11 @@
     "type": "Crossbow",
     "stats": {
       "first_strike": 1,
+      "piercing": 1,
       "quick_charge": 1,
       "unbreaking": 4,
-      "piercing": 1,
       "projectile_speed_base": 1,
-      "projectile_damage_base": 13.5
+      "projectile_damage_base": 14
     },
     "lore": "The war scarred the very being of Tlaxani.\nThis craft is but another proof."
   },
@@ -22999,7 +23118,9 @@
     "base_item": "Cyan Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of the Mind.\nMakes clear the truth of this world.\nWhen in a survival zone:\n-  in inventory\n or  in mainhand to set spawn point\n-  +  in mainhand to list spawn\n-  +  in mainhand to clear spawn\nCooldown : 5m"
   },
   "Tesseract of the Mind (u)": {
@@ -23020,7 +23141,9 @@
     "base_item": "Cyan Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of the Mind.\nMakes clear the truth of this world.\nWhen in a survival zone:\n-  in inventory\n or  in mainhand to set spawn point\n-  +  in mainhand to list spawn\n-  +  in mainhand to clear spawn\nCooldown : 2m"
   },
   "Cyan Wool": {
@@ -23238,7 +23361,7 @@
     "stats": {
       "ethereal_ascension_orb_damage_percent": {
         "locked": false,
-        "value": 30
+        "value": 25
       },
       "ethereal_ascension_orb_travel_speed_percent": {
         "locked": false,
@@ -23246,7 +23369,7 @@
       },
       "ethereal_ascension_max_duration_extension_flat": {
         "locked": false,
-        "value": 10
+        "value": 20
       },
       "ethereal_ascension_duration_extension_flat": {
         "locked": false,
@@ -25190,16 +25313,16 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "mending": 1,
-      "piercing": 1,
-      "throwing_knife": 1,
       "infinity": 1,
+      "mending": 1,
+      "piercing": 2,
       "reverb": 1,
+      "throwing_knife": 1,
       "attack_speed_base": 1.8,
       "projectile_speed_base": 1.2,
-      "throw_rate_base": 1,
-      "projectile_damage_base": 17.5,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 15.5,
+      "projectile_damage_base": 20,
+      "throw_rate_base": 0.4
     },
     "lore": "Razzial's dreams were filled with the call\nof the Outworld. After he helped build the\ncontainment bubbles, he was desperate to\nretreat deeper into the final space, prison\nclutched tightly in his arms. Entering the\nportal was the last anyone saw of him, glowing\nwith the energy of a thousand suns."
   },
@@ -25628,13 +25751,17 @@
     "base_item": "Dragon Breath",
     "release_status": "public",
     "stats": {
-      "swiftness_attack_speed_amplifier_percent": {
+      "wind_bomb_cooldown_percent": {
         "locked": false,
-        "value": 10
+        "value": -30
       },
-      "swiftness_speed_amplifier_percent": {
+      "wind_bomb_damage_percent": {
         "locked": false,
-        "value": -10
+        "value": -30
+      },
+      "wind_bomb_vortex_radius_percent": {
+        "locked": false,
+        "value": -30
       }
     },
     "type": "Charm",
@@ -25744,7 +25871,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 5
+        "value": 1.5
       },
       "heavenly_boon_radius_percent": {
         "locked": false,
@@ -25891,17 +26018,13 @@
     "base_item": "Dragon Breath",
     "release_status": "public",
     "stats": {
+      "heavenly_boon_potion_chance_percent": {
+        "locked": false,
+        "value": 3
+      },
       "heavenly_boon_strength_amplifier_percent": {
         "locked": false,
         "value": 5
-      },
-      "heavenly_boon_potion_chance_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "heavenly_boon_cooldown_percent": {
-        "locked": false,
-        "value": -5
       }
     },
     "type": "Charm",
@@ -25973,7 +26096,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 10
+        "value": 3
       }
     },
     "type": "Charm",
@@ -26044,7 +26167,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 5
+        "value": 1.5
       }
     },
     "type": "Charm",
@@ -26123,9 +26246,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "life_drain": 3,
-      "max_health_flat": 2,
-      "agility": 4.5
+      "ailment_fragility": 2,
+      "regeneration": 1,
+      "speed_percent": 10,
+      "agility": 5,
+      "projectile_damage_percent": 18
     },
     "lore": "The vial smells sickeningly sweet\neven from a distance. The outside\nis coated in warning labels... but\nhow dangerous could it be?"
   },
@@ -26543,7 +26668,9 @@
     "base_item": "Echo Shard",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Parses the fabric of consciousness,\nallowing its wielder to obtain full\nawareness of the dream...\n in mainhand or inventory\nto highlight all spawners in a 20\nblock radius.\nCooldown : 1m"
   },
   "Radiant Starblight": {
@@ -26589,6 +26716,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "The Final Herald descends to\nprepare the way. The Stars hunger.\nCompletion of Starless Night or the Celestial Zenith is\nrequired and 4★ Masterwork is recommended for this boss!\nSirius holds order over powerful Starblight\nforces, controlling the battlefield and the\nwills of those who dare to defy his rule.\nPlayers: 1-25 (One life per player)\nGrants instant access to Sirius, the Final Herald."
+  },
+  "Umbral Steel": {
+    "mmlore": [
+      "Is this really meant to be put into a potion?"
+    ],
+    "name": "Umbral Steel",
+    "base_item": "Echo Shard",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Is this really meant to be put into a potion?"
   },
   "Crystallizer": {
     "location": "Celsian Isles",
@@ -27208,22 +27346,22 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
-  "Empowered Rapacious Charm": {
+  "Distant Charm of Precision": {
     "location": "Architect's Ring",
     "region": "Ring",
     "tier": "Base",
-    "name": "Empowered Rapacious Charm",
-    "power": 3,
+    "name": "Distant Charm of Precision",
+    "power": 2,
     "base_item": "Ender Eye",
     "release_status": "public",
     "stats": {
-      "eagle_eye_radius_percent": {
+      "lockdown_damage_percent": {
         "locked": false,
-        "value": 50
+        "value": 10
       },
-      "eagle_eye_vulnerability_amplifier_percent": {
+      "lockdown_max_distance_percent": {
         "locked": false,
-        "value": 5
+        "value": 25
       }
     },
     "type": "Charm",
@@ -27284,6 +27422,23 @@
     "stats": {},
     "lore": "Call forth the tempest."
   },
+  "Focused Charm of Precision": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Precision",
+    "power": 3,
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "stats": {
+      "lockdown_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Focused Umbral Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -27305,18 +27460,18 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
-  "Greater Rapacious Charm": {
+  "Greater Charm of Precision": {
     "location": "Architect's Ring",
     "region": "Ring",
     "tier": "Base",
-    "name": "Greater Rapacious Charm",
+    "name": "Greater Charm of Precision",
     "power": 2,
     "base_item": "Ender Eye",
     "release_status": "public",
     "stats": {
-      "eagle_eye_refresh_flat": {
+      "lockdown_damage_percent": {
         "locked": false,
-        "value": 1
+        "value": 10
       }
     },
     "type": "Charm",
@@ -27356,18 +27511,18 @@
     "type": "Charm",
     "class_name": "Mage"
   },
-  "Lesser Rapacious Charm": {
+  "Lesser Charm of Precision": {
     "location": "Architect's Ring",
     "region": "Ring",
     "tier": "Base",
-    "name": "Lesser Rapacious Charm",
+    "name": "Lesser Charm of Precision",
     "power": 1,
     "base_item": "Ender Eye",
     "release_status": "public",
     "stats": {
-      "eagle_eye_refresh_flat": {
+      "lockdown_damage_percent": {
         "locked": false,
-        "value": 0.5
+        "value": 5
       }
     },
     "type": "Charm",
@@ -27441,7 +27596,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "transposing": 1
+      "transposing": 1,
+      "utility_item_for_armory": 1
     },
     "lore": "Swap hands while in main or off\nhand to swap places with your partner."
   },
@@ -27462,7 +27618,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "infinity": 1
+      "infinity": 1,
+      "utility_item_for_armory": 1
     },
     "lore": "Attuned to the power of Magic.\nWhen thrown, it can warp you to the spot\nwhere it lands.\nActivated by \nwhile in the mainhand.\nCooldown : 12m"
   },
@@ -27483,7 +27640,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "infinity": 1
+      "infinity": 1,
+      "utility_item_for_armory": 1
     },
     "lore": "Attuned to the power of Magic.\nWhen thrown, it can warp you to the spot\nwhere it lands.\nActivated by \nwhile in the mainhand.\nCooldown : 6m"
   },
@@ -27545,6 +27703,35 @@
       "material": 1
     },
     "lore": "Bestowed upon you by a spirit,\ncould restore an artifact to power."
+  },
+  "Explosive Hunting Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Hunting Charm",
+    "power": 3,
+    "base_item": "Feather",
+    "release_status": "public",
+    "stats": {
+      "hunting_companion_damage_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "hunting_companion_pounce_damage_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "hunting_companion_range_percent": {
+        "locked": false,
+        "value": 30
+      },
+      "hunting_companion_pounce_radius_percent": {
+        "locked": false,
+        "value": 30
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Feather of the Hawk": {
     "mmlore": [
@@ -27858,27 +28045,6 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
-  "Sedated Hunting Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Sedated Hunting Charm",
-    "power": 3,
-    "base_item": "Feather",
-    "release_status": "public",
-    "stats": {
-      "hunting_companion_damage_percent": {
-        "locked": false,
-        "value": 20
-      },
-      "hunting_companion_duration_flat": {
-        "locked": false,
-        "value": 5
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Sharpened Holy Feather": {
     "location": "King's Valley",
     "mmlore": [
@@ -27930,9 +28096,13 @@
         "locked": false,
         "value": 15
       },
-      "hunting_companion_cooldown_percent": {
+      "hunting_companion_pounce_damage_percent": {
         "locked": false,
-        "value": -10
+        "value": 15
+      },
+      "hunting_companion_pounce_cooldown_percent": {
+        "locked": false,
+        "value": -15
       }
     },
     "type": "Charm",
@@ -27943,21 +28113,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Tolumaeus Nestfeather",
-    "power": 1,
+    "power": 2,
     "base_item": "Feather",
     "release_status": "public",
     "stats": {
-      "hunting_companion_eagles_flat": {
-        "locked": false,
-        "value": 1
-      },
-      "hunting_companion_damage_percent": {
+      "swiftness_enhancement_vulnerability_amplifier_percent": {
         "locked": false,
         "value": 15
       },
-      "hunting_companion_foxes_flat": {
+      "swiftness_double_jump_cooldown_percent": {
         "locked": false,
-        "value": -1
+        "value": -30
+      },
+      "swiftness_double_jump_strength_percent": {
+        "locked": false,
+        "value": -30
       }
     },
     "type": "Charm",
@@ -28334,17 +28504,17 @@
     "base_item": "Fire Charge",
     "release_status": "public",
     "stats": {
-      "eagle_eye_enhancement_hits_flat": {
-        "locked": false,
-        "value": 1
+      "parting_shot_cooldown_percent": {
+        "locked": true,
+        "value": -25
       },
-      "eagle_eye_enhancement_damage_percent": {
+      "parting_shot_threshold_percent": {
         "locked": false,
-        "value": 25
+        "value": 55
       },
-      "eagle_eye_radius_percent": {
+      "parting_shot_reveal_vulnerability_amplifier_percent": {
         "locked": false,
-        "value": -50
+        "value": 15
       }
     },
     "type": "Charm",
@@ -28537,6 +28707,25 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Generalist"
+  },
+  "Remnant of the Vision": {
+    "location": "Quest Reward",
+    "mmlore": [
+      "After witnessing that realm beyond the Veil,",
+      "he swore never to return to the Arboretum.",
+      "Never to learn what he unleashed. Never to",
+      "learn what became of his brethren.",
+      "Purchase of this item will grant you access",
+      "to the Dissonant Vision plot border."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Remnant of the Vision",
+    "base_item": "Fire Coral",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "After witnessing that realm beyond the Veil,\nhe swore never to return to the Arboretum.\nNever to learn what he unleashed. Never to\nlearn what became of his brethren.\nPurchase of this item will grant you access\nto the Dissonant Vision plot border."
   },
   "Season's Wrath": {
     "location": "Yellow",
@@ -29112,9 +29301,17 @@
     "base_item": "Flint",
     "release_status": "public",
     "stats": {
+      "lockdown_pierce_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "quiver_storm_pierce_flat": {
+        "locked": false,
+        "value": 1
+      },
       "predator_strike_enemies_pierced_flat": {
         "locked": false,
-        "value": 2
+        "value": 1
       }
     },
     "type": "Charm",
@@ -29189,6 +29386,69 @@
       "projectile_damage_percent": 30
     },
     "lore": "The razor's edge of Ixume's own arrows.\nThey will tear through flesh."
+  },
+  "Focused Shattering Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Shattering Charm",
+    "power": 3,
+    "base_item": "Flint",
+    "release_status": "public",
+    "stats": {
+      "shrapnel_bomb_damage_percent": {
+        "locked": false,
+        "value": 35
+      },
+      "shrapnel_bomb_shrapnel_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
+  "Greater Shattering Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Shattering Charm",
+    "power": 2,
+    "base_item": "Flint",
+    "release_status": "public",
+    "stats": {
+      "shrapnel_bomb_damage_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "shrapnel_bomb_shrapnel_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
+  "Lesser Shattering Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Shattering Charm",
+    "power": 1,
+    "base_item": "Flint",
+    "release_status": "public",
+    "stats": {
+      "shrapnel_bomb_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "shrapnel_bomb_shrapnel_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Masked's Black Knife": {
     "location": "Ruin",
@@ -29374,6 +29634,31 @@
     "type": "Charm",
     "class_name": "Mage"
   },
+  "Swift Shattering Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Shattering Charm",
+    "power": 2,
+    "base_item": "Flint",
+    "release_status": "public",
+    "stats": {
+      "shrapnel_bomb_cooldown_percent": {
+        "locked": false,
+        "value": -15
+      },
+      "shrapnel_bomb_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "shrapnel_bomb_shrapnel_damage_percent": {
+        "locked": false,
+        "value": 15
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Swiftwood Arrow": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -29391,7 +29676,7 @@
         "locked": false,
         "value": 4
       },
-      "swiftness_speed_amplifier_percent": {
+      "fleetfooted_speed_percent": {
         "locked": false,
         "value": 10
       }
@@ -29617,7 +29902,7 @@
         "locked": false,
         "value": 25
       },
-      "keeper_virtue_healing_percent": {
+      "heavenly_boon_healing_percent": {
         "locked": false,
         "value": 25
       },
@@ -29629,9 +29914,9 @@
         "locked": false,
         "value": -40
       },
-      "keeper_virtue_damage_percent": {
+      "heavenly_boon_speed_amplifier_percent": {
         "locked": false,
-        "value": -40
+        "value": -5
       }
     },
     "type": "Charm",
@@ -30032,6 +30317,17 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Tear of the Dolphin": {
+    "mmlore": [
+      "Somehow, it does not dissolve underwater."
+    ],
+    "name": "Tear of the Dolphin",
+    "base_item": "Ghast Tear",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Somehow, it does not dissolve underwater."
   },
   "Tear of the Moon": {
     "location": "Light Gray",
@@ -30485,6 +30781,18 @@
     "stats": {},
     "lore": "Epic Crafting Ingredient"
   },
+  "Blessed Scripture": {
+    "mmlore": [
+      "Under the western spire that drinks the evening sun,",
+      "Knowledge rests, untouched and claimed by none."
+    ],
+    "name": "Blessed Scripture",
+    "base_item": "Globe Banner Pattern",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Under the western spire that drinks the evening sun,\nKnowledge rests, untouched and claimed by none."
+  },
   "Amberlight Seed": {
     "location": "Hexfall",
     "region": "Ring",
@@ -30505,6 +30813,17 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Moondrop Berries": {
+    "mmlore": [
+      "Gathered freshly from the Arboretum's spring fields."
+    ],
+    "name": "Moondrop Berries",
+    "base_item": "Glow Berries",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Gathered freshly from the Arboretum's spring fields."
   },
   "Succulent Berry": {
     "mmlore": [
@@ -30585,6 +30904,18 @@
     },
     "lore": "An ageless horn, serenading into the wind a\nmelody as empty as the night sky."
   },
+  "Glowing Powder Sack": {
+    "mmlore": [
+      "Generic potion basis that helps to channel the",
+      "magic within ingredients added to the cauldron."
+    ],
+    "name": "Glowing Powder Sack",
+    "base_item": "Glow Ink Sac",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Generic potion basis that helps to channel the\nmagic within ingredients added to the cauldron."
+  },
   "Indigo Blightdust": {
     "location": "Zenith",
     "mmlore": [
@@ -30653,17 +30984,17 @@
     "base_item": "Glowstone Dust",
     "release_status": "public",
     "stats": {
-      "keeper_virtue_health_flat": {
+      "keeper_virtue_damage_percent": {
         "locked": false,
-        "value": 3
+        "value": 10
       },
-      "keeper_virtue_action_range_percent": {
+      "keeper_virtue_redirect_range_percent": {
         "locked": false,
-        "value": 35
+        "value": 30
       },
-      "keeper_virtue_detection_range_percent": {
+      "keeper_virtue_absorption_duration_percent": {
         "locked": false,
-        "value": 35
+        "value": 10
       }
     },
     "type": "Charm",
@@ -30775,9 +31106,9 @@
         "locked": false,
         "value": 20
       },
-      "keeper_virtue_healing_percent": {
+      "keeper_virtue_absorption_duration_percent": {
         "locked": false,
-        "value": 10
+        "value": 20
       }
     },
     "type": "Charm",
@@ -30829,9 +31160,9 @@
         "locked": false,
         "value": 10
       },
-      "keeper_virtue_healing_percent": {
+      "keeper_virtue_absorption_duration_percent": {
         "locked": false,
-        "value": 5
+        "value": 10
       }
     },
     "type": "Charm",
@@ -31901,13 +32232,13 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "knockback": 4,
-      "cumbersome": 1,
+      "impact": 4,
+      "knockback": 5,
+      "sweeping_edge": 5,
       "unbreakable": 1,
-      "sweeping_edge": 4,
-      "impact": 3,
       "attack_speed_base": 1,
-      "attack_damage_base": 28
+      "speed_percent": -15,
+      "attack_damage_base": 22
     },
     "lore": "A gift from New Antium for the extermination of\nthe Hoglin infestation. A hammer so large only\na scant few could bear its monstrous weight."
   },
@@ -31926,13 +32257,13 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "knockback": 4,
-      "cumbersome": 1,
+      "impact": 5,
+      "knockback": 5,
+      "sweeping_edge": 5,
       "unbreakable": 1,
-      "sweeping_edge": 4,
-      "impact": 4,
-      "attack_damage_base": 28.5,
-      "attack_speed_base": 1
+      "attack_speed_base": 1,
+      "speed_percent": -15,
+      "attack_damage_base": 22
     },
     "lore": "A gift from New Antium for the extermination of\nthe Hoglin infestation. A hammer so large only\na scant few could bear its monstrous weight."
   },
@@ -32565,10 +32896,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
+      "magic_protection": 3,
+      "retrieval": 3,
       "sustenance": 1,
       "unbreaking": 6,
-      "magic_protection": 3,
-      "speed_percent": 15,
+      "speed_percent": 20,
       "agility": 6.5
     },
     "lore": "Though nature may step with time\nin tandem, man must be left in\nthe dust of history."
@@ -32984,11 +33316,11 @@
     "type": "Chestplate",
     "stats": {
       "blast_protection": 2,
-      "unbreaking": 8,
-      "projectile_protection": 2,
+      "projectile_protection": 3,
       "shielding": 1,
-      "armor": 6,
-      "thorns_flat": 2
+      "unbreaking": 8,
+      "thorns_flat": 2,
+      "armor": 5.5
     },
     "lore": "Emblazoned with the form of Stag,\na mantle grown of ivy green."
   },
@@ -35572,11 +35904,12 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "projectile_protection": 2,
+      "melee_protection": 1,
       "mending": 1,
       "regeneration": 1,
-      "agility": 6,
-      "speed_percent": 15
+      "projectile_damage_percent": 10,
+      "speed_percent": 10,
+      "agility": 5
     },
     "lore": "Untarnished, the armor seems to exist\noutside of history. You feel that\nfate is on your side."
   },
@@ -39208,13 +39541,17 @@
         "locked": false,
         "value": 80
       },
-      "volley_cooldown_percent": {
-        "locked": false,
-        "value": 50
-      },
       "volley_piercing_flat": {
         "locked": false,
         "value": 1
+      },
+      "volley_cooldown_percent": {
+        "locked": false,
+        "value": 60
+      },
+      "volley_charges_flat": {
+        "locked": false,
+        "value": -1
       }
     },
     "type": "Charm",
@@ -39236,7 +39573,9 @@
     "base_item": "Gray Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Death.\nRevives those from the dead who will\ngladly die again by your hand.\nActivated by \nwhile in the mainhand or inventory.\nCooldown : 5m"
   },
   "Tesseract of Death (u)": {
@@ -39256,7 +39595,9 @@
     "base_item": "Gray Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Death.\nRevives those from the dead who will\ngladly die again by your hand.\nActivated by \nwhile in the mainhand or inventory.\nCharges : 2\nCooldown : 7m"
   },
   "Gray Wool": {
@@ -39549,17 +39890,17 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Explosive Stalker Charm",
-    "power": 3,
+    "power": 2,
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "predator_strike_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
       "predator_strike_radius_percent": {
         "locked": false,
-        "value": 100
+        "value": 50
+      },
+      "predator_strike_splinter_radius_percent": {
+        "locked": false,
+        "value": 33
       }
     },
     "type": "Charm",
@@ -39745,21 +40086,21 @@
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "rending_razor_cooldown_percent": {
+      "rending_razor_cooldown_reduction_amplifier_percent": {
         "locked": false,
-        "value": -45
+        "value": 20
+      },
+      "rending_razor_range_percent": {
+        "locked": false,
+        "value": 30
       },
       "rending_razor_travel_speed_percent": {
         "locked": false,
-        "value": 35
+        "value": 30
       },
-      "rending_razor_embed_damage_percent": {
-        "locked": true,
-        "value": -25
-      },
-      "rending_razor_rend_damage_percent": {
-        "locked": true,
-        "value": -25
+      "rending_razor_cooldown_reduction_duration_percent": {
+        "locked": false,
+        "value": -30
       }
     },
     "type": "Charm",
@@ -39932,21 +40273,29 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Dragon's Eye",
-    "power": 2,
+    "power": 3,
     "base_item": "Heart Of The Sea",
     "release_status": "public",
     "stats": {
-      "predator_strike_cooldown_percent": {
+      "predator_strike_splinter_cone_percent": {
         "locked": false,
-        "value": 100
+        "value": 50
       },
       "predator_strike_damage_percent": {
         "locked": false,
-        "value": 130
+        "value": 50
       },
-      "predator_strike_radius_percent": {
+      "predator_strike_splinter_radius_percent": {
         "locked": false,
-        "value": 100
+        "value": 35
+      },
+      "predator_strike_splinter_distance_requirement_percent": {
+        "locked": false,
+        "value": 35
+      },
+      "predator_strike_cooldown_percent": {
+        "locked": false,
+        "value": 30
       }
     },
     "type": "Charm",
@@ -40863,7 +41212,9 @@
     "base_item": "Ice",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of holiday spirit.\nBrings the festivities to your location,\naffecting all nearby players with a sense of joy.\nActivated by  while in the mainhand.\nSpreads cheer by  while in the mainhand.\nCooldown : 5m"
   },
   "Tesseract of Festivity (u)": {
@@ -40883,7 +41234,9 @@
     "base_item": "Ice",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of holiday spirit.\nBrings the festivities to your location,\naffecting all nearby players with a sense of joy.\nSnowman allies summoned are much more powerful.\nActivated by  while in the mainhand.\nSpreads cheer by  while in the mainhand.\nCooldown : 5m"
   },
   "True Ice": {
@@ -46149,17 +46502,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Hypercharged Blade",
-    "power": 3,
+    "power": 2,
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "swift_cuts_stack_damage_percent": {
+      "rending_razor_damage_percent": {
         "locked": false,
-        "value": 2
+        "value": 30
       },
-      "swift_cuts_effect_duration_flat": {
+      "rending_razor_size_percent": {
         "locked": false,
-        "value": 0.5
+        "value": 30
+      },
+      "rending_razor_cooldown_percent": {
+        "locked": false,
+        "value": -10
       }
     },
     "type": "Charm",
@@ -47149,13 +47506,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Quickening Bracer",
-    "power": 2,
+    "power": 1,
     "base_item": "Iron Nugget",
     "release_status": "public",
     "stats": {
-      "swiftness_enhancement_cooldown_reduction_percent": {
+      "swiftness_double_jump_strength_percent": {
         "locked": false,
-        "value": 5
+        "value": 20
+      },
+      "fleetfooted_speed_percent": {
+        "locked": false,
+        "value": 10
       }
     },
     "type": "Charm",
@@ -48734,12 +49095,11 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "unbreakable": 1,
       "shielding": 1,
-      "first_strike": 2,
-      "knockback_resistance_flat": 3,
+      "unbreakable": 1,
       "throw_rate_percent": 10,
-      "armor": 5
+      "armor": 5,
+      "projectile_damage_percent": 10
     },
     "lore": "Not a step back, impale the marauders\nupon this line!"
   },
@@ -51249,17 +51609,21 @@
     "base_item": "Lantern",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_damage_percent": {
+      "shrapnel_bomb_damage_boost_percent": {
         "locked": false,
-        "value": 75
+        "value": 15
       },
-      "tactical_maneuver_velocity_percent": {
+      "shrapnel_bomb_cooldown_percent": {
         "locked": false,
-        "value": 25
+        "value": -25
       },
-      "tactical_maneuver_cooldown_percent": {
+      "shrapnel_bomb_damage_percent": {
         "locked": false,
-        "value": 25
+        "value": -40
+      },
+      "shrapnel_bomb_shrapnel_damage_percent": {
+        "locked": false,
+        "value": -40
       }
     },
     "type": "Charm",
@@ -51712,7 +52076,7 @@
     "stats": {
       "hallowed_beam_stun_duration_flat": {
         "locked": false,
-        "value": 1.5
+        "value": 1
       },
       "hallowed_beam_resistance_percent": {
         "locked": false,
@@ -61391,6 +61755,30 @@
       "attack_damage_percent": 12
     }
   },
+  "Vestige of Viridia": {
+    "location": "Celsian Isles",
+    "mmlore": [
+      "Even after its abandonment, the empire",
+      "would stay of interest to the taletellers.",
+      "The fate of neither realm nor ruler",
+      "had yet come to an end."
+    ],
+    "region": "Isles",
+    "tier": "Unique",
+    "name": "Vestige of Viridia",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adrenaline": 2,
+      "mending": 1,
+      "poise": 1,
+      "max_health_flat": -2,
+      "armor": 7,
+      "magic_damage_percent": 15
+    },
+    "lore": "Even after its abandonment, the empire\nwould stay of interest to the taletellers.\nThe fate of neither realm nor ruler\nhad yet come to an end."
+  },
   "Viridian Archmage Hat": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -65471,11 +65859,11 @@
     "stats": {
       "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": 40
+        "value": 60
       },
-      "hallowed_beam_distance_percent": {
+      "hallowed_beam_max_scaling_distance_percent": {
         "locked": false,
-        "value": -50
+        "value": -100
       },
       "hallowed_beam_stun_duration_percent": {
         "locked": false,
@@ -65512,6 +65900,17 @@
     "type": "Misc",
     "stats": {},
     "lore": "Grants access to dungeon:\nPalace of Mirrors\nDifficulty : ☠☠☠☠☠"
+  },
+  "Broth Basis": {
+    "mmlore": [
+      "Potion base that tastes really good!"
+    ],
+    "name": "Broth Basis",
+    "base_item": "Light Gray Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Potion base that tastes really good!"
   },
   "Corpse Gas Infuser": {
     "location": "Celsian Isles",
@@ -65728,6 +66127,7 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "utility_item_for_armory": 1,
       "weightless": 1
     },
     "lore": "Attuned to the power of Light.\nBrings forth light that will pierce\nthrough the darkness around you.\nActivated by \nwhile in the mainhand.\nCharges : 12\nCooldown : 3s per charge"
@@ -65750,6 +66150,7 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "utility_item_for_armory": 1,
       "weightless": 1
     },
     "lore": "Attuned to the power of Light.\nBrings forth light that will pierce\nthrough the darkness around you.\nActivated by \nwhile in the mainhand.\nCharges : ∞\nCooldown : None"
@@ -66180,7 +66581,9 @@
     "base_item": "Lime Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Knowledge.\nManifests your intellect into physical\nform, providing you an anvil in exchange.\nActivated by \nwhile in the mainhand or inventory.\n +  while in mainhand\nto convert all EXP into anvils.\nCooldown : None"
   },
   "Tesseract of Knowledge (u)": {
@@ -66202,7 +66605,9 @@
     "base_item": "Lime Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Knowledge.\nManifests your intellect into physical\nform, providing you an anvil in exchange.\n in mainhand or inventory to create an anvil.\nIf also holding , will show advanced options.\n while in mainhand to take out a stack of anvils.\n on another item to repair it using a stored anvil.\nStore anvils with  on this tesseract.\nCooldown : None"
   },
   "Emerald Lens": {
@@ -66214,17 +66619,13 @@
     "base_item": "Lime Stained Glass Pane",
     "release_status": "public",
     "stats": {
-      "hallowed_beam_cooldown_percent": {
+      "hallowed_beam_charges_flat": {
         "locked": false,
-        "value": -25
+        "value": 1
       },
-      "hallowed_beam_healing_percent": {
+      "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": -25
-      },
-      "hallowed_beam_charge_flat": {
-        "locked": false,
-        "value": -1
+        "value": -15
       }
     },
     "type": "Charm",
@@ -66553,7 +66954,9 @@
     "base_item": "Magenta Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Pestilence.\nSummons a totem that infects all\nnearby enemies with a deadly disease.\nActivated by \nwhile in the mainhand.\nCooldown : 5m"
   },
   "Tesseract of Pestilence (u)": {
@@ -66573,7 +66976,9 @@
     "base_item": "Magenta Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Pestilence.\nSummons a totem that infects all\nnearby enemies with a deadly disease.\nActivated by \nwhile in the mainhand.\nCharges : 2\nCooldown : 7m"
   },
   "Magenta Wool": {
@@ -66615,6 +67020,17 @@
       "fire_aspect": 1
     },
     "lore": "* Quest Item *\n#Q10I01"
+  },
+  "Cinires Liqo": {
+    "mmlore": [
+      "Quite hot to the touch... wait, it's melting!"
+    ],
+    "name": "Cinires Liqo",
+    "base_item": "Magma Block",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Quite hot to the touch... wait, it's melting!"
   },
   "Cracked Crystal (magma_block)": {
     "mmlore": [
@@ -67587,21 +68003,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Loci Carving",
-    "power": 3,
+    "power": 4,
     "base_item": "Mud Brick Wall",
     "release_status": "public",
     "stats": {
+      "volley_multishot_shots_flat": {
+        "locked": false,
+        "value": 1
+      },
       "volley_cooldown_percent": {
         "locked": false,
-        "value": -60
+        "value": -25
       },
       "volley_damage_percent": {
         "locked": false,
-        "value": -40
-      },
-      "volley_arrows_flat": {
-        "locked": false,
-        "value": -5
+        "value": -25
       }
     },
     "type": "Charm",
@@ -67658,6 +68074,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
+      "utility_item_for_armory": 1,
       "worldly_protection": 2
     },
     "lore": "Her touch distorts the mightiest of\npower. Her retreat leaves that power to\nbe claimed by those who truly need it.\n or  to enter Stasis.\nCooldown : 6m"
@@ -67678,6 +68095,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
+      "utility_item_for_armory": 1,
       "worldly_protection": 2
     },
     "lore": "Rather than an eldritch disc infected\nby Faimynyw, Annilys has become the\nTeal Tesseract, powered by time itself.\n or  to enter Stasis.\nCooldown : 6m"
@@ -67925,21 +68343,25 @@
     "base_item": "Music Disc Stal",
     "release_status": "public",
     "stats": {
-      "predator_strike_cooldown_percent": {
+      "predator_strike_splinter_cooldown_reduction_multiplier_percent": {
         "locked": true,
-        "value": -80
+        "value": 72.5
       },
-      "predator_strike_radius_percent": {
-        "locked": true,
-        "value": 80
+      "predator_strike_splinter_radius_percent": {
+        "locked": false,
+        "value": 100
       },
       "predator_strike_damage_percent": {
-        "locked": false,
-        "value": -60
+        "locked": true,
+        "value": -50
       },
-      "predator_strike_range_percent": {
+      "predator_strike_splinter_cone_percent": {
         "locked": false,
-        "value": -60
+        "value": -50
+      },
+      "quiver_storm_predator_strike_arrow_recharge_flat": {
+        "locked": false,
+        "value": -2
       }
     },
     "type": "Charm",
@@ -68768,21 +69190,21 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Harrakfar's Roar",
-    "power": 3,
+    "power": 2,
     "base_item": "Nether Star",
     "release_status": "public",
     "stats": {
-      "wind_bomb_vortex_duration_flat": {
+      "wind_bomb_radius_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "wind_bomb_size_flat": {
         "locked": false,
         "value": 3
       },
-      "wind_bomb_vortex_pull_percent": {
+      "wind_bomb_duration_flat": {
         "locked": false,
-        "value": 50
-      },
-      "wind_bomb_vortex_radius_percent": {
-        "locked": false,
-        "value": 50
+        "value": 3
       }
     },
     "type": "Charm",
@@ -68953,9 +69375,9 @@
         "locked": false,
         "value": 60
       },
-      "luminous_infusion_knockback_percent": {
+      "luminous_infusion_cooldown_percent": {
         "locked": false,
-        "value": 50
+        "value": -35
       },
       "luminous_infusion_charges_flat": {
         "locked": true,
@@ -69059,25 +69481,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Starseeker's Emblem",
-    "power": 3,
+    "power": 4,
     "base_item": "Nether Star",
     "release_status": "public",
     "stats": {
-      "whirling_blade_cycles_flat": {
+      "gale_shot_count_flat": {
         "locked": false,
-        "value": 2
+        "value": 1
       },
-      "whirling_blade_radius_percent": {
+      "gale_shot_ability_requirement_flat": {
         "locked": false,
-        "value": 30
-      },
-      "whirling_blade_damage_percent": {
-        "locked": true,
-        "value": -50
-      },
-      "whirling_blade_stun_duration_percent": {
-        "locked": false,
-        "value": -100
+        "value": 1
       }
     },
     "type": "Charm",
@@ -70812,6 +71226,17 @@
     "type": "Misc",
     "stats": {}
   },
+  "Crunchy Leaf": {
+    "mmlore": [
+      "Don't step on it!"
+    ],
+    "name": "Crunchy Leaf",
+    "base_item": "Orange Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Don't step on it!"
+  },
   "Crystallized Rage": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Harvested directly from the source.",
@@ -71073,7 +71498,9 @@
     "base_item": "Orange Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of the Body.\nCan strengthen your body for 10 minutes,\ngranting you periodic Absorption I.\nActivated by \nwhile in the mainhand or inventory.\nCooldown : 30m"
   },
   "Tesseract of the Body (u)": {
@@ -71092,7 +71519,9 @@
     "base_item": "Orange Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of the Body.\nCan strengthen your body for 10 minutes,\ngranting you periodic Absorption I and +20% speed.\nActivated by \nwhile in the mainhand or inventory.\nCooldown : 20m"
   },
   "Fireblossom": {
@@ -71526,7 +71955,7 @@
     "stats": {
       "choir_bells_damage_percent": {
         "locked": false,
-        "value": 200
+        "value": 75
       },
       "choir_bells_vulnerability_amplifier_percent": {
         "locked": false,
@@ -72043,27 +72472,6 @@
     "stats": {},
     "lore": "It doesn't look appetizing, but it will guide\nthe dreams of those who eat it.\n* Quest Item *\n#Q57I04"
   },
-  "Distant Chakram Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Distant Chakram Charm",
-    "power": 3,
-    "base_item": "Phantom Membrane",
-    "release_status": "public",
-    "stats": {
-      "whirling_blade_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "whirling_blade_radius_percent": {
-        "locked": false,
-        "value": 40
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Distant Sacrosant Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -72084,23 +72492,6 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
-  },
-  "Focused Chakram Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Chakram Charm",
-    "power": 3,
-    "base_item": "Phantom Membrane",
-    "release_status": "public",
-    "stats": {
-      "whirling_blade_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Focused Sacrosant Charm": {
     "location": "Architect's Ring",
@@ -72123,23 +72514,6 @@
     "type": "Charm",
     "class_name": "Cleric"
   },
-  "Greater Chakram Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Chakram Charm",
-    "power": 2,
-    "base_item": "Phantom Membrane",
-    "release_status": "public",
-    "stats": {
-      "whirling_blade_damage_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Greater Sacrosant Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -72160,23 +72534,6 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
-  },
-  "Lesser Chakram Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Chakram Charm",
-    "power": 1,
-    "base_item": "Phantom Membrane",
-    "release_status": "public",
-    "stats": {
-      "whirling_blade_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Lesser Sacrosant Charm": {
     "location": "Architect's Ring",
@@ -72321,27 +72678,6 @@
     "stats": {},
     "lore": "Epic Crafting Material\nStructures of pure spiritual energy.\nIts nature is like the wind:\nto stay one day, and disappear the next."
   },
-  "Strong Chakram Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Strong Chakram Charm",
-    "power": 2,
-    "base_item": "Phantom Membrane",
-    "release_status": "public",
-    "stats": {
-      "whirling_blade_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "whirling_blade_knockback_percent": {
-        "locked": false,
-        "value": 50
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Sustaining Sacrosant Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -72362,27 +72698,6 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
-  },
-  "Swift Chakram Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Chakram Charm",
-    "power": 2,
-    "base_item": "Phantom Membrane",
-    "release_status": "public",
-    "stats": {
-      "whirling_blade_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "whirling_blade_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Swift Sacrosant Charm": {
     "location": "Architect's Ring",
@@ -72674,7 +72989,9 @@
     "base_item": "Pink Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Balance.\nBrings balance to the land around you,\nsummoning a seasonal tree at your location.\nActivated by  while in the mainhand.\nCooldown : 15m"
   },
   "Tesseract of Balance (u)": {
@@ -72693,7 +73010,9 @@
     "base_item": "Pink Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Balance.\nBrings balance to the land around you,\nsummoning a seasonal tree at your location.\nActivated by  while in the mainhand.\nCharges : 2\nCooldown : 10m per charge"
   },
   "Ancient Pink Tulip": {
@@ -76568,7 +76887,7 @@
       },
       "holy_javelin_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 25
       }
     },
     "type": "Charm",
@@ -76856,6 +77175,24 @@
     "type": "Misc",
     "stats": {},
     "lore": "This hedge fund hog collects rings for some reason.\nYou feel its urge to trade fast is holding it back.\nRight Click while in inventory to open.\nRight Click an item on the piggy to store it.\nPress  to deposit all your currency."
+  },
+  "Acidic Mixture": {
+    "mmlore": [
+      "You can hear it sizzling..."
+    ],
+    "name": "Acidic Mixture",
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 10,
+        "EffectType": "Poison"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "You can hear it sizzling..."
   },
   "Aesir's Embrace": {
     "location": "Azacor",
@@ -78735,6 +79072,24 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Dissonant Concoction": {
+    "mmlore": [
+      "Bubbles with unforeseeable intent."
+    ],
+    "name": "Dissonant Concoction",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.2,
+        "EffectType": "InstantDamagePercent"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Bubbles with unforeseeable intent."
   },
   "Distilled Bloodrage": {
     "location": "Zenith",
@@ -82284,6 +82639,17 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Unavailing Potion": {
+    "mmlore": [
+      "At least your cauldron didnt explode."
+    ],
+    "name": "Unavailing Potion",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "At least your cauldron didnt explode."
+  },
   "Unquenchable Thirst": {
     "location": "Zenith",
     "mmlore": [
@@ -83166,7 +83532,7 @@
     "stats": {
       "illuminate_damage_percent": {
         "locked": false,
-        "value": 100
+        "value": 60
       },
       "illuminate_radius_percent": {
         "locked": false,
@@ -84065,7 +84431,9 @@
     "base_item": "Purple Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Emotions.\nDraws forth that which lies within.\nPunch a chest while holding in mainhand\nto convert the chest into an item.\nCooldown : None"
   },
   "Tesseract of Emotions (u)": {
@@ -84085,7 +84453,9 @@
     "base_item": "Purple Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of Emotions.\nDraws forth that which lies within.\nPunch a chest or barrel while holding in\nmainhand to convert it into an item.\nSneak + Punch a chest while holding to\nconvert it into a barrel, and vice versa.\nCooldown : None"
   },
   "Purple Wool": {
@@ -84210,17 +84580,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Cerberus Tooth",
-    "power": 5,
+    "power": 4,
     "base_item": "Quartz",
     "release_status": "public",
     "stats": {
       "hunting_companion_foxes_flat": {
         "locked": false,
-        "value": 2
+        "value": 1
+      },
+      "hunting_companion_healing_percent": {
+        "locked": false,
+        "value": -50
       },
       "hunting_companion_damage_percent": {
         "locked": false,
-        "value": -40
+        "value": -50
       }
     },
     "type": "Charm",
@@ -84320,15 +84694,11 @@
     "stats": {
       "rending_razor_range_percent": {
         "locked": false,
-        "value": 40
+        "value": 30
       },
-      "rending_razor_embed_damage_percent": {
+      "rending_razor_damage_percent": {
         "locked": false,
-        "value": 10
-      },
-      "rending_razor_rend_damage_percent": {
-        "locked": false,
-        "value": 10
+        "value": 20
       }
     },
     "type": "Charm",
@@ -84425,13 +84795,9 @@
     "base_item": "Quartz",
     "release_status": "public",
     "stats": {
-      "rending_razor_embed_damage_percent": {
+      "rending_razor_damage_percent": {
         "locked": false,
-        "value": 15
-      },
-      "rending_razor_rend_damage_percent": {
-        "locked": false,
-        "value": 15
+        "value": 35
       }
     },
     "type": "Charm",
@@ -84519,13 +84885,9 @@
     "base_item": "Quartz",
     "release_status": "public",
     "stats": {
-      "rending_razor_embed_damage_percent": {
+      "rending_razor_damage_percent": {
         "locked": false,
-        "value": 10
-      },
-      "rending_razor_rend_damage_percent": {
-        "locked": false,
-        "value": 10
+        "value": 20
       }
     },
     "type": "Charm",
@@ -84618,13 +84980,9 @@
     "base_item": "Quartz",
     "release_status": "public",
     "stats": {
-      "rending_razor_embed_damage_percent": {
+      "rending_razor_damage_percent": {
         "locked": false,
-        "value": 5
-      },
-      "rending_razor_rend_damage_percent": {
-        "locked": false,
-        "value": 5
+        "value": 10
       }
     },
     "type": "Charm",
@@ -85043,34 +85401,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Fragmented Shaft",
-    "power": 2,
+    "power": 1,
     "base_item": "Rabbit Foot",
     "release_status": "public",
     "stats": {
-      "split_arrow_bounces_flat": {
+      "shrapnel_bomb_boosted_hits_flat": {
         "locked": false,
         "value": 1
       },
-      "split_arrow_damage_percent": {
+      "shrapnel_bomb_damage_percent": {
         "locked": false,
-        "value": -20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
-  "Greater Charm of Swiftness": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Swiftness",
-    "power": 2,
-    "base_item": "Rabbit Foot",
-    "release_status": "public",
-    "stats": {
-      "swiftness_jump_boost_amplifier_flat": {
+        "value": -25
+      },
+      "shrapnel_bomb_shrapnel_damage_percent": {
         "locked": false,
-        "value": 1
+        "value": -25
       }
     },
     "type": "Charm",
@@ -85096,23 +85441,6 @@
     },
     "type": "Charm",
     "class_name": "Alchemist"
-  },
-  "Lesser Charm of Swiftness": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Swiftness",
-    "power": 1,
-    "base_item": "Rabbit Foot",
-    "release_status": "public",
-    "stats": {
-      "swiftness_speed_amplifier_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Lesser Energized Charm": {
     "location": "Architect's Ring",
@@ -85255,7 +85583,7 @@
     "stats": {
       "hunting_companion_healing_percent": {
         "locked": false,
-        "value": 100
+        "value": 25
       },
       "hunting_companion_speed_percent": {
         "locked": false,
@@ -85387,7 +85715,7 @@
       },
       "luminous_infusion_damage_percent": {
         "locked": false,
-        "value": -20
+        "value": -25
       },
       "luminous_infusion_radius_percent": {
         "locked": false,
@@ -85705,13 +86033,21 @@
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
-      "split_arrow_range_percent": {
+      "steel_trap_stagger_duration_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "steel_trap_radius_percent": {
         "locked": false,
         "value": 50
       },
-      "split_arrow_damage_percent": {
+      "steel_trap_trigger_radius_percent": {
         "locked": false,
-        "value": -10
+        "value": 50
+      },
+      "steel_trap_priming_duration_percent": {
+        "locked": false,
+        "value": 33
       }
     },
     "type": "Charm",
@@ -86252,17 +86588,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodhound's Crest",
-    "power": 3,
+    "power": 4,
     "base_item": "Redstone",
     "release_status": "public",
     "stats": {
-      "quickdraw_cooldown_percent": {
+      "quiver_storm_max_stacks_flat": {
         "locked": false,
-        "value": -33
+        "value": 3
       },
-      "quickdraw_damage_percent": {
+      "quiver_storm_predator_strike_arrow_recharge_flat": {
         "locked": false,
-        "value": -10
+        "value": 3
+      },
+      "quiver_storm_lockdown_arrow_recharge_flat": {
+        "locked": false,
+        "value": 1
       }
     },
     "type": "Charm",
@@ -86483,6 +86823,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "Legacy currency for the Transmogrifier."
+  },
+  "Powder of Lucidity": {
+    "mmlore": [
+      "Potion base that allows to pierce into what",
+      "is obscured by the dissonance within."
+    ],
+    "name": "Powder of Lucidity",
+    "base_item": "Redstone",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Potion base that allows to pierce into what\nis obscured by the dissonance within."
   },
   "Pulsating Powder Fragment": {
     "location": "Celsian Isles",
@@ -87462,17 +87814,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Specialist Bauble",
-    "power": 1,
+    "power": 2,
     "base_item": "Scute",
     "release_status": "public",
     "stats": {
-      "keeper_virtue_regeneration_percent": {
+      "keeper_virtue_shielding_flares_flat": {
         "locked": false,
-        "value": 20
+        "value": 1
       },
-      "keeper_virtue_cooldown_percent": {
+      "keeper_virtue_harming_flares_flat": {
         "locked": false,
-        "value": -20
+        "value": 1
+      },
+      "keeper_virtue_touch_of_radiance_damage_percent": {
+        "locked": false,
+        "value": 15
       }
     },
     "type": "Charm",
@@ -88176,7 +88532,7 @@
     "type": "Offhand Shield",
     "stats": {
       "ethereal": 1,
-      "unbreaking": 3,
+      "unbreaking": 4,
       "attack_speed_percent": 10,
       "agility": 4.5
     },
@@ -88679,11 +89035,11 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
+      "blast_protection": 2,
       "guard": 1,
       "unbreaking": 4,
-      "blast_protection": 2,
-      "knockback_resistance_flat": 3,
-      "armor": 3
+      "armor": 3,
+      "knockback_resistance_flat": 2
     },
     "lore": "Tension and release. The grinding\nof copper on steel. The Machine\nhas a breath-like pulse to it, unlike\nany human construct you've encountered."
   },
@@ -88703,11 +89059,11 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
+      "blast_protection": 2,
       "guard": 1,
       "unbreaking": 5,
-      "blast_protection": 2,
-      "knockback_resistance_flat": 3,
-      "armor": 3.5
+      "armor": 3.5,
+      "knockback_resistance_flat": 2
     },
     "lore": "Tension and release. The grinding\nof copper on steel. The Machine\nhas a breath-like pulse to it, unlike\nany human construct you've encountered."
   },
@@ -88727,11 +89083,11 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
+      "blast_protection": 3,
       "guard": 1,
       "unbreaking": 6,
-      "blast_protection": 3,
       "armor": 3.5,
-      "knockback_resistance_flat": 3.5
+      "knockback_resistance_flat": 3
     },
     "lore": "Tension and release. The grinding\nof copper on steel. The Machine\nhas a breath-like pulse to it, unlike\nany human construct you've encountered."
   },
@@ -88821,9 +89177,9 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "sustenance": 3,
-      "unbreaking": 3,
       "regeneration": 5,
+      "sustenance": 3,
+      "unbreaking": 4,
       "knockback_resistance_flat": 5
     },
     "lore": "Glyphs glisten across the surface,\npromising the safety of home, even\nwhen far from it."
@@ -90337,9 +90693,9 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 3,
       "ethereal": 1,
       "stamina": 4,
+      "unbreaking": 4,
       "agility": 3,
       "knockback_resistance_flat": 3
     },
@@ -91062,23 +91418,6 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
-  "Focused Charm of Pinning": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Charm of Pinning",
-    "power": 3,
-    "base_item": "Skeleton Skull",
-    "release_status": "public",
-    "stats": {
-      "pinning_shot_max_health_damage_percent": {
-        "locked": false,
-        "value": 5
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Focused Stance Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -91116,23 +91455,6 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
-  },
-  "Greater Charm of Pinning": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Pinning",
-    "power": 2,
-    "base_item": "Skeleton Skull",
-    "release_status": "public",
-    "stats": {
-      "pinning_shot_max_health_damage_percent": {
-        "locked": false,
-        "value": 3
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Greater Gruesome Charm": {
     "location": "Architect's Ring",
@@ -91214,23 +91536,6 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
-  "Lesser Charm of Pinning": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Pinning",
-    "power": 1,
-    "base_item": "Skeleton Skull",
-    "release_status": "public",
-    "stats": {
-      "pinning_shot_max_health_damage_percent": {
-        "locked": false,
-        "value": 1.5
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Lesser Gruesome Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -91297,27 +91602,6 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
-  },
-  "Sedated Charm of Pinning": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Sedated Charm of Pinning",
-    "power": 2,
-    "base_item": "Skeleton Skull",
-    "release_status": "public",
-    "stats": {
-      "pinning_shot_max_health_damage_percent": {
-        "locked": false,
-        "value": 2
-      },
-      "pinning_shot_weakness_amplifier_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
   },
   "Sedated Stance Charm": {
     "location": "Architect's Ring",
@@ -91679,6 +91963,17 @@
     "stats": {},
     "lore": "Epic Crafting Material\nThe sap from a particularly vile tree.\nIt has the consistency of phlegm,\nand the air around it is impossible\nto breathe in without choking."
   },
+  "Ver Toxin": {
+    "mmlore": [
+      "Consuming this would hurt."
+    ],
+    "name": "Ver Toxin",
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Consuming this would hurt."
+  },
   "Aquatic Slime": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
@@ -91711,21 +92006,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Loci's Hunger",
-    "power": 3,
+    "power": 2,
     "base_item": "Smithing Table",
     "release_status": "public",
     "stats": {
+      "rampage_cooldown_flat": {
+        "locked": false,
+        "value": -2
+      },
       "rampage_damage_percent": {
         "locked": false,
-        "value": 30
+        "value": 50
       },
       "rampage_range_percent": {
         "locked": false,
-        "value": 30
-      },
-      "rampage_bloodlust_cost_flat": {
-        "locked": false,
-        "value": -1
+        "value": 50
       }
     },
     "type": "Charm",
@@ -92490,9 +92785,9 @@
     "stats": {
       "abyssal": 1,
       "evasion": 1,
-      "projectile_protection": 2,
-      "agility": 5,
-      "projectile_damage_percent": 16
+      "projectile_protection": 1,
+      "projectile_damage_percent": 12,
+      "agility": 6
     },
     "lore": "Lights hand in all the spaces above, earth\nquakes in the ground below. All around,\nthe currents scream eternal."
   },
@@ -92505,21 +92800,21 @@
     "base_item": "Soul Lantern",
     "release_status": "public",
     "stats": {
-      "keeper_virtue_health_flat": {
+      "keeper_virtue_harming_flares_flat": {
         "locked": false,
-        "value": 10
+        "value": 3
       },
-      "keeper_virtue_attack_delay_percent": {
+      "keeper_virtue_harming_flare_cooldown_percent": {
         "locked": false,
-        "value": -60
+        "value": -40
       },
-      "keeper_virtue_damage_percent": {
+      "keeper_virtue_radius_percent": {
         "locked": false,
-        "value": -30
+        "value": -80
       },
-      "keeper_virtue_healing_percent": {
+      "keeper_virtue_shielding_flares_flat": {
         "locked": false,
-        "value": -30
+        "value": -2
       }
     },
     "type": "Charm",
@@ -100590,13 +100885,13 @@
     "base_item": "Stone Sword",
     "release_status": "public",
     "stats": {
-      "whirling_blade_charges_flat": {
+      "steel_trap_charge_flat": {
         "locked": false,
-        "value": 2
+        "value": 1
       },
-      "whirling_blade_damage_percent": {
+      "steel_trap_cooldown_percent": {
         "locked": false,
-        "value": -30
+        "value": 33
       }
     },
     "type": "Charm",
@@ -102109,11 +102404,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 10,
       "adrenaline": 1,
       "regeneration": 1,
+      "unbreaking": 10,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 13.5
+      "attack_damage_base": 14
     },
     "lore": "A flawless, jet-black blade that\nhums with vibrant energy. Its hilt\nis inscribed with the name \"Noren\"."
   },
@@ -103295,9 +103590,9 @@
     "base_item": "String",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_damage_percent": {
+      "tactical_maneuver_velocity_percent": {
         "locked": false,
-        "value": 10
+        "value": 15
       },
       "tactical_maneuver_radius_percent": {
         "locked": false,
@@ -103316,13 +103611,9 @@
     "base_item": "String",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_damage_percent": {
-        "locked": false,
-        "value": 35
-      },
       "tactical_maneuver_velocity_percent": {
         "locked": false,
-        "value": 15
+        "value": 35
       }
     },
     "type": "Charm",
@@ -103357,13 +103648,9 @@
     "base_item": "String",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_damage_percent": {
-        "locked": false,
-        "value": 20
-      },
       "tactical_maneuver_velocity_percent": {
         "locked": false,
-        "value": 10
+        "value": 20
       }
     },
     "type": "Charm",
@@ -103392,17 +103679,24 @@
     "base_item": "String",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
       "tactical_maneuver_velocity_percent": {
         "locked": false,
-        "value": 5
+        "value": 10
       }
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Lime-Colored Thread": {
+    "mmlore": [
+      "A small glimmer at what he had to leave behind..."
+    ],
+    "name": "Lime-Colored Thread",
+    "base_item": "String",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A small glimmer at what he had to leave behind..."
   },
   "Olive Strand": {
     "location": "Forum",
@@ -103434,17 +103728,17 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Sedated Stratagem Charm",
-    "power": 3,
+    "power": 2,
     "base_item": "String",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_damage_percent": {
+      "tactical_maneuver_velocity_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       },
-      "tactical_maneuver_stun_duration_flat": {
+      "tactical_maneuver_stagger_duration_flat": {
         "locked": false,
-        "value": 0.5
+        "value": 1
       }
     },
     "type": "Charm",
@@ -103538,9 +103832,9 @@
     "base_item": "String",
     "release_status": "public",
     "stats": {
-      "touch_of_radiance_enhancement_stun_duration_flat": {
+      "touch_of_radiance_enhancement_blind_duration_flat": {
         "locked": false,
-        "value": 0.5
+        "value": 1
       },
       "touch_of_radiance_buff_duration_flat": {
         "locked": false,
@@ -103552,11 +103846,11 @@
       },
       "touch_of_radiance_self_cooldown_recharge_rate_percent": {
         "locked": false,
-        "value": -15
+        "value": -10
       },
       "touch_of_radiance_ally_cooldown_recharge_rate_percent": {
         "locked": false,
-        "value": -15
+        "value": -10
       }
     },
     "type": "Charm",
@@ -103587,13 +103881,9 @@
     "base_item": "String",
     "release_status": "public",
     "stats": {
-      "tactical_maneuver_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
       "tactical_maneuver_velocity_percent": {
         "locked": false,
-        "value": 5
+        "value": 15
       },
       "tactical_maneuver_cooldown_percent": {
         "locked": false,
@@ -104346,82 +104636,6 @@
     "stats": {},
     "lore": "Wrapped around a protean stone,\nit whispers power disturbed.\n* Quest Item *\n#Q142I04"
   },
-  "Focused Marksman's Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Marksman's Charm",
-    "power": 3,
-    "base_item": "Target",
-    "release_status": "public",
-    "stats": {
-      "sharpshooter_stack_damage_percent": {
-        "locked": false,
-        "value": 0.5
-      },
-      "sharpshooter_max_stacks_flat": {
-        "locked": false,
-        "value": 1
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
-  "Greater Marksman's Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Marksman's Charm",
-    "power": 2,
-    "base_item": "Target",
-    "release_status": "public",
-    "stats": {
-      "sharpshooter_stack_damage_percent": {
-        "locked": false,
-        "value": 0.4
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
-  "Lesser Marksman's Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Marksman's Charm",
-    "power": 1,
-    "base_item": "Target",
-    "release_status": "public",
-    "stats": {
-      "sharpshooter_stack_damage_percent": {
-        "locked": false,
-        "value": 0.2
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
-  "Sharpened Marksman's Charm": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Sharpened Marksman's Charm",
-    "power": 3,
-    "base_item": "Target",
-    "release_status": "public",
-    "stats": {
-      "sharpshooter_max_stacks_flat": {
-        "locked": false,
-        "value": 3
-      },
-      "sharpshooter_arrow_save_chance_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Laser Attachment": {
     "location": "PORTAL",
     "region": "Ring",
@@ -104431,9 +104645,13 @@
     "base_item": "Tinted Glass",
     "release_status": "public",
     "stats": {
-      "quickdraw_piercing_flat": {
+      "lockdown_shots_flat": {
         "locked": false,
         "value": 1
+      },
+      "lockdown_initial_charge_time_percent": {
+        "locked": false,
+        "value": -40
       }
     },
     "type": "Charm",
@@ -105282,13 +105500,13 @@
     "base_item": "Tnt",
     "release_status": "public",
     "stats": {
-      "wind_bomb_height_percent": {
+      "wind_bomb_damage_percent": {
         "locked": false,
-        "value": 25
+        "value": 15
       },
       "wind_bomb_radius_percent": {
         "locked": false,
-        "value": 50
+        "value": 35
       }
     },
     "type": "Charm",
@@ -105339,11 +105557,7 @@
     "stats": {
       "wind_bomb_damage_percent": {
         "locked": false,
-        "value": 20
-      },
-      "wind_bomb_height_percent": {
-        "locked": false,
-        "value": 50
+        "value": 25
       }
     },
     "type": "Charm",
@@ -105378,10 +105592,6 @@
       "wind_bomb_damage_percent": {
         "locked": false,
         "value": 10
-      },
-      "wind_bomb_height_percent": {
-        "locked": false,
-        "value": 25
       }
     },
     "type": "Charm",
@@ -105396,13 +105606,13 @@
     "base_item": "Tnt",
     "release_status": "public",
     "stats": {
-      "wind_bomb_weaken_amplifier_percent": {
+      "wind_bomb_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 20
       },
-      "wind_bomb_duration_flat": {
+      "wind_bomb_slow_fall_duration_flat": {
         "locked": false,
-        "value": 1
+        "value": 2
       }
     },
     "type": "Charm",
@@ -105706,11 +105916,16 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "riptide": 2,
-      "unbreaking": 6,
-      "technique": 2,
+      "knockback": 1,
+      "magic_protection": 1,
+      "oversized": 1,
+      "unbreaking": 4,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 2,
+      "attack_speed_base": 1.2,
+      "knockback_resistance_flat": 2,
       "attack_damage_base": 16.5,
-      "attack_speed_base": 1.2
+      "projectile_damage_base": 25
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -105729,12 +105944,16 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "riptide": 2,
-      "unbreaking": 6,
-      "technique": 2,
+      "knockback": 1,
       "magic_protection": 1,
-      "attack_damage_base": 17,
-      "attack_speed_base": 1.2
+      "oversized": 1,
+      "unbreaking": 5,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 2,
+      "attack_speed_base": 1.2,
+      "knockback_resistance_flat": 2,
+      "attack_damage_base": 17.5,
+      "projectile_damage_base": 25.5
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -105753,12 +105972,16 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "riptide": 2,
-      "unbreaking": 6,
-      "technique": 2,
+      "knockback": 1,
       "magic_protection": 1,
-      "attack_damage_base": 17.5,
-      "attack_speed_base": 1.2
+      "oversized": 1,
+      "unbreaking": 6,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 2,
+      "attack_speed_base": 1.2,
+      "knockback_resistance_flat": 2,
+      "attack_damage_base": 18,
+      "projectile_damage_base": 26
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -105777,12 +106000,16 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "riptide": 2,
-      "unbreaking": 6,
-      "technique": 3,
+      "knockback": 1,
       "magic_protection": 1,
+      "oversized": 1,
+      "unbreaking": 7,
+      "projectile_speed_base": 0.8,
+      "knockback_resistance_flat": 3,
+      "throw_rate_base": 2,
+      "attack_speed_base": 1.2,
       "attack_damage_base": 18.5,
-      "attack_speed_base": 1.2
+      "projectile_damage_base": 27
     },
     "lore": "Intricate carvings mar the handle of the\nenormous spear, claiming that a beast\nfeasts steadily beneath the waves."
   },
@@ -106500,13 +106727,13 @@
     "type": "Trident",
     "stats": {
       "bleeding": 3,
-      "first_strike": 2,
+      "first_strike": 3,
       "unbreaking": 5,
       "attack_damage_base": 20.5,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 30.5
+      "projectile_damage_base": 31
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -106526,13 +106753,13 @@
     "type": "Trident",
     "stats": {
       "bleeding": 3,
-      "first_strike": 2,
+      "first_strike": 3,
       "unbreaking": 6,
       "attack_damage_base": 21,
       "attack_speed_base": 1.2,
       "throw_rate_base": 0.6,
       "projectile_speed_base": 1.2,
-      "projectile_damage_base": 31
+      "projectile_damage_base": 32
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
   },
@@ -107087,12 +107314,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 4,
-      "point_blank": 4,
+      "adrenaline": 2,
       "bleeding": 2,
+      "point_blank": 4,
+      "unbreaking": 4,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.6,
-      "projectile_damage_base": 14.5
+      "projectile_damage_base": 14.5,
+      "speed_percent": 8
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -107111,12 +107340,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 5,
-      "point_blank": 4,
+      "adrenaline": 2,
       "bleeding": 2,
+      "point_blank": 4,
+      "unbreaking": 5,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.7,
-      "projectile_damage_base": 15
+      "projectile_damage_base": 15,
+      "speed_percent": 15
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -107135,12 +107366,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "unbreaking": 5,
-      "point_blank": 4,
+      "adrenaline": 2,
       "bleeding": 2,
+      "point_blank": 4,
+      "unbreaking": 5,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.7,
-      "projectile_damage_base": 15.5
+      "projectile_damage_base": 15.5,
+      "speed_percent": 12
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -107159,12 +107392,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "adrenaline": 2,
       "bleeding": 3,
       "point_blank": 4,
       "unbreaking": 6,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.8,
-      "projectile_damage_base": 16
+      "projectile_damage_base": 16,
+      "speed_percent": 15
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -107183,12 +107418,14 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
+      "adrenaline": 2,
       "bleeding": 3,
       "point_blank": 4,
       "unbreaking": 7,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.8,
-      "projectile_damage_base": 17
+      "projectile_damage_base": 17,
+      "speed_percent": 15
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
@@ -107219,6 +107456,27 @@
     "stats": {},
     "lore": "* Quest Item *\n#QAFI02"
   },
+  "Hasty Charm of Escape": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Hasty Charm of Escape",
+    "power": 2,
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "stats": {
+      "parting_shot_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      },
+      "parting_shot_recoil_strength_percent": {
+        "locked": false,
+        "value": 15
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Key : Myriad's Safe": {
     "name": "Key : Myriad's Safe",
     "base_item": "Tripwire Hook",
@@ -107239,6 +107497,23 @@
     "type": "Misc",
     "stats": {},
     "lore": "A magical key that unlocks the office\nof a mage council member.\n* Quest Item *\n#Q225I06"
+  },
+  "Lesser Charm of Escape": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Escape",
+    "power": 1,
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "stats": {
+      "parting_shot_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Mineshaft Key": {
     "mmlore": [
@@ -107271,6 +107546,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "A key that would be useful in Mistport's market,\nwere there anything left of it...\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-2 *"
+  },
+  "Sedated Charm of Escape": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Sedated Charm of Escape",
+    "power": 2,
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "stats": {
+      "parting_shot_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      },
+      "parting_shot_radius_percent": {
+        "locked": false,
+        "value": 25
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Smuggler's Key (tripwire_hook)": {
     "location": "King's Valley",
@@ -107610,12 +107906,12 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "blast_protection": 3,
+      "abyssal": 2,
       "aqua_affinity": 1,
-      "unbreaking": 2,
-      "respiration": 2,
       "projectile_protection": 2,
-      "agility": 7.5
+      "unbreaking": 2,
+      "agility": 7.5,
+      "projectile_damage_percent": 12
     },
     "lore": "Before thee crowned is the lord of the depths.\nBow, or be washed away."
   },
@@ -107701,12 +107997,11 @@
     "stats": {
       "feather_falling": 1,
       "fire_protection": 1,
-      "unbreaking": 3,
       "melee_protection": 1,
-      "blast_protection": 1,
+      "unbreaking": 3,
       "throw_rate_percent": 15,
-      "projectile_speed_percent": 10,
-      "armor": 6.5
+      "projectile_speed_percent": 15,
+      "armor": 8
     },
     "lore": "This mechanized helmet seems to make water\nbubble when merely near it. Sometimes you\ncan make out giggling inside one of the\ncooling pockets... How odd..."
   },
@@ -107749,6 +108044,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "Its taste can be compared to a smoked quail egg.\nAwarded for finishing in the top #5\nin the Easter Event."
+  },
+  "Frostvine": {
+    "mmlore": [
+      "It evidently does not originate from here...",
+      "but it seems to be fine with the cold."
+    ],
+    "name": "Frostvine",
+    "base_item": "Twisting Vines",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It evidently does not originate from here...\nbut it seems to be fine with the cold."
   },
   "Remnant Scroll -=- Puzzle": {
     "location": "Skr",
@@ -108225,40 +108532,6 @@
       "material": 1
     }
   },
-  "Greater Charm of Dexterity": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Dexterity",
-    "power": 2,
-    "base_item": "White Dye",
-    "release_status": "public",
-    "stats": {
-      "swift_cuts_stack_damage_percent": {
-        "locked": false,
-        "value": 2
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
-  "Lesser Charm of Dexterity": {
-    "location": "Architect's Ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Dexterity",
-    "power": 1,
-    "base_item": "White Dye",
-    "release_status": "public",
-    "stats": {
-      "swift_cuts_stack_damage_percent": {
-        "locked": false,
-        "value": 1
-      }
-    },
-    "type": "Charm",
-    "class_name": "Scout"
-  },
   "Purpose": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -108391,7 +108664,9 @@
     "base_item": "White Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of the Soul.\nCan bind your soul to hub locations,\nand return you there in an instant.\nActivated by \nwhile in the mainhand or inventory.\nCooldown : 10m"
   },
   "Tesseract of the Soul (u)": {
@@ -108412,7 +108687,9 @@
     "base_item": "White Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of the Soul.\nCan bind your soul to hub locations,\nand return you there in an instant.\nActivated by \nwhile in the mainhand or inventory.\nInventory use will prompt players\nwithin 6 blocks to warp with you.\nCooldown: None"
   },
   "Ivory Razor": {
@@ -108659,17 +108936,21 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "hallowed_beam_seal_damage_percent": {
+      "ethereal_ascension_orb_damage_percent": {
         "locked": false,
-        "value": 100
+        "value": 10
       },
-      "hallowed_beam_seal_radius_percent": {
+      "ethereal_ascension_throw_rate_amplifier_percent": {
         "locked": false,
-        "value": 35
+        "value": 15
       },
-      "hallowed_beam_damage_percent": {
+      "ethereal_ascension_orb_radius_percent": {
         "locked": false,
-        "value": -40
+        "value": -35
+      },
+      "ethereal_ascension_hover_height_percent": {
+        "locked": false,
+        "value": -100
       }
     },
     "type": "Charm",
@@ -109855,8 +110136,8 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "inure": 1,
       "decay": 9,
+      "inure": 1,
       "unbreaking": 35,
       "attack_speed_base": 2,
       "knockback_resistance_flat": 2,
@@ -109879,8 +110160,8 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "inure": 1,
       "decay": 12,
+      "inure": 1,
       "unbreaking": 35,
       "attack_speed_base": 2,
       "knockback_resistance_flat": 2,
@@ -109903,13 +110184,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "inure": 1,
       "decay": 12,
+      "inure": 1,
       "unbreaking": 35,
       "attack_speed_base": 2,
-      "knockback_resistance_flat": 2.5,
       "attack_damage_base": 11,
-      "armor": 1
+      "armor": 1,
+      "knockback_resistance_flat": 2
     },
     "lore": "Once, the twin spirits worked in harmony.\nBut death without life reaped horrible rewards.\nSoon, the one who remained would welcome the end."
   },
@@ -109928,13 +110209,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "inure": 1,
       "decay": 15,
+      "inure": 1,
       "unbreaking": 40,
       "attack_speed_base": 2,
-      "knockback_resistance_flat": 2.5,
       "attack_damage_base": 12,
-      "armor": 1.5
+      "armor": 1.5,
+      "knockback_resistance_flat": 2
     },
     "lore": "Once, the twin spirits worked in harmony.\nBut death without life reaped horrible rewards.\nSoon, the one who remained would welcome the end."
   },
@@ -111996,6 +112277,13 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q02I02"
   },
+  "Case Studies in Evolution": {
+    "name": "Case Studies in Evolution",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
   "Cazol": {
     "name": "Cazol",
     "base_item": "Written Book",
@@ -113820,6 +114108,19 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q01I01"
   },
+  "Will of the Emperor": {
+    "mmlore": [
+      "Viridia, Gem of the Sea.",
+      "You will stand as a beacon",
+      "of progress, eternal."
+    ],
+    "name": "Will of the Emperor",
+    "base_item": "Yellow Dye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Viridia, Gem of the Sea.\nYou will stand as a beacon\nof progress, eternal."
+  },
   "Yellow Crystal Essence": {
     "mmlore": [
       "<dark_gray>Deva's magic scars the land east of Ixume.",
@@ -114057,7 +114358,9 @@
     "base_item": "Yellow Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of the Elements.\nAllows you to manipulate the elemental\nconnections within yourself, swapping\nclass loadouts at will.\n while in the mainhand or inventory\nto save and load class selection.\n +  while\nin mainhand to erase stored class.\nCooldown : 5m when used in Survival zones"
   },
   "Tesseract of the Elements (u)": {
@@ -114076,7 +114379,9 @@
     "base_item": "Yellow Stained Glass",
     "release_status": "public",
     "type": "Misc",
-    "stats": {},
+    "stats": {
+      "utility_item_for_armory": 1
+    },
     "lore": "Attuned to the power of the Elements.\nAllows you to manipulate the elemental\nconnections within yourself, opening\nthe class selection menu.\n in the mainhand or inventory.\nCooldown : 5m when used in Survival zones"
   },
   "Yellow Wool": {
