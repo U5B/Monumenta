@@ -2460,7 +2460,11 @@
     "shard": "Architect's Ring",
     "region": "Pelias' Keep",
     "subregion": null,
-    "coordinates": null
+    "coordinates": {
+      "x": "-617",
+      "y": "56",
+      "z": "-50"
+    }
   },
   "silvic_quarry": {
     "name": "Silvic Quarry",
