@@ -774,6 +774,29 @@
     "type": "Charm",
     "class_name": "Mage"
   },
+  "Leviathan's Fang": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "Only the most daring sailors risk a voyage through",
+      "uncharted waters. The ocean is a cruel mistress,",
+      "and few escape her fury unscathed."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Leviathan's Fang",
+    "base_item": "Amethyst Shard",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "abyssal": 1,
+      "regeneration": 1,
+      "regicide": 1,
+      "armor": 5,
+      "max_health_flat": -2,
+      "projectile_damage_percent": 20
+    },
+    "lore": "Only the most daring sailors risk a voyage through\nuncharted waters. The ocean is a cruel mistress,\nand few escape her fury unscathed."
+  },
   "Nutcracker Soul": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -1218,8 +1241,8 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {
-      "lure": 20,
-      "infinity": 1
+      "infinity": 1,
+      "lure": 20
     },
     "lore": "A dud Delight seems to have fermented\nwithin a Creeper for a long time.\nLuckily for you, it's even tastier now!"
   },
@@ -2399,6 +2422,24 @@
     "type": "Charm",
     "class_name": "Cleric"
   },
+  "Coalescence of Coal": {
+    "location": "Koal",
+    "mmlore": [
+      "<gray>Bring this to the center of <underlined>Coalrupted Sierhaven",
+      "<gray>and deposit it into the coal pile! Worth 9 coal!",
+      "",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Coalescence of Coal",
+    "base_item": "Black Glazed Terracotta",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Bring this to the center of Coalrupted Sierhaven\nand deposit it into the coal pile! Worth 9 coal!\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Everlasting Hallucination": {
     "location": "Twisted",
     "region": "Ring",
@@ -3543,8 +3584,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "sustenance": 2,
       "adrenaline": 3,
+      "sustenance": 2,
       "spell_power_base": 50,
       "attack_damage_base": 10,
       "speed_percent": -30,
@@ -3654,7 +3695,7 @@
     "stats": {
       "quiver_storm_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 20
       }
     },
     "type": "Charm",
@@ -3764,7 +3805,7 @@
     "stats": {
       "quiver_storm_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       }
     },
     "type": "Charm",
@@ -3846,7 +3887,7 @@
     "stats": {
       "quiver_storm_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       }
     },
     "type": "Charm",
@@ -4147,6 +4188,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "It bears the mark of those\nwho pledge loyalty to the Pharaoh."
+  },
+  "Swift Barrage Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Barrage Charm",
+    "power": 2,
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "stats": {
+      "quiver_storm_damage_percent": {
+        "locked": false,
+        "value": 5
+      },
+      "quiver_storm_arrow_delay_percent": {
+        "locked": false,
+        "value": -15
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Swift Charm of Shocking": {
     "location": "Architect's Ring",
@@ -5075,6 +5137,31 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
+  },
+  "Limber Claw": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Limber Claw",
+    "power": 1,
+    "base_item": "Bone",
+    "release_status": "public",
+    "stats": {
+      "steel_trap_enhancement_knockback_percent": {
+        "locked": false,
+        "value": 100
+      },
+      "steel_trap_priming_duration_percent": {
+        "locked": false,
+        "value": -50
+      },
+      "steel_trap_charge_flat": {
+        "locked": false,
+        "value": -1
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Remnants of the Captain": {
     "location": "Celsian Isles",
@@ -6697,7 +6784,7 @@
       "piercing": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 28
+      "projectile_damage_base": 27
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6720,7 +6807,7 @@
       "piercing": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 28.5
+      "projectile_damage_base": 27.5
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6743,7 +6830,7 @@
       "piercing": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 29.5
+      "projectile_damage_base": 28.5
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6766,7 +6853,7 @@
       "piercing": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 30
+      "projectile_damage_base": 29
     },
     "lore": "'Pierce the flesh, and the bones\nwill follow.' - Hawk Proverb"
   },
@@ -6807,6 +6894,30 @@
       "armor": 3
     },
     "lore": "From the barrel of the gun,\nyou hear a symphony of brambles,\nclaws, and snares."
+  },
+  "Break of Dawn": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "The wrath of the Pharaohs arrive like",
+      "the rising of the morning sun...",
+      "Harsh, absolute, and uncaring for the",
+      "lives of those beneath them."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Break of Dawn",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 3,
+      "melee_protection": 3,
+      "stamina": 3,
+      "unbreaking": 3,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 20
+    },
+    "lore": "The wrath of the Pharaohs arrive like\nthe rising of the morning sun...\nHarsh, absolute, and uncaring for the\nlives of those beneath them."
   },
   "Chillwind Shortbow": {
     "location": "Celsian Isles",
@@ -7708,7 +7819,7 @@
       "unbreaking": 5,
       "wind_aspect": 1,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 11.5
+      "projectile_damage_base": 12
     },
     "lore": "Now one must face the passing of many.\nThey rest easier serenaded by the\nsong of your whistling arrow.\nBreathe deep. Aim true."
   },
@@ -8739,6 +8850,29 @@
       "projectile_speed_base": 1
     },
     "lore": "A raging current consumes all\nthat stands in its path."
+  },
+  "Twisted Recurve": {
+    "location": "Valleyexplorer",
+    "mmlore": [
+      "The white mist that fell from the skies",
+      "poisoned hearts, minds, and souls alike.",
+      "The wood gnarled and hardened.",
+      "The Sons rose in defiance."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Twisted Recurve",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "ailment_protection": 3,
+      "punch": 3,
+      "unbreaking": 3,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 14
+    },
+    "lore": "The white mist that fell from the skies\npoisoned hearts, minds, and souls alike.\nThe wood gnarled and hardened.\nThe Sons rose in defiance."
   },
   "Vengeful Crossbow": {
     "location": "King's Valley",
@@ -10334,6 +10468,27 @@
     "stats": {},
     "lore": "\"...hold an Abysswalker's remnant...\"\nYou can sense you will need to investigate\nback in Phyrrys to continue."
   },
+  "Distant Charm of Trapping": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Distant Charm of Trapping",
+    "power": 2,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "steel_trap_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "steel_trap_velocity_percent": {
+        "locked": false,
+        "value": 30
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Distant Prosecutor's Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -10355,6 +10510,27 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Explosive Charm of Trapping": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Charm of Trapping",
+    "power": 3,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "steel_trap_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "steel_trap_radius_percent": {
+        "locked": false,
+        "value": 30
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Focused Charm of Binding": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -10371,6 +10547,23 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Focused Charm of Trapping": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Trapping",
+    "power": 3,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "steel_trap_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Greater Charm of Binding": {
     "location": "Architect's Ring",
@@ -10553,6 +10746,27 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
+  },
+  "Sedated Charm of Trapping": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Sedated Charm of Trapping",
+    "power": 2,
+    "base_item": "Chain",
+    "release_status": "public",
+    "stats": {
+      "steel_trap_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "steel_trap_stagger_duration_flat": {
+        "locked": false,
+        "value": 1
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Silver Rosary": {
     "location": "Architect's Ring",
@@ -10919,6 +11133,26 @@
     },
     "lore": "The Architect, the Knights, the Silvari.\nEons of terrible legacy, all trapped\nwithin these walls."
   },
+  "Chains of the Covetous": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Chains of the Covetous",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "poise": 1,
+      "shielding": 1,
+      "armor": 8,
+      "speed_percent": -100
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Chains of the Damned": {
     "location": "Light Blue",
     "mmlore": [
@@ -11056,8 +11290,8 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "mending": 1,
       "feather_falling": 1,
+      "mending": 1,
       "speed_percent": 10,
       "max_health_flat": 5,
       "agility": 3,
@@ -11225,6 +11459,31 @@
       "armor": 8.5
     },
     "lore": "The Dichen's quick flight granted them\nlittle reprieve. Their ramshackle coastal\nsettlements left the masses exposed when\nthe Mycelia toxins struck."
+  },
+  "Ice Skates": {
+    "location": "Koal",
+    "mmlore": [
+      "One thing that seems to be completely",
+      "missing are the soles, which happen to",
+      "be a key feature of standard footwear.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Ice Skates",
+    "base_item": "Chainmail Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "ice_aspect": 2,
+      "magic_protection": 2,
+      "unbreakable": 1,
+      "speed_percent": 30,
+      "attack_damage_percent": 30,
+      "max_health_flat": 8
+    },
+    "lore": "One thing that seems to be completely\nmissing are the soles, which happen to\nbe a key feature of standard footwear.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Jeweled Bunny Flippers": {
     "location": "Celsian Isles",
@@ -12757,8 +13016,8 @@
     "type": "Chestplate",
     "stats": {
       "feather_falling": 2,
-      "unbreaking": 4,
       "magic_protection": 2,
+      "unbreaking": 4,
       "armor": 7.5
     },
     "lore": "No typos will bind The Prophet's wings.\nNo shadows will block her light. Anatula\nwas surely sent to speak for the Starts\nabove."
@@ -13326,6 +13585,28 @@
       "agility": 10
     },
     "lore": "The scars of the Silver Conquest\nlasted eons, a searing brand\non Hycenea's heart."
+  },
+  "Ritual Raiment": {
+    "location": "Valleyexplorer",
+    "mmlore": [
+      "Torrents of blood flow over the garment.",
+      "The remnants of a sacrifice to recall",
+      "what was lost to the void of memory."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Ritual Raiment",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "ailment_fragility": 3,
+      "unbreaking": 1,
+      "magic_damage_percent": 15,
+      "armor": 3.5,
+      "speed_percent": 10
+    },
+    "lore": "Torrents of blood flow over the garment.\nThe remnants of a sacrifice to recall\nwhat was lost to the void of memory."
   },
   "Rusted Adamantium Skin (chest)": {
     "location": "Lowtide Smuggler",
@@ -16935,6 +17216,24 @@
     "stats": {},
     "lore": "Something even more wicked brews within\nthis dark heart. This evil, you could use\nfor something else..."
   },
+  "Incoalporeal Coal": {
+    "location": "Koal",
+    "mmlore": [
+      "<gray>Bring this to the center of <underlined>Coalrupted Sierhaven",
+      "<gray>and deposit it into the coal pile!",
+      "",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Incoalporeal Coal",
+    "base_item": "Charcoal",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Bring this to the center of Coalrupted Sierhaven\nand deposit it into the coal pile!\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Unstable Sparkler": {
     "location": "King's Valley",
     "mmlore": [
@@ -18995,9 +19294,9 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
-      "material": 1,
       "darksight": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 9,
       "knockback_resistance_flat": 3
     },
@@ -19016,10 +19315,10 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
-      "material": 1,
-      "fire_protection": 1,
       "darksight": 1,
+      "fire_protection": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 10,
       "knockback_resistance_flat": 3
     },
@@ -19038,11 +19337,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
-      "material": 1,
-      "fire_protection": 1,
       "darksight": 1,
+      "fire_protection": 1,
       "gills": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 11,
       "knockback_resistance_flat": 3
     },
@@ -19061,11 +19360,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "worldly_protection": 1,
-      "material": 1,
-      "fire_protection": 1,
       "darksight": 1,
+      "fire_protection": 1,
       "gills": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 12,
       "knockback_resistance_flat": 4
     },
@@ -19084,13 +19383,13 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 2,
-      "material": 1,
-      "fire_protection": 3,
       "darksight": 1,
+      "feather_falling": 2,
+      "fire_protection": 3,
+      "gills": 1,
+      "material": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "speed_percent": 17,
       "knockback_resistance_flat": 5
     },
@@ -19109,12 +19408,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 1,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 1,
+      "gills": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 13,
       "knockback_resistance_flat": 4
     },
@@ -19133,12 +19432,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 2,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 2,
+      "gills": 1,
+      "material": 1,
+      "worldly_protection": 1,
       "speed_percent": 14,
       "knockback_resistance_flat": 4
     },
@@ -19157,13 +19456,13 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 2,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 2,
+      "gills": 1,
+      "material": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "speed_percent": 15,
       "knockback_resistance_flat": 5
     },
@@ -19182,13 +19481,13 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 3,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 3,
+      "gills": 1,
+      "material": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "speed_percent": 16,
       "knockback_resistance_flat": 5
     },
@@ -19240,8 +19539,8 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "material": 1,
       "gills": 1,
+      "material": 1,
       "speed_percent": 8
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
@@ -19259,9 +19558,9 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "material": 1,
       "fire_protection": 1,
       "gills": 1,
+      "material": 1,
       "speed_percent": 9
     },
     "lore": "A certain Loci makes this\ninstrument's accuracy dubious."
@@ -19279,9 +19578,9 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "material": 1,
       "fire_protection": 1,
       "gills": 1,
+      "material": 1,
       "knockback_resistance_flat": 1,
       "speed_percent": 10
     },
@@ -19316,9 +19615,9 @@
     "type": "Mainhand",
     "stats": {
       "feather_falling": 1,
-      "material": 1,
       "fire_protection": 1,
       "gills": 1,
+      "material": 1,
       "knockback_resistance_flat": 1,
       "speed_percent": 11
     },
@@ -19337,11 +19636,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 1,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 1,
       "gills": 1,
+      "material": 1,
       "knockback_resistance_flat": 1,
       "speed_percent": 12
     },
@@ -19360,11 +19659,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 1,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 1,
+      "gills": 1,
+      "material": 1,
       "regeneration": 1,
       "knockback_resistance_flat": 2,
       "speed_percent": 13
@@ -19384,11 +19683,11 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "feather_falling": 1,
-      "material": 1,
-      "fire_protection": 2,
       "darksight": 1,
+      "feather_falling": 1,
+      "fire_protection": 2,
+      "gills": 1,
+      "material": 1,
       "regeneration": 1,
       "knockback_resistance_flat": 2,
       "speed_percent": 14
@@ -19434,12 +19733,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 1,
       "fire_protection": 2,
-      "darksight": 1,
+      "gills": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "knockback_resistance_flat": 3,
       "speed_percent": 15
     },
@@ -19458,12 +19757,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 2,
       "fire_protection": 3,
-      "darksight": 1,
+      "gills": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "knockback_resistance_flat": 6,
       "speed_percent": 18
     },
@@ -19484,12 +19783,12 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 2,
       "fire_protection": 3,
-      "darksight": 1,
+      "gills": 1,
       "regeneration": 1,
+      "worldly_protection": 1,
       "knockback_resistance_flat": 6,
       "speed_percent": 18
     },
@@ -19510,14 +19809,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 2,
       "fire_protection": 4,
+      "gills": 1,
       "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
+      "unbreakable": 1,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 6
     },
@@ -19538,14 +19837,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 3,
       "fire_protection": 4,
+      "gills": 1,
       "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
+      "unbreakable": 1,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 7
     },
@@ -19566,14 +19865,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 3,
       "fire_protection": 5,
+      "gills": 1,
       "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
+      "unbreakable": 1,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
     },
@@ -19594,14 +19893,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 4,
       "fire_protection": 6,
+      "gills": 1,
       "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
+      "unbreakable": 1,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
     },
@@ -19997,6 +20296,38 @@
     "stats": {},
     "lore": "A cookie of congratulations!\nBaked by Serium, master chef."
   },
+  "Fortune Cookie": {
+    "location": "Koal",
+    "mmlore": [
+      "Freshly baked, made with love and coal.",
+      "The wisdom gained from the fortunes",
+      "could make coal-gathering a little bit easier."
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Fortune Cookie",
+    "base_item": "Cookie",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Freshly baked, made with love and coal.\nThe wisdom gained from the fortunes\ncould make coal-gathering a little bit easier."
+  },
+  "Freshly Baken Cookie": {
+    "location": "Koal",
+    "mmlore": [
+      "A christmas cookie made by a baker",
+      "trapped in a festive dream. Purchase",
+      "to unlock the Cookiefy Elite Finisher."
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Freshly Baken Cookie",
+    "base_item": "Cookie",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A christmas cookie made by a baker\ntrapped in a festive dream. Purchase\nto unlock the Cookiefy Elite Finisher."
+  },
   "Heart-Shaped Cookie": {
     "location": "Valentine's Day",
     "mmlore": [
@@ -20012,6 +20343,32 @@
       "infinity": 1
     },
     "lore": "A gift made with love."
+  },
+  "Raisin Cookie": {
+    "location": "Koal",
+    "mmlore": [
+      "These taste positively awful."
+    ],
+    "region": "Valley",
+    "tier": "Common",
+    "name": "Raisin Cookie",
+    "effects": [
+      {
+        "EffectDuration": 240,
+        "EffectStrength": 2,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 60,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Cookie",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "These taste positively awful."
   },
   "Razorblade Chocolate": {
     "location": "Valley Overworld",
@@ -20869,6 +21226,26 @@
     },
     "lore": "The basil leaves are imbued inside\nthe weapon, you can see sprouts\ngrowing out of it."
   },
+  "Benevolent Ballista": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Benevolent Ballista",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "sniper": 20,
+      "warpstrike": 1,
+      "projectile_speed_base": 4,
+      "projectile_damage_base": 1
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Blazing Crossbow": {
     "location": "King's Valley",
     "region": "Valley",
@@ -21106,6 +21483,29 @@
       "projectile_damage_base": 7
     },
     "lore": "Wicked glyphs are carved into the blasphemous\nartillery, luring prey to their dreadful demise."
+  },
+  "End of Winter": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "End of Winter",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "breezing": 1,
+      "curse_of_irreparability": 1,
+      "explosive": 4,
+      "fire_aspect": 2,
+      "point_blank": 4,
+      "quick_charge": 5,
+      "projectile_damage_base": 1
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Entropic Blunderbuss": {
     "location": "Isles Overworld",
@@ -21654,6 +22054,29 @@
     },
     "lore": "The gears and wheels spin with a high-pitched\nwhine. Energy crackles in every divet,\nevery pore. The gun itself yearns to\nbe fired."
   },
+  "Koal Kannon": {
+    "location": "Koal",
+    "mmlore": [
+      "With the mountain of coal laying before you,",
+      "the excess has to be used up somehow..."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Koal Kannon",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "decay": 3,
+      "mending": 1,
+      "point_blank": 3,
+      "quick_charge": 3,
+      "projectile_speed_base": 0.6,
+      "speed_percent": -15,
+      "projectile_damage_base": 4
+    },
+    "lore": "With the mountain of coal laying before you,\nthe excess has to be used up somehow..."
+  },
   "Memory Maker": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -21705,8 +22128,8 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "piercing": 3,
       "mending": 1,
+      "piercing": 3,
       "quick_charge": 3,
       "projectile_speed_base": 2,
       "projectile_damage_base": 5
@@ -21963,7 +22386,7 @@
       "reverb": 5,
       "thunder_aspect": 2,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 33
+      "projectile_damage_base": 35
     },
     "lore": "In an instant, something shattered within\nthe Stars. The open edge of the wool became\nlike a vacuum and changed the Lunacrest's fate."
   },
@@ -21987,7 +22410,7 @@
       "reverb": 6,
       "thunder_aspect": 2,
       "projectile_speed_base": 3,
-      "projectile_damage_base": 33
+      "projectile_damage_base": 35
     },
     "lore": "In an instant, something shattered within\nthe Stars. The open edge of the wool became\nlike a vacuum and changed the Lunacrest's fate."
   },
@@ -22090,7 +22513,7 @@
     "stats": {
       "bleeding": 4,
       "curse_of_shrapnel": 2,
-      "regeneration": 3,
+      "regeneration": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1,
       "projectile_damage_base": 34
@@ -22115,7 +22538,7 @@
     "stats": {
       "bleeding": 4,
       "curse_of_shrapnel": 2,
-      "regeneration": 3,
+      "regeneration": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1,
       "projectile_damage_base": 35
@@ -22477,6 +22900,30 @@
     },
     "lore": "Right click in hand or inventory to guarantee\nthe Steelsage tree as one of the\noptions at the beginning of the dungeon.\nRequires purchase from trader to use.\nLeft click in hand to reset preference."
   },
+  "String Light Hook": {
+    "location": "Koal",
+    "mmlore": [
+      "Turning Sierhaven festive, one string light at a time!",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "String Light Hook",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "curse_of_ephemerality": 1,
+      "grappling": 35,
+      "quick_charge": 5,
+      "retrieval": 10,
+      "unbreakable": 1,
+      "projectile_damage_base": 1,
+      "projectile_speed_base": 2
+    },
+    "lore": "Turning Sierhaven festive, one string light at a time!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Sunken Blunderbuss": {
     "location": "Purple",
     "mmlore": [
@@ -22519,6 +22966,29 @@
       "projectile_damage_base": 5
     },
     "lore": "The effects of the syringes are understudied,\nbut quite obvious."
+  },
+  "Temblor": {
+    "location": "Valleyexplorer",
+    "mmlore": [
+      "The walls of this cavern shake",
+      "not with an earthly intensity, but",
+      "something beyond it altogether."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Temblor",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "earth_aspect": 2,
+      "quake": 4,
+      "unbreaking": 3,
+      "projectile_speed_base": 0.8,
+      "knockback_resistance_flat": 3,
+      "projectile_damage_base": 14
+    },
+    "lore": "The walls of this cavern shake\nnot with an earthly intensity, but\nsomething beyond it altogether."
   },
   "The Final Hour": {
     "location": "Mist",
@@ -23333,6 +23803,29 @@
     "type": "Misc",
     "stats": {},
     "lore": "\"This was included in the package from\nthe Lowtide Library containing the\nbranch from the Tree of Life. I wonder\nif they have any more samples hidden\naway in some dusty office...\""
+  },
+  "Decorated Antler": {
+    "location": "Koal",
+    "mmlore": [
+      "The antler has become quite the",
+      "ornamental piece, laced with ribbons",
+      "and intricate bells all over."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Decorated Antler",
+    "base_item": "Dead Bush",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "ice_aspect": 1,
+      "knockback": 1,
+      "shielding": 1,
+      "spell_power_base": 30,
+      "attack_damage_base": 3,
+      "speed_percent": -5
+    },
+    "lore": "The antler has become quite the\nornamental piece, laced with ribbons\nand intricate bells all over."
   },
   "Godtree Carving": {
     "location": "Architect's Ring",
@@ -27545,6 +28038,23 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
+  "Swift Charm of Precision": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Charm of Precision",
+    "power": 1,
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "stats": {
+      "lockdown_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Swift Umbral Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -27600,6 +28110,22 @@
       "utility_item_for_armory": 1
     },
     "lore": "Swap hands while in main or off\nhand to swap places with your partner."
+  },
+  "Soul of the Holiday": {
+    "location": "Koal",
+    "mmlore": [
+      "So this is how he gets around!",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Soul of the Holiday",
+    "base_item": "Ender Pearl",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "So this is how he gets around!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Tesseract of Magic": {
     "location": "Celsian Isles",
@@ -27758,7 +28284,7 @@
     "stats": {
       "hunting_companion_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 30
       }
     },
     "type": "Charm",
@@ -27844,7 +28370,11 @@
     "stats": {
       "hunting_companion_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 15
+      },
+      "hunting_companion_pounce_damage_percent": {
+        "locked": false,
+        "value": 15
       }
     },
     "type": "Charm",
@@ -27928,7 +28458,11 @@
     "stats": {
       "hunting_companion_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 7.5
+      },
+      "hunting_companion_pounce_damage_percent": {
+        "locked": false,
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -28009,6 +28543,10 @@
     "release_status": "public",
     "stats": {
       "hunting_companion_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "hunting_companion_pounce_damage_percent": {
         "locked": false,
         "value": 10
       },
@@ -29305,10 +29843,6 @@
         "locked": false,
         "value": 1
       },
-      "quiver_storm_pierce_flat": {
-        "locked": false,
-        "value": 1
-      },
       "predator_strike_enemies_pierced_flat": {
         "locked": false,
         "value": 1
@@ -29424,6 +29958,27 @@
       "shrapnel_bomb_shrapnel_damage_percent": {
         "locked": false,
         "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
+  "Heavy Shattering Charm": {
+    "location": "Architect's Ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Heavy Shattering Charm",
+    "power": 1,
+    "base_item": "Flint",
+    "release_status": "public",
+    "stats": {
+      "shrapnel_bomb_damage_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "shrapnel_bomb_knockback_percent": {
+        "locked": false,
+        "value": 50
       }
     },
     "type": "Charm",
@@ -32004,11 +32559,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "slayer": 2,
-      "unbreaking": 3,
       "fire_aspect": 1,
       "knockback": 1,
       "mending": 1,
+      "slayer": 2,
+      "unbreaking": 3,
       "attack_damage_base": 8,
       "attack_speed_base": 1.2
     },
@@ -33272,6 +33827,28 @@
       "agility": 4.5
     },
     "lore": "Sandals forged eons ago,\nfor a speedster that never ran,\nfor a merchant that never sold."
+  },
+  "Trailblazer": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "Ishnirian fables tell of warriors whose pace",
+      "never slowed, unwavering even through",
+      "lakes of fire or the hottest coals."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Trailblazer",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "adrenaline": 1,
+      "poise": 1,
+      "unbreaking": 10,
+      "attack_damage_percent": 20,
+      "armor": 5
+    },
+    "lore": "Ishnirian fables tell of warriors whose pace\nnever slowed, unwavering even through\nlakes of fire or the hottest coals."
   },
   "Windblessed Boots": {
     "location": "Architect's Ring",
@@ -36635,9 +37212,9 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 1,
-      "mending": 1,
       "efficiency": 1,
+      "mending": 1,
+      "unbreaking": 1,
       "speed_percent": 7,
       "attack_damage_base": 2,
       "attack_speed_base": 1.2
@@ -37186,8 +37763,8 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "unbreakable": 1,
       "regeneration": 1,
+      "unbreakable": 1,
       "speed_flat": 0.02,
       "agility": 4,
       "attack_damage_percent": 50
@@ -40088,7 +40665,7 @@
     "stats": {
       "rending_razor_cooldown_reduction_amplifier_percent": {
         "locked": false,
-        "value": 20
+        "value": 30
       },
       "rending_razor_range_percent": {
         "locked": false,
@@ -41433,6 +42010,131 @@
       "attack_damage_base": 20
     }
   },
+  "Bonecrusher-0": {
+    "location": "Pelias' Keep",
+    "masterwork": "0",
+    "mmlore": [
+      "A twisted hatchet, wrought from stone.",
+      "A jagged edge makes it perfect for rending",
+      "flesh and piercing the bone beneath."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bonecrusher",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "impact": 2,
+      "melee_protection": 3,
+      "regicide": 1,
+      "unbreaking": 4,
+      "knockback_resistance_flat": 3,
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 15.5
+    },
+    "lore": "A twisted hatchet, wrought from stone.\nA jagged edge makes it perfect for rending\nflesh and piercing the bone beneath."
+  },
+  "Bonecrusher-1": {
+    "location": "Pelias' Keep",
+    "masterwork": "1",
+    "mmlore": [
+      "A twisted hatchet, wrought from stone.",
+      "A jagged edge makes it perfect for rending",
+      "flesh and piercing the bone beneath."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bonecrusher",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "impact": 2,
+      "melee_protection": 3,
+      "regicide": 1,
+      "unbreaking": 5,
+      "knockback_resistance_flat": 3,
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 16.5
+    },
+    "lore": "A twisted hatchet, wrought from stone.\nA jagged edge makes it perfect for rending\nflesh and piercing the bone beneath."
+  },
+  "Bonecrusher-2": {
+    "location": "Pelias' Keep",
+    "masterwork": "2",
+    "mmlore": [
+      "A twisted hatchet, wrought from stone.",
+      "A jagged edge makes it perfect for rending",
+      "flesh and piercing the bone beneath."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bonecrusher",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "impact": 2,
+      "melee_protection": 3,
+      "regicide": 1,
+      "unbreaking": 6,
+      "knockback_resistance_flat": 3,
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 17
+    },
+    "lore": "A twisted hatchet, wrought from stone.\nA jagged edge makes it perfect for rending\nflesh and piercing the bone beneath."
+  },
+  "Bonecrusher-3": {
+    "location": "Pelias' Keep",
+    "masterwork": "3",
+    "mmlore": [
+      "A twisted hatchet, wrought from stone.",
+      "A jagged edge makes it perfect for rending",
+      "flesh and piercing the bone beneath."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bonecrusher",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "impact": 2,
+      "melee_protection": 3,
+      "regicide": 1,
+      "unbreaking": 7,
+      "knockback_resistance_flat": 3,
+      "attack_damage_base": 17.5,
+      "attack_speed_base": 1.3
+    },
+    "lore": "A twisted hatchet, wrought from stone.\nA jagged edge makes it perfect for rending\nflesh and piercing the bone beneath."
+  },
+  "Bonecrusher-4": {
+    "location": "Pelias' Keep",
+    "masterwork": "4",
+    "mmlore": [
+      "A twisted hatchet, wrought from stone.",
+      "A jagged edge makes it perfect for rending",
+      "flesh and piercing the bone beneath."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Bonecrusher",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "impact": 2,
+      "melee_protection": 3,
+      "regicide": 2,
+      "unbreaking": 8,
+      "knockback_resistance_flat": 3,
+      "attack_damage_base": 17.5,
+      "attack_speed_base": 1.3
+    },
+    "lore": "A twisted hatchet, wrought from stone.\nA jagged edge makes it perfect for rending\nflesh and piercing the bone beneath."
+  },
   "Braveheart Hammer": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -41774,6 +42476,31 @@
       "attack_speed_base": 0.9
     },
     "lore": "Some say he shaped the world with nothing\nbut a hammer and an arrow..."
+  },
+  "Icebreaker": {
+    "location": "Koal",
+    "mmlore": [
+      "It's great for breaking ice.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Icebreaker",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "bleeding": 3,
+      "decay": 3,
+      "duelist": 3,
+      "infection": 3,
+      "slayer": 3,
+      "unbreakable": 1,
+      "attack_speed_base": 0.9,
+      "attack_damage_base": 30
+    },
+    "lore": "It's great for breaking ice.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Iron Battleaxe": {
     "location": "Celsian Isles",
@@ -42662,6 +43389,28 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
+  "Bonfire Brogues": {
+    "location": "Koal",
+    "mmlore": [
+      "The best equipment money can buy,",
+      "as far as roasting smores and",
+      "telling tales by the campfire goes."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Bonfire Brogues",
+    "base_item": "Iron Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "inferno": 1,
+      "mending": 1,
+      "regeneration": 1,
+      "sustenance": 1,
+      "armor": 3
+    },
+    "lore": "The best equipment money can buy,\nas far as roasting smores and\ntelling tales by the campfire goes."
+  },
   "Colossal Sabatons": {
     "location": "Delves",
     "mmlore": [
@@ -43447,6 +44196,29 @@
     },
     "lore": "The Emperor stepped into the\nperfectly preserved citadel, and\napproached the shriveled Tree of Life.\nAt his touch, the wood erupted\ninto a buzz of Energy.\nWhen it subsided, only Shades remained."
   },
+  "Permafrost Bastion": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "Even should all your allies turn away,",
+      "and your kingdom forsake you as lost...",
+      "you still stand. As resolute and unyielding",
+      "as the ice beneath your feet."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Permafrost Bastion",
+    "base_item": "Iron Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "shielding": 1,
+      "unbreaking": 5,
+      "knockback_resistance_flat": 4,
+      "magic_damage_percent": 10,
+      "armor": 5
+    },
+    "lore": "Even should all your allies turn away,\nand your kingdom forsake you as lost...\nyou still stand. As resolute and unyielding\nas the ice beneath your feet."
+  },
   "Rootbound Boots": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -43461,6 +44233,31 @@
       "blast_protection": 2,
       "armor": 9.5
     }
+  },
+  "Salem's Regret": {
+    "location": "Isles Overworld",
+    "mmlore": [
+      "\"Perhaps, if not for the war, could I",
+      "have been free to wander?\"",
+      "The girl had yet to roam nor explore,",
+      "alas consigned to a lone watchtower."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Salem's Regret",
+    "base_item": "Iron Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "fall_fragility": 3,
+      "retrieval": 3,
+      "unbreakable": 1,
+      "speed_percent": -15,
+      "projectile_damage_percent": 25,
+      "knockback_resistance_flat": 3,
+      "armor": 8
+    },
+    "lore": "\"Perhaps, if not for the war, could I\nhave been free to wander?\"\nThe girl had yet to roam nor explore,\nalas consigned to a lone watchtower."
   },
   "Seafloor's Sabatons": {
     "location": "TOV",
@@ -43842,6 +44639,28 @@
       "attack_damage_percent": 35
     },
     "lore": "In the aftermath of Sirius' fall, the\nblighted pods fell inert. With the\nright craftsmanship, they have\nbecome something more."
+  },
+  "Cage of Worship": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "\"Benn Versterk Staadmet...\" The highest",
+      "form of reverence displayed within",
+      "the city... An offering made final..."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Cage of Worship",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "melee_protection": 2,
+      "technique": 1,
+      "unbreaking": 5,
+      "attack_damage_percent": 20,
+      "agility": 5.5
+    },
+    "lore": "\"Benn Versterk Staadmet...\" The highest\nform of reverence displayed within\nthe city... An offering made final..."
   },
   "Darkstar Pauldron-2": {
     "location": "Starpoint",
@@ -44487,6 +45306,28 @@
     "type": "Charm",
     "class_name": "Warrior"
   },
+  "Basaltic Hardhat": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "Equipment of those who fell in the mines",
+      "was retrieved posthaste so digging would",
+      "continue. Life was cheap. Equipment was not."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Basaltic Hardhat",
+    "base_item": "Iron Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "curse_of_crippling": 2,
+      "melee_protection": 1,
+      "steadfast": 1,
+      "unbreaking": 5,
+      "armor": 8
+    },
+    "lore": "Equipment of those who fell in the mines\nwas retrieved posthaste so digging would\ncontinue. Life was cheap. Equipment was not."
+  },
   "Deadair Purifier-3": {
     "location": "Zenith",
     "masterwork": "3",
@@ -44572,9 +45413,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreakable": 1,
       "projectile_protection": 1,
       "shielding": 1,
+      "unbreakable": 1,
       "speed_percent": -5,
       "armor": 8,
       "knockback_resistance_flat": 2
@@ -44822,6 +45663,30 @@
       "armor": 7.5
     }
   },
+  "Permafrost Giant's Crown": {
+    "location": "Koal",
+    "mmlore": [
+      "Don't think about it too much.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Permafrost Giant's Crown",
+    "base_item": "Iron Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "projectile_protection": 1,
+      "shielding": 2,
+      "unbreakable": 1,
+      "webbing": 2,
+      "speed_percent": -5,
+      "armor": 8,
+      "knockback_resistance_flat": 2
+    },
+    "lore": "Don't think about it too much.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Rootbound Helm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -45050,6 +45915,29 @@
       "unbreaking": 2,
       "armor": 9
     }
+  },
+  "Snowball-Proof Mask": {
+    "location": "Koal",
+    "mmlore": [
+      "Protection against stray snowballs is",
+      "great, but sometimes you'll just need",
+      "tougher equipment when it comes down to it.",
+      "Especially involving rocks."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Snowball-Proof Mask",
+    "base_item": "Iron Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "blast_protection": 2,
+      "first_strike": 2,
+      "projectile_protection": 2,
+      "unbreaking": 2,
+      "armor": 4
+    },
+    "lore": "Protection against stray snowballs is\ngreat, but sometimes you'll just need\ntougher equipment when it comes down to it.\nEspecially involving rocks."
   },
   "Stoneward Helm": {
     "location": "Architect's Ring",
@@ -46722,6 +47610,28 @@
       "armor": 8
     },
     "lore": "Tyranny, fratricide, mad searching for the lost\nrelics of the Silver Knights concealed one\nsimple truth. Ambitious attempts to revive the\ngreat Silvari empire were not meant to succeed."
+  },
+  "Chilled Chausses": {
+    "location": "Koal",
+    "mmlore": [
+      "They're just regular battle greaves,",
+      "but enough time spent shovelling snow",
+      "will make anyone know hardship."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Chilled Chausses",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "melee_protection": 2,
+      "unbreaking": 2,
+      "speed_percent": 12,
+      "projectile_damage_percent": 12,
+      "armor": 2.5
+    },
+    "lore": "They're just regular battle greaves,\nbut enough time spent shovelling snow\nwill make anyone know hardship."
   },
   "Circuit Breaker-2": {
     "location": "PORTAL",
@@ -53513,9 +54423,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 4,
       "blast_protection": 1,
       "tempo": 1,
+      "unbreaking": 4,
       "agility": 2.5
     },
     "lore": "The rhythm has been forgotten,\nnow torment is their only song,\nhowled at an uncaring moon."
@@ -53535,10 +54445,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 17,
       "blast_protection": 2,
-      "tempo": 1,
       "first_strike": 1,
+      "tempo": 1,
+      "unbreaking": 17,
       "speed_percent": 15,
       "agility": 7,
       "attack_damage_percent": 10
@@ -53560,10 +54470,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 25,
       "blast_protection": 2,
-      "tempo": 1,
       "first_strike": 1,
+      "tempo": 1,
+      "unbreaking": 25,
       "speed_percent": 15,
       "agility": 7.5,
       "attack_damage_percent": 10
@@ -53585,10 +54495,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 30,
       "blast_protection": 2,
-      "tempo": 1,
       "first_strike": 1,
+      "tempo": 1,
+      "unbreaking": 30,
       "speed_percent": 20,
       "agility": 7.5,
       "attack_damage_percent": 15
@@ -53610,10 +54520,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 35,
       "blast_protection": 2,
-      "tempo": 1,
       "first_strike": 1,
+      "tempo": 1,
+      "unbreaking": 35,
       "speed_percent": 20,
       "agility": 8,
       "attack_damage_percent": 20
@@ -55278,6 +56188,29 @@
       "agility": 4.5
     }
   },
+  "Wrangling Root": {
+    "location": "Valleyexplorer",
+    "mmlore": [
+      "Kaul's power, snaking through the Blackroot.",
+      "Flowing as lifeblood throughout the Jungle."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Wrangling Root",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "depth_strider": 3,
+      "soul_speed": 3,
+      "unbreaking": 5,
+      "attack_damage_percent": 10,
+      "attack_speed_percent": 10,
+      "armor": 3,
+      "thorns_flat": 3
+    },
+    "lore": "Kaul's power, snaking through the Blackroot.\nFlowing as lifeblood throughout the Jungle."
+  },
   "Zephyric Sandals": {
     "location": "White",
     "mmlore": [
@@ -55705,9 +56638,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 4,
-      "melee_protection": 3,
       "blast_protection": 1,
+      "melee_protection": 3,
+      "unbreaking": 4,
       "max_health_flat": 2
     },
     "lore": "Now only the vermin will\nwitness his crimes."
@@ -55726,9 +56659,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 17,
-      "melee_protection": 3,
       "blast_protection": 2,
+      "melee_protection": 3,
+      "unbreaking": 17,
       "max_health_flat": 2,
       "armor": 7
     },
@@ -55748,9 +56681,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 25,
-      "melee_protection": 4,
       "blast_protection": 2,
+      "melee_protection": 4,
+      "unbreaking": 25,
       "max_health_flat": 2,
       "armor": 7
     },
@@ -55770,9 +56703,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 30,
-      "melee_protection": 4,
       "blast_protection": 2,
+      "melee_protection": 4,
+      "unbreaking": 30,
       "max_health_flat": 2,
       "armor": 7.5
     },
@@ -55792,9 +56725,9 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 35,
-      "melee_protection": 4,
       "blast_protection": 2,
+      "melee_protection": 4,
+      "unbreaking": 35,
       "max_health_flat": 2,
       "armor": 8.5
     },
@@ -56431,6 +57364,27 @@
     },
     "lore": "We are small, but our legend\nspreads like Ebola."
   },
+  "Elven Jetpack": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Elven Jetpack",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "frogging": 10,
+      "unbreaking": 5,
+      "speed_flat": 0.02,
+      "armor": 3,
+      "agility": 3
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Emperor's Robes (chest)": {
     "location": "Teal",
     "mmlore": [
@@ -56822,6 +57776,29 @@
       "melee_protection": 2,
       "armor": 3.5
     }
+  },
+  "Hardened Christmas Sweater": {
+    "location": "Koal",
+    "mmlore": [
+      "There's been so much hot chocolate",
+      "spilled on this that someone could",
+      "mistake it for combat gear!"
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Hardened Christmas Sweater",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "fire_protection": 3,
+      "melee_protection": 1,
+      "unbreaking": 9,
+      "speed_percent": -10,
+      "magic_damage_percent": 10,
+      "agility": 3.5
+    },
+    "lore": "There's been so much hot chocolate\nspilled on this that someone could\nmistake it for combat gear!"
   },
   "Hardened Leather Tunic": {
     "location": "King's Valley",
@@ -61223,6 +62200,28 @@
       "agility": 8.5
     }
   },
+  "Shroomshelf Shako": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "A cap forged from seaborn mushrooms,",
+      "adopting and sharing the resilience of the",
+      "spires with its wearer."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Shroomshelf Shako",
+    "base_item": "Leather Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "feather_falling": 2,
+      "reflexes": 1,
+      "unbreaking": 12,
+      "projectile_damage_percent": 15,
+      "agility": 5
+    },
+    "lore": "A cap forged from seaborn mushrooms,\nadopting and sharing the resilience of the\nspires with its wearer."
+  },
   "Silkshine Hood": {
     "location": "Light Gray",
     "region": "Isles",
@@ -61953,6 +62952,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "It was only when the people of\nthe empire, whom he had so\ngreatly loved, were endangered,\nthat Almon finally began to act.\nHe quarreled with Pelias for years,\nbut nothing came of it. Until that final day.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Old Ski Glove": {
+    "location": "Koal",
+    "mmlore": [
+      "There's still coal left on it from",
+      "Koal's rampage, but they'll stave",
+      "off the cold all the same."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Old Ski Glove",
+    "base_item": "Leather Horse Armor",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "tactician": 3,
+      "speed_percent": 15,
+      "projectile_damage_percent": 5,
+      "armor": 4.5
+    },
+    "lore": "There's still coal left on it from\nKoal's rampage, but they'll stave\noff the cold all the same."
   },
   "Ad Astra": {
     "location": "Delves",
@@ -62990,9 +64010,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
+      "adrenaline": 2,
       "sustenance": 1,
       "unbreakable": 1,
-      "adrenaline": 2,
       "agility": 4.5,
       "attack_damage_percent": 20
     },
@@ -63013,10 +64033,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "first_strike": 3,
-      "unbreakable": 1,
-      "projectile_protection": 2,
       "adrenaline": 2,
+      "first_strike": 3,
+      "projectile_protection": 2,
+      "unbreakable": 1,
       "agility": 8
     },
     "lore": "The hunting call of Ixume still\nstrikes fear into the heart of\nTlaxans. Channel it."
@@ -63036,10 +64056,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "first_strike": 4,
-      "unbreakable": 1,
-      "projectile_protection": 3,
       "adrenaline": 2,
+      "first_strike": 4,
+      "projectile_protection": 3,
+      "unbreakable": 1,
       "agility": 8
     },
     "lore": "The hunting call of Ixume still\nstrikes fear into the heart of\nTlaxans. Channel it."
@@ -63059,10 +64079,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "first_strike": 4,
-      "unbreakable": 1,
-      "projectile_protection": 3,
       "adrenaline": 3,
+      "first_strike": 4,
+      "projectile_protection": 3,
+      "unbreakable": 1,
       "agility": 8.5
     },
     "lore": "The hunting call of Ixume still\nstrikes fear into the heart of\nTlaxans. Channel it."
@@ -63082,10 +64102,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "first_strike": 5,
-      "unbreakable": 1,
-      "projectile_protection": 4,
       "adrenaline": 3,
+      "first_strike": 5,
+      "projectile_protection": 4,
+      "unbreakable": 1,
       "agility": 8.5
     },
     "lore": "The hunting call of Ixume still\nstrikes fear into the heart of\nTlaxans. Channel it."
@@ -63869,6 +64889,29 @@
     "type": "Misc",
     "stats": {}
   },
+  "Reindeer Pelt": {
+    "location": "Koal",
+    "mmlore": [
+      "A consolation prize for the death",
+      "of many reindeers. The warm fur",
+      "coats a cold heart."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Reindeer Pelt",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "feather_falling": 3,
+      "stamina": 1,
+      "unbreaking": 9,
+      "knockback_resistance_flat": 3,
+      "attack_speed_percent": 10,
+      "agility": 4
+    },
+    "lore": "A consolation prize for the death\nof many reindeers. The warm fur\ncoats a cold heart."
+  },
   "Replica Plague Bearer's Soiled Trousers": {
     "location": "Halloween Event",
     "region": "Valley",
@@ -64315,6 +65358,30 @@
       "unbreaking": 3,
       "agility": 2.5
     }
+  },
+  "Skytower": {
+    "location": "Valleyexplorer",
+    "mmlore": [
+      "They built vast towers to reach",
+      "the skies above, oblivious to",
+      "what awaited should they",
+      "approach the summit."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Skytower",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "magic_protection": 1,
+      "mending": 1,
+      "second_wind": 1,
+      "unbreaking": 2,
+      "agility": 4,
+      "speed_percent": 10
+    },
+    "lore": "They built vast towers to reach\nthe skies above, oblivious to\nwhat awaited should they\napproach the summit."
   },
   "Snegovik Greaves": {
     "location": "Winter Event",
@@ -68057,6 +69124,29 @@
     "type": "Consumable",
     "stats": {},
     "lore": "To drink such an offering in a hallowed temple\nwas known to grant clarity and peace of mind."
+  },
+  "Refreshing Soup": {
+    "mmlore": [
+      "Delicious!"
+    ],
+    "name": "Refreshing Soup",
+    "effects": [
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.05,
+        "EffectType": "AbilityCooldownDecrease"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.05,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Mushroom Stew",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Delicious!"
   },
   "Annilys": {
     "location": "Depths",
@@ -73425,6 +74515,21 @@
     "stats": {},
     "lore": "An item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
+  "Bucket of Cryospheres": {
+    "location": "Winter Event",
+    "mmlore": [
+      "Ten Cryospheres, all condensed into a bucket.",
+      "The bucket radiates festive magic."
+    ],
+    "region": "Valley",
+    "tier": "Event_currency",
+    "name": "Bucket of Cryospheres",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Ten Cryospheres, all condensed into a bucket.\nThe bucket radiates festive magic."
+  },
   "C'Axtal's Corrupted Mask": {
     "location": "Reverie",
     "mmlore": [
@@ -73571,6 +74676,39 @@
     "stats": {},
     "lore": "He's holding an odd\nbone in his mouth..."
   },
+  "Coal Launcher": {
+    "location": "Koal",
+    "mmlore": [
+      "Collects the coal in your inventory and launches it!",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Coal Launcher",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "curse_of_ephemerality": 1
+    },
+    "lore": "Collects the coal in your inventory and launches it!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Coalrupted Fragment": {
+    "location": "Koal",
+    "mmlore": [
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>An artifact, crushed to pieces.",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>Maybe it can be turned back into an item?"
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Coalrupted Fragment",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An artifact, crushed to pieces.\nMaybe it can be turned back into an item?"
+  },
   "Coffee Cat Cafe Plushie": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -73651,6 +74789,27 @@
       "agility": 4
     },
     "lore": "Whispers of those who have died still haunt\nthe edges of nightmares. Some remnant of the\nVeil? Or something else haunting beyond?"
+  },
+  "Cracked Snowglobe": {
+    "location": "Koal",
+    "mmlore": [
+      "The shattered glass is sharp to the",
+      "touch, still cold from the snowfall",
+      "inside."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Cracked Snowglobe",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "magic_protection": 2,
+      "attack_damage_percent": 12,
+      "thorns_flat": 4,
+      "agility": 4
+    },
+    "lore": "The shattered glass is sharp to the\ntouch, still cold from the snowfall\ninside."
   },
   "Crest of Highwatch": {
     "location": "Valley Overworld",
@@ -74213,6 +75372,27 @@
     },
     "lore": "The legion remained in solitude, but\nthey were dredged in war all the same."
   },
+  "Failed Blight": {
+    "location": "Valleyexplorer",
+    "mmlore": [
+      "Scarce few attempts to breach the Veil",
+      "were successful. Failure often meant being",
+      "severed from the influence of those above."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Failed Blight",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "depth_strider": 2,
+      "second_wind": 2,
+      "magic_damage_percent": 5,
+      "armor": 2.5
+    },
+    "lore": "Scarce few attempts to breach the Veil\nwere successful. Failure often meant being\nsevered from the influence of those above."
+  },
   "Fedora Cat Plushie": {
     "location": "King's Valley",
     "mmlore": [
@@ -74369,6 +75549,23 @@
       "armor": 9.5
     },
     "lore": "The foreign energy turned this innocuous\nweighted cube into a mechanical mind.\nIf it had a mouth, it would beg for\nyour companionship."
+  },
+  "Frozen Toaster": {
+    "location": "Koal",
+    "mmlore": [
+      "How much toast does a frozen toaster",
+      "toast when a frozen toaster toasts",
+      "frozen toast? The frozen toaster's toaster",
+      "freezes toasted frozen toasts."
+    ],
+    "region": "Valley",
+    "tier": "Trophy",
+    "name": "Frozen Toaster",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "How much toast does a frozen toaster\ntoast when a frozen toaster toasts\nfrozen toast? The frozen toaster's toaster\nfreezes toasted frozen toasts."
   },
   "Fungal Fury-2": {
     "location": "Godspore",
@@ -74868,6 +76065,21 @@
     "stats": {},
     "lore": "Upon the ancient powers creep\nThe mind shall break and terrors leap"
   },
+  "Isles Explorer Fragment": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "<!italic><gray>A rare item, crushed to pieces.",
+      "<!italic><gray>Maybe it can be turned back into an item?"
+    ],
+    "region": "Isles",
+    "tier": "Currency",
+    "name": "Isles Explorer Fragment",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
+  },
   "Jungle Fragment": {
     "location": "Kaul",
     "mmlore": [
@@ -75341,6 +76553,27 @@
       "armor": 9.5
     },
     "lore": "Each night, Levyn would have the\nsame waking dream, watching everyone\nhe cared about incur the same fate\nas Xeno. And every morning, he would\nrelive the same nightmare."
+  },
+  "Mystery Gift (Hat)": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Mystery Gift (Hat)",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "blast_fragility": 4,
+      "magic_protection": 2,
+      "melee_protection": 2,
+      "projectile_fragility": 3,
+      "sapper": 2
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Orange Fragment": {
     "location": "Orange",
@@ -76508,6 +77741,21 @@
     "stats": {},
     "lore": "\"A casualty of opening the Veil. It had\nto be done. I hated betraying them, but they\nknew not what they had. We were clueless to\nthe true power of the wool we had only\njust discovered. The spell had to be mine, alone.\""
   },
+  "Valley Explorer Fragment": {
+    "location": "Valleyexplorer",
+    "mmlore": [
+      "<!italic><gray>A rare item, crushed to pieces.",
+      "<!italic><gray>Maybe it can be turned back into an item?"
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Valley Explorer Fragment",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
+  },
   "Valuable Goods": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Supplies owned by The Trade.",
@@ -76843,6 +78091,54 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
+  },
+  "Enormous Stalactite": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Enormous Stalactite",
+    "power": 3,
+    "base_item": "Pointed Dripstone",
+    "release_status": "public",
+    "stats": {
+      "glorious_battle_pierce_damage_percent": {
+        "locked": false,
+        "value": 125
+      },
+      "glorious_battle_velocity_percent": {
+        "locked": false,
+        "value": 25
+      },
+      "glorious_battle_critical_damage_multiplier_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
+  "Skull Splitter": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Skull Splitter",
+    "base_item": "Pointed Dripstone",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "bleeding": 8,
+      "hex_eater": 3,
+      "ice_aspect": 3,
+      "infection": 3,
+      "knockback_resistance_flat": 10,
+      "attack_speed_base": 1,
+      "attack_damage_base": 4
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Raw Rat": {
     "location": "Forum",
@@ -78039,6 +79335,38 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Brrr Brew": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Brrr Brew",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.6,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 3,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 3,
+        "EffectType": "JumpBoost"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Burn Panacea": {
     "location": "Verdant",
@@ -80295,6 +81623,38 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Gift of the Tempest": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Gift of the Tempest",
+    "effects": [
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 1,
+        "EffectType": "Speed"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 3,
+        "EffectType": "JumpBoost"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.9,
+        "EffectType": "FallResistance"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Glory to the Eternal": {
     "location": "Hekawt",
     "region": "Isles",
@@ -80973,6 +82333,38 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Might of the Stag": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Might of the Stag",
+    "effects": [
+      {
+        "EffectDuration": 9600,
+        "EffectStrength": 0.3,
+        "EffectType": "BlastResistance"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 2,
+        "EffectType": "MeleeDamageNegate"
+      },
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 0.15,
+        "EffectType": "damage"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Miner's Brew": {
     "location": "Valley Overworld",
@@ -82336,6 +83728,48 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Super Eggnog": {
+    "location": "Koal",
+    "mmlore": [
+      "It's concerningly yellow, and combined",
+      "with a dubious market-brand plastered",
+      "on it, one must prepare themselves..."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Super Eggnog",
+    "effects": [
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 0.1,
+        "EffectType": "AttackSpeed"
+      },
+      {
+        "EffectDuration": 120,
+        "EffectStrength": 0.25,
+        "EffectType": "HealOverTime"
+      },
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.1,
+        "EffectType": "InstantDamagePercent"
+      },
+      {
+        "EffectDuration": 300,
+        "EffectStrength": 1,
+        "EffectType": "Nausea"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {
+      "adrenaline": 1,
+      "infinity": 1,
+      "regeneration": 1
+    },
+    "lore": "It's concerningly yellow, and combined\nwith a dubious market-brand plastered\non it, one must prepare themselves..."
   },
   "Super Glue": {
     "location": "King's Valley",
@@ -86381,6 +87815,48 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
+  "Mystery Gift (offhand)": {
+    "location": "Koal",
+    "mmlore": [
+      "What secrets do you hold?",
+      "Who will you disappoint today?",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Mystery Gift",
+    "base_item": "Red Glazed Terracotta",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "armor": 3,
+      "agility": 3
+    },
+    "lore": "What secrets do you hold?\nWho will you disappoint today?\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Mystery Gift (mainhand)": {
+    "location": "Koal",
+    "mmlore": [
+      "What secrets do you hold?",
+      "Who will you disappoint today?",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Mystery Gift",
+    "base_item": "Red Glazed Terracotta",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "magic_damage_percent": 15,
+      "attack_damage_base": 1.5,
+      "attack_speed_base": 1.5,
+      "spell_power_base": 45
+    },
+    "lore": "What secrets do you hold?\nWho will you disappoint today?\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Rampant Miasma": {
     "location": "Godspore",
     "region": "Ring",
@@ -87509,6 +88985,28 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Sweetish Fish": {
+    "location": "Koal",
+    "mmlore": [
+      "This tastes so good I could die!",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Sweetish Fish",
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "cumbersome": 1,
+      "impact": 8,
+      "knockback": 4,
+      "attack_speed_base": 2,
+      "attack_damage_base": 5
+    },
+    "lore": "This tastes so good I could die!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Swift Shade Seabass": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -87935,14 +89433,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 2,
       "fire_protection": 4,
+      "gills": 1,
       "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
+      "unbreakable": 1,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 6
     },
@@ -87963,14 +89461,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 3,
       "fire_protection": 4,
+      "gills": 1,
       "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
+      "unbreakable": 1,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 7
     },
@@ -87991,14 +89489,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 3,
       "fire_protection": 5,
+      "gills": 1,
       "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
+      "unbreakable": 1,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
     },
@@ -88019,14 +89517,14 @@
     "release_status": "public",
     "type": "Mainhand",
     "stats": {
-      "unbreakable": 1,
-      "gills": 1,
-      "worldly_protection": 1,
+      "darksight": 1,
       "feather_falling": 4,
       "fire_protection": 6,
+      "gills": 1,
       "multitool": 1,
-      "darksight": 1,
       "regeneration": 1,
+      "unbreakable": 1,
+      "worldly_protection": 1,
       "speed_percent": 18,
       "knockback_resistance_flat": 8
     },
@@ -88157,6 +89655,30 @@
       "spell_power_base": 35
     },
     "lore": "St0mp them down with your magic."
+  },
+  "Ashensteel Buckler": {
+    "location": "Isleexplorer",
+    "mmlore": [
+      "Countless sandstorms have weathered",
+      "away the earth itself, the ashen plumes",
+      "granting the steel a constitution solely",
+      "unique to this region's minerals."
+    ],
+    "region": "Isles",
+    "tier": "Rare",
+    "name": "Ashensteel Buckler",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "blast_protection": 2,
+      "second_wind": 2,
+      "unbreaking": 4,
+      "agility": 4,
+      "knockback_resistance_flat": 4,
+      "speed_percent": 10
+    },
+    "lore": "Countless sandstorms have weathered\naway the earth itself, the ashen plumes\ngranting the steel a constitution solely\nunique to this region's minerals."
   },
   "Aurora Mirror (mainhand)": {
     "location": "Light Gray",
@@ -88343,8 +89865,8 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "projectile_protection": 2,
       "blast_protection": 4,
+      "projectile_protection": 2,
       "unbreaking": 3,
       "agility": 2.5
     },
@@ -89778,6 +91300,29 @@
     },
     "lore": "It doesn't make for the best defense, but\nit can block a shot here and there."
   },
+  "Permafrost Bulwark": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Permafrost Bulwark",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "magic_protection": 1,
+      "rebound": 5,
+      "steadfast": 1,
+      "unbreaking": 2,
+      "max_health_flat": 2,
+      "attack_speed_percent": 20,
+      "armor": 4
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Polished Shield": {
     "location": "Reverie",
     "mmlore": [
@@ -90398,6 +91943,126 @@
     },
     "lore": "In the silence of night, a cry issued forth\nfrom the depths. So many memories lost to\nthe Veil. Woven forever into fate."
   },
+  "Sonorous Shield-0": {
+    "location": "Pelias' Keep",
+    "masterwork": "0",
+    "mmlore": [
+      "Layers of ringing rock cover an",
+      "otherwise small shield, releasing",
+      "a deafening rattle when struck."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Sonorous Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "rebound": 2,
+      "shielding": 1,
+      "unbreaking": 2,
+      "speed_percent": 8,
+      "armor": 4,
+      "attack_damage_percent": 22
+    },
+    "lore": "Layers of ringing rock cover an\notherwise small shield, releasing\na deafening rattle when struck."
+  },
+  "Sonorous Shield-1": {
+    "location": "Pelias' Keep",
+    "masterwork": "1",
+    "mmlore": [
+      "Layers of ringing rock cover an",
+      "otherwise small shield, releasing",
+      "a deafening rattle when struck."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Sonorous Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "rebound": 2,
+      "shielding": 1,
+      "unbreaking": 3,
+      "armor": 5,
+      "speed_percent": 8,
+      "attack_damage_percent": 22
+    },
+    "lore": "Layers of ringing rock cover an\notherwise small shield, releasing\na deafening rattle when struck."
+  },
+  "Sonorous Shield-2": {
+    "location": "Pelias' Keep",
+    "masterwork": "2",
+    "mmlore": [
+      "Layers of ringing rock cover an",
+      "otherwise small shield, releasing",
+      "a deafening rattle when struck."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Sonorous Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "rebound": 2,
+      "shielding": 1,
+      "unbreaking": 4,
+      "armor": 5,
+      "speed_percent": 10,
+      "attack_damage_percent": 25
+    },
+    "lore": "Layers of ringing rock cover an\notherwise small shield, releasing\na deafening rattle when struck."
+  },
+  "Sonorous Shield-3": {
+    "location": "Pelias' Keep",
+    "masterwork": "3",
+    "mmlore": [
+      "Layers of ringing rock cover an",
+      "otherwise small shield, releasing",
+      "a deafening rattle when struck."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Sonorous Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "rebound": 2,
+      "shielding": 1,
+      "unbreaking": 5,
+      "armor": 5,
+      "speed_percent": 10,
+      "attack_damage_percent": 35
+    },
+    "lore": "Layers of ringing rock cover an\notherwise small shield, releasing\na deafening rattle when struck."
+  },
+  "Sonorous Shield-4": {
+    "location": "Pelias' Keep",
+    "masterwork": "4",
+    "mmlore": [
+      "Layers of ringing rock cover an",
+      "otherwise small shield, releasing",
+      "a deafening rattle when struck."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Sonorous Shield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Offhand Shield",
+    "stats": {
+      "rebound": 3,
+      "shielding": 1,
+      "unbreaking": 6,
+      "speed_percent": 10,
+      "attack_damage_percent": 35,
+      "armor": 5
+    },
+    "lore": "Layers of ringing rock cover an\notherwise small shield, releasing\na deafening rattle when struck."
+  },
   "Soulblighter's Bulwark": {
     "location": "Ephemeral Enhancements",
     "mmlore": [
@@ -90799,6 +92464,29 @@
       "agility": 4.5
     },
     "lore": "Tiny threads of the Olive Wool\nhave been woven into this bark\nshield, giving it a powerful aura."
+  },
+  "The Sledshield": {
+    "location": "Koal",
+    "mmlore": [
+      "You might look silly hauling this around,",
+      "but nobody wants to be on the receiving",
+      "end of a door-sized bobsled."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "The Sledshield",
+    "base_item": "Shield",
+    "release_status": "public",
+    "type": "Mainhand Shield",
+    "stats": {
+      "ice_aspect": 1,
+      "unbreaking": 3,
+      "knockback_resistance_flat": 4,
+      "thorns_flat": 4,
+      "attack_speed_base": 1.1,
+      "attack_damage_base": 10.5
+    },
+    "lore": "You might look silly hauling this around,\nbut nobody wants to be on the receiving\nend of a door-sized bobsled."
   },
   "The White Cliff": {
     "location": "Celsian Isles",
@@ -92010,9 +93698,9 @@
     "base_item": "Smithing Table",
     "release_status": "public",
     "stats": {
-      "rampage_cooldown_flat": {
+      "rampage_cooldown_percent": {
         "locked": false,
-        "value": -2
+        "value": -35
       },
       "rampage_damage_percent": {
         "locked": false,
@@ -92165,8 +93853,8 @@
     "release_status": "public",
     "type": "Snowball",
     "stats": {
-      "infinity": 1,
       "fire_aspect": 1,
+      "infinity": 1,
       "throw_rate_base": 0.5,
       "projectile_speed_base": 0.5,
       "projectile_damage_base": 8
@@ -92504,6 +94192,28 @@
       "throw_rate_base": 0.6
     },
     "lore": "Mana courses through the otherwise unassuming\nhunk of steel. Perhaps Bermuda's failures\ncould be just as useful as her successes."
+  },
+  "Rancid Walnut": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Common",
+    "name": "Rancid Walnut",
+    "base_item": "Snowball",
+    "release_status": "public",
+    "type": "Snowball",
+    "stats": {
+      "consumable": 1,
+      "decay": 1,
+      "thunder_aspect": 10,
+      "throw_rate_base": 1,
+      "projectile_speed_base": 1.5,
+      "projectile_damage_base": 1.5
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Replica Orb of Harrakfar": {
     "location": "Challenger",
@@ -93417,6 +95127,33 @@
     },
     "lore": "Vibrant berries adorn the outer casing of the\notherwise ancient apparatus, growing off the\nintense magical index harbored within."
   },
+  "Another Stocking Stuffer": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Another Stocking Stuffer",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 2400,
+        "EffectStrength": 0.4,
+        "EffectType": "MeleeDamage"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Antidote": {
     "mmlore": [
       "Removes and grants immunity",
@@ -94129,6 +95866,33 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Elven Blitz": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Elven Blitz",
+    "effects": [
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 2,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 600,
+        "EffectStrength": 0.25,
+        "EffectType": "AbilityCooldownDecrease"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Empowered Swiftshield Tincture": {
     "mmlore": [
       "Hastily gulped by the most cowardly",
@@ -94624,6 +96388,38 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Ice In A Glass": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Ice In A Glass",
+    "effects": [
+      {
+        "EffectDuration": 4800,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 0.1,
+        "EffectType": "Resistance"
+      },
+      {
+        "EffectDuration": 12000,
+        "EffectStrength": 1,
+        "EffectType": "ConduitPower"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Inner Flame": {
     "location": "Docks",
@@ -95754,6 +97550,33 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Stocking Stuffer": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Stocking Stuffer",
+    "effects": [
+      {
+        "EffectDuration": 1,
+        "EffectStrength": 0.4,
+        "EffectType": "InstantHealthPercent"
+      },
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 0.3,
+        "EffectType": "damage"
+      }
+    ],
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Strong Potion of Protection": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -96273,8 +98096,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "sustenance": 1,
       "regeneration": 1,
+      "sustenance": 1,
       "attack_damage_base": 6,
       "spell_power_base": 50
     },
@@ -98788,8 +100611,8 @@
     "type": "Axe",
     "stats": {
       "first_strike": 1,
-      "unbreaking": 4,
       "knockback": 1,
+      "unbreaking": 4,
       "attack_speed_base": 1,
       "attack_damage_base": 10.5
     },
@@ -99793,10 +101616,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "unbreaking": 3,
+      "efficiency": 2,
       "melee_protection": 2,
       "projectile_protection": 2,
-      "efficiency": 2,
+      "unbreaking": 3,
       "knockback_resistance_flat": 3,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2
@@ -102634,8 +104457,8 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "unbreakable": 1,
       "melee_protection": 1,
+      "unbreakable": 1,
       "agility": 2,
       "attack_damage_percent": 25
     },
@@ -106448,6 +108271,29 @@
     },
     "lore": "\"Don't worry, nothing in the ocean would\nstand a chance against this.\""
   },
+  "Gigantic Icicle": {
+    "location": "Koal",
+    "mmlore": [
+      "Do you dare to lick it?",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Gigantic Icicle",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "ice_aspect": 6,
+      "quake": 6,
+      "unbreakable": 1,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 0.8,
+      "projectile_damage_base": 15
+    },
+    "lore": "Do you dare to lick it?\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Gold Cursed Polearm": {
     "location": "Purple",
     "mmlore": [
@@ -106985,6 +108831,31 @@
     },
     "lore": "Deep beneath the permafrost, the Herald spread\nits sickly blight across all it touched. Eventually,\na visitor arrived. With a surge of power\nand a shard in hand, he gained a new title.\nAlric, Lord of the Chilled Winds and\nfirst of the Stargazers."
   },
+  "Solstice Greattree": {
+    "location": "Koal",
+    "mmlore": [
+      "Out of the many trees scheduled",
+      "to be thrown out after the holidays,",
+      "one worker took it far too literally..."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Solstice Greattree",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "earth_aspect": 2,
+      "punch": 2,
+      "quake": 2,
+      "unbreaking": 2,
+      "throw_rate_base": 0.5,
+      "projectile_speed_base": 0.5,
+      "armor": 2,
+      "projectile_damage_base": 19
+    },
+    "lore": "Out of the many trees scheduled\nto be thrown out after the holidays,\none worker took it far too literally..."
+  },
   "Soul Spear": {
     "location": "Isles Overworld",
     "region": "Isles",
@@ -107444,6 +109315,30 @@
       "attack_speed_base": 1.1
     }
   },
+  "Broken Jackhammer": {
+    "location": "Koal",
+    "mmlore": [
+      "\"Jackhammers don't need certification, do they?\"",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Broken Jackhammer",
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "breezing": 6,
+      "fall_fragility": 5,
+      "melee_fragility": 1,
+      "slayer": 1,
+      "speed_percent": 18,
+      "attack_damage_base": 20,
+      "attack_speed_base": 0.8
+    },
+    "lore": "\"Jackhammers don't need certification, do they?\"\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Farr Jail Key": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
@@ -107832,6 +109727,35 @@
     "type": "Misc",
     "stats": {},
     "lore": "Bring this to Barton in\nSierhaven. He's got a use for it!"
+  },
+  "Crumbling Foundation": {
+    "location": "Pelias' Keep",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Crumbling Foundation",
+    "power": 3,
+    "base_item": "Tuff",
+    "release_status": "public",
+    "stats": {
+      "illuminate_enhancement_damage_flat": {
+        "locked": true,
+        "value": 12
+      },
+      "illuminate_enhancement_tick_delay_percent": {
+        "locked": false,
+        "value": 150
+      },
+      "illuminate_radius_percent": {
+        "locked": false,
+        "value": -100
+      },
+      "illuminate_cooldown_percent": {
+        "locked": false,
+        "value": 50
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
   },
   "Easter Egg": {
     "location": "Easter",
@@ -110486,6 +112410,136 @@
     "stats": {},
     "lore": "This pickaxe has seen better days..."
   },
+  "Burdened Claw-0": {
+    "location": "Pelias' Keep",
+    "masterwork": "0",
+    "mmlore": [
+      "A claw from a mutated Lycan, far",
+      "too unwieldy to be used as a weapon.",
+      "But perfect for excavation."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Burdened Claw",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 2,
+      "eruption": 4,
+      "impact": 3,
+      "knockback": 2,
+      "unbreaking": 30,
+      "speed_flat": -0.01,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 15.5
+    },
+    "lore": "A claw from a mutated Lycan, far\ntoo unwieldy to be used as a weapon.\nBut perfect for excavation."
+  },
+  "Burdened Claw-1": {
+    "location": "Pelias' Keep",
+    "masterwork": "1",
+    "mmlore": [
+      "A claw from a mutated Lycan, far",
+      "too unwieldy to be used as a weapon.",
+      "But perfect for excavation."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Burdened Claw",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 3,
+      "eruption": 4,
+      "impact": 3,
+      "knockback": 3,
+      "unbreaking": 35,
+      "speed_flat": -0.01,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 16.5
+    },
+    "lore": "A claw from a mutated Lycan, far\ntoo unwieldy to be used as a weapon.\nBut perfect for excavation."
+  },
+  "Burdened Claw-2": {
+    "location": "Pelias' Keep",
+    "masterwork": "2",
+    "mmlore": [
+      "A claw from a mutated Lycan, far",
+      "too unwieldy to be used as a weapon.",
+      "But perfect for excavation."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Burdened Claw",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 3,
+      "eruption": 5,
+      "impact": 3,
+      "knockback": 3,
+      "unbreaking": 45,
+      "speed_flat": -0.01,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 16.5
+    },
+    "lore": "A claw from a mutated Lycan, far\ntoo unwieldy to be used as a weapon.\nBut perfect for excavation."
+  },
+  "Burdened Claw-3": {
+    "location": "Pelias' Keep",
+    "masterwork": "3",
+    "mmlore": [
+      "A claw from a mutated Lycan, far",
+      "too unwieldy to be used as a weapon.",
+      "But perfect for excavation."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Burdened Claw",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 3,
+      "eruption": 6,
+      "impact": 3,
+      "knockback": 3,
+      "unbreaking": 50,
+      "speed_flat": -0.01,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17
+    },
+    "lore": "A claw from a mutated Lycan, far\ntoo unwieldy to be used as a weapon.\nBut perfect for excavation."
+  },
+  "Burdened Claw-4": {
+    "location": "Pelias' Keep",
+    "masterwork": "4",
+    "mmlore": [
+      "A claw from a mutated Lycan, far",
+      "too unwieldy to be used as a weapon.",
+      "But perfect for excavation."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Burdened Claw",
+    "base_item": "Wooden Pickaxe",
+    "release_status": "public",
+    "type": "Pickaxe",
+    "stats": {
+      "efficiency": 3,
+      "eruption": 6,
+      "impact": 4,
+      "knockback": 3,
+      "unbreaking": 60,
+      "speed_flat": -0.01,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17
+    },
+    "lore": "A claw from a mutated Lycan, far\ntoo unwieldy to be used as a weapon.\nBut perfect for excavation."
+  },
   "Coal Devourer": {
     "location": "King's Valley",
     "region": "Valley",
@@ -111063,6 +113117,27 @@
       "attack_damage_base": 5,
       "attack_speed_base": 1.6
     }
+  },
+  "Exalted Rod of the Onodrim": {
+    "location": "Koal",
+    "mmlore": [
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Valley",
+    "tier": "Key",
+    "name": "Exalted Rod of the Onodrim",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "ice_aspect": 5,
+      "quake": 5,
+      "speed_flat": -0.02,
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 16
+    },
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Fading Wispblade": {
     "location": "Lowtide Smuggler",
@@ -113804,6 +115879,26 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "Worst Wand": {
+    "location": "April's Fools",
+    "mmlore": [
+      "The student who wrote this is",
+      "certain they got the last laugh"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Worst Wand",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "curse_of_knowledge": 1,
+      "infinity": 1,
+      "attack_damage_base": 3,
+      "spell_power_base": 35
+    },
+    "lore": "The student who wrote this is\ncertain they got the last laugh"
   },
   "best book": {
     "name": "best book",
