@@ -886,7 +886,7 @@
   },
   "infection": {
     "name": "Infection",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Spreads debuffs to nearby mobs (1 per level) on melee/projectile kill, with (level) additional seconds of duration.",
     "category": "Weapons"
   },
   "pestilence": {

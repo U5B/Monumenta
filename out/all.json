@@ -1465,7 +1465,7 @@
   },
   "monumenta:handbook/enchantments/infection": {
     "title": "Infection",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Spreads debuffs to nearby mobs (1 per level) on melee/projectile kill, with (level) additional seconds of duration.",
     "parent": "monumenta:handbook/enchantments/skyseeker"
   },
   "monumenta:handbook/enchantments/pestilence": {
@@ -4453,7 +4453,7 @@
   },
   "monumenta:pois/r2/chillwind/tundra/dissonant_shrine": {
     "title": "Dissonant Shrine",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Discover the Dissonant Shrine during Salazar's Vision Coordinates: ★ Salazar in the Purple Lobby",
     "parent": "monumenta:pois/r2/chillwind/tundra/winter_shrine"
   },
   "monumenta:pois/r2/chillwind/tundra/root": {
