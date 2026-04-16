@@ -1694,13 +1694,17 @@
     "base_item": "Bell",
     "release_status": "public",
     "stats": {
-      "swiftness_double_jump_strength_percent": {
+      "gale_shot_size_percent": {
         "locked": false,
-        "value": 80
+        "value": 25
       },
-      "swiftness_double_jump_cooldown_percent": {
+      "rending_razor_size_percent": {
         "locked": false,
-        "value": 80
+        "value": 25
+      },
+      "tactical_maneuver_radius_percent": {
+        "locked": false,
+        "value": 25
       }
     },
     "type": "Charm",
@@ -1983,6 +1987,10 @@
         "value": 1
       },
       "tactical_maneuver_weakness_duration_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "tactical_maneuver_stagger_duration_flat": {
         "locked": false,
         "value": 1
       },
@@ -4204,7 +4212,7 @@
       },
       "quiver_storm_arrow_delay_percent": {
         "locked": false,
-        "value": -15
+        "value": -25
       }
     },
     "type": "Charm",
@@ -5147,6 +5155,10 @@
     "base_item": "Bone",
     "release_status": "public",
     "stats": {
+      "steel_trap_damage_percent": {
+        "locked": false,
+        "value": 50
+      },
       "steel_trap_enhancement_knockback_percent": {
         "locked": false,
         "value": 100
@@ -5155,7 +5167,7 @@
         "locked": false,
         "value": -50
       },
-      "steel_trap_charge_flat": {
+      "steel_trap_charges_flat": {
         "locked": false,
         "value": -1
       }
@@ -22915,7 +22927,7 @@
     "type": "Crossbow",
     "stats": {
       "curse_of_ephemerality": 1,
-      "grappling": 35,
+      "grappling": 50,
       "quick_charge": 5,
       "retrieval": 10,
       "unbreakable": 1,
@@ -23821,9 +23833,9 @@
       "ice_aspect": 1,
       "knockback": 1,
       "shielding": 1,
-      "spell_power_base": 30,
       "attack_damage_base": 3,
-      "speed_percent": -5
+      "speed_percent": -5,
+      "spell_power_base": 35
     },
     "lore": "The antler has become quite the\nornamental piece, laced with ribbons\nand intricate bells all over."
   },
@@ -28285,6 +28297,10 @@
       "hunting_companion_damage_percent": {
         "locked": false,
         "value": 30
+      },
+      "hunting_companion_pounce_damage_percent": {
+        "locked": false,
+        "value": 30
       }
     },
     "type": "Charm",
@@ -28651,7 +28667,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Tolumaeus Nestfeather",
-    "power": 2,
+    "power": 3,
     "base_item": "Feather",
     "release_status": "public",
     "stats": {
@@ -28659,11 +28675,11 @@
         "locked": false,
         "value": 15
       },
-      "swiftness_double_jump_cooldown_percent": {
-        "locked": false,
-        "value": -30
-      },
       "swiftness_double_jump_strength_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "swiftness_double_jump_cooldown_percent": {
         "locked": false,
         "value": -30
       }
@@ -29038,7 +29054,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Intrepid Stare",
-    "power": 2,
+    "power": 1,
     "base_item": "Fire Charge",
     "release_status": "public",
     "stats": {
@@ -29052,7 +29068,7 @@
       },
       "parting_shot_reveal_vulnerability_amplifier_percent": {
         "locked": false,
-        "value": 15
+        "value": 10
       }
     },
     "type": "Charm",
@@ -29845,7 +29861,7 @@
       },
       "predator_strike_enemies_pierced_flat": {
         "locked": false,
-        "value": 1
+        "value": 3
       }
     },
     "type": "Charm",
@@ -40124,7 +40140,7 @@
       },
       "volley_cooldown_percent": {
         "locked": false,
-        "value": 60
+        "value": 25
       },
       "volley_charges_flat": {
         "locked": false,
@@ -40665,7 +40681,7 @@
     "stats": {
       "rending_razor_cooldown_reduction_amplifier_percent": {
         "locked": false,
-        "value": 30
+        "value": 20
       },
       "rending_razor_range_percent": {
         "locked": false,
@@ -40674,10 +40690,6 @@
       "rending_razor_travel_speed_percent": {
         "locked": false,
         "value": 30
-      },
-      "rending_razor_cooldown_reduction_duration_percent": {
-        "locked": false,
-        "value": -30
       }
     },
     "type": "Charm",
@@ -40860,15 +40872,15 @@
       },
       "predator_strike_damage_percent": {
         "locked": false,
-        "value": 50
+        "value": 100
       },
       "predator_strike_splinter_radius_percent": {
         "locked": false,
         "value": 35
       },
-      "predator_strike_splinter_distance_requirement_percent": {
+      "predator_strike_splinter_distance_requirement_flat": {
         "locked": false,
-        "value": 35
+        "value": 4
       },
       "predator_strike_cooldown_percent": {
         "locked": false,
@@ -52521,7 +52533,7 @@
     "stats": {
       "shrapnel_bomb_damage_boost_percent": {
         "locked": false,
-        "value": 15
+        "value": 25
       },
       "shrapnel_bomb_cooldown_percent": {
         "locked": false,
@@ -52529,11 +52541,11 @@
       },
       "shrapnel_bomb_damage_percent": {
         "locked": false,
-        "value": -40
+        "value": -25
       },
       "shrapnel_bomb_shrapnel_damage_percent": {
         "locked": false,
-        "value": -40
+        "value": -25
       }
     },
     "type": "Charm",
@@ -69070,13 +69082,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Loci Carving",
-    "power": 4,
+    "power": 3,
     "base_item": "Mud Brick Wall",
     "release_status": "public",
     "stats": {
-      "volley_multishot_shots_flat": {
+      "volley_multishot_duration_flat": {
         "locked": false,
-        "value": 1
+        "value": 2
       },
       "volley_cooldown_percent": {
         "locked": false,
@@ -69443,11 +69455,11 @@
       },
       "predator_strike_damage_percent": {
         "locked": true,
-        "value": -50
+        "value": -40
       },
       "predator_strike_splinter_cone_percent": {
         "locked": false,
-        "value": -50
+        "value": -40
       },
       "quiver_storm_predator_strike_arrow_recharge_flat": {
         "locked": false,
@@ -70571,7 +70583,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Starseeker's Emblem",
-    "power": 4,
+    "power": 3,
     "base_item": "Nether Star",
     "release_status": "public",
     "stats": {
@@ -70580,6 +70592,10 @@
         "value": 1
       },
       "gale_shot_ability_requirement_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "gale_shot_landing_requirement_flat": {
         "locked": false,
         "value": 1
       }
@@ -72206,7 +72222,7 @@
     "location": "Architect's Ring",
     "mmlore": [
       "Grants access to dungeon:",
-      "<gold>Fallen Menagerie",
+      "<#ff8000>Fallen Menagerie",
       "Difficulty : <dark_green>☠☠<dark_gray>☠☠☠"
     ],
     "region": "Ring",
@@ -72222,7 +72238,7 @@
     "location": "King's Valley",
     "mmlore": [
       "Grants access to dungeon:",
-      "<gold>Fallen Menagerie",
+      "<#ff8000>Fallen Menagerie",
       "Difficulty : <dark_green>☠☠<dark_gray>☠☠☠"
     ],
     "region": "Valley",
@@ -87479,6 +87495,10 @@
         "locked": false,
         "value": 50
       },
+      "steel_trap_vulnerability_amplifier_percent": {
+        "locked": false,
+        "value": 10
+      },
       "steel_trap_priming_duration_percent": {
         "locked": false,
         "value": 33
@@ -102708,12 +102728,20 @@
     "base_item": "Stone Sword",
     "release_status": "public",
     "stats": {
-      "steel_trap_charge_flat": {
+      "steel_trap_charges_flat": {
         "locked": false,
-        "value": 1
+        "value": 3
+      },
+      "steel_trap_damage_percent": {
+        "locked": false,
+        "value": -25
+      },
+      "steel_trap_stagger_duration_percent": {
+        "locked": false,
+        "value": -100
       },
       "steel_trap_cooldown_percent": {
-        "locked": false,
+        "locked": true,
         "value": 33
       }
     },
