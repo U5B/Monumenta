@@ -1,12 +1,12 @@
 {
-  "labs": {
-    "name": "Alchemy Labs Dungeon",
-    "description": "Ahead lies the Alchemy Labs, bandits, and their cache of explosives.",
-    "poi": null,
+  "hexfall": {
+    "name": "Hexfall",
+    "description": "The time has come to face the head of the witches, the dryad Hycenea, who wishes to claim the Blue Wool from you. Do you have it within you to hold her back from her love?",
+    "poi": "★ Locum Vernantia",
     "coordinates": {
-      "x": "-748",
-      "y": "95",
-      "z": "-87"
+      "x": "-770",
+      "y": "11",
+      "z": "-651"
     }
   },
   "yellow": {
@@ -19,14 +19,34 @@
       "z": "60"
     }
   },
-  "teal": {
-    "name": "Echoes of Oblivion",
-    "description": "Having passed through the Sacrarium of Aeons, a strange place lost to time now sits before you.",
-    "poi": "★ Sacrarium of Aeons",
+  "reverie": {
+    "name": "Malevolent Reverie",
+    "description": null,
+    "poi": "★ Verdant Fortress?",
     "coordinates": {
-      "x": "-860",
-      "y": "32",
-      "z": "-450"
+      "x": "916",
+      "y": "106",
+      "z": "182"
+    }
+  },
+  "purple": {
+    "name": "Purple Dungeon",
+    "description": "Below the mythical island of Corsair's Claw, the legendary pirate Varcosa awaits you.",
+    "poi": "★ Corsair's Claw",
+    "coordinates": {
+      "x": "551",
+      "y": "81",
+      "z": "1405"
+    }
+  },
+  "light_gray": {
+    "name": "Light Gray Dungeon",
+    "description": "Hidden within a citadel; hidden within a mirror. Alutana's palace stands strong.",
+    "poi": "★ Whitecliffe Citadel",
+    "coordinates": {
+      "x": "-1605",
+      "y": "129",
+      "z": "3"
     }
   },
   "depths": {
@@ -49,44 +69,24 @@
       "z": "625"
     }
   },
-  "light_gray": {
-    "name": "Light Gray Dungeon",
-    "description": "Hidden within a citadel; hidden within a mirror. Alutana's palace stands strong.",
-    "poi": "★ Whitecliffe Citadel",
+  "forum": {
+    "name": "The Fallen Forum",
+    "description": "Having passed through the time itself in the ruins of the Congress, the Fallen Forum awaits.",
+    "poi": null,
     "coordinates": {
-      "x": "-1605",
-      "y": "129",
-      "z": "3"
+      "x": "-600",
+      "y": "1",
+      "z": "525"
     }
   },
-  "roguelike": {
-    "name": "Ephemeral Corridors",
-    "description": null,
-    "poi": "★ Anthill",
+  "indigo": {
+    "name": "Indigo Dungeon",
+    "description": "The very sky has inverted, leaving nothing but space below your feet. Phyrrys lies above, waiting for you in the darkness.",
+    "poi": "★ The Tolumaeus",
     "coordinates": {
-      "x": "819",
-      "y": "110",
-      "z": "209"
-    }
-  },
-  "purple": {
-    "name": "Purple Dungeon",
-    "description": "Below the mythical island of Corsair's Claw, the legendary pirate Varcosa awaits you.",
-    "poi": "★ Corsair's Claw",
-    "coordinates": {
-      "x": "551",
-      "y": "81",
-      "z": "1405"
-    }
-  },
-  "magenta": {
-    "name": "Magenta Dungeon",
-    "description": "From the depths, you can feel a sickness pouring. What lies below?",
-    "poi": "★ Grand Maw",
-    "coordinates": {
-      "x": "350",
-      "y": "71",
-      "z": "82"
+      "x": "272",
+      "y": "46",
+      "z": "784"
     }
   },
   "fred": {
@@ -109,64 +109,24 @@
       "z": "143"
     }
   },
-  "indigo": {
-    "name": "Indigo Dungeon",
-    "description": "The very sky has inverted, leaving nothing but space below your feet. Phyrrys lies above, waiting for you in the darkness.",
-    "poi": "★ The Tolumaeus",
+  "r1bonus": {
+    "name": "The Black Willows",
+    "description": "A lost grove stretches before you, filled with riches.",
+    "poi": "★ Cave of Secrets",
     "coordinates": {
-      "x": "272",
-      "y": "46",
-      "z": "784"
+      "x": "458",
+      "y": "74",
+      "z": "-103"
     }
   },
-  "light_blue": {
-    "name": "Light Blue Dungeon",
-    "description": "There must be secrets hiding within this ancient place.",
-    "poi": "★ Creeper Farm",
+  "roguelike": {
+    "name": "Ephemeral Corridors",
+    "description": null,
+    "poi": "★ Anthill",
     "coordinates": {
-      "x": "797",
-      "y": "174",
-      "z": "-317"
-    }
-  },
-  "forum": {
-    "name": "The Fallen Forum",
-    "description": "Having passed through the time itself in the ruins of the Congress, the Fallen Forum awaits.",
-    "poi": null,
-    "coordinates": {
-      "x": "-600",
-      "y": "1",
-      "z": "525"
-    }
-  },
-  "white": {
-    "name": "White Dungeon",
-    "description": "Before you lies the ancient sacrificial temple to a lost god...",
-    "poi": "★ Tlaxan Ziggurat",
-    "coordinates": {
-      "x": "215",
-      "y": "125",
-      "z": "-109"
-    }
-  },
-  "hexfall": {
-    "name": "Hexfall",
-    "description": "The time has come to face the head of the witches, the dryad Hycenea, who wishes to claim the Blue Wool from you. Do you have it within you to hold her back from her love?",
-    "poi": "★ Locum Vernantia",
-    "coordinates": {
-      "x": "-770",
-      "y": "11",
-      "z": "-651"
-    }
-  },
-  "gray": {
-    "name": "Gray Dungeon",
-    "description": "What would force a kingdom to lock off their capital? Al Malakut awaits its rediscovery.",
-    "poi": "★ Lost Sands City",
-    "coordinates": {
-      "x": "239",
-      "y": "66",
-      "z": "394"
+      "x": "819",
+      "y": "110",
+      "z": "209"
     }
   },
   "skt": {
@@ -179,34 +139,34 @@
       "z": "1702"
     }
   },
-  "lime": {
-    "name": "Lime Dungeon",
-    "description": "Before you stands an empire lost to time, independent of Ishnir and Chillwind. What secrets from the distant past lie within?",
-    "poi": "★ Bastion at Sea",
+  "light_blue": {
+    "name": "Light Blue Dungeon",
+    "description": "There must be secrets hiding within this ancient place.",
+    "poi": "★ Creeper Farm",
     "coordinates": {
-      "x": "-551",
-      "y": "40",
-      "z": "703"
+      "x": "797",
+      "y": "174",
+      "z": "-317"
     }
   },
-  "reverie": {
-    "name": "Malevolent Reverie",
-    "description": null,
-    "poi": "★ Verdant Fortress?",
+  "labs": {
+    "name": "Alchemy Labs Dungeon",
+    "description": "Ahead lies the Alchemy Labs, bandits, and their cache of explosives.",
+    "poi": null,
     "coordinates": {
-      "x": "916",
-      "y": "106",
-      "z": "182"
+      "x": "-748",
+      "y": "95",
+      "z": "-87"
     }
   },
-  "cyan": {
-    "name": "Cyan Dungeon",
-    "description": "Deep below the ground lies an abandoned mineshaft, stained with secrets long forgotten. For what is a greater folly of man than the sin of greed?",
-    "poi": "★ Basanite Bore",
+  "teal": {
+    "name": "Echoes of Oblivion",
+    "description": "Having passed through the Sacrarium of Aeons, a strange place lost to time now sits before you.",
+    "poi": "★ Sacrarium of Aeons",
     "coordinates": {
-      "x": "41",
-      "y": "114",
-      "z": "285"
+      "x": "-860",
+      "y": "32",
+      "z": "-450"
     }
   },
   "brown": {
@@ -219,16 +179,6 @@
       "z": "19"
     }
   },
-  "blue": {
-    "name": "Blue Dungeon",
-    "description": "Hidden within a Fortress; hidden within a prison. Hycenea's chains stay bound.",
-    "poi": "★ Coven Fortress",
-    "coordinates": {
-      "x": "-531",
-      "y": "176",
-      "z": "-387"
-    }
-  },
   "pink": {
     "name": "Pink Dungeon",
     "description": "Seasons bend and twist rapidly here. Deep in this dungeon lies a dark secret, do you dare seek it out?",
@@ -239,14 +189,64 @@
       "z": "680"
     }
   },
-  "r1bonus": {
-    "name": "The Black Willows",
-    "description": "A lost grove stretches before you, filled with riches.",
-    "poi": "★ Cave of Secrets",
+  "blue": {
+    "name": "Blue Dungeon",
+    "description": "Hidden within a Fortress; hidden within a prison. Hycenea's chains stay bound.",
+    "poi": "★ Coven Fortress",
     "coordinates": {
-      "x": "458",
-      "y": "74",
-      "z": "-103"
+      "x": "-531",
+      "y": "176",
+      "z": "-387"
+    }
+  },
+  "magenta": {
+    "name": "Magenta Dungeon",
+    "description": "From the depths, you can feel a sickness pouring. What lies below?",
+    "poi": "★ Grand Maw",
+    "coordinates": {
+      "x": "350",
+      "y": "71",
+      "z": "82"
+    }
+  },
+  "white": {
+    "name": "White Dungeon",
+    "description": "Before you lies the ancient sacrificial temple to a lost god...",
+    "poi": "★ Tlaxan Ziggurat",
+    "coordinates": {
+      "x": "215",
+      "y": "125",
+      "z": "-109"
+    }
+  },
+  "gray": {
+    "name": "Gray Dungeon",
+    "description": "What would force a kingdom to lock off their capital? Al Malakut awaits its rediscovery.",
+    "poi": "★ Lost Sands City",
+    "coordinates": {
+      "x": "239",
+      "y": "66",
+      "z": "394"
+    }
+  },
+  "cyan": {
+    "name": "Cyan Dungeon",
+    "description": "Deep below the ground lies an abandoned mineshaft, stained with secrets long forgotten. For what is a greater folly of man than the sin of greed?",
+    "poi": "★ Basanite Bore",
+    "coordinates": {
+      "x": "41",
+      "y": "114",
+      "z": "285"
+    }
+  },
+  "lime": {
+    "name": "Lime Dungeon",
+    "description": "Before you stands an empire lost to time, independent of Ishnir and Chillwind. What secrets from the distant past lie within?",
+    "poi": "★ Bastion at Sea",
+    "coordinates": {
+      "x": "-551",
+      "y": "40",
+      "z": "703"
     }
   }
 }

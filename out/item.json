@@ -32470,6 +32470,32 @@
     },
     "lore": "The chime swirls with flowing water,\nplaying a soft melody."
   },
+  "D'oru Valyn": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "They knew naught of what they were deprived,",
+      "only the indifference of cold steel."
+    ],
+    "region": "Valley",
+    "name": "D'oru Valyn",
+    "effects": [
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 1,
+        "EffectType": "Haste"
+      },
+      {
+        "EffectDuration": 1200,
+        "EffectStrength": 0.15,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Golden Apple",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "They knew naught of what they were deprived,\nonly the indifference of cold steel."
+  },
   "Energetic Fruit": {
     "location": "Ring Casino",
     "region": "Ring",
@@ -43355,9 +43381,9 @@
         "locked": false,
         "value": 1.5
       },
-      "phlegmatic_resolve_knockback_resistance_flat": {
+      "phlegmatic_resolve_knockback_resistance_percent": {
         "locked": false,
-        "value": 0.5
+        "value": 5
       }
     },
     "type": "Charm",
@@ -57776,6 +57802,22 @@
       "max_health_flat": 4
     },
     "lore": "Bits of flesh cling to the leather in an unholy fusion.\nPerhaps wash off before donning this garb."
+  },
+  "Gilded Plume": {
+    "location": "Valley Overworld",
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Gilded Plume",
+    "base_item": "Leather Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "feather_falling": 2,
+      "melee_protection": 1,
+      "unbreaking": 3,
+      "agility": 3,
+      "attack_damage_percent": 8
+    }
   },
   "Gladiator's Chestplate": {
     "location": "Arena of Terth",
@@ -103412,6 +103454,26 @@
     },
     "lore": "Victory or Destruction? The ancient power\nof randomness chooses no sides."
   },
+  "Frosthewn Ward": {
+    "location": "Valley Overworld",
+    "mmlore": [
+      "Those who fell to the Fjords were not lost.",
+      "The fallen would serve a greater purpose.",
+      "They were carved into something more."
+    ],
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Frosthewn Ward",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "resurrection": 1,
+      "magic_damage_percent": 10,
+      "attack_damage_percent": 10
+    },
+    "lore": "Those who fell to the Fjords were not lost.\nThe fallen would serve a greater purpose.\nThey were carved into something more."
+  },
   "Frozen Gladius": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -109246,7 +109308,7 @@
       "projectile_speed_base": 0.8,
       "throw_rate_base": 1.7,
       "projectile_damage_base": 15,
-      "speed_percent": 15
+      "speed_percent": 10
     },
     "lore": "Though warped and bent, the iron stands\nguard. A protective aura cloaks the\nspear. Silver, untarnished."
   },
