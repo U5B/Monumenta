@@ -904,6 +904,11 @@
     "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP for 0.65s after damaging any mob. DoT/indirect damage abilities cannot trigger this bonus. The bonus is granted at half effectivity for an additional 0.35s.",
     "category": "Defenses"
   },
+  "absorbing_barrier": {
+    "name": "Absorbing Barrier",
+    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 2/5",
+    "category": "Defenses"
+  },
   "waxon": {
     "name": "Wax On",
     "description": "Applies wax to mined copper as your master taught you.",

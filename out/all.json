@@ -1528,6 +1528,11 @@
     "description": "Gain effective Agility to grant up to 20% / 25% / 30% bonus EHP for 0.65s after damaging any mob. DoT/indirect damage abilities cannot trigger this bonus. The bonus is granted at half effectivity for an additional 0.35s.",
     "parent": "monumenta:handbook/enchantments/evasion"
   },
+  "monumenta:handbook/enchantments/absorbing_barrier": {
+    "title": "Absorbing Barrier",
+    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 2/5",
+    "parent": "monumenta:handbook/enchantments/ailmentprotection"
+  },
   "monumenta:handbook/enchantments/waxon": {
     "title": "Wax On",
     "description": "Applies wax to mined copper as your master taught you.",
@@ -2244,27 +2249,27 @@
   },
   "monumenta:challenges/r3/aurora/aurora": {
     "title": "Defeat Aurora",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "You successfully defeated Aurora within her base in the Outworld!",
     "parent": "monumenta:challenges/r3/aurora/find"
   },
   "monumenta:challenges/r3/aurora/enraged_duo": {
     "title": "Enraged Duo",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 4/5",
     "parent": "monumenta:challenges/r3/aurora/aurora_fury"
   },
   "monumenta:challenges/r3/aurora/such_destruction": {
     "title": "Such Destruction",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Witness Aurora destroy all but 10% of the Arena!",
     "parent": "monumenta:challenges/r3/aurora/universal_coordination"
   },
   "monumenta:challenges/r3/aurora/noble_spaghettification": {
     "title": "Noble Spaghettification",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "One of Aurora's strongest allies fell fate to the Black Hole!",
     "parent": "monumenta:challenges/r3/aurora/such_destruction"
   },
   "monumenta:challenges/r3/aurora/purist": {
     "title": "Purist",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Even at 100% rage, you did not call upon the power of the Loamskattar against Aurora!",
     "parent": "monumenta:challenges/r3/aurora/arcane_trio"
   },
   "monumenta:challenges/r3/aurora/arcane_trio": {
@@ -2274,12 +2279,12 @@
   },
   "monumenta:challenges/r3/aurora/aurora_fury": {
     "title": "Aurora's Fury",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "You successfully defeated Aurora within her base in the Outworld at 100% rage!",
     "parent": "monumenta:challenges/r3/aurora/aurora"
   },
   "monumenta:challenges/r3/aurora/fragile_victory": {
     "title": "Fragile Victory",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Against all odds, you withstood 100% Vulnerability against Aurora's Starlight Surge!",
     "parent": "monumenta:challenges/r3/aurora/purist"
   },
   "monumenta:challenges/root": {
@@ -6858,7 +6863,7 @@
   },
   "monumenta:quests/r3/defyinggravity": {
     "title": "Defying Gravity",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "After the events of Phyrrys, you tracked down Aurora and took her, along with the Stars, down for good.",
     "parent": "monumenta:quests/r3/starlessnight"
   },
   "monumenta:quests/r3/silentknight": {
