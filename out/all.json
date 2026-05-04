@@ -1530,7 +1530,7 @@
   },
   "monumenta:handbook/enchantments/absorbing_barrier": {
     "title": "Absorbing Barrier",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 2/5",
+    "description": "When over 75% max health, and having not taken damage in the last 4s, passively generate up to (level * 10)% maximum health as absorption over 3s.",
     "parent": "monumenta:handbook/enchantments/ailmentprotection"
   },
   "monumenta:handbook/enchantments/waxon": {
@@ -2234,7 +2234,7 @@
   },
   "monumenta:challenges/r3/aurora/one_with_the_abyss": {
     "title": "One With the Abyss",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "You withstood the Void 10 or more times and lived to tell the tale!",
     "parent": "monumenta:challenges/r3/aurora/fragile_victory"
   },
   "monumenta:challenges/r3/aurora/find": {
@@ -2254,7 +2254,7 @@
   },
   "monumenta:challenges/r3/aurora/enraged_duo": {
     "title": "Enraged Duo",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 4/5",
+    "description": "You and a partner successfully defeated Aurora at 100% rage!",
     "parent": "monumenta:challenges/r3/aurora/aurora_fury"
   },
   "monumenta:challenges/r3/aurora/such_destruction": {

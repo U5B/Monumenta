@@ -906,7 +906,7 @@
   },
   "absorbing_barrier": {
     "name": "Absorbing Barrier",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 2/5",
+    "description": "When over 75% max health, and having not taken damage in the last 4s, passively generate up to (level * 10)% maximum health as absorption over 3s.",
     "category": "Defenses"
   },
   "waxon": {
