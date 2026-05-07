@@ -97,6 +97,31 @@
     "stats": {},
     "lore": "This crystal math powered cube can hold all\nthe Isles' currencies. But could it store more?\nRight Click while in inventory to open.\nRight Click an item on the collector to store it.\nPress  to deposit all your currency."
   },
+  "Lunar Ascension": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Lunar Ascension",
+    "power": 2,
+    "base_item": "Amethyst Block",
+    "release_status": "public",
+    "stats": {
+      "totemic_consecration_strength_amplifier_percent": {
+        "locked": false,
+        "value": 25
+      },
+      "totemic_consecration_speed_amplifier_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "totemic_consecration_health_threshold_percent": {
+        "locked": false,
+        "value": 25
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Outsider's Gaze": {
     "location": "Skr",
     "region": "Ring",
@@ -1774,6 +1799,35 @@
     "type": "Charm",
     "class_name": "Cleric"
   },
+  "Silverwind Distortion": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Silverwind Distortion",
+    "power": 2,
+    "base_item": "Bell",
+    "release_status": "public",
+    "stats": {
+      "wind_walk_cooldown_percent": {
+        "locked": false,
+        "value": -25
+      },
+      "wind_walk_vulnerability_amplifier_percent": {
+        "locked": false,
+        "value": 25
+      },
+      "wind_walk_vulnerability_duration_flat": {
+        "locked": false,
+        "value": 6
+      },
+      "wind_walk_debuff_duration_percent": {
+        "locked": false,
+        "value": -50
+      }
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
+  },
   "Suzu of Stasis": {
     "location": "Pelias' Keep",
     "region": "Ring",
@@ -2631,6 +2685,35 @@
     "type": "Misc",
     "stats": {},
     "lore": "Attuning to a potion allows for instant\ndrinking if the potion is present in\nyour inventory (non-hotbar) or stored\nwithin the Potion Injector.\nOperated using  while in main hand.\n +  to clear current potion."
+  },
+  "Core Collapse": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Core Collapse",
+    "power": 2,
+    "base_item": "Blackstone",
+    "release_status": "public",
+    "stats": {
+      "wind_bomb_explosions_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "wind_bomb_radius_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "wind_bomb_duration_percent": {
+        "locked": false,
+        "value": 70
+      },
+      "wind_bomb_damage_percent": {
+        "locked": true,
+        "value": -50
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Darkest Depths Key": {
     "location": "Celsian Isles",
@@ -3720,7 +3803,7 @@
     "stats": {
       "deadly_ronde_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 20
       }
     },
     "type": "Charm",
@@ -3830,7 +3913,7 @@
     "stats": {
       "deadly_ronde_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       }
     },
     "type": "Charm",
@@ -3912,7 +3995,7 @@
     "stats": {
       "deadly_ronde_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       }
     },
     "type": "Charm",
@@ -4124,6 +4207,34 @@
       "spell_power_base": 65
     },
     "lore": "An' part it did them waters black, wit'\nstrokes long, firm, an' true. Aye, in\nthe veil all deep an' dark, th' Black\nMist sailed right through."
+  },
+  "Phantasm-6": {
+    "location": "Aurora",
+    "masterwork": "6",
+    "mmlore": [
+      "Only one could lead the Aurians to salvation.",
+      "Only one could reclaim the Loamskattar.",
+      "Only one could battle the Stars and survive.",
+      "These are the lies Aurora told herself",
+      "before her Ascension."
+    ],
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Phantasm",
+    "base_item": "Blaze Rod",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "ice_aspect": 3,
+      "ineptitude": 6,
+      "knockback": 1,
+      "regicide": 3,
+      "attack_speed_base": 1,
+      "attack_damage_base": 20,
+      "knockback_resistance_flat": 5,
+      "spell_power_base": 130
+    },
+    "lore": "Only one could lead the Aurians to salvation.\nOnly one could reclaim the Loamskattar.\nOnly one could battle the Stars and survive.\nThese are the lies Aurora told herself\nbefore her Ascension."
   },
   "Pyromancer's Staff": {
     "location": "King's Valley",
@@ -5157,7 +5268,7 @@
     "stats": {
       "steel_trap_damage_percent": {
         "locked": false,
-        "value": 50
+        "value": 25
       },
       "steel_trap_enhancement_knockback_percent": {
         "locked": false,
@@ -8714,6 +8825,118 @@
       "projectile_speed_base": 1,
       "projectile_damage_base": 13.5
     }
+  },
+  "Starthunder Howitzer-1": {
+    "location": "Starpoint",
+    "masterwork": "1",
+    "mmlore": [
+      "Stellar nucleosynthesis should only be possible",
+      "within the cores of stars, but this primeval",
+      "weaponry has managed to harness even",
+      "this untouchable power."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starthunder Howitzer",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 1,
+      "impact": 2,
+      "piercing": 1,
+      "punch": 3,
+      "thunder_aspect": 1,
+      "unbreaking": 3,
+      "projectile_speed_base": 3,
+      "speed_percent": 8,
+      "projectile_damage_base": 25.5
+    },
+    "lore": "Stellar nucleosynthesis should only be possible\nwithin the cores of stars, but this primeval\nweaponry has managed to harness even\nthis untouchable power."
+  },
+  "Starthunder Howitzer-2": {
+    "location": "Starpoint",
+    "masterwork": "2",
+    "mmlore": [
+      "Stellar nucleosynthesis should only be possible",
+      "within the cores of stars, but this primeval",
+      "weaponry has managed to harness even",
+      "this untouchable power."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starthunder Howitzer",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 1,
+      "impact": 2,
+      "piercing": 1,
+      "punch": 3,
+      "thunder_aspect": 1,
+      "unbreaking": 3,
+      "projectile_speed_base": 3,
+      "speed_percent": 15,
+      "projectile_damage_base": 26
+    },
+    "lore": "Stellar nucleosynthesis should only be possible\nwithin the cores of stars, but this primeval\nweaponry has managed to harness even\nthis untouchable power."
+  },
+  "Starthunder Howitzer-3": {
+    "location": "Starpoint",
+    "masterwork": "3",
+    "mmlore": [
+      "Stellar nucleosynthesis should only be possible",
+      "within the cores of stars, but this primeval",
+      "weaponry has managed to harness even",
+      "this untouchable power."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starthunder Howitzer",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 1,
+      "impact": 2,
+      "piercing": 1,
+      "punch": 3,
+      "thunder_aspect": 1,
+      "unbreaking": 4,
+      "projectile_speed_base": 3,
+      "speed_percent": 15,
+      "projectile_damage_base": 27
+    },
+    "lore": "Stellar nucleosynthesis should only be possible\nwithin the cores of stars, but this primeval\nweaponry has managed to harness even\nthis untouchable power."
+  },
+  "Starthunder Howitzer-4": {
+    "location": "Starpoint",
+    "masterwork": "4",
+    "mmlore": [
+      "Stellar nucleosynthesis should only be possible",
+      "within the cores of stars, but this primeval",
+      "weaponry has managed to harness even",
+      "this untouchable power."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Starthunder Howitzer",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "fire_aspect": 1,
+      "impact": 3,
+      "piercing": 1,
+      "punch": 3,
+      "thunder_aspect": 1,
+      "unbreaking": 5,
+      "projectile_speed_base": 3,
+      "speed_percent": 15,
+      "projectile_damage_base": 27
+    },
+    "lore": "Stellar nucleosynthesis should only be possible\nwithin the cores of stars, but this primeval\nweaponry has managed to harness even\nthis untouchable power."
   },
   "Steelsiege": {
     "location": "King's Valley",
@@ -13612,11 +13835,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "ailment_fragility": 3,
+      "ailment_fragility": 2,
       "unbreaking": 1,
       "magic_damage_percent": 15,
-      "armor": 3.5,
-      "speed_percent": 10
+      "speed_percent": 10,
+      "armor": 4
     },
     "lore": "Torrents of blood flow over the garment.\nThe remnants of a sacrifice to recall\nwhat was lost to the void of memory."
   },
@@ -17468,6 +17691,20 @@
     },
     "lore": "From the Tree came the Crown. Tasting\nthe flesh is a blessing few have\never experienced."
   },
+  "Loamskattar Orb": {
+    "mmlore": [
+      "<dark_gray>An oozing, warping conglomerate of the",
+      "<dark_gray>remnants of the Loamskattar not captured.",
+      "<dark_gray>#Q227I01",
+      "<light_purple>* Quest Item *"
+    ],
+    "name": "Loamskattar Orb",
+    "base_item": "Chorus Fruit",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An oozing, warping conglomerate of the\nremnants of the Loamskattar not captured.\n#Q227I01\n* Quest Item *"
+  },
   "Nihilo Pome": {
     "location": "Mythic Reliquary",
     "mmlore": [
@@ -20450,7 +20687,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Pressure Gauntlet",
-    "power": 3,
+    "power": 1,
     "base_item": "Copper Ingot",
     "release_status": "public",
     "stats": {
@@ -20458,13 +20695,17 @@
         "locked": false,
         "value": -70
       },
-      "brute_force_radius_percent": {
-        "locked": false,
-        "value": 20
-      },
       "brute_force_wave_damage_ratio_percent": {
         "locked": false,
-        "value": 10
+        "value": 25
+      },
+      "brute_force_knockback_percent": {
+        "locked": false,
+        "value": 25
+      },
+      "brute_force_radius_percent": {
+        "locked": true,
+        "value": -25
       }
     },
     "type": "Charm",
@@ -20874,7 +21115,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Explosive Spore",
-    "power": 3,
+    "power": 2,
     "base_item": "Crimson Hyphae",
     "release_status": "public",
     "stats": {
@@ -21533,9 +21774,9 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "unbreaking": 3,
-      "multishot": 1,
       "ice_aspect": 2,
+      "multishot": 1,
+      "unbreaking": 3,
       "projectile_speed_base": 1,
       "projectile_damage_base": 17
     },
@@ -21625,10 +21866,10 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "ice_aspect": 2,
+      "multishot": 1,
       "punch": 2,
       "unbreaking": 4,
-      "multishot": 1,
-      "ice_aspect": 2,
       "projectile_speed_base": 0.5,
       "projectile_damage_base": 22
     },
@@ -21735,8 +21976,8 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 1,
-      "unbreaking": 5,
       "multishot": 1,
+      "unbreaking": 5,
       "projectile_speed_base": 1,
       "projectile_damage_base": 14.5
     },
@@ -22456,7 +22697,7 @@
     "stats": {
       "bleeding": 2,
       "infinity": 1,
-      "multishot": 1,
+      "multishot": 2,
       "quick_charge": 4,
       "unbreakable": 1,
       "projectile_speed_base": 1,
@@ -22500,8 +22741,8 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 1,
-      "unbreaking": 5,
       "multishot": 1,
+      "unbreaking": 5,
       "projectile_speed_base": 1,
       "projectile_damage_base": 14.5
     },
@@ -22597,10 +22838,10 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
-      "point_blank": 1,
-      "unbreaking": 3,
       "melee_protection": 1,
       "multishot": 1,
+      "point_blank": 1,
+      "unbreaking": 3,
       "knockback_resistance_flat": 4,
       "projectile_speed_base": 0.6,
       "projectile_damage_base": 14
@@ -22625,7 +22866,7 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 4,
+      "point_blank": 3,
       "punch": 1,
       "unbreaking": 3,
       "projectile_speed_base": 1.2,
@@ -22651,7 +22892,7 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 4,
+      "point_blank": 3,
       "punch": 1,
       "unbreaking": 4,
       "projectile_speed_base": 1.2,
@@ -22677,7 +22918,7 @@
     "stats": {
       "fire_aspect": 2,
       "multishot": 1,
-      "point_blank": 5,
+      "point_blank": 4,
       "punch": 1,
       "unbreaking": 5,
       "projectile_speed_base": 1.2,
@@ -22950,10 +23191,10 @@
     "type": "Crossbow",
     "stats": {
       "melee_fragility": 1,
+      "multishot": 1,
       "point_blank": 2,
       "quick_charge": 2,
       "unbreaking": 3,
-      "multishot": 1,
       "projectile_speed_base": 0.8,
       "projectile_damage_base": 12
     },
@@ -22994,7 +23235,7 @@
     "type": "Crossbow",
     "stats": {
       "earth_aspect": 2,
-      "quake": 4,
+      "quake": 3,
       "unbreaking": 3,
       "projectile_speed_base": 0.8,
       "knockback_resistance_flat": 3,
@@ -23528,17 +23769,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Duelist's Sigil",
-    "power": 2,
+    "power": 1,
     "base_item": "Cyan Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "riposte_sword_bonus_damage_percent": {
-        "locked": false,
-        "value": 50
-      },
       "riposte_sword_bonus_damage_duration_flat": {
         "locked": false,
-        "value": -1
+        "value": 1
+      },
+      "riposte_sword_bonus_damage_percent": {
+        "locked": false,
+        "value": 25
       }
     },
     "type": "Charm",
@@ -23874,7 +24115,7 @@
       },
       "ethereal_ascension_max_duration_extension_flat": {
         "locked": false,
-        "value": 20
+        "value": 15
       },
       "ethereal_ascension_duration_extension_flat": {
         "locked": false,
@@ -24626,6 +24867,34 @@
     },
     "lore": "After Sirius fell from the sky, new\nstars seemed to appear in the cosmos.\nThe Stars are watching... waiting... hungry..."
   },
+  "Starsunder Ward-6": {
+    "location": "Aurora",
+    "masterwork": "6",
+    "mmlore": [
+      "On the eve of the final battle, Aurora",
+      "dreamed that night, dreamed of her",
+      "childhood in the Argone township.",
+      "She awoke to a feeling of nostalgia",
+      "that she had long thought lost. Were",
+      "such simpler times truly behind her?"
+    ],
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Starsunder Ward",
+    "base_item": "Diamond Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "absorbing_barrier": 4,
+      "curse_of_anemia": 4,
+      "poise": 1,
+      "unbreakable": 1,
+      "armor": 10,
+      "speed_flat": 0.02,
+      "speed_percent": -10
+    },
+    "lore": "On the eve of the final battle, Aurora\ndreamed that night, dreamed of her\nchildhood in the Argone township.\nShe awoke to a feeling of nostalgia\nthat she had long thought lost. Were\nsuch simpler times truly behind her?"
+  },
   "Eyes of the Loamskattar-2": {
     "location": "Quest Reward",
     "masterwork": "2",
@@ -24767,6 +25036,92 @@
     },
     "lore": "Perfection demands no accidents.\nUnfortunately, the accidents didn't agree."
   },
+  "Visage of Emptiness-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "As the two merged into a unified state",
+      "of being, a voice echoes in Aurora's",
+      "mind, one both loud and yet absent at",
+      "once. There was a sort of sadness",
+      "in that paradox, a mouth that could",
+      "not speak, a will that could not be",
+      "fulfilled."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Visage of Emptiness",
+    "base_item": "Diamond Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adaptability": 1,
+      "magic_protection": 1,
+      "mending": 1,
+      "agility": 9,
+      "projectile_damage_percent": 9,
+      "speed_percent": 9
+    },
+    "lore": "As the two merged into a unified state\nof being, a voice echoes in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
+  },
+  "Visage of Emptiness-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "As the two merged into a unified state",
+      "of being, a voice echoes in Aurora's",
+      "mind, one both loud and yet absent at",
+      "once. There was a sort of sadness",
+      "in that paradox, a mouth that could",
+      "not speak, a will that could not be",
+      "fulfilled."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Visage of Emptiness",
+    "base_item": "Diamond Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adaptability": 1,
+      "magic_protection": 1,
+      "mending": 1,
+      "projectile_protection": 1,
+      "projectile_damage_percent": 10,
+      "speed_percent": 10,
+      "agility": 9
+    },
+    "lore": "As the two merged into a unified state\nof being, a voice echoes in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
+  },
+  "Visage of Emptiness-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "As the two merged into a unified state",
+      "of being, a voice echoes in Aurora's",
+      "mind, one both loud and yet absent at",
+      "once. There was a sort of sadness",
+      "in that paradox, a mouth that could",
+      "not speak, a will that could not be",
+      "fulfilled."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Visage of Emptiness",
+    "base_item": "Diamond Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "adaptability": 1,
+      "magic_protection": 1,
+      "mending": 1,
+      "projectile_protection": 1,
+      "agility": 10,
+      "projectile_damage_percent": 10,
+      "speed_percent": 10
+    },
+    "lore": "As the two merged into a unified state\nof being, a voice echoes in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
+  },
   "Spectral Scythe": {
     "location": "Challenger",
     "mmlore": [
@@ -24788,6 +25143,106 @@
       "attack_damage_base": 21.5
     },
     "lore": "Each spectral swing carves a path through\neternity, a needless blow to form."
+  },
+  "Divergent Millennium-1": {
+    "location": "Starpoint",
+    "masterwork": "1",
+    "mmlore": [
+      "Their time spent cut from this world changed",
+      "these people. They spoke in tongues of distant",
+      "stardust, and preached of the ancient cosmos.",
+      "It was nothing like what our world knew."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Divergent Millennium",
+    "base_item": "Diamond Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "melee_protection": 1,
+      "technique": 1,
+      "unbreaking": 2,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 15,
+      "armor": 7.5
+    },
+    "lore": "Their time spent cut from this world changed\nthese people. They spoke in tongues of distant\nstardust, and preached of the ancient cosmos.\nIt was nothing like what our world knew."
+  },
+  "Divergent Millennium-2": {
+    "location": "Starpoint",
+    "masterwork": "2",
+    "mmlore": [
+      "Their time spent cut from this world changed",
+      "these people. They spoke in tongues of distant",
+      "stardust, and preached of the ancient cosmos.",
+      "It was nothing like what our world knew."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Divergent Millennium",
+    "base_item": "Diamond Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "melee_protection": 2,
+      "technique": 1,
+      "unbreaking": 3,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 15,
+      "armor": 7.5
+    },
+    "lore": "Their time spent cut from this world changed\nthese people. They spoke in tongues of distant\nstardust, and preached of the ancient cosmos.\nIt was nothing like what our world knew."
+  },
+  "Divergent Millennium-3": {
+    "location": "Starpoint",
+    "masterwork": "3",
+    "mmlore": [
+      "Their time spent cut from this world changed",
+      "these people. They spoke in tongues of distant",
+      "stardust, and preached of the ancient cosmos.",
+      "It was nothing like what our world knew."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Divergent Millennium",
+    "base_item": "Diamond Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "melee_protection": 2,
+      "technique": 1,
+      "unbreaking": 4,
+      "attack_speed_percent": 10,
+      "armor": 8,
+      "attack_damage_percent": 20
+    },
+    "lore": "Their time spent cut from this world changed\nthese people. They spoke in tongues of distant\nstardust, and preached of the ancient cosmos.\nIt was nothing like what our world knew."
+  },
+  "Divergent Millennium-4": {
+    "location": "Starpoint",
+    "masterwork": "4",
+    "mmlore": [
+      "Their time spent cut from this world changed",
+      "these people. They spoke in tongues of distant",
+      "stardust, and preached of the ancient cosmos.",
+      "It was nothing like what our world knew."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Divergent Millennium",
+    "base_item": "Diamond Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "melee_protection": 2,
+      "technique": 2,
+      "unbreaking": 5,
+      "attack_speed_percent": 10,
+      "armor": 8,
+      "attack_damage_percent": 20
+    },
+    "lore": "Their time spent cut from this world changed\nthese people. They spoke in tongues of distant\nstardust, and preached of the ancient cosmos.\nIt was nothing like what our world knew."
   },
   "Duskroot Legguards-1": {
     "location": "Starpoint",
@@ -25371,11 +25826,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ice_aspect": 1,
       "cumbersome": 1,
-      "unbreaking": 1,
+      "ice_aspect": 1,
+      "quake": 1,
       "sweeping_edge": 4,
-      "quake": 2,
+      "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 19
     },
@@ -25395,11 +25850,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ice_aspect": 1,
       "cumbersome": 1,
-      "unbreaking": 1,
+      "ice_aspect": 1,
+      "quake": 1,
       "sweeping_edge": 4,
-      "quake": 2,
+      "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 20
     },
@@ -25419,11 +25874,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ice_aspect": 1,
       "cumbersome": 1,
-      "unbreaking": 1,
+      "ice_aspect": 1,
+      "quake": 1,
       "sweeping_edge": 4,
-      "quake": 2,
+      "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 20.5
     },
@@ -25443,11 +25898,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ice_aspect": 1,
       "cumbersome": 1,
-      "unbreaking": 1,
+      "ice_aspect": 1,
+      "quake": 1,
       "sweeping_edge": 4,
-      "quake": 2,
+      "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 21
     },
@@ -26755,7 +27210,7 @@
       "regeneration": 1,
       "speed_percent": 10,
       "agility": 5,
-      "projectile_damage_percent": 18
+      "projectile_damage_percent": 22
     },
     "lore": "The vial smells sickeningly sweet\neven from a distance. The outside\nis coated in warning labels... but\nhow dangerous could it be?"
   },
@@ -30434,6 +30889,35 @@
     "type": "Charm",
     "class_name": "Mage"
   },
+  "Celestial Contract": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Celestial Contract",
+    "power": 4,
+    "base_item": "Flower Banner Pattern",
+    "release_status": "public",
+    "stats": {
+      "dark_pact_deactivation_damage_radius_flat": {
+        "locked": false,
+        "value": 6
+      },
+      "dark_pact_damage_per_absorption_on_deactivation_flat": {
+        "locked": false,
+        "value": 4
+      },
+      "dark_pact_deactivation_restriction_duration_flat": {
+        "locked": false,
+        "value": -4
+      },
+      "dark_pact_cooldown_percent": {
+        "locked": false,
+        "value": -40
+      }
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
   "Rites of Eternity": {
     "location": "The Eternal Vigil",
     "mmlore": [
@@ -30807,11 +31291,15 @@
     "stats": {
       "starfall_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 100
       },
-      "starfall_damage_percent": {
+      "starfall_range_percent": {
         "locked": false,
-        "value": 25
+        "value": 50
+      },
+      "starfall_fall_speed_percent": {
+        "locked": false,
+        "value": -50
       }
     },
     "type": "Charm",
@@ -36758,6 +37246,81 @@
       "agility": 5.5
     }
   },
+  "Order and Resilience-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "mmlore": [
+      "Renewed yet ancient greaves with tenets inscribed:",
+      "\"Stand - For the Architect and for the world.\"",
+      "\"Shelter - defend the wools, the keystones of the veil.\"",
+      "\"Smite - Those who wish to break the seal.\""
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Order and Resilience",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "guard": 1,
+      "melee_protection": 1,
+      "unbreaking": 20,
+      "agility": 7.5,
+      "magic_damage_percent": 12,
+      "attack_speed_percent": 12
+    },
+    "lore": "Renewed yet ancient greaves with tenets inscribed:\n\"Stand - For the Architect and for the world.\"\n\"Shelter - defend the wools, the keystones of the veil.\"\n\"Smite - Those who wish to break the seal.\""
+  },
+  "Order and Resilience-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "mmlore": [
+      "Renewed yet ancient greaves with tenets inscribed:",
+      "\"Stand - For the Architect and for the world.\"",
+      "\"Shelter - defend the wools, the keystones of the veil.\"",
+      "\"Smite - Those who wish to break the seal.\""
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Order and Resilience",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "guard": 1,
+      "melee_protection": 1,
+      "unbreaking": 22,
+      "attack_speed_percent": 15,
+      "magic_damage_percent": 15,
+      "agility": 7.5
+    },
+    "lore": "Renewed yet ancient greaves with tenets inscribed:\n\"Stand - For the Architect and for the world.\"\n\"Shelter - defend the wools, the keystones of the veil.\"\n\"Smite - Those who wish to break the seal.\""
+  },
+  "Order and Resilience-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "mmlore": [
+      "Renewed yet ancient greaves with tenets inscribed:",
+      "\"Stand - For the Architect and for the world.\"",
+      "\"Shelter - defend the wools, the keystones of the veil.\"",
+      "\"Smite - Those who wish to break the seal.\""
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Order and Resilience",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "guard": 1,
+      "melee_protection": 2,
+      "unbreaking": 25,
+      "attack_speed_percent": 15,
+      "magic_damage_percent": 15,
+      "agility": 7.5
+    },
+    "lore": "Renewed yet ancient greaves with tenets inscribed:\n\"Stand - For the Architect and for the world.\"\n\"Shelter - defend the wools, the keystones of the veil.\"\n\"Smite - Those who wish to break the seal.\""
+  },
   "Patinated Greaves": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -37602,10 +38165,10 @@
     "type": "Mainhand Sword",
     "stats": {
       "earth_aspect": 2,
-      "unbreaking": 2,
       "mending": 1,
-      "quake": 4,
+      "quake": 3,
       "two_handed": 1,
+      "unbreaking": 2,
       "attack_damage_base": 10,
       "attack_speed_base": 1.5
     },
@@ -39115,7 +39678,7 @@
       "bleeding": 2,
       "decay": 2,
       "inure": 1,
-      "quake": 4,
+      "quake": 3,
       "two_handed": 1,
       "unbreaking": 30,
       "attack_speed_base": 1.2,
@@ -40038,7 +40601,7 @@
     "stats": {
       "brute_force_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 20
       }
     },
     "type": "Charm",
@@ -40055,7 +40618,7 @@
     "stats": {
       "brute_force_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       }
     },
     "type": "Charm",
@@ -40072,7 +40635,7 @@
     "stats": {
       "brute_force_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       }
     },
     "type": "Charm",
@@ -40119,7 +40682,7 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Rocket Boots",
-    "power": 4,
+    "power": 3,
     "base_item": "Gray Glazed Terracotta",
     "release_status": "public",
     "stats": {
@@ -40146,6 +40709,35 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
+  },
+  "Rogue Planet": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Rogue Planet",
+    "power": 2,
+    "base_item": "Gray Glazed Terracotta",
+    "release_status": "public",
+    "stats": {
+      "unstable_amalgam_health_flat": {
+        "locked": false,
+        "value": 200
+      },
+      "unstable_amalgam_taunt_range_flat": {
+        "locked": false,
+        "value": 4
+      },
+      "unstable_amalgam_size_flat": {
+        "locked": false,
+        "value": 4
+      },
+      "unstable_amalgam_duration_flat": {
+        "locked": false,
+        "value": 8
+      }
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
   },
   "Sanguine Tendon": {
     "location": "Sanguine Halls",
@@ -41142,6 +41734,31 @@
     "stats": {
       "material": 1
     }
+  },
+  "Asterism": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Asterism",
+    "power": 3,
+    "base_item": "Honeycomb",
+    "release_status": "public",
+    "stats": {
+      "thunder_step_rewind_trail_damage_flat": {
+        "locked": false,
+        "value": 20
+      },
+      "thunder_step_rewind_minimum_distance_flat": {
+        "locked": false,
+        "value": 4
+      },
+      "thunder_step_damage_percent": {
+        "locked": false,
+        "value": -20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Mage"
   },
   "Condensed Experience": {
     "location": "Celsian Isles",
@@ -42462,9 +43079,9 @@
     "type": "Axe",
     "stats": {
       "ice_aspect": 3,
-      "unbreakable": 1,
+      "quake": 2,
       "shielding": 1,
-      "quake": 3,
+      "unbreakable": 1,
       "attack_speed_base": 0.6,
       "attack_damage_base": 23.5
     },
@@ -42925,10 +43542,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "efficiency": 1,
+      "shielding": 1,
+      "smite": 1,
       "unbreaking": 3,
       "wind_aspect": 1,
-      "shielding": 1,
-      "efficiency": 1,
       "attack_speed_base": 1,
       "attack_damage_base": 9.5
     },
@@ -43168,7 +43786,7 @@
     "type": "Axe",
     "stats": {
       "mending": 1,
-      "quake": 6,
+      "quake": 3,
       "thunder_aspect": 1,
       "unbreaking": 2,
       "wind_aspect": 1,
@@ -43194,7 +43812,7 @@
     "type": "Axe",
     "stats": {
       "mending": 1,
-      "quake": 7,
+      "quake": 4,
       "thunder_aspect": 1,
       "unbreaking": 2,
       "wind_aspect": 1,
@@ -43426,6 +44044,87 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Aeon Shackle-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "As her prison inverted, Delfia could",
+      "feel the ancient silver shackles that",
+      "had bound her for so long break",
+      "free. The Empty One would once again",
+      "rise into the world, seeking to fill its",
+      "desires."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Aeon Shackle",
+    "base_item": "Iron Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 2,
+      "life_drain": 1,
+      "melee_protection": 1,
+      "unbreaking": 7,
+      "attack_damage_percent": 20,
+      "armor": 7
+    },
+    "lore": "As her prison inverted, Delfia could\nfeel the ancient silver shackles that\nhad bound her for so long break\nfree. The Empty One would once again\nrise into the world, seeking to fill its\ndesires."
+  },
+  "Aeon Shackle-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "As her prison inverted, Delfia could",
+      "feel the ancient silver shackles that",
+      "had bound her for so long break",
+      "free. The Empty One would once again",
+      "rise into the world, seeking to fill its",
+      "desires."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Aeon Shackle",
+    "base_item": "Iron Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 2,
+      "life_drain": 1,
+      "melee_protection": 1,
+      "unbreaking": 8,
+      "attack_damage_percent": 20,
+      "armor": 7.5
+    },
+    "lore": "As her prison inverted, Delfia could\nfeel the ancient silver shackles that\nhad bound her for so long break\nfree. The Empty One would once again\nrise into the world, seeking to fill its\ndesires."
+  },
+  "Aeon Shackle-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "As her prison inverted, Delfia could",
+      "feel the ancient silver shackles that",
+      "had bound her for so long break",
+      "free. The Empty One would once again",
+      "rise into the world, seeking to fill its",
+      "desires."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Aeon Shackle",
+    "base_item": "Iron Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "blast_protection": 2,
+      "life_drain": 1,
+      "melee_protection": 2,
+      "unbreaking": 9,
+      "attack_damage_percent": 20,
+      "armor": 7.5
+    },
+    "lore": "As her prison inverted, Delfia could\nfeel the ancient silver shackles that\nhad bound her for so long break\nfree. The Empty One would once again\nrise into the world, seeking to fill its\ndesires."
   },
   "Bonfire Brogues": {
     "location": "Koal",
@@ -44794,6 +45493,78 @@
     },
     "lore": "Ru'Ten's existence within the Sanctum was timeless.\nThe fragment is inscribed with thousands of rings,\nand splints like the leshen bark of the Wolfswood.\nHe had remained bound to this earthly prison."
   },
+  "Forcefield Cloak-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "A power surged from the Outside,",
+      "the long-forgotten sisters looking to",
+      "keep their kin safe from harm."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Forcefield Cloak",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "darksight": 1,
+      "magic_protection": 1,
+      "shielding": 1,
+      "unbreaking": 7,
+      "agility": 7,
+      "projectile_damage_percent": 20
+    },
+    "lore": "A power surged from the Outside,\nthe long-forgotten sisters looking to\nkeep their kin safe from harm."
+  },
+  "Forcefield Cloak-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "A power surged from the Outside,",
+      "the long-forgotten sisters looking to",
+      "keep their kin safe from harm."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Forcefield Cloak",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "darksight": 1,
+      "magic_protection": 2,
+      "shielding": 1,
+      "unbreaking": 8,
+      "agility": 7.5,
+      "projectile_damage_percent": 20
+    },
+    "lore": "A power surged from the Outside,\nthe long-forgotten sisters looking to\nkeep their kin safe from harm."
+  },
+  "Forcefield Cloak-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "A power surged from the Outside,",
+      "the long-forgotten sisters looking to",
+      "keep their kin safe from harm."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Forcefield Cloak",
+    "base_item": "Iron Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "darksight": 1,
+      "magic_protection": 2,
+      "shielding": 1,
+      "unbreaking": 9,
+      "agility": 8,
+      "projectile_damage_percent": 20
+    },
+    "lore": "A power surged from the Outside,\nthe long-forgotten sisters looking to\nkeep their kin safe from harm."
+  },
   "Frost Giant's Courage": {
     "location": "Titanic Skin",
     "mmlore": [
@@ -45237,7 +46008,7 @@
     "stats": {
       "shield_bash_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       },
       "shield_bash_range_percent": {
         "locked": false,
@@ -45262,7 +46033,7 @@
     "stats": {
       "shield_bash_damage_percent": {
         "locked": false,
-        "value": 70
+        "value": 60
       }
     },
     "type": "Charm",
@@ -45279,7 +46050,7 @@
     "stats": {
       "shield_bash_damage_percent": {
         "locked": false,
-        "value": 40
+        "value": 30
       }
     },
     "type": "Charm",
@@ -45296,7 +46067,7 @@
     "stats": {
       "shield_bash_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 15
       }
     },
     "type": "Charm",
@@ -46812,10 +47583,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 3,
       "fire_aspect": 2,
       "inferno": 2,
-      "quake": 3,
+      "quake": 2,
+      "unbreaking": 3,
       "attack_speed_base": 1.2,
       "attack_damage_base": 14
     },
@@ -46895,10 +47666,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 3,
       "fire_aspect": 2,
       "inferno": 2,
-      "quake": 3,
+      "quake": 2,
+      "unbreaking": 3,
       "attack_speed_base": 1.2,
       "attack_damage_base": 14
     },
@@ -47281,7 +48052,7 @@
       "bleeding": 1,
       "fire_aspect": 2,
       "inferno": 4,
-      "quake": 2,
+      "quake": 1,
       "unbreaking": 5,
       "attack_speed_base": 1.2,
       "attack_damage_base": 16
@@ -47307,7 +48078,7 @@
       "bleeding": 1,
       "fire_aspect": 2,
       "inferno": 4,
-      "quake": 2,
+      "quake": 1,
       "unbreaking": 6,
       "attack_speed_base": 1.2,
       "attack_damage_base": 16.5
@@ -47333,7 +48104,7 @@
       "bleeding": 2,
       "fire_aspect": 2,
       "inferno": 4,
-      "quake": 2,
+      "quake": 1,
       "unbreaking": 7,
       "attack_speed_base": 1.2,
       "attack_damage_base": 17
@@ -47553,21 +48324,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Will of Ganzir",
-    "power": 2,
+    "power": 3,
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "shield_wall_damage_percent": {
-        "locked": false,
-        "value": 250
+      "shield_wall_damage_flat": {
+        "locked": true,
+        "value": 15
       },
       "shield_wall_cooldown_percent": {
-        "locked": false,
-        "value": -65
+        "locked": true,
+        "value": -80
       },
       "shield_wall_duration_percent": {
-        "locked": false,
-        "value": -65
+        "locked": true,
+        "value": -80
       },
       "shield_wall_radius_percent": {
         "locked": false,
@@ -47742,6 +48513,82 @@
       "magic_damage_percent": 18
     },
     "lore": "Bermuda forged this suit in an attempt\nto retake her laboratory, but in the end\neven Steelmeld tech was no match for the\nendless corrupted machines."
+  },
+  "Cosmic Prophecy-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "This crusade against the Stars was an",
+      "endlessly unfolding tale, yet the story's",
+      "final chapter had been written from",
+      "the very beginning."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Cosmic Prophecy",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "ethereal": 1,
+      "second_wind": 1,
+      "unbreaking": 7,
+      "max_health_flat": -4,
+      "agility": 10,
+      "attack_speed_percent": 15
+    },
+    "lore": "This crusade against the Stars was an\nendlessly unfolding tale, yet the story's\nfinal chapter had been written from\nthe very beginning."
+  },
+  "Cosmic Prophecy-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "This crusade against the Stars was an",
+      "endlessly unfolding tale, yet the story's",
+      "final chapter had been written from",
+      "the very beginning."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Cosmic Prophecy",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "ethereal": 1,
+      "second_wind": 1,
+      "unbreaking": 8,
+      "max_health_flat": -4,
+      "agility": 10,
+      "attack_speed_percent": 20
+    },
+    "lore": "This crusade against the Stars was an\nendlessly unfolding tale, yet the story's\nfinal chapter had been written from\nthe very beginning."
+  },
+  "Cosmic Prophecy-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "This crusade against the Stars was an",
+      "endlessly unfolding tale, yet the story's",
+      "final chapter had been written from",
+      "the very beginning."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Cosmic Prophecy",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "ethereal": 1,
+      "magic_protection": 1,
+      "second_wind": 1,
+      "unbreaking": 9,
+      "max_health_flat": -4,
+      "agility": 10,
+      "attack_speed_percent": 20
+    },
+    "lore": "This crusade against the Stars was an\nendlessly unfolding tale, yet the story's\nfinal chapter had been written from\nthe very beginning."
   },
   "Dignified Greaves-0": {
     "location": "The Wolfswood",
@@ -48866,11 +49713,11 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "ice_aspect": 1,
-      "unbreaking": 5,
-      "eruption": 2,
-      "quake": 2,
       "efficiency": 2,
+      "eruption": 2,
+      "ice_aspect": 1,
+      "quake": 1,
+      "unbreaking": 5,
       "attack_damage_base": 10,
       "attack_speed_base": 2
     },
@@ -49593,6 +50440,84 @@
       "max_health_flat": 1
     },
     "lore": "Magic was the weapon of the royals.\nElcard knew and prepared for this.\nBut a dagger could not save him\nfrom the bomb in his brain."
+  },
+  "Arc of the Lunacrest-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "The Stars, now shackled to the earth,",
+      "now made to abide the laws of this world.",
+      "Just as their Herald fell, so shall they."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Arc of the Lunacrest",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "cumbersome": 1,
+      "mending": 1,
+      "skyseeker": 2,
+      "sweeping_edge": 2,
+      "unbreaking": 2,
+      "wind_aspect": 2,
+      "attack_damage_base": 27.5,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The Stars, now shackled to the earth,\nnow made to abide the laws of this world.\nJust as their Herald fell, so shall they."
+  },
+  "Arc of the Lunacrest-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "The Stars, now shackled to the earth,",
+      "now made to abide the laws of this world.",
+      "Just as their Herald fell, so shall they."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Arc of the Lunacrest",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "cumbersome": 1,
+      "mending": 1,
+      "skyseeker": 2,
+      "sweeping_edge": 3,
+      "unbreaking": 2,
+      "wind_aspect": 2,
+      "attack_damage_base": 28,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The Stars, now shackled to the earth,\nnow made to abide the laws of this world.\nJust as their Herald fell, so shall they."
+  },
+  "Arc of the Lunacrest-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "The Stars, now shackled to the earth,",
+      "now made to abide the laws of this world.",
+      "Just as their Herald fell, so shall they."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Arc of the Lunacrest",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "cumbersome": 1,
+      "mending": 1,
+      "skyseeker": 3,
+      "sweeping_edge": 3,
+      "unbreaking": 2,
+      "wind_aspect": 2,
+      "attack_damage_base": 28,
+      "attack_speed_base": 1.2
+    },
+    "lore": "The Stars, now shackled to the earth,\nnow made to abide the laws of this world.\nJust as their Herald fell, so shall they."
   },
   "Architect's Dagger": {
     "location": "Remorseful Skin",
@@ -50613,13 +51538,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "earth_aspect": 2,
-      "unbreaking": 7,
-      "quake": 1,
       "decay": 8,
+      "earth_aspect": 2,
+      "quake": 1,
+      "unbreaking": 7,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 15
     },
     "lore": "Venomous fangs may appear in Lycans\nin the wake of rare mutations. In life,\nthey defend their pack fiercely. But in\ndeath, their fangs may yet be used\nfor something far more ominous..."
   },
@@ -50640,13 +51565,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "earth_aspect": 2,
-      "unbreaking": 7,
-      "quake": 1,
       "decay": 10,
+      "earth_aspect": 2,
+      "quake": 1,
+      "unbreaking": 7,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 16
+      "attack_damage_base": 15.5
     },
     "lore": "Venomous fangs may appear in Lycans\nin the wake of rare mutations. In life,\nthey defend their pack fiercely. But in\ndeath, their fangs may yet be used\nfor something far more ominous..."
   },
@@ -50667,10 +51592,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "earth_aspect": 2,
-      "unbreaking": 7,
-      "quake": 2,
       "decay": 12,
+      "earth_aspect": 2,
+      "quake": 1,
+      "unbreaking": 7,
       "speed_percent": 10,
       "attack_speed_base": 1.6,
       "attack_damage_base": 16
@@ -52694,7 +53619,11 @@
       },
       "magma_shield_range_percent": {
         "locked": false,
-        "value": 30
+        "value": 25
+      },
+      "magma_shield_damage_percent": {
+        "locked": false,
+        "value": 25
       }
     },
     "type": "Charm",
@@ -52945,7 +53874,7 @@
     "stats": {
       "blade_dance_damage_percent": {
         "locked": false,
-        "value": 100
+        "value": 50
       },
       "blade_dance_radius_percent": {
         "locked": false,
@@ -66980,7 +67909,7 @@
     "stats": {
       "hallowed_beam_damage_percent": {
         "locked": false,
-        "value": 60
+        "value": 50
       },
       "hallowed_beam_max_scaling_distance_percent": {
         "locked": false,
@@ -67419,6 +68348,31 @@
     "type": "Misc",
     "stats": {},
     "lore": "The needle reverberates the pulse of the\npulse of the earth, longing to guide your path.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-3 *"
+  },
+  "Starmetal Conductor": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starmetal Conductor",
+    "power": 2,
+    "base_item": "Lightning Rod",
+    "release_status": "public",
+    "stats": {
+      "shrapnel_bomb_enhancement_damage_percent": {
+        "locked": false,
+        "value": 25
+      },
+      "shrapnel_bomb_enhancement_radius_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "shrapnel_bomb_radius_percent": {
+        "locked": false,
+        "value": -25
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
   },
   "Swift Charm of Thundering": {
     "location": "Architect's Ring",
@@ -69730,6 +70684,10 @@
     "base_item": "Nautilus Shell",
     "release_status": "public",
     "stats": {
+      "shield_bash_range_percent": {
+        "locked": false,
+        "value": 25
+      },
       "defensive_line_range_percent": {
         "locked": false,
         "value": 25
@@ -69765,7 +70723,7 @@
       },
       "astral_omen_range_percent": {
         "locked": false,
-        "value": 50
+        "value": 100
       },
       "astral_omen_damage_modifier_percent": {
         "locked": false,
@@ -69788,13 +70746,13 @@
     "base_item": "Nautilus Shell",
     "release_status": "public",
     "stats": {
-      "shield_bash_damage_percent": {
-        "locked": false,
-        "value": 60
-      },
       "shield_bash_duration_flat": {
         "locked": false,
         "value": 1
+      },
+      "shield_bash_damage_percent": {
+        "locked": false,
+        "value": 50
       },
       "shield_bash_radius_percent": {
         "locked": false,
@@ -70172,6 +71130,25 @@
     "type": "Charm",
     "class_name": "Mage"
   },
+  "Essence of the Above": {
+    "location": "Aurora",
+    "mmlore": [
+      "<gray>Epic Crafting Material",
+      "In a far off land, stargazers took note",
+      "of a new celestial body, dimly shining",
+      "in that familiar night sky. In an ancient",
+      "tongue, they named this new heavenly",
+      "visitor \"Aurorus\"."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Essence of the Above",
+    "base_item": "Nether Star",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material\nIn a far off land, stargazers took note\nof a new celestial body, dimly shining\nin that familiar night sky. In an ancient\ntongue, they named this new heavenly\nvisitor \"Aurorus\"."
+  },
   "Evoking Catalyst": {
     "location": "Cyan",
     "mmlore": [
@@ -70334,10 +71311,14 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Harrakfar's Roar",
-    "power": 2,
+    "power": 1,
     "base_item": "Nether Star",
     "release_status": "public",
     "stats": {
+      "wind_bomb_vortex_radius_percent": {
+        "locked": false,
+        "value": 50
+      },
       "wind_bomb_radius_percent": {
         "locked": false,
         "value": 50
@@ -70349,6 +71330,10 @@
       "wind_bomb_duration_flat": {
         "locked": false,
         "value": 3
+      },
+      "wind_bomb_cooldown_percent": {
+        "locked": false,
+        "value": 25
       }
     },
     "type": "Charm",
@@ -71118,7 +72103,7 @@
     "type": "Axe",
     "stats": {
       "ice_aspect": 3,
-      "quake": 3,
+      "quake": 2,
       "shielding": 1,
       "unbreakable": 1,
       "attack_speed_base": 0.6,
@@ -71490,7 +72475,7 @@
     "stats": {
       "earth_aspect": 1,
       "fire_aspect": 2,
-      "quake": 6,
+      "quake": 5,
       "unbreakable": 1,
       "attack_speed_base": 0.9,
       "attack_damage_base": 28
@@ -71695,12 +72680,12 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
+      "efficiency": 2,
       "excavator": 1,
       "unbreakable": 1,
-      "efficiency": 2,
-      "attack_speed_base": 1.2,
       "attack_damage_base": 18,
-      "speed_percent": 15
+      "speed_percent": 15,
+      "attack_speed_base": 1.3
     },
     "lore": "If he wanted true power, Pelias\nwas digging in the wrong place.\nMen rend the earth.\nThe enlightened rend reality itself."
   },
@@ -71883,10 +72868,39 @@
       "unbreakable": 1,
       "attack_speed_base": 1,
       "attack_damage_base": 20,
-      "knockback_resistance_flat": 5,
-      "spell_power_base": 130
+      "spell_power_base": 130,
+      "knockback_resistance_flat": 6
     },
     "lore": "Once Phyrrys was Inverted, those still within\nwere changed. Their cores went dark.\nEnergy was pulled in, slowly at first, but soon\nthey became a deep tear in space. Hundreds\nof tiny black holes, begging to collapse.\nPhyrrys' secrets must remain sealed."
+  },
+  "Ataraxian Echo": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Ataraxian Echo",
+    "power": 4,
+    "base_item": "Netherite Sword",
+    "release_status": "public",
+    "stats": {
+      "bodkin_blitz_damage_on_passthrough_flat": {
+        "locked": false,
+        "value": 25
+      },
+      "bodkin_blitz_cooldown_percent": {
+        "locked": true,
+        "value": -50
+      },
+      "bodkin_blitz_damage_percent": {
+        "locked": false,
+        "value": -100
+      },
+      "bodkin_blitz_stealth_duration_flat": {
+        "locked": false,
+        "value": -1
+      }
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
   },
   "Blackblood Dagger": {
     "location": "Ruin",
@@ -72080,7 +73094,7 @@
     "stats": {
       "bleeding": 4,
       "decay": 2,
-      "quake": 5,
+      "quake": 4,
       "sweeping_edge": 3,
       "unbreakable": 1,
       "attack_speed_base": 1.6,
@@ -74380,6 +75394,42 @@
     "stats": {},
     "lore": "A wooden crate, filled with arrows.\n* Quest Item *\n#Q202I03"
   },
+  "Aurora Cache (Artifact)": {
+    "location": "Aurora",
+    "mmlore": [
+      "A cache of loot claimed from defeating Aurora.",
+      "<key:key.use> in mainhand to claim the contained loot,",
+      "make sure you have plenty of inventory space!",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Aurora Cache (Artifact)",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A cache of loot claimed from defeating Aurora.\n in mainhand to claim the contained loot,\nmake sure you have plenty of inventory space!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Aurora Cache (Uncommon)": {
+    "location": "Aurora",
+    "mmlore": [
+      "A cache of loot claimed from defeating Aurora.",
+      "<key:key.use> in mainhand to claim the contained loot,",
+      "make sure you have plenty of inventory space!",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Aurora Cache (Uncommon)",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A cache of loot claimed from defeating Aurora.\n in mainhand to claim the contained loot,\nmake sure you have plenty of inventory space!\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Axtan Monk Headdress": {
     "location": "King's Valley",
     "mmlore": [
@@ -74941,6 +75991,78 @@
     "type": "Misc",
     "stats": {},
     "lore": "Jump, run, crawl, hide, cower. All that you\ncan, all that you are, is incapable of\noutpacing the nightmare. Delaying the\nhands of fate will only further its grip\non the interwoven threads of reality. Ever\npresent, the dream spirals on, even when\nyou wish it most to cease."
+  },
+  "Deep Field Visor-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "Staring into the sky now... feels like floating.",
+      "An uncertain passage through an illuminated",
+      "void, yet how could Aurora be so certain?",
+      "What answers did this darkness hold?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Deep Field Visor",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fall_fragility": 4,
+      "fire_fragility": 4,
+      "max_health_flat": 3,
+      "armor": 9,
+      "magic_damage_percent": 15
+    },
+    "lore": "Staring into the sky now... feels like floating.\nAn uncertain passage through an illuminated\nvoid, yet how could Aurora be so certain?\nWhat answers did this darkness hold?"
+  },
+  "Deep Field Visor-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "Staring into the sky now... feels like floating.",
+      "An uncertain passage through an illuminated",
+      "void, yet how could Aurora be so certain?",
+      "What answers did this darkness hold?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Deep Field Visor",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fall_fragility": 4,
+      "fire_fragility": 4,
+      "armor": 9,
+      "max_health_flat": 4,
+      "magic_damage_percent": 15
+    },
+    "lore": "Staring into the sky now... feels like floating.\nAn uncertain passage through an illuminated\nvoid, yet how could Aurora be so certain?\nWhat answers did this darkness hold?"
+  },
+  "Deep Field Visor-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "Staring into the sky now... feels like floating.",
+      "An uncertain passage through an illuminated",
+      "void, yet how could Aurora be so certain?",
+      "What answers did this darkness hold?"
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Deep Field Visor",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "fall_fragility": 4,
+      "fire_fragility": 4,
+      "armor": 9,
+      "max_health_flat": 4,
+      "magic_damage_percent": 20
+    },
+    "lore": "Staring into the sky now... feels like floating.\nAn uncertain passage through an illuminated\nvoid, yet how could Aurora be so certain?\nWhat answers did this darkness hold?"
   },
   "Deepdream Visage": {
     "location": "King's Valley",
@@ -86616,6 +87738,10 @@
       "challenge_cooldown_reduction_per_mob_flat": {
         "locked": false,
         "value": 0.5
+      },
+      "challenge_absorption_health_per_mob_flat": {
+        "locked": false,
+        "value": 0.5
       }
     },
     "type": "Charm",
@@ -87521,7 +88647,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Flesh Laurel",
-    "power": 2,
+    "power": 3,
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
@@ -88082,6 +89208,31 @@
     "type": "Misc",
     "stats": {}
   },
+  "Antares": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Antares",
+    "power": 2,
+    "base_item": "Redstone",
+    "release_status": "public",
+    "stats": {
+      "glorious_battle_collision_knockback_flat": {
+        "locked": false,
+        "value": 3
+      },
+      "glorious_battle_collision_impact_damage_multiplier_percent": {
+        "locked": false,
+        "value": 200
+      },
+      "glorious_battle_bloodlust_cost_flat": {
+        "locked": false,
+        "value": 1
+      }
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
   "Blood Dust": {
     "location": "Arena of Terth",
     "region": "Valley",
@@ -88592,6 +89743,28 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Tablet of Liberation": {
+    "location": "Aurora",
+    "mmlore": [
+      "The ancient chains that bind the forgotten",
+      "skylord now loosen in the face of Aurora's will.",
+      "<dark_red>Completion of Defying Gravity and 4⭐",
+      "<dark_red>Masterwork are recommended for this boss!",
+      "<gray>Aurora stands in absolution, her endgame finally",
+      "<gray>unveiled to the world. You must stop her before",
+      "<gray>she unleashes a cataclysm from time long past.",
+      "<aqua>Players: 1-4 (Infinite attempts)",
+      "Grants access to the Starspeaker."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Tablet of Liberation",
+    "base_item": "Rib Armor Trim Smithing Template",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The ancient chains that bind the forgotten\nskylord now loosen in the face of Aurora's will.\nCompletion of Defying Gravity and 4⭐\nMasterwork are recommended for this boss!\nAurora stands in absolution, her endgame finally\nunveiled to the world. You must stop her before\nshe unleashes a cataclysm from time long past.\nPlayers: 1-4 (Infinite attempts)\nGrants access to the Starspeaker."
   },
   "Malhuer Reach": {
     "location": "Godspore",
@@ -89245,6 +90418,31 @@
     "stats": {},
     "lore": "Epic Crafting Material\nOn this day, the Stars themselves bled.\nTheir Herald cried out, then was silent.\nFor a brief moment, the sky itself became\nempty as they were overwhelmed by pain."
   },
+  "Severed Universe": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Severed Universe",
+    "power": 3,
+    "base_item": "Sculk",
+    "release_status": "public",
+    "stats": {
+      "grasping_claws_cage_melee_damage_multiplier_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "grasping_claws_cage_radius_percent": {
+        "locked": false,
+        "value": 20
+      },
+      "grasping_claws_cage_healing_percent": {
+        "locked": false,
+        "value": -100
+      }
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
+  },
   "Celestial Zenith Key": {
     "location": "Architect's Ring",
     "mmlore": [
@@ -89479,6 +90677,35 @@
       "attack_damage_percent": -30
     },
     "lore": "The merchants of Ishnir carry this\ntrinket for good luck."
+  },
+  "Orion's Shiv": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Orion's Shiv",
+    "power": 2,
+    "base_item": "Shears",
+    "release_status": "public",
+    "stats": {
+      "dagger_throw_cooldown_percent": {
+        "locked": true,
+        "value": -60
+      },
+      "dagger_throw_damage_percent": {
+        "locked": false,
+        "value": -20
+      },
+      "dagger_throw_range_percent": {
+        "locked": false,
+        "value": -20
+      },
+      "dagger_throw_vulnerability_amplifier_percent": {
+        "locked": false,
+        "value": -20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
   },
   "Truest North-1 (shears)": {
     "location": "True North",
@@ -90139,7 +91366,7 @@
     "type": "Mainhand Shield",
     "stats": {
       "decay": 1,
-      "quake": 4,
+      "quake": 2,
       "unbreaking": 5,
       "knockback_resistance_flat": 2,
       "speed_percent": -15,
@@ -90165,7 +91392,7 @@
     "type": "Mainhand Shield",
     "stats": {
       "decay": 2,
-      "quake": 4,
+      "quake": 2,
       "unbreaking": 5,
       "knockback_resistance_flat": 3,
       "speed_percent": -15,
@@ -90191,7 +91418,7 @@
     "type": "Mainhand Shield",
     "stats": {
       "decay": 2,
-      "quake": 4,
+      "quake": 2,
       "unbreaking": 6,
       "knockback_resistance_flat": 3,
       "speed_percent": -15,
@@ -92926,7 +94153,7 @@
     "stats": {
       "unbreaking": 3,
       "max_health_percent": 5,
-      "armor": 3
+      "armor": 3.5
     },
     "lore": "Hold RMB to block incoming damage."
   },
@@ -93762,15 +94989,19 @@
     "stats": {
       "rampage_cooldown_percent": {
         "locked": false,
-        "value": -35
+        "value": -50
       },
       "rampage_damage_percent": {
         "locked": false,
-        "value": 50
+        "value": 100
       },
       "rampage_range_percent": {
         "locked": false,
         "value": 50
+      },
+      "rampage_healing_percent": {
+        "locked": false,
+        "value": -50
       }
     },
     "type": "Charm",
@@ -93863,6 +95094,27 @@
     },
     "type": "Charm",
     "class_name": "Mage"
+  },
+  "Ray of Moonlight": {
+    "location": "Aurora",
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Ray of Moonlight",
+    "power": 2,
+    "base_item": "Snow Block",
+    "release_status": "public",
+    "stats": {
+      "holy_javelin_stun_duration_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "holy_javelin_divine_justice_damage_bonus_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
   },
   "Sedated Charm of Snowfall": {
     "location": "Architect's Ring",
@@ -94578,7 +95830,7 @@
       },
       "keeper_virtue_harming_flare_cooldown_percent": {
         "locked": false,
-        "value": -40
+        "value": -30
       },
       "keeper_virtue_radius_percent": {
         "locked": false,
@@ -94803,6 +96055,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "The pitch black flame of the candle\nwithin pierces the fabric of the dream...\nRight click in mainhand to use.\n* Quest Item *\n#Q225I04"
+  },
+  "Skylords' Judgement": {
+    "location": "Starpoint",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Skylords' Judgement",
+    "power": 1,
+    "base_item": "Soul Lantern",
+    "release_status": "public",
+    "stats": {
+      "holy_javelin_velocity_percent": {
+        "locked": false,
+        "value": 35
+      },
+      "ethereal_ascension_dash_velocity_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
   },
   "Swarming Charm of the Hive": {
     "location": "Architect's Ring",
@@ -99893,7 +101166,7 @@
     "stats": {
       "adrenaline": 1,
       "bleeding": 1,
-      "curse_of_anemia": 1,
+      "curse_of_anemia": 2,
       "efficiency": 3,
       "regicide": 1,
       "unbreaking": 12,
@@ -99917,7 +101190,7 @@
     "stats": {
       "adrenaline": 1,
       "bleeding": 2,
-      "curse_of_anemia": 1,
+      "curse_of_anemia": 2,
       "efficiency": 3,
       "regicide": 2,
       "unbreaking": 12,
@@ -100438,8 +101711,8 @@
     "type": "Axe",
     "stats": {
       "life_drain": 1,
+      "quake": 1,
       "unbreaking": 5,
-      "quake": 2,
       "attack_speed_base": 0.8,
       "attack_damage_base": 11.5
     },
@@ -100696,8 +101969,8 @@
     "type": "Axe",
     "stats": {
       "life_drain": 1,
+      "quake": 1,
       "unbreaking": 5,
-      "quake": 2,
       "attack_speed_base": 0.8,
       "attack_damage_base": 11.5
     },
@@ -101299,6 +102572,82 @@
       "attack_speed_base": 1.4
     },
     "lore": "A curiously curved blade rests upon the\ntang of the weapon, spiralling deep into an\nincomprehensible vortex."
+  },
+  "Oblivion-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "To sleep and to dream of a future",
+      "where the sky is empty. To dream of a",
+      "world untouched by those beyond.",
+      "To grant oblivion to those who",
+      "loathe this tainted world."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Oblivion",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "guard": 1,
+      "quake": 1,
+      "unbreaking": 10,
+      "attack_speed_base": 1,
+      "attack_damage_base": 21.5
+    },
+    "lore": "To sleep and to dream of a future\nwhere the sky is empty. To dream of a\nworld untouched by those beyond.\nTo grant oblivion to those who\nloathe this tainted world."
+  },
+  "Oblivion-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "To sleep and to dream of a future",
+      "where the sky is empty. To dream of a",
+      "world untouched by those beyond.",
+      "To grant oblivion to those who",
+      "loathe this tainted world."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Oblivion",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "guard": 1,
+      "quake": 1,
+      "unbreaking": 12,
+      "attack_damage_base": 22,
+      "attack_speed_base": 1
+    },
+    "lore": "To sleep and to dream of a future\nwhere the sky is empty. To dream of a\nworld untouched by those beyond.\nTo grant oblivion to those who\nloathe this tainted world."
+  },
+  "Oblivion-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "To sleep and to dream of a future",
+      "where the sky is empty. To dream of a",
+      "world untouched by those beyond.",
+      "To grant oblivion to those who",
+      "loathe this tainted world."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Oblivion",
+    "base_item": "Stone Hoe",
+    "release_status": "public",
+    "type": "Scythe",
+    "stats": {
+      "aptitude": 1,
+      "guard": 1,
+      "quake": 1,
+      "unbreaking": 14,
+      "attack_damage_base": 22,
+      "attack_speed_base": 1
+    },
+    "lore": "To sleep and to dream of a future\nwhere the sky is empty. To dream of a\nworld untouched by those beyond.\nTo grant oblivion to those who\nloathe this tainted world."
   },
   "Peasant's Scythe": {
     "location": "King's Valley",
@@ -102098,10 +103447,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "earth_aspect": 2,
-      "unbreaking": 10,
-      "melee_protection": 2,
+      "earth_aspect": 1,
       "efficiency": 3,
+      "melee_protection": 2,
+      "unbreaking": 10,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2,
       "knockback_resistance_flat": 2
@@ -102123,10 +103472,10 @@
     "release_status": "public",
     "type": "Pickaxe",
     "stats": {
-      "earth_aspect": 2,
-      "unbreaking": 12,
-      "melee_protection": 3,
+      "earth_aspect": 1,
       "efficiency": 3,
+      "melee_protection": 3,
+      "unbreaking": 12,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2,
       "knockback_resistance_flat": 2
@@ -102149,9 +103498,9 @@
     "type": "Pickaxe",
     "stats": {
       "earth_aspect": 2,
-      "unbreaking": 14,
-      "melee_protection": 3,
       "efficiency": 3,
+      "melee_protection": 3,
+      "unbreaking": 14,
       "attack_damage_base": 3,
       "attack_speed_base": 1.2,
       "knockback_resistance_flat": 5
@@ -102772,7 +104121,7 @@
     "stats": {
       "steel_trap_charges_flat": {
         "locked": false,
-        "value": 3
+        "value": 2
       },
       "steel_trap_damage_percent": {
         "locked": false,
@@ -102784,7 +104133,7 @@
       },
       "steel_trap_cooldown_percent": {
         "locked": true,
-        "value": 33
+        "value": 75
       }
     },
     "type": "Charm",
@@ -104862,6 +106211,102 @@
       "attack_speed_base": 1.6
     },
     "lore": "A relic of the Eastern Swamplands. The blade\nshifts and ebbs, like the tides."
+  },
+  "Shard of Skyfall-1": {
+    "location": "Starpoint",
+    "masterwork": "1",
+    "mmlore": [
+      "The surrounding tempest has turned even this",
+      "simple stone magical. The crushing intensity,",
+      "the dense magical index. It all ends here.",
+      "Under the gaze of the Skylords."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Shard of Skyfall",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "regicide": 1,
+      "unbreakable": 1,
+      "cloaked": 1,
+      "attack_damage_percent": 20,
+      "armor": 7
+    },
+    "lore": "The surrounding tempest has turned even this\nsimple stone magical. The crushing intensity,\nthe dense magical index. It all ends here.\nUnder the gaze of the Skylords."
+  },
+  "Shard of Skyfall-2": {
+    "location": "Starpoint",
+    "masterwork": "2",
+    "mmlore": [
+      "The surrounding tempest has turned even this",
+      "simple stone magical. The crushing intensity,",
+      "the dense magical index. It all ends here.",
+      "Under the gaze of the Skylords."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Shard of Skyfall",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "regicide": 1,
+      "unbreakable": 1,
+      "cloaked": 1,
+      "attack_damage_percent": 20,
+      "armor": 8
+    },
+    "lore": "The surrounding tempest has turned even this\nsimple stone magical. The crushing intensity,\nthe dense magical index. It all ends here.\nUnder the gaze of the Skylords."
+  },
+  "Shard of Skyfall-3": {
+    "location": "Starpoint",
+    "masterwork": "3",
+    "mmlore": [
+      "The surrounding tempest has turned even this",
+      "simple stone magical. The crushing intensity,",
+      "the dense magical index. It all ends here.",
+      "Under the gaze of the Skylords."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Shard of Skyfall",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "regicide": 1,
+      "unbreakable": 1,
+      "cloaked": 1,
+      "attack_damage_percent": 25,
+      "armor": 8.5
+    },
+    "lore": "The surrounding tempest has turned even this\nsimple stone magical. The crushing intensity,\nthe dense magical index. It all ends here.\nUnder the gaze of the Skylords."
+  },
+  "Shard of Skyfall-4": {
+    "location": "Starpoint",
+    "masterwork": "4",
+    "mmlore": [
+      "The surrounding tempest has turned even this",
+      "simple stone magical. The crushing intensity,",
+      "the dense magical index. It all ends here.",
+      "Under the gaze of the Skylords."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Shard of Skyfall",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "regicide": 1,
+      "unbreakable": 1,
+      "cloaked": 1,
+      "attack_damage_percent": 25,
+      "armor": 9.5
+    },
+    "lore": "The surrounding tempest has turned even this\nsimple stone magical. The crushing intensity,\nthe dense magical index. It all ends here.\nUnder the gaze of the Skylords."
   },
   "Sketched Cascade": {
     "location": "Sketched",
@@ -108376,7 +109821,7 @@
     "type": "Trident",
     "stats": {
       "ice_aspect": 6,
-      "quake": 6,
+      "quake": 4,
       "unbreakable": 1,
       "projectile_speed_base": 0.8,
       "throw_rate_base": 0.8,
@@ -108920,6 +110365,90 @@
       "throw_rate_base": 1.2
     },
     "lore": "Deep beneath the permafrost, the Herald spread\nits sickly blight across all it touched. Eventually,\na visitor arrived. With a surge of power\nand a shard in hand, he gained a new title.\nAlric, Lord of the Chilled Winds and\nfirst of the Stargazers."
+  },
+  "Skypiercer-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "Through the power of Inversion, the",
+      "Temple had been unleashed from the",
+      "confines of Phyrrys. Within slept an",
+      "ancient evil, one that could only be",
+      "tamed with a power strong enough to",
+      "split the sky..."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Skypiercer",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "magic_protection": 2,
+      "reverb": 2,
+      "thunder_aspect": 2,
+      "unbreaking": 7,
+      "projectile_speed_base": 1.6,
+      "projectile_damage_base": 25,
+      "throw_rate_base": 1
+    },
+    "lore": "Through the power of Inversion, the\nTemple had been unleashed from the\nconfines of Phyrrys. Within slept an\nancient evil, one that could only be\ntamed with a power strong enough to\nsplit the sky..."
+  },
+  "Skypiercer-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "Through the power of Inversion, the",
+      "Temple had been unleashed from the",
+      "confines of Phyrrys. Within slept an",
+      "ancient evil, one that could only be",
+      "tamed with a power strong enough to",
+      "split the sky..."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Skypiercer",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "magic_protection": 2,
+      "reverb": 2,
+      "thunder_aspect": 2,
+      "unbreaking": 7,
+      "projectile_speed_base": 1.6,
+      "projectile_damage_base": 26,
+      "throw_rate_base": 1
+    },
+    "lore": "Through the power of Inversion, the\nTemple had been unleashed from the\nconfines of Phyrrys. Within slept an\nancient evil, one that could only be\ntamed with a power strong enough to\nsplit the sky..."
+  },
+  "Skypiercer-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "Through the power of Inversion, the",
+      "Temple had been unleashed from the",
+      "confines of Phyrrys. Within slept an",
+      "ancient evil, one that could only be",
+      "tamed with a power strong enough to",
+      "split the sky..."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Skypiercer",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "magic_protection": 2,
+      "reverb": 3,
+      "thunder_aspect": 3,
+      "unbreaking": 7,
+      "projectile_speed_base": 1.6,
+      "projectile_damage_base": 26,
+      "throw_rate_base": 1
+    },
+    "lore": "Through the power of Inversion, the\nTemple had been unleashed from the\nconfines of Phyrrys. Within slept an\nancient evil, one that could only be\ntamed with a power strong enough to\nsplit the sky..."
   },
   "Solstice Greattree": {
     "location": "Koal",
@@ -109829,11 +111358,11 @@
     "stats": {
       "illuminate_enhancement_damage_flat": {
         "locked": true,
-        "value": 12
+        "value": 15
       },
       "illuminate_enhancement_tick_delay_percent": {
-        "locked": false,
-        "value": 150
+        "locked": true,
+        "value": 100
       },
       "illuminate_radius_percent": {
         "locked": false,
@@ -109906,6 +111435,75 @@
       "material": 1
     },
     "lore": "A distant rumbling is heard at\nthe cold shores to the south.\nThe icy wind itself seems to tremble."
+  },
+  "Starstained Orb-2": {
+    "location": "Aurora",
+    "masterwork": "2",
+    "mmlore": [
+      "The Loamskattar's remnants had followed",
+      "Aurora into the Outside, but it left something",
+      "strange behind. It seems drawn to you."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starstained Orb",
+    "base_item": "Turtle Egg",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "fractal": 1,
+      "projectile_protection": 1,
+      "agility": 7.5,
+      "throw_rate_percent": 16,
+      "magic_damage_percent": 18
+    },
+    "lore": "The Loamskattar's remnants had followed\nAurora into the Outside, but it left something\nstrange behind. It seems drawn to you."
+  },
+  "Starstained Orb-3": {
+    "location": "Aurora",
+    "masterwork": "3",
+    "mmlore": [
+      "The Loamskattar's remnants had followed",
+      "Aurora into the Outside, but it left something",
+      "strange behind. It seems drawn to you."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Starstained Orb",
+    "base_item": "Turtle Egg",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "fractal": 2,
+      "projectile_protection": 1,
+      "agility": 7.5,
+      "magic_damage_percent": 18,
+      "throw_rate_percent": 18
+    },
+    "lore": "The Loamskattar's remnants had followed\nAurora into the Outside, but it left something\nstrange behind. It seems drawn to you."
+  },
+  "Starstained Orb-4": {
+    "location": "Aurora",
+    "masterwork": "4",
+    "mmlore": [
+      "The Loamskattar's remnants had followed",
+      "Aurora into the Outside, but it left something",
+      "strange behind. It seems drawn to you."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Starstained Orb",
+    "base_item": "Turtle Egg",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "fractal": 2,
+      "projectile_protection": 2,
+      "magic_damage_percent": 20,
+      "throw_rate_percent": 20,
+      "agility": 7.5
+    },
+    "lore": "The Loamskattar's remnants had followed\nAurora into the Outside, but it left something\nstrange behind. It seems drawn to you."
   },
   "Coral Crown": {
     "location": "TOV",
@@ -110960,7 +112558,7 @@
       },
       "ethereal_ascension_orb_radius_percent": {
         "locked": false,
-        "value": -35
+        "value": -25
       },
       "ethereal_ascension_hover_height_percent": {
         "locked": false,
@@ -111737,7 +113335,7 @@
     "stats": {
       "efficiency": 5,
       "mending": 1,
-      "quake": 4,
+      "quake": 3,
       "regeneration": 2,
       "two_handed": 1,
       "unbreaking": 2,
@@ -111903,7 +113501,7 @@
     "stats": {
       "efficiency": 5,
       "mending": 1,
-      "quake": 4,
+      "quake": 3,
       "regeneration": 2,
       "two_handed": 1,
       "unbreaking": 2,
@@ -112010,7 +113608,7 @@
       "earth_aspect": 2,
       "efficiency": 2,
       "mending": 1,
-      "quake": 2,
+      "quake": 1,
       "regeneration": 1,
       "unbreaking": 5,
       "thorns_flat": 3,
@@ -112038,7 +113636,7 @@
       "earth_aspect": 2,
       "efficiency": 2,
       "mending": 1,
-      "quake": 2,
+      "quake": 1,
       "regeneration": 1,
       "unbreaking": 7,
       "thorns_flat": 3,
@@ -112066,7 +113664,7 @@
       "earth_aspect": 2,
       "efficiency": 2,
       "mending": 1,
-      "quake": 2,
+      "quake": 1,
       "regeneration": 1,
       "unbreaking": 8,
       "thorns_flat": 4,
@@ -112094,7 +113692,7 @@
       "earth_aspect": 2,
       "efficiency": 2,
       "mending": 1,
-      "quake": 2,
+      "quake": 1,
       "regeneration": 1,
       "unbreaking": 9,
       "thorns_flat": 4,
@@ -112290,14 +113888,14 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 15,
-      "ice_aspect": 1,
-      "hex_eater": 2,
-      "thunder_aspect": 1,
-      "fire_aspect": 1,
-      "quake": 2,
-      "decay": 1,
       "bleeding": 1,
+      "decay": 1,
+      "fire_aspect": 1,
+      "hex_eater": 2,
+      "ice_aspect": 1,
+      "quake": 1,
+      "thunder_aspect": 1,
+      "unbreaking": 15,
       "attack_speed_base": 1.6,
       "attack_damage_base": 7
     },
@@ -113006,10 +114604,10 @@
     "type": "Mainhand Sword",
     "stats": {
       "earth_aspect": 2,
-      "unbreaking": 2,
       "mending": 1,
-      "quake": 4,
+      "quake": 3,
       "two_handed": 1,
+      "unbreaking": 2,
       "attack_speed_base": 1.5,
       "attack_damage_base": 10
     },
@@ -113423,12 +115021,12 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 55,
-      "quake": 4,
       "curse_of_crippling": 1,
+      "quake": 4,
+      "unbreaking": 55,
       "knockback_resistance_flat": 2,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 18
+      "attack_damage_base": 17
     },
     "lore": "With Hycenea sealed inside Blue alongside Harrakfar,\nher grasp over the Wolfswood disappeared entirely.\nIt did not concern her, however. Her reunion with\nHarrakfar was all that she needed."
   },
@@ -113512,8 +115110,8 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "ailment_fragility": 3,
       "curse_of_pestilence": 2,
-      "curse_of_shrapnel": 1,
       "decay": 22,
       "mending": 1,
       "sweeping_edge": 3,
@@ -113537,8 +115135,8 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
+      "ailment_fragility": 3,
       "curse_of_pestilence": 2,
-      "curse_of_shrapnel": 1,
       "decay": 25,
       "mending": 1,
       "sweeping_edge": 3,
