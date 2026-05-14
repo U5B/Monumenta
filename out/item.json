@@ -4231,8 +4231,8 @@
       "regicide": 3,
       "attack_speed_base": 1,
       "attack_damage_base": 20,
-      "knockback_resistance_flat": 5,
-      "spell_power_base": 130
+      "spell_power_base": 130,
+      "knockback_resistance_flat": 6
     },
     "lore": "Only one could lead the Aurians to salvation.\nOnly one could reclaim the Loamskattar.\nOnly one could battle the Stars and survive.\nThese are the lies Aurora told herself\nbefore her Ascension."
   },
@@ -77229,6 +77229,22 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Indigo Wool Key": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "Grants access to:",
+      "<#6f00ff>Phyrrys, City of Fallen Stars",
+      "Difficulty : <yellow>☠☠☠<dark_gray>☠☠"
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Indigo Wool Key",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to:\nPhyrrys, City of Fallen Stars\nDifficulty : ☠☠☠☠☠"
   },
   "Insanity's Seal": {
     "location": "Celsian Isles",
