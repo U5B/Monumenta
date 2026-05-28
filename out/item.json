@@ -35074,6 +35074,31 @@
       "armor": 4
     }
   },
+  "Sketched Silverthread Raiment": {
+    "location": "Sketched",
+    "mmlore": [
+      "Especially esteemed Isharist mages were",
+      "bestowed a commemorative regalia, as a",
+      "hallmark of their distinct arcane talent.",
+      "Over time, their magic would be woven into",
+      "each individual thread of the armor."
+    ],
+    "region": "Isles",
+    "tier": "Epic",
+    "name": "Sketched Silverthread Raiment",
+    "base_item": "Golden Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "aptitude": 2,
+      "magic_protection": 2,
+      "regeneration": 1,
+      "unbreakable": 1,
+      "max_health_flat": -2,
+      "agility": 7
+    },
+    "lore": "Especially esteemed Isharist mages were\nbestowed a commemorative regalia, as a\nhallmark of their distinct arcane talent.\nOver time, their magic would be woven into\neach individual thread of the armor."
+  },
   "Stalwart Cuirass": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -77321,6 +77346,20 @@
     "stats": {},
     "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
+  "Koal's Present": {
+    "location": "Koal",
+    "mmlore": [
+      "<gray>Click to open a Festive Gift!"
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Koal's Present",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Click to open a Festive Gift!"
+  },
   "Levyn Bacon Mask": {
     "location": "King's Valley",
     "mmlore": [
@@ -80571,7 +80610,6 @@
       "feels burning hot to the touch."
     ],
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Burn Panacea",
     "effects": [
       {
@@ -80598,7 +80636,6 @@
       "calling for freedom."
     ],
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "C'Axtal's Blessing",
     "effects": [
       {
@@ -80625,7 +80662,6 @@
       "found ways around it."
     ],
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "C'Shura's Fury",
     "effects": [
       {
@@ -81763,7 +81799,6 @@
   "Elemental Resin": {
     "location": "Sanctum",
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Elemental Resin",
     "effects": [
       {
@@ -82299,7 +82334,6 @@
   "Extract of the Eternal": {
     "location": "Hekawt",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Extract of the Eternal",
     "effects": [
       {
@@ -82571,7 +82605,6 @@
   "Flame's Warmth": {
     "location": "Kaul",
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Flame's Warmth",
     "effects": [
       {
@@ -82769,7 +82802,6 @@
   "Fury of the Elements": {
     "location": "Kaul",
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Fury of the Elements",
     "effects": [
       {
@@ -82854,7 +82886,6 @@
   "Glory to the Eternal": {
     "location": "Hekawt",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Glory to the Eternal",
     "effects": [
       {
@@ -82867,8 +82898,8 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {
-      "starvation": 10,
-      "instant_drink": 1
+      "instant_drink": 1,
+      "starvation": 10
     }
   },
   "Goddess Brew": {
@@ -83729,7 +83760,6 @@
       "coming from this remedy..."
     ],
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "No Step Back",
     "effects": [
       {
@@ -84176,7 +84206,6 @@
       "in your hands, always moving."
     ],
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Remnant Elixir",
     "effects": [
       {
@@ -84229,7 +84258,6 @@
   "Riftwalker Elixir": {
     "location": "Eldrask",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Riftwalker Elixir",
     "effects": [
       {
@@ -84691,7 +84719,6 @@
   "Spirits of the Song": {
     "location": "Eldrask",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Spirits of the Song",
     "effects": [
       {
@@ -85555,7 +85582,6 @@
       "wasn't there before..."
     ],
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Viridescent Cure",
     "effects": [
       {
@@ -85713,7 +85739,6 @@
   "Water's Blessing": {
     "location": "Kaul",
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Water's Blessing",
     "effects": [
       {
@@ -96596,7 +96621,6 @@
   "Bathypelagic Brew": {
     "location": "Depths",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Bathypelagic Brew",
     "effects": [
       {
@@ -96748,7 +96772,6 @@
       "of this."
     ],
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "C'Zanil's Transgression",
     "effects": [
       {
@@ -97118,7 +97141,6 @@
   "Dragonrage Brew": {
     "location": "Remorse",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Dragonrage Brew",
     "effects": [
       {
@@ -97171,7 +97193,6 @@
   "Earth's Might": {
     "location": "Kaul",
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Earth's Might",
     "effects": [
       {
@@ -97272,7 +97293,6 @@
   "Epipelagic Essence": {
     "location": "Depths",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Epipelagic Essence",
     "effects": [
       {
@@ -97523,7 +97543,6 @@
   "Hadopelagic Tincture": {
     "location": "Depths",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Hadopelagic Tincture",
     "effects": [
       {
@@ -99032,7 +99051,6 @@
   "Titanic Steel": {
     "location": "Eldrask",
     "region": "Isles",
-    "tier": "Uncommon",
     "name": "Titanic Steel",
     "effects": [
       {
@@ -99234,7 +99252,6 @@
   "Wind's Strength": {
     "location": "Kaul",
     "region": "Valley",
-    "tier": "Uncommon",
     "name": "Wind's Strength",
     "effects": [
       {
@@ -106369,6 +106386,32 @@
       "attack_speed_base": 1.2
     },
     "lore": "Suddenly, a path was opened by the blade. From\na shimmering crack, the Tuathan stepped into\nthe shrine. Cherry blossoms dotted the garden.\nThe anguish of a million voices was now balanced\nby the soft sound of peace."
+  },
+  "Sketched Vermin's End": {
+    "location": "Sketched",
+    "mmlore": [
+      "An eerie silence filled the Rootways. In what had",
+      "once been crawling with impossible creatures, you",
+      "could not find more than lowly insects. Expeditions",
+      "to those crumbled, filth-clad Gutters eventually",
+      "uncovered a mysterious silver structure resting at",
+      "its heart... and a chopped Norvigut tail at the base."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Sketched Vermin's End",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "decay": 3,
+      "efficiency": 3,
+      "quake": 1,
+      "unbreaking": 5,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 7
+    },
+    "lore": "An eerie silence filled the Rootways. In what had\nonce been crawling with impossible creatures, you\ncould not find more than lowly insects. Expeditions\nto those crumbled, filth-clad Gutters eventually\nuncovered a mysterious silver structure resting at\nits heart... and a chopped Norvigut tail at the base."
   },
   "Soldier's Blade": {
     "location": "King's Valley",
