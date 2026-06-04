@@ -38,6 +38,32 @@
     },
     "lore": "C'Zanil's gambit is a failure. Quetzalcoatl has\nfailed us too. Surrender is upon us, we\ncannot win this war. The Invaders will destroy us.\nKaul will destroy me.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DN Key 5 *"
   },
+  "Plush Keeper Virtue": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Decade Pass.",
+      "Be not afraid..."
+    ],
+    "name": "Plush Keeper Virtue",
+    "base_item": "Allay Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Decade Pass.\nBe not afraid..."
+  },
+  "Plush Vigilant Mothdragon": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Decade Pass.",
+      "It eats all your food!"
+    ],
+    "name": "Plush Vigilant Mothdragon",
+    "base_item": "Allay Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Decade Pass.\nIt eats all your food!"
+  },
   "Ensanguined Flower": {
     "location": "Valley Overworld",
     "region": "Valley",
@@ -502,8 +528,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "magic_protection": 2,
       "regicide": 1,
-      "magic_protection": 1,
       "attack_damage_base": 8.5,
       "spell_power_base": 72
     },
@@ -523,8 +549,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "magic_protection": 2,
       "regicide": 1,
-      "magic_protection": 1,
       "attack_damage_base": 8.5,
       "spell_power_base": 77
     },
@@ -544,8 +570,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "magic_protection": 2,
       "regicide": 1,
-      "magic_protection": 1,
       "attack_damage_base": 9,
       "spell_power_base": 80
     },
@@ -565,8 +591,8 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "magic_protection": 2,
       "regicide": 1,
-      "magic_protection": 1,
       "attack_damage_base": 9,
       "spell_power_base": 85
     },
@@ -1847,7 +1873,7 @@
       },
       "choir_bells_vulnerability_amplifier_percent": {
         "locked": false,
-        "value": -20
+        "value": -15
       }
     },
     "type": "Charm",
@@ -2519,9 +2545,9 @@
         "locked": false,
         "value": 35
       },
-      "shield_wall_duration_percent": {
+      "shield_wall_bash_stun_duration_flat": {
         "locked": false,
-        "value": 35
+        "value": 1
       }
     },
     "type": "Charm",
@@ -2982,7 +3008,7 @@
       },
       "rampage_initial_duration_flat": {
         "locked": false,
-        "value": 0.5
+        "value": 2
       }
     },
     "type": "Charm",
@@ -2993,21 +3019,25 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Fortified Rage Charm",
-    "power": 3,
+    "power": 4,
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
       "rampage_knockback_percent": {
         "locked": false,
-        "value": 20
+        "value": 50
       },
-      "rampage_melee_resistance_percent": {
+      "rampage_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 25
+      },
+      "rampage_healing_percent": {
+        "locked": false,
+        "value": 25
       },
       "rampage_initial_duration_flat": {
         "locked": false,
-        "value": 0.5
+        "value": 2
       }
     },
     "type": "Charm",
@@ -3112,7 +3142,7 @@
       },
       "rampage_initial_duration_flat": {
         "locked": false,
-        "value": 0.25
+        "value": 1
       }
     },
     "type": "Charm",
@@ -3259,6 +3289,10 @@
       "rampage_damage_percent": {
         "locked": false,
         "value": 10
+      },
+      "rampage_initial_duration_flat": {
+        "locked": false,
+        "value": 0.5
       }
     },
     "type": "Charm",
@@ -3298,12 +3332,12 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "trivium": 1,
       "cloaked": 1,
       "inferno": 3,
-      "speed_percent": 20,
-      "agility": 4.5,
-      "magic_damage_percent": 15
+      "trivium": 1,
+      "magic_damage_percent": 15,
+      "speed_percent": 15,
+      "agility": 5.5
     },
     "lore": "An eternal flame, burning with the\nheat of a source yet unknown."
   },
@@ -3321,12 +3355,12 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "trivium": 1,
       "cloaked": 1,
       "inferno": 3,
-      "agility": 5,
-      "speed_percent": 20,
-      "magic_damage_percent": 15
+      "trivium": 1,
+      "magic_damage_percent": 15,
+      "speed_percent": 15,
+      "agility": 6
     },
     "lore": "An eternal flame, burning with the\nheat of a source yet unknown."
   },
@@ -3344,12 +3378,12 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "trivium": 1,
       "cloaked": 1,
       "inferno": 3,
+      "trivium": 1,
       "magic_damage_percent": 20,
-      "speed_percent": 20,
-      "agility": 5
+      "speed_percent": 15,
+      "agility": 6
     },
     "lore": "An eternal flame, burning with the\nheat of a source yet unknown."
   },
@@ -3377,9 +3411,13 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "rampage_healing_percent": {
+      "rampage_initial_duration_flat": {
         "locked": false,
-        "value": 15
+        "value": 1
+      },
+      "rampage_duration_per_recast_flat": {
+        "locked": false,
+        "value": 1
       }
     },
     "type": "Charm",
@@ -3839,12 +3877,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "smite": 3,
       "fire_aspect": 2,
+      "smite": 3,
       "two_handed": 1,
-      "attack_damage_base": 22,
       "attack_speed_base": 1,
-      "spell_power_base": 60
+      "spell_power_base": 60,
+      "attack_damage_base": 25
     },
     "lore": "Mages don't hit the gym\nenough for this."
   },
@@ -4023,7 +4061,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Molldyer's Chalk",
-    "power": 4,
+    "power": 3,
     "base_item": "Blaze Rod",
     "release_status": "public",
     "stats": {
@@ -4059,12 +4097,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 3,
       "fire_aspect": 4,
-      "inferno": 5,
+      "inferno": 6,
+      "knockback": 3,
+      "shielding": 1,
       "attack_speed_base": 0.8,
-      "spell_power_base": 68,
-      "attack_damage_base": 21.5
+      "attack_damage_base": 21.5,
+      "spell_power_base": 72
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -4084,12 +4123,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 3,
       "fire_aspect": 4,
-      "inferno": 5,
+      "inferno": 7,
+      "knockback": 3,
+      "shielding": 1,
       "attack_speed_base": 0.8,
-      "spell_power_base": 70,
-      "attack_damage_base": 22
+      "attack_damage_base": 22,
+      "spell_power_base": 75
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -4109,12 +4149,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 3,
       "fire_aspect": 4,
-      "inferno": 5,
+      "inferno": 7,
+      "knockback": 3,
+      "shielding": 1,
       "attack_speed_base": 0.8,
-      "spell_power_base": 75,
-      "attack_damage_base": 23
+      "attack_damage_base": 23,
+      "spell_power_base": 80
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -4134,12 +4175,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 3,
       "fire_aspect": 4,
-      "inferno": 6,
+      "inferno": 8,
+      "knockback": 3,
+      "shielding": 1,
       "attack_speed_base": 0.8,
-      "spell_power_base": 75,
-      "attack_damage_base": 23.5
+      "attack_damage_base": 23.5,
+      "spell_power_base": 80
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -5193,11 +5235,11 @@
     "type": "Wand",
     "stats": {
       "ice_aspect": 3,
-      "knockback": 1,
+      "knockback": 2,
       "shielding": 1,
-      "attack_speed_base": 0.8,
       "spell_power_base": 55,
-      "attack_damage_base": 20
+      "attack_speed_base": 1,
+      "attack_damage_base": 19
     },
     "lore": "In time before the time you know,\nthe Giants shaped these lands. Shaped\nfrom the mantle, ocean floor, turned\nthen to ice and sand."
   },
@@ -12249,12 +12291,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
-      "unbreaking": 6,
-      "melee_protection": 2,
       "magic_protection": 2,
+      "melee_protection": 2,
+      "unbreaking": 6,
       "speed_percent": 5,
-      "agility": 7,
-      "attack_damage_percent": 15
+      "attack_damage_percent": 10,
+      "agility": 8
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -12274,12 +12316,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
-      "unbreaking": 6,
-      "melee_protection": 2,
       "magic_protection": 2,
+      "melee_protection": 2,
+      "unbreaking": 6,
       "speed_percent": 8,
-      "agility": 7.5,
-      "attack_damage_percent": 20
+      "agility": 8.5,
+      "attack_damage_percent": 10
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -12299,12 +12341,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
-      "unbreaking": 7,
-      "melee_protection": 2,
       "magic_protection": 3,
+      "melee_protection": 2,
+      "unbreaking": 7,
       "speed_percent": 10,
-      "agility": 7.5,
-      "attack_damage_percent": 20
+      "agility": 8.5,
+      "attack_damage_percent": 10
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -12324,12 +12366,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
-      "unbreaking": 8,
-      "melee_protection": 3,
       "magic_protection": 3,
+      "melee_protection": 3,
+      "unbreaking": 8,
       "speed_percent": 10,
-      "agility": 7.5,
-      "attack_damage_percent": 20
+      "attack_damage_percent": 10,
+      "agility": 8.5
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -12349,12 +12391,12 @@
     "type": "Boots",
     "stats": {
       "curse_of_anemia": 2,
-      "unbreaking": 9,
-      "melee_protection": 3,
       "magic_protection": 3,
+      "melee_protection": 3,
+      "unbreaking": 9,
       "speed_percent": 10,
-      "agility": 8,
-      "attack_damage_percent": 25
+      "agility": 9,
+      "attack_damage_percent": 15
     },
     "lore": "Despite no lands beyond the misty\nhorizon, you feel an ancient shadow\nlooming over you."
   },
@@ -18005,10 +18047,6 @@
       "advancing_shadows_recast_multiplier_percent": {
         "locked": false,
         "value": 25
-      },
-      "advancing_shadows_cooldown_percent": {
-        "locked": false,
-        "value": 15
       }
     },
     "type": "Charm",
@@ -20687,7 +20725,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Pressure Gauntlet",
-    "power": 1,
+    "power": 2,
     "base_item": "Copper Ingot",
     "release_status": "public",
     "stats": {
@@ -20704,8 +20742,8 @@
         "value": 25
       },
       "brute_force_radius_percent": {
-        "locked": true,
-        "value": -25
+        "locked": false,
+        "value": 25
       }
     },
     "type": "Charm",
@@ -20751,6 +20789,7 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "adrenaline": 1,
       "thunder_aspect": 1,
       "wind_aspect": 2,
       "speed_percent": 15,
@@ -20774,6 +20813,7 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "adrenaline": 1,
       "thunder_aspect": 1,
       "wind_aspect": 2,
       "speed_percent": 15,
@@ -20797,6 +20837,7 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "adrenaline": 1,
       "thunder_aspect": 2,
       "wind_aspect": 2,
       "speed_percent": 15,
@@ -21052,6 +21093,19 @@
     "type": "Misc",
     "stats": {},
     "lore": "Spawns a training dummy with\nzero armor to test damage on.\n\nDamage dealt will be told to player\nby chat message.\n\nType: Elite Creeper\nNote: Long fuse, zero explosion"
+  },
+  "Mr Snuggles Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Decade Pass."
+    ],
+    "region": "Valley",
+    "name": "Mr Snuggles Dummy",
+    "base_item": "Creeper Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Decade Pass."
   },
   "Ru'Ten, Devouring Loci Dummy": {
     "location": "Seasonal Pass",
@@ -21652,6 +21706,32 @@
       "projectile_damage_base": 21
     },
     "lore": "The Vedha took the last of Hycenea's lingering\nfury to craft an elegy for her fallen sisters.\nShe would bury their memory, and begin anew."
+  },
+  "Cursestone Crossbow": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Blood flows through the rocky veins of",
+      "the implement. Parts of the original weapon",
+      "can be seen peering out from beneath...",
+      "...but madness claims what remains."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Cursestone Crossbow",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "bleeding": 4,
+      "curse_of_shrapnel": 1,
+      "mending": 1,
+      "quick_charge": 2,
+      "second_wind": 3,
+      "thorns_flat": 6,
+      "projectile_speed_base": 1,
+      "projectile_damage_base": 19
+    },
+    "lore": "Blood flows through the rocky veins of\nthe implement. Parts of the original weapon\ncan be seen peering out from beneath...\n...but madness claims what remains."
   },
   "Dead Adventurer's Crossbow": {
     "mmlore": [
@@ -22609,13 +22689,14 @@
     "release_status": "public",
     "type": "Crossbow",
     "stats": {
+      "piercing": 1,
       "punch": 1,
       "quick_charge": 1,
       "recoil": 2,
       "sniper": 2,
       "unbreaking": 3,
-      "projectile_damage_base": 22,
-      "projectile_speed_base": 2.2
+      "projectile_speed_base": 2.2,
+      "projectile_damage_base": 21
     },
     "lore": "The hardest creatures to study are\nthe ones best protected by the natives."
   },
@@ -23621,8 +23702,8 @@
       "decay": 2,
       "ice_aspect": 2,
       "speed_percent": 5,
-      "spell_power_base": 77,
-      "attack_damage_base": 8.5
+      "attack_damage_base": 8.5,
+      "spell_power_base": 83
     },
     "lore": "One sister left for the Depths. Another\nrose to far greater heights."
   },
@@ -23644,8 +23725,8 @@
       "decay": 4,
       "ice_aspect": 2,
       "speed_percent": 5,
-      "spell_power_base": 82,
-      "attack_damage_base": 8.5
+      "attack_damage_base": 8.5,
+      "spell_power_base": 88
     },
     "lore": "One sister left for the Depths. Another\nrose to far greater heights."
   },
@@ -24253,6 +24334,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "* Quest Item *\n#Q128I02"
+  },
+  "Anniversary Art Pouch": {
+    "location": "Tenyears",
+    "mmlore": [
+      "A pouch containing all eight tiles of",
+      "the Anniversary map art.",
+      "<key:key.use> to open."
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art Pouch",
+    "base_item": "Decorated Pot",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A pouch containing all eight tiles of\nthe Anniversary map art.\n to open."
   },
   "Portable Gatecharm": {
     "location": "Skr",
@@ -26127,7 +26224,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Magna Luna",
-    "power": 3,
+    "power": 4,
     "base_item": "Diamond Sword",
     "release_status": "public",
     "stats": {
@@ -26135,21 +26232,17 @@
         "locked": false,
         "value": 300
       },
-      "cosmic_moonblade_on_kill_cooldown_cap_percent": {
+      "cosmic_moonblade_cooldown_reduction_flat": {
         "locked": false,
-        "value": 100
+        "value": 1
       },
-      "cosmic_moonblade_cooldown_cap_percent": {
+      "cosmic_moonblade_on_kill_cooldown_reduction_flat": {
         "locked": false,
-        "value": 100
+        "value": 1
       },
       "cosmic_moonblade_range_percent": {
         "locked": false,
-        "value": 50
-      },
-      "cosmic_moonblade_cooldown_percent": {
-        "locked": false,
-        "value": 50
+        "value": 100
       },
       "cosmic_moonblade_slashes_flat": {
         "locked": true,
@@ -26466,12 +26559,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
+      "tactician": 1,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
-      "attack_speed_base": 1.6,
       "spell_power_base": 75,
-      "attack_damage_base": 13.5
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 16
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -26490,12 +26584,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
+      "tactician": 1,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
-      "attack_speed_base": 1.6,
       "spell_power_base": 77,
-      "attack_damage_base": 14
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 16.5
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -26514,12 +26609,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
+      "tactician": 2,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
-      "attack_speed_base": 1.6,
       "spell_power_base": 82,
-      "attack_damage_base": 14.5
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 17
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -26538,12 +26634,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
+      "tactician": 2,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
-      "attack_speed_base": 1.6,
       "spell_power_base": 85,
-      "attack_damage_base": 15
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 17.5
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -26562,12 +26659,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "sweeping_edge": 3,
+      "tactician": 2,
       "thunder_aspect": 3,
       "unbreaking": 1,
-      "sweeping_edge": 3,
-      "attack_speed_base": 1.6,
       "spell_power_base": 90,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 18,
+      "attack_speed_base": 1.3
     },
     "lore": "Empires rose and fell like the crashing\nof a waterfall, yet ancient Silver\nnever tarnished."
   },
@@ -29254,6 +29352,158 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q39I01"
   },
+  "Anniversary Art (Tile 1)": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>Part of an art piece depicting Team Monumenta",
+      "<gray>celebrating ten years of development. Place all",
+      "<gray>eight pieces together anywhere to form a picture!",
+      "<italic>Art drawn by: paperboxs",
+      "<white>⬛⬜⬜⬜",
+      "<white>⬜⬜⬜⬜"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art (Tile 1)",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Part of an art piece depicting Team Monumenta\ncelebrating ten years of development. Place all\neight pieces together anywhere to form a picture!\nArt drawn by: paperboxs\n⬛⬜⬜⬜\n⬜⬜⬜⬜"
+  },
+  "Anniversary Art (Tile 2)": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>Part of an art piece depicting Team Monumenta",
+      "<gray>celebrating ten years of development. Place all",
+      "<gray>eight pieces together anywhere to form a picture!",
+      "<italic>Art drawn by: paperboxs",
+      "<white>⬜⬛⬜⬜",
+      "<white>⬜⬜⬜⬜"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art (Tile 2)",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Part of an art piece depicting Team Monumenta\ncelebrating ten years of development. Place all\neight pieces together anywhere to form a picture!\nArt drawn by: paperboxs\n⬜⬛⬜⬜\n⬜⬜⬜⬜"
+  },
+  "Anniversary Art (Tile 3)": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>Part of an art piece depicting Team Monumenta",
+      "<gray>celebrating ten years of development. Place all",
+      "<gray>eight pieces together anywhere to form a picture!",
+      "<italic>Art drawn by: paperboxs",
+      "<white>⬜⬜⬛⬜",
+      "<white>⬜⬜⬜⬜"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art (Tile 3)",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Part of an art piece depicting Team Monumenta\ncelebrating ten years of development. Place all\neight pieces together anywhere to form a picture!\nArt drawn by: paperboxs\n⬜⬜⬛⬜\n⬜⬜⬜⬜"
+  },
+  "Anniversary Art (Tile 4)": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>Part of an art piece depicting Team Monumenta",
+      "<gray>celebrating ten years of development. Place all",
+      "<gray>eight pieces together anywhere to form a picture!",
+      "<italic>Art drawn by: paperboxs",
+      "<white>⬜⬜⬜⬛",
+      "<white>⬜⬜⬜⬜"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art (Tile 4)",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Part of an art piece depicting Team Monumenta\ncelebrating ten years of development. Place all\neight pieces together anywhere to form a picture!\nArt drawn by: paperboxs\n⬜⬜⬜⬛\n⬜⬜⬜⬜"
+  },
+  "Anniversary Art (Tile 5)": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>Part of an art piece depicting Team Monumenta",
+      "<gray>celebrating ten years of development. Place all",
+      "<gray>eight pieces together anywhere to form a picture!",
+      "<italic>Art drawn by: paperboxs",
+      "<white>⬜⬜⬜⬜",
+      "<white>⬛⬜⬜⬜"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art (Tile 5)",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Part of an art piece depicting Team Monumenta\ncelebrating ten years of development. Place all\neight pieces together anywhere to form a picture!\nArt drawn by: paperboxs\n⬜⬜⬜⬜\n⬛⬜⬜⬜"
+  },
+  "Anniversary Art (Tile 6)": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>Part of an art piece depicting Team Monumenta",
+      "<gray>celebrating ten years of development. Place all",
+      "<gray>eight pieces together anywhere to form a picture!",
+      "<italic>Art drawn by: paperboxs",
+      "<white>⬜⬜⬜⬜",
+      "<white>⬜⬛⬜⬜"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art (Tile 6)",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Part of an art piece depicting Team Monumenta\ncelebrating ten years of development. Place all\neight pieces together anywhere to form a picture!\nArt drawn by: paperboxs\n⬜⬜⬜⬜\n⬜⬛⬜⬜"
+  },
+  "Anniversary Art (Tile 7)": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>Part of an art piece depicting Team Monumenta",
+      "<gray>celebrating ten years of development. Place all",
+      "<gray>eight pieces together anywhere to form a picture!",
+      "<italic>Art drawn by: paperboxs",
+      "<white>⬜⬜⬜⬜",
+      "<white>⬜⬜⬛⬜"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art (Tile 7)",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Part of an art piece depicting Team Monumenta\ncelebrating ten years of development. Place all\neight pieces together anywhere to form a picture!\nArt drawn by: paperboxs\n⬜⬜⬜⬜\n⬜⬜⬛⬜"
+  },
+  "Anniversary Art (Tile 8)": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>Part of an art piece depicting Team Monumenta",
+      "<gray>celebrating ten years of development. Place all",
+      "<gray>eight pieces together anywhere to form a picture!",
+      "<italic>Art drawn by: paperboxs",
+      "<white>⬜⬜⬜⬜",
+      "<white>⬜⬜⬜⬛"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Anniversary Art (Tile 8)",
+    "base_item": "Filled Map",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Part of an art piece depicting Team Monumenta\ncelebrating ten years of development. Place all\neight pieces together anywhere to form a picture!\nArt drawn by: paperboxs\n⬜⬜⬜⬜\n⬜⬜⬜⬛"
+  },
   "Completed Map": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>A map leading to an abandoned",
@@ -29878,13 +30128,13 @@
     "base_item": "Fire Coral Fan",
     "release_status": "public",
     "stats": {
-      "meteor_slam_damage_percent": {
+      "meteor_slam_cooldown_percent": {
         "locked": false,
-        "value": 15
+        "value": -15
       },
       "meteor_slam_vault_velocity_percent": {
         "locked": false,
-        "value": 15
+        "value": 25
       }
     },
     "type": "Charm",
@@ -30314,9 +30564,9 @@
         "locked": false,
         "value": 1
       },
-      "predator_strike_enemies_pierced_flat": {
+      "lockdown_damage_percent": {
         "locked": false,
-        "value": 3
+        "value": 10
       }
     },
     "type": "Charm",
@@ -30904,7 +31154,11 @@
       },
       "dark_pact_damage_per_absorption_on_deactivation_flat": {
         "locked": false,
-        "value": 4
+        "value": 6
+      },
+      "dark_pact_absorption_health_cap_flat": {
+        "locked": false,
+        "value": 6
       },
       "dark_pact_deactivation_restriction_duration_flat": {
         "locked": false,
@@ -31186,7 +31440,7 @@
     "stats": {
       "cleansing_totem_healing_amplifier_percent": {
         "locked": false,
-        "value": 1
+        "value": 0.5
       },
       "cleansing_totem_radius_percent": {
         "locked": false,
@@ -31240,7 +31494,7 @@
     "stats": {
       "cleansing_totem_healing_amplifier_percent": {
         "locked": false,
-        "value": 2
+        "value": 1
       }
     },
     "type": "Charm",
@@ -31274,7 +31528,7 @@
     "stats": {
       "cleansing_totem_healing_amplifier_percent": {
         "locked": false,
-        "value": 1
+        "value": 0.5
       }
     },
     "type": "Charm",
@@ -31367,7 +31621,7 @@
     "stats": {
       "cleansing_totem_healing_amplifier_percent": {
         "locked": false,
-        "value": 2
+        "value": 1
       },
       "cleansing_totem_cooldown_percent": {
         "locked": false,
@@ -32105,7 +32359,7 @@
       },
       "spellshock_melee_amplifier_percent": {
         "locked": false,
-        "value": 7.5
+        "value": 15
       },
       "spellshock_speed_amplifier_percent": {
         "locked": false,
@@ -32134,7 +32388,7 @@
       },
       "spellshock_melee_amplifier_percent": {
         "locked": false,
-        "value": 5
+        "value": 10
       }
     },
     "type": "Charm",
@@ -32188,7 +32442,7 @@
       },
       "spellshock_melee_amplifier_percent": {
         "locked": false,
-        "value": 2.5
+        "value": 5
       }
     },
     "type": "Charm",
@@ -32305,7 +32559,7 @@
       },
       "spellshock_melee_amplifier_percent": {
         "locked": false,
-        "value": 2.5
+        "value": 5
       },
       "spellshock_slowness_amplifier_percent": {
         "locked": false,
@@ -32356,7 +32610,7 @@
       },
       "spellshock_melee_amplifier_percent": {
         "locked": false,
-        "value": 2.5
+        "value": 5
       },
       "spellshock_speed_amplifier_percent": {
         "locked": false,
@@ -34072,6 +34326,27 @@
       "armor": 3.5
     }
   },
+  "Plush King's Sabatons": {
+    "location": "King's Valley",
+    "mmlore": [
+      "<dark_gray>These soft slippers are a wonderful replica",
+      "<dark_gray>of King Johannes' prized pair of Sabatons!"
+    ],
+    "region": "Valley",
+    "tier": "Unique",
+    "name": "Plush King's Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "feather_falling": 1,
+      "projectile_protection": 1,
+      "unbreakable": 1,
+      "armor": 2.5,
+      "attack_damage_percent": 1
+    },
+    "lore": "These soft slippers are a wonderful replica\nof King Johannes' prized pair of Sabatons!"
+  },
   "Queen's Sabatons": {
     "location": "Royal Armory",
     "mmlore": [
@@ -34460,11 +34735,11 @@
     "type": "Chestplate",
     "stats": {
       "blast_protection": 2,
-      "unbreaking": 8,
-      "projectile_protection": 2,
+      "projectile_protection": 3,
       "shielding": 1,
-      "armor": 6,
-      "thorns_flat": 2
+      "unbreaking": 8,
+      "thorns_flat": 2,
+      "armor": 5.5
     },
     "lore": "Gazing deep into the metal, one\ncan see a reflection of a glorious\nshimmering sky."
   },
@@ -40061,6 +40336,30 @@
     },
     "lore": "Donned by the royal guard of the Den dynasty.\nThose struck by the blade are said to disappear\ninto the endless sands of time."
   },
+  "Scorpio": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "The sound of chitin clicks along the",
+      "ground, a hypnotic choreography made",
+      "as an ode to what once was - a yearning",
+      "for the sensation of flesh."
+    ],
+    "region": "Valley",
+    "tier": "Artifact",
+    "name": "Scorpio",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "curse_of_anemia": 1,
+      "life_drain": 1,
+      "melee_protection": 1,
+      "unbreakable": 1,
+      "armor": 2.5,
+      "attack_damage_percent": 20
+    },
+    "lore": "The sound of chitin clicks along the\nground, a hypnotic choreography made\nas an ode to what once was - a yearning\nfor the sensation of flesh."
+  },
   "Silver Tithe": {
     "location": "Threadwarped Skin",
     "mmlore": [
@@ -40713,11 +41012,7 @@
     "stats": {
       "meteor_slam_ground_pound_damage_per_block_fallen_percent": {
         "locked": false,
-        "value": 100
-      },
-      "meteor_slam_max_height_flat": {
-        "locked": false,
-        "value": 4
+        "value": 50
       },
       "meteor_slam_ground_pound_additional_radius_percent": {
         "locked": false,
@@ -40727,9 +41022,13 @@
         "locked": false,
         "value": 35
       },
-      "meteor_slam_damage_percent": {
+      "meteor_slam_jump_boost_flat": {
         "locked": false,
-        "value": -70
+        "value": 3
+      },
+      "meteor_slam_cooldown_percent": {
+        "locked": false,
+        "value": 25
       }
     },
     "type": "Charm",
@@ -40750,7 +41049,7 @@
       },
       "unstable_amalgam_taunt_range_flat": {
         "locked": false,
-        "value": 4
+        "value": 6
       },
       "unstable_amalgam_size_flat": {
         "locked": false,
@@ -41510,7 +41809,7 @@
     "release_status": "public",
     "stats": {
       "predator_strike_splinter_cone_percent": {
-        "locked": false,
+        "locked": true,
         "value": 50
       },
       "predator_strike_damage_percent": {
@@ -41527,7 +41826,7 @@
       },
       "predator_strike_cooldown_percent": {
         "locked": false,
-        "value": 30
+        "value": 50
       }
     },
     "type": "Charm",
@@ -42214,6 +42513,20 @@
     "type": "Charm",
     "class_name": "Cleric"
   },
+  "Lycanpup Carrier": {
+    "location": "April's Fools",
+    "mmlore": [
+      "A little dog in need of love."
+    ],
+    "region": "Ring",
+    "tier": "Legacy",
+    "name": "Lycanpup Carrier",
+    "base_item": "Husk Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A little dog in need of love."
+  },
   "Mimic Dummy": {
     "location": "Blitz",
     "mmlore": [
@@ -42238,6 +42551,19 @@
     "type": "Misc",
     "stats": {},
     "lore": "Obtained in the Space Pass."
+  },
+  "Vargos Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Decade Pass."
+    ],
+    "region": "Valley",
+    "name": "Vargos Dummy",
+    "base_item": "Husk Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Decade Pass."
   },
   "Wi'nstsigo Pup Dummy": {
     "location": "Skr",
@@ -43991,7 +44317,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Architect's Aegis",
-    "power": 3,
+    "power": 2,
     "base_item": "Iron Bars",
     "release_status": "public",
     "stats": {
@@ -43999,13 +44325,13 @@
         "locked": false,
         "value": 100
       },
-      "shield_wall_radius_percent": {
-        "locked": false,
-        "value": 100
-      },
       "shield_wall_height_percent": {
         "locked": false,
-        "value": 100
+        "value": 50
+      },
+      "shield_wall_radius_percent": {
+        "locked": false,
+        "value": 50
       }
     },
     "type": "Charm",
@@ -45442,8 +45768,8 @@
       "ethereal": 1,
       "steadfast": 1,
       "unbreaking": 8,
-      "attack_damage_percent": 40,
-      "agility": 3.5
+      "attack_damage_percent": 30,
+      "agility": 4.5
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -45465,8 +45791,8 @@
       "ethereal": 1,
       "steadfast": 1,
       "unbreaking": 9,
-      "attack_damage_percent": 45,
-      "agility": 4
+      "attack_damage_percent": 35,
+      "agility": 5
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -45488,8 +45814,8 @@
       "ethereal": 1,
       "steadfast": 1,
       "unbreaking": 10,
-      "attack_damage_percent": 50,
-      "agility": 4.5
+      "attack_damage_percent": 40,
+      "agility": 5.5
     },
     "lore": "A crude etching of a constellation is\nengraved into the metal. Something about\nit whispers hatred."
   },
@@ -45700,11 +46026,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "regeneration": 3,
       "second_wind": 1,
       "unbreaking": 6,
-      "regeneration": 4,
-      "agility": 4,
-      "max_health_percent": 15
+      "max_health_percent": 25,
+      "agility": 3.5
     },
     "lore": "Along the Ring for centuries the brilliant\nempire reigned alone, until a king\nwho'd turned from God sought power\nunderneath the stone."
   },
@@ -45724,11 +46050,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "regeneration": 3,
       "second_wind": 2,
       "unbreaking": 7,
-      "regeneration": 4,
-      "agility": 4,
-      "max_health_percent": 15
+      "agility": 3.5,
+      "max_health_percent": 25
     },
     "lore": "Along the Ring for centuries the brilliant\nempire reigned alone, until a king\nwho'd turned from God sought power\nunderneath the stone."
   },
@@ -45748,11 +46074,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "regeneration": 3,
       "second_wind": 2,
       "unbreaking": 9,
-      "regeneration": 4,
-      "agility": 4.5,
-      "max_health_percent": 15
+      "max_health_percent": 25,
+      "agility": 4
     },
     "lore": "Along the Ring for centuries the brilliant\nempire reigned alone, until a king\nwho'd turned from God sought power\nunderneath the stone."
   },
@@ -45772,11 +46098,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
+      "regeneration": 3,
       "second_wind": 3,
       "unbreaking": 10,
-      "regeneration": 4,
-      "max_health_percent": 15,
-      "agility": 4.5
+      "agility": 4,
+      "max_health_percent": 25
     },
     "lore": "Along the Ring for centuries the brilliant\nempire reigned alone, until a king\nwho'd turned from God sought power\nunderneath the stone."
   },
@@ -46058,7 +46384,7 @@
     "stats": {
       "shield_bash_damage_percent": {
         "locked": false,
-        "value": 60
+        "value": 35
       }
     },
     "type": "Charm",
@@ -46075,7 +46401,7 @@
     "stats": {
       "shield_bash_damage_percent": {
         "locked": false,
-        "value": 30
+        "value": 20
       }
     },
     "type": "Charm",
@@ -46092,7 +46418,7 @@
     "stats": {
       "shield_bash_damage_percent": {
         "locked": false,
-        "value": 15
+        "value": 10
       }
     },
     "type": "Charm",
@@ -46551,12 +46877,13 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "melee_protection": 3,
       "blast_protection": 1,
+      "melee_protection": 3,
       "unbreaking": 7,
       "magic_damage_percent": 25,
       "agility": 7,
-      "max_health_flat": -2
+      "max_health_flat": -2,
+      "knockback_resistance_flat": 1
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
@@ -46575,12 +46902,13 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "melee_protection": 3,
       "blast_protection": 2,
+      "melee_protection": 3,
       "unbreaking": 8,
       "magic_damage_percent": 25,
       "agility": 7.5,
-      "max_health_flat": -2
+      "max_health_flat": -2,
+      "knockback_resistance_flat": 1
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
@@ -46599,12 +46927,13 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "melee_protection": 3,
       "blast_protection": 2,
+      "melee_protection": 3,
       "unbreaking": 9,
       "magic_damage_percent": 30,
       "agility": 7.5,
-      "max_health_flat": -2
+      "max_health_flat": -2,
+      "knockback_resistance_flat": 1
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
@@ -46623,12 +46952,13 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "melee_protection": 3,
       "blast_protection": 2,
+      "melee_protection": 3,
       "unbreaking": 10,
       "magic_damage_percent": 30,
       "agility": 8,
-      "max_health_flat": -2
+      "max_health_flat": -2,
+      "knockback_resistance_flat": 2
     },
     "lore": "From within, dozens of bone plates shift and\ngrind into place, twisting any semblance of\ncoherent speech into dismal noise."
   },
@@ -48182,21 +48512,17 @@
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "bodyguard_stun_radius_percent": {
-        "locked": false,
-        "value": 50
-      },
       "bodyguard_cooldown_percent": {
         "locked": false,
-        "value": -50
+        "value": -35
       },
       "bodyguard_absorption_health_percent": {
         "locked": false,
         "value": -50
       },
-      "bodyguard_stun_duration_percent": {
+      "bodyguard_damage_transfer_duration_percent": {
         "locked": false,
-        "value": -50
+        "value": -25
       }
     },
     "type": "Charm",
@@ -48267,33 +48593,25 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Serebrian Lineage",
-    "power": 2,
+    "power": 3,
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "defensive_line_damage_negation_flat": {
+      "bodyguard_damage_transfer_amount_percent": {
         "locked": false,
-        "value": 1
+        "value": 25
       },
-      "defensive_line_cooldown_percent": {
-        "locked": false,
-        "value": -50
-      },
-      "defensive_line_radius_percent": {
+      "bodyguard_damage_transfer_duration_percent": {
         "locked": false,
         "value": 100
       },
-      "defensive_line_duration_percent": {
+      "bodyguard_knockback_resistance_duration_percent": {
+        "locked": false,
+        "value": 100
+      },
+      "bodyguard_absorption_health_percent": {
         "locked": false,
         "value": -50
-      },
-      "defensive_line_range_percent": {
-        "locked": false,
-        "value": -100
-      },
-      "defensive_line_knockback_percent": {
-        "locked": false,
-        "value": -400
       }
     },
     "type": "Charm",
@@ -48324,21 +48642,21 @@
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "rampage_healing_percent": {
+      "rampage_recast_bloodlust_cost_flat": {
         "locked": false,
-        "value": 25
+        "value": -1
       },
-      "rampage_damage_buff_percent": {
+      "rampage_max_recast_flat": {
         "locked": false,
-        "value": 7.5
+        "value": 4
       },
-      "rampage_initial_duration_percent": {
+      "rampage_duration_per_recast_flat": {
         "locked": false,
-        "value": -25
+        "value": -2
       },
-      "rampage_duration_per_stack_percent": {
+      "rampage_damage_percent": {
         "locked": false,
-        "value": -25
+        "value": -50
       }
     },
     "type": "Charm",
@@ -48353,21 +48671,25 @@
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "shield_wall_damage_flat": {
-        "locked": true,
-        "value": 15
-      },
-      "shield_wall_cooldown_percent": {
-        "locked": true,
-        "value": -80
-      },
-      "shield_wall_duration_percent": {
-        "locked": true,
-        "value": -80
-      },
-      "shield_wall_radius_percent": {
+      "shield_wall_bash_cost_flat": {
         "locked": false,
-        "value": -20
+        "value": -3
+      },
+      "shield_wall_damage_percent": {
+        "locked": false,
+        "value": 80
+      },
+      "shield_wall_bash_velocity_percent": {
+        "locked": false,
+        "value": 25
+      },
+      "shield_wall_bash_stun_duration_percent": {
+        "locked": false,
+        "value": -100
+      },
+      "shield_wall_durability_percent": {
+        "locked": false,
+        "value": -50
       }
     },
     "type": "Charm",
@@ -50300,12 +50622,11 @@
     "type": "Offhand Sword",
     "stats": {
       "adaptability": 1,
-      "unbreakable": 1,
-      "melee_protection": 1,
       "poise": 1,
       "tempo": 1,
-      "attack_damage_percent": 25,
-      "agility": 4
+      "unbreakable": 1,
+      "agility": 5.5,
+      "attack_damage_percent": 20
     },
     "lore": "The whispers had drawn Aggripa into the\nsmoldering Forge below Antium, but there\nwas a horror hidden below he had not\nanticipated - an Exhibitor, while the Knights\nabove marched on another land."
   },
@@ -50327,12 +50648,11 @@
     "type": "Offhand Sword",
     "stats": {
       "adaptability": 1,
-      "unbreakable": 1,
-      "melee_protection": 1,
       "poise": 1,
       "tempo": 1,
-      "attack_damage_percent": 30,
-      "agility": 4.5
+      "unbreakable": 1,
+      "agility": 6,
+      "attack_damage_percent": 25
     },
     "lore": "The whispers had drawn Aggripa into the\nsmoldering Forge below Antium, but there\nwas a horror hidden below he had not\nanticipated - an Exhibitor, while the Knights\nabove marched on another land."
   },
@@ -50354,12 +50674,12 @@
     "type": "Offhand Sword",
     "stats": {
       "adaptability": 1,
-      "unbreakable": 1,
-      "melee_protection": 2,
+      "melee_protection": 1,
       "poise": 1,
       "tempo": 1,
-      "attack_damage_percent": 30,
-      "agility": 4.5
+      "unbreakable": 1,
+      "attack_damage_percent": 25,
+      "agility": 6
     },
     "lore": "The whispers had drawn Aggripa into the\nsmoldering Forge below Antium, but there\nwas a horror hidden below he had not\nanticipated - an Exhibitor, while the Knights\nabove marched on another land."
   },
@@ -50471,7 +50791,7 @@
     "masterwork": "2",
     "mmlore": [
       "The Stars, now shackled to the earth,",
-      "now made to abide the laws of this world.",
+      "now made to abide by the laws of this world.",
       "Just as their Herald fell, so shall they."
     ],
     "region": "Ring",
@@ -50486,18 +50806,18 @@
       "skyseeker": 2,
       "sweeping_edge": 2,
       "unbreaking": 2,
-      "wind_aspect": 2,
+      "wind_aspect": 1,
       "attack_damage_base": 27.5,
       "attack_speed_base": 1.2
     },
-    "lore": "The Stars, now shackled to the earth,\nnow made to abide the laws of this world.\nJust as their Herald fell, so shall they."
+    "lore": "The Stars, now shackled to the earth,\nnow made to abide by the laws of this world.\nJust as their Herald fell, so shall they."
   },
   "Arc of the Lunacrest-3": {
     "location": "Aurora",
     "masterwork": "3",
     "mmlore": [
       "The Stars, now shackled to the earth,",
-      "now made to abide the laws of this world.",
+      "now made to abide by the laws of this world.",
       "Just as their Herald fell, so shall they."
     ],
     "region": "Ring",
@@ -50512,18 +50832,18 @@
       "skyseeker": 2,
       "sweeping_edge": 3,
       "unbreaking": 2,
-      "wind_aspect": 2,
+      "wind_aspect": 1,
       "attack_damage_base": 28,
       "attack_speed_base": 1.2
     },
-    "lore": "The Stars, now shackled to the earth,\nnow made to abide the laws of this world.\nJust as their Herald fell, so shall they."
+    "lore": "The Stars, now shackled to the earth,\nnow made to abide by the laws of this world.\nJust as their Herald fell, so shall they."
   },
   "Arc of the Lunacrest-4": {
     "location": "Aurora",
     "masterwork": "4",
     "mmlore": [
       "The Stars, now shackled to the earth,",
-      "now made to abide the laws of this world.",
+      "now made to abide by the laws of this world.",
       "Just as their Herald fell, so shall they."
     ],
     "region": "Ring",
@@ -50538,11 +50858,11 @@
       "skyseeker": 3,
       "sweeping_edge": 3,
       "unbreaking": 2,
-      "wind_aspect": 2,
+      "wind_aspect": 1,
       "attack_damage_base": 28,
       "attack_speed_base": 1.2
     },
-    "lore": "The Stars, now shackled to the earth,\nnow made to abide the laws of this world.\nJust as their Herald fell, so shall they."
+    "lore": "The Stars, now shackled to the earth,\nnow made to abide by the laws of this world.\nJust as their Herald fell, so shall they."
   },
   "Architect's Dagger": {
     "location": "Remorseful Skin",
@@ -50700,10 +51020,10 @@
       "sweeping_edge": 3,
       "two_handed": 1,
       "unbreaking": 3,
-      "agility": 3,
-      "attack_speed_base": 1.3,
       "spell_power_base": 55,
-      "attack_damage_base": 17
+      "agility": 3,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 18
     },
     "lore": "Silence fell over the Blackflame as the\nBeast struck. He would pay for his choice,\nbut so too would the innocents."
   },
@@ -50721,13 +51041,14 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "magic_protection": 2,
       "sweeping_edge": 3,
       "unbreaking": 4,
       "knockback_resistance_flat": 2,
       "thorns_flat": 2,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 9,
-      "spell_power_base": 60
+      "spell_power_base": 60,
+      "attack_damage_base": 10.5
     },
     "lore": "A replica of a cursed yet powerful\nblade. A slight trail of silver arcs\nthrough the air as you swing it."
   },
@@ -50747,9 +51068,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "reflexes": 1,
-      "unbreaking": 5,
       "adrenaline": 1,
+      "backstab": 2,
+      "tempo": 1,
+      "unbreaking": 5,
       "knockback_resistance_flat": 2,
       "attack_speed_base": 1.6,
       "attack_damage_base": 14
@@ -50772,9 +51094,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "reflexes": 1,
-      "unbreaking": 6,
       "adrenaline": 1,
+      "backstab": 2,
+      "tempo": 1,
+      "unbreaking": 6,
       "knockback_resistance_flat": 2,
       "attack_speed_base": 1.6,
       "attack_damage_base": 14.5
@@ -50797,9 +51120,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "reflexes": 1,
-      "unbreaking": 7,
       "adrenaline": 1,
+      "backstab": 3,
+      "tempo": 1,
+      "unbreaking": 7,
       "attack_speed_base": 1.6,
       "knockback_resistance_flat": 3,
       "attack_damage_base": 15
@@ -51747,7 +52071,7 @@
     "stats": {
       "aptitude": 1,
       "mending": 1,
-      "reverb": 2,
+      "reverb": 3,
       "attack_speed_base": 1.6,
       "attack_damage_base": 13.5
     },
@@ -51770,7 +52094,7 @@
     "stats": {
       "aptitude": 1,
       "mending": 1,
-      "reverb": 2,
+      "reverb": 3,
       "attack_speed_base": 1.6,
       "attack_damage_base": 14
     },
@@ -51795,7 +52119,7 @@
       "mending": 1,
       "reverb": 3,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14
+      "attack_damage_base": 14.5
     },
     "lore": "Time marches on, no matter how long\nthe citadel has sat silent. Even now the\nclock hands still creak as life stirs nearby."
   },
@@ -51816,9 +52140,9 @@
     "stats": {
       "aptitude": 1,
       "mending": 1,
-      "reverb": 3,
+      "reverb": 4,
       "attack_speed_base": 1.6,
-      "attack_damage_base": 14.5
+      "attack_damage_base": 15
     },
     "lore": "Time marches on, no matter how long\nthe citadel has sat silent. Even now the\nclock hands still creak as life stirs nearby."
   },
@@ -55755,6 +56079,85 @@
       "projectile_protection": 2,
       "armor": 0.5
     }
+  },
+  "Paradigm-2": {
+    "location": "Seasonal Pass",
+    "masterwork": "2",
+    "mmlore": [
+      "As the story unfolds, grasping hands pull",
+      "at every unravelling thread. As it were,",
+      "the chapters are written. But as the many",
+      "twines twist, so too do the outcomes.",
+      "Who - if any, may see the resolution?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Paradigm",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "melee_protection": 1,
+      "unbreakable": 1,
+      "max_health_percent": -40,
+      "knockback_resistance_flat": 3,
+      "attack_damage_percent": 30,
+      "agility": 14
+    },
+    "lore": "As the story unfolds, grasping hands pull\nat every unravelling thread. As it were,\nthe chapters are written. But as the many\ntwines twist, so too do the outcomes.\nWho - if any, may see the resolution?"
+  },
+  "Paradigm-3": {
+    "location": "Seasonal Pass",
+    "masterwork": "3",
+    "mmlore": [
+      "As the story unfolds, grasping hands pull",
+      "at every unravelling thread. As it were,",
+      "the chapters are written. But as the many",
+      "twines twist, so too do the outcomes.",
+      "Who - if any, may see the resolution?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Paradigm",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "melee_protection": 1,
+      "unbreakable": 1,
+      "max_health_percent": -40,
+      "agility": 14,
+      "attack_damage_percent": 35,
+      "knockback_resistance_flat": 3
+    },
+    "lore": "As the story unfolds, grasping hands pull\nat every unravelling thread. As it were,\nthe chapters are written. But as the many\ntwines twist, so too do the outcomes.\nWho - if any, may see the resolution?"
+  },
+  "Paradigm-4": {
+    "location": "Seasonal Pass",
+    "masterwork": "4",
+    "mmlore": [
+      "As the story unfolds, grasping hands pull",
+      "at every unravelling thread. As it were,",
+      "the chapters are written. But as the many",
+      "twines twist, so too do the outcomes.",
+      "Who - if any, may see the resolution?"
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Paradigm",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "magic_protection": 1,
+      "melee_protection": 1,
+      "unbreakable": 1,
+      "knockback_resistance_flat": 4,
+      "attack_damage_percent": 40,
+      "max_health_percent": -40,
+      "agility": 14
+    },
+    "lore": "As the story unfolds, grasping hands pull\nat every unravelling thread. As it were,\nthe chapters are written. But as the many\ntwines twist, so too do the outcomes.\nWho - if any, may see the resolution?"
   },
   "Peripatetic Sandals": {
     "location": "Celsian Isles",
@@ -67876,11 +68279,7 @@
     "base_item": "Light Blue Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "cosmic_moonblade_cooldown_reduction_percent": {
-        "locked": false,
-        "value": 2.5
-      },
-      "cosmic_moonblade_cooldown_cap_flat": {
+      "cosmic_moonblade_cooldown_reduction_flat": {
         "locked": false,
         "value": 0.5
       },
@@ -68272,6 +68671,10 @@
         "locked": false,
         "value": 1
       },
+      "channeling_damage_modifier_percent": {
+        "locked": false,
+        "value": 35
+      },
       "arcane_strike_damage_percent": {
         "locked": false,
         "value": 15
@@ -68419,6 +68822,20 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Tarnished Golden Key": {
+    "mmlore": [
+      "<light_purple>* Quest Item *",
+      "<dark_gray>#Q62I03",
+      "<dark_gray>If this ever opened something, it looks too",
+      "<dark_gray>worn down to do so now."
+    ],
+    "name": "Tarnished Golden Key",
+    "base_item": "Lightning Rod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q62I03\nIf this ever opened something, it looks too\nworn down to do so now."
   },
   "Bouquet of Flowers": {
     "mmlore": [
@@ -69695,7 +70112,7 @@
       },
       "esoteric_enhancements_cooldown_percent": {
         "locked": false,
-        "value": 75
+        "value": 50
       }
     },
     "type": "Charm",
@@ -70468,14 +70885,14 @@
     "stats": {
       "predator_strike_splinter_cooldown_reduction_multiplier_percent": {
         "locked": true,
-        "value": 72.5
+        "value": 57.5
       },
       "predator_strike_splinter_radius_percent": {
         "locked": false,
         "value": 100
       },
       "predator_strike_damage_percent": {
-        "locked": true,
+        "locked": false,
         "value": -40
       },
       "predator_strike_splinter_cone_percent": {
@@ -70918,13 +71335,13 @@
     "base_item": "Nether Brick",
     "release_status": "public",
     "stats": {
-      "brute_force_radius_percent": {
-        "locked": false,
-        "value": -100
-      },
       "brute_force_damage_percent": {
         "locked": false,
         "value": 75
+      },
+      "brute_force_radius_percent": {
+        "locked": true,
+        "value": -50
       }
     },
     "type": "Charm",
@@ -71319,9 +71736,9 @@
         "locked": false,
         "value": 1
       },
-      "cosmic_moonblade_cooldown_reduction_percent": {
+      "cosmic_moonblade_cooldown_reduction_flat": {
         "locked": false,
-        "value": -1
+        "value": -0.25
       },
       "cosmic_moonblade_damage_percent": {
         "locked": false,
@@ -72200,7 +72617,7 @@
       "armor": 10.5,
       "agility": 10.5,
       "thorns_flat": 2,
-      "knockback_resistance_flat": 2
+      "knockback_resistance_flat": 3
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -72306,7 +72723,7 @@
       "armor": 10.5,
       "agility": 10.5,
       "thorns_flat": 2,
-      "knockback_resistance_flat": 2
+      "knockback_resistance_flat": 3
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -72393,7 +72810,7 @@
       "armor": 10.5,
       "agility": 10.5,
       "thorns_flat": 2,
-      "knockback_resistance_flat": 2
+      "knockback_resistance_flat": 3
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -72573,6 +72990,10 @@
         "locked": false,
         "value": 2.5
       },
+      "soul_rend_healing_flat": {
+        "locked": false,
+        "value": 2.5
+      },
       "soul_rend_absorption_duration_flat": {
         "locked": false,
         "value": 5
@@ -72619,7 +73040,7 @@
       "armor": 10.5,
       "agility": 10.5,
       "thorns_flat": 2,
-      "knockback_resistance_flat": 2
+      "knockback_resistance_flat": 3
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -72909,7 +73330,7 @@
     "stats": {
       "bodkin_blitz_damage_on_passthrough_flat": {
         "locked": false,
-        "value": 25
+        "value": 35
       },
       "bodkin_blitz_cooldown_percent": {
         "locked": true,
@@ -72919,9 +73340,9 @@
         "locked": false,
         "value": -100
       },
-      "bodkin_blitz_stealth_duration_flat": {
+      "bodkin_blitz_stealth_duration_percent": {
         "locked": false,
-        "value": -1
+        "value": -50
       }
     },
     "type": "Charm",
@@ -73920,6 +74341,24 @@
     "stats": {},
     "lore": "Redeemable for fabulous prizes!"
   },
+  "Debt Collected": {
+    "mmlore": [
+      "<light_purple>* Quest Item *",
+      "<dark_gray>#Q62I02",
+      "<dark_gray>Thanks for the useless gear and weird machine.",
+      "<dark_gray>I'll let you stay off the Mist for now, this seems",
+      "<dark_gray>fascinating enough to call us even. This lab is a",
+      "<dark_gray>dump though. I don't get how you ever worked in",
+      "<dark_gray>these conditions.",
+      "<dark_gray>- Elise"
+    ],
+    "name": "Debt Collected",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q62I02\nThanks for the useless gear and weird machine.\nI'll let you stay off the Mist for now, this seems\nfascinating enough to call us even. This lab is a\ndump though. I don't get how you ever worked in\nthese conditions.\n- Elise"
+  },
   "Drenched Scroll": {
     "mmlore": [
       "Disturbed, 'neath the waves and shale",
@@ -74249,6 +74688,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "Package successfully delivered.\n* Quest Item *\n#Q35I02"
+  },
+  "Reposession Notice": {
+    "mmlore": [
+      "<light_purple>* Quest Item *",
+      "<dark_gray>#Q62I01",
+      "<dark_gray>You have one week to pay in full or the property",
+      "<dark_gray>and everything inside it will be repossessed.",
+      "<dark_gray>We are not opposed to taking you with it.",
+      "<dark_gray>- Elise"
+    ],
+    "name": "Reposession Notice",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q62I01\nYou have one week to pay in full or the property\nand everything inside it will be repossessed.\nWe are not opposed to taking you with it.\n- Elise"
   },
   "Roguelike F1S1 Error Chest": {
     "location": "Corridors",
@@ -78360,11 +78815,12 @@
     "type": "Helmet",
     "stats": {
       "abyssal": 3,
+      "adrenaline": 1,
       "aqua_affinity": 1,
       "depth_strider": 3,
       "gills": 1,
-      "attack_damage_percent": 15,
-      "agility": 9
+      "steadfast": 1,
+      "agility": 8
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -78384,11 +78840,12 @@
     "type": "Helmet",
     "stats": {
       "abyssal": 3,
+      "adrenaline": 1,
       "aqua_affinity": 1,
       "depth_strider": 3,
       "gills": 1,
-      "attack_damage_percent": 20,
-      "agility": 9
+      "steadfast": 1,
+      "agility": 8.5
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -78408,11 +78865,12 @@
     "type": "Helmet",
     "stats": {
       "abyssal": 3,
+      "adrenaline": 1,
       "aqua_affinity": 1,
       "depth_strider": 3,
       "gills": 1,
-      "attack_damage_percent": 20,
-      "agility": 10
+      "steadfast": 1,
+      "agility": 9.5
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
   },
@@ -78432,10 +78890,11 @@
     "type": "Helmet",
     "stats": {
       "abyssal": 3,
+      "adrenaline": 2,
       "aqua_affinity": 1,
       "depth_strider": 3,
       "gills": 1,
-      "attack_damage_percent": 25,
+      "steadfast": 1,
       "agility": 10
     },
     "lore": "A fossilized jaw of a bloodthirsty titan. If you\nlook closely, the teeth seem to still be stained\nwith the blood of unworthy challengers."
@@ -79336,9 +79795,9 @@
     "base_item": "Pointed Dripstone",
     "release_status": "public",
     "stats": {
-      "glorious_battle_pierce_damage_percent": {
+      "glorious_battle_collision_damage_percent": {
         "locked": false,
-        "value": 125
+        "value": 85
       },
       "glorious_battle_velocity_percent": {
         "locked": false,
@@ -79547,13 +80006,13 @@
         "locked": false,
         "value": 2
       },
+      "bodyguard_damage_transfer_radius_percent": {
+        "locked": false,
+        "value": 35
+      },
       "bodyguard_range_percent": {
         "locked": false,
-        "value": 25
-      },
-      "bodyguard_stun_radius_percent": {
-        "locked": false,
-        "value": 25
+        "value": 35
       }
     },
     "type": "Charm",
@@ -79597,6 +80056,10 @@
       "bodyguard_absorption_health_flat": {
         "locked": false,
         "value": 4
+      },
+      "bodyguard_damage_transfer_amount_percent": {
+        "locked": false,
+        "value": 20
       }
     },
     "type": "Charm",
@@ -79613,7 +80076,11 @@
     "stats": {
       "bodyguard_absorption_health_flat": {
         "locked": false,
-        "value": 2
+        "value": 1
+      },
+      "bodyguard_damage_transfer_amount_percent": {
+        "locked": false,
+        "value": 5
       }
     },
     "type": "Charm",
@@ -86199,7 +86666,7 @@
       },
       "illuminate_trail_duration_percent": {
         "locked": false,
-        "value": -100
+        "value": -75
       }
     },
     "type": "Charm",
@@ -87469,7 +87936,7 @@
     "stats": {
       "blade_dance_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 20
       }
     },
     "type": "Charm",
@@ -87559,7 +88026,7 @@
     "stats": {
       "blade_dance_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       }
     },
     "type": "Charm",
@@ -87654,7 +88121,7 @@
     "stats": {
       "blade_dance_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       }
     },
     "type": "Charm",
@@ -87774,13 +88241,9 @@
     "stats": {
       "challenge_max_mobs_flat": {
         "locked": false,
-        "value": 3
+        "value": 4
       },
       "challenge_cooldown_reduction_per_mob_flat": {
-        "locked": false,
-        "value": 0.5
-      },
-      "challenge_absorption_health_per_mob_flat": {
         "locked": false,
         "value": 0.5
       }
@@ -87824,7 +88287,7 @@
     "stats": {
       "blade_dance_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 12.5
       },
       "blade_dance_root_duration_flat": {
         "locked": false,
@@ -87943,7 +88406,7 @@
     "stats": {
       "blade_dance_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       },
       "blade_dance_cooldown_percent": {
         "locked": false,
@@ -88374,11 +88837,11 @@
       },
       "luminous_infusion_damage_percent": {
         "locked": false,
-        "value": -25
+        "value": -20
       },
       "luminous_infusion_radius_percent": {
         "locked": false,
-        "value": -25
+        "value": -20
       }
     },
     "type": "Charm",
@@ -88763,7 +89226,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Greater Fracturing Charm",
-    "power": 4,
+    "power": 2,
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
@@ -88792,7 +89255,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Lesser Fracturing Charm",
-    "power": 2,
+    "power": 1,
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
@@ -88847,21 +89310,33 @@
     "region": "Ring",
     "tier": "Epic",
     "name": "Parasomnic Remnant",
-    "power": 2,
+    "power": 3,
     "base_item": "Red Dye",
     "release_status": "public",
     "stats": {
-      "deadly_ronde_max_stacks_flat": {
+      "deadly_ronde_slashes_flat": {
         "locked": false,
         "value": 3
       },
-      "deadly_ronde_stacks_per_ability_flat": {
+      "deadly_ronde_radius_percent": {
         "locked": false,
-        "value": 1
+        "value": 100
       },
-      "deadly_ronde_stack_decay_time_flat": {
+      "deadly_ronde_angle_percent": {
         "locked": false,
-        "value": -3
+        "value": 35
+      },
+      "deadly_ronde_knockback_percent": {
+        "locked": false,
+        "value": -60
+      },
+      "deadly_ronde_damage_percent": {
+        "locked": true,
+        "value": -60
+      },
+      "deadly_ronde_max_stacks_flat": {
+        "locked": true,
+        "value": -2
       }
     },
     "type": "Charm",
@@ -88999,19 +89474,23 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodlust",
-    "power": 3,
+    "power": 2,
     "base_item": "Red Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "bloodlust_stack_threshold_flat": {
+      "glorious_battle_damage_percent": {
         "locked": false,
-        "value": -20
+        "value": 50
       },
-      "meteor_slam_bloodlust_cost_flat": {
+      "glorious_battle_attack_radius_percent": {
         "locked": false,
-        "value": 1
+        "value": 50
       },
-      "rampage_bloodlust_cost_flat": {
+      "glorious_battle_velocity_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "glorious_battle_bloodlust_cost_flat": {
         "locked": false,
         "value": 1
       }
@@ -89265,10 +89744,6 @@
       "glorious_battle_collision_impact_damage_multiplier_percent": {
         "locked": false,
         "value": 200
-      },
-      "glorious_battle_bloodlust_cost_flat": {
-        "locked": false,
-        "value": 1
       }
     },
     "type": "Charm",
@@ -90730,7 +91205,11 @@
     "stats": {
       "dagger_throw_cooldown_percent": {
         "locked": true,
-        "value": -60
+        "value": -40
+      },
+      "dagger_throw_recast_damage_multiplier_percent": {
+        "locked": false,
+        "value": -40
       },
       "dagger_throw_damage_percent": {
         "locked": false,
@@ -90743,6 +91222,10 @@
       "dagger_throw_vulnerability_amplifier_percent": {
         "locked": false,
         "value": -20
+      },
+      "dagger_throw_silence_duration_percent": {
+        "locked": false,
+        "value": -100
       }
     },
     "type": "Charm",
@@ -90912,11 +91395,12 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "ice_aspect": 3,
-      "unbreaking": 3,
-      "mending": 1,
       "blast_protection": 3,
+      "ice_aspect": 3,
       "magic_protection": 3,
+      "mending": 1,
+      "rebound": 3,
+      "unbreaking": 3,
       "knockback_resistance_flat": 3,
       "armor": 3.5
     },
@@ -90936,11 +91420,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "ice_aspect": 3,
-      "unbreaking": 3,
-      "mending": 1,
       "blast_protection": 3,
+      "ice_aspect": 3,
       "magic_protection": 3,
+      "mending": 1,
+      "rebound": 3,
+      "unbreaking": 3,
       "armor": 6,
       "knockback_resistance_flat": 3
     },
@@ -91024,11 +91509,12 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "ice_aspect": 3,
-      "unbreaking": 3,
-      "mending": 1,
       "blast_protection": 3,
+      "ice_aspect": 3,
       "magic_protection": 3,
+      "mending": 1,
+      "rebound": 3,
+      "unbreaking": 3,
       "knockback_resistance_flat": 3,
       "armor": 3.5
     },
@@ -91048,11 +91534,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "ice_aspect": 3,
-      "unbreaking": 3,
-      "mending": 1,
       "blast_protection": 3,
+      "ice_aspect": 3,
       "magic_protection": 3,
+      "mending": 1,
+      "rebound": 3,
+      "unbreaking": 3,
       "armor": 6,
       "knockback_resistance_flat": 3
     },
@@ -91253,10 +91740,12 @@
     "type": "Offhand Shield",
     "stats": {
       "blast_protection": 1,
-      "first_strike": 2,
+      "first_strike": 1,
       "unbreaking": 3,
-      "speed_percent": 15,
-      "agility": 7
+      "attack_damage_percent": 10,
+      "attack_speed_percent": 10,
+      "speed_percent": 10,
+      "agility": 5.5
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -91276,10 +91765,12 @@
     "type": "Offhand Shield",
     "stats": {
       "blast_protection": 1,
-      "first_strike": 3,
+      "first_strike": 1,
       "unbreaking": 3,
       "speed_percent": 15,
-      "agility": 7
+      "agility": 6,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 10
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -91299,10 +91790,12 @@
     "type": "Offhand Shield",
     "stats": {
       "blast_protection": 1,
-      "first_strike": 3,
+      "first_strike": 2,
       "unbreaking": 4,
       "speed_percent": 15,
-      "agility": 8
+      "agility": 6.5,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 10
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -91322,10 +91815,12 @@
     "type": "Offhand Shield",
     "stats": {
       "blast_protection": 1,
-      "first_strike": 4,
+      "first_strike": 2,
       "unbreaking": 5,
       "speed_percent": 15,
-      "agility": 8
+      "agility": 7,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 15
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -91345,10 +91840,12 @@
     "type": "Offhand Shield",
     "stats": {
       "blast_protection": 2,
-      "first_strike": 4,
+      "first_strike": 2,
       "unbreaking": 6,
       "speed_percent": 15,
-      "agility": 8.5
+      "agility": 7,
+      "attack_speed_percent": 15,
+      "attack_damage_percent": 15
     },
     "lore": "The visage of a wolf is emblazoned on\nthe shield, though lichen and fungus\nmar the once-clean surface."
   },
@@ -91992,12 +92489,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "technique": 3,
+      "magic_protection": 2,
       "mending": 1,
       "projectile_protection": 2,
-      "magic_protection": 2,
+      "technique": 3,
       "speed_percent": 10,
-      "agility": 7
+      "agility": 7.5
     },
     "lore": "Potent magic seals Harrakfar, keeping him separated\nfrom the outside, and from Hycenea. She couldn't\nmanage freeing him, but she could perhaps rejoin\nher love in other ways."
   },
@@ -93065,12 +93562,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 4,
-      "cloaked": 1,
       "adrenaline": 1,
+      "cloaked": 1,
+      "unbreaking": 4,
       "attack_speed_percent": 15,
       "magic_damage_percent": 15,
-      "agility": 4.5
+      "agility": 5
     },
     "lore": "Each denting blow swung against\nthe shield seems to vanish into\nthe beyond instead."
   },
@@ -93089,12 +93586,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 5,
-      "cloaked": 1,
       "adrenaline": 1,
-      "agility": 5,
+      "cloaked": 1,
+      "unbreaking": 5,
       "attack_speed_percent": 15,
-      "magic_damage_percent": 15
+      "magic_damage_percent": 15,
+      "agility": 5.5
     },
     "lore": "Each denting blow swung against\nthe shield seems to vanish into\nthe beyond instead."
   },
@@ -93113,12 +93610,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "unbreaking": 6,
-      "cloaked": 1,
       "adrenaline": 1,
-      "agility": 5,
+      "cloaked": 1,
+      "unbreaking": 6,
       "attack_speed_percent": 20,
-      "magic_damage_percent": 20
+      "magic_damage_percent": 20,
+      "agility": 5.5
     },
     "lore": "Each denting blow swung against\nthe shield seems to vanish into\nthe beyond instead."
   },
@@ -93290,6 +93787,7 @@
     "stats": {
       "rebound": 2,
       "shielding": 1,
+      "thunder_aspect": 1,
       "unbreaking": 2,
       "speed_percent": 8,
       "armor": 4,
@@ -93314,6 +93812,7 @@
     "stats": {
       "rebound": 2,
       "shielding": 1,
+      "thunder_aspect": 1,
       "unbreaking": 3,
       "armor": 5,
       "speed_percent": 8,
@@ -93338,6 +93837,7 @@
     "stats": {
       "rebound": 2,
       "shielding": 1,
+      "thunder_aspect": 1,
       "unbreaking": 4,
       "armor": 5,
       "speed_percent": 10,
@@ -93362,6 +93862,7 @@
     "stats": {
       "rebound": 2,
       "shielding": 1,
+      "thunder_aspect": 1,
       "unbreaking": 5,
       "armor": 5,
       "speed_percent": 10,
@@ -93386,6 +93887,7 @@
     "stats": {
       "rebound": 3,
       "shielding": 1,
+      "thunder_aspect": 2,
       "unbreaking": 6,
       "speed_percent": 10,
       "attack_damage_percent": 35,
@@ -93612,13 +94114,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "curse_of_crippling": 3,
       "life_drain": 2,
       "mending": 1,
       "regeneration": 2,
       "sustenance": 3,
-      "knockback_resistance_flat": 5,
-      "max_health_percent": 5
+      "knockback_resistance_flat": 6
     },
     "lore": "A warning of impending ruin that\nshould have crumbled away long\nago. Instead, darkness fills the\ncracks, fueled by the doom the\ntablet promises."
   },
@@ -93639,13 +94139,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "curse_of_crippling": 3,
       "life_drain": 2,
       "mending": 1,
       "regeneration": 3,
       "sustenance": 3,
-      "max_health_percent": 5,
-      "knockback_resistance_flat": 5
+      "knockback_resistance_flat": 6
     },
     "lore": "A warning of impending ruin that\nshould have crumbled away long\nago. Instead, darkness fills the\ncracks, fueled by the doom the\ntablet promises."
   },
@@ -93666,13 +94164,11 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "curse_of_crippling": 3,
       "life_drain": 3,
       "mending": 1,
       "regeneration": 3,
       "sustenance": 3,
-      "knockback_resistance_flat": 5,
-      "max_health_percent": 5
+      "knockback_resistance_flat": 6
     },
     "lore": "A warning of impending ruin that\nshould have crumbled away long\nago. Instead, darkness fills the\ncracks, fueled by the doom the\ntablet promises."
   },
@@ -94236,11 +94732,12 @@
     "release_status": "public",
     "type": "Mainhand Shield",
     "stats": {
-      "ice_aspect": 3,
-      "unbreaking": 3,
-      "mending": 1,
       "blast_protection": 3,
+      "ice_aspect": 3,
       "magic_protection": 3,
+      "mending": 1,
+      "rebound": 3,
+      "unbreaking": 3,
       "knockback_resistance_flat": 3,
       "armor": 3.5
     },
@@ -94260,11 +94757,12 @@
     "release_status": "public",
     "type": "Offhand Shield",
     "stats": {
-      "ice_aspect": 3,
-      "unbreaking": 3,
-      "mending": 1,
       "blast_protection": 3,
+      "ice_aspect": 3,
       "magic_protection": 3,
+      "mending": 1,
+      "rebound": 3,
+      "unbreaking": 3,
       "armor": 6,
       "knockback_resistance_flat": 3
     },
@@ -94279,21 +94777,21 @@
     "base_item": "Shulker Shell",
     "release_status": "public",
     "stats": {
-      "bodyguard_cooldown_percent": {
+      "defensive_line_damage_negation_flat": {
         "locked": false,
-        "value": -25
+        "value": 1
       },
-      "bodyguard_range_percent": {
+      "defensive_line_range_percent": {
         "locked": false,
-        "value": 100
+        "value": 30
       },
-      "bodyguard_stun_radius_percent": {
+      "defensive_line_cooldown_percent": {
         "locked": false,
-        "value": -200
+        "value": -30
       },
-      "bodyguard_absorption_duration_percent": {
+      "defensive_line_duration_percent": {
         "locked": false,
-        "value": -25
+        "value": -30
       }
     },
     "type": "Charm",
@@ -95028,19 +95526,23 @@
     "base_item": "Smithing Table",
     "release_status": "public",
     "stats": {
+      "rampage_healing_percent": {
+        "locked": false,
+        "value": 25
+      },
       "rampage_cooldown_percent": {
         "locked": false,
         "value": -50
       },
-      "rampage_damage_percent": {
+      "rampage_initial_duration_percent": {
         "locked": false,
-        "value": 100
+        "value": -50
       },
-      "rampage_range_percent": {
+      "rampage_max_duration_percent": {
         "locked": false,
-        "value": 50
+        "value": -50
       },
-      "rampage_healing_percent": {
+      "rampage_duration_per_recast_percent": {
         "locked": false,
         "value": -50
       }
@@ -95771,15 +96273,15 @@
     "release_status": "public",
     "type": "Snowball",
     "stats": {
-      "punch": 3,
       "earth_aspect": 3,
-      "oversized": 1,
       "impact": 2,
       "infinity": 1,
+      "oversized": 1,
+      "punch": 3,
       "projectile_speed_base": 0.7,
       "speed_percent": -10,
-      "projectile_damage_base": 28,
-      "throw_rate_base": 0.8
+      "throw_rate_base": 0.8,
+      "projectile_damage_base": 27
     },
     "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
   },
@@ -95798,15 +96300,15 @@
     "release_status": "public",
     "type": "Snowball",
     "stats": {
-      "punch": 3,
       "earth_aspect": 3,
-      "oversized": 1,
       "impact": 3,
       "infinity": 1,
+      "oversized": 1,
+      "punch": 3,
       "projectile_speed_base": 0.7,
       "speed_percent": -10,
-      "projectile_damage_base": 28,
-      "throw_rate_base": 0.8
+      "throw_rate_base": 0.8,
+      "projectile_damage_base": 27
     },
     "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
   },
@@ -96154,9 +96656,9 @@
     "type": "Wand",
     "stats": {
       "second_wind": 1,
-      "attack_speed_base": 0.9,
       "spell_power_base": 68,
-      "attack_damage_base": 19.5
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 16
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -96175,9 +96677,9 @@
     "type": "Wand",
     "stats": {
       "second_wind": 1,
-      "attack_speed_base": 0.9,
       "spell_power_base": 70,
-      "attack_damage_base": 20
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 17
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -96196,9 +96698,9 @@
     "type": "Wand",
     "stats": {
       "second_wind": 2,
-      "attack_speed_base": 0.9,
       "spell_power_base": 72,
-      "attack_damage_base": 20.5
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 17.5
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -96217,9 +96719,9 @@
     "type": "Wand",
     "stats": {
       "second_wind": 2,
-      "attack_speed_base": 0.9,
       "spell_power_base": 77,
-      "attack_damage_base": 21
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 18
     },
     "lore": "Gruesome laments emanate from the washed up\nlantern, echoing of doomsdays long past."
   },
@@ -102081,17 +102583,17 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Focused Shielding Charm",
-    "power": 2,
+    "power": 3,
     "base_item": "Stone Brick Wall",
     "release_status": "public",
     "stats": {
       "shield_wall_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 35
       },
-      "shield_wall_duration_flat": {
+      "shield_wall_durability_flat": {
         "locked": false,
-        "value": 2
+        "value": 6
       }
     },
     "type": "Charm",
@@ -102110,9 +102612,9 @@
         "locked": false,
         "value": 20
       },
-      "shield_wall_knockback_percent": {
+      "shield_wall_durability_flat": {
         "locked": false,
-        "value": 100
+        "value": 4
       }
     },
     "type": "Charm",
@@ -102131,9 +102633,9 @@
         "locked": false,
         "value": 10
       },
-      "shield_wall_knockback_percent": {
+      "shield_wall_durability_flat": {
         "locked": false,
-        "value": 50
+        "value": 2
       }
     },
     "type": "Charm",
@@ -102152,9 +102654,9 @@
         "locked": false,
         "value": 15
       },
-      "shield_wall_cooldown_percent": {
+      "shield_wall_durability_recharge_rate_percent": {
         "locked": false,
-        "value": -10
+        "value": 15
       }
     },
     "type": "Charm",
@@ -104406,6 +104908,27 @@
     },
     "lore": "Price: 5 stacks of Concentrated XP"
   },
+  "Concealed Knife": {
+    "location": "Transmogrifier",
+    "mmlore": [
+      "The blade is coated in a purple mixture."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Concealed Knife",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "adrenaline": 1,
+      "backstab": 2,
+      "unbreaking": 3,
+      "attack_speed_base": 1.8,
+      "agility": 1,
+      "attack_damage_base": 6.5
+    },
+    "lore": "The blade is coated in a purple mixture."
+  },
   "Corrupted Watcher's Sword": {
     "location": "Reverie",
     "mmlore": [
@@ -104851,6 +105374,7 @@
     "type": "Offhand Sword",
     "stats": {
       "resurrection": 1,
+      "unbreakable": 1,
       "magic_damage_percent": 10,
       "attack_damage_percent": 10
     },
@@ -105522,13 +106046,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 1,
-      "unbreaking": 4,
-      "sweeping_edge": 4,
       "ice_aspect": 1,
+      "knockback": 1,
+      "sweeping_edge": 4,
+      "unbreaking": 4,
       "attack_speed_base": 1.2,
-      "attack_damage_base": 12.5,
-      "spell_power_base": 55
+      "spell_power_base": 55,
+      "attack_damage_base": 14
     },
     "lore": "Once enshrined in the Frostgate crypts,\nthe Frost Moon recovered the blade.\nA new Prophet must be protected in the\nsame manner as the Old."
   },
@@ -106261,11 +106785,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "adaptability": 1,
+      "cloaked": 1,
       "regicide": 1,
       "unbreakable": 1,
-      "cloaked": 1,
       "attack_damage_percent": 20,
-      "armor": 7
+      "armor": 6
     },
     "lore": "The surrounding tempest has turned even this\nsimple stone magical. The crushing intensity,\nthe dense magical index. It all ends here.\nUnder the gaze of the Skylords."
   },
@@ -106285,11 +106810,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "adaptability": 1,
+      "cloaked": 1,
       "regicide": 1,
       "unbreakable": 1,
-      "cloaked": 1,
       "attack_damage_percent": 20,
-      "armor": 8
+      "armor": 7
     },
     "lore": "The surrounding tempest has turned even this\nsimple stone magical. The crushing intensity,\nthe dense magical index. It all ends here.\nUnder the gaze of the Skylords."
   },
@@ -106309,11 +106835,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "adaptability": 1,
+      "cloaked": 1,
       "regicide": 1,
       "unbreakable": 1,
-      "cloaked": 1,
       "attack_damage_percent": 25,
-      "armor": 8.5
+      "armor": 7.5
     },
     "lore": "The surrounding tempest has turned even this\nsimple stone magical. The crushing intensity,\nthe dense magical index. It all ends here.\nUnder the gaze of the Skylords."
   },
@@ -106333,11 +106860,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
+      "adaptability": 1,
+      "cloaked": 1,
       "regicide": 1,
       "unbreakable": 1,
-      "cloaked": 1,
       "attack_damage_percent": 25,
-      "armor": 9.5
+      "armor": 8.5
     },
     "lore": "The surrounding tempest has turned even this\nsimple stone magical. The crushing intensity,\nthe dense magical index. It all ends here.\nUnder the gaze of the Skylords."
   },
@@ -109518,6 +110046,28 @@
     },
     "lore": "A replica of a cursed but powerful spear.\nStatic energy surrounds you as you hold it."
   },
+  "Black Needle": {
+    "location": "Transmogrifier",
+    "mmlore": [
+      "Pierce the darkness.",
+      "Pull its strings."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Black Needle",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "mending": 1,
+      "tempo": 1,
+      "throw_rate_base": 2,
+      "speed_percent": 15,
+      "projectile_damage_base": 8,
+      "projectile_speed_base": 1
+    },
+    "lore": "Pierce the darkness.\nPull its strings."
+  },
   "Blightbane": {
     "location": "Magenta",
     "region": "Valley",
@@ -111417,7 +111967,7 @@
     "stats": {
       "illuminate_enhancement_damage_flat": {
         "locked": true,
-        "value": 15
+        "value": 12
       },
       "illuminate_enhancement_tick_delay_percent": {
         "locked": true,
@@ -111563,6 +112113,19 @@
       "agility": 7.5
     },
     "lore": "The Loamskattar's remnants had followed\nAurora into the Outside, but it left something\nstrange behind. It seems drawn to you."
+  },
+  "Virtue Plushies Pack": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Decade Pass.",
+      "Press <key:key.use> to obtain the plushies."
+    ],
+    "name": "Virtue Plushies Pack",
+    "base_item": "Turtle Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Decade Pass.\nPress  to obtain the plushies."
   },
   "Coral Crown": {
     "location": "TOV",
@@ -112413,12 +112976,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "hex_eater": 2,
       "decay": 3,
+      "technique": 2,
       "tempo": 1,
       "speed_percent": -10,
       "attack_damage_base": 6.5,
-      "spell_power_base": 80
+      "spell_power_base": 72
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -112439,12 +113002,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "hex_eater": 2,
       "decay": 3,
+      "technique": 2,
       "tempo": 1,
       "speed_percent": -10,
       "attack_damage_base": 7,
-      "spell_power_base": 83
+      "spell_power_base": 72
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -112465,12 +113028,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "hex_eater": 2,
       "decay": 4,
+      "technique": 2,
       "tempo": 1,
       "speed_percent": -10,
       "attack_damage_base": 7.5,
-      "spell_power_base": 88
+      "spell_power_base": 78
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -113268,6 +113831,19 @@
     "stats": {},
     "lore": "Obtained in the Space Pass."
   },
+  "Trickster Spirit Dummy": {
+    "location": "Seasonal Pass",
+    "mmlore": [
+      "Obtained in the Decade Pass."
+    ],
+    "region": "Valley",
+    "name": "Trickster Spirit Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Obtained in the Decade Pass."
+  },
   "Tyrant of Antiquity Dummy": {
     "location": "Skr",
     "mmlore": [
@@ -113339,6 +113915,20 @@
     "type": "Misc",
     "stats": {},
     "lore": "Obtained in the Medieval Pass."
+  },
+  "Shade Puppy Carrier": {
+    "location": "April's Fools",
+    "mmlore": [
+      "A little dog in need of love."
+    ],
+    "region": "Ring",
+    "tier": "Legacy",
+    "name": "Shade Puppy Carrier",
+    "base_item": "Wolf Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A little dog in need of love."
   },
   "C'Axtal's Crusher": {
     "location": "Reverie",
@@ -115563,10 +116153,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "reflexes": 1,
+      "projectile_protection": 1,
+      "sustenance": 1,
       "unbreakable": 1,
-      "agility": 7,
-      "attack_damage_percent": 20
+      "knockback_resistance_flat": 2,
+      "attack_damage_percent": 25,
+      "agility": 7
     },
     "lore": "Pelias' folly opened the minds of two peoples.\nThe Dichen to their destiny in the outer colonies,\nand the Aradia to the plight of their lost god.\nIt was only natural that the two would ally."
   },
@@ -115586,9 +116178,11 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "reflexes": 1,
+      "projectile_protection": 2,
+      "sustenance": 1,
       "unbreakable": 1,
-      "agility": 7,
+      "knockback_resistance_flat": 2,
+      "agility": 7.5,
       "attack_damage_percent": 25
     },
     "lore": "Pelias' folly opened the minds of two peoples.\nThe Dichen to their destiny in the outer colonies,\nand the Aradia to the plight of their lost god.\nIt was only natural that the two would ally."
@@ -115609,9 +116203,11 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "reflexes": 1,
+      "projectile_protection": 2,
+      "sustenance": 1,
       "unbreakable": 1,
-      "agility": 7.5,
+      "knockback_resistance_flat": 2,
+      "agility": 8,
       "attack_damage_percent": 30
     },
     "lore": "Pelias' folly opened the minds of two peoples.\nThe Dichen to their destiny in the outer colonies,\nand the Aradia to the plight of their lost god.\nIt was only natural that the two would ally."
@@ -115632,10 +116228,12 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "reflexes": 1,
+      "projectile_protection": 2,
+      "sustenance": 2,
       "unbreakable": 1,
+      "knockback_resistance_flat": 2,
       "agility": 8,
-      "attack_damage_percent": 35
+      "attack_damage_percent": 30
     },
     "lore": "Pelias' folly opened the minds of two peoples.\nThe Dichen to their destiny in the outer colonies,\nand the Aradia to the plight of their lost god.\nIt was only natural that the two would ally."
   },
@@ -116894,6 +117492,24 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
+  },
+  "Our Thanks to You": {
+    "location": "Tenyears",
+    "mmlore": [
+      "<gray>A heartfelt thanks from us to all of you,",
+      "<gray>as this project remains possible with all of",
+      "<gray>the support you've given us over the years.",
+      "<light_purple>Thank You ❤",
+      "<italic><aqua>May 28th, 2016 - May 28th, 2026"
+    ],
+    "region": "Valley",
+    "tier": "Event",
+    "name": "Our Thanks to You",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "A heartfelt thanks from us to all of you,\nas this project remains possible with all of\nthe support you've given us over the years.\nThank You ❤\nMay 28th, 2016 - May 28th, 2026"
   },
   "Overboard, Deeper Still": {
     "name": "Overboard, Deeper Still",
