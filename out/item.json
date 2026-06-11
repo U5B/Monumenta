@@ -41045,7 +41045,7 @@
     "stats": {
       "unstable_amalgam_health_flat": {
         "locked": false,
-        "value": 200
+        "value": 400
       },
       "unstable_amalgam_taunt_range_flat": {
         "locked": false,
@@ -48671,9 +48671,9 @@
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "shield_wall_bash_cost_flat": {
+      "shield_wall_bash_cooldown_percent": {
         "locked": false,
-        "value": -3
+        "value": -25
       },
       "shield_wall_damage_percent": {
         "locked": false,
@@ -94781,17 +94781,21 @@
         "locked": false,
         "value": 1
       },
-      "defensive_line_range_percent": {
+      "defensive_line_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 100
       },
       "defensive_line_cooldown_percent": {
         "locked": false,
-        "value": -30
+        "value": -50
       },
       "defensive_line_duration_percent": {
         "locked": false,
-        "value": -30
+        "value": -50
+      },
+      "defensive_line_knockback_percent": {
+        "locked": false,
+        "value": -300
       }
     },
     "type": "Charm",
