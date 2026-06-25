@@ -678,13 +678,9 @@
         "locked": false,
         "value": 10
       },
-      "amplifying_hex_range_percent": {
-        "locked": false,
-        "value": -50
-      },
       "amplifying_hex_cone_percent": {
         "locked": false,
-        "value": 100
+        "value": -50
       }
     },
     "type": "Charm",
@@ -57886,9 +57882,9 @@
     "type": "Chestplate",
     "stats": {
       "guard": 1,
-      "unbreaking": 4,
-      "shielding": 1,
       "mending": 1,
+      "shielding": 1,
+      "unbreaking": 4,
       "armor": 6,
       "knockback_resistance_flat": 7
     },
@@ -100863,11 +100859,11 @@
     "base_item": "Stick",
     "release_status": "public",
     "stats": {
-      "dagger_throw_damage_percent": {
+      "dagger_throw_vulnerability_amplifier_percent": {
         "locked": false,
-        "value": 100
+        "value": 7.5
       },
-      "dagger_throw_cooldown_percent": {
+      "dagger_throw_damage_percent": {
         "locked": false,
         "value": 100
       },
@@ -100875,9 +100871,9 @@
         "locked": false,
         "value": 100
       },
-      "dagger_throw_vulnerability_amplifier_percent": {
+      "dagger_throw_cooldown_percent": {
         "locked": false,
-        "value": 7.5
+        "value": 100
       }
     },
     "type": "Charm",
