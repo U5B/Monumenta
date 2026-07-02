@@ -680,6 +680,10 @@
       },
       "amplifying_hex_cone_percent": {
         "locked": false,
+        "value": 100
+      },
+      "amplifying_hex_range_percent": {
+        "locked": false,
         "value": -50
       }
     },
@@ -24980,7 +24984,7 @@
     "stats": {
       "absorbing_barrier": 4,
       "curse_of_anemia": 4,
-      "poise": 1,
+      "poise": 2,
       "unbreakable": 1,
       "armor": 10,
       "speed_flat": 0.02,
@@ -26228,17 +26232,13 @@
         "locked": false,
         "value": 300
       },
+      "cosmic_moonblade_range_percent": {
+        "locked": false,
+        "value": 50
+      },
       "cosmic_moonblade_cooldown_reduction_flat": {
         "locked": false,
         "value": 1
-      },
-      "cosmic_moonblade_on_kill_cooldown_reduction_flat": {
-        "locked": false,
-        "value": 1
-      },
-      "cosmic_moonblade_range_percent": {
-        "locked": false,
-        "value": 100
       },
       "cosmic_moonblade_slashes_flat": {
         "locked": true,
@@ -29216,14 +29216,10 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Tolumaeus Nestfeather",
-    "power": 3,
+    "power": 2,
     "base_item": "Feather",
     "release_status": "public",
     "stats": {
-      "swiftness_enhancement_vulnerability_amplifier_percent": {
-        "locked": false,
-        "value": 15
-      },
       "swiftness_double_jump_strength_percent": {
         "locked": false,
         "value": 15
@@ -30075,7 +30071,7 @@
     "stats": {
       "meteor_slam_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 25
       }
     },
     "type": "Charm",
@@ -30092,7 +30088,7 @@
     "stats": {
       "meteor_slam_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 15
       }
     },
     "type": "Charm",
@@ -30109,7 +30105,7 @@
     "stats": {
       "meteor_slam_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -30882,13 +30878,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Spellbound Spearhead",
-    "power": 1,
+    "power": 2,
     "base_item": "Flint",
     "release_status": "public",
     "stats": {
       "mana_lance_damage_percent": {
         "locked": false,
-        "value": 100
+        "value": 50
       },
       "mana_lance_range_percent": {
         "locked": false,
@@ -32840,21 +32836,33 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Emerald Ascension",
-    "power": 3,
+    "power": 2,
     "base_item": "Gold Nugget",
     "release_status": "public",
     "stats": {
-      "by_my_blade_attack_speed_duration_percent": {
+      "escape_death_jump_boost_amplifier_flat": {
         "locked": false,
-        "value": 100
+        "value": 2
       },
-      "by_my_blade_attack_speed_amplifier_percent": {
+      "escape_death_absorption_health_flat": {
         "locked": false,
-        "value": 20
+        "value": 2
       },
-      "by_my_blade_haste_amplifier_flat": {
+      "escape_death_cooldown_percent": {
+        "locked": true,
+        "value": -60
+      },
+      "escape_death_buff_duration_percent": {
         "locked": false,
-        "value": -1
+        "value": 50
+      },
+      "escape_death_health_threshold_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "escape_death_stun_duration_percent": {
+        "locked": false,
+        "value": -50
       }
     },
     "type": "Charm",
@@ -34160,7 +34168,7 @@
     "type": "Boots",
     "stats": {
       "blast_protection": 2,
-      "unbreaking": 4,
+      "unbreaking": 6,
       "armor": 4,
       "magic_damage_percent": 10
     },
@@ -35675,7 +35683,7 @@
     "type": "Helmet",
     "stats": {
       "curse_of_corruption": 1,
-      "unbreaking": 4,
+      "unbreaking": 6,
       "armor": 3,
       "max_health_flat": 6
     },
@@ -36300,7 +36308,7 @@
     "type": "Helmet",
     "stats": {
       "curse_of_corruption": 1,
-      "unbreaking": 4,
+      "unbreaking": 6,
       "armor": 3,
       "max_health_flat": 6
     },
@@ -36428,7 +36436,7 @@
     "type": "Helmet",
     "stats": {
       "curse_of_corruption": 1,
-      "unbreaking": 4,
+      "unbreaking": 6,
       "armor": 3,
       "max_health_flat": 6
     },
@@ -38464,7 +38472,7 @@
       "mending": 1,
       "quake": 3,
       "two_handed": 1,
-      "unbreaking": 2,
+      "unbreaking": 5,
       "attack_damage_base": 10,
       "attack_speed_base": 1.5
     },
@@ -40390,9 +40398,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 15,
       "fire_aspect": 5,
       "knockback": 2,
+      "unbreaking": 20,
       "attack_speed_base": 1.6,
       "attack_damage_base": 6.5
     }
@@ -41006,13 +41014,13 @@
     "base_item": "Gray Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "meteor_slam_ground_pound_damage_per_block_fallen_percent": {
-        "locked": false,
-        "value": 50
-      },
       "meteor_slam_ground_pound_additional_radius_percent": {
         "locked": false,
-        "value": 50
+        "value": 100
+      },
+      "meteor_slam_ground_pound_damage_per_block_fallen_percent": {
+        "locked": false,
+        "value": 100
       },
       "meteor_slam_vault_velocity_percent": {
         "locked": false,
@@ -41024,7 +41032,7 @@
       },
       "meteor_slam_cooldown_percent": {
         "locked": false,
-        "value": 25
+        "value": 40
       }
     },
     "type": "Charm",
@@ -42553,7 +42561,6 @@
     "mmlore": [
       "Obtained in the Decade Pass."
     ],
-    "region": "Valley",
     "name": "Vargos Dummy",
     "base_item": "Husk Spawn Egg",
     "release_status": "public",
@@ -43239,11 +43246,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "adrenaline": 1,
       "life_drain": 1,
       "unbreaking": 4,
-      "adrenaline": 1,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 18.5
+      "attack_damage_base": 19.5
     },
     "lore": "The Great Wolf was quelled, but\nthe binding of a God is not without\nconsequences."
   },
@@ -43262,11 +43269,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "adrenaline": 1,
       "life_drain": 1,
       "unbreaking": 5,
-      "adrenaline": 1,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 19
+      "attack_damage_base": 20
     },
     "lore": "The Great Wolf was quelled, but\nthe binding of a God is not without\nconsequences."
   },
@@ -43285,11 +43292,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "adrenaline": 1,
       "life_drain": 1,
       "unbreaking": 5,
-      "adrenaline": 1,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 19.5
+      "attack_damage_base": 20.5
     },
     "lore": "The Great Wolf was quelled, but\nthe binding of a God is not without\nconsequences."
   },
@@ -43308,11 +43315,11 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "adrenaline": 1,
       "life_drain": 1,
       "unbreaking": 6,
-      "adrenaline": 1,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 20.5
+      "attack_damage_base": 21.5
     },
     "lore": "The Great Wolf was quelled, but\nthe binding of a God is not without\nconsequences."
   },
@@ -43331,12 +43338,12 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "adrenaline": 1,
       "life_drain": 1,
       "sustenance": 1,
       "unbreaking": 7,
-      "adrenaline": 1,
       "attack_speed_base": 0.9,
-      "attack_damage_base": 21
+      "attack_damage_base": 22
     },
     "lore": "The Great Wolf was quelled, but\nthe binding of a God is not without\nconsequences."
   },
@@ -44068,7 +44075,7 @@
     "type": "Axe",
     "stats": {
       "ice_aspect": 2,
-      "unbreaking": 1,
+      "unbreaking": 3,
       "attack_speed_base": 0.9,
       "attack_damage_base": 12
     },
@@ -47472,11 +47479,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "unbreaking": 2,
-      "melee_protection": 2,
       "ice_aspect": 1,
-      "attack_damage_base": 5.5,
-      "attack_speed_base": 2
+      "melee_protection": 2,
+      "unbreaking": 3,
+      "attack_damage_base": 6.5,
+      "attack_speed_base": 1.6
     },
     "lore": "Forged within the halls of a mighty bastion,\nthe scythe still carries the frozen winds\nof a foreign land."
   },
@@ -48638,17 +48645,13 @@
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "rampage_recast_bloodlust_cost_flat": {
+      "rampage_damage_amplifier_per_recast_percent": {
         "locked": false,
-        "value": -1
+        "value": 5
       },
-      "rampage_max_recast_flat": {
+      "rampage_speed_amplifier_per_recast_percent": {
         "locked": false,
-        "value": 4
-      },
-      "rampage_duration_per_recast_flat": {
-        "locked": false,
-        "value": -2
+        "value": 5
       },
       "rampage_damage_percent": {
         "locked": false,
@@ -53968,7 +53971,7 @@
       },
       "magma_shield_damage_percent": {
         "locked": false,
-        "value": 25
+        "value": 10
       }
     },
     "type": "Charm",
@@ -54779,9 +54782,10 @@
     "type": "Boots",
     "stats": {
       "aqua_affinity": 1,
+      "depth_strider": 3,
       "melee_protection": 2,
       "mending": 1,
-      "depth_strider": 3,
+      "unbreaking": 2,
       "speed_percent": 10,
       "agility": 3,
       "attack_speed_percent": 10
@@ -55345,9 +55349,9 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreaking": 6,
-      "melee_protection": 1,
       "magic_protection": 3,
+      "melee_protection": 1,
+      "unbreaking": 9,
       "armor": 3.5,
       "speed_percent": 15
     },
@@ -55448,7 +55452,7 @@
     "type": "Boots",
     "stats": {
       "reflexes": 1,
-      "unbreaking": 6,
+      "unbreaking": 9,
       "agility": 4.5,
       "speed_percent": 10
     },
@@ -55715,7 +55719,7 @@
     "stats": {
       "feather_falling": 2,
       "fire_protection": 2,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "attack_speed_percent": 20,
       "armor": 3.5
     },
@@ -56094,6 +56098,7 @@
     "type": "Boots",
     "stats": {
       "melee_protection": 1,
+      "second_wind": 1,
       "unbreakable": 1,
       "max_health_percent": -40,
       "knockback_resistance_flat": 3,
@@ -56120,6 +56125,7 @@
     "type": "Boots",
     "stats": {
       "melee_protection": 1,
+      "second_wind": 1,
       "unbreakable": 1,
       "max_health_percent": -40,
       "agility": 14,
@@ -56147,6 +56153,7 @@
     "stats": {
       "magic_protection": 1,
       "melee_protection": 1,
+      "second_wind": 1,
       "unbreakable": 1,
       "knockback_resistance_flat": 4,
       "attack_damage_percent": 40,
@@ -56793,10 +56800,10 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "second_wind": 3,
-      "unbreaking": 5,
-      "projectile_protection": 3,
       "magic_protection": 3,
+      "projectile_protection": 3,
+      "second_wind": 3,
+      "unbreaking": 8,
       "speed_percent": 15
     },
     "lore": "She soon came to the cold realization\nof the truth. Kaul was no longer in this\nplace. He had forsaken them all."
@@ -58433,11 +58440,11 @@
     "type": "Chestplate",
     "stats": {
       "adaptability": 1,
-      "unbreaking": 3,
       "mending": 1,
       "regeneration": 3,
+      "unbreaking": 3,
       "speed_percent": 5,
-      "armor": 8
+      "armor": 7
     },
     "lore": "The polyps latched onto the only substrate left in\nthat wild and wicked sea. And as the altars\ncrumbled beneath, and temples fell to ruin, new spires\nsprung forth, reaching above to pierce the waves."
   },
@@ -58458,11 +58465,11 @@
     "type": "Chestplate",
     "stats": {
       "adaptability": 1,
-      "unbreaking": 3,
       "mending": 1,
       "regeneration": 3,
+      "unbreaking": 3,
       "speed_percent": 10,
-      "armor": 8.5
+      "armor": 7.5
     },
     "lore": "The polyps latched onto the only substrate left in\nthat wild and wicked sea. And as the altars\ncrumbled beneath, and temples fell to ruin, new spires\nsprung forth, reaching above to pierce the waves."
   },
@@ -58483,11 +58490,11 @@
     "type": "Chestplate",
     "stats": {
       "adaptability": 1,
-      "unbreaking": 3,
       "mending": 1,
       "regeneration": 3,
+      "unbreaking": 3,
       "speed_percent": 10,
-      "armor": 9
+      "armor": 8
     },
     "lore": "The polyps latched onto the only substrate left in\nthat wild and wicked sea. And as the altars\ncrumbled beneath, and temples fell to ruin, new spires\nsprung forth, reaching above to pierce the waves."
   },
@@ -58508,11 +58515,11 @@
     "type": "Chestplate",
     "stats": {
       "adaptability": 1,
-      "unbreaking": 4,
       "mending": 1,
       "regeneration": 4,
+      "unbreaking": 4,
       "speed_percent": 10,
-      "armor": 9.5
+      "armor": 8.5
     },
     "lore": "The polyps latched onto the only substrate left in\nthat wild and wicked sea. And as the altars\ncrumbled beneath, and temples fell to ruin, new spires\nsprung forth, reaching above to pierce the waves."
   },
@@ -59131,7 +59138,7 @@
     "type": "Chestplate",
     "stats": {
       "regeneration": 1,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "max_health_flat": 4,
       "armor": 2.5
     },
@@ -59783,7 +59790,7 @@
     "type": "Chestplate",
     "stats": {
       "reflexes": 1,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "knockback_resistance_flat": 2,
       "agility": 5
     },
@@ -60304,11 +60311,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "fire_protection": 2,
-      "unbreaking": 5,
       "blast_protection": 2,
-      "projectile_protection": 2,
+      "fire_protection": 2,
       "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 8,
       "agility": 2,
       "magic_damage_percent": 12
     },
@@ -60388,7 +60395,7 @@
     "type": "Chestplate",
     "stats": {
       "tempo": 1,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "agility": 2,
       "speed_percent": 5,
       "projectile_damage_percent": 20
@@ -60662,7 +60669,7 @@
     "type": "Chestplate",
     "stats": {
       "melee_protection": 2,
-      "unbreaking": 4,
+      "unbreaking": 6,
       "armor": 4
     },
     "lore": "Something about this tunic seems\ndifferent from the rest. Words in\nlanguages never written are carved\ndeep into the leather."
@@ -61219,11 +61226,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "fire_protection": 2,
-      "unbreaking": 5,
       "blast_protection": 2,
-      "projectile_protection": 2,
+      "fire_protection": 2,
       "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 8,
       "agility": 2,
       "magic_damage_percent": 12
     },
@@ -61244,10 +61251,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "fire_protection": 1,
       "blast_protection": 1,
-      "mending": 1,
+      "fire_protection": 1,
       "magic_protection": 1,
+      "mending": 1,
+      "unbreaking": 1,
       "agility": 4,
       "attack_speed_percent": 10
     },
@@ -62227,11 +62235,13 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "abyssal": 1,
       "aqua_affinity": 1,
-      "mending": 1,
       "gills": 1,
+      "mending": 1,
       "thorns_flat": 2,
-      "armor": 4.5
+      "armor": 5,
+      "knockback_resistance_flat": 4
     },
     "lore": "The waves do not remember, but the beasts\nbelow will never forget."
   },
@@ -62358,9 +62368,9 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 5,
-      "melee_protection": 1,
       "blast_protection": 1,
+      "melee_protection": 1,
+      "unbreaking": 8,
       "attack_speed_percent": 10,
       "armor": 4.5
     }
@@ -63019,7 +63029,7 @@
     "type": "Helmet",
     "stats": {
       "shielding": 1,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "armor": 4.5,
       "speed_percent": -5
     },
@@ -63677,7 +63687,7 @@
     "type": "Helmet",
     "stats": {
       "tempo": 1,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "agility": 4.5
     },
     "lore": "Silver remembers the past more than any other metal.\nThe spiders know this better than most."
@@ -64233,7 +64243,7 @@
     "type": "Helmet",
     "stats": {
       "projectile_protection": 3,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "armor": 3,
       "projectile_damage_percent": 15
     },
@@ -64927,7 +64937,7 @@
     "type": "Leggings",
     "stats": {
       "feather_falling": 5,
-      "unbreaking": 5,
+      "unbreaking": 9,
       "agility": 2.5,
       "speed_percent": 25
     },
@@ -65135,8 +65145,8 @@
     "type": "Leggings",
     "stats": {
       "fire_protection": 3,
-      "unbreaking": 5,
       "first_strike": 1,
+      "unbreaking": 8,
       "attack_damage_percent": 22,
       "armor": 3
     }
@@ -65532,9 +65542,10 @@
     "type": "Leggings",
     "stats": {
       "fire_protection": 2,
+      "magic_protection": 3,
       "melee_protection": 2,
       "mending": 1,
-      "magic_protection": 3,
+      "unbreaking": 2,
       "agility": 5,
       "speed_percent": 15
     },
@@ -65814,10 +65825,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "second_wind": 1,
-      "fire_protection": 1,
-      "unbreaking": 5,
       "blast_protection": 1,
+      "fire_protection": 1,
+      "second_wind": 1,
+      "unbreaking": 8,
       "armor": 5,
       "speed_percent": -5
     },
@@ -66411,7 +66422,7 @@
     "type": "Leggings",
     "stats": {
       "fire_protection": 2,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "agility": 4,
       "magic_damage_percent": 7,
       "attack_damage_percent": 15
@@ -66432,9 +66443,9 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "melee_protection": 1,
       "inferno": 2,
-      "unbreaking": 5,
+      "melee_protection": 1,
+      "unbreaking": 8,
       "agility": 4.5
     },
     "lore": "Legend speaks of a blinding light, flashing in\nthe skies above the Blackroot. Only when the\nJungle chooses, does sunshine bless its leaves."
@@ -66746,7 +66757,7 @@
     "type": "Leggings",
     "stats": {
       "feather_falling": 5,
-      "unbreaking": 5,
+      "unbreaking": 9,
       "agility": 2.5,
       "speed_percent": 25
     },
@@ -66848,7 +66859,7 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "unbreaking": 5,
+      "unbreaking": 8,
       "magic_damage_percent": 5,
       "max_health_flat": 2,
       "attack_damage_percent": 10,
@@ -67289,9 +67300,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "fire_protection": 5,
       "blast_protection": 5,
+      "fire_protection": 5,
       "mending": 1,
+      "unbreaking": 3,
       "armor": 3
     },
     "lore": "With the fire lit and the soul forged anew,\nthe world was torn into Void."
@@ -67431,7 +67443,7 @@
     "type": "Leggings",
     "stats": {
       "shielding": 1,
-      "unbreaking": 5,
+      "unbreaking": 8,
       "knockback_resistance_flat": 2,
       "armor": 4
     },
@@ -70885,11 +70897,11 @@
       },
       "predator_strike_splinter_radius_percent": {
         "locked": false,
-        "value": 100
+        "value": 50
       },
       "predator_strike_damage_percent": {
         "locked": false,
-        "value": -40
+        "value": -60
       },
       "predator_strike_splinter_cone_percent": {
         "locked": false,
@@ -75733,7 +75745,7 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Hydraulic Chausses",
-    "power": 4,
+    "power": 3,
     "base_item": "Piston",
     "release_status": "public",
     "stats": {
@@ -75743,7 +75755,7 @@
       },
       "meteor_slam_cooldown_percent": {
         "locked": false,
-        "value": -40
+        "value": -25
       },
       "meteor_slam_damage_percent": {
         "locked": false,
@@ -95534,17 +95546,13 @@
         "locked": false,
         "value": -50
       },
-      "rampage_initial_duration_percent": {
+      "rampage_recast_bloodlust_cost_flat": {
         "locked": false,
-        "value": -50
+        "value": 1
       },
-      "rampage_max_duration_percent": {
+      "rampage_bloodlust_cost_flat": {
         "locked": false,
-        "value": -50
-      },
-      "rampage_duration_per_recast_percent": {
-        "locked": false,
-        "value": -50
+        "value": 1
       }
     },
     "type": "Charm",
@@ -96276,12 +96284,11 @@
       "earth_aspect": 3,
       "impact": 2,
       "infinity": 1,
-      "oversized": 1,
       "punch": 3,
-      "projectile_speed_base": 0.7,
       "speed_percent": -10,
       "throw_rate_base": 0.8,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 20,
+      "projectile_speed_base": 0.6
     },
     "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
   },
@@ -96303,12 +96310,11 @@
       "earth_aspect": 3,
       "impact": 3,
       "infinity": 1,
-      "oversized": 1,
       "punch": 3,
-      "projectile_speed_base": 0.7,
       "speed_percent": -10,
       "throw_rate_base": 0.8,
-      "projectile_damage_base": 27
+      "projectile_damage_base": 20,
+      "projectile_speed_base": 0.6
     },
     "lore": "Such craftmanship is a tool to be used at\nthe maker's discretion. Whether that be\nartistry, or smashing someone's skull in."
   },
@@ -114563,11 +114569,11 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "mending": 1,
-      "unbreaking": 1,
-      "knockback": 1,
       "ice_aspect": 1,
+      "knockback": 1,
+      "mending": 1,
       "regeneration": 1,
+      "unbreaking": 2,
       "armor": 2,
       "knockback_resistance_flat": 2,
       "attack_speed_base": 2,
@@ -115256,7 +115262,7 @@
       "mending": 1,
       "quake": 3,
       "two_handed": 1,
-      "unbreaking": 2,
+      "unbreaking": 5,
       "attack_speed_base": 1.5,
       "attack_damage_base": 10
     },
@@ -115646,9 +115652,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 1,
-      "mending": 1,
       "decay": 1,
+      "mending": 1,
+      "unbreaking": 2,
       "attack_damage_base": 7.5,
       "attack_speed_base": 1.6
     },
