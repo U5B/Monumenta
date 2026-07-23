@@ -32960,7 +32960,7 @@
     "stats": {},
     "lore": "Grants access to:\nThe Hoard"
   },
-  "Golden Wind": {
+  "Golden Wind (gold_nugget)": {
     "location": "King's Valley",
     "mmlore": [
       "Flecks of gold can be seen through the glass."
@@ -96893,6 +96893,19 @@
     "stats": {
       "curse_of_vanishing": 2,
       "projectile_speed_percent": 1000
+    }
+  },
+  "Golden Wind (spectral_arrow)": {
+    "location": "Fortune",
+    "region": "Ring",
+    "name": "Golden Wind",
+    "base_item": "Spectral Arrow",
+    "release_status": "public",
+    "type": "Projectile",
+    "stats": {
+      "chaotic": 3,
+      "thunder_aspect": 3,
+      "projectile_damage_percent": 7
     }
   },
   "Scout's Heartseeker": {
