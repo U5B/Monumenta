@@ -10997,7 +10997,7 @@
     "stats": {
       "vicious_combos_cooldown_reduction_flat": {
         "locked": false,
-        "value": 0.5
+        "value": 0.3
       },
       "vicious_combos_enhancement_damage_amplifier_percent": {
         "locked": false,
@@ -24378,6 +24378,10 @@
     "base_item": "Deepslate",
     "release_status": "public",
     "stats": {
+      "smokescreen_blind_duration_flat": {
+        "locked": false,
+        "value": 0.25
+      },
       "smokescreen_slowness_amplifier_percent": {
         "locked": false,
         "value": 10
@@ -24385,10 +24389,6 @@
       "smokescreen_weakness_amplifier_percent": {
         "locked": false,
         "value": 10
-      },
-      "smokescreen_cooldown_percent": {
-        "locked": false,
-        "value": 20
       },
       "smokescreen_range_percent": {
         "locked": false,
@@ -54398,10 +54398,6 @@
         "locked": false,
         "value": 4
       },
-      "dagger_throw_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
       "dagger_throw_range_percent": {
         "locked": false,
         "value": -20
@@ -73136,10 +73132,11 @@
     "stats": {
       "efficiency": 2,
       "excavator": 1,
+      "quake": 2,
       "unbreakable": 1,
-      "attack_damage_base": 18,
       "speed_percent": 15,
-      "attack_speed_base": 1.3
+      "attack_speed_base": 1.3,
+      "attack_damage_base": 21
     },
     "lore": "If he wanted true power, Pelias\nwas digging in the wrong place.\nMen rend the earth.\nThe enlightened rend reality itself."
   },
@@ -74037,6 +74034,10 @@
       "smokescreen_range_percent": {
         "locked": false,
         "value": -30
+      },
+      "smokescreen_blind_duration_percent": {
+        "locked": false,
+        "value": -100
       }
     },
     "type": "Charm",
@@ -100936,7 +100937,7 @@
       },
       "dagger_throw_damage_percent": {
         "locked": false,
-        "value": 100
+        "value": 60
       },
       "dagger_throw_range_percent": {
         "locked": false,
@@ -118936,7 +118937,7 @@
     "stats": {
       "vicious_combos_cooldown_reduction_flat": {
         "locked": false,
-        "value": 0.3
+        "value": 0.2
       }
     },
     "type": "Charm",
@@ -118953,7 +118954,7 @@
     "stats": {
       "vicious_combos_cooldown_reduction_flat": {
         "locked": false,
-        "value": 0.15
+        "value": 0.1
       }
     },
     "type": "Charm",
