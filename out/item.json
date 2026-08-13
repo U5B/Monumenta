@@ -1694,7 +1694,7 @@
       },
       "choir_bells_cooldown_percent": {
         "locked": false,
-        "value": -20
+        "value": -10
       }
     },
     "type": "Charm",
@@ -1730,7 +1730,7 @@
       },
       "choir_bells_cooldown_percent": {
         "locked": false,
-        "value": -10
+        "value": -5
       }
     },
     "type": "Charm",
@@ -10630,11 +10630,11 @@
       },
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 10
+        "value": 7.5
       },
       "heavenly_boon_healing_percent": {
         "locked": false,
-        "value": -20
+        "value": -25
       }
     },
     "type": "Charm",
@@ -110965,8 +110965,8 @@
     "release_status": "public",
     "type": "Trident",
     "stats": {
-      "decay": 10,
-      "hex_eater": 3,
+      "decay": 8,
+      "hex_eater": 2,
       "life_drain": 1,
       "riptide": 2,
       "unbreakable": 1,
