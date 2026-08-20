@@ -1619,6 +1619,20 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
+  "Bell Pepper": {
+    "mmlore": [
+      "Siriusly crunchy - or is it just metal?",
+      "Either way, this will take a toll on your teeth.",
+      "<light_purple>* Quest Item *",
+      "#Q223I03"
+    ],
+    "name": "Bell Pepper",
+    "base_item": "Bell",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Siriusly crunchy - or is it just metal?\nEither way, this will take a toll on your teeth.\n* Quest Item *\n#Q223I03"
+  },
   "Chime of the Requiem": {
     "location": "The Eternal Vigil",
     "mmlore": [
@@ -13586,6 +13600,102 @@
       "magic_protection": 2,
       "agility": 5,
       "speed_percent": 15
+    },
+    "lore": "The Leafveil was a magic force used to shield\nthe Viridian from many dangers. It has since\nturned on its creator."
+  },
+  "Leafveil Shroud-1": {
+    "location": "Lime",
+    "masterwork": "1",
+    "mmlore": [
+      "The Leafveil was a magic force used to shield",
+      "the Viridian from many dangers. It has since",
+      "turned on its creator."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Leafveil Shroud",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 6,
+      "speed_percent": 15,
+      "projectile_damage_percent": 15,
+      "agility": 7
+    },
+    "lore": "The Leafveil was a magic force used to shield\nthe Viridian from many dangers. It has since\nturned on its creator."
+  },
+  "Leafveil Shroud-2": {
+    "location": "Lime",
+    "masterwork": "2",
+    "mmlore": [
+      "The Leafveil was a magic force used to shield",
+      "the Viridian from many dangers. It has since",
+      "turned on its creator."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Leafveil Shroud",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 7,
+      "speed_percent": 18,
+      "projectile_damage_percent": 18,
+      "agility": 7
+    },
+    "lore": "The Leafveil was a magic force used to shield\nthe Viridian from many dangers. It has since\nturned on its creator."
+  },
+  "Leafveil Shroud-3": {
+    "location": "Lime",
+    "masterwork": "3",
+    "mmlore": [
+      "The Leafveil was a magic force used to shield",
+      "the Viridian from many dangers. It has since",
+      "turned on its creator."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Leafveil Shroud",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 8,
+      "speed_percent": 18,
+      "projectile_damage_percent": 18,
+      "agility": 7.5
+    },
+    "lore": "The Leafveil was a magic force used to shield\nthe Viridian from many dangers. It has since\nturned on its creator."
+  },
+  "Leafveil Shroud-4": {
+    "location": "Lime",
+    "masterwork": "4",
+    "mmlore": [
+      "The Leafveil was a magic force used to shield",
+      "the Viridian from many dangers. It has since",
+      "turned on its creator."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Leafveil Shroud",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "magic_protection": 2,
+      "projectile_protection": 2,
+      "unbreaking": 9,
+      "projectile_damage_percent": 20,
+      "speed_percent": 20,
+      "agility": 8
     },
     "lore": "The Leafveil was a magic force used to shield\nthe Viridian from many dangers. It has since\nturned on its creator."
   },
@@ -31292,6 +31402,21 @@
     "stats": {},
     "lore": " to place a 3x3 of\nblue stained glass below you\nand consume the item.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
+  "Norvigrubs": {
+    "mmlore": [
+      "Is it regret or confusion that",
+      "you feel when you realize you",
+      "will be giving this to a cook?",
+      "<light_purple>* Quest Item *",
+      "#Q223I01"
+    ],
+    "name": "Norvigrubs",
+    "base_item": "Frogspawn",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Is it regret or confusion that\nyou feel when you realize you\nwill be giving this to a cook?\n* Quest Item *\n#Q223I01"
+  },
   "Plasma Generator": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -37771,6 +37896,102 @@
     },
     "lore": "He thought that nothing could touch\nhim, even as his world disintegrated\nbefore his eyes."
   },
+  "Salazar's Greed-1": {
+    "location": "Lime",
+    "masterwork": "1",
+    "mmlore": [
+      "He thought that nothing could touch",
+      "him, even as his world disintegrated",
+      "before his eyes."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Salazar's Greed",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "curse_of_crippling": 3,
+      "unbreakable": 1,
+      "attack_speed_percent": 10,
+      "speed_percent": 15,
+      "agility": 8,
+      "attack_damage_percent": 40
+    },
+    "lore": "He thought that nothing could touch\nhim, even as his world disintegrated\nbefore his eyes."
+  },
+  "Salazar's Greed-2": {
+    "location": "Lime",
+    "masterwork": "2",
+    "mmlore": [
+      "He thought that nothing could touch",
+      "him, even as his world disintegrated",
+      "before his eyes."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Salazar's Greed",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "curse_of_crippling": 3,
+      "unbreakable": 1,
+      "attack_speed_percent": 10,
+      "attack_damage_percent": 45,
+      "speed_percent": 15,
+      "agility": 8.5
+    },
+    "lore": "He thought that nothing could touch\nhim, even as his world disintegrated\nbefore his eyes."
+  },
+  "Salazar's Greed-3": {
+    "location": "Lime",
+    "masterwork": "3",
+    "mmlore": [
+      "He thought that nothing could touch",
+      "him, even as his world disintegrated",
+      "before his eyes."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Salazar's Greed",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "curse_of_crippling": 3,
+      "unbreakable": 1,
+      "attack_speed_percent": 10,
+      "speed_percent": 20,
+      "agility": 9,
+      "attack_damage_percent": 45
+    },
+    "lore": "He thought that nothing could touch\nhim, even as his world disintegrated\nbefore his eyes."
+  },
+  "Salazar's Greed-4": {
+    "location": "Lime",
+    "masterwork": "4",
+    "mmlore": [
+      "He thought that nothing could touch",
+      "him, even as his world disintegrated",
+      "before his eyes."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Salazar's Greed",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "curse_of_crippling": 3,
+      "unbreakable": 1,
+      "attack_damage_percent": 50,
+      "attack_speed_percent": 10,
+      "speed_percent": 20,
+      "agility": 9
+    },
+    "lore": "He thought that nothing could touch\nhim, even as his world disintegrated\nbefore his eyes."
+  },
   "Sentinel's Greaves": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -43842,6 +44063,102 @@
       "speed_percent": 15,
       "attack_damage_base": 13.5,
       "attack_speed_base": 1.2
+    },
+    "lore": "The axe of the empire's executioner.\nIt delivers justice... or a political\nmessage."
+  },
+  "Silverweight Axe-1": {
+    "location": "Lime",
+    "masterwork": "1",
+    "mmlore": [
+      "The axe of the empire's executioner.",
+      "It delivers justice... or a political",
+      "message."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silverweight Axe",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "regicide": 1,
+      "tactician": 2,
+      "unbreaking": 5,
+      "attack_speed_base": 1.2,
+      "speed_percent": 10,
+      "attack_damage_base": 17.5
+    },
+    "lore": "The axe of the empire's executioner.\nIt delivers justice... or a political\nmessage."
+  },
+  "Silverweight Axe-2": {
+    "location": "Lime",
+    "masterwork": "2",
+    "mmlore": [
+      "The axe of the empire's executioner.",
+      "It delivers justice... or a political",
+      "message."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silverweight Axe",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "regicide": 1,
+      "tactician": 3,
+      "unbreaking": 5,
+      "attack_speed_base": 1.2,
+      "speed_percent": 10,
+      "attack_damage_base": 17.5
+    },
+    "lore": "The axe of the empire's executioner.\nIt delivers justice... or a political\nmessage."
+  },
+  "Silverweight Axe-3": {
+    "location": "Lime",
+    "masterwork": "3",
+    "mmlore": [
+      "The axe of the empire's executioner.",
+      "It delivers justice... or a political",
+      "message."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Silverweight Axe",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "regicide": 1,
+      "tactician": 3,
+      "unbreaking": 6,
+      "attack_speed_base": 1.2,
+      "speed_percent": 10,
+      "attack_damage_base": 18.5
+    },
+    "lore": "The axe of the empire's executioner.\nIt delivers justice... or a political\nmessage."
+  },
+  "Silverweight Axe-4": {
+    "location": "Lime",
+    "masterwork": "4",
+    "mmlore": [
+      "The axe of the empire's executioner.",
+      "It delivers justice... or a political",
+      "message."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Silverweight Axe",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "regicide": 1,
+      "tactician": 3,
+      "unbreaking": 7,
+      "speed_percent": 15,
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 19
     },
     "lore": "The axe of the empire's executioner.\nIt delivers justice... or a political\nmessage."
   },
@@ -52026,6 +52343,110 @@
       "gills": 1,
       "speed_percent": 15,
       "armor": 4.5
+    },
+    "lore": "The weapon itself is living. A\nsymbiotic relationship between\nbiology and metallurgy."
+  },
+  "Metamorphosis-1": {
+    "location": "Lime",
+    "masterwork": "1",
+    "mmlore": [
+      "The weapon itself is living. A",
+      "symbiotic relationship between",
+      "biology and metallurgy."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Metamorphosis",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "aqua_affinity": 1,
+      "gills": 1,
+      "inure": 1,
+      "trivium": 1,
+      "unbreakable": 1,
+      "armor": 6.5,
+      "speed_percent": 8,
+      "magic_damage_percent": 10
+    },
+    "lore": "The weapon itself is living. A\nsymbiotic relationship between\nbiology and metallurgy."
+  },
+  "Metamorphosis-2": {
+    "location": "Lime",
+    "masterwork": "2",
+    "mmlore": [
+      "The weapon itself is living. A",
+      "symbiotic relationship between",
+      "biology and metallurgy."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Metamorphosis",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "aqua_affinity": 1,
+      "gills": 1,
+      "inure": 1,
+      "trivium": 1,
+      "unbreakable": 1,
+      "speed_percent": 15,
+      "magic_damage_percent": 12,
+      "armor": 6.5
+    },
+    "lore": "The weapon itself is living. A\nsymbiotic relationship between\nbiology and metallurgy."
+  },
+  "Metamorphosis-3": {
+    "location": "Lime",
+    "masterwork": "3",
+    "mmlore": [
+      "The weapon itself is living. A",
+      "symbiotic relationship between",
+      "biology and metallurgy."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Metamorphosis",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "aqua_affinity": 1,
+      "gills": 1,
+      "inure": 1,
+      "trivium": 1,
+      "unbreakable": 1,
+      "speed_percent": 15,
+      "armor": 7.5,
+      "magic_damage_percent": 12
+    },
+    "lore": "The weapon itself is living. A\nsymbiotic relationship between\nbiology and metallurgy."
+  },
+  "Metamorphosis-4": {
+    "location": "Lime",
+    "masterwork": "4",
+    "mmlore": [
+      "The weapon itself is living. A",
+      "symbiotic relationship between",
+      "biology and metallurgy."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Metamorphosis",
+    "base_item": "Iron Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "aqua_affinity": 1,
+      "gills": 1,
+      "inure": 1,
+      "trivium": 2,
+      "unbreakable": 1,
+      "speed_percent": 15,
+      "armor": 7.5,
+      "magic_damage_percent": 12
     },
     "lore": "The weapon itself is living. A\nsymbiotic relationship between\nbiology and metallurgy."
   },
@@ -70602,6 +71023,38 @@
     "stats": {},
     "lore": "Delicious!"
   },
+  "Skrrka's Masterpiece": {
+    "location": "Quest Reward",
+    "mmlore": [
+      "A bowl brimming with a mixture of",
+      "strange ingredients from a Norvigut.",
+      "Despite the composition you find it tasty",
+      "and rejuvenating, and you can't",
+      "help but ask for more..."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Skrrka's Masterpiece",
+    "effects": [
+      {
+        "EffectDuration": 500,
+        "EffectStrength": 1,
+        "EffectType": "Regeneration"
+      },
+      {
+        "EffectDuration": 500,
+        "EffectStrength": 0.1,
+        "EffectType": "Vulnerability"
+      }
+    ],
+    "base_item": "Mushroom Stew",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {
+      "infinity": 1
+    },
+    "lore": "A bowl brimming with a mixture of\nstrange ingredients from a Norvigut.\nDespite the composition you find it tasty\nand rejuvenating, and you can't\nhelp but ask for more..."
+  },
   "Annilys": {
     "location": "Depths",
     "mmlore": [
@@ -75788,6 +76241,20 @@
     "stats": {},
     "lore": "It writhes in your hand, seeking to\ntear into the void...\n* Quest Item *\n#Q225I09"
   },
+  "Rooticcini": {
+    "mmlore": [
+      "A dark mass of wriggling roots.",
+      "It somehow smells rather delicious though...",
+      "<light_purple>* Quest Item *",
+      "#Q223I04"
+    ],
+    "name": "Rooticcini",
+    "base_item": "Pitcher Pod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A dark mass of wriggling roots.\nIt somehow smells rather delicious though...\n* Quest Item *\n#Q223I04"
+  },
   "500 Pound Roast Chicken": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -76037,6 +76504,20 @@
       "projectile_damage_percent": 20
     },
     "lore": "The last of the Blackflame have died\nbut their bones carry a great power that\nfeels strangely familiar."
+  },
+  "Blightomato": {
+    "mmlore": [
+      "A vegetable corrupted by the blight.",
+      "It emits a strange aura.",
+      "<light_purple>* Quest Item *",
+      "#Q223I02"
+    ],
+    "name": "Blightomato",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A vegetable corrupted by the blight.\nIt emits a strange aura.\n* Quest Item *\n#Q223I02"
   },
   "Block Crate": {
     "mmlore": [
