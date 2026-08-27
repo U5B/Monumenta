@@ -23781,19 +23781,6 @@
     "stats": {},
     "lore": "The longer you hold it, the less understandable\nit gets. What is this? Where does it come from?\nAnd where should it go?"
   },
-  "King's Valley": {
-    "mmlore": [
-      "<!italic><dark_gray>The standard banner of King's Valley cities and towns."
-    ],
-    "name": "King's Valley",
-    "base_item": "Cyan Banner",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {
-      "material": 1
-    },
-    "lore": "The standard banner of King's Valley cities and towns."
-  },
   "Withering Hydrangea-3": {
     "location": "Zenith",
     "masterwork": "3",
@@ -41907,20 +41894,6 @@
     },
     "type": "Charm",
     "class_name": "Alchemist"
-  },
-  "Sulfuric Ash (gunpowder)": {
-    "mmlore": [
-      "<!italic><dark_gray>Smells faintly like",
-      "<!italic><dark_gray>rotten eggs.<!italic><dark_purple>",
-      "<!italic><light_purple>* Quest Item *<!italic><dark_purple>",
-      "#Q144I01"
-    ],
-    "name": "Sulfuric Ash",
-    "base_item": "Gunpowder",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "Smells faintly like\nrotten eggs.\n* Quest Item *\n#Q144I01"
   },
   "Swift Charm of Blasting": {
     "location": "Architect's Ring",
@@ -75400,21 +75373,6 @@
       "material": 1
     },
     "lore": "\"IMPORTANT, PLEASE READ CAREFULLY\nBY SIGNING THIS DOCUMENT YOU AGREE TO BE BOUND\nBY THE FOLLOWING TERMS AND CONDITIONS:\nThis contract will last for the duration of ....\""
-  },
-  "Thank You Note (paper)": {
-    "location": "Celsian Isles",
-    "mmlore": [
-      "A thank you note delivered to",
-      "you by a proud Delivery Man."
-    ],
-    "region": "Isles",
-    "tier": "Trophy",
-    "name": "Thank You Note",
-    "base_item": "Paper",
-    "release_status": "public",
-    "type": "Misc",
-    "stats": {},
-    "lore": "A thank you note delivered to\nyou by a proud Delivery Man."
   },
   "The Fine Print": {
     "location": "Celsian Isles",
@@ -113981,6 +113939,18 @@
     "stats": {},
     "lore": "A replica of the Crimson Conqueror."
   },
+  "C'Zanil, the Soulcrusher Dummy": {
+    "location": "Delves",
+    "mmlore": [
+      "A replica of the Soulcrusher."
+    ],
+    "name": "C'Zanil, the Soulcrusher Dummy",
+    "base_item": "Wither Skeleton Spawn Egg",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A replica of the Soulcrusher."
+  },
   "Conjured Terror Dummy": {
     "location": "Seasonal Pass",
     "mmlore": [
@@ -117715,22 +117685,6 @@
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
-  },
-  "Freedom (written_book)": {
-    "base_item": "Written Book",
-    "release_status": "public",
-    "type": "Written Book",
-    "stats": {}
-  },
-  "General": {
-    "mmlore": [
-      "<italic><!underlined><!strikethrough><!bold><!obfuscated><aqua>Tutorial Book"
-    ],
-    "base_item": "Written Book",
-    "release_status": "public",
-    "type": "Written Book",
-    "stats": {},
-    "lore": "Tutorial Book"
   },
   "Harbinger (written_book)": {
     "name": "Harbinger",
