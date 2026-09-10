@@ -1034,6 +1034,26 @@
     "stats": {},
     "lore": "A mobile repair station crafted by a\nrepairman with experience points. Can\nbe used to repair any item that has\nreduced durability or is Shattered.\n on an item in your\ninventory to remove one level of\nShatter or to repair it to full durability."
   },
+  "Apple Ring": {
+    "location": "Fortune",
+    "mmlore": [
+      "There's so much sugar in this, you",
+      "will for sure get the zoomies."
+    ],
+    "name": "Apple Ring",
+    "effects": [
+      {
+        "EffectDuration": 100,
+        "EffectStrength": 0.6,
+        "EffectType": "Speed"
+      }
+    ],
+    "base_item": "Apple",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "There's so much sugar in this, you\nwill for sure get the zoomies."
+  },
   "Blackroot Fruit": {
     "location": "Valley Overworld",
     "mmlore": [
@@ -1654,6 +1674,22 @@
     },
     "lore": "A requiem does not help the dead.\nRather, it comforts those that remain."
   },
+  "Dull Bell": {
+    "location": "Fortune",
+    "mmlore": [
+      "A rhyme is inscribed on its lip:",
+      "<italic>The wheel above spins fate in flight,",
+      "<italic>Seek the center beneath its light."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Dull Bell",
+    "base_item": "Bell",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A rhyme is inscribed on its lip:\nThe wheel above spins fate in flight,\nSeek the center beneath its light."
+  },
   "Easter Bell": {
     "location": "Easter",
     "mmlore": [
@@ -1785,6 +1821,22 @@
     "type": "Misc",
     "stats": {}
   },
+  "Radiant Bell": {
+    "location": "Fortune",
+    "mmlore": [
+      "The previously dull bell has absorbed the",
+      "energy lingering above Argon's gambling den.",
+      "It's time to revisit the sentinels."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Radiant Bell",
+    "base_item": "Bell",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The previously dull bell has absorbed the\nenergy lingering above Argon's gambling den.\nIt's time to revisit the sentinels."
+  },
   "Resonating Belltongue": {
     "location": "Quest Reward",
     "region": "Ring",
@@ -1908,6 +1960,21 @@
       "material": 1
     },
     "lore": "A large leaf infused with binding magic."
+  },
+  "Sound-Proof Earplugs": {
+    "location": "Fortune",
+    "mmlore": [
+      "Isolates any and all sound that",
+      "would hit the wearer's ears."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Sound-Proof Earplugs",
+    "base_item": "Birch Button",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Isolates any and all sound that\nwould hit the wearer's ears."
   },
   "Corrupted Key 3": {
     "location": "Reverie",
@@ -5981,6 +6048,18 @@
     "type": "Misc",
     "stats": {},
     "lore": "Press Swap to interact with\nobjects in The Gallery of Fear.\nRight Button to view player info.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
+  "Guard Training Guide": {
+    "mmlore": [
+      "<light_purple>* Quest Item *",
+      "#Q231I01"
+    ],
+    "name": "Guard Training Guide",
+    "base_item": "Book",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "* Quest Item *\n#Q231I01"
   },
   "Harmonic Potionmaking, Vol. 2": {
     "mmlore": [
@@ -13211,6 +13290,81 @@
     "type": "Misc",
     "stats": {}
   },
+  "Double Down-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "\"That is the way of fortune, my friend.",
+      "Now, it's time to pay your due.",
+      "Or perhaps you'd prefer a rematch?",
+      "We can always raise the stakes...\""
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Double Down",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "reflexes": 2,
+      "technique": 2,
+      "unbreaking": 7,
+      "max_health_percent": -10,
+      "armor": 8.5
+    },
+    "lore": "\"That is the way of fortune, my friend.\nNow, it's time to pay your due.\nOr perhaps you'd prefer a rematch?\nWe can always raise the stakes...\""
+  },
+  "Double Down-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "\"That is the way of fortune, my friend.",
+      "Now, it's time to pay your due.",
+      "Or perhaps you'd prefer a rematch?",
+      "We can always raise the stakes...\""
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Double Down",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "reflexes": 2,
+      "technique": 2,
+      "unbreaking": 8,
+      "max_health_percent": -10,
+      "armor": 9
+    },
+    "lore": "\"That is the way of fortune, my friend.\nNow, it's time to pay your due.\nOr perhaps you'd prefer a rematch?\nWe can always raise the stakes...\""
+  },
+  "Double Down-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "\"That is the way of fortune, my friend.",
+      "Now, it's time to pay your due.",
+      "Or perhaps you'd prefer a rematch?",
+      "We can always raise the stakes...\""
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Double Down",
+    "base_item": "Chainmail Chestplate",
+    "release_status": "public",
+    "type": "Chestplate",
+    "stats": {
+      "adaptability": 1,
+      "reflexes": 2,
+      "technique": 2,
+      "unbreaking": 9,
+      "armor": 10,
+      "max_health_percent": -10
+    },
+    "lore": "\"That is the way of fortune, my friend.\nNow, it's time to pay your due.\nOr perhaps you'd prefer a rematch?\nWe can always raise the stakes...\""
+  },
   "Edge of Death": {
     "location": "Corridors",
     "mmlore": [
@@ -19558,6 +19712,39 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Balancing Act": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Balancing Act",
+    "power": 4,
+    "base_item": "Comparator",
+    "release_status": "public",
+    "stats": {
+      "taboo_absorption_on_deactivation_max_percent": {
+        "locked": false,
+        "value": 100
+      },
+      "taboo_absorption_on_deactivation_duration_percent": {
+        "locked": false,
+        "value": 100
+      },
+      "taboo_knockback_resistance_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "taboo_absorption_on_deactivation_amount_flat": {
+        "locked": false,
+        "value": 20
+      },
+      "taboo_missing_health_fraction_per_absorption_percent": {
+        "locked": false,
+        "value": 70
+      }
+    },
+    "type": "Charm",
+    "class_name": "Alchemist"
+  },
   "Cobaltean Charm": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -22701,6 +22888,96 @@
       "projectile_damage_base": 24
     },
     "lore": "Dreams naturally desire to coalesce\ninto a greater whole, but their bonds\nare weak and frail. If it could hold\nthem together, it could create a\nworld unto itself."
+  },
+  "Pachinko Lever-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "It's almost... hypnotic, the way the lever sways",
+      "forth... the fine polish... that rich red accent...",
+      "You can barely remember why you came here..."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pachinko Lever",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "kinetic_loading": 1,
+      "melee_protection": 2,
+      "multi-load": 1,
+      "retrieval": 2,
+      "technique": 1,
+      "unbreaking": 3,
+      "speed_percent": 15,
+      "knockback_resistance_flat": 3,
+      "projectile_speed_base": 1,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 14,
+      "projectile_damage_base": 19
+    },
+    "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
+  },
+  "Pachinko Lever-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "It's almost... hypnotic, the way the lever sways",
+      "forth... the fine polish... that rich red accent...",
+      "You can barely remember why you came here..."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Pachinko Lever",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "kinetic_loading": 1,
+      "melee_protection": 2,
+      "multi-load": 1,
+      "retrieval": 3,
+      "technique": 1,
+      "unbreaking": 4,
+      "speed_percent": 15,
+      "knockback_resistance_flat": 3,
+      "projectile_damage_base": 20,
+      "projectile_speed_base": 1,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 14
+    },
+    "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
+  },
+  "Pachinko Lever-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "It's almost... hypnotic, the way the lever sways",
+      "forth... the fine polish... that rich red accent...",
+      "You can barely remember why you came here..."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Pachinko Lever",
+    "base_item": "Crossbow",
+    "release_status": "public",
+    "type": "Crossbow",
+    "stats": {
+      "kinetic_loading": 1,
+      "melee_protection": 2,
+      "multi-load": 1,
+      "retrieval": 3,
+      "technique": 2,
+      "unbreaking": 5,
+      "speed_percent": 15,
+      "knockback_resistance_flat": 3,
+      "projectile_damage_base": 20,
+      "projectile_speed_base": 1,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 15
+    },
+    "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
   },
   "Phantom Flintlock": {
     "location": "Isles Overworld",
@@ -27011,6 +27288,31 @@
     "stats": {},
     "lore": "For four hours, every five melee hits\nyou gain a random \"Combos\" effect\nfrom the Darkest Depths dungeon.\nYou feel echoes of her grasp.\n* Quest Item *\n#Q201I05"
   },
+  "Diamondback Venom": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Diamondback Venom",
+    "power": 2,
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "stats": {
+      "decayed_totem_damage_percent": {
+        "locked": false,
+        "value": 120
+      },
+      "decayed_totem_slowness_amplifier_percent": {
+        "locked": false,
+        "value": 30
+      },
+      "decayed_totem_targets_flat": {
+        "locked": true,
+        "value": -2
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Distant Boon Charm": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -27948,6 +28250,22 @@
     "stats": {},
     "lore": "Epic Crafting Ingredient"
   },
+  "Gleaming Tsavorite": {
+    "location": "Fortune",
+    "mmlore": [
+      "You can see your reflection",
+      "in every single one of its",
+      "perfected facets. Mesmerizing..."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Gleaming Tsavorite",
+    "base_item": "Emerald",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "You can see your reflection\nin every single one of its\nperfected facets. Mesmerizing..."
+  },
   "Pulsating Emerald": {
     "location": "Celsian Isles",
     "mmlore": [
@@ -28480,6 +28798,21 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
+  "Chaotic Slots Token": {
+    "location": "Fortune",
+    "mmlore": [
+      "Allows for one spin at the Chaotic",
+      "Slots in the Wanderer's Fortune."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Chaotic Slots Token",
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Allows for one spin at the Chaotic\nSlots in the Wanderer's Fortune."
+  },
   "Coven Amulet": {
     "location": "Hexfall",
     "region": "Ring",
@@ -28887,6 +29220,19 @@
       "material": 1
     },
     "lore": "Bestowed upon you by a spirit,\ncould restore an artifact to power."
+  },
+  "Enchanted Lightening Feather": {
+    "mmlore": [
+      "Steel is for sure heavier than this."
+    ],
+    "name": "Enchanted Lightening Feather",
+    "base_item": "Feather",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Steel is for sure heavier than this."
   },
   "Explosive Hunting Charm": {
     "location": "Architect's Ring",
@@ -30542,6 +30888,23 @@
     },
     "lore": "The hook sinks into a mind,\nharvesting its power.\n* Quest Item *\n#Q142I02"
   },
+  "Fortunate Rod": {
+    "location": "Fortune",
+    "mmlore": [
+      "Some fisherman could use",
+      "this in the water to fish."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Fortunate Rod",
+    "base_item": "Fishing Rod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Some fisherman could use\nthis in the water to fish."
+  },
   "Mermaid's Touch": {
     "location": "King's Valley",
     "region": "Valley",
@@ -31839,6 +32202,81 @@
     "stats": {},
     "lore": "Spillage from the labs, now just a trophy."
   },
+  "Century-Aged Liquor-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "Some find themselves so deep down the",
+      "proverbial rabbit hole, that they choose",
+      "to abandon it all. Sometimes, it is more",
+      "painful to remember than to forget."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Century-Aged Liquor",
+    "base_item": "Glass Bottle",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "regeneration": 1,
+      "trivium": 1,
+      "speed_percent": 10,
+      "max_health_flat": -2,
+      "magic_damage_percent": 25,
+      "agility": 7
+    },
+    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
+  },
+  "Century-Aged Liquor-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "Some find themselves so deep down the",
+      "proverbial rabbit hole, that they choose",
+      "to abandon it all. Sometimes, it is more",
+      "painful to remember than to forget."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Century-Aged Liquor",
+    "base_item": "Glass Bottle",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "regeneration": 1,
+      "trivium": 1,
+      "speed_percent": 10,
+      "max_health_flat": -2,
+      "agility": 8,
+      "magic_damage_percent": 25
+    },
+    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
+  },
+  "Century-Aged Liquor-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "Some find themselves so deep down the",
+      "proverbial rabbit hole, that they choose",
+      "to abandon it all. Sometimes, it is more",
+      "painful to remember than to forget."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Century-Aged Liquor",
+    "base_item": "Glass Bottle",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "regeneration": 1,
+      "trivium": 1,
+      "magic_damage_percent": 30,
+      "speed_percent": 10,
+      "max_health_flat": -2,
+      "agility": 8
+    },
+    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
+  },
   "Dormant Elemental Catalyst": {
     "location": "King's Valley",
     "mmlore": [
@@ -32925,6 +33363,35 @@
     "stats": {},
     "lore": "1.15 Upgrade\nA coin granted for catching invasive bugs,\nwhich swarmed the Valley and the Isles\nin the summer heat. It has a small beetle\nengraved on the face."
   },
+  "Crimson Coin": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Crimson Coin",
+    "power": 4,
+    "base_item": "Gold Nugget",
+    "release_status": "public",
+    "stats": {
+      "magma_shield_cooldown_percent": {
+        "locked": true,
+        "value": -40
+      },
+      "magma_shield_charges_flat": {
+        "locked": false,
+        "value": 3
+      },
+      "magma_shield_enhancement_damage_bonus_flat": {
+        "locked": false,
+        "value": -1
+      },
+      "magma_shield_damage_percent": {
+        "locked": true,
+        "value": -40
+      }
+    },
+    "type": "Charm",
+    "class_name": "Mage"
+  },
   "Despondent Doubloon": {
     "location": "Purple",
     "mmlore": [
@@ -33384,6 +33851,39 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Golden Soul": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Golden Soul",
+    "power": 1,
+    "base_item": "Golden Apple",
+    "release_status": "public",
+    "stats": {
+      "frenzy_speed_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "weapon_mastery_speed_percent": {
+        "locked": false,
+        "value": 5
+      },
+      "challenge_max_speed_amplifier_percent": {
+        "locked": false,
+        "value": 5
+      },
+      "challenge_speed_per_mob_percent": {
+        "locked": false,
+        "value": 2.5
+      },
+      "rampage_speed_amplifier_per_recast_percent": {
+        "locked": false,
+        "value": 2.5
+      }
+    },
+    "type": "Charm",
+    "class_name": "Warrior"
+  },
   "Jungle's Boon": {
     "location": "Kaul",
     "region": "Valley",
@@ -33628,6 +34128,35 @@
       "attack_speed_base": 1.1
     },
     "lore": "Even in death, our stand will see this\nrampart to the end of its days."
+  },
+  "Dauntless-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "Grand, yet aimless... The golden beast",
+      "represented brandished power...",
+      "Overwhelming, yet easily misguided.",
+      "Fortitude must be wielded by true ambition."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Dauntless",
+    "base_item": "Golden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "adrenaline": 4,
+      "momentum": 4,
+      "quake": 4,
+      "recoil": 2,
+      "two_handed": 1,
+      "unbreakable": 1,
+      "knockback_resistance_flat": 5,
+      "attack_speed_base": 0.5,
+      "attack_damage_base": 50,
+      "armor": 3
+    },
+    "lore": "Grand, yet aimless... The golden beast\nrepresented brandished power...\nOverwhelming, yet easily misguided.\nFortitude must be wielded by true ambition."
   },
   "Death's Siphon": {
     "location": "Eternity Skin",
@@ -34019,6 +34548,25 @@
     },
     "lore": "He spilled the blood.\nFor his sacrifice, his dreams were actualized.\nSo too were his nightmares."
   },
+  "Aureate Sabatons": {
+    "location": "Fortune",
+    "mmlore": [
+      "Without treasure to guard, without",
+      "intruders to destroy, the Sentinels",
+      "slumbered. Argon would never release",
+      "them from his service, and his spell",
+      "prevented their disobedience, but perhaps",
+      "someday they could be defeated, and set free..."
+    ],
+    "name": "Aureate Sabatons",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Without treasure to guard, without\nintruders to destroy, the Sentinels\nslumbered. Argon would never release\nthem from his service, and his spell\nprevented their disobedience, but perhaps\nsomeday they could be defeated, and set free..."
+  },
   "Bastion's Chausse": {
     "location": "Celsian Isles",
     "region": "Isles",
@@ -34069,6 +34617,75 @@
       "unbreaking": 4,
       "agility": 5
     }
+  },
+  "Bountiful Brogues-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "A bargain complete. These were the",
+      "first fruits of the golden age upon us."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bountiful Brogues",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "adaptability": 1,
+      "magic_protection": 2,
+      "sustenance": 1,
+      "unbreakable": 1,
+      "agility": 7.5,
+      "attack_damage_percent": 20
+    },
+    "lore": "A bargain complete. These were the\nfirst fruits of the golden age upon us."
+  },
+  "Bountiful Brogues-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "A bargain complete. These were the",
+      "first fruits of the golden age upon us."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Bountiful Brogues",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "adaptability": 1,
+      "magic_protection": 2,
+      "sustenance": 1,
+      "unbreakable": 1,
+      "agility": 8,
+      "attack_damage_percent": 25
+    },
+    "lore": "A bargain complete. These were the\nfirst fruits of the golden age upon us."
+  },
+  "Bountiful Brogues-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "A bargain complete. These were the",
+      "first fruits of the golden age upon us."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Bountiful Brogues",
+    "base_item": "Golden Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "adaptability": 1,
+      "magic_protection": 3,
+      "sustenance": 1,
+      "unbreakable": 1,
+      "agility": 8,
+      "attack_damage_percent": 25
+    },
+    "lore": "A bargain complete. These were the\nfirst fruits of the golden age upon us."
   },
   "Briskbronze Boots": {
     "location": "Celsian Isles",
@@ -34789,6 +35406,40 @@
       "agility": 9,
       "speed_percent": 5
     }
+  },
+  "Peach Ring": {
+    "location": "Fortune",
+    "mmlore": [
+      "A sweet snack with a beautiful",
+      "gradient of colors."
+    ],
+    "name": "Peach Ring",
+    "base_item": "Golden Carrot",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A sweet snack with a beautiful\ngradient of colors."
+  },
+  "Aureate Breastplate": {
+    "location": "Fortune",
+    "mmlore": [
+      "Not all was lost. He was granted vast power,",
+      "and given a vessel, a steed to command.",
+      "Together, they were bound to the treasure",
+      "room, guarding the first of many of",
+      "the island's vast stores of wealth.",
+      "Others that attempted to look past",
+      "the casino's facade were not always",
+      "granted such power or dignity."
+    ],
+    "name": "Aureate Breastplate",
+    "base_item": "Golden Chestplate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Not all was lost. He was granted vast power,\nand given a vessel, a steed to command.\nTogether, they were bound to the treasure\nroom, guarding the first of many of\nthe island's vast stores of wealth.\nOthers that attempted to look past\nthe casino's facade were not always\ngranted such power or dignity."
   },
   "Bastion's Coat": {
     "location": "Celsian Isles",
@@ -35673,6 +36324,25 @@
       "armor": 3
     }
   },
+  "Aureate Mask": {
+    "location": "Fortune",
+    "mmlore": [
+      "First came a simple wager, long ago.",
+      "The first visitor to the then-budding",
+      "casino offered a bet to Argon, one",
+      "the visitor couldn't possibly lose.",
+      "But lose he did, and the spell was cast,",
+      "and in an instant he was Argon's."
+    ],
+    "name": "Aureate Mask",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "First came a simple wager, long ago.\nThe first visitor to the then-budding\ncasino offered a bet to Argon, one\nthe visitor couldn't possibly lose.\nBut lose he did, and the spell was cast,\nand in an instant he was Argon's."
+  },
   "Auric Tiara": {
     "location": "Mist",
     "mmlore": [
@@ -35848,6 +36518,81 @@
       "armor": 9
     },
     "lore": "Set with onyx, this helm\ngleams dangerously."
+  },
+  "Crown of Avarice-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "Once he had wealth and power, Argon",
+      "realized there was far greater wealth",
+      "to be had. After all, with enough time,",
+      "everything could eventually be his."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Crown of Avarice",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "life_drain": 1,
+      "regicide": 1,
+      "unbreaking": 17,
+      "max_health_percent": 10,
+      "agility": 6.5,
+      "attack_damage_percent": 15
+    },
+    "lore": "Once he had wealth and power, Argon\nrealized there was far greater wealth\nto be had. After all, with enough time,\neverything could eventually be his."
+  },
+  "Crown of Avarice-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "Once he had wealth and power, Argon",
+      "realized there was far greater wealth",
+      "to be had. After all, with enough time,",
+      "everything could eventually be his."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Crown of Avarice",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "life_drain": 1,
+      "regicide": 1,
+      "unbreaking": 20,
+      "attack_damage_percent": 20,
+      "max_health_percent": 10,
+      "agility": 6.5
+    },
+    "lore": "Once he had wealth and power, Argon\nrealized there was far greater wealth\nto be had. After all, with enough time,\neverything could eventually be his."
+  },
+  "Crown of Avarice-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "Once he had wealth and power, Argon",
+      "realized there was far greater wealth",
+      "to be had. After all, with enough time,",
+      "everything could eventually be his."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Crown of Avarice",
+    "base_item": "Golden Helmet",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "life_drain": 1,
+      "regicide": 1,
+      "unbreaking": 25,
+      "attack_damage_percent": 20,
+      "max_health_percent": 10,
+      "agility": 7.5
+    },
+    "lore": "Once he had wealth and power, Argon\nrealized there was far greater wealth\nto be had. After all, with enough time,\neverything could eventually be his."
   },
   "Crown of the Rift": {
     "location": "Teal",
@@ -37066,6 +37811,26 @@
       "magic_damage_percent": 16
     },
     "lore": "While scholars are known for their peaceful\nresearch, the tomes they study don't\ntend to be as polite."
+  },
+  "Aureate Greaves": {
+    "location": "Fortune",
+    "mmlore": [
+      "Over centuries, the treasure",
+      "room went empty, its riches being",
+      "put to better use. Its gold now",
+      "adorned the hills around the island,",
+      "and its trophies were proudly",
+      "displayed throughout the casino.",
+      "But still, the Sentinels remained."
+    ],
+    "name": "Aureate Greaves",
+    "base_item": "Golden Leggings",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "unbreakable": 1
+    },
+    "lore": "Over centuries, the treasure\nroom went empty, its riches being\nput to better use. Its gold now\nadorned the hills around the island,\nand its trophies were proudly\ndisplayed throughout the casino.\nBut still, the Sentinels remained."
   },
   "Bastion's Greaves": {
     "location": "Celsian Isles",
@@ -38666,6 +39431,28 @@
     },
     "lore": "It is perhaps fears that stick\nstrongest in the mind."
   },
+  "Aureate-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "A statuesque and imposing construction...",
+      "His imperious call is lost without a vessel",
+      "upon which to exert his command.",
+      "Intention, echoed by physical form."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Aureate",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "first_strike": 1,
+      "unbreakable": 1,
+      "weightless": 1
+    },
+    "lore": "A statuesque and imposing construction...\nHis imperious call is lost without a vessel\nupon which to exert his command.\nIntention, echoed by physical form."
+  },
   "Blade of the Lost": {
     "location": "Challenger",
     "mmlore": [
@@ -38813,6 +39600,33 @@
       "attack_damage_percent": 25
     },
     "lore": "Like the hanging crystals above the\nArgone fortress, the prisms in your\nhand refract magic beautifully."
+  },
+  "Death Gambit-6": {
+    "location": "Fortune",
+    "masterwork": "6",
+    "mmlore": [
+      "To what end do we live? As an extension",
+      "of oneself unto the world, or the ripples",
+      "of change wrought by our stride? No.",
+      "It is the advent of true loss, an inevitable",
+      "outcome that is worth more than the sum of its toll."
+    ],
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Death Gambit",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Offhand Sword",
+    "stats": {
+      "curse_of_shrapnel": 3,
+      "sustenance": 6,
+      "unbreakable": 1,
+      "attack_damage_percent": 70,
+      "speed_percent": 20,
+      "max_health_percent": 20,
+      "attack_speed_percent": 20
+    },
+    "lore": "To what end do we live? As an extension\nof oneself unto the world, or the ripples\nof change wrought by our stride? No.\nIt is the advent of true loss, an inevitable\noutcome that is worth more than the sum of its toll."
   },
   "Doom's Edge": {
     "location": "Magenta",
@@ -40202,6 +41016,86 @@
       "attack_damage_base": 18
     },
     "lore": "Only for the riches? Simply not true.\nWe live for the risk, the thrill, the possibility\nof losing it all. Such is the soul of gambling."
+  },
+  "Lucky Seven-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "Several of the casino's most wealthy were",
+      "especially eager to support Argon's many",
+      "vain endeavors, one such patron",
+      "earning this dagger for his contribution.",
+      "Not for his support, but for his naivety."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Lucky Seven",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "chaotic": 7,
+      "fortune": 7,
+      "looting": 7,
+      "unbreakable": 1,
+      "attack_damage_base": 17,
+      "attack_speed_base": 1.7
+    },
+    "lore": "Several of the casino's most wealthy were\nespecially eager to support Argon's many\nvain endeavors, one such patron\nearning this dagger for his contribution.\nNot for his support, but for his naivety."
+  },
+  "Lucky Seven-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "Several of the casino's most wealthy were",
+      "especially eager to support Argon's many",
+      "vain endeavors, one such patron",
+      "earning this dagger for his contribution.",
+      "Not for his support, but for his naivety."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Lucky Seven",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "chaotic": 7,
+      "fortune": 7,
+      "looting": 7,
+      "unbreakable": 1,
+      "speed_percent": 7,
+      "attack_damage_base": 17,
+      "attack_speed_base": 1.7
+    },
+    "lore": "Several of the casino's most wealthy were\nespecially eager to support Argon's many\nvain endeavors, one such patron\nearning this dagger for his contribution.\nNot for his support, but for his naivety."
+  },
+  "Lucky Seven-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "Several of the casino's most wealthy were",
+      "especially eager to support Argon's many",
+      "vain endeavors, one such patron",
+      "earning this dagger for his contribution.",
+      "Not for his support, but for his naivety."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Lucky Seven",
+    "base_item": "Golden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "chaotic": 7,
+      "fortune": 7,
+      "looting": 7,
+      "unbreakable": 1,
+      "attack_damage_base": 17,
+      "attack_speed_base": 1.7,
+      "speed_percent": 17
+    },
+    "lore": "Several of the casino's most wealthy were\nespecially eager to support Argon's many\nvain endeavors, one such patron\nearning this dagger for his contribution.\nNot for his support, but for his naivety."
   },
   "Lumie": {
     "location": "Isles Overworld",
@@ -42216,6 +43110,78 @@
     "stats": {},
     "lore": "Through study of one of the Emperor's artifacts,\nIsharist scholars created this device. A way to send\nmaterials centuries through the future. With items the\nempire had never seen before, a new era was upon them.\n in main hand or Right Click in inventory to operate.\n +  for instant converting.\n +  for instant configuring.\nPress  in inventory for instant converting."
   },
+  "Ace of Hearts-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "In their most dire moments, often this",
+      "card would be played as a gambler's",
+      "last-ditch effort. What better assurance",
+      "was there that things couldn't get worse?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Ace of Hearts",
+    "base_item": "Heart Pottery Sherd",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "sustenance": 1,
+      "max_health_flat": 8,
+      "armor": 4,
+      "projectile_damage_percent": 10,
+      "magic_damage_percent": 10
+    },
+    "lore": "In their most dire moments, often this\ncard would be played as a gambler's\nlast-ditch effort. What better assurance\nwas there that things couldn't get worse?"
+  },
+  "Ace of Hearts-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "In their most dire moments, often this",
+      "card would be played as a gambler's",
+      "last-ditch effort. What better assurance",
+      "was there that things couldn't get worse?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Ace of Hearts",
+    "base_item": "Heart Pottery Sherd",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "sustenance": 1,
+      "max_health_flat": 8,
+      "projectile_damage_percent": 15,
+      "magic_damage_percent": 15,
+      "armor": 4
+    },
+    "lore": "In their most dire moments, often this\ncard would be played as a gambler's\nlast-ditch effort. What better assurance\nwas there that things couldn't get worse?"
+  },
+  "Ace of Hearts-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "In their most dire moments, often this",
+      "card would be played as a gambler's",
+      "last-ditch effort. What better assurance",
+      "was there that things couldn't get worse?"
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Ace of Hearts",
+    "base_item": "Heart Pottery Sherd",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "sustenance": 2,
+      "max_health_flat": 8,
+      "projectile_damage_percent": 15,
+      "magic_damage_percent": 15,
+      "armor": 4
+    },
+    "lore": "In their most dire moments, often this\ncard would be played as a gambler's\nlast-ditch effort. What better assurance\nwas there that things couldn't get worse?"
+  },
   "Snowberry Jam": {
     "location": "Ring Casino",
     "region": "Ring",
@@ -42315,6 +43281,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "Rumors has it that this honeycomb has special\nhealing properties. As dusk draws near, it begins\nto glow, and its magical properties are intensified.\n* Quest Item *\n#Q205I03"
+  },
+  "Golden Gears": {
+    "location": "Fortune",
+    "mmlore": [
+      "They're in pristine condition",
+      "and seem to reflect every",
+      "ray of light that hits them."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Golden Gears",
+    "base_item": "Honeycomb",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "They're in pristine condition\nand seem to reflect every\nray of light that hits them."
   },
   "Grand Prize Ticket": {
     "location": "Ring Casino",
@@ -42527,6 +43509,21 @@
     "type": "Misc",
     "stats": {},
     "lore": "Worth 20 levels\nRight button while holding to convert to experience."
+  },
+  "Golden Growth": {
+    "location": "Fortune",
+    "mmlore": [
+      "One of Argon's most prized possessions. A",
+      "gilded bush, the first gold he ever created."
+    ],
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Golden Growth",
+    "base_item": "Horn Coral",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "One of Argon's most prized possessions. A\ngilded bush, the first gold he ever created."
   },
   "Greater Charm of Static": {
     "location": "Architect's Ring",
@@ -49455,6 +50452,81 @@
     },
     "lore": "Garrisons of Witchknights were sent by Hycenea\nto defend Harrakfar from being taken by the\nSilver Order. Deep gashes upon the greaves\nevoke memories of the Knights' violent magic,\nagainst the tempered steel of the Coven."
   },
+  "House Edge-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "\"The house always wins,\" they say...",
+      "But if the house ever loses, they make",
+      "sure that lightning doesn't strike twice."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "House Edge",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "aptitude": 1,
+      "first_strike": 1,
+      "projectile_protection": 1,
+      "unbreaking": 7,
+      "projectile_speed_percent": 50,
+      "speed_percent": 5,
+      "armor": 9.5
+    },
+    "lore": "\"The house always wins,\" they say...\nBut if the house ever loses, they make\nsure that lightning doesn't strike twice."
+  },
+  "House Edge-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "\"The house always wins,\" they say...",
+      "But if the house ever loses, they make",
+      "sure that lightning doesn't strike twice."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "House Edge",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "aptitude": 1,
+      "first_strike": 1,
+      "projectile_protection": 1,
+      "unbreaking": 8,
+      "projectile_speed_percent": 50,
+      "speed_percent": 10,
+      "armor": 10
+    },
+    "lore": "\"The house always wins,\" they say...\nBut if the house ever loses, they make\nsure that lightning doesn't strike twice."
+  },
+  "House Edge-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "\"The house always wins,\" they say...",
+      "But if the house ever loses, they make",
+      "sure that lightning doesn't strike twice."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "House Edge",
+    "base_item": "Iron Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "aptitude": 1,
+      "first_strike": 2,
+      "projectile_protection": 2,
+      "unbreaking": 10,
+      "projectile_speed_percent": 50,
+      "speed_percent": 10,
+      "armor": 10
+    },
+    "lore": "\"The house always wins,\" they say...\nBut if the house ever loses, they make\nsure that lightning doesn't strike twice."
+  },
   "Icicle Greaves": {
     "location": "Eldrask",
     "mmlore": [
@@ -49901,6 +50973,31 @@
       "material": 1
     },
     "lore": "This element pulses with an unknown\nenergy. Perhaps its power can be\nharnessed into a vessel..."
+  },
+  "Loaded Dice": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Loaded Dice",
+    "power": 2,
+    "base_item": "Iron Nugget",
+    "release_status": "public",
+    "stats": {
+      "vicious_combos_enhancement_cooldown_reduction_flat": {
+        "locked": false,
+        "value": 3
+      },
+      "vicious_combos_cooldown_reduction_percent": {
+        "locked": false,
+        "value": -50
+      },
+      "vicious_combos_elite_cooldown_reduction_percent": {
+        "locked": false,
+        "value": -50
+      }
+    },
+    "type": "Charm",
+    "class_name": "Rogue"
   },
   "Moon's Chime": {
     "location": "Isles Overworld",
@@ -54094,6 +55191,22 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Exotic Growth": {
+    "location": "Fortune",
+    "mmlore": [
+      "At a second glance, you see that this isn't",
+      "exotic at all. Just a sapling of a local tree.",
+      "Maybe someone else wants this?"
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Exotic Growth",
+    "base_item": "Jungle Sapling",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "At a second glance, you see that this isn't\nexotic at all. Just a sapling of a local tree.\nMaybe someone else wants this?"
   },
   "Sprig of Mistletoe": {
     "location": "Holiday Skin",
@@ -67891,6 +69004,78 @@
       "attack_damage_percent": 18
     }
   },
+  "Trickster's Threads-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "Patrons who shouldered massive debt",
+      "were often extended a hand by Argon",
+      "himself as a way out, yet not all",
+      "that glitters is gold."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Trickster's Threads",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "ethereal": 1,
+      "life_drain": 1,
+      "stamina": 1,
+      "unbreaking": 25,
+      "agility": 7
+    },
+    "lore": "Patrons who shouldered massive debt\nwere often extended a hand by Argon\nhimself as a way out, yet not all\nthat glitters is gold."
+  },
+  "Trickster's Threads-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "Patrons who shouldered massive debt",
+      "were often extended a hand by Argon",
+      "himself as a way out, yet not all",
+      "that glitters is gold."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Trickster's Threads",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "ethereal": 1,
+      "life_drain": 1,
+      "stamina": 2,
+      "unbreaking": 30,
+      "agility": 7
+    },
+    "lore": "Patrons who shouldered massive debt\nwere often extended a hand by Argon\nhimself as a way out, yet not all\nthat glitters is gold."
+  },
+  "Trickster's Threads-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "Patrons who shouldered massive debt",
+      "were often extended a hand by Argon",
+      "himself as a way out, yet not all",
+      "that glitters is gold."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Trickster's Threads",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "ethereal": 1,
+      "life_drain": 1,
+      "stamina": 2,
+      "unbreaking": 35,
+      "agility": 8
+    },
+    "lore": "Patrons who shouldered massive debt\nwere often extended a hand by Argon\nhimself as a way out, yet not all\nthat glitters is gold."
+  },
   "Tuathan Leggings": {
     "location": "Architect's Ring",
     "region": "Ring",
@@ -68363,6 +69548,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "Guarantees a Frostborn charm\nwhen transmogrifying Zenith Charms.\n while in main hand to activate."
+  },
+  "Wet Beach Towel": {
+    "location": "Fortune",
+    "mmlore": [
+      "You were... just given this.",
+      "Now to find a place to bring it.",
+      "No way you're keeping this."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Wet Beach Towel",
+    "base_item": "Light Blue Carpet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "You were... just given this.\nNow to find a place to bring it.\nNo way you're keeping this."
   },
   "Exalted Light Blue Key": {
     "location": "Architect's Ring",
@@ -69782,6 +70983,21 @@
       "material": 1
     },
     "lore": "You can see slight seeps of black,\ndripping in and out of existance."
+  },
+  "Dry Beach Towel": {
+    "location": "Fortune",
+    "mmlore": [
+      "That's... better in a way. Maybe you",
+      "can find someone who would want this."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Dry Beach Towel",
+    "base_item": "Magenta Carpet",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "That's... better in a way. Maybe you\ncan find someone who would want this."
   },
   "Exalted Magenta Key": {
     "location": "Architect's Ring",
@@ -75431,6 +76647,23 @@
     "stats": {},
     "lore": "Worth 10 tickets, good going!"
   },
+  "Ticket to the Wanderer's Fortune": {
+    "location": "Architect's Ring",
+    "mmlore": [
+      "Admits one group of passengers aboard",
+      "the Golden Experience for passage to:",
+      "<#ffd700>The Wanderer's Fortune",
+      "Difficulty : <yellow>☠☠☠<dark_gray>☠☠"
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Ticket to the Wanderer's Fortune",
+    "base_item": "Paper",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Admits one group of passengers aboard\nthe Golden Experience for passage to:\nThe Wanderer's Fortune\nDifficulty : ☠☠☠☠☠"
+  },
   "Titanic Knowledge": {
     "location": "Eldrask",
     "mmlore": [
@@ -75980,6 +77213,35 @@
     "type": "Misc",
     "stats": {},
     "lore": "A flower petal made of enchanted\nrock, cast to the breeze to guard yourself.\n to place a 3x3 of\npink stained glass in front of you\nand consume the item."
+  },
+  "Midas Touch": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Midas Touch",
+    "power": 2,
+    "base_item": "Pink Dye",
+    "release_status": "public",
+    "stats": {
+      "touch_of_radiance_stun_duration_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "hand_of_light_enhancement_stun_duration_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "luminous_infusion_blindness_duration_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "hallowed_beam_stun_duration_flat": {
+        "locked": false,
+        "value": 1
+      }
+    },
+    "type": "Charm",
+    "class_name": "Cleric"
   },
   "Mindstone of Seasons": {
     "location": "Pink",
@@ -77642,6 +78904,22 @@
     "stats": {},
     "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
+  "Fresh Coconut Drink": {
+    "location": "Fortune",
+    "mmlore": [
+      "As with everything on Argon's island,",
+      "it's of the highest quality. Maybe you",
+      "should just drink it and enjoy the day."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Fresh Coconut Drink",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "As with everything on Argon's island,\nit's of the highest quality. Maybe you\nshould just drink it and enjoy the day."
+  },
   "Friendship Cube-2": {
     "location": "PORTAL",
     "masterwork": "2",
@@ -78479,6 +79757,87 @@
     "type": "Misc",
     "stats": {},
     "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
+  },
+  "Magic 8-Ball-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "Better not tell you now.",
+      "Outlook not so good."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Magic 8-Ball",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "aptitude": 1,
+      "fractal": 1,
+      "trivium": 1,
+      "magic_damage_percent": -10,
+      "agility": 11
+    },
+    "lore": "Better not tell you now.\nOutlook not so good."
+  },
+  "Magic 8-Ball-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "Better not tell you now.",
+      "Outlook not so good."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Magic 8-Ball",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "aptitude": 1,
+      "fractal": 1,
+      "trivium": 2,
+      "magic_damage_percent": -10,
+      "agility": 11
+    },
+    "lore": "Better not tell you now.\nOutlook not so good."
+  },
+  "Magic 8-Ball-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "Better not tell you now.",
+      "Outlook not so good."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Magic 8-Ball",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Helmet",
+    "stats": {
+      "aptitude": 1,
+      "fractal": 2,
+      "trivium": 2,
+      "magic_damage_percent": -10,
+      "agility": 11
+    },
+    "lore": "Better not tell you now.\nOutlook not so good."
+  },
+  "Magic Cue Ball": {
+    "mmlore": [
+      "Said to make 100% correct predictions...",
+      "but there's no glass to see them",
+      "through. Whose idea was this?"
+    ],
+    "name": "Magic Cue Ball",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "material": 1
+    },
+    "lore": "Said to make 100% correct predictions...\nbut there's no glass to see them\nthrough. Whose idea was this?"
   },
   "Magic Supplies Crate": {
     "mmlore": [
@@ -79437,6 +80796,78 @@
     "stats": {},
     "lore": "An item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
+  "Snake Eyes-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "The mad thrill of victory, and the",
+      "sting of defeat. Both of these hang",
+      "precariously, controlled by one",
+      "simple, yet chaotic decision."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Snake Eyes",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "curse_of_instability": 1,
+      "inure": 3,
+      "regicide": 3,
+      "second_wind": 2,
+      "armor": 4
+    },
+    "lore": "The mad thrill of victory, and the\nsting of defeat. Both of these hang\nprecariously, controlled by one\nsimple, yet chaotic decision."
+  },
+  "Snake Eyes-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "The mad thrill of victory, and the",
+      "sting of defeat. Both of these hang",
+      "precariously, controlled by one",
+      "simple, yet chaotic decision."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Snake Eyes",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "curse_of_instability": 1,
+      "inure": 3,
+      "regicide": 3,
+      "second_wind": 3,
+      "armor": 4
+    },
+    "lore": "The mad thrill of victory, and the\nsting of defeat. Both of these hang\nprecariously, controlled by one\nsimple, yet chaotic decision."
+  },
+  "Snake Eyes-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "The mad thrill of victory, and the",
+      "sting of defeat. Both of these hang",
+      "precariously, controlled by one",
+      "simple, yet chaotic decision."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Snake Eyes",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "curse_of_instability": 1,
+      "inure": 3,
+      "regicide": 3,
+      "second_wind": 3,
+      "armor": 5
+    },
+    "lore": "The mad thrill of victory, and the\nsting of defeat. Both of these hang\nprecariously, controlled by one\nsimple, yet chaotic decision."
+  },
   "Specter's Visage": {
     "location": "Delves",
     "mmlore": [
@@ -79910,6 +81341,21 @@
     },
     "lore": "A whisper of wind on my skin.\nThe taste of salt spray on my lips.\nThe final gasp as the final end comes.\nNever again. I have moved beyond mortal needs."
   },
+  "Unfathomably Expensive Beach Ball": {
+    "location": "Fortune",
+    "mmlore": [
+      "A beach ball made of gold...",
+      "How do you even play with this?"
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Unfathomably Expensive Beach Ball",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A beach ball made of gold...\nHow do you even play with this?"
+  },
   "Utopia Synthesis": {
     "mmlore": [
       "<dark_gray>Something about this strange tool calls to you.",
@@ -79999,6 +81445,21 @@
     "type": "Misc",
     "stats": {},
     "lore": "An artifact, crushed to pieces.\nMaybe it can be turned back into an item?"
+  },
+  "Wanderer's Fortune Fragment": {
+    "location": "Fortune",
+    "mmlore": [
+      "An item, crushed to pieces.",
+      "Maybe it can be turned back into an item?"
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Wanderer's Fortune Fragment",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "An item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
   "Weapons Crate": {
     "mmlore": [
@@ -81752,6 +83213,26 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Chaotic Potion": {
+    "location": "Fortune",
+    "mmlore": [
+      "A chaos, chaos! It's all too much fun!"
+    ],
+    "name": "Chaotic Potion",
+    "effects": [
+      {
+        "EffectDuration": 9940,
+        "EffectEnchant": "Chaotic",
+        "EffectStrength": 13,
+        "EffectType": "EnchantEffect"
+      }
+    ],
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "A chaos, chaos! It's all too much fun!"
   },
   "Charger's Lager": {
     "location": "Isles Overworld",
@@ -84531,6 +86012,24 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "McWorthy Wine": {
+    "location": "Fortune",
+    "mmlore": [
+      "<italic>\"Produced in the McWorthy estate in 31 AV.\"",
+      "It seems that the rich can find their way",
+      "to the Ring as well."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "McWorthy Wine",
+    "base_item": "Potion",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {
+      "infinity": 1
+    },
+    "lore": "\"Produced in the McWorthy estate in 31 AV.\"\nIt seems that the rich can find their way\nto the Ring as well."
   },
   "Might of the Stag": {
     "location": "Koal",
@@ -90232,6 +91731,35 @@
     "type": "Misc",
     "stats": {}
   },
+  "Last Surprise": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Last Surprise",
+    "power": 2,
+    "base_item": "Red Wool",
+    "release_status": "public",
+    "stats": {
+      "parting_shot_dummy_damage_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "parting_shot_radius_percent": {
+        "locked": false,
+        "value": 50
+      },
+      "parting_shot_dummy_stun_duration_flat": {
+        "locked": false,
+        "value": 2
+      },
+      "parting_shot_dummy_health_percent": {
+        "locked": false,
+        "value": -50
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Antares": {
     "location": "Aurora",
     "region": "Ring",
@@ -90983,6 +92511,22 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {}
+  },
+  "Glimmering Salmon": {
+    "location": "Fortune",
+    "mmlore": [
+      "It shimmers unnaturally, like a toxic animal",
+      "warning its predators. But that didn't",
+      "stop the avid fisherman you got it from."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Glimmering Salmon",
+    "base_item": "Salmon",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It shimmers unnaturally, like a toxic animal\nwarning its predators. But that didn't\nstop the avid fisherman you got it from."
   },
   "Glorious Shade Seabass": {
     "location": "Architect's Ring",
@@ -96762,6 +98306,39 @@
     "stats": {},
     "lore": "Definitely not from a snowcone..."
   },
+  "Table Tennis Ball": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Table Tennis Ball",
+    "power": 1,
+    "base_item": "Snowball",
+    "release_status": "public",
+    "stats": {
+      "wind_bomb_duration_flat": {
+        "locked": false,
+        "value": 26
+      },
+      "wind_bomb_damage_percent": {
+        "locked": true,
+        "value": -100
+      },
+      "wind_bomb_radius_percent": {
+        "locked": true,
+        "value": -100
+      },
+      "wind_bomb_slow_fall_duration_flat": {
+        "locked": true,
+        "value": -1
+      },
+      "wind_bomb_vortex_duration_flat": {
+        "locked": true,
+        "value": -5
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Versatile Vase-3": {
     "location": "Overworld3",
     "masterwork": "3",
@@ -97389,6 +98966,19 @@
     "stats": {
       "curse_of_vanishing": 2,
       "projectile_speed_percent": 1000
+    }
+  },
+  "Golden Wind (spectral_arrow)": {
+    "location": "Fortune",
+    "region": "Ring",
+    "name": "Golden Wind",
+    "base_item": "Spectral Arrow",
+    "release_status": "public",
+    "type": "Projectile",
+    "stats": {
+      "chaotic": 3,
+      "thunder_aspect": 3,
+      "projectile_damage_percent": 7
     }
   },
   "Scout's Heartseeker": {
@@ -99609,6 +101199,87 @@
     "type": "Consumable",
     "stats": {},
     "lore": "A concoction so potent it could revive\na soldier from the edge of death."
+  },
+  "Sack of Greed-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "The trap was set. A golden palace",
+      "floating upon the waves. A monument",
+      "to the greed of man - for once",
+      "ensnared, what mortal could resist",
+      "her call?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Sack of Greed",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "chaotic": 3,
+      "thunder_aspect": 1,
+      "potion_radius_flat": 3,
+      "potion_recharge_rate_percent": 100,
+      "projectile_speed_base": 0.9,
+      "potion_damage_flat": 13
+    },
+    "lore": "The trap was set. A golden palace\nfloating upon the waves. A monument\nto the greed of man - for once\nensnared, what mortal could resist\nher call?"
+  },
+  "Sack of Greed-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "The trap was set. A golden palace",
+      "floating upon the waves. A monument",
+      "to the greed of man - for once",
+      "ensnared, what mortal could resist",
+      "her call?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Sack of Greed",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "chaotic": 3,
+      "thunder_aspect": 1,
+      "potion_radius_flat": 3,
+      "potion_damage_flat": 13.5,
+      "potion_recharge_rate_percent": 100,
+      "projectile_speed_base": 0.9
+    },
+    "lore": "The trap was set. A golden palace\nfloating upon the waves. A monument\nto the greed of man - for once\nensnared, what mortal could resist\nher call?"
+  },
+  "Sack of Greed-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "The trap was set. A golden palace",
+      "floating upon the waves. A monument",
+      "to the greed of man - for once",
+      "ensnared, what mortal could resist",
+      "her call?"
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Sack of Greed",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "chaotic": 3,
+      "thunder_aspect": 2,
+      "potion_radius_flat": 3,
+      "potion_damage_flat": 13.5,
+      "projectile_speed_base": 1,
+      "potion_recharge_rate_percent": 100
+    },
+    "lore": "The trap was set. A golden palace\nfloating upon the waves. A monument\nto the greed of man - for once\nensnared, what mortal could resist\nher call?"
   },
   "Sands of Isharist": {
     "location": "Teal",
@@ -108752,6 +110423,35 @@
     "stats": {},
     "lore": "A medal of honor granted to you\nfor your prowess in a race."
   },
+  "Bouncing Billiards": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Bouncing Billiards",
+    "power": 3,
+    "base_item": "Sunflower",
+    "release_status": "public",
+    "stats": {
+      "steel_trap_tether_damage_flat": {
+        "locked": false,
+        "value": 8
+      },
+      "steel_trap_tether_range_flat": {
+        "locked": false,
+        "value": 16
+      },
+      "steel_trap_duration_flat": {
+        "locked": false,
+        "value": 4
+      },
+      "steel_trap_trigger_radius_percent": {
+        "locked": false,
+        "value": -100
+      }
+    },
+    "type": "Charm",
+    "class_name": "Scout"
+  },
   "Carnival Token": {
     "location": "Carnival",
     "region": "Isles",
@@ -108761,6 +110461,24 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Casino Token": {
+    "location": "Fortune",
+    "mmlore": [
+      "<gray>Epic Crafting Material",
+      "A false coin made out of solid gold.",
+      "Nonetheless, its worth in the",
+      "Wanderer's Fortune exceeds any",
+      "price you could sell this for."
+    ],
+    "region": "Ring",
+    "tier": "Currency",
+    "name": "Casino Token",
+    "base_item": "Sunflower",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material\nA false coin made out of solid gold.\nNonetheless, its worth in the\nWanderer's Fortune exceeds any\nprice you could sell this for."
   },
   "Dawnbringer Talisman": {
     "location": "Depths",
@@ -108934,6 +110652,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "As the stranger progressed through\nthe temple, reaching its inner most\ndepths, Varcosa's soul could feel the\nshackles that had long bound him fall\naway. Had it been done? Had someone\ntruly claimed The Corsair, tearing it\nfrom the anchor that gave it dominion\nhere? The time had come for him to\nleave. He must scour the Veil and find\nhis crew. They needed their captain."
+  },
+  "Sun Pendant": {
+    "location": "Fortune",
+    "mmlore": [
+      "Should you really have taken this?",
+      "How much else has she lost in her past?",
+      "And what will remain of her in the end?"
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Sun Pendant",
+    "base_item": "Sunflower",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Should you really have taken this?\nHow much else has she lost in her past?\nAnd what will remain of her in the end?"
   },
   "Swift Spiritual Charm": {
     "location": "Architect's Ring",
@@ -111254,6 +112988,87 @@
       "projectile_damage_base": 32
     },
     "lore": "A sharpened pike coated in blood, guts, and\nmatted fur. The Norvigut recognized only\nstrength and brutality down here."
+  },
+  "Opulent Cane-2": {
+    "location": "Quest Reward",
+    "masterwork": "2",
+    "mmlore": [
+      "Argon's own cane. Luxurious and cruel.",
+      "Once a regular walking cane, it has",
+      "been reforged and hardened with pure",
+      "gold. Who knows how long that maniac",
+      "has been wandering the Ring?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Opulent Cane",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "point_blank": 2,
+      "recoil": 2,
+      "regicide": 2,
+      "unbreaking": 5,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 0.7,
+      "projectile_damage_base": 22.5
+    },
+    "lore": "Argon's own cane. Luxurious and cruel.\nOnce a regular walking cane, it has\nbeen reforged and hardened with pure\ngold. Who knows how long that maniac\nhas been wandering the Ring?"
+  },
+  "Opulent Cane-3": {
+    "location": "Quest Reward",
+    "masterwork": "3",
+    "mmlore": [
+      "Argon's own cane. Luxurious and cruel.",
+      "Once a regular walking cane, it has",
+      "been reforged and hardened with pure",
+      "gold. Who knows how long that maniac",
+      "has been wandering the Ring?"
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Opulent Cane",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "point_blank": 2,
+      "recoil": 2,
+      "regicide": 3,
+      "unbreaking": 6,
+      "projectile_speed_base": 0.8,
+      "throw_rate_base": 0.7,
+      "projectile_damage_base": 22.5
+    },
+    "lore": "Argon's own cane. Luxurious and cruel.\nOnce a regular walking cane, it has\nbeen reforged and hardened with pure\ngold. Who knows how long that maniac\nhas been wandering the Ring?"
+  },
+  "Opulent Cane-4": {
+    "location": "Quest Reward",
+    "masterwork": "4",
+    "mmlore": [
+      "Argon's own cane. Luxurious and cruel.",
+      "Once a regular walking cane, it has",
+      "been reforged and hardened with pure",
+      "gold. Who knows how long that maniac",
+      "has been wandering the Ring?"
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Opulent Cane",
+    "base_item": "Trident",
+    "release_status": "public",
+    "type": "Trident",
+    "stats": {
+      "point_blank": 3,
+      "recoil": 2,
+      "regicide": 3,
+      "unbreaking": 7,
+      "projectile_speed_base": 0.8,
+      "projectile_damage_base": 23,
+      "throw_rate_base": 0.7
+    },
+    "lore": "Argon's own cane. Luxurious and cruel.\nOnce a regular walking cane, it has\nbeen reforged and hardened with pure\ngold. Who knows how long that maniac\nhas been wandering the Ring?"
   },
   "Pole Star": {
     "location": "Holiday Skin",
@@ -113787,6 +115602,31 @@
     },
     "type": "Charm",
     "class_name": "Shaman"
+  },
+  "Blank Stare": {
+    "location": "Fortune",
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Blank Stare",
+    "power": 4,
+    "base_item": "Wither Skeleton Skull",
+    "release_status": "public",
+    "stats": {
+      "withering_gaze_cone_percent": {
+        "locked": false,
+        "value": 170
+      },
+      "withering_gaze_damage_flat": {
+        "locked": true,
+        "value": 25
+      },
+      "withering_gaze_damage_over_time_duration_percent": {
+        "locked": true,
+        "value": -75
+      }
+    },
+    "type": "Charm",
+    "class_name": "Warlock"
   },
   "Focused Executioner's Charm": {
     "location": "Architect's Ring",
@@ -118162,6 +120002,18 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q106I04\nWhat is this doing in the reserve?\nIzzy needs to know of this."
   },
+  "Shade Hunter's Log - Centurem Felix": {
+    "mmlore": [
+      "<light_purple>* Quest Item * ",
+      "<dark_gray>#Q229I01"
+    ],
+    "name": "Shade Hunter's Log - Centurem Felix",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {},
+    "lore": "* Quest Item * \n#Q229I01"
+  },
   "Shade Hunter's Log - Doomed Encampment": {
     "mmlore": [
       "<light_purple>* Quest Item *",
@@ -119189,6 +121041,44 @@
     },
     "type": "Charm",
     "class_name": "Alchemist"
+  },
+  "Wheel of Fortune": {
+    "location": "Fortune",
+    "mmlore": [
+      "<gray>Sage's Insight grants cooldown recharge instead of",
+      "<gray>refreshing abilities."
+    ],
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Wheel of Fortune",
+    "power": 4,
+    "base_item": "Yellow Glazed Terracotta",
+    "release_status": "public",
+    "stats": {
+      "sage's_insight_cooldown_rate_per_ability_reset_percent": {
+        "locked": false,
+        "value": 100
+      },
+      "sage's_insight_damage_modifier_per_stack_percent": {
+        "locked": false,
+        "value": 2
+      },
+      "sage's_insight_duration_flat": {
+        "locked": false,
+        "value": 6
+      },
+      "sage's_insight_decay_duration_flat": {
+        "locked": false,
+        "value": 2
+      },
+      "sage's_insight_stack_trigger_threshold_flat": {
+        "locked": false,
+        "value": 4
+      }
+    },
+    "type": "Charm",
+    "class_name": "Mage",
+    "lore": "Sage's Insight grants cooldown recharge instead of\nrefreshing abilities."
   },
   "LOOTBOX": {
     "location": "Valley Overworld",
