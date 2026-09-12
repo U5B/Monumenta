@@ -516,7 +516,7 @@
   },
   "jackpot": {
     "name": "Jackpot",
-    "description": "The description for this advancement will be unlocked when it's completed by at least 5 players. Progress: 0/5",
+    "description": "Mining a spawner grants the effects of 2 random (non-equipped) Delve Infusions at the same level for 60s. This infusion cannot be triggered again until the previous effects expire.",
     "category": "Delve Infusions"
   },
   "curses": {
