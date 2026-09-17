@@ -4397,8 +4397,8 @@
       "screams do not make for pleasant performance, but",
       "the intensity at which their fervor manifests into",
       "reality is a sight to behold.",
-      "Purchase of this item will grant you a full set of",
-      "cosmetic skills for Mage and its specializations."
+      "<gray>Purchase of this item will grant you a full set of",
+      "<gray>cosmetic skills for Mage and its specializations."
     ],
     "region": "Isles",
     "tier": "Epic",
@@ -6297,8 +6297,8 @@
       "And in his final moments, the Pharaoh would repeat the sins",
       "of his past. The last essence of his life, erasing history",
       "once more. In time, a new vessel would be found.",
-      "Purchase of this item will grant you a full set of",
-      "cosmetic skills for Cleric and its specializations."
+      "<gray>Purchase of this item will grant you a full set of",
+      "<gray>cosmetic skills for Cleric and its specializations."
     ],
     "region": "Isles",
     "tier": "Epic",
@@ -8866,8 +8866,8 @@
     "masterwork": "3",
     "mmlore": [
       "<dark_gray>In time, all light will die. That time grows ever",
-      "<dark_gray>closer the closer the Empty One comes to",
-      "<dark_gray>freedom."
+      "closer as the Empty One draws nearer to",
+      "freedom."
     ],
     "region": "Ring",
     "tier": "Rare",
@@ -8883,15 +8883,15 @@
       "projectile_speed_base": 3,
       "projectile_damage_base": 26
     },
-    "lore": "In time, all light will die. That time grows ever\ncloser the closer the Empty One comes to\nfreedom."
+    "lore": "In time, all light will die. That time grows ever\ncloser as the Empty One draws nearer to\nfreedom."
   },
   "Shooting Star-4": {
     "location": "Indigo",
     "masterwork": "4",
     "mmlore": [
       "<dark_gray>In time, all light will die. That time grows ever",
-      "<dark_gray>closer the closer the Empty One comes to",
-      "<dark_gray>freedom."
+      "closer as the Empty One draws nearer to",
+      "freedom."
     ],
     "region": "Ring",
     "tier": "Artifact",
@@ -8907,7 +8907,7 @@
       "projectile_speed_base": 3,
       "projectile_damage_base": 27
     },
-    "lore": "In time, all light will die. That time grows ever\ncloser the closer the Empty One comes to\nfreedom."
+    "lore": "In time, all light will die. That time grows ever\ncloser as the Empty One draws nearer to\nfreedom."
   },
   "Soulvenom Bow": {
     "location": "Yellow",
@@ -13310,8 +13310,8 @@
       "reflexes": 2,
       "technique": 2,
       "unbreaking": 7,
-      "max_health_percent": -10,
-      "armor": 8.5
+      "armor": 8.5,
+      "max_health_percent": -20
     },
     "lore": "\"That is the way of fortune, my friend.\nNow, it's time to pay your due.\nOr perhaps you'd prefer a rematch?\nWe can always raise the stakes...\""
   },
@@ -13335,8 +13335,8 @@
       "reflexes": 2,
       "technique": 2,
       "unbreaking": 8,
-      "max_health_percent": -10,
-      "armor": 9
+      "armor": 9,
+      "max_health_percent": -20
     },
     "lore": "\"That is the way of fortune, my friend.\nNow, it's time to pay your due.\nOr perhaps you'd prefer a rematch?\nWe can always raise the stakes...\""
   },
@@ -13361,7 +13361,7 @@
       "technique": 2,
       "unbreaking": 9,
       "armor": 10,
-      "max_health_percent": -10
+      "max_health_percent": -20
     },
     "lore": "\"That is the way of fortune, my friend.\nNow, it's time to pay your due.\nOr perhaps you'd prefer a rematch?\nWe can always raise the stakes...\""
   },
@@ -20900,8 +20900,9 @@
     "location": "Koal",
     "mmlore": [
       "A christmas cookie made by a baker",
-      "trapped in a festive dream. Purchase",
-      "to unlock the Cookiefy Elite Finisher."
+      "trapped in a festive dream.",
+      "<gray>Purchase of this item will grant",
+      "<gray>the Cookiefy Elite Finisher."
     ],
     "region": "Valley",
     "tier": "Event",
@@ -20910,7 +20911,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A christmas cookie made by a baker\ntrapped in a festive dream. Purchase\nto unlock the Cookiefy Elite Finisher."
+    "lore": "A christmas cookie made by a baker\ntrapped in a festive dream.\nPurchase of this item will grant\nthe Cookiefy Elite Finisher."
   },
   "Heart-Shaped Cookie": {
     "location": "Valentine's Day",
@@ -22905,17 +22906,18 @@
     "type": "Crossbow",
     "stats": {
       "kinetic_loading": 1,
-      "melee_protection": 2,
+      "melee_protection": 3,
       "multi-load": 1,
+      "multishot": 1,
       "retrieval": 2,
       "technique": 1,
       "unbreaking": 3,
-      "speed_percent": 15,
       "knockback_resistance_flat": 3,
       "projectile_speed_base": 1,
-      "attack_speed_base": 1.4,
-      "attack_damage_base": 14,
-      "projectile_damage_base": 19
+      "attack_damage_base": 10,
+      "attack_speed_base": 1.6,
+      "projectile_damage_base": 22,
+      "speed_percent": 10
     },
     "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
   },
@@ -22935,17 +22937,18 @@
     "type": "Crossbow",
     "stats": {
       "kinetic_loading": 1,
-      "melee_protection": 2,
+      "melee_protection": 3,
       "multi-load": 1,
+      "multishot": 1,
       "retrieval": 3,
       "technique": 1,
       "unbreaking": 4,
       "speed_percent": 15,
       "knockback_resistance_flat": 3,
-      "projectile_damage_base": 20,
       "projectile_speed_base": 1,
-      "attack_speed_base": 1.4,
-      "attack_damage_base": 14
+      "attack_damage_base": 10,
+      "attack_speed_base": 1.6,
+      "projectile_damage_base": 23
     },
     "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
   },
@@ -22965,17 +22968,18 @@
     "type": "Crossbow",
     "stats": {
       "kinetic_loading": 1,
-      "melee_protection": 2,
+      "melee_protection": 3,
       "multi-load": 1,
+      "multishot": 1,
       "retrieval": 3,
       "technique": 2,
       "unbreaking": 5,
       "speed_percent": 15,
       "knockback_resistance_flat": 3,
-      "projectile_damage_base": 20,
       "projectile_speed_base": 1,
-      "attack_speed_base": 1.4,
-      "attack_damage_base": 15
+      "attack_damage_base": 10,
+      "attack_speed_base": 1.6,
+      "projectile_damage_base": 23
     },
     "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
   },
@@ -28867,10 +28871,6 @@
       "advancing_shadows_range_percent": {
         "locked": false,
         "value": 50
-      },
-      "advancing_shadows_knockback_percent": {
-        "locked": false,
-        "value": 50
       }
     },
     "type": "Charm",
@@ -30409,8 +30409,8 @@
       "he swore never to return to the Arboretum.",
       "Never to learn what he unleashed. Never to",
       "learn what became of his brethren.",
-      "Purchase of this item will grant you access",
-      "to the Dissonant Vision plot border."
+      "<gray>Purchase of this item will grant access",
+      "<gray>to the Dissonant Vision plot border."
     ],
     "region": "Isles",
     "tier": "Artifact",
@@ -30419,7 +30419,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "After witnessing that realm beyond the Veil,\nhe swore never to return to the Arboretum.\nNever to learn what he unleashed. Never to\nlearn what became of his brethren.\nPurchase of this item will grant you access\nto the Dissonant Vision plot border."
+    "lore": "After witnessing that realm beyond the Veil,\nhe swore never to return to the Arboretum.\nNever to learn what he unleashed. Never to\nlearn what became of his brethren.\nPurchase of this item will grant access\nto the Dissonant Vision plot border."
   },
   "Season's Wrath": {
     "location": "Yellow",
@@ -33368,13 +33368,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Crimson Coin",
-    "power": 4,
+    "power": 5,
     "base_item": "Gold Nugget",
     "release_status": "public",
     "stats": {
       "magma_shield_cooldown_percent": {
         "locked": true,
-        "value": -40
+        "value": -50
       },
       "magma_shield_charges_flat": {
         "locked": false,
@@ -33385,8 +33385,8 @@
         "value": -1
       },
       "magma_shield_damage_percent": {
-        "locked": true,
-        "value": -40
+        "locked": false,
+        "value": -50
       }
     },
     "type": "Charm",
@@ -34149,12 +34149,13 @@
       "momentum": 4,
       "quake": 4,
       "recoil": 2,
+      "second_wind": 2,
       "two_handed": 1,
       "unbreakable": 1,
       "knockback_resistance_flat": 5,
       "attack_speed_base": 0.5,
       "attack_damage_base": 50,
-      "armor": 3
+      "armor": 5
     },
     "lore": "Grand, yet aimless... The golden beast\nrepresented brandished power...\nOverwhelming, yet easily misguided.\nFortitude must be wielded by true ambition."
   },
@@ -50994,6 +50995,14 @@
       "vicious_combos_elite_cooldown_reduction_percent": {
         "locked": false,
         "value": -50
+      },
+      "by_my_blade_attack_speed_amplifier_percent": {
+        "locked": false,
+        "value": -20
+      },
+      "by_my_blade_damage_percent": {
+        "locked": false,
+        "value": -20
       }
     },
     "type": "Charm",
@@ -54018,7 +54027,7 @@
   "Putrid Maw": {
     "location": "Cyan",
     "mmlore": [
-      "Its form was lost in the tranformation,",
+      "Its form was lost in the transformation,",
       "but perhaps this monstrosity once",
       "held beauty in its maw."
     ],
@@ -54035,7 +54044,7 @@
       "attack_damage_base": 8,
       "attack_speed_base": 1.6
     },
-    "lore": "Its form was lost in the tranformation,\nbut perhaps this monstrosity once\nheld beauty in its maw."
+    "lore": "Its form was lost in the transformation,\nbut perhaps this monstrosity once\nheld beauty in its maw."
   },
   "Regulated Cogblade-2": {
     "location": "Brown",
@@ -73723,7 +73732,7 @@
     "class_name": "Scout"
   },
   "Stellar Core": {
-    "location": "Architect's Ring",
+    "location": "Starpoint",
     "mmlore": [
       "Communion with the stars yields unearthly potentials,",
       "their unfaltering gaze may last an eternity.",
@@ -76876,7 +76885,7 @@
   "Otherworldly Gem": {
     "location": "Hekawt",
     "mmlore": [
-      "What ever it is, it is clearly not",
+      "Whatever it is, it is clearly not",
       "of this world. Could twist the",
       "forms of certain items."
     ],
@@ -76887,7 +76896,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "What ever it is, it is clearly not\nof this world. Could twist the\nforms of certain items."
+    "lore": "Whatever it is, it is clearly not\nof this world. Could twist the\nforms of certain items."
   },
   "Rune of Infiltration": {
     "location": "Twisted",
@@ -77709,10 +77718,27 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q102I01"
   },
+  "Black Box": {
+    "location": "Fortune",
+    "mmlore": [
+      "<dark_gray>The last log of a long-destroyed machine.",
+      "<dark_gray>You promised this to The Proprietor in the",
+      "<dark_gray>Sticks and Stones Tavern. What could she",
+      "<dark_gray>possibly want with this? You need to find out."
+    ],
+    "region": "Ring",
+    "tier": "Trophy",
+    "name": "Black Box",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The last log of a long-destroyed machine.\nYou promised this to The Proprietor in the\nSticks and Stones Tavern. What could she\npossibly want with this? You need to find out."
+  },
   "Blackflame Remains": {
     "location": "Remorse",
     "mmlore": [
-      "The last of the Blackflame have died",
+      "The last of the Blackflame have died,",
       "but their bones carry a great power that",
       "feels strangely familiar."
     ],
@@ -77727,7 +77753,7 @@
       "agility": 6,
       "projectile_damage_percent": 20
     },
-    "lore": "The last of the Blackflame have died\nbut their bones carry a great power that\nfeels strangely familiar."
+    "lore": "The last of the Blackflame have died,\nbut their bones carry a great power that\nfeels strangely familiar."
   },
   "Blightomato": {
     "mmlore": [
@@ -92326,10 +92352,6 @@
       "advancing_shadows_range_percent": {
         "locked": false,
         "value": 250
-      },
-      "advancing_shadows_knockback_percent": {
-        "locked": false,
-        "value": 50
       },
       "advancing_shadows_cooldown_percent": {
         "locked": false,
@@ -110434,15 +110456,19 @@
     "stats": {
       "steel_trap_tether_damage_flat": {
         "locked": false,
-        "value": 8
+        "value": 20
       },
       "steel_trap_tether_range_flat": {
         "locked": false,
-        "value": 16
+        "value": 20
       },
       "steel_trap_duration_flat": {
         "locked": false,
-        "value": 4
+        "value": 3
+      },
+      "steel_trap_priming_duration_percent": {
+        "locked": false,
+        "value": -100
       },
       "steel_trap_trigger_radius_percent": {
         "locked": false,
