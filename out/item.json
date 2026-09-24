@@ -22910,9 +22910,7 @@
       "multi-load": 1,
       "multishot": 1,
       "retrieval": 2,
-      "technique": 1,
       "unbreaking": 3,
-      "knockback_resistance_flat": 3,
       "projectile_speed_base": 1,
       "attack_damage_base": 10,
       "attack_speed_base": 1.6,
@@ -22941,10 +22939,8 @@
       "multi-load": 1,
       "multishot": 1,
       "retrieval": 3,
-      "technique": 1,
       "unbreaking": 4,
       "speed_percent": 15,
-      "knockback_resistance_flat": 3,
       "projectile_speed_base": 1,
       "attack_damage_base": 10,
       "attack_speed_base": 1.6,
@@ -22972,10 +22968,8 @@
       "multi-load": 1,
       "multishot": 1,
       "retrieval": 3,
-      "technique": 2,
       "unbreaking": 5,
       "speed_percent": 15,
-      "knockback_resistance_flat": 3,
       "projectile_speed_base": 1,
       "attack_damage_base": 10,
       "attack_speed_base": 1.6,
@@ -27198,6 +27192,81 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Century-Aged Liquor-2": {
+    "location": "Fortune",
+    "masterwork": "2",
+    "mmlore": [
+      "Some find themselves so deep down the",
+      "proverbial rabbit hole, that they choose",
+      "to abandon it all. Sometimes, it is more",
+      "painful to remember than to forget."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Century-Aged Liquor",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "regeneration": 1,
+      "trivium": 1,
+      "speed_percent": 10,
+      "max_health_flat": -2,
+      "magic_damage_percent": 25,
+      "agility": 7
+    },
+    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
+  },
+  "Century-Aged Liquor-3": {
+    "location": "Fortune",
+    "masterwork": "3",
+    "mmlore": [
+      "Some find themselves so deep down the",
+      "proverbial rabbit hole, that they choose",
+      "to abandon it all. Sometimes, it is more",
+      "painful to remember than to forget."
+    ],
+    "region": "Ring",
+    "tier": "Rare",
+    "name": "Century-Aged Liquor",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "regeneration": 1,
+      "trivium": 1,
+      "speed_percent": 10,
+      "max_health_flat": -2,
+      "agility": 8,
+      "magic_damage_percent": 25
+    },
+    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
+  },
+  "Century-Aged Liquor-4": {
+    "location": "Fortune",
+    "masterwork": "4",
+    "mmlore": [
+      "Some find themselves so deep down the",
+      "proverbial rabbit hole, that they choose",
+      "to abandon it all. Sometimes, it is more",
+      "painful to remember than to forget."
+    ],
+    "region": "Ring",
+    "tier": "Artifact",
+    "name": "Century-Aged Liquor",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "regeneration": 1,
+      "trivium": 1,
+      "magic_damage_percent": 30,
+      "speed_percent": 10,
+      "max_health_flat": -2,
+      "agility": 8
+    },
+    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
   },
   "Concentrated Experience": {
     "location": "King's Valley",
@@ -32201,81 +32270,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Spillage from the labs, now just a trophy."
-  },
-  "Century-Aged Liquor-2": {
-    "location": "Fortune",
-    "masterwork": "2",
-    "mmlore": [
-      "Some find themselves so deep down the",
-      "proverbial rabbit hole, that they choose",
-      "to abandon it all. Sometimes, it is more",
-      "painful to remember than to forget."
-    ],
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Century-Aged Liquor",
-    "base_item": "Glass Bottle",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "regeneration": 1,
-      "trivium": 1,
-      "speed_percent": 10,
-      "max_health_flat": -2,
-      "magic_damage_percent": 25,
-      "agility": 7
-    },
-    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
-  },
-  "Century-Aged Liquor-3": {
-    "location": "Fortune",
-    "masterwork": "3",
-    "mmlore": [
-      "Some find themselves so deep down the",
-      "proverbial rabbit hole, that they choose",
-      "to abandon it all. Sometimes, it is more",
-      "painful to remember than to forget."
-    ],
-    "region": "Ring",
-    "tier": "Rare",
-    "name": "Century-Aged Liquor",
-    "base_item": "Glass Bottle",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "regeneration": 1,
-      "trivium": 1,
-      "speed_percent": 10,
-      "max_health_flat": -2,
-      "agility": 8,
-      "magic_damage_percent": 25
-    },
-    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
-  },
-  "Century-Aged Liquor-4": {
-    "location": "Fortune",
-    "masterwork": "4",
-    "mmlore": [
-      "Some find themselves so deep down the",
-      "proverbial rabbit hole, that they choose",
-      "to abandon it all. Sometimes, it is more",
-      "painful to remember than to forget."
-    ],
-    "region": "Ring",
-    "tier": "Artifact",
-    "name": "Century-Aged Liquor",
-    "base_item": "Glass Bottle",
-    "release_status": "public",
-    "type": "Offhand",
-    "stats": {
-      "regeneration": 1,
-      "trivium": 1,
-      "magic_damage_percent": 30,
-      "speed_percent": 10,
-      "max_health_flat": -2,
-      "agility": 8
-    },
-    "lore": "Some find themselves so deep down the\nproverbial rabbit hole, that they choose\nto abandon it all. Sometimes, it is more\npainful to remember than to forget."
   },
   "Dormant Elemental Catalyst": {
     "location": "King's Valley",
@@ -56066,7 +56060,7 @@
     "stats": {
       "projectile_protection": 2,
       "unbreaking": 2,
-      "agility": 1
+      "armor": 1
     }
   },
   "Bark of the Gateway Tree": {
@@ -56459,7 +56453,7 @@
     "stats": {
       "magic_protection": 1,
       "unbreaking": 2,
-      "agility": 1.5
+      "armor": 1.5
     }
   },
   "Crimstonian Boots": {
@@ -59363,7 +59357,7 @@
     "stats": {
       "projectile_protection": 2,
       "unbreaking": 2,
-      "agility": 1
+      "armor": 1
     }
   },
   "Basic Leather Tunic": {
@@ -60087,7 +60081,7 @@
     "stats": {
       "projectile_protection": 1,
       "unbreaking": 2,
-      "agility": 1.5
+      "armor": 1.5
     }
   },
   "Crimstonian Chestpiece": {
@@ -63084,7 +63078,7 @@
     "stats": {
       "projectile_protection": 2,
       "unbreaking": 2,
-      "agility": 1
+      "armor": 1
     }
   },
   "Basic Leather Cap": {
@@ -63605,7 +63599,7 @@
     "stats": {
       "blast_protection": 1,
       "unbreaking": 2,
-      "agility": 1.5
+      "armor": 1.5
     }
   },
   "Crimstonian Helm": {
@@ -66141,7 +66135,7 @@
     "stats": {
       "projectile_protection": 2,
       "unbreaking": 2,
-      "agility": 1
+      "armor": 1
     }
   },
   "Basic Leather Pants": {
@@ -66392,7 +66386,7 @@
     "stats": {
       "melee_protection": 1,
       "unbreaking": 2,
-      "agility": 1.5
+      "armor": 1.5
     }
   },
   "Crimstonian Leggings": {
@@ -70374,8 +70368,8 @@
   "Magnetized Needle": {
     "location": "Marina Noir",
     "mmlore": [
-      "The needle reverberates the pulse of the",
-      "pulse of the earth, longing to guide your path.",
+      "The needle reverberates with the pulse of",
+      "the earth, longing to guide your path.",
       "<bold><yellow>Taking this item outside of the dungeon",
       "<bold><yellow>will instead drop it in the dungeon.",
       "<#363486>* DG Key 2-3 *"
@@ -70387,7 +70381,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The needle reverberates the pulse of the\npulse of the earth, longing to guide your path.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-3 *"
+    "lore": "The needle reverberates with the pulse of\nthe earth, longing to guide your path.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-3 *"
   },
   "Starmetal Conductor": {
     "location": "Starpoint",
@@ -105389,7 +105383,7 @@
     "type": "Scythe",
     "stats": {
       "smite": 1,
-      "unbreaking": 1,
+      "unbreaking": 2,
       "attack_damage_base": 3,
       "attack_speed_base": 2
     }
@@ -105525,7 +105519,7 @@
     "type": "Scythe",
     "stats": {
       "smite": 1,
-      "unbreaking": 2,
+      "unbreaking": 3,
       "attack_damage_base": 3.5,
       "attack_speed_base": 2
     }
@@ -105539,8 +105533,9 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "slayer": 1,
       "melee_protection": 1,
+      "slayer": 1,
+      "unbreaking": 3,
       "attack_damage_base": 4,
       "attack_speed_base": 2
     }
@@ -118629,7 +118624,7 @@
       "unbreaking": 10,
       "attack_damage_base": 4.5,
       "attack_speed_base": 1.6,
-      "agility": 0.5
+      "armor": 0.5
     }
   },
   "Thief's Dagger": {
