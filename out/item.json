@@ -1982,7 +1982,7 @@
       "Velara fortress has fallen. Kaul's strength",
       "is not enough. C'Zanil has fled to the Temple and",
       "is harvesting the souls of the fallen to power",
-      "his deadly rituals. Kaul is aware of my transgressions",
+      "his deadly rituals. Kaul is aware of my transgressions.",
       "<bold><yellow>Taking this item outside of the dungeon",
       "<bold><yellow>will instead drop it in the dungeon.",
       "<#363486>* DN Key 3 *"
@@ -1996,7 +1996,7 @@
     "stats": {
       "curse_of_corruption": 1
     },
-    "lore": "Velara fortress has fallen. Kaul's strength\nis not enough. C'Zanil has fled to the Temple and\nis harvesting the souls of the fallen to power\nhis deadly rituals. Kaul is aware of my transgressions\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DN Key 3 *"
+    "lore": "Velara fortress has fallen. Kaul's strength\nis not enough. C'Zanil has fled to the Temple and\nis harvesting the souls of the fallen to power\nhis deadly rituals. Kaul is aware of my transgressions.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DN Key 3 *"
   },
   "Banner of the Titans": {
     "mmlore": [
@@ -3783,7 +3783,7 @@
   "Caramel-Covered Staff": {
     "location": "Halloween Event",
     "mmlore": [
-      "All the hardened caramel make it a",
+      "All the hardened caramel makes it a",
       "surprisingly potent spear!",
       "If only it wasn't so sticky..."
     ],
@@ -3801,7 +3801,7 @@
       "speed_percent": -30,
       "attack_speed_base": 1.5
     },
-    "lore": "All the hardened caramel make it a\nsurprisingly potent spear!\nIf only it wasn't so sticky..."
+    "lore": "All the hardened caramel makes it a\nsurprisingly potent spear!\nIf only it wasn't so sticky..."
   },
   "Combustion Staff": {
     "location": "Celsian Isles",
@@ -4477,7 +4477,7 @@
     "location": "Celsian Isles",
     "mmlore": [
       "Interdimensional magic pulses",
-      "throught the body of the wand.",
+      "through the body of the wand.",
       "",
       "<yellow><key:key.use/> to shoot an orange firework.",
       "<yellow><key:key.attack/> to shoot a blue firework."
@@ -4489,7 +4489,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Interdimensional magic pulses\nthrought the body of the wand.\n\n to shoot an orange firework.\n to shoot a blue firework."
+    "lore": "Interdimensional magic pulses\nthrough the body of the wand.\n\n to shoot an orange firework.\n to shoot a blue firework."
   },
   "Unholy Caster (blaze_rod)": {
     "mmlore": [
@@ -7156,7 +7156,7 @@
   "Break of Dawn": {
     "location": "Celsian Isles Explorer",
     "mmlore": [
-      "The wrath of the Pharaohs arrive like",
+      "The wrath of the Pharaohs arrives like",
       "the rising of the morning sun...",
       "Harsh, absolute, and uncaring for the",
       "lives of those beneath them."
@@ -7175,7 +7175,7 @@
       "projectile_speed_base": 1.5,
       "projectile_damage_base": 20
     },
-    "lore": "The wrath of the Pharaohs arrive like\nthe rising of the morning sun...\nHarsh, absolute, and uncaring for the\nlives of those beneath them."
+    "lore": "The wrath of the Pharaohs arrives like\nthe rising of the morning sun...\nHarsh, absolute, and uncaring for the\nlives of those beneath them."
   },
   "Chillwind Shortbow": {
     "location": "Celsian Isles",
@@ -8227,6 +8227,27 @@
       "projectile_speed_base": 1,
       "projectile_damage_base": 20
     }
+  },
+  "Mistlauncher": {
+    "location": "Alchemy Labs",
+    "mmlore": [
+      "There were places the hot air",
+      "balloons could not reach. They called",
+      "for more direct applications of poison."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Mistlauncher",
+    "base_item": "Bow",
+    "release_status": "public",
+    "type": "Bow",
+    "stats": {
+      "decay": 1,
+      "unbreaking": 3,
+      "projectile_speed_base": 0.8,
+      "projectile_damage_base": 10
+    },
+    "lore": "There were places the hot air\nballoons could not reach. They called\nfor more direct applications of poison."
   },
   "Mycelian Crescent-0": {
     "location": "Quest Reward",
@@ -11389,7 +11410,7 @@
   "Chains of Entropy": {
     "location": "Harmonic Arboretum",
     "mmlore": [
-      "When Lilac and Rose restored as one,",
+      "When Lilac and Rose were restored as one,",
       "the Chains were born in unity."
     ],
     "region": "Isles",
@@ -11399,17 +11420,17 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "unbreakable": 1,
-      "magic_protection": 3,
+      "blast_protection": 3,
       "curse_of_anemia": 2,
       "fire_protection": 3,
-      "blast_protection": 3,
+      "magic_protection": 3,
       "projectile_protection": 3,
+      "unbreakable": 1,
       "max_health_flat": -4,
       "speed_percent": 10,
       "armor": 11
     },
-    "lore": "When Lilac and Rose restored as one,\nthe Chains were born in unity."
+    "lore": "When Lilac and Rose were restored as one,\nthe Chains were born in unity."
   },
   "Chains of Legacy-1": {
     "location": "Pelias' Keep",
@@ -13069,7 +13090,7 @@
     "location": "Cradle of the Broken God",
     "masterwork": "2",
     "mmlore": [
-      "If the existence of a watch insists a",
+      "If the existence of a watch insists upon a",
       "watchmaker, then does not the craftsman",
       "require a maker of their own? But",
       "what being could've begotten the Machine?"
@@ -13081,20 +13102,20 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 7,
       "blast_protection": 4,
-      "shielding": 1,
       "magic_protection": 3,
+      "shielding": 1,
+      "unbreaking": 7,
       "max_health_flat": -4,
       "armor": 10.5
     },
-    "lore": "If the existence of a watch insists a\nwatchmaker, then does not the craftsman\nrequire a maker of their own? But\nwhat being could've begotten the Machine?"
+    "lore": "If the existence of a watch insists upon a\nwatchmaker, then does not the craftsman\nrequire a maker of their own? But\nwhat being could've begotten the Machine?"
   },
   "Clockwork Enigma-3": {
     "location": "Cradle of the Broken God",
     "masterwork": "3",
     "mmlore": [
-      "If the existence of a watch insists a",
+      "If the existence of a watch insists upon a",
       "watchmaker, then does not the craftsman",
       "require a maker of their own? But",
       "what being could've begotten the Machine?"
@@ -13106,20 +13127,20 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 8,
       "blast_protection": 4,
-      "shielding": 1,
       "magic_protection": 4,
+      "shielding": 1,
+      "unbreaking": 8,
       "max_health_flat": -4,
       "armor": 10.5
     },
-    "lore": "If the existence of a watch insists a\nwatchmaker, then does not the craftsman\nrequire a maker of their own? But\nwhat being could've begotten the Machine?"
+    "lore": "If the existence of a watch insists upon a\nwatchmaker, then does not the craftsman\nrequire a maker of their own? But\nwhat being could've begotten the Machine?"
   },
   "Clockwork Enigma-4": {
     "location": "Cradle of the Broken God",
     "masterwork": "4",
     "mmlore": [
-      "If the existence of a watch insists a",
+      "If the existence of a watch insists upon a",
       "watchmaker, then does not the craftsman",
       "require a maker of their own? But",
       "what being could've begotten the Machine?"
@@ -13131,14 +13152,14 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "unbreaking": 8,
       "blast_protection": 4,
-      "shielding": 1,
       "magic_protection": 4,
+      "shielding": 1,
+      "unbreaking": 8,
       "max_health_flat": -4,
       "armor": 11.5
     },
-    "lore": "If the existence of a watch insists a\nwatchmaker, then does not the craftsman\nrequire a maker of their own? But\nwhat being could've begotten the Machine?"
+    "lore": "If the existence of a watch insists upon a\nwatchmaker, then does not the craftsman\nrequire a maker of their own? But\nwhat being could've begotten the Machine?"
   },
   "Cognizant Seal-4": {
     "location": "Twisted lxxxxxxx",
@@ -18441,7 +18462,7 @@
     "masterwork": "2",
     "mmlore": [
       "<dark_gray>The most valued role for a citizen of",
-      "<dark_gray>Neo Antium was to be the calibrators",
+      "<dark_gray>Neo Antium was to be the calibrator",
       "<dark_gray>of the Machine's power matrix. It was",
       "<dark_gray>an act of service for the future Architect."
     ],
@@ -18452,21 +18473,21 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 1,
       "poise": 1,
+      "projectile_protection": 1,
       "max_health_flat": -4,
       "armor": 7.5,
       "speed_percent": 15,
       "magic_damage_percent": 25
     },
-    "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrators\nof the Machine's power matrix. It was\nan act of service for the future Architect."
+    "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrator\nof the Machine's power matrix. It was\nan act of service for the future Architect."
   },
   "Motherboard Calibrator-3": {
     "location": "Cradle of the Broken God",
     "masterwork": "3",
     "mmlore": [
       "<dark_gray>The most valued role for a citizen of",
-      "<dark_gray>Neo Antium was to be the calibrators",
+      "<dark_gray>Neo Antium was to be the calibrator",
       "<dark_gray>of the Machine's power matrix. It was",
       "<dark_gray>an act of service for the future Architect."
     ],
@@ -18477,21 +18498,21 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 1,
       "poise": 1,
+      "projectile_protection": 1,
       "max_health_flat": -4,
       "armor": 8,
       "speed_percent": 20,
       "magic_damage_percent": 28
     },
-    "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrators\nof the Machine's power matrix. It was\nan act of service for the future Architect."
+    "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrator\nof the Machine's power matrix. It was\nan act of service for the future Architect."
   },
   "Motherboard Calibrator-4": {
     "location": "Cradle of the Broken God",
     "masterwork": "4",
     "mmlore": [
       "<dark_gray>The most valued role for a citizen of",
-      "<dark_gray>Neo Antium was to be the calibrators",
+      "<dark_gray>Neo Antium was to be the calibrator",
       "<dark_gray>of the Machine's power matrix. It was",
       "<dark_gray>an act of service for the future Architect."
     ],
@@ -18502,14 +18523,14 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "poise": 1,
+      "projectile_protection": 2,
       "max_health_flat": -4,
       "armor": 8,
       "speed_percent": 20,
       "magic_damage_percent": 35
     },
-    "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrators\nof the Machine's power matrix. It was\nan act of service for the future Architect."
+    "lore": "The most valued role for a citizen of\nNeo Antium was to be the calibrator\nof the Machine's power matrix. It was\nan act of service for the future Architect."
   },
   "Speedometer": {
     "location": "King's Valley",
@@ -21418,11 +21439,15 @@
     "lore": "Obtained in the Marsh Madness Pass."
   },
   "Bloodflame Fungus": {
+    "mmlore": [
+      "Just touching it gives you heartburn."
+    ],
     "name": "Bloodflame Fungus",
     "base_item": "Crimson Fungus",
     "release_status": "public",
     "type": "Misc",
-    "stats": {}
+    "stats": {},
+    "lore": "Just touching it gives you heartburn."
   },
   "Esoteric Fungus": {
     "location": "Celsian Isles",
@@ -25510,7 +25535,7 @@
     "masterwork": "2",
     "mmlore": [
       "As the two merged into a unified state",
-      "of being, a voice echoes in Aurora's",
+      "of being, a voice echoed in Aurora's",
       "mind, one both loud and yet absent at",
       "once. There was a sort of sadness",
       "in that paradox, a mouth that could",
@@ -25531,14 +25556,14 @@
       "projectile_damage_percent": 9,
       "speed_percent": 9
     },
-    "lore": "As the two merged into a unified state\nof being, a voice echoes in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
+    "lore": "As the two merged into a unified state\nof being, a voice echoed in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
   },
   "Visage of Emptiness-3": {
     "location": "Aurora's Endgame",
     "masterwork": "3",
     "mmlore": [
       "As the two merged into a unified state",
-      "of being, a voice echoes in Aurora's",
+      "of being, a voice echoed in Aurora's",
       "mind, one both loud and yet absent at",
       "once. There was a sort of sadness",
       "in that paradox, a mouth that could",
@@ -25560,14 +25585,14 @@
       "speed_percent": 10,
       "agility": 9
     },
-    "lore": "As the two merged into a unified state\nof being, a voice echoes in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
+    "lore": "As the two merged into a unified state\nof being, a voice echoed in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
   },
   "Visage of Emptiness-4": {
     "location": "Aurora's Endgame",
     "masterwork": "4",
     "mmlore": [
       "As the two merged into a unified state",
-      "of being, a voice echoes in Aurora's",
+      "of being, a voice echoed in Aurora's",
       "mind, one both loud and yet absent at",
       "once. There was a sort of sadness",
       "in that paradox, a mouth that could",
@@ -25589,7 +25614,7 @@
       "projectile_damage_percent": 10,
       "speed_percent": 10
     },
-    "lore": "As the two merged into a unified state\nof being, a voice echoes in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
+    "lore": "As the two merged into a unified state\nof being, a voice echoed in Aurora's\nmind, one both loud and yet absent at\nonce. There was a sort of sadness\nin that paradox, a mouth that could\nnot speak, a will that could not be\nfulfilled."
   },
   "Spectral Scythe": {
     "location": "Challenger Skin",
@@ -27924,6 +27949,22 @@
     "stats": {},
     "lore": "For four hours, if there are\nother players in a 12 block radius\naround you, they gain 5% damage resistance\nand you gain 5% speed.\nYou feel the souls of many, yet the mind of one.\n* Quest Item *\n#Q201I06"
   },
+  "Unstable Samples": {
+    "location": "Alchemy Labs",
+    "mmlore": [
+      "<gray>Epic Crafting Material",
+      "Deep purple mists swirl within,",
+      "shaking the bottle as you hold it."
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Unstable Samples",
+    "base_item": "Dragon Breath",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Epic Crafting Material\nDeep purple mists swirl within,\nshaking the bottle as you hold it."
+  },
   "Urn of Perpetuity": {
     "location": "Pelias' Keep",
     "region": "Ring",
@@ -28706,7 +28747,7 @@
   "Astral Tuner": {
     "location": "Celsian Isles",
     "mmlore": [
-      "The item seem to resonate under the",
+      "The item seems to resonate under the",
       "night sky. What secrets does it hold?"
     ],
     "region": "Isles",
@@ -28718,7 +28759,7 @@
     "stats": {
       "material": 1
     },
-    "lore": "The item seem to resonate under the\nnight sky. What secrets does it hold?"
+    "lore": "The item seems to resonate under the\nnight sky. What secrets does it hold?"
   },
   "Communication Crystal": {
     "mmlore": [
@@ -33510,7 +33551,7 @@
       "the way realities bleed into this place.",
       "I've been approached by a strange",
       "humanoid fae, whispering tales of my fate.",
-      "It's very odd. It's as if it knew what lied",
+      "It's very odd. It's as if it knew what lies",
       "ahead of me in this place.\""
     ],
     "region": "Valley",
@@ -33520,7 +33561,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "\"Perhaps the strangest thing here is\nthe way realities bleed into this place.\nI've been approached by a strange\nhumanoid fae, whispering tales of my fate.\nIt's very odd. It's as if it knew what lied\nahead of me in this place.\""
+    "lore": "\"Perhaps the strangest thing here is\nthe way realities bleed into this place.\nI've been approached by a strange\nhumanoid fae, whispering tales of my fate.\nIt's very odd. It's as if it knew what lies\nahead of me in this place.\""
   },
   "Golden Key": {
     "location": "Celsian Isles",
@@ -34718,7 +34759,7 @@
     "masterwork": "3",
     "mmlore": [
       "Against Aurora, and the Lunacrest, the",
-      "land would not last long. Each step made",
+      "land would not last long. Each step taken",
       "crumbled the space, the rest soon to follow."
     ],
     "region": "Ring",
@@ -34734,14 +34775,14 @@
       "throw_rate_percent": 12,
       "agility": 10
     },
-    "lore": "Against Aurora, and the Lunacrest, the\nland would not last long. Each step made\ncrumbled the space, the rest soon to follow."
+    "lore": "Against Aurora, and the Lunacrest, the\nland would not last long. Each step taken\ncrumbled the space, the rest soon to follow."
   },
   "Encumbering Void-4": {
     "location": "Phyrrys, City of Fallen Stars",
     "masterwork": "4",
     "mmlore": [
       "Against Aurora, and the Lunacrest, the",
-      "land would not last long. Each step made",
+      "land would not last long. Each step taken",
       "crumbled the space, the rest soon to follow."
     ],
     "region": "Ring",
@@ -34757,7 +34798,7 @@
       "throw_rate_percent": 18,
       "agility": 10
     },
-    "lore": "Against Aurora, and the Lunacrest, the\nland would not last long. Each step made\ncrumbled the space, the rest soon to follow."
+    "lore": "Against Aurora, and the Lunacrest, the\nland would not last long. Each step taken\ncrumbled the space, the rest soon to follow."
   },
   "Footprints Beneath Void-2": {
     "location": "Star Point",
@@ -37470,7 +37511,7 @@
   "Marauder's Haze": {
     "location": "The Black Mist",
     "mmlore": [
-      "<dark_gray>The mist of rage clouds raider's eyes.",
+      "<dark_gray>The mist of rage clouds raiders' eyes.",
       "<dark_gray>Sink deeper still and claim your prize."
     ],
     "region": "Isles",
@@ -37487,7 +37528,7 @@
       "attack_speed_base": 1.6,
       "attack_damage_base": 12.5
     },
-    "lore": "The mist of rage clouds raider's eyes.\nSink deeper still and claim your prize."
+    "lore": "The mist of rage clouds raiders' eyes.\nSink deeper still and claim your prize."
   },
   "Midas Tooth": {
     "location": "Celsian Isles",
@@ -43264,7 +43305,7 @@
   },
   "Dusk Honeycomb": {
     "mmlore": [
-      "Rumors has it that this honeycomb has special",
+      "Rumor has it that this honeycomb has special",
       "healing properties. As dusk draws near, it begins",
       "to glow, and its magical properties are intensified.",
       "<light_purple>* Quest Item *",
@@ -43275,7 +43316,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Rumors has it that this honeycomb has special\nhealing properties. As dusk draws near, it begins\nto glow, and its magical properties are intensified.\n* Quest Item *\n#Q205I03"
+    "lore": "Rumor has it that this honeycomb has special\nhealing properties. As dusk draws near, it begins\nto glow, and its magical properties are intensified.\n* Quest Item *\n#Q205I03"
   },
   "Golden Gears": {
     "location": "The Wanderer's Fortune",
@@ -44349,6 +44390,28 @@
       "knockback_resistance_flat": 1.5,
       "attack_damage_base": 19.5
     }
+  },
+  "Captain's Axe": {
+    "location": "Alchemy Labs",
+    "mmlore": [
+      "\"Rend the shields, break their will.",
+      "Stoke the fires, burn their crown!\""
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Captain's Axe",
+    "base_item": "Iron Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "efficiency": 1,
+      "knockback": 1,
+      "unbreaking": 2,
+      "attack_damage_base": 9,
+      "attack_speed_base": 0.9,
+      "armor": 1
+    },
+    "lore": "\"Rend the shields, break their will.\nStoke the fires, burn their crown!\""
   },
   "Chillwind Battleaxe": {
     "location": "Celsian Isles",
@@ -48257,7 +48320,7 @@
     "mmlore": [
       "He knew they would come for him. He thought",
       "his power, those ancient prisons of still-older",
-      "minds would save him. But they too had fallen",
+      "minds, would save him. But they too had fallen",
       "before Silver wrath."
     ],
     "region": "Ring",
@@ -48267,15 +48330,15 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 6,
-      "magic_protection": 2,
-      "regicide": 1,
-      "inferno": 2,
-      "melee_protection": 1,
       "fire_fragility": 2,
+      "inferno": 2,
+      "magic_protection": 2,
+      "melee_protection": 1,
+      "regicide": 1,
+      "unbreaking": 6,
       "armor": 8.5
     },
-    "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds would save him. But they too had fallen\nbefore Silver wrath."
+    "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds, would save him. But they too had fallen\nbefore Silver wrath."
   },
   "Shattered Crown-2": {
     "location": "Silver Knight's Tomb",
@@ -48283,7 +48346,7 @@
     "mmlore": [
       "He knew they would come for him. He thought",
       "his power, those ancient prisons of still-older",
-      "minds would save him. But they too had fallen",
+      "minds, would save him. But they too had fallen",
       "before Silver wrath."
     ],
     "region": "Ring",
@@ -48293,15 +48356,15 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 7,
-      "magic_protection": 2,
-      "regicide": 1,
-      "inferno": 3,
-      "melee_protection": 1,
       "fire_fragility": 2,
+      "inferno": 3,
+      "magic_protection": 2,
+      "melee_protection": 1,
+      "regicide": 1,
+      "unbreaking": 7,
       "armor": 9
     },
-    "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds would save him. But they too had fallen\nbefore Silver wrath."
+    "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds, would save him. But they too had fallen\nbefore Silver wrath."
   },
   "Shattered Crown-3": {
     "location": "Silver Knight's Tomb",
@@ -48309,7 +48372,7 @@
     "mmlore": [
       "He knew they would come for him. He thought",
       "his power, those ancient prisons of still-older",
-      "minds would save him. But they too had fallen",
+      "minds, would save him. But they too had fallen",
       "before Silver wrath."
     ],
     "region": "Ring",
@@ -48319,15 +48382,15 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 8,
-      "magic_protection": 2,
-      "regicide": 1,
-      "inferno": 3,
-      "melee_protection": 1,
       "fire_fragility": 2,
+      "inferno": 3,
+      "magic_protection": 2,
+      "melee_protection": 1,
+      "regicide": 1,
+      "unbreaking": 8,
       "armor": 9.5
     },
-    "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds would save him. But they too had fallen\nbefore Silver wrath."
+    "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds, would save him. But they too had fallen\nbefore Silver wrath."
   },
   "Shattered Crown-4": {
     "location": "Silver Knight's Tomb",
@@ -48335,7 +48398,7 @@
     "mmlore": [
       "He knew they would come for him. He thought",
       "his power, those ancient prisons of still-older",
-      "minds would save him. But they too had fallen",
+      "minds, would save him. But they too had fallen",
       "before Silver wrath."
     ],
     "region": "Ring",
@@ -48345,15 +48408,15 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
-      "unbreaking": 9,
-      "magic_protection": 2,
-      "regicide": 1,
-      "inferno": 3,
-      "melee_protection": 2,
       "fire_fragility": 2,
+      "inferno": 3,
+      "magic_protection": 2,
+      "melee_protection": 2,
+      "regicide": 1,
+      "unbreaking": 9,
       "armor": 9.5
     },
-    "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds would save him. But they too had fallen\nbefore Silver wrath."
+    "lore": "He knew they would come for him. He thought\nhis power, those ancient prisons of still-older\nminds, would save him. But they too had fallen\nbefore Silver wrath."
   },
   "Silvari Helm": {
     "location": "Architect's Ring",
@@ -49013,7 +49076,7 @@
     "masterwork": "0",
     "mmlore": [
       "Too ancient for the plights of her mortal",
-      "followers, the will of the all-mother is",
+      "followers, the will of the All-Mother is",
       "executed by the council. As she is absolute,",
       "so too are those four."
     ],
@@ -49024,21 +49087,21 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "decay": 2,
       "hex_eater": 2,
       "unbreaking": 4,
-      "decay": 2,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
       "attack_damage_base": 8
     },
-    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
+    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the All-Mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
   "Hycenea's Will-1": {
     "location": "The Wolfswood",
     "masterwork": "1",
     "mmlore": [
       "Too ancient for the plights of her mortal",
-      "followers, the will of the all-mother is",
+      "followers, the will of the All-Mother is",
       "executed by the council. As she is absolute,",
       "so too are those four."
     ],
@@ -49049,21 +49112,21 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "decay": 2,
       "hex_eater": 2,
       "unbreaking": 5,
-      "decay": 2,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
       "attack_damage_base": 8.5
     },
-    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
+    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the All-Mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
   "Hycenea's Will-2": {
     "location": "The Wolfswood",
     "masterwork": "2",
     "mmlore": [
       "Too ancient for the plights of her mortal",
-      "followers, the will of the all-mother is",
+      "followers, the will of the All-Mother is",
       "executed by the council. As she is absolute,",
       "so too are those four."
     ],
@@ -49074,21 +49137,21 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "decay": 2,
       "hex_eater": 2,
       "unbreaking": 5,
-      "decay": 2,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
       "attack_damage_base": 9
     },
-    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
+    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the All-Mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
   "Hycenea's Will-3": {
     "location": "The Wolfswood",
     "masterwork": "3",
     "mmlore": [
       "Too ancient for the plights of her mortal",
-      "followers, the will of the all-mother is",
+      "followers, the will of the All-Mother is",
       "executed by the council. As she is absolute,",
       "so too are those four."
     ],
@@ -49099,21 +49162,21 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "decay": 2,
       "hex_eater": 2,
       "unbreaking": 6,
-      "decay": 2,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
       "attack_damage_base": 9.5
     },
-    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
+    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the All-Mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
   "Hycenea's Will-4": {
     "location": "The Wolfswood",
     "masterwork": "4",
     "mmlore": [
       "Too ancient for the plights of her mortal",
-      "followers, the will of the all-mother is",
+      "followers, the will of the All-Mother is",
       "executed by the council. As she is absolute,",
       "so too are those four."
     ],
@@ -49124,14 +49187,14 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "decay": 3,
       "hex_eater": 2,
       "unbreaking": 7,
-      "decay": 3,
       "attack_speed_base": 2,
       "magic_damage_percent": 15,
       "attack_damage_base": 10
     },
-    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the all-mother is\nexecuted by the council. As she is absolute,\nso too are those four."
+    "lore": "Too ancient for the plights of her mortal\nfollowers, the will of the All-Mother is\nexecuted by the council. As she is absolute,\nso too are those four."
   },
   "Ice Reaper": {
     "location": "Celsian Isles Overworld",
@@ -51736,9 +51799,9 @@
   },
   "Magic Mirror": {
     "mmlore": [
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>It forces one to ponder upon the",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>It forces one to ponder upon",
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>the nature of their own reflection.",
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>- Right click while holding to be transfered",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>- Right click while holding to be transferred",
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>from the corrupted world to the normal world.",
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>- Left click while holding to reset the",
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><gray>temple to the way you found it.",
@@ -51750,7 +51813,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "It forces one to ponder upon the\nthe nature of their own reflection.\n- Right click while holding to be transfered\nfrom the corrupted world to the normal world.\n- Left click while holding to reset the\ntemple to the way you found it.\n* Quest Item *\n#Q110I05"
+    "lore": "It forces one to ponder upon\nthe nature of their own reflection.\n- Right click while holding to be transferred\nfrom the corrupted world to the normal world.\n- Left click while holding to reset the\ntemple to the way you found it.\n* Quest Item *\n#Q110I05"
   },
   "Morphic Breaker (shovel)": {
     "location": "Transmogrifier",
@@ -55255,7 +55318,7 @@
   "Basil Leaf": {
     "location": "Celsian Isles",
     "mmlore": [
-      "With every ruin of man",
+      "With every ruin of man,",
       "plants will soon take back",
       "what was originally theirs."
     ],
@@ -55268,7 +55331,7 @@
     "stats": {
       "material": 1
     },
-    "lore": "With every ruin of man\nplants will soon take back\nwhat was originally theirs."
+    "lore": "With every ruin of man,\nplants will soon take back\nwhat was originally theirs."
   },
   "Selaginella Leaf": {
     "location": "Celsian Isles",
@@ -55496,7 +55559,7 @@
     "mmlore": [
       "Encased in crystal's hold,",
       "Moon fragment shall decree.",
-      "A Prophecy fortold,",
+      "A Prophecy foretold,",
       "May peaceful light guide thee."
     ],
     "region": "Isles",
@@ -55508,7 +55571,7 @@
     "stats": {
       "weightless": 1
     },
-    "lore": "Encased in crystal's hold,\nMoon fragment shall decree.\nA Prophecy fortold,\nMay peaceful light guide thee."
+    "lore": "Encased in crystal's hold,\nMoon fragment shall decree.\nA Prophecy foretold,\nMay peaceful light guide thee."
   },
   "Soulfire Lantern": {
     "location": "The Black Mist",
@@ -55693,7 +55756,7 @@
       "Words of power are contained within this stone.",
       "No matter which angle you look at it from,",
       "you can see the moon in its reflection.",
-      "This night, it shines particularly brightly.",
+      "Tonight, it shines particularly brightly.",
       "<light_purple>* Quest Item *",
       "#Q205I09"
     ],
@@ -55702,7 +55765,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Words of power are contained within this stone.\nNo matter which angle you look at it from,\nyou can see the moon in its reflection.\nThis night, it shines particularly brightly.\n* Quest Item *\n#Q205I09"
+    "lore": "Words of power are contained within this stone.\nNo matter which angle you look at it from,\nyou can see the moon in its reflection.\nTonight, it shines particularly brightly.\n* Quest Item *\n#Q205I09"
   },
   "Sedated Consecrated Charm": {
     "location": "Architect's Ring",
@@ -57916,6 +57979,27 @@
     },
     "lore": "And in the end, I will reap you.\nYou will welcome it."
   },
+  "Rebel's Escape": {
+    "location": "Alchemy Labs",
+    "mmlore": [
+      "The best defense is to go unseen.",
+      "Strike before anyone notices, and",
+      "retreat before anyone follows."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Rebel's Escape",
+    "base_item": "Leather Boots",
+    "release_status": "public",
+    "type": "Boots",
+    "stats": {
+      "melee_protection": 1,
+      "unbreaking": 4,
+      "attack_damage_percent": 10,
+      "agility": 2
+    },
+    "lore": "The best defense is to go unseen.\nStrike before anyone notices, and\nretreat before anyone follows."
+  },
   "Red Dress (feet)": {
     "location": "King's Valley Overworld",
     "region": "Valley",
@@ -58253,7 +58337,7 @@
     "mmlore": [
       "\"This has been a long and arduous journey...",
       "though it is one I make out of necessity. I have",
-      "seen this sort of evil before, as well as the",
+      "seen this sort of evil before, as well as",
       "the danger it presents. It must be stopped.\""
     ],
     "name": "Snowtrodden Boots",
@@ -58261,7 +58345,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "\"This has been a long and arduous journey...\nthough it is one I make out of necessity. I have\nseen this sort of evil before, as well as the\nthe danger it presents. It must be stopped.\""
+    "lore": "\"This has been a long and arduous journey...\nthough it is one I make out of necessity. I have\nseen this sort of evil before, as well as\nthe danger it presents. It must be stopped.\""
   },
   "Sodden Sandals": {
     "location": "Plagueroot Temple",
@@ -64387,8 +64471,8 @@
   "Levyn's Pirate Hat": {
     "location": "Celsian Isles",
     "mmlore": [
-      "Belonged to a bright young pirate, whose",
-      "spirit has since been crushed."
+      "Belonged to a bright young pirate,",
+      "whose spirit has been crushed."
     ],
     "region": "Isles",
     "tier": "Unique",
@@ -64401,7 +64485,7 @@
       "armor": 6,
       "attack_speed_percent": 10
     },
-    "lore": "Belonged to a bright young pirate, whose\nspirit has since been crushed."
+    "lore": "Belonged to a bright young pirate,\nwhose spirit has been crushed."
   },
   "Lifeflame Cap": {
     "location": "Celsian Isles",
@@ -65844,7 +65928,7 @@
   "Xeno's Pirate Hat": {
     "location": "Celsian Isles",
     "mmlore": [
-      "Belonged to a bright young pirate",
+      "Belonged to a bright young pirate,",
       "who has been crushed."
     ],
     "region": "Isles",
@@ -65859,7 +65943,7 @@
       "armor": 7,
       "attack_speed_percent": 10
     },
-    "lore": "Belonged to a bright young pirate\nwho has been crushed."
+    "lore": "Belonged to a bright young pirate,\nwho has been crushed."
   },
   "Almon's Severed Leg": {
     "location": "Sanguine Halls",
@@ -66278,6 +66362,27 @@
       "unbreaking": 3,
       "agility": 3
     }
+  },
+  "Chemist's Scrubs": {
+    "location": "Alchemy Labs",
+    "mmlore": [
+      "Perfect for protection from violent",
+      "reactions, and for running when",
+      "the experiments starts moving."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Chemist's Scrubs",
+    "base_item": "Leather Leggings",
+    "release_status": "public",
+    "type": "Leggings",
+    "stats": {
+      "blast_protection": 2,
+      "unbreaking": 4,
+      "speed_percent": 10,
+      "agility": 2.5
+    },
+    "lore": "Perfect for protection from violent\nreactions, and for running when\nthe experiments starts moving."
   },
   "Choleric Leggings": {
     "location": "King's Valley",
@@ -69631,7 +69736,7 @@
   "Energetic Powder": {
     "location": "City of Shifting Waters",
     "mmlore": [
-      "Drop this in to the waters of the first room to",
+      "Drop this into the waters of the first room to",
       "envelop the remaining power crystals in spectral light."
     ],
     "region": "Isles",
@@ -69641,7 +69746,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "Drop this in to the waters of the first room to\nenvelop the remaining power crystals in spectral light."
+    "lore": "Drop this into the waters of the first room to\nenvelop the remaining power crystals in spectral light."
   },
   "Ice Diamond": {
     "location": "Winter Event",
@@ -70974,7 +71079,7 @@
     "location": "Celsian Isles",
     "mmlore": [
       "You can see slight seeps of black,",
-      "dripping in and out of existance."
+      "dripping in and out of existence."
     ],
     "region": "Isles",
     "tier": "Patron",
@@ -70985,7 +71090,7 @@
     "stats": {
       "material": 1
     },
-    "lore": "You can see slight seeps of black,\ndripping in and out of existance."
+    "lore": "You can see slight seeps of black,\ndripping in and out of existence."
   },
   "Dry Beach Towel": {
     "location": "The Wanderer's Fortune",
@@ -72381,7 +72486,7 @@
   "Ballad of a Hero": {
     "location": "King's Valley",
     "mmlore": [
-      "A familar, yet distant light shines",
+      "A familiar, yet distant light shines",
       "from the record. It fills you with",
       "determination."
     ],
@@ -72392,7 +72497,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "A familar, yet distant light shines\nfrom the record. It fills you with\ndetermination."
+    "lore": "A familiar, yet distant light shines\nfrom the record. It fills you with\ndetermination."
   },
   "Magical Jazz": {
     "location": "Darkest Depths",
@@ -73004,7 +73109,7 @@
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
       "#Q104I01",
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Seperates out alcohol into",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Separates out alcohol into",
       "perfect concentrations."
     ],
     "name": "Distillation Column",
@@ -73012,7 +73117,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "* Quest Item *\n#Q104I01\nSeperates out alcohol into\nperfect concentrations."
+    "lore": "* Quest Item *\n#Q104I01\nSeparates out alcohol into\nperfect concentrations."
   },
   "Garnet": {
     "location": "King's Valley",
@@ -75631,7 +75736,7 @@
   "Pure Fluff": {
     "mmlore": [
       "The temptation to snuggle with",
-      "it is nearly irresistable."
+      "it is nearly irresistible."
     ],
     "name": "Pure Fluff",
     "base_item": "Orange Dye",
@@ -75640,7 +75745,7 @@
     "stats": {
       "material": 1
     },
-    "lore": "The temptation to snuggle with\nit is nearly irresistable."
+    "lore": "The temptation to snuggle with\nit is nearly irresistible."
   },
   "Event Horizon (orange_glazed_terracotta)": {
     "location": "Sanguine Halls",
@@ -79616,6 +79721,21 @@
     "type": "Misc",
     "stats": {},
     "lore": "Click to open a Festive Gift!"
+  },
+  "Labs Fragment": {
+    "location": "Alchemy Labs",
+    "mmlore": [
+      "<!italic><gray>A rare item, crushed to pieces.",
+      "<!italic><gray>Maybe it can be turned back into an item?"
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Labs Fragment",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A rare item, crushed to pieces.\nMaybe it can be turned back into an item?"
   },
   "Levyn Bacon Mask": {
     "location": "King's Valley",
@@ -84744,7 +84864,7 @@
     "location": "Ephemeral Corridors",
     "mmlore": [
       "The liquid floats inside,",
-      "yearning to be relased."
+      "yearning to be released."
     ],
     "region": "Valley",
     "tier": "Rare",
@@ -84765,7 +84885,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "The liquid floats inside,\nyearning to be relased."
+    "lore": "The liquid floats inside,\nyearning to be released."
   },
   "Expensive Beer": {
     "location": "King's Valley Overworld",
@@ -87267,7 +87387,7 @@
   "Stilldreamer's Draught": {
     "location": "Twisted lxxxxxxx",
     "mmlore": [
-      "<dark_gray>\"You will find soon that you cannot move.",
+      "<dark_gray>\"You will soon find that you cannot move.",
       "<dark_gray>This is perfectly normal.\""
     ],
     "name": "Stilldreamer's Draught",
@@ -87292,7 +87412,7 @@
     "release_status": "public",
     "type": "Consumable",
     "stats": {},
-    "lore": "\"You will find soon that you cannot move.\nThis is perfectly normal.\""
+    "lore": "\"You will soon find that you cannot move.\nThis is perfectly normal.\""
   },
   "Stoneborn Ale": {
     "location": "Sticks and Stones Tavern",
@@ -87659,8 +87779,8 @@
   },
   "Thermal Reagent": {
     "mmlore": [
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>The liquid inside is very viscous",
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>and bottle itself is very cold to the touch.",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>The liquid inside is very viscous,",
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>and the bottle itself is very cold to the touch.",
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
       "#Q56I01"
     ],
@@ -87669,7 +87789,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "The liquid inside is very viscous\nand bottle itself is very cold to the touch.\n* Quest Item *\n#Q56I01"
+    "lore": "The liquid inside is very viscous,\nand the bottle itself is very cold to the touch.\n* Quest Item *\n#Q56I01"
   },
   "Tlaxan Wine": {
     "mmlore": [
@@ -87788,14 +87908,14 @@
   },
   "Unavailing Potion": {
     "mmlore": [
-      "At least your cauldron didnt explode."
+      "At least your cauldron didn't explode."
     ],
     "name": "Unavailing Potion",
     "base_item": "Potion",
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "At least your cauldron didnt explode."
+    "lore": "At least your cauldron didn't explode."
   },
   "Unquenchable Thirst": {
     "location": "The Celestial Zenith",
@@ -90765,6 +90885,27 @@
     "type": "Misc",
     "stats": {},
     "lore": "Obtained in the Medieval Pass."
+  },
+  "Alchemical Slag": {
+    "location": "Alchemy Labs",
+    "mmlore": [
+      "Alchemy done professionally leaves",
+      "trace residue. Alchemy done badly",
+      "leaves vast quantities of byproduct.",
+      "Dangerous, corrosive byproduct."
+    ],
+    "region": "Valley",
+    "tier": "Rare",
+    "name": "Alchemical Slag",
+    "base_item": "Raw Copper",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "projectile_protection": 2,
+      "magic_damage_percent": 8,
+      "armor": 2
+    },
+    "lore": "Alchemy done professionally leaves\ntrace residue. Alchemy done badly\nleaves vast quantities of byproduct.\nDangerous, corrosive byproduct."
   },
   "Corrupted Circuit": {
     "location": "P.O.R.T.A.L.",
@@ -93957,7 +94098,7 @@
     "mmlore": [
       "Covered in handprints from desperate sailors",
       "clinging to the log, moments before sinking.",
-      "It now serves as an effigy of their fear, of",
+      "It now serves as an effigy, of their fear of",
       "succumbing to the macabre deep."
     ],
     "region": "Ring",
@@ -93975,7 +94116,7 @@
       "attack_speed_base": 1,
       "attack_damage_base": 22.5
     },
-    "lore": "Covered in handprints from desperate sailors\nclinging to the log, moments before sinking.\nIt now serves as an effigy of their fear, of\nsuccumbing to the macabre deep."
+    "lore": "Covered in handprints from desperate sailors\nclinging to the log, moments before sinking.\nIt now serves as an effigy, of their fear of\nsuccumbing to the macabre deep."
   },
   "Dreadwood Log-3": {
     "location": "Marina Noir",
@@ -93983,7 +94124,7 @@
     "mmlore": [
       "Covered in handprints from desperate sailors",
       "clinging to the log, moments before sinking.",
-      "It now serves as an effigy of their fear, of",
+      "It now serves as an effigy, of their fear of",
       "succumbing to the macabre deep."
     ],
     "region": "Ring",
@@ -94001,7 +94142,7 @@
       "attack_speed_base": 1,
       "attack_damage_base": 23
     },
-    "lore": "Covered in handprints from desperate sailors\nclinging to the log, moments before sinking.\nIt now serves as an effigy of their fear, of\nsuccumbing to the macabre deep."
+    "lore": "Covered in handprints from desperate sailors\nclinging to the log, moments before sinking.\nIt now serves as an effigy, of their fear of\nsuccumbing to the macabre deep."
   },
   "Dreadwood Log-4": {
     "location": "Marina Noir",
@@ -94009,7 +94150,7 @@
     "mmlore": [
       "Covered in handprints from desperate sailors",
       "clinging to the log, moments before sinking.",
-      "It now serves as an effigy of their fear, of",
+      "It now serves as an effigy, of their fear of",
       "succumbing to the macabre deep."
     ],
     "region": "Ring",
@@ -94027,7 +94168,7 @@
       "attack_speed_base": 1,
       "attack_damage_base": 24
     },
-    "lore": "Covered in handprints from desperate sailors\nclinging to the log, moments before sinking.\nIt now serves as an effigy of their fear, of\nsuccumbing to the macabre deep."
+    "lore": "Covered in handprints from desperate sailors\nclinging to the log, moments before sinking.\nIt now serves as an effigy, of their fear of\nsuccumbing to the macabre deep."
   },
   "Echoes of Ru'Ten-2": {
     "location": "Silver Knight's Remnants",
@@ -95495,7 +95636,7 @@
     "mmlore": [
       "Sand blows in the wind across the",
       "desert country. Though it is marred",
-      "by the sins of its past, beauty lays",
+      "by the sins of its past, beauty lies",
       "beneath the surface. A sign that",
       "a path exists to a brighter future."
     ],
@@ -95511,7 +95652,7 @@
       "armor": 4.5,
       "attack_speed_percent": 15
     },
-    "lore": "Sand blows in the wind across the\ndesert country. Though it is marred\nby the sins of its past, beauty lays\nbeneath the surface. A sign that\na path exists to a brighter future."
+    "lore": "Sand blows in the wind across the\ndesert country. Though it is marred\nby the sins of its past, beauty lies\nbeneath the surface. A sign that\na path exists to a brighter future."
   },
   "Shackled Earth's Boon-3": {
     "location": "The Celestial Zenith",
@@ -100769,7 +100910,7 @@
   "Pestilence Vial": {
     "location": "Plagueroot Temple",
     "mmlore": [
-      "A black ooze bubbles and churms within the",
+      "A black ooze bubbles and churns within the",
       "tinted glass. A simple cork is all that separates",
       "you from the deadly plague within."
     ],
@@ -100787,7 +100928,7 @@
       "projectile_speed_base": 1.2,
       "potion_damage_flat": 2.5
     },
-    "lore": "A black ooze bubbles and churms within the\ntinted glass. A simple cork is all that separates\nyou from the deadly plague within."
+    "lore": "A black ooze bubbles and churns within the\ntinted glass. A simple cork is all that separates\nyou from the deadly plague within."
   },
   "Phantom Dew": {
     "location": "Soulwoven",
@@ -101147,6 +101288,32 @@
     "type": "Consumable",
     "stats": {}
   },
+  "Remedy for the Wounded": {
+    "location": "Mythic Reliquary",
+    "mmlore": [
+      "The whiteflame attacks were devastating",
+      "for the Tlaxani natives. Their wounds",
+      "never healed on their own, and only the",
+      "most proficient shamans could prepare",
+      "the salves needed to mend them."
+    ],
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Remedy for the Wounded",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "ice_aspect": 1,
+      "multishot": 1,
+      "potion_recharge_rate_percent": 100,
+      "projectile_speed_base": 1.5,
+      "potion_radius_flat": 2,
+      "potion_damage_flat": 6.5
+    },
+    "lore": "The whiteflame attacks were devastating\nfor the Tlaxani natives. Their wounds\nnever healed on their own, and only the\nmost proficient shamans could prepare\nthe salves needed to mend them."
+  },
   "Replica Lightning Bottle": {
     "location": "Abyssal Skin",
     "mmlore": [
@@ -101443,6 +101610,32 @@
       "potion_damage_flat": 13
     },
     "lore": "Even as it is shattered, it returns to its\noriginal form so it may be thrown once more."
+  },
+  "Shame of the Capital": {
+    "location": "Alchemy Labs",
+    "mmlore": [
+      "\"It doesn't matter how many Tlaxani",
+      "this kills or how many Narsens it will",
+      "save- today, we are all victims. And",
+      "to whom do we owe this atrocious",
+      "contrivance, if not you?\""
+    ],
+    "region": "Valley",
+    "tier": "Epic",
+    "name": "Shame of the Capital",
+    "base_item": "Splash Potion",
+    "release_status": "public",
+    "type": "Mainhand",
+    "stats": {
+      "alchemical_utensil": 1,
+      "ice_aspect": 1,
+      "multishot": 1,
+      "potion_recharge_rate_percent": 100,
+      "projectile_speed_base": 1.5,
+      "potion_radius_flat": 2,
+      "potion_damage_flat": 6.5
+    },
+    "lore": "\"It doesn't matter how many Tlaxani\nthis kills or how many Narsens it will\nsave- today, we are all victims. And\nto whom do we owe this atrocious\ncontrivance, if not you?\""
   },
   "Silver Satchel-1": {
     "location": "Silver Knight's Tomb",
@@ -104381,7 +104574,7 @@
   "Scalawag's Hatchet": {
     "location": "King's Valley",
     "mmlore": [
-      "\"Why the obssession with 'argh'? What's",
+      "\"Why the obsession with 'argh'? What's",
       "wrong with the other letters?\""
     ],
     "region": "Valley",
@@ -104392,12 +104585,12 @@
     "type": "Axe",
     "stats": {
       "abyssal": 1,
-      "unbreaking": 3,
       "efficiency": 1,
+      "unbreaking": 3,
       "attack_speed_base": 0.8,
       "attack_damage_base": 10
     },
-    "lore": "\"Why the obssession with 'argh'? What's\nwrong with the other letters?\""
+    "lore": "\"Why the obsession with 'argh'? What's\nwrong with the other letters?\""
   },
   "Silver Knight's Hammer": {
     "location": "King's Valley",
@@ -107405,7 +107598,7 @@
     "mmlore": [
       "As the horizon disappeared beyond",
       "a pitch-black sea, the echoing howls",
-      "of those lost at sea pierces through",
+      "of those lost at sea pierced through",
       "the deafening silence."
     ],
     "region": "Ring",
@@ -107416,13 +107609,13 @@
     "type": "Mainhand Sword",
     "stats": {
       "life_drain": 1,
-      "unbreaking": 3,
-      "stamina": 1,
       "mending": 1,
+      "stamina": 1,
+      "unbreaking": 3,
       "attack_speed_base": 1.7,
       "attack_damage_base": 14.5
     },
-    "lore": "As the horizon disappeared beyond\na pitch-black sea, the echoing howls\nof those lost at sea pierces through\nthe deafening silence."
+    "lore": "As the horizon disappeared beyond\na pitch-black sea, the echoing howls\nof those lost at sea pierced through\nthe deafening silence."
   },
   "Fading Horizon-3": {
     "location": "Marina Noir",
@@ -107430,7 +107623,7 @@
     "mmlore": [
       "As the horizon disappeared beyond",
       "a pitch-black sea, the echoing howls",
-      "of those lost at sea pierces through",
+      "of those lost at sea pierced through",
       "the deafening silence."
     ],
     "region": "Ring",
@@ -107441,13 +107634,13 @@
     "type": "Mainhand Sword",
     "stats": {
       "life_drain": 1,
-      "unbreaking": 3,
-      "stamina": 1,
       "mending": 1,
+      "stamina": 1,
+      "unbreaking": 3,
       "attack_speed_base": 1.7,
       "attack_damage_base": 15
     },
-    "lore": "As the horizon disappeared beyond\na pitch-black sea, the echoing howls\nof those lost at sea pierces through\nthe deafening silence."
+    "lore": "As the horizon disappeared beyond\na pitch-black sea, the echoing howls\nof those lost at sea pierced through\nthe deafening silence."
   },
   "Fading Horizon-4": {
     "location": "Marina Noir",
@@ -107455,7 +107648,7 @@
     "mmlore": [
       "As the horizon disappeared beyond",
       "a pitch-black sea, the echoing howls",
-      "of those lost at sea pierces through",
+      "of those lost at sea pierced through",
       "the deafening silence."
     ],
     "region": "Ring",
@@ -107466,13 +107659,13 @@
     "type": "Mainhand Sword",
     "stats": {
       "life_drain": 1,
-      "unbreaking": 3,
-      "stamina": 2,
       "mending": 1,
+      "stamina": 2,
+      "unbreaking": 3,
       "attack_speed_base": 1.7,
       "attack_damage_base": 15.5
     },
-    "lore": "As the horizon disappeared beyond\na pitch-black sea, the echoing howls\nof those lost at sea pierces through\nthe deafening silence."
+    "lore": "As the horizon disappeared beyond\na pitch-black sea, the echoing howls\nof those lost at sea pierced through\nthe deafening silence."
   },
   "Feldspar Sabre": {
     "location": "King's Valley",
@@ -110655,7 +110848,7 @@
     "location": "The Black Mist",
     "mmlore": [
       "As the stranger progressed through",
-      "the temple, reaching its inner most",
+      "the temple, reaching its innermost",
       "depths, Varcosa's soul could feel the",
       "shackles that had long bound him fall",
       "away. Had it been done? Had someone",
@@ -110672,7 +110865,7 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {},
-    "lore": "As the stranger progressed through\nthe temple, reaching its inner most\ndepths, Varcosa's soul could feel the\nshackles that had long bound him fall\naway. Had it been done? Had someone\ntruly claimed The Corsair, tearing it\nfrom the anchor that gave it dominion\nhere? The time had come for him to\nleave. He must scour the Veil and find\nhis crew. They needed their captain."
+    "lore": "As the stranger progressed through\nthe temple, reaching its innermost\ndepths, Varcosa's soul could feel the\nshackles that had long bound him fall\naway. Had it been done? Had someone\ntruly claimed The Corsair, tearing it\nfrom the anchor that gave it dominion\nhere? The time had come for him to\nleave. He must scour the Veil and find\nhis crew. They needed their captain."
   },
   "Sun Pendant": {
     "location": "The Wanderer's Fortune",
@@ -111453,10 +111646,10 @@
   "Shaman's Quiver": {
     "location": "King's Valley Overworld",
     "mmlore": [
-      "<gray>Connected by Ekah to the source of",
-      "<gray>Ta'Eldim's hot springs, imbuing picked",
-      "<gray>up arrows with their properties.",
-      "Press <key:key.use/> while in your inventory to open."
+      "Connected by Ekah to the source of",
+      "Ta'Eldim's hot springs, imbuing picked",
+      "up arrows with their properties.",
+      "<gray>Press <key:key.use/> while in your inventory to open."
     ],
     "region": "Valley",
     "tier": "Artifact",
@@ -111892,8 +112085,8 @@
     "location": "Malevolent Reverie",
     "mmlore": [
       "Now I stand, the guardian of Kaul's rage.",
-      "No longer can I protect my people. I only",
-      "can protect the Jungle."
+      "No longer can I protect my people.",
+      "I can only protect the Jungle."
     ],
     "region": "Valley",
     "tier": "Uncommon",
@@ -111906,7 +112099,7 @@
       "agility": 2,
       "max_health_flat": 2
     },
-    "lore": "Now I stand, the guardian of Kaul's rage.\nNo longer can I protect my people. I only\ncan protect the Jungle."
+    "lore": "Now I stand, the guardian of Kaul's rage.\nNo longer can I protect my people.\nI can only protect the Jungle."
   },
   "Necromancer's Sigil": {
     "location": "Valley of Forgotten Pharaohs",
@@ -112434,8 +112627,8 @@
   "Divine Brush (Body)": {
     "location": "Celsian Isles",
     "mmlore": [
-      "A beautiful inkbrush without its tip",
-      "waiting for to be completed with",
+      "A beautiful inkbrush without its tip,",
+      "waiting to be completed with",
       "equally special powder."
     ],
     "region": "Isles",
@@ -112447,7 +112640,7 @@
     "stats": {
       "material": 1
     },
-    "lore": "A beautiful inkbrush without its tip\nwaiting for to be completed with\nequally special powder."
+    "lore": "A beautiful inkbrush without its tip,\nwaiting to be completed with\nequally special powder."
   },
   "Drowned Trident": {
     "location": "Celsian Isles",
@@ -112470,9 +112663,9 @@
   "Ex Nihilo - Chasom": {
     "location": "The Fallen Forum",
     "mmlore": [
-      "\"Out of nothing they came. Into nothing",
-      "they must be cast. Until then, they must",
-      "be contained\".",
+      "\"Out of nothing they came.",
+      "Into nothing they must be cast.",
+      "Until then, they must be contained.\"",
       "-The Architect",
       "",
       "<bold><yellow>Taking this item outside of the dungeon",
@@ -112493,14 +112686,14 @@
       "projectile_damage_base": 30,
       "projectile_speed_base": 2
     },
-    "lore": "\"Out of nothing they came. Into nothing\nthey must be cast. Until then, they must\nbe contained\".\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
+    "lore": "\"Out of nothing they came.\nInto nothing they must be cast.\nUntil then, they must be contained.\"\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
   },
   "Ex Nihilo - Daath": {
     "location": "The Fallen Forum",
     "mmlore": [
-      "\"Out of nothing they came. Into nothing",
-      "they must be cast. Until then, they must",
-      "be contained\".",
+      "\"Out of nothing they came.",
+      "Into nothing they must be cast.",
+      "Until then, they must be contained.\"",
       "-The Architect",
       "",
       "<bold><yellow>Taking this item outside of the dungeon",
@@ -112521,14 +112714,14 @@
       "projectile_damage_base": 30,
       "projectile_speed_base": 2
     },
-    "lore": "\"Out of nothing they came. Into nothing\nthey must be cast. Until then, they must\nbe contained\".\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
+    "lore": "\"Out of nothing they came.\nInto nothing they must be cast.\nUntil then, they must be contained.\"\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
   },
   "Ex Nihilo - Hallud": {
     "location": "The Fallen Forum",
     "mmlore": [
-      "\"Out of nothing they came. Into nothing",
-      "they must be cast. Until then, they must",
-      "be contained\".",
+      "\"Out of nothing they came.",
+      "Into nothing they must be cast.",
+      "Until then, they must be contained.\"",
       "-The Architect",
       "",
       "<bold><yellow>Taking this item outside of the dungeon",
@@ -112549,14 +112742,14 @@
       "projectile_damage_base": 30,
       "projectile_speed_base": 2
     },
-    "lore": "\"Out of nothing they came. Into nothing\nthey must be cast. Until then, they must\nbe contained\".\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
+    "lore": "\"Out of nothing they came.\nInto nothing they must be cast.\nUntil then, they must be contained.\"\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
   },
   "Ex Nihilo - Keter": {
     "location": "The Fallen Forum",
     "mmlore": [
-      "\"Out of nothing they came. Into nothing",
-      "they must be cast. Until then, they must",
-      "be contained\".",
+      "\"Out of nothing they came.",
+      "Into nothing they must be cast.",
+      "Until then, they must be contained.\"",
       "-The Architect",
       "",
       "<bold><yellow>Taking this item outside of the dungeon",
@@ -112577,14 +112770,14 @@
       "projectile_damage_base": 30,
       "projectile_speed_base": 2
     },
-    "lore": "\"Out of nothing they came. Into nothing\nthey must be cast. Until then, they must\nbe contained\".\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
+    "lore": "\"Out of nothing they came.\nInto nothing they must be cast.\nUntil then, they must be contained.\"\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
   },
   "Ex Nihilo - Midat": {
     "location": "The Fallen Forum",
     "mmlore": [
-      "\"Out of nothing they came. Into nothing",
-      "they must be cast. Until then, they must",
-      "be contained\".",
+      "\"Out of nothing they came.",
+      "Into nothing they must be cast.",
+      "Until then, they must be contained.\"",
       "-The Architect",
       "",
       "<bold><yellow>Taking this item outside of the dungeon",
@@ -112605,7 +112798,7 @@
       "projectile_damage_base": 30,
       "projectile_speed_base": 2
     },
-    "lore": "\"Out of nothing they came. Into nothing\nthey must be cast. Until then, they must\nbe contained\".\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
+    "lore": "\"Out of nothing they came.\nInto nothing they must be cast.\nUntil then, they must be contained.\"\n-The Architect\n\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n\nWhen in Main Hand:\nXXX Projectile Damage\n 2 Projectile Speed"
   },
   "Firecoral Lance": {
     "location": "Darkest Depths",
@@ -117990,7 +118183,7 @@
     "mmlore": [
       "<dark_gray>There are few sights more beloved than the",
       "<dark_gray>rising of the cooling moon during a voyage across",
-      "<dark_gray>dunes of Ishnir. Within the cities, it is the setting",
+      "<dark_gray>the dunes of Ishnir. Within the cities, it is the setting",
       "<dark_gray>of the moon that brings joy and heralds Mauta's rise."
     ],
     "region": "Isles",
@@ -118000,13 +118193,13 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "curse_of_crippling": 2,
       "adrenaline": 3,
+      "curse_of_crippling": 2,
       "unbreakable": 1,
       "agility": 6,
       "attack_damage_percent": 42
     },
-    "lore": "There are few sights more beloved than the\nrising of the cooling moon during a voyage across\ndunes of Ishnir. Within the cities, it is the setting\nof the moon that brings joy and heralds Mauta's rise."
+    "lore": "There are few sights more beloved than the\nrising of the cooling moon during a voyage across\nthe dunes of Ishnir. Within the cities, it is the setting\nof the moon that brings joy and heralds Mauta's rise."
   },
   "Jungle's Requiem": {
     "location": "Kaul's Judgment",
@@ -118406,7 +118599,7 @@
     "location": "Twisted lxxxxxxx",
     "masterwork": "4",
     "mmlore": [
-      "Defending against this callous beast, was",
+      "Defending against this callous beast was",
       "nearly impossible. It knew your every move.",
       "After all, it had been watching. Learning.",
       "Absorbing the things it needed to take over."
@@ -118418,15 +118611,15 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "unbreaking": 9,
-      "technique": 3,
+      "adrenaline": 2,
       "melee_protection": 1,
       "mending": 1,
-      "adrenaline": 2,
+      "technique": 3,
+      "unbreaking": 9,
       "attack_speed_base": 1.2,
       "attack_damage_base": 18
     },
-    "lore": "Defending against this callous beast, was\nnearly impossible. It knew your every move.\nAfter all, it had been watching. Learning.\nAbsorbing the things it needed to take over."
+    "lore": "Defending against this callous beast was\nnearly impossible. It knew your every move.\nAfter all, it had been watching. Learning.\nAbsorbing the things it needed to take over."
   },
   "Slicing Wind": {
     "location": "Ephemeral Enhancements",
