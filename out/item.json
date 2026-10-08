@@ -78,9 +78,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "attack_damage_base": 4,
-      "spell_power_base": 30,
-      "armor": 2
+      "armor": 2,
+      "attack_speed_base": 2,
+      "attack_damage_base": 5.5,
+      "spell_power_base": 25
     }
   },
   "Spirit Flower": {
@@ -939,12 +940,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "aptitude": 1,
-      "trivium": 1,
-      "magic_protection": 2,
+      "aptitude": 2,
       "ice_aspect": 2,
-      "attack_damage_base": 10,
-      "spell_power_base": 111
+      "magic_protection": 2,
+      "trivium": 2,
+      "spell_power_base": 111,
+      "attack_damage_base": 11
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -977,8 +978,9 @@
     "type": "Wand",
     "stats": {
       "ice_aspect": 2,
-      "attack_damage_base": 8.5,
-      "spell_power_base": 70
+      "attack_speed_base": 2,
+      "attack_damage_base": 10,
+      "spell_power_base": 75
     }
   },
   "Swift Prismatic Charm": {
@@ -2324,10 +2326,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "thunder_aspect": 3,
       "regeneration": 2,
-      "attack_damage_base": 6,
-      "spell_power_base": 100
+      "thunder_aspect": 4,
+      "spell_power_base": 100,
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 16
     },
     "lore": "The water goes silent as you grip the\nmechanism. A breathing fills your ears,\nclearly not your own. Slow. Soft.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DD Key Item *"
   },
@@ -2584,9 +2587,10 @@
       "decay": 1,
       "ice_aspect": 2,
       "knockback": 1,
-      "attack_damage_base": 4.5,
       "spell_power_base": 45,
-      "knockback_resistance_flat": 2
+      "attack_speed_base": 2,
+      "knockback_resistance_flat": 5,
+      "attack_damage_base": 6
     },
     "lore": "Perhaps once again this mechanism can be used\nto stave off the forces from the Beyond."
   },
@@ -3223,13 +3227,9 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "rampage_damage_percent": {
+      "rampage_healing_percent": {
         "locked": false,
-        "value": 35
-      },
-      "rampage_initial_duration_flat": {
-        "locked": false,
-        "value": 2
+        "value": 25
       }
     },
     "type": "Charm",
@@ -3241,25 +3241,17 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Fortified Rage Charm",
-    "power": 4,
+    "power": 2,
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "rampage_knockback_percent": {
-        "locked": false,
-        "value": 50
-      },
-      "rampage_damage_percent": {
-        "locked": false,
-        "value": 25
-      },
       "rampage_healing_percent": {
         "locked": false,
-        "value": 25
+        "value": 15
       },
-      "rampage_initial_duration_flat": {
+      "rampage_max_duration_percent": {
         "locked": false,
-        "value": 2
+        "value": 25
       }
     },
     "type": "Charm",
@@ -3363,13 +3355,9 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "rampage_damage_percent": {
+      "rampage_healing_percent": {
         "locked": false,
-        "value": 20
-      },
-      "rampage_initial_duration_flat": {
-        "locked": false,
-        "value": 1
+        "value": 15
       }
     },
     "type": "Charm",
@@ -3520,13 +3508,9 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "rampage_damage_percent": {
+      "rampage_healing_percent": {
         "locked": false,
-        "value": 10
-      },
-      "rampage_initial_duration_flat": {
-        "locked": false,
-        "value": 0.5
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -3651,13 +3635,13 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "rampage_initial_duration_flat": {
+      "rampage_healing_percent": {
         "locked": false,
-        "value": 1
+        "value": 5
       },
-      "rampage_duration_per_recast_flat": {
+      "rampage_duration_per_bloodlust_spent_flat": {
         "locked": false,
-        "value": 1
+        "value": 0.5
       }
     },
     "type": "Charm",
@@ -3811,11 +3795,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "trivium": 1,
       "fire_aspect": 2,
       "ice_aspect": 2,
-      "attack_damage_base": 8.5,
-      "spell_power_base": 80
+      "trivium": 1,
+      "spell_power_base": 80,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 13.5
     },
     "lore": "Though its dimensional features no longer\nseem to function, the wand still has plenty\nof more aggressive applications."
   },
@@ -3835,11 +3820,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "trivium": 1,
       "fire_aspect": 2,
       "ice_aspect": 2,
-      "attack_damage_base": 9,
-      "spell_power_base": 82
+      "trivium": 1,
+      "spell_power_base": 82,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 14
     },
     "lore": "Though its dimensional features no longer\nseem to function, the wand still has plenty\nof more aggressive applications."
   },
@@ -3859,11 +3845,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "trivium": 1,
       "fire_aspect": 2,
       "ice_aspect": 2,
-      "attack_damage_base": 9,
-      "spell_power_base": 88
+      "trivium": 1,
+      "spell_power_base": 88,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 14.5
     },
     "lore": "Though its dimensional features no longer\nseem to function, the wand still has plenty\nof more aggressive applications."
   },
@@ -3951,7 +3938,7 @@
     "location": "Halloween Event",
     "locationId": "halloween",
     "mmlore": [
-      "All the hardened caramel makes it a",
+      "All the hardened caramel make it a",
       "surprisingly potent spear!",
       "If only it wasn't so sticky..."
     ],
@@ -3965,11 +3952,11 @@
       "adrenaline": 3,
       "sustenance": 2,
       "spell_power_base": 50,
-      "attack_damage_base": 10,
       "speed_percent": -30,
-      "attack_speed_base": 1.5
+      "attack_speed_base": 1.5,
+      "attack_damage_base": 13
     },
-    "lore": "All the hardened caramel makes it a\nsurprisingly potent spear!\nIf only it wasn't so sticky..."
+    "lore": "All the hardened caramel make it a\nsurprisingly potent spear!\nIf only it wasn't so sticky..."
   },
   "Combustion Staff": {
     "location": "Celsian Isles",
@@ -3981,11 +3968,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "thunder_aspect": 1,
       "fire_aspect": 1,
+      "scorch": 1,
+      "thunder_aspect": 1,
       "speed_percent": 8,
-      "attack_damage_base": 4.5,
-      "spell_power_base": 45
+      "spell_power_base": 45,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 6.5
     }
   },
   "Explosive Charm of Shocking": {
@@ -4026,10 +4015,12 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 1,
-      "inferno": 1,
+      "inferno": 2,
       "knockback": 1,
+      "scorch": 2,
       "spell_power_base": 35,
-      "attack_damage_base": 3.5
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 5
     },
     "lore": "Though it can try, the sea itself\ncannot extinguish the flame\nof Ishnir magic."
   },
@@ -4043,11 +4034,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 1,
       "fire_aspect": 2,
-      "inferno": 1,
+      "inferno": 2,
+      "knockback": 1,
+      "scorch": 2,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 7.5,
       "speed_percent": 15,
-      "attack_damage_base": 4.5,
       "spell_power_base": 45
     }
   },
@@ -4062,9 +4055,11 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 2,
+      "fire_protection": 2,
       "knockback": 1,
-      "spell_power_base": 20,
-      "attack_damage_base": 2
+      "attack_speed_base": 2,
+      "attack_damage_base": 2.5,
+      "spell_power_base": 20
     }
   },
   "Focused Barrage Charm": {
@@ -4249,8 +4244,9 @@
     "stats": {
       "fire_aspect": 1,
       "knockback": 1,
-      "attack_damage_base": 4.5,
-      "spell_power_base": 40
+      "spell_power_base": 40,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 6
     }
   },
   "Ishnir Catalyst": {
@@ -4368,8 +4364,9 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 4,
-      "inferno": 6,
+      "inferno": 4,
       "knockback": 3,
+      "scorch": 3,
       "shielding": 1,
       "attack_speed_base": 0.8,
       "attack_damage_base": 21.5,
@@ -4395,8 +4392,9 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 4,
-      "inferno": 7,
+      "inferno": 5,
       "knockback": 3,
+      "scorch": 4,
       "shielding": 1,
       "attack_speed_base": 0.8,
       "attack_damage_base": 22,
@@ -4422,8 +4420,9 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 4,
-      "inferno": 7,
+      "inferno": 6,
       "knockback": 3,
+      "scorch": 4,
       "shielding": 1,
       "attack_speed_base": 0.8,
       "attack_damage_base": 23,
@@ -4449,12 +4448,13 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 4,
-      "inferno": 8,
+      "inferno": 6,
       "knockback": 3,
+      "scorch": 5,
       "shielding": 1,
-      "attack_speed_base": 0.8,
       "attack_damage_base": 23.5,
-      "spell_power_base": 80
+      "spell_power_base": 80,
+      "attack_speed_base": 0.8
     },
     "lore": "While the Tree of Life could not be burned,\nthe sticks and planks the Ashkii used\nfor shelter made excellent kindling for\nMolldyer's dark sect."
   },
@@ -4566,8 +4566,10 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 2,
+      "knockback": 1,
       "spell_power_base": 30,
-      "attack_damage_base": 4
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 2
     }
   },
   "Replica Dimensional Wand": {
@@ -4722,11 +4724,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "thunder_aspect": 1,
       "fire_aspect": 1,
       "ice_aspect": 1,
-      "attack_damage_base": 4,
-      "spell_power_base": 50
+      "thunder_aspect": 1,
+      "spell_power_base": 50,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 8.5
     },
     "lore": "Passed down from one generation\nto the next."
   },
@@ -4740,10 +4743,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "inferno": 2,
       "fire_aspect": 2,
-      "spell_power_base": 65,
-      "attack_damage_base": 8
+      "inferno": 2,
+      "attack_speed_base": 2,
+      "attack_damage_base": 10,
+      "spell_power_base": 70
     }
   },
   "Blue Wool Key": {
@@ -4944,8 +4948,9 @@
     "stats": {
       "smite": 1,
       "thunder_aspect": 1,
-      "attack_damage_base": 4,
-      "spell_power_base": 35
+      "spell_power_base": 35,
+      "attack_speed_base": 2,
+      "attack_damage_base": 6
     }
   },
   "Oasis Bloom": {
@@ -5020,8 +5025,9 @@
       "decay": 1,
       "ice_aspect": 2,
       "knockback_resistance_flat": 2,
-      "attack_damage_base": 5.5,
-      "spell_power_base": 60
+      "spell_power_base": 60,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 10
     },
     "lore": "Even the dead fall to Winter's wrath."
   },
@@ -5590,12 +5596,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "magic_protection": 1,
-      "fire_protection": 1,
-      "projectile_protection": 1,
       "blast_protection": 1,
-      "attack_damage_base": 5,
-      "spell_power_base": 35
+      "fire_protection": 1,
+      "magic_protection": 1,
+      "projectile_protection": 1,
+      "spell_power_base": 35,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 6
     },
     "lore": "Greyskull's followers swore by\nhis power in every battle."
   },
@@ -5691,9 +5698,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "knockback": 2,
       "slayer": 2,
-      "knockback": 1,
-      "attack_damage_base": 3,
+      "attack_speed_base": 1,
+      "attack_damage_base": 9,
       "spell_power_base": 25
     }
   },
@@ -5724,10 +5732,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "slayer": 1,
       "decay": 1,
-      "attack_damage_base": 4,
-      "spell_power_base": 30
+      "slayer": 1,
+      "spell_power_base": 30,
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 2
     },
     "lore": "Held once by the Shaman who communed\nwith Myrahg. Their title has been twisted\nby time - Soulblighter."
   },
@@ -6780,9 +6789,10 @@
     "type": "Wand",
     "stats": {
       "arcane_thrust": 3,
-      "thunder_aspect": 3,
       "fire_aspect": 3,
       "inferno": 3,
+      "scorch": 3,
+      "thunder_aspect": 3,
       "attack_speed_base": 1.8,
       "attack_damage_base": 14,
       "spell_power_base": 111
@@ -10394,9 +10404,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "fire_aspect": 2,
       "melee_protection": 2,
-      "attack_damage_base": 6,
-      "spell_power_base": 55
+      "scorch": 2,
+      "spell_power_base": 55,
+      "attack_speed_base": 2,
+      "attack_damage_base": 8
     },
     "lore": "Dancing flames jut across the gauntlet's molten\ncrust, a catalyst for the ritualistic flame."
   },
@@ -11237,7 +11250,11 @@
       },
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 7.5
+        "value": 5
+      },
+      "heavenly_boon_resistance_amplifier_percent": {
+        "locked": false,
+        "value": -5
       },
       "heavenly_boon_healing_percent": {
         "locked": false,
@@ -18636,8 +18653,9 @@
       "chaotic": 2,
       "fire_aspect": 2,
       "thunder_aspect": 2,
-      "attack_damage_base": 3,
-      "spell_power_base": 30
+      "spell_power_base": 30,
+      "attack_speed_base": 2,
+      "attack_damage_base": 4
     },
     "lore": "Little sparks of flame dance\non the surface."
   },
@@ -19228,13 +19246,14 @@
     "type": "Wand",
     "stats": {
       "adaptability": 1,
-      "fire_aspect": 2,
-      "chaotic": 5,
-      "curse_of_crippling": 1,
       "adrenaline": 3,
+      "chaotic": 10,
+      "curse_of_crippling": 1,
+      "fire_aspect": 2,
       "tempo": 1,
-      "attack_damage_base": 5,
-      "spell_power_base": 55
+      "spell_power_base": 55,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 10
     },
     "lore": "No one knows what happens if\nit should ever strike midnight."
   },
@@ -22032,7 +22051,7 @@
       },
       "brute_force_radius_percent": {
         "locked": false,
-        "value": 25
+        "value": 10
       }
     },
     "type": "Charm",
@@ -22084,8 +22103,9 @@
       "thunder_aspect": 1,
       "wind_aspect": 2,
       "speed_percent": 15,
-      "attack_damage_base": 9,
-      "spell_power_base": 80
+      "spell_power_base": 80,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 15
     },
     "lore": "Magic doesn't have the same function\nwithin the Machine God's domain. Steam\noffers power. Power offers truth."
   },
@@ -22109,8 +22129,9 @@
       "thunder_aspect": 1,
       "wind_aspect": 2,
       "speed_percent": 15,
-      "attack_damage_base": 9.5,
-      "spell_power_base": 82
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 16,
+      "spell_power_base": 80
     },
     "lore": "Magic doesn't have the same function\nwithin the Machine God's domain. Steam\noffers power. Power offers truth."
   },
@@ -22134,8 +22155,9 @@
       "thunder_aspect": 2,
       "wind_aspect": 2,
       "speed_percent": 15,
-      "attack_damage_base": 10,
-      "spell_power_base": 85
+      "spell_power_base": 85,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 16
     },
     "lore": "Magic doesn't have the same function\nwithin the Machine God's domain. Steam\noffers power. Power offers truth."
   },
@@ -23534,11 +23556,12 @@
     "type": "Crossbow",
     "stats": {
       "fire_aspect": 2,
-      "punch": 1,
+      "inferno": 4,
+      "quake": 1,
+      "scorch": 4,
       "unbreaking": 2,
-      "inferno": 3,
       "projectile_speed_base": 1.5,
-      "projectile_damage_base": 23
+      "projectile_damage_base": 21
     },
     "lore": "A heat so immense that it could\ncommand the other flames."
   },
@@ -25203,8 +25226,9 @@
       "decay": 2,
       "ice_aspect": 2,
       "speed_percent": 5,
-      "attack_damage_base": 8.5,
-      "spell_power_base": 83
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 14,
+      "spell_power_base": 80
     },
     "lore": "One sister left for the Depths. Another\nrose to far greater heights."
   },
@@ -25227,8 +25251,9 @@
       "decay": 4,
       "ice_aspect": 2,
       "speed_percent": 5,
-      "attack_damage_base": 8.5,
-      "spell_power_base": 88
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 14,
+      "spell_power_base": 84
     },
     "lore": "One sister left for the Depths. Another\nrose to far greater heights."
   },
@@ -25679,9 +25704,10 @@
       "ice_aspect": 1,
       "knockback": 1,
       "shielding": 1,
-      "attack_damage_base": 3,
       "speed_percent": -5,
-      "spell_power_base": 35
+      "spell_power_base": 35,
+      "attack_damage_base": 8,
+      "attack_speed_base": 1.2
     },
     "lore": "The antler has become quite the\nornamental piece, laced with ribbons\nand intricate bells all over."
   },
@@ -28669,7 +28695,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 1.5
+        "value": 1
       },
       "heavenly_boon_radius_percent": {
         "locked": false,
@@ -28826,7 +28852,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 3
+        "value": 2
       },
       "heavenly_boon_strength_amplifier_percent": {
         "locked": false,
@@ -28906,7 +28932,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 3
+        "value": 2
       }
     },
     "type": "Charm",
@@ -28981,7 +29007,7 @@
     "stats": {
       "heavenly_boon_potion_chance_percent": {
         "locked": false,
-        "value": 1.5
+        "value": 1
       }
     },
     "type": "Charm",
@@ -33029,11 +33055,14 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "adrenaline": 1,
       "fire_aspect": 1,
+      "inferno": 1,
       "knockback": 1,
       "mending": 1,
       "regeneration": 1,
-      "attack_damage_base": 4,
+      "attack_damage_base": 5,
+      "attack_speed_base": 2,
       "spell_power_base": 35
     },
     "lore": "The sacred flame, used to light\nthe sacrificial pyre."
@@ -33385,10 +33414,6 @@
       "sage's_insight_ability_count_flat": {
         "locked": false,
         "value": 1
-      },
-      "sage's_insight_decay_duration_percent": {
-        "locked": false,
-        "value": -20
       }
     },
     "type": "Charm",
@@ -34837,10 +34862,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "ethereal": 1,
       "adrenaline": 2,
-      "attack_damage_base": 5,
-      "spell_power_base": 55
+      "reflexes": 1,
+      "regicide": 1,
+      "spell_power_base": 55,
+      "attack_speed_base": 2,
+      "attack_damage_base": 10
     },
     "lore": "As long as greed is stronger\nthan compassion, there will\nalways be suffering."
   },
@@ -35460,9 +35487,9 @@
         "locked": false,
         "value": 2.5
       },
-      "rampage_speed_amplifier_per_recast_percent": {
+      "rampage_speed_amplifier_per_second_percent": {
         "locked": false,
-        "value": 2.5
+        "value": 1.5
       }
     },
     "type": "Charm",
@@ -35869,13 +35896,14 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "knockback": 2,
-      "unbreaking": 3,
       "fire_aspect": 1,
       "inferno": 4,
+      "knockback": 2,
       "mending": 1,
-      "attack_speed_base": 1,
-      "attack_damage_base": 14
+      "scorch": 2,
+      "unbreaking": 3,
+      "attack_damage_base": 14,
+      "attack_speed_base": 1.2
     },
     "lore": "Alone, unstoked. Still the fires\nburned... waiting..."
   },
@@ -45360,7 +45388,7 @@
     "release_status": "public",
     "stats": {
       "prismatic_shield_cooldown_percent": {
-        "locked": false,
+        "locked": true,
         "value": -40
       },
       "prismatic_shield_absorption_duration_percent": {
@@ -51015,12 +51043,13 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "knockback": 1,
-      "unbreaking": 3,
       "fire_aspect": 2,
-      "inferno": 4,
-      "attack_speed_base": 2,
-      "attack_damage_base": 8
+      "inferno": 3,
+      "knockback": 1,
+      "scorch": 3,
+      "unbreaking": 3,
+      "attack_speed_base": 1,
+      "attack_damage_base": 14
     },
     "lore": "In the end, they were cut down one by one...\na worthy song for such traitors."
   },
@@ -52049,6 +52078,7 @@
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 1,
+      "scorch": 2,
       "unbreaking": 5,
       "attack_speed_base": 1.2,
       "attack_damage_base": 16
@@ -52076,6 +52106,7 @@
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 1,
+      "scorch": 2,
       "unbreaking": 6,
       "attack_speed_base": 1.2,
       "attack_damage_base": 16.5
@@ -52103,9 +52134,10 @@
       "fire_aspect": 2,
       "inferno": 4,
       "quake": 1,
+      "scorch": 3,
       "unbreaking": 7,
-      "attack_speed_base": 1.2,
-      "attack_damage_base": 17
+      "attack_damage_base": 17,
+      "attack_speed_base": 1.2
     },
     "lore": "Each wound inflicted with this weapon disperses\nthe victim's blood circulation. In time,\nthe blood begins to boil, bringing terrible\nagony to the unfortunate."
   },
@@ -52294,17 +52326,13 @@
     "base_item": "Iron Ingot",
     "release_status": "public",
     "stats": {
-      "rampage_damage_amplifier_per_recast_percent": {
+      "rampage_damage_amplifier_per_second_percent": {
         "locked": false,
-        "value": 5
+        "value": 1.5
       },
-      "rampage_speed_amplifier_per_recast_percent": {
+      "rampage_speed_amplifier_per_second_percent": {
         "locked": false,
-        "value": 5
-      },
-      "rampage_damage_percent": {
-        "locked": false,
-        "value": -50
+        "value": 1.5
       }
     },
     "type": "Charm",
@@ -52361,10 +52389,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "regicide": 2,
-      "unbreaking": 7,
       "melee_protection": 3,
-      "stamina": 3,
+      "regicide": 2,
+      "stamina": 2,
+      "unbreaking": 7,
       "armor": 7
     },
     "lore": "Tyranny, fratricide, mad searching for the lost\nrelics of the Silver Knights concealed one\nsimple truth. Ambitious attempts to revive the\ngreat Silvari empire were not meant to succeed."
@@ -52386,10 +52414,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "regicide": 2,
-      "unbreaking": 8,
       "melee_protection": 3,
-      "stamina": 3,
+      "regicide": 2,
+      "stamina": 2,
+      "unbreaking": 8,
       "armor": 8
     },
     "lore": "Tyranny, fratricide, mad searching for the lost\nrelics of the Silver Knights concealed one\nsimple truth. Ambitious attempts to revive the\ngreat Silvari empire were not meant to succeed."
@@ -52411,10 +52439,10 @@
     "release_status": "public",
     "type": "Leggings",
     "stats": {
-      "regicide": 2,
-      "unbreaking": 9,
       "melee_protection": 3,
-      "stamina": 4,
+      "regicide": 2,
+      "stamina": 3,
+      "unbreaking": 9,
       "armor": 8
     },
     "lore": "Tyranny, fratricide, mad searching for the lost\nrelics of the Silver Knights concealed one\nsimple truth. Ambitious attempts to revive the\ngreat Silvari empire were not meant to succeed."
@@ -57763,8 +57791,9 @@
       "earth_aspect": 1,
       "fire_aspect": 1,
       "spell_power_base": 30,
-      "attack_damage_base": 4,
-      "speed_percent": 7
+      "attack_speed_base": 1.2,
+      "speed_percent": 10,
+      "attack_damage_base": 7.5
     },
     "lore": "We need more trees!"
   },
@@ -57857,8 +57886,9 @@
       "earth_aspect": 1,
       "fire_aspect": 1,
       "spell_power_base": 35,
-      "speed_percent": 10,
-      "attack_damage_base": 5
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 8,
+      "speed_percent": 12
     },
     "lore": "...But even the most hidden places can\nbe found within the Memory."
   },
@@ -58364,29 +58394,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Silvari Blade Handle",
-    "power": 4,
+    "power": 3,
     "base_item": "Large Amethyst Bud",
     "release_status": "public",
     "stats": {
-      "blade_dance_damage_percent": {
-        "locked": false,
-        "value": 50
-      },
-      "blade_dance_radius_percent": {
-        "locked": false,
-        "value": 50
-      },
       "blade_dance_root_duration_flat": {
         "locked": false,
-        "value": 0.5
+        "value": 0.75
       },
       "blade_dance_resistance_duration_flat": {
         "locked": true,
-        "value": 0.5
+        "value": 0.75
       },
-      "blade_dance_cooldown_percent": {
+      "blade_dance_damage_percent": {
         "locked": false,
-        "value": 50
+        "value": -70
       }
     },
     "type": "Charm",
@@ -72198,7 +72220,7 @@
       "fire_protection": 5,
       "mending": 1,
       "unbreaking": 3,
-      "armor": 3
+      "armor": 3.5
     },
     "lore": "With the fire lit and the soul forged anew,\nthe world was torn into Void."
   },
@@ -76497,9 +76519,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "fire_aspect": 2,
       "melee_protection": 2,
-      "attack_damage_base": 6,
-      "spell_power_base": 55
+      "scorch": 2,
+      "spell_power_base": 55,
+      "attack_speed_base": 2,
+      "attack_damage_base": 8
     },
     "lore": "A metallic gauntlet, used by cultists as\na catalyst for eldritch rituals."
   },
@@ -76569,17 +76594,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Deepslate Chunk",
-    "power": 1,
+    "power": 2,
     "base_item": "Nether Brick",
     "release_status": "public",
     "stats": {
       "brute_force_damage_percent": {
         "locked": false,
-        "value": 75
+        "value": 100
       },
       "brute_force_radius_percent": {
-        "locked": true,
-        "value": -50
+        "locked": false,
+        "value": -100
       }
     },
     "type": "Charm",
@@ -78203,10 +78228,12 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
-      "trivium": 3,
+      "fire_aspect": 2,
+      "inferno": 4,
+      "scorch": 4,
       "thunder_aspect": 2,
+      "trivium": 3,
       "unbreakable": 1,
-      "inferno": 3,
       "attack_speed_base": 2,
       "attack_damage_base": 16
     },
@@ -79527,10 +79554,13 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 3,
+      "fire_fragility": 2,
+      "inferno": 2,
       "armor": -2,
       "agility": -2,
-      "attack_damage_base": 6,
-      "spell_power_base": 50
+      "attack_speed_base": 2,
+      "attack_damage_base": 8,
+      "spell_power_base": 55
     },
     "lore": "The flame cares not who gets burnt."
   },
@@ -93548,6 +93578,25 @@
     "type": "Charm",
     "class_name": "Alchemist"
   },
+  "Shattered Samples": {
+    "location": "Alchemy Labs",
+    "locationId": "labs",
+    "mmlore": [
+      "Elcard would suffer no further indignities.",
+      "Denied his seat on the Council, co-conspiring",
+      "with mere lowborn crooks to achieve his means.",
+      "He would show them the cost of their disrespect.",
+      "He would make them respect him, and claim his birthright."
+    ],
+    "region": "Valley",
+    "tier": "Trophy",
+    "name": "Shattered Samples",
+    "base_item": "Purple Concrete Powder",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Elcard would suffer no further indignities.\nDenied his seat on the Council, co-conspiring\nwith mere lowborn crooks to achieve his means.\nHe would show them the cost of their disrespect.\nHe would make them respect him, and claim his birthright."
+  },
   "Swift Innate Charm": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -95421,9 +95470,11 @@
       "decay": 2,
       "fire_aspect": 2,
       "inferno": 1,
+      "quake": 1,
       "steadfast": 1,
       "spell_power_base": 75,
-      "attack_damage_base": 9
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 17
     },
     "lore": "As long as the flame was lit, Merdd could control\nthe pace of the strange creature's apportation.\nIt would grind this creature down slowly, if it had to.\nIt will succeed. It will show them all what it can do.\nIt will prove itself in the name of the Architect."
   },
@@ -95448,9 +95499,11 @@
       "decay": 2,
       "fire_aspect": 2,
       "inferno": 2,
+      "quake": 1,
       "steadfast": 1,
-      "attack_damage_base": 10,
-      "spell_power_base": 75
+      "spell_power_base": 75,
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 17.5
     },
     "lore": "As long as the flame was lit, Merdd could control\nthe pace of the strange creature's apportation.\nIt would grind this creature down slowly, if it had to.\nIt will succeed. It will show them all what it can do.\nIt will prove itself in the name of the Architect."
   },
@@ -95475,9 +95528,11 @@
       "decay": 2,
       "fire_aspect": 2,
       "inferno": 2,
+      "quake": 2,
       "steadfast": 1,
       "spell_power_base": 80,
-      "attack_damage_base": 10
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 18
     },
     "lore": "As long as the flame was lit, Merdd could control\nthe pace of the strange creature's apportation.\nIt would grind this creature down slowly, if it had to.\nIt will succeed. It will show them all what it can do.\nIt will prove itself in the name of the Architect."
   },
@@ -96353,7 +96408,7 @@
     "stats": {
       "divine_justice_damage_percent": {
         "locked": false,
-        "value": 30
+        "value": 25
       },
       "divine_justice_self_heal_percent": {
         "locked": false,
@@ -99564,7 +99619,8 @@
       "unbreaking": 2,
       "agility": 2,
       "spell_power_base": 50,
-      "attack_damage_base": 4
+      "attack_speed_base": 2,
+      "attack_damage_base": 8
     }
   },
   "Morphic Shield": {
@@ -102141,8 +102197,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 2,
+      "projectile_protection": 3,
       "speed_percent": 10,
       "magic_damage_percent": 20,
       "max_health_flat": 5
@@ -102165,8 +102221,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 3,
+      "projectile_protection": 3,
       "speed_percent": 10,
       "magic_damage_percent": 20,
       "max_health_flat": 5
@@ -102189,8 +102245,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 2,
       "magic_protection": 3,
+      "projectile_protection": 3,
       "speed_percent": 10,
       "magic_damage_percent": 25,
       "max_health_flat": 5
@@ -102213,8 +102269,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 3,
       "magic_protection": 3,
+      "projectile_protection": 4,
       "speed_percent": 15,
       "magic_damage_percent": 25,
       "max_health_flat": 5
@@ -102237,11 +102293,11 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
-      "projectile_protection": 4,
       "magic_protection": 3,
+      "projectile_protection": 4,
       "speed_percent": 15,
-      "magic_damage_percent": 25,
-      "max_health_flat": 5
+      "max_health_flat": 6,
+      "magic_damage_percent": 25
     },
     "lore": "Even as the Hex over the Tree of Life\nholds her prisoner, Hycenea still lashes\nout, seeking her lost love."
   },
@@ -102345,19 +102401,11 @@
     "stats": {
       "rampage_healing_percent": {
         "locked": false,
-        "value": 25
+        "value": 50
       },
-      "rampage_cooldown_percent": {
+      "rampage_duration_per_bloodlust_spent_percent": {
         "locked": false,
         "value": -50
-      },
-      "rampage_recast_bloodlust_cost_flat": {
-        "locked": false,
-        "value": 1
-      },
-      "rampage_bloodlust_cost_flat": {
-        "locked": false,
-        "value": 1
       }
     },
     "type": "Charm",
@@ -106164,11 +106212,11 @@
     "stats": {
       "alchemical_utensil": 1,
       "chaotic": 3,
-      "thunder_aspect": 1,
+      "thunder_aspect": 2,
       "potion_radius_flat": 3,
       "potion_recharge_rate_percent": 100,
       "projectile_speed_base": 0.9,
-      "potion_damage_flat": 13
+      "potion_damage_flat": 14
     },
     "lore": "The trap was set. A golden palace\nfloating upon the waves. A monument\nto the greed of man - for once\nensnared, what mortal could resist\nher call?"
   },
@@ -106192,11 +106240,11 @@
     "stats": {
       "alchemical_utensil": 1,
       "chaotic": 3,
-      "thunder_aspect": 1,
+      "thunder_aspect": 2,
       "potion_radius_flat": 3,
-      "potion_damage_flat": 13.5,
       "potion_recharge_rate_percent": 100,
-      "projectile_speed_base": 0.9
+      "projectile_speed_base": 0.9,
+      "potion_damage_flat": 14.5
     },
     "lore": "The trap was set. A golden palace\nfloating upon the waves. A monument\nto the greed of man - for once\nensnared, what mortal could resist\nher call?"
   },
@@ -106220,11 +106268,11 @@
     "stats": {
       "alchemical_utensil": 1,
       "chaotic": 3,
-      "thunder_aspect": 2,
+      "thunder_aspect": 3,
       "potion_radius_flat": 3,
-      "potion_damage_flat": 13.5,
       "projectile_speed_base": 1,
-      "potion_recharge_rate_percent": 100
+      "potion_recharge_rate_percent": 100,
+      "potion_damage_flat": 14.5
     },
     "lore": "The trap was set. A golden palace\nfloating upon the waves. A monument\nto the greed of man - for once\nensnared, what mortal could resist\nher call?"
   },
@@ -107051,11 +107099,12 @@
     "type": "Wand",
     "stats": {
       "abyssal": 2,
+      "cumbersome": 1,
       "earth_aspect": 2,
       "ice_aspect": 1,
-      "decay": 1,
-      "attack_damage_base": 6.5,
-      "spell_power_base": 55
+      "spell_power_base": 55,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 17
     },
     "lore": "Pests of the earth, return!"
   },
@@ -107149,10 +107198,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "earth_aspect": 1,
       "regeneration": 1,
       "sustenance": 1,
-      "attack_damage_base": 6,
-      "spell_power_base": 50
+      "spell_power_base": 50,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 9.5
     },
     "lore": "Steam radiates from the\nstaff, soothing ones who\nbelong to the order."
   },
@@ -107170,10 +107221,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "decay": 1,
+      "decay": 2,
       "knockback": 1,
       "spell_power_base": 20,
-      "attack_damage_base": 3
+      "attack_speed_base": 2,
+      "attack_damage_base": 3.5
     },
     "lore": "The spells you cast with the wand\nseem to smell of sulfur and chemicals."
   },
@@ -107205,7 +107257,8 @@
     "stats": {
       "knockback": 1,
       "spell_power_base": 20,
-      "attack_damage_base": 3.5
+      "attack_speed_base": 2,
+      "attack_damage_base": 4.5
     }
   },
   "Archmage's Staff": {
@@ -107219,8 +107272,9 @@
     "type": "Wand",
     "stats": {
       "regeneration": 1,
-      "attack_damage_base": 5,
-      "spell_power_base": 50
+      "spell_power_base": 50,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 8.5
     }
   },
   "Argil Staff": {
@@ -107311,9 +107365,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 1,
-      "attack_damage_base": 4.5,
-      "spell_power_base": 30
+      "decay": 2,
+      "earth_aspect": 2,
+      "knockback": 2,
+      "spell_power_base": 30,
+      "attack_speed_base": 2,
+      "attack_damage_base": 3.5
     }
   },
   "Blackroot's Hatred": {
@@ -107326,9 +107383,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 1,
-      "spell_power_base": 40,
-      "attack_damage_base": 5
+      "decay": 4,
+      "earth_aspect": 2,
+      "knockback": 2,
+      "attack_speed_base": 2,
+      "attack_damage_base": 4,
+      "spell_power_base": 35
     }
   },
   "Calming Incense": {
@@ -107419,7 +107479,8 @@
       "knockback": 1,
       "smite": 1,
       "spell_power_base": 20,
-      "attack_damage_base": 2.5
+      "attack_damage_base": 4.5,
+      "attack_speed_base": 1.6
     }
   },
   "Corrupted Siershen's Caster": {
@@ -107437,12 +107498,13 @@
     "type": "Wand",
     "stats": {
       "curse_of_corruption": 1,
-      "knockback": 1,
-      "ice_aspect": 2,
       "decay": 1,
-      "knockback_resistance_flat": 2,
-      "attack_damage_base": 4.5,
-      "spell_power_base": 45
+      "ice_aspect": 2,
+      "knockback": 1,
+      "spell_power_base": 45,
+      "attack_speed_base": 2,
+      "knockback_resistance_flat": 5,
+      "attack_damage_base": 6
     },
     "lore": "Perhaps once again this weapon can be used\nto keep the nightmares at bay."
   },
@@ -107522,11 +107584,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "regicide": 1,
-      "smite": 1,
       "divine_aura": 1,
+      "regicide": 2,
+      "smite": 1,
       "spell_power_base": 30,
-      "attack_damage_base": 4
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 2
     },
     "lore": "The laws of equivalent exchange\nare best embodied in the friendship\nfound in adventure."
   },
@@ -107600,9 +107663,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "infinity": 1,
-      "attack_damage_base": 3,
-      "spell_power_base": 35
+      "earth_aspect": 1,
+      "fire_aspect": 1,
+      "ice_aspect": 1,
+      "attack_speed_base": 1.8,
+      "spell_power_base": 35,
+      "attack_damage_base": 5
     },
     "lore": "The elements sing in harmony.\nA doorway cracks open...\n* Quest Item *\n#Q04I05"
   },
@@ -107620,12 +107686,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "thunder_aspect": 2,
       "fire_aspect": 1,
-      "knockback": 1,
       "ice_aspect": 1,
+      "knockback": 1,
+      "thunder_aspect": 3,
       "spell_power_base": 40,
-      "attack_damage_base": 4
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 6
     },
     "lore": "The Willows alone do not bow to primal forces\nof nature. There is always more."
   },
@@ -107639,10 +107706,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "slayer": 2,
       "knockback": 1,
-      "attack_damage_base": 4.5,
-      "spell_power_base": 40
+      "slayer": 2,
+      "spell_power_base": 40,
+      "attack_speed_base": 1,
+      "attack_damage_base": 11
     }
   },
   "Forestborn Wand": {
@@ -107655,9 +107723,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "fire_aspect": 2,
-      "spell_power_base": 55,
-      "attack_damage_base": 8
+      "earth_aspect": 2,
+      "attack_speed_base": 2,
+      "attack_damage_base": 8,
+      "spell_power_base": 65
     }
   },
   "Glass Rod": {
@@ -107692,7 +107761,8 @@
       "decay": 3,
       "inure": 1,
       "spell_power_base": 35,
-      "attack_damage_base": 3.5
+      "attack_damage_base": 6.5,
+      "attack_speed_base": 1.5
     },
     "lore": "A simple touch of the wood unleashes\na pain stretching across the whole of\nthe Blackroot. This wood has been stripped\nfrom Kaul's own heart."
   },
@@ -107706,10 +107776,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "smite": 2,
       "fire_aspect": 1,
-      "attack_damage_base": 3.5,
-      "spell_power_base": 45
+      "smite": 2,
+      "spell_power_base": 45,
+      "attack_damage_base": 7.5,
+      "attack_speed_base": 1.3
     }
   },
   "Impmaster's Fiddle": {
@@ -107763,8 +107834,9 @@
     "stats": {
       "fire_aspect": 2,
       "knockback": 1,
-      "attack_damage_base": 3,
-      "spell_power_base": 25
+      "spell_power_base": 25,
+      "attack_speed_base": 2,
+      "attack_damage_base": 5
     }
   },
   "Malebolge Stave": {
@@ -107782,11 +107854,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "bleeding": 2,
+      "bleeding": 3,
       "decay": 6,
       "regeneration": 1,
       "spell_power_base": 55,
-      "attack_damage_base": 6
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 14
     },
     "lore": "Fresh cursestone rests affixed to the stave.\nA miner's labor earned it, and a miner's\nmadness wields it."
   },
@@ -107836,12 +107909,14 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "thunder_aspect": 2,
-      "fire_aspect": 1,
+      "curse_of_corruption": 1,
+      "decay": 1,
+      "ice_aspect": 2,
       "knockback": 1,
-      "ice_aspect": 1,
-      "spell_power_base": 40,
-      "attack_damage_base": 4
+      "spell_power_base": 45,
+      "attack_speed_base": 2,
+      "knockback_resistance_flat": 5,
+      "attack_damage_base": 6
     },
     "lore": "Perhaps a Loci of the arctic\nwould find it more befitting."
   },
@@ -107856,7 +107931,8 @@
     "type": "Wand",
     "stats": {
       "spell_power_base": 15,
-      "attack_damage_base": 2.5
+      "attack_speed_base": 2,
+      "attack_damage_base": 3.5
     }
   },
   "Paintbrush": {
@@ -107967,11 +108043,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "knockback": 1,
       "ice_aspect": 2,
-      "knockback_resistance_flat": 2,
-      "attack_damage_base": 4,
-      "spell_power_base": 35
+      "knockback": 1,
+      "spell_power_base": 35,
+      "attack_speed_base": 2,
+      "attack_damage_base": 5,
+      "knockback_resistance_flat": 3
     },
     "lore": "Perhaps once again this weapon can be\nused to keep the Bastion at bay."
   },
@@ -107998,8 +108075,10 @@
     "type": "Wand",
     "stats": {
       "fire_aspect": 2,
-      "spell_power_base": 60,
-      "attack_damage_base": 8.5
+      "smite": 2,
+      "attack_speed_base": 2,
+      "attack_damage_base": 10,
+      "spell_power_base": 65
     }
   },
   "Snowstorm Quiver": {
@@ -108119,11 +108198,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "smite": 2,
       "ice_aspect": 1,
+      "smite": 1,
       "knockback_resistance_flat": 3,
-      "attack_damage_base": 3.5,
-      "spell_power_base": 35
+      "spell_power_base": 35,
+      "attack_speed_base": 1.2,
+      "attack_damage_base": 6
     },
     "lore": "\"Oh Crimson one, taker of thought,\nbring me my final triumph, bring\nunto them destruction!\""
   },
@@ -108154,8 +108234,9 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "attack_damage_base": 3,
-      "spell_power_base": 20
+      "spell_power_base": 20,
+      "attack_speed_base": 2,
+      "attack_damage_base": 4
     }
   },
   "Swiftwood Quiver": {
@@ -108212,10 +108293,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "sustenance": 1,
+      "earth_aspect": 1,
       "regeneration": 1,
+      "sustenance": 1,
       "spell_power_base": 50,
-      "attack_damage_base": 6
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 9.5
     },
     "lore": "Radiates a power that endures\nthrough the seasons, regressing\nonly in Winter's chill."
   },
@@ -108233,10 +108316,11 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "regicide": 1,
+      "regicide": 2,
       "smite": 1,
       "spell_power_base": 30,
-      "attack_damage_base": 4
+      "attack_damage_base": 5.5,
+      "attack_speed_base": 2
     },
     "lore": "There are laws of equivalent\nexchange for a reason."
   },
@@ -108269,10 +108353,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "adrenaline": 1,
+      "fire_aspect": 2,
       "thunder_aspect": 3,
-      "fire_aspect": 1,
-      "attack_damage_base": 6,
-      "spell_power_base": 55
+      "spell_power_base": 55,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 9.5
     },
     "lore": "A conduit for the wild\npower of lightning."
   },
@@ -108381,9 +108467,13 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "infinity": 1,
-      "attack_damage_base": 3.5,
-      "spell_power_base": 40
+      "earth_aspect": 1,
+      "fire_aspect": 1,
+      "ice_aspect": 1,
+      "knockback": 1,
+      "spell_power_base": 40,
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 5.5
     },
     "lore": "The Veil parts. A Doorway opens.\nThe ripples of reality themselves bend\nto your will for a brief moment, then...\nSilence."
   },
@@ -108415,9 +108505,10 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "fire_aspect": 1,
-      "attack_damage_base": 4,
-      "spell_power_base": 35
+      "earth_aspect": 1,
+      "spell_power_base": 35,
+      "attack_speed_base": 2,
+      "attack_damage_base": 6
     }
   },
   "Wand of Storms": {
@@ -108431,9 +108522,11 @@
     "type": "Wand",
     "stats": {
       "knockback": 3,
+      "thunder_aspect": 2,
       "speed_percent": 10,
-      "attack_damage_base": 3,
-      "spell_power_base": 30
+      "spell_power_base": 30,
+      "attack_speed_base": 2,
+      "attack_damage_base": 5
     }
   },
   "Wand of Whispers": {
@@ -108484,7 +108577,8 @@
       "fire_aspect": 1,
       "ice_aspect": 1,
       "spell_power_base": 20,
-      "attack_damage_base": 3
+      "attack_speed_base": 1.8,
+      "attack_damage_base": 4.5
     },
     "lore": "Though he uncovered ancient secrets, the\ntrue Staff he would never reach."
   },
@@ -108513,7 +108607,8 @@
     "type": "Wand",
     "stats": {
       "spell_power_base": 20,
-      "attack_damage_base": 2.5
+      "attack_speed_base": 2,
+      "attack_damage_base": 3.5
     }
   },
   "Willowtwist Wand": {
@@ -108534,8 +108629,9 @@
       "earth_aspect": 1,
       "fire_aspect": 1,
       "spell_power_base": 30,
-      "speed_percent": 7,
-      "attack_damage_base": 4
+      "attack_speed_base": 1.2,
+      "speed_percent": 10,
+      "attack_damage_base": 7.5
     },
     "lore": "Silent willows keep the tranquility\nof this eerie place. The sacrament is\nhidden within the growth..."
   },
@@ -108571,9 +108667,10 @@
       "hex_eater": 1,
       "knockback": 1,
       "magic_protection": 2,
-      "attack_damage_base": 6,
       "spell_power_base": 55,
-      "speed_percent": 15
+      "speed_percent": 15,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 11
     },
     "lore": "Sometimes more violent means of delight\nextraction are necessary against unsavory\nCreepers."
   },
@@ -110050,10 +110147,10 @@
     "release_status": "public",
     "type": "Scythe",
     "stats": {
+      "fire_aspect": 3,
+      "scorch": 2,
+      "sweeping_edge": 2,
       "unbreaking": 4,
-      "fire_protection": 2,
-      "fire_aspect": 5,
-      "knockback": 1,
       "attack_damage_base": 5.5,
       "attack_speed_base": 2
     },
@@ -114286,11 +114383,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "first_strike": 1,
       "abyssal": 1,
       "unbreaking": 4,
-      "attack_damage_base": 7,
-      "attack_speed_base": 1.6
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 6.5,
+      "magic_damage_percent": 5
     },
     "lore": "A relic of the Eastern Swamplands. The blade\nshifts and ebbs, like the tides."
   },
@@ -120929,10 +121026,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
+      "bleeding": 2,
       "knockback": 3,
       "speed_percent": 15,
-      "attack_damage_base": 5.5,
-      "spell_power_base": 50
+      "spell_power_base": 50,
+      "attack_damage_base": 9.5,
+      "attack_speed_base": 1.6
     },
     "lore": "One of the primary wands used by\nViridian spellcasters to build the\ncity up from nothing."
   },
@@ -120971,8 +121070,9 @@
       "technique": 2,
       "tempo": 1,
       "speed_percent": -10,
-      "attack_damage_base": 6.5,
-      "spell_power_base": 72
+      "spell_power_base": 72,
+      "attack_speed_base": 2,
+      "attack_damage_base": 11
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -120998,8 +121098,9 @@
       "technique": 2,
       "tempo": 1,
       "speed_percent": -10,
-      "attack_damage_base": 7,
-      "spell_power_base": 72
+      "spell_power_base": 72,
+      "attack_speed_base": 2,
+      "attack_damage_base": 11
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -121025,8 +121126,9 @@
       "technique": 2,
       "tempo": 1,
       "speed_percent": -10,
-      "attack_damage_base": 7.5,
-      "spell_power_base": 78
+      "spell_power_base": 78,
+      "attack_speed_base": 2,
+      "attack_damage_base": 11
     },
     "lore": "Tales are told amongst the ranks of\nwhat lurks just below the surface of\nthe waters once night arises. Arms,\nthey say, stretching from the ocean's\nfloor, waiting to drag you to the depths."
   },
@@ -124526,12 +124628,12 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "mending": 1,
-      "unbreaking": 4,
+      "darksight": 1,
       "fire_aspect": 2,
       "inferno": 2,
-      "darksight": 1,
-      "decay": 2,
+      "mending": 1,
+      "scorch": 2,
+      "unbreaking": 4,
       "attack_speed_base": 1.6,
       "attack_damage_base": 5.5
     },
@@ -126956,7 +127058,7 @@
       },
       "sage's_insight_damage_modifier_per_stack_percent": {
         "locked": false,
-        "value": 2
+        "value": 1.5
       },
       "sage's_insight_duration_flat": {
         "locked": false,
