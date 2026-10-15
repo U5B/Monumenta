@@ -134,6 +134,13 @@
   "Lunar Ascension": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "Aurora alone was a formidable force.",
+      "But in tandem with Delfia, one could only",
+      "imagine the might they now possess.",
+      "<gray>Totemic Consecration now grants",
+      "<gray>strength and speed."
+    ],
     "region": "Ring",
     "tier": "Artifact",
     "name": "Lunar Ascension",
@@ -155,11 +162,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Aurora alone was a formidable force.\nBut in tandem with Delfia, one could only\nimagine the might they now possess.\nTotemic Consecration now grants\nstrength and speed."
   },
   "Outsider's Gaze": {
     "location": "Silver Knight's Remnants",
     "locationId": "skr",
+    "mmlore": [
+      "Eventually, Magic's incessant ramblings would",
+      "ring true. Outside of time, salvation would",
+      "echo to a girl from far above..."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Outsider's Gaze",
@@ -181,7 +194,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Eventually, Magic's incessant ramblings would\nring true. Outside of time, salvation would\necho to a girl from far above..."
   },
   "Crystal Cluster": {
     "location": "Celsian Isles Overworld",
@@ -206,6 +220,12 @@
   "Deep Resonant Fragment": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "The crystals sang in a low hum. Yet, this was",
+      "not Pelias's prize. Deeper still was a treasure.",
+      "A boon born of the Architect's grace. One",
+      "that was rightfully his."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Deep Resonant Fragment",
@@ -227,7 +247,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The crystals sang in a low hum. Yet, this was\nnot Pelias's prize. Deeper still was a treasure.\nA boon born of the Architect's grace. One\nthat was rightfully his."
   },
   "Distant Charm of Crystallization": {
     "location": "Architect's Ring",
@@ -365,6 +386,12 @@
   "Hexcrafted Siphon": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "With the Goddess in chains, the Hex looms",
+      "more prevalently than it ever has before...",
+      "Soon, the sky will turn a brilliant blue; the dawn",
+      "of a new era for the Wolfswood."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Hexcrafted Siphon",
@@ -382,7 +409,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "With the Goddess in chains, the Hex looms\nmore prevalently than it ever has before...\nSoon, the sky will turn a brilliant blue; the dawn\nof a new era for the Wolfswood."
   },
   "Keening of the Empty One": {
     "location": "Phyrrys, City of Fallen Stars",
@@ -486,6 +514,10 @@
   "Aether Edge": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Impossibly light. Perfectly sharp.",
+      "Geometry married with killing intent."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Aether Edge",
@@ -503,7 +535,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Impossibly light. Perfectly sharp.\nGeometry married with killing intent."
   },
   "Celestial Gem": {
     "location": "The Celestial Zenith",
@@ -655,6 +688,11 @@
   "Guillotine Wings": {
     "location": "Diamenean Hunts",
     "locationId": "hunts",
+    "mmlore": [
+      "The iridescent plumage is impossibly lightweight for",
+      "a construction made with the beast's mighty alloy.",
+      "Perhaps feathers may yet be heavier than steel."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Guillotine Wings",
@@ -676,7 +714,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "The iridescent plumage is impossibly lightweight for\na construction made with the beast's mighty alloy.\nPerhaps feathers may yet be heavier than steel."
   },
   "Heavy Prismatic Charm": {
     "location": "Architect's Ring",
@@ -703,6 +742,11 @@
   "Hexblade": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Mirroring the ancient power of the Hex,",
+      "this enchanted blade holds all of its",
+      "magical properties."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Hexblade",
@@ -716,15 +760,12 @@
       },
       "amplifying_hex_cone_percent": {
         "locked": false,
-        "value": 100
-      },
-      "amplifying_hex_range_percent": {
-        "locked": false,
         "value": -50
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Mirroring the ancient power of the Hex,\nthis enchanted blade holds all of its\nmagical properties."
   },
   "Hexborn Shard-0": {
     "location": "The Wolfswood",
@@ -1018,6 +1059,11 @@
   "Zoetic Geas": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "A pendant worn in vow with letters inscribed:",
+      "\"Above all I shall protect, and do unto",
+      "me what I fail to ward.\""
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Zoetic Geas",
@@ -1035,7 +1081,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "A pendant worn in vow with letters inscribed:\n\"Above all I shall protect, and do unto\nme what I fail to ward.\""
   },
   "Eroded Key": {
     "location": "Verdant Remnants",
@@ -1689,6 +1736,12 @@
   "Frenzied Earth": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "The Dryad's prison was undone. In an instant,",
+      "the ground beneath the fleeing Covensteads",
+      "erupted with countless towering, constricting vines.",
+      "They were now bound, as she once was."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Frenzied Earth",
@@ -1714,7 +1767,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The Dryad's prison was undone. In an instant,\nthe ground beneath the fleeing Covensteads\nerupted with countless towering, constricting vines.\nThey were now bound, as she once was."
   },
   "Bell Pepper": {
     "mmlore": [
@@ -1873,6 +1927,10 @@
   "Peakborn Windchime": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "\"They chime gently in the wind. If you ever",
+      "feel afraid, know that the Architect is watching over us.\""
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Peakborn Windchime",
@@ -1894,7 +1952,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "\"They chime gently in the wind. If you ever\nfeel afraid, know that the Architect is watching over us.\""
   },
   "Portable Parrot Bell": {
     "location": "Celsian Isles",
@@ -1927,6 +1986,12 @@
   "Resonating Belltongue": {
     "location": "Quest Reward",
     "locationId": "quest",
+    "mmlore": [
+      "The grand bell's pealing heralds the Serebrian hour",
+      "of prayer. Throughout the land, all falls silent as",
+      "heads are bowed in reverence and atonement unto",
+      "His holy name; the Silver Lord. The Architect."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Resonating Belltongue",
@@ -1952,7 +2017,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "The grand bell's pealing heralds the Serebrian hour\nof prayer. Throughout the land, all falls silent as\nheads are bowed in reverence and atonement unto\nHis holy name; the Silver Lord. The Architect."
   },
   "Sedated Chorale Charm": {
     "location": "Architect's Ring",
@@ -1983,6 +2049,13 @@
   "Silverwind Distortion": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "This silver pendant once adorned Aurora's",
+      "neck, yet even in her absence a longing resides",
+      "within it. A deep nostalgia she would never forget.",
+      "<gray>Wind Walk now inflicts vulnerability. The effect",
+      "<gray>stacks with other sources of vulnerability."
+    ],
     "region": "Ring",
     "tier": "Artifact",
     "name": "Silverwind Distortion",
@@ -2008,11 +2081,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "This silver pendant once adorned Aurora's\nneck, yet even in her absence a longing resides\nwithin it. A deep nostalgia she would never forget.\nWind Walk now inflicts vulnerability. The effect\nstacks with other sources of vulnerability."
   },
   "Suzu of Stasis": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "The bells are pristine, yet also act",
+      "as a lesson - a warning, to see one's",
+      "actions for what they truly are."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Suzu of Stasis",
@@ -2034,7 +2113,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "The bells are pristine, yet also act\nas a lesson - a warning, to see one's\nactions for what they truly are."
   },
   "Ventleaf": {
     "location": "Celsian Isles",
@@ -2134,6 +2214,11 @@
   "Eroded Sconce": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "The rusty candleware illuminates the walls.",
+      "Despite the presence of Masked, the remnants",
+      "of Silver presence still linger here."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Eroded Sconce",
@@ -2151,11 +2236,20 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "The rusty candleware illuminates the walls.\nDespite the presence of Masked, the remnants\nof Silver presence still linger here."
   },
   "Final Herald's Lifeblood": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "The o<obfuscated>c</obfuscated>ean... is cold... my blood swirls...",
+      "into perme<obfuscated>a</obfuscated>ting water... Sister A<obfuscated>n</obfuscated>dromeda...",
+      "lays sti<obfuscated>l</obfuscated>l, beneath the w<obfuscated>a</obfuscated>ves.... alone... cold...",
+      "<obfuscated>B</obfuscated>rother Kokyt<obfuscated>o</obfuscated>s... a frozen carcas<obfuscated>s</obfuscated>...",
+      "I wish... <obfuscated>o</obfuscated>nly to bask in th<obfuscated>e</obfuscated>ir warmth... t<obfuscated>h</obfuscated>eir light...",
+      "o<obfuscated>n</obfuscated>ce... m<obfuscated>ore</obfuscated>..."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Final Herald's Lifeblood",
@@ -2181,7 +2275,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The ocean... is cold... my blood swirls...\ninto permeating water... Sister Andromeda...\nlays still, beneath the waves.... alone... cold...\nBrother Kokytos... a frozen carcass...\nI wish... only to bask in their warmth... their light...\nonce... more..."
   },
   "Shadowdancer's Candle": {
     "location": "The Celestial Zenith",
@@ -2236,6 +2331,12 @@
   "Tradesman's Cape": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Merchants had to salvage what they",
+      "could in the midst of the assault,",
+      "though many of their wares were",
+      "still lost."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Tradesman's Cape",
@@ -2261,11 +2362,20 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Merchants had to salvage what they\ncould in the midst of the assault,\nthough many of their wares were\nstill lost."
   },
   "Null Agglomerate": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "Witness truth beyond Reality... tear the",
+      "fabric and gaze into the emptiness",
+      "beyond the seams. Do you hear them",
+      "singing within the vacuum?... An endless,",
+      "screaming chorus... crying for vengeance",
+      "against but one name: <italic>Uriddan..."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Null Agglomerate",
@@ -2295,7 +2405,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Witness truth beyond Reality... tear the\nfabric and gaze into the emptiness\nbeyond the seams. Do you hear them\nsinging within the vacuum?... An endless,\nscreaming chorus... crying for vengeance\nagainst but one name: Uriddan..."
   },
   "Scorched Residue": {
     "mmlore": [
@@ -2520,6 +2631,12 @@
   "Echo of the Beast": {
     "location": "Sanguine Halls",
     "locationId": "gallery1",
+    "mmlore": [
+      "<dark_gray>Markus had been spared by circumstance",
+      "and swore to put it out of his mind.",
+      "<dark_gray>Instead, the memories crept in at night, prowling",
+      "<dark_gray>like a starving beast, mouth dripping with blood."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Echo of the Beast",
@@ -2541,11 +2658,18 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Markus had been spared by circumstance\nand swore to put it out of his mind.\nInstead, the memories crept in at night, prowling\nlike a starving beast, mouth dripping with blood."
   },
   "Psychosis": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "WHY. AND FOR. WHAT. DO <obfuscated>YOU<!obfuscated> RESIST?",
+      "<obfuscated>I<!obfuscated> WILL. RIP IT OUT OF <obfuscated>YOUR<!obfuscated>. HEAD.",
+      "THERE. IS NO KILLING. <obfuscated>ME.",
+      "<obfuscated>YOU ARE. RUNNING. OUT OF. TIME."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Psychosis",
@@ -2567,7 +2691,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "WHY. AND FOR. WHAT. DO YOU RESIST?\nI WILL. RIP IT OUT OF YOUR. HEAD.\nTHERE. IS NO KILLING. ME.\nYOU ARE. RUNNING. OUT OF. TIME."
   },
   "Replica Actypoh": {
     "location": "Abyssal Skin",
@@ -2683,6 +2808,12 @@
   "Cerebral Expansion": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "Those almost-human looking things...",
+      "Alive, but not. Missing one crucial",
+      "thing to truly be alive.",
+      "<obfuscated>THIS IS. HUNGER?"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Cerebral Expansion",
@@ -2708,7 +2839,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Those almost-human looking things...\nAlive, but not. Missing one crucial\nthing to truly be alive.\nTHIS IS. HUNGER?"
   },
   "Coalescence of Coal": {
     "location": "Coalrupted Sierhaven",
@@ -2732,6 +2864,12 @@
   "Everlasting Hallucination": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "It is far from the last time the <obfuscated>lxxxxxxx",
+      "appears. What is stopping any one of those",
+      "shadows from transforming once more?",
+      "<obfuscated>I AM. FOREVER. I LINGER. FOREVER."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Everlasting Hallucination",
@@ -2753,7 +2891,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "It is far from the last time the lxxxxxxx\nappears. What is stopping any one of those\nshadows from transforming once more?\nI AM. FOREVER. I LINGER. FOREVER."
   },
   "Focused Calamity Charm": {
     "location": "Architect's Ring",
@@ -2925,6 +3064,14 @@
   "Core Collapse": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "To liken a Star's core to one's heart would be",
+      "sensible; both pulse in rhythm with that which",
+      "sustains the shell. Yet inscribed in blood itself",
+      "is the natural order. One devours, while all else",
+      "is to be devoured.",
+      "<gray>Wind Bomb can now be detonated twice."
+    ],
     "region": "Ring",
     "tier": "Artifact",
     "name": "Core Collapse",
@@ -2950,7 +3097,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "To liken a Star's core to one's heart would be\nsensible; both pulse in rhythm with that which\nsustains the shell. Yet inscribed in blood itself\nis the natural order. One devours, while all else\nis to be devoured.\nWind Bomb can now be detonated twice."
   },
   "Darkest Depths Key": {
     "location": "Celsian Isles",
@@ -2973,6 +3121,12 @@
   "Crumbling Effigy": {
     "location": "Marina Noir",
     "locationId": "gallery2",
+    "mmlore": [
+      "For each drowned sailor out at sea,",
+      "a stone effigy would raise in their place.",
+      "An homage? A mockery? Only the cruel",
+      "deep knows the answer."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Crumbling Effigy",
@@ -2994,7 +3148,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "For each drowned sailor out at sea,\na stone effigy would raise in their place.\nAn homage? A mockery? Only the cruel\ndeep knows the answer."
   },
   "Archos Smelter": {
     "location": "Architect's Ring",
@@ -3140,6 +3295,10 @@
   "Explosive Reagent": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "Quite reactive to even the lightest exposure...",
+      "A bottle of liquid firepower!"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Explosive Reagent",
@@ -3157,7 +3316,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Quite reactive to even the lightest exposure...\nA bottle of liquid firepower!"
   },
   "Focused Charm of Ignition": {
     "location": "Architect's Ring",
@@ -3260,6 +3420,12 @@
   "Fox Frenzy": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "The Dichen's Guide to Recreational Foraging Tip #32:",
+      "On occasion, one may hear a distinct 'yipping' from",
+      "behind; check your bags. Your harvest may have been",
+      "stolen by a critter most cunning."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Fox Frenzy",
@@ -3289,7 +3455,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "The Dichen's Guide to Recreational Foraging Tip #32:\nOn occasion, one may hear a distinct 'yipping' from\nbehind; check your bags. Your harvest may have been\nstolen by a critter most cunning."
   },
   "Greater Charm of Ignition": {
     "location": "Architect's Ring",
@@ -3712,6 +3879,10 @@
   "Aether Dart": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Electricity... The Machine God harbors distaste",
+      "Entropy must be defied."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Aether Dart",
@@ -3733,7 +3904,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Electricity... The Machine God harbors distaste\nEntropy must be defied."
   },
   "Ardent Convergence": {
     "location": "The Grasp of Avarice",
@@ -4323,6 +4495,11 @@
   "Molldyer's Chalk": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "The fire was not so easily wielded.",
+      "An offer needed to be made to light the spark.",
+      "Molldyer understood this better than anyone."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Molldyer's Chalk",
@@ -4344,7 +4521,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "The fire was not so easily wielded.\nAn offer needed to be made to light the spark.\nMolldyer understood this better than anyone."
   },
   "Molldyer's Greatstaff-1": {
     "location": "Coven's Gambit",
@@ -4793,6 +4971,11 @@
   "Everflow Pendant": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Nothing truly great lasts forever. And as",
+      "time passes, perhaps it was better this way.",
+      "To lay beneath the watery depths, forever."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Everflow Pendant",
@@ -4814,7 +4997,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Nothing truly great lasts forever. And as\ntime passes, perhaps it was better this way.\nTo lay beneath the watery depths, forever."
   },
   "Meshuga": {
     "location": "Hexfall",
@@ -5627,6 +5811,11 @@
   "Limber Claw": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "The claw, cleanly severed, still twitches",
+      "and grasps as if it were still attached.",
+      "Even in death, instinct breeds ferocity."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Limber Claw",
@@ -5652,7 +5841,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "The claw, cleanly severed, still twitches\nand grasps as if it were still attached.\nEven in death, instinct breeds ferocity."
   },
   "Remnants of the Captain": {
     "location": "Celsian Isles",
@@ -6162,6 +6352,14 @@
   "Chaos Codex": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "\"O' grand Herald... Grant thy gift upon",
+      "the land... betwixt the scorn and blessed alike...",
+      "Did cast aside those blinded in sanctity...",
+      "They doth not grasp the new order which cometh...",
+      "To this... I offer mine own grant of mercy...",
+      "For the exsufflicate sky to heal the lands...\""
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Chaos Codex",
@@ -6187,7 +6385,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "\"O' grand Herald... Grant thy gift upon\nthe land... betwixt the scorn and blessed alike...\nDid cast aside those blinded in sanctity...\nThey doth not grasp the new order which cometh...\nTo this... I offer mine own grant of mercy...\nFor the exsufflicate sky to heal the lands...\""
   },
   "Completely Harmless Tome": {
     "location": "The Fallen Forum",
@@ -6556,6 +6755,10 @@
   "Silver Codex": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Those under Pelias swore an oath",
+      "to act in the Empire's will; in his will."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Silver Codex",
@@ -6573,7 +6776,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Those under Pelias swore an oath\nto act in the Empire's will; in his will."
   },
   "Sins of the Voracious": {
     "location": "The Scourge of Lunacy",
@@ -6759,6 +6963,11 @@
   "Tome of Broken Vows": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "For each failure, the Knights calligraphed",
+      "their incidents in great detail to ensure",
+      "that their mistakes would not be repeated."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Tome of Broken Vows",
@@ -6772,7 +6981,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "For each failure, the Knights calligraphed\ntheir incidents in great detail to ensure\nthat their mistakes would not be repeated."
   },
   "Tome of Epiphany": {
     "location": "Gallery of Fear",
@@ -10079,6 +10289,11 @@
   "Barbed Spore Pouch": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "In this pouch holds the spiked fungus",
+      "used by the Mycelia for hunting and",
+      "trapping."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Barbed Spore Pouch",
@@ -10096,7 +10311,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "In this pouch holds the spiked fungus\nused by the Mycelia for hunting and\ntrapping."
   },
   "Hallowed Snail": {
     "location": "Architect's Ring Fishing",
@@ -10134,6 +10350,11 @@
   "Trembling Root": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Fear struck the heart of the Dichen",
+      "on that day. The ground shook with the",
+      "intensity of the Mycelian invasion."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Trembling Root",
@@ -10155,11 +10376,18 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Fear struck the heart of the Dichen\non that day. The ground shook with the\nintensity of the Mycelian invasion."
   },
   "Vires Terrae": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "Molldyer, Laurey and Nalatia wriggled and squirmed",
+      "within the fissure, their bodies mangled. The earth",
+      "crushed them with a mere thought.",
+      "Ru'Ten salivated before this marvelous prospect."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Vires Terrae",
@@ -10193,7 +10421,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Molldyer, Laurey and Nalatia wriggled and squirmed\nwithin the fissure, their bodies mangled. The earth\ncrushed them with a mere thought.\nRu'Ten salivated before this marvelous prospect."
   },
   "plate": {
     "location": "Celsian Isles",
@@ -10332,6 +10561,10 @@
   "Mycelian Serum": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "Enzymatic Mycelian secretions are mixed into",
+      "this concoction, nurturing as nature intended."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Mycelian Serum",
@@ -10353,7 +10586,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Enzymatic Mycelian secretions are mixed into\nthis concoction, nurturing as nature intended."
   },
   "Bronze Camera": {
     "location": "King's Valley",
@@ -10594,6 +10828,11 @@
   "Mire's Influence": {
     "location": "Diamenean Hunts",
     "locationId": "hunts",
+    "mmlore": [
+      "The spoils, and consequences, of eugenics. You",
+      "essentially slaughtered a giant pig, really. At least",
+      "the slobber might see use...? Maybe. Eww..."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Mire's Influence",
@@ -10611,11 +10850,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "The spoils, and consequences, of eugenics. You\nessentially slaughtered a giant pig, really. At least\nthe slobber might see use...? Maybe. Eww..."
   },
   "Basidiome Truffle": {
     "location": "Diamenean Hunts",
     "locationId": "hunts",
+    "mmlore": [
+      "Repulsive to some, but those with especially",
+      "distinguished tastes will find themselves",
+      "undoubtedly inclined to try."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Basidiome Truffle",
@@ -10637,7 +10882,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Repulsive to some, but those with especially\ndistinguished tastes will find themselves\nundoubtedly inclined to try."
   },
   "Bound Vessel": {
     "location": "Celsian Isles",
@@ -10671,6 +10917,12 @@
   "Fungal Fortitude": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "Mycelia born of the Godspore are magnitudes",
+      "more resilient than their brothers and sisters.",
+      "Their hulking size and durability made them",
+      "excellent soldiers for the cause."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Fungal Fortitude",
@@ -10688,7 +10940,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Mycelia born of the Godspore are magnitudes\nmore resilient than their brothers and sisters.\nTheir hulking size and durability made them\nexcellent soldiers for the cause."
   },
   "Box of Endless Echoes": {
     "location": "The Black Willows",
@@ -10742,6 +10995,11 @@
   "Mist of Dawn": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Each morning sun was as beautiful as the last...",
+      "And each day that passed without the Wolf by her",
+      "side, was as cold and as ruthless as the night."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Mist of Dawn",
@@ -10767,7 +11025,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Each morning sun was as beautiful as the last...\nAnd each day that passed without the Wolf by her\nside, was as cold and as ruthless as the night."
   },
   "Explosive Counter Charm": {
     "location": "Architect's Ring",
@@ -10859,6 +11118,11 @@
   "Blessing of the Convert": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "There was great value in the church's blessing.",
+      "Once the word was given, Pelias took it as his",
+      "right to reclaim his dignity. By any means necessary."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Blessing of the Convert",
@@ -10880,7 +11144,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "There was great value in the church's blessing.\nOnce the word was given, Pelias took it as his\nright to reclaim his dignity. By any means necessary."
   },
   "Focused Charm of Sanctification": {
     "location": "Architect's Ring",
@@ -11237,6 +11502,11 @@
   "Automatic Distillery": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "The refinery processes foods into a",
+      "liquid for maximum nutritional value.",
+      "Taste is irrelevant."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Automatic Distillery",
@@ -11262,7 +11532,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "The refinery processes foods into a\nliquid for maximum nutritional value.\nTaste is irrelevant."
   },
   "Damaged Chassis": {
     "mmlore": [
@@ -11298,6 +11569,11 @@
   "Kaleidoscopic Chalice": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "Even the metal from which their finest",
+      "silverware was crafted had become",
+      "a tapestry for the void to paint upon."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Kaleidoscopic Chalice",
@@ -11319,7 +11595,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Even the metal from which their finest\nsilverware was crafted had become\na tapestry for the void to paint upon."
   },
   "Supply Package": {
     "mmlore": [
@@ -11337,6 +11614,12 @@
   "Antumbral Chains": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "This frantic pulsing makes its way throughout",
+      "what little you own of your body. Nerves",
+      "squirm and jolt as the strings turn to chains.",
+      "<obfuscated>IT WILL. BE MINE. EVENTUALLY."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Antumbral Chains",
@@ -11354,7 +11637,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "This frantic pulsing makes its way throughout\nwhat little you own of your body. Nerves\nsquirm and jolt as the strings turn to chains.\nIT WILL. BE MINE. EVENTUALLY."
   },
   "Cracked Chain": {
     "location": "Architect's Ring",
@@ -11630,6 +11914,12 @@
   "Lordtomb Fragment": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "Each mountainous blow from the Herald",
+      "left shards of the tomb in his wake.",
+      "The sky reached for the land below, yet",
+      "those that crawl beneath still stand."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Lordtomb Fragment",
@@ -11647,7 +11937,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Each mountainous blow from the Herald\nleft shards of the tomb in his wake.\nThe sky reached for the land below, yet\nthose that crawl beneath still stand."
   },
   "Sedated Charm of Defense": {
     "location": "Architect's Ring",
@@ -18784,6 +19075,13 @@
   "Keter Core": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "The waiting Knight saw his Vigil complete at last,",
+      "his tomb fulfilled as an amalgam was placed before",
+      "him, further powering the Claim. Through his death,",
+      "his core became a heart beyond mortal measure.",
+      "His purpose had been met."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Keter Core",
@@ -18801,11 +19099,19 @@
       }
     },
     "type": "Charm",
-    "class_name": "Generalist"
+    "class_name": "Generalist",
+    "lore": "The waiting Knight saw his Vigil complete at last,\nhis tomb fulfilled as an amalgam was placed before\nhim, further powering the Claim. Through his death,\nhis core became a heart beyond mortal measure.\nHis purpose had been met."
   },
   "Nihilo Core": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Emptiness takes many forms. When the Veil",
+      "frays away, a new darkness emerges.",
+      "A rot sets; Reality made something else.",
+      "Some fear it. Some worship it.",
+      "But very few become one with it."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Nihilo Core",
@@ -18827,7 +19133,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Generalist"
+    "class_name": "Generalist",
+    "lore": "Emptiness takes many forms. When the Veil\nfrays away, a new darkness emerges.\nA rot sets; Reality made something else.\nSome fear it. Some worship it.\nBut very few become one with it."
   },
   "Otherworldly Fruit": {
     "location": "The Black Willows",
@@ -18923,6 +19230,11 @@
   "Abyssal Coral": {
     "location": "Architect's Ring Overworld",
     "locationId": "overworld3",
+    "mmlore": [
+      "Dredged from the densest corals found",
+      "within the gargantuan growth, it is",
+      "only a tiny piece of a thriving ecosystem."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Abyssal Coral",
@@ -18952,11 +19264,16 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Dredged from the densest corals found\nwithin the gargantuan growth, it is\nonly a tiny piece of a thriving ecosystem."
   },
   "Fecund Berry": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "One of many fruits found in the",
+      "deep boughs of the Wolfswood."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Fecund Berry",
@@ -18970,11 +19287,18 @@
       }
     },
     "type": "Charm",
-    "class_name": "Generalist"
+    "class_name": "Generalist",
+    "lore": "One of many fruits found in the\ndeep boughs of the Wolfswood."
   },
   "Fecund Berry Basket": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Harrakfar's lifeblood shed onto the Wolfswood",
+      "nurtured life like never seen before.",
+      "All manner of fruits and berries owe",
+      "their ripeness and vigor to the Wolf."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Fecund Berry Basket",
@@ -18992,7 +19316,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Generalist"
+    "class_name": "Generalist",
+    "lore": "Harrakfar's lifeblood shed onto the Wolfswood\nnurtured life like never seen before.\nAll manner of fruits and berries owe\ntheir ripeness and vigor to the Wolf."
   },
   "Knick-Knack Sack": {
     "location": "King's Valley",
@@ -19182,6 +19507,11 @@
   "Chronographic Hourglass": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "In some form, this strange hourglass",
+      "is an allusion to the grand Inversion.",
+      "Impermanence. With each swivel."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Chronographic Hourglass",
@@ -19199,11 +19529,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "In some form, this strange hourglass\nis an allusion to the grand Inversion.\nImpermanence. With each swivel."
   },
   "Cracked Pocketwatch": {
     "location": "Architect's Ring Fishing",
     "locationId": "fishing",
+    "mmlore": [
+      "Erosion has long weathered this",
+      "timepiece, rust counting the days",
+      "since its final tick."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Cracked Pocketwatch",
@@ -19229,7 +19565,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Erosion has long weathered this\ntimepiece, rust counting the days\nsince its final tick."
   },
   "Doomsday Clock": {
     "location": "Celsian Isles",
@@ -19282,6 +19619,13 @@
   "Fractured Warp Drive": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "At some point began the prototyping for",
+      "a revolutionary engine that, in theory,",
+      "allowed Constructs to boldly go",
+      "beyond the skies. It was abruptly",
+      "met with an explosive halt."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Fractured Warp Drive",
@@ -19303,7 +19647,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "At some point began the prototyping for\na revolutionary engine that, in theory,\nallowed Constructs to boldly go\nbeyond the skies. It was abruptly\nmet with an explosive halt."
   },
   "Khrosmos (clock)": {
     "location": "Echoes of Oblivion",
@@ -19428,6 +19773,11 @@
   "Stargazer's Glasses": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "From atop the tower, one could see all",
+      "of Serebria. Yet higher still, were the",
+      "Stars, shining brilliantly over the land."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Stargazer's Glasses",
@@ -19445,7 +19795,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "From atop the tower, one could see all\nof Serebria. Yet higher still, were the\nStars, shining brilliantly over the land."
   },
   "The Thirteenth Toll": {
     "location": "Celsian Isles",
@@ -19713,6 +20064,11 @@
   "Petrified Sap": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Whenever Coven furniture or accessories",
+      "were damaged, a special resin was applied",
+      "to repair the wear and tear."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Petrified Sap",
@@ -19738,7 +20094,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Whenever Coven furniture or accessories\nwere damaged, a special resin was applied\nto repair the wear and tear."
   },
   "Tiny Shellfish": {
     "location": "Architect's Ring Fishing",
@@ -20663,6 +21020,10 @@
   "Balancing Act": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "Maintaining balance is easy when you",
+      "control both sides of the scales."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Balancing Act",
@@ -20692,7 +21053,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Maintaining balance is easy when you\ncontrol both sides of the scales."
   },
   "Cobaltean Charm": {
     "location": "Celsian Isles",
@@ -21496,6 +21858,12 @@
   "Vile Ground": {
     "location": "Silver Knight's Remnants",
     "locationId": "skr",
+    "mmlore": [
+      "The survivors of Galos' unwilled contamination had",
+      "since evolved with their environment- flora and fauna",
+      "alike drink from the acid lakes, indifferent to corrosion.",
+      "Tarri wished she could say the same."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Vile Ground",
@@ -21525,7 +21893,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The survivors of Galos' unwilled contamination had\nsince evolved with their environment- flora and fauna\nalike drink from the acid lakes, indifferent to corrosion.\nTarri wished she could say the same."
   },
   "C'Nai's Cube": {
     "location": "Forsworn Sanctum",
@@ -22012,6 +22381,11 @@
   "Morel's Bracers": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Morel would often lose his bracers in combat.",
+      "It didn't matter much, since he could grow",
+      "new ones in a matter of minutes."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Morel's Bracers",
@@ -22025,11 +22399,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Morel would often lose his bracers in combat.\nIt didn't matter much, since he could grow\nnew ones in a matter of minutes."
   },
   "Pressure Gauntlet": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Weighted pistons make each punch impossibly",
+      "heavy, each blow immaculately suspended",
+      "and released for maximum damage inflicted."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Pressure Gauntlet",
@@ -22055,11 +22435,18 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Weighted pistons make each punch impossibly\nheavy, each blow immaculately suspended\nand released for maximum damage inflicted."
   },
   "Rusted Bracers": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "Though the metal may rust, its once-polished",
+      "surface will be all that anyone remembers.",
+      "Just as the once-great empire fell, only",
+      "the pinnacle of its existence is cherished."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Rusted Bracers",
@@ -22081,7 +22468,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Though the metal may rust, its once-polished\nsurface will be all that anyone remembers.\nJust as the once-great empire fell, only\nthe pinnacle of its existence is cherished."
   },
   "Steaming Stave-2": {
     "location": "Cradle of the Broken God",
@@ -22501,6 +22889,11 @@
   "Explosive Spore": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "Even the lightest touch, and the large spore",
+      "will erupt into a million blanketing particles...",
+      "each one more toxic than a spider's venom."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Explosive Spore",
@@ -22518,7 +22911,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Even the lightest touch, and the large spore\nwill erupt into a million blanketing particles...\neach one more toxic than a spider's venom."
   },
   "Crimson Scraps": {
     "mmlore": [
@@ -25356,6 +25750,12 @@
   "Windeater Icon": {
     "location": "Silver Knight's Remnants",
     "locationId": "skr",
+    "mmlore": [
+      "A reluctant Exhibitor. A distant land swamped",
+      "in miasma. There was much to regale",
+      "Rip with, once Tarri was home.",
+      "Home, in eternal Serebria."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Windeater Icon",
@@ -25377,11 +25777,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "A reluctant Exhibitor. A distant land swamped\nin miasma. There was much to regale\nRip with, once Tarri was home.\nHome, in eternal Serebria."
   },
   "Duelist's Sigil": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "The Lyrata, though bound by their bronze",
+      "armor, were still combatants of no equal.",
+      "Untouchable, by all but the purest Silver."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Duelist's Sigil",
@@ -25399,7 +25805,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "The Lyrata, though bound by their bronze\narmor, were still combatants of no equal.\nUntouchable, by all but the purest Silver."
   },
   "Firmament": {
     "location": "City of Shifting Waters",
@@ -25731,6 +26138,13 @@
   "Malignant Neuron": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "A window. An infinitesimal point in the vast",
+      "mindscape. A lens into the inner machinations",
+      "of what is known as the self. But these windows",
+      "can be broken, and what spreads through",
+      "the cracks... will redefine the self entirely."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Malignant Neuron",
@@ -25760,7 +26174,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "A window. An infinitesimal point in the vast\nmindscape. A lens into the inner machinations\nof what is known as the self. But these windows\ncan be broken, and what spreads through\nthe cracks... will redefine the self entirely."
   },
   "Talaya's Decay": {
     "location": "Rush of Dissonance",
@@ -25931,6 +26346,11 @@
   "Ancient Shadowstone": {
     "location": "Architect's Ring Fishing",
     "locationId": "fishing",
+    "mmlore": [
+      "A strange omen hangs over the",
+      "eroded stone, its source likely",
+      "far more insidious."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Ancient Shadowstone",
@@ -25956,7 +26376,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "A strange omen hangs over the\neroded stone, its source likely\nfar more insidious."
   },
   "Silver Knight's Key": {
     "location": "Architect's Ring",
@@ -27858,6 +28279,12 @@
   "Magna Luna": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "The blade... a spell, one that scarce few",
+      "hold the knowledge of anymore.",
+      "And yet, only a speck in the vast ocean",
+      "of experience the Knights held."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Magna Luna",
@@ -27883,7 +28310,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "The blade... a spell, one that scarce few\nhold the knowledge of anymore.\nAnd yet, only a speck in the vast ocean\nof experience the Knights held."
   },
   "Ornamental Dream Catcher": {
     "location": "Gallery of Fear",
@@ -28426,6 +28854,11 @@
   "Bottled Infinity": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Drawn from the Wolf's power, and bottled",
+      "within this flask to be imbibed by those",
+      "who would deem it worth the risk."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bottled Infinity",
@@ -28439,7 +28872,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Drawn from the Wolf's power, and bottled\nwithin this flask to be imbibed by those\nwho would deem it worth the risk."
   },
   "Bottled Twisted": {
     "mmlore": [
@@ -28458,6 +28892,11 @@
   "Bottled Wind": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "Even the air was not sacred to these mongrels...",
+      "The Masked subjugated all traces of ancient Silver",
+      "as fortifications against would-be attackers."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bottled Wind",
@@ -28479,7 +28918,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Even the air was not sacred to these mongrels...\nThe Masked subjugated all traces of ancient Silver\nas fortifications against would-be attackers."
   },
   "Century-Aged Liquor-2": {
     "location": "The Wanderer's Fortune",
@@ -28581,6 +29021,12 @@
   "Coven Vial": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "A powerful elixir brims within. Harvested",
+      "from the Tree of Life, imbued with the",
+      "purest of sap, flowing as freely as the",
+      "blood of the Wolf. A power to mock even Death."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Coven Vial",
@@ -28602,7 +29048,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "A powerful elixir brims within. Harvested\nfrom the Tree of Life, imbued with the\npurest of sap, flowing as freely as the\nblood of the Wolf. A power to mock even Death."
   },
   "Crystalline Blessing": {
     "location": "The Wolfswood",
@@ -28660,6 +29107,11 @@
   "Diamondback Venom": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "This necklace has changed hands many",
+      "times. Its previous owners never",
+      "lived long enough to explain why."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Diamondback Venom",
@@ -28681,7 +29133,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "This necklace has changed hands many\ntimes. Its previous owners never\nlived long enough to explain why."
   },
   "Distant Boon Charm": {
     "location": "Architect's Ring",
@@ -29101,6 +29554,11 @@
   "Scarlet Haze": {
     "location": "Sanguine Halls",
     "locationId": "gallery1",
+    "mmlore": [
+      "The blood runs thick here... Every",
+      "hallway, every door, every crevice...",
+      "When does it end?"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Scarlet Haze",
@@ -29122,7 +29580,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "The blood runs thick here... Every\nhallway, every door, every crevice...\nWhen does it end?"
   },
   "Sky Seeker's Grace": {
     "location": "Star Point",
@@ -29145,6 +29604,11 @@
   "Split Tincture": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "The Machine required an efficient means of",
+      "distributing liquid aether, the empire's",
+      "primary energy source."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Split Tincture",
@@ -29170,7 +29634,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "The Machine required an efficient means of\ndistributing liquid aether, the empire's\nprimary energy source."
   },
   "Starblood Ichor": {
     "location": "The Celestial Zenith",
@@ -29268,6 +29733,11 @@
   "Urn of Perpetuity": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "An urn fashioned after the sight of",
+      "the citadel; coveted by the deep waters,",
+      "yet never truly claimed by it."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Urn of Perpetuity",
@@ -29293,7 +29763,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "An urn fashioned after the sight of\nthe citadel; coveted by the deep waters,\nyet never truly claimed by it."
   },
   "Dry-Aged Licorice": {
     "location": "Halloween Event",
@@ -29484,6 +29955,11 @@
   "Astral Attractor": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "The stellar plague devoured all matter indiscriminately",
+      "with an insatiable appetite. Sentient, or otherwise.",
+      "Dead, or alive."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Astral Attractor",
@@ -29513,7 +29989,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "The stellar plague devoured all matter indiscriminately\nwith an insatiable appetite. Sentient, or otherwise.\nDead, or alive."
   },
   "Fire Suppressant": {
     "mmlore": [
@@ -29747,6 +30224,11 @@
   "Scope of the Overseer": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Daarken gazed through the lens, peering",
+      "into the endless darkness. Somewhere above,",
+      "a threat loomed far beyond this world."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Scope of the Overseer",
@@ -29764,7 +30246,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Daarken gazed through the lens, peering\ninto the endless darkness. Somewhere above,\na threat loomed far beyond this world."
   },
   "Shard of the Mantle": {
     "location": "Kaul's Judgment",
@@ -29785,6 +30268,10 @@
   "Soul Synchronizer": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "\"It's almost as if there's a living being",
+      "within that machine... It's uncanny.\""
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Soul Synchronizer",
@@ -29802,11 +30289,19 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "\"It's almost as if there's a living being\nwithin that machine... It's uncanny.\""
   },
   "Thousand Realm Jewel": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "Refracted in the jewel, you can see... everything.",
+      "The Outworld kept Delfia's prison hidden.",
+      "But it could not stay hidden forever.",
+      "There would always be a rift somewhere,",
+      "among these thousand worlds."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Thousand Realm Jewel",
@@ -29828,7 +30323,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Refracted in the jewel, you can see... everything.\nThe Outworld kept Delfia's prison hidden.\nBut it could not stay hidden forever.\nThere would always be a rift somewhere,\namong these thousand worlds."
   },
   "Treasure Wheel Token": {
     "location": "Seasonal Pass",
@@ -30175,6 +30671,11 @@
   "Bewitched Eye": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Such grotesque curiosities are often found on",
+      "a witch's shelf, for she knows only the finest ingredients",
+      "will make for the most potent of potions."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bewitched Eye",
@@ -30196,7 +30697,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Such grotesque curiosities are often found on\na witch's shelf, for she knows only the finest ingredients\nwill make for the most potent of potions."
   },
   "Blind Eye of Faimynyw": {
     "location": "Darkest Depths",
@@ -30222,6 +30724,10 @@
   "Brine's Gambit": {
     "location": "Marina Noir",
     "locationId": "gallery2",
+    "mmlore": [
+      "\"A dive beneath the waves is always a gamble.",
+      "You never know what might be lurking down there.\""
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Brine's Gambit",
@@ -30255,7 +30761,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "\"A dive beneath the waves is always a gamble.\nYou never know what might be lurking down there.\""
   },
   "Chaotic Slots Token": {
     "location": "The Wanderer's Fortune",
@@ -30276,6 +30783,13 @@
   "Coven Amulet": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "Each of the four Covensteads bore this insignia.",
+      "A blessing from the Goddess. A testament to",
+      "unwavering faith and loyalty. But, as with all within",
+      "nature... such fickle sentiments soon withered,",
+      "like the beauty of fragrant roses."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Coven Amulet",
@@ -30289,7 +30803,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Each of the four Covensteads bore this insignia.\nA blessing from the Goddess. A testament to\nunwavering faith and loyalty. But, as with all within\nnature... such fickle sentiments soon withered,\nlike the beauty of fragrant roses."
   },
   "Distant Charm of Precision": {
     "location": "Architect's Ring",
@@ -30967,6 +31482,12 @@
   "Leyline Conduit": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "Of all the precious stones, the purity of mana gleams",
+      "most brilliantly within Opal. Yet, the embedded gemstone",
+      "is but a pale imitation of the Wolf's Tear, for no ambitions",
+      "of Power could have hoped to rival Harrakfar's love."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Leyline Conduit",
@@ -30988,11 +31509,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Of all the precious stones, the purity of mana gleams\nmost brilliantly within Opal. Yet, the embedded gemstone\nis but a pale imitation of the Wolf's Tear, for no ambitions\nof Power could have hoped to rival Harrakfar's love."
   },
   "Maris Noctis": {
     "location": "Marina Noir",
     "locationId": "gallery2",
+    "mmlore": [
+      "In the darkest night, one cannot see",
+      "the pitch-black waves. They thrash",
+      "upon the shore, beckoning you to peer deeper."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Maris Noctis",
@@ -31014,7 +31541,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "In the darkest night, one cannot see\nthe pitch-black waves. They thrash\nupon the shore, beckoning you to peer deeper."
   },
   "Plume of Steel": {
     "location": "Diamenean Hunts",
@@ -31153,6 +31681,13 @@
   "Tolumaeus Nestfeather": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Many birds nest upon the towers of the",
+      "Tolumaeus, beckoning your gaze.",
+      "The absurdity of their height... The",
+      "grandeur of their architecture...",
+      "This place was once... so grand."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Tolumaeus Nestfeather",
@@ -31170,7 +31705,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Many birds nest upon the towers of the\nTolumaeus, beckoning your gaze.\nThe absurdity of their height... The\ngrandeur of their architecture...\nThis place was once... so grand."
   },
   "Windwalker Talisman": {
     "location": "Darkest Depths",
@@ -31713,6 +32249,11 @@
   "Intrepid Stare": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "It's staring. Look away now. If you",
+      "stare it'll be the end of you.",
+      "<obfuscated>YOUR END. AND. A BEGINNING."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Intrepid Stare",
@@ -31734,7 +32275,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "It's staring. Look away now. If you\nstare it'll be the end of you.\nYOUR END. AND. A BEGINNING."
   },
   "Lesser Charm of Choler": {
     "location": "Architect's Ring",
@@ -31789,6 +32331,12 @@
   "Solar Smite": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Fought so close to the earth, the",
+      "hungerers' radiance was blinding.",
+      "That starlight was to be severed",
+      "by rending steel."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Solar Smite",
@@ -31810,7 +32358,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Fought so close to the earth, the\nhungerers' radiance was blinding.\nThat starlight was to be severed\nby rending steel."
   },
   "Strong Charm of Choler": {
     "location": "Architect's Ring",
@@ -32564,6 +33113,12 @@
   "Blightseeker's Boon": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "Each blistering vein, every pulsing mass",
+      "of starblight heeds to the beckon of",
+      "the Herald. In an instant, the collective",
+      "mass reacted immediately to his command."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Blightseeker's Boon",
@@ -32581,7 +33136,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Each blistering vein, every pulsing mass\nof starblight heeds to the beckon of\nthe Herald. In an instant, the collective\nmass reacted immediately to his command."
   },
   "Charcoal Key Fragment": {
     "location": "Coalrupted Sierhaven",
@@ -32748,6 +33304,11 @@
   "Masked's Black Knife": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "The act of the kill was silent, and anonymous.",
+      "A knife with no wielder, a killer with no face.",
+      "Only a mask."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Masked's Black Knife",
@@ -32761,7 +33322,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "The act of the kill was silent, and anonymous.\nA knife with no wielder, a killer with no face.\nOnly a mask."
   },
   "Obsidian Shard": {
     "name": "Obsidian Shard",
@@ -32907,6 +33469,12 @@
   "Spellbound Spearhead": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Even the most studious mages of Pelias' court",
+      "could not conceive the Empire's salvation from",
+      "their magical research, yet they bore fruits",
+      "on other fronts."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Spellbound Spearhead",
@@ -32932,7 +33500,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Even the most studious mages of Pelias' court\ncould not conceive the Empire's salvation from\ntheir magical research, yet they bore fruits\non other fronts."
   },
   "Swift Shattering Charm": {
     "location": "Architect's Ring",
@@ -33153,6 +33722,11 @@
   "Apocalyptic Scroll": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "Orasomn saw visions of an unavoidable destruction,",
+      "a wrath incurred by the staining of ancient Silver.",
+      "From one apocalypse to another."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Apocalyptic Scroll",
@@ -33174,11 +33748,23 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Orasomn saw visions of an unavoidable destruction,\na wrath incurred by the staining of ancient Silver.\nFrom one apocalypse to another."
   },
   "Celestial Contract": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "\"Young Aurora. Child orphaned by time. The end of times",
+      "impend, made by their conflict waged eternal. But",
+      "salvation lies in the Outside. Lead your kin to freedom.",
+      "Lead them... to the Stars. You will light the path forward.\"",
+      "Thus sealed was the girl's promise, to save all who would listen.",
+      "Thus spake was the blighted lie, echoing yet still through fate.",
+      "<gray>Deactivating Dark Pact deals melee damage to",
+      "<gray>all nearby enemies, based on absorption",
+      "<gray>gained during the duration of the Pact."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Celestial Contract",
@@ -33208,7 +33794,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "\"Young Aurora. Child orphaned by time. The end of times\nimpend, made by their conflict waged eternal. But\nsalvation lies in the Outside. Lead your kin to freedom.\nLead them... to the Stars. You will light the path forward.\"\nThus sealed was the girl's promise, to save all who would listen.\nThus spake was the blighted lie, echoing yet still through fate.\nDeactivating Dark Pact deals melee damage to\nall nearby enemies, based on absorption\ngained during the duration of the Pact."
   },
   "Rites of Eternity": {
     "location": "The Eternal Vigil",
@@ -33236,6 +33823,11 @@
   "Seal of the Way": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "The Great Wolf, rich with life, bore",
+      "immense healing capabilities, sealing grave",
+      "wounds with a simple command."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Seal of the Way",
@@ -33269,7 +33861,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "The Great Wolf, rich with life, bore\nimmense healing capabilities, sealing grave\nwounds with a simple command."
   },
   "Silver Codex Scrap": {
     "location": "Sanguine Halls",
@@ -33378,6 +33971,11 @@
   "Propulsion Engine": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "The heights in the lab sure make",
+      "you crane your neck... If only there",
+      "was a way to get up there faster..."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Propulsion Engine",
@@ -33399,11 +33997,19 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The heights in the lab sure make\nyou crane your neck... If only there\nwas a way to get up there faster..."
   },
   "Bottled Font of Tuulen": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "Tuulen was crippled by the Malefactor's cruelty, yet",
+      "it remains a kinder fate than what befell her comrades.",
+      "Sevvet, Axxil... Irrus... and countless other names, lost",
+      "forever to duty. This sanctified water is the Font of Silver.",
+      "Her gift to you, for now there was someone to stand beside her."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Bottled Font of Tuulen",
@@ -33417,7 +34023,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Tuulen was crippled by the Malefactor's cruelty, yet\nit remains a kinder fate than what befell her comrades.\nSevvet, Axxil... Irrus... and countless other names, lost\nforever to duty. This sanctified water is the Font of Silver.\nHer gift to you, for now there was someone to stand beside her."
   },
   "Death's Shadow": {
     "location": "Eternity Skin",
@@ -33603,6 +34210,11 @@
   "Looming Demise": {
     "location": "Marina Noir",
     "locationId": "gallery2",
+    "mmlore": [
+      "There is something beyond death here...",
+      "Something the eye cannot grasp, something",
+      "the hand cannot touch. It is inescapable."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Looming Demise",
@@ -33624,7 +34236,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "There is something beyond death here...\nSomething the eye cannot grasp, something\nthe hand cannot touch. It is inescapable."
   },
   "Old Soldier's Tag": {
     "location": "Celsian Isles Overworld",
@@ -33975,6 +34588,11 @@
   "Oversized Flask": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Sturdier containers were needed if",
+      "the Mycelia wanted to stockpile their",
+      "various mixtures and poisons."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Oversized Flask",
@@ -33988,7 +34606,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Sturdier containers were needed if\nthe Mycelia wanted to stockpile their\nvarious mixtures and poisons."
   },
   "Reinforced Bottle": {
     "mmlore": [
@@ -34007,6 +34626,12 @@
   "Stilldreamer's Slumber": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "They hang and sway in darkness, motionless",
+      "and virtually undetectable. No one will be",
+      "prepared for their impetuous invasion.",
+      "<obfuscated>AND NONE. OF YOU. WILL BE. LEFT."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Stilldreamer's Slumber",
@@ -34028,11 +34653,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "They hang and sway in darkness, motionless\nand virtually undetectable. No one will be\nprepared for their impetuous invasion.\nAND NONE. OF YOU. WILL BE. LEFT."
   },
   "Stonebearer Toxin": {
     "location": "Diamenean Hunts",
     "locationId": "hunts",
+    "mmlore": [
+      "For a brief moment, you consider imbibing from the",
+      "concoction brewed with Uamiel's deadly essence.",
+      "Could you possibly inoculate against it...?"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Stonebearer Toxin",
@@ -34054,7 +34685,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "For a brief moment, you consider imbibing from the\nconcoction brewed with Uamiel's deadly essence.\nCould you possibly inoculate against it...?"
   },
   "Swift Iron Charm": {
     "location": "Architect's Ring",
@@ -34202,6 +34834,12 @@
   "Amberlight Seed": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "<dark_gray>This seed was a gift from Harrakfar to Hycenea.",
+      "Once grown, its petals shine a gorgeous orange in",
+      "the radiant morning sun... and it is the last thing",
+      "that remains of the two lovers..."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Amberlight Seed",
@@ -34219,7 +34857,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "This seed was a gift from Harrakfar to Hycenea.\nOnce grown, its petals shine a gorgeous orange in\nthe radiant morning sun... and it is the last thing\nthat remains of the two lovers..."
   },
   "Moondrop Berries": {
     "mmlore": [
@@ -34638,6 +35277,11 @@
   "Scattered Stardust": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Stardust falls from atop the structure...",
+      "They trace a path no other will follow,",
+      "beckoning you to do the same."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Scattered Stardust",
@@ -34655,7 +35299,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Stardust falls from atop the structure...\nThey trace a path no other will follow,\nbeckoning you to do the same."
   },
   "Sedated Charm of Shock": {
     "location": "Architect's Ring",
@@ -34953,6 +35598,10 @@
   "Crimson Coin": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "Contrary to popular belief, all outcomes are fifty-",
+      "fifty. Bet on your life; heads, or tails?"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Crimson Coin",
@@ -34978,7 +35627,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Contrary to popular belief, all outcomes are fifty-\nfifty. Bet on your life; heads, or tails?"
   },
   "Despondent Doubloon": {
     "location": "The Grasp of Avarice",
@@ -35002,6 +35652,13 @@
   "Emerald Ascension": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "Hycenea gazed upon the Wolfswood upon",
+      "her freedom. She inhaled, taking in the",
+      "greenery that she was locked away from",
+      "for so long. This was his forest... and",
+      "nobody would stop her from seeing him again."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Emerald Ascension",
@@ -35039,7 +35696,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Hycenea gazed upon the Wolfswood upon\nher freedom. She inhaled, taking in the\ngreenery that she was locked away from\nfor so long. This was his forest... and\nnobody would stop her from seeing him again."
   },
   "Empowering Charm of Conversion": {
     "location": "Architect's Ring",
@@ -35235,6 +35893,13 @@
   "Profane Monstrance": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "A boundary has been broken. The full",
+      "understanding of form and the concept",
+      "of self has been given to a malice",
+      "that will twist that revelation to no end.",
+      "<obfuscated>YOU. WILL CEASE. AND I WILL. BECOME YOU."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Profane Monstrance",
@@ -35256,7 +35921,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "A boundary has been broken. The full\nunderstanding of form and the concept\nof self has been given to a malice\nthat will twist that revelation to no end.\nYOU. WILL CEASE. AND I WILL. BECOME YOU."
   },
   "Pulsating Gold": {
     "location": "King's Valley",
@@ -35291,6 +35957,11 @@
   "Pyroclastic Emesis": {
     "location": "Diamenean Hunts",
     "locationId": "hunts",
+    "mmlore": [
+      "First, stability. Slow-moving and resolute. Then",
+      "comes the chaos, the burning excitement.",
+      "Then comes the grand release. The big one."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Pyroclastic Emesis",
@@ -35320,7 +35991,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "First, stability. Slow-moving and resolute. Then\ncomes the chaos, the burning excitement.\nThen comes the grand release. The big one."
   },
   "Sunlit Gold": {
     "location": "Celsian Isles",
@@ -35464,6 +36136,12 @@
   "Golden Soul": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "And so, the debt was paid. A punch",
+      "with the weight of a mountain. A body",
+      "reflecting every ray of light. A soul",
+      "sealed firmly inside solid gold."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Golden Soul",
@@ -35493,7 +36171,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "And so, the debt was paid. A punch\nwith the weight of a mountain. A body\nreflecting every ray of light. A soul\nsealed firmly inside solid gold."
   },
   "Jungle's Boon": {
     "location": "Kaul's Judgment",
@@ -44095,6 +44774,11 @@
   "Silver Ring": {
     "location": "Sanguine Halls",
     "locationId": "gallery1",
+    "mmlore": [
+      "As the blade fell, a pain now numbed.",
+      "As the ring fell, a silence filled the space.",
+      "And as he fell, an empire would soon follow."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Silver Ring",
@@ -44112,11 +44796,18 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "As the blade fell, a pain now numbed.\nAs the ring fell, a silence filled the space.\nAnd as he fell, an empire would soon follow."
   },
   "Rocket Boots": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "The Machine God cared only about efficiency.",
+      "But before efficiency, comes innovation. These",
+      "lightweight, rocket-propelled thrusters are",
+      "proof that ingenuity and volatility are one and the same."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Rocket Boots",
@@ -44146,11 +44837,19 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "The Machine God cared only about efficiency.\nBut before efficiency, comes innovation. These\nlightweight, rocket-propelled thrusters are\nproof that ingenuity and volatility are one and the same."
   },
   "Rogue Planet": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "What once started as a path to freedom",
+      "for her people had changed with time...",
+      "Perhaps, in another life, things may",
+      "have been different for her.",
+      "<gray>Unstable Amalgam now taunts enemies on cast."
+    ],
     "region": "Ring",
     "tier": "Artifact",
     "name": "Rogue Planet",
@@ -44176,11 +44875,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "What once started as a path to freedom\nfor her people had changed with time...\nPerhaps, in another life, things may\nhave been different for her.\nUnstable Amalgam now taunts enemies on cast."
   },
   "Sanguine Tendon": {
     "location": "Sanguine Halls",
     "locationId": "gallery1",
+    "mmlore": [
+      "A grip tightened. Hands thrust forth.",
+      "Muscles tensed as the purview of",
+      "pursuit was stained by endless blood."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Sanguine Tendon",
@@ -44206,7 +44911,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "A grip tightened. Hands thrust forth.\nMuscles tensed as the purview of\npursuit was stained by endless blood."
   },
   "Tesseract of Death": {
     "location": "Celsian Isles",
@@ -44392,6 +45098,10 @@
   "Explosive Component": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Atoms are split within the handheld",
+      "reactor. Fission, made ergonomic."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Explosive Component",
@@ -44413,7 +45123,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Atoms are split within the handheld\nreactor. Fission, made ergonomic."
   },
   "Live Explosive": {
     "location": "Cradle of the Broken God",
@@ -44755,6 +45466,13 @@
   "Quickening Mycosis": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "The mitotic process is unbelievably rapid,",
+      "multiplying to billions of spores in merely a day.",
+      "This unbelievable growth is multiplied tenfold",
+      "by the grand influence of the Godspore,",
+      "blighting all life around it with an incurable mycosis."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Quickening Mycosis",
@@ -44776,11 +45494,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "The mitotic process is unbelievably rapid,\nmultiplying to billions of spores in merely a day.\nThis unbelievable growth is multiplied tenfold\nby the grand influence of the Godspore,\nblighting all life around it with an incurable mycosis."
   },
   "Razed Remnants": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "The only remaining memory of the",
+      "once-great empire, razed by the",
+      "hand of the Silver incursion."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Razed Remnants",
@@ -44798,7 +45522,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "The only remaining memory of the\nonce-great empire, razed by the\nhand of the Silver incursion."
   },
   "Strong Insanity Charm": {
     "location": "Architect's Ring",
@@ -44936,6 +45661,11 @@
   "Dragon's Eye": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "No corner nor pebble amiss, the eye of the",
+      "Architect is all-seeing. As is his will, to those",
+      "that enact his grand vision."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Dragon's Eye",
@@ -44965,7 +45695,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "No corner nor pebble amiss, the eye of the\nArchitect is all-seeing. As is his will, to those\nthat enact his grand vision."
   },
   "Focused Charm of Light": {
     "location": "Architect's Ring",
@@ -45022,6 +45753,11 @@
   "Heart of the Forge": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "The crucible from which the sturdiest",
+      "metal is forged. The lifeblood of the Silver",
+      "that melts all else."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Heart of the Forge",
@@ -45043,7 +45779,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "The crucible from which the sturdiest\nmetal is forged. The lifeblood of the Silver\nthat melts all else."
   },
   "IOTA Memory Core": {
     "mmlore": [
@@ -45253,6 +45990,11 @@
   "Sticky Sap": {
     "location": "Architect's Ring Overworld",
     "locationId": "overworld3",
+    "mmlore": [
+      "Its flavor is rich and earthy, practically gliding",
+      "down the throat. A recurring ingredient in traditional",
+      "Dichen desserts, harvested from trees in the Wolfswood."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Sticky Sap",
@@ -45266,7 +46008,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Its flavor is rich and earthy, practically gliding\ndown the throat. A recurring ingredient in traditional\nDichen desserts, harvested from trees in the Wolfswood."
   },
   "Yummy Honey": {
     "location": "Halloween Event",
@@ -45284,6 +46027,13 @@
   "Asterism": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "Far above the starry sky, one may",
+      "hope to glimpse the stardust shed",
+      "in wake of Aurora's crusade.",
+      "<gray>Thunder Step now deals magic damage",
+      "<gray>between its start and end point."
+    ],
     "region": "Ring",
     "tier": "Artifact",
     "name": "Asterism",
@@ -45305,7 +46055,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Far above the starry sky, one may\nhope to glimpse the stardust shed\nin wake of Aurora's crusade.\nThunder Step now deals magic damage\nbetween its start and end point."
   },
   "Condensed Experience": {
     "location": "Celsian Isles",
@@ -45380,6 +46131,11 @@
   "Prismatic Aegis": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Energy interacts uniquely with the",
+      "lattice of crystallized aether, forming",
+      "a protective barrier."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Prismatic Aegis",
@@ -45397,7 +46153,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Energy interacts uniquely with the\nlattice of crystallized aether, forming\na protective barrier."
   },
   "Rainbowcomb": {
     "location": "Celsian Isles",
@@ -45419,6 +46176,14 @@
   "Toxic Steroid": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "The liquid surges through your blood.",
+      "Your heart rapidly beats with an anxious urge.",
+      "Thoughts slur, accelerate, then stop entirely.",
+      "Your body contorts, movements puppeteered by",
+      "deathly instinct. Nothing else matters...",
+      "This addiction... is salvation..."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Toxic Steroid",
@@ -45444,7 +46209,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "The liquid surges through your blood.\nYour heart rapidly beats with an anxious urge.\nThoughts slur, accelerate, then stop entirely.\nYour body contorts, movements puppeteered by\ndeathly instinct. Nothing else matters...\nThis addiction... is salvation..."
   },
   "Warped Emblem": {
     "location": "Hekawt's Fury",
@@ -45495,6 +46261,10 @@
   "Clocktower's Blessing": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Upon the clocktower's toll, the Knights",
+      "would take respite from rigorous training."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Clocktower's Blessing",
@@ -45512,11 +46282,19 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Upon the clocktower's toll, the Knights\nwould take respite from rigorous training."
   },
   "Cry Havoc": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Her imprisonment; a warning, a doomsday",
+      "omen that would spark the upheaval of",
+      "the Wolfswood as we know it. The trees,",
+      "gasping for a last breath as the",
+      "end approaches."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Cry Havoc",
@@ -45538,7 +46316,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Her imprisonment; a warning, a doomsday\nomen that would spark the upheaval of\nthe Wolfswood as we know it. The trees,\ngasping for a last breath as the\nend approaches."
   },
   "Distant Charm of Static": {
     "location": "Architect's Ring",
@@ -46133,6 +46912,11 @@
   "True Ice Pendant": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "The Vedha was no slouch when it came",
+      "to her mastery over water. That meant",
+      "exploring every avenue of it."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "True Ice Pendant",
@@ -46150,7 +46934,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "The Vedha was no slouch when it came\nto her mastery over water. That meant\nexploring every avenue of it."
   },
   "Blindness Reagent": {
     "mmlore": [
@@ -46238,6 +47023,12 @@
   "Nadir Sporran": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Whatever was inside the pouch has completely",
+      "forfeited to the blight. The manuscripts",
+      "and sacred writings now belong to that",
+      "which heralded the end."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Nadir Sporran",
@@ -46259,7 +47050,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Whatever was inside the pouch has completely\nforfeited to the blight. The manuscripts\nand sacred writings now belong to that\nwhich heralded the end."
   },
   "Thick Ink Pouch": {
     "mmlore": [
@@ -47799,6 +48591,11 @@
   "Architect's Aegis": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Under the Architect's protection, the empire",
+      "need not lay faith in the unknown, for all",
+      "would reveal itself in due time."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Architect's Aegis",
@@ -47820,7 +48617,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Under the Architect's protection, the empire\nneed not lay faith in the unknown, for all\nwould reveal itself in due time."
   },
   "Greater Charm of Equanimity": {
     "location": "Architect's Ring",
@@ -52161,6 +52959,11 @@
   "Bloodletter's Blade": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "The knives they wielded couldn't stand",
+      "up to the Knights' weaponry, but they could",
+      "draw blood all the same."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodletter's Blade",
@@ -52178,11 +52981,18 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "The knives they wielded couldn't stand\nup to the Knights' weaponry, but they could\ndraw blood all the same."
   },
   "Elgart's Iridium Buckle": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Elgart had, up to this point, never seen",
+      "the site of the fervorous digging.",
+      "One glance was enough to send",
+      "a shiver through his body."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Elgart's Iridium Buckle",
@@ -52204,7 +53014,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Elgart had, up to this point, never seen\nthe site of the fervorous digging.\nOne glance was enough to send\na shiver through his body."
   },
   "Enriched Eridium Ingot": {
     "location": "Celsian Isles",
@@ -52227,6 +53038,11 @@
   "Hypercharged Blade": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Featuring a conductive component which",
+      "energizes the blade with a crackling plasma,",
+      "it will cut anything not made by the Machine God."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Hypercharged Blade",
@@ -52248,7 +53064,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Featuring a conductive component which\nenergizes the blade with a crackling plasma,\nit will cut anything not made by the Machine God."
   },
   "Outer Rim Fragment": {
     "location": "Celsian Isles",
@@ -52272,6 +53089,14 @@
   "Serebrian Lineage": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Pelias' lineage was the closest any mere",
+      "man could hope to be to the Architect.",
+      "But bereft of their God's guidance, Knights",
+      "lulled into slumber, Pelias would enact his vision",
+      "of the Lord's will at any cost. The Empire's knell",
+      "was paved with hands stained by Silvari blood."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Serebrian Lineage",
@@ -52297,7 +53122,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Pelias' lineage was the closest any mere\nman could hope to be to the Architect.\nBut bereft of their God's guidance, Knights\nlulled into slumber, Pelias would enact his vision\nof the Lord's will at any cost. The Empire's knell\nwas paved with hands stained by Silvari blood."
   },
   "Silver Camera": {
     "location": "King's Valley",
@@ -52319,6 +53145,11 @@
   "Silver Pauldron": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Even the most depraved blight holds no",
+      "power over the legacy of the bygone Knights.",
+      "This armor is material proof of that fact."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Silver Pauldron",
@@ -52336,11 +53167,19 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Even the most depraved blight holds no\npower over the legacy of the bygone Knights.\nThis armor is material proof of that fact."
   },
   "Will of Ganzir": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Fear. The substance crawled inside every orifice.",
+      "Every last artery and vein. Silence. His mind was void.",
+      "Another filled the space. Warmth. He was no longer alone.",
+      "They were no longer alone. Hunger. They were starving.",
+      "They wer<obfuscated>e<!obfuscated> starv<obfuscated>i<!obfuscated>ng. They were. <obfuscated>Hungry."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Will of Ganzir",
@@ -52370,7 +53209,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Fear. The substance crawled inside every orifice.\nEvery last artery and vein. Silence. His mind was void.\nAnother filled the space. Warmth. He was no longer alone.\nThey were no longer alone. Hunger. They were starving.\nThey were starving. They were. Hungry."
   },
   "Belt of the Tyrant-2": {
     "location": "Sanguine Halls",
@@ -53408,6 +54248,12 @@
   "Loaded Dice": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "Life and death are but a toss of the bones.",
+      "A sword slashes wide, an arrow flies astray.",
+      "What power could manipulate the threads of fate?",
+      "What sinister spirit could unweave Her machinations?"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Loaded Dice",
@@ -53437,7 +54283,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Life and death are but a toss of the bones.\nA sword slashes wide, an arrow flies astray.\nWhat power could manipulate the threads of fate?\nWhat sinister spirit could unweave Her machinations?"
   },
   "Moon's Chime": {
     "location": "Celsian Isles Overworld",
@@ -53478,6 +54325,12 @@
   "Quickening Bracer": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Despite the crude construction, the anklet",
+      "is sturdy and lightweight. Fitting - being",
+      "crafted by such fleeting yet formidable",
+      "creatures of below."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Quickening Bracer",
@@ -53495,7 +54348,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Despite the crude construction, the anklet\nis sturdy and lightweight. Fitting - being\ncrafted by such fleeting yet formidable\ncreatures of below."
   },
   "Rock Candy": {
     "location": "Halloween Event",
@@ -53563,6 +54417,14 @@
   "Silver Medallion": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "<dark_gray>Time warped, bending to the will of the Exhibitor",
+      "<dark_gray>newly returned to reality. His new form took little",
+      "<dark_gray>effort to adjust to, but this world was so foreign.",
+      "<dark_gray>The conquerors were gone, leaving behind only",
+      "<dark_gray>accursed effigies of their might. Orasomn helped",
+      "<dark_gray>them crumble to dust."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Silver Medallion",
@@ -53588,7 +54450,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Time warped, bending to the will of the Exhibitor\nnewly returned to reality. His new form took little\neffort to adjust to, but this world was so foreign.\nThe conquerors were gone, leaving behind only\naccursed effigies of their might. Orasomn helped\nthem crumble to dust."
   },
   "Silver Memory Fragment": {
     "location": "Silver Knight's Remnants",
@@ -57982,6 +58845,11 @@
   "Deathbound Cavaliers": {
     "location": "Marina Noir",
     "locationId": "gallery2",
+    "mmlore": [
+      "The boots are light enough... They won't sink",
+      "into the water, you tell yourself...",
+      "Certainty... lost within the jaws of the nightmare."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Deathbound Cavaliers",
@@ -58007,7 +58875,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "The boots are light enough... They won't sink\ninto the water, you tell yourself...\nCertainty... lost within the jaws of the nightmare."
   },
   "Distant Bolstering Charm": {
     "location": "Architect's Ring",
@@ -58119,6 +58988,11 @@
   "Nullwick Lantern": {
     "location": "Silver Knight's Remnants",
     "locationId": "skr",
+    "mmlore": [
+      "The Chasom-inverted kindle was a testament",
+      "to Nessi's talents. Merdd knew it needed",
+      "to be worthy of wielding her craft."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Nullwick Lantern",
@@ -58140,7 +59014,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "The Chasom-inverted kindle was a testament\nto Nessi's talents. Merdd knew it needed\nto be worthy of wielding her craft."
   },
   "Prophetic Moonbeam": {
     "location": "Celsian Isles",
@@ -58391,6 +59266,11 @@
   "Silvari Blade Handle": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Held within the ancient Silvari relic are",
+      "millennia of long-lost techniques, forever",
+      "forgotten in the continuum of time."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Silvari Blade Handle",
@@ -58412,7 +59292,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Held within the ancient Silvari relic are\nmillennia of long-lost techniques, forever\nforgotten in the continuum of time."
   },
   "Swift Consecrated Charm": {
     "location": "Architect's Ring",
@@ -58465,6 +59346,12 @@
   "Sailor's Rope": {
     "location": "Marina Noir",
     "locationId": "gallery2",
+    "mmlore": [
+      "Sometimes, a sailor would fall overboard,",
+      "held up by a measly rope. Try as",
+      "they might, and pull as hard as they might...",
+      "The sea claims another."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Sailor's Rope",
@@ -58486,11 +59373,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Sometimes, a sailor would fall overboard,\nheld up by a measly rope. Try as\nthey might, and pull as hard as they might...\nThe sea claims another."
   },
   "Short Circuit": {
     "location": "Silver Knight's Remnants",
     "locationId": "skr",
+    "mmlore": [
+      "Machina could not fathom such fierce resistance.",
+      "Why would one deny salvation from entropy?",
+      "Why would one deny the gift of perfection?"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Short Circuit",
@@ -58508,7 +59401,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Machina could not fathom such fierce resistance.\nWhy would one deny salvation from entropy?\nWhy would one deny the gift of perfection?"
   },
   "Bloodied Leathers": {
     "mmlore": [
@@ -58564,6 +59458,11 @@
   "Spring-Loaded Sheath": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "Mechanised pistons within spring your",
+      "sheathed blade out at will.",
+      "A lightning-fast draw!"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Spring-Loaded Sheath",
@@ -58581,7 +59480,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Mechanised pistons within spring your\nsheathed blade out at will.\nA lightning-fast draw!"
   },
   "Wolf Pelt": {
     "name": "Wolf Pelt",
@@ -73394,6 +74294,11 @@
   "Pious Prism": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "The light cast from the most devout priests",
+      "was twisted by Pelias into something else...",
+      "No empire would bless its own downfall."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Pious Prism",
@@ -73415,7 +74320,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "The light cast from the most devout priests\nwas twisted by Pelias into something else...\nNo empire would bless its own downfall."
   },
   "Light Blue Wool": {
     "location": "Arcane Rivalry",
@@ -73592,6 +74498,11 @@
   "Nalatia's Sigil": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Nalatia's movements were like the wind itself.",
+      "An incompetent enough opponent may as well",
+      "consider her invisible."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Nalatia's Sigil",
@@ -73609,7 +74520,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Nalatia's movements were like the wind itself.\nAn incompetent enough opponent may as well\nconsider her invisible."
   },
   "Loadout Lockbox": {
     "location": "The Black Willows",
@@ -73746,6 +74658,10 @@
   "Spark Panel": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "The metal seems... foreign. The makeup",
+      "is unlike anything the Silvari has ever made."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Spark Panel",
@@ -73771,7 +74687,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "The metal seems... foreign. The makeup\nis unlike anything the Silvari has ever made."
   },
   "Explosive Charm of Thundering": {
     "location": "Architect's Ring",
@@ -73871,6 +74788,11 @@
   "Starmetal Conductor": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Most Forgetenders could not deny the convenience",
+      "and strength of blighted alloy. Thus, limited production",
+      "began on several lines of unique weaponry."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Starmetal Conductor",
@@ -73892,7 +74814,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Most Forgetenders could not deny the convenience\nand strength of blighted alloy. Thus, limited production\nbegan on several lines of unique weaponry."
   },
   "Swift Charm of Thundering": {
     "location": "Architect's Ring",
@@ -74238,6 +75161,10 @@
   "Emerald Lens": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "A microscopic lens Bermuda used to work",
+      "on issues in particularly tiny components."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Emerald Lens",
@@ -74255,7 +75182,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "A microscopic lens Bermuda used to work\non issues in particularly tiny components."
   },
   "Lime Wool": {
     "location": "Salazar's Folly",
@@ -75118,6 +76046,12 @@
   "Asteroid Belt": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "The field that surrounds the Locus Tower",
+      "is an erratic phenomenon. Rocks and debris",
+      "orbit in its space, but even approaching it",
+      "makes your body feel impossibly heavy."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Asteroid Belt",
@@ -75143,7 +76077,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "The field that surrounds the Locus Tower\nis an erratic phenomenon. Rocks and debris\norbit in its space, but even approaching it\nmakes your body feel impossibly heavy."
   },
   "Blitz Doubloon": {
     "location": "Plunderer's Blitz",
@@ -75242,6 +76177,11 @@
   "Molten Meteorite": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "Even the Masked can appreciate the beautiful",
+      "simplicity of explosively powerful ordnance.",
+      "Mass destruction, heralded by the cannon's roar."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Molten Meteorite",
@@ -75263,11 +76203,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Even the Masked can appreciate the beautiful\nsimplicity of explosively powerful ordnance.\nMass destruction, heralded by the cannon's roar."
   },
   "Mycelian Catalyst": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Once infected, little could be done when",
+      "it came to alleviating the Mycelia's toxins.",
+      "Traditional cures stood no match."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Mycelian Catalyst",
@@ -75285,7 +76231,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Once infected, little could be done when\nit came to alleviating the Mycelia's toxins.\nTraditional cures stood no match."
   },
   "Relic Wheel Token": {
     "location": "Seasonal Pass",
@@ -75707,6 +76654,14 @@
   "Loci Carving": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "An idol fashioned in the image of the",
+      "devouring Loci, Ru'Ten... though the very",
+      "question of worship was unclear to him...",
+      "Had he protected the Wolf back then,",
+      "perhaps he would feel worthy of such",
+      "songs of praise."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Loci Carving",
@@ -75728,7 +76683,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "An idol fashioned in the image of the\ndevouring Loci, Ru'Ten... though the very\nquestion of worship was unclear to him...\nHad he protected the Wolf back then,\nperhaps he would feel worthy of such\nsongs of praise."
   },
   "Crystalline Shroom Sample": {
     "mmlore": [
@@ -75914,6 +76870,11 @@
   "Teliko Theama": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "As the curtain draws, the many stars shimmer",
+      "above, waiting in anticipation for the last act.",
+      "The final performance is about to commence."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Teliko Theama",
@@ -75935,7 +76896,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "As the curtain draws, the many stars shimmer\nabove, waiting in anticipation for the last act.\nThe final performance is about to commence."
   },
   "Frayed Cacophony": {
     "location": "City of Shifting Waters",
@@ -76117,6 +77079,14 @@
   "Origin of Void": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "<dark_gray>The Silver Beast dove into the endless abyss before",
+      "<dark_gray>them, at once both curious and terrified. Somewhere,",
+      "<dark_gray>surely, there was a beginning. The single point",
+      "<dark_gray>where it all began. It was there they would find",
+      "<dark_gray>what they had been seeking for so long.",
+      "<dark_gray>Surely the others, the lost, would be there, waiting."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Origin of Void",
@@ -76146,7 +77116,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "The Silver Beast dove into the endless abyss before\nthem, at once both curious and terrified. Somewhere,\nsurely, there was a beginning. The single point\nwhere it all began. It was there they would find\nwhat they had been seeking for so long.\nSurely the others, the lost, would be there, waiting."
   },
   "The Only Disc": {
     "location": "Forsworn Sanctum",
@@ -76346,6 +77317,12 @@
   "Rune of Apocalypse": {
     "location": "Sanguine Halls",
     "locationId": "gallery1",
+    "mmlore": [
+      "And from the blood, came the dreams.",
+      "Vivid ones... they open your eyes to",
+      "the greatest pain that you know.",
+      "And you will relive it... again and again."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Rune of Apocalypse",
@@ -76367,11 +77344,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "And from the blood, came the dreams.\nVivid ones... they open your eyes to\nthe greatest pain that you know.\nAnd you will relive it... again and again."
   },
   "Rune of Dominion": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "The tenets of Silver were broken when",
+      "the Masked entered the ruins.",
+      "This place was theirs now."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Rune of Dominion",
@@ -76401,11 +77384,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "The tenets of Silver were broken when\nthe Masked entered the ruins.\nThis place was theirs now."
   },
   "Rune of Inversion": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "The fabric of Space collapses inwards, its",
+      "infinite boundaries folding in quantum sacrilege.",
+      "From that impossible creasing, an Outworld is born."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Rune of Inversion",
@@ -76431,11 +77420,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "The fabric of Space collapses inwards, its\ninfinite boundaries folding in quantum sacrilege.\nFrom that impossible creasing, an Outworld is born."
   },
   "Rune of Rejection": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Hycenea could not accept the absence",
+      "of her lover. At all costs, she would",
+      "find a way to reunite with him."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Rune of Rejection",
@@ -76461,7 +77456,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Hycenea could not accept the absence\nof her lover. At all costs, she would\nfind a way to reunite with him."
   },
   "Sand Dollar": {
     "location": "Architect's Ring Fishing",
@@ -76557,6 +77553,16 @@
   "Crucus Gauntlet": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "The cruelest one set the cruelest fate. She sent",
+      "fragments of herself down onto the surface of",
+      "the Sister's future meal, heralding their arrival.",
+      "In this, they offered gifts to those who opened the way.",
+      "α - She would offer new light in the darkness below waves...",
+      "β - He would send the old light falling from captivity...",
+      "γ - He would shine the last light in the sky... watching... waiting...",
+      "δ - She would patiently await the final spectacle..."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Crucus Gauntlet",
@@ -76586,11 +77592,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "The cruelest one set the cruelest fate. She sent\nfragments of herself down onto the surface of\nthe Sister's future meal, heralding their arrival.\nIn this, they offered gifts to those who opened the way.\nα - She would offer new light in the darkness below waves...\nβ - He would send the old light falling from captivity...\nγ - He would shine the last light in the sky... watching... waiting...\nδ - She would patiently await the final spectacle..."
   },
   "Deepslate Chunk": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "All statues within the citadel rumble",
+      "with a certain energy. Something has",
+      "made its way within the rock and stone."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Deepslate Chunk",
@@ -76608,7 +77620,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "All statues within the citadel rumble\nwith a certain energy. Something has\nmade its way within the rock and stone."
   },
   "Distillation Column": {
     "mmlore": [
@@ -76663,6 +77676,13 @@
   "Tarnished Inscription": {
     "location": "Architect's Ring Overworld",
     "locationId": "overworld3",
+    "mmlore": [
+      "As the waves crashed over the people,",
+      "so too were the last traces of their",
+      "writing washed away. A forgotten people,",
+      "and a forgotten language, and yet it",
+      "holds power still."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Tarnished Inscription",
@@ -76688,7 +77708,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "As the waves crashed over the people,\nso too were the last traces of their\nwriting washed away. A forgotten people,\nand a forgotten language, and yet it\nholds power still."
   },
   "Totem of Life-2": {
     "location": "Transmogrifier",
@@ -77006,6 +78027,11 @@
   "Guiding Moonlight": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Come nightfall, arcane magic would attune completely",
+      "with the lunar body above. This pendant, an expression",
+      "of the devout union between the two."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Guiding Moonlight",
@@ -77027,11 +78053,18 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Come nightfall, arcane magic would attune completely\nwith the lunar body above. This pendant, an expression\nof the devout union between the two."
   },
   "Harrakfar's Roar": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Even eons after his capture, the",
+      "Wolfswood resonates with his essence.",
+      "The trees, his strength. The animals,",
+      "his heart. The winds, his roar."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Harrakfar's Roar",
@@ -77061,7 +78094,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Even eons after his capture, the\nWolfswood resonates with his essence.\nThe trees, his strength. The animals,\nhis heart. The winds, his roar."
   },
   "Hyper Crystalline Shard": {
     "location": "Celsian Isles",
@@ -77222,6 +78256,12 @@
   "Mourning Star": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "Yeigar clutched the prisons in his hand.",
+      "Sevvet had failed. From his dying core",
+      "emanated a desperate gleam. A plead.",
+      "\"My Lord... forgive... me...\""
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Mourning Star",
@@ -77247,7 +78287,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Yeigar clutched the prisons in his hand.\nSevvet had failed. From his dying core\nemanated a desperate gleam. A plead.\n\"My Lord... forgive... me...\""
   },
   "Sealing Keystone": {
     "location": "King's Valley Overworld",
@@ -77314,6 +78355,11 @@
   "Star Charter": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "The naive and lost hailed the constellations",
+      "as their guiding light. What Uriddan saw...",
+      "was the enemy's formations to be torn down."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Star Charter",
@@ -77339,11 +78385,18 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "The naive and lost hailed the constellations\nas their guiding light. What Uriddan saw...\nwas the enemy's formations to be torn down."
   },
   "Starseeker's Emblem": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "To approach the cosmic conquerors, one",
+      "required aptitude with the Silverhook, each",
+      "shot made with absolute precision from",
+      "earth to sky."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Starseeker's Emblem",
@@ -77365,7 +78418,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "To approach the cosmic conquerors, one\nrequired aptitude with the Silverhook, each\nshot made with absolute precision from\nearth to sky."
   },
   "Stellar Core": {
     "location": "Star Point",
@@ -78320,6 +79374,11 @@
   "Scion of Stars": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "Sirius, the right hand of the Stars, descended",
+      "from the heavens, an epoch in the land's history.",
+      "His fall was like no other comet in the night sky."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Scion of Stars",
@@ -78341,7 +79400,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Sirius, the right hand of the Stars, descended\nfrom the heavens, an epoch in the land's history.\nHis fall was like no other comet in the night sky."
   },
   "Dreadful Leggings": {
     "location": "Challenger Skin",
@@ -78580,6 +79640,11 @@
   "Heretical Ore": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "All was enacted against the Silver Codex's teachings.",
+      "But the defiling of sacred grounds was merely a",
+      "price to pay. A test of faith. God-given purpose."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Heretical Ore",
@@ -78601,11 +79666,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "All was enacted against the Silver Codex's teachings.\nBut the defiling of sacred grounds was merely a\nprice to pay. A test of faith. God-given purpose."
   },
   "Starmetal Knucklebones": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "From within the stony husk, the mindscape",
+      "of millions resonates. Each marching blightspawn",
+      "is instilled with the same celestial conviction."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Starmetal Knucklebones",
@@ -78627,7 +79698,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "From within the stony husk, the mindscape\nof millions resonates. Each marching blightspawn\nis instilled with the same celestial conviction."
   },
   "Tormented Fragment": {
     "location": "Twisted lxxxxxxx",
@@ -78679,6 +79751,15 @@
   "Ataraxian Echo": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "Delfia could not define this unfamiliarity that disturbed",
+      "the emptiness. Corrupting the instincts of Her shared vessel.",
+      "As visceral as starvation. It made Her want to flee.",
+      "To beg Her sisters for help. Both proved futile.",
+      "\"Fear.\" Aurora smiled in sweetest schadenfreude.",
+      "<gray>Bodkin Blitz deals melee damage to all",
+      "<gray>enemies you dash through."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Ataraxian Echo",
@@ -78704,7 +79785,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Delfia could not define this unfamiliarity that disturbed\nthe emptiness. Corrupting the instincts of Her shared vessel.\nAs visceral as starvation. It made Her want to flee.\nTo beg Her sisters for help. Both proved futile.\n\"Fear.\" Aurora smiled in sweetest schadenfreude.\nBodkin Blitz deals melee damage to all\nenemies you dash through."
   },
   "Blackblood Dagger": {
     "location": "Masquerader's Ruin",
@@ -78729,6 +79811,11 @@
   "Contorting Blade": {
     "location": "Marina Noir",
     "locationId": "gallery2",
+    "mmlore": [
+      "The metal churns with a horrid grating...",
+      "Steel will not save you against the",
+      "cruel illogism of a dream."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Contorting Blade",
@@ -78746,7 +79833,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "The metal churns with a horrid grating...\nSteel will not save you against the\ncruel illogism of a dream."
   },
   "Dawn's End": {
     "location": "Gallery of Fear",
@@ -79033,6 +80121,11 @@
   "Unstable Reactor": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "Nonlinearities exceeding critical values.",
+      "Voltage approaching dielectric breakdown.",
+      "Excellent. This is going to hurt."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Unstable Reactor",
@@ -79054,7 +80147,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Nonlinearities exceeding critical values.\nVoltage approaching dielectric breakdown.\nExcellent. This is going to hurt."
   },
   "Broken Beyond": {
     "location": "The Black Mist",
@@ -79166,6 +80260,10 @@
   "Blazing Shard": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Waste product is prohibited by the Machine God.",
+      "This superheated alloy finds new purpose as a catalyst."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Blazing Shard",
@@ -79187,7 +80285,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Waste product is prohibited by the Machine God.\nThis superheated alloy finds new purpose as a catalyst."
   },
   "Bug in Amber": {
     "location": "King's Valley",
@@ -79377,6 +80476,12 @@
   "Event Horizon (orange_glazed_terracotta)": {
     "location": "Sanguine Halls",
     "locationId": "gallery1",
+    "mmlore": [
+      "Perhaps if he had acted differently...",
+      "he could have prevented all of this.",
+      "A mind wracked with guilt, desperate",
+      "for any penance that may come."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Event Horizon",
@@ -79398,11 +80503,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Perhaps if he had acted differently...\nhe could have prevented all of this.\nA mind wracked with guilt, desperate\nfor any penance that may come."
   },
   "Swirling Shoal": {
     "location": "Architect's Ring Overworld",
     "locationId": "overworld3",
+    "mmlore": [
+      "The sea holds no regard for strength,",
+      "nor wisdom, nor one's status or riches.",
+      "It drags one under all the same."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Swirling Shoal",
@@ -79424,7 +80535,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "The sea holds no regard for strength,\nnor wisdom, nor one's status or riches.\nIt drags one under all the same."
   },
   "Ender Chest Expansion": {
     "mmlore": [
@@ -79892,9 +81004,13 @@
     "lore": "Made with love, and all the other ingredients of course.\n* Quest Item *\n#Q27I01"
   },
   "Guild Shop Upkeep Token": {
+    "location": "King's Valley",
+    "locationId": "valley",
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><white>Worth a week's upkeep at a guild market shop."
     ],
+    "region": "Valley",
+    "tier": "Currency",
     "name": "Guild Shop Upkeep Token",
     "base_item": "Paper",
     "release_status": "public",
@@ -79987,6 +81103,13 @@
   "Martial Mantra": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "In an older time, those who deemed",
+      "this place their own vowed to",
+      "defend it with all their might.",
+      "They knew what would happen",
+      "should it ever fall."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Martial Mantra",
@@ -80008,7 +81131,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "In an older time, those who deemed\nthis place their own vowed to\ndefend it with all their might.\nThey knew what would happen\nshould it ever fall."
   },
   "Muddied Parchment": {
     "mmlore": [
@@ -80246,9 +81370,13 @@
     "lore": "As soon as you read the words on it,\nyou forget them again. What an odd find."
   },
   "Shop Upkeep Token": {
+    "location": "King's Valley",
+    "locationId": "valley",
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><white>Worth a week's upkeep at a market shop."
     ],
+    "region": "Valley",
+    "tier": "Currency",
     "name": "Shop Upkeep Token",
     "base_item": "Paper",
     "release_status": "public",
@@ -80677,6 +81805,13 @@
   "Rune of Infiltration": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "The skin, melting. A passage within.",
+      "The flesh, twisting. It must go deeper.",
+      "This invasion, a compulsion you cannot",
+      "resist. It calls to you.",
+      "<obfuscated>NEW. BETTER CONTROL."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Rune of Infiltration",
@@ -80706,7 +81841,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "The skin, melting. A passage within.\nThe flesh, twisting. It must go deeper.\nThis invasion, a compulsion you cannot\nresist. It calls to you.\nNEW. BETTER CONTROL."
   },
   "Seasonal Pass Trinket": {
     "location": "Seasonal Pass",
@@ -80817,6 +81953,11 @@
   "Threads of Valor": {
     "location": "Sanguine Halls",
     "locationId": "gallery1",
+    "mmlore": [
+      "Try as you may, your mistakes will",
+      "crawl back... No memory is sacred.",
+      "Each tribulation, stained a deep red."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Threads of Valor",
@@ -80838,7 +81979,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Try as you may, your mistakes will\ncrawl back... No memory is sacred.\nEach tribulation, stained a deep red."
   },
   "Emblem of the Big Pig": {
     "location": "Diamenean Hunts",
@@ -81017,6 +82159,12 @@
   "Midas Touch": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "It did not take long for Argon to develop",
+      "transmutation to gold. Unfortunately, his first",
+      "machines turned themselves into gold rather than",
+      "the samples they were supposed to affect."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Midas Touch",
@@ -81042,7 +82190,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "It did not take long for Argon to develop\ntransmutation to gold. Unfortunately, his first\nmachines turned themselves into gold rather than\nthe samples they were supposed to affect."
   },
   "Mindstone of Seasons": {
     "location": "Harmonic Arboretum",
@@ -81209,6 +82358,13 @@
   "Aether Turbine": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Evolution... and by virtue flight, is something",
+      "believed to be limited to living organisms.",
+      "But the Cradle is a place where metal meets",
+      "creativity, and new limits are broken.",
+      "The skies will soon meet the ingenuity of steel."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Aether Turbine",
@@ -81226,11 +82382,16 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Evolution... and by virtue flight, is something\nbelieved to be limited to living organisms.\nBut the Cradle is a place where metal meets\ncreativity, and new limits are broken.\nThe skies will soon meet the ingenuity of steel."
   },
   "Hydraulic Chausses": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "Quite effective at stomping out little pests,",
+      "though it does get quite noisy."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Hydraulic Chausses",
@@ -81260,7 +82421,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Quite effective at stomping out little pests,\nthough it does get quite noisy."
   },
   "Dissonant Growth": {
     "mmlore": [
@@ -85796,6 +86958,11 @@
   "Earthquake Staff": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Grandmother Laurey bore a deep relationship",
+      "with the earth. She need only ask it nicely,",
+      "and you would be crushed to ash and dust."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Earthquake Staff",
@@ -85813,11 +86980,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Grandmother Laurey bore a deep relationship\nwith the earth. She need only ask it nicely,\nand you would be crushed to ash and dust."
   },
   "Enormous Stalactite": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Howls ring throughout the cavern, shaking",
+      "what fragile sediment remains above you.",
+      "It would be wise to watch one's step..."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Enormous Stalactite",
@@ -85839,7 +87012,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "Howls ring throughout the cavern, shaking\nwhat fragile sediment remains above you.\nIt would be wise to watch one's step..."
   },
   "Skull Splitter": {
     "location": "Coalrupted Sierhaven",
@@ -85897,6 +87071,11 @@
   "Derelict Tablet": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Inscribed upon the tablet is a time-lost",
+      "Silvari folksong, singing praises of the Knights'",
+      "offensive prowess against the celestial invaders."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Derelict Tablet",
@@ -85914,7 +87093,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Inscribed upon the tablet is a time-lost\nSilvari folksong, singing praises of the Knights'\noffensive prowess against the celestial invaders."
   },
   "Gallery of Fear Key": {
     "location": "Architect's Ring",
@@ -92998,6 +94178,12 @@
   "Titanic Hailstone": {
     "location": "Diamenean Hunts",
     "locationId": "hunts",
+    "mmlore": [
+      "The baroque Lady Morgan may not see",
+      "the value in such a rudimentary implement.",
+      "But many problems can be solved with",
+      "the help of a large rock."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Titanic Hailstone",
@@ -93023,7 +94209,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "The baroque Lady Morgan may not see\nthe value in such a rudimentary implement.\nBut many problems can be solved with\nthe help of a large rock."
   },
   "Warped Battery": {
     "mmlore": [
@@ -93169,6 +94356,12 @@
   "Imprint of the Beyond": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "A deep memory infiltrated the soil upon",
+      "which we stand. Never had the advent",
+      "of the beyond been so aggressive as",
+      "to scar the world with its approach..."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Imprint of the Beyond",
@@ -93186,7 +94379,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "A deep memory infiltrated the soil upon\nwhich we stand. Never had the advent\nof the beyond been so aggressive as\nto scar the world with its approach..."
   },
   "Lesser Dagger Charm": {
     "location": "Architect's Ring",
@@ -93225,6 +94419,10 @@
   "Manaleaf Razor": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "\"Bah. Useless steel, stupid outsider's tool.",
+      "At least infuse with magic.\""
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Manaleaf Razor",
@@ -93242,7 +94440,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "\"Bah. Useless steel, stupid outsider's tool.\nAt least infuse with magic.\""
   },
   "Power Crystal": {
     "location": "King's Valley",
@@ -93262,6 +94461,11 @@
   "Primeval Scale": {
     "location": "Silver Knight's Remnants",
     "locationId": "skr",
+    "mmlore": [
+      "Bow before the mouth that looms large.",
+      "Bow before the scales that ward off evil.",
+      "Bow and offer alms, to your new god."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Primeval Scale",
@@ -93283,7 +94487,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Bow before the mouth that looms large.\nBow before the scales that ward off evil.\nBow and offer alms, to your new god."
   },
   "Prophecy's Crystal": {
     "location": "Celsian Isles",
@@ -93702,6 +94907,12 @@
   "Porphyry Shackle": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "When their God fell, the Porphyry were",
+      "subjugated by the Coven. They were given",
+      "a home under the Great Wolf, but at",
+      "what cost?"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Porphyry Shackle",
@@ -93719,11 +94930,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "When their God fell, the Porphyry were\nsubjugated by the Coven. They were given\na home under the Great Wolf, but at\nwhat cost?"
   },
   "Royal Jewel": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "That pristine and aureate essence...",
+      "A maddening ichor that taints the purest soul.",
+      "This, Pelias could not resist."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Royal Jewel",
@@ -93741,7 +94958,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "That pristine and aureate essence...\nA maddening ichor that taints the purest soul.\nThis, Pelias could not resist."
   },
   "Unicorn Puke": {
     "location": "Arcane Rivalry",
@@ -94123,6 +95341,12 @@
   "Cerberus Tooth": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Whether the Wolf was present meant little",
+      "to those who acted under his will.",
+      "They acted as his heads, his eyes,",
+      "and his ravenous fangs."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Cerberus Tooth",
@@ -94144,7 +95368,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Whether the Wolf was present meant little\nto those who acted under his will.\nThey acted as his heads, his eyes,\nand his ravenous fangs."
   },
   "Claw of the Jaguar": {
     "mmlore": [
@@ -94377,6 +95602,11 @@
   "Ghostly Eminence": {
     "location": "Marina Noir",
     "locationId": "gallery2",
+    "mmlore": [
+      "At times, you swear you see a leering",
+      "visage at the edge of the dream. Observing.",
+      "The thought weighs upon your fragile sanity..."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Ghostly Eminence",
@@ -94398,7 +95628,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "At times, you swear you see a leering\nvisage at the edge of the dream. Observing.\nThe thought weighs upon your fragile sanity..."
   },
   "Glimmering Geode": {
     "location": "Celsian Isles",
@@ -94640,6 +95871,11 @@
   "Puffball Caltrop": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "The mushrooms shiver with anticipation",
+      "as you draw near. Waiting... to erupt.",
+      "To propagate."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Puffball Caltrop",
@@ -94657,7 +95893,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "The mushrooms shiver with anticipation\nas you draw near. Waiting... to erupt.\nTo propagate."
   },
   "Replica Spirit-Sewn Core Crystal": {
     "location": "Celsian Isles",
@@ -94680,6 +95917,11 @@
   "Rootways Boulder": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "All manner of vermin scurry through",
+      "the smallest cracks, treading upon",
+      "even the most sanctified ground."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Rootways Boulder",
@@ -94697,7 +95939,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "All manner of vermin scurry through\nthe smallest cracks, treading upon\neven the most sanctified ground."
   },
   "Sedated Charm of the Beast": {
     "location": "Architect's Ring",
@@ -94800,6 +96043,12 @@
   "Six-Pronged Sea Stone": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "This small stone, like many others,",
+      "lay as sediment in the wake of the",
+      "great catastrophe that marked",
+      "the end of the Silvari Empire."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Six-Pronged Sea Stone",
@@ -94825,7 +96074,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "This small stone, like many others,\nlay as sediment in the wake of the\ngreat catastrophe that marked\nthe end of the Silvari Empire."
   },
   "Swift Lacerating Charm": {
     "location": "Architect's Ring",
@@ -94981,6 +96231,12 @@
   "Fragmented Shaft": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "The Godspore could split its consciousness",
+      "between all of its underlings, spying on",
+      "any would-be intruders that seek to",
+      "threaten its absolute dominion."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Fragmented Shaft",
@@ -95002,7 +96258,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "The Godspore could split its consciousness\nbetween all of its underlings, spying on\nany would-be intruders that seek to\nthreaten its absolute dominion."
   },
   "Greater Energized Charm": {
     "location": "Architect's Ring",
@@ -95167,6 +96424,12 @@
   "Wolfbone Pendant": {
     "location": "Silver Knight's Remnants",
     "locationId": "skr",
+    "mmlore": [
+      "The Wolf cowered at the ocean's edge. Silver",
+      "bolts embedded in his flesh like a pincushion,",
+      "bones broken faster than he could repair.",
+      "The wild hunt draws to a close."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Wolfbone Pendant",
@@ -95184,7 +96447,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "The Wolf cowered at the ocean's edge. Silver\nbolts embedded in his flesh like a pincushion,\nbones broken faster than he could repair.\nThe wild hunt draws to a close."
   },
   "Tlaxan Slate": {
     "location": "King's Valley Overworld",
@@ -95282,6 +96546,14 @@
   "Gears of the King": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Scattered across the Cradle are enormous gears",
+      "that scorch metal with their incessant meshing.",
+      "It is these titanic gears that serve as the",
+      "motivation for the inhabitants of the Cradle.",
+      "Their unwavering revolutions, an allegory for",
+      "the unstoppable machines."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Gears of the King",
@@ -95303,7 +96575,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Scattered across the Cradle are enormous gears\nthat scorch metal with their incessant meshing.\nIt is these titanic gears that serve as the\nmotivation for the inhabitants of the Cradle.\nTheir unwavering revolutions, an allegory for\nthe unstoppable machines."
   },
   "Challenger's Emblem": {
     "location": "Challenger Skin",
@@ -95324,6 +96597,14 @@
   "Lunacrestum Pulsar": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "From atop the ledge, Aurora cast her gaze downwards.",
+      "Hands stained, dirty with the blood of a god desecrated.",
+      "From faith turned heresy. From heresy turned apostasy.",
+      "Yes... this was the culmination of their sacrifices. Of <italic>her </italic>sacrifices.",
+      "But this wouldn't be her last. It was then a singular thought echoed.",
+      "\"Aphelios, are you watching? Soon I will bring down the very skies.\""
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Lunacrestum Pulsar",
@@ -95345,7 +96626,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "From atop the ledge, Aurora cast her gaze downwards.\nHands stained, dirty with the blood of a god desecrated.\nFrom faith turned heresy. From heresy turned apostasy.\nYes... this was the culmination of their sacrifices. Of her sacrifices.\nBut this wouldn't be her last. It was then a singular thought echoed.\n\"Aphelios, are you watching? Soon I will bring down the very skies.\""
   },
   "Armory Page Upgrader": {
     "location": "P.O.R.T.A.L.",
@@ -95384,6 +96666,14 @@
   "Ironwood Vambrace": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "The lone archer fought with unprecedented ferocity.",
+      "Hedera's body, sundered by Silver, was scattered",
+      "beneath the waves. He would continue the wild hunt.",
+      "Yet, a dryad's life is culled, never claimed.",
+      "But... she would not reawaken by her sisters' side.",
+      "No. She would bloom again, somewhere far Deeper..."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Ironwood Vambrace",
@@ -95413,7 +96703,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "The lone archer fought with unprecedented ferocity.\nHedera's body, sundered by Silver, was scattered\nbeneath the waves. He would continue the wild hunt.\nYet, a dryad's life is culled, never claimed.\nBut... she would not reawaken by her sisters' side.\nNo. She would bloom again, somewhere far Deeper..."
   },
   "Universal Lock": {
     "location": "P.O.R.T.A.L.",
@@ -95430,6 +96721,11 @@
   "Darkest Pact": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Once unearthed, Pelias would make a",
+      "choice that would change the fate of",
+      "his people forever."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Darkest Pact",
@@ -95447,7 +96743,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Once unearthed, Pelias would make a\nchoice that would change the fate of\nhis people forever."
   },
   "Merdd's Nullwick Candle-2": {
     "location": "Silver Knight's Remnants",
@@ -95539,6 +96836,11 @@
   "Ashkii Galero": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Certain twisted members of the Coven",
+      "kept keepsakes of their triumphs, as",
+      "a statement to any foolish Ashkii."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Ashkii Galero",
@@ -95560,7 +96862,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Certain twisted members of the Coven\nkept keepsakes of their triumphs, as\na statement to any foolish Ashkii."
   },
   "Chewed Carpet (red_carpet)": {
     "mmlore": [
@@ -95604,6 +96907,11 @@
   "Delicious Fruit": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "A ripe and satiating fruit, perfect for",
+      "any Mycelia who wished to replenish",
+      "their mana reserves."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Delicious Fruit",
@@ -95621,7 +96929,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Generalist"
+    "class_name": "Generalist",
+    "lore": "A ripe and satiating fruit, perfect for\nany Mycelia who wished to replenish\ntheir mana reserves."
   },
   "Essence of Life": {
     "location": "Celsian Isles",
@@ -95668,6 +96977,13 @@
   "Flesh Laurel": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Multiple Norvigut will rarely become stuck...",
+      "Bound by the dirt, blood, and gore. Only one",
+      "especially powerful specimen may hope to emerge.",
+      "Emboldened by the suffering, and blessed with",
+      "an unfathomable thirst."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Flesh Laurel",
@@ -95697,7 +97013,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Multiple Norvigut will rarely become stuck...\nBound by the dirt, blood, and gore. Only one\nespecially powerful specimen may hope to emerge.\nEmboldened by the suffering, and blessed with\nan unfathomable thirst."
   },
   "Focused Charm of Healing": {
     "location": "Architect's Ring",
@@ -95836,6 +97153,14 @@
   "Parasomnic Remnant": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "This desire, the hungers that vie for",
+      "complete control, they lay in silence.",
+      "They fester and gestate in the wounds",
+      "of the horrific memories you wish to forget.",
+      "What is born after is the culmination of",
+      "creation and unmaking. The truest self."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Parasomnic Remnant",
@@ -95869,7 +97194,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "This desire, the hungers that vie for\ncomplete control, they lay in silence.\nThey fester and gestate in the wounds\nof the horrific memories you wish to forget.\nWhat is born after is the culmination of\ncreation and unmaking. The truest self."
   },
   "Pure Magma Crystal": {
     "location": "Transmogrifier",
@@ -96009,6 +97335,12 @@
   "Bloodlust": {
     "location": "Sanguine Halls",
     "locationId": "gallery1",
+    "mmlore": [
+      "In the heart of all men, lies the same",
+      "lust for power, and control. Pelias",
+      "fell deep to this primordial urge.",
+      "A power that urges in spilled blood."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodlust",
@@ -96034,11 +97366,19 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "In the heart of all men, lies the same\nlust for power, and control. Pelias\nfell deep to this primordial urge.\nA power that urges in spilled blood."
   },
   "Briar of Binding": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "The true Wolfswoods were never quiet.",
+      "A symphony of wing, claw and breath",
+      "suffusing the living forest, as He willed.",
+      "Here, the only sound was His tattered howl",
+      "and the crunching of dead briar underpaw."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Briar of Binding",
@@ -96060,7 +97400,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The true Wolfswoods were never quiet.\nA symphony of wing, claw and breath\nsuffusing the living forest, as He willed.\nHere, the only sound was His tattered howl\nand the crunching of dead briar underpaw."
   },
   "Mystery Gift (offhand)": {
     "location": "Coalrupted Sierhaven",
@@ -96109,6 +97450,11 @@
   "Rampant Miasma": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "A nauseating, and utterly miasmic stench...",
+      "Only the Godspore could manifest something",
+      "so vile... a pestilence like no other."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Rampant Miasma",
@@ -96134,7 +97480,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "A nauseating, and utterly miasmic stench...\nOnly the Godspore could manifest something\nso vile... a pestilence like no other."
   },
   "Tenebre Mushroom": {
     "mmlore": [
@@ -96152,6 +97499,12 @@
   "Thrilled Toadstool": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "Not all Mycelia bore hatred towards other",
+      "creatures. Some were even eager to",
+      "mingle with the opposition. This specimen in",
+      "particular seems especially enthusiastic!"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Thrilled Toadstool",
@@ -96177,7 +97530,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Not all Mycelia bore hatred towards other\ncreatures. Some were even eager to\nmingle with the opposition. This specimen in\nparticular seems especially enthusiastic!"
   },
   "Chiseled Key": {
     "location": "Verdant Remnants",
@@ -96280,6 +97634,12 @@
   "Last Surprise": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "A hundred. Two hundred. Double that. Keep em' guessing.",
+      "Everyone loves an ace-in-the-hole, but those with",
+      "winning hands know to play the long game.",
+      "Now... will you call, or fold?"
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Last Surprise",
@@ -96305,11 +97665,21 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "A hundred. Two hundred. Double that. Keep em' guessing.\nEveryone loves an ace-in-the-hole, but those with\nwinning hands know to play the long game.\nNow... will you call, or fold?"
   },
   "Antares": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "On her name, a promise would be made.",
+      "A vow to purge this world of those",
+      "who would seek to defile it...",
+      "Upon this, Aurorus would decree.",
+      "<gray>Glorious Battle deals heavy knockback and",
+      "<gray>extra damage to mobs that collide with a wall,",
+      "<gray>proportional to the skill's initial damage."
+    ],
     "region": "Ring",
     "tier": "Artifact",
     "name": "Antares",
@@ -96327,7 +97697,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "On her name, a promise would be made.\nA vow to purge this world of those\nwho would seek to defile it...\nUpon this, Aurorus would decree.\nGlorious Battle deals heavy knockback and\nextra damage to mobs that collide with a wall,\nproportional to the skill's initial damage."
   },
   "Blood Dust": {
     "location": "Arena of Terth",
@@ -96343,6 +97714,10 @@
   "Bloodborne Locket": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "A locket fashioned in the ancient Isharist style,",
+      "marred by the sins of a fallen emperor."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodborne Locket",
@@ -96368,11 +97743,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "A locket fashioned in the ancient Isharist style,\nmarred by the sins of a fallen emperor."
   },
   "Bloodhound's Crest": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "Embody the hound; tear with fangs...",
+      "Ravenous and loyal, in equal measure.",
+      "All in service of the Goddess."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodhound's Crest",
@@ -96394,11 +97775,16 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "Embody the hound; tear with fangs...\nRavenous and loyal, in equal measure.\nAll in service of the Goddess."
   },
   "Bloodpact Pendant": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "None could match the power of the Great Wolf.",
+      "However, one may compensate with other means..."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bloodpact Pendant",
@@ -96416,7 +97802,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "None could match the power of the Great Wolf.\nHowever, one may compensate with other means..."
   },
   "Corrupted Malevolence": {
     "location": "Malevolent Reverie",
@@ -96432,6 +97819,11 @@
   "Deepwrought Ruby": {
     "location": "Architect's Ring Fishing",
     "locationId": "fishing",
+    "mmlore": [
+      "This precious gem was brought to shore",
+      "from the deepest ocean floor, shining",
+      "with a wondrous purity."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Deepwrought Ruby",
@@ -96457,7 +97849,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "This precious gem was brought to shore\nfrom the deepest ocean floor, shining\nwith a wondrous purity."
   },
   "Empowered Dust": {
     "location": "Celsian Isles",
@@ -96541,6 +97934,14 @@
   "Lacryphagy": {
     "location": "Twisted lxxxxxxx",
     "locationId": "twisted",
+    "mmlore": [
+      "Within, there is a richness to the self",
+      "that is unlike any other... it is... a fuel.",
+      "Fuel for something that feels.",
+      "For something that thinks. That wants.",
+      "And it is a catalyst to the birthing of",
+      "a new self. A self that will always want."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Lacryphagy",
@@ -96566,7 +97967,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Within, there is a richness to the self\nthat is unlike any other... it is... a fuel.\nFuel for something that feels.\nFor something that thinks. That wants.\nAnd it is a catalyst to the birthing of\na new self. A self that will always want."
   },
   "Lesser Brutal Charm": {
     "location": "Architect's Ring",
@@ -96787,6 +98189,11 @@
   "Copper Relay Unit": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "Each individual machine relied on complex",
+      "relays to share information about",
+      "potential intruders within the Cradle."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Copper Relay Unit",
@@ -96808,7 +98215,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "Each individual machine relied on complex\nrelays to share information about\npotential intruders within the Cradle."
   },
   "Sketched Bag of Hoarding": {
     "location": "Sketched Skin",
@@ -96890,6 +98298,13 @@
   "Malhuer Reach": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
+    "mmlore": [
+      "The dominion of the Godspore reaches",
+      "far beyond... farther than any puny",
+      "Dichen or Ashkii settlement could ever",
+      "hope to match. Soon, the world would",
+      "know the might of the mushrooms..."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Malhuer Reach",
@@ -96901,13 +98316,18 @@
         "locked": false,
         "value": 250
       },
+      "advancing_shadows_knockback_percent": {
+        "locked": false,
+        "value": 50
+      },
       "advancing_shadows_cooldown_percent": {
         "locked": false,
         "value": 20
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "The dominion of the Godspore reaches\nfar beyond... farther than any puny\nDichen or Ashkii settlement could ever\nhope to match. Soon, the world would\nknow the might of the mushrooms..."
   },
   "Decayed Item": {
     "name": "Decayed Item",
@@ -97584,6 +99004,13 @@
   "Severed Universe": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "The path forward was unmistakable, no",
+      "adversity would change her goal.",
+      "Defeat and sever, that was the only way.",
+      "<gray>Grasping Claws' enhancement now grants",
+      "<gray>melee damage within its radius."
+    ],
     "region": "Ring",
     "tier": "Artifact",
     "name": "Severed Universe",
@@ -97605,7 +99032,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "The path forward was unmistakable, no\nadversity would change her goal.\nDefeat and sever, that was the only way.\nGrasping Claws' enhancement now grants\nmelee damage within its radius."
   },
   "Celestial Zenith Key": {
     "location": "Architect's Ring",
@@ -97742,6 +99170,11 @@
   "Specialist Bauble": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Members of Pelias' guard wore",
+      "distinct golden baubles, denoting their",
+      "rank and role in the regiment."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Specialist Bauble",
@@ -97763,7 +99196,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Members of Pelias' guard wore\ndistinct golden baubles, denoting their\nrank and role in the regiment."
   },
   "Ancient Power Crystal": {
     "location": "Transmogrifier",
@@ -97859,6 +99293,13 @@
   "Orion's Shiv": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Aurora's followers were guided by an immutable faith,",
+      "far stronger than the Stars' promise. Orion was her",
+      "devout blade, cutting down any blighted in her path.",
+      "Yet, every so often he would mourn the simpler",
+      "life of their Argone days."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Orion's Shiv",
@@ -97892,7 +99333,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "Aurora's followers were guided by an immutable faith,\nfar stronger than the Stars' promise. Orion was her\ndevout blade, cutting down any blighted in her path.\nYet, every so often he would mourn the simpler\nlife of their Argone days."
   },
   "Truest North-1 (shears)": {
     "location": "True North",
@@ -101602,6 +103044,11 @@
   "Indomitable Prism": {
     "location": "Diamenean Hunts",
     "locationId": "hunts",
+    "mmlore": [
+      "For each dent in its encrusted carapace,",
+      "the creature sheds its skin, developing",
+      "layers of hardened sediment."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Indomitable Prism",
@@ -101631,7 +103078,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "For each dent in its encrusted carapace,\nthe creature sheds its skin, developing\nlayers of hardened sediment."
   },
   "Shulker Shell Fragment": {
     "location": "Soulwoven",
@@ -101997,6 +103445,10 @@
   "Skull of Isharist": {
     "location": "Silver Knight's Tomb",
     "locationId": "silver",
+    "mmlore": [
+      "One of the many grim countenances that",
+      "hail from the corpse of a fallen civilisation."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Skull of Isharist",
@@ -102014,7 +103466,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "One of the many grim countenances that\nhail from the corpse of a fallen civilisation."
   },
   "Sustaining Charm of Penumbra": {
     "location": "Architect's Ring",
@@ -102114,6 +103567,12 @@
   "Antimatter Siphon": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
+    "mmlore": [
+      "A violent substance that bubbles at",
+      "the precipice of the Outworld's edge.",
+      "A vessel collapsed to form it, so a",
+      "vessel can be made to harvest it."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Antimatter Siphon",
@@ -102139,7 +103598,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "A violent substance that bubbles at\nthe precipice of the Outworld's edge.\nA vessel collapsed to form it, so a\nvessel can be made to harvest it."
   },
   "Arc-crystal": {
     "mmlore": [
@@ -102392,6 +103852,12 @@
   "Loci's Hunger": {
     "location": "Silver Knight's Remnants",
     "locationId": "skr",
+    "mmlore": [
+      "The insatiable Loci would scarf down any",
+      "mana he could get his hands on... until",
+      "an offer was made that he couldn't refuse.",
+      "As long as the prison was guarded."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Loci's Hunger",
@@ -102409,7 +103875,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warrior"
+    "class_name": "Warrior",
+    "lore": "The insatiable Loci would scarf down any\nmana he could get his hands on... until\nan offer was made that he couldn't refuse.\nAs long as the prison was guarded."
   },
   "Mechanical Armory": {
     "location": "P.O.R.T.A.L.",
@@ -102507,6 +103974,13 @@
   "Ray of Moonlight": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
+    "mmlore": [
+      "They stood upon free soil. Laughing. Smiling.",
+      "In awe of the open sky, drinking the moonlight in.",
+      "Yet brighter still were the Stars, to which they owed salvation.",
+      "And so in the frigid night air, they walked. Onwards to Xanatull.",
+      "<gray>Holy Javelin now stuns enemies."
+    ],
     "region": "Ring",
     "tier": "Artifact",
     "name": "Ray of Moonlight",
@@ -102524,7 +103998,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "They stood upon free soil. Laughing. Smiling.\nIn awe of the open sky, drinking the moonlight in.\nYet brighter still were the Stars, to which they owed salvation.\nAnd so in the frigid night air, they walked. Onwards to Xanatull.\nHoly Javelin now stuns enemies."
   },
   "Sedated Charm of Snowfall": {
     "location": "Architect's Ring",
@@ -103158,6 +104633,10 @@
   "Table Tennis Ball": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "There's a poorly caricaturized image of",
+      "Argon printed on the ball's surface."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Table Tennis Ball",
@@ -103187,7 +104666,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "There's a poorly caricaturized image of\nArgon printed on the ball's surface."
   },
   "Versatile Vase-3": {
     "location": "Architect's Ring Overworld",
@@ -103294,6 +104774,12 @@
   "Bewitching Lantern": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "\"Laurey... I watched... ye flourish from babe to elder...",
+      "Molldyer... Nalatia... I trusted thee potential... foolishly...",
+      "Vedha... even whom least I expected? For your lies...",
+      "You will forfeit your minds... to the flame... to your Goddess.\""
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Bewitching Lantern",
@@ -103319,7 +104805,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "\"Laurey... I watched... ye flourish from babe to elder...\nMolldyer... Nalatia... I trusted thee potential... foolishly...\nVedha... even whom least I expected? For your lies...\nYou will forfeit your minds... to the flame... to your Goddess.\""
   },
   "Depleted Crystal": {
     "mmlore": [
@@ -103546,6 +105033,12 @@
   "Skylords' Judgement": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Seven, then three, then two. Hypollotye watched",
+      "the comparingly countless morsels below.",
+      "Once the tool serves her purpose, there would",
+      "again be three. Then a hundred. Then thousands more."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Skylords' Judgement",
@@ -103563,7 +105056,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Seven, then three, then two. Hypollotye watched\nthe comparingly countless morsels below.\nOnce the tool serves her purpose, there would\nagain be three. Then a hundred. Then thousands more."
   },
   "Swarming Charm of the Hive": {
     "location": "Architect's Ring",
@@ -107314,6 +108808,10 @@
   "Bermuda's Lost Ruler": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "Useful for taking lab measurements, but",
+      "not so useful for combating rogue machinery."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Bermuda's Lost Ruler",
@@ -107339,7 +108837,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Mage"
+    "class_name": "Mage",
+    "lore": "Useful for taking lab measurements, but\nnot so useful for combating rogue machinery."
   },
   "Binding Sigil": {
     "mmlore": [
@@ -107786,6 +109285,12 @@
   "Impmaster's Fiddle": {
     "location": "Coven's Gambit",
     "locationId": "blue",
+    "mmlore": [
+      "\"Fickle creature, borne of flame,",
+      "burn those who oppose my reign,",
+      "see their homes an ashen raze,",
+      "wreak havoc and set ablaze!\""
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Impmaster's Fiddle",
@@ -107803,7 +109308,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "\"Fickle creature, borne of flame,\nburn those who oppose my reign,\nsee their homes an ashen raze,\nwreak havoc and set ablaze!\""
   },
   "Instrument of Weavers": {
     "location": "Celsian Isles",
@@ -107909,13 +109415,12 @@
     "release_status": "public",
     "type": "Wand",
     "stats": {
-      "curse_of_corruption": 1,
-      "decay": 1,
-      "ice_aspect": 2,
+      "fire_aspect": 1,
+      "ice_aspect": 1,
       "knockback": 1,
-      "spell_power_base": 45,
-      "attack_speed_base": 2,
-      "knockback_resistance_flat": 5,
+      "thunder_aspect": 3,
+      "spell_power_base": 40,
+      "attack_speed_base": 1.8,
       "attack_damage_base": 6
     },
     "lore": "Perhaps a Loci of the arctic\nwould find it more befitting."
@@ -107970,6 +109475,11 @@
   "Regenerating Chalk": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "Erosion does not claim its form, even as countless sigils",
+      "are etched, and the lines erase cleanly. This would rest",
+      "among the most prized possessions of countless scholars."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Regenerating Chalk",
@@ -107987,7 +109497,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Erosion does not claim its form, even as countless sigils\nare etched, and the lines erase cleanly. This would rest\namong the most prized possessions of countless scholars."
   },
   "Riftbolt Stave": {
     "location": "Echoes of Oblivion",
@@ -108156,6 +109667,11 @@
   "Spearpoint Shoot": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "When wildlife emerges that the Mycelia",
+      "cannot face head on, more covert",
+      "methods are used instead."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Spearpoint Shoot",
@@ -108181,7 +109697,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Rogue"
+    "class_name": "Rogue",
+    "lore": "When wildlife emerges that the Mycelia\ncannot face head on, more covert\nmethods are used instead."
   },
   "Staff of the Soulseeker": {
     "location": "Rock's Little Casino",
@@ -109126,6 +110643,23 @@
       "attack_damage_base": 11
     }
   },
+  "Cryomancer's Cudgel": {
+    "location": "King's Valley",
+    "locationId": "valley",
+    "region": "Valley",
+    "tier": "Tier 5",
+    "name": "Cryomancer's Cudgel",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "ice_aspect": 2,
+      "unbreaking": 3,
+      "attack_speed_base": 0.9,
+      "spell_power_base": 30,
+      "attack_damage_base": 10
+    }
+  },
   "Cutter": {
     "location": "King's Valley",
     "locationId": "valley",
@@ -109390,6 +110924,23 @@
     },
     "lore": "The wrath of the elements behind\nits every strike."
   },
+  "Iceborn Hammer": {
+    "location": "King's Valley",
+    "locationId": "valley",
+    "region": "Valley",
+    "tier": "Tier 4",
+    "name": "Iceborn Hammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "ice_aspect": 1,
+      "unbreaking": 2,
+      "attack_speed_base": 0.8,
+      "spell_power_base": 25,
+      "attack_damage_base": 10
+    }
+  },
   "Inevitable Truth": {
     "location": "Celsian Isles",
     "locationId": "isles",
@@ -109561,6 +111112,23 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
+  },
+  "Runic Hammer": {
+    "location": "King's Valley",
+    "locationId": "valley",
+    "region": "Valley",
+    "tier": "Tier 3",
+    "name": "Runic Hammer",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "ice_aspect": 1,
+      "unbreaking": 2,
+      "attack_speed_base": 0.8,
+      "spell_power_base": 20,
+      "attack_damage_base": 10
+    }
   },
   "Saving Grace": {
     "location": "Celsian Isles",
@@ -112162,6 +113730,11 @@
   "Blade of the Sealed": {
     "location": "Architect's Ring Fishing",
     "locationId": "fishing",
+    "mmlore": [
+      "A mysterious blade sealed in a strange",
+      "cloth. You can't help but wonder who",
+      "it used to belong to."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Blade of the Sealed",
@@ -112187,7 +113760,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "A mysterious blade sealed in a strange\ncloth. You can't help but wonder who\nit used to belong to."
   },
   "Blizzard Blade": {
     "location": "King's Valley Overworld",
@@ -115357,6 +116931,12 @@
   "Silver Strings": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "No matter what notes you try to play, the",
+      "music this plays feels melancholic. Rellia's",
+      "sorrow has followed her into the instrument,",
+      "and it seems to always play songs about leaving."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Silver Strings",
@@ -115370,7 +116950,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Generalist"
+    "class_name": "Generalist",
+    "lore": "No matter what notes you try to play, the\nmusic this plays feels melancholic. Rellia's\nsorrow has followed her into the instrument,\nand it seems to always play songs about leaving."
   },
   "Snow Wool Strand": {
     "location": "Celsian Isles",
@@ -115439,6 +117020,11 @@
   "Starstrike Emblem": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "This is the final approach, no one",
+      "behind us to resist their will. We must",
+      "protect this world, or die trying."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Starstrike Emblem",
@@ -115468,7 +117054,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "This is the final approach, no one\nbehind us to resist their will. We must\nprotect this world, or die trying."
   },
   "String of Harmony": {
     "location": "Celsian Isles",
@@ -115864,6 +117451,16 @@
   "Lifewood Dew": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "<dark_gray>First pawtreads pressed into first dew",
+      "<dark_gray>New woods embraced the wolf's first day.",
+      "<dark_gray>Life was his name, his meaning true",
+      "<dark_gray>New growth appeared, the elders say.",
+      "<dark_gray>Came coven song and coven grew",
+      "<dark_gray>those followers of moon did say.",
+      "<dark_gray>And from their song were gifted you",
+      "<dark_gray>O child of the blessed way."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Lifewood Dew",
@@ -115889,7 +117486,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "First pawtreads pressed into first dew\nNew woods embraced the wolf's first day.\nLife was his name, his meaning true\nNew growth appeared, the elders say.\nCame coven song and coven grew\nthose followers of moon did say.\nAnd from their song were gifted you\nO child of the blessed way."
   },
   "Pulsating Dust Fragment": {
     "location": "King's Valley",
@@ -115943,6 +117541,17 @@
   "Bouncing Billiards": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "A good shot requires careful planning. Aim well,",
+      "and the balls will end up where you want them to.",
+      "Aeëtrian had been quietly placing their pieces,",
+      "waiting for the right opportunity. With Argon",
+      "out of the way, their shot has been taken, and the",
+      "table is beginning to shift.",
+      "<gray>Steel Traps are connected by damaging tethers,",
+      "<gray>dealing projectile damage to mobs in their path",
+      "<gray>every 0.5 seconds."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Bouncing Billiards",
@@ -115972,7 +117581,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "A good shot requires careful planning. Aim well,\nand the balls will end up where you want them to.\nAeëtrian had been quietly placing their pieces,\nwaiting for the right opportunity. With Argon\nout of the way, their shot has been taken, and the\ntable is beginning to shift.\nSteel Traps are connected by damaging tethers,\ndealing projectile damage to mobs in their path\nevery 0.5 seconds."
   },
   "Carnival Token": {
     "location": "Floating Carnival",
@@ -116285,6 +117895,11 @@
   "Blightberry Bunch": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "Despite the strange color, scriptures point to",
+      "the fruit as a beloved delicacy for Blackflame pups.",
+      "Sugary sweet, yet surprisingly nutritious."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Blightberry Bunch",
@@ -116306,7 +117921,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Generalist"
+    "class_name": "Generalist",
+    "lore": "Despite the strange color, scriptures point to\nthe fruit as a beloved delicacy for Blackflame pups.\nSugary sweet, yet surprisingly nutritious."
   },
   "Swordberry Bunch": {
     "location": "Sticks and Stones Tavern",
@@ -116362,6 +117978,10 @@
   "Laser Attachment": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
+    "mmlore": [
+      "ERROR: Invalid biometric scans.",
+      "Report this issue to management."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Laser Attachment",
@@ -116379,7 +117999,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Scout"
+    "class_name": "Scout",
+    "lore": "ERROR: Invalid biometric scans.\nReport this issue to management."
   },
   "Amethyst Arrow": {
     "location": "Celsian Isles",
@@ -120004,6 +121625,12 @@
   "Crumbling Foundation": {
     "location": "Pelias' Keep",
     "locationId": "keep",
+    "mmlore": [
+      "Pelias stirred awake, red-eyed from another broken slumber.",
+      "Again, was the protestant clamoring in the streets.",
+      "Again, did the people's voice berate his legacy.",
+      "Again, would the cracks in his Empire grow."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Crumbling Foundation",
@@ -120029,7 +121656,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "Pelias stirred awake, red-eyed from another broken slumber.\nAgain, was the protestant clamoring in the streets.\nAgain, did the people's voice berate his legacy.\nAgain, would the cracks in his Empire grow."
   },
   "Easter Egg": {
     "location": "Easter Event",
@@ -120532,6 +122160,10 @@
   "Totem of the Tombstone": {
     "location": "The Final Blight",
     "locationId": "sirius",
+    "mmlore": [
+      "Carved unto stone is the Emperor's exalted form.",
+      "Engraved, his broken promise to protect forevermore."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Totem of the Tombstone",
@@ -120549,7 +122181,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Carved unto stone is the Emperor's exalted form.\nEngraved, his broken promise to protect forevermore."
   },
   "Egginator": {
     "mmlore": [
@@ -120724,6 +122357,12 @@
   "Regenerative Spores": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Some Mycelia were better at regrowing",
+      "than their cousins, and they often",
+      "assisted in the recovery of their",
+      "injured brethren."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Regenerative Spores",
@@ -120737,7 +122376,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "Some Mycelia were better at regrowing\nthan their cousins, and they often\nassisted in the recovery of their\ninjured brethren."
   },
   "Banner of Love": {
     "location": "Valentine Event",
@@ -121135,6 +122775,14 @@
   "Callicarpa Compound": {
     "location": "Star Point",
     "locationId": "starpoint",
+    "mmlore": [
+      "What meaning do the passing of ages hold, to the",
+      "ageless? But, those graced with eternal Life are",
+      "yet bound by it; to the memories which define it.",
+      "It was many an eon since the Island's capture.",
+      "Callicarpa yearned to return to Ravenna. She would",
+      "have forever to await her end."
+    ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Callicarpa Compound",
@@ -121156,7 +122804,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Alchemist"
+    "class_name": "Alchemist",
+    "lore": "What meaning do the passing of ages hold, to the\nageless? But, those graced with eternal Life are\nyet bound by it; to the memories which define it.\nIt was many an eon since the Island's capture.\nCallicarpa yearned to return to Ravenna. She would\nhave forever to await her end."
   },
   "Explosive Charm of the Gorgon": {
     "location": "Architect's Ring",
@@ -121264,6 +122913,11 @@
   "Poisoned Wisteria": {
     "location": "Hexfall",
     "locationId": "hexfall",
+    "mmlore": [
+      "A rose. A garden. An entire arboretum.",
+      "From within the Sanctum, a thousand soldiers",
+      "would blossom at her command."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Poisoned Wisteria",
@@ -121289,7 +122943,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Cleric"
+    "class_name": "Cleric",
+    "lore": "A rose. A garden. An entire arboretum.\nFrom within the Sanctum, a thousand soldiers\nwould blossom at her command."
   },
   "Sedated Charm of the Gorgon": {
     "location": "Architect's Ring",
@@ -121372,6 +123027,10 @@
   "Withering Petal": {
     "location": "Cradle of the Broken God",
     "locationId": "brown",
+    "mmlore": [
+      "The advent of the Machine God's growth",
+      "left little room, if any, for natural plantlife."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Withering Petal",
@@ -121389,11 +123048,17 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The advent of the Machine God's growth\nleft little room, if any, for natural plantlife."
   },
   "Blank Stare": {
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
+    "mmlore": [
+      "The first movie camera was a gun. Argon's",
+      "security system took the idea a step",
+      "further, adding a laser for better aim."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Blank Stare",
@@ -121415,7 +123080,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Warlock"
+    "class_name": "Warlock",
+    "lore": "The first movie camera was a gun. Argon's\nsecurity system took the idea a step\nfurther, adding a laser for better aim."
   },
   "Focused Executioner's Charm": {
     "location": "Architect's Ring",
@@ -121474,6 +123140,11 @@
   "Shadow Mask": {
     "location": "Masquerader's Ruin",
     "locationId": "bluestrike",
+    "mmlore": [
+      "The Masked could be watching from anywhere.",
+      "They could be in the shadows, or hidden",
+      "in plain sight. You would only know too late."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Shadow Mask",
@@ -121495,7 +123166,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The Masked could be watching from anywhere.\nThey could be in the shadows, or hidden\nin plain sight. You would only know too late."
   },
   "Shattered Mask": {
     "location": "Masquerader's Ruin",
@@ -123408,6 +125080,11 @@
   "Accursed Stake": {
     "location": "The Wolfswood",
     "locationId": "forest",
+    "mmlore": [
+      "Long gone are the ages of holy worship...",
+      "for only vile magic and teachings remain",
+      "to marr the legacy of Silver."
+    ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Accursed Stake",
@@ -123445,7 +125122,8 @@
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "Long gone are the ages of holy worship...\nfor only vile magic and teachings remain\nto marr the legacy of Silver."
   },
   "Angeltouched Blade": {
     "location": "Celsian Isles",
@@ -127042,6 +128720,13 @@
     "location": "The Wanderer's Fortune",
     "locationId": "fortune",
     "mmlore": [
+      "In his newfound frailty, Argon seemed strangely",
+      "blessed by fortune. Again and again, chance bent",
+      "in his favor. As he grew older and his mind began",
+      "to ail, Fortune ceased to be a blessing. He gave",
+      "Her a face, a voice, and a will of Her own. When",
+      "She turned away from him, the desperation he had",
+      "known in the past returned.",
       "<gray>Sage's Insight grants cooldown recharge instead of",
       "<gray>refreshing abilities."
     ],
@@ -127075,7 +128760,7 @@
     },
     "type": "Charm",
     "class_name": "Mage",
-    "lore": "Sage's Insight grants cooldown recharge instead of\nrefreshing abilities."
+    "lore": "In his newfound frailty, Argon seemed strangely\nblessed by fortune. Again and again, chance bent\nin his favor. As he grew older and his mind began\nto ail, Fortune ceased to be a blessing. He gave\nHer a face, a voice, and a will of Her own. When\nShe turned away from him, the desperation he had\nknown in the past returned.\nSage's Insight grants cooldown recharge instead of\nrefreshing abilities."
   },
   "LOOTBOX": {
     "location": "King's Valley Overworld",
