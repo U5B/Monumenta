@@ -760,6 +760,10 @@
       },
       "amplifying_hex_cone_percent": {
         "locked": false,
+        "value": 100
+      },
+      "amplifying_hex_range_percent": {
+        "locked": false,
         "value": -50
       }
     },
@@ -3880,8 +3884,9 @@
     "location": "Cradle of the Broken God",
     "locationId": "brown",
     "mmlore": [
-      "Electricity... The Machine God harbors distaste",
-      "Entropy must be defied."
+      "Electricity... the Machine God harbors distaste for",
+      "such a crude means of transference. Entropy must",
+      "be defied by any means."
     ],
     "region": "Ring",
     "tier": "Rare",
@@ -3905,7 +3910,7 @@
     },
     "type": "Charm",
     "class_name": "Shaman",
-    "lore": "Electricity... The Machine God harbors distaste\nEntropy must be defied."
+    "lore": "Electricity... the Machine God harbors distaste for\nsuch a crude means of transference. Entropy must\nbe defied by any means."
   },
   "Ardent Convergence": {
     "location": "The Grasp of Avarice",
@@ -98315,10 +98320,6 @@
       "advancing_shadows_range_percent": {
         "locked": false,
         "value": 250
-      },
-      "advancing_shadows_knockback_percent": {
-        "locked": false,
-        "value": 50
       },
       "advancing_shadows_cooldown_percent": {
         "locked": false,
