@@ -19178,6 +19178,26 @@
     },
     "lore": "From the Tree came the Crown. Tasting\nthe flesh is a blessing few have\never experienced."
   },
+  "Gumball": {
+    "location": "The Wanderer's Fortune",
+    "locationId": "fortune",
+    "mmlore": [
+      "It's not particularly flavorful..."
+    ],
+    "name": "Gumball",
+    "effects": [
+      {
+        "EffectDuration": 200,
+        "EffectStrength": 0.1,
+        "EffectType": "Slow"
+      }
+    ],
+    "base_item": "Chorus Fruit",
+    "release_status": "public",
+    "type": "Consumable",
+    "stats": {},
+    "lore": "It's not particularly flavorful..."
+  },
   "Loamskattar Orb": {
     "mmlore": [
       "<dark_gray>An oozing, warping conglomerate of the",
@@ -42041,7 +42061,7 @@
       "mending": 1,
       "quake": 3,
       "two_handed": 1,
-      "unbreaking": 5,
+      "unbreaking": 10,
       "attack_damage_base": 10,
       "attack_speed_base": 1.5
     },
@@ -74939,6 +74959,23 @@
     },
     "type": "Charm",
     "class_name": "Alchemist"
+  },
+  "Exalted Lime Key": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "mmlore": [
+      "Grants access to dungeon:",
+      "<green>Salazar's Folly",
+      "Difficulty : <dark_green>☠☠<dark_gray>☠☠☠"
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Exalted Lime Key",
+    "base_item": "Lime Concrete",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Grants access to dungeon:\nSalazar's Folly\nDifficulty : ☠☠☠☠☠"
   },
   "Lesser Antidote Charm": {
     "location": "Architect's Ring",
@@ -126402,6 +126439,8 @@
     "lore": "* Quest Item *\n#Q37I02"
   },
   "A Journey's End": {
+    "location": "The Grasp of Avarice",
+    "locationId": "purple",
     "name": "A Journey's End",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126420,6 +126459,8 @@
     "lore": "* Quest Item *\n#Q24I03"
   },
   "Aleph (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Aleph",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126555,6 +126596,9 @@
     "lore": "I wouldn't want to be on the\nother side of that quill.\n* Quest Item *\n#Q107I03"
   },
   "Another Disc": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
+    "name": "Another Disc",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
@@ -126589,6 +126633,8 @@
     "lore": "* Quest Item *\n#Q30I03"
   },
   "Battered Trade Log": {
+    "location": "Salazar's Folly",
+    "locationId": "lime",
     "name": "Battered Trade Log",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126620,6 +126666,8 @@
     "lore": "* Quest Item *\n#Q133I01"
   },
   "Bercilak (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Bercilak",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126654,6 +126702,8 @@
     "stats": {}
   },
   "Build build build": {
+    "location": "Verdant Remnants",
+    "locationId": "verdant",
     "name": "Build build build",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126661,6 +126711,8 @@
     "stats": {}
   },
   "Busturus (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Busturus",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126710,6 +126762,8 @@
     "stats": {}
   },
   "Cazol": {
+    "location": "Verdant Remnants",
+    "locationId": "verdant",
     "name": "Cazol",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126730,6 +126784,8 @@
     "lore": "* Quest Item *\n#Q107I04\nSeems to indicate a hideout of some sort."
   },
   "Chronicles of Hekawt, Vol. 1": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 1",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126737,6 +126793,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 10": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 10",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126744,6 +126802,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 11": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 11",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126751,6 +126811,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 12": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 12",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126758,6 +126820,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 13": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 13",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126765,6 +126829,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 14": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 14",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126772,6 +126838,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 2": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 2",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126779,6 +126847,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 3": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 3",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126786,6 +126856,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 4": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 4",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126793,6 +126865,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 5": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 5",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126800,6 +126874,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 6": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 6",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126807,6 +126883,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 7": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 7",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126814,6 +126892,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 8": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 8",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126821,6 +126901,8 @@
     "stats": {}
   },
   "Chronicles of Hekawt, Vol. 9": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Chronicles of Hekawt, Vol. 9",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126828,6 +126910,8 @@
     "stats": {}
   },
   "Construct Log I": {
+    "location": "Silver Knight's Remnants",
+    "locationId": "skr",
     "mmlore": [
       "A documented account extracted",
       "from the construct's databank."
@@ -126840,6 +126924,8 @@
     "lore": "A documented account extracted\nfrom the construct's databank."
   },
   "Construct Log II": {
+    "location": "Silver Knight's Remnants",
+    "locationId": "skr",
     "mmlore": [
       "A documented account extracted",
       "from the construct's databank."
@@ -126852,6 +126938,8 @@
     "lore": "A documented account extracted\nfrom the construct's databank."
   },
   "Construct Log III": {
+    "location": "Silver Knight's Remnants",
+    "locationId": "skr",
     "mmlore": [
       "A documented account extracted",
       "from the construct's databank."
@@ -126874,6 +126962,8 @@
     "stats": {}
   },
   "Corridor Notes": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Corridor Notes",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126881,17 +126971,21 @@
     "stats": {}
   },
   "Creation (written_book)": {
+    "location": "Salazar's Folly",
+    "locationId": "lime",
     "mmlore": [
-      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>A nursery rhyme told to children"
+      "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>A nursery rhyme told to children."
     ],
     "name": "Creation",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {},
-    "lore": "A nursery rhyme told to children"
+    "lore": "A nursery rhyme told to children."
   },
   "Crusadoth (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Crusadoth",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126899,6 +126993,8 @@
     "stats": {}
   },
   "Crystalline Terror": {
+    "location": "Verdant Remnants",
+    "locationId": "verdant",
     "name": "Crystalline Terror",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126931,6 +127027,8 @@
     "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I08"
   },
   "Decretum (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Decretum",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126963,6 +127061,8 @@
     "lore": "* Quest Item *\n#Q45I01"
   },
   "Dive Into Dissonance, Vol. 1": {
+    "location": "Harmonic Arboretum",
+    "locationId": "pink",
     "name": "Dive Into Dissonance, Vol. 1",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126970,6 +127070,8 @@
     "stats": {}
   },
   "Dive Into Dissonance, Vol. 2": {
+    "location": "Harmonic Arboretum",
+    "locationId": "pink",
     "name": "Dive Into Dissonance, Vol. 2",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126977,6 +127079,8 @@
     "stats": {}
   },
   "Dive Into Dissonance, Vol. 3": {
+    "location": "Harmonic Arboretum",
+    "locationId": "pink",
     "name": "Dive Into Dissonance, Vol. 3",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126984,6 +127088,8 @@
     "stats": {}
   },
   "Dive Into Dissonance, Vol. 4": {
+    "location": "Harmonic Arboretum",
+    "locationId": "pink",
     "name": "Dive Into Dissonance, Vol. 4",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126991,6 +127097,8 @@
     "stats": {}
   },
   "Dive Into Dissonance, Vol. 5": {
+    "location": "Harmonic Arboretum",
+    "locationId": "pink",
     "name": "Dive Into Dissonance, Vol. 5",
     "base_item": "Written Book",
     "release_status": "public",
@@ -126998,6 +127106,8 @@
     "stats": {}
   },
   "Dive Into Dissonance, Vol. 6": {
+    "location": "Harmonic Arboretum",
+    "locationId": "pink",
     "name": "Dive Into Dissonance, Vol. 6",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127005,6 +127115,8 @@
     "stats": {}
   },
   "Dread Admiral's Notes": {
+    "location": "The Black Mist",
+    "locationId": "mist",
     "name": "Dread Admiral's Notes",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127049,6 +127161,8 @@
     "lore": "* Quest Item *\n#Q24I01"
   },
   "Elegy of the Pharaoh": {
+    "location": "Valley of Forgotten Pharaohs",
+    "locationId": "gray",
     "name": "Elegy of the Pharaoh",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127075,8 +127189,8 @@
     "lore": "* Quest Item *\n#Q03I02"
   },
   "Endless": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
+    "location": "Star Point",
+    "locationId": "starpoint",
     "region": "Ring",
     "tier": "Trophy",
     "name": "Endless",
@@ -127086,6 +127200,8 @@
     "stats": {}
   },
   "Eraecus (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Eraecus",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127093,6 +127209,8 @@
     "stats": {}
   },
   "Eternal Light": {
+    "location": "Palace of Mirrors",
+    "locationId": "lightgray",
     "name": "Eternal Light",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127138,6 +127256,8 @@
     "lore": "The book is adorned with the symbols\nof the Order of Balance.\n* Quest Item *\n#Q110I07"
   },
   "Expedition Log No. 1-6772": {
+    "location": "Salazar's Folly",
+    "locationId": "lime",
     "name": "Expedition Log No. 1-6772",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127177,6 +127297,8 @@
     "lore": "The cover is scratched and coated by\ndust and grime. This book has been through much.\n* Quest Item *\n#Q25I03"
   },
   "Foundations": {
+    "location": "Verdant Remnants",
+    "locationId": "verdant",
     "name": "Foundations",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127184,6 +127306,8 @@
     "stats": {}
   },
   "Harbinger (written_book)": {
+    "location": "Treasures of Viridia",
+    "locationId": "treasure",
     "name": "Harbinger",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127197,6 +127321,8 @@
     "stats": {}
   },
   "Hopeless Reflection": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>Relatively well preserved, considering",
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><dark_gray>the circumstances."
@@ -127209,6 +127335,8 @@
     "lore": "Relatively well preserved, considering\nthe circumstances."
   },
   "Horrible Feeling": {
+    "location": "Verdant Remnants",
+    "locationId": "verdant",
     "name": "Horrible Feeling",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127216,8 +127344,8 @@
     "stats": {}
   },
   "I Will Do What I Must": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
+    "location": "Star Point",
+    "locationId": "starpoint",
     "region": "Ring",
     "tier": "Trophy",
     "name": "I Will Do What I Must",
@@ -127227,6 +127355,8 @@
     "stats": {}
   },
   "Insane Ramblings I": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Insane Ramblings I",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127234,6 +127364,8 @@
     "stats": {}
   },
   "Insane Ramblings II": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Insane Ramblings II",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127241,6 +127373,8 @@
     "stats": {}
   },
   "Insane Ramblings III": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Insane Ramblings III",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127255,6 +127389,8 @@
     "stats": {}
   },
   "Inversion": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
     "name": "Inversion",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127298,6 +127434,8 @@
     "lore": "* Quest Item *\n#Q03I01"
   },
   "Khrosmos (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Khrosmos",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127316,6 +127454,15 @@
     "type": "Written Book",
     "stats": {},
     "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I07"
+  },
+  "Kokytos": {
+    "location": "Palace of Mirrors",
+    "locationId": "lightgray",
+    "name": "Kokytos",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
   },
   "Kurtis' Journal": {
     "mmlore": [
@@ -127376,6 +127523,8 @@
     "lore": "* Quest Item *\n#Q32I02"
   },
   "Lyrata (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Lyrata",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127396,6 +127545,8 @@
     "lore": "You definitely recognize this handwriting.\n* Quest Item *\n#Q114I04"
   },
   "Mallavis (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Mallavis",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127403,6 +127554,9 @@
     "stats": {}
   },
   "Many More": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
+    "name": "Many More",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
@@ -127451,6 +127605,15 @@
     "type": "Written Book",
     "stats": {}
   },
+  "Oblivion": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
+    "name": "Oblivion",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
   "Of Shamans and Spells": {
     "mmlore": [
       "<!italic><!underlined><!strikethrough><!bold><!obfuscated><light_purple>* Quest Item *",
@@ -127479,6 +127642,8 @@
     "lore": "The name Selari is etched into the spine.\n* Quest Item *\n#Q114I01"
   },
   "Older Magic": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "Older Magic",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127505,6 +127670,8 @@
     "lore": "A heartfelt thanks from us to all of you,\nas this project remains possible with all of\nthe support you've given us over the years.\nThank You ❤\nMay 28th, 2016 - May 28th, 2026"
   },
   "Overboard, Deeper Still": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "Overboard, Deeper Still",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127523,6 +127690,8 @@
     "stats": {}
   },
   "Ratarash (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Ratarash",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127530,6 +127699,8 @@
     "stats": {}
   },
   "Reaching Out into Eternity": {
+    "location": "Verdant Remnants",
+    "locationId": "verdant",
     "name": "Reaching Out into Eternity",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127537,6 +127708,8 @@
     "stats": {}
   },
   "Remnants of the Sanctum Vol 1": {
+    "location": "Forsworn Sanctum",
+    "locationId": "sanctum",
     "name": "Remnants of the Sanctum Vol 1",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127544,6 +127717,8 @@
     "stats": {}
   },
   "Remnants of the Sanctum Vol 2": {
+    "location": "Forsworn Sanctum",
+    "locationId": "sanctum",
     "name": "Remnants of the Sanctum Vol 2",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127551,6 +127726,8 @@
     "stats": {}
   },
   "Remnants of the Sanctum Vol 3": {
+    "location": "Forsworn Sanctum",
+    "locationId": "sanctum",
     "name": "Remnants of the Sanctum Vol 3",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127558,6 +127735,8 @@
     "stats": {}
   },
   "Remnants of the Sanctum Vol 4": {
+    "location": "Forsworn Sanctum",
+    "locationId": "sanctum",
     "name": "Remnants of the Sanctum Vol 4",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127565,6 +127744,8 @@
     "stats": {}
   },
   "Remnants of the Sanctum Vol 5": {
+    "location": "Forsworn Sanctum",
+    "locationId": "sanctum",
     "name": "Remnants of the Sanctum Vol 5",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127572,6 +127753,8 @@
     "stats": {}
   },
   "Research Log - Ish413.67": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "Research Log - Ish413.67",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127632,6 +127815,8 @@
     "lore": "* Quest Item *\n#Q49I01"
   },
   "Scrap of Parchment": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
     "name": "Scrap of Parchment",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127702,6 +127887,8 @@
     "stats": {}
   },
   "She Knows Best": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "She Knows Best",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127732,6 +127919,15 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q31I04"
   },
+  "Something Else Is": {
+    "location": "Palace of Mirrors",
+    "locationId": "lightgray",
+    "name": "Something Else Is",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
   "Specimen Results": {
     "base_item": "Written Book",
     "release_status": "public",
@@ -127745,6 +127941,8 @@
     "stats": {}
   },
   "Struck Down": {
+    "location": "Verdant Remnants",
+    "locationId": "verdant",
     "name": "Struck Down",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127775,6 +127973,8 @@
     "lore": "* Quest Item *\n#Q205I01"
   },
   "Tenebris (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Tenebris",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127782,6 +127982,8 @@
     "stats": {}
   },
   "The Absence": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Absence",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127796,6 +127998,8 @@
     "stats": {}
   },
   "The Breach": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Breach",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127803,6 +128007,8 @@
     "stats": {}
   },
   "The Case of the Unreadable Book": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
     "name": "The Case of the Unreadable Book",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127817,6 +128023,8 @@
     "stats": {}
   },
   "The Conduit": {
+    "location": "Verdant Remnants",
+    "locationId": "verdant",
     "name": "The Conduit",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127837,18 +128045,26 @@
     "stats": {}
   },
   "The Disc Shrine": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
+    "name": "The Disc Shrine",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "The Experience of Time": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
+    "name": "The Experience of Time",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "The Fall": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Fall",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127856,6 +128072,8 @@
     "stats": {}
   },
   "The Field": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Field",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127863,6 +128081,9 @@
     "stats": {}
   },
   "The Final Disc": {
+    "location": "City of Shifting Waters",
+    "locationId": "shifting",
+    "name": "The Final Disc",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
@@ -127886,7 +128107,18 @@
     "type": "Written Book",
     "stats": {}
   },
+  "The Frost Moon": {
+    "location": "Palace of Mirrors",
+    "locationId": "lightgray",
+    "name": "The Frost Moon",
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
   "The Gaze": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Gaze",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127894,6 +128126,15 @@
     "stats": {}
   },
   "The Generals": {
+    "base_item": "Written Book",
+    "release_status": "public",
+    "type": "Written Book",
+    "stats": {}
+  },
+  "The Glory of the Stars Above": {
+    "location": "Palace of Mirrors",
+    "locationId": "lightgray",
+    "name": "The Glory of the Stars Above",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
@@ -127907,6 +128148,8 @@
     "stats": {}
   },
   "The Horizon": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Horizon",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127960,6 +128203,8 @@
     "lore": "It seems to be a personal journal.\n* Quest Item *\n#Q132I07"
   },
   "The Mimicylopedia": {
+    "location": "The Hoard",
+    "locationId": "hoard",
     "name": "The Mimicylopedia",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127967,6 +128212,8 @@
     "stats": {}
   },
   "The Mouths": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Mouths",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127974,6 +128221,8 @@
     "stats": {}
   },
   "The Name": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Name",
     "base_item": "Written Book",
     "release_status": "public",
@@ -127988,6 +128237,8 @@
     "stats": {}
   },
   "The Origin of Mana Vol. 1": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "The Origin of Mana Vol. 1",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128014,6 +128265,8 @@
     "stats": {}
   },
   "The Reverie": {
+    "location": "Malevolent Reverie",
+    "locationId": "reverie",
     "name": "The Reverie",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128021,6 +128274,8 @@
     "stats": {}
   },
   "The Roar": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Roar",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128056,6 +128311,8 @@
     "stats": {}
   },
   "The Ship": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Ship",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128063,6 +128320,8 @@
     "stats": {}
   },
   "The Sky": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Sky",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128102,6 +128361,8 @@
     "stats": {}
   },
   "The Voice": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Voice",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128109,6 +128370,8 @@
     "stats": {}
   },
   "The Yawning": {
+    "location": "Darkest Depths",
+    "locationId": "depths",
     "name": "The Yawning",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128170,6 +128433,8 @@
     "lore": "* Quest Item *\n#Q106I03\nWhat is this doing in the record's chamber?\nYou need to approach Obadiah about this."
   },
   "Vesuva (written_book)": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
     "name": "Vesuva",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128189,6 +128454,8 @@
     "lore": "* Quest Item *\n#Q55I01"
   },
   "Waterlogged Scraps": {
+    "location": "Forsworn Sanctum",
+    "locationId": "sanctum",
     "name": "Waterlogged Scraps",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128208,6 +128475,8 @@
     "lore": "* Quest Item *\n#Q57I06"
   },
   "Wavewashed Journal": {
+    "location": "Treasures of Viridia",
+    "locationId": "treasure",
     "name": "Wavewashed Journal",
     "base_item": "Written Book",
     "release_status": "public",
@@ -128245,6 +128514,9 @@
     "stats": {}
   },
   "Worn Journal of a Mage": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
+    "name": "Worn Journal of a Mage",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
@@ -128281,90 +128553,135 @@
     }
   },
   "i": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "i",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "ii": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "ii",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "iii": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "iii",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "iiii": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "iiii",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "iiiii": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "iiiii",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "us": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "us",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "usus": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "usus",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "ususus": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "ususus",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "usususus": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "usususus",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "ususususus": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "ususususus",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "you": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "you",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "youyou": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "youyou",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "youyouyou": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "youyouyou",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "youyouyouyou": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "youyouyouyou",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
     "stats": {}
   },
   "youyouyouyouyou": {
+    "location": "The Fallen Forum",
+    "locationId": "forum",
+    "name": "youyouyouyouyou",
     "base_item": "Written Book",
     "release_status": "public",
     "type": "Written Book",
