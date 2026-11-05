@@ -138,8 +138,8 @@
       "Aurora alone was a formidable force.",
       "But in tandem with Delfia, one could only",
       "imagine the might they now possess.",
-      "<gray>Totemic Consecration now grants",
-      "<gray>strength and speed."
+      "<gray>Cyclone will cause your Totem to drift",
+      "<gray>towards enemies while active."
     ],
     "region": "Ring",
     "tier": "Artifact",
@@ -148,22 +148,26 @@
     "base_item": "Amethyst Block",
     "release_status": "public",
     "stats": {
-      "totemic_consecration_strength_amplifier_percent": {
+      "cyclone_totem_drift_speed_flat": {
         "locked": false,
-        "value": 25
+        "value": 3.5
       },
-      "totemic_consecration_speed_amplifier_percent": {
+      "cyclone_damage_percent": {
         "locked": false,
         "value": 15
       },
-      "totemic_consecration_health_threshold_percent": {
+      "cyclone_cooldown_percent": {
         "locked": false,
-        "value": 25
+        "value": -15
+      },
+      "cyclone_radius_percent": {
+        "locked": false,
+        "value": -30
       }
     },
     "type": "Charm",
     "class_name": "Shaman",
-    "lore": "Aurora alone was a formidable force.\nBut in tandem with Delfia, one could only\nimagine the might they now possess.\nTotemic Consecration now grants\nstrength and speed."
+    "lore": "Aurora alone was a formidable force.\nBut in tandem with Delfia, one could only\nimagine the might they now possess.\nCyclone will cause your Totem to drift\ntowards enemies while active."
   },
   "Outsider's Gaze": {
     "location": "Silver Knight's Remnants",
@@ -222,55 +226,25 @@
     "locationId": "keep",
     "mmlore": [
       "The crystals sang in a low hum. Yet, this was",
-      "not Pelias's prize. Deeper still was a treasure.",
+      "not Pelias' prize. Deeper still was a treasure.",
       "A boon born of the Architect's grace. One",
       "that was rightfully his."
     ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Deep Resonant Fragment",
-    "power": 3,
-    "base_item": "Amethyst Cluster",
-    "release_status": "public",
-    "stats": {
-      "spiritual_combos_range_percent": {
-        "locked": false,
-        "value": 25
-      },
-      "spiritual_combos_damage_percent": {
-        "locked": false,
-        "value": 50
-      },
-      "spiritual_combos_shot_delay_percent": {
-        "locked": false,
-        "value": 100
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman",
-    "lore": "The crystals sang in a low hum. Yet, this was\nnot Pelias's prize. Deeper still was a treasure.\nA boon born of the Architect's grace. One\nthat was rightfully his."
-  },
-  "Distant Charm of Crystallization": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Distant Charm of Crystallization",
     "power": 2,
     "base_item": "Amethyst Cluster",
     "release_status": "public",
     "stats": {
-      "spiritual_combos_range_percent": {
+      "ritual_arts_enhancement_attack_count_flat": {
         "locked": false,
-        "value": 50
-      },
-      "spiritual_combos_damage_percent": {
-        "locked": false,
-        "value": 10
+        "value": 1
       }
     },
     "type": "Charm",
-    "class_name": "Shaman"
+    "class_name": "Shaman",
+    "lore": "The crystals sang in a low hum. Yet, this was\nnot Pelias' prize. Deeper still was a treasure.\nA boon born of the Architect's grace. One\nthat was rightfully his."
   },
   "Distant Charm of Mana": {
     "location": "Architect's Ring",
@@ -311,24 +285,6 @@
     "stats": {},
     "lore": "Epic Crafting Material\nMagically infused pigment to draw the most\npowerful alchemical circles."
   },
-  "Focused Charm of Crystallization": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Charm of Crystallization",
-    "power": 3,
-    "base_item": "Amethyst Cluster",
-    "release_status": "public",
-    "stats": {
-      "spiritual_combos_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Focused Charm of Mana": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -346,24 +302,6 @@
     },
     "type": "Charm",
     "class_name": "Mage"
-  },
-  "Greater Charm of Crystallization": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Crystallization",
-    "power": 2,
-    "base_item": "Amethyst Cluster",
-    "release_status": "public",
-    "stats": {
-      "spiritual_combos_damage_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Greater Charm of Mana": {
     "location": "Architect's Ring",
@@ -435,24 +373,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Delfia, the Empty One, let out a vile screech\nas the swarms of her enemies closed in on her.\nHer sisters, Myropy the Sated, Caelona the\nQuiet, and Ophia the Kind were gone and the\nsilence that had fallen disturbed her. She did\nnot understand what awaited her as the Silver\nones approached carrying a prison made for\nanother. It would contain Delfia too, at great cost.\nHer surviving sisters would not rest until they\nfound her - and enacted their revenge."
-  },
-  "Lesser Charm of Crystallization": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Crystallization",
-    "power": 1,
-    "base_item": "Amethyst Cluster",
-    "release_status": "public",
-    "stats": {
-      "spiritual_combos_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Lesser Charm of Mana": {
     "location": "Architect's Ring",
@@ -1749,25 +1669,25 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Frenzied Earth",
-    "power": 3,
+    "power": 2,
     "base_item": "Beetroot Soup",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_damage_percent": {
+      "sculptor's_maul_slow_duration_flat": {
         "locked": false,
-        "value": 25
+        "value": 2
       },
-      "earthen_tremor_totem_landing_damage_percent": {
+      "sculptor's_maul_root_duration_flat": {
         "locked": false,
-        "value": 25
+        "value": 1
       },
-      "earthen_tremor_cooldown_percent": {
+      "sculptor's_maul_radius_percent": {
         "locked": false,
-        "value": -25
+        "value": 100
       },
-      "earthen_tremor_radius_percent": {
+      "sculptor's_maul_projectile_speed_percent": {
         "locked": false,
-        "value": -25
+        "value": -30
       }
     },
     "type": "Charm",
@@ -2252,35 +2172,33 @@
       "lays sti<obfuscated>l</obfuscated>l, beneath the w<obfuscated>a</obfuscated>ves.... alone... cold...",
       "<obfuscated>B</obfuscated>rother Kokyt<obfuscated>o</obfuscated>s... a frozen carcas<obfuscated>s</obfuscated>...",
       "I wish... <obfuscated>o</obfuscated>nly to bask in th<obfuscated>e</obfuscated>ir warmth... t<obfuscated>h</obfuscated>eir light...",
-      "o<obfuscated>n</obfuscated>ce... m<obfuscated>ore</obfuscated>..."
+      "o<obfuscated>n</obfuscated>ce... m<obfuscated>ore</obfuscated>...",
+      "<gray>Immolating Aura's Enhancement can",
+      "<gray>be recast twice per form."
     ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Final Herald's Lifeblood",
-    "power": 4,
+    "power": 3,
     "base_item": "Black Candle",
     "release_status": "public",
     "stats": {
-      "spiritcatcher_orbs_orb_count_flat": {
+      "immolating_aura_recasts_flat": {
         "locked": false,
         "value": 1
       },
-      "spiritcatcher_orbs_imbuement_damage_bonus_amplifier_percent": {
+      "immolating_aura_enhancement_inferno_per_charge_flat": {
         "locked": false,
-        "value": 30
+        "value": 1
       },
-      "spiritcatcher_orbs_spiritflame_magic_vulnerability_amplifier_percent": {
+      "immolating_aura_duration_flat": {
         "locked": false,
-        "value": 15
-      },
-      "spiritcatcher_orbs_stack_decay_time_percent": {
-        "locked": false,
-        "value": -25
+        "value": 6
       }
     },
     "type": "Charm",
     "class_name": "Shaman",
-    "lore": "The ocean... is cold... my blood swirls...\ninto permeating water... Sister Andromeda...\nlays still, beneath the waves.... alone... cold...\nBrother Kokytos... a frozen carcass...\nI wish... only to bask in their warmth... their light...\nonce... more..."
+    "lore": "The ocean... is cold... my blood swirls...\ninto permeating water... Sister Andromeda...\nlays still, beneath the waves.... alone... cold...\nBrother Kokytos... a frozen carcass...\nI wish... only to bask in their warmth... their light...\nonce... more...\nImmolating Aura's Enhancement can\nbe recast twice per form."
   },
   "Shadowdancer's Candle": {
     "location": "The Celestial Zenith",
@@ -3134,21 +3052,25 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Crumbling Effigy",
-    "power": 4,
+    "power": 3,
     "base_item": "Blackstone Wall",
     "release_status": "public",
     "stats": {
-      "decayed_totem_damage_percent": {
+      "earthen_tremor_duration_flat": {
+        "locked": false,
+        "value": 2
+      },
+      "earthen_tremor_spike_count_flat": {
+        "locked": false,
+        "value": 2
+      },
+      "earthen_tremor_radius_percent": {
         "locked": false,
         "value": 30
       },
-      "decayed_totem_radius_percent": {
+      "earthen_tremor_resistance_amplifier_percent": {
         "locked": false,
-        "value": 20
-      },
-      "decayed_totem_targets_flat": {
-        "locked": false,
-        "value": 2
+        "value": -10
       }
     },
     "type": "Charm",
@@ -3262,13 +3184,13 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "flame_totem_damage_percent": {
+      "immolating_aura_damage_percent": {
         "locked": false,
         "value": 15
       },
-      "flame_totem_radius_percent": {
+      "immolating_aura_radius_percent": {
         "locked": false,
-        "value": 20
+        "value": 25
       }
     },
     "type": "Charm",
@@ -3333,7 +3255,7 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "flame_totem_damage_percent": {
+      "immolating_aura_damage_percent": {
         "locked": false,
         "value": 35
       }
@@ -3393,7 +3315,7 @@
     "stats": {
       "rampage_healing_percent": {
         "locked": false,
-        "value": 25
+        "value": 20
       }
     },
     "type": "Charm",
@@ -3405,13 +3327,13 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Fortified Rage Charm",
-    "power": 2,
+    "power": 3,
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
       "rampage_healing_percent": {
         "locked": false,
-        "value": 15
+        "value": 10
       },
       "rampage_max_duration_percent": {
         "locked": false,
@@ -3472,7 +3394,7 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "flame_totem_damage_percent": {
+      "immolating_aura_damage_percent": {
         "locked": false,
         "value": 20
       }
@@ -3528,7 +3450,7 @@
     "stats": {
       "rampage_healing_percent": {
         "locked": false,
-        "value": 15
+        "value": 10
       }
     },
     "type": "Charm",
@@ -3625,7 +3547,7 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "flame_totem_damage_percent": {
+      "immolating_aura_damage_percent": {
         "locked": false,
         "value": 10
       }
@@ -3681,7 +3603,7 @@
     "stats": {
       "rampage_healing_percent": {
         "locked": false,
-        "value": 7.5
+        "value": 5
       }
     },
     "type": "Charm",
@@ -3806,10 +3728,6 @@
     "base_item": "Blaze Powder",
     "release_status": "public",
     "stats": {
-      "rampage_healing_percent": {
-        "locked": false,
-        "value": 5
-      },
       "rampage_duration_per_bloodlust_spent_flat": {
         "locked": false,
         "value": 0.5
@@ -3817,28 +3735,6 @@
     },
     "type": "Charm",
     "class_name": "Warrior"
-  },
-  "Swift Charm of Ignition": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Ignition",
-    "power": 3,
-    "base_item": "Blaze Powder",
-    "release_status": "public",
-    "stats": {
-      "flame_totem_damage_percent": {
-        "locked": false,
-        "value": 15
-      },
-      "flame_totem_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Swift Legerity Charm": {
     "location": "Architect's Ring",
@@ -3895,17 +3791,17 @@
     "base_item": "Blaze Rod",
     "release_status": "public",
     "stats": {
-      "chain_lightning_cooldown_percent": {
+      "thunderstorm_bolt_cast_delay_flat": {
         "locked": false,
-        "value": -55
+        "value": -0.15
       },
-      "chain_lightning_damage_percent": {
+      "thunderstorm_bolt_damage_percent": {
         "locked": false,
-        "value": -20
+        "value": 10
       },
-      "chain_lightning_targets_flat": {
-        "locked": true,
-        "value": -1
+      "thunderstorm_bolt_range_percent": {
+        "locked": false,
+        "value": -25
       }
     },
     "type": "Charm",
@@ -4154,28 +4050,6 @@
       "attack_damage_base": 6.5
     }
   },
-  "Explosive Charm of Shocking": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Explosive Charm of Shocking",
-    "power": 3,
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "stats": {
-      "chain_lightning_damage_percent": {
-        "locked": false,
-        "value": 20
-      },
-      "chain_lightning_bounce_radius_percent": {
-        "locked": false,
-        "value": 40
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Fire Tempest": {
     "location": "Lowtide Smuggler",
     "locationId": "lowtide",
@@ -4275,24 +4149,6 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
-  "Focused Charm of Shocking": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Charm of Shocking",
-    "power": 3,
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "stats": {
-      "chain_lightning_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Frodian Light of Unbalance": {
     "location": "Celsian Isles",
     "locationId": "isles",
@@ -4391,24 +4247,6 @@
     "type": "Charm",
     "class_name": "Rogue"
   },
-  "Greater Charm of Shocking": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Shocking",
-    "power": 2,
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "stats": {
-      "chain_lightning_damage_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Ignition Wand": {
     "location": "Celsian Isles",
     "locationId": "isles",
@@ -4478,24 +4316,6 @@
     },
     "type": "Charm",
     "class_name": "Rogue"
-  },
-  "Lesser Charm of Shocking": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Shocking",
-    "power": 1,
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "stats": {
-      "chain_lightning_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Molldyer's Chalk": {
     "location": "Coven's Gambit",
@@ -4732,9 +4552,9 @@
       "knockback": 1,
       "regicide": 3,
       "attack_speed_base": 1,
-      "attack_damage_base": 20,
-      "spell_power_base": 130,
-      "knockback_resistance_flat": 6
+      "knockback_resistance_flat": 6,
+      "spell_power_base": 140,
+      "attack_damage_base": 22
     },
     "lore": "Only one could lead the Aurians to salvation.\nOnly one could reclaim the Loamskattar.\nOnly one could battle the Stars and survive.\nThese are the lies Aurora told herself\nbefore her Ascension."
   },
@@ -4837,28 +4657,6 @@
     },
     "type": "Charm",
     "class_name": "Scout"
-  },
-  "Swift Charm of Shocking": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Shocking",
-    "power": 3,
-    "base_item": "Blaze Rod",
-    "release_status": "public",
-    "stats": {
-      "chain_lightning_damage_percent": {
-        "locked": false,
-        "value": 15
-      },
-      "chain_lightning_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Uncharged C.A.L.D.E.R. Dimensional Wand": {
     "location": "Celsian Isles",
@@ -11012,21 +10810,17 @@
     "base_item": "Bubble Coral",
     "release_status": "public",
     "stats": {
-      "lightning_totem_shocked_duration_flat": {
+      "cyclone_duration_increment_flat": {
         "locked": false,
-        "value": 0.5
+        "value": 1
       },
-      "lightning_totem_radius_percent": {
+      "cyclone_radius_percent": {
         "locked": false,
         "value": 30
       },
-      "lightning_totem_elite_melee_damage_multiplier_percent": {
+      "cyclone_hit_delay_flat": {
         "locked": false,
-        "value": -15
-      },
-      "lightning_totem_elite_projectile_damage_multiplier_percent": {
-        "locked": false,
-        "value": -10
+        "value": 0.15
       }
     },
     "type": "Charm",
@@ -11152,60 +10946,6 @@
     "class_name": "Warlock",
     "lore": "There was great value in the church's blessing.\nOnce the word was given, Pelias took it as his\nright to reclaim his dignity. By any means necessary."
   },
-  "Focused Charm of Sanctification": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Charm of Sanctification",
-    "power": 3,
-    "base_item": "Candle",
-    "release_status": "public",
-    "stats": {
-      "totemic_consecration_base_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Greater Charm of Sanctification": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Sanctification",
-    "power": 2,
-    "base_item": "Candle",
-    "release_status": "public",
-    "stats": {
-      "totemic_consecration_base_damage_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Lesser Charm of Sanctification": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Sanctification",
-    "power": 1,
-    "base_item": "Candle",
-    "release_status": "public",
-    "stats": {
-      "totemic_consecration_base_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Melted Candle": {
     "location": "Transmogrifier",
     "locationId": "transmogrifier",
@@ -11222,28 +10962,6 @@
     "type": "Misc",
     "stats": {},
     "lore": "Can be sold or transmogrified\nlike any other rare item.\nCan be put into a wallet."
-  },
-  "Swift Charm of Sanctification": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Sanctification",
-    "power": 3,
-    "base_item": "Candle",
-    "release_status": "public",
-    "stats": {
-      "totemic_consecration_base_damage_percent": {
-        "locked": false,
-        "value": 15
-      },
-      "totemic_consecration_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Everflowing Carrot": {
     "location": "King's Valley Overworld",
@@ -11738,7 +11456,7 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "interconnected_havoc_damage_percent": {
+      "attunement_damage_percent": {
         "locked": false,
         "value": 35
       }
@@ -11774,7 +11492,7 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "interconnected_havoc_damage_percent": {
+      "attunement_damage_percent": {
         "locked": false,
         "value": 20
       }
@@ -11850,7 +11568,7 @@
     "base_item": "Chain",
     "release_status": "public",
     "stats": {
-      "interconnected_havoc_damage_percent": {
+      "attunement_damage_percent": {
         "locked": false,
         "value": 10
       }
@@ -13065,13 +12783,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "first_strike": 2,
-      "projectile_fragility": 2,
-      "unbreaking": 8,
       "magic_fragility": 2,
       "tempo": 2,
-      "speed_percent": 5,
-      "agility": 7.5
+      "unbreaking": 8,
+      "agility": 6.5,
+      "projectile_damage_percent": 15
     },
     "lore": "Dark blades of metal feathers decorate\nthe otherwise unassuming boots. The\nformidable hawk's likeness lends itself\nwell here, a testament to its strength."
   },
@@ -13092,13 +12808,11 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "first_strike": 2,
-      "projectile_fragility": 2,
-      "unbreaking": 9,
       "magic_fragility": 2,
       "tempo": 2,
-      "agility": 8,
-      "speed_percent": 10
+      "unbreaking": 9,
+      "projectile_damage_percent": 20,
+      "agility": 7
     },
     "lore": "Dark blades of metal feathers decorate\nthe otherwise unassuming boots. The\nformidable hawk's likeness lends itself\nwell here, a testament to its strength."
   },
@@ -19930,82 +19644,6 @@
     "stats": {},
     "lore": "Quality Bonus (+20%)\nThis fabric-like material\nseems to be fading\naway from this world."
   },
-  "Focused Charm of Shriveling": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Charm of Shriveling",
-    "power": 3,
-    "base_item": "Coal",
-    "release_status": "public",
-    "stats": {
-      "decayed_totem_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Greater Charm of Shriveling": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Charm of Shriveling",
-    "power": 2,
-    "base_item": "Coal",
-    "release_status": "public",
-    "stats": {
-      "decayed_totem_damage_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Lesser Charm of Shriveling": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Charm of Shriveling",
-    "power": 1,
-    "base_item": "Coal",
-    "release_status": "public",
-    "stats": {
-      "decayed_totem_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
-  "Swift Charm of Shriveling": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Shriveling",
-    "power": 3,
-    "base_item": "Coal",
-    "release_status": "public",
-    "stats": {
-      "decayed_totem_damage_percent": {
-        "locked": false,
-        "value": 20
-      },
-      "decayed_totem_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Crumbled Etiroetem": {
     "location": "Phyrrys, City of Fallen Stars",
     "locationId": "indigo",
@@ -20097,25 +19735,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Petrified Sap",
-    "power": 3,
+    "power": 2,
     "base_item": "Cocoa Beans",
     "release_status": "public",
     "stats": {
-      "totemic_consecration_resistance_amplifier_percent": {
+      "mending_remedy_healing_percent": {
         "locked": false,
-        "value": 5
+        "value": 50
       },
-      "totemic_consecration_absorption_amplifier_percent": {
+      "mending_remedy_duration_flat": {
         "locked": false,
-        "value": 5
+        "value": 3
       },
-      "totemic_consecration_totem_radius_amplifier_percent": {
+      "mending_remedy_healing_duration_flat": {
         "locked": false,
-        "value": 5
-      },
-      "totemic_consecration_health_threshold_percent": {
-        "locked": false,
-        "value": -20
+        "value": 3
       }
     },
     "type": "Charm",
@@ -21896,25 +21530,17 @@
     "base_item": "Composter",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_radius_percent": {
+      "mountain's_soul_absorption_cap_percent": {
         "locked": false,
         "value": 50
       },
-      "earthen_tremor_cursed_earth_radius_percent": {
+      "mountain's_soul_absorption_gain_percent": {
         "locked": false,
-        "value": 50
+        "value": 75
       },
-      "earthen_tremor_cursed_earth_melee_scaling_percent": {
+      "mountain's_soul_decay_delay_flat": {
         "locked": false,
-        "value": 15
-      },
-      "earthen_tremor_cursed_earth_projectile_scaling_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "earthen_tremor_cooldown_percent": {
-        "locked": false,
-        "value": 50
+        "value": -5
       }
     },
     "type": "Charm",
@@ -24426,7 +24052,7 @@
     "type": "Crossbow",
     "stats": {
       "kinetic_loading": 1,
-      "melee_protection": 3,
+      "melee_protection": 2,
       "multi-load": 1,
       "multishot": 1,
       "retrieval": 2,
@@ -24434,8 +24060,8 @@
       "projectile_speed_base": 1,
       "attack_damage_base": 10,
       "attack_speed_base": 1.6,
-      "projectile_damage_base": 22,
-      "speed_percent": 10
+      "speed_percent": 10,
+      "projectile_damage_base": 23
     },
     "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
   },
@@ -24456,16 +24082,16 @@
     "type": "Crossbow",
     "stats": {
       "kinetic_loading": 1,
-      "melee_protection": 3,
+      "melee_protection": 2,
       "multi-load": 1,
       "multishot": 1,
-      "retrieval": 3,
+      "retrieval": 2,
       "unbreaking": 4,
       "speed_percent": 15,
       "projectile_speed_base": 1,
       "attack_damage_base": 10,
       "attack_speed_base": 1.6,
-      "projectile_damage_base": 23
+      "projectile_damage_base": 24
     },
     "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
   },
@@ -24495,7 +24121,7 @@
       "projectile_speed_base": 1,
       "attack_damage_base": 10,
       "attack_speed_base": 1.6,
-      "projectile_damage_base": 23
+      "projectile_damage_base": 24
     },
     "lore": "It's almost... hypnotic, the way the lever sways\nforth... the fine polish... that rich red accent...\nYou can barely remember why you came here..."
   },
@@ -26616,12 +26242,12 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "sustenance": 2,
       "blast_fragility": 2,
-      "unbreaking": 4,
       "regeneration": 1,
-      "agility": 7,
-      "projectile_damage_percent": 15
+      "sustenance": 2,
+      "unbreaking": 4,
+      "projectile_damage_percent": 15,
+      "agility": 8
     },
     "lore": "Even deep inside a land untouched, the\nblight from the Stars spreads rapidly.\nAn infection. Consuming the purity of Space."
   },
@@ -26641,12 +26267,12 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "sustenance": 2,
       "blast_fragility": 2,
-      "unbreaking": 5,
       "regeneration": 1,
-      "agility": 7,
-      "projectile_damage_percent": 20
+      "sustenance": 2,
+      "unbreaking": 5,
+      "projectile_damage_percent": 20,
+      "agility": 8
     },
     "lore": "Even deep inside a land untouched, the\nblight from the Stars spreads rapidly.\nAn infection. Consuming the purity of Space."
   },
@@ -26838,11 +26464,11 @@
     "type": "Chestplate",
     "stats": {
       "cloaked": 1,
-      "ineptitude": 2,
+      "magic_protection": 2,
       "mending": 1,
-      "magic_protection": 1,
       "agility": 9,
-      "attack_damage_percent": 25
+      "attack_damage_percent": 25,
+      "max_health_percent": -15
     },
     "lore": "The segmented plates of The Impenetrable's shell\nwere heated and shaped intensely to weave the\nimmortal hewn crystal. Its unbreakable will now\nbelonged to a different sort of beast."
   },
@@ -26864,11 +26490,11 @@
     "type": "Chestplate",
     "stats": {
       "cloaked": 1,
-      "ineptitude": 2,
-      "mending": 1,
       "magic_protection": 2,
+      "mending": 1,
       "agility": 9,
-      "attack_damage_percent": 30
+      "attack_damage_percent": 30,
+      "max_health_percent": -15
     },
     "lore": "The segmented plates of The Impenetrable's shell\nwere heated and shaped intensely to weave the\nimmortal hewn crystal. Its unbreakable will now\nbelonged to a different sort of beast."
   },
@@ -27994,9 +27620,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "cumbersome": 1,
-      "ice_aspect": 1,
-      "quake": 1,
-      "sweeping_edge": 4,
+      "ice_aspect": 2,
+      "sweeping_edge": 5,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 19
@@ -28019,9 +27644,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "cumbersome": 1,
-      "ice_aspect": 1,
-      "quake": 1,
-      "sweeping_edge": 4,
+      "ice_aspect": 2,
+      "sweeping_edge": 6,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 20
@@ -28044,9 +27668,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "cumbersome": 1,
-      "ice_aspect": 1,
-      "quake": 1,
-      "sweeping_edge": 4,
+      "ice_aspect": 2,
+      "sweeping_edge": 6,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 20.5
@@ -28069,9 +27692,8 @@
     "type": "Mainhand Sword",
     "stats": {
       "cumbersome": 1,
-      "ice_aspect": 1,
-      "quake": 1,
-      "sweeping_edge": 4,
+      "ice_aspect": 2,
+      "sweeping_edge": 7,
       "unbreaking": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 21
@@ -28268,11 +27890,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "regicide": 1,
-      "mending": 1,
       "melee_protection": 2,
-      "attack_damage_base": 15,
-      "attack_speed_base": 1.6
+      "mending": 1,
+      "technique": 2,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 15
     },
     "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
   },
@@ -28293,11 +27915,11 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "regicide": 1,
-      "mending": 1,
       "melee_protection": 3,
-      "attack_damage_base": 15,
-      "attack_speed_base": 1.6
+      "mending": 1,
+      "technique": 2,
+      "attack_speed_base": 1.6,
+      "attack_damage_base": 15
     },
     "lore": "At last, The Stars have found a new way to satiate\ntheir hunger. A concealed gaze from The Great Beyond\nnow shining upon the vast world within their reach,\nready to be devoured."
   },
@@ -29144,17 +28766,13 @@
     "base_item": "Dragon Breath",
     "release_status": "public",
     "stats": {
-      "decayed_totem_damage_percent": {
+      "totemic_projection_radius_percent": {
         "locked": false,
-        "value": 120
+        "value": 50
       },
-      "decayed_totem_slowness_amplifier_percent": {
+      "totemic_projection_vulnerability_amplifier_percent": {
         "locked": false,
-        "value": 30
-      },
-      "decayed_totem_targets_flat": {
-        "locked": true,
-        "value": -2
+        "value": 12.5
       }
     },
     "type": "Charm",
@@ -30330,21 +29948,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Thousand Realm Jewel",
-    "power": 2,
+    "power": 3,
     "base_item": "Emerald",
     "release_status": "public",
     "stats": {
-      "lightning_totem_lightning_storm_radius_percent": {
-        "locked": false,
-        "value": 25
-      },
-      "lightning_totem_lightning_storm_pulse_delay_percent": {
+      "earthen_tremor_spike_cooldown_percent": {
         "locked": true,
-        "value": -50
+        "value": -40
       },
-      "lightning_totem_lightning_storm_duration_flat": {
+      "earthen_tremor_spike_count_flat": {
         "locked": false,
-        "value": -2
+        "value": -1
       }
     },
     "type": "Charm",
@@ -30853,6 +30467,28 @@
     "type": "Charm",
     "class_name": "Scout"
   },
+  "Explosive Maelstrom Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Explosive Maelstrom Charm",
+    "power": 2,
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "stats": {
+      "cyclone_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "cyclone_radius_percent": {
+        "locked": false,
+        "value": 25
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Explosive Umbral Charm": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -30924,6 +30560,24 @@
     "type": "Charm",
     "class_name": "Scout"
   },
+  "Focused Maelstrom Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Maelstrom Charm",
+    "power": 3,
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "stats": {
+      "cyclone_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Focused Umbral Charm": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -30963,6 +30617,24 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Greater Maelstrom Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Maelstrom Charm",
+    "power": 2,
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "stats": {
+      "cyclone_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Greater Umbral Charm": {
     "location": "Architect's Ring",
@@ -31018,6 +30690,24 @@
     "type": "Charm",
     "class_name": "Scout"
   },
+  "Lesser Maelstrom Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Maelstrom Charm",
+    "power": 1,
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "stats": {
+      "cyclone_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Lesser Umbral Charm": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -31053,6 +30743,28 @@
     },
     "type": "Charm",
     "class_name": "Scout"
+  },
+  "Swift Maelstrom Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Maelstrom Charm",
+    "power": 2,
+    "base_item": "Ender Eye",
+    "release_status": "public",
+    "stats": {
+      "cyclone_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "cyclone_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Swift Umbral Charm": {
     "location": "Architect's Ring",
@@ -31381,9 +31093,13 @@
     "base_item": "Feather",
     "release_status": "public",
     "stats": {
-      "whirlwind_totem_radius_percent": {
+      "cumulonimbus_damage_percent": {
         "locked": false,
         "value": 20
+      },
+      "cumulonimbus_glide_speed_percent": {
+        "locked": false,
+        "value": 10
       }
     },
     "type": "Charm",
@@ -31474,9 +31190,13 @@
     "base_item": "Feather",
     "release_status": "public",
     "stats": {
-      "whirlwind_totem_radius_percent": {
+      "cumulonimbus_damage_percent": {
         "locked": false,
         "value": 10
+      },
+      "cumulonimbus_glide_speed_percent": {
+        "locked": false,
+        "value": 5
       }
     },
     "type": "Charm",
@@ -31661,17 +31381,21 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Swift Gust Charm",
-    "power": 3,
+    "power": 2,
     "base_item": "Feather",
     "release_status": "public",
     "stats": {
-      "whirlwind_totem_cooldown_percent": {
+      "cumulonimbus_damage_percent": {
         "locked": false,
-        "value": -10
+        "value": 15
       },
-      "whirlwind_totem_speed_amplifier_percent": {
+      "cumulonimbus_glide_speed_percent": {
         "locked": false,
         "value": 10
+      },
+      "cumulonimbus_cooldown_percent": {
+        "locked": false,
+        "value": -10
       }
     },
     "type": "Charm",
@@ -32433,28 +32157,6 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
-  },
-  "Swift Charm of Destruction": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Destruction",
-    "power": 3,
-    "base_item": "Fire Charge",
-    "release_status": "public",
-    "stats": {
-      "devastation_damage_percent": {
-        "locked": false,
-        "value": 15
-      },
-      "devastation_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Azacor Key": {
     "location": "Azacor's Malice",
@@ -34004,21 +33706,25 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Propulsion Engine",
-    "power": 3,
+    "power": 2,
     "base_item": "Furnace",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_damage_percent": {
+      "sculptor's_maul_projectile_speed_percent": {
         "locked": false,
-        "value": 25
+        "value": 100
       },
-      "earthen_tremor_knockup_percent": {
+      "sculptor's_maul_damage_per_stack_percent": {
         "locked": false,
-        "value": 50
+        "value": 30
       },
-      "earthen_tremor_totem_landing_damage_flat": {
+      "sculptor's_maul_base_debris_count_flat": {
         "locked": false,
-        "value": 4
+        "value": -6
+      },
+      "sculptor's_maul_debris_per_stack_flat": {
+        "locked": false,
+        "value": -1
       }
     },
     "type": "Charm",
@@ -34131,13 +33837,13 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "cleansing_totem_healing_amplifier_percent": {
+      "mending_remedy_healing_percent": {
         "locked": false,
-        "value": 0.5
+        "value": 10
       },
-      "cleansing_totem_radius_percent": {
+      "mending_remedy_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 15
       }
     },
     "type": "Charm",
@@ -34188,9 +33894,9 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "cleansing_totem_healing_amplifier_percent": {
+      "mending_remedy_healing_percent": {
         "locked": false,
-        "value": 1
+        "value": 15
       }
     },
     "type": "Charm",
@@ -34224,9 +33930,9 @@
     "base_item": "Ghast Tear",
     "release_status": "public",
     "stats": {
-      "cleansing_totem_healing_amplifier_percent": {
+      "mending_remedy_healing_percent": {
         "locked": false,
-        "value": 0.5
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -34317,28 +34023,6 @@
     "release_status": "public",
     "type": "Misc",
     "stats": {}
-  },
-  "Swift Tide Charm": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Tide Charm",
-    "power": 3,
-    "base_item": "Ghast Tear",
-    "release_status": "public",
-    "stats": {
-      "cleansing_totem_healing_amplifier_percent": {
-        "locked": false,
-        "value": 1
-      },
-      "cleansing_totem_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Tear of the Dolphin": {
     "mmlore": [
@@ -35310,17 +34994,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Scattered Stardust",
-    "power": 1,
+    "power": 3,
     "base_item": "Glowstone Dust",
     "release_status": "public",
     "stats": {
-      "spiritual_combos_shot_delay_percent": {
+      "sculptor's_maul_debris_per_stack_flat": {
         "locked": false,
-        "value": -75
+        "value": 4
       },
-      "spiritual_combos_range_flat": {
+      "sculptor's_maul_damage_per_stack_percent": {
         "locked": false,
-        "value": -2
+        "value": -35
       }
     },
     "type": "Charm",
@@ -35695,17 +35379,9 @@
         "locked": false,
         "value": 2
       },
-      "escape_death_absorption_health_flat": {
-        "locked": false,
-        "value": 2
-      },
       "escape_death_cooldown_percent": {
         "locked": true,
         "value": -60
-      },
-      "escape_death_buff_duration_percent": {
-        "locked": false,
-        "value": 50
       },
       "escape_death_health_threshold_percent": {
         "locked": false,
@@ -35932,17 +35608,17 @@
     "base_item": "Gold Nugget",
     "release_status": "public",
     "stats": {
-      "chain_lightning_damaging_totem_efficiency_percent": {
+      "immolating_aura_enhancement_duration_per_charge_flat": {
         "locked": false,
-        "value": 35
+        "value": 0.5
       },
-      "chain_lightning_damage_percent": {
+      "immolating_aura_enhancement_radius_percent": {
         "locked": false,
-        "value": 35
+        "value": 45
       },
-      "chain_lightning_cooldown_percent": {
+      "immolating_aura_enhancement_damage_percent": {
         "locked": false,
-        "value": 15
+        "value": -25
       }
     },
     "type": "Charm",
@@ -36714,10 +36390,12 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "life_drain": 1,
-      "unbreakable": 1,
-      "fire_aspect": 1,
       "efficiency": 2,
+      "fire_aspect": 2,
+      "inferno": 2,
+      "life_drain": 1,
+      "scorch": 2,
+      "unbreakable": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 12.5
     },
@@ -42203,10 +41881,10 @@
     "masterwork": "6",
     "mmlore": [
       "To what end do we live? As an extension",
-      "of oneself unto the world, or the ripples",
+      "of ourselves unto the world, or the ripples",
       "of change wrought by our stride? No.",
-      "It is the advent of true loss, an inevitable",
-      "outcome that is worth more than the sum of its toll."
+      "It is the risk of true loss, an inevitable",
+      "outcome that is worth more than its toll."
     ],
     "region": "Ring",
     "tier": "Epic",
@@ -42215,15 +41893,13 @@
     "release_status": "public",
     "type": "Offhand Sword",
     "stats": {
-      "curse_of_shrapnel": 3,
-      "sustenance": 6,
+      "greed": 1,
+      "life_drain": 1,
       "unbreakable": 1,
-      "attack_damage_percent": 70,
-      "speed_percent": 20,
-      "max_health_percent": 20,
-      "attack_speed_percent": 20
+      "attack_speed_percent": 20,
+      "attack_damage_percent": -20
     },
-    "lore": "To what end do we live? As an extension\nof oneself unto the world, or the ripples\nof change wrought by our stride? No.\nIt is the advent of true loss, an inevitable\noutcome that is worth more than the sum of its toll."
+    "lore": "To what end do we live? As an extension\nof ourselves unto the world, or the ripples\nof change wrought by our stride? No.\nIt is the risk of true loss, an inevitable\noutcome that is worth more than its toll."
   },
   "Doom's Edge": {
     "location": "Plagueroot Temple",
@@ -45007,17 +44683,17 @@
     "base_item": "Green Candle",
     "release_status": "public",
     "stats": {
-      "flame_totem_duration_percent": {
+      "immolating_aura_duration_flat": {
         "locked": false,
-        "value": 10
+        "value": 2
       },
-      "lightning_totem_duration_percent": {
+      "earthen_tremor_duration_flat": {
         "locked": false,
-        "value": 10
+        "value": 2
       },
-      "cleansing_totem_duration_percent": {
+      "mending_remedy_duration_flat": {
         "locked": false,
-        "value": 10
+        "value": 2
       }
     },
     "type": "Charm",
@@ -45251,13 +44927,17 @@
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "ignition_drive_damage_percent": {
+      "combustion_chain_explosion_damage_percent": {
         "locked": false,
         "value": 15
       },
-      "ignition_drive_radius_percent": {
+      "combustion_chain_explosion_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 15
+      },
+      "combustion_chain_max_chain_distance_percent": {
+        "locked": false,
+        "value": 15
       }
     },
     "type": "Charm",
@@ -45317,9 +44997,9 @@
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "ignition_drive_damage_percent": {
+      "combustion_chain_explosion_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 30
       }
     },
     "type": "Charm",
@@ -45375,9 +45055,9 @@
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "ignition_drive_damage_percent": {
+      "combustion_chain_explosion_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 15
       }
     },
     "type": "Charm",
@@ -45444,9 +45124,9 @@
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "ignition_drive_damage_percent": {
+      "combustion_chain_explosion_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -45586,11 +45266,11 @@
     "base_item": "Gunpowder",
     "release_status": "public",
     "stats": {
-      "ignition_drive_damage_percent": {
+      "combustion_chain_explosion_damage_percent": {
         "locked": false,
         "value": 15
       },
-      "ignition_drive_cooldown_percent": {
+      "combustion_chain_cooldown_percent": {
         "locked": false,
         "value": -10
       }
@@ -46027,9 +45707,25 @@
     "base_item": "Honey Bottle",
     "release_status": "public",
     "stats": {
-      "totemic_projection_distribution_radius_percent": {
+      "attunement_enhancement_cooldown_percent": {
+        "locked": true,
+        "value": -99.5
+      },
+      "attunement_enhancement_launch_distance_percent": {
         "locked": false,
+        "value": 100
+      },
+      "attunement_enhancement_damage_percent": {
+        "locked": true,
         "value": -100
+      },
+      "attunement_enhancement_radius_percent": {
+        "locked": true,
+        "value": -100
+      },
+      "attunement_enhancement_stun_duration_flat": {
+        "locked": true,
+        "value": -1
       }
     },
     "type": "Charm",
@@ -49281,12 +48977,14 @@
     "release_status": "public",
     "type": "Boots",
     "stats": {
-      "projectile_fragility": 1,
-      "magic_fragility": 1,
+      "adrenaline": 2,
+      "melee_fragility": 1,
       "mending": 1,
-      "adrenaline": 3,
-      "agility": 10,
-      "magic_damage_percent": 22
+      "projectile_fragility": 1,
+      "agility": 12,
+      "magic_damage_percent": 25,
+      "max_health_percent": -15,
+      "speed_percent": 20
     },
     "lore": "And all of a sudden, the breathing invaded.\nYou can hear it crawling into your head.\nBegging won't help now, it won't stop."
   },
@@ -54457,21 +54155,17 @@
     "base_item": "Iron Nugget",
     "release_status": "public",
     "stats": {
-      "whirlwind_totem_cooldown_reduction_percent": {
+      "mending_remedy_cooldown_recharge_amplifier_percent": {
         "locked": false,
-        "value": 0.5
+        "value": 20
       },
-      "whirlwind_totem_duration_flat": {
+      "mending_remedy_radius_percent": {
         "locked": false,
-        "value": 4
+        "value": 20
       },
-      "whirlwind_totem_radius_percent": {
+      "mending_remedy_duration_percent": {
         "locked": false,
-        "value": 60
-      },
-      "whirlwind_totem_cooldown_percent": {
-        "locked": false,
-        "value": 30
+        "value": -50
       }
     },
     "type": "Charm",
@@ -56510,9 +56204,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "first_strike": 1,
-      "unbreaking": 4,
       "duelist": 1,
+      "first_strike": 2,
+      "unbreaking": 4,
       "attack_speed_base": 1.4,
       "attack_damage_base": 16
     },
@@ -56533,9 +56227,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "first_strike": 1,
-      "unbreaking": 5,
       "duelist": 1,
+      "first_strike": 2,
+      "unbreaking": 5,
       "attack_speed_base": 1.4,
       "attack_damage_base": 16.5
     },
@@ -56556,9 +56250,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "first_strike": 1,
-      "unbreaking": 5,
       "duelist": 1,
+      "first_strike": 3,
+      "unbreaking": 5,
       "attack_speed_base": 1.4,
       "attack_damage_base": 17
     },
@@ -56579,9 +56273,9 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "first_strike": 1,
+      "duelist": 1,
+      "first_strike": 3,
       "unbreaking": 6,
-      "duelist": 2,
       "attack_speed_base": 1.4,
       "attack_damage_base": 17.5
     },
@@ -56602,9 +56296,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "first_strike": 2,
+      "adrenaline": 1,
+      "duelist": 1,
+      "first_strike": 3,
       "unbreaking": 7,
-      "duelist": 2,
       "attack_speed_base": 1.4,
       "attack_damage_base": 18
     },
@@ -56719,8 +56414,8 @@
       "quake": 1,
       "unbreaking": 7,
       "speed_percent": 10,
-      "attack_speed_base": 1.6,
-      "attack_damage_base": 15
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 16.5
     },
     "lore": "Venomous fangs may appear in Lycans\nin the wake of rare mutations. In life,\nthey defend their pack fiercely. But in\ndeath, their fangs may yet be used\nfor something far more ominous..."
   },
@@ -56747,8 +56442,8 @@
       "quake": 1,
       "unbreaking": 7,
       "speed_percent": 10,
-      "attack_speed_base": 1.6,
-      "attack_damage_base": 15.5
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17
     },
     "lore": "Venomous fangs may appear in Lycans\nin the wake of rare mutations. In life,\nthey defend their pack fiercely. But in\ndeath, their fangs may yet be used\nfor something far more ominous..."
   },
@@ -56775,8 +56470,8 @@
       "quake": 1,
       "unbreaking": 7,
       "speed_percent": 10,
-      "attack_speed_base": 1.6,
-      "attack_damage_base": 16
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17.5
     },
     "lore": "Venomous fangs may appear in Lycans\nin the wake of rare mutations. In life,\nthey defend their pack fiercely. But in\ndeath, their fangs may yet be used\nfor something far more ominous..."
   },
@@ -57113,7 +56808,7 @@
       "wind_aspect": 2,
       "speed_percent": 12,
       "attack_speed_base": 1.8,
-      "attack_damage_base": 15.5
+      "attack_damage_base": 15
     },
     "lore": "Renowned for her clarity of mind,\nNalatia's leadership was invaluable\nto the Coven during the darkest years\nof Silvari expansion."
   },
@@ -57138,7 +56833,7 @@
       "wind_aspect": 2,
       "speed_percent": 12,
       "attack_speed_base": 1.8,
-      "attack_damage_base": 16
+      "attack_damage_base": 15.5
     },
     "lore": "Renowned for her clarity of mind,\nNalatia's leadership was invaluable\nto the Coven during the darkest years\nof Silvari expansion."
   },
@@ -57163,7 +56858,7 @@
       "wind_aspect": 2,
       "speed_percent": 13,
       "attack_speed_base": 1.8,
-      "attack_damage_base": 16.5
+      "attack_damage_base": 16
     },
     "lore": "Renowned for her clarity of mind,\nNalatia's leadership was invaluable\nto the Coven during the darkest years\nof Silvari expansion."
   },
@@ -57188,7 +56883,7 @@
       "wind_aspect": 2,
       "speed_percent": 14,
       "attack_speed_base": 1.8,
-      "attack_damage_base": 17
+      "attack_damage_base": 16.5
     },
     "lore": "Renowned for her clarity of mind,\nNalatia's leadership was invaluable\nto the Coven during the darkest years\nof Silvari expansion."
   },
@@ -59083,6 +58778,28 @@
     "type": "Misc",
     "stats": {},
     "lore": "The Black Mist rolls forth,\ncalling to unsuspecting heroes.\nCompletion of The End Chimes is required and\n4+ players are recommended for this Strike!\nThis Strike requires breaking spawners\nto progress to the final boss.\nPlayers: 1-6 (One life per player)\nGrants access to The Black Mist Strike."
+  },
+  "Weathered Lantern": {
+    "location": "The Eternal Vigil",
+    "locationId": "vigil",
+    "mmlore": [
+      "From flame, to ember, to smolder, then",
+      "flame again. The meaning is in Their dance."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Weathered Lantern",
+    "base_item": "Lantern",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "inferno": 2,
+      "regeneration": 2,
+      "attack_speed_percent": 15,
+      "magic_damage_percent": 15,
+      "armor": 5
+    },
+    "lore": "From flame, to ember, to smolder, then\nflame again. The meaning is in Their dance."
   },
   "Life Charm (lapis_lazuli)": {
     "location": "Arena of Terth",
@@ -64394,13 +64111,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "projectile_fragility": 2,
-      "unbreaking": 3,
-      "evasion": 1,
-      "mending": 1,
-      "speed_percent": 5,
-      "projectile_damage_percent": 25,
-      "agility": 6.5
+      "curse_of_shrapnel": 1,
+      "second_wind": 2,
+      "unbreaking": 25,
+      "projectile_damage_percent": 30,
+      "agility": 8
     },
     "lore": "A merciless ocean washed upon the burdened\ncloth, its purpose in execution lost. But it is\nbeyond its craftsmanship now, left with a silence\nno other could bear."
   },
@@ -64421,13 +64136,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "projectile_fragility": 2,
-      "unbreaking": 3,
-      "evasion": 1,
-      "mending": 1,
-      "speed_percent": 5,
-      "projectile_damage_percent": 25,
-      "agility": 7
+      "curse_of_shrapnel": 1,
+      "second_wind": 2,
+      "unbreaking": 30,
+      "projectile_damage_percent": 35,
+      "agility": 9
     },
     "lore": "A merciless ocean washed upon the burdened\ncloth, its purpose in execution lost. But it is\nbeyond its craftsmanship now, left with a silence\nno other could bear."
   },
@@ -64448,13 +64161,11 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "projectile_fragility": 2,
-      "unbreaking": 4,
-      "evasion": 1,
-      "mending": 1,
-      "speed_percent": 5,
-      "projectile_damage_percent": 30,
-      "agility": 7
+      "curse_of_shrapnel": 1,
+      "second_wind": 2,
+      "unbreaking": 35,
+      "projectile_damage_percent": 40,
+      "agility": 9
     },
     "lore": "A merciless ocean washed upon the burdened\ncloth, its purpose in execution lost. But it is\nbeyond its craftsmanship now, left with a silence\nno other could bear."
   },
@@ -65506,10 +65217,10 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "sustenance": 3,
-      "unbreaking": 25,
-      "projectile_protection": 1,
       "magic_protection": 2,
+      "projectile_protection": 1,
+      "sustenance": 2,
+      "unbreaking": 25,
       "max_health_flat": 14,
       "knockback_resistance_flat": 6,
       "speed_percent": -20
@@ -65532,13 +65243,13 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "sustenance": 3,
-      "unbreaking": 30,
-      "projectile_protection": 2,
       "magic_protection": 2,
-      "max_health_flat": 14,
+      "projectile_protection": 2,
+      "sustenance": 2,
+      "unbreaking": 30,
       "knockback_resistance_flat": 6,
-      "speed_percent": -20
+      "speed_percent": -20,
+      "max_health_flat": 15
     },
     "lore": "The roots beneath the Ring ran deep, ley lines of\npure mana that span throughout our world.\nConnections that must have an epicenter, an origin..."
   },
@@ -65558,13 +65269,13 @@
     "release_status": "public",
     "type": "Chestplate",
     "stats": {
-      "sustenance": 4,
-      "unbreaking": 35,
-      "projectile_protection": 2,
       "magic_protection": 2,
-      "max_health_flat": 14,
+      "projectile_protection": 2,
+      "sustenance": 3,
+      "unbreaking": 35,
       "knockback_resistance_flat": 6,
-      "speed_percent": -20
+      "speed_percent": -20,
+      "max_health_flat": 15
     },
     "lore": "The roots beneath the Ring ran deep, ley lines of\npure mana that span throughout our world.\nConnections that must have an epicenter, an origin..."
   },
@@ -66031,10 +65742,10 @@
     "type": "Chestplate",
     "stats": {
       "cloaked": 1,
+      "mending": 1,
       "technique": 3,
       "unbreaking": 3,
-      "mending": 1,
-      "agility": 8
+      "agility": 7
     },
     "lore": "Ganzir bound the thick cloak tighter around\nhis body. The wind was cold and biting. It\nwhistled and whispered as it bit into his skin.\nHe should be invisible, yet he still felt something\nwatching closely... He was next..."
   },
@@ -66057,10 +65768,10 @@
     "type": "Chestplate",
     "stats": {
       "cloaked": 1,
+      "mending": 1,
       "technique": 4,
       "unbreaking": 3,
-      "mending": 1,
-      "agility": 8
+      "agility": 7
     },
     "lore": "Ganzir bound the thick cloak tighter around\nhis body. The wind was cold and biting. It\nwhistled and whispered as it bit into his skin.\nHe should be invisible, yet he still felt something\nwatching closely... He was next..."
   },
@@ -66083,10 +65794,10 @@
     "type": "Chestplate",
     "stats": {
       "cloaked": 1,
+      "mending": 1,
       "technique": 4,
       "unbreaking": 3,
-      "mending": 1,
-      "agility": 9
+      "agility": 8
     },
     "lore": "Ganzir bound the thick cloak tighter around\nhis body. The wind was cold and biting. It\nwhistled and whispered as it bit into his skin.\nHe should be invisible, yet he still felt something\nwatching closely... He was next..."
   },
@@ -74725,11 +74436,11 @@
     "base_item": "Lightning Rod",
     "release_status": "public",
     "stats": {
-      "lightning_totem_damage_multiplier_percent": {
+      "thunderstorm_bolt_damage_percent": {
         "locked": false,
-        "value": 15
+        "value": 10
       },
-      "lightning_totem_radius_percent": {
+      "thunderstorm_bolt_radius_percent": {
         "locked": false,
         "value": 20
       }
@@ -74747,9 +74458,9 @@
     "base_item": "Lightning Rod",
     "release_status": "public",
     "stats": {
-      "lightning_totem_damage_multiplier_percent": {
+      "thunderstorm_bolt_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 20
       }
     },
     "type": "Charm",
@@ -74765,9 +74476,9 @@
     "base_item": "Lightning Rod",
     "release_status": "public",
     "stats": {
-      "lightning_totem_damage_multiplier_percent": {
+      "thunderstorm_bolt_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       }
     },
     "type": "Charm",
@@ -74783,9 +74494,9 @@
     "base_item": "Lightning Rod",
     "release_status": "public",
     "stats": {
-      "lightning_totem_damage_multiplier_percent": {
+      "thunderstorm_bolt_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       }
     },
     "type": "Charm",
@@ -74841,28 +74552,6 @@
     "type": "Charm",
     "class_name": "Scout",
     "lore": "Most Forgetenders could not deny the convenience\nand strength of blighted alloy. Thus, limited production\nbegan on several lines of unique weaponry."
-  },
-  "Swift Charm of Thundering": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Swift Charm of Thundering",
-    "power": 3,
-    "base_item": "Lightning Rod",
-    "release_status": "public",
-    "stats": {
-      "lightning_totem_damage_multiplier_percent": {
-        "locked": false,
-        "value": 15
-      },
-      "lightning_totem_cooldown_percent": {
-        "locked": false,
-        "value": -10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Tarnished Golden Key": {
     "mmlore": [
@@ -76020,6 +75709,10 @@
       "starfall_damage_percent": {
         "locked": false,
         "value": 15
+      },
+      "starfall_fall_speed_percent": {
+        "locked": false,
+        "value": 25
       },
       "starfall_cooldown_percent": {
         "locked": false,
@@ -77368,21 +77061,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Rune of Apocalypse",
-    "power": 4,
+    "power": 2,
     "base_item": "Nautilus Shell",
     "release_status": "public",
     "stats": {
-      "devastation_radius_percent": {
+      "combustion_chain_explosion_damage_percent": {
         "locked": false,
         "value": 50
       },
-      "devastation_damage_percent": {
+      "combustion_chain_explosion_radius_percent": {
         "locked": false,
-        "value": 50
+        "value": 30
       },
-      "devastation_cooldown_percent": {
+      "combustion_chain_travel_speed_percent": {
         "locked": false,
-        "value": 15
+        "value": -65
       }
     },
     "type": "Charm",
@@ -78936,11 +78629,12 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "arcane_thrust": 4,
-      "unbreakable": 1,
       "adrenaline": 2,
+      "arcane_thrust": 4,
+      "reverb": 4,
+      "unbreakable": 1,
       "attack_speed_base": 1,
-      "attack_damage_base": 23
+      "attack_damage_base": 25
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -79601,8 +79295,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "melee_protection": 1,
       "steadfast": 1,
-      "melee_protection": 2,
       "magic_damage_percent": 10,
       "armor": 7.5
     },
@@ -79624,8 +79318,8 @@
     "release_status": "public",
     "type": "Offhand",
     "stats": {
+      "melee_protection": 2,
       "steadfast": 1,
-      "melee_protection": 3,
       "magic_damage_percent": 10,
       "armor": 7.5
     },
@@ -79759,37 +79453,6 @@
     "stats": {},
     "lore": "A fragment of a truly evil presence. Perhaps\nit could be used to craft something?"
   },
-  "Alcyoneus-6": {
-    "location": "Phyrrys, City of Fallen Stars",
-    "locationId": "indigo",
-    "masterwork": "6",
-    "mmlore": [
-      "<dark_gray>Once Phyrrys was Inverted, those still within",
-      "<dark_gray>were changed. Their cores went dark.",
-      "<dark_gray>Energy was pulled in, slowly at first, but soon",
-      "<dark_gray>they became a deep tear in space. Hundreds",
-      "<dark_gray>of tiny black holes, begging to collapse.",
-      "<dark_gray>Phyrrys' secrets must remain sealed."
-    ],
-    "region": "Ring",
-    "tier": "Epic",
-    "name": "Alcyoneus",
-    "base_item": "Netherite Shovel",
-    "release_status": "public",
-    "type": "Wand",
-    "stats": {
-      "ice_aspect": 3,
-      "ineptitude": 6,
-      "knockback": 1,
-      "regicide": 3,
-      "unbreakable": 1,
-      "attack_speed_base": 1,
-      "attack_damage_base": 20,
-      "spell_power_base": 130,
-      "knockback_resistance_flat": 6
-    },
-    "lore": "Once Phyrrys was Inverted, those still within\nwere changed. Their cores went dark.\nEnergy was pulled in, slowly at first, but soon\nthey became a deep tear in space. Hundreds\nof tiny black holes, begging to collapse.\nPhyrrys' secrets must remain sealed."
-  },
   "Ataraxian Echo": {
     "location": "Aurora's Endgame",
     "locationId": "aurora",
@@ -79892,13 +79555,13 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "sustenance": 2,
       "second_wind": 2,
-      "unbreakable": 1,
+      "stamina": 3,
+      "sustenance": 2,
       "sweeping_edge": 3,
-      "stamina": 2,
-      "attack_speed_base": 1.6,
-      "attack_damage_base": 19
+      "unbreakable": 1,
+      "attack_damage_base": 25,
+      "attack_speed_base": 1.2
     },
     "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
@@ -80116,6 +79779,29 @@
     },
     "lore": "I had to help them win the war.\nKaul could help us do it, even if he didn't know.\nThe invaders must be defeated, and I can siphon\nenergy from Kaul to power our forces.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DN Key 1 *"
   },
+  "Eternal Evergreen": {
+    "location": "Echoes of Oblivion",
+    "locationId": "teal",
+    "mmlore": [
+      "Stillness, unmarred by growth nor decay,",
+      "taking roots where Time slumbers, dreaming",
+      "of seasons never to come."
+    ],
+    "region": "Isles",
+    "tier": "Artifact",
+    "name": "Eternal Evergreen",
+    "base_item": "Oak Sapling",
+    "release_status": "public",
+    "type": "Offhand",
+    "stats": {
+      "magic_protection": 1,
+      "steadfast": 1,
+      "magic_damage_percent": 25,
+      "thorns_flat": 4,
+      "agility": 4
+    },
+    "lore": "Stillness, unmarred by growth nor decay,\ntaking roots where Time slumbers, dreaming\nof seasons never to come."
+  },
   "Roots of Balance": {
     "location": "Harmonic Arboretum",
     "locationId": "pink",
@@ -80166,7 +79852,8 @@
     "mmlore": [
       "Nonlinearities exceeding critical values.",
       "Voltage approaching dielectric breakdown.",
-      "Excellent. This is going to hurt."
+      "Excellent. This is going to hurt.",
+      "<gray>Thunderstorm now requires four stacks."
     ],
     "region": "Ring",
     "tier": "Epic",
@@ -80175,22 +79862,34 @@
     "base_item": "Observer",
     "release_status": "public",
     "stats": {
-      "lightning_totem_damage_multiplier_percent": {
+      "thunderstorm_bolt_damage_percent": {
         "locked": false,
-        "value": 30
+        "value": 300
       },
-      "lightning_totem_lightning_storm_damage_percent": {
+      "thunderstorm_bolt_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 150
       },
-      "lightning_totem_pulse_delay_percent": {
+      "thunderstorm_bolt_range_percent": {
         "locked": false,
-        "value": -30
+        "value": 150
+      },
+      "thunderstorm_pierce_damage_loss_percent": {
+        "locked": false,
+        "value": -100
+      },
+      "thunderstorm_bolt_cast_delay_flat": {
+        "locked": false,
+        "value": 1
+      },
+      "thunderstorm_cast_requirement_flat": {
+        "locked": false,
+        "value": 3
       }
     },
     "type": "Charm",
     "class_name": "Shaman",
-    "lore": "Nonlinearities exceeding critical values.\nVoltage approaching dielectric breakdown.\nExcellent. This is going to hurt."
+    "lore": "Nonlinearities exceeding critical values.\nVoltage approaching dielectric breakdown.\nExcellent. This is going to hurt.\nThunderstorm now requires four stacks."
   },
   "Broken Beyond": {
     "location": "The Black Mist",
@@ -86175,12 +85874,11 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "projectile_protection": 1,
       "reflexes": 1,
-      "ineptitude": 1,
-      "projectile_protection": 2,
       "shielding": 1,
-      "attack_damage_percent": 50,
-      "armor": 4
+      "armor": 4,
+      "attack_damage_percent": 40
     },
     "lore": "The Aurians were not the first to watch the\ncosmos and beyond. No, it was the Silver\nKnights who first learned to look beyond\ninto the Outside. One look was enough."
   },
@@ -86201,12 +85899,11 @@
     "release_status": "public",
     "type": "Helmet",
     "stats": {
+      "projectile_protection": 1,
       "reflexes": 1,
-      "ineptitude": 1,
-      "projectile_protection": 2,
       "shielding": 1,
-      "attack_damage_percent": 50,
-      "armor": 5
+      "armor": 5,
+      "attack_damage_percent": 40
     },
     "lore": "The Aurians were not the first to watch the\ncosmos and beyond. No, it was the Silver\nKnights who first learned to look beyond\ninto the Outside. One look was enough."
   },
@@ -86885,13 +86582,9 @@
     "base_item": "Podzol",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_damage_percent": {
+      "earthen_tremor_spike_damage_percent": {
         "locked": false,
-        "value": 35
-      },
-      "earthen_tremor_totem_landing_damage_percent": {
-        "locked": false,
-        "value": 35
+        "value": 30
       }
     },
     "type": "Charm",
@@ -86907,13 +86600,9 @@
     "base_item": "Podzol",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_damage_percent": {
+      "earthen_tremor_spike_damage_percent": {
         "locked": false,
-        "value": 20
-      },
-      "earthen_tremor_totem_landing_damage_percent": {
-        "locked": false,
-        "value": 20
+        "value": 15
       }
     },
     "type": "Charm",
@@ -86929,13 +86618,9 @@
     "base_item": "Podzol",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_damage_percent": {
+      "earthen_tremor_spike_damage_percent": {
         "locked": false,
-        "value": 10
-      },
-      "earthen_tremor_totem_landing_damage_percent": {
-        "locked": false,
-        "value": 10
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -94958,17 +94643,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Porphyry Shackle",
-    "power": 2,
+    "power": 1,
     "base_item": "Purple Dye",
     "release_status": "public",
     "stats": {
-      "flame_totem_stacking_damage_amplifier_percent": {
+      "immolating_aura_damage_boost_percent": {
         "locked": false,
-        "value": 10
+        "value": 7.5
       },
-      "flame_totem_used_ability_bonus_damage_percent": {
+      "earthen_tremor_resistance_amplifier_percent": {
         "locked": false,
-        "value": -50
+        "value": 7.5
+      },
+      "mending_remedy_cooldown_recharge_amplifier_percent": {
+        "locked": false,
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -96094,25 +95783,21 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Six-Pronged Sea Stone",
-    "power": 5,
+    "power": 4,
     "base_item": "Quartz",
     "release_status": "public",
     "stats": {
-      "chain_lightning_charges_flat": {
+      "tempest's_call_cooldown_reduction_flat": {
         "locked": false,
         "value": 2
       },
-      "chain_lightning_targets_flat": {
+      "tempest's_call_charges_flat": {
         "locked": false,
-        "value": 4
+        "value": -1
       },
-      "chain_lightning_knockback_percent": {
+      "tempest's_call_cooldown_percent": {
         "locked": false,
         "value": 50
-      },
-      "chain_lightning_cooldown_percent": {
-        "locked": false,
-        "value": -35
       }
     },
     "type": "Charm",
@@ -97400,11 +97085,15 @@
       },
       "glorious_battle_velocity_percent": {
         "locked": false,
-        "value": 15
+        "value": 25
+      },
+      "glorious_battle_critical_damage_multiplier_percent": {
+        "locked": false,
+        "value": -15
       },
       "glorious_battle_bloodlust_cost_flat": {
         "locked": false,
-        "value": 1
+        "value": 2
       }
     },
     "type": "Charm",
@@ -97419,31 +97108,37 @@
       "A symphony of wing, claw and breath",
       "suffusing the living forest, as He willed.",
       "Here, the only sound was His tattered howl",
-      "and the crunching of dead briar underpaw."
+      "and the crunching of dead briar underpaw.",
+      "<gray>Mountain's Soul's critical attack now consumes",
+      "<gray>absorption to rupture the struck enemy."
     ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Briar of Binding",
-    "power": 3,
+    "power": 5,
     "base_item": "Red Glazed Terracotta",
     "release_status": "public",
     "stats": {
-      "devastation_cooldown_reduction_flat": {
+      "rupture_base_weapon_percent_damage_percent": {
         "locked": false,
-        "value": 3
+        "value": 120
       },
-      "devastation_cooldown_percent": {
+      "rupture_weapon_percent_damage_per_absorption_percent": {
         "locked": false,
-        "value": -30
+        "value": 60
       },
-      "devastation_damage_percent": {
+      "rupture_radius_flat": {
         "locked": false,
-        "value": -30
+        "value": 2
+      },
+      "mountain's_soul_cooldown_percent": {
+        "locked": false,
+        "value": 50
       }
     },
     "type": "Charm",
     "class_name": "Shaman",
-    "lore": "The true Wolfswoods were never quiet.\nA symphony of wing, claw and breath\nsuffusing the living forest, as He willed.\nHere, the only sound was His tattered howl\nand the crunching of dead briar underpaw."
+    "lore": "The true Wolfswoods were never quiet.\nA symphony of wing, claw and breath\nsuffusing the living forest, as He willed.\nHere, the only sound was His tattered howl\nand the crunching of dead briar underpaw.\nMountain's Soul's critical attack now consumes\nabsorption to rupture the struck enemy."
   },
   "Mystery Gift (offhand)": {
     "location": "Coalrupted Sierhaven",
@@ -97554,21 +97249,17 @@
     "base_item": "Red Mushroom Block",
     "release_status": "public",
     "stats": {
-      "ignition_drive_cooldown_percent": {
+      "cumulonimbus_recoil_velocity_percent": {
         "locked": false,
-        "value": -30
+        "value": 30
       },
-      "ignition_drive_launch_distance_percent": {
+      "cumulonimbus_cooldown_percent": {
         "locked": false,
-        "value": 15
+        "value": -15
       },
-      "ignition_drive_radius_percent": {
+      "cumulonimbus_stagger_duration_flat": {
         "locked": false,
-        "value": 10
-      },
-      "ignition_drive_stun_duration_percent": {
-        "locked": false,
-        "value": -100
+        "value": -1
       }
     },
     "type": "Charm",
@@ -103666,6 +103357,24 @@
     "type": "Charm",
     "class_name": "Generalist"
   },
+  "Focused Projection Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Projection Charm",
+    "power": 3,
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Greater Charm of Relocation": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -103678,6 +103387,24 @@
     "stats": {},
     "type": "Charm",
     "class_name": "Generalist"
+  },
+  "Greater Projection Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Projection Charm",
+    "power": 2,
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Hycenea's Vinelash-0": {
     "location": "Quest Reward",
@@ -103812,6 +103539,24 @@
     "type": "Charm",
     "class_name": "Generalist"
   },
+  "Lesser Projection Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Projection Charm",
+    "power": 1,
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Noxious Sludge": {
     "location": "Salazar's Folly",
     "locationId": "lime",
@@ -103848,6 +103593,28 @@
     "type": "Misc",
     "stats": {},
     "lore": "Epic Crafting Material\nThe sap from a particularly vile tree.\nIt has the consistency of phlegm,\nand the air around it is impossible\nto breathe in without choking."
+  },
+  "Swift Projection Charm": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Swift Projection Charm",
+    "power": 2,
+    "base_item": "Slime Ball",
+    "release_status": "public",
+    "stats": {
+      "totemic_projection_damage_percent": {
+        "locked": false,
+        "value": 15
+      },
+      "totemic_projection_cooldown_percent": {
+        "locked": false,
+        "value": -10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Ver Toxin": {
     "mmlore": [
@@ -104905,28 +104672,6 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
-  "Explosive Spiriting Charm": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Explosive Spiriting Charm",
-    "power": 2,
-    "base_item": "Soul Lantern",
-    "release_status": "public",
-    "stats": {
-      "spiritcatcher_orbs_orb_velocity_percent": {
-        "locked": false,
-        "value": 50
-      },
-      "spiritcatcher_orbs_spiritflame_damage_percent": {
-        "locked": false,
-        "value": 15
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Focused Charm of the Hive": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -104945,24 +104690,6 @@
     "type": "Charm",
     "class_name": "Warlock"
   },
-  "Focused Spiriting Charm": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Focused Spiriting Charm",
-    "power": 3,
-    "base_item": "Soul Lantern",
-    "release_status": "public",
-    "stats": {
-      "spiritcatcher_orbs_spiritflame_damage_percent": {
-        "locked": false,
-        "value": 35
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Greater Charm of the Hive": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -104980,24 +104707,6 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
-  },
-  "Greater Spiriting Charm": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Greater Spiriting Charm",
-    "power": 2,
-    "base_item": "Soul Lantern",
-    "release_status": "public",
-    "stats": {
-      "spiritcatcher_orbs_spiritflame_damage_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Lantern of Truth (soul_lantern)": {
     "location": "Marina Noir",
@@ -105034,24 +104743,6 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
-  },
-  "Lesser Spiriting Charm": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Lesser Spiriting Charm",
-    "power": 1,
-    "base_item": "Soul Lantern",
-    "release_status": "public",
-    "stats": {
-      "spiritcatcher_orbs_spiritflame_damage_percent": {
-        "locked": false,
-        "value": 10
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
   },
   "Shadowflame Lantern": {
     "mmlore": [
@@ -110810,8 +110501,9 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "duelist": 1,
+      "steadfast": 1,
       "unbreaking": 10,
-      "duelist": 2,
       "attack_damage_base": 22.5,
       "attack_speed_base": 0.8,
       "knockback_resistance_flat": 2
@@ -110834,8 +110526,9 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "duelist": 1,
+      "steadfast": 1,
       "unbreaking": 10,
-      "duelist": 2,
       "attack_damage_base": 23,
       "attack_speed_base": 0.8,
       "knockback_resistance_flat": 2
@@ -110858,8 +110551,9 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "duelist": 1,
+      "steadfast": 1,
       "unbreaking": 10,
-      "duelist": 2,
       "attack_damage_base": 23.5,
       "attack_speed_base": 0.8,
       "knockback_resistance_flat": 2
@@ -110882,8 +110576,9 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "duelist": 1,
+      "steadfast": 1,
       "unbreaking": 12,
-      "duelist": 2,
       "attack_damage_base": 24,
       "attack_speed_base": 0.8,
       "knockback_resistance_flat": 2
@@ -110906,8 +110601,9 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
+      "duelist": 2,
+      "steadfast": 1,
       "unbreaking": 14,
-      "duelist": 3,
       "attack_speed_base": 0.8,
       "knockback_resistance_flat": 2,
       "attack_damage_base": 24
@@ -111392,12 +111088,14 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "smite": 3,
-      "unbreaking": 10,
       "fire_aspect": 4,
+      "inferno": 3,
       "regeneration": 1,
-      "attack_damage_base": 20,
-      "attack_speed_base": 0.7
+      "scorch": 3,
+      "smite": 1,
+      "unbreaking": 10,
+      "attack_speed_base": 0.7,
+      "attack_damage_base": 22.5
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
@@ -111417,12 +111115,14 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "smite": 3,
-      "unbreaking": 11,
       "fire_aspect": 4,
+      "inferno": 3,
       "regeneration": 1,
-      "attack_damage_base": 21,
-      "attack_speed_base": 0.7
+      "scorch": 3,
+      "smite": 1,
+      "unbreaking": 11,
+      "attack_speed_base": 0.7,
+      "attack_damage_base": 23.5
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
@@ -111442,12 +111142,14 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "smite": 4,
-      "unbreaking": 12,
-      "fire_aspect": 5,
+      "fire_aspect": 4,
+      "inferno": 4,
       "regeneration": 1,
-      "attack_damage_base": 21,
-      "attack_speed_base": 0.7
+      "scorch": 3,
+      "smite": 2,
+      "unbreaking": 12,
+      "attack_speed_base": 0.7,
+      "attack_damage_base": 23.5
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
@@ -111467,12 +111169,14 @@
     "release_status": "public",
     "type": "Axe",
     "stats": {
-      "smite": 4,
-      "unbreaking": 14,
-      "fire_aspect": 5,
+      "fire_aspect": 4,
+      "inferno": 4,
       "regeneration": 1,
-      "attack_damage_base": 21.5,
-      "attack_speed_base": 0.7
+      "scorch": 4,
+      "smite": 2,
+      "unbreaking": 14,
+      "attack_speed_base": 0.7,
+      "attack_damage_base": 24
     },
     "lore": "Fiery spirits swarm through the\nhalls. There is no peace in this\nblood-soaked place."
   },
@@ -111754,7 +111458,6 @@
     "type": "Scythe",
     "stats": {
       "fire_aspect": 3,
-      "scorch": 2,
       "sweeping_edge": 2,
       "unbreaking": 4,
       "attack_damage_base": 5.5,
@@ -115452,10 +115155,10 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "regicide": 1,
       "material": 1,
       "melee_protection": 2,
       "mending": 1,
+      "technique": 1,
       "attack_speed_base": 1.6,
       "attack_damage_base": 6
     },
@@ -116818,6 +116521,24 @@
     "type": "Charm",
     "class_name": "Scout"
   },
+  "Focused Charm of Torrents": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Focused Charm of Torrents",
+    "power": 3,
+    "base_item": "String",
+    "release_status": "public",
+    "stats": {
+      "tempest's_call_damage_percent": {
+        "locked": false,
+        "value": 35
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Focused Stratagem Charm": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -116857,6 +116578,24 @@
     "stats": {},
     "lore": "C'Axtal bore witness to the secret\nKaul had been hiding from his people,\na god that had gone unknown to them.\nEnraged by the betrayal of his chosen\nSoulspeaker, to whom he had bestowed\nhis blessings, Kaul woke. Ta'Ferna\nwould burn for this sin."
   },
+  "Greater Charm of Torrents": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Greater Charm of Torrents",
+    "power": 2,
+    "base_item": "String",
+    "release_status": "public",
+    "stats": {
+      "tempest's_call_damage_percent": {
+        "locked": false,
+        "value": 20
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
+  },
   "Greater Stratagem Charm": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -116888,6 +116627,24 @@
     "type": "Misc",
     "stats": {},
     "lore": "* Quest Item *\n#Q24I04\nHolding this fills you with\nmemories of new beginnings."
+  },
+  "Lesser Charm of Torrents": {
+    "location": "Architect's Ring",
+    "locationId": "ring",
+    "region": "Ring",
+    "tier": "Base",
+    "name": "Lesser Charm of Torrents",
+    "power": 1,
+    "base_item": "String",
+    "release_status": "public",
+    "stats": {
+      "tempest's_call_damage_percent": {
+        "locked": false,
+        "value": 10
+      }
+    },
+    "type": "Charm",
+    "class_name": "Shaman"
   },
   "Lesser Stratagem Charm": {
     "location": "Architect's Ring",
@@ -120341,7 +120098,7 @@
     "type": "Trident",
     "stats": {
       "point_blank": 2,
-      "recoil": 2,
+      "recoil": 1,
       "regicide": 2,
       "unbreaking": 5,
       "projectile_speed_base": 0.8,
@@ -120369,7 +120126,7 @@
     "type": "Trident",
     "stats": {
       "point_blank": 2,
-      "recoil": 2,
+      "recoil": 1,
       "regicide": 3,
       "unbreaking": 6,
       "projectile_speed_base": 0.8,
@@ -120397,7 +120154,7 @@
     "type": "Trident",
     "stats": {
       "point_blank": 3,
-      "recoil": 2,
+      "recoil": 1,
       "regicide": 3,
       "unbreaking": 7,
       "projectile_speed_base": 0.8,
@@ -122205,15 +121962,19 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Totem of the Tombstone",
-    "power": 1,
+    "power": 2,
     "base_item": "Warped Fungus",
     "release_status": "public",
     "stats": {
-      "spiritualism_totem_damage_boost_percent": {
+      "attunement_damage_percent": {
         "locked": false,
-        "value": 15
+        "value": 7.5
       },
-      "spiritualism_base_healing_percent": {
+      "attunement_enhancement_damage_percent": {
+        "locked": false,
+        "value": 35
+      },
+      "attunement_enhancement_radius_percent": {
         "locked": false,
         "value": -25
       }
@@ -123076,13 +122837,17 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "decayed_totem_pulse_delay_percent": {
+      "earthen_tremor_enhancement_hinder_delay_percent": {
+        "locked": false,
+        "value": -50
+      },
+      "earthen_tremor_enhancement_slowness_amplifier_percent": {
+        "locked": false,
+        "value": 10
+      },
+      "earthen_tremor_enhancement_damage_percent": {
         "locked": false,
         "value": -25
-      },
-      "decayed_totem_slowness_amplifier_percent": {
-        "locked": false,
-        "value": -20
       }
     },
     "type": "Charm",
@@ -123186,21 +122951,25 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Shadow Mask",
-    "power": 1,
+    "power": 2,
     "base_item": "Wither Skeleton Skull",
     "release_status": "public",
     "stats": {
-      "interconnected_havoc_range_percent": {
+      "cumulonimbus_damage_percent": {
         "locked": false,
-        "value": 125
+        "value": 30
       },
-      "interconnected_havoc_damage_percent": {
+      "cumulonimbus_glide_speed_percent": {
         "locked": false,
-        "value": 5
+        "value": 30
       },
-      "interconnected_havoc_stun_duration_flat": {
+      "cumulonimbus_glide_duration_percent": {
         "locked": false,
-        "value": 0.5
+        "value": -50
+      },
+      "cumulonimbus_recoil_velocity_percent": {
+        "locked": false,
+        "value": -100
       }
     },
     "type": "Charm",
@@ -124326,6 +124095,7 @@
     "type": "Scythe",
     "stats": {
       "decay": 9,
+      "infection": 1,
       "inure": 1,
       "unbreaking": 35,
       "attack_speed_base": 2,
@@ -124351,6 +124121,7 @@
     "type": "Scythe",
     "stats": {
       "decay": 12,
+      "infection": 2,
       "inure": 1,
       "unbreaking": 35,
       "attack_speed_base": 2,
@@ -124376,6 +124147,7 @@
     "type": "Scythe",
     "stats": {
       "decay": 12,
+      "infection": 2,
       "inure": 1,
       "unbreaking": 35,
       "attack_speed_base": 2,
@@ -124402,6 +124174,7 @@
     "type": "Scythe",
     "stats": {
       "decay": 15,
+      "infection": 2,
       "inure": 1,
       "unbreaking": 40,
       "attack_speed_base": 2,
@@ -125121,47 +124894,31 @@
     "mmlore": [
       "Long gone are the ages of holy worship...",
       "for only vile magic and teachings remain",
-      "to marr the legacy of Silver."
+      "to mar the legacy of Silver."
     ],
     "region": "Ring",
     "tier": "Rare",
     "name": "Accursed Stake",
-    "power": 4,
+    "power": 3,
     "base_item": "Wooden Sword",
     "release_status": "public",
     "stats": {
-      "spiritualism_cooldown_refund_amplifier_percent": {
+      "totemic_projection_cooldown_percent": {
         "locked": false,
-        "value": 10
+        "value": -10
       },
-      "spiritualism_cooldown_refund_cap_flat": {
+      "totemic_projection_collision_damage_percent": {
         "locked": false,
-        "value": 1
+        "value": 125
       },
-      "lightning_totem_radius_percent": {
+      "totemic_projection_damage_percent": {
         "locked": false,
-        "value": -40
-      },
-      "flame_totem_radius_percent": {
-        "locked": false,
-        "value": -30
-      },
-      "cleansing_totem_radius_percent": {
-        "locked": false,
-        "value": -20
-      },
-      "whirlwind_totem_radius_percent": {
-        "locked": false,
-        "value": -20
-      },
-      "decayed_totem_radius_percent": {
-        "locked": false,
-        "value": -20
+        "value": -50
       }
     },
     "type": "Charm",
     "class_name": "Shaman",
-    "lore": "Long gone are the ages of holy worship...\nfor only vile magic and teachings remain\nto marr the legacy of Silver."
+    "lore": "Long gone are the ages of holy worship...\nfor only vile magic and teachings remain\nto mar the legacy of Silver."
   },
   "Angeltouched Blade": {
     "location": "Celsian Isles",
@@ -125764,14 +125521,14 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ailment_fragility": 3,
+      "ailment_fragility": 2,
       "curse_of_pestilence": 2,
-      "decay": 22,
+      "decay": 18,
+      "infection": 2,
       "mending": 1,
-      "sweeping_edge": 3,
       "unbreaking": 10,
       "attack_speed_base": 1.4,
-      "attack_damage_base": 17.5
+      "attack_damage_base": 16.5
     },
     "lore": "There is no discrimination in mold,\nmildew, and rot. They claim all eventually."
   },
@@ -125790,14 +125547,14 @@
     "release_status": "public",
     "type": "Mainhand Sword",
     "stats": {
-      "ailment_fragility": 3,
+      "ailment_fragility": 2,
       "curse_of_pestilence": 2,
-      "decay": 25,
+      "decay": 22,
+      "infection": 2,
       "mending": 1,
-      "sweeping_edge": 3,
       "unbreaking": 10,
-      "attack_damage_base": 18,
-      "attack_speed_base": 1.4
+      "attack_speed_base": 1.4,
+      "attack_damage_base": 17
     },
     "lore": "There is no discrimination in mold,\nmildew, and rot. They claim all eventually."
   },
