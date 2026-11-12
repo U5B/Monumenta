@@ -152,13 +152,13 @@
         "locked": false,
         "value": 3.5
       },
+      "cyclone_totem_drift_radius_flat": {
+        "locked": false,
+        "value": 12
+      },
       "cyclone_damage_percent": {
         "locked": false,
         "value": 15
-      },
-      "cyclone_cooldown_percent": {
-        "locked": false,
-        "value": -15
       },
       "cyclone_radius_percent": {
         "locked": false,
@@ -391,6 +391,23 @@
     },
     "type": "Charm",
     "class_name": "Mage"
+  },
+  "Refined Infusion Crystal": {
+    "location": "King's Valley",
+    "locationId": "valley",
+    "mmlore": [
+      "Worth 70 Levels",
+      "<gray>Can be used as a substitute for experience in infusions.",
+      "<gray>Usable for fourth level infusions only."
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Refined Infusion Crystal",
+    "base_item": "Amethyst Cluster",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Worth 70 Levels\nCan be used as a substitute for experience in infusions.\nUsable for fourth level infusions only."
   },
   "Stone of Dreams": {
     "location": "Quest Reward",
@@ -1496,6 +1513,23 @@
       "material": 1
     },
     "lore": "No need to ask how ordinary bamboo and two incredibly\nvaluable emeralds make the \"best\" bamboo in the world."
+  },
+  "Oil Crate": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "Straight from the oil rig.",
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Oil Crate",
+    "base_item": "Barrel",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Straight from the oil rig.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Potion Barrel": {
     "mmlore": [
@@ -10361,6 +10395,24 @@
     "stats": {},
     "lore": "Spinning V\nKing's Valley : Unique"
   },
+  "Flux Capacitor": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "It's... completely incomprehensible. What could",
+      "this device possibly even do?",
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Flux Capacitor",
+    "base_item": "Brewing Stand",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It's... completely incomprehensible. What could\nthis device possibly even do?\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Mycelian Serum": {
     "location": "The Godspore's Domain",
     "locationId": "godspore",
@@ -11557,6 +11609,22 @@
     },
     "type": "Charm",
     "class_name": "Warlock"
+  },
+  "Laboratory Key": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Laboratory Key",
+    "base_item": "Chain",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Lesser Charm of Binding": {
     "location": "Architect's Ring",
@@ -19605,28 +19673,6 @@
     "type": "Misc",
     "stats": {}
   },
-  "Explosive Charm of Shriveling": {
-    "location": "Architect's Ring",
-    "locationId": "ring",
-    "region": "Ring",
-    "tier": "Base",
-    "name": "Explosive Charm of Shriveling",
-    "power": 2,
-    "base_item": "Coal",
-    "release_status": "public",
-    "stats": {
-      "decayed_totem_damage_percent": {
-        "locked": false,
-        "value": 10
-      },
-      "decayed_totem_radius_percent": {
-        "locked": false,
-        "value": 20
-      }
-    },
-    "type": "Charm",
-    "class_name": "Shaman"
-  },
   "Faded Remnants": {
     "location": "Architect's Ring Fishing",
     "locationId": "fishing",
@@ -25636,6 +25682,23 @@
     "stats": {},
     "lore": "It shifts rapidly in your hands, echoing\nan age long since forgotten."
   },
+  "Mounting Frame": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "The immense weight takes you by surprise.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Mounting Frame",
+    "base_item": "Daylight Detector",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "The immense weight takes you by surprise.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Thunderous Plate": {
     "location": "Pelias' Keep",
     "locationId": "keep",
@@ -30483,7 +30546,7 @@
       },
       "cyclone_radius_percent": {
         "locked": false,
-        "value": 25
+        "value": 30
       }
     },
     "type": "Charm",
@@ -30572,7 +30635,7 @@
     "stats": {
       "cyclone_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 30
       }
     },
     "type": "Charm",
@@ -30630,7 +30693,7 @@
     "stats": {
       "cyclone_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 15
       }
     },
     "type": "Charm",
@@ -30702,7 +30765,7 @@
     "stats": {
       "cyclone_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -30758,9 +30821,9 @@
         "locked": false,
         "value": 15
       },
-      "cyclone_cooldown_percent": {
+      "cyclone_hit_delay_flat": {
         "locked": false,
-        "value": -10
+        "value": -0.1
       }
     },
     "type": "Charm",
@@ -31842,13 +31905,13 @@
     "base_item": "Fire Charge",
     "release_status": "public",
     "stats": {
-      "devastation_damage_percent": {
+      "sculptor's_maul_damage_per_stack_percent": {
         "locked": false,
-        "value": 15
+        "value": 10
       },
-      "devastation_radius_percent": {
+      "sculptor's_maul_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 25
       }
     },
     "type": "Charm",
@@ -31920,9 +31983,9 @@
     "base_item": "Fire Charge",
     "release_status": "public",
     "stats": {
-      "devastation_damage_percent": {
+      "sculptor's_maul_damage_per_stack_percent": {
         "locked": false,
-        "value": 35
+        "value": 20
       }
     },
     "type": "Charm",
@@ -31956,9 +32019,9 @@
     "base_item": "Fire Charge",
     "release_status": "public",
     "stats": {
-      "devastation_damage_percent": {
+      "sculptor's_maul_damage_per_stack_percent": {
         "locked": false,
-        "value": 20
+        "value": 10
       }
     },
     "type": "Charm",
@@ -32055,9 +32118,9 @@
     "base_item": "Fire Charge",
     "release_status": "public",
     "stats": {
-      "devastation_damage_percent": {
+      "sculptor's_maul_damage_per_stack_percent": {
         "locked": false,
-        "value": 10
+        "value": 5
       }
     },
     "type": "Charm",
@@ -35000,11 +35063,11 @@
     "stats": {
       "sculptor's_maul_debris_per_stack_flat": {
         "locked": false,
-        "value": 4
+        "value": 3
       },
       "sculptor's_maul_damage_per_stack_percent": {
         "locked": false,
-        "value": -35
+        "value": -40
       }
     },
     "type": "Charm",
@@ -35612,7 +35675,7 @@
         "locked": false,
         "value": 0.5
       },
-      "immolating_aura_enhancement_radius_percent": {
+      "immolating_aura_enhancement_range_percent": {
         "locked": false,
         "value": 45
       },
@@ -45675,6 +45738,23 @@
     },
     "lore": "In their most dire moments, often this\ncard would be played as a gambler's\nlast-ditch effort. What better assurance\nwas there that things couldn't get worse?"
   },
+  "Reflective Dish": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "A large aluminium dish.",
+      "<bold><yellow>Taking this item outside of the dungeon",
+      "<bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Reflective Dish",
+    "base_item": "Heavy Weighted Pressure Plate",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A large aluminium dish.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Snowberry Jam": {
     "location": "Sticks and Stones Tavern",
     "locationId": "casino3",
@@ -54163,6 +54243,14 @@
         "locked": false,
         "value": 20
       },
+      "mending_remedy_healing_percent": {
+        "locked": false,
+        "value": -30
+      },
+      "cyclone_mending_remedy_healing_percent": {
+        "locked": false,
+        "value": -30
+      },
       "mending_remedy_duration_percent": {
         "locked": false,
         "value": -50
@@ -58102,6 +58190,23 @@
     },
     "lore": "The researchers were always sad to see\na plant put down. Mostly because\neuthanasia required being a bit too\nclose for comfort."
   },
+  "Cooling Fan": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "A surefire way to prevent overheating.",
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Cooling Fan",
+    "base_item": "Iron Trapdoor",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "A surefire way to prevent overheating.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Invisible Item Frame": {
     "name": "Invisible Item Frame",
     "base_item": "Item Frame",
@@ -58885,6 +58990,23 @@
     },
     "type": "Charm",
     "class_name": "Cleric"
+  },
+  "Greater Infusion Crystal": {
+    "location": "King's Valley",
+    "locationId": "valley",
+    "mmlore": [
+      "Worth 60 Levels",
+      "<gray>Can be used as a substitute for experience in infusions.",
+      "<gray>Usable for third level infusions only."
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Greater Infusion Crystal",
+    "base_item": "Large Amethyst Bud",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Worth 60 Levels\nCan be used as a substitute for experience in infusions.\nUsable for third level infusions only."
   },
   "Greater Transcendent Charm": {
     "location": "Architect's Ring",
@@ -74521,6 +74643,23 @@
     "stats": {},
     "lore": "The needle reverberates with the pulse of\nthe earth, longing to guide your path.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon.\n* DG Key 2-3 *"
   },
+  "Radio Receiver": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "Perfect for extracting information from radio waves.",
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><dark_gray><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Radio Receiver",
+    "base_item": "Lightning Rod",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Perfect for extracting information from radio waves.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Starmetal Conductor": {
     "location": "Star Point",
     "locationId": "starpoint",
@@ -76142,6 +76281,23 @@
     "stats": {},
     "lore": "Quality Bonus (+20%)\nHypnotic glimmers of light almost\ncompel you to taste this glowing\npile of rocks."
   },
+  "Intermediate Infusion Crystal": {
+    "location": "King's Valley",
+    "locationId": "valley",
+    "mmlore": [
+      "Worth 50 Levels",
+      "<gray>Can be used as a substitute for experience in infusions.",
+      "<gray>Usable for second level infusions only."
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Intermediate Infusion Crystal",
+    "base_item": "Medium Amethyst Bud",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Worth 50 Levels\nCan be used as a substitute for experience in infusions.\nUsable for second level infusions only."
+  },
   "Pulsating Shard Fragment": {
     "location": "Architect's Ring",
     "locationId": "ring",
@@ -77075,7 +77231,7 @@
       },
       "combustion_chain_travel_speed_percent": {
         "locked": false,
-        "value": -65
+        "value": -50
       }
     },
     "type": "Charm",
@@ -79846,6 +80002,23 @@
       "attack_speed_base": 1.2
     }
   },
+  "Infrared Sensor": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "Looks like it's purposed for a security system.",
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Infrared Sensor",
+    "base_item": "Observer",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Looks like it's purposed for a security system.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Unstable Reactor": {
     "location": "P.O.R.T.A.L.",
     "locationId": "science",
@@ -79853,18 +80026,18 @@
       "Nonlinearities exceeding critical values.",
       "Voltage approaching dielectric breakdown.",
       "Excellent. This is going to hurt.",
-      "<gray>Thunderstorm now requires four stacks."
+      "<gray>Thunderstorm now requires two stacks."
     ],
     "region": "Ring",
     "tier": "Epic",
     "name": "Unstable Reactor",
-    "power": 3,
+    "power": 5,
     "base_item": "Observer",
     "release_status": "public",
     "stats": {
       "thunderstorm_bolt_damage_percent": {
         "locked": false,
-        "value": 300
+        "value": 250
       },
       "thunderstorm_bolt_radius_percent": {
         "locked": false,
@@ -79884,12 +80057,12 @@
       },
       "thunderstorm_cast_requirement_flat": {
         "locked": false,
-        "value": 3
+        "value": 1
       }
     },
     "type": "Charm",
     "class_name": "Shaman",
-    "lore": "Nonlinearities exceeding critical values.\nVoltage approaching dielectric breakdown.\nExcellent. This is going to hurt.\nThunderstorm now requires four stacks."
+    "lore": "Nonlinearities exceeding critical values.\nVoltage approaching dielectric breakdown.\nExcellent. This is going to hurt.\nThunderstorm now requires two stacks."
   },
   "Broken Beyond": {
     "location": "The Black Mist",
@@ -82819,6 +82992,24 @@
     "type": "Misc",
     "stats": {},
     "lore": "Artist Plushie #5\nEverything we've been through - you are not alone now\nthat you've found me, Mystori. Our story is to be continued.\nSpecial Artist Plushie - Collect Them All!"
+  },
+  "Copper Mask": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "It seems to be of a special model. Certainly",
+      "doesn't look like any other citizen you've seen.",
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Copper Mask",
+    "base_item": "Player Head",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "It seems to be of a special model. Certainly\ndoesn't look like any other citizen you've seen.\nTaking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Corrupted Cog": {
     "location": "Verdant Remnants",
@@ -86626,27 +86817,23 @@
     "type": "Charm",
     "class_name": "Shaman"
   },
-  "Swift Charm of Tremors": {
+  "Sedated Charm of Tremors": {
     "location": "Architect's Ring",
     "locationId": "ring",
     "region": "Ring",
     "tier": "Base",
-    "name": "Swift Charm of Tremors",
+    "name": "Sedated Charm of Tremors",
     "power": 3,
     "base_item": "Podzol",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_damage_percent": {
+      "earthen_tremor_spike_damage_percent": {
         "locked": false,
         "value": 20
       },
-      "earthen_tremor_totem_landing_damage_percent": {
+      "earthen_tremor_slowness_amplifier_percent": {
         "locked": false,
-        "value": 20
-      },
-      "earthen_tremor_cooldown_percent": {
-        "locked": false,
-        "value": -10
+        "value": 15
       }
     },
     "type": "Charm",
@@ -95783,21 +95970,17 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Six-Pronged Sea Stone",
-    "power": 4,
+    "power": 2,
     "base_item": "Quartz",
     "release_status": "public",
     "stats": {
       "tempest's_call_cooldown_reduction_flat": {
         "locked": false,
-        "value": 2
+        "value": 0.5
       },
-      "tempest's_call_charges_flat": {
+      "tempest's_call_damage_percent": {
         "locked": false,
-        "value": -1
-      },
-      "tempest's_call_cooldown_percent": {
-        "locked": false,
-        "value": 50
+        "value": -10
       }
     },
     "type": "Charm",
@@ -95919,6 +96102,22 @@
     "type": "Misc",
     "stats": {},
     "lore": "Someone has to clean up Bermuda's mess,\nand there's no better someone than you.\nProgress in Scientists of Steelmeld III is required and\n1⭐ Masterwork gear is recommended for this Strike!\nThis Strike requires the collection of\nS.O.U.L.S. to progress to the final boss.\nPlayers: 1-4 (One life per player)\nGrants access to the P.O.R.T.A.L. Strike."
+  },
+  "Parabolic Antenna": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Parabolic Antenna",
+    "base_item": "Quartz Stairs",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
   },
   "Zombie Meat": {
     "location": "King's Valley",
@@ -97121,19 +97320,15 @@
     "stats": {
       "rupture_base_weapon_percent_damage_percent": {
         "locked": false,
-        "value": 120
+        "value": 150
       },
       "rupture_weapon_percent_damage_per_absorption_percent": {
         "locked": false,
-        "value": 60
+        "value": 70
       },
       "rupture_radius_flat": {
         "locked": false,
-        "value": 2
-      },
-      "mountain's_soul_cooldown_percent": {
-        "locked": false,
-        "value": 50
+        "value": 3
       }
     },
     "type": "Charm",
@@ -97253,9 +97448,9 @@
         "locked": false,
         "value": 30
       },
-      "cumulonimbus_cooldown_percent": {
+      "cumulonimbus_glide_duration_flat": {
         "locked": false,
-        "value": -15
+        "value": 1
       },
       "cumulonimbus_stagger_duration_flat": {
         "locked": false,
@@ -97875,6 +98070,28 @@
     "type": "Misc",
     "stats": {},
     "lore": "Can be sold or transmogrified\nlike any other rare item.\nCan be put into a wallet."
+  },
+  "Aethertech Weaponry": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "Great mechanical suits were built to be piloted",
+      "by inhabitants of the Utopia as part of the",
+      "expansion plan. With the strength of a thousand",
+      "legions, true perfection is at hand.",
+      "<gray>Purchase of this item will grant you a full set of",
+      "<gray>cosmetic skills for Scout and its specializations.",
+      "<red>Many cosmetic skills in this set use textures",
+      "<red>from the Monumenta Resource Pack! <dark_gray>(v6.1.0+)"
+    ],
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Aethertech Weaponry",
+    "base_item": "Redstone Lamp",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Great mechanical suits were built to be piloted\nby inhabitants of the Utopia as part of the\nexpansion plan. With the strength of a thousand\nlegions, true perfection is at hand.\nPurchase of this item will grant you a full set of\ncosmetic skills for Scout and its specializations.\nMany cosmetic skills in this set use textures\nfrom the Monumenta Resource Pack! (v6.1.0+)"
   },
   "Magic Tlaxan Scented Candle": {
     "mmlore": [
@@ -103639,6 +103856,23 @@
     "type": "Misc",
     "stats": {},
     "lore": "* Quest Item *\n#Q107I01\nIt smells distinctly of sea water."
+  },
+  "Lesser Infusion Crystal": {
+    "location": "King's Valley",
+    "locationId": "valley",
+    "mmlore": [
+      "Worth 40 Levels",
+      "<gray>Can be used as a substitute for experience in infusions.",
+      "<gray>Usable for first level infusions only."
+    ],
+    "region": "Valley",
+    "tier": "Currency",
+    "name": "Lesser Infusion Crystal",
+    "base_item": "Small Amethyst Bud",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Worth 40 Levels\nCan be used as a substitute for experience in infusions.\nUsable for first level infusions only."
   },
   "Shimmering Amethyst": {
     "mmlore": [
@@ -110145,6 +110379,19 @@
       "attack_speed_base": 0.8
     }
   },
+  "Basic Stone Axe": {
+    "location": "Arena of Terth",
+    "locationId": "light",
+    "region": "Valley",
+    "name": "Basic Stone Axe",
+    "base_item": "Stone Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 9
+    }
+  },
   "Battle Axe": {
     "location": "King's Valley",
     "locationId": "valley",
@@ -113392,6 +113639,19 @@
     },
     "lore": "After war, vultures come to feast on\nthe broken land, whether they be winged,\nor carrying knife and sword."
   },
+  "Basic Stone Sword": {
+    "location": "Arena of Terth",
+    "locationId": "light",
+    "region": "Valley",
+    "name": "Basic Stone Sword",
+    "base_item": "Stone Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "attack_damage_base": 6,
+      "attack_speed_base": 1.6
+    }
+  },
   "Biding Sabre": {
     "location": "Celsian Isles",
     "locationId": "isles",
@@ -116533,7 +116793,7 @@
     "stats": {
       "tempest's_call_damage_percent": {
         "locked": false,
-        "value": 35
+        "value": 30
       }
     },
     "type": "Charm",
@@ -116590,7 +116850,7 @@
     "stats": {
       "tempest's_call_damage_percent": {
         "locked": false,
-        "value": 20
+        "value": 15
       }
     },
     "type": "Charm",
@@ -116640,7 +116900,7 @@
     "stats": {
       "tempest's_call_damage_percent": {
         "locked": false,
-        "value": 10
+        "value": 7.5
       }
     },
     "type": "Charm",
@@ -121156,6 +121416,22 @@
     "stats": {},
     "lore": "* Quest Item *\n#Q05I01"
   },
+  "Storage Reserve Key": {
+    "location": "Cradle of the Broken God",
+    "locationId": "brown",
+    "mmlore": [
+      "<!italic><bold><yellow>Taking this item outside of the dungeon",
+      "<!italic><bold><yellow>will instead drop it in the dungeon."
+    ],
+    "region": "Ring",
+    "tier": "Key",
+    "name": "Storage Reserve Key",
+    "base_item": "Tripwire Hook",
+    "release_status": "public",
+    "type": "Misc",
+    "stats": {},
+    "lore": "Taking this item outside of the dungeon\nwill instead drop it in the dungeon."
+  },
   "Arcane Fish": {
     "location": "Celsian Isles Overworld",
     "locationId": "overworld2",
@@ -123603,6 +123879,19 @@
     "stats": {},
     "lore": "A little dog in need of love."
   },
+  "Basic Wooden Axe": {
+    "location": "Arena of Terth",
+    "locationId": "light",
+    "region": "Valley",
+    "name": "Basic Wooden Axe",
+    "base_item": "Wooden Axe",
+    "release_status": "public",
+    "type": "Axe",
+    "stats": {
+      "attack_speed_base": 0.8,
+      "attack_damage_base": 7
+    }
+  },
   "C'Axtal's Crusher": {
     "location": "Malevolent Reverie",
     "locationId": "reverie",
@@ -124899,13 +125188,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Accursed Stake",
-    "power": 3,
+    "power": 2,
     "base_item": "Wooden Sword",
     "release_status": "public",
     "stats": {
       "totemic_projection_cooldown_percent": {
         "locked": false,
-        "value": -10
+        "value": -20
       },
       "totemic_projection_collision_damage_percent": {
         "locked": false,
@@ -124969,6 +125258,19 @@
       "attack_damage_percent": 8
     },
     "lore": "The maker of the dagger left a message\nengraved on the hilt: \"Carry your stories\nin your hands. For what is an item without\nlore text?\""
+  },
+  "Basic Wooden Sword": {
+    "location": "Arena of Terth",
+    "locationId": "light",
+    "region": "Valley",
+    "name": "Basic Wooden Sword",
+    "base_item": "Wooden Sword",
+    "release_status": "public",
+    "type": "Mainhand Sword",
+    "stats": {
+      "attack_damage_base": 4,
+      "attack_speed_base": 1.6
+    }
   },
   "Blackroot Branch": {
     "location": "Seasonal Pass",
