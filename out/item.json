@@ -3105,6 +3105,10 @@
       "earthen_tremor_resistance_amplifier_percent": {
         "locked": false,
         "value": -10
+      },
+      "earthen_tremor_enhancement_damage_multiplier_percent": {
+        "locked": false,
+        "value": -10
       }
     },
     "type": "Charm",
@@ -10858,17 +10862,13 @@
     "region": "Ring",
     "tier": "Rare",
     "name": "Mist of Dawn",
-    "power": 2,
+    "power": 1,
     "base_item": "Bubble Coral",
     "release_status": "public",
     "stats": {
-      "cyclone_duration_increment_flat": {
-        "locked": false,
-        "value": 1
-      },
       "cyclone_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 25
       },
       "cyclone_hit_delay_flat": {
         "locked": false,
@@ -19787,7 +19787,7 @@
     "stats": {
       "mending_remedy_healing_percent": {
         "locked": false,
-        "value": 50
+        "value": 30
       },
       "mending_remedy_duration_flat": {
         "locked": false,
@@ -30536,7 +30536,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Explosive Maelstrom Charm",
-    "power": 2,
+    "power": 3,
     "base_item": "Ender Eye",
     "release_status": "public",
     "stats": {
@@ -30813,7 +30813,7 @@
     "region": "Ring",
     "tier": "Base",
     "name": "Swift Maelstrom Charm",
-    "power": 2,
+    "power": 3,
     "base_item": "Ender Eye",
     "release_status": "public",
     "stats": {
@@ -35068,6 +35068,10 @@
       "sculptor's_maul_damage_per_stack_percent": {
         "locked": false,
         "value": -40
+      },
+      "sculptor's_maul_debris_damage_percent": {
+        "locked": false,
+        "value": -10
       }
     },
     "type": "Charm",
@@ -63306,7 +63310,7 @@
     "type": "Chestplate",
     "stats": {
       "melee_protection": 2,
-      "unbreaking": 4,
+      "unbreaking": 6,
       "armor": 4
     },
     "lore": "What do they ever do besides\nhanging out?"
@@ -77223,11 +77227,11 @@
     "stats": {
       "combustion_chain_explosion_damage_percent": {
         "locked": false,
-        "value": 50
+        "value": 20
       },
       "combustion_chain_explosion_radius_percent": {
         "locked": false,
-        "value": 30
+        "value": 20
       },
       "combustion_chain_travel_speed_percent": {
         "locked": false,
@@ -79608,6 +79612,37 @@
     "type": "Misc",
     "stats": {},
     "lore": "A fragment of a truly evil presence. Perhaps\nit could be used to craft something?"
+  },
+  "Alcyoneus-6": {
+    "location": "Phyrrys, City of Fallen Stars",
+    "locationId": "indigo",
+    "masterwork": "6",
+    "mmlore": [
+      "<dark_gray>Once Phyrrys was Inverted, those still within",
+      "<dark_gray>were changed. Their cores went dark.",
+      "<dark_gray>Energy was pulled in, slowly at first, but soon",
+      "<dark_gray>they became a deep tear in space. Hundreds",
+      "<dark_gray>of tiny black holes, begging to collapse.",
+      "<dark_gray>Phyrrys' secrets must remain sealed."
+    ],
+    "region": "Ring",
+    "tier": "Epic",
+    "name": "Alcyoneus",
+    "base_item": "Netherite Shovel",
+    "release_status": "public",
+    "type": "Wand",
+    "stats": {
+      "ice_aspect": 3,
+      "ineptitude": 6,
+      "knockback": 1,
+      "regicide": 3,
+      "unbreakable": 1,
+      "attack_speed_base": 1,
+      "knockback_resistance_flat": 6,
+      "spell_power_base": 140,
+      "attack_damage_base": 22
+    },
+    "lore": "Once Phyrrys was Inverted, those still within\nwere changed. Their cores went dark.\nEnergy was pulled in, slowly at first, but soon\nthey became a deep tear in space. Hundreds\nof tiny black holes, begging to collapse.\nPhyrrys' secrets must remain sealed."
   },
   "Ataraxian Echo": {
     "location": "Aurora's Endgame",
@@ -94836,15 +94871,15 @@
     "stats": {
       "immolating_aura_damage_boost_percent": {
         "locked": false,
-        "value": 7.5
+        "value": 5
       },
       "earthen_tremor_resistance_amplifier_percent": {
         "locked": false,
-        "value": 7.5
+        "value": 5
       },
       "mending_remedy_cooldown_recharge_amplifier_percent": {
         "locked": false,
-        "value": 7.5
+        "value": 5
       }
     },
     "type": "Charm",
@@ -123113,17 +123148,13 @@
     "base_item": "Wither Rose",
     "release_status": "public",
     "stats": {
-      "earthen_tremor_enhancement_hinder_delay_percent": {
+      "earthen_tremor_enhancement_damage_multiplier_percent": {
         "locked": false,
-        "value": -50
+        "value": 5
       },
-      "earthen_tremor_enhancement_slowness_amplifier_percent": {
+      "earthen_tremor_slowness_amplifier_percent": {
         "locked": false,
-        "value": 10
-      },
-      "earthen_tremor_enhancement_damage_percent": {
-        "locked": false,
-        "value": -25
+        "value": 30
       }
     },
     "type": "Charm",
